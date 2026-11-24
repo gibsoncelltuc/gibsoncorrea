@@ -1,13 +1,7 @@
 {
  "id": "danca1518",
  "ano": 1518,
- "cenarios_trocados": [
-  [
-   "cena 9",
-   "mountain",
-   "loc_montanha"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -32,7 +26,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "medieval"
   },
   {
    "camera": "reveal",
@@ -44,14 +38,14 @@
    "objetos": [
     "kit/marco_viena"
    ],
-   "palavras": 17,
+   "palavras": 18,
    "cena": "b1",
-   "frase": "Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e continuou no dia seguinte.",
+   "frase": "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "medieval"
   },
   {
    "camera": "group",
@@ -63,14 +57,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 13,
    "cena": "b2",
-   "frase": "Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê.",
+   "frase": "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "crowd",
@@ -85,7 +79,7 @@
    ],
    "palavras": 14,
    "cena": "b3",
-   "frase": "Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar.",
+   "frase": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -106,9 +100,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 16,
    "cena": "b4",
-   "frase": "O prefeito chamou os médicos. \"É sangue quente\", disseram eles. \"O remédio é dançar mais.\"",
+   "frase": "O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -116,19 +110,19 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "low",
+   "camera": "group",
    "personagens": [
     "MUS",
     "MUS"
    ],
-   "multidao": 30,
+   "multidao": 6,
    "objetos": [
     "buildings/house_two",
     "nature/lamppost"
    ],
-   "palavras": 18,
+   "palavras": 13,
    "cena": "b5",
-   "frase": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "frase": "A cidade reformou salões e contratou músicos para manter os dançarinos de pé.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -141,13 +135,13 @@
     "POV",
     "POV"
    ],
-   "multidao": 18,
+   "multidao": 30,
    "objetos": [
     "kit/marco_viena"
    ],
-   "palavras": 17,
+   "palavras": 22,
    "cena": "b6",
-   "frase": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão.",
+   "frase": "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -158,7 +152,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "medieval"
   },
   {
    "camera": "two",
@@ -170,12 +164,12 @@
    "objetos": [],
    "palavras": 15,
    "cena": "b7",
-   "frase": "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade.",
+   "frase": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "medieval"
   },
   {
    "camera": "track",
@@ -186,14 +180,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 22,
    "cena": "b8",
-   "frase": "No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou.",
+   "frase": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",
@@ -202,17 +196,17 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 14,
    "cena": "b9",
-   "frase": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
+   "frase": "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "PRE"
    ],
@@ -225,7 +219,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   }
  ]
 }

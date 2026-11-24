@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/danca1518/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py danca1518` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): TRO (variante 0, expressao laugh); POV (variante 1, expressao shock)
@@ -12,99 +12,99 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dancar, mulher
 - RISCOS: nenhum
 
-## Cena b1 - Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e...
-- Cenario: street | luz: dia | clima: limpo
+## Cena b1 - Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por ...
+- Cenario: medieval | luz: dia | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TRO (variante 0, expressao pained); POV (variante 0, expressao nervous) | multidao: 8 de POV
 - Animacao: dancar
 - Objetos/modelos: kit/marco_viena
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): semana
 - RISCOS: nenhum
 
-## Cena b2 - Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ningu...
-- Cenario: interior madeira | luz: day | clima: limpo
+## Cena b2 - Em poucos dias, mais de trinta pessoas dançavam também, incluindo o ma...
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (4): TRO (variante 0, expressao pained); POV (variante 1, expressao laugh); POV (variante 2, expressao grin); POV (variante 3, expressao pained)
 - Animacao: dancar | interacao: aproxima-se
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): semana, trinta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido, trinta
 - RISCOS: nenhum
 
-## Cena b3 - Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorr...
+## Cena b3 - Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sa...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao pained); TRO (variante 0, expressao pained) | multidao: 18 de POV/TRO
-- Animacao: encena | batalha encenada
+- Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao pained); TRO (variante 0, expressao pained) | multidao: 12 de POV/TRO
+- Animacao: dancar | batalha encenada
 - Objetos/modelos: kit/marco_viena
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, quatrocentas
 - RISCOS: nenhum
 
-## Cena b4 - O prefeito chamou os médicos. "É sangue quente", disseram eles. "O rem...
+## Cena b4 - O conselho da cidade chamou os médicos, que culparam o sangue quente e...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PRE (variante 0, expressao stern); MED (variante 0, expressao nervous, segura book)
 - Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medicos, prefeito, remedio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, conselho, medicos, sangue
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que a cidade levou isso a sério. Montou um palco, e contratou...
+## Cena b5 - A cidade reformou salões e contratou músicos para manter os dançarinos...
 - Cenario: hall | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 30 de POV
-- Animacao: conversar | interacao: discutir
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 6 de POV
+- Animacao: dancar | interacao: discutir
 - Objetos/modelos: buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, palco, serio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dancarinos
 - RISCOS: nenhum
 
-## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b6 - Deu errado: mais gente entrou na dança, com medo de um castigo de São ...
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): POV (variante 2, expressao pained); POV (variante 3, expressao pained) | multidao: 18 de POV/MUS
+- Personagens principais (2): POV (variante 2, expressao pained); POV (variante 3, expressao pained) | multidao: 30 de POV/MUS
 - Animacao: dancar | batalha encenada
 - Objetos/modelos: kit/marco_viena
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): danca, exaustao, musica, pior
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, conselho, danca, medo
 - RISCOS: nenhum
 
-## Cena b7 - As crônicas da época falam em mortes, mas os historiadores discutem qu...
-- Cenario: interior loja | luz: day | clima: limpo
+## Cena b7 - Alguns dizem que morriam quinze por dia, mas os documentos da época nã...
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock)
 - Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cronicas, epoca, historiadores
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): documentos, epoca
 - RISCOS: nenhum
 
-## Cena b8 - No fim, os dançarinos foram levados para um santuário nas montanhas, e...
-- Cenario: loc_montanha | luz: day | clima: limpo
+## Cena b8 - No fim, os dançarinos foram levados a uma capela no alto de um monte, ...
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao nervous); TRO (variante 0, expressao pained)
 - Animacao: dancar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): danca, dancarinos, montanhas, santuario
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, capela, danca, dancarinos, monte, sapatos
 - RISCOS: nenhum
 
-## Cena b9 - Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.
-- Cenario: street | luz: day | clima: limpo
+## Cena b9 - Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que...
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): MED (variante 0, expressao nervous)
 - Animacao: reagir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): histeria
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PRE (variante 0, expressao grin)
 - Animacao: conversar
@@ -123,13 +123,11 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 19% | medio 66% | aberto 13% | detalhe 3%
+- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 67% | aberto 13% | detalhe 0%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
-- RISCOS GERAIS: 
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh danca1518 bN bM` (so essas cenas).

@@ -40,7 +40,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
+  "buildings/house_small",
   "kit/brass_nose",
   "kit/lupa",
   "kit/marco_rostock",
@@ -57,7 +57,7 @@
   "mk/Chest_Wood",
   "mk/Nightstand_Shelf",
   "mk/Table_Large",
-  "nature/lamppost"
+  "tools/lantern"
  ],
  "pesquisa_visual": {},
  "fontes": [],
