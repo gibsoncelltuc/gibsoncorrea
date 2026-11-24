@@ -85,7 +85,7 @@
     "POV:0:smile"
    ],
    "acao": "conversar",
-   "say": "Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete anos, prometendo acabar com a violência das gangues.",
+   "say": "Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a violência das gangues.",
    "fx": [
     "stars@40"
    ],
@@ -110,7 +110,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "A Constituição proibia a reeleição seguida. Mas, em dois mil e vinte e um, a Suprema Corte mudou a interpretação, e liberou."
+   "say": "A Constituição proibia a reeleição seguida, mas em dois mil e vinte e um a Suprema Corte mudou a interpretação."
   },
   {
    "shot": "two",
@@ -203,7 +203,7 @@
    ],
    "text": "84,6%",
    "titulo": true,
-   "say": "Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão.",
+   "say": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
    "light": "night",
    "set": "palace",
    "impact": false
@@ -215,9 +215,21 @@
     "BUK:0:smug"
    ],
    "acao": "conversar",
-   "say": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.",
-   "interior": false,
-   "objetos": false
+   "say": "Os eleitores citaram os assassinatos: de cento e seis para dois vírgula quatro por cem mil habitantes.",
+   "hud": {
+    "comparar": [
+     [
+      "2015",
+      106.3,
+      ""
+     ],
+     [
+      "2023",
+      2.4,
+      ""
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
@@ -255,7 +267,9 @@
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election",
-  "https://www.idea.int/democracytracker/report/el-salvador/february-2024"
+  "https://www.idea.int/democracytracker/report/el-salvador/february-2024",
+  "https://en.wikipedia.org/wiki/Crime_in_El_Salvador",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/"
  ],
  "visual": {
   "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",

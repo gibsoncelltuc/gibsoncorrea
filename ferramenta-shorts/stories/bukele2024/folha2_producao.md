@@ -22,17 +22,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, dois, presidente
 - RISCOS: nenhum
 
-## Cena b2 - Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete a...
+## Cena b2 - Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a vi...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, trinta, violencia
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, violencia
 - RISCOS: nenhum
 
-## Cena b3 - A Constituição proibia a reeleição seguida. Mas, em dois mil e vinte e...
+## Cena b3 - A Constituição proibia a reeleição seguida, mas em dois mil e vinte e ...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
@@ -72,33 +72,33 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): resultado, votos
 - RISCOS: nenhum
 
-## Cena b7 - Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de um...
+## Cena b7 - Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
 - Cenario: palace | luz: night | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh); POV (variante 1, expressao shout) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/ballot_box, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores, multidao, ruas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores, ruas
 - RISCOS: nenhum
 
-## Cena b8 - O motivo mais citado pelos eleitores: a queda enorme no número de assa...
+## Cena b8 - Os eleitores citaram os assassinatos: de cento e seis para dois vírgul...
 - Cenario: interior galpao | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, motivo, numero, queda
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, cento, eleitores
 - RISCOS: nenhum
 
 ## Cena b9 - Organizações de direitos humanos, porém, criticaram as prisões em mass...
-- Cenario: interior galpao | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried)
 - Animacao: discutir | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos, estado, excecao, prisoes
 - RISCOS: nenhum
 
@@ -135,7 +135,7 @@ kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 24% | medio 59% | aberto 12% | detalhe 5%
+- Objeto heroi: kit/ballot_box | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 25% | medio 58% | aberto 12% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b5 entregar, b8 vai ate o outro, b9 empurrar
 - RISCOS GERAIS: nenhum
 

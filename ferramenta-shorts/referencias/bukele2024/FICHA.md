@@ -21,3 +21,5 @@
 ## Fontes da historia
 - https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election
 - https://www.idea.int/democracytracker/report/el-salvador/february-2024
+- https://en.wikipedia.org/wiki/Crime_in_El_Salvador
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/

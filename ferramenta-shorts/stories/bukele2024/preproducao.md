@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/ballot_box, kit/volcano | paper | -
 b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
-b2 | palace | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | - | - | -
+b2 | loc_cidade | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | - | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
 b4 | hall | crowd | 14 | reagir, batalha | - | paper | -
 b5 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box | - | -
 b6 | interior loja | close | 1 | reagir | - | paper | -
-b7 | palace | crowd | 33 | comemorar, batalha | kit/ballot_box, kit/volcano | - | -
+b7 | palace | orbit | 33 | comemorar, batalha | kit/ballot_box, kit/volcano | - | -
 b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
-b9 | interior galpao | group | 2 | discutir, INTERAGEM: empurrar | - | - | -
+b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/prison | - | -
 b10 | loc_pista | close | 1 | comemorar | kit/ballot_box, kit/globe | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
