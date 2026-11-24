@@ -29,6 +29,10 @@ for k, b in enumerate(BT):
     if b.get('batalha') and 'R3' not in ok:
         for cor, xs in lados.items():
             if len(xs) >= 2 and cor: erros.append(f'R3 b{k}: {", ".join(xs)} se enfrentam com a mesma farda ({cor}): de a cada lado uma cor')
+    # R3b: frase de DOIS LADOS ("marinheiros dos dois lados se encararam") com todo mundo do MESMO figurino = a tela mostra um lado so' (Lagosta b6)
+    _w = [str(x).split(':')[0] for x in (b.get('who') or [])]
+    if 'R3' not in ok and len(_w) >= 2 and len(set(_w)) == 1 and re.search(r'dois lados|de cada lado|um contra o outro|se encararam|se enfrentaram|frente a frente|cara a cara|os dois paises|ambos os lados', n(b.get('say', ''))):
+        erros.append(f'R3 b{k}: a frase fala dos DOIS LADOS mas todos estao com o mesmo figurino ({_w[0]}): ponha um personagem de cada lado, cada um com sua farda')
 # R5: farda FINAL (depois da farda automatica da epoca, lida do spec.js): dois exercitos diferentes na mesma cena com a mesma cor (Uisque: canadenses e dinamarqueses camuflados iguais)
 import os
 if os.path.exists(f'stories/{i}/spec.js') and 'R5' not in ok:
