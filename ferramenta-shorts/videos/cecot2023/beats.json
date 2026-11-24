@@ -146,21 +146,12 @@
   {
    "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
    "explica": {
-    "objeto": "kit/prison_mini",
+    "objeto": "kit/prison",
     "manobra": "gira",
-    "rotulos": [
-     [
-      "MURALHAS",
-      "topo",
-      "Muralhas",
-      1
-     ],
-     [
-      "TORRES",
-      "frente",
-      "torres",
-      1
-     ]
+    "passos": [
+     "MURALHAS",
+     "CERCAS ELETRICAS",
+     "TORRES DE VIGIA"
     ]
    }
   },
