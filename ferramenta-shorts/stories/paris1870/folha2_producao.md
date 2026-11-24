@@ -64,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de...
 - Cenario: interior loja | luz: day | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: prop = -
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
 - Animacao: conversar | interacao: o outro se aproxima

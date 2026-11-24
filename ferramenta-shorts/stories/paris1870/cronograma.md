@@ -12,7 +12,7 @@ b2 | simples | street | two | PAR, PAR | - | - | - | Primeiro, os parisienses co
 b3 | simples | street | group | PAR, CHF | - | barrel, panela | - | Depois, os roedores, que viraram um prato chique.
 b4 | chave | arctic | crowd | PAR, PAR | 6 | house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Quando acabou tudo, olharam para o zoológico da cidade.
 b5 | simples | arctic | two | BUT, PAR | - | - | - | O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne 
-b6 | simples | interior loja | two | CHF, PAR | - | panela | - | No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de
+b6 | simples | interior loja | prop | CHF, PAR | - | panela | - | No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de
 b7 | simples | arctic | group | PAR, PAR | - | balloon, balloon_air | - | Para mandar notícias, os parisienses usavam balões e pombos-correio.
 b8 | chave | arctic | crowd | PAR, PAR | 18 | house_two, balloon, balloon_air, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um ministro chegou a fugir da cidade num balão, por cima das tropas in
 b9 | simples | arctic | two | PAR, PAR | - | - | - | O cerco durou mais de quatro meses, em pleno inverno.
@@ -28,7 +28,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh paris1870
