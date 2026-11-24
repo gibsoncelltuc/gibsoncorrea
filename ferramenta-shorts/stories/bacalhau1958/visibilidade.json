@@ -1,8 +1,6 @@
 {
  "id": "bacalhau1958",
- "falhas": [
-  "b6: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
- ],
+ "falhas": [],
  "tomadas": [
   {
    "id": "b0",
@@ -450,9 +448,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.7312252964426877,
+       "vis": 0.7567567567567568,
+       "area": 0.5450346866264337
       }
      ],
      "bloq": null,
@@ -464,9 +462,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.7233201581027668,
+       "vis": 0.8142076502732241,
+       "area": 0.6179141974234428
       }
      ],
      "bloq": null,
@@ -478,9 +476,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.7114624505928854,
+       "vis": 0.6222222222222222,
+       "area": 0.6972756685744909
       }
      ],
      "bloq": null,

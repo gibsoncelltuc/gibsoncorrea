@@ -6,7 +6,7 @@ b2: OK - a Islandia vivia da pesca e barcos ingleses pescavam bacalhau: guarda e
 b3: OK - ela ampliou os limites do mar doze cinquenta e duzentas milhas: destroier no mar e guarda islandes falando, com texto de milhas.
 b4: OK - a marinha mandou fragatas para proteger os barcos de pesca: destroier grande de perto no mar com barco pequeno abaixo, sem personagem.
 b5: OK - a Islandia so tinha barquinhos da guarda costeira mas tinham cortadores de rede: guarda islandes sorrindo com o farol atras e cortadores de rede no texto.
-b6: OK - eles cortavam os cabos das redes e os navios batiam um no outro: dois destroieres no mar com barco pequeno e farol, enquadramento aberto.
+b6: CORRIGIDO - eles cortavam os cabos das redes e os navios batiam um no outro: telhado vermelho enchia a tela e os navios nao se tocavam -> enquadramento travado com dois destroieres encostados lado a lado no mar, casco vermelho a mostra.
 b7: OK - a Islandia ameacou fechar a base da Otan: guarda e marinheiro britanico diante da placa OTAN e depois mapa da Inglaterra.
 b8: OK - em 1976 a Inglaterra cedeu e a zona de duzentas milhas se espalhou: marinheiro britanico e islandes sorrindo com o texto VITORIA ISLANDESA.
 b9: OK - uma guerra inteira por causa de um bacalhau: pescador de capa amarela com bacalhau grande e depois a chamada COMENTE com o guarda carregando o peixe.
