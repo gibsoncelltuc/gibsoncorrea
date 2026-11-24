@@ -212,7 +212,7 @@
    "detalhe": true
   },
   {
-   "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
+   "say": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
    "shot": "wide",
    "who": [
     "PAR:0:smile",
@@ -222,31 +222,21 @@
    "tat": 6,
    "tstyle": "blue",
    "mood": "calm",
-   "clima": "neve",
-   "props": [
-    [
-     "kit/balloon_air",
-     2.6,
-     -6.0,
-     1.2
-    ]
-   ]
+   "clima": "neve"
   },
   {
-   "say": "Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas.",
+   "say": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
    "shot": "wide",
-   "props": [
-    [
-     "kit/balloon_air",
-     0,
-     -6,
-     1.3
-    ]
-   ],
    "who": [
     "PAR:0:surprised",
     "PAR:1:shock"
-   ]
+   ],
+   "props": [],
+   "crowd": {
+    "n": 10,
+    "march": false,
+    "expr": "sad"
+   }
   },
   {
    "say": "O cerco durou mais de quatro meses, em pleno inverno.",
@@ -259,7 +249,21 @@
    ]
   },
   {
-   "say": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
+   "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas.",
+   "shot": "wide",
+   "props": [
+    [
+     "kit/balloon_air",
+     0,
+     -6,
+     1.3
+    ]
+   ],
+   "clima": "neve",
+   "acao": "conversar"
+  },
+  {
+   "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
    "shot": "two",
    "who": [
     "PAR:2:pained",
@@ -313,5 +317,6 @@
  },
  "serie": "Guerras Inusitadas",
  "ep": 24,
- "titulo_base": "O Cardápio do Zoológico"
+ "titulo_base": "O Cardápio do Zoológico",
+ "variar_cenario": false
 }

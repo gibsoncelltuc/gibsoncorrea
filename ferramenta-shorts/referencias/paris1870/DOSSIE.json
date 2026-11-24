@@ -9,7 +9,6 @@
   "cenarios": [
    "arctic",
    "interior loja",
-   "interior madeira",
    "street"
   ],
   "cenarios_trocados": []
@@ -38,12 +37,7 @@
   "kit/coin",
   "kit/marco_notredame",
   "kit/panela",
-  "kit/room_europa_shop",
-  "kit/room_franca_wood",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large",
+  "kit/room_franca_shop",
   "nature/lamppost"
  ],
  "pesquisa_visual": {

@@ -10,15 +10,15 @@ b2 | harbor | orbit | 2 | reagir | kit/navio_vela, navios de guerra ao fundo, no
 b3 | harbor | wide | 1 | encena | ship, kit/navio_vela, navios de guerra ao fundo, no tamanho real | - | -
 b4 | arctic | group | 3 | conversar, INTERAGEM: tremem de frio | horse | - | -
 b5 | arctic | two | 2 | conversar, INTERAGEM: aproxima-se | horse | - | -
-b6 | arctic | two | 2 | encena, andando, batalha | horse | - | -
-b7 | harbor | group | 12 | reagir, INTERAGEM: avanca e o outro recua, batalha | navio em movimento | - | -
-b8 | arctic | group | 2 | conversar, INTERAGEM: discutir | ship, horse | - | -
-b9 | interior madeira | close | 1 | conversar | - | - | -
-b10 | interior madeira | two | 1 | conversar | - | - | -
+b6 | arctic | low | 2 | reagir, INTERAGEM: avanca e o outro recua | horse | - | -
+b7 | arctic | two | 2 | encena, andando, batalha | horse | - | -
+b8 | harbor | group | 12 | reagir, INTERAGEM: discutir, batalha | - | - | -
+b9 | arctic | group | 2 | conversar, INTERAGEM: o outro se aproxima | ship, horse | - | -
+b10 | arctic | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b7
-Interacoes entre personagens: b4 tremem de frio, b5 aproxima-se, b7 avanca e o outro recua, b8 discutir
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b7, b8
+Interacoes entre personagens: b4 tremem de frio, b5 aproxima-se, b6 avanca e o outro recua, b8 discutir, b9 o outro se aproxima
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

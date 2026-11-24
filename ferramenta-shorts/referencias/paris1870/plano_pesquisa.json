@@ -116,14 +116,6 @@
   },
   {
    "tipo": "epoca",
-   "item": "balao da epoca",
-   "consultas": [
-    "hot air balloon 1870",
-    "hot air balloon"
-   ]
-  },
-  {
-   "tipo": "epoca",
    "item": "cavalo da epoca",
    "consultas": [
     "horse cavalry 1870",

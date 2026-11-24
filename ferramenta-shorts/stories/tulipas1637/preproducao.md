@@ -1,4 +1,4 @@
-# Pre-producao - A Febre das Tulipas
+# Pre-producao - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 

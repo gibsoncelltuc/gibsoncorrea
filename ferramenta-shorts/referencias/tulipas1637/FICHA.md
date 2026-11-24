@@ -1,4 +1,4 @@
-# FICHA DE REFERENCIA - A Febre das Tulipas
+# FICHA DE REFERENCIA - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 - Ano/epoca: 1637 (historica)
 - Onde: Republica Holandesa (Haarlem, Amsterda): canais, casas de tijolo com fachada escalonada, moinhos, campos de tulipas; tabernas onde se negociavam bulbos

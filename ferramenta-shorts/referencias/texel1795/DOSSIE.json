@@ -8,8 +8,7 @@
   "luz_base": "arctic",
   "cenarios": [
    "arctic",
-   "harbor",
-   "interior madeira"
+   "harbor"
   ],
   "cenarios_trocados": []
  },
@@ -31,15 +30,9 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "boat",
-  "buildings/lighthouse",
+  "buildings/shop",
   "kit/navio_fragata",
   "kit/navio_vela",
-  "kit/room_franca_wood",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large",
   "ship"
  ],
  "pesquisa_visual": {

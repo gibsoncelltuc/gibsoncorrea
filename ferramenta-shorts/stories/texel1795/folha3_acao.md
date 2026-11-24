@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 12 palavras - plano wide
@@ -58,46 +58,44 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | A CAVALO? | OK |
 
-## Cena b6 - 29.1s a 36.4s - 25 palavras - plano two
-> "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho."
+## Cena b6 - 29.1s a 33.7s - 15 palavras - plano low
+> "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atravessaram (31.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | reagir | OK |
+
+## Cena b7 - 33.8s a 40.6s - 19 palavras - plano two
+> "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | atravessaram (37.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b7 - 37.7s a 41.2s - 12 palavras - plano group
-> "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu."
+## Cena b8 - 40.7s a 44.7s - 12 palavras - plano group
+> "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | viram (38.9s) | ACAO: olha | aponta/olha | OK |
-| 2 | rendeu (41.2s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | RENDIDOS | OK |
+| 1 | rendeu (44.7s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | RENDIDOS | OK |
 
-## Cena b8 - 42.4s a 45.4s - 12 palavras - plano group
-> "Foram mais de uma dezena de navios capturados por soldados a cavalo."
+## Cena b9 - 44.8s a 49.3s - 16 palavras - plano group
+> "Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
-| 2 | - | INTERACAO | discutir | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 46.7s a 49.9s - 15 palavras - plano close
-> "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | capturou (49.3s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | CAVALARIA 1 X 0 MARINHA | OK |
-
-## Cena b10 - 51.1s a 54.4s - 13 palavras - plano two
+## Cena b10 - 49.7s a 53.9s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

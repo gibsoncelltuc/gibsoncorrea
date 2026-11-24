@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 11 cenas, 158 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 11 cenas, 156 palavras (~54 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Uma frota de navios de guerra foi capturada por soldados a cavalo.
@@ -56,8 +56,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Texto na tela: A CAVALO?
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~8.6 s)
-- Narracao: Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho.
+## Cena b6  (~5.2 s)
+- Narracao: Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: VIRADA
+
+## Cena b7  (~6.6 s)
+- Narracao: Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @10 -> acao + som de efeito; montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
@@ -65,31 +74,22 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~4.1 s)
-- Narracao: Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.
+## Cena b8  (~4.1 s)
+- Narracao: Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito; encena: rende (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: rende (up) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: RENDIDOS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.1 s)
-- Narracao: Foram mais de uma dezena de navios capturados por soldados a cavalo.
+## Cena b9  (~5.5 s)
+- Narracao: Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~5.2 s)
-- Narracao: Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: prende (push) @12 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: CAVALARIA 1 X 0 MARINHA
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~4.5 s)

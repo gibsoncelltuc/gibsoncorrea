@@ -127,6 +127,23 @@
    "cenario": "arctic"
   },
   {
+   "camera": "low",
+   "personagens": [
+    "OFF",
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
    "camera": "two",
    "personagens": [
     "FRA",
@@ -134,9 +151,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 25,
-   "cena": "b6",
-   "frase": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho.",
+   "palavras": 19,
+   "cena": "b7",
+   "frase": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -156,12 +173,10 @@
     "FRA"
    ],
    "multidao": 10,
-   "objetos": [
-    "navio em movimento"
-   ],
+   "objetos": [],
    "palavras": 12,
-   "cena": "b7",
-   "frase": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
+   "cena": "b8",
+   "frase": "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -184,9 +199,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 12,
-   "cena": "b8",
-   "frase": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -202,22 +217,6 @@
   {
    "camera": "close",
    "personagens": [
-    "OFF"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b9",
-   "frase": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "FRA"
    ],
    "multidao": 0,
@@ -229,7 +228,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "arctic"
   }
  ]
 }

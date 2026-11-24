@@ -2201,6 +2201,16 @@ if B.get('serie') != 'Teste':
     if re.match(r'(em|no ano de|no ano|era|foi em|no dia|em meados de|no inverno de|no verao de|na primavera de|no outono de)?\s*(janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?\s*(de )?(mil|dois mil|1[0-9]{3}|20[0-9]{2})\b', _g0) and B.get('gancho_ok') is not True:
         _glob.append(('o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)', 'reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa'))
     if not (B.get('serie') and B.get('ep')) and not ID.startswith(('_', 'teste')): _glob.append(('roteiro sem "serie" e "ep": o video sairia sem EP no titulo', 'por no topo "serie": "Guerras Inusitadas" | "Curiosidade e Ciência" | "Poder e Fama" | "E Se" e "ep": <proximo numero livre da serie>'))
+    # ESTRUTURA DE RETENCAO (24/11, Gibson: "o roteiro tem toda uma estrutura que tem que seguir: gancho, gatilho, retencao"): gancho curto -> contexto -> escalada -> VIRADA no meio -> final curto e ironico -> chamada (automatica)
+    if B.get('estrutura_ok') is not True and not ID.startswith(('_', 'teste')):
+        _sx = [b_['say'] for b_ in beats]; _sn = lambda t_: unicodedata.normalize('NFKD', t_.lower()).encode('ascii', 'ignore').decode()
+        _g1 = re.split(r'(?<=[.!?])\s+', _sx[0].strip())[0]
+        if len(_g1.split()) > 16: _glob.append((f'GANCHO longo: a 1a frase tem {len(_g1.split())} palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)', 'reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo'))
+        _meio = ' '.join(_sx[max(1, len(_sx) // 4): max(2, len(_sx) * 9 // 10)])
+        if not re.search(r'\b(acontece que|so que|mas |na verdade|o problema|o detalhe|so tinha um|ate que|o mais incrivel|pior|e o mais)', _sn(_meio)): _glob.append(('sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia)', 'por uma frase de virada no meio: "Acontece que...", "So que...", "Mas..."'))
+        _fim = re.split(r'(?<=[.!?])\s+', _sx[-1].strip())[-1]
+        if len(_fim.split()) > 14: _glob.append((f'FINAL longo: a ultima frase tem {len(_fim.split())} palavras (o canal fecha com uma frase curta e ironica, ate ~12)', 'reescrever a ultima frase: curta, com a ironia/consequencia da historia'))
+        if sum(1 for t_ in _sx[1:4] if re.search(r'\b(1[0-9]{3}|20[0-9]{2}|mil |dois mil)', _sn(t_))) > 2: _glob.append(('contexto arrastado: datas em 3 frases seguidas no comeco (o espectador sai antes da historia andar)', 'deixar so uma frase de contexto (data + lugar) logo depois do gancho'))
     try: _dur = json.load(open(f'stories/{ID}/work/phrases.json'))['frames30'] / 30
     except Exception: _dur = sum(len(b_['say'].split()) for b_ in beats) / 2.9
     if not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)

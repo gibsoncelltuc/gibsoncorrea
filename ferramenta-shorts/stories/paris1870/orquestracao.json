@@ -17,6 +17,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/marco_notredame",
     "kit/panela"
    ],
    "palavras": 6,
@@ -26,7 +27,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "street"
   },
   {
    "camera": "reveal",
@@ -149,41 +150,16 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "PAR",
     "PAR"
    ],
-   "multidao": 0,
-   "objetos": [
-    "kit/balloon",
-    "kit/balloon_air"
-   ],
-   "palavras": 9,
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 12,
    "cena": "b7",
-   "frase": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "PAR",
-    "PAR"
-   ],
-   "multidao": 18,
-   "objetos": [
-    "buildings/house_two",
-    "kit/balloon",
-    "kit/balloon_air",
-    "nature/lamppost"
-   ],
-   "palavras": 14,
-   "cena": "b8",
-   "frase": "Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas.",
+   "frase": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -193,6 +169,23 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },
@@ -215,6 +208,23 @@
   },
   {
    "camera": "group",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/balloon_air"
+   ],
+   "palavras": 14,
+   "cena": "b10",
+   "frase": "Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas.",
+   "classe": "simples",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "PAR",
     "PAR"
@@ -223,9 +233,9 @@
    "objetos": [
     "kit/panela"
    ],
-   "palavras": 19,
-   "cena": "b10",
-   "frase": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
+   "palavras": 15,
+   "cena": "b11",
+   "frase": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -240,7 +250,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
