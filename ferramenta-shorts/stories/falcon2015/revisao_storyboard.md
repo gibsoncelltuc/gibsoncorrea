@@ -3,11 +3,11 @@ defeitos procurados: cenario (pista de concreto com mar e horizonte; cais na ten
 b0: OK - durante decadas todo foguete era jogado fora depois de um voo ate que um desceu de re: Musk de camisa preta com X diante do foguete branco descendo de re em pista ao entardecer.
 b1: OK - foi em dezembro de dois mil e quinze no Cabo Canaveral na Florida: mapa dos Estados Unidos com marcador e seis personagens no gramado.
 b2: OK - Elon Musk queria reaproveitar foguetes em vez de jogar fora e muitos achavam impossivel: Musk e engenheiro conversando com foguetes ao fundo na sala do hall.
-b3: CORRIGIDO - as primeiras tentativas de pouso deram errado e os foguetes tombaram no mar: antes explodiam sem corpo -> agora foguete descendo sobre a plataforma na beira do mar e o engenheiro tombando no cais.
+b3: CORRIGIDO - as primeiras tentativas de pouso deram errado e os foguetes tombaram no mar: antes o foguete aparecia em pe no cais -> agora o foguete deitado na areia junto ao mar com respingo e o engenheiro caindo de lado.
 b4: CORRIGIDO - em vinte e um de dezembro o Falcon nove decolou com onze satelites: antes aparecia um trio de foguetes como o Falcon Heavy -> agora um foguete so, com o texto 11 SATELITES.
 b5: CORRIGIDO - depois de soltar o topo a parte de baixo voltou para a Terra: antes o trio de foguetes com fogo -> agora um so foguete de pe descendo ao entardecer, engenheira nervosa.
-b6: OK - acontece que ela desceu de re de pe com o motor aceso freando a queda: foguete descendo de re de noite sobre a pista, engenheiro espantado.
-b7: OK - e pousou inteira abrindo as pernas no ultimo segundo: Musk rindo com o texto POUSOU! e o foguete de pe ao fundo, de noite.
+b6: CORRIGIDO - acontece que ela desceu de re de pe com o motor aceso freando a queda: antes foguete pequeno e longe -> agora camera mirando o foguete, grande, descendo de noite com o engenheiro espantado no canto.
+b7: CORRIGIDO - e pousou inteira abrindo as pernas no ultimo segundo: antes o personagem tapava o foguete -> agora o foguete grande ao lado do engenheiro sorrindo, de noite, com poeira e o texto POUSOU!.
 b8: OK - os funcionarios da SpaceX comemoraram e se abracaram: engenheiros de camisa azul de bracos erguidos na sala do hall.
 b9: OK - foi a primeira vez que o primeiro estagio de um foguete orbital voltou e pousou inteiro: Musk diante do foguete em pe com o texto PRIMEIRA VEZ.
 b10: OK - hoje pousar de re virou rotina: Musk e outro personagem sorrindo na beira do mar, plataforma de pouso ao fundo.

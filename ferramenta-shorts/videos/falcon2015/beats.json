@@ -329,10 +329,10 @@
    "detalhe": false,
    "objetos": false,
    "cx": 0.0,
-   "cz": -10.0,
-   "h": 4.5,
-   "d0": 14.0,
-   "d1": 12.0,
+   "cz": 0.0,
+   "h": 3.5,
+   "d0": 9.0,
+   "d1": 8.0,
    "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
@@ -345,7 +345,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_auto_vis": 1
   },
   {
    "shot": "wide",
