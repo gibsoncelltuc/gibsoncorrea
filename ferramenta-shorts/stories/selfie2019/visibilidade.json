@@ -1,0 +1,1153 @@
+{
+ "id": "selfie2019",
+ "falhas": [],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 29,
+     "objs": [
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 0.22580645161290322,
+       "area": 0.03788108231299959,
+       "cx": 0.030775462930987776,
+       "alt": 0.26387908541962424,
+       "altmax": 0.26387908541962424
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.346
+    },
+    {
+     "f": 72,
+     "objs": [
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 0.3870967741935484,
+       "area": 0.013553464148813575,
+       "cx": -0.041400540099886904,
+       "alt": 0.16185328858518727,
+       "altmax": 0.16185328858518727
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.179
+    },
+    {
+     "f": 114,
+     "objs": [
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 0.5161290322580645,
+       "area": 0.006396520362308541,
+       "cx": -0.0006194746793287027,
+       "alt": 0.11348082576454083,
+       "altmax": 0.11348082576454083
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.11799999999999994
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 154,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.27199999999999996
+    },
+    {
+     "f": 169,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.297
+    },
+    {
+     "f": 184,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.322
+    }
+   ]
+  },
+  {
+   "id": "b1~1",
+   "quadros": [
+    {
+     "f": 205,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.3970000000000001
+    },
+    {
+     "f": 220,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.405
+    },
+    {
+     "f": 234,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38200000000000006
+    }
+   ]
+  },
+  {
+   "id": "b1~2",
+   "quadros": [
+    {
+     "f": 255,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.41000000000000003
+    },
+    {
+     "f": 270,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42999999999999994
+    },
+    {
+     "f": 285,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.487
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 307,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36000000000000004
+    },
+    {
+     "f": 324,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.3960000000000001
+    },
+    {
+     "f": 340,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43199999999999994
+    }
+   ]
+  },
+  {
+   "id": "b2~1",
+   "quadros": [
+    {
+     "f": 363,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42599999999999993
+    },
+    {
+     "f": 380,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.388
+    },
+    {
+     "f": 396,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.39200000000000007
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 417,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.293
+    },
+    {
+     "f": 431,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.318
+    },
+    {
+     "f": 444,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35300000000000004
+    }
+   ]
+  },
+  {
+   "id": "b3~1",
+   "quadros": [
+    {
+     "f": 463,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.394
+    },
+    {
+     "f": 477,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.4169999999999999
+    },
+    {
+     "f": 490,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.394
+    }
+   ]
+  },
+  {
+   "id": "b3~2",
+   "quadros": [
+    {
+     "f": 509,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.386
+    },
+    {
+     "f": 523,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.335
+    },
+    {
+     "f": 536,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37200000000000005
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 558,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.952755905511811,
+       "area": 0.016996766067140064,
+       "cx": 0.43094353625427007,
+       "alt": 0.16475348738110535,
+       "altmax": 0.16475348738110535
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.03634207935279744,
+       "cx": -0.7695056285860654,
+       "alt": 0.24851167167597324,
+       "altmax": 0.24851167167597324
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.952755905511811,
+       "area": 0.016996766067140064,
+       "cx": 0.43094353625427007,
+       "alt": 0.16475348738110535,
+       "altmax": 0.16475348738110535
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.3539999999999999
+    },
+    {
+     "f": 576,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.018577588790587515,
+       "cx": 0.4491834209620341,
+       "alt": 0.17175128384610713,
+       "altmax": 0.17175128384610713
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 0.9032258064516129,
+       "area": 0.037369191372260566,
+       "cx": -0.7503597606074752,
+       "alt": 0.2509949292692199,
+       "altmax": 0.2509949292692199
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.018577588790587515,
+       "cx": 0.4491834209620341,
+       "alt": 0.17175128384610713,
+       "altmax": 0.17175128384610713
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36199999999999993
+    },
+    {
+     "f": 593,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.020024029487872408,
+       "cx": 0.4640748522881818,
+       "alt": 0.17812541730562506,
+       "altmax": 0.17812541730562506
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 0.3548387096774194,
+       "area": 0.03704570022412491,
+       "cx": -0.7175467203215263,
+       "alt": 0.24946800870673752,
+       "altmax": 0.24946800870673752
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.020024029487872408,
+       "cx": 0.4640748522881818,
+       "alt": 0.17812541730562506,
+       "altmax": 0.17812541730562506
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37199999999999994
+    }
+   ]
+  },
+  {
+   "id": "b4_d",
+   "quadros": [
+    {
+     "f": 614,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.046791815140104255,
+       "cx": 0.6254266409311822,
+       "alt": 0.27072225560935853,
+       "altmax": 0.27072225560935853
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0.29154369276822756
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.046791815140104255,
+       "cx": 0.6254266409311822,
+       "alt": 0.27072225560935853,
+       "altmax": 0.27072225560935853
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.589
+    },
+    {
+     "f": 626,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.10952164750928518,
+       "cx": 0.34841081657984657,
+       "alt": 0.4209586778672825,
+       "altmax": 0.4209586778672825
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.10952164750928518,
+       "cx": 0.34841081657984657,
+       "alt": 0.4209586778672825,
+       "altmax": 0.4209586778672825
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 637,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 0.49606299212598426,
+       "vis": 1,
+       "area": 0.08694698823546652,
+       "cx": 0.008805899608149093,
+       "alt": 0.22551814862189148,
+       "altmax": 0.22551814862189148
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/phone",
+       "inq": 0.49606299212598426,
+       "vis": 1,
+       "area": 0.08694698823546652,
+       "cx": 0.008805899608149093,
+       "alt": 0.22551814862189148,
+       "altmax": 0.22551814862189148
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b4_v",
+   "quadros": [
+    {
+     "f": 659,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0697109688935575,
+       "cx": 0.27825601579196385,
+       "alt": 0.33643666532511113,
+       "altmax": 0.33643666532511113
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0697109688935575,
+       "cx": 0.27825601579196385,
+       "alt": 0.33643666532511113,
+       "altmax": 0.33643666532511113
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.906
+    },
+    {
+     "f": 679,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02346794756352761,
+       "cx": 0.5035911575067119,
+       "alt": 0.19278767221175028,
+       "altmax": 0.19278767221175028
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 0.5483870967741935,
+       "area": 0.04404966596880805,
+       "cx": -0.8136559104809219,
+       "alt": 0.27054304183668765,
+       "altmax": 0.27054304183668765
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02346794756352761,
+       "cx": 0.5035911575067119,
+       "alt": 0.19278767221175028,
+       "altmax": 0.19278767221175028
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.418
+    },
+    {
+     "f": 699,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.025531049819549238,
+       "cx": 0.5224291883998076,
+       "alt": 0.2007357619460942,
+       "altmax": 0.2007357619460942
+      },
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 0.41935483870967744,
+       "area": 0.04509458850718098,
+       "cx": -0.788673374145094,
+       "alt": 0.2733477695620699,
+       "altmax": 0.2733477695620699
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.025531049819549238,
+       "cx": 0.5224291883998076,
+       "alt": 0.2007357619460942,
+       "altmax": 0.2007357619460942
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.427
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 738,
+     "objs": [
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.03495954197734202,
+       "cx": 0.2481823123959056,
+       "alt": 0.26583504416784415,
+       "altmax": 0.26583504416784415
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.25699999999999995
+    },
+    {
+     "f": 775,
+     "objs": [
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.04900516975786602,
+       "cx": 0.2239837219345096,
+       "alt": 0.3098822592405922,
+       "altmax": 0.3098822592405922
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.297
+    },
+    {
+     "f": 812,
+     "objs": [
+      {
+       "a": "mk/BookStand",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.07094227267445084,
+       "cx": 0.16534995281136924,
+       "alt": 0.36613464130780965,
+       "altmax": 0.36613464130780965
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35100000000000003
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 848,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.311
+    },
+    {
+     "f": 864,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34199999999999997
+    },
+    {
+     "f": 879,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.378
+    }
+   ]
+  },
+  {
+   "id": "b6~1",
+   "quadros": [
+    {
+     "f": 900,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43400000000000005
+    },
+    {
+     "f": 915,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43499999999999994
+    },
+    {
+     "f": 930,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.415
+    }
+   ]
+  },
+  {
+   "id": "b6~2",
+   "quadros": [
+    {
+     "f": 951,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35400000000000004
+    },
+    {
+     "f": 967,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.329
+    },
+    {
+     "f": 982,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36400000000000005
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1019,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.15500000000000003
+    },
+    {
+     "f": 1058,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.20999999999999996
+    },
+    {
+     "f": 1096,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.21799999999999997
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1134,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35000000000000003
+    },
+    {
+     "f": 1151,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38100000000000006
+    },
+    {
+     "f": 1168,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42599999999999993
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1191,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.438
+    },
+    {
+     "f": 1208,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37400000000000005
+    },
+    {
+     "f": 1224,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35400000000000004
+    }
+   ]
+  },
+  {
+   "id": "b8~2",
+   "quadros": [
+    {
+     "f": 1247,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.4159999999999999
+    },
+    {
+     "f": 1264,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.475
+    },
+    {
+     "f": 1281,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.529
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1317,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.25599999999999995
+    },
+    {
+     "f": 1353,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.296
+    },
+    {
+     "f": 1389,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35200000000000004
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1424,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.017127553447448658,
+       "cx": -0.14950989304357543,
+       "alt": 0.15937544513045143,
+       "altmax": 0.15937544513045143
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.017127553447448658,
+       "cx": -0.14950989304357543,
+       "alt": 0.15937544513045143,
+       "altmax": 0.15937544513045143
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.281
+    },
+    {
+     "f": 1439,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02058936492662228,
+       "cx": -0.2594548042278618,
+       "alt": 0.17480859265405801,
+       "altmax": 0.17480859265405801
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02058936492662228,
+       "cx": -0.2594548042278618,
+       "alt": 0.17480859265405801,
+       "altmax": 0.17480859265405801
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.30799999999999994
+    },
+    {
+     "f": 1454,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.6220472440944882,
+       "area": 0.024990791864311464,
+       "cx": -0.3922845912376459,
+       "alt": 0.19285047490795387,
+       "altmax": 0.19285047490795387
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.6220472440944882,
+       "area": 0.024990791864311464,
+       "cx": -0.3922845912376459,
+       "alt": 0.19285047490795387,
+       "altmax": 0.19285047490795387
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.33999999999999997
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1475,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.024631148972034816,
+       "cx": -0.37612297771799036,
+       "alt": 0.19652483099016926,
+       "altmax": 0.19652483099016926
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.024631148972034816,
+       "cx": -0.37612297771799036,
+       "alt": 0.19652483099016926,
+       "altmax": 0.19652483099016926
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34900000000000003
+    },
+    {
+     "f": 1490,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.020383743059324128,
+       "cx": -0.22978789030456603,
+       "alt": 0.1812691574440746,
+       "altmax": 0.1812691574440746
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.020383743059324128,
+       "cx": -0.22978789030456603,
+       "alt": 0.1812691574440746,
+       "altmax": 0.1812691574440746
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.321
+    },
+    {
+     "f": 1504,
+     "objs": [
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.01813562610101835,
+       "cx": -0.139696983935086,
+       "alt": 0.17143073938960549,
+       "altmax": 0.17143073938960549
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.01813562610101835,
+       "cx": -0.139696983935086,
+       "alt": 0.17143073938960549,
+       "altmax": 0.17143073938960549
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "quadros": [
+    {
+     "f": 1528,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1548,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1567,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b11~1",
+   "quadros": [
+    {
+     "f": 1594,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1614,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1633,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  }
+ ]
+}
