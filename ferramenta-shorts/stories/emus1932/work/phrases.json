@@ -1,7 +1,7 @@
 {
- "duration": 61.536,
- "frames30": 1846,
- "source": "silence-align (cost 0.77)",
+ "duration": 61.368,
+ "frames30": 1841,
+ "source": "silence-align (cost 0.68)",
  "segments": [
   [
    0.153458,
@@ -12,104 +12,104 @@
    3.16004
   ],
   [
-   4.02333,
-   5.50708
+   4.02717,
+   5.50817
   ],
   [
-   5.7195,
-   9.09525
+   5.71696,
+   8.96071
   ],
   [
-   9.96696,
-   12.2128
+   9.82125,
+   12.068
   ],
   [
-   12.4876,
-   14.439
+   12.3419,
+   14.2865
   ],
   [
-   15.2977,
-   18.5544
+   15.152,
+   18.4069
   ],
   [
-   19.4144,
-   22.4635
+   19.2685,
+   22.3214
   ],
   [
-   22.7118,
-   24.3987
+   22.5661,
+   24.2529
   ],
   [
-   25.2505,
-   26.0985
+   25.1048,
+   25.9529
   ],
   [
-   26.3636,
-   28.3601
+   26.2179,
+   28.2145
   ],
   [
-   28.6194,
-   30.6841
+   28.4737,
+   30.5384
   ],
   [
-   31.548,
-   32.7087
+   31.4022,
+   32.5661
   ],
   [
-   32.9432,
-   35.6403
+   32.7975,
+   35.4954
   ],
   [
-   36.4915,
-   38.3843
+   36.3457,
+   38.2385
   ],
   [
-   38.6499,
-   39.446
+   38.5042,
+   39.3003
   ],
   [
-   39.8168,
-   41.3603
+   39.6711,
+   41.2248
   ],
   [
-   42.219,
-   43.2355
+   42.0733,
+   43.0897
   ],
   [
-   43.5793,
-   46.1808
+   43.4336,
+   46.0372
   ],
   [
-   46.438,
-   47.7852
+   46.2922,
+   47.6394
   ],
   [
-   48.6201,
-   49.0251
+   48.4735,
+   48.8793
   ],
   [
-   49.2925,
-   50.9425
+   49.1468,
+   50.7937
   ],
   [
-   51.1455,
-   53.8015
+   50.9998,
+   53.6557
   ],
   [
-   54.6763,
-   55.5976
+   54.5306,
+   55.4519
   ],
   [
-   55.8363,
-   56.3737
+   55.6906,
+   56.2279
   ],
   [
-   57.2204,
-   58.6648
+   57.0733,
+   58.5194
   ],
   [
-   58.9578,
-   60.7193
+   58.812,
+   60.5736
   ]
  ],
  "phrases": [
@@ -125,128 +125,128 @@
   },
   {
    "text": "Em mil novecentos e trinta e dois,",
-   "s": 4.023,
-   "e": 5.507
+   "s": 4.027,
+   "e": 5.508
   },
   {
-   "text": "vinte mil emus invadiram as planta\u00e7\u00f5es de trigo no oeste do pa\u00eds.",
-   "s": 5.72,
-   "e": 9.095
+   "text": "vinte mil emus invadiram as lavouras de trigo no oeste do pa\u00eds.",
+   "s": 5.717,
+   "e": 8.961
   },
   {
    "text": "Agricultores veteranos pediram metralhadoras,",
-   "s": 9.967,
-   "e": 12.213
+   "s": 9.821,
+   "e": 12.068
   },
   {
    "text": "e o ministro da Defesa mandou soldados.",
-   "s": 12.488,
-   "e": 14.439
+   "s": 12.342,
+   "e": 14.287
   },
   {
    "text": "O major Meredith levou duas metralhadoras e dez mil balas.",
-   "s": 15.298,
-   "e": 18.554
+   "s": 15.152,
+   "e": 18.407
   },
   {
    "text": "Acontece que os emus se dividiram em grupos pequenos e r\u00e1pidos,",
-   "s": 19.414,
-   "e": 22.463
+   "s": 19.268,
+   "e": 22.321
   },
   {
    "text": "e as balas acertavam s\u00f3 poeira.",
-   "s": 22.712,
-   "e": 24.399
+   "s": 22.566,
+   "e": 24.253
   },
   {
    "text": "Numa tentativa,",
-   "s": 25.25,
-   "e": 26.099
+   "s": 25.105,
+   "e": 25.953
   },
   {
    "text": "uma metralhadora foi instalada num caminh\u00e3o,",
-   "s": 26.364,
-   "e": 28.36
+   "s": 26.218,
+   "e": 28.215
   },
   {
    "text": "mas ele sacudia tanto que ningu\u00e9m atirava.",
-   "s": 28.619,
-   "e": 30.684
+   "s": 28.474,
+   "e": 30.538
   },
   {
    "text": "Depois de seis dias,",
-   "s": 31.548,
-   "e": 32.709
+   "s": 31.402,
+   "e": 32.566
   },
   {
    "text": "milhares de cartuchos gastos e poucos emus abatidos.",
-   "s": 32.943,
-   "e": 35.64
+   "s": 32.797,
+   "e": 35.495
   },
   {
    "text": "O major comparou os p\u00e1ssaros a tanques,",
-   "s": 36.492,
-   "e": 38.384
+   "s": 36.346,
+   "e": 38.239
   },
   {
    "text": "a imprensa riu,",
-   "s": 38.65,
-   "e": 39.446
+   "s": 38.504,
+   "e": 39.3
   },
   {
    "text": "e o governo retirou as tropas.",
-   "s": 39.817,
-   "e": 41.36
+   "s": 39.671,
+   "e": 41.225
   },
   {
    "text": "O ex\u00e9rcito voltou,",
-   "s": 42.219,
-   "e": 43.236
+   "s": 42.073,
+   "e": 43.09
   },
   {
    "text": "e o major disse ter abatido novecentos e oitenta e seis,",
-   "s": 43.579,
-   "e": 46.181
+   "s": 43.434,
+   "e": 46.037
   },
   {
    "text": "n\u00famero muito contestado.",
-   "s": 46.438,
-   "e": 47.785
+   "s": 46.292,
+   "e": 47.639
   },
   {
    "text": "No fim,",
-   "s": 48.62,
-   "e": 49.025
+   "s": 48.474,
+   "e": 48.879
   },
   {
    "text": "o governo preferiu recompensas,",
-   "s": 49.292,
-   "e": 50.943
+   "s": 49.147,
+   "e": 50.794
   },
   {
    "text": "e em seis meses pagou por mais de cinquenta mil emus.",
-   "s": 51.145,
-   "e": 53.801
+   "s": 51.0,
+   "e": 53.656
   },
   {
    "text": "Ex\u00e9rcito zero,",
-   "s": 54.676,
-   "e": 55.598
+   "s": 54.531,
+   "e": 55.452
   },
   {
    "text": "emus um.",
-   "s": 55.836,
-   "e": 56.374
+   "s": 55.691,
+   "e": 56.228
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 57.22,
-   "e": 58.665
+   "s": 57.073,
+   "e": 58.519
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 58.958,
-   "e": 60.719
+   "s": 58.812,
+   "e": 60.574
   }
  ]
 }
