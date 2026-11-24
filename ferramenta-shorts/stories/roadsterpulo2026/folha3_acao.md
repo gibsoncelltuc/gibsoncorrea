@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 17 palavras - plano two
@@ -11,10 +11,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | prometeu (0.7s) | ACAO: fala | aponta explicando | OK |
 | 2 | convidados (3.8s) | ACAO: fala | aponta explicando | OK |
-| 3 | saiu (5.6s) | ACAO: sai | sai andando pela lateral | OK |
-| 4 | chão (6.0s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 5 | - | INTERACAO | insiste | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b1 - 7.1s a 10.7s - 16 palavras - plano reveal
 > "Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Texas."
