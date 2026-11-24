@@ -34,11 +34,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 - Cenario: harbor | luz: arctic | clima: neve
-- Camera: prop = - + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): NED (variante 2, expressao pained)
-- Animacao: conversar
-- Objetos/modelos: kit/navio_vela
+- Animacao: encena
+- Objetos/modelos: ship, kit/navio_vela, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, lugar, navios
 - RISCOS: nenhum
 
@@ -117,13 +117,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-ship | b0, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b0, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 horse | b0, b4, b5, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/navio_vela | b2, b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vela | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vela | grandes momentos: b6, b7 | planos abertos: 3 | mistura: close 9% | medio 63% | aberto 24% | detalhe 4%
+- Objeto heroi: - | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 9% | medio 57% | aberto 31% | detalhe 2%
 - Interacoes: b4 tremem de frio, b5 aproxima-se, b7 avanca e o outro recua, b8 discutir
 - RISCOS GERAIS: nenhum
 

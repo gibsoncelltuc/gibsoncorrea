@@ -64,7 +64,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -84,7 +84,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "crowd",
@@ -95,7 +95,6 @@
    "multidao": 6,
    "objetos": [
     "buildings/house_two",
-    "kit/marco_notredame",
     "nature/lamppost"
    ],
    "palavras": 9,
@@ -111,7 +110,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "arctic"
   },
   {
    "camera": "close",

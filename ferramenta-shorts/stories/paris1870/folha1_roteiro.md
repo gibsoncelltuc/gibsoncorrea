@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (PAR) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CAVALOS, CÃES, GATOS
 - Funcao na historia: desenvolvimento

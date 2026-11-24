@@ -1377,7 +1377,7 @@ def build_beat(k, b):
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         # NADA NA FRENTE DE PERSONAGEM (ordem do Gibson): objeto solto (fogueira, barril, caixa...) que cairia em cima/na frente de alguem vai para o lado livre
-        if _ppos and not (b.get('detalhe') and HEROI and str(asset) == HEROI) and not str(asset).startswith(('kit/room', 'kit/marco', 'kit/rg_', 'buildings/', 'vehicles/', 'kit/ring', 'kit/hospital_ext', 'kit/prison', 'kit/porch', 'mk/')) and float(z) > -2.6 and not (len(p) > 4 and isinstance(p[4], dict) and (p[4].get('carregado') or p[4].get('fixo'))):
+        if _ppos and not str(asset).startswith(('kit/room', 'kit/marco', 'kit/rg_', 'buildings/', 'vehicles/', 'kit/ring', 'kit/hospital_ext', 'kit/prison', 'kit/porch', 'mk/')) and float(z) > -2.6 and not (len(p) > 4 and isinstance(p[4], dict) and (p[4].get('carregado') or p[4].get('fixo'))):
             if any(abs(float(dx) - px_) < 1.35 and float(z) > pz_ - 1.6 for px_, pz_ in _ppos):
                 _xs = [px_ for px_, pz_ in _ppos]; dx = round((max(_xs) + 2.0) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 2.0), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.4)
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}

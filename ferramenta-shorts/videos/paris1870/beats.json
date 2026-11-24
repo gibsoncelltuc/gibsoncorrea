@@ -119,7 +119,9 @@
    ],
    "text": "RATOS",
    "tat": 3,
-   "tstyle": "red"
+   "tstyle": "red",
+   "set": "street",
+   "clima": "neve"
   },
   {
    "say": "Quando acabou tudo, olharam para o zoológico da cidade.",

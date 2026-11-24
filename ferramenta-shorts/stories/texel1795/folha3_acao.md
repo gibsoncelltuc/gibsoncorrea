@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 12 palavras - plano wide
@@ -32,13 +32,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | FROTA CONGELADA | OK |
 
-## Cena b3 - 15.3s a 18.3s - 11 palavras - plano prop
+## Cena b3 - 15.3s a 18.3s - 11 palavras - plano wide
 > "Os navios ficaram presos no gelo, sem conseguir sair do lugar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | presos (16.2s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 19.5s a 23.5s - 12 palavras - plano group
 > "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio."

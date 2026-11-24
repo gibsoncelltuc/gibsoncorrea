@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 1.7s - 6 palavras - plano two
@@ -28,16 +28,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
+| 1 | - | CENA | cavalaria: 2 soldados a cavalo (PAR) | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
 
 ## Cena b3 - 16.9s a 19.8s - 8 palavras - plano two
 > "Depois, os roedores, que viraram um prato chique."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
+| 1 | - | INTERACAO | tremem de frio | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | RATOS | OK |
 
@@ -67,7 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | tremem de frio | OK |
+| 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | NATAL DE 1870 | OK |
 

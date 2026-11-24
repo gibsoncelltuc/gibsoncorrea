@@ -72,13 +72,15 @@
    "cenario": "harbor"
   },
   {
-   "camera": "prop",
+   "camera": "wide",
    "personagens": [
     "NED"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_vela"
+    "kit/navio_vela",
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
    ],
    "palavras": 11,
    "cena": "b3",
