@@ -1,0 +1,11 @@
+
+## 24/11 21:18 autocorrecao de visibilidade
+- b5: objeto "kit/finch_thick" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/finch_long" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b6: objeto "kit/finch_thick" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/finch_long" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b6: objeto "kit/finch" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+- b7: objeto "kit/finch_thick" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 21:19 autocorrecao de visibilidade
+- b7: objeto "kit/finch_thick" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

@@ -1,0 +1,414 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 8,
+ "title": "Darwin e os Tentilhões",
+ "titulo_base": "Darwin e os Tentilhões",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/finch",
+ "outfits": {
+  "DAR": {
+   "profissao": "cientista",
+   "jacket": "#4a4a3a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#d8d2c4",
+   "beard": "#d8d2c4"
+  },
+  "GOU": {
+   "profissao": "cientista",
+   "jacket": "#3a4a6a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#6a4a2a",
+   "glasses": true
+  },
+  "MAR": {
+   "profissao": "marinheiro",
+   "jacket": "#f1efe6",
+   "pants": "#2f3a5a",
+   "boots": "#2a2218"
+  },
+  "POV": {
+   "profissao": "comerciante",
+   "jacket": "#8a6a3a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "cap": "#3a2a1a"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.",
+   "shot": "two",
+   "who": [
+    "DAR:0:smile",
+    "MAR:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/finch",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "say": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
+   "shot": "reveal",
+   "who": [
+    "MAR:0:neutral",
+    "MAR:1:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MAR",
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "GALÁPAGOS",
+   "mapa_at": 2
+  },
+  {
+   "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
+   "shot": "two",
+   "who": [
+    "DAR:0:neutral:bag",
+    "MAR:0:smile"
+   ],
+   "props": [
+    [
+     "kit/finch",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "harbor",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
+   "shot": "two",
+   "who": [
+    "DAR:0:suspicious:paper",
+    "MAR:0:bored"
+   ],
+   "acao": "conversar",
+   "set": "harbor"
+  },
+  {
+   "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "DAR:0:surprised",
+    "GOU:0:shout"
+   ],
+   "interacao": "discutir"
+  },
+  {
+   "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOU:0:smile",
+    "DAR:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/finch_thick",
+     0.0,
+     -1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/finch_long",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "dust@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "thump@40",
+    "ding@60"
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_long",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
+   "shot": "orbit",
+   "who": [
+    "DAR:0:shock",
+    "GOU:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "MAR",
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "kit/finch_thick",
+     1.6,
+     -1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/finch_long",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/finch",
+     0.0,
+     1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ],
+   "set": "harbor",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "orbit; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_long",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3,
+   "detalhe": true
+  },
+  {
+   "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "DAR:0:smile",
+    "GOU:0:grin"
+   ],
+   "interacao": "cochichar",
+   "props": [
+    [
+     "kit/finch_thick",
+     0.0,
+     -1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 1
+  },
+  {
+   "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "DAR:0:grin:book",
+    "GOU:0:laugh"
+   ],
+   "acao": "comemorar"
+  },
+  {
+   "say": "No fim, o erro das etiquetas virou um acerto de bico.",
+   "shot": "two",
+   "who": [
+    "DAR:0:smug"
+   ],
+   "props": [
+    [
+     "kit/finch",
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "countryside",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "visual": {
+  "local": "Ilhas Galapagos, no Pacifico (Equador): rocha vulcanica preta, cactos, praias, tartarugas e iguanas; depois Londres",
+  "quando": "setembro e outubro de 1835 (Galapagos); 1837 (Gould em Londres); 1859 (o livro); de dia",
+  "participantes": [
+   "Charles Darwin, naturalista de 26 anos",
+   "marinheiros do HMS Beagle",
+   "capitao Robert FitzRoy",
+   "John Gould, ornitologo"
+  ],
+  "roupas": {
+   "DAR": "cavalheiro ingles de 1835: casaca, colete, gravata de laco, chapeu",
+   "MAR": "marinheiro da Marinha Real de 1835: camisa listrada e chapeu de palha",
+   "GOU": "cientista de 1837 de casaca escura e gravata",
+   "POV": "cientistas e publico de casaca"
+  },
+  "cenario": "ilha vulcanica com cactos e rochas pretas, navio a vela HMS Beagle ancorado, gabinete de estudo em Londres com aves empalhadas",
+  "objetos": [
+   "tentilhoes",
+   "caderno de anotacoes",
+   "navio HMS Beagle",
+   "livro A Origem das Especies"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Darwin%27s_finches",
+   "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+  ]
+ }
+}

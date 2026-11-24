@@ -7,23 +7,13 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
+   "countryside",
    "harbor",
    "interior madeira",
    "interior pedra",
-   "loc_campo"
+   "palace"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 10",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "countryside",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -43,13 +33,13 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "boat",
+  "buildings/house_small",
+  "buildings/house_two",
   "buildings/shop",
   "kit/finch",
   "kit/finch_long",
   "kit/finch_thick",
-  "kit/gosma",
   "kit/navio_fragata",
-  "kit/panela",
   "kit/room_colonial_stone",
   "kit/room_europa_wood",
   "kit/room_verde_wood",
