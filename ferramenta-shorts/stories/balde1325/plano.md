@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | prêmio (stars + som de sino); encena: vence (up) @8 (acao + som de efeito) | -
+b0 | prop | -  | - | prêmio (stars + som de sino); encena: vence (up) @8 (acao + som de efeito) | -
 b1 | two | -  | mapa | encena: x_discute (point) @3 (acao + som de efeito) | -
 b2 | crowd | -  | tropa, placa: 30.000 | encena: pega (lift) @8 (acao + som de efeito); encena: chega (point) @17 (acao + som de efeito) | -
 b3 | group | -  | tropa | cavalaria: 2 soldados a cavalo (MOD) (acao + som de efeito) | -

@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | medieval | two | 2 | conversar, INTERAGEM: susto | kit/balde_madeira, tools/bucket, buildings/house_two, nature/lamppost | - | -
+b0 | medieval | prop | 2 | conversar, INTERAGEM: susto | kit/balde_madeira, tools/bucket, buildings/house_two, nature/lamppost | - | -
 b1 | medieval | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b2 | loc_campo | crowd | 20 | encena | nature/picket_fence | - | -
 b3 | loc_campo | group | 8 | reagir, INTERAGEM: insiste | - | - | -
