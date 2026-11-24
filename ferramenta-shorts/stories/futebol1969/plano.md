@@ -4,9 +4,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | tropa, placa: HONDURAS x EL SALVADOR | encena: bola (throw) @9 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: golpe (punch) @12 (acao + som de efeito) | -
-b2 | aereo | -  | tropa, placa: 3 JOGOS | - | -
+b2 | two | -  | tropa, placa: 3 JOGOS | - | -
 b3 | crowd | -  | tropa, placa: 1 x 0 | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) @3 (acao + som de efeito) | -
-b4 | two | dia  | placa: 3 x 0 | explodiu (burst + som de tiro/explosao); encena: x_entrega (reach) @4 (acao + som de efeito); encena: desaba @12 (acao + som de efeito); explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) (acao + som de efeito) | -
+b4 | two | dia  | placa: 3 x 0 | brigaram (puff + som de baque); encena: x_entrega (reach) @4 (acao + som de efeito); encena: golpe (punch) @12 (acao + som de efeito) | -
 b5 | two | dia  | interior, objeto na mao | encena: corta (hammer) @9 (acao + som de efeito) | -
 b6 | group | dia  | placa: PRORROGAÇÃO | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) @10 (acao + som de efeito) | -
 b7 | crowd | dia  | batalha aberta com tiros, tropa, placa: GUERRA | tiros: 5 soldados caem no chao (acao + som de efeito) | -

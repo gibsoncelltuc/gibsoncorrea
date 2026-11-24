@@ -122,8 +122,8 @@
    ]
   },
   {
-   "shot": "aereo",
-   "set": "stadium",
+   "shot": "two",
+   "set": "street",
    "who": [
     "HON:0:grin",
     "SAL:0:stern"
@@ -143,7 +143,7 @@
    "text": "3 JOGOS",
    "titulo": true,
    "crowd": {
-    "n": 16,
+    "n": 6,
     "outfits": [
      "HON",
      "SAL"
@@ -152,8 +152,8 @@
     "expr": "shout"
    },
    "quadro": {
-    "local": "estadio",
-    "camera": "aereo; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
@@ -248,7 +248,7 @@
    ],
    "interacao": "empurrar",
    "acao": "discutir",
-   "say": "No segundo, El Salvador devolveu por três a zero, e a tensão explodiu nas ruas.",
+   "say": "No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas.",
    "hora": "dia",
    "text": "3 x 0",
    "titulo": true

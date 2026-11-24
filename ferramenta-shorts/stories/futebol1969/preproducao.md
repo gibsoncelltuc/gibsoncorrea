@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | stadium | two | 18 | conversar, INTERAGEM: aproxima-se, alguem chega andando | kit/ball | - | -
 b1 | street | reveal | 10 | discutir | kit/volcano | - | -
-b2 | stadium | aereo | 18 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/ball | - | -
+b2 | street | two | 8 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/ball | - | -
 b3 | stadium | crowd | 20 | comemorar | kit/panela, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -

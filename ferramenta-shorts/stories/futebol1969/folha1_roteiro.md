@@ -39,10 +39,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.2 s)
-- Narracao: No segundo, El Salvador devolveu por três a zero, e a tensão explodiu nas ruas.
+- Narracao: No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao; encena: x_entrega (reach) @4 -> acao + som de efeito; encena: desaba @12 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: brigaram -> puff + som de baque; encena: x_entrega (reach) @4 -> acao + som de efeito; encena: golpe (punch) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 3 x 0
 - Funcao na historia: desenvolvimento

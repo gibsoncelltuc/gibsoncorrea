@@ -19,9 +19,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - MAPA: AMÉRICA CENTRAL (cobre a tela 1-2 s)
 
 ## b2: "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro."
-- LOCAL: estadio; hora: day
-- CAMERA: aereo; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
-- PERSONAGENS: HON na esquerda, expressao grin; SAL na direita, expressao stern; multidao de 16 (HON, SAL) ATRAS dos principais; acao: fala/gesto
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
+- PERSONAGENS: HON na esquerda, expressao grin; SAL na direita, expressao stern; multidao de 6 (HON, SAL) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "3 JOGOS" flutuando no alto, na palavra 1 da frase
 
@@ -37,7 +37,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@70
 - TEXTO NA TELA: "1 x 0" flutuando no alto, na palavra 1 da frase
 
-## b4: "No segundo, El Salvador devolveu por três a zero, e a tensão explodiu nas ruas."
+## b4: "No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TOR na esquerda, expressao angry; TOR na direita, expressao shout; sem multidao; acao: discutir
