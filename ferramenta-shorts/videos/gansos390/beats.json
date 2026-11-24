@@ -144,7 +144,7 @@
     [
      "buildings/castle_tower",
      0.0,
-     -8.7,
+     -24.4,
      2.0,
      {
       "fixo": true
@@ -161,7 +161,7 @@
    "detalhe": false,
    "quadro": {
     "local": "encosta de montanha",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.9, camera a 98.7 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "buildings/castle_tower",
@@ -172,10 +172,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.9,
-   "h": 6.0,
-   "d0": 103.6,
-   "d1": 98.7
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -207,7 +207,7 @@
     [
      "buildings/castle_tower",
      0.0,
-     -8.0,
+     -19.8,
      1.6,
      {
       "fixo": true
@@ -217,7 +217,7 @@
    "fachada": false,
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "buildings/castle_tower",
@@ -228,10 +228,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 6.0,
-   "d0": 82.7,
-   "d1": 78.8
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -244,21 +244,21 @@
      1.5,
      0.6,
      "walk",
-     1.0
+     1.35
     ],
     [
      "goose",
      -1.5,
      0.4,
      "walk",
-     1.0
+     1.35
     ],
     [
      "goose",
      0.2,
      1.4,
      "walk",
-     1.0
+     1.35
     ]
    ],
    "sfx": [
@@ -270,9 +270,9 @@
    "say": "Acontece que os gansos sagrados da deusa Juno ouviram, e começaram a gritar e a bater as asas.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 19.0,
-   "d1": 18.0,
+   "_auto_vis": 1,
+   "d0": 11.4,
+   "d1": 10.8,
    "set": "loc_campo",
    "shot_lock": true
   },
@@ -348,32 +348,32 @@
      -1.1,
      1.2,
      "stand",
-     1.9
+     2.56
     ],
     [
      "goose",
      0.0,
      1.2,
      "stand",
-     1.9
+     2.56
     ],
     [
      "goose",
      1.1,
      1.2,
      "stand",
-     1.9
+     2.56
     ]
    ],
    "set": "medieval",
    "fachada": false,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
+   "_auto_vis": 1,
    "shot_lock": true,
    "objetos": false,
-   "d0": 10.0,
-   "d1": 9.0
+   "d0": 6.0,
+   "d1": 5.4
   }
  ],
  "cinf": 4.5,
