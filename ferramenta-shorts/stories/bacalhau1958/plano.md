@@ -7,7 +7,7 @@ b1 | wide | -  | tropa, placa: 1958-1976 | encena: empurra (push) @14 (acao + so
 b2 | two | -  | placa: BACALHAU | encena: x_pesca (lift) @8 (acao + som de efeito) | -
 b3 | wide | -  | tropa, placa: 12 · 50 · 200 MILHAS | - | -
 b4 | group | -  | mapa | encena: fala (point) @2 (acao + som de efeito); encena: x_defende (cross) @5 (acao + som de efeito) | -
-b5 | low | -  | placa: CORTADORES DE REDE | - | -
+b5 | low | -  | - | - | -
 b6 | group | -  | batalha aberta com tiros | - | -
 b7 | two | -  | placa: OTAN | encena: x_discute (point) @2 (acao + som de efeito); encena: empurra (push) @3 (acao + som de efeito) | -
 b8 | group | -  | placa: VITÓRIA ISLANDESA | encena: chega (point) @17 (acao + som de efeito) | -

@@ -1,0 +1,252 @@
+{
+ "duration": 58.608,
+ "frames30": 1758,
+ "source": "silence-align (cost 0.95)",
+ "segments": [
+  [
+   0.158667,
+   1.85646
+  ],
+  [
+   2.08367,
+   3.59967
+  ],
+  [
+   4.45796,
+   6.36175
+  ],
+  [
+   7.23963,
+   8.67112
+  ],
+  [
+   8.96592,
+   11.0337
+  ],
+  [
+   11.8825,
+   13.8013
+  ],
+  [
+   14.6573,
+   16.7054
+  ],
+  [
+   17.5638,
+   18.7837
+  ],
+  [
+   19.0432,
+   19.7187
+  ],
+  [
+   20.5763,
+   22.7989
+  ],
+  [
+   23.6076,
+   25.1608
+  ],
+  [
+   25.4621,
+   26.4644
+  ],
+  [
+   26.6931,
+   28.3151
+  ],
+  [
+   29.1723,
+   31.6129
+  ],
+  [
+   32.454,
+   32.9426
+  ],
+  [
+   33.2237,
+   34.6816
+  ],
+  [
+   35.5505,
+   36.923
+  ],
+  [
+   37.1924,
+   39.6035
+  ],
+  [
+   40.4511,
+   42.7425
+  ],
+  [
+   43.0592,
+   44.2796
+  ],
+  [
+   45.1352,
+   46.6387
+  ],
+  [
+   47.5023,
+   48.0016
+  ],
+  [
+   48.1948,
+   50.141
+  ],
+  [
+   50.9956,
+   51.8222
+  ],
+  [
+   52.7087,
+   53.4414
+  ],
+  [
+   54.2925,
+   55.7372
+  ],
+  [
+   56.03,
+   57.7915
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra inteira teve um \u00fanico tiro,",
+   "s": 0.159,
+   "e": 1.856
+  },
+  {
+   "text": "e ele acertou uma chaleira de sopa.",
+   "s": 2.084,
+   "e": 3.6
+  },
+  {
+   "text": "Era mil setecentos e oitenta e quatro.",
+   "s": 4.458,
+   "e": 6.362
+  },
+  {
+   "text": "A Holanda tinha fechado um rio,",
+   "s": 7.24,
+   "e": 8.671
+  },
+  {
+   "text": "e nenhum navio estrangeiro passava por ali.",
+   "s": 8.966,
+   "e": 11.034
+  },
+  {
+   "text": "O imperador da \u00c1ustria ficou furioso.",
+   "s": 11.883,
+   "e": 13.801
+  },
+  {
+   "text": "Ele queria o rio aberto para os navios dele.",
+   "s": 14.657,
+   "e": 16.705
+  },
+  {
+   "text": "\"Mandem tr\u00eas navios\",",
+   "s": 17.564,
+   "e": 18.784
+  },
+  {
+   "text": "ordenou ele.",
+   "s": 19.043,
+   "e": 19.719
+  },
+  {
+   "text": "\"Os holandeses n\u00e3o v\u00e3o ter coragem de atirar.\"",
+   "s": 20.576,
+   "e": 22.799
+  },
+  {
+   "text": "Os tr\u00eas navios desceram o rio,",
+   "s": 23.608,
+   "e": 25.161
+  },
+  {
+   "text": "com o maior na frente,",
+   "s": 25.462,
+   "e": 26.464
+  },
+  {
+   "text": "cheio de soldados e de bandeiras.",
+   "s": 26.693,
+   "e": 28.315
+  },
+  {
+   "text": "Acontece que um navio holand\u00eas estava esperando.",
+   "s": 29.172,
+   "e": 31.613
+  },
+  {
+   "text": "Ele mirou,",
+   "s": 32.454,
+   "e": 32.943
+  },
+  {
+   "text": "e deu um \u00fanico tiro de canh\u00e3o.",
+   "s": 33.224,
+   "e": 34.682
+  },
+  {
+   "text": "A bala atravessou o conv\u00e9s,",
+   "s": 35.55,
+   "e": 36.923
+  },
+  {
+   "text": "e acertou em cheio a chaleira de sopa do cozinheiro.",
+   "s": 37.192,
+   "e": 39.603
+  },
+  {
+   "text": "O capit\u00e3o austr\u00edaco olhou para a sopa derramada,",
+   "s": 40.451,
+   "e": 42.742
+  },
+  {
+   "text": "e se rendeu na mesma hora.",
+   "s": 43.059,
+   "e": 44.28
+  },
+  {
+   "text": "O imperador desistiu do rio.",
+   "s": 45.135,
+   "e": 46.639
+  },
+  {
+   "text": "Em troca,",
+   "s": 47.502,
+   "e": 48.002
+  },
+  {
+   "text": "a Holanda pagou uma indeniza\u00e7\u00e3o em dinheiro.",
+   "s": 48.195,
+   "e": 50.141
+  },
+  {
+   "text": "Ningu\u00e9m morreu.",
+   "s": 50.996,
+   "e": 51.822
+  },
+  {
+   "text": "S\u00f3 o almo\u00e7o.",
+   "s": 52.709,
+   "e": 53.441
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 54.292,
+   "e": 55.737
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 56.03,
+   "e": 57.791
+  }
+ ]
+}

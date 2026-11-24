@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: CORTADORES DE REDE
+- Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b6  (~5.5 s)

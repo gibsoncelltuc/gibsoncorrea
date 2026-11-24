@@ -17,7 +17,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "ship"
+    "kit/navio_destroier"
    ],
    "palavras": 11,
    "cena": "b0",
@@ -43,7 +43,7 @@
    "multidao": 0,
    "objetos": [
     "kit/cod",
-    "ship"
+    "kit/navio_destroier"
    ],
    "palavras": 19,
    "cena": "b1",
@@ -81,7 +81,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "ship"
+    "kit/navio_destroier"
    ],
    "palavras": 14,
    "cena": "b3",
@@ -96,12 +96,11 @@
    "camera": "group",
    "personagens": [
     "BRI",
-    "BRI",
-    "PES"
+    "BRI"
    ],
    "multidao": 0,
    "objetos": [
-    "ship"
+    "kit/navio_destroier"
    ],
    "palavras": 10,
    "cena": "b4",
@@ -133,7 +132,7 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [
-    "ship"
+    "kit/navio_destroier"
    ],
    "palavras": 16,
    "cena": "b6",

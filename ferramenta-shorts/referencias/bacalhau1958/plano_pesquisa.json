@@ -107,6 +107,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "navio destroier",
+   "consultas": [
+    "navio destroier"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "navio da epoca",
    "consultas": [
