@@ -7,7 +7,7 @@
 - Roupas: {'TRU': 'terno azul-marinho, gravata vermelha, cabelo loiro', 'CND': 'blazer verde, óculos', 'RAN': 'terno escuro de empresário', 'JUS': 'terno com gravata azul'}
 - Cenario real: sala de reunião (boardroom) escura com mesa longa, cadeiras e televisão; rua de Nova York com arranha-céus e barraca de limonada
 - Objetos: ['televisão', 'mesa de reunião', 'barraca de limonada', 'prancheta']
-- Cenarios usados no video: interior galpao, interior loja, loc_cidade, loc_pista
+- Cenarios usados no video: interior galpao, interior loja, interior madeira, loc_cidade, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

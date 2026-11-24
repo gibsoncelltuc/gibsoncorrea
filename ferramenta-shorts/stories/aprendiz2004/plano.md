@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 2004 | - | -
+b0 | two | -  | - | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | prêmio (stars + som de sino); encena: x_discute (point) @2 (acao + som de efeito); encena: vence (up) @4 (acao + som de efeito) | -
 b3 | two | -  | - | vender (stars + som de sino); encena: negocio (reach) @10 (acao + som de efeito) | -

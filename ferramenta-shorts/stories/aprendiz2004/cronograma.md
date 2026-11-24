@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 13 - Você Está Demitido
 
-Gerado em 24/11 10:06 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:09 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,11 +10,11 @@ b0 | simples | loc_cidade | two | TRU, CND | - | marco_trumptower | - | Duas pal
 b1 | transicao | loc_cidade | reveal | POV, POV | 6 | marco_trumptower | - | Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa
 b2 | simples | interior loja | two | TRU, CND | - | - | - | Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade 
 b3 | simples | loc_cidade | two | CND, POV | - | stall | - | Toda semana, as equipes faziam uma tarefa de negócios, como vender lim
-b4 | simples | interior loja | two | TRU, CND | - | - | - | No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha q
-b5 | simples | interior loja | close | TRU | - | - | - | O jeito de eliminar virou a marca do programa: ele apontava o dedo e d
+b4 | simples | interior madeira | two | TRU, CND | - | - | - | No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha q
+b5 | simples | interior madeira | close | TRU | - | - | - | O jeito de eliminar virou a marca do programa: ele apontava o dedo e d
 b6 | chave | loc_pista | crowd | POV, POV, CND | 30 | marco_trumptower, tv, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A final da primeira temporada foi vista por cerca de vinte e oito milh
 b7 | simples | interior galpao | two | RAN, TRU | - | - | - | O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e c
-b8 | chave | loc_cidade | crowd | POV, POV | 12 | marco_trumptower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mes
+b8 | chave | loc_cidade | crowd | JUS, POV, POV | 12 | marco_trumptower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mes
 b9 | simples | loc_pista | two | TRU, POV | - | tv | - | Trump apresentou o programa por mais de dez anos, e só deixou em dois 
 b10 | simples | loc_pista | close | TRU | - | tv | - | Um programa de emprego que acabou ficando famoso justamente por demiti
 b11 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

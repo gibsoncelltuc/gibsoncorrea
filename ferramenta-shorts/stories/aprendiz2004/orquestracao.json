@@ -114,7 +114,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -130,7 +130,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior madeira"
   },
   {
    "camera": "crowd",
@@ -180,6 +180,7 @@
   {
    "camera": "crowd",
    "personagens": [
+    "JUS",
     "POV",
     "POV"
    ],

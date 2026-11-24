@@ -54,7 +54,6 @@
     "TRU:0:smug",
     "CND:0:shock"
    ],
-   "text": "2004",
    "fx": [
     "stars@30"
    ],
@@ -108,7 +107,7 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "madeira",
    "who": [
     "TRU:0:stern",
     "CND:0:nervous"
@@ -124,7 +123,7 @@
   },
   {
    "shot": "close",
-   "interior": "loja",
+   "interior": "madeira",
    "who": [
     "TRU:0:smug"
    ],
@@ -195,6 +194,7 @@
   {
    "shot": "reveal",
    "who": [
+    "JUS:0:smug",
     "POV:0:surprised",
     "POV:1:grin"
    ],

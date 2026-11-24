@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 13 - Você Está Demitido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.5s - 14 palavras - plano two
@@ -11,7 +11,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 2004 | OK |
 
 ## Cena b1 - 5.9s a 9.4s - 15 palavras - plano reveal
 > "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz."

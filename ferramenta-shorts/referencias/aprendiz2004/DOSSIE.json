@@ -9,6 +9,7 @@
   "cenarios": [
    "interior galpao",
    "interior loja",
+   "interior madeira",
    "loc_cidade",
    "loc_pista"
   ],
@@ -57,11 +58,15 @@
   "kit/marco_trumptower",
   "kit/palete",
   "kit/room_eua_shop",
-  "kit/room_europa_shop",
+  "kit/room_europa_wood",
   "kit/room_galpao",
   "kit/stall",
   "kit/tv",
+  "mk/Bed_Twin1",
+  "mk/Cabinet",
   "mk/Crate_Metal",
+  "mk/Nightstand_Shelf",
+  "mk/Stool",
   "mk/Workbench",
   "nature/picket_fence"
  ],
