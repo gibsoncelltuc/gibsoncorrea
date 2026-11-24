@@ -64,7 +64,8 @@
      "run"
     ]
    ],
-   "shot_lock": true
+   "shot_lock": true,
+   "objetos": false
   },
   {
    "shot": "reveal",
