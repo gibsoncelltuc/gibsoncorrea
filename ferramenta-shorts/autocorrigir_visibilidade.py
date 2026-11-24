@@ -30,7 +30,7 @@ for falha in V.get('falhas', []):
         if GRANDE.search(a):
             if n == 0: b.update({'shot': 'wide', 'cx': round(x, 1), 'cz': round(z * 0.7, 1), 'h': 2.8, 'd0': round(max(13.0, abs(z) * 0.8 + 8), 1), 'd1': round(max(11.0, abs(z) * 0.8 + 5), 1)}); b['crowd'] = {'n': 0}; acao = f'camera em plano aberto mirando o objeto (cx {b["cx"]}, cz {b["cz"]}), sem multidao na frente'
             elif n == 1: p[1], p[2] = 0.0, round(max(min(z, -6.0), -9.0), 1); b.update({'cx': 0.0, 'cz': round(p[2] * 0.7, 1), 'd0': round(abs(p[2]) + 9, 1), 'd1': round(abs(p[2]) + 6, 1)}); b['who'] = (b.get('who') or [])[:1]; acao = 'objeto no centro do fundo, so 1 personagem na frente'
-            else: b['who'] = []; b['crowd'] = {'n': 0}; b.update({'cx': 0.0, 'cz': round(num(p[2]) * 0.5, 1)}); acao = 'cena so do objeto (sem personagem na frente)'
+            else: b['who'] = (b.get('who') or [])[:1]; b['crowd'] = {'n': 0}; b.update({'cx': 0.0, 'cz': round(num(p[2]) * 0.7, 1), 'd0': round(abs(num(p[2])) + 7, 1), 'd1': round(abs(num(p[2])) + 5, 1)}); acao = 'camera mais perto do objeto, 1 personagem de lado'
         else:
             if n == 0: p[1], p[2] = round(max(-1.6, min(1.6, x * 0.5)), 1), round(max(z, -1.0) if z < 0.6 else min(z, 1.2), 1); acao = f'objeto trazido para perto do centro ({p[1]}, {p[2]})'
             elif n == 1: p[1], p[2] = 0.6, 1.0; s = max(s, 1.5); acao = 'objeto na frente dos personagens e maior'
@@ -42,16 +42,25 @@ for falha in V.get('falhas', []):
         else:
             seq = ['two', 'wide', 'group', 'low']; cur = b.get('shot', 'two'); b['shot'] = seq[(seq.index(cur) + 1) % len(seq)] if cur in seq else 'wide'; b['detalhe'] = False; acao = f'enquadramento trocado para "{b["shot"]}" (o que tapava e cenario)'
     elif 'CORTADO' in txt:
-        if b.get('cx') is not None or n >= 1: b['who'] = (b.get('who') or [])[:1]; b['_who_lado'] = True; acao = 'so 1 personagem na cena (o outro saia cortado na borda)'
-        else: b['shot'] = 'wide' if b.get('shot') != 'wide' else 'group'; acao = f'enquadramento mais aberto ("{b["shot"]}") para o personagem caber inteiro'
-        if n >= 2: b['who'] = []; acao = 'cena sem personagem na frente (continuava cortado)'
+        if n == 0: b['shot'] = 'wide' if b.get('shot') != 'wide' else 'group'; b['detalhe'] = False; acao = f'enquadramento mais aberto ("{b["shot"]}") para o personagem caber inteiro'
+        else:
+            w = b.get('who') or []
+            if len(w) > 1: b['who'] = w[:max(1, len(w) - 1)]; acao = 'um personagem a menos na cena (o da borda saia cortado)'
+            else: b['d0'] = round(num(b.get('d0', 9)) + 3, 1); b['d1'] = round(num(b.get('d1', 8)) + 3, 1); acao = 'camera mais afastada para o personagem caber inteiro'
     elif 'DENTRO' in txt:
         if idx is not None: p = props[idx]; p[2] = round(min(num(p[2]), -8.0) - 14.0, 1)
         for c in ('cx', 'cz'): b.pop(c, None)
         acao = f'"{a}" afastado para o fundo e mira da camera fora dele'
     else: continue
     b['_auto_vis'] = n + 1; mudou = True; log.append(f'b{k}: {txt} -> {acao}')
-if mudou: json.dump(D, open(P, 'w'), ensure_ascii=False, indent=1)
+import subprocess, shutil
+def riscos():
+    o = subprocess.run(['python3', 'mkvideo.py', i], capture_output=True, text=True).stdout
+    m_ = re.findall(r'-> (\d+) RISCO', o); return int(m_[-1]) if m_ else 99
+if mudou:
+    antes = riscos(); shutil.copy(P, P + '.antes_autovis'); json.dump(D, open(P, 'w'), ensure_ascii=False, indent=1)
+    if riscos() > antes:
+        shutil.copy(P + '.antes_autovis', P); subprocess.run(['python3', 'mkvideo.py', i], capture_output=True); log.append('conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)'); mudou = False
 with open(f'stories/{i}/autocorrecoes.md', 'a') as f:
     f.write(f'\n## {datetime.datetime.now():%d/%m %H:%M} autocorrecao de visibilidade\n' + ''.join(f'- {l}\n' for l in log))
 print('\n'.join(log) or 'nada a corrigir'); sys.exit(0 if mudou else 1)

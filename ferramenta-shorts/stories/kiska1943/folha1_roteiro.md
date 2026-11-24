@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 34.000 SOLDADOS | mapa: ALASCA
 - Funcao na historia: desenvolvimento
@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 
 ## Cena b3  (~2.4 s)
 - Narracao: Antes do desembarque, bombardearam Kiska durante semanas.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@38, cannon@60, cannon@82
-- Efeito + som nas palavras-chave: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: cannon@38, cannon@60, cannon@82, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60
+- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito
 - Efeito visual marcado: burst@38, burst@60, burst@82
 - Texto na tela: BOMBARDEIO
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.8 s)
 - Narracao: No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.
@@ -76,12 +76,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 
 ## Cena b8  (~5.9 s)
 - Narracao: Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@30, gun@50, gun@65, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: gun@30, gun@50, gun@65
 - Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito
 - Efeito visual marcado: burst@30, burst@60
 - Texto na tela: FOGO AMIGO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.2 s)
 - Narracao: Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.
