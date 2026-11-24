@@ -4,16 +4,16 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | - | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | crowd | -  | tropa | prêmio (stars + som de sino); encena: x_discute (point) @2 (acao + som de efeito); encena: vence (up) @4 (acao + som de efeito) | -
-b3 | two | -  | - | vender (stars + som de sino); encena: negocio (reach) @10 (acao + som de efeito) | -
-b4 | two | -  | interior | encena: perde (facepalm) @4 (acao + som de efeito); encena: sai @16 (acao + som de efeito) | -
-b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | encena: fala (point) @10 (acao + som de efeito) | -
+b2 | crowd | -  | tropa | encena: x_discute (point) @2 (acao + som de efeito) | -
+b3 | two | -  | - | vender (stars + som de sino); encena: negocio (reach) @9 (acao + som de efeito) | -
+b4 | two | -  | interior | encena: perde (facepalm) @2 (acao + som de efeito) | -
+b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | encena: fala (point) @9 (acao + som de efeito) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 28 MILHÕES | - | -
-b7 | two | -  | interior | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
-b8 | crowd | -  | batalha aberta com tiros, tropa, mapa | encena: chega (point) @3 (acao + som de efeito) | -
+b7 | two | -  | - | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
+b8 | crowd | -  | batalha aberta com tiros, tropa, mapa | - | -
 b9 | two | -  | - | encena: fala (point) @1 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 26% | medio 53% | aberto 19% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 29% | medio 51% | aberto 18% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal

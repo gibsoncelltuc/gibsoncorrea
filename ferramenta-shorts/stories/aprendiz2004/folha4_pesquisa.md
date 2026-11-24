@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2004 | Lugar: Nova York, EUA: sala de reunião escura do programa (estúdio) com mesa grande e cadeiras de couro; escritório e arranha-céu em Manhattan; rua com barraca de limonada | Quando: janeiro de 2004 (estreia, NBC); dia nas ruas, estúdio com luz baixa na sala de reunião
 - HEROIS (objeto): kit/tv
 - HEROIS (personagens): TRU, CND
-- Cenarios: interior galpao, interior madeira, loc_cidade, loc_pista
+- Cenarios: interior madeira, loc_cidade, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
