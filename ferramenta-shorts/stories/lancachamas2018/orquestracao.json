@@ -9,7 +9,7 @@
   ]
  ],
  "metricas": {
-  "acoes_encenadas": 100,
+  "acoes_encenadas": 92,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -56,6 +56,27 @@
    "camera": "two",
    "personagens": [
     "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/flamethrower"
+   ],
+   "palavras": 17,
+   "cena": "b2",
+   "frase": "Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa, lançaria um lança-chamas. Os bonés esgotaram.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [
+    "vendesse"
+   ],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
     "CMP"
    ],
    "multidao": 0,
@@ -63,7 +84,7 @@
     "kit/flamethrower"
    ],
    "palavras": 12,
-   "cena": "b2",
+   "cena": "b3",
    "frase": "O nome dele era Não é um lança-chamas, e custava quinhentos dólares.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -83,7 +104,7 @@
     "kit/marco_hollywood"
    ],
    "palavras": 13,
-   "cena": "b3",
+   "cena": "b4",
    "frase": "Acontece que o aparelho soltava fogo de verdade, e essa era a piada.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -108,7 +129,7 @@
     "kit/flamethrower"
    ],
    "palavras": 13,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -127,7 +148,7 @@
     "kit/extinguisher"
    ],
    "palavras": 10,
-   "cena": "b5",
+   "cena": "b6",
    "frase": "Cada compra vinha com um extintor de incêndio de brinde.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -146,7 +167,7 @@
     "kit/marco_hollywood"
    ],
    "palavras": 12,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -171,7 +192,7 @@
     "nature/picket_fence"
    ],
    "palavras": 11,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Isso rendeu cerca de dez milhões de dólares para a empresa.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -191,7 +212,7 @@
     "kit/phone"
    ],
    "palavras": 10,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "O próprio Musk postou vídeos soltando fogo com o aparelho.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -217,7 +238,7 @@
     "kit/flamethrower"
    ],
    "palavras": 11,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "Um produto que se chamava de tudo, menos do que parecia.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -233,7 +254,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
