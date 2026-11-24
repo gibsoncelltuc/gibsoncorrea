@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared) | multidao: 0 de 
-- Animacao: tomba | interacao: empurrar
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, gauleses, muralha, soldado, subida
 - RISCOS: nenhum
@@ -124,7 +124,7 @@ buildings/castle_tower | b2, b4, b6 | pronto | conferir na folha de contato se l
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b3 | planos abertos: 5 | mistura: close 10% | medio 51% | aberto 39% | detalhe 0%
-- Interacoes: b6 empurrar, b7 o outro se aproxima, b8 entregar
+- Interacoes: b6 cochichar, b7 o outro se aproxima, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

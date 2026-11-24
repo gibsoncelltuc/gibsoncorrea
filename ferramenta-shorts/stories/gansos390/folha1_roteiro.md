@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@66, whoosh@60
-- Efeito + som nas palavras-chave: encena: x_acorda (up) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: empurra (push) @13 -> acao + som de efeito; encena: tomba @15 -> acao + som de efeito
 - Efeito visual marcado: dust@70, puff@80
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

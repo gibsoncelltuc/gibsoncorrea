@@ -12,8 +12,8 @@ for BR in claude/prod-a2 claude/prod-b2; do
     for p in $(git ls-tree --name-only origin/$BR $d/ | grep 'mp4.part_' | sort); do git show origin/$BR:$p >> $T/$nome; done
     [ "$(sha256sum $T/$nome | cut -d' ' -f1)" = "$sha" ] || { echo "ERRO $id: sha256 nao confere"; continue; }
     serie=$(echo $nome | sed -E 's/-EP-.*//; s/-/ /g'); case "$serie" in "Curiosidade e Ciencia"|"Guerras Inusitadas"|"Poder e Fama"|"E Se") ;; *) serie=Avulsos;; esac
-    mkdir -p "videos_prontos/$serie"; mv $T/$nome "videos_prontos/$serie/"
+    mkdir -p "videos_prontos/_a_conferir"; mv $T/$nome "videos_prontos/_a_conferir/"   # 24/11 (ordem do Gibson): video de sessao NUNCA entra direto na pasta da serie; so' depois da conferencia da principal (aprovar_entrega.sh)
     git show origin/$BR:$d/review_sheet.jpg > "/tmp/claude-0/receb_${id}_folha.jpg" 2>/dev/null
-    echo "$id $sha" >> $R; echo "NOVO $BR $id -> videos_prontos/$serie/$nome | folha: /tmp/claude-0/receb_${id}_folha.jpg"
+    echo "$id $sha" >> $R; echo "NOVO $BR $id -> videos_prontos/_a_conferir/$nome (serie: $serie) | folha: /tmp/claude-0/receb_${id}_folha.jpg"
   done
 done

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 10 palavras - plano group
@@ -62,9 +62,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acordou (31.0s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | tomba | OK |
+| 1 | impediu (33.8s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | subida (34.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 36.2s a 38.6s - 8 palavras - plano two
 > "Os gauleses se afastaram, mas mantiveram o cerco."
