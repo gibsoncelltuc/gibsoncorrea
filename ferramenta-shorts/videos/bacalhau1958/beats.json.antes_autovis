@@ -45,37 +45,37 @@
    "props": [
     [
      "kit/barco_guarda",
-     0.6,
-     1.0,
-     1.5
+     5,
+     -13,
+     1.0
     ],
     [
      "vehicles/motorboat",
-     5,
-     -18,
+     13,
+     -15,
      1.0
     ],
     [
      "kit/fishing_net",
-     0,
-     -17,
+     9,
+     -14,
      1.0
     ],
     [
      "kit/navio_leander",
-     13,
-     -44,
+     18,
+     -42,
      1.0
     ]
    ],
    "text": "ISLÂNDIA VENCEU",
    "tat": 16,
    "tstyle": "blue",
-   "cx": 0,
-   "cz": -17,
-   "h": 5.0,
-   "d0": 26,
-   "d1": 22,
+   "cx": 9,
+   "cz": -14,
+   "h": 4.0,
+   "d0": 20,
+   "d1": 17,
    "detalhe": false,
    "impact": true,
    "fx": [
@@ -83,8 +83,7 @@
    ],
    "sfx": [
     "creak@40"
-   ],
-   "_auto_vis": 2
+   ]
   },
   {
    "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
@@ -230,8 +229,8 @@
      {
       "move": [
        [
-        -1,
-        -30
+        8,
+        -26
        ],
        0,
        0
@@ -240,8 +239,8 @@
     ],
     [
      "kit/navio_leander",
-     7,
-     -33,
+     16,
+     -28,
      1.0
     ]
    ],
@@ -254,11 +253,11 @@
     "creak@62"
    ],
    "mood": "tense",
-   "cx": 0,
-   "cz": -31,
+   "cx": 8,
+   "cz": -26,
    "h": 6.0,
-   "d0": 38,
-   "d1": 32,
+   "d0": 32,
+   "d1": 28,
    "acao": "comemorar",
    "shot_lock": true,
    "detalhe": false,

@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): ICE, BRI, PES
 - Cenarios: harbor, interior pedra
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/barco_guarda: 5.0 m reais -> escala 1.45 (estava 1.0: pequeno demais); vehicles/motorboat: 5.0 m reais -> escala 3.16 (estava 1.0: pequeno demais); kit/navio_leander: 30.0 m reais -> escala 8.1 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/barco_guarda: 5.0 m reais -> escala 1.45 (estava 1.0: pequeno demais); kit/navio_leander: 30.0 m reais -> escala 8.1 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 

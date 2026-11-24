@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (0): -
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/barco_guarda, vehicles/motorboat, kit/fishing_net, kit/navio_leander
+- Objetos/modelos: kit/barco_guarda, kit/fishing_net, vehicles/motorboat, kit/navio_leander
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cortador, islandia, marinha, rede
 - RISCOS: nenhum
 
@@ -118,8 +118,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/barco_guarda | b0, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/motorboat | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fishing_net | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/motorboat | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_leander | b0, b1, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cod | b1, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
