@@ -1,124 +1,229 @@
-# FOLHA 3 - ACOES - A Praga da Dança
+# FOLHA 3 - ACOES - Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 52 acoes catalogadas, 52 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 55 acoes catalogadas, 55 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
+## Cena b0 - 0.1s a 3.5s - 14 palavras - plano two
 > "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançar (1.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançar (1.5s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | dançar (1.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançar (1.3s) | ACAO: danca | danca de bracos para cima | OK |
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | dancar | OK |
-| 5 | - | PLACA | 1518 | OK |
+<!-- FISICA -->
 
-## Cena b1 - 5.2s a 11.1s - 17 palavras - plano reveal
-> "Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e continuou no dia seguinte."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dançar (1.3s): executa: estrelinhas + som
+- ACAO: danca na palavra dançar (1.3s): bracos para cima e pulinhos curtos durante a frase
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b1 - 4.7s a 10.9s - 18 palavras - plano two
+> "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançou (7.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançou (7.0s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | dançou (8.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançou (8.8s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | dormir (10.9s) | ACAO: dorme | dormindo | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
+| 5 | - | ATUACAO | dancar | OK |
+| 6 | - | MAPA | ESTRASBURGO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dançou (8.8s): executa: estrelinhas + som
+- ACAO: danca na palavra dançou (8.8s): bracos para cima e pulinhos curtos durante a frase
+- ACAO: dorme na palavra dormir (10.9s): olhos fechados, cabeca tomba de lado, sobe e desce devagar
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b2 - 12.0s a 16.2s - 13 palavras - plano crowd
+> "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | dançavam (14.3s) | ACAO: danca | danca de bracos para cima | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | dancar | OK |
-| 4 | - | MAPA | ESTRASBURGO | OK |
+<!-- FISICA -->
 
-## Cena b2 - 11.5s a 16.7s - 15 palavras - plano group
-> "Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: danca na palavra dançavam (14.3s): bracos para cima e pulinhos curtos durante a frase
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- multidao de 36: parada, reagindo (pained), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | dançando (14.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançando (14.4s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | dancar | OK |
-
-## Cena b3 - 17.0s a 21.9s - 14 palavras - plano crowd
-> "Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar."
+## Cena b3 - 17.2s a 22.3s - 14 palavras - plano group
+> "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sangrando (20.0s) | ACAO: x_chora | mao no rosto + lagrimas | OK |
-| 2 | pedindo (20.4s) | ACAO: fala | aponta explicando | OK |
-| 3 | socorro (20.7s) | EFEITO: ring | onda + som | OK |
-| 4 | socorro (20.7s) | ACAO: grita | grita de bracos para cima | OK |
-| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | PLACA | 400 | OK |
+| 1 | dançavam (19.9s) | ACAO: danca | danca de bracos para cima | OK |
+| 2 | sangrando (21.1s) | ACAO: x_chora | mao no rosto + lagrimas | OK |
+| 3 | pedindo (21.9s) | ACAO: fala | aponta explicando | OK |
+| 4 | socorro (22.3s) | EFEITO: ring | onda + som | OK |
+| 5 | socorro (22.3s) | ACAO: grita | grita de bracos para cima | OK |
+| 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 7 | - | INTERACAO | empurrar | OK |
+| 8 | - | ATUACAO | dancar | OK |
+| 9 | - | PLACA | 50 A 400 | OK |
+<!-- FISICA -->
 
-## Cena b4 - 22.2s a 27.4s - 15 palavras - plano two
-> "O prefeito chamou os médicos. "É sangue quente", disseram eles. "O remédio é dançar mais.""
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: danca na palavra dançavam (19.9s): bracos para cima e pulinhos curtos durante a frase
+- ACAO: x_chora na palavra sangrando (21.1s): executa: mao no rosto + lagrimas
+- ACAO: fala na palavra pedindo (21.9s): braco estendido apontando para o objeto/lugar citado
+- EFEITO: ring na palavra socorro (22.3s): executa: onda + som
+- ACAO: grita na palavra socorro (22.3s): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- EMOCAO: shout (a cena toda): executa: o rosto vira "shout" na palavra
+- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 36: parada, reagindo (pained), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b4 - 23.5s a 27.8s - 16 palavras - plano two
+> "O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chamou (23.0s) | ACAO: fala | aponta explicando | OK |
-| 2 | dançar (27.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | dançar (27.0s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | chamou (24.7s) | ACAO: fala | aponta explicando | OK |
+| 2 | dança (27.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | dança (27.8s) | ACAO: danca | danca de bracos para cima | OK |
 | 4 | - | INTERACAO | avanca e o outro recua | OK |
 | 5 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b5 - 27.8s a 34.1s - 18 palavras - plano low
-> "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra chamou (24.7s): braco estendido apontando para o objeto/lugar citado
+- EFEITO: stars na palavra dança (27.8s): executa: estrelinhas + som
+- ACAO: danca na palavra dança (27.8s): bracos para cima e pulinhos curtos durante a frase
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | levou (29.3s) | ACAO: pega | levanta/segura | OK |
-| 2 | Montou (30.7s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 3 | músicos (32.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | músicos (32.6s) | ACAO: danca | danca de bracos para cima | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | PALCO | OK |
-
-## Cena b6 - 34.4s a 40.4s - 17 palavras - plano orbit
-> "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
+## Cena b5 - 28.9s a 32.7s - 13 palavras - plano wide
+> "A cidade reformou salões e contratou músicos para manter os dançarinos de pé."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (35.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | música (36.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | música (36.7s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
-| 4 | entrou (37.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 5 | dança (38.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | dança (38.5s) | ACAO: danca | danca de bracos para cima | OK |
-| 7 | caíram (39.6s) | EFEITO: dust | poeira + som | OK |
+| 1 | músicos (30.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | músicos (30.8s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | dançarinos (31.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | dançarinos (31.9s) | ACAO: danca | danca de bracos para cima | OK |
+| 5 | - | ATUACAO | dancar | OK |
+| 6 | - | PLACA | SALÃO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra músicos (30.8s): executa: estrelinhas + som
+- ACAO: danca na palavra músicos (30.8s): bracos para cima e pulinhos curtos durante a frase
+- EFEITO: stars na palavra dançarinos (31.9s): executa: estrelinhas + som
+- ACAO: danca na palavra dançarinos (31.9s): bracos para cima e pulinhos curtos durante a frase
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b6 - 33.7s a 39.4s - 22 palavras - plano orbit
+> "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | Deu (33.7s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | entrou (34.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | dança (35.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | dança (35.4s) | ACAO: danca | danca de bracos para cima | OK |
+| 5 | dançar (39.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | dançar (39.0s) | ACAO: danca | danca de bracos para cima | OK |
+| 7 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
 | 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 9 | - | ATUACAO | dancar | OK |
+<!-- FISICA -->
 
-## Cena b7 - 40.7s a 45.9s - 15 palavras - plano two
-> "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_entrega na palavra Deu (33.7s): executa: estende a mao entregando
+- ACAO: chega na palavra entrou (34.9s): executa: entra andando pela lateral
+- EFEITO: stars na palavra dança (35.4s): executa: estrelinhas + som
+- ACAO: danca na palavra dança (35.4s): bracos para cima e pulinhos curtos durante a frase
+- EFEITO: stars na palavra dançar (39.0s): executa: estrelinhas + som
+- ACAO: danca na palavra dançar (39.0s): bracos para cima e pulinhos curtos durante a frase
+- EMOCAO: scared (a cena toda): executa: o rosto vira "scared" na palavra
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b7 - 40.6s a 44.8s - 15 palavras - plano two
+> "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | discutem (44.4s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | morriam (41.6s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b8 - 46.3s a 51.5s - 15 palavras - plano track
-> "No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: morre na palavra morriam (41.6s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b8 - 46.0s a 52.2s - 22 palavras - plano wide
+> "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançarinos (47.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançarinos (47.4s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | dança (51.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | dança (51.1s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | dançarinos (46.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançarinos (46.8s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | dança (51.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | dança (51.9s) | ACAO: danca | danca de bracos para cima | OK |
 | 5 | - | ATUACAO | dancar | OK |
+| 6 | - | PLACA | CAPELA DO MONTE | OK |
+<!-- FISICA -->
 
-## Cena b9 - 51.9s a 55.6s - 11 palavras - plano close
-> "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dançarinos (46.8s): executa: estrelinhas + som
+- ACAO: danca na palavra dançarinos (46.8s): bracos para cima e pulinhos curtos durante a frase
+- EFEITO: stars na palavra dança (51.9s): executa: estrelinhas + som
+- ACAO: danca na palavra dança (51.9s): bracos para cima e pulinhos curtos durante a frase
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 6: parada, reagindo (relief), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b9 - 53.3s a 56.7s - 14 palavras - plano close
+> "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | - | EMOCAO: distrust | o rosto vira "distrust" na palavra | OK |
+| 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b10 - 55.9s a 60.4s - 13 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EMOCAO: distrust (a cena toda): executa: o rosto vira "distrust" na palavra
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b10 - 58.1s a 61.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

@@ -1,0 +1,307 @@
+{
+ "id": "danca1518",
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Praga da Dança",
+   "consultas": [
+    "A Praga da Dança",
+    "Uma Era Estrasburgo Ela Em 1518"
+   ],
+   "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estrasburgo",
+   "consultas": [
+    "Strasbourg half-timbered houses medieval street",
+    "Estrasburgo",
+    "Estrasburgo 1518"
+   ],
+   "achados": [
+    {
+     "titulo": "Strasbourg Canal and Bridge.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Strasbourg_Canal_and_Bridge.jpg/500px-Strasbourg_Canal_and_Bridge.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AStrasbourg_Canal_and_Bridge.jpg",
+     "descricao": "represents the beautiful blend of French and German architecture found in \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/danca1518/prints/estrasburgo_f23964.jpg",
+     "consulta": "Strasbourg half-timbered houses medieval street"
+    },
+    {
+     "titulo": "Strasburg.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Strasburg.jpg/500px-Strasburg.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AStrasburg.jpg",
+     "descricao": "This file is licensed under the Creative Commons Attribution 2.0 Generic license. You are free: to share – to copy, distribute and transmit the work to",
+     "ordem": 1,
+     "print": "referencias/danca1518/prints/estrasburgo_57008e.jpg",
+     "consulta": "Estrasburgo"
+    },
+    {
+     "titulo": "Vélo sur la Route des Forts, Strasbourg.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/V%C3%A9lo_sur_la_Route_des_Forts%2C_Strasbourg.jpg/500px-V%C3%A9lo_sur_la_Route_des_Forts%2C_Strasbourg.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9lo_sur_la_Route_des_Forts%2C_Strasbourg.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: English Vélo sur la Route des Forts, Strasbourg author name string:",
+     "ordem": 4,
+     "print": "referencias/danca1518/prints/estrasburgo_4e7992.jpg",
+     "consulta": "Estrasburgo"
+    }
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1518",
+   "consultas": [
+    "1518 fashion clothing",
+    "16th century clothing painting"
+   ],
+   "achados": [
+    {
+     "titulo": "La Belle Paule - Née à Toulouse en 1518 - Fonds Ancely - B315556101 A GATINE 007.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/La_Belle_Paule_-_N%C3%A9e_%C3%A0_Toulouse_en_1518_-_Fonds_Ancely_-_B315556101_A_GATINE_007.jpg/500px-La_Belle_Paule_-_N%C3%A9e_%C3%A0_Toulouse_en_1518_-_Fonds_Ancely_-_B315556101_A_GATINE_007.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALa_Belle_Paule_-_N%C3%A9e_%C3%A0_Toulouse_en_1518_-_Fonds_Ancely_-_B315556101_A_GATINE_007.jpg",
+     "descricao": "Georges-Jacques Gatine: La Belle Paule - Née à Toulouse en \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/danca1518/prints/roupas_e_ruas_de_1518_1c4070.jpg",
+     "consulta": "1518 fashion clothing"
+    },
+    {
+     "titulo": "Luca di leida, partita a scacchi, 1518 ca. 01.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Luca_di_leida%2C_partita_a_scacchi%2C_1518_ca._01.JPG/500px-Luca_di_leida%2C_partita_a_scacchi%2C_1518_ca._01.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALuca_di_leida%2C_partita_a_scacchi%2C_1518_ca._01.JPG",
+     "descricao": "English",
+     "ordem": 3,
+     "print": "referencias/danca1518/prints/roupas_e_ruas_de_1518_ce1201.jpg",
+     "consulta": "1518 fashion clothing"
+    },
+    {
+     "titulo": "Le Mercure des Salons, Modes de Paris, 1831, No. 109 Chapeau de velours (..), RP-P-2009-1518.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Le_Mercure_des_Salons%2C_Modes_de_Paris%2C_1831%2C_No._109_Chapeau_de_velours_%28..%29%2C_RP-P-2009-1518.jpg/500px-Le_Mercure_des_Salons%2C_Modes_de_Paris%2C_1831%2C_No._109_Chapeau_de_velours_%28..%29%2C_RP-P-2009-1518.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALe_Mercure_des_Salons%2C_Modes_de_Paris%2C_1831%2C_No._109_Chapeau_de_velours_%28..%29%2C_RP-P-2009-1518.jpg",
+     "descricao": "Salons, Modes de Paris, 1831, No. 109 Chapeau de velours (..), RP-P-2009-\\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/danca1518/prints/roupas_e_ruas_de_1518_932552.jpg",
+     "consulta": "1518 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Frau Troffea",
+   "consultas": [
+    "dancing plague 1518 engraving Hendrick Hondius",
+    "Frau Troffea",
+    "Frau Troffea 1518"
+   ],
+   "achados": [
+    {
+     "titulo": "Danse Saint Guy 1518 Charles Spindler.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Danse_Saint_Guy_1518_Charles_Spindler.jpg/500px-Danse_Saint_Guy_1518_Charles_Spindler.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADanse_Saint_Guy_1518_Charles_Spindler.jpg",
+     "descricao": "Commons Public Domain Mark 1.0falsefalse English French L\\u0026#039;épidémie dansante de \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/danca1518/prints/frau_troffea_2b5e94.jpg",
+     "consulta": "Frau Troffea"
+    },
+    {
+     "titulo": "Interdiction danse Strasbourg Sebastien Brant 1518.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Interdiction_danse_Strasbourg_Sebastien_Brant_1518.jpg/500px-Interdiction_danse_Strasbourg_Sebastien_Brant_1518.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AInterdiction_danse_Strasbourg_Sebastien_Brant_1518.jpg",
+     "descricao": "Domain Mark 1.0falsefalse English Prohibition \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/danca1518/prints/frau_troffea_32706d.jpg",
+     "consulta": "Frau Troffea"
+    },
+    {
+     "titulo": "Die Wallfahrt der Fallsuechtigen nach Meulebeeck.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Die_Wallfahrt_der_Fallsuechtigen_nach_Meulebeeck.jpg/500px-Die_Wallfahrt_der_Fallsuechtigen_nach_Meulebeeck.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADie_Wallfahrt_der_Fallsuechtigen_nach_Meulebeeck.jpg",
+     "descricao": "(einem Ort in der Nähe von Brüssel). Es wird vermutet, dass English \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/danca1518/prints/frau_troffea_176b5a.jpg",
+     "consulta": "Frau Troffea"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "médicos de 1518",
+   "consultas": [
+    "16th century physician engraving",
+    "médicos de 1518",
+    "médicos de 1518 1518"
+   ],
+   "achados": [
+    {
+     "titulo": "Robert Sanders. Line engraving. Wellcome V0005208.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Robert_Sanders._Line_engraving._Wellcome_V0005208.jpg/500px-Robert_Sanders._Line_engraving._Wellcome_V0005208.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARobert_Sanders._Line_engraving._Wellcome_V0005208.jpg",
+     "descricao": "Sanders. Line \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/danca1518/prints/m_dicos_de_1518_e15265.jpg",
+     "consulta": "16th century physician engraving"
+    },
+    {
+     "titulo": "Hermann Follinus. Line engraving. Wellcome V0001951.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hermann_Follinus._Line_engraving._Wellcome_V0001951.jpg/500px-Hermann_Follinus._Line_engraving._Wellcome_V0001951.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHermann_Follinus._Line_engraving._Wellcome_V0001951.jpg",
+     "descricao": "in Dutch. \\u0026quot;Born in Friesland at the end of the \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/danca1518/prints/m_dicos_de_1518_9e9837.jpg",
+     "consulta": "16th century physician engraving"
+    },
+    {
+     "titulo": "Death and the physician.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Death_and_the_physician.jpg/500px-Death_and_the_physician.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADeath_and_the_physician.jpg",
+     "descricao": "DescriptionDeath and the \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/danca1518/prints/m_dicos_de_1518_41b0a3.jpg",
+     "consulta": "16th century physician engraving"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "conselho de Estrasburgo",
+   "consultas": [
+    "16th century town council Strasbourg",
+    "conselho de Estrasburgo",
+    "conselho de Estrasburgo 1518"
+   ],
+   "achados": [
+    {
+     "titulo": "Strasbourg Concorde.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Strasbourg_Concorde.jpg/500px-Strasbourg_Concorde.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AStrasbourg_Concorde.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/danca1518/prints/conselho_de_estrasburgo_3ca0bf.jpg",
+     "consulta": "Strasbourg"
+    },
+    {
+     "titulo": "Gerwerstub 1572, maison des tanneurs, Strasbourg (2014).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Gerwerstub_1572%2C_maison_des_tanneurs%2C_Strasbourg_%282014%29.jpg/500px-Gerwerstub_1572%2C_maison_des_tanneurs%2C_Strasbourg_%282014%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGerwerstub_1572%2C_maison_des_tanneurs%2C_Strasbourg_%282014%29.jpg",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English German Straßburg, La petite \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/danca1518/prints/conselho_de_estrasburgo_850533.jpg",
+     "consulta": "Strasbourg"
+    },
+    {
+     "titulo": "Brest tram Place Strasbourg.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Brest_tram_Place_Strasbourg.JPG/500px-Brest_tram_Place_Strasbourg.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrest_tram_Place_Strasbourg.JPG",
+     "descricao": "DescriptionBrest tram Place \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/danca1518/prints/conselho_de_estrasburgo_f82d4d.jpg",
+     "consulta": "Strasbourg"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "sapatos vermelhos",
+   "consultas": [
+    "red shoes 16th century",
+    "sapatos vermelhos",
+    "sapatos vermelhos 1518"
+   ],
+   "achados": [
+    {
+     "titulo": "Spanish School 16th-century A Saint (cropped to shoes).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Spanish_School_16th-century_A_Saint_%28cropped_to_shoes%29.jpg/500px-Spanish_School_16th-century_A_Saint_%28cropped_to_shoes%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASpanish_School_16th-century_A_Saint_%28cropped_to_shoes%29.jpg",
+     "descricao": "QS:P31,Q3305213 Description English: Two Saints, a pair detail Date \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/danca1518/prints/sapatos_vermelhos_f53718.jpg",
+     "consulta": "red shoes 16th century"
+    },
+    {
+     "titulo": "Anonymous Shoes of Sigismund Augustus.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Anonymous_Shoes_of_Sigismund_Augustus.jpg/500px-Anonymous_Shoes_of_Sigismund_Augustus.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAnonymous_Shoes_of_Sigismund_Augustus.jpg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/danca1518/prints/sapatos_vermelhos_96788d.jpg",
+     "consulta": "red shoes 16th century"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "música de gaitas e tambores",
+   "consultas": [
+    "16th century musicians bagpipe drum woodcut",
+    "música de gaitas e tambores",
+    "música de gaitas e tambores 1518"
+   ],
+   "achados": [
+    {
+     "titulo": "Capela da Senhora da Cabeça - Valença - Portugal 🇵🇹 (53997124328).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Capela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997124328%29.jpg/500px-Capela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997124328%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACapela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997124328%29.jpg",
+     "descricao": "fluvial ao ritmo \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/danca1518/prints/m_sica_de_gaitas_e_tambores_853554.jpg",
+     "consulta": "música de gaitas e tambores"
+    },
+    {
+     "titulo": "Capela da Senhora da Cabeça - Valença - Portugal 🇵🇹 (53997124383).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Capela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997124383%29.jpg/500px-Capela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997124383%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACapela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997124383%29.jpg",
+     "descricao": "fluvial ao ritmo \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/danca1518/prints/m_sica_de_gaitas_e_tambores_dc9ee1.jpg",
+     "consulta": "música de gaitas e tambores"
+    },
+    {
+     "titulo": "Capela da Senhora da Cabeça - Valença - Portugal 🇵🇹 (53997201979).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Capela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997201979%29.jpg/500px-Capela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997201979%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACapela_da_Senhora_da_Cabe%C3%A7a_-_Valen%C3%A7a_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853997201979%29.jpg",
+     "descricao": "fluvial ao ritmo \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/danca1518/prints/m_sica_de_gaitas_e_tambores_2460b6.jpg",
+     "consulta": "música de gaitas e tambores"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cruzes pequenas",
+   "consultas": [
+    "cruzes pequenas",
+    "cruzes pequenas 1518"
+   ],
+   "achados": [
+    {
+     "titulo": "Capivaras (Hydrochoerus hydrochaeris) em Mogi das Cruzes.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Capivaras_%28Hydrochoerus_hydrochaeris%29_em_Mogi_das_Cruzes.jpg/500px-Capivaras_%28Hydrochoerus_hydrochaeris%29_em_Mogi_das_Cruzes.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACapivaras_%28Hydrochoerus_hydrochaeris%29_em_Mogi_das_Cruzes.jpg",
+     "descricao": "Japonesa, Mogi das \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/danca1518/prints/cruzes_pequenas_e61f93.jpg",
+     "consulta": "cruzes pequenas"
+    },
+    {
+     "titulo": "Estação Braz Cubas 2.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Esta%C3%A7%C3%A3o_Braz_Cubas_2.png/500px-Esta%C3%A7%C3%A3o_Braz_Cubas_2.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEsta%C3%A7%C3%A3o_Braz_Cubas_2.png",
+     "descricao": "das \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/danca1518/prints/cruzes_pequenas_a8c25f.jpg",
+     "consulta": "cruzes pequenas"
+    },
+    {
+     "titulo": "Capela do Calvário - Portalegre - Portugal (7212053742).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Capela_do_Calv%C3%A1rio_-_Portalegre_-_Portugal_%287212053742%29.jpg/500px-Capela_do_Calv%C3%A1rio_-_Portalegre_-_Portugal_%287212053742%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACapela_do_Calv%C3%A1rio_-_Portalegre_-_Portugal_%287212053742%29.jpg",
+     "descricao": "circunferência também em mármore, com caveiras esculpidas. Na frontaria tem \\u003Cspan class=\\",
+     "ordem": 22,
+     "print": "referencias/danca1518/prints/cruzes_pequenas_a6cc50.jpg",
+     "consulta": "cruzes pequenas"
+    }
+   ]
+  }
+ ]
+}
