@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | tropa, placa: 9 EM 10 NÃO ENTENDIAM | dinheiro (stars + som de sino); encena: paga (reach) @6 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: pensa (think) @9 (acao + som de efeito) | -
-b2 | group | -  | interior | encena: fala (point) @1 (acao + som de efeito) | -
+b2 | two | -  | interior | encena: fala (point) @1 (acao + som de efeito) | -
 b3 | reveal | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO | - | -
 b4 | two | -  | tropa, placa: US$ 30, objeto na mao | encena: fala (point) @1 (acao + som de efeito); encena: fala (point) @6 (acao + som de efeito) | -
 b5 | close | -  | batalha aberta com tiros, tropa, placa: CARTEIRA CHIVO | - | -

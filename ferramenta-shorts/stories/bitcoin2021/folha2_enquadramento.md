@@ -18,9 +18,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: DEP na esquerda, expressao neutral; BUK no centro, expressao smile; CLI na direita, expressao neutral; sem multidao; acao: fala/gesto
-- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
+- PERSONAGENS: DEP na esquerda, expressao neutral; BUK na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b3: "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
@@ -33,7 +33,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: CLI na esquerda, expressao smile, segura coin; POV (comerciante) na direita, expressao grin; multidao de 12 (CLI, POV) ATRAS dos principais; acao: conversar
-- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/stall: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
 - SOM: ding@3

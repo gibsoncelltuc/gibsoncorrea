@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 09 - O País do Bitcoin
 
-Gerado em 24/11 22:21 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:24 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | BUK, POV | 12 | bitcoin, volcano | - | Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não e
 b1 | simples | loc_cidade | reveal | BUK | 8 | volcano | - | Foi em El Salvador, na América Central, e a ideia foi do presidente Na
-b2 | simples | interior pedra | group | DEP, BUK, CLI | - | bitcoin | - | Ele anunciou o projeto em junho de dois mil e vinte e um, e o congress
+b2 | simples | interior pedra | two | DEP, BUK | - | bitcoin | - | Ele anunciou o projeto em junho de dois mil e vinte e um, e o congress
 b3 | chave | loc_pista | reveal | BUK, POV | 8 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A lei passou a valer em sete de setembro, e o país foi o primeiro do m
 b4 | simples | loc_pista | two | CLI, POV | 12 | bitcoin, stall | - | Para convencer o povo, o governo prometeu trinta dólares em bitcoin a 
 b5 | chave | loc_pista | close | CLI | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas
@@ -28,13 +28,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh bitcoin2021
-10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
+10 | Render | todos os quadros renderizados nesta versao das folhas | PENDENTE | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh bitcoin2021
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local bitcoin2021 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 10. Render
 

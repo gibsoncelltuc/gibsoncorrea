@@ -59,11 +59,10 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "DEP",
-    "BUK",
-    "CLI"
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [

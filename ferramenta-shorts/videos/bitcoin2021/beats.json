@@ -112,19 +112,18 @@
   },
   {
    "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "DEP:0:neutral",
-    "BUK:0:smile",
-    "CLI:0:neutral"
+    "BUK:0:smile"
    ],
    "interior": "pedra",
    "props": [
     [
      "kit/bitcoin",
-     0.0,
-     -1.2,
-     1.1,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -148,7 +147,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "detalhe": false,
+   "_auto_vis": 3
   },
   {
    "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
@@ -191,9 +192,9 @@
     ],
     [
      "kit/bitcoin",
-     0.0,
-     -1.2,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -242,7 +243,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",

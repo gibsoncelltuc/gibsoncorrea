@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 14 | conversar, INTERAGEM: avanca e o outro recua | kit/bitcoin, kit/volcano | - | -
 b1 | loc_cidade | reveal | 9 | encena | kit/volcano | - | -
-b2 | interior pedra | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin | - | -
+b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin | - | -
 b3 | loc_pista | reveal | 10 | encena, batalha | kit/volcano | - | -
 b4 | loc_pista | two | 14 | conversar, INTERAGEM: insiste | kit/stall, kit/bitcoin | coin | -
 b5 | loc_pista | close | 11 | conversar, batalha | - | - | -
