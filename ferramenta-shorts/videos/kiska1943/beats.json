@@ -176,13 +176,13 @@
    "interior": "pedra"
   },
   {
-   "say": "Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheiras vazias.",
+   "say": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
    "shot": "track",
    "set": "mountain",
    "hora": "dia"
   },
   {
-   "say": "Semanas antes, navios japoneses tinham levado cerca de cinco mil homens embora, em menos de uma hora, escondidos na neblina.",
+   "say": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
    "shot": "wide",
    "who": [],
    "props": [
