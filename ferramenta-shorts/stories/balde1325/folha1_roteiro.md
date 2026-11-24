@@ -49,11 +49,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b5  (~4.8 s)
 - Narracao: Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: Morreram -> puff + som de baque; chegaram -> dust + som de impacto; encena: morre @0 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: MUROS DE BOLONHA
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.5 s)
@@ -76,11 +76,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b8  (~4.8 s)
 - Narracao: O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; vitória -> stars + som de sino; encena: pega (lift) @3 -> acao + som de efeito; encena: vence (up) @13 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: TORRE GHIRLANDINA
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.9 s)

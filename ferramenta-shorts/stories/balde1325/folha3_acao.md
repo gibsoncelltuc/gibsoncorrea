@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.1s - 16 palavras - plano two
@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 33.0s a 37.0s - 14 palavras - plano two
+## Cena b5 - 33.0s a 37.0s - 14 palavras - plano group
 > "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,8 +65,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | aproxima-se | OK |
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | CHEGADA | alguem entra andando | OK |
+| 8 | - | PLACA | MUROS DE BOLONHA | OK |
 
-## Cena b6 - 38.2s a 41.5s - 13 palavras - plano group
+## Cena b6 - 38.2s a 41.5s - 13 palavras - plano two
 > "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -100,6 +101,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | vitória (53.0s) | ACAO: vence | bracos para cima + brilho | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | TORRE GHIRLANDINA | OK |
 
 ## Cena b9 - 54.2s a 59.3s - 17 palavras - plano two
 > "Um poeta italiano transformou a história numa sátira famosa, escrita por volta de mil seiscentos e quinze."

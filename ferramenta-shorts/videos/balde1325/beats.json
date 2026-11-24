@@ -41,6 +41,13 @@
    "boots": "#2a2218",
    "hat": "crown",
    "build": "stout"
+  },
+  "PAP": {
+   "profissao": "padre",
+   "jacket": "#f4f1e8",
+   "pants": "#f4f1e8",
+   "boots": "#2a2218",
+   "sash": "#d8282f"
   }
  },
  "serie": "Guerras Inusitadas",
@@ -68,7 +75,7 @@
    "shot": "two",
    "who": [
     "NOB:0:stern",
-    "BOL:1:stern"
+    "PAP:0:stern"
    ],
    "mapa": "ITÁLIA",
    "mapa_at": 6,
@@ -136,7 +143,7 @@
    "set": "loc_campo"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MOD:0:stern",
     "MOD:1:grin"
@@ -151,7 +158,29 @@
    },
    "batalha": false,
    "say": "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.",
-   "set": "loc_campo"
+   "set": "medieval",
+   "fachada": false,
+   "props": [
+    [
+     "buildings/castle_tower",
+     -3,
+     -12,
+     1.5
+    ],
+    [
+     "buildings/castle_tower",
+     4,
+     -12,
+     1.5
+    ],
+    [
+     "buildings/church",
+     0,
+     -14,
+     1.2
+    ]
+   ],
+   "text": "MUROS DE BOLONHA"
   },
   {
    "shot": "two",
@@ -206,8 +235,13 @@
    "who": [
     "MOD:0:smile"
    ],
-   "interior": "pedra",
    "props": [
+    [
+     "buildings/castle_tower",
+     0,
+     -12,
+     2.2
+    ],
     [
      "kit/balde_madeira",
      0.4,
@@ -216,7 +250,11 @@
     ]
    ],
    "tiros": false,
-   "say": "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória."
+   "say": "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.",
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "text": "TORRE GHIRLANDINA"
   },
   {
    "shot": "two",
@@ -270,5 +308,6 @@
  "heroi": "kit/balde_madeira",
  "herois_nomes": {
   "kit/balde_madeira": "balde de madeira medieval"
- }
+ },
+ "set_tematico_ok": true
 }

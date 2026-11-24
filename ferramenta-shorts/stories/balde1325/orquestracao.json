@@ -36,7 +36,7 @@
    "camera": "two",
    "personagens": [
     "NOB",
-    "BOL"
+    "PAP"
    ],
    "multidao": 0,
    "objetos": [],
@@ -109,13 +109,15 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "MOD",
     "MOD"
    ],
    "multidao": 8,
    "objetos": [
+    "buildings/castle_tower",
+    "buildings/church",
     "nature/picket_fence"
    ],
    "palavras": 14,
@@ -125,10 +127,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "medieval"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "MOD",
     "MOD"
@@ -163,7 +165,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "medieval"
+   "cenario": "countryside"
   },
   {
    "camera": "close",
@@ -172,6 +174,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "buildings/castle_tower",
     "kit/balde_madeira",
     "tools/bucket"
    ],
@@ -182,7 +185,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "medieval"
   },
   {
    "camera": "two",
