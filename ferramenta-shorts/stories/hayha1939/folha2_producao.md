@@ -2,15 +2,16 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/hayha1939/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py hayha1939` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a...
+## Cena b0 - Um fazendeiro baixinho virou o soldado mais temido de uma guerra intei...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (4): SOV (variante 0, expressao stern); SOV (variante 1, expressao stern); SOV (variante 2, expressao neutral); SOV (variante 3, expressao stern) | multidao: 18 de SOV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, finlandia, uniao
-- RISCOS: nenhum
+- Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro, finlandia, inverno, soldado, uniao
+- RISCOS: 
+  - cena longa (29 palavras, ~10 s no mesmo lugar) -> CORRECAO: dividir em duas cenas com planos diferentes
 
 ## Cena b1 - Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve ...
 - Cenario: arctic | luz: arctic | clima: neve
@@ -108,20 +109,24 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+buildings/barn | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/haybale | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/scarecrow | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/campfire | grandes momentos: b0, b6 | planos abertos: 3 | mistura: close 28% | medio 47% | aberto 18% | detalhe 7%
+- Objeto heroi: kit/campfire | grandes momentos: b0, b6 | planos abertos: 3 | mistura: close 27% | medio 47% | aberto 19% | detalhe 7%
 - Interacoes: b5 tremem de frio, b7 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py hayha1939  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/hayha1939/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
+- b0: cena longa (29 palavras, ~10 s no mesmo lugar)
 - b1: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 

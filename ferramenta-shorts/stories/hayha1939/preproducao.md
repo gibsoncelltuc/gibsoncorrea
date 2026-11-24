@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | arctic | crowd | 22 | encena, batalha | - | - | -
+b0 | arctic | crowd | 22 | encena, batalha | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow | - | -
 b1 | arctic | orbit | 13 | reagir | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b2 | arctic | close | 1 | conversar | - | - | -
 b3 | mountain | low | 1 | conversar | - | - | -

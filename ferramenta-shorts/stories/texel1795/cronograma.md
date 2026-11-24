@@ -6,7 +6,7 @@ Gerado em 24/11 03:47 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | arctic | two | sem personagem | - | ship | - | Em mil setecentos e noventa e cinco, a França invadia a Holanda, e faz
+b0 | simples | arctic | two | sem personagem | - | ship | - | Uma frota de navios de guerra foi capturada por soldados a cavalo. Era
 b1 | simples | harbor | crowd | NED, NED | - | navio_vela, navios de guerra ao fundo, no tamanho real | - | A frota holandesa estava ancorada perto de Den Helder, e o mar congelo
 b2 | simples | harbor | wide | NED | - | navios de guerra ao fundo, no tamanho real, ship | - | Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 b3 | simples | arctic | group | FRA, FRA, OFF | - | - | - | Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n
@@ -24,7 +24,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/13 itens) | PENDENTE | python3 pesquisar.py texel1795
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

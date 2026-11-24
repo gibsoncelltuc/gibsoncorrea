@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: A Morte Branca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 10 cenas, 168 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 10 cenas, 179 palavras (~62 s)
 
-## Cena b0  (~6.2 s)
-- Narracao: Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.
+## Cena b0  (~10.0 s)
+- Narracao: Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira. Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; invadiu -> dust + som de impacto; encena: chega (point) @11 -> acao + som de efeito
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; invadiu -> dust + som de impacto; encena: chega (point) @26 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1939
 - Funcao na historia: GANCHO

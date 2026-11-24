@@ -33,6 +33,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/barn",
   "kit/campfire",
   "kit/maca",
   "kit/room_europa_wood",
@@ -43,7 +44,9 @@
   "mk/Nightstand_Shelf",
   "mk/Stool",
   "nature/bush",
+  "nature/haybale",
   "nature/picket_fence",
+  "nature/scarecrow",
   "nature/tree_oak",
   "nature/tree_pine"
  ],

@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: A Invasão da Ilha Vazia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain | 10 cenas, 136 palavras (~47 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain | 10 cenas, 143 palavras (~49 s)
 
-## Cena b0  (~7.9 s)
-- Narracao: Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma grande invasão da ilha de Kiska, no Alasca, ocupada pelos japoneses.
+## Cena b0  (~10.3 s)
+- Narracao: Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum. Foi em agosto de mil novecentos e quarenta e três, em Kiska, no Alasca, ocupada pelos japoneses.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

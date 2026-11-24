@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | - neve | placa: 1795, mapa | absurdo (ring + som de alerta) | -
+b0 | two | - neve | animais, placa: 1795, mapa | absurdo (ring + som de alerta) | -
 b1 | crowd | - neve | tropa, placa: FROTA CONGELADA | encena: x_treme @12 (acao + som de efeito) | -
 b2 | wide | - neve | tropa | encena: prende (push) @3 (acao + som de efeito) | -
 b3 | group | - neve | animais | - | -
@@ -13,5 +13,5 @@ b7 | group | - neve | tropa, animais | montado: FRA galopando em cima do animal 
 b8 | close | -  | interior, placa: CAVALARIA 1 X 0 MARINHA | encena: prende (push) @12 (acao + som de efeito) | -
 b9 | two | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 23% | medio 45% | aberto 29% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 21% | medio 48% | aberto 27% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

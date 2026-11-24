@@ -2,15 +2,16 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/texel1795/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py texel1795` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em mil setecentos e noventa e cinco, a França invadia a Holanda, e faz...
+## Cena b0 - Uma frota de navios de guerra foi capturada por soldados a cavalo. Era...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 6 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (0): -
 - Animacao: conversar
-- Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, frio, holanda
-- RISCOS: nenhum
+- Objetos/modelos: ship, horse
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, franca, frio, frota, holanda, navios
+- RISCOS: 
+  - cena longa (29 palavras, ~10 s no mesmo lugar) -> CORRECAO: dividir em duas cenas com planos diferentes
 
 ## Cena b1 - A frota holandesa estava ancorada perto de Den Helder, e o mar congelo...
 - Cenario: harbor | luz: arctic | clima: neve
@@ -108,23 +109,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 ship | b0, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+horse | b0, b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vela | b1 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-horse | b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vela | grandes momentos: b5 | planos abertos: 4 | mistura: close 23% | medio 45% | aberto 29% | detalhe 3%
+- Objeto heroi: kit/navio_vela | grandes momentos: b5 | planos abertos: 4 | mistura: close 21% | medio 48% | aberto 27% | detalhe 4%
 - Interacoes: b3 tremem de frio, b7 aproxima-se
 - RISCOS GERAIS: 
   - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - video com ~50 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py texel1795  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/texel1795/moodboard.jpg
 
-## RESUMO: 4 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
+- b0: cena longa (29 palavras, ~10 s no mesmo lugar)
 - geral: menos de 2 grandes momentos
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: video com ~50 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

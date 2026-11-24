@@ -18,10 +18,15 @@
     "SOV"
    ],
    "multidao": 48,
-   "objetos": [],
-   "palavras": 18,
+   "objetos": [
+    "buildings/barn",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 29,
    "cena": "b0",
-   "frase": "Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.",
+   "frase": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira. Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
