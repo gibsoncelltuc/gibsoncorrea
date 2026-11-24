@@ -1,40 +1,4 @@
 {
- "fails": [
-  {
-   "f": 1740,
-   "shot": "b11_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1744,
-   "shot": "b11_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1748,
-   "shot": "b11_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1752,
-   "shot": "b11_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1756,
-   "shot": "b11_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  }
- ],
+ "fails": [],
  "tiny": []
 }

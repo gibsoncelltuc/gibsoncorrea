@@ -5,7 +5,7 @@ const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0]
 const _MA = (a, b) => { const r = Object.assign({}, a, b); if (a.over && b.over) r.over = Object.assign({}, a.over, b.over); for (const k of ['gests', 'poses', 'moves', 'inters', 'yFns']) if (a[k] && b[k]) r[k] = a[k].concat(b[k]); return r; };   // frame em que a palavra de indice i comeca
 const A = [0, WS(12, -3), WS(29, -3), WS(45, -3), WS(56, -3), WS(68, -3), WS(81, -3), WS(106, -3), WS(118, -3), WS(130, -3), WS(145, -3), TOTAL_F()];
 const SPEC = {
-  id: "texel1795", vseed: 4, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["arctic", "hall", "harbor"], setx: { arctic: X, hall: X_hall, harbor: X_harbor },
+  id: "texel1795", exp: 1.0, vseed: 4, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["arctic", "hall", "harbor"], setx: { arctic: X, hall: X_hall, harbor: X_harbor },
   outfits: { FRA: (v = 0, e = {}) => ({ _id: "fra", jacket: "#e8e4d8", pants: "#ece8dc", boots: "#2a2218", hat: "tricorn", belt: "#e8c45a", buttons: "#e8c45a", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 2 ? { moustache: "#3a2a1f" } : {}), ...(((v + 217) % 6 === 4 && true) ? { glasses: true } : {}), ...(([1, 5].includes((v + 217) % 6) && true) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 217) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     NED: (v = 0, e = {}) => ({ _id: "ned", jacket: "#2a3f6a", pants: "#ebe6d4", boots: "#1b1b1f", hat: "slouch", cap: "#1b1b1f", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 215) % 6 === 4 && true) ? { glasses: true } : {}), ...(([1, 5].includes((v + 215) % 6) && true) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 215) % 6 === 3) && true) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     OFF: (v = 0, e = {}) => ({ _id: "off", jacket: "#2a3a6a", pants: "#ece8dc", boots: "#2a2218", hat: "tricorn", sash: "#e8c45a", buttons: "#e8c45a", build: "stout", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 2 ? { moustache: "#4a3020" } : {}), ...(((v + 219) % 6 === 4 && true) ? { glasses: true } : {}), ...(([1, 5].includes((v + 219) % 6) && true) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 219) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
@@ -27,4 +27,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 e79530a93ec0 32 acoes=32 faltando=0
+// FOLHA3 7e733b117dae 32 acoes=32 faltando=0

@@ -42,7 +42,10 @@
   {
    "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
    "shot": "wide",
-   "who": [],
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern"
+   ],
    "props": [
     [
      "ship",
@@ -62,14 +65,21 @@
    "tstyle": "white",
    "mood": "epic",
    "set": "harbor",
-   "acao": "conversar",
    "desembarque": true,
    "fx": [
     "dust@25"
    ],
    "sfx": [
     "thump@25"
-   ]
+   ],
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
   },
   {
    "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
@@ -138,11 +148,15 @@
     ]
    ],
    "fx": [
-    "burst@40"
+    "burst@8",
+    "burst@24",
+    "burst@40",
+    "dust@26"
    ],
    "sfx": [
-    "cannon@40",
-    "cannon@70"
+    "cannon@8",
+    "cannon@24",
+    "cannon@40"
    ],
    "mood": "march",
    "set": "arctic"
@@ -158,7 +172,7 @@
    "move": 8,
    "light": "overcast",
    "mood": "tense",
-   "set": "mountain",
+   "set": "arctic",
    "clima": "neblina"
   },
   {
@@ -178,7 +192,19 @@
   {
    "say": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
    "shot": "track",
-   "set": "mountain"
+   "set": "arctic",
+   "who": [
+    "USA:0:nervous",
+    "CAN:0:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
   },
   {
    "say": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
@@ -226,7 +252,7 @@
    "tstyle": "red",
    "light": "overcast",
    "mood": "tense",
-   "set": "mountain",
+   "set": "arctic",
    "clima": "neblina"
   },
   {

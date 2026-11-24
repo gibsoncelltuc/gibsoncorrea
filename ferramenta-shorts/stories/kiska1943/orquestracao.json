@@ -11,8 +11,11 @@
  "cenas": [
   {
    "camera": "two",
-   "personagens": [],
-   "multidao": 0,
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 24,
    "objetos": [
     "ship"
    ],
@@ -20,7 +23,7 @@
    "cena": "b0",
    "frase": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
@@ -111,7 +114,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
@@ -132,19 +135,22 @@
   },
   {
    "camera": "track",
-   "personagens": [],
-   "multidao": 0,
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 8,
    "objetos": [
     "war/sandbags"
    ],
    "palavras": 9,
    "cena": "b6",
    "frase": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
-   "classe": "transicao",
-   "sujeito": "cenario",
+   "classe": "simples",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "arctic"
   },
   {
    "camera": "wide",
@@ -179,10 +185,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "arctic"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "USA",
     "CAN"

@@ -9,8 +9,7 @@
   "cenarios": [
    "arctic",
    "harbor",
-   "interior pedra",
-   "mountain"
+   "interior pedra"
   ],
   "cenarios_trocados": []
  },
@@ -38,6 +37,7 @@
   "kit/aviao_ww2",
   "kit/canhao_moderno",
   "kit/dog_sit",
+  "kit/lupa",
   "kit/navio_encouracado",
   "kit/navio_vapor",
   "kit/room_azul_stone",

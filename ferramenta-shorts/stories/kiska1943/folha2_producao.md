@@ -6,8 +6,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: overcast | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (0): -
-- Animacao: conversar
+- Personagens principais (2): USA (variante 0, expressao stern); CAN (variante 0, expressao stern) | multidao: 24 de USA/CAN
+- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 0, expressao stern); USA (variante 1, expressao grin) | multidao: 8 de 
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: vehicles/airplane, kit/navio_vapor
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alasca, ilha, kiska
 - RISCOS: nenhum
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - No meio do nevoeiro, os soldados desceram em silêncio, prontos para um...
-- Cenario: mountain | luz: overcast | clima: neblina
+- Cenario: arctic | luz: overcast | clima: neblina
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 1, expressao stern); USA (variante 3, expressao nervous) | multidao: 48 de USA/CAN
@@ -63,11 +63,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Eles procuraram o inimigo por dias, em trincheiras vazias.
-- Cenario: mountain | luz: overcast | clima: limpo
+- Cenario: arctic | luz: overcast | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (0): -
-- Animacao: -
+- Personagens principais (2): USA (variante 0, expressao nervous); CAN (variante 0, expressao nervous) | multidao: 8 de USA/CAN
+- Animacao: encena
 - Objetos/modelos: war/sandbags
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inimigo
 - RISCOS: nenhum
@@ -83,18 +83,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no ...
-- Cenario: mountain | luz: overcast | clima: neblina
+- Cenario: arctic | luz: overcast | clima: neblina
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained)
-- Animacao: reagir | interacao: avanca e o outro recua
+- Animacao: reagir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aliados, atirar, escuro, neblina, vista
 - RISCOS: nenhum
 
 ## Cena b9 - Mais de vinte soldados morreram nesses tiros, e um navio americano ain...
 - Cenario: arctic | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): USA (variante 0, expressao sad); CAN (variante 0, expressao sad) | multidao: 5 de USA/CAN
 - Animacao: conversar | interacao: empurrar
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: prop = -
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): USA (variante 1, expressao surprised); CAN (variante 0, expressao surprised)
-- Animacao: conversar | interacao: discutir
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/dog_sit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha, maiores, pacifico
 - RISCOS: nenhum
@@ -150,7 +150,7 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 18% | detalhe 5%
-- Interacoes: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar, b10 discutir, b11 o outro se aproxima
+- Interacoes: b0 aproxima-se, b1 avanca e o outro recua, b5 susto, b8 discutir, b9 empurrar, b10 o outro se aproxima, b11 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

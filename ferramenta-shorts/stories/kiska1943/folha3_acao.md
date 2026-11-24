@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 13 palavras - plano two
@@ -9,9 +9,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | KISKA 1943 | OK |
+| 1 | invadiram (1.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
+| 3 | - | INTERACAO | aproxima-se | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
+| 6 | - | PLACA | KISKA 1943 | OK |
 
 ## Cena b1 - 4.6s a 10.7s - 19 palavras - plano group
 > "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses."
@@ -19,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ocupada (9.9s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | ALASCA | OK |
 | 5 | - | PLACA | 34.000 SOLDADOS | OK |
@@ -63,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | procuraram (30.0s) | ACAO: x_procura | procura com a lupa | OK |
 
 ## Cena b7 - 33.8s a 39.3s - 17 palavras - plano wide
 > "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina."
@@ -79,11 +82,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | atirar (43.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | atirar (43.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | FOGO AMIGO | OK |
 
-## Cena b9 - 46.2s a 50.4s - 15 palavras - plano group
+## Cena b9 - 46.2s a 50.4s - 15 palavras - plano two
 > "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -105,7 +108,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | acharam (52.3s) | ACAO: olha | aponta/olha | OK |
 | 2 | abandonados (53.7s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | - | INTERACAO | discutir | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | SÓ CACHORROS | OK |
 
@@ -114,7 +117,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | OPERAÇÃO ILHA VAZIA | OK |
 
