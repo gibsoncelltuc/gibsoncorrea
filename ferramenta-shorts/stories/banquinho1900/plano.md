@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | Ouro (stars + som de sino); encena: fala (point
 b2 | two | -  | - | - | -
 b3 | two | -  | interior, objeto na mao | - | -
 b4 | two | -  | - | encena: fala (point) @10 (acao + som de efeito) | -
-b5 | crowd | -  | batalha aberta com tiros, tropa, placa: REVOLTA | encena: chega (point) @4 (acao + som de efeito) | -
+b5 | crowd | -  | batalha aberta com tiros, tropa, placa: FORTE CERCADO | encena: chega (point) @4 (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); marcharam (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito); encena: x_entrega (reach) @4 (acao + som de efeito); encena: prende (push) @7 (acao + som de efeito); encena: chega (point) @11 (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); encena: vence (up) @4 (acao + som de efeito) | -
 b8 | two | -  | interior | - | -

@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: REVOLTA
+- Texto na tela: FORTE CERCADO
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)

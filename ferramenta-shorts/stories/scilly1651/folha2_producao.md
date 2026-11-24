@@ -134,11 +134,9 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 ## Video inteiro
 - Objeto heroi: kit/scroll | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 11% | medio 81% | aberto 5% | detalhe 4%
 - Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 vai ate o outro, b8 cochichar, b9 apertar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'harbor': 8, 'loc_campo': 2, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'harbor': 8, 'loc_campo': 2, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh scilly1651 bN bM` (so essas cenas).
