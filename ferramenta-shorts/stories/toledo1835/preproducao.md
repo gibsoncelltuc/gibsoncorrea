@@ -9,7 +9,7 @@ b1 | countryside | reveal | 10 | parados (so fala e pisca) | kit/mapa_antigo, bu
 b2 | interior madeira | close | 1 | encena | - | paper | -
 b3 | countryside | crowd | 49 | encena, batalha | - | - | -
 b4 | countryside | orbit | 49 | reagir, batalha | kit/teodolito | - | -
-b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/canivete | - | -
+b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/canivete_aberto | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: pedir | - | paper | -
 b7 | jungle | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b8 | arctic | low | 2 | reagir, INTERAGEM: cochichar | kit/minerio, nature/tree_pine, nature/tree_oak, nature/bush | coin | -

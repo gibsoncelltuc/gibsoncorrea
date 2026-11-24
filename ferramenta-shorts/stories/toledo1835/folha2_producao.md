@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - A única baixa foi um xerife de Michigan, espetado numa briga de tavern...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): RAP (variante 0, expressao angry); XER (variante 0, expressao pained)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/canivete
+- Objetos/modelos: kit/canivete_aberto
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivete, michigan, taverna, xerife
 - RISCOS: nenhum
 
@@ -117,12 +117,11 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/canivete_aberto | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/canivete_aberto | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mapa_antigo | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/teodolito | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/canivete | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -130,11 +129,15 @@ kit/minerio | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
+- Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 58% | aberto 14% | detalhe 0%
 - Interacoes: b0 susto, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/canivete) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - objeto heroi kit/canivete nao aparece em nenhuma cena -> CORRECAO: por kit/canivete em "props" de pelo menos uma cena (ou tirar de "herois")
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: objeto heroi (kit/canivete) sem close de camera
+- geral: objeto heroi kit/canivete nao aparece em nenhuma cena
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh toledo1835 bN bM` (so essas cenas).
