@@ -1,4 +1,7 @@
 {
+ "serie": "Curiosidade e Ciência",
+ "ep": 22,
+ "titulo_base": "A Praga da Dança",
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
  "title": "A Praga da Dança",
@@ -183,8 +186,5 @@
    "acao": "nenhuma"
   }
  ],
- "heroi": null,
- "serie": "Curiosidade e Ciência",
- "ep": 22,
- "titulo_base": "A Praga da Dança"
+ "heroi": null
 }
