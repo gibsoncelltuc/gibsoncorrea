@@ -11,10 +11,16 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
-   "medieval",
-   "mountain"
+   "loc_montanha",
+   "medieval"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 9",
+    "mountain",
+    "loc_montanha"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "carro antigo",

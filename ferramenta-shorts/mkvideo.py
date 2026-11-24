@@ -199,6 +199,8 @@ def _limpa_sets():   # v13: nenhum cenario tematico fora de lugar (nem o que a v
     for i_, b_ in enumerate(B['beats']):
         if b_.get('set') and b_['set'] in _SET_TEMA and not _set_ok(b_['set']) and not b_.get('interior'):
             _n = _set_limpo(b_['set']); _TROCAS.append((f'cena {i_ + 1}', b_['set'], _n)); b_['set'] = _n
+        elif b_.get('set') == 'mountain' and not b_.get('interior') and not (b_.get('batalha') or b_.get('tiros') or b_.get('crowd', {}).get('march')) and not re.search(r'guerra|batalh|front|trinch|soldad|tropa|exercit|atac|tiro|canh', __import__('unicodedata').normalize('NFKD', b_['say'].lower()).encode('ascii', 'ignore').decode()):
+            _TROCAS.append((f'cena {i_ + 1}', 'mountain', 'loc_montanha')); b_['set'] = 'loc_montanha'   # 24/11 (Abelhas): 'mountain' e' front de guerra (pedra cinza); cena de paz vai para a montanha limpa
 _limpa_sets()
 _ALT_LIMPO = (['loc_pista', 'interior galpao', 'loc_patio', 'loc_cidade', 'interior loja', 'loc_campo'] if _MODERNO else ['loc_campo', 'interior madeira', 'loc_montanha', 'interior pedra', 'loc_deserto'])
 for _k in ('loc_pista', 'loc_patio', 'loc_deserto', 'loc_campo', 'loc_montanha', 'loc_cidade', 'loc_estudio'): _ALT[_k] = [x_ for x_ in _ALT_LIMPO if x_ != _k]

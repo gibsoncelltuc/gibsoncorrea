@@ -11,10 +11,16 @@
    "interior pedra",
    "loc_campo",
    "loc_estudio",
-   "loc_pista",
-   "mountain"
+   "loc_montanha",
+   "loc_pista"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 3",
+    "mountain",
+    "loc_montanha"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "barril",

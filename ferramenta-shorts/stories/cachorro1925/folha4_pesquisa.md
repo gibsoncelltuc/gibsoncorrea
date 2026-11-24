@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1925 | Lugar: Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich | Quando: 18 a 29 de outubro de 1925, outono
 - HEROIS (objeto): kit/dog_sit
 - HEROIS (personagens): GRE, BUL, DIP
-- Cenarios: interior madeira, loc_campo, mountain
+- Cenarios: interior madeira, loc_campo, loc_montanha, mountain
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

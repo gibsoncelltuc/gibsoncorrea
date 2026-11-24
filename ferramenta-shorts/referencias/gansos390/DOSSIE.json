@@ -9,10 +9,21 @@
   "cenarios": [
    "interior madeira",
    "loc_campo",
-   "medieval",
-   "mountain"
+   "loc_montanha",
+   "medieval"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 3",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 4",
+    "mountain",
+    "loc_montanha"
+   ]
+  ]
  },
  "proibido_pela_epoca": [],
  "proibido_pelo_roteiro": [],

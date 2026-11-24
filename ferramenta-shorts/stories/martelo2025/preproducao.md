@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_pista | two | 1 | conversar | kit/bunker_bomb | - | -
 b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | mountain | wide | 1 | parados (so fala e pisca) | kit/mountain_bunker | - | -
+b2 | loc_montanha | wide | 1 | parados (so fala e pisca) | kit/mountain_bunker | - | -
 b3 | loc_pista | two | 0 | parados (so fala e pisca) | - | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b5 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -

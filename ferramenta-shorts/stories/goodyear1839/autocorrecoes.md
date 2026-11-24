@@ -42,3 +42,9 @@
 - b5: objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
 - b0: ja corrigida 3 vezes, objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b5: ja corrigida 3 vezes, objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 24/11 23:24 autocorrecao de visibilidade
+- b0: ja corrigida 3 vezes, objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: ja corrigida 3 vezes, objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: ja corrigida 3 vezes, objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b5: ja corrigida 3 vezes, objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

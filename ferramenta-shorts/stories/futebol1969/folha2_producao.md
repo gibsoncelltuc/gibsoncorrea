@@ -11,16 +11,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): futebol, jogo
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estadio; hora: day
-- CAMERA: plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
-- PERSONAGENS: HON na esquerda, expressao angry; SAL na direita, expressao shout; multidao de 16 (HON, SAL) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "HONDURAS x EL SALVADOR" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b1 - Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigava...
 - Cenario: street | luz: day | clima: limpo
@@ -31,20 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: TOR na esquerda, expressao stern; TOR na direita, expressao angry; multidao de 8 (TOR) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +70 da cena
-- SOM: thump@70
-- MAPA: HONDURAS (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (4.0-6.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (6.2-8.4 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b2 - Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra...
 - Cenario: street | luz: day | clima: limpo
@@ -55,18 +31,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contra, copa, disputa, vaga
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: HON na esquerda, expressao grin; SAL na direita, expressao stern; multidao de 6 (HON, SAL) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- TEXTO NA TELA: "3 JOGOS" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (9.9-11.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (11.9-14.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b3 - No primeiro, Honduras venceu por um a zero, em casa.
 - Cenario: stadium | luz: day | clima: limpo
@@ -77,22 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ball, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): zero
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estadio; hora: day
-- CAMERA: plano de multidao
-- PERSONAGENS: HON na esquerda, expressao laugh; SAL na direita, expressao sad; multidao de 18 (TOR, HON) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
-- SOM: ding@30
-- SOM: thump@70
-- TEXTO NA TELA: "1 x 0" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (15.1-16.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (16.4-17.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b4 - No segundo, El Salvador devolveu por três a zero, e os torcedores brig...
 - Cenario: street | luz: dia | clima: limpo
@@ -103,19 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ruas, torcedores, zero
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano de multidao
-- PERSONAGENS: HON na esquerda, expressao angry; SAL no centro, expressao shout; HON na direita, expressao shout; SAL no fundo, expressao angry; multidao de 10 (HON, SAL) ATRAS dos principais; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "3 x 0" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (19.0-20.5 s): mesmo angulo
-  - take 2 (20.5-22.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (22.1-23.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b5 - Acontece que, na véspera do terceiro jogo, El Salvador cortou relações...
 - Cenario: interior madeira | luz: dia | clima: limpo
@@ -126,17 +61,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): honduras, vespera
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE na esquerda, expressao angry, segura paper; PRE na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (24.6-26.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (26.8-28.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b6 - O jogo foi na Cidade do México, e El Salvador venceu por três a dois, ...
 - Cenario: stadium | luz: dia | clima: limpo
@@ -147,18 +71,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ball, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dois, jogo, mexico, prorrogacao
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estadio; hora: dia
-- CAMERA: plano de multidao
-- PERSONAGENS: SAL na esquerda, expressao laugh; SAL no centro, expressao grin; HON na direita, expressao sad; multidao de 18 (SAL, HON) ATRAS dos principais; acao: comemorar
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- TEXTO NA TELA: "PRORROGAÇÃO" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (30.2-32.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (32.3-34.4 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b7 - Semanas depois, o exército salvadorenho atacou Honduras.
 - Cenario: street | luz: dia | clima: limpo
@@ -169,16 +81,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano de multidao
-- PERSONAGENS: SOL no centro, expressao stern; multidao de 6 (SOL) marchando ATRAS dos principais; acao: batalha
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b8 - A guerra durou cem horas, até a Organização dos Estados Americanos imp...
 - Cenario: street | luz: day | clima: limpo
@@ -189,18 +91,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cessarfogo, estados, organizacao
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SOL na esquerda, expressao nervous; PRE na direita, expressao stern, segura paper; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "100 HORAS" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (40.0-42.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (42.0-44.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b9 - Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.
 - Cenario: stadium | luz: day | clima: limpo
@@ -211,18 +101,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): copa, tres
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estadio; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SAL no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- TEXTO NA TELA: "0 GOLS" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (45.6-47.4 s): mesmo angulo
-  - take 2 (47.4-49.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: stadium | luz: day | clima: limpo
@@ -262,12 +140,3 @@ nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parec
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh futebol1969 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh futebol1969` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (50.2-51.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (51.9-53.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-

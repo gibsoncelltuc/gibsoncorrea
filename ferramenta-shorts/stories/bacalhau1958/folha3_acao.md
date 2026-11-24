@@ -11,12 +11,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | ISLÂNDIA VENCEU | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b1 - 4.1s a 10.7s - 19 palavras - plano wide
 > "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau."
@@ -25,12 +19,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | travaram (9.3s) | ACAO: empurra | empurra/puxa | OK |
 | 2 | - | PLACA | 1958-1976 | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: empurra na palavra travaram (9.3s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b2 - 11.1s a 15.9s - 14 palavras - plano two
 > "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa."
@@ -41,14 +29,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | BACALHAU | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_pesca na palavra pescavam (14.1s): puxa a linha/rede para cima com um tranco + respingo na agua
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b3 - 16.3s a 21.1s - 14 palavras - plano wide
 > "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas."
@@ -63,11 +43,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
 
 ## Cena b5 - 25.2s a 30.7s - 16 palavras - plano group
 > "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede."
@@ -75,11 +50,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
 
 ## Cena b6 - 31.1s a 36.3s - 15 palavras - plano wide
 > "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
@@ -100,17 +70,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | discutir | OK |
 | 6 | - | MAPA | INGLATERRA | OK |
 | 7 | - | PLACA | OTAN | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_discute na palavra ameaçou (37.4s): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ACAO: empurra na palavra fechar (37.8s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b8 - 41.9s a 48.9s - 20 palavras - plano group
 > "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo."
@@ -121,14 +80,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | VITÓRIA ISLANDESA | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra espalhou (48.1s): executa: entra andando pela lateral
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b9 - 49.3s a 51.9s - 8 palavras - plano close
 > "Uma guerra inteira, por causa de um bacalhau."
@@ -137,12 +88,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | TUDO POR UM BACALHAU | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b10 - 52.2s a 56.7s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -151,10 +96,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
