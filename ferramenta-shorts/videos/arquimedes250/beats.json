@@ -59,7 +59,8 @@
     "steps@10"
    ],
    "set": "medieval",
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "titulo": true
   },
   {
    "say": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",

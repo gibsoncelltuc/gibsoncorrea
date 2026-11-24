@@ -942,7 +942,8 @@ if B.get('cavalaria') is not False and ANO and ANO <= 1918:
 for _b in beats:
     if _b.get('encena') is False or _b.get('shot') in WIDE or _b.get('veiculo'): continue
     _tem_mat = any(re.search(r_, nrm(_b['say'])) for r_, a_ in ENC_MAT + ENC_RES) or any(re.search(r'stove|panela|kettle|bancada', str(p_[0])) for p_ in (_b.get('props') or []))
-    if any(re.match(rx_, nrm(w_)) for w_ in _b['say'].split() for rx_, g_, t_ in ENC if t_ in ('mistura', 'constroi', 'quimico', 'examina') or (t_ in ('vira', 'cai', 'calor') and _tem_mat)):
+    _mist_falsa = re.search(r'(mistur|mexe|mexi|combin)\w* (as |os |uns |umas |a |o )?(etiqueta|papel|papeis|carta|nome|ficha|dado|numero|peca|arquivo|documento|foto|cabo|fio|ideia|lingua|cor)', unicodedata.normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
+    if any(re.match(rx_, nrm(w_)) for w_ in _b['say'].split() for rx_, g_, t_ in ENC if (t_ == 'mistura' and not _mist_falsa) or t_ in ('constroi', 'quimico', 'examina') or (t_ in ('vira', 'cai', 'calor') and _tem_mat)):
         _b['_enc'] = True
         if _b.get('shot') in ('close', None): _b['shot'] = 'two'
         _n = len(_b.get('who', [])); _sl = slots(max(_n, 1))
@@ -1646,7 +1647,7 @@ def build_beat(k, b):
             _gst.setdefault(('poses', 0), []).append(f"[{a}, {bb}, 'sleep']")
         if any(t_ == 'x_acorda' for _, _, t_, _ in _encs): _st['dorme'] = False
         _sy_ = nrm(b['say']); _mat_ok = bool(_alvo) or any(re.search(r_, _sy_) for r_, a_ in ENC_MAT + ENC_RES) or bool(_st.get('mat'))
-        _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
+        _ok = {'mistura': not re.search(r'(mistur|mexe|mexi|combin)\w* (as |os |uns |umas |a |o )?(etiqueta|papel|papeis|carta|nome|ficha|dado|numero|peca|arquivo|documento|foto|cabo|fio|ideia|lingua|cor)', nrm0x(b['say'])), 'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
         b.setdefault('_enc_words', []).extend(w__ for t__, w__ in _mesmos if _ok.get(t__, True) and t__ in {e_[2] for e_ in _encs})   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
         _punches = []
