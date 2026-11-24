@@ -24,11 +24,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (3): OFI (variante 0, expressao laugh); OFI (variante 1, expressao grin); CON (variante 0, expressao shock)
+- Personagens principais (2): OFI (variante 0, expressao grin); OFI (variante 1, expressao laugh)
 - Animacao: comer | interacao: vai ate o outro
-- Objetos/modelos: mk/Table_Large, kit/cake_table
+- Objetos/modelos: kit/cake_table, mk/Table_Large
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja
 - RISCOS: nenhum
 
@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que a França mandou a esquadra, e navios de guerra fecharam o...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao stern) | multidao: 18 de FRA
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/marco_ulua
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao stern) | multidao: 10 de FRA
+- Animacao: encena
+- Objetos/modelos: kit/marco_ulua, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): esquadra, franca, mexico, portos
 - RISCOS: nenhum
 
@@ -126,8 +126,8 @@ cannon | b6 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 2 | mistura: close 30% | medio 60% | aberto 8% | detalhe 2%
-- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 avanca e o outro recua, b8 cochichar, b9 susto
+- Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 3 | mistura: close 21% | medio 60% | aberto 17% | detalhe 2%
+- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b8 cochichar, b9 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
