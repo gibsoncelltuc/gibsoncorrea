@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 27 - A Maior Prisão das Américas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 178 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 163 palavras (~56 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.9 s)
-- Narracao: Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país.
+## Cena b1  (~4.8 s)
+- Narracao: Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,17 +56,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~4.1 s)
-- Narracao: Acontece que, nos anos seguintes, o número de assassinatos no país despencou.
+## Cena b6  (~2.8 s)
+- Narracao: Nos anos seguintes, os assassinatos no país despencaram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: tomba @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: tomba @7 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.1 s)
-- Narracao: Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.
+- Narracao: Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: encena: protesto (up) @4 -> acao + som de efeito
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~5.2 s)
-- Narracao: O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.
+## Cena b8  (~4.5 s)
+- Narracao: O governo responde que as ruas ficaram seguras e que a maioria apoia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.8 s)
-- Narracao: A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.
+## Cena b9  (~4.1 s)
+- Narracao: A prisão virou símbolo: de segurança para uns, de excesso para outros.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -92,11 +92,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: DEBATE
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~5.2 s)
-- Narracao: E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo.
+## Cena b10  (~3.8 s)
+- Narracao: E o modelo passou a ser copiado e criticado pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) @6 -> acao + som de efeito; encena: escreve (write) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: escreve (write) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

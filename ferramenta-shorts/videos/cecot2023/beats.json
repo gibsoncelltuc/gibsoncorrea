@@ -81,7 +81,7 @@
      1.2
     ]
    ],
-   "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país.",
+   "say": "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada.",
    "text": "2023"
   },
   {
@@ -181,7 +181,7 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou.",
+   "say": "Nos anos seguintes, os assassinatos no país despencaram.",
    "set": "loc_campo"
   },
   {
@@ -197,7 +197,7 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.",
+   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia.",
    "interior": false,
    "set": "loc_campo",
    "batalha": false,
@@ -212,7 +212,7 @@
     "REP:0:nervous:paper"
    ],
    "acao": "discutir",
-   "say": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.",
+   "say": "O governo responde que as ruas ficaram seguras e que a maioria apoia.",
    "set": "loc_patio"
   },
   {
@@ -242,7 +242,7 @@
    ],
    "text": "DEBATE",
    "titulo": true,
-   "say": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.",
+   "say": "A prisão virou símbolo: de segurança para uns, de excesso para outros.",
    "set": "loc_patio"
   },
   {
@@ -259,7 +259,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo."
+   "say": "E o modelo passou a ser copiado e criticado pelo mundo."
   }
  ],
  "fontes": [

@@ -10,7 +10,7 @@ b2 | loc_pista | orbit | 12 | discutir | kit/prison | paper | -
 b3 | loc_montanha | group | 7 | conversar, INTERAGEM: entregar | - | - | -
 b4 | loc_pista | crowd | 19 | encena, batalha | kit/prison | - | -
 b5 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b6 | loc_campo | low | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
+b6 | loc_campo | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b7 | loc_campo | orbit | 14 | discutir, batalha | - | - | -
 b8 | loc_patio | group | 2 | discutir, INTERAGEM: discutir | - | paper | -
 b9 | loc_patio | two | 21 | conversar, INTERAGEM: o outro se aproxima | kit/prison | - | -

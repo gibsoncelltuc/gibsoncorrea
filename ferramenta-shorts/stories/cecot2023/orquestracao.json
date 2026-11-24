@@ -38,9 +38,9 @@
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 17,
+   "palavras": 14,
    "cena": "b1",
-   "frase": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país.",
+   "frase": "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -130,16 +130,16 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
     "REP",
     "BUK"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou.",
+   "frase": "Nos anos seguintes, os assassinatos no país despencaram.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -156,7 +156,7 @@
    "objetos": [],
    "palavras": 12,
    "cena": "b7",
-   "frase": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.",
+   "frase": "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -177,9 +177,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 13,
    "cena": "b8",
-   "frase": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.",
+   "frase": "O governo responde que as ruas ficaram seguras e que a maioria apoia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -197,9 +197,9 @@
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b9",
-   "frase": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.",
+   "frase": "A prisão virou símbolo: de segurança para uns, de excesso para outros.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -215,9 +215,9 @@
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b10",
-   "frase": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo.",
+   "frase": "E o modelo passou a ser copiado e criticado pelo mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

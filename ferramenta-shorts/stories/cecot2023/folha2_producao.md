@@ -12,7 +12,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prisao
 - RISCOS: nenhum
 
-## Cena b1 - Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área is...
+## Cena b1 - Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolad...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -62,17 +62,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lados, vigia
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, nos anos seguintes, o número de assassinatos no país des...
+## Cena b6 - Nos anos seguintes, os assassinatos no país despencaram.
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, numero
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos
 - RISCOS: nenhum
 
-## Cena b7 - Organizações de direitos humanos denunciaram prisões sem julgamento, e...
+## Cena b7 - Organizações de direitos humanos denunciaram prisões sem julgamento e ...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -82,30 +82,30 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos
 - RISCOS: nenhum
 
-## Cena b8 - O governo responde que as ruas ficaram seguras, e que a maioria da pop...
+## Cena b8 - O governo responde que as ruas ficaram seguras e que a maioria apoia.
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, maioria, populacao, ruas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, maioria, ruas
 - RISCOS: nenhum
 
-## Cena b9 - A prisão virou símbolo do país. Para uns, de segurança. Para outros, d...
+## Cena b9 - A prisão virou símbolo: de segurança para uns, de excesso para outros.
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao grin); POV (variante 2, expressao worried) | multidao: 18 de POV
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excesso, prisao, seguranca
 - RISCOS: nenhum
 
-## Cena b10 - E o modelo passou a ser estudado, copiado e criticado em vários lugare...
+## Cena b10 - E o modelo passou a ser copiado e criticado pelo mundo.
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): BUK (variante 0, expressao stern)
 - Animacao: conversar
 - Objetos/modelos: kit/prison
@@ -131,13 +131,11 @@ kit/prison | b0, b1, b2, b4, b9, b10 | pronto (HEROI: aparece em close) | confer
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 17% | medio 62% | aberto 21% | detalhe 0%
+- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 12% | medio 67% | aberto 22% | detalhe 0%
 - Interacoes: b0 aproxima-se, b3 entregar, b6 avanca e o outro recua, b8 discutir, b9 o outro se aproxima
-- RISCOS GERAIS: 
-  - video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cecot2023 bN bM` (so essas cenas).
