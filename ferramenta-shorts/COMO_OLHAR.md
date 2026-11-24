@@ -48,7 +48,7 @@ Ordem do Gibson (24/11): as sessões de produção têm de pensar, agir e **olha
 | 12 | "Os dois pularam" com close num só | Conte quantos a frase cita e quantos estão no quadro | — |
 | 13 | Carro do tamanho de brinquedo ao lado do boneco | Compare com a altura do personagem: carro bate no peito, não no joelho | — |
 | 14 | Barril, caixote e lampião em vídeo de 2026 | Passe o olho nos objetos pequenos do chão: são da época? | — |
-| 15 | Print da pesquisa que não tem nada a ver (uma torre, um tanque) | A pesquisa também se confere: descarte o print errado e refine a busca (`"visual": {"buscas": …}`) | `06_quadro_de_pesquisa…` |
+| 15 | Print da pesquisa que não tem nada a ver (uma torre, um tanque, uma nota de dólar moderna, um retrato de 1940) | A pesquisa também se confere, print por print: escreva o nome do arquivo ruim em `referencias/<id>/prints_ruins.txt`, refine a busca (`"visual": {"buscas": …}`) e rode `pesquisar.py` de novo | `06_quadro_de_pesquisa…` (a sessão B achou 7 prints errados que a principal tinha deixado passar) |
 
 ## 5. Erros de processo que eu cometi (não repita)
 
