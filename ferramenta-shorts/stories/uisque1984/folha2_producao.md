@@ -137,11 +137,9 @@ barrel | b6 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 11% | medio 72% | aberto 11% | detalhe 6%
 - Interacoes: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b8 cochichar, b9 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py uisque1984  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/uisque1984/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh uisque1984 bN bM` (so essas cenas).
