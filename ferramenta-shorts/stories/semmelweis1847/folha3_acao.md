@@ -15,7 +15,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | discutir | OK |
 | 5 | - | PLACA | 1847 | OK |
 
-## Cena b1 - 5.2s a 10.0s - 14 palavras - plano crowd
+## Cena b1 - 5.2s a 10.0s - 14 palavras - plano wide
 > "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -55,12 +55,12 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "BUK",
     "POV"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 11,
    "cena": "b2",

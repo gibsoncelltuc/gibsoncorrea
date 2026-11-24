@@ -10,7 +10,7 @@ b4 | group | -  | interior | encena: perde (facepalm) @2 (acao + som de efeito) 
 b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | encena: olha (point) @8 (acao + som de efeito) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 28 MILHÕES | - | -
 b7 | two | -  | placa: $250.000 | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
-b8 | crowd | -  | batalha aberta com tiros, tropa, placa: ROBERTO JUSTUS, mapa | - | -
+b8 | wide | -  | batalha aberta com tiros, placa: ROBERTO JUSTUS, mapa | - | -
 b9 | two | -  | placa: 2004-2015 | encena: fala (point) @1 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 b11 | two | -  | placa: COMENTE! | - | -

@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | comemorar, INTERAGEM: pular | kit/ballot_box, kit/volcano | - | -
 b1 | loc_campo | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/volcano | - | -
-b2 | loc_cidade | crowd | 14 | conversar, batalha | - | - | -
+b2 | loc_cidade | wide | 2 | conversar, batalha | - | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
 b4 | loc_patio | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b5 | loc_campo | wide | 14 | encena | kit/ballot_box, kit/volcano | - | -

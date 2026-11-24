@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 34.8s a 40.7s - 17 palavras - plano crowd
+## Cena b6 - 34.8s a 40.7s - 17 palavras - plano wide
 > "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

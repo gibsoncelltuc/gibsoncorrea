@@ -67,7 +67,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 34.6s a 40.2s - 16 palavras - plano crowd
+## Cena b7 - 34.6s a 40.2s - 16 palavras - plano wide
 > "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

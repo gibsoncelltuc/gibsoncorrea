@@ -10,7 +10,7 @@ b4 | two | noite  | tropa | - | -
 b5 | low | noite  | interior | encena: x_acorda (up) @1 (acao + som de efeito); encena: pula @3 (acao + som de efeito) | -
 b6 | two | noite  | interior, objeto na mao | encena: escreve (write) @5 (acao + som de efeito); encena: x_abre (push) @14 (acao + som de efeito) | -
 b7 | group | -  | interior, placa: FESTA | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: vence (up) @6 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito) | -
-b8 | crowd | -  | batalha aberta com tiros, tropa, placa: REMÉDIOS, TINTAS, PLÁSTICOS | - | -
+b8 | wide | -  | batalha aberta com tiros, tropa, placa: REMÉDIOS, TINTAS, PLÁSTICOS | - | -
 b9 | close | -  | placa: SONHE | - | -
 b10 | two | -  | placa: COMENTE! | - | -
 

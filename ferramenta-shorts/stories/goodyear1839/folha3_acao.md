@@ -22,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 10.1s a 16.9s - 23 palavras - plano crowd
+## Cena b2 - 10.1s a 16.9s - 23 palavras - plano wide
 > "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -14,13 +14,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | PLACA | 2021 | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b1 - 4.6s a 8.1s - 14 palavras - plano crowd
+## Cena b1 - 4.4s a 9.3s - 14 palavras - plano wide
 > "Foi em dois mil e vinte e um, e a empresa se chama Neuralink."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

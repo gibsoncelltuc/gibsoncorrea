@@ -46,12 +46,12 @@
    "cenario": "street"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "GOO",
     "POV"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/stove"
    ],

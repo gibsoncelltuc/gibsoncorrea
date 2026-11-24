@@ -1,4 +1,4 @@
-# Revisao do storyboard - arquimedes250 (24/11 noite, olhando o storyboard inteiro)
+# Revisao do storyboard - arquimedes250 (24/11 23h40, regerado e olhado de novo: igual ao aprovado)
 pesquisa: Arquimedes, Siracusa (Sicilia), sec. III a.C.; rei Hierao II, coroa votiva de ouro, suspeita de prata misturada pelo ourives; lenda (Vitruvio) da banheira que transbordou e do grito Eureca; cidade grega com casas brancas, telhas e templo de colunas
 b0: OK - "Um homem pulou da banheira e saiu correndo pela rua, gritando" Arquimedes na rua ao lado da banheira, EUREKA
 b1: OK - "Foi em Siracusa, na Sicilia" mapa SICILIA e moradores na praca

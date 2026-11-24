@@ -32,7 +32,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b3 - 15.2s a 18.1s - 10 palavras - plano crowd
+## Cena b3 - 15.2s a 18.1s - 10 palavras - plano wide
 > "O major Meredith levou duas metralhadoras e dez mil balas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

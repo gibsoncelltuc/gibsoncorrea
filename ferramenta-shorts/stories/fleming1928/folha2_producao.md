@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Quando voltou, achou um prato estragado, coberto de bolor verde.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): COL (variante 0, expressao smug); FLE (variante 0, expressao angry)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/petri, kit/gosma
@@ -54,9 +54,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Ele ia jogar o prato fora, mas olhou melhor.
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): FLE (variante 0, expressao suspicious) | multidao: 12 de POV
+- Personagens principais (1): FLE (variante 0, expressao suspicious)
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/petri, kit/gosma
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato
@@ -133,13 +133,11 @@ kit/gosma | b4, b5, b6 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/petri | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 17% | medio 69% | aberto 11% | detalhe 3%
+- Objeto heroi: kit/petri | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 17% | medio 68% | aberto 11% | detalhe 5%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b6 o outro se aproxima, b8 pular
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py fleming1928  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/fleming1928/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh fleming1928 bN bM` (so essas cenas).

@@ -51,9 +51,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao ...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): BUK (variante 0, expressao grin); ENA (variante 0, expressao suspicious) | multidao: 12 de POV
+- Personagens principais (2): BUK (variante 0, expressao grin); ENA (variante 0, expressao suspicious)
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bitcoin, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, bukele, dolar, moeda
@@ -163,7 +163,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): BUK (variante 0, expressao grin) | multidao: 12 de POV
+- Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, pedacinho

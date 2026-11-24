@@ -63,12 +63,12 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "SOL",
     "SOL"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [
     "crate",
     "mgun"

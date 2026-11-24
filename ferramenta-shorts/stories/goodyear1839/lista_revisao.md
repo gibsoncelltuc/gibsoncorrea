@@ -3,10 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b0: objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b5: objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-3. b0: objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32%
-4. b5: objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um inventor falido deixou cair uma gosma no fogão da cozinha": 

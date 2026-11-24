@@ -116,12 +116,12 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "MEX",
     "MUS"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/tequila_bolt",
     "kit/veg_cacto"

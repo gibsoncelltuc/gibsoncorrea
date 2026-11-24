@@ -12,7 +12,7 @@ b4 | interior madeira | close | 1 | reagir | kit/burr | - | -
 b5 | interior madeira | low | 1 | conversar | kit/burr | - | -
 b6 | street | wide | 2 | discutir, batalha | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/burr | - | -
-b8 | arctic | crowd | 13 | batalha | kit/burr, kit/rocket, kit/moon | - | -
+b8 | arctic | wide | 1 | batalha | kit/burr, kit/rocket, kit/moon | - | -
 b9 | loc_campo | two | 1 | conversar | kit/burr, dog | - | -
 b10 | street | close | 1 | conversar | - | - | -
 

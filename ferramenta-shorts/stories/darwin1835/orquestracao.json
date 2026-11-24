@@ -68,12 +68,12 @@
    "cenario": "palace"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "DAR",
     "MAR"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/finch"
    ],

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.0s - 15 palavras - plano two
@@ -25,7 +25,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | estudando (8.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | MAPA | ÁUSTRIA | OK |
 
-## Cena b2 - 10.3s a 15.1s - 19 palavras - plano crowd
+## Cena b2 - 10.3s a 15.1s - 19 palavras - plano wide
 > "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -49,37 +49,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rebolando (26.3s) | ACAO: danca | danca de bracos para cima | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 28.0s a 32.4s - 15 palavras - plano low
+## Cena b5 - 28.0s a 32.4s - 15 palavras - plano two
 > "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rebolada (29.8s) | ACAO: danca | danca de bracos para cima | OK |
-| 2 | mostrava (30.3s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b6 - 33.4s a 37.4s - 12 palavras - plano two
 > "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rebolava (33.8s) | ACAO: danca | danca de bracos para cima | OK |
-| 2 | dança (37.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | dança (37.4s) | ACAO: danca | danca de bracos para cima | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | dancar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b7 - 38.5s a 43.7s - 9 palavras - plano two
 > "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 44.9s a 48.7s - 11 palavras - plano orbit

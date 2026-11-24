@@ -32,14 +32,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)
 - PERSONAGENS: COL na esquerda, expressao smug; FLE na direita, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/petri: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/gosma: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/gosma: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b5: "Ele ia jogar o prato fora, mas olhou melhor."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 8.0 m)
 - PERSONAGENS: FLE no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/petri: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/gosma: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/gosma: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b6: "Acontece que, em volta do mofo, as bactérias tinham sumido."
 - LOCAL: sala de madeira; hora: day

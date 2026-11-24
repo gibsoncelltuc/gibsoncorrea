@@ -8,7 +8,7 @@ b0 | loc_cidade | two | 2 | conversar, INTERAGEM: insiste | kit/tequila_bolt | -
 b1 | loc_cidade | reveal | 7 | encena | kit/phone, kit/roadster | - | -
 b2 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | kit/tequila_bolt, nature/picket_fence | - | -
 b3 | interior loja | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
-b4 | loc_pista | crowd | 14 | discutir, batalha | kit/veg_cacto, kit/tequila_bolt | - | -
+b4 | loc_pista | wide | 2 | discutir, batalha | kit/veg_cacto, kit/tequila_bolt | - | -
 b5 | loc_pista | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt, kit/veg_cacto, kit/roadster | - | -
 b6 | interior loja | two | 1 | comemorar | kit/tequila_bolt | - | -
 b7 | loc_cidade | orbit | 23 | comemorar, batalha | kit/tequila_bolt | - | -

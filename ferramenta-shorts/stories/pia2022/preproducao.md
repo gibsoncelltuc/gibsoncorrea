@@ -12,7 +12,7 @@ b4 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: discutir, batalha | - | - | -
 b6 | interior pedra | two | 3 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b7 | interior loja | two | 1 | conversar | kit/phone | - | -
-b8 | loc_cidade | crowd | 16 | batalha | kit/marco_goldengate, kit/sink | - | -
+b8 | loc_cidade | wide | 16 | batalha | kit/marco_goldengate, kit/sink | - | -
 b9 | loc_cidade | orbit | 9 | encena | kit/sink | - | -
 b10 | loc_cidade | close | 1 | conversar | - | - | -
 

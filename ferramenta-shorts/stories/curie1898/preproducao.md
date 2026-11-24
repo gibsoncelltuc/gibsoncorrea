@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/curie_box, kit/marco_eiffel | - | -
-b1 | loc_campo | crowd | 7 | batalha | kit/marco_eiffel | - | -
+b1 | loc_campo | wide | 7 | batalha | kit/marco_eiffel | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | - | paper | -
 b3 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/curie_box | - | -

@@ -102,9 +102,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que o conselho que protege a tequila no México reclamou: o no...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MEX (variante 0, expressao angry); MUS (variante 0, expressao surprised) | multidao: 12 de POV
+- Personagens principais (2): MEX (variante 0, expressao angry); MUS (variante 0, expressao surprised)
 - Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/veg_cacto, kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conselho, mexico, tequila

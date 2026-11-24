@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
-Gerado em 24/11 23:37 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,12 +8,12 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | jungle | two | BUK, ENG | - | bitcoin, volcano | - | O presidente de El Salvador resolveu fabricar dinheiro digital com a e
 b1 | transicao | jungle | wide | POV | - | volcano | - | El Salvador é um país pequeno da América Central, cheio de vulcões.
-b2 | chave | loc_pista | crowd | BUK, ENA | 12 | bitcoin, coin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao 
+b2 | chave | loc_pista | wide | BUK, ENA | - | bitcoin, coin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao 
 b3 | simples | interior loja | two | ENG, BUK | - | bitcoin, miners | - | Só que, para criar bitcoins novos, computadores fazem contas sem parar
 b4 | simples | jungle | wide | BUK | - | volcano | - | Então ele mandou a empresa de energia do governo usar o calor do vulcã
 b5 | explicativa | loc_estudio | two | sem personagem | - | turbina, volcano | corpo: kit/turbina (gira); emissao: vapor; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entra | O vapor quente que sai de dentro da terra gira turbinas, e vira eletri
 b6 | simples | interior loja | two | ENG, ENA | - | bitcoin, miners | - | Acontece que, ao lado da usina, instalaram computadores só para minera
-b7 | chave | loc_pista | orbit | BUK | 12 | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
+b7 | chave | loc_pista | orbit | BUK | - | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
 b8 | simples | loc_pista | two | ENA, ENG | - | bitcoin, volcano | - | Anos depois, o governo contava quase quinhentos bitcoins feitos com o 
 b9 | simples | loc_cidade | wide | POV | - | apartment, house_two, bitcoin, volcano, lamppost | - | E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés
 b10 | simples | loc_pista | two | BUK | - | bitcoin, volcano | - | Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.

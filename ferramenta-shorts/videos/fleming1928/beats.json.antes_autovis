@@ -1,0 +1,359 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 4,
+ "title": "Fleming e a Penicilina",
+ "titulo_base": "Fleming e a Penicilina",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/petri",
+ "outfits": {
+  "FLE": {
+   "jacket": "#f4f4f0",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#c9c2b0",
+   "moustache_on": "#8a8070"
+  },
+  "COL": {
+   "jacket": "#f4f4f0",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#4a3020",
+   "glasses": true
+  },
+  "MED": {
+   "jacket": "#9ec8d8",
+   "pants": "#9ec8d8",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#f4f4f0"
+  },
+  "POV": {
+   "jacket": "#6a5a4a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.",
+   "shot": "two",
+   "who": [
+    "FLE:0:smile:book",
+    "COL:0:surprised"
+   ]
+  },
+  {
+   "say": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
+   "shot": "reveal",
+   "who": [
+    "MED:0:neutral",
+    "MED:1:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MED",
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "INGLATERRA",
+   "mapa_at": 2
+  },
+  {
+   "say": "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FLE:0:neutral:book",
+    "COL:0:suspicious"
+   ],
+   "acao": "conversar",
+   "detalhe": false,
+   "explica": false
+  },
+  {
+   "say": "Um dia, ele saiu de férias por um mês e não limpou nada.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FLE:0:grin:bag",
+    "COL:0:shock"
+   ],
+   "chega": true
+  },
+  {
+   "say": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COL:0:smug",
+    "FLE:0:angry"
+   ],
+   "interacao": "discutir",
+   "detalhe": false,
+   "props": [
+    [
+     "kit/petri",
+     0.0,
+     -1.0,
+     1.9,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "say": "Ele ia jogar o prato fora, mas olhou melhor.",
+   "shot": "two",
+   "who": [
+    "FLE:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/petri",
+     2.4,
+     0.2,
+     1.9,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     1.6,
+     -1.0,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
+  },
+  {
+   "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
+   "shot": "two",
+   "who": [
+    "FLE:0:shock",
+    "COL:0:surprised"
+   ],
+   "impact": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ],
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/petri",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     -1.6,
+     0.8,
+     0.57,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "text": "BACTÉRIAS SUMIRAM",
+   "explica": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FLE:0:smile",
+    "COL:0:relief"
+   ],
+   "interacao": "cochichar",
+   "explica": {
+    "objeto": "kit/petri",
+    "manobra": "parado",
+    "passos": [
+     "MOFO",
+     "PENICILINA",
+     "BACTÉRIA MORRE"
+    ]
+   }
+  },
+  {
+   "say": "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.",
+   "shot": "group",
+   "who": [
+    "MED:0:smile",
+    "MED:1:grin",
+    "POV:0:relief"
+   ],
+   "acao": "comemorar"
+  },
+  {
+   "say": "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.",
+   "shot": "crowd",
+   "set": "hall",
+   "who": [
+    "FLE:0:laugh",
+    "COL:0:laugh"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "MED",
+     "COL",
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "text": "NOBEL",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "acao": "comemorar"
+  },
+  {
+   "say": "No fim, a bagunça dele valeu mais que qualquer faxina.",
+   "shot": "close",
+   "who": [
+    "FLE:0:smug"
+   ]
+  }
+ ],
+ "visual": {
+  "local": "Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas",
+  "quando": "agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945",
+  "participantes": [
+   "Alexander Fleming",
+   "colegas do laboratorio",
+   "Howard Florey e Ernst Chain, que transformaram em remedio"
+  ],
+  "roupas": {
+   "FLE": "cientista de 1928 com jaleco branco sobre terno, gravata borboleta",
+   "COL": "colega de jaleco branco",
+   "MED": "medico de 1940 de jaleco",
+   "POV": "pacientes e enfermeiras de 1940"
+  },
+  "cenario": "laboratorio de 1928 com bancada de madeira, microscopio de latao, placas de Petri empilhadas, frascos de vidro",
+  "objetos": [
+   "placa de Petri com mofo",
+   "microscopio",
+   "frascos de vidro"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Alexander_Fleming",
+   "https://en.wikipedia.org/wiki/History_of_penicillin"
+  ],
+  "explicacoes": [
+   "Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929"
+  ]
+ }
+}

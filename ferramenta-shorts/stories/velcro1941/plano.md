@@ -10,7 +10,7 @@ b4 | close | -  | interior | encena: pega (lift) @10 (acao + som de efeito) | -
 b5 | low | -  | interior | encena: pensa (think) @1 (acao + som de efeito) | -
 b6 | wide | -  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de efeito); riram (stars + som de sino); encena: x_ri (up) @2 (acao + som de efeito); encena: pensa (think) @4 (acao + som de efeito); encena: pega (lift) @5 (acao + som de efeito) | -
 b7 | two | -  | interior | segredo (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito); encena: pega (lift) @8 (acao + som de efeito) | -
-b8 | crowd | espaco  | batalha aberta com tiros, tropa, placa: VELCRO | - | -
+b8 | wide | espaco  | batalha aberta com tiros, placa: VELCRO | - | -
 b9 | two | -  | animais | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 

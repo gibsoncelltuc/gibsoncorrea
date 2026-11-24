@@ -80,12 +80,12 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "FRI",
     "ASS"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/bee",
     "kit/beehive"
@@ -126,10 +126,7 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "FRI",
-    "COL"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/bee",
@@ -138,17 +135,21 @@
    "palavras": 10,
    "cena": "b4",
    "frase": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bee (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "low",
-   "personagens": [
-    "FRI"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/bee",
@@ -157,18 +158,21 @@
    "palavras": 15,
    "cena": "b5",
    "frase": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bee (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
-   "personagens": [
-    "FRI",
-    "ASS"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/bee",
@@ -177,11 +181,17 @@
    "palavras": 12,
    "cena": "b6",
    "frase": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bee (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",

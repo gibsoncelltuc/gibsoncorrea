@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | kit/wash_basin | - | -
-b1 | loc_campo | crowd | 8 | batalha | kit/maca, kit/room_hospital, kit/marco_viena | - | -
+b1 | loc_campo | wide | 8 | batalha | kit/maca, kit/room_hospital, kit/marco_viena | - | -
 b2 | interior hospital | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | interior hospital | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b4 | interior hospital | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
@@ -14,7 +14,7 @@ b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basi
 b7 | loc_campo | orbit | 3 | comemorar | kit/wash_basin, kit/marco_viena | - | -
 b8 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
 b9 | loc_campo | two | 1 | conversar | kit/lapide | - | -
-b10 | loc_campo | orbit | 13 | encena, batalha | kit/wash_basin | - | -
+b10 | loc_campo | orbit | 1 | encena, batalha | kit/wash_basin | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/wash_basin

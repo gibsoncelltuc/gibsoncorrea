@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: MENOS DE 1 HORA | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @2 (acao + som de efeito); encena: chega (point) @6 (acao + som de efeito) | -
-b3 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | encena: x_entrega (reach) @2 (acao + som de efeito) | -
+b3 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: x_entrega (reach) @2 (acao + som de efeito) | -
 b4 | reveal | -  | tropa, placa: 2.800 | encena: chega (point) @2 (acao + som de efeito); encena: x_abre (push) @13 (acao + som de efeito) | -
 b5 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | fogo (burst + som de tiro/explosao) | -
 b6 | two | -  | tropa | - | -

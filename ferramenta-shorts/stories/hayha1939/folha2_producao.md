@@ -64,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ...
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock) | multidao: 12 de FIN/FIN
+- Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock)
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ferro, fuzil, mira, quinhentos

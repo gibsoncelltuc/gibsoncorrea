@@ -40,7 +40,7 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
@@ -213,7 +213,7 @@
    "personagens": [
     "PAR"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/wash_basin"
    ],

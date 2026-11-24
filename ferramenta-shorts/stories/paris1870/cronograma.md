@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Gerado em 24/11 23:36 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | street | group | PAR, CHF | - | barrel, panela, rato | - | Depois
 b4 | chave | arctic | crowd | PAR, PAR | 6 | house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Quando acabou tudo, olharam para o zoológico da cidade.
 b5 | simples | arctic | two | BUT, PAR | - | - | - | O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne 
 b6 | simples | interior loja | two | CHF, PAR | - | bife_elefante | - | No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de
-b7 | chave | street | orbit | CHF, PAR | 12 | bife_elefante, marco_notredame | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que carne de elefante custava uma fortuna. Só os ricos comiam
+b7 | chave | street | orbit | CHF, PAR | - | bife_elefante, marco_notredame | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que carne de elefante custava uma fortuna. Só os ricos comiam
 b8 | simples | street | group | PAR, PAR | 10 | marco_notredame | - | Enquanto isso, o povo fazia fila no frio, com comida racionada.
 b9 | simples | street | two | PAR, PAR | - | balloon, balloon_air, marco_notredame | - | Para mandar notícias, soltavam balões por cima do cerco.
 b10 | simples | street | group | PAR, PAR | - | marco_notredame, panela | - | Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barri

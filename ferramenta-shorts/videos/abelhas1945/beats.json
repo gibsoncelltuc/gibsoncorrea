@@ -158,8 +158,8 @@
    "props": [
     [
      "kit/beehive",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -223,8 +223,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -305,10 +304,7 @@
   },
   {
    "shot": "two",
-   "who": [
-    "FRI:0:stern",
-    "COL:0:suspicious"
-   ],
+   "who": [],
    "props": [
     [
      "kit/beehive",
@@ -342,7 +338,6 @@
    ],
    "acao": "discutir",
    "say": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
-   "set": "loc_montanha",
    "shot_lock": true,
    "detalhe": false,
    "quadro": {
@@ -372,13 +367,27 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "PERTO = VOLTINHAS",
+      "topo",
+      "perto"
+     ],
+     [
+      "LONGE = UM OITO",
+      "meio",
+      "longe"
+     ]
+    ]
+   }
   },
   {
    "shot": "low",
-   "who": [
-    "FRI:0:shock"
-   ],
+   "who": [],
    "props": [
     [
      "kit/beehive",
@@ -417,7 +426,6 @@
     "sting@20"
    ],
    "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
-   "set": "loc_montanha",
    "shot_lock": true,
    "detalhe": false,
    "quadro": {
@@ -447,14 +455,35 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "ÂNGULO = DIREÇÃO",
+      "topo",
+      "ângulo"
+     ],
+     [
+      "PARA CIMA = SOL",
+      "meio",
+      "sol"
+     ]
+    ],
+    "setas": [
+     [
+      "cima",
+      "SOL",
+      "",
+      "sol"
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
-   "who": [
-    "FRI:0:laugh",
-    "ASS:0:grin"
-   ],
+   "who": [],
    "interacao": "entregar",
    "fx": [
     "stars@40"
@@ -463,7 +492,6 @@
     "ding@40"
    ],
    "say": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
-   "set": "loc_montanha",
    "props": [
     [
      "kit/beehive",
@@ -524,7 +552,23 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "MAIS REBOLADO",
+      "topo",
+      "rebolava"
+     ],
+     [
+      "= MAIS LONGE",
+      "meio",
+      "longe"
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
@@ -754,6 +798,9 @@
    "colegas cientistas desconfiados": "zoologist laboratory 1940s",
    "pratinhos de agua com acucar": "bees drinking sugar water dish",
    "caderno de anotacoes": "scientist field notebook"
-  }
+  },
+  "explicacoes": [
+   "Danca das abelhas (von Frisch): danca em circulo = comida perto; danca do requebrado em oito = comida longe; o angulo da corrida em relacao a vertical indica a direcao da comida em relacao ao sol; a duracao do requebrado indica a distancia (fonte: Wikipedia Waggle dance)"
+  ]
  }
 }

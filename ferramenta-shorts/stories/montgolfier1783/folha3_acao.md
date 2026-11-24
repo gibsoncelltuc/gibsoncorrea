@@ -12,7 +12,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | 1783 | OK |
 
-## Cena b1 - 6.3s a 9.3s - 9 palavras - plano crowd
+## Cena b1 - 6.3s a 9.3s - 9 palavras - plano wide
 > "Era mil setecentos e oitenta e três, na França."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

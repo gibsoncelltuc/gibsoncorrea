@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: neve
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad) | multidao: 12 de PAR
+- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad)
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bife_elefante, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, fortuna, ricos

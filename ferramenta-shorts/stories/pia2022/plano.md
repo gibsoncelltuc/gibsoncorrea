@@ -10,7 +10,7 @@ b4 | two | -  | tropa | - | -
 b5 | two | -  | batalha aberta com tiros, interior | encena: x_abre (push) @6 (acao + som de efeito); encena: negocio (reach) @8 (acao + som de efeito) | -
 b6 | two | -  | interior | - | -
 b7 | two | -  | interior, placa: CHIEF TWIT | encena: escreve (write) @6 (acao + som de efeito) | -
-b8 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b8 | wide | -  | batalha aberta com tiros, tropa | - | -
 b9 | orbit | -  | tropa | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 

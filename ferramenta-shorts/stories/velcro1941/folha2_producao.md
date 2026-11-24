@@ -84,9 +84,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Até que astronautas passaram a usar velcro no espaço, e o mundo inteir...
 - Cenario: arctic | luz: espaco | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao laugh) | multidao: 12 de POV
+- Personagens principais (1): AST (variante 0, expressao laugh)
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/burr, kit/rocket, kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, usar

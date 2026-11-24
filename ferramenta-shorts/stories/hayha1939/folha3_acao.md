@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | NEVE NA BOCA | OK |
 
-## Cena b6 - 31.2s a 37.3s - 22 palavras - plano crowd
+## Cena b6 - 31.2s a 37.3s - 22 palavras - plano wide
 > "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

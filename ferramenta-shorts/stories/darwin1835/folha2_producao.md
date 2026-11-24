@@ -34,9 +34,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cad...
 - Cenario: palace | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): DAR (variante 0, expressao suspicious, segura paper); MAR (variante 0, expressao bored) | multidao: 12 de POV
+- Personagens principais (2): DAR (variante 0, expressao suspicious, segura paper); MAR (variante 0, expressao bored)
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/finch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -

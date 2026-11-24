@@ -34,9 +34,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Isso significava que o sol estava bem em cima, e nada fazia sombra.
 - Cenario: loc_deserto | luz: desert | clima: calor
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ERA (variante 0, expressao smile); CAM (variante 0, expressao neutral) | multidao: 12 de POV
+- Personagens principais (2): ERA (variante 0, expressao smile); CAM (variante 0, expressao neutral)
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/well, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -

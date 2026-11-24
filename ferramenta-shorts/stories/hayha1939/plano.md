@@ -8,7 +8,7 @@ b2 | orbit | - neve | tropa, placa: -40 °C, mapa | - | -
 b3 | close | - neve | placa: SIMO HÄYHÄ | encena: fala (point) @8 (acao + som de efeito) | -
 b4 | low | - neve | - | encena: x_espera (cross) @4 (acao + som de efeito) | -
 b5 | close | - neve | placa: NEVE NA BOCA | - | -
-b6 | crowd | - neve | batalha aberta com tiros, tropa, placa: 100 DIAS | - | -
+b6 | wide | - neve | batalha aberta com tiros, placa: 100 DIAS | - | -
 b7 | group | - neve | placa: MORTE BRANCA | - | -
 b8 | two | -  | interior, placa: HOSPITAL | bala (burst + som de tiro/explosao); encena: atira @8 (acao + som de efeito); encena: x_acorda (up) @16 (acao + som de efeito) | -
 b9 | close | golden  | interior, placa: SÓ FEZ O SEU TRABALHO | - | -

@@ -125,12 +125,12 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "REP",
     "BUK"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 17,
    "cena": "b6",
@@ -170,7 +170,7 @@
     "BUK",
     "REP"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 8,
    "cena": "b8",
