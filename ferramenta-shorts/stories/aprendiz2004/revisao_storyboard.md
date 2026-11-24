@@ -1,13 +1,13 @@
 pesquisa: o quadro de referencias mostra Donald Trump de terno azul-marinho e gravata vermelha com cabelo loiro, Roberto Justus de cabelo grisalho e terno, barraca de limonada com cerca branca e prancheta; comparei com Trump loiro de terno azul e gravata vermelha, Justus grisalho de gravata azul, barraca de limonada na rua e sala de reuniao de madeira.
 defeitos procurados: cenario de cidade grande em 2004 e sala de madeira sem objeto fora de epoca; epoca 2004 com TV antiga de tubo; tamanho da TV e da barraca proporcional aos bonecos; ninguem cortado nas bordas; multidao de dezesseis candidatos e de espectadores sem clone de Trump; legenda livre porque textos ficam no alto; acao de cada verbo aparece e ninguem cai sem motivo; objeto heroi TV aparece nas cenas de audiencia e de Trump.
 b0: CORRIGIDO - duas palavras transformaram um empresario de Nova York numa estrela mundial: gancho fraco com dois bonecos conversando -> close do Trump de gravata vermelha com TV antiga e o texto VOCE ESTA DEMITIDO no alto, sem efeito cobrindo o texto.
-b1: OK - em dois mil e quatro estreou nos Estados Unidos o programa O Aprendiz: mapa de Estados Unidos com marcador e grupo de candidatos na rua.
+b1: CORRIGIDO - em dois mil e quatro estreou nos Estados Unidos o programa O Aprendiz: gente parada na rua -> TV antiga grande em close com o texto O APRENDIZ e dois candidatos olhando.
 b2: OK - dezesseis candidatos disputavam um emprego numa empresa de Donald Trump: plano aberto com dezesseis candidatos de terno ao redor de Trump na rua.
 b3: OK - as equipes faziam tarefas de negocios como vender limonada: dois candidatos com barraca de limonada e pasta de executivo na rua.
-b4: OK - a equipe perdedora ia para a sala de reuniao e alguem era eliminado: sala de madeira com Trump serio e candidato nervoso, sem loja.
-b5: OK - acontece que o jeito de eliminar virou marca e ele dizia voce esta demitido: Trump em close na sala de madeira com o texto VOCE ESTA DEMITIDO no alto, longe da legenda.
+b4: CORRIGIDO - a equipe perdedora ia para a sala de reuniao e alguem era eliminado: sala generica -> sala de madeira com mesa longa, cadeiras, Trump de um lado e candidatos nervosos dos dois lados.
+b5: CORRIGIDO - acontece que o jeito de eliminar virou marca: apontando o dedo ele dizia voce esta demitido: gesto de apontar so no fim -> Trump em close com o braco estendido apontando no instante da palavra apontando e texto no alto.
 b6: OK - a final da primeira temporada foi vista por cerca de vinte e oito milhoes de americanos: multidao de espectadores de terno com texto 28 MILHOES e TV ao fundo.
-b7: OK - Bill Rancic venceu e ganhou um salario de duzentos e cinquenta mil dolares: Rancic e Trump sorrindo com notas de dolar na mao.
-b8: CORRIGIDO - no Brasil O Aprendiz estreou no mesmo ano com Roberto Justus: apresentador pouco visivel -> plano de dois com Justus grisalho de gravata azul em destaque e mapa do Brasil.
-b9: OK - Trump apresentou por mais de dez anos ate dois mil e quinze: Trump de terno azul ao lado de um espectador e uma TV antiga.
+b7: CORRIGIDO - Bill Rancic venceu e ganhou um salario de duzentos e cinquenta mil dolares: faltava o valor -> texto $250.000 no alto com os dois executivos e notas de dolar.
+b8: CORRIGIDO - no Brasil O Aprendiz estreou no mesmo ano com Roberto Justus: rua de Nova York -> estudio azul com texto ROBERTO JUSTUS, apresentador grisalho de gravata azul e mapa do Brasil.
+b9: CORRIGIDO - Trump apresentou por mais de dez anos ate dois mil e quinze: estrada vazia com bonecos pequenos -> estudio azul com Trump em plano medio, TV antiga e texto 2004-2015.
 b10: OK - um programa de emprego que acabou ficando famoso justamente por demitir: Trump sorrindo de bracos erguidos com a TV ao lado e depois a chamada COMENTE.
