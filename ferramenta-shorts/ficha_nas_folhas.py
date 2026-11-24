@@ -62,6 +62,9 @@ def fisica(k, bloco, b):
         if not m: continue
         pal, ac, anim = m.group(1), m.group(2), m.group(3); chave = (ac + ' ' + anim).lower()
         desc = next((d for rx, d in FIS if re.search(rx, chave)), f'executa: {anim}')
+        if ac == 'BATALHA':
+            _arm = any(B.get('outfits', {}).get(str(w).split(':')[0], {}).get('rifle') for w in (b.get('who') or []) + ((b.get('crowd') or {}).get('outfits') or []))
+            if b.get('tiros') is False or not (_arm or re.search(r'atir|tiro|dispar|fuzil|bala', (b.get('say') or '').lower())): ac, desc = 'GRANDE MOMENTO', 'multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair'
         out.append(f'- {ac} {"na palavra " + pal if pal != "-" else "(a cena toda)"}: {desc}')
     q = b.get('quadro') or {}
     for o in q.get('objetos', []):

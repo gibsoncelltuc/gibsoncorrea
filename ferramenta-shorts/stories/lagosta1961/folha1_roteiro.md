@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~5.5 s)
 - Narracao: Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea
 - Efeitos sonoros marcados: thump@70
 - Efeito + som nas palavras-chave: encena: x_pesca (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@70

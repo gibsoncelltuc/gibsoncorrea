@@ -122,7 +122,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: puff na palavra briga (31.3s): executa: fumaca + som
 - ACAO: golpe na palavra briga (31.3s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - multidao de 20: parada, reagindo (angry), sempre ATRAS dos personagens principais
 <!-- /FISICA -->

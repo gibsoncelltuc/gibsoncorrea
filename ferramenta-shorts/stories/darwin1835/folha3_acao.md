@@ -67,7 +67,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: olha na palavra Achou (20.4s): braco estendido apontando para o objeto/lugar citado
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -115,7 +115,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - ATUACAO (a cena toda): executa: reagir
 - multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->

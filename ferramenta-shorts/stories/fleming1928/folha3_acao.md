@@ -111,7 +111,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - ATUACAO (a cena toda): executa: reagir
 - multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -159,7 +159,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra ganhou (49.6s): executa: estrelinhas + som
 - ACAO: vence na palavra ganhou (49.6s): executa: bracos para cima + brilho
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena

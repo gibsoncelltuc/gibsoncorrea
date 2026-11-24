@@ -111,7 +111,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra entrou (24.1s): executa: entra andando pela lateral
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - ATUACAO (a cena toda): executa: reagir
 - multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -189,7 +189,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - EFEITO: ring na palavra gritou (47.8s): executa: onda + som
 - ACAO: grita na palavra gritou (47.8s): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - EMOCAO: shout (a cena toda): executa: o rosto vira "shout" na palavra
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 14: parada, reagindo (shock), sempre ATRAS dos personagens principais

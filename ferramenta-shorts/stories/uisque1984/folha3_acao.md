@@ -63,7 +63,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra desembarcaram (17.6s): executa: entra andando pela lateral
 - CENA (a cena toda): tropa em fileiras; clarões piscando ao longo da fileira; alguns soldados caem; fumaca baixa
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - vehicles/helicopter CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
 <!-- /FISICA -->
 
@@ -92,7 +92,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra apareceram (27.1s): executa: entra andando pela lateral
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 <!-- /FISICA -->
 
 ## Cena b6 - 30.7s a 33.6s - 11 palavras - plano two

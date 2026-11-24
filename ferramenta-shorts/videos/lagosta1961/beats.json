@@ -146,7 +146,9 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.2,
-   "d1": 10.7
+   "d1": 10.7,
+   "batalha": false,
+   "tiros": false
   },
   {
    "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
