@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | tiros (23.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
 | 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 6 | - | ATUACAO | discutir | OK |
 | 7 | - | PLACA | PARA O ALTO | OK |
 

@@ -17,6 +17,9 @@ if [ ! -f referencias/$ID/pesquisa.json ]; then log "pesquisa de campo (folha 4)
 VOICE=$(j voice); RATE=$(j rate); T=$(j file)
 VH=$(python3 -c "import json,hashlib;B=json.load(open('videos/$ID/beats.json'));print(hashlib.md5(' '.join(b['say'] for b in B['beats']).encode()).hexdigest()[:12])")   # texto narrado mudou = voz nova (pendencia da sessao B: a voz antiga ia para o video)
 if st voice && [ -f stories/$ID/stages/voice.hash ] && [ "$(cat stories/$ID/stages/voice.hash)" != "$VH" ]; then log "o texto do roteiro mudou: refazendo a voz"; rm -rf stories/$ID/stages/voice stories/$ID/voice.mp3 stories/$ID/work; fi
+if st voice && [ ! -f stories/$ID/stages/voice.hash ] && [ -f stories/$ID/script_one.txt ] && ! python3 -c "
+import json,re,sys;n=lambda t: re.sub(r'\W+',' ',t.lower()).strip()
+B=json.load(open('videos/$ID/beats.json'));sys.exit(0 if n(' '.join(b['say'] for b in B['beats'])) in n(open('stories/$ID/script_one.txt').read()) else 1)"; then log "voz antiga com texto diferente do roteiro: refazendo a voz"; rm -rf stories/$ID/stages/voice stories/$ID/voice.mp3 stories/$ID/work; fi
 st voice && [ ! -f stories/$ID/stages/voice.hash ] && echo "$VH" > stories/$ID/stages/voice.hash
 if st voice && [ -f stories/$ID/voice.mp3 ] && [ ! -f stories/$ID/work/phrases.json ]; then log "refazendo so a temporizacao (work/ ausente)"; (cd stories/$ID && python3 ../../timing.py voice.mp3 script.txt --out work >> ../../$L 2>&1); fi
 if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; echo "$VH" > stories/$ID/stages/voice.hash; fi
