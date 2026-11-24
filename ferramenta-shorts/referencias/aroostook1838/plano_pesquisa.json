@@ -7,7 +7,15 @@
    "item": "A Guerra de Aroostook",
    "consultas": [
     "A Guerra de Aroostook",
-    "Uma Estados Unidos Inglaterra Em Maine Na Aroostook 1838"
+    "Uma Estados Unidos Inglaterra Em Maine New Brunswick Na Aroostook 1838"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunsw",
+   "consultas": [
+    "Floresta de pinheiros do norte do Maine rio Aroostook fronteira com New Brunswick",
+    "Floresta de pinheiros do norte do Maine rio Aroostook fronteira com New Brunswick Fort Fai"
    ]
   },
   {
@@ -27,10 +35,98 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "lenhadores americanos do Maine",
+   "consultas": [
+    "lenhadores americanos do Maine",
+    "lenhadores americanos do Maine 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "lenhadores de New Brunswick",
+   "consultas": [
+    "lenhadores de New Brunswick",
+    "lenhadores de New Brunswick 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Rufus McIntire, agente de terras do Maine",
+   "consultas": [
+    "Rufus McIntire agente de terras do Maine",
+    "Rufus McIntire agente de terras do Maine 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "milicianos do Maine",
+   "consultas": [
+    "milicianos do Maine",
+    "milicianos do Maine 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados britanicos",
+   "consultas": [
+    "soldados britanicos",
+    "soldados britanicos 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "general Winfield Scott",
+   "consultas": [
+    "general Winfield Scott",
+    "general Winfield Scott 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Daniel Webster e Lord Ashburton (tratado 1842)",
+   "consultas": [
+    "Daniel Webster e Lord Ashburton tratado 1842",
+    "Daniel Webster e Lord Ashburton tratado 1842 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pilhas de toras",
+   "consultas": [
+    "pilhas de toras",
+    "pilhas de toras 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "machado",
+   "consultas": [
+    "machado",
+    "machado 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cavalos e bois de arraste (equipamento de lenhadores)",
+   "consultas": [
+    "cavalos e bois de arraste",
+    "cavalos e bois de arraste 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "documento do tratado",
+   "consultas": [
+    "documento do tratado",
+    "documento do tratado 1838"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "logs",
    "consultas": [
-    "logs",
+    "pilhas de toras",
     "A Guerra de Aroostook"
    ]
   },

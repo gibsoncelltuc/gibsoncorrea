@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/aroostook1838/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py aroostook1838` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenh...
+## Cena b0 - Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por ...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry)
-- Animacao: discutir | interacao: discutir
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry) | multidao: 40 de AME/CAN
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/logs, nature/tree_pine
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, inglaterra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, inglaterra, lenhadores
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine...
@@ -17,89 +17,89 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AME (variante 0, expressao neutral); CAN (variante 0, expressao neutral) | multidao: 8 de AME/CAN
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colonia, estado, fronteira, maine
 - RISCOS: nenhum
 
-## Cena b2 - Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mes...
+## Cena b2 - Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árv...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/logs, mk/Axe_Bronze, nature/tree_pine, nature/tree_oak, nature/bush
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, madeira, mata, mesmas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, dois, madeira, mata, mesmas
 - RISCOS: nenhum
 
-## Cena b3 - "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começ...
+## Cena b3 - Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry) | multidao: 16 de AME/CAN
-- Animacao: discutir | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry) | multidao: 12 de AME
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: nature/tree_pine
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, lenhador
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, lenhadores, maine, terras, voluntarios
 - RISCOS: nenhum
 
-## Cena b4 - O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
-- Cenario: loc_montanha | luz: day | clima: limpo
+## Cena b4 - O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma...
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 30 de MIL/ING
 - Animacao: encena | batalha encenada
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, maine, seus, soldados
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colonia, maine, milicia, seus, soldados
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que um agente do Maine foi preso pelos ingleses, e o clima fi...
+## Cena b5 - Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): AME (variante 0, expressao scared); ING (variante 0, expressao smug)
+- Personagens principais (2): AME (variante 0, expressao scared); CAN (variante 0, expressao smug)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, clima, maine
 - RISCOS: nenhum
 
-## Cena b6 - Mas ninguém queria uma guerra de verdade, então o governo mandou um ge...
-- Cenario: loc_montanha | luz: day | clima: limpo
+## Cena b6 - Mas ninguém queria uma guerra de verdade, então o presidente americano...
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, governo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, presidente
 - RISCOS: nenhum
 
-## Cena b7 - Ele convenceu os dois lados a parar, e a história terminou sem um únic...
+## Cena b7 - Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao smile, segura paper); PRE (variante 0, expressao relief)
-- Animacao: discutir | interacao: entregar
+- Animacao: discutir | interacao: entregar | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, parar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, firmar, lutar, tregua, tropas
 - RISCOS: nenhum
 
-## Cena b8 - Alguns anos depois, as duas nações assinaram um tratado que dividiu o ...
+## Cena b8 - Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton defin...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PRE (variante 0, expressao smug, segura paper); PRE (variante 1, expressao smile)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, fronteira, territorio, tratado
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): area, fronteira, maine, tratado
 - RISCOS: nenhum
 
-## Cena b9 - Chamaram de Guerra do Porco com Feijão, porque era só isso que as trop...
+## Cena b9 - Ficou conhecida até como a Guerra do Porco com Feijão.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin) | multidao: 0 de AME
-- Animacao: conversar | interacao: aproxima-se
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin)
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -128,17 +128,15 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 11% | medio 70% | aberto 13% | detalhe 7%
-- Interacoes: b0 discutir, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
+- Objeto heroi: kit/logs | grandes momentos: b0, b4 | planos abertos: 3 | mistura: close 10% | medio 73% | aberto 13% | detalhe 3%
+- Interacoes: b2 discutir, b3 aproxima-se, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 avanca e o outro recua
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'loc_campo': 6, 'loc_montanha': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py aroostook1838  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/aroostook1838/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - pouca variedade de cenario ({'loc_campo': 6, 'mountain': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+  - FOLHA 4: 12 item(ns) sem referencia visual: Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunsw, lenhadores americanos do Maine, lenhadores de New Brunswick, Rufus McIntire, a -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 3 risco(s) em aberto
-- geral: pouca variedade de cenario ({'loc_campo': 6, 'loc_montanha': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 2 risco(s) em aberto
+- geral: pouca variedade de cenario ({'loc_campo': 6, 'mountain': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros
+- geral: FOLHA 4: 12 item(ns) sem referencia visual: Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunsw, lenhadores americanos do Maine, lenhadores de New Brunswick, Rufus McIntire, a
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).

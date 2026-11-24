@@ -10,7 +10,7 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
-   "loc_montanha"
+   "mountain"
   ],
   "cenarios_trocados": [
    [
@@ -37,16 +37,6 @@
     "cena 4",
     "countryside",
     "loc_campo"
-   ],
-   [
-    "cena 5",
-    "mountain",
-    "loc_montanha"
-   ],
-   [
-    "cena 7",
-    "mountain",
-    "loc_montanha"
    ],
    [
     "cena 10",
@@ -102,15 +92,44 @@
   "nature/tree_oak",
   "nature/tree_pine"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunswick (Fort Fairfield/Masardis)",
+  "quando": "inverno de 1838-1839 (fevereiro de 1839: neve e frio); tratado em 1842",
+  "participantes": [
+   "lenhadores americanos do Maine",
+   "lenhadores de New Brunswick",
+   "Rufus McIntire, agente de terras do Maine",
+   "milicianos do Maine",
+   "soldados britanicos",
+   "general Winfield Scott",
+   "Daniel Webster e Lord Ashburton (tratado 1842)"
+  ],
+  "roupas": {
+   "AME": "casaco de la azul, gorro de la, botas (lenhador americano, gravura de lenhador de Maine ~1830)",
+   "CAN": "casaco de la laranja/marrom, gorro (lenhador de New Brunswick)",
+   "MIL": "milicia do Maine: casaca azul, calca clara, shako",
+   "ING": "soldado britannico: casaca vermelha, calca clara, shako",
+   "GEN": "general Scott: uniforme azul de gala",
+   "PRE": "diplomatas de 1842: casaca e cartola escura"
+  },
+  "cenario": "mata de pinheiros e rio, acampamento de toras; fortes de madeira (Fort Fairfield, Fort Kent); sala de tratado em madeira/pedra",
+  "objetos": [
+   "pilhas de toras",
+   "machado",
+   "cavalos e bois de arraste (equipamento de lenhadores)",
+   "documento do tratado"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Aroostook_War",
+   "referencias/aroostook1838/moodboard.jpg (mapa da fronteira, gravura de lenhador, moda de 1838, toras, soldados)"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "loc_montanha",
+   "interior pedra",
+   "interior madeira"
+  ]
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

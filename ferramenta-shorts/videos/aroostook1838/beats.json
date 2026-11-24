@@ -93,10 +93,9 @@
      1.8
     ]
    ],
-   "text": "1838",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e todos sobreviveram.",
+   "say": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém morreu em combate.",
    "fachada": false
   },
   {
@@ -116,7 +115,7 @@
    },
    "mapa": "MAINE",
    "mapa_at": 3,
-   "say": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e uma colônia inglesa ainda era confusa."
+   "say": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e a colônia inglesa de New Brunswick ainda era disputada."
   },
   {
    "shot": "two",
@@ -126,7 +125,7 @@
     "CAN:0:smug"
    ],
    "acao": "discutir",
-   "say": "Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "say": "Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árvores, e cada lado queria a madeira.",
    "fachada": false,
    "props": [
     [
@@ -159,13 +158,13 @@
    ]
   },
   {
-   "shot": "crowd",
+   "shot": "reveal",
    "set": "countryside",
    "who": [
     "AME:0:shout",
     "CAN:0:angry"
    ],
-   "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
+   "say": "Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agente de terras com voluntários para prender os lenhadores de New Brunswick.",
    "fachada": false,
    "props": [
     [
@@ -187,13 +186,12 @@
      1.8
     ]
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 16,
+    "n": 12,
     "outfits": [
-     "AME",
-     "CAN"
+     "AME"
     ],
     "march": true,
     "expr": "angry"
@@ -219,16 +217,16 @@
    },
    "text": "MILÍCIA",
    "titulo": true,
-   "say": "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
+   "say": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus."
   },
   {
    "shot": "two",
    "who": [
     "AME:0:scared",
-    "ING:0:smug"
+    "CAN:0:smug"
    ],
    "interacao": "empurrar",
-   "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
+   "say": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
    "interior": "pedra",
    "props": [
     [
@@ -248,7 +246,7 @@
     "MIL:0:nervous"
    ],
    "interacao": "cochichar",
-   "say": "Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar."
+   "say": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar."
   },
   {
    "shot": "two",
@@ -258,7 +256,7 @@
     "PRE:0:relief"
    ],
    "interacao": "entregar",
-   "say": "Ele convenceu os dois lados a parar, e a história terminou sem um único tiro.",
+   "say": "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar.",
    "acao": "discutir"
   },
   {
@@ -269,7 +267,7 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, as duas nações assinaram um tratado que dividiu o território, e a fronteira ficou definida."
+   "say": "Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton definiu a fronteira, e a maior parte da área ficou com o Maine."
   },
   {
    "shot": "two",
@@ -298,7 +296,7 @@
      1.7
     ]
    ],
-   "say": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
+   "say": "Ficou conhecida até como a Guerra do Porco com Feijão.",
    "animals": [
     [
      "pig",
@@ -311,5 +309,43 @@
    "fachada": false
   }
  ],
- "regiao": "europa"
+ "regiao": "europa",
+ "visual": {
+  "local": "Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunswick (Fort Fairfield/Masardis)",
+  "quando": "inverno de 1838-1839 (fevereiro de 1839: neve e frio); tratado em 1842",
+  "participantes": [
+   "lenhadores americanos do Maine",
+   "lenhadores de New Brunswick",
+   "Rufus McIntire, agente de terras do Maine",
+   "milicianos do Maine",
+   "soldados britanicos",
+   "general Winfield Scott",
+   "Daniel Webster e Lord Ashburton (tratado 1842)"
+  ],
+  "roupas": {
+   "AME": "casaco de la azul, gorro de la, botas (lenhador americano, gravura de lenhador de Maine ~1830)",
+   "CAN": "casaco de la laranja/marrom, gorro (lenhador de New Brunswick)",
+   "MIL": "milicia do Maine: casaca azul, calca clara, shako",
+   "ING": "soldado britannico: casaca vermelha, calca clara, shako",
+   "GEN": "general Scott: uniforme azul de gala",
+   "PRE": "diplomatas de 1842: casaca e cartola escura"
+  },
+  "cenario": "mata de pinheiros e rio, acampamento de toras; fortes de madeira (Fort Fairfield, Fort Kent); sala de tratado em madeira/pedra",
+  "objetos": [
+   "pilhas de toras",
+   "machado",
+   "cavalos e bois de arraste (equipamento de lenhadores)",
+   "documento do tratado"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Aroostook_War",
+   "referencias/aroostook1838/moodboard.jpg (mapa da fronteira, gravura de lenhador, moda de 1838, toras, soldados)"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "loc_montanha",
+   "interior pedra",
+   "interior madeira"
+  ]
+ }
 }
