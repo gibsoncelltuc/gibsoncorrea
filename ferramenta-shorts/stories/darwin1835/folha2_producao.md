@@ -255,11 +255,9 @@ kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 ## Video inteiro
 - Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 11% | medio 69% | aberto 12% | detalhe 7%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 cochichar, b8 pular
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py darwin1835  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/darwin1835/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh darwin1835 bN bM` (so essas cenas).
