@@ -120,13 +120,15 @@ peixe (citado na narracao) | b0, b8 | FALTA | pesquisar referencia (referencias/
 - Interacoes: b0 o outro se aproxima, b1 insiste, b3 vai ate o outro, b7 aproxima-se
 - RISCOS GERAIS: 
   - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
+  - GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bacalhau1958  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bacalhau1958/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 6 risco(s) em aberto
 - b0: objeto sem modelo 3D: peixe
 - b8: objeto sem modelo 3D: peixe
 - geral: menos de 2 grandes momentos
+- geral: GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
