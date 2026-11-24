@@ -30,12 +30,12 @@
    "cenario": "street"
   },
   {
-   "camera": "crowd",
+   "camera": "reveal",
    "personagens": [
     "CON",
     "OFI"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [
     "buildings/shop",
     "kit/cake_table",
@@ -45,15 +45,9 @@
    "palavras": 13,
    "cena": "b1",
    "frase": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -135,8 +129,7 @@
   {
    "camera": "crowd",
    "personagens": [
-    "FRA",
-    "OFI"
+    "FRA"
    ],
    "multidao": 48,
    "objetos": [

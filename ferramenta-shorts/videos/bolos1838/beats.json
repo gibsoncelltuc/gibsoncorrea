@@ -79,7 +79,14 @@
    ],
    "mapa": "MÉXICO",
    "mapa_at": 6,
-   "say": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México."
+   "say": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.",
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "impact": false,
+   "batalha": false
   },
   {
    "shot": "group",
@@ -153,8 +160,7 @@
   {
    "shot": "crowd",
    "who": [
-    "FRA:0:stern",
-    "OFI:0:shock"
+    "FRA:0:stern"
    ],
    "batalha": true,
    "crowd": {
@@ -167,22 +173,30 @@
     "expr": "shock"
    },
    "say": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
-   "set": "harbor"
+   "set": "harbor",
+   "fx": [],
+   "sfx": [
+    "cannon@30"
+   ],
+   "props": []
   },
   {
    "shot": "two",
    "who": [
     "GEN:0:pained"
    ],
-   "fx": [
-    "burst@30"
-   ],
    "sfx": [
     "cannon@30"
    ],
    "say": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.",
    "set": "harbor",
-   "interior": false
+   "interior": false,
+   "impact": false,
+   "acao": "nenhuma",
+   "verbos_ok": [
+    "enterr"
+   ],
+   "text": "PERNA ENTERRADA COM HONRAS"
   },
   {
    "shot": "two",
@@ -243,5 +257,6 @@
    "confeiteiro francês": "French pastry chef 19th century",
    "oficial mexicano de 1830": "Mexican army officer 1830s uniform Santa Anna era"
   }
- }
+ },
+ "min_momentos": 1
 }

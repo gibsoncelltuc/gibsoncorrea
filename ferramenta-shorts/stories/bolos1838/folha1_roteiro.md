@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~4.5 s)
 - Narracao: Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OFI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: MÉXICO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~6.6 s)
 - Narracao: Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram, dizem os mexicanos.
@@ -59,7 +59,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b6  (~5.5 s)
 - Narracao: Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
+- Efeitos sonoros marcados: cannon@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
 - Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; canhões -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
@@ -70,8 +70,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Som ambiente: sea
 - Efeitos sonoros marcados: cannon@30
 - Efeito + som nas palavras-chave: encena: espeta (punch) @3 -> acao + som de efeito; encena: x_planta (hammer) @13 -> acao + som de efeito
-- Efeito visual marcado: burst@30
-- Texto na tela: -
+- Efeito visual marcado: -
+- Texto na tela: PERNA ENTERRADA COM HONRAS
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~7.6 s)

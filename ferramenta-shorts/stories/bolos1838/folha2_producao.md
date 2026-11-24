@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 12 de OFI
-- Animacao: - | batalha encenada
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, confeiteiro, loja, mexico
 - RISCOS: nenhum
@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FRA (variante 0, expressao stern); OFI (variante 0, expressao shock) | multidao: 48 de FRA/OFI
-- Animacao: reagir | batalha encenada
+- Personagens principais (1): FRA (variante 0, expressao stern) | multidao: 48 de FRA/OFI
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/marco_ulua, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, fortaleza, soldados, ulua
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): GEN (variante 0, expressao pained)
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: kit/grave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): honras, perna
 - RISCOS: nenhum
@@ -127,7 +127,7 @@ kit/grave | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 23% | medio 70% | aberto 5% | detalhe 2%
+- Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 2 | mistura: close 21% | medio 70% | aberto 7% | detalhe 2%
 - Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 avanca e o outro recua, b8 cochichar
 - RISCOS GERAIS: nenhum
 
