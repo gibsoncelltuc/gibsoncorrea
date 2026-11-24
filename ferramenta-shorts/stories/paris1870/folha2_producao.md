@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous)
@@ -33,22 +33,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Depois, os roedores, que viraram um prato chique.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PAR (variante 0, expressao shock); CHF (variante 0, expressao grin)
-- Animacao: reagir | interacao: discutir
+- Animacao: reagir | interacao: tremem de frio
 - Objetos/modelos: barrel, kit/panela
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato, roedores
 - RISCOS: nenhum
 
 ## Cena b4 - Quando acabou tudo, olharam para o zoológico da cidade.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): PAR (variante 1, expressao nervous); PAR (variante 3, expressao nervous) | multidao: 6 de PAR
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_notredame, buildings/house_two, nature/lamppost, elephant, deer
+- Objetos/modelos: buildings/house_two, nature/lamppost, elephant, deer
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, zoologico
 - RISCOS: nenhum
 
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
-- Animacao: conversar | interacao: tremem de frio
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/panela
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, lobo, natal, restaurante
 - RISCOS: nenhum
@@ -128,7 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/panela | b0, b3, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_notredame | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_notredame | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -142,7 +142,7 @@ kit/balloon | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 ## Video inteiro
 - Objeto heroi: kit/panela | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 29% | medio 52% | aberto 13% | detalhe 7%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 discutir, b6 tremem de frio, b7 o outro se aproxima, b9 vai ate o outro
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b6 discutir, b7 o outro se aproxima, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
