@@ -1512,8 +1512,18 @@ def build_beat(k, b):
         else:                                                                           # MODO RICKS: texto numa placa fincada na cena, ao lado dos personagens
             _sx = 0.0   # placa alta, atras e acima das cabecas, no centro do quadro
             fx.append(f"{{ k: 'text', a: {a}, b: {bb}, at: [X + {num(_sx)}, DK, {num(-1.3)}], text: {json.dumps(b['text'], ensure_ascii=False)}, s: {num(b.get('tscale', 1.5) * 1.75)}, col: '#3a2416', size: 120, board: {json.dumps(b.get('placa', True))} }}")
+    # 24/11 (Chaleira): o CLARAO sai de onde o tiro sai (boca do canhao, do tamanho certo para a distancia da camera) e o IMPACTO acontece em cima do objeto atingido ("a bala acertou e destruiu a chaleira")
+    _pp_fx = [p_ for p_ in (b.get('props') or []) if isinstance(p_, list) and len(p_) > 2 and not isinstance(p_[1], str)]
+    _can_fx = next((p_ for p_ in _pp_fx if re.search(r'cannon|canhao', str(p_[0]))), None)
+    _hit_fx = next((p_ for p_ in _pp_fx if (HEROI and str(p_[0]) == str(HEROI)) or not re.search(r'navio|ship|boat|building|cannon|canhao|vehicles/', str(p_[0]))), None) if re.search(r'(bala|tiro|disparo|canh|bomba|projetil|granada)\w*.*\b(acert|destru|ating|explod|despedac)|\b(acert|destru|ating|despedac)\w*.*(bala|tiro|canh)', nrm0x(b['say'])) else None
+    _dcam_fx = float(b.get('d0') or T.get('d0') or 9)
     for e in b.get('fx', []):
         kind, _, at = e.partition('@'); at = int(at) if at else 4
+        if kind == 'burst' and _hit_fx:
+            _sh = float(_hit_fx[3]) if len(_hit_fx) > 3 and not isinstance(_hit_fx[3], dict) else 1.0
+            fx.append(f"{{ k: 'burst', a: {a} + {at}, b: {a} + {at + 12}, at: [X + {num(_hit_fx[1])}, DK + {num(0.55 * _sh - 1.5 * max(1.4, _dcam_fx / 7))}, {num(float(_hit_fx[2]) + 0.6 * _sh)}], s: {num(max(1.4, _dcam_fx / 7))} }}")   # o desenho do clarao fica ~1,5*s acima do ponto: desce para o centro cair no objeto; fx.append(f"{{ k: 'puff', a: {a} + {at + 3}, b: {a} + {at + 40}, at: [X + {num(_hit_fx[1])}, DK + 0.2, {num(_hit_fx[2])}], s: 1.1 }}"); continue
+        if kind == 'burst' and _can_fx:
+            fx.append(f"{{ k: 'burst', a: {a} + {at}, b: {a} + {at + 12}, at: [X + {num(_can_fx[1])}, DK + {num(1.1 - 1.5 * max(1.2, _dcam_fx / 6))}, {num(float(_can_fx[2]) + 0.8)}], s: {num(max(1.2, _dcam_fx / 6))} }}"); continue
         if (b.get('_enc') or b.get('_veic_anim')) and kind in ('puff', 'dust', 'splash'): continue   # cena de processo: a fumaca sai do objeto (encenacao), nao uma nuvem na frente do personagem
         if kind == 'burst': fx.append(f"{{ k: 'burst', a: {a} + {at}, at: [X + {num(sl[0] if n else 0)}, DK + 1.8, 3.2], s: 1.2 }}")
         elif kind in ('dust', 'puff'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X + 0.9, DK + 0.12, 1.0], s: 0.75 }}")   # nos pes, nao na frente do rosto
