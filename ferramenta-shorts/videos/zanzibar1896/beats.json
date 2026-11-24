@@ -238,7 +238,7 @@
    "shot": "two",
    "who": [
     "GUA:0:pained:flag",
-    "ING:1:stern"
+    "ING2:0:stern"
    ],
    "fx": [
     "dust@40"
@@ -247,7 +247,10 @@
     "thump@40"
    ],
    "text": "9:40",
-   "say": "Os tiros pararam por volta das nove e quarenta."
+   "say": "Os disparos pararam por volta das nove e quarenta.",
+   "batalha": false,
+   "tiros": false,
+   "interior": "madeira"
   },
   {
    "shot": "two",

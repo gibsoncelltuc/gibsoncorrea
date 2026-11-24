@@ -3,7 +3,7 @@
  "ano": 1896,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 100,
+  "acoes_encenadas": 92,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -67,7 +67,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "ALM"
    ],
@@ -79,9 +79,15 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -176,27 +182,23 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "GUA",
-    "ING"
+    "ING2"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [],
    "palavras": 9,
    "cena": "b8",
-   "frase": "Os tiros pararam por volta das nove e quarenta.",
-   "classe": "chave",
+   "frase": "Os disparos pararam por volta das nove e quarenta.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "briefing": {},
+   "acoes_faltando": [
+    "disparos"
+   ],
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",

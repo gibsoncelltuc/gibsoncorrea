@@ -69,10 +69,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): ALM (variante 0, expressao stern, segura paper) | multidao: 0 de 
-- Animacao: encena
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/navio_vapor, kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, nove, palacio, ultimato
 - RISCOS: nenhum
@@ -175,21 +175,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - Os tiros pararam por volta das nove e quarenta.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern) | multidao: 18 de GUA/ING/POV
-- Animacao: encena | batalha encenada
+## Cena b8 - Os disparos pararam por volta das nove e quarenta.
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern)
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nove, tiros
-- RISCOS: nenhum
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): disparos, nove
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: disparos -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING na direita, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING2 na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
@@ -262,11 +263,12 @@ kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b5, b8 | planos abertos: 5 | mistura: close 16% | medio 52% | aberto 29% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b7 discutir, b9 entregar
+- Objeto heroi: kit/navio_vapor | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 16% | medio 59% | aberto 22% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b7 discutir, b8 vai ate o outro, b9 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b8: ACAO SEM ANIMACAO na narracao: disparos
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).

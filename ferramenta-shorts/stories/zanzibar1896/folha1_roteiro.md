@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 
 ## Cena b3  (~4.5 s)
 - Narracao: Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~5.5 s)
 - Narracao: O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.
@@ -75,13 +75,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.1 s)
-- Narracao: Os tiros pararam por volta das nove e quarenta.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (GUA) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; tiros -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito
+- Narracao: Os disparos pararam por volta das nove e quarenta.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: thump@40
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.2 s)
 - Narracao: Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.

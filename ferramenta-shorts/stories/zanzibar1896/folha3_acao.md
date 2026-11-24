@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 47 acoes catalogadas, 46 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
 
 
 ## Cena b0 - 0.1s a 3.6s - 15 palavras - plano two
@@ -54,16 +54,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b3 - 14.7s a 18.2s - 13 palavras - plano wide
+## Cena b3 - 14.7s a 18.2s - 13 palavras - plano crowd
 > "Os ingleses deram um ultimato: sair do palácio até as nove da manhã."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deram (15.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_entrega na palavra deram (15.2s): executa: estende a mao entregando
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 <!-- /FISICA -->
 
 ## Cena b4 - 19.3s a 23.7s - 16 palavras - plano group
@@ -146,25 +148,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b8 - 38.2s a 40.0s - 9 palavras - plano orbit
-> "Os tiros pararam por volta das nove e quarenta."
+## Cena b8 - 38.2s a 40.0s - 9 palavras - plano group
+> "Os disparos pararam por volta das nove e quarenta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiros (38.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiros (38.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (GUA) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | PLACA | 9:40 | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 9:40 | OK |
+| ! | disparos | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra tiros (38.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ACAO: atira na palavra tiros (38.3s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- CENA (a cena toda): executa: cavalaria: 4 soldados a cavalo (GUA)
-- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

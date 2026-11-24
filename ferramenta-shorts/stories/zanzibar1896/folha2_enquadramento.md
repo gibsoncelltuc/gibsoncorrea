@@ -59,10 +59,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: SUL na esquerda, expressao shock; ALM na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Os tiros pararam por volta das nove e quarenta."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+## b8: "Os disparos pararam por volta das nove e quarenta."
+- LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING na direita, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING2 na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40

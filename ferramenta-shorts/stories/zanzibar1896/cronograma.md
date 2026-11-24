@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Gerado em 24/11 20:51 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 20:51 | 12 cenas | metricas: acoes_encenadas 92%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,12 +9,12 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | harbor | two | SUL, GUA | - | marco_zanzibar | - | Uma guerra durou menos de uma hora, e é considerada a mais curta da hi
 b1 | transicao | harbor | reveal | SUL, POV | 8 | marco_zanzibar | - | Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana
 b2 | simples | interior pedra | two | SUL, GUA | - | throne | - | O sultão morreu, e um primo ocupou o palácio sem pedir licença.
-b3 | simples | harbor | wide | ALM | - | marco_zanzibar, navio_vapor | - | Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
+b3 | chave | harbor | crowd | ALM | - | marco_zanzibar, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
 b4 | simples | loc_campo | group | GUA, GUA | 18 | marco_zanzibar | - | O primo reuniu quase três mil homens, com fuzis e mosquetes, e se tran
 b5 | chave | harbor | crowd | ING, GUA | 48 | marco_zanzibar, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, às nove e dois, os navios ingleses abriram fogo.
 b6 | chave | harbor | crowd | SUL, GUA | 32 | cannon, fire, marco_zanzibar, flagpole | corpo: labaredas 3D; emissao: fumaca; luz: clarao do fogo; camera: plano da cena; som: fogo | O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira 
 b7 | simples | interior madeira | two | SUL, ALM | - | - | - | O sultão foi pedir abrigo no consulado da Alemanha.
-b8 | chave | loc_campo | orbit | GUA, ING | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os tiros pararam por volta das nove e quarenta.
+b8 | simples | interior madeira | group | GUA, ING2 | - | - | - | Os disparos pararam por volta das nove e quarenta.
 b9 | simples | interior pedra | two | SUL, ING2 | - | throne | - | Os ingleses colocaram outro sultão no trono, e os aliados do primo pag
 b10 | simples | interior loja | close | ALM | - | - | - | E ainda mandaram a conta das balas.
 b11 | simples | harbor | close | SUL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -26,17 +26,17 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/14 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh zanzibar1896
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh zanzibar1896
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh zanzibar1896
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local zanzibar1896 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 9. Revisao escrita e aprovacao
+**Etapa atual:** 4. Travas do roteiro
 
