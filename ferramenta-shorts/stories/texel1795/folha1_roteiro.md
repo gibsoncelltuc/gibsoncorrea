@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 
 ## Cena b2  (~5.5 s)
 - Narracao: A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_treme @12 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 
 ## Cena b3  (~3.8 s)
 - Narracao: Os navios ficaram presos no gelo, sem conseguir sair do lugar.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: prende (push) @3 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 
 ## Cena b8  (~4.1 s)
 - Narracao: Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: rende (up) @11 -> acao + som de efeito
 - Efeito visual marcado: -

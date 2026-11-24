@@ -6,13 +6,13 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | arctic | wide | 2 | parados (so fala e pisca) | ship, horse | - | -
 b1 | harbor | reveal | 2 | reagir | - | - | -
-b2 | harbor | orbit | 2 | reagir | kit/navio_vela, navios de guerra ao fundo, no tamanho real | - | -
-b3 | harbor | wide | 1 | encena | ship, kit/navio_vela, navios de guerra ao fundo, no tamanho real | - | -
+b2 | arctic | orbit | 2 | reagir | ship | - | -
+b3 | arctic | wide | 1 | encena | ship | - | -
 b4 | arctic | group | 3 | conversar, INTERAGEM: tremem de frio | horse | - | -
 b5 | arctic | two | 2 | conversar, INTERAGEM: aproxima-se | horse | - | -
 b6 | arctic | low | 2 | reagir, INTERAGEM: avanca e o outro recua | horse | - | -
 b7 | arctic | two | 2 | encena, andando, batalha | horse | - | -
-b8 | harbor | group | 12 | reagir, INTERAGEM: discutir, batalha | - | - | -
+b8 | arctic | group | 12 | reagir, INTERAGEM: discutir, batalha | ship | - | -
 b9 | arctic | crowd | 2 | batalha | ship, horse | - | -
 b10 | arctic | close | 1 | conversar | - | - | -
 

@@ -59,8 +59,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_vela",
-    "navios de guerra ao fundo, no tamanho real"
+    "ship"
    ],
    "palavras": 16,
    "cena": "b2",
@@ -69,7 +68,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
    "camera": "wide",
@@ -78,8 +77,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_vela",
-    "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
    "palavras": 11,
@@ -89,7 +86,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
    "camera": "group",
@@ -173,7 +170,9 @@
     "FRA"
    ],
    "multidao": 10,
-   "objetos": [],
+   "objetos": [
+    "ship"
+   ],
    "palavras": 12,
    "cena": "b8",
    "frase": "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.",
@@ -187,7 +186,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
    "camera": "crowd",

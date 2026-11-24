@@ -96,23 +96,29 @@
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "NED:0:nervous",
     "NED:1:shock"
    ],
    "props": [
     [
-     "kit/navio_vela",
-     0.0,
-     -15.0,
-     1.0
+     "ship",
+     -4,
+     -5,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -7,
+     1.3
     ]
    ],
    "text": "FROTA CONGELADA",
    "tat": 7,
    "tstyle": "white",
-   "set": "harbor",
+   "set": "arctic",
    "clima": "neve"
   },
   {
@@ -130,18 +136,18 @@
     ],
     [
      "ship",
-     3,
-     -6,
-     1.2
+     4,
+     -7,
+     1.3
     ],
     [
-     "kit/navio_vela",
+     "ship",
      9,
-     -9,
-     1.0
+     -10,
+     1.1
     ]
    ],
-   "set": "harbor",
+   "set": "arctic",
    "clima": "neve",
    "shot_lock": true
   },
@@ -233,7 +239,7 @@
    "tstyle": "red",
    "light": "arctic",
    "mood": "playful",
-   "set": "harbor",
+   "set": "arctic",
    "clima": "neve",
    "crowd": {
     "n": 10,
@@ -246,7 +252,21 @@
    "impact": true,
    "shot_lock": true,
    "tiros": false,
-   "sem_mortos": true
+   "sem_mortos": true,
+   "props": [
+    [
+     "ship",
+     -4,
+     -5,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -7,
+     1.3
+    ]
+   ]
   },
   {
    "say": "Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero.",
