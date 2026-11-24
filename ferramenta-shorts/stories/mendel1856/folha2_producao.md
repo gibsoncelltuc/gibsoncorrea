@@ -277,11 +277,9 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 ## Video inteiro
 - Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 10% | medio 74% | aberto 10% | detalhe 6%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 susto, b4 discutir, b5 insiste, b7 cochichar, b8 vai ate o outro, b9 pular
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: Mendel e as Ervilhas, Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mostei, Gregor Mendel (habito preto de monge agostiniano, oculos -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: Mendel e as Ervilhas, Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mostei, Gregor Mendel (habito preto de monge agostiniano, oculos
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mendel1856 bN bM` (so essas cenas).
