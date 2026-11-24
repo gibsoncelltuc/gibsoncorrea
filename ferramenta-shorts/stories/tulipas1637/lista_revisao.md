@@ -3,8 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b0: objeto citado "buildings/windmill" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b0: objeto "kit/tulip_bed" saiu com 13% da altura da tela, a ficha de cena planejou 30%
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Uma única flor já custou o preço de uma casa inteira.": 

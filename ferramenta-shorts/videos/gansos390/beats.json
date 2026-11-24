@@ -360,35 +360,36 @@
    "animals": [
     [
      "goose",
-     -1.3,
-     1.0,
+     -1.2,
+     1.1,
      "stand",
-     1.7
+     2.0
     ],
     [
      "goose",
      0.0,
-     1.3,
+     1.4,
      "stand",
-     1.7
+     2.0
     ],
     [
      "goose",
-     1.3,
-     1.0,
+     1.2,
+     1.1,
      "stand",
-     1.7
+     2.0
     ]
    ],
    "set": "medieval",
    "fachada": false,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
+   "_auto_vis": 0,
    "shot_lock": true,
    "objetos": false,
-   "d0": 9.0,
-   "d1": 8.0
+   "d0": 7.5,
+   "d1": 7.0,
+   "vary": false
   }
  ],
  "cinf": 4.5,

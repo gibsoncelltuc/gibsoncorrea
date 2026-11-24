@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Gerado em 24/11 18:14 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 19:55 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -16,9 +16,9 @@ b6 | simples | interior madeira | two | MAR, PIE | - | - | - | Ela carregava fra
 b7 | chave | loc_campo | crowd | MAR | 18 | marco_eiffel | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu
 b8 | simples | loc_campo | two | MAR | - | - | - | Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos
 b9 | simples | interior pedra | two | PES, JOR | - | crate, curie_box | - | Mas os cadernos dela continuam radioativos, guardados em caixas de chu
-b10 | simples | interior pedra | close | PES | - | curie_box | - | Para ler, é preciso assinar um termo e usar roupa de proteção.
-b11 | simples | loc_montanha | two | MAR | - | curie_box | - | Ou seja: os cadernos vão continuar radioativos por séculos.
-b12 | simples | loc_campo | close | PES | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b10 | simples | interior pedra | close | PRO | - | curie_box | - | Para ler, é preciso assinar um termo e usar roupa de proteção.
+b11 | simples | interior pedra | two | MAR | - | curie_box | - | Ou seja: os cadernos vão continuar radioativos por séculos.
+b12 | simples | interior pedra | close | PES | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

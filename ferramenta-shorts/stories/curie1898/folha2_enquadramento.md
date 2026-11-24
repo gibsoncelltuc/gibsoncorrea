@@ -34,7 +34,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de madeira; hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)
 - PERSONAGENS: MAR na esquerda, expressao grin; PIE (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
@@ -77,18 +77,18 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)
 - PERSONAGENS: PES na esquerda, expressao suspicious; JOR (jornalista) na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b10: "Para ler, é preciso assinar um termo e usar roupa de proteção."
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
-- PERSONAGENS: PES no centro, expressao scared; sem multidao; acao: fala/gesto
+- PERSONAGENS: PRO no centro, expressao scared, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
 
 ## b11: "Ou seja: os cadernos vão continuar radioativos por séculos."
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia; clima: limpo
+- LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
 - PERSONAGENS: MAR no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa

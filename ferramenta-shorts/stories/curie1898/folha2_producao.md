@@ -106,7 +106,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)
 - PERSONAGENS: MAR na esquerda, expressao grin; PIE (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 - TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
@@ -224,7 +224,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)
 - PERSONAGENS: PES na esquerda, expressao suspicious; JOR (jornalista) na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/curie_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
   - take 1 (45.2-47.2 s): mesmo angulo
   - take 2 (47.2-49.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -234,8 +234,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (1): PES (variante 0, expressao scared)
-- Animacao: conversar
+- Personagens principais (1): PRO (variante 0, expressao scared, segura paper)
+- Animacao: encena
 - Objetos/modelos: kit/curie_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): protecao, termo
 - RISCOS: nenhum
@@ -244,7 +244,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
-- PERSONAGENS: PES no centro, expressao scared; sem multidao; acao: fala/gesto
+- PERSONAGENS: PRO no centro, expressao scared, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
@@ -254,9 +254,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b11 - Ou seja: os cadernos vão continuar radioativos por séculos.
-- Cenario: loc_montanha | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: dia | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MAR (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/curie_box
@@ -265,7 +265,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia; clima: limpo
+- LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
 - PERSONAGENS: MAR no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -275,7 +275,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: dia | clima: limpo
+- Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PES (variante 0, expressao grin)
@@ -295,7 +295,7 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 25% | medio 67% | aberto 5% | detalhe 3%
+- Objeto heroi: kit/curie_box | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 25% | medio 68% | aberto 5% | detalhe 2%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 insiste, b9 susto
 - RISCOS GERAIS: nenhum
 

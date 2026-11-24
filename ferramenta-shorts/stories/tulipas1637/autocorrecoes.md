@@ -9,3 +9,12 @@
 ## 24/11 18:21 autocorrecao de visibilidade
 - b0: ja corrigida 3 vezes, objeto citado "buildings/windmill" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b0: ja corrigida 3 vezes, objeto "kit/tulip_bed" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 24/11 19:51 autocorrecao de visibilidade
+- b1: objeto citado "kit/tulip_bed" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b0: objeto "kit/tulip_striped" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b3: objeto "kit/tulip_bed" saiu com 15% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b8: objeto "kit/tulip_bed" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 19:53 autocorrecao de visibilidade
+- b0: objeto "kit/tulip_striped" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

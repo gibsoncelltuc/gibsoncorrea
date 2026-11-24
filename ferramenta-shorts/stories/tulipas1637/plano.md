@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, placa: 1637, objeto na mao | - | -
+b0 | two | -  | placa: 1637, objeto na mao | - | -
 b1 | wide | -  | tropa, mapa, objeto na mao | - | -
 b2 | two | -  | interior, objeto na mao | moedas (stars + som de sino); encena: negocio (reach) @1 (acao + som de efeito); encena: paga (reach) @5 (acao + som de efeito); encena: paga (reach) @11 (acao + som de efeito) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: TODO MUNDO, objeto na mao | comprando (stars + som de sino); encena: paga (reach) @5 (acao + som de efeito) | -
