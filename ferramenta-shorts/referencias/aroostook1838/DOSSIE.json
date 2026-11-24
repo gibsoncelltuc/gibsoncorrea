@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1838,
   "era": "historica",
-  "regiao": "eua",
+  "regiao": "europa",
   "luz_base": "day",
   "cenarios": [
    "arctic",
@@ -33,9 +33,9 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/logs",
-  "kit/room_eua_wood",
-  "kit/room_europa_stone",
-  "kit/room_verde_shop",
+  "kit/room_azul_shop",
+  "kit/room_europa_wood",
+  "kit/room_verde_stone",
   "kit/scroll",
   "mk/Barrel",
   "mk/Bed_Twin1",
