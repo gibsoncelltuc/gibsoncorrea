@@ -5,7 +5,7 @@ b1: OK - inaugurada em janeiro de 2023 numa area isolada: mapa de El Salvador co
 b2: OK - por anos El Salvador teve taxas de assassinato por causa das gangues: reporter assustado e civil assustado conversando em sala cinza sem prisao na frente.
 b3: OK - o presidente Bukele decretou estado de excecao e suspeitos foram presos: Bukele ao lado de soldado, montanhas ao fundo, grupo de civis atras.
 b4: OK - centro de confinamento com vagas para quarenta mil presos: batalhao de soldados em blocos com texto 40 MIL, muralha alta e torre de vigia atras.
-b5: OK - muralhas altas, cercas eletricas e torres de vigia: cena de explicacao com o presidio girando e rotulos legiveis sem corte.
+b5: CORRIGIDO - muralhas altas, cercas eletricas e torres de vigia: rotulos da cena de explicacao estavam minusculos e cercas caia num bloco -> maquete prison_mini girando com MURALHAS, TORRES e CERCAS grandes e legiveis.
 b6: OK - os assassinatos despencaram: grafico 106,3 em 2015 contra 2,4 em 2023 com dois personagens em pe, ninguem cai.
 b7: OK - organizacoes de direitos humanos denunciaram prisoes sem julgamento: civis protestando em campo com texto SEM JULGAMENTO, sem tiro e sem batalha.
 b8: OK - o governo responde que as ruas ficaram seguras e que a maioria apoia: Bukele e reporter conversando em patio de concreto com muralha ao longe.
