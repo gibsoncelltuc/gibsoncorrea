@@ -12,12 +12,58 @@
   },
   {
    "tipo": "lugar",
+   "item": "Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a cat",
+   "consultas": [
+    "Pisa Italia",
+    "Pisa Italia 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "The Duomo and Tower of Pisa at sunrise.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg/500px-The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Duomo_and_Tower_of_Pisa_at_sunrise.jpg",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English Vietnamese Nhà thờ \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/pisa_italia_praca_dos_milagres_com_a_tor_b87777.jpg",
+     "consulta": "Pisa Italia"
+    },
+    {
+     "titulo": "Pisa - Cattedrale da Battistero 02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pisa_-_Cattedrale_da_Battistero_02.jpg/500px-Pisa_-_Cattedrale_da_Battistero_02.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APisa_-_Cattedrale_da_Battistero_02.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English German Dom zu \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/galileu1589/prints/pisa_italia_praca_dos_milagres_com_a_tor_6a5d8f.jpg",
+     "consulta": "Pisa Italia"
+    },
+    {
+     "titulo": "Pisa Cathedral 2014.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Pisa_Cathedral_2014.jpg/500px-Pisa_Cathedral_2014.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APisa_Cathedral_2014.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/galileu1589/prints/pisa_italia_praca_dos_milagres_com_a_tor_b159fe.jpg",
+     "consulta": "Pisa Italia"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Itália",
    "consultas": [
     "Itália 1589",
     "Itália landscape"
    ],
    "achados": [
+    {
+     "titulo": "DomenicoFetti.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/DomenicoFetti.jpg/500px-DomenicoFetti.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADomenicoFetti.jpg",
+     "descricao": "Object type painting  Genre portrait  Description Portrait of Domenico Fetti (\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/it_lia_264121.jpg",
+     "consulta": "Itália 1589"
+    },
     {
      "titulo": "Genova doppia 1589.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Genova_doppia_1589.jpg/500px-Genova_doppia_1589.jpg",
@@ -34,15 +80,6 @@
      "descricao": "DescriptionGerace - Castello \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/galileu1589/prints/it_lia_e1aea3.jpg",
-     "consulta": "Itália 1589"
-    },
-    {
-     "titulo": "Corte interna, pozzo del 1589 (Vignola) 2025-04-20 20.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Corte_interna%2C_pozzo_del_1589_%28Vignola%29_2025-04-20_20.jpg/500px-Corte_interna%2C_pozzo_del_1589_%28Vignola%29_2025-04-20_20.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACorte_interna%2C_pozzo_del_1589_%28Vignola%29_2025-04-20_20.jpg",
-     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Italian corte interna, pozzo del \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/galileu1589/prints/it_lia_849063.jpg",
      "consulta": "Itália 1589"
     }
    ]
@@ -85,11 +122,297 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Galileu Galilei jovem (toga escura de professor, barba curta)",
+   "consultas": [
+    "Galileu Galilei jovem toga escura de professor barba curta",
+    "Galileu Galilei jovem toga escura de professor barba curta 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "Homenagem a Galileu Galilei II by Cleber Machado, Vila Madalena metro station, SP, 12-10-2024 (4).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Homenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%284%29.jpg/500px-Homenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%284%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHomenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%284%29.jpg",
+     "descricao": "DescriptionHomenagem a \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/galileu_galilei_jovem_toga_escura_de_pro_d7a364.jpg",
+     "consulta": "Galileu Galilei"
+    },
+    {
+     "titulo": "Homenagem a Galileu Galilei II by Cleber Machado, Vila Madalena metro station, SP, 12-10-2024 (3).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Homenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%283%29.jpg/500px-Homenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%283%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHomenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%283%29.jpg",
+     "descricao": "\\u0026#039;\\u0026#039;Homenagem a \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/galileu1589/prints/galileu_galilei_jovem_toga_escura_de_pro_ddf5f5.jpg",
+     "consulta": "Galileu Galilei"
+    },
+    {
+     "titulo": "Homenagem a Galileu Galilei II by Cleber Machado, Vila Madalena metro station, SP, 12-10-2024 (2).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Homenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%282%29.jpg/500px-Homenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%282%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHomenagem_a_Galileu_Galilei_II_by_Cleber_Machado%2C_Vila_Madalena_metro_station%2C_SP%2C_12-10-2024_%282%29.jpg",
+     "descricao": "\\u0026#039;\\u0026#039;Homenagem a \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/galileu1589/prints/galileu_galilei_jovem_toga_escura_de_pro_00a689.jpg",
+     "consulta": "Galileu Galilei"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "alunos de toga",
+   "consultas": [
+    "alunos de toga",
+    "alunos de toga 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "Hendrik Goltzius, The Great Hercules, 1589, NGA 70311.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hendrik_Goltzius%2C_The_Great_Hercules%2C_1589%2C_NGA_70311.jpg/500px-Hendrik_Goltzius%2C_The_Great_Hercules%2C_1589%2C_NGA_70311.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHendrik_Goltzius%2C_The_Great_Hercules%2C_1589%2C_NGA_70311.jpg",
+     "descricao": "English The Great Hercules, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/alunos_de_toga_2dde65.jpg",
+     "consulta": "1589"
+    },
+    {
+     "titulo": "NGC 1589 imaged by Legacy Surveys.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NGC_1589_imaged_by_Legacy_Surveys.jpg/500px-NGC_1589_imaged_by_Legacy_Surveys.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANGC_1589_imaged_by_Legacy_Surveys.jpg",
+     "descricao": "org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English NGC \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/galileu1589/prints/alunos_de_toga_72ae09.jpg",
+     "consulta": "1589"
+    },
+    {
+     "titulo": "Salm 1589.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Salm_1589.jpg/500px-Salm_1589.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASalm_1589.jpg",
+     "descricao": "https://creativecommons.org/publicdomain/mark/\\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/galileu1589/prints/alunos_de_toga_317f7c.jpg",
+     "consulta": "1589"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "professores aristotelicos",
+   "consultas": [
+    "professores aristotelicos",
+    "professores aristotelicos 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "Hendrik Goltzius, The Great Hercules, 1589, NGA 70311.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hendrik_Goltzius%2C_The_Great_Hercules%2C_1589%2C_NGA_70311.jpg/500px-Hendrik_Goltzius%2C_The_Great_Hercules%2C_1589%2C_NGA_70311.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHendrik_Goltzius%2C_The_Great_Hercules%2C_1589%2C_NGA_70311.jpg",
+     "descricao": "English The Great Hercules, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/professores_aristotelicos_2dde65.jpg",
+     "consulta": "1589"
+    },
+    {
+     "titulo": "Schloss Pfauhausen, innerer Torbogen mit Schlussstein von 1589.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Schloss_Pfauhausen%2C_innerer_Torbogen_mit_Schlussstein_von_1589.jpg/500px-Schloss_Pfauhausen%2C_innerer_Torbogen_mit_Schlussstein_von_1589.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASchloss_Pfauhausen%2C_innerer_Torbogen_mit_Schlussstein_von_1589.jpg",
+     "descricao": "4.0 truetrue English Pfauhausen Castle, inner archway with keystone from \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/galileu1589/prints/professores_aristotelicos_d6f70b.jpg",
+     "consulta": "1589"
+    },
+    {
+     "titulo": "Schloss Pfauhausen, Schlussstein am inneren Torbogen mit Jahreszahl 1589.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Schloss_Pfauhausen%2C_Schlussstein_am_inneren_Torbogen_mit_Jahreszahl_1589.jpg/500px-Schloss_Pfauhausen%2C_Schlussstein_am_inneren_Torbogen_mit_Jahreszahl_1589.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASchloss_Pfauhausen%2C_Schlussstein_am_inneren_Torbogen_mit_Jahreszahl_1589.jpg",
+     "descricao": "truetrue English Pfauhausen Castle, keystone on the inner archway with the year \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/galileu1589/prints/professores_aristotelicos_5e54a0.jpg",
+     "consulta": "1589"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bola de ferro pesada",
+   "consultas": [
+    "bola de ferro pesada",
+    "bola de ferro pesada 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "Ca' Morosini Ferro Manolesso (Venise).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ca%27_Morosini_Ferro_Manolesso_%28Venise%29.jpg/500px-Ca%27_Morosini_Ferro_Manolesso_%28Venise%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACa%27_Morosini_Ferro_Manolesso_%28Venise%29.jpg",
+     "descricao": "Ca\\u0026#039; Morosini \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/galileu1589/prints/bola_de_ferro_pesada_f12d14.jpg",
+     "consulta": "bola ferro"
+    },
+    {
+     "titulo": "Palazzo Ferro Fini Canal Grande Venezia.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Palazzo_Ferro_Fini_Canal_Grande_Venezia.jpg/500px-Palazzo_Ferro_Fini_Canal_Grande_Venezia.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APalazzo_Ferro_Fini_Canal_Grande_Venezia.jpg",
+     "descricao": "4912 4198 1254 1196 2370 7360 4912 Ca\\u0026#039; Morosini \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/galileu1589/prints/bola_de_ferro_pesada_d8f70c.jpg",
+     "consulta": "bola ferro"
+    },
+    {
+     "titulo": "Fiona Ferro RG2021.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Fiona_Ferro_RG2021.jpg/500px-Fiona_Ferro_RG2021.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFiona_Ferro_RG2021.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Fiona \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/galileu1589/prints/bola_de_ferro_pesada_930b93.jpg",
+     "consulta": "bola ferro"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bola leve",
+   "consultas": [
+    "bola leve",
+    "bola leve 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "Playing in the Nuba mountains.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Playing_in_the_Nuba_mountains.jpg/500px-Playing_in_the_Nuba_mountains.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APlaying_in_the_Nuba_mountains.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/bola_leve_889ee3.jpg",
+     "consulta": "ball"
+    },
+    {
+     "titulo": "Boys playing street football in Egypt.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Boys_playing_street_football_in_Egypt.jpg/500px-Boys_playing_street_football_in_Egypt.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABoys_playing_street_football_in_Egypt.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 2,
+     "print": "referencias/galileu1589/prints/bola_leve_2e685d.jpg",
+     "consulta": "ball"
+    },
+    {
+     "titulo": "30th St. Moritz Polo World Cup on Snow - 20140202 - Cartier vs Ralph Lauren 9.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/30th_St._Moritz_Polo_World_Cup_on_Snow_-_20140202_-_Cartier_vs_Ralph_Lauren_9.jpg/500px-30th_St._Moritz_Polo_World_Cup_on_Snow_-_20140202_-_Cartier_vs_Ralph_Lauren_9.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A30th_St._Moritz_Polo_World_Cup_on_Snow_-_20140202_-_Cartier_vs_Ralph_Lauren_9.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 3,
+     "print": "referencias/galileu1589/prints/bola_leve_e6ffaa.jpg",
+     "consulta": "ball"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "torre de Pisa",
+   "consultas": [
+    "torre de Pisa",
+    "torre de Pisa 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "Torre de Pisa - panoramio (1).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Torre_de_Pisa_-_panoramio_%281%29.jpg/500px-Torre_de_Pisa_-_panoramio_%281%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATorre_de_Pisa_-_panoramio_%281%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/torre_de_pisa_553dfb.jpg",
+     "consulta": "torre de Pisa"
+    },
+    {
+     "titulo": "Torre Inclinada de Pisa, Campanario de la Catedral.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Torre_Inclinada_de_Pisa%2C_Campanario_de_la_Catedral.jpg/500px-Torre_Inclinada_de_Pisa%2C_Campanario_de_la_Catedral.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATorre_Inclinada_de_Pisa%2C_Campanario_de_la_Catedral.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Spanish \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/galileu1589/prints/torre_de_pisa_04ce87.jpg",
+     "consulta": "torre de Pisa"
+    },
+    {
+     "titulo": "Torre pendente (Pisa).JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Torre_pendente_%28Pisa%29.JPG/500px-Torre_pendente_%28Pisa%29.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATorre_pendente_%28Pisa%29.JPG",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/galileu1589/prints/torre_de_pisa_a0c698.jpg",
+     "consulta": "torre de Pisa"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "martelo e pena (Apollo 15)",
+   "consultas": [
+    "martelo e pena",
+    "martelo e pena 1589"
+   ],
+   "achados": [
+    {
+     "titulo": "Sramalle.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sramalle.jpg/500px-Sramalle.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASramalle.jpg",
+     "descricao": "Kraus, Pilarín Álvarez, Maruja Vallojera, Mari Carmen del Rio, Antonio \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/martelo_e_pena_apollo_15__6f51b3.jpg",
+     "consulta": "martelo e pena"
+    },
+    {
+     "titulo": "Sramalle.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sramalle.jpg/500px-Sramalle.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASramalle.jpg",
+     "descricao": "Vallojera, Mari Carmen del Rio, Antonio \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/galileu1589/prints/martelo_e_pena_apollo_15__6f51b3.jpg",
+     "consulta": "martelo pena"
+    }
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "ball",
+   "consultas": [
+    "bola de ferro pesada",
+    "Galileu e a Torre de Pisa"
+   ],
+   "achados": [
+    {
+     "titulo": "Ca' Morosini Ferro Manolesso (Venise).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ca%27_Morosini_Ferro_Manolesso_%28Venise%29.jpg/500px-Ca%27_Morosini_Ferro_Manolesso_%28Venise%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACa%27_Morosini_Ferro_Manolesso_%28Venise%29.jpg",
+     "descricao": "Ca\\u0026#039; Morosini \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/galileu1589/prints/ball_f12d14.jpg",
+     "consulta": "bola ferro"
+    },
+    {
+     "titulo": "Palazzo Ferro Fini Canal Grande Venezia.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Palazzo_Ferro_Fini_Canal_Grande_Venezia.jpg/500px-Palazzo_Ferro_Fini_Canal_Grande_Venezia.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APalazzo_Ferro_Fini_Canal_Grande_Venezia.jpg",
+     "descricao": "4912 4198 1254 1196 2370 7360 4912 Ca\\u0026#039; Morosini \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/galileu1589/prints/ball_d8f70c.jpg",
+     "consulta": "bola ferro"
+    },
+    {
+     "titulo": "Fiona Ferro RG2021.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Fiona_Ferro_RG2021.jpg/500px-Fiona_Ferro_RG2021.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFiona_Ferro_RG2021.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Fiona \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/galileu1589/prints/ball_930b93.jpg",
+     "consulta": "bola ferro"
+    }
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "pisa tower",
    "consultas": [
-    "pisa tower",
-    "Galileu e a Torre de Pisa"
+    "pisa tower"
    ],
    "achados": [
     {

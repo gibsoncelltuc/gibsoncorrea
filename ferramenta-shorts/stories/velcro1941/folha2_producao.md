@@ -43,11 +43,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MES no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: SUÍÇA (cobre a tela 1-2 s)
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (4.7-6.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (6.3-7.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (7.9-9.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (9.6-11.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (4.6-6.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (6.4-8.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (8.3-10.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b2 - O pelo do cachorro e a calça dele estavam cheios de carrapichos.
@@ -68,9 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (11.3-13.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (13.2-15.0 s): mesmo angulo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - Curioso, ele levou um carrapicho para casa e olhou no microscópio.
@@ -90,10 +87,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MES no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/microscopio: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (15.2-16.9 s): mesmo angulo
-  - take 2 (16.9-18.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (18.5-20.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (15.4-16.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (16.9-18.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que cada espinho tinha um ganchinho na ponta, que agarrava na...
@@ -116,9 +112,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@20
 - SOM: sting@50
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (20.7-22.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (22.9-25.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (19.6-21.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (21.6-23.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b5 - Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?
@@ -139,9 +135,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (25.7-27.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (27.7-29.7 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (24.9-26.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (26.6-28.4 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b6 - Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace...
@@ -160,7 +156,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de multidao
 - PERSONAGENS: TEC (comerciante) na esquerda, expressao laugh; MES na direita, expressao nervous; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: sequencia de acao em 3 cameras (5.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (5.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, ga...
@@ -181,10 +177,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/burr: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (36.0-37.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (37.6-39.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (39.2-40.8 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (36.4-38.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (38.1-39.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (39.8-41.5 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b8 - Até que astronautas passaram a usar velcro no espaço, e o mundo inteir...
@@ -210,10 +206,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "VELCRO" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (42.2-44.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (44.0-45.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (45.8-47.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (42.7-44.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (44.7-46.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b9 - Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio ...
@@ -232,11 +227,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: MES no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (47.8-49.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (49.4-51.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (51.0-52.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 4 (52.6-54.2 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (47.7-49.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (49.2-50.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (50.7-52.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -278,8 +272,8 @@ kit/moon | b8 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (54.5-56.7 s): mesmo angulo
-  - take 2 (56.7-58.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (53.8-55.5 s): mesmo angulo
+  - take 2 (55.5-57.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
