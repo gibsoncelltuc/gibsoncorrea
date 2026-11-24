@@ -1,12 +1,12 @@
-b0: OK - cena confere com a frase: Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda
-b1: OK - cena confere com a frase: Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.
-b2: OK - cena confere com a frase: O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos
-b3: OK - cena confere com a frase: Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de
-b4: OK - cena confere com a frase: Numa noite fria, ele virou a cadeira para a lareira, e cochilou.
-b5: OK - cena confere com a frase: No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio
-b6: OK - cena confere com a frase: Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era
-b7: OK - cena confere com a frase: Passou o resto da noite desenhando o anel de seis carbonos. E a conta
-b8: OK - cena confere com a frase: Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma
-b9: OK - cena confere com a frase: Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele
-b10: OK - cena confere com a frase: Até hoje há quem duvide da história. Mas o anel do benzeno virou base
-b11: OK - cena confere com a frase: E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.
+b0: OK - um dos maiores segredos da quimica resolvido num cochilo com a ajuda de uma cobra: Kekule e colega na rua de Gante com o anel da cobra e frascos, placa 1865
+b1: OK - 1865, cidade de Gante na Belgica: mapa da Belgica e a rua com moradores
+b2: OK - o benzeno com seis carbonos que ninguem sabia arrumar: Kekule e colega no gabinete, placa 6 CARBONOS
+b3: OK - numa noite fria virou a cadeira para a lareira e cochilou: Kekule na sala escura com a lareira acesa
+b4: CORRIGIDO - sonho escuro com a cobra pequena num canto -> os atomos dancavam como cobras e uma mordeu o proprio rabo: o anel da cobra girando em destaque com ATOMOS > COBRA > ANEL
+b5: OK - Kekule acordou num pulo, o benzeno era um anel: Kekule espantado na sala com o anel ao lado
+b6: OK - passou a noite desenhando o anel de seis carbonos: Kekule com o papel na sala
+b7: OK - vinte e cinco anos depois numa festa em Berlim contou o sonho: colegas comemorando com o anel, placa FESTA
+b8: OK - ha quem duvide, mas o anel virou base de remedios, tintas e plasticos: multidao na praca
+b9: OK - aprendam a sonhar, mas confiram tudo acordados: Kekule com o anel, placa SONHE
+pesquisa: o quadro de referencias mostra August Kekule de terno e barba em 1865, o desenho do anel hexagonal do benzeno, a cobra Ouroboros mordendo o rabo e a cidade de Gante; comparei roupas, cidade e o simbolo do anel
+defeitos procurados: cenario de Gante do seculo XIX sem predio moderno; epoca 1865 sem objeto fora; tamanho certo do anel e frascos; ninguem cortado; multidao sem clone; legenda livre; acao de cada frase visivel (cochilo, sonho, acordar, desenhar, festa); objeto heroi anel da cobra no comeco, no sonho e no fim
