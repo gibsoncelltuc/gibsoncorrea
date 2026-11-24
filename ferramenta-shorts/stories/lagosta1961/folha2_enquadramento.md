@@ -55,6 +55,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FRA na esquerda, expressao relief, segura paper; BRA na direita, expressao smile; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- SOM: ding@30
 
 ## b8: "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

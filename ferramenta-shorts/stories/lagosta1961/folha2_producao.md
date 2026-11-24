@@ -167,6 +167,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FRA na esquerda, expressao relief, segura paper; BRA na direita, expressao smile; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- SOM: ding@30
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (38.2-39.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (39.9-41.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
