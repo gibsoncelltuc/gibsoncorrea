@@ -179,13 +179,6 @@
     "SOL:0:angry",
     "SOL:1:stern"
    ],
-   "emus": {
-    "n": 8,
-    "mode": "run",
-    "x": 5.0,
-    "z": -4.5,
-    "dir": -1
-   },
    "batalha": false,
    "props": [],
    "detalhe": false,
@@ -215,11 +208,34 @@
      "quem": 1
     }
    ],
-   "d0": 10.5,
-   "d1": 9.5,
+   "d0": 9.0,
+   "d1": 8.5,
    "quadro_manual": true,
    "cx": 0.8,
-   "cz": -1.0
+   "cz": -0.5,
+   "animals": [
+    [
+     "emu",
+     2.4,
+     -1.5,
+     "run",
+     1.0
+    ],
+    [
+     "emu",
+     3.4,
+     -2.2,
+     "run",
+     1.0
+    ],
+    [
+     "emu",
+     4.2,
+     -1.2,
+     "run",
+     1.0
+    ]
+   ]
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
