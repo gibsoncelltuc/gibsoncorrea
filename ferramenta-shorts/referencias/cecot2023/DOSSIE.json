@@ -5,26 +5,15 @@
   "ano": 2023,
   "era": "atual (1950+)",
   "regiao": "colonial",
-  "luz_base": "day",
+  "luz_base": "golden",
   "cenarios": [
-   "interior galpao",
-   "loc_cidade",
+   "loc_campo",
    "loc_estudio",
+   "loc_montanha",
    "loc_patio",
    "loc_pista"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "outback",
-    "loc_pista"
-   ],
-   [
-    "cena 12",
-    "outback",
-    "loc_pista"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -48,14 +37,9 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/cone_transito",
   "kit/lupa",
-  "kit/palete",
   "kit/prison",
-  "kit/room_galpao",
-  "kit/volcano",
-  "mk/Crate_Metal",
-  "mk/Workbench"
+  "kit/volcano"
  ],
  "pesquisa_visual": {
   "local": "Tecoluca, departamento de San Vicente, El Salvador: o CECOT (Centro de Confinamiento del Terrorismo), complexo isolado cercado por campo e morros",

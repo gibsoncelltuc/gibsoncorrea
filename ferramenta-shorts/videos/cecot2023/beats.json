@@ -5,8 +5,8 @@
  "ep": 27,
  "title": "A Maior Prisão das Américas",
  "titulo_base": "A Maior Prisão das Américas",
- "set": "outback",
- "light": "day",
+ "set": "loc_campo",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/prison",
  "outfits": {
@@ -110,7 +110,7 @@
    ],
    "interacao": "entregar",
    "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
-   "set": "loc_cidade"
+   "set": "loc_montanha"
   },
   {
    "shot": "crowd",
@@ -181,7 +181,8 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou."
+   "say": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou.",
+   "set": "loc_campo"
   },
   {
    "shot": "two",
@@ -198,7 +199,7 @@
    ],
    "say": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.",
    "interior": false,
-   "set": "loc_cidade",
+   "set": "loc_campo",
    "batalha": false,
    "impact": false,
    "tiros": false
@@ -212,7 +213,7 @@
    ],
    "acao": "discutir",
    "say": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.",
-   "set": "loc_cidade"
+   "set": "loc_patio"
   },
   {
    "shot": "crowd",
@@ -241,7 +242,8 @@
    ],
    "text": "DEBATE",
    "titulo": true,
-   "say": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso."
+   "say": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.",
+   "set": "loc_patio"
   },
   {
    "shot": "close",
@@ -295,5 +297,7 @@
   "explicacoes": [
    "CECOT: complexo de concreto com muralhas, cercas e torres de vigia, previsto para 40 mil presos (fonte: governo de El Salvador / Wikipedia \"Terrorism Confinement Center\")"
   ]
- }
+ },
+ "exp": 1.12,
+ "cinf": 4.5
 }

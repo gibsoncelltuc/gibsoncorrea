@@ -7,7 +7,7 @@
 - Roupas: {'BUK': 'terno escuro, camisa branca', 'REP': 'camisa com cracha de imprensa'}
 - Cenario real: prisao de concreto cinza com muralha alta, cerca de arame, torres de vigia, portao de ferro; campo ao redor; clima tropical
 - Objetos: ['muralha de concreto', 'torre de vigia', 'portao de ferro', 'cerca eletrica']
-- Cenarios usados no video: interior galpao, loc_cidade, loc_estudio, loc_patio, loc_pista
+- Cenarios usados no video: loc_campo, loc_estudio, loc_montanha, loc_patio, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

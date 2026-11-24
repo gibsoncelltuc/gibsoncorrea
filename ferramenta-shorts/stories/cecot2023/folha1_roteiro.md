@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 27 - A Maior Prisão das Américas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 12 cenas, 178 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 178 palavras (~61 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.

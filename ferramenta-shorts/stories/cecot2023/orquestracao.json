@@ -1,18 +1,7 @@
 {
  "id": "cecot2023",
  "ano": 2023,
- "cenarios_trocados": [
-  [
-   "video",
-   "outback",
-   "loc_pista"
-  ],
-  [
-   "cena 12",
-   "outback",
-   "loc_pista"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -38,7 +27,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_campo"
   },
   {
    "camera": "reveal",
@@ -58,7 +47,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_campo"
   },
   {
    "camera": "orbit",
@@ -78,7 +67,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
    "camera": "group",
@@ -97,7 +86,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "crowd",
@@ -124,7 +113,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
@@ -149,13 +138,15 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "two",
+   "camera": "low",
    "personagens": [
     "REP",
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/volcano"
+   ],
    "palavras": 12,
    "cena": "b6",
    "frase": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou.",
@@ -163,7 +154,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior galpao"
+   "cenario": "loc_campo"
   },
   {
    "camera": "orbit",
@@ -188,7 +179,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_campo"
   },
   {
    "camera": "group",
@@ -207,10 +198,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_patio"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "POV",
     "POV",
@@ -265,7 +256,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_campo"
   }
  ]
 }
