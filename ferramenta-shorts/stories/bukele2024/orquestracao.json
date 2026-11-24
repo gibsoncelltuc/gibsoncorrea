@@ -1,7 +1,13 @@
 {
  "id": "bukele2024",
  "ano": 2024,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 8",
+   "street",
+   "loc_cidade"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -13,7 +19,7 @@
    "camera": "two",
    "personagens": [
     "BUK",
-    "REP"
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
@@ -30,21 +36,27 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "two",
    "personagens": [
-    "POV",
+    "BUK",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 21,
+   "palavras": 13,
    "cena": "b1",
-   "frase": "Foi em El Salvador, na América Central, em fevereiro de dois mil e vinte e quatro. O presidente era Nayib Bukele.",
-   "classe": "transicao",
+   "frase": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -56,9 +68,9 @@
    ],
    "multidao": 12,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a violência das gangues.",
+   "frase": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -108,12 +120,12 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/ballot_box"
    ],
@@ -127,7 +139,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "REP",
     "BUK"
@@ -148,10 +160,8 @@
    "personagens": [
     "BUK"
    ],
-   "multidao": 12,
-   "objetos": [
-    "kit/porch"
-   ],
+   "multidao": 16,
+   "objetos": [],
    "palavras": 10,
    "cena": "b7",
    "frase": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
@@ -165,7 +175,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -177,7 +187,7 @@
    "objetos": [],
    "palavras": 17,
    "cena": "b8",
-   "frase": "Os eleitores citaram os assassinatos: de cento e seis para dois vírgula quatro por cem mil habitantes.",
+   "frase": "O motivo: os assassinatos caíram de cento e seis para dois vírgula quatro por cem mil habitantes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -204,11 +214,11 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "close",
+   "camera": "orbit",
    "personagens": [
     "BUK"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/ballot_box",
     "kit/globe"

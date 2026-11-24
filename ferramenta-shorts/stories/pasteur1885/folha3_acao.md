@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -10,8 +10,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b1 - 5.6s a 12.6s - 20 palavras - plano reveal
 > "Era mil oitocentos e oitenta e cinco, na França, e o cientista Louis Pasteur já era famoso por estudar micróbios."
@@ -36,7 +35,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | testado (22.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | INTERACAO | cochichar | OK |
+| 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 25.6s a 33.3s - 22 palavras - plano two
@@ -84,15 +83,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 56.7s a 63.3s - 19 palavras - plano group
+## Cena b9 - 56.7s a 63.3s - 19 palavras - plano crowd
 > "Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina salva vidas no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | VACINA | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | VACINA | OK |
 
 ## Cena b10 - 63.7s a 66.7s - 9 palavras - plano close
 > "No fim, uma picada salvou mais que mil discursos."

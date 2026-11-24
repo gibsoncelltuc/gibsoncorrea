@@ -53,7 +53,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.",
+   "say": "Um presidente escreveu no próprio perfil que era um ditador.",
    "shot": "two",
    "who": [
     "BUK:0:smug"
@@ -93,16 +93,18 @@
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.",
+   "say": "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.",
    "shot": "crowd",
    "who": [
     "BUK:0:worried"
    ],
    "crowd": {
-    "n": 10,
+    "n": 16,
     "outfits": [
      "POV"
-    ]
+    ],
+    "march": true,
+    "expr": "shout"
    },
    "sfx": [
     "gibber@10"
@@ -364,5 +366,41 @@
  ],
  "ano": 2021,
  "regiao": "colonial",
- "cinf": 4.5
+ "cinf": 4.5,
+ "visual": {
+  "local": "San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais",
+  "quando": "setembro de 2021 (protestos de 15/09) e fevereiro de 2024, dia",
+  "participantes": [
+   "Nayib Bukele (jaqueta de couro escura, bone virado ou camisa social, barba)",
+   "manifestantes com cartazes",
+   "jornalistas"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura e barba",
+   "POV": "camiseta e cartaz de protesto",
+   "JOR": "camisa social com microfone"
+  },
+  "cenario": "rua do centro de San Salvador com predios baixos coloniais e multidao; escritorio com celular; redacao de jornal",
+  "objetos": [
+   "celular com o perfil",
+   "cartazes de protesto",
+   "urna de votacao"
+  ],
+  "explicacoes": [
+   "Em setembro de 2021 Bukele mudou a bio no Twitter para \"Dictador\" e depois \"El dictador mas cool del mundo mundial\"; em 2024 usou \"Philosopher King\" (fonte: Wikipedia Nayib Bukele; BBC News 21/09/2021)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Nayib_Bukele",
+   "https://en.wikipedia.org/wiki/2021_Salvadoran_protests"
+  ],
+  "locacoes": [
+   "street",
+   "interior pedra",
+   "interior loja"
+  ],
+  "buscas": {
+   "protesto": "San Salvador protest September 2021",
+   "presidente": "Nayib Bukele 2021"
+  }
+ }
 }

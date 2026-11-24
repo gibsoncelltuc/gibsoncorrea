@@ -18,9 +18,9 @@
    "objetos": [
     "kit/cybertruck"
    ],
-   "palavras": 22,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
+   "frase": "Uma picape blindada teve as janelas quebradas ao vivo, no próprio lançamento.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -36,10 +36,10 @@
    "objetos": [
     "kit/cybertruck"
    ],
-   "palavras": 14,
+   "palavras": 24,
    "cena": "b1",
-   "frase": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
-   "classe": "transicao",
+   "frase": "Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -65,7 +65,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -73,9 +73,34 @@
    "objetos": [
     "kit/cybertruck"
    ],
-   "palavras": 11,
+   "palavras": 13,
    "cena": "b3",
-   "frase": "E o vidro rachou, ao vivo, na frente de todo mundo.",
+   "frase": "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "DSG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ball",
+    "kit/cybertruck"
+   ],
+   "palavras": 19,
+   "cena": "b4",
+   "frase": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -90,24 +115,6 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "DSG"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/cybertruck"
-   ],
-   "palavras": 11,
-   "cena": "b4",
-   "frase": "Ele tentou de novo, em outra janela, e ela também rachou.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "hall"
-  },
-  {
-   "camera": "close",
    "personagens": [
     "MUS"
    ],
@@ -150,13 +157,33 @@
     "MUS",
     "DSG"
    ],
+   "multidao": 8,
+   "objetos": [
+    "kit/cybertruck",
+    "kit/globe"
+   ],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "DSG"
+   ],
    "multidao": 10,
    "objetos": [
     "kit/cybertruck",
     "kit/steel_ball"
    ],
    "palavras": 15,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -172,7 +199,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

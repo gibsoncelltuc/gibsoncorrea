@@ -32,18 +32,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, ceus, epoca, forca, natureza, raio
 - RISCOS: nenhum
 
-## Cena b3 - Franklin discordava, e disse: "O raio é só eletricidade em tamanho gig...
+## Cena b3 - Franklin discordava: para ele, o raio era só uma faísca elétrica gigan...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): COM (variante 0, expressao surprised); FRA (variante 0, expressao smug)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): raio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): faisca, raio
 - RISCOS: nenhum
 
 ## Cena b4 - Contam que, numa tarde de chuva, ele prendeu uma chave de metal na lin...
-- Cenario: loc_campo | luz: day | clima: chuva
+- Cenario: countryside | luz: day | clima: chuva
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FRA (variante 0, expressao suspicious); FIL (variante 0, expressao nervous)
@@ -53,9 +53,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - O plano era simples e perigoso: se a pipa pegasse eletricidade, a chav...
-- Cenario: interior pedra | luz: day | clima: tempestade
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Cenario: countryside | luz: day | clima: tempestade
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRA (variante 0, expressao nervous)
 - Animacao: reagir
 - Objetos/modelos: kit/kite, kit/key
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulo...
-- Cenario: loc_campo | luz: day | clima: tempestade
+- Cenario: countryside | luz: day | clima: tempestade
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRA (variante 0, expressao shock); FIL (variante 0, expressao scared) | multidao: 8 de COM/POV
@@ -72,37 +72,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chave, faisca, linha, nuvem
 - RISCOS: nenhum
 
-## Cena b7 - Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter ...
+## Cena b7 - Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): COM (variante 0, expressao suspicious); FRA (variante 0, expressao relief)
 - Animacao: discutir | interacao: cochichar
 - Objetos/modelos: kit/kite
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pipa, raio, sorte
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pipa, raio
 - RISCOS: nenhum
 
-## Cena b8 - Se tivesse caído, ele não estaria aqui para contar, e outros cientista...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): FIL (variante 0, expressao sad); FRA (variante 0, expressao stern)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
-
-## Cena b9 - Franklin então inventou o para-raios, e hoje ele protege casas e prédi...
+## Cena b8 - Franklin então inventou o para-raios, e hoje ele protege casas e prédi...
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): FRA (variante 0, expressao laugh); FIL (variante 0, expressao laugh) | multidao: 14 de COM/POV/FIL
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Personagens principais (1): FRA (variante 0, expressao laugh) | multidao: 0 de 
+- Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pararaios
 - RISCOS: nenhum
 
-## Cena b10 - No fim, o raio perdeu a briga para uma chave.
+## Cena b9 - No fim, o raio perdeu a briga para uma chave.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -112,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, chave, raio
 - RISCOS: nenhum
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -128,23 +118,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/kite | b0, b4, b5, b6, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/key | b4, b5, b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/lightning_rod | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/key | b4, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/lightning_rod | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/kite | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 23% | medio 64% | aberto 10% | detalhe 4%
-- Interacoes: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar, b8 o outro se aproxima, b9 pular
+- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 2 | mistura: close 23% | medio 61% | aberto 11% | detalhe 6%
+- Interacoes: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py franklin1752  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/franklin1752/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh franklin1752 bN bM` (so essas cenas).

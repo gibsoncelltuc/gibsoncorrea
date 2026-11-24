@@ -1,122 +1,97 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.9s - 17 palavras - plano two
-> "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram."
+## Cena b0 - 0.0s a 4.1s - 12 palavras - plano track
+> "Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fugiu (0.7s) | EFEITO: dust | poeira + som | OK |
 | 2 | fugiu (0.7s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | morreram (5.9s) | EFEITO: puff | fumaca + som | OK |
-| 4 | morreram (5.9s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | CENA | animal: dog foge correndo | OK |
-| 7 | - | INTERACAO | discutir | OK |
-| 8 | - | ATUACAO | discutir | OK |
-| 9 | - | CHEGADA | alguem entra andando | OK |
-| 10 | - | PLACA | 1925 | OK |
 
-## Cena b1 - 6.3s a 14.4s - 23 palavras - plano reveal
-> "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados."
+## Cena b1 - 4.4s a 11.1s - 19 palavras - plano reveal
+> "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: nervous | o rosto vira "nervous" na palavra | OK |
 | 2 | - | MAPA | BULGÁRIA | OK |
 
-## Cena b2 - 14.8s a 21.9s - 20 palavras - plano track
-> "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada."
+## Cena b2 - 11.5s a 15.9s - 13 palavras - plano track
+> "Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronteira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fugiu (18.5s) | EFEITO: dust | poeira + som | OK |
-| 2 | fugiu (18.5s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 1 | correu (13.3s) | EFEITO: dust | poeira + som | OK |
+| 2 | correu (13.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | cruzou (15.2s) | ACAO: chega | entra andando pela lateral | OK |
 
-## Cena b3 - 22.2s a 26.3s - 12 palavras - plano track
-> "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | correu (23.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | correu (23.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | atravessou (24.8s) | ACAO: chega | entra andando pela lateral | OK |
-
-## Cena b4 - 26.7s a 30.7s - 12 palavras - plano group
-> "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou."
+## Cena b3 - 16.3s a 23.0s - 19 palavras - plano two
+> "Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A Bulgária pediu desculpas e propôs investigar juntos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sentinela (28.1s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
-| 2 | viu (28.9s) | ACAO: olha | aponta/olha | OK |
-| 3 | atirou (30.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | atirou (30.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | INTERACAO | empurrar | OK |
+| 1 | atiraram (18.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | atiraram (18.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | tombou (19.6s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 4 | pediu (21.1s) | ACAO: fala | aponta explicando | OK |
+| 5 | investigar (22.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 6 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 7 | - | INTERACAO | insiste | OK |
 | 8 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 31.1s a 35.9s - 14 palavras - plano low
-> "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária."
+## Cena b4 - 23.3s a 30.0s - 19 palavras - plano group
+> "A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (32.6s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (32.6s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | deu (34.1s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
-| 6 | - | INTERACAO | susto | OK |
-| 7 | - | ATUACAO | conversar | OK |
-
-## Cena b6 - 36.3s a 44.1s - 22 palavras - plano orbit
-> "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | invadiu (38.5s) | EFEITO: dust | poeira + som | OK |
-| 2 | invadiu (38.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | ocupou (40.0s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | morreram (43.3s) | EFEITO: puff | fumaca + som | OK |
-| 5 | morreram (43.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 8 | - | PLACA | INVASÃO | OK |
-
-## Cena b7 - 44.4s a 48.5s - 12 palavras - plano two
-> "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | pediu (45.2s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | reagir | OK |
-
-## Cena b8 - 48.9s a 53.3s - 13 palavras - plano two
-> "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | mandou (49.6s) | ACAO: fala | aponta explicando | OK |
-| 2 | retirar (51.1s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | pagar (52.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | pagar (52.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 5 | - | INTERACAO | entregar | OK |
+| 1 | deu (24.8s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | pedir (28.9s) | ACAO: fala | aponta explicando | OK |
+| 3 | pagar (30.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | pagar (30.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 5 | - | INTERACAO | susto | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 53.7s a 57.8s - 12 palavras - plano close
-> "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro."
+## Cena b5 - 30.4s a 38.9s - 24 palavras - plano wide
+> "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | obedeceu (54.4s) | ACAO: x_saluda | bate continencia | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | invadiu (35.9s) | EFEITO: dust | poeira + som | OK |
+| 2 | invadiu (35.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | ocupou (37.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | - | PLACA | INVASÃO | OK |
 
-## Cena b10 - 58.1s a 62.6s - 13 palavras - plano two
+## Cena b6 - 39.3s a 43.7s - 13 palavras - plano two
+> "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | PLACA | LIGA DAS NAÇÕES | OK |
+
+## Cena b7 - 44.1s a 51.9s - 22 palavras - plano crowd
+> "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | mandou (44.8s) | ACAO: fala | aponta explicando | OK |
+| 2 | retirou (48.5s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | pagou (50.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | pagou (50.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+
+## Cena b8 - 52.2s a 55.9s - 11 palavras - plano close
+> "Até hoje, não há acordo nem sobre a existência do cachorro."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+
+## Cena b9 - 56.3s a 60.7s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -37,7 +37,7 @@
  },
  "beats": [
   {
-   "say": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
+   "say": "Uma picape blindada teve as janelas quebradas ao vivo, no próprio lançamento.",
    "shot": "wide",
    "who": [
     "MUS:0:grin"
@@ -87,7 +87,7 @@
    "d1": 10.6
   },
   {
-   "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
+   "say": "Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente.",
    "shot": "wide",
    "who": [
     "MUS:0:smug"
@@ -199,7 +199,7 @@
    "d1": 10.6
   },
   {
-   "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
+   "say": "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.",
    "shot": "wide",
    "who": [
     "MUS:0:shock"
@@ -212,7 +212,12 @@
    ],
    "impact": true,
    "crowd": {
-    "n": 0
+    "n": 14,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
    },
    "props": [
     [
@@ -251,7 +256,7 @@
    "d1": 10.6
   },
   {
-   "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
+   "say": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",
    "shot": "wide",
    "who": [
     "DSG:0:nervous"
@@ -275,7 +280,7 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
+   "impact": true,
    "set": "hall",
    "hora": "dia",
    "voa": [
@@ -427,6 +432,54 @@
    "d1": 11.5
   },
   {
+   "say": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",
+   "shot": "orbit",
+   "who": [
+    "MUS:0:laugh",
+    "DSG:0:grin"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "tiros": false,
+   "batalha": false,
+   "set": "hall",
+   "hora": "dia",
+   "riscos_ok": true,
+   "quadro": {
+    "local": "salao",
+    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
    "shot": "group",
    "who": [
@@ -498,5 +551,38 @@
  "exp": 0.9,
  "marco": "kit/marco_hollywood",
  "variar_cenario": false,
- "max_wide": 5
+ "max_wide": 5,
+ "visual": {
+  "local": "Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e plateia",
+  "quando": "21 de novembro de 2019, noite",
+  "participantes": [
+   "Elon Musk (jaqueta de couro preta)",
+   "designer Franz von Holzhausen (camiseta preta)",
+   "plateia de convidados"
+  ],
+  "roupas": {
+   "MUS": "jaqueta de couro preta",
+   "DSG": "camiseta preta e calca escura",
+   "POV": "roupa casual"
+  },
+  "cenario": "palco escuro com luzes de neon, a picape angular de aco no centro, telao atras",
+  "objetos": [
+   "Cybertruck de aco inox",
+   "esfera de aco",
+   "marreta"
+  ],
+  "explicacoes": [
+   "No lancamento do Cybertruck (21/11/2019) a esfera de aco rachou as duas janelas \"armor glass\"; Musk disse \"it didn't go through, that's the plus side\"; dias depois anunciou 146 mil reservas (fonte: Wikipedia Tesla Cybertruck)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+  ],
+  "locacoes": [
+   "hall"
+  ],
+  "buscas": {
+   "lancamento": "Cybertruck unveiling 2019 broken window",
+   "picape": "Tesla Cybertruck 2019 prototype"
+  }
+ }
 }

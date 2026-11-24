@@ -5,7 +5,7 @@
   [
    "video",
    "street",
-   "loc_cidade"
+   "street"
   ],
   [
    "cena 2",
@@ -49,9 +49,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 25,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.",
+   "frase": "Um presidente escreveu no próprio perfil que era um ditador.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -65,11 +65,14 @@
    ],
    "multidao": 30,
    "objetos": [
-    "kit/volcano"
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/volcano",
+    "nature/lamppost"
    ],
-   "palavras": 14,
+   "palavras": 21,
    "cena": "b1",
-   "frase": "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.",
+   "frase": "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

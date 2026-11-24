@@ -1,27 +1,11 @@
 {
  "id": "bateria2017",
  "ano": 2017,
- "cenarios_trocados": [
-  [
-   "cena 9",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -34,9 +18,9 @@
    "objetos": [
     "kit/megapack"
    ],
-   "palavras": 17,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Em março de dois mil e dezessete, Elon Musk respondeu no Twitter ao empresário australiano Mike Cannon-Brookes.",
+   "frase": "Um homem apostou cinquenta milhões de dólares numa conversa no Twitter.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -50,18 +34,16 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_goldengate",
-    "kit/megapack",
-    "kit/roadster"
+    "kit/megapack"
    ],
-   "palavras": 19,
+   "palavras": 22,
    "cena": "b1",
-   "frase": "Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do Sul em cem dias, ou seria de graça.",
-   "classe": "explicativa",
+   "frase": "Em dois mil e dezessete, Elon Musk prometeu baterias gigantes para a Austrália do Sul em cem dias, ou seria de graça.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "outback"
+   "cenario": "loc_campo"
   },
   {
    "camera": "wide",
@@ -86,7 +68,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "outback"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -114,7 +96,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/megapack",
     "nature/picket_fence"
    ],
@@ -131,38 +112,41 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "outback"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
-   "personagens": [
-    "JOR",
-    "JOR2"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/megapack"
    ],
    "palavras": 14,
    "cena": "b5",
    "frase": "A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência.",
    "classe": "explicativa",
-   "sujeito": "personagem",
-   "briefing": {},
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/megapack (gira)",
+    "emissao": "brilho",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "outback"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "CAN"
+    "CAN",
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b6",
-   "frase": "Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder uma aposta.",
+   "frase": "O empresário que fez o desafio teve que admitir: Musk cumpriu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -176,7 +160,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/megapack"
    ],
    "palavras": 14,
@@ -186,7 +169,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "outback"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -206,7 +189,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior madeira"
   },
   {
    "camera": "group",
@@ -225,7 +208,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "close",
@@ -241,7 +224,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_cidade"
   }
  ]
 }

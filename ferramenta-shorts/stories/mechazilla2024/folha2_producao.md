@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); ENG (variante 0, expressao surprised)
-- Animacao: conversar | interacao: entregar
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/tower_mini, kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, foguete, torre
 - RISCOS: nenhum
@@ -29,7 +29,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b1 - Foi em outubro de dois mil e vinte e quatro, na base de foguetes da Sp...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -50,7 +50,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (9.1-11.1 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b2 - Normalmente, a parte de baixo de um foguete é descartada, ou pousa sob...
+## Cena b2 - Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre ...
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -73,39 +73,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 4 (17.4-19.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b3 - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre d...
+## Cena b3 - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a...
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: conversar
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, lancamento, musk, pernas, propria, propulsor
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
-<!-- FICHA -->
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, musk, pernas, propria, propulsor
+- RISCOS: nenhum
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
-- PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: entregar
-- OBJETO kit/tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
-- SOM: sting@40
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (20.1-22.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (22.0-23.9 s): mesmo angulo
-  - take 3 (23.9-25.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b4 - Os engenheiros apelidaram os braços de pauzinhos, como os de comida ja...
-- Cenario: loc_deserto | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+## Cena b4 - Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinho...
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): ENA (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: conversar
-- Objetos/modelos: kit/tower_catch, kit/tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, comida, engenheiros, mechazilla, pauzinhos, torre
+- Objetos/modelos: kit/tower_catch
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, engenheiros, mechazilla, pauzinhos, torre
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -144,14 +129,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (5.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b6 - Minutos depois, ele voltou do espaço, descendo de ré, direto na direçã...
+## Cena b6 - Minutos depois, ele voltou descendo de ré, direto na direção da torre.
 - Cenario: loc_patio | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: kit/booster_air, kit/tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direcao, espaco, torre
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direcao, torre
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -195,11 +180,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (49.2-50.8 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b8 - Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém f...
-- Cenario: loc_deserto | luz: day | clima: limpo
+## Cena b8 - Os engenheiros comemoraram aos gritos: era a primeira vez na história.
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): ENG (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (2): ENG (variante 0, expressao laugh); ENG (variante 1, expressao shout) | multidao: 12 de ENG
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): engenheiros, primeira
@@ -219,59 +204,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (4.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b9 - Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
-- Cenario: interior True | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): MUS (variante 0, expressao laugh); ENG (variante 0, expressao laugh)
-- Animacao: comemorar | interacao: abracar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, redes, torre
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: True; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MUS na esquerda, expressao laugh; ENG na direita, expressao laugh; sem multidao; acao: abracar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
-- SOM: ding@40
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (57.7-59.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (59.4-61.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-
-## Cena b10 - Assim, o propulsor que antes ia para o lixo pode ser usado de novo, vá...
+## Cena b9 - Assim, o propulsor que antes ia para o lixo pode voar de novo, várias ...
 - Cenario: loc_deserto | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENA (variante 0, expressao smile, segura paper) | multidao: 0 de 
-- Animacao: conversar
-- Objetos/modelos: kit/tower_catch, kit/tower
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: kit/tower_catch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lixo, novo, propulsor
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
-<!-- FICHA -->
+- RISCOS: nenhum
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: ENA no centro, expressao smile, segura paper; sem multidao; acao: conversar
-- OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (62.1-64.2 s): mesmo angulo
-  - take 2 (64.2-66.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b11 - E a torre já repetiu a pegada outras vezes. Parece filme de robô gigan...
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+## Cena b10 - Parece filme de robô gigante, mas é engenharia.
+- Cenario: loc_deserto | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/tower_catch, kit/tower_mini
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pegada, robo, torre
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): robo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -287,9 +237,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (71.2-73.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_deserto | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
@@ -302,26 +252,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/tower_mini | b0, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower_catch | b0, b4, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b0, b1, b2, b3, b4, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower_mini | b0, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower_catch | b0, b4, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b0, b1, b2, b3, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tower_mini | grandes momentos: b5, b8 | planos abertos: 7 | mistura: close 9% | medio 46% | aberto 41% | detalhe 4%
-- Interacoes: b0 entregar, b9 abracar
+- Objeto heroi: kit/tower_mini | grandes momentos: b5, b8 | planos abertos: 6 | mistura: close 7% | medio 52% | aberto 38% | detalhe 3%
+- Interacoes: b0 aproxima-se
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'loc_patio': 7, 'loc_deserto': 5, 'interior True': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
-  - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py mechazilla2024  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/mechazilla2024/moodboard.jpg
 
-## RESUMO: 5 risco(s) em aberto
-- b3: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- b10: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- geral: pouca variedade de cenario ({'loc_patio': 7, 'loc_deserto': 5, 'interior True': 1}): o video fica parecendo todos os outros
-- geral: video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mechazilla2024 bN bM` (so essas cenas).

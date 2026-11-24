@@ -1,13 +1,13 @@
 # CRONOGRAMA - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Gerado em 24/11 22:35 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:41 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior pedra | two | BUK | - | phone | - | Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nay
-b1 | chave | loc_cidade | crowd | BUK | 30 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas d
+b0 | simples | interior pedra | two | BUK | - | phone | - | Um presidente escreveu no próprio perfil que era um ditador.
+b1 | chave | loc_cidade | crowd | BUK | 30 | apartment, house_two, volcano, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes
 b2 | simples | interior pedra | two | BUK | - | phone | - | Primeiro, ele escreveu só uma palavra no perfil: ditador.
 b3 | chave | interior loja | group | BUK, POV, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguns dias depois, trocou por uma frase mais longa: o ditador mais le
 b4 | simples | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a notícia se espalhou pelo mundo.
@@ -23,10 +23,10 @@ b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comen
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (4/5 itens) | FEITO | 
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | PENDENTE | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/12 itens) | PENDENTE | python3 pesquisar.py bukelebio2021
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 

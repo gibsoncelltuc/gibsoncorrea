@@ -49,10 +49,9 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "JOS:0:grin",
-    "ETI:0:nervous"
+    "JOS:0:grin"
    ],
    "animals": [
     [
@@ -80,9 +79,12 @@
    "props": [
     [
      "kit/balloon",
-     1.2,
-     -6.0,
-     3.0
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1783",
@@ -93,7 +95,29 @@
     "ding@30"
    ],
    "say": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.",
-   "set": "medieval"
+   "set": "medieval",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "reveal",
@@ -103,7 +127,8 @@
    ],
    "mapa": "FRANÇA",
    "mapa_at": 3,
-   "say": "Era mil setecentos e oitenta e três, na França."
+   "say": "Era mil setecentos e oitenta e três, na França.",
+   "set": "street"
   },
   {
    "shot": "two",
@@ -114,9 +139,12 @@
    "props": [
     [
      "kit/campfire",
-     1.6,
-     -1.0,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -125,27 +153,66 @@
    "sfx": [
     "whoosh@40"
    ],
-   "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.",
-   "set": "medieval"
+   "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fumaça quente fazia sacos de papel flutuarem.",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/campfire",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "interior": "madeira"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "ETI:0:grin",
-    "JOS:0:grin:paper"
+    "ETI:0:grin"
    ],
    "acao": "conversar",
    "props": [
     [
      "kit/balloon",
-     2.2,
-     -2.8,
-     2.4
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Então costuraram um balão gigante de pano e papel, e encheram de ar quente.",
-   "detalhe": true
+   "say": "Então fizeram um balão gigante de pano e papel, cheio de ar quente.",
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -154,11 +221,11 @@
     "ETI:0:nervous"
    ],
    "acao": "discutir",
-   "say": "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?",
+   "say": "Só que ninguém sabia se dava para respirar lá em cima.",
    "interior": "madeira"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "JOS:0:smile"
    ],
@@ -185,36 +252,62 @@
     [
      "kit/balloon",
      0.0,
-     -6.5,
-     3.0
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
     ]
    ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "medieval"
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "REI:0:smile",
-    "RAI:0:surprised",
-    "NOB:0:grin"
+    "REI:0:smile"
    ],
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 20,
+    "n": 16,
     "outfits": [
      "POV",
      "NOB"
     ],
     "march": false,
-    "expr": "surprised"
+    "expr": "shock"
    },
    "props": [
     [
      "kit/balloon",
-     0,
-     -3.2,
-     1.4
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -223,21 +316,46 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
-   "set": "palace"
+   "say": "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão.",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "praia / palacio",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "set": "street"
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
-    "POV:0:shock",
-    "POV:1:surprised"
+    "POV:0:shock"
    ],
    "props": [
     [
      "kit/balloon_air",
-     0,
-     -4.0,
-     1.3
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "mover": [
+       7.0,
+       -19.3
+      ],
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -248,34 +366,72 @@
     "whoosh@20",
     "ding@50"
    ],
-   "say": "Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.",
+   "say": "Acontece que o balão levantou voo de verdade, com os bichos dentro.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "indo embora"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "medieval"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "ETI:0:nervous",
-    "JOS:0:worried"
+    "ETI:0:nervous"
    ],
    "props": [
     [
      "kit/balloon",
-     2.0,
-     -7.0,
-     2.8
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.",
+   "say": "Oito minutos depois, ele desceu num bosque a três quilômetros dali, e os bichos estavam vivos: dava para respirar no céu.",
    "shot_lock": true,
    "detalhe": false,
-   "set": "countryside"
-  },
-  {
-   "shot": "two",
-   "who": [
-    "JOS:0:laugh",
-    "ETI:0:laugh"
-   ],
+   "set": "countryside",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
    "animals": [
     [
      "sheep",
@@ -292,41 +448,32 @@
      -2.4,
      1.2
     ]
-   ],
-   "interacao": "abracar",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "Os três bichos estavam vivos e bem! Dava para respirar no céu.",
-   "set": "countryside"
+   ]
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "POV:0:laugh",
-    "JOS:0:laugh",
-    "ETI:0:grin"
+    "POV:0:laugh"
    ],
    "batalha": true,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [
      "kit/balloon_air",
-     0,
-     -4.0,
-     1.3
+     -7.0,
+     -19.3,
+     8.22,
+     {
+      "mover": [
+       0.0,
+       -19.3
+      ],
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -339,11 +486,30 @@
    ],
    "text": "VOAMOS",
    "titulo": true,
-   "say": "Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.",
-   "set": "medieval"
+   "say": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "set": "street"
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "ETI:0:smile"
    ],
@@ -373,14 +539,79 @@
    "props": [
     [
      "kit/balloon",
-     -2.0,
-     -6.5,
-     2.8
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "E tudo graças a uma ovelha, um pato e um galo corajosos.",
-   "set": "countryside"
+   "say": "Tudo graças a três bichos corajosos.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "set": "loc_montanha"
   }
  ],
- "exp": 0.81
+ "exp": 0.81,
+ "max_wide": 9,
+ "visual": {
+  "local": "Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris",
+  "quando": "19 de setembro de 1783, dia; 21 de novembro de 1783 em Paris",
+  "participantes": [
+   "Joseph e Etienne Montgolfier (casaca, peruca empoada)",
+   "rei Luis XVI e Maria Antonieta",
+   "cortesaos e multidao",
+   "ovelha, pato e galo"
+  ],
+  "roupas": {
+   "JOS": "casaca marrom e peruca do seculo 18",
+   "ETI": "casaca azul e peruca",
+   "REI": "casaca dourada e manto real",
+   "NOB": "roupa de corte com peruca",
+   "POV": "roupas do povo do seculo 18"
+  },
+  "cenario": "patio de Versalhes com o palacio ao fundo, balao azul e dourado decorado, multidao; bosque de Vaucresson; fabrica de papel",
+  "objetos": [
+   "balao de papel e pano azul com ornamentos dourados",
+   "cesto de vime com os animais",
+   "fogueira de palha"
+  ],
+  "explicacoes": [
+   "Em 19/09/1783, em Versalhes, o balao dos Montgolfier levou uma ovelha, um pato e um galo por cerca de 8 minutos e pousou a uns 3 km; em 21/11/1783 Pilatre de Rozier e o marques d'Arlandes voaram sobre Paris (fonte: Wikipedia Montgolfier brothers)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+   "https://commons.wikimedia.org/wiki/Category:Montgolfier_balloon"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "interior madeira",
+   "street",
+   "loc_montanha"
+  ],
+  "buscas": {
+   "balao": "Montgolfier balloon Versailles 1783 engraving"
+  }
+ }
 }

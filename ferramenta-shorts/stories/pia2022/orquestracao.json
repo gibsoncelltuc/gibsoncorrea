@@ -76,7 +76,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FUN"
    ],
@@ -136,7 +136,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "FUN",
     "FUN2"
@@ -149,15 +149,9 @@
    "palavras": 9,
    "cena": "b6",
    "frase": "A cena deu o que falar no mundo inteiro.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },

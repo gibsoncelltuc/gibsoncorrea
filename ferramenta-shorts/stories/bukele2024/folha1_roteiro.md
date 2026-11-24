@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 177 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um presidente foi reeleito com uma das maiores votações do mundo.
@@ -8,23 +8,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: -
+- Texto na tela: 84,6%
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.2 s)
-- Narracao: Foi em El Salvador, na América Central, em fevereiro de dois mil e vinte e quatro. O presidente era Nayib Bukele.
+## Cena b1  (~4.5 s)
+- Narracao: Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 2024 | mapa: EL SALVADOR
+- Texto na tela: NAYIB BUKELE | mapa: EL SALVADOR
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.5 s)
-- Narracao: Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a violência das gangues.
+## Cena b2  (~3.8 s)
+- Narracao: Ele chegou ao poder prometendo acabar com a violência das gangues.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: fala (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b7  (~3.4 s)
 - Narracao: Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: chega (point) @2 -> acao + som de efeito; encena: vence (up) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -75,10 +75,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~5.9 s)
-- Narracao: Os eleitores citaram os assassinatos: de cento e seis para dois vírgula quatro por cem mil habitantes.
+- Narracao: O motivo: os assassinatos caíram de cento e seis para dois vírgula quatro por cem mil habitantes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voto (reach) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

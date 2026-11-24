@@ -14,9 +14,9 @@ b6 | interior hospital | close | 1 | conversar | - | - | -
 b7 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
 b8 | loc_campo | crowd | 33 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
 b9 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
-b10 | loc_campo | close | 1 | conversar | kit/lapide | - | -
-b11 | loc_campo | two | 1 | conversar | kit/wash_basin | - | -
-b12 | loc_campo | close | 1 | conversar | - | - | -
+b10 | loc_campo | two | 1 | conversar | kit/lapide | - | -
+b11 | loc_campo | close | 1 | conversar | kit/wash_basin | - | -
+b12 | loc_campo | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/maca
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b8

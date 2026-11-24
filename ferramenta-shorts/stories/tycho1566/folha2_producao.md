@@ -74,9 +74,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Lá, ele construiu um castelo observatório, e anotou a posição de mais ...
 - Cenario: loc_campo | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): TYC (variante 0, expressao grin, segura paper)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/marco_uraniborg, kit/tower, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - E Tycho entrou para a história assim: com a cabeça nas estrelas, e o n...
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TYC (variante 0, expressao smug)
 - Animacao: conversar
@@ -136,13 +136,15 @@ kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/brass_nose | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 17% | medio 65% | aberto 14% | detalhe 4%
+- Objeto heroi: kit/brass_nose | grandes momentos: b1, b9 | planos abertos: 4 | mistura: close 10% | medio 63% | aberto 23% | detalhe 4%
 - Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 susto, b8 entregar
 - RISCOS GERAIS: 
+  - video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tycho1566  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tycho1566/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
+- geral: video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

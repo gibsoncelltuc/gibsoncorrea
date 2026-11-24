@@ -152,12 +152,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b9 - 58.1s a 63.4s - 20 palavras - plano crowd
+## Cena b9 - 57.0s a 64.1s - 20 palavras - plano crowd
 > "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -166,7 +161,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOLTOU | OK |
-<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra voltou (58.7s): executa: entra andando pela lateral
@@ -185,12 +179,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b11 - 69.9s a 73.8s - 13 palavras - plano two
+## Cena b11 - 70.0s a 74.4s - 13 palavras - plano two
 > "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

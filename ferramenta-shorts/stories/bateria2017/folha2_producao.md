@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bateria2017/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bateria2017` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em março de dois mil e dezessete, Elon Musk respondeu no Twitter ao em...
+## Cena b0 - Um homem apostou cinquenta milhões de dólares numa conversa no Twitter...
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: kit/megapack
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, twitter
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dolares, homem, twitter
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -24,38 +24,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (3.5-5.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b1 - Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do...
-- Cenario: outback | luz: golden | clima: limpo
+## Cena b1 - Em dois mil e dezessete, Elon Musk prometeu baterias gigantes para a A...
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: encena
-- Objetos/modelos: kit/megapack, kit/marco_goldengate, kit/roadster
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): australia, graca, tesla
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.0 m de altura x 6.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "100 DIAS" flutuando no alto, na palavra 1 da frase
-- MAPA: AUSTRÁLIA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (6.7-8.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (8.4-10.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (10.2-11.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
+- Objetos/modelos: kit/megapack
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): australia, graca
+- RISCOS: nenhum
 
 ## Cena b2 - Os jornais calcularam que ele podia perder mais de cinquenta milhões d...
-- Cenario: outback | luz: golden | clima: limpo
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): MUS (variante 0, expressao worried) | multidao: 30 de 
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/megapack, kit/marco_goldengate
+- Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, dolares, jornais
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -94,12 +79,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias...
-- Cenario: outback | luz: golden | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/megapack, kit/marco_goldengate, nature/picket_fence
+- Objetos/modelos: kit/megapack, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bateria, cinquenta, prazo
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -118,36 +103,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - A imprensa chamou de a maior bateria do mundo, com cem megawatts de po...
-- Cenario: outback | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao laugh)
-- Animacao: reagir | interacao: avanca e o outro recua
-- Objetos/modelos: kit/megapack, kit/marco_goldengate
+- Cenario: loc_campo | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): imprensa, potencia
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
-<!-- FICHA -->
+- RISCOS: nenhum
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)
-- PERSONAGENS: JOR na esquerda, expressao shock; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- MAPA: MUNDO (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (28.2-29.9 s): mesmo angulo
-  - take 2 (29.9-31.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b6 - Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder u...
+## Cena b6 - O empresário que fez o desafio teve que admitir: Musk cumpriu.
 - Cenario: interior loja | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): CAN (variante 0, expressao laugh)
-- Animacao: conversar
+- Personagens principais (2): CAN (variante 0, expressao laugh); MUS (variante 0, expressao smug)
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aposta, perder
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desafio, empresario
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -162,12 +134,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b7 - Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d...
-- Cenario: outback | luz: golden | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): CAN (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/megapack, kit/marco_goldengate
+- Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, conversa, obra, twitter
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -183,9 +155,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - E tudo começou com uma resposta curta, escrita no celular.
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MUS (variante 0, expressao laugh); JOR (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/megapack, kit/phone
@@ -204,9 +176,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b9 - Moral da história: antes de apostar cinquenta milhões num prazo, leia ...
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Cenario: loc_cidade | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); CAN (variante 0, expressao grin)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/megapack
@@ -225,7 +197,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: golden | clima: limpo
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao grin)
@@ -240,26 +212,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/megapack | b0, b1, b2, b3, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_goldengate | b1, b2, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/roadster | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 20% | medio 55% | aberto 18% | detalhe 6%
-- Interacoes: b3 aproxima-se, b5 avanca e o outro recua, b8 susto, b9 o outro se aproxima
+- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 12% | medio 62% | aberto 21% | detalhe 4%
+- Interacoes: b3 aproxima-se, b6 avanca e o outro recua, b8 susto, b9 o outro se aproxima
 - RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - GANCHO longo: a 1a frase tem 17 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bateria2017  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bateria2017/moodboard.jpg
 
-## RESUMO: 5 risco(s) em aberto
-- b1: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- b5: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: GANCHO longo: a 1a frase tem 17 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bateria2017 bN bM` (so essas cenas).

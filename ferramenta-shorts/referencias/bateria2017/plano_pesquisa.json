@@ -7,7 +7,15 @@
    "item": "Cem Dias ou de Graça",
    "consultas": [
     "Cem Dias ou de Graça",
-    "Em Elon Musk Twitter Mike Cannon Brookes Musk Tesla Austrália Sul Os 2017"
+    "Um Twitter Em Elon Musk Austrália Sul Os 2017"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Hornsdale Power Reserve, perto de Jamestown, Australia do Sul (campo aberto ao l",
+   "consultas": [
+    "Hornsdale Power Reserve perto de Jamestown Australia do Sul",
+    "Hornsdale Power Reserve perto de Jamestown Australia do Sul campo aberto ao lado de um par"
    ]
   },
   {
@@ -19,14 +27,6 @@
    ]
   },
   {
-   "tipo": "lugar",
-   "item": "Mundo",
-   "consultas": [
-    "Mundo 2017",
-    "Mundo landscape"
-   ]
-  },
-  {
    "tipo": "epoca",
    "item": "roupas e ruas de 2017",
    "consultas": [
@@ -35,19 +35,67 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "megapack",
+   "tipo": "pessoas",
+   "item": "Elon Musk (camiseta e jaqueta escura)",
    "consultas": [
-    "megapack",
-    "Cem Dias ou de Graça"
+    "Elon Musk camiseta e jaqueta escura",
+    "Elon Musk camiseta e jaqueta escura 2017"
    ]
   },
   {
-   "tipo": "mecanismo",
-   "item": "Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do",
+   "tipo": "pessoas",
+   "item": "Mike Cannon-Brookes, empresario australiano (camiseta e bone)",
    "consultas": [
-    "escreveu tesla instalaria baterias gigantes australia seria",
-    "diagram"
+    "Mike Cannon-Brookes empresario australiano camiseta e bone",
+    "Mike Cannon-Brookes empresario australiano camiseta e bone 2017"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas",
+   "consultas": [
+    "jornalistas",
+    "jornalistas 2017"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "operarios de capacete e colete",
+   "consultas": [
+    "operarios de capacete e colete",
+    "operarios de capacete e colete 2017"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "baterias Tesla Powerpack em fileiras",
+   "consultas": [
+    "baterias Tesla Powerpack em fileiras",
+    "baterias Tesla Powerpack em fileiras 2017"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "celular com o tweet",
+   "consultas": [
+    "celular com o tweet",
+    "celular com o tweet 2017"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "contrato",
+   "consultas": [
+    "contrato",
+    "contrato 2017"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "megapack",
+   "consultas": [
+    "baterias Tesla Powerpack em fileiras",
+    "Cem Dias ou de Graça"
    ]
   },
   {
@@ -55,7 +103,7 @@
    "item": "A imprensa chamou de a maior bateria do mundo, com cem megawatts de po",
    "consultas": [
     "imprensa chamou bateria megawatts potencia",
-    "diagram"
+    "megapack diagram"
    ]
   }
  ]

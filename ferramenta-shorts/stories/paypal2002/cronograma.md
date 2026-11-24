@@ -1,28 +1,31 @@
 # CRONOGRAMA - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
-Gerado em 24/11 03:30 | 8 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:39 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | group | EBY, MUS, POV | - | coin | - | Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunci
-b1 | simples | interior madeira | two | MUS, EBY | - | coin | - | O PayPal era um serviço para pagar e receber dinheiro pela internet.
-b2 | simples | interior loja | two | EBY | - | coin | - | O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.
-b3 | simples | interior pedra | two | MUS, EBY | - | - | - | Elon Musk era o maior acionista do PayPal.
-b4 | chave | loc_pista | wide | MUS, POV | 18 | roadster, rocket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Com o dinheiro da venda, ele pôde investir em novos projetos, como a S
-b5 | chave | loc_campo | crowd | MUS, POV | 10 | rocket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.
-b6 | simples | loc_cidade | group | MUS, EBY, POV | - | coin, roadster, rocket | - | Uma venda de internet que ajudou a pagar foguetes e carros elétricos.
-b7 | simples | loc_cidade | close | EBY | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | group | EBY, MUS, POV | - | coin | - | Um serviço para pagar pela internet foi vendido por um bilhão e meio d
+b1 | simples | interior madeira | two | MUS, EBY | - | - | - | Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso
+b2 | simples | interior loja | two | POV, POV | - | - | - | O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem pr
+b3 | simples | loc_cidade | reveal | EBY, MUS | 6 | - | - | O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a co
+b4 | simples | interior pedra | two | MUS, EBY | - | coin | - | O pagamento foi em ações do eBay, não em dinheiro vivo.
+b5 | simples | interior madeira | two | MUS, POV | - | - | - | Elon Musk era o maior acionista do PayPal, então ficou muito rico de r
+b6 | chave | loc_pista | orbit | MUS | - | falcon9_land | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de
+b7 | transicao | loc_pista | wide | MUS | - | roadster | - | Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétric
+b8 | simples | loc_cidade | two | MUS, POV | - | coin, falcon9_land, roadster | - | O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
+b9 | simples | loc_campo | two | MUS | - | - | - | Quem diria: um pagamento online chegou ao espaço.
+b10 | simples | loc_campo | close | EBY | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py paypal2002
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py paypal2002
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

@@ -15,7 +15,7 @@
    [
     "video",
     "street",
-    "loc_cidade"
+    "street"
    ],
    [
     "cena 2",
@@ -66,6 +66,8 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
   "kit/ballot_box",
   "kit/phone",
   "kit/room_azul_shop",
@@ -84,21 +86,49 @@
   "mk/Crate_Metal",
   "mk/Nightstand_Shelf",
   "mk/Stool",
-  "mk/Table_Large"
+  "mk/Table_Large",
+  "nature/lamppost"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais",
+  "quando": "setembro de 2021 (protestos de 15/09) e fevereiro de 2024, dia",
+  "participantes": [
+   "Nayib Bukele (jaqueta de couro escura, bone virado ou camisa social, barba)",
+   "manifestantes com cartazes",
+   "jornalistas"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura e barba",
+   "POV": "camiseta e cartaz de protesto",
+   "JOR": "camisa social com microfone"
+  },
+  "cenario": "rua do centro de San Salvador com predios baixos coloniais e multidao; escritorio com celular; redacao de jornal",
+  "objetos": [
+   "celular com o perfil",
+   "cartazes de protesto",
+   "urna de votacao"
+  ],
+  "explicacoes": [
+   "Em setembro de 2021 Bukele mudou a bio no Twitter para \"Dictador\" e depois \"El dictador mas cool del mundo mundial\"; em 2024 usou \"Philosopher King\" (fonte: Wikipedia Nayib Bukele; BBC News 21/09/2021)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Nayib_Bukele",
+   "https://en.wikipedia.org/wiki/2021_Salvadoran_protests"
+  ],
+  "locacoes": [
+   "street",
+   "interior pedra",
+   "interior loja"
+  ],
+  "buscas": {
+   "protesto": "San Salvador protest September 2021",
+   "presidente": "Nayib Bukele 2021"
+  }
+ },
  "fontes": [
   "https://news.yahoo.com/el-salvadors-millennial-president-switched-043818079.html",
   "https://emisorasunidas.com/2021/09/21/bukele-descripcion-twitter-el-dictador-mas-cool/",
   "https://www.britannica.com/biography/Nayib-Bukele"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

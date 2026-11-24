@@ -1,156 +1,108 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 6.7s - 25 palavras - plano two
-> "No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | vender (6.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | vender (6.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | MAPA | ESTADOS UNIDOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra vender (6.3s): executa: estrelinhas + som
-- ACAO: negocio na palavra vender (6.3s): executa: moeda girando (compra/venda)
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
-
-## Cena b1 - 8.0s a 9.3s - 8 palavras - plano reveal
-> "O nome dele era Não é um lança-chamas."
+## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
+> "Um bilionário vendeu um lança-chamas e jurou que não era um lança-chamas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | vendeu (0.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | vendeu (0.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
+## Cena b1 - 4.4s a 12.2s - 22 palavras - plano two
+> "Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a empresa de túneis de Elon Musk, lançou o produto."
 
-## Cena b2 - 10.8s a 12.2s - 6 palavras - plano two
-> "O preço era de quinhentos dólares."
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | MAPA | ESTADOS UNIDOS | OK |
+
+## Cena b2 - 12.6s a 16.7s - 12 palavras - plano two
+> "O nome dele era Não é um lança-chamas, e custava quinhentos dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | US$ 500 | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b3 - 13.4s a 17.7s - 18 palavras - plano two
-> "O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada."
+## Cena b3 - 17.0s a 21.5s - 13 palavras - plano wide
+> "Acontece que o aparelho soltava fogo de verdade, e essa era a piada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | soltava (18.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | fogo (18.9s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
+## Cena b4 - 21.9s a 26.3s - 13 palavras - plano two
+> "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas."
 
-## Cena b4 - 18.8s a 21.1s - 10 palavras - plano wide
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | explicou (22.2s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | conversar | OK |
+
+## Cena b5 - 26.7s a 30.0s - 10 palavras - plano two
 > "Cada compra vinha com um extintor de incêndio de brinde."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | compra (19.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | incêndio (20.7s) | ACAO: queima | fogo + fumaca | OK |
-| 3 | brinde (21.1s) | ACAO: pega | levanta/segura | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
+| 1 | compra (27.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 2 | incêndio (29.3s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | incêndio (29.3s) | ACAO: queima | fogo + fumaca | OK |
+| 4 | brinde (30.0s) | ACAO: pega | levanta/segura | OK |
+| 5 | - | INTERACAO | brindar | OK |
+| 6 | - | ATUACAO | comemorar | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: negocio na palavra compra (19.1s): executa: moeda girando (compra/venda)
-- ACAO: queima na palavra incêndio (20.7s): executa: fogo + fumaca
-- ACAO: pega na palavra brinde (21.1s): executa: levanta/segura
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
-
-## Cena b5 - 22.2s a 23.6s - 6 palavras - plano group
-> "Foram vinte mil unidades à venda."
+## Cena b6 - 30.4s a 34.4s - 12 palavras - plano crowd
+> "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venda (23.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: negocio na palavra venda (23.6s): executa: moeda girando (compra/venda)
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b6 - 24.7s a 28.5s - 13 palavras - plano crowd
-> "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | rendendo (26.7s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 1 | venda (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: rende na palavra rendendo (26.7s): executa: maos para cima (rendicao)
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- ATUACAO (a cena toda): executa: reagir
-- multidao de 12: parada, reagindo (laugh), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b7 - 29.7s a 31.2s - 7 palavras - plano group
-> "A notícia se espalhou pelo mundo inteiro."
+## Cena b7 - 34.8s a 38.5s - 11 palavras - plano two
+> "Isso rendeu cerca de dez milhões de dólares para a empresa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | espalhou (30.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 1 | rendeu (35.2s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra espalhou (30.3s): executa: entra andando pela lateral
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): executa: conversar
-- multidao de 6: parada, reagindo (neutra), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
+## Cena b8 - 38.9s a 42.2s - 10 palavras - plano two
+> "O próprio Musk postou vídeos soltando fogo com o aparelho."
 
-## Cena b8 - 32.5s a 35.0s - 11 palavras - plano group
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | postou (40.0s) | ACAO: x_fone | celular na mao + toque | OK |
+| 2 | soltando (40.7s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 3 | fogo (41.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | - | ATUACAO | conversar | OK |
+
+## Cena b9 - 42.6s a 46.3s - 11 palavras - plano two
 > "Um produto que se chamava de tudo, menos do que parecia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chamava (33.3s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | cochichar | OK |
+| 1 | chamava (44.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra chamava (33.3s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: cochichar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b9 - 36.3s a 39.6s - 13 palavras - plano close
+## Cena b10 - 46.7s a 51.1s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

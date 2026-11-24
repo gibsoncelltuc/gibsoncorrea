@@ -19,7 +19,7 @@
     "loc_campo"
    ],
    [
-    "cena 12",
+    "cena 11",
     "palace",
     "loc_campo"
    ]
@@ -46,15 +46,38 @@
   "nature/tree_palm",
   "tools/bucket"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo",
+  "quando": "cerca de 240 a.C., meio-dia do solsticio de verao, sol forte",
+  "participantes": [
+   "Eratostenes (tunica grega branca e manto, barba)",
+   "bibliotecario assistente",
+   "camelos e caravana para medir a distancia"
+  ],
+  "roupas": {
+   "ERA": "tunica (quiton) branca com manto azul, sandalias",
+   "BIB": "tunica clara",
+   "CAM": "tunica e turbante de caravaneiro"
+  },
+  "cenario": "cidade helenistica com colunas, palmeiras, areia; poco de pedra; vara fincada no chao com sombra",
+  "objetos": [
+   "vara (gnomon)",
+   "poco de pedra",
+   "rolos de papiro",
+   "globo"
+  ],
+  "explicacoes": [
+   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Eratosthenes",
+   "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+  ],
+  "buscas": {
+   "vara": "Eratosthenes gnomon shadow experiment",
+   "cidade": "ancient Alexandria library illustration"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

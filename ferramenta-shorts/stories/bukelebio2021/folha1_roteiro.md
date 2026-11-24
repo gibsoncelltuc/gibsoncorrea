@@ -1,21 +1,21 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 161 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 153 palavras (~53 s)
 
-## Cena b0  (~8.6 s)
-- Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.
+## Cena b0  (~3.4 s)
+- Narracao: Um presidente escreveu no próprio perfil que era um ditador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_fone (lift) @18 -> acao + som de efeito; encena: x_entrega (reach) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: escreve (write) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.8 s)
-- Narracao: Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.
+## Cena b1  (~7.2 s)
+- Narracao: Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gibber@10
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) @6 -> acao + som de efeito; encena: protesto (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: protesto (up) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

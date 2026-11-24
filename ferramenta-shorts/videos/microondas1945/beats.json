@@ -51,11 +51,30 @@
    "props": [
     [
      "kit/microwave",
-     -2.0,
-     -1.6,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/microwave",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos, e o engenheiro Percy Spencer trabalhava numa fábrica de radares.",
@@ -96,7 +115,7 @@
    "chega": true
   },
   {
-   "say": "Pouco depois, sentiu o bolso quente e disse: \"O meu chocolate derreteu!\"",
+   "say": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -155,7 +174,8 @@
    ],
    "sfx": [
     "squeal@50"
-   ]
+   ],
+   "impact": true
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -169,10 +189,29 @@
     [
      "kit/microwave",
      0.0,
-     0.4,
-     2.6
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/microwave",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
@@ -212,5 +251,40 @@
     "SPE:0:smug"
    ]
   }
- ]
+ ],
+ "visual": {
+  "local": "Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magnetrons",
+  "quando": "cerca de 1945, dia",
+  "participantes": [
+   "Percy Spencer (terno, gravata, cabelo penteado)",
+   "engenheiros de jaleco",
+   "colega curioso"
+  ],
+  "roupas": {
+   "SPE": "terno cinza e gravata dos anos 1940",
+   "ENG": "jaleco branco",
+   "COL": "camisa social e suspensorio",
+   "POV": "roupas de 2020"
+  },
+  "cenario": "laboratorio industrial dos anos 1940 com bancadas, valvulas e equipamentos de radar; cozinha moderna no fim",
+  "objetos": [
+   "magnetron",
+   "barra de chocolate",
+   "milho de pipoca",
+   "ovo",
+   "Radarange (primeiro micro-ondas, 1,8 m)",
+   "forno de micro-ondas moderno"
+  ],
+  "explicacoes": [
+   "Percy Spencer notou que um magnetron derreteu o chocolate no bolso; testou pipoca e ovo; a Raytheon lancou o Radarange em 1947, com cerca de 1,8 m e 340 kg (fonte: Wikipedia Microwave oven, Percy Spencer)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Microwave_oven",
+   "https://en.wikipedia.org/wiki/Percy_Spencer"
+  ],
+  "buscas": {
+   "forno": "Raytheon Radarange 1947",
+   "lab": "Raytheon magnetron laboratory 1940s"
+  }
+ }
 }

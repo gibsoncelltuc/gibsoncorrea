@@ -81,9 +81,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.",
+   "say": "Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar.",
    "objetos": false,
-   "set": "harbor",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 11.5 m)",
@@ -105,7 +104,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "set": "loc_patio"
   },
   {
    "shot": "reveal",
@@ -116,7 +116,8 @@
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "say": "Foi em outubro de dois mil e vinte e quatro, na base de foguetes da SpaceX, no Texas.",
-   "objetos": false
+   "objetos": false,
+   "set": "loc_campo"
   },
   {
    "shot": "wide",
@@ -124,7 +125,7 @@
     "ENG:0:worried:paper"
    ],
    "acao": "discutir",
-   "say": "Normalmente, a parte de baixo de um foguete é descartada, ou pousa sobre pernas. Isso custa caro, e pesa.",
+   "say": "Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre pernas, que pesam e custam caro.",
    "objetos": false,
    "props": [
     [
@@ -137,7 +138,6 @@
      }
     ]
    ],
-   "set": "outback",
    "fachada": false,
    "crowd": {
     "n": 0
@@ -159,13 +159,12 @@
    "cz": -2.0,
    "h": 2.7,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_deserto"
   },
   {
    "shot": "wide",
-   "who": [
-    "MUS:0:smug"
-   ],
+   "who": [],
    "props": [
     [
      "kit/tower",
@@ -184,7 +183,7 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.",
+   "say": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre agarrar o propulsor na volta.",
    "objetos": false,
    "detalhe": false,
    "set": "outback",
@@ -208,7 +207,31 @@
    "cz": -2.0,
    "h": 3.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "explica": {
+    "objeto": "kit/tower_catch",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "SEM PERNAS",
+      "baixo",
+      "pernas"
+     ],
+     [
+      "BRAÇOS DA TORRE",
+      "topo",
+      "agarrar"
+     ]
+    ],
+    "setas": [
+     [
+      "baixo",
+      "VOLTA",
+      "",
+      "volta"
+     ]
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -227,10 +250,9 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.",
+   "say": "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos.",
    "objetos": false,
    "detalhe": false,
-   "set": "outback",
    "fachada": false,
    "crowd": {
     "n": 0
@@ -251,7 +273,8 @@
    "cz": -2.0,
    "h": 3.3,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "interior": "pedra"
   },
   {
    "shot": "wide",
@@ -291,10 +314,9 @@
     "whoosh@20",
     "thump@40"
    ],
-   "say": "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu.",
+   "say": "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos.",
    "objetos": false,
    "detalhe": false,
-   "set": "harbor",
    "fachada": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -318,7 +340,8 @@
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_patio"
   },
   {
    "shot": "wide",
@@ -351,11 +374,10 @@
    "sfx": [
     "whoosh@30"
    ],
-   "say": "Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.",
+   "say": "Minutos depois, ele voltou descendo de ré, direto na direção da torre.",
    "objetos": false,
    "detalhe": false,
    "shot_lock": true,
-   "set": "harbor",
    "fachada": false,
    "crowd": {
     "n": 0
@@ -382,7 +404,8 @@
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_patio"
   },
   {
    "shot": "wide",
@@ -410,7 +433,6 @@
    ],
    "say": "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.",
    "objetos": false,
-   "set": "harbor",
    "shot_lock": true,
    "fachada": false,
    "crowd": {
@@ -433,18 +455,25 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_patio"
   },
   {
    "shot": "wide",
    "who": [
-    "ENG:0:laugh"
+    "ENG:0:laugh",
+    "ENG:1:shout"
    ],
    "batalha": true,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 0
+    "n": 12,
+    "outfits": [
+     "ENG"
+    ],
+    "march": false,
+    "expr": "laugh"
    },
    "props": [
     [
@@ -467,10 +496,9 @@
    ],
    "text": "PEGOU!",
    "titulo": true,
-   "say": "Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história.",
+   "say": "Os engenheiros comemoraram aos gritos: era a primeira vez na história.",
    "objetos": false,
    "detalhe": false,
-   "set": "outback",
    "fachada": false,
    "quadro": {
     "local": "fazenda aberta",
@@ -488,30 +516,12 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
-  },
-  {
-   "shot": "two",
-   "who": [
-    "MUS:0:laugh",
-    "ENG:0:laugh"
-   ],
-   "interacao": "abracar",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "Musk comemorou nas redes sociais: a torre tinha pegado o foguete.",
-   "objetos": false,
-   "interior": true
+   "d1": 20.0,
+   "set": "loc_campo"
   },
   {
    "shot": "wide",
-   "who": [
-    "ENA:0:smile:paper"
-   ],
+   "who": [],
    "props": [
     [
      "kit/tower_catch",
@@ -524,7 +534,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.",
+   "say": "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias vezes.",
    "objetos": false,
    "detalhe": false,
    "set": "outback",
@@ -548,7 +558,29 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "explica": {
+    "objeto": "kit/booster_air",
+    "manobra": "sobe",
+    "vfx": [
+     {
+      "k": "fogo",
+      "na": "voar"
+     }
+    ],
+    "rotulos": [
+     [
+      "REUSO",
+      "topo",
+      "novo"
+     ],
+     [
+      "ECONOMIA",
+      "meio",
+      "várias"
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
@@ -576,9 +608,8 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.",
+   "say": "Parece filme de robô gigante, mas é engenharia.",
    "objetos": false,
-   "set": "harbor",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 8.0 m)",
@@ -600,12 +631,51 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "loc_deserto"
   }
  ],
  "fontes": [
   "https://www.space.com/spacex-starship-flight-5-launch-super-heavy-booster-catch-success-video"
  ],
  "marco": "kit/tower",
- "max_wide": 9
+ "max_wide": 9,
+ "visual": {
+  "local": "Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo plano, sala de controle",
+  "quando": "13 de outubro de 2024, manha",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "engenheiros da SpaceX (camisa polo, fones)",
+   "publico assistindo de longe"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "ENG": "camisa polo azul e fone",
+   "ENA": "camisa polo e cracha",
+   "POV": "roupa casual"
+  },
+  "cenario": "torre metalica alta com dois bracos gigantes (chopsticks), plataforma de concreto, campo plano e mar ao fundo",
+  "objetos": [
+   "torre Mechazilla",
+   "propulsor Super Heavy com 33 motores Raptor",
+   "foguete Starship"
+  ],
+  "explicacoes": [
+   "No 5o voo da Starship (13/10/2024) o propulsor Super Heavy voltou e foi agarrado pelos bracos (chopsticks) da torre de lancamento, a Mechazilla, sem pernas de pouso, para ser reutilizado (fonte: Wikipedia Starship flight test 5)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Starship_flight_test_5",
+   "https://en.wikipedia.org/wiki/SpaceX_Starbase"
+  ],
+  "locacoes": [
+   "loc_patio",
+   "loc_campo",
+   "loc_deserto",
+   "interior pedra"
+  ],
+  "buscas": {
+   "torre": "Mechazilla chopsticks catch Super Heavy booster",
+   "base": "Starbase Boca Chica launch tower"
+  }
+ }
 }

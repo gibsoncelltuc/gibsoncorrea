@@ -56,9 +56,12 @@
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.5
+     2.4,
+     0.2,
+     2.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -71,7 +74,23 @@
    "mapa_at": 3.5,
    "detalhe": true,
    "acao": "comemorar",
-   "shot_lock": true
+   "shot_lock": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e sink juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/sink",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Ele filmou a própria entrada e postou o vídeo na internet.",
@@ -95,9 +114,12 @@
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.0
+     0.0,
+     -1.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -109,20 +131,39 @@
    "sfx": [
     "thump@8"
    ],
-   "shot_lock": true
+   "shot_lock": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/sink",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FUN:0:surprised"
    ],
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.5
+     2.4,
+     0.2,
+     2.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -135,7 +176,23 @@
    "batalha": false,
    "impact": false,
    "detalhe": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/sink",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.",
@@ -172,9 +229,12 @@
    "props": [
     [
      "kit/globe",
-     1.5,
-     -0.4,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "crowd": {
@@ -186,7 +246,23 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Uma pia, uma legenda e uma piada que ninguém esqueceu.",
@@ -199,15 +275,34 @@
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.0
+     0.0,
+     -1.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e sink juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/sink",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "exp": 1.0,

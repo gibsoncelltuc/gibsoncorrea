@@ -12,6 +12,14 @@
   },
   {
    "tipo": "lugar",
+   "item": "Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tij",
+   "consultas": [
+    "Filadelfia colonia da Pensilvania",
+    "Filadelfia colonia da Pensilvania 1752"
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Estados Unidos",
    "consultas": [
     "Estados Unidos 1752",
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho com",
+   "consultas": [
+    "Benjamin Franklin casaca marrom colete culotes cabelo grisalho comprido",
+    "Benjamin Franklin casaca marrom colete culotes cabelo grisalho comprido 1752"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "filho William",
+   "consultas": [
+    "filho William",
+    "filho William 1752"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores coloniais",
+   "consultas": [
+    "moradores coloniais",
+    "moradores coloniais 1752"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pipa de seda",
+   "consultas": [
+    "pipa de seda",
+    "pipa de seda 1752"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "chave de metal",
+   "consultas": [
+    "chave de metal",
+    "chave de metal 1752"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "garrafa de Leyden",
+   "consultas": [
+    "garrafa de Leyden",
+    "garrafa de Leyden 1752"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "para-raios",
+   "consultas": [
+    "para-raios",
+    "para-raios 1752"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "kite",
    "consultas": [
-    "kite",
+    "pipa de seda",
     "Franklin a Pipa e o Raio"
    ]
   }

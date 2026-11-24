@@ -13,17 +13,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: BUK na esquerda, expressao smile; POV (comerciante) na direita, expressao surprised; multidao de 12 (BUK, POV) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "9 EM 10 NÃO ENTENDIAM" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.2-2.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (2.0-3.9 s): mesmo angulo
-<!-- /FICHA -->
-
 ## Cena b1 - Foi em El Salvador, na América Central, e a ideia foi do presidente Na...
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
@@ -34,17 +23,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
 - RISCOS: nenhum
 <!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: EL SALVADOR (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (5.3-7.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (7.3-9.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b2 - Ele anunciou o projeto em junho de dois mil e vinte e um, e o congress...
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -57,17 +35,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: DEP na esquerda, expressao neutral; BUK na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (10.7-12.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (12.2-13.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (13.7-15.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-
 ## Cena b3 - A lei passou a valer em sete de setembro, e o país foi o primeiro do m...
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
@@ -78,15 +45,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, setembro, valer
 - RISCOS: nenhum
 <!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: BUK na esquerda, expressao grin; POV (comerciante) na direita, expressao smile; multidao de 8 (POV, CLI, DEP) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "7 DE SETEMBRO" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b4 - Para convencer o povo, o governo prometeu trinta dólares em bitcoin a ...
 - Cenario: loc_pista | luz: golden | clima: limpo
@@ -99,21 +57,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: CLI na esquerda, expressao smile, segura coin; POV (comerciante) na direita, expressao grin; multidao de 12 (CLI, POV) ATRAS dos principais; acao: conversar
-- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/stall: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
-- SOM: ding@3
-- TEXTO NA TELA: "US$ 30" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (21.5-23.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (23.2-25.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (25.0-26.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
 ## Cena b5 - Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas...
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
@@ -125,17 +68,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: CLI no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +2 da cena
-- SOM: ding@2
-- TEXTO NA TELA: "CARTEIRA CHIVO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
-
 ## Cena b6 - Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e o...
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
@@ -146,20 +78,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): decisao, pesquisa, universidade
 - RISCOS: nenhum
 <!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: CLI na esquerda, expressao nervous; POV (comerciante) na direita, expressao shock; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +3 da cena
-- SOM: thump@3
-- TEXTO NA TELA: "68% DISCORDAM" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (33.5-35.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (35.1-36.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (36.6-38.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b7 - Mesmo assim, a moeda digital virou assunto no mundo inteiro.
 - Cenario: loc_patio | luz: golden | clima: limpo
@@ -226,9 +144,11 @@ kit/coin | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer 
 ## Video inteiro
 - Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 17% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bitcoin2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bitcoin2021/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bitcoin2021 bN bM` (so essas cenas).

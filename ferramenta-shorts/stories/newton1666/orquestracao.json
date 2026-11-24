@@ -5,7 +5,7 @@
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -85,24 +85,6 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "LAV",
-    "LAV",
-    "AMI"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b4",
-   "frase": "Todo mundo sabia que as coisas caem. Ninguém perguntava até onde essa força chegava.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
    "camera": "orbit",
    "personagens": [
     "NEW",
@@ -114,7 +96,7 @@
     "nature/tree_oak"
    ],
    "palavras": 16,
-   "cena": "b5",
+   "cena": "b4",
    "frase": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -135,14 +117,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
-   "cena": "b6",
-   "frase": "Newton não levou pancada na cabeça, isso é lenda. Ele só pensou: \"Por que ela cai sempre para baixo?\"",
+   "palavras": 20,
+   "cena": "b5",
+   "frase": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -155,13 +137,13 @@
     "kit/apple"
    ],
    "palavras": 19,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "group",
@@ -172,7 +154,7 @@
    "multidao": 14,
    "objetos": [],
    "palavras": 15,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -195,7 +177,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 10,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "Anos depois, ele mesmo contou essa história a um amigo.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -213,9 +195,9 @@
     "kit/apple"
    ],
    "palavras": 11,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "No fim, a maçã mudou a ciência e nem foi comida.",
-   "classe": "explicativa",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -229,7 +211,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

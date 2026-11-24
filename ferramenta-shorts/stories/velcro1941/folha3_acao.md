@@ -102,7 +102,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | VELCRO | OK |
 
-## Cena b11 - 60.4s a 66.3s - 17 palavras - plano close
+## Cena b11 - 60.4s a 66.3s - 17 palavras - plano two
 > "Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

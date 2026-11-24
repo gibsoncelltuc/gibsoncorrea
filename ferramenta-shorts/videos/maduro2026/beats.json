@@ -86,7 +86,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.",
+   "say": "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas.",
    "fachada": false,
    "crowd": {
     "n": 0
@@ -118,7 +118,7 @@
    ],
    "mapa": "VENEZUELA",
    "mapa_at": 3,
-   "say": "O alvo estava em Caracas, a capital da Venezuela."
+   "say": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
   },
   {
    "shot": "wide",
@@ -162,16 +162,6 @@
    "d1": 20.0
   },
   {
-   "shot": "two",
-   "interior": "loja",
-   "who": [
-    "TRU:0:suspicious",
-    "AGE:0:stern:paper"
-   ],
-   "interacao": "cochichar",
-   "say": "Durante meses, a inteligência americana estudou cada passo dele, em segredo."
-  },
-  {
    "shot": "wide",
    "hora": "noite",
    "who": [
@@ -203,7 +193,7 @@
    ],
    "text": "DELTA",
    "titulo": true,
-   "say": "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.",
+   "say": "Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava.",
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -227,9 +217,7 @@
   {
    "shot": "wide",
    "hora": "noite",
-   "who": [
-    "SOL:0:angry"
-   ],
+   "who": [],
    "props": [
     [
      "kit/helicopter_air",
@@ -271,7 +259,29 @@
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "explica": {
+    "objeto": "kit/helicopter_air",
+    "manobra": "paira",
+    "vfx": [
+     {
+      "k": "velocidade",
+      "na": "ataques"
+     }
+    ],
+    "rotulos": [
+     [
+      "ATAQUE AEREO",
+      "topo",
+      "ataques"
+     ],
+     [
+      "DEFESAS DESLIGADAS",
+      "meio",
+      "desligaram"
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
@@ -426,5 +436,38 @@
   "https://www.cnn.com/2026/01/03/politics/nicolas-maduro-capture-venezuela"
  ],
  "heroi_sem_close_ok": true,
- "max_wide": 7
+ "max_wide": 7,
+ "visual": {
+  "local": "Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sala de acompanhamento); depois Nova York",
+  "quando": "madrugada de 3 de janeiro de 2026, noite",
+  "participantes": [
+   "Donald Trump (terno azul, gravata vermelha)",
+   "Nicolas Maduro (bigode, jaqueta)",
+   "soldados da Forca Delta (uniforme camuflado, capacete, oculos de visao noturna)",
+   "diretor da CIA e secretario de Estado"
+  ],
+  "roupas": {
+   "TRU": "terno azul e gravata vermelha",
+   "MAD": "jaqueta escura e bigode",
+   "SOL": "uniforme camuflado e capacete",
+   "AGE": "terno escuro",
+   "GEN": "farda verde"
+  },
+  "cenario": "cidade de Caracas a noite com morros, complexo cercado; sala com telas; aviao para Nova York",
+  "objetos": [
+   "helicopteros militares",
+   "aviao",
+   "mandado judicial"
+  ],
+  "explicacoes": [
+   "Operacao Absolute Resolve (3/1/2026): forcas especiais dos EUA capturaram Nicolas Maduro em Caracas e o levaram a Nova York para responder a acusacoes de narcoterrorismo (fonte: Wikipedia 2026 United States strikes in Venezuela / capture of Nicolas Maduro)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro"
+  ],
+  "buscas": {
+   "helicoptero": "MH-60 Black Hawk night operation",
+   "cidade": "Caracas at night"
+  }
+ }
 }

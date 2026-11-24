@@ -2,17 +2,17 @@
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 165 palavras (~57 s)
 
-## Cena b0  (~7.6 s)
-- Narracao: Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.
+## Cena b0  (~4.8 s)
+- Narracao: Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: NOVA YORK
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.9 s)
-- Narracao: Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.
+## Cena b1  (~9.7 s)
+- Narracao: Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

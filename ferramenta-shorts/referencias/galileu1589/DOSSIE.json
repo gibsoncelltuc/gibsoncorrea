@@ -7,34 +7,14 @@
   "regiao": "europa",
   "luz_base": "day",
   "cenarios": [
+   "arctic",
+   "interior loja",
    "interior madeira",
    "interior pedra",
    "loc_campo",
-   "loc_deserto",
-   "loc_montanha"
+   "street"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 8",
-    "stadium",
-    "loc_campo"
-   ],
-   [
-    "cena 10",
-    "arctic",
-    "loc_campo"
-   ],
-   [
-    "cena 12",
-    "street",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "carro antigo",
@@ -53,10 +33,12 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/house_small",
   "kit/ball",
   "kit/feather",
   "kit/marco_pisa",
   "kit/pisa_tower",
+  "kit/room_azul_shop",
   "kit/room_europa_stone",
   "kit/room_verde_wood",
   "mk/Barrel",
@@ -71,15 +53,40 @@
   "tools/hammer",
   "war/cannonballs"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a catedral",
+  "quando": "cerca de 1589-1592, dia",
+  "participantes": [
+   "Galileu Galilei jovem (toga escura de professor, barba curta)",
+   "alunos de toga",
+   "professores aristotelicos"
+  ],
+  "roupas": {
+   "GAL": "toga preta de professor universitario",
+   "ALU": "gibao e calcas renascentistas",
+   "PRO": "toga e barrete",
+   "ARI": "tunica grega",
+   "AST": "traje espacial branco Apollo"
+  },
+  "cenario": "praca gramada com a torre inclinada branca, catedral romanica; sala de universidade de pedra; superficie da Lua",
+  "objetos": [
+   "bola de ferro pesada",
+   "bola leve",
+   "torre de Pisa",
+   "martelo e pena (Apollo 15)"
+  ],
+  "explicacoes": [
+   "Segundo Vincenzo Viviani, aluno de Galileu, ele soltou bolas de pesos diferentes da Torre de Pisa; historiadores duvidam; em 1971 David Scott (Apollo 15) soltou martelo e pena na Lua e caíram juntos (fonte: Wikipedia Galileo's Leaning Tower of Pisa experiment)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "https://en.wikipedia.org/wiki/Apollo_15"
+  ],
+  "buscas": {
+   "torre": "Leaning Tower of Pisa Piazza dei Miracoli",
+   "lua": "Apollo 15 hammer feather drop"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

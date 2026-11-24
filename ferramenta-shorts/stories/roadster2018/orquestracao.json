@@ -18,8 +18,7 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS",
-    "ENG"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
@@ -29,20 +28,14 @@
    "palavras": 16,
    "cena": "b0",
    "frase": "Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço.",
-   "classe": "chave",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "flutua no espaco girando",
-    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
-    "luz": "luz do propulsor acompanha o objeto",
-    "camera": "plano aberto no objeto",
-    "som": "som na palavra da acao"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -60,12 +53,11 @@
    "cenario": "harbor"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "MUS",
-    "ENG"
+    "MUS"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/rocket"
    ],
@@ -81,8 +73,7 @@
   {
    "camera": "two",
    "personagens": [
-    "ENG",
-    "MUS"
+    "ENG"
    ],
    "multidao": 0,
    "objetos": [
@@ -100,11 +91,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "ENG",
-    "MUS",
-    "POV"
+    "ENG"
    ],
-   "multidao": 20,
+   "multidao": 0,
    "objetos": [
     "kit/falcon_air"
    ],
@@ -126,8 +115,7 @@
   {
    "camera": "two",
    "personagens": [
-    "STA",
-    "MUS"
+    "STA"
    ],
    "multidao": 0,
    "objetos": [
@@ -136,24 +124,18 @@
    "palavras": 12,
    "cena": "b5",
    "frase": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
-   "classe": "chave",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "flutua no espaco girando",
-    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
-    "luz": "luz do propulsor acompanha o objeto",
-    "camera": "plano aberto no objeto",
-    "som": "som na palavra da acao"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "STA"
    ],
-   "multidao": 5,
+   "multidao": 0,
    "objetos": [
     "kit/roadster"
    ],
@@ -167,10 +149,9 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ENG",
-    "MUS"
+    "ENG"
    ],
    "multidao": 0,
    "objetos": [
@@ -180,23 +161,16 @@
    "palavras": 15,
    "cena": "b7",
    "frase": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
-   "classe": "chave",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "flutua no espaco girando",
-    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
-    "luz": "luz do propulsor acompanha o objeto",
-    "camera": "plano aberto no objeto",
-    "som": "som na palavra da acao"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
-    "MUS",
-    "STA"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
@@ -214,11 +188,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "MUS",
-    "ENG",
-    "STA"
+    "MUS"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/roadster",
     "kit/rocket"
@@ -227,13 +199,13 @@
    "cena": "b9",
    "frase": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
    "classe": "chave",
-   "sujeito": "objeto",
+   "sujeito": "personagem",
    "briefing": {
-    "corpo": "flutua no espaco girando",
-    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
-    "luz": "luz do propulsor acompanha o objeto",
-    "camera": "plano aberto no objeto",
-    "som": "som na palavra da acao"
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
    },
    "acoes_faltando": [],
    "cenario": "arctic"

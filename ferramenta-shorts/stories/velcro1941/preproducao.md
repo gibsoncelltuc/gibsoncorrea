@@ -15,7 +15,7 @@ b7 | loc_campo | orbit | 16 | discutir, batalha | kit/marco_alpes | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | kit/burr | - | -
 b9 | loc_deserto | crowd | 18 | encena, batalha | kit/marco_alpes, kit/burr | - | -
 b10 | loc_campo | two | 1 | conversar | kit/burr, kit/rocket, kit/moon | - | -
-b11 | loc_deserto | close | 1 | conversar | kit/burr, dog | - | -
+b11 | loc_deserto | two | 1 | conversar | kit/burr, dog | - | -
 b12 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/burr

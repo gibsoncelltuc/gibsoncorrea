@@ -12,6 +12,14 @@
   },
   {
    "tipo": "lugar",
+   "item": "Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mostei",
+   "consultas": [
+    "Abadia de Sao Tomas Brno",
+    "Abadia de Sao Tomas Brno Moravia Imperio Austriaco 1856"
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "República Tcheca",
    "consultas": [
     "República Tcheca 1856",
@@ -27,10 +35,58 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Gregor Mendel (habito preto de monge agostiniano, oculos redondos)",
+   "consultas": [
+    "Gregor Mendel habito preto de monge agostiniano oculos redondos",
+    "Gregor Mendel habito preto de monge agostiniano oculos redondos 1856"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "frades do mosteiro",
+   "consultas": [
+    "frades do mosteiro",
+    "frades do mosteiro 1856"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "cientistas de 1900 (de Vries, Correns, Tschermak) de terno",
+   "consultas": [
+    "cientistas de 1900 de Vries Correns Tschermak de terno",
+    "cientistas de 1900 de Vries Correns Tschermak de terno 1856"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "vagens e ervilhas amarelas e verdes",
+   "consultas": [
+    "vagens e ervilhas amarelas e verdes",
+    "vagens e ervilhas amarelas e verdes 1856"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "caderno de anotacoes",
+   "consultas": [
+    "caderno de anotacoes",
+    "caderno de anotacoes 1856"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "vasos de plantas",
+   "consultas": [
+    "vasos de plantas",
+    "vasos de plantas 1856"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "pea green",
    "consultas": [
-    "pea green",
+    "vagens e ervilhas amarelas e verdes",
     "Mendel e as Ervilhas"
    ]
   },

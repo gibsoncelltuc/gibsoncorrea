@@ -1,31 +1,30 @@
 # CRONOGRAMA - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:41 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | GRE, BUL | - | dog_sit | - | Um cachorro fugiu, e por causa dele dois países entraram em guerra, e 
-b1 | simples | loc_montanha | reveal | GRE, BUL | 48 | - | - | Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulg
-b2 | simples | loc_campo | track | GRE, GRE | - | - | - | Um soldado grego estava de guarda quando o cachorro dele fugiu para o 
-b3 | simples | loc_campo | track | GRE, GRE | - | - | - | O soldado correu atrás do cachorro, e atravessou a fronteira sem pensa
-b4 | chave | loc_montanha | group | BUL, GRE | 10 | dog_sit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
-b5 | simples | loc_montanha | low | GRE, GRE | - | - | - | Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bu
-b6 | chave | loc_montanha | orbit | GRE, BUL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a reg
-b7 | simples | interior madeira | two | DIP, PRE | - | - | - | A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.
-b8 | simples | interior pedra | two | PRE, DIP | - | - | - | A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenizaçã
-b9 | simples | loc_campo | close | GRE | - | dog_sit | - | A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
-b10 | simples | loc_campo | two | GRE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_campo | track | GRE, BUL | - | - | - | Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa.
+b1 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc
+b2 | simples | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronte
+b3 | simples | mountain | two | BUL, GRE | 12 | - | - | Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A
+b4 | simples | mountain | group | GRE, GRE | - | - | - | A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os
+b5 | chave | mountain | wide | GRE | 48 | apartment, house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dias depois, em vinte e dois de outubro, o exército grego, com vinte m
+b6 | simples | interior madeira | two | DIP | - | - | - | Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.
+b7 | chave | mountain | crowd | PRE, DIP | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas
+b8 | simples | loc_campo | close | GRE | - | dog_sit | - | Até hoje, não há acordo nem sobre a existência do cachorro.
+b9 | simples | loc_campo | two | GRE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/6 itens) | PENDENTE | python3 pesquisar.py cachorro1925
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/11 itens) | PENDENTE | python3 pesquisar.py cachorro1925
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

@@ -4,7 +4,7 @@
  "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
-  "acoes_chave_com_efeito": 67,
+  "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
@@ -92,9 +92,9 @@
    "objetos": [
     "kit/chocolate"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "Pouco depois, sentiu o bolso quente e disse: \"O meu chocolate derreteu!\"",
+   "frase": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -157,7 +157,13 @@
    "frase": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
    "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },

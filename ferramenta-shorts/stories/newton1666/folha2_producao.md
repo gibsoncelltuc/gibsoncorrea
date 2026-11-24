@@ -42,17 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coisas, macieira
 - RISCOS: nenhum
 
-## Cena b4 - Todo mundo sabia que as coisas caem. Ninguém perguntava até onde essa ...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (3): LAV (variante 0, expressao smug); LAV (variante 1, expressao bored); AMI (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coisas
-- RISCOS: nenhum
-
-## Cena b5 - Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr...
+## Cena b4 - Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -62,8 +52,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, galho, maca
 - RISCOS: nenhum
 
-## Cena b6 - Newton não levou pancada na cabeça, isso é lenda. Ele só pensou: "Por ...
-- Cenario: street | luz: day | clima: limpo
+## Cena b5 - Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que...
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): NEW (variante 0, expressao suspicious)
@@ -72,17 +62,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca
 - RISCOS: nenhum
 
-## Cena b7 - Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+## Cena b6 - Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): NEW (variante 0, expressao surprised, segura paper); MAE (variante 0, expressao shock)
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/apple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, galho, maca
 - RISCOS: nenhum
 
-## Cena b8 - A resposta virou a lei da gravidade, publicada em mil seiscentos e oit...
+## Cena b7 - A resposta virou a lei da gravidade, publicada em mil seiscentos e oit...
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
@@ -92,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gravidade
 - RISCOS: nenhum
 
-## Cena b9 - Anos depois, ele mesmo contou essa história a um amigo.
+## Cena b8 - Anos depois, ele mesmo contou essa história a um amigo.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -102,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): amigo
 - RISCOS: nenhum
 
-## Cena b10 - No fim, a maçã mudou a ciência e nem foi comida.
+## Cena b9 - No fim, a maçã mudou a ciência e nem foi comida.
 - Cenario: interior hospital | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -110,10 +100,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar
 - Objetos/modelos: kit/apple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ciencia, maca
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
+- RISCOS: nenhum
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -128,24 +117,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/apple | b0, b3, b5, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/apple | b0, b3, b4, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/apple | grandes momentos: b5, b8 | planos abertos: 2 | mistura: close 26% | medio 64% | aberto 8% | detalhe 2%
-- Interacoes: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b4 avanca e o outro recua, b7 susto, b8 pular, b9 cochichar
+- Objeto heroi: kit/apple | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 29% | medio 57% | aberto 9% | detalhe 5%
+- Interacoes: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b6 susto, b7 pular, b8 cochichar
 - RISCOS GERAIS: 
-  - objeto heroi kit/apple nao aparece em nenhuma cena -> CORRECAO: por kit/apple em "props" de pelo menos uma cena (ou tirar de "herois")
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py newton1666  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/newton1666/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
-- b10: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- geral: objeto heroi kit/apple nao aparece em nenhuma cena
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh newton1666 bN bM` (so essas cenas).

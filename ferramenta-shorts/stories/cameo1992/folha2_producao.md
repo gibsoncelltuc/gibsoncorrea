@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cameo1992/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cameo1992` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim ...
+## Cena b0 - Um filme de Natal ainda briga por causa de sete segundos com Donald Tr...
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/tv, kit/marco_liberdade
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): filme, garoto
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): donald, filme, natal, sete
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -25,14 +25,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (3.9-5.8 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b1 - Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hote...
+## Cena b1 - Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevi...
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): FUN (variante 0, expressao grin); TRU (variante 0, expressao smug)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): homem, hotel, saguao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): filme, homem, hotel, saguao
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -69,7 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b3 - Acontece que aquele hotel, o Plaza, pertencia a Trump na época.
-- Cenario: interior pedra | luz: golden | clima: limpo
+- Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): TRU (variante 0, expressao laugh)
@@ -154,7 +154,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b7 - Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esse...
-- Cenario: interior loja | luz: golden | clima: limpo
+- Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious)
@@ -197,9 +197,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b9 - Moral da história: um cameo de sete segundos gera conversa por mais de...
-- Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): TRU (variante 0, expressao laugh)
 - Animacao: conversar
 - Objetos/modelos: kit/tv
@@ -218,7 +218,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_cidade | luz: golden | clima: limpo
+- Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): FUN (variante 0, expressao grin)
@@ -241,19 +241,13 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 10% | medio 77% | aberto 8% | detalhe 5%
+- Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 10% | medio 81% | aberto 8% | detalhe 2%
 - Interacoes: b1 aproxima-se, b2 susto, b4 avanca e o outro recua, b6 discutir, b7 o outro se aproxima
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'loc_cidade': 6, 'interior pedra': 2, 'interior loja': 3}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py cameo1992  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/cameo1992/moodboard.jpg
 
-## RESUMO: 4 risco(s) em aberto
-- geral: pouca variedade de cenario ({'loc_cidade': 6, 'interior pedra': 2, 'interior loja': 3}): o video fica parecendo todos os outros
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cameo1992 bN bM` (so essas cenas).

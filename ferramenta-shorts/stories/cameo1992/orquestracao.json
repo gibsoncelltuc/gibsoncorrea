@@ -8,32 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 1",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 3",
-   "street",
-   "loc_cidade"
-  ],
-  [
    "cena 6",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 9",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 11",
    "street",
    "loc_cidade"
   ]
@@ -55,9 +30,9 @@
     "kit/marco_liberdade",
     "kit/tv"
    ],
-   "palavras": 22,
+   "palavras": 14,
    "cena": "b0",
-   "frase": "Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.",
+   "frase": "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -72,9 +47,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
+   "palavras": 28,
    "cena": "b1",
-   "frase": "Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.",
+   "frase": "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -123,7 +98,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -204,7 +179,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior pedra"
   },
   {
    "camera": "reveal",
@@ -240,7 +215,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -256,7 +231,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior madeira"
   }
  ]
 }

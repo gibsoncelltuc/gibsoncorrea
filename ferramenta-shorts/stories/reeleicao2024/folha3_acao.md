@@ -19,18 +19,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 8 | - | PLACA | 2024 | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra perdeu (0.7s): executa: fumaca + som
-- ACAO: perde na palavra perdeu (0.7s): executa: mao na testa
-- ACAO: voto na palavra eleição (1.3s): executa: poe o voto na urna
-- ACAO: chega na palavra voltou (4.8s): executa: entra andando pela lateral
-- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b1 - 6.9s a 9.8s - 15 palavras - plano wide
+## Cena b1 - 6.7s a 11.9s - 15 palavras - plano wide
 > "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -149,18 +138,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b8 - 44.3s a 47.4s - 16 palavras - plano group
+## Cena b8 - 43.3s a 48.9s - 16 palavras - plano group
 > "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ATUACAO (a cena toda): executa: conversar
@@ -175,12 +158,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | PLACA | 47º | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b10 - 54.1s a 58.0s - 11 palavras - plano two
+## Cena b10 - 55.2s a 58.9s - 11 palavras - plano two
 > "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -193,16 +171,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra Perdeu (54.1s): executa: fumaca + som
-- ACAO: perde na palavra Perdeu (54.1s): executa: mao na testa
-- ACAO: chega na palavra voltou (54.8s): executa: entra andando pela lateral
-- EFEITO: stars na palavra ganhou (55.3s): executa: estrelinhas + som
-- ACAO: vence na palavra ganhou (55.3s): executa: bracos para cima + brilho
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
-
-## Cena b11 - 59.5s a 62.8s - 13 palavras - plano close
+## Cena b11 - 59.3s a 63.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

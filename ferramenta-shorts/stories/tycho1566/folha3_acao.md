@@ -73,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | deu (38.1s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | estudar (41.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 
-## Cena b7 - 42.2s a 48.1s - 17 palavras - plano group
+## Cena b7 - 42.2s a 48.1s - 17 palavras - plano wide
 > "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -102,7 +102,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 
-## Cena b10 - 57.8s a 63.7s - 17 palavras - plano close
+## Cena b10 - 57.8s a 63.7s - 17 palavras - plano two
 > "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

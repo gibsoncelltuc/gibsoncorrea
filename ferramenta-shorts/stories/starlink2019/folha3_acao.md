@@ -13,12 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: voa na palavra decolou (2.2s): executa: decola: poeira no chao, olha para cima
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b1 - 6.5s a 12.2s - 18 palavras - plano wide
+## Cena b1 - 7.8s a 14.1s - 18 palavras - plano wide
 > "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -40,13 +35,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: tira na palavra filmou (17.9s): executa: tira foto (celular + flash)
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b3 - 19.4s a 23.2s - 14 palavras - plano wide
+## Cena b3 - 19.3s a 24.1s - 14 palavras - plano wide
 > "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -56,7 +45,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | 3 MINUTOS | OK |
-<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: escreve na palavra registrou (19.7s): segura o papel e mexe a mao como se escrevesse
@@ -110,21 +98,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | MAPA | MUNDO | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra explicaram (34.8s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
-
-## Cena b7 - 38.5s a 41.8s - 11 palavras - plano wide
+## Cena b7 - 38.9s a 42.6s - 11 palavras - plano wide
 > "Os satélites ainda estavam juntos, em fila, logo depois do lançamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 43.2s a 46.8s - 16 palavras - plano reveal
+## Cena b8 - 43.0s a 48.5s - 16 palavras - plano reveal
 > "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -144,7 +125,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | olhar (49.3s) | ACAO: olha | aponta/olha | OK |
+| 1 | olhar (50.4s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -9,18 +9,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
-## Cena b1 - 5.9s a 11.5s - 16 palavras - plano close
+## Cena b1 - 5.9s a 11.5s - 16 palavras - plano wide
 > "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (8.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | conversar | OK |
 
-## Cena b2 - 11.9s a 20.0s - 23 palavras - plano reveal
+## Cena b2 - 11.9s a 20.0s - 23 palavras - plano wide
 > "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -35,8 +33,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | colocar (23.3s) | ACAO: pega | levanta/segura | OK |
 | 2 | mandar (25.6s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 4 | - | INTERACAO | o outro se aproxima | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 26.7s a 28.5s - 6 palavras - plano crowd
 > "O foguete decolou com um estrondo!"
@@ -54,34 +51,29 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | sentado (30.7s) | ACAO: senta | senta | OK |
 | 2 | chamado (32.6s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.3s a 35.9s - 8 palavras - plano group
+## Cena b6 - 33.3s a 35.9s - 8 palavras - plano orbit
 > "No painel, estava escrito: Não entre em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
+| 1 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 
-## Cena b7 - 36.3s a 41.5s - 15 palavras - plano two
+## Cena b7 - 36.3s a 41.5s - 15 palavras - plano wide
 > "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (37.0s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | seguiu (39.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 41.9s a 45.2s - 10 palavras - plano low
+## Cena b8 - 41.9s a 45.2s - 10 palavras - plano two
 > "E ele continua lá em cima, dando voltas, até hoje."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 45.6s a 51.5s - 17 palavras - plano orbit
 > "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."

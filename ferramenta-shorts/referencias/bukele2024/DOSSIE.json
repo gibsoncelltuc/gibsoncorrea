@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 2024,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": "colonial",
   "luz_base": "golden",
   "cenarios": [
    "interior loja",
@@ -12,10 +12,15 @@
    "loc_campo",
    "loc_cidade",
    "loc_patio",
-   "loc_pista",
-   "palace"
+   "loc_pista"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 8",
+    "street",
+    "loc_cidade"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "barril",
@@ -41,9 +46,8 @@
  "objetos_em_cena": [
   "kit/ballot_box",
   "kit/globe",
-  "kit/porch",
   "kit/prison",
-  "kit/room_eua_wood",
+  "kit/room_colonial_wood",
   "kit/room_europa_shop",
   "kit/scroll",
   "kit/volcano",

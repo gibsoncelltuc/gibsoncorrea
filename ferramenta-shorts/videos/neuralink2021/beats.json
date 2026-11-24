@@ -74,7 +74,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as mãos, só com o pensamento.",
+   "say": "Um macaco jogou videogame sem usar as mãos, só com o pensamento.",
    "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -101,7 +101,7 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa se chama Neuralink."
+   "say": "Foi em dois mil e vinte e um, e a empresa se chama Neuralink."
   },
   {
    "shot": "two",
@@ -111,7 +111,7 @@
     "MUS:0:suspicious"
    ],
    "acao": "conversar",
-   "say": "A ideia é um chip implantado no cérebro, que lê os sinais dos neurônios e manda para o computador."
+   "say": "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador."
   },
   {
    "shot": "two",
@@ -131,7 +131,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "O voluntário foi o Pager, um macaco de nove anos. Primeiro, ele aprendeu a jogar Pong com um joystick.",
+   "say": "O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar Pong com um joystick.",
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
@@ -172,7 +172,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "A cada acerto, ganhava um golinho de vitamina de banana, por um canudinho de metal.",
+   "say": "A cada acerto, ganhava um golinho de vitamina de banana.",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
@@ -189,43 +189,6 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0
-  },
-  {
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "CIM:0:suspicious",
-    "CIE:0:nervous"
-   ],
-   "props": [
-    [
-     "kit/monkey_pong",
-     0.0,
-     -1.2,
-     1.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "interacao": "cochichar",
-   "say": "Enquanto isso, o chip gravava o que os neurônios faziam a cada movimento.",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/monkey_pong",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
   },
   {
    "shot": "two",
@@ -252,7 +215,7 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que, um dia, desligaram o joystick. E o Pager continuou jogando, só com a mente!",
+   "say": "Acontece que, um dia, desligaram o joystick, e o Pager continuou jogando só com a mente.",
    "shot_lock": true,
    "detalhe": true,
    "quadro": {
@@ -282,7 +245,7 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 18,
+    "n": 14,
     "outfits": [
      "POV"
     ],
@@ -308,7 +271,7 @@
    ],
    "text": "MENTE",
    "titulo": true,
-   "say": "O vídeo rodou o mundo. Muita gente se encantou, e muita gente debateu o uso de animais na pesquisa.",
+   "say": "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
@@ -324,7 +287,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "set": "loc_cidade"
   },
   {
    "shot": "two",
@@ -333,7 +297,7 @@
     "CIM:0:grin"
    ],
    "acao": "discutir",
-   "say": "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.",
+   "say": "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.",
    "props": [
     [
      "kit/chess_pc",
@@ -391,7 +355,7 @@
     "ding@40"
    ],
    "interacao": "entregar",
-   "say": "Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chip, e jogou xadrez no computador só pensando.",
+   "say": "Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o corpo do pescoço para baixo, jogou xadrez só pensando.",
    "props": [
     [
      "kit/chess_pc",
@@ -427,52 +391,6 @@
    "d1": 11.5
   },
   {
-   "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.",
-   "shot": "two",
-   "interior": "loja",
-   "who": [
-    "NOL:0:smile",
-    "CIE:0:happy"
-   ],
-   "acao": "reagir",
-   "props": [
-    [
-     "kit/chess_pc",
-     0.0,
-     -1.2,
-     1.7,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "detalhe": false,
-   "shot_lock": true,
-   "impact": false,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/chess_pc",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
    "shot": "two",
    "who": [
     "MUS:0:smile"
@@ -489,7 +407,7 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "E tudo começou com um macaco, um videogame antigo, e um copo de vitamina de banana.",
+   "say": "Tudo começou com um macaco, um videogame e um copo de vitamina de banana.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
@@ -513,5 +431,46 @@
   "https://www.bbc.com/news/technology-56688812"
  ],
  "exp": 1.0,
- "variar_cenario": false
+ "variar_cenario": false,
+ "visual": {
+  "local": "Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; casa do paciente Noland Arbaugh",
+  "quando": "abril de 2021 (video do Pager); janeiro-marco de 2024 (primeiro paciente), dia",
+  "participantes": [
+   "macaco Pager (macaco-rhesus de 9 anos)",
+   "cientistas de jaleco",
+   "Elon Musk",
+   "Noland Arbaugh (cadeira de rodas)"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "CIE": "jaleco branco",
+   "CIM": "jaleco azul",
+   "NOL": "camiseta casual, cadeira de rodas",
+   "POV": "roupa casual"
+  },
+  "cenario": "sala de laboratorio clara com tela mostrando Pong e um canudo de metal; sala de casa com computador",
+  "objetos": [
+   "tela com Pong",
+   "joystick",
+   "canudo de metal com vitamina de banana",
+   "chip N1 (moeda pequena)",
+   "computador com xadrez"
+  ],
+  "explicacoes": [
+   "Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Neuralink"
+  ],
+  "locacoes": [
+   "interior loja",
+   "interior madeira",
+   "interior pedra",
+   "loc_cidade",
+   "street"
+  ],
+  "buscas": {
+   "macaco": "Neuralink Pager monkey MindPong 2021"
+  }
+ }
 }

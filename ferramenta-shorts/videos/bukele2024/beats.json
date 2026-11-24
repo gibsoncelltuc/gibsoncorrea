@@ -77,7 +77,7 @@
     "POV:0:smile"
    ],
    "mapa": "EL SALVADOR",
-   "say": "Foi em El Salvador, na América Central, em fevereiro de dois mil e vinte e quatro. O presidente era Nayib Bukele.",
+   "say": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
    "text": "NAYIB BUKELE",
    "titulo": true
   },
@@ -88,7 +88,7 @@
     "POV:0:smile"
    ],
    "acao": "conversar",
-   "say": "Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a violência das gangues.",
+   "say": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
    "fx": [
     "stars@40"
    ],
@@ -184,21 +184,14 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 12,
+    "n": 16,
     "outfits": [
      "POV"
     ],
     "march": false,
     "expr": "laugh"
    },
-   "props": [
-    [
-     "kit/porch",
-     0,
-     -3.5,
-     1.6
-    ]
-   ],
+   "props": [],
    "fx": [
     "stars@20",
     "stars@60"
@@ -209,8 +202,8 @@
    ],
    "say": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
    "light": "dusk",
-   "set": "palace",
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "shot": "two",
@@ -219,7 +212,7 @@
     "BUK:0:smug"
    ],
    "acao": "conversar",
-   "say": "Os eleitores citaram os assassinatos: de cento e seis para dois vírgula quatro por cem mil habitantes.",
+   "say": "O motivo: os assassinatos caíram de cento e seis para dois vírgula quatro por cem mil habitantes.",
    "hud": {
     "comparar": [
      [

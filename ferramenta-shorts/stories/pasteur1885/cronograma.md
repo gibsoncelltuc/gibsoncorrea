@@ -1,12 +1,12 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:39 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | PAS, MAE | - | syringe | - | Um menino de nove anos foi o primeiro a receber a vacina contra a raiv
+b0 | simples | loc_campo | two | PAS | - | syringe | - | Um menino de nove anos foi o primeiro a receber a vacina contra a raiv
 b1 | simples | loc_campo | reveal | MED, MED | 8 | - | - | Era mil oitocentos e oitenta e cinco, na França, e o cientista Louis P
 b2 | simples | interior madeira | two | MED, POV | - | - | - | Na época, a raiva era uma doença fatal, e quem era mordido por um anim
 b3 | simples | interior madeira | group | PAS, MED | - | syringe | - | Pasteur tinha criado uma vacina e testado só em animais, nunca em uma 
@@ -15,7 +15,7 @@ b5 | simples | loc_montanha | close | PAS | - | - | - | Pasteur não era médico
 b6 | chave | hall | orbit | PAS, MED | 10 | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, durante dez dias, ele aplicou injeções cada vez mais for
 b7 | simples | interior madeira | track | MAE, PAS | - | - | - | Joseph sobreviveu, e a notícia correu o mundo.
 b8 | simples | loc_montanha | two | MED, POV | - | - | - | Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do l
-b9 | chave | hall | group | POV, MED | 14 | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina
+b9 | chave | hall | crowd | POV, MED | 14 | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina
 b10 | simples | interior pedra | close | PAS | - | - | - | No fim, uma picada salvou mais que mil discursos.
 b11 | simples | loc_campo | close | PAS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -26,7 +26,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/4 itens) | PENDENTE | python3 pesquisar.py pasteur1885
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

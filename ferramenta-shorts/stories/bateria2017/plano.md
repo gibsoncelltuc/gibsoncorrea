@@ -2,17 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior | encena: fala (point) @9 (acao + som de efeito) | -
-b1 | wide | -  | tropa, placa: 100 DIAS, mapa | encena: escreve (write) @1 (acao + som de efeito); encena: pega (lift) @5 (acao + som de efeito) | -
+b0 | two | -  | interior | - | -
+b1 | wide | -  | tropa, placa: 100 DIAS, mapa | encena: fala (point) @7 (acao + som de efeito) | -
 b2 | wide | -  | batalha aberta com tiros, tropa, placa: 50 MILHÕES | perder (dust + som de impacto); encena: pensa (think) @2 (acao + som de efeito); encena: perde (facepalm) @6 (acao + som de efeito) | -
 b3 | two | -  | interior | encena: empurra (push) @3 (acao + som de efeito) | -
 b4 | wide | -  | batalha aberta com tiros, tropa, placa: 55 DIAS | - | -
-b5 | two | -  | mapa | encena: fala (point) @2 (acao + som de efeito) | -
-b6 | close | -  | interior | perder (dust + som de impacto); encena: perde (facepalm) @10 (acao + som de efeito) | -
+b5 | two | -  | tropa | - | -
+b6 | two | -  | interior | - | -
 b7 | two | -  | - | - | -
-b8 | two | -  | - | encena: x_fone (lift) @9 (acao + som de efeito) | -
+b8 | two | -  | interior | encena: x_fone (lift) @9 (acao + som de efeito) | -
 b9 | group | -  | - | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 55% | aberto 18% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 12% | medio 62% | aberto 21% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

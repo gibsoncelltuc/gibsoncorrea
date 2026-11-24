@@ -66,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 37.0s a 41.5s - 13 palavras - plano close
+## Cena b7 - 37.0s a 41.5s - 13 palavras - plano two
 > "Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte.""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

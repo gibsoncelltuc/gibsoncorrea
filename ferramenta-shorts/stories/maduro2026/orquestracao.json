@@ -8,7 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 12",
+   "cena 11",
    "street",
    "loc_cidade"
   ]
@@ -29,9 +29,9 @@
    "objetos": [
     "kit/helicopter_air"
    ],
-   "palavras": 22,
+   "palavras": 15,
    "cena": "b0",
-   "frase": "Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.",
+   "frase": "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -45,14 +45,10 @@
     "POV"
    ],
    "multidao": 6,
-   "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "nature/lamppost"
-   ],
-   "palavras": 9,
+   "objetos": [],
+   "palavras": 19,
    "cena": "b1",
-   "frase": "O alvo estava em Caracas, a capital da Venezuela.",
+   "frase": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -60,7 +56,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "MAD"
    ],
@@ -75,24 +71,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TRU",
-    "AGE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b3",
-   "frase": "Durante meses, a inteligência americana estudou cada passo dele, em segredo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "loc_pista"
   },
   {
    "camera": "crowd",
@@ -103,9 +82,9 @@
    "objetos": [
     "kit/helicopter_air"
    ],
-   "palavras": 18,
-   "cena": "b4",
-   "frase": "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.",
+   "palavras": 16,
+   "cena": "b3",
+   "frase": "Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -116,28 +95,32 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_patio"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "SOL"
-   ],
-   "multidao": 32,
-   "objetos": [
-    "kit/helicopter_air"
-   ],
-   "palavras": 11,
-   "cena": "b5",
-   "frase": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
    "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/helicopter_air"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/helicopter_air (paira)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "low",
    "personagens": [
     "SOL",
     "MAD"
@@ -145,7 +128,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 16,
-   "cena": "b6",
+   "cena": "b5",
    "frase": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -162,7 +145,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 18,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -182,13 +165,13 @@
     "vehicles/airplane"
    ],
    "palavras": 15,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_pista"
   },
   {
    "camera": "orbit",
@@ -200,7 +183,7 @@
    "multidao": 18,
    "objetos": [],
    "palavras": 14,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -224,13 +207,13 @@
     "kit/helicopter_air"
    ],
    "palavras": 10,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "A operação ganhou um nome que resume tudo: Resolução Absoluta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "close",
@@ -240,7 +223,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

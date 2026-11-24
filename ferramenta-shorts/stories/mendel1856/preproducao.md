@@ -14,7 +14,7 @@ b6 | loc_montanha | orbit | 12 | reagir, batalha | kit/pea_yellow, kit/pea_green
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b8 | interior madeira | group | 2 | conversar, INTERAGEM: vai ate o outro | - | book | -
 b9 | loc_deserto | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/pea_green, kit/pea_yellow | - | -
-b10 | loc_deserto | close | 1 | conversar | kit/pea_green | - | -
+b10 | loc_deserto | two | 1 | conversar | kit/pea_green | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/pea_green
