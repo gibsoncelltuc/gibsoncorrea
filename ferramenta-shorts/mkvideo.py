@@ -273,7 +273,7 @@ _MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy
            (r'wurzburg|rontgen|roentgen', 'kit/marco_wurzburg', 0, -100, 1.0), (r'rostock|tycho', 'kit/marco_rostock', 20, -90, 1.0),
            (r'amsterd|holand|paises baixos|den helder|\btexel\b', 'kit/marco_amsterdam', 0, -70, 1.0), (r'\byap\b|pedras? rai', 'kit/marco_yap', 0, -40, 1.0))   # 3a leva (19/11): blender/objetos_marcos3.py
 # o marco so' aparece se JA EXISTIA no ano da historia (Torre Eiffel 1889, Estatua da Liberdade 1886, Golden Gate 1937...); o Farol de Alexandria caiu em 1323
-_MARCO_ANO = {'kit/marco_detroit': (1977, 9999), 'kit/marco_texas': (1888, 9999), 'kit/marco_mexico': (1791, 9999), 'kit/marco_wurzburg': (1744, 9999), 'kit/marco_amsterdam': (1631, 9999), 'kit/marco_rostock': (1290, 9999), 'kit/marco_eiffel': (1889, 9999), 'kit/marco_liberdade': (1886, 9999), 'kit/marco_goldengate': (1937, 9999), 'kit/marco_hollywood': (1923, 9999), 'kit/marco_atomium': (1958, 9999),
+_MARCO_ANO = {'kit/marco_detroit': (1977, 9999), 'kit/marco_texas': (1888, 9999), 'kit/marco_mexico': (1791, 9999), 'kit/marco_wurzburg': (1744, 9999), 'kit/marco_amsterdam': (1631, 9999), 'kit/marco_rostock': (1290, 9999), 'kit/marco_eiffel': (1889, 9999), 'kit/marco_liberdade': (1886, 9999), 'kit/marco_goldengate': (1937, 9999), 'kit/marco_hollywood': (1949, 9999), 'kit/marco_atomium': (1958, 9999),
               'kit/marco_operasydney': (1973, 9999), 'kit/marco_cristo': (1931, 9999), 'kit/marco_brandemburgo': (1791, 9999), 'kit/marco_bigben': (1859, 9999), 'kit/marco_canaveral': (1950, 9999),
               'kit/marco_casabranca': (1800, 9999), 'kit/marco_capitolio': (1800, 9999), 'kit/marco_onu': (1952, 9999), 'kit/marco_trumptower': (1983, 9999), 'kit/marco_versalhes': (1682, 9999),
               'kit/marco_waterloo': (1826, 9999), 'kit/marco_zanzibar': (1883, 9999), 'kit/marco_alexandria': (-300, 1323), 'kit/marco_notredame': (1260, 9999), 'kit/tower': (2019, 9999)}
@@ -465,6 +465,7 @@ for _k, _o in B.get('outfits', {}).items():   # terno com gravata tem colarinho 
     if _o.get('tie') and not _o.get('collar'): _o['collar'] = '#f4f4f2'
 for name, o in B.get('outfits', {}).items():
     o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
+    if ANO is not None and ANO >= 1870 and o.get('belt') == '#f1efe6': o.pop('belt')   # correias brancas cruzadas so' ate 1870 (o padrao da profissao 'soldado' nao pode trazer de volta)
     o = dict(o); mo = o.pop('moustache_on', None)
     hats = o.pop('hats', None); hairs = o.pop('hairs', None)
     jackets = o.pop('jackets', None) or ([c_ for c_ in ['#3f6fb5', '#6a4a2a', '#2a5a3a', '#8a3a2a', '#3a4a6a', '#7a6a3a', '#5a5a62', '#b0524a'] if c_ not in {str(v_.get('jacket', '')).lower() for k_, v_ in B.get('outfits', {}).items() if k_ not in ('POV', 'POVO')}] if name in ('POV', 'POVO') else None)   # povo: casaco de cor diferente por variante (multidao sem clones)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
@@ -809,6 +810,7 @@ def direct(beats):
 # ===== MODO DE ACAO (ordem do Gibson 19/11): a frase diz o que acontece -> a cena mostra =====
 # desembarque de navio na praia, batalhao esperando (com o nome na placa), dois exercitos indo um contra o outro, gente voando na explosao,
 # generais conversando, aperto de mao/paz, voltar para casa. Cada regra marca a cena; o build encena.
+_SEM_ALVO = bool(B.get('sem_mortos')) or bool(re.search(r'nao havia inimigo|inimigo nenhum|nenhum inimigo|nao havia nada|ninguem foi atingido|ninguem acertou|nenhum tiro acertou|atirando no ceu|atiraram no ceu|atirar no ceu|antiaere', nrm0_txt := re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', ' '.join(b_['say'] for b_ in B['beats']).lower()).encode('ascii', 'ignore').decode())))   # historia em que os tiros nao acertaram ninguem (Batalha de Los Angeles): ninguem cai, ninguem voa
 _EXERC = [k_ for k_, o_ in B.get('outfits', {}).items() if o_.get('rifle') or str(o_.get('profissao', '')).lower() == 'soldado']
 _PAISES = {}
 for k_ in _EXERC: _PAISES.setdefault(str(B['outfits'][k_].get('pais') or k_[:3]).lower(), k_)
@@ -829,7 +831,7 @@ for _ib, _b in enumerate(B['beats']):
     if _LADOS and re.search(r'um contra o outro|uns contra os outros|se enfrentaram|frente a frente|avancaram|atacaram|comecou a batalha|comecou a guerra|lutaram|combate|batalha comecou', _s) and not _b.get('esperando'):
         _b['batalha'] = True; _b['lados'] = _LADOS
     # v13: so' ha' gente voando se a frase diz que houve EXPLOSAO/DISPARO. "Trouxeram canhoes", "apontaram os canhoes", ou batalha sem tiro ("tiros": false) = ninguem voa (a Guerra do Porco nao teve um tiro)
-    if _b.get('tiros') is not False and (re.search(r'voaram|voou pelos ares|pelos ares|arremessad|lancados longe|jogados longe|explodiu|explodiram|explosao|explosoes|bomba|granada|canhonaços|bombarde', _s) or (re.search(r'canhao|canhoes|artilharia|morteiro', _s) and re.search(r'dispar|atir|abriu fogo|abriram fogo|bombarde|troou|rugi', _s))) and (_EXERC or _b.get('batalha')):
+    if _b.get('tiros') is not False and not _SEM_ALVO and (re.search(r'voaram|voou pelos ares|pelos ares|arremessad|lancados longe|jogados longe|explodiu|explodiram|explosao|explosoes|bomba|granada|canhonaços|bombarde', _s) or (re.search(r'canhao|canhoes|artilharia|morteiro', _s) and re.search(r'dispar|atir|abriu fogo|abriram fogo|bombarde|troou|rugi', _s))) and (_EXERC or _b.get('batalha')):
         _b['voando'] = 3 if re.search(r'voaram|pelos ares|arremess|lancados|jogados', _s) else 2
         if _LADOS: _b['lados'] = _LADOS
     if re.search(r'conversar|conversaram|conversavam|dialog|negoci|reuniram|reuniao|discutiram|combinaram|sentaram para', _s) and len(_b.get('who', [])) >= 2 and not _b.get('acao'):
@@ -1504,7 +1506,7 @@ def build_beat(k, b):
         b.setdefault('sfx', []); b['sfx'] += [f'gun@{_off + i * 5 + (i * 7) % 4}' for i in range(_nf)]
         # NOS TIROS, SOLDADOS CAEM NO CHAO (ordem do Gibson): alguns da tropa caem sentados/deitados ao longo da batalha, cada um num tiro
         _cid = [i_ for i_ in range(_cidx0, len(acts)) if 'outfit' in acts[i_] or acts[i_].startswith('pp(')]
-        _semq = b.get('sem_mortos') or re.search(r'ninguem (acertou|morreu|se feriu|ficou ferido)|nenhum (morto|ferido)|para o alto|ninguem foi atingido|sem mortos', re.sub(r'[^a-z0-9 ]', '', __import__('unicodedata').normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()))   # 19/11 ZERO RESSALVA: 'tiros para o alto, ninguem acertou ninguem' nao derruba soldado
+        _semq = b.get('sem_mortos') or _SEM_ALVO or re.search(r'ninguem (acertou|morreu|se feriu|ficou ferido)|nenhum (morto|ferido)|para o alto|ninguem foi atingido|sem mortos', re.sub(r'[^a-z0-9 ]', '', __import__('unicodedata').normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()))   # 19/11 ZERO RESSALVA: 'tiros para o alto, ninguem acertou ninguem' nao derruba soldado
         for q_, i_ in enumerate([] if _semq else _cid[2::3][:5]):
             t_ = _off + 14 + q_ * 17
             acts[i_] = f"Object.assign({acts[i_]}, {{ poses: [[{a} + {t_}, {bb}, 'fall']] }})"
@@ -2138,7 +2140,7 @@ def _riscos(k, b):
     if nw < 6 and 0 < k < len(beats) - 1: R.append((f'cena curta ({nw} palavras): nao da tempo de ler a acao', 'juntar com a cena vizinha'))
     if len(b.get('who', [])) > 4 and sh not in WIDE: R.append((f'{len(b.get("who", []))} personagens em plano fechado: alguem sai cortado', 'no maximo 3 no "who" (o resto vai em "crowd") ou "shot": "group"'))
     if b.get('interior') and (b.get('batalha') or (b.get('crowd') or {}).get('n', 0) > 6): R.append(('multidao/batalha dentro de sala: nao cabe', 'tirar "interior" desta cena (faz na rua/campo) ou reduzir o "crowd"'))
-    if re.search(r'\b(caminhao|caminhoes|trem|carro|carros|carroca|carrocas|aviao|avioes|tanque de guerra|bicicleta)\b', t) and not (b.get('veiculo') or b.get('caminhoes') or any(str(p_[0]).startswith(('vehicles/', 'kit/roadster', 'kit/b2', 'kit/helicopter', 'kit/falcon', 'kit/rocket', 'kit/booster', 'kit/tower', 'kit/balloon')) for p_ in b.get('props', []))): R.append(('veiculo citado e nao aparece', '"veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha'))
+    if re.search(r'\b(caminhao|caminhoes|trem|carro|carros|carroca|carrocas|aviao|avioes|tanque de guerra|bicicleta)\b', t) and not (b.get('veiculo') or b.get('caminhoes') or any(str(p_[0]).startswith(('vehicles/', 'kit/roadster', 'kit/b2', 'kit/helicopter', 'kit/falcon', 'kit/rocket', 'kit/booster', 'kit/tower', 'kit/balloon', 'kit/aviao', 'kit/tanque', 'kit/carro', 'kit/caminhao', 'kit/cybercab', 'kit/onibus', 'kit/trem', 'kit/locomotiva', 'kit/moto', 'airplane', 'tank', 'car', 'truck', 'wagon', 'locomotive')) for p_ in b.get('props', []))): R.append(('veiculo citado e nao aparece', '"veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha'))
     if k >= 2 and all(not x.get('interior') and x.get('set', SET) == cen and x.get('shot') == sh and [w.split(':')[0] for w in x.get('who', [])] == [w.split(':')[0] for w in b.get('who', [])] for x in (beats[k - 1], beats[k - 2])) and sh not in WIDE: R.append(('3a cena seguida com o mesmo plano, lugar e personagens: fica repetitivo', 'trocar o "shot", levar para "interior" ou trocar quem aparece'))
     fal = _sem_modelo(re.findall(FALTA_MODELAR, t))
     if fal: R.append((f'objeto sem modelo 3D: {", ".join(fal)}', 'modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra'))
