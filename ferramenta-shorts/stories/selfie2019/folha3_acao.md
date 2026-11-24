@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano reveal
@@ -36,7 +36,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 18.5s a 24.1s - 16 palavras - plano two
+## Cena b4 - 18.5s a 24.1s - 16 palavras - plano low
 > "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,33 +65,31 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 34.1s a 38.5s - 13 palavras - plano two
+## Cena b7 - 34.1s a 38.5s - 13 palavras - plano orbit
 > "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | avisou (34.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | KODAK? | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | PLACA | KODAK? | OK |
 
 ## Cena b8 - 38.9s a 44.1s - 15 palavras - plano two
 > "Propôs que líderes gravassem vídeos de seus discursos, e um concurso de ideias para jovens."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 44.4s a 48.5s - 12 palavras - plano orbit
+## Cena b9 - 44.4s a 48.5s - 12 palavras - plano crowd
 > "A selfie rodou o mundo, e o discurso ficou em segundo plano."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | selfie (44.8s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | SELFIE | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | SELFIE | OK |
 
 ## Cena b10 - 48.9s a 51.9s - 9 palavras - plano two
 > "Um segundo de selfie, e a ONU virou assunto."

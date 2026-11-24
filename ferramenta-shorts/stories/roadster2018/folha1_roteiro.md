@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b0  (~4.5 s)
 - Narracao: Um carro de verdade está dando voltas ao redor do Sol até hoje.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~6.2 s)
 - Narracao: É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~6.6 s)
 - Narracao: Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~2.1 s)
 - Narracao: O foguete decolou com um estrondo!
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@10, thump@30, sting@50
 - Efeito + som nas palavras-chave: encena: voa (point) @2 -> acao + som de efeito
 - Efeito visual marcado: whoosh@10, puff@30, ring@50
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito; encena: chega (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

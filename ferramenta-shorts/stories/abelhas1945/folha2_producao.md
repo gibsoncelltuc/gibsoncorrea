@@ -215,14 +215,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao surprised; COL (cientista) no centro, expressao shock; FRI (cientista) na direita, expressao smug; multidao de 16 (POV) ATRAS dos principais; acao: batalha
+- PERSONAGENS: POV na esquerda, expressao surprised; COL (cientista) no centro, expressao shock; FRI (cientista) na direita, expressao smug; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TEXTO NA TELA: "TESTE" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (44.9-46.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (46.8-48.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b9 - Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobe...

@@ -69,7 +69,8 @@
     "expr": "neutral"
    },
    "say": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
-   "fachada": false
+   "fachada": false,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -149,7 +150,6 @@
    ],
    "objetos": false,
    "say": "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.",
-   "interior": "madeira",
    "fachada": false,
    "quadro": {
     "local": "sala de madeira",
@@ -167,7 +167,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "hall"
   },
   {
    "shot": "crowd",
@@ -202,7 +203,8 @@
    },
    "say": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
    "fachada": false,
-   "tiros": false
+   "tiros": false,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -213,7 +215,6 @@
    "acao": "conversar",
    "objetos": false,
    "say": "Depois explicou: o mundo novo está onde essa foto vai parar, na internet.",
-   "interior": "pedra",
    "fachada": false,
    "props": [
     [
@@ -227,7 +228,8 @@
     ]
    ],
    "_susp_tela": true,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -237,7 +239,6 @@
    ],
    "objetos": false,
    "say": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
-   "interior": "madeira",
    "fachada": false,
    "text": "KODAK?",
    "batalha": false,
@@ -245,7 +246,8 @@
     "n": 0
    },
    "impact": false,
-   "tiros": false
+   "tiros": false,
+   "set": "hall"
   },
   {
    "shot": "two",

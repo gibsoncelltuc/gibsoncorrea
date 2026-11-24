@@ -3,17 +3,17 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/roadster2018/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py roadster2018` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um carro de verdade está dando voltas ao redor do Sol até hoje.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: arctic | luz: espaco | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: conversar
-- Objetos/modelos: kit/rocket, kit/roadster
+- Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro
 - RISCOS: nenhum
 
 ## Cena b1 - É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoi...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: loc_pista | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de 
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em C...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: loc_pista | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smile) | multidao: 0 de 
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - O foguete decolou com um estrondo!
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: loc_pista | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao shock) | multidao: 0 de 
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - No painel, estava escrito: Não entre em pânico.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: arctic | luz: espaco | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 0 de 
@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,...
 - Cenario: arctic | luz: espaco | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de 
-- Animacao: encena
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/roadster, kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, orbita, roadster, terra
 - RISCOS: nenhum
@@ -93,9 +93,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras...
-- Cenario: arctic | luz: espaco | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar
 - Objetos/modelos: kit/rocket, kit/roadster
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: arctic | luz: espaco | clima: limpo
+- Cenario: loc_pista | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): MUS (variante 0, expressao grin)
@@ -117,14 +117,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/rocket | b0, b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b0, b1, b3, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon_air | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster | grandes momentos: b4, b8 | planos abertos: 7 | mistura: close 11% | medio 32% | aberto 55% | detalhe 2%
+- Objeto heroi: kit/roadster | grandes momentos: b4, b8 | planos abertos: 5 | mistura: close 11% | medio 55% | aberto 33% | detalhe 2%
 - Interacoes: -
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py roadster2018  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/roadster2018/moodboard.jpg

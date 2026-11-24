@@ -1,12 +1,12 @@
 # CRONOGRAMA - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
-Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | group | EBY, MUS, POV | - | coin, tv | - | Um serviço para pagar pela internet foi vendido por um bilhão e meio d
+b0 | simples | loc_cidade | group | EBY, MUS, POV | - | coin | - | Um serviço para pagar pela internet foi vendido por um bilhão e meio d
 b1 | simples | interior madeira | two | MUS, EBY | - | tv | - | Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso
 b2 | simples | interior madeira | group | POV, POV | - | phone | - | O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem pre
 b3 | simples | loc_cidade | two | EBY, MUS | - | - | - | O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a co
@@ -14,7 +14,7 @@ b4 | simples | interior pedra | two | MUS, EBY | - | coin | - | O pagamento foi 
 b5 | simples | interior madeira | two | MUS, POV | - | - | - | Elon Musk era o maior acionista do PayPal, então ficou muito rico de r
 b6 | transicao | loc_pista | wide | MUS | - | falcon9_land | - | Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de
 b7 | chave | loc_pista | orbit | MUS | - | roadster | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétric
-b8 | simples | loc_cidade | two | MUS, POV | - | coin, falcon9_land, phone, roadster | - | O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
+b8 | simples | loc_cidade | two | MUS, POV | - | coin, falcon9_land, roadster, tv | - | O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
 b9 | simples | loc_pista | wide | MUS | 6 | falcon_air | - | Quem diria: um pagamento online chegou ao espaço.
 b10 | simples | loc_pista | close | EBY | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

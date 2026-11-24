@@ -39,8 +39,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/coin",
-    "kit/tv"
+    "kit/coin"
    ],
    "palavras": 15,
    "cena": "b0",
@@ -194,8 +193,8 @@
    "objetos": [
     "kit/coin",
     "kit/falcon9_land",
-    "kit/phone",
-    "kit/roadster"
+    "kit/roadster",
+    "kit/tv"
    ],
    "palavras": 13,
    "cena": "b8",

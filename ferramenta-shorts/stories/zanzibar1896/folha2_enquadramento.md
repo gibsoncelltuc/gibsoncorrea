@@ -50,7 +50,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: cannon@50
 - TEXTO NA TELA: "9:02" flutuando no alto, na palavra 1 da frase
 
-## b6: "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu."
+## b6: "O palácio pegou fogo, e a artilharia do sultão foi calada."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/forte_colonial no centro, manobra "parado"
 - PASSOS NA TELA: -
@@ -58,26 +58,27 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "O sultão foi pedir abrigo no consulado da Alemanha."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SUL na esquerda, expressao shock; ALM na direita, expressao smile; sem multidao; acao: fala/gesto
+- PERSONAGENS: SUL no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "CONSULADO ALEMÃO" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b8: "Por volta das nove e quarenta, a bandeira do palácio caiu."
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
 - PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING2 na direita, expressao stern; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
-- TEXTO NA TELA: "9:40" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "9:40" flutuando no alto, na palavra 1 da frase
 
-## b9: "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas."
+## b9: "Os ingleses colocaram outro sultão no trono."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)
 - PERSONAGENS: SUL na esquerda, expressao smile; ING2 na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/throne: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "OUTRO SULTÃO" flutuando no alto, na palavra 1 da frase
 
-## b10: "E ainda mandaram a conta das balas."
+## b10: "E ainda mandaram a conta das balas para os derrotados."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: ALM no centro, expressao grin; sem multidao; acao: fala/gesto

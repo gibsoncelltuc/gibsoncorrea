@@ -57,25 +57,16 @@
    ],
    "props": [
     [
-     "kit/rocket",
-     7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "kit/roadster",
      0.0,
-     -8.0,
+     -6.0,
      2.67,
      {
       "fixo": true
      }
     ]
    ],
-   "set": "harbor",
+   "set": "arctic",
    "objetos": false,
    "fachada": false,
    "crowd": {
@@ -104,7 +95,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "hora": "espaco"
   },
   {
    "say": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
@@ -124,7 +116,7 @@
     ]
    ],
    "detalhe": false,
-   "set": "harbor",
+   "set": "loc_pista",
    "objetos": false,
    "fachada": false,
    "crowd": {
@@ -170,7 +162,7 @@
    "crowd": {
     "n": 0
    },
-   "set": "harbor",
+   "set": "loc_pista",
    "objetos": false,
    "fachada": false,
    "detalhe": false,
@@ -268,7 +260,7 @@
    "crowd": {
     "n": 0
    },
-   "set": "harbor",
+   "set": "loc_pista",
    "objetos": false,
    "fachada": false,
    "detalhe": false,
@@ -330,7 +322,7 @@
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "STA:0:neutral"
    ],
@@ -347,7 +339,7 @@
     ]
    ],
    "detalhe": false,
-   "set": "countryside",
+   "set": "arctic",
    "objetos": false,
    "fachada": false,
    "crowd": {
@@ -369,14 +361,13 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "hora": "espaco"
   },
   {
    "say": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
    "shot": "wide",
-   "who": [
-    "ENG:0:surprised"
-   ],
+   "who": [],
    "hora": "espaco",
    "props": [
     [
@@ -432,7 +423,23 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "explica": {
+    "objeto": "kit/roadster",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "FORA DA TERRA",
+      "topo",
+      "saiu"
+     ],
+     [
+      "ÓRBITA DO SOL",
+      "meio",
+      "Sol"
+     ]
+    ]
+   }
   },
   {
    "say": "E ele continua lá em cima, dando voltas, até hoje.",
@@ -489,7 +496,6 @@
    "who": [
     "MUS:0:laugh"
    ],
-   "hora": "espaco",
    "props": [
     [
      "kit/rocket",
@@ -524,7 +530,7 @@
    },
    "text": "STARMAN",
    "titulo": true,
-   "set": "arctic",
+   "set": "loc_pista",
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -578,6 +584,9 @@
    "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster",
    "https://en.wikipedia.org/wiki/Falcon_Heavy_test_flight",
    "https://www.spacex.com/vehicles/falcon-heavy/"
+  ],
+  "explicacoes": [
+   "O Roadster foi lancado alem da orbita da Terra e ficou em orbita heliocentrica (ao redor do Sol), cruzando a orbita de Marte (fonte: Wikipedia Elon Musk's Tesla Roadster)"
   ]
  },
  "max_wide": 10
