@@ -108,9 +108,16 @@
   },
   {
    "tipo": "heroi",
-   "item": "navio destroier",
+   "item": "navio leander",
    "consultas": [
-    "navio destroier"
+    "navio leander"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "barco guarda",
+   "consultas": [
+    "barco guarda"
    ]
   },
   {

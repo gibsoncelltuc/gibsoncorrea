@@ -9,7 +9,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | ISLÂNDIA VENCEU | OK |
 
 ## Cena b1 - 3.8s a 8.5s - 19 palavras - plano wide
@@ -35,14 +35,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 12 · 50 · 200 MILHAS | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b4 - 21.2s a 23.8s - 10 palavras - plano group
 > "A marinha mandou fragatas para proteger os barcos de pesca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | mandou (21.8s) | ACAO: fala | aponta explicando | OK |
+| 2 | proteger (22.8s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 24.9s a 29.6s - 16 palavras - plano low
 > "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede."
@@ -77,10 +79,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | espalhou (44.9s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | VITÓRIA ISLANDESA | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | VITÓRIA ISLANDESA | OK |
 
 ## Cena b9 - 46.7s a 48.5s - 8 palavras - plano close
 > "Uma guerra inteira, por causa de um bacalhau."

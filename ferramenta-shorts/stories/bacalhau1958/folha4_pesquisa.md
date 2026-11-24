@@ -4,11 +4,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: As Guerras do Bacalhau
 - Epoca: 1958 | Lugar: Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de pesca); águas cinzentas e frias | Quando: 1958 a 1976, em três disputas (1958-61, 1972-73, 1975-76); dia nublado de mar
-- HEROIS (objeto): kit/cod, kit/navio_destroier
+- HEROIS (objeto): kit/cod, kit/navio_leander, kit/barco_guarda
 - HEROIS (personagens): ICE, BRI, PES
-- Cenarios: harbor
+- Cenarios: harbor, interior pedra
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_leander: 30.0 m reais -> escala 8.1 (estava 1.0: pequeno demais); kit/barco_guarda: 5.0 m reais -> escala 1.45 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 
@@ -27,7 +27,8 @@ objeto | navio da guarda costeira | navio da guarda costeira / navio da guarda c
 objeto | fragata britânica | fragata britânica / fragata britânica 1958 | Frigates at Devonport (41565864901).jpg (referencias/bacalhau1958/prints/fragata_brit_nica_832bec.jpg); UKfrigateoutline.png (referencias/bacalhau1958/prints/fragata_brit_nica_738ad4.jpg); HMS Amazon Type 21 Frigate F169 (1971).jpg (referencias/bacalhau1958/prints/fragata_brit_nica_d869b1.jpg)
 objeto | cabo de rede de pesca | cabo de rede de pesca / cabo de rede de pesca 1958 | Seine fishing in Portugal, at Praia da Saúde beach (referencias/bacalhau1958/prints/cabo_de_rede_de_pesca_3fc935.jpg); Seine fishing in Portugal, at Praia da Saúde beach (referencias/bacalhau1958/prints/cabo_de_rede_de_pesca_01adaa.jpg); Seine fishing in Portugal, at Praia da Saúde beach (referencias/bacalhau1958/prints/cabo_de_rede_de_pesca_3fc935.jpg)
 heroi | cod | bacalhau / As Guerras do Bacalhau | Bacalhau@UltrajeaRigor.jpg (referencias/bacalhau1958/prints/cod_685e71.jpg); Bacalhau a Bras.jpg (referencias/bacalhau1958/prints/cod_e98d69.jpg); Bacalhau em 2007.jpg (referencias/bacalhau1958/prints/cod_90ec04.jpg)
-heroi | navio destroier | navio destroier | SEM REFERENCIA
+heroi | navio leander | navio leander | SEM REFERENCIA
+heroi | barco guarda | barco guarda | SEM REFERENCIA
 epoca | navio da epoca | ship 1958 / ship | Lindau (1958) ex Grünten.jpg (referencias/bacalhau1958/prints/navio_da_epoca_26d7dc.jpg); Lindau (1958) Sonderfahrt.jpeg (referencias/bacalhau1958/prints/navio_da_epoca_68517f.jpg); Strolch (ship, 1958) 005.JPG (referencias/bacalhau1958/prints/navio_da_epoca_714c11.jpg)
 
 ## Explicacoes (como funciona, com fonte)

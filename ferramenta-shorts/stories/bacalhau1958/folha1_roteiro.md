@@ -4,10 +4,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Islândia derrotou a marinha inglesa com um cortador de rede.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: creak@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: splash@40
 - Texto na tela: ISLÂNDIA VENCEU
 - Funcao na historia: GANCHO
 
@@ -35,17 +35,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 12 · 50 · 200 MILHAS
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.4 s)
 - Narracao: A marinha mandou fragatas para proteger os barcos de pesca.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_defende (cross) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b5  (~5.5 s)
 - Narracao: Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.
@@ -76,12 +76,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~6.9 s)
 - Narracao: Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: VITÓRIA ISLANDESA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~2.8 s)
 - Narracao: Uma guerra inteira, por causa de um bacalhau.

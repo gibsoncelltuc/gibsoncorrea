@@ -11,19 +11,26 @@
  "cenas": [
   {
    "camera": "two",
-   "personagens": [
-    "ICE"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/navio_destroier"
+    "kit/barco_guarda",
+    "kit/fishing_net",
+    "kit/navio_leander",
+    "vehicles/motorboat"
    ],
    "palavras": 11,
    "cena": "b0",
    "frase": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "chave",
+   "sujeito": "cenario",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -36,7 +43,7 @@
    "multidao": 0,
    "objetos": [
     "kit/cod",
-    "kit/navio_destroier"
+    "kit/navio_leander"
    ],
    "palavras": 19,
    "cena": "b1",
@@ -74,7 +81,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_destroier"
+    "kit/navio_leander"
    ],
    "palavras": 14,
    "cena": "b3",
@@ -87,23 +94,19 @@
   },
   {
    "camera": "group",
-   "personagens": [],
+   "personagens": [
+    "ICE"
+   ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_destroier"
+    "kit/navio_leander"
    ],
    "palavras": 10,
    "cena": "b4",
    "frase": "A marinha mandou fragatas para proteger os barcos de pesca.",
-   "classe": "chave",
-   "sujeito": "cenario",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -113,7 +116,9 @@
     "ICE"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/barco_guarda"
+   ],
    "palavras": 16,
    "cena": "b5",
    "frase": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
@@ -128,7 +133,8 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/navio_destroier",
+    "kit/barco_guarda",
+    "kit/navio_leander",
     "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 15,
@@ -170,21 +176,17 @@
     "ICE"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/scroll"
+   ],
    "palavras": 20,
    "cena": "b8",
    "frase": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior pedra"
   },
   {
    "camera": "close",
