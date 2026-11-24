@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): OHI (variante 1, expressao stern); MIC (variante 1, expressao stern) | multidao: 8 de OHI/MIC
+- Personagens principais (2): OHI (variante 1, expressao stern); MIC (variante 1, expressao stern) | multidao: 6 de OHI/MIC
 - Animacao: -
 - Objetos/modelos: kit/mapa_antigo, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, erro, toledo

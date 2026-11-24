@@ -69,7 +69,7 @@
    "set": "countryside"
   },
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
     "OHI:1:stern",
     "MIC:1:stern"
@@ -93,7 +93,8 @@
     "GOV:0:grin:paper"
    ],
    "interior": "madeira",
-   "say": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo."
+   "say": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.",
+   "text": "23 ANOS"
   },
   {
    "shot": "reveal",

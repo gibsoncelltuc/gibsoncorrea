@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito; encena: chega (point) @14 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 23 ANOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.2 s)

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -29,6 +29,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (13.7s) | ACAO: fala | aponta explicando | OK |
 | 2 | ocupar (14.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | PLACA | 23 ANOS | OK |
 
 ## Cena b3 - 15.9s a 21.2s - 18 palavras - plano crowd
 > "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente."
