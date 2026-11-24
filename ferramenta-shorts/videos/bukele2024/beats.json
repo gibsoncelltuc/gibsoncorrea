@@ -323,11 +323,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "quadro": {
     "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -339,7 +334,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
