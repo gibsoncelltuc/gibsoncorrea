@@ -31,11 +31,11 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
-  "buildings/lighthouse",
   "buildings/shop",
   "cannon",
+  "kit/barrel_r",
   "kit/cake_table",
+  "kit/chest",
   "kit/coin",
   "kit/marco_ulua",
   "kit/navio_fragata",
@@ -51,7 +51,6 @@
   "mk/Nightstand_Shelf",
   "mk/Shelf_Small_Bottles",
   "mk/Stool",
-  "mk/Table_Large",
   "mk/Vase_2",
   "mk/Workbench_Drawers"
  ],
@@ -67,10 +66,10 @@
   ],
   "roupas": {
    "CON": "avental e gorro brancos de confeiteiro",
-   "OFI": "oficial mexicano de casaca azul-escura com frisos vermelhos e bicorne dourado (retratos de Santa Anna e oficiais, 1830)",
+   "OFI": "oficial mexicano: casaca verde (cor da bandeira) com faixa vermelha e shako, diferente do frances azul com calca vermelha",
    "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
    "REI": "rei de coroa e manto roxo",
-   "GEN": "general Santa Anna: casaca azul com golas vermelhas, dragonas douradas e bicorne"
+   "GEN": "Santa Anna: casaca verde com faixa vermelha, dragonas douradas e bicorne"
   },
   "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
   "objetos": [
