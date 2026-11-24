@@ -5,9 +5,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 ## Cena b0  (~4.5 s)
 - Narracao: Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: sting@106
 - Efeito + som nas palavras-chave: encena: espeta (punch) @9 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: burst@106, stars@110
 - Texto na tela: 1835
 - Funcao na historia: GANCHO
 

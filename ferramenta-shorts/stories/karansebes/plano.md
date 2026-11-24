@@ -15,5 +15,5 @@ b9 | two | dawn  | tropa, placa: ABANDONADO, objeto na mao | chegaram (dust + so
 b10 | close | dawn  | placa: FOGO AMIGO | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b11 | two | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 65% | aberto 21% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 11% | medio 66% | aberto 21% | detalhe 1%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

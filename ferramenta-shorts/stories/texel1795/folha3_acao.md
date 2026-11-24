@@ -10,7 +10,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
-| 2 | - | PLACA | 1795 | OK |
 
 ## Cena b1 - 4.3s a 8.7s - 17 palavras - plano reveal
 > "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo."
@@ -22,6 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | absurdo (8.7s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | MAPA | HOLANDA | OK |
+| 6 | - | PLACA | 1795 | OK |
 
 ## Cena b2 - 10.1s a 14.2s - 16 palavras - plano orbit
 > "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela."

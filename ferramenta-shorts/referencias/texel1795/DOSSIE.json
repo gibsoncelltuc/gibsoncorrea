@@ -7,8 +7,7 @@
   "regiao": "franca",
   "luz_base": "arctic",
   "cenarios": [
-   "arctic",
-   "harbor"
+   "arctic"
   ],
   "cenarios_trocados": []
  },

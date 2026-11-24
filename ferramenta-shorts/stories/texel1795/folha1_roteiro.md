@@ -8,16 +8,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: stars@30
-- Texto na tela: 1795
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.9 s)
 - Narracao: Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: absurdo -> ring + som de alerta; encena: chega (point) @9 -> acao + som de efeito; encena: duvida (shrug) @16 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: HOLANDA
+- Texto na tela: 1795 | mapa: HOLANDA
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.5 s)

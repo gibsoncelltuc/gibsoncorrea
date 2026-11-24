@@ -18,3 +18,8 @@ for i in range(16):
     col = ['#c46a2b', '#b5662f', '#3f8a6a', '#4a4d55', '#5b5e66', '#d98a3a'][i % 6]
     bola((r * math.cos(a), y, r * math.sin(a)), random.uniform(0.13, 0.22), col, esc=(1.2, 0.8, 1.0), seg=7)
 fim(0.01)
+novo('canivete_aberto')   # canivete aberto em pe (lamina prateada para cima, cabo de madeira) - le como faca de longe
+caixa((0, 0.12, 0), (0.09, 0.24, 0.05), '#7a4a26'); cil((0, 0.245, 0), 0.03, 0.02, '#c9ccd2', rot=(math.pi / 2, 0, 0))
+prisma((0, 0.25, 0), [(-0.035, 0), (0.035, 0), (0.03, 0.22), (0.0, 0.32), (-0.02, 0.24)], 0.012, '#dfe3ea')
+caixa((0, 0.01, 0), (0.22, 0.02, 0.14), '#5a5f68')
+fim(0.004)

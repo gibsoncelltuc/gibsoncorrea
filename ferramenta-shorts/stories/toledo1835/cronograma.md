@@ -1,12 +1,12 @@
 # CRONOGRAMA - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Gerado em 24/11 10:56 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 11:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | countryside | two | OHI, MIC | - | canivete | - | Dois estados americanos foram à guerra, e o único ferido levou uma can
+b0 | simples | countryside | two | OHI, MIC | - | canivete_aberto | - | Dois estados americanos foram à guerra, e o único ferido levou uma can
 b1 | transicao | countryside | reveal | OHI, MIC | 48 | house_two, mapa_antigo, lamppost | - | Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de
 b2 | simples | interior madeira | close | GOV | - | - | - | O governador de Michigan tinha só vinte e três anos, e mandou a milíci
 b3 | chave | countryside | crowd | OHI, OHI | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ohio respondeu com a própria milícia, e as duas tropas chegaram à beir

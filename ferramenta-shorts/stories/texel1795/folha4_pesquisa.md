@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1795 | Lugar: Den Helder e o canal de Marsdiep, norte da Holanda: mar congelado, navios de guerra presos no gelo, costa plana coberta de neve | Quando: 23 de janeiro de 1795, inverno rigoroso (travessia na noite/madrugada)
 - HEROIS (objeto): -
 - HEROIS (personagens): FRA, NED, OFF
-- Cenarios: arctic, harbor
+- Cenarios: arctic
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

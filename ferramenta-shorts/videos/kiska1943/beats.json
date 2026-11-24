@@ -270,8 +270,7 @@
   {
    "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
    "shot": "wide",
-   "set": "arctic",
-   "hora": "noite",
+   "set": "harbor",
    "who": [
     "USA:0:sad",
     "CAN:0:sad"
@@ -279,8 +278,8 @@
    "props": [
     [
      "kit/navio_encouracado",
-     -1.5,
-     -7.0,
+     -3.0,
+     -24.0,
      1.0
     ]
    ],
@@ -334,32 +333,25 @@
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
-   "shot": "group",
+   "shot": "two",
    "who": [
     "OFF:0:pained",
-    "USA:0:surprised",
-    "CAN:0:shock"
+    "USA:0:surprised"
    ],
    "text": "OPERAÇÃO ILHA VAZIA",
    "tat": 11,
    "tstyle": "white",
    "mood": "playful",
-   "set": "harbor",
    "props": [
     [
      "kit/dog_sit",
      1.6,
-     -1.0,
-     1.0
-    ],
-    [
-     "kit/dog_sit",
-     -1.8,
-     -1.4,
+     -0.6,
      1.0
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "interior": "madeira"
   }
  ],
  "heroi": "kit/dog_sit",

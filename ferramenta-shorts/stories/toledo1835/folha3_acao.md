@@ -11,7 +11,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ferido (2.9s) | ACAO: espeta | espeta + estouro | OK |
 | 2 | levou (3.2s) | ACAO: pega | levanta/segura | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1835 | OK |
 

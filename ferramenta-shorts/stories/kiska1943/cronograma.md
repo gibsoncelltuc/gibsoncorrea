@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
-Gerado em 24/11 10:52 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 11:46 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,10 +15,10 @@ b5 | simples | interior pedra | two | USA, CAN | - | - | - | Mas teve um problem
 b6 | simples | arctic | track | USA, CAN | 8 | sandbags | - | Eles procuraram o inimigo por dias, em trincheiras vazias.
 b7 | transicao | harbor | wide | sem personagem | - | navios de guerra ao fundo, no tamanho real, ship | - | Semanas antes, navios japoneses levaram cinco mil homens embora em men
 b8 | simples | arctic | group | USA, CAN, USA | - | - | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
-b9 | simples | arctic | two | USA, CAN | 5 | navio_encouracado | - | Mais de vinte soldados morreram nesses tiros, e um navio americano ain
+b9 | simples | harbor | group | USA, CAN | 5 | navio_encouracado | - | Mais de vinte soldados morreram nesses tiros, e um navio americano ain
 b10 | simples | harbor | prop | USA, CAN | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
-b11 | simples | harbor | group | OFF, USA, CAN | - | dog_sit | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
-b12 | simples | harbor | close | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | interior madeira | two | OFF, USA | - | dog_sit | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
+b12 | simples | interior madeira | close | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -33,11 +33,11 @@ N | Etapa | O que confere | Estado | Proximo passo
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh kiska1943
-10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh kiska1943
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh kiska1943
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local kiska1943 <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
 **Etapa atual:** 9. Revisao escrita e aprovacao
 

@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 
 ## Cena b9  (~5.2 s)
 - Narracao: Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: cannon@126
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; tiros -> burst + som de tiro/explosao; bateu -> dust + som de impacto; encena: morre @4 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito; encena: x_bate (punch) @12 -> acao + som de efeito
 - Efeito visual marcado: burst@126
@@ -103,7 +103,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 
 ## Cena b11  (~4.1 s)
 - Narracao: Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -112,7 +112,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 
 ## Cena b12  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

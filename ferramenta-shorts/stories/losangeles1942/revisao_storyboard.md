@@ -1,12 +1,13 @@
-b0: CORRIGIDO - holofote apagado -> uma cidade inteira passou a noite atirando no ceu: facho do holofote varrendo o ceu, soldado de 1942 e civil assustados, placa 1942
-b1: OK - fevereiro de 1942 depois de Pearl Harbor, Los Angeles com medo: mapa de Los Angeles e moradores na rua
-b2: CORRIGIDO - letreiro HOLLYWOOD (so' existe desde 1949) -> cais ao por do sol sem o letreiro; submarino japones tinha atirado na California
-b3: CORRIGIDO - soldado lavando as maos na palavra varreram e holofote sem luz -> sirenes, luzes apagadas e holofotes varreram o ceu: fachos cruzando o ceu e close do holofote
-b4: CORRIGIDO - soldados caindo e voando sem inimigo e sem canhao -> canhoes antiaereos atras dos soldados, placa FOGO!, ninguem cai
-b5: OK - os soldados juravam que havia inimigos, mas so' havia nuvens e fumaca: soldados e general no cais a noite
-b6: CORRIGIDO - soldados caidos -> mais de mil tiros de canhao, estilhacos na cidade em panico: civis e soldados na cidade a noite com canhao e facho de luz
-b7: OK - no dia seguinte os militares discutiram e ninguem sabia dizer: general e politico discutindo no escritorio
-b8: CORRIGIDO - o politico caia no escritorio -> algumas pessoas morreram por acidente e por susto: civis tristes na cidade a noite
-b9: OK - o unico alvo derrotado foi o sono de Los Angeles: moradores de manha com o holofote
-pesquisa: o quadro de referencias mostra os canhoes antiaereos de 1942 apontados para o ceu, os holofotes cruzando a noite de Los Angeles (a foto famosa do Los Angeles Times), soldados americanos de capacete M1 e farda verde-oliva e o jornal do dia seguinte; comparei fardas, holofotes, canhoes e a cidade
-defeitos procurados: cenario de cidade de 1942 sem letreiro de 1949; epoca 1942 sem correia branca; tamanho dos canhoes e holofote certo; ninguem cortado; multidao sem clone; legenda livre; acao de cada frase visivel (fachos de luz, tiros para o ceu, panico); objeto heroi holofote no comeco, em close e no fim
+# Revisao do storyboard - losangeles1942 (v2, 24/11, apos conferencia frase a frase)
+pesquisa: Batalha de Los Angeles, 24-25/02/1942; submarino I-17 bombardeou Ellwood (Santa Barbara) no dia 23; holofotes, apagao e mais de 1.400 tiros antiaereos; mortes por acidente e ataque cardiaco
+b0: OK - "Uma cidade inteira passou a noite atirando no ceu" soldado e civil com holofote varrendo o ceu, placa 1942
+b1: OK - "logo depois de Pearl Harbor, e Los Angeles vivia com medo" mapa LOS ANGELES e rua com gente assustada
+b2: CORRIGIDO - submarino nao aparecia -> "um submarino japones tinha atirado na California": submarino com bandeira japonesa no mar, texto SUBMARINO JAPONES, clarao
+b3: OK - "as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o ceu" holofotes com facho no ceu escuro
+b4: OK - "os soldados comecaram a atirar com canhoes antiaereos" canhoes e soldados, texto FOGO!
+b5: OK - "Os soldados juravam que havia inimigos no ceu... so nuvens e fumaca" soldado e general discutindo no cais
+b6: OK - "mais de mil tiros de canhao, e os estilhacos cairam na cidade" clarões e estilhacos na rua
+b7: OK - "os militares discutiram o que tinha acontecido" general e civil discutindo na sala
+b8: OK - "Algumas pessoas morreram... nenhum inimigo apareceu" civis tristes na cidade a noite
+b9: OK - "o unico alvo derrotado naquela noite foi o sono de Los Angeles" civis na rua ao amanhecer; chamada final COMENTE
+defeitos procurados: cenario (Los Angeles 1942), epoca (sem objeto moderno), tamanho (submarino em tamanho real), cortado (ninguem cortado), multidao (sem clone na frente), legenda (texto em cima), acao (cada frase com a acao), objeto (holofote heroi em close)
