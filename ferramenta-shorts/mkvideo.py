@@ -1853,7 +1853,7 @@ def build_beat(k, b):
         pr = _pr2
     if pr: opts.append(f"props: [{', '.join(pr)}]")
     if fx: opts.append(f"fx: [{', '.join(fx)}]")
-    call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"
+    call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"; _multi = False
     if wide and not (shot == 'track' or mv):
         call = f"{{ ...{call}, nocut: true }}"
     if b.get('impact') and wide and not (shot == 'track' or mv) and b.get('grua') is not False:
@@ -1877,7 +1877,7 @@ def build_beat(k, b):
             seq = [part(0, 0.0, 0.3, (0.0, 2.2, 0.5, 8.5, -26, 2, 44), (1.0, 2.2, 0.5, 7.4, -14, 3, 44)),
                    part(1, 0.3, 0.55, (-6.0, 1.8, 0.0, 11, 30, 5, 46), (4.0, 1.8, 0.0, 11, 18, 5, 46, 'lin')),
                    part(2, 0.55, 1.0, (0.0, 1.4, 0.0, 15, 8, 12, 48), (0.0, 1.0, -3.0, 34, -16, 30, 48))]
-        call = ', '.join(seq)
+        call = ', '.join(seq); _multi = True
     if shot == 'reveal' and not b.get('impact') and not mv and b.get('grua') is not False:
         _cx = T.get('cx', 0.0)
         cam = (f"cam: [{{ f: {a}, at: [X + {num(_cx)}, DK + 2.0, 0.5], d: 9, az: 10, el: 5, fov: 46 }}, "
@@ -1888,7 +1888,7 @@ def build_beat(k, b):
         cam = (f"cam: [{{ f: {a}, at: [X + {num(-d / 2)}, DK + {num(T['h'])}, 1.5], d: {num(T['d0'])}, az: 6, el: {num(T.get('el', 3))}, fov: {num(T.get('fov', 44))} }}, "
                f"{{ f: {bb}, at: [X + {num(d / 2)}, DK + {num(T['h'])}, 1.5], d: {num(T['d1'])}, az: -8, el: {num(T.get('el', 3) + 1)}, fov: {num(T.get('fov', 44))}, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
-    if b.get('montado') and persons and not b.get('cam_livre'):   # a camera acompanha o cavaleiro de lado (cavalo e cavaleiro inteiros)
+    if b.get('montado') and persons and not b.get('cam_livre') and not _multi:   # a camera acompanha o cavaleiro de lado (cavalo e cavaleiro inteiros)
         _dr = int(b['montado'].get('dir', 1 if k % 2 == 0 else -1)); _zm = float(b['montado'].get('z', 0.6)); _x0m, _x1m = (-8.5, 8.5) if _dr > 0 else (8.5, -8.5)
         cam = (f"cam: [{{ f: {a}, at: [X + {num(_x0m + 2.2 * _dr)}, DK + 2.1, {num(_zm)}], d: 12.5, az: {10 * _dr}, el: 6, fov: 42 }}, "
                f"{{ f: {bb}, at: [X + {num(_x1m - 2.2 * _dr)}, DK + 2.1, {num(_zm)}], d: 11.5, az: {-8 * _dr}, el: 7, fov: 42, ease: 'lin' }}]")

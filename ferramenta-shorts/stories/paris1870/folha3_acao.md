@@ -92,28 +92,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 44.6s a 48.3s - 9 palavras - plano two
+## Cena b9 - 44.6s a 47.4s - 9 palavras - plano two
 > "Para mandar notícias, soltavam balões por cima do cerco."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandar (44.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | soltavam (45.8s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | soltavam (45.9s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | BALÕES | OK |
 
-## Cena b10 - 48.7s a 54.5s - 15 palavras - plano group
+## Cena b10 - 48.6s a 53.2s - 15 palavras - plano group
 > "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendeu (52.3s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 1 | rendeu (51.3s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | PARIS SE RENDEU | OK |
 
-## Cena b11 - 54.7s a 57.3s - 13 palavras - plano close
+## Cena b11 - 54.4s a 57.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
