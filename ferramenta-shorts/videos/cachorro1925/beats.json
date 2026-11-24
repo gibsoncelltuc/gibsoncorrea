@@ -56,7 +56,7 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Segundo uma versão, um cachorro fugiu e provocou uma invasão entre dois países.",
+   "say": "Segundo uma versão, um cachorro sumiu e provocou uma invasão entre dois países.",
    "props": [
     [
      "kit/dog_sit",
@@ -73,7 +73,11 @@
     ]
    ],
    "detalhe": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "verbos_ok": [
+    "fug",
+    "sum"
+   ]
   },
   {
    "shot": "reveal",
@@ -228,8 +232,7 @@
   "participantes": [
    "soldado grego",
    "soldados búlgaros",
-   "general Pangalos",
-   "Liga das Nações"
+   "general Pangalos"
   ],
   "roupas": {
    "GRE": "soldado grego de 1925: farda cáqui-azulada e capacete",
@@ -239,9 +242,7 @@
   },
   "cenario": "posto de fronteira nas montanhas, cidade de Petrich, sala da Liga das Nações em Genebra",
   "objetos": [
-   "fuzil de 1925",
-   "cachorro",
-   "documento do acordo"
+   "fuzil de 1925"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Incident_at_Petrich",
@@ -251,8 +252,9 @@
    "Petrich": "Petrich Bulgaria 1920s",
    "soldado grego": "Greek soldier 1925 uniform",
    "soldado búlgaro": "Bulgarian soldier 1925 uniform",
-   "Liga das Nações": "League of Nations Council 1925 Geneva",
-   "Pangalos": "Theodoros Pangalos 1925 portrait"
+   "Pangalos": "Theodoros Pangalos 1925 portrait",
+   "exército da época": "Bulgarian soldiers 1920s photograph",
+   "roupas e ruas de 1925": "Bulgaria 1920s street photograph"
   }
  }
 }

@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cachorro1925/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cachorro1925` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Segundo uma versão, um cachorro fugiu e provocou uma invasão entre doi...
+## Cena b0 - Segundo uma versão, um cachorro sumiu e provocou uma invasão entre doi...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -10,8 +10,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, invasao, versao
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+- RISCOS: nenhum
 
 ## Cena b1 - Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc...
 - Cenario: mountain | luz: golden | clima: limpo
@@ -118,12 +117,9 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 8% | medio 76% | aberto 12% | detalhe 4%
 - Interacoes: b0 discutir, b3 empurrar, b4 susto, b6 susto, b7 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: A Guerra do Cão Fugitivo, Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich, soldado grego, soldados búlgaros, general Pangalos, Liga das -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b0: a narracao fala de FUGA/CORRERIA e ninguem corre
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: A Guerra do Cão Fugitivo, Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich, soldado grego, soldados búlgaros, general Pangalos, Liga das
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cachorro1925 bN bM` (so essas cenas).

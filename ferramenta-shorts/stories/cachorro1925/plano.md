@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | animais | animal: dog foge correndo (acao + som de efeito); fugiu (dust + som de impacto); encena: corre @5 (acao + som de efeito) | -
+b0 | two | -  | animais | animal: dog foge correndo (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | (rosto) nervous (expr + som de efeito) | -
 b2 | track | -  | animais | correu (dust + som de impacto); encena: corre @5 (acao + som de efeito); encena: chega (point) @10 (acao + som de efeito) | -
 b3 | group | -  | batalha aberta com tiros, tropa | (rosto) sad (expr + som de efeito); tiros: 3 soldados caem no chao (acao + som de efeito); atiraram (burst + som de tiro/explosao); morreu (puff + som de baque); encena: atira @5 (acao + som de efeito); encena: morre @8 (acao + som de efeito) | -

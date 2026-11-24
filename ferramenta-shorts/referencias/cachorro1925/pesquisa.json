@@ -6,9 +6,46 @@
    "item": "A Guerra do Cão Fugitivo",
    "consultas": [
     "A Guerra do Cão Fugitivo",
-    "Um Em Grécia Bulgária Um 1925"
+    "Segundo Em Grécia Bulgária Dizem 1925"
    ],
    "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich",
+   "consultas": [
+    "Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich",
+    "Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich 1925"
+   ],
+   "achados": [
+    {
+     "titulo": "Bulgaria-Greece border.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bulgaria-Greece_border.png/500px-Bulgaria-Greece_border.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABulgaria-Greece_border.png",
+     "descricao": "0/PDMCreative Commons Public Domain Mark 1.0falsefalse English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__c7f475.jpg",
+     "consulta": "Fronteira Grécia Bulgária"
+    },
+    {
+     "titulo": "Map of Graeco-Bulgarian Frontier including Demir Hissar, Vetrina, Rupel Petrich, Butkovo, River Struma, River Strumnitza, Beles (Belashitza) Mountains, M. Sultanitza, Cengel Dagh and Gornji Poroj.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Map_of_Graeco-Bulgarian_Frontier_including_Demir_Hissar%2C_Vetrina%2C_Rupel_Petrich%2C_Butkovo%2C_River_Struma%2C_River_Strumnitza%2C_Beles_%28Belashitza%29_Mountains%2C_M._Sultanitza%2C_Cengel_Dagh_and_Gornji_Poroj.jpg/500px-Map_of_Graeco-Bulgarian_Frontier_including_Demir_Hissar%2C_Vetrina%2C_Rupel_Petrich%2C_Butkovo%2C_River_Struma%2C_River_Strumnitza%2C_Beles_%28Belashitza%29_Mountains%2C_M._Sultanitza%2C_Cengel_Dagh_and_Gornji_Poroj.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMap_of_Graeco-Bulgarian_Frontier_including_Demir_Hissar%2C_Vetrina%2C_Rupel_Petrich%2C_Butkovo%2C_River_Struma%2C_River_Strumnitza%2C_Beles_%28Belashitza%29_Mountains%2C_M._Sultanitza%2C_Cengel_Dagh_and_Gornji_Poroj.jpg",
+     "descricao": "0/PDMCreative Commons Public Domain Mark 1.0falsefalse English German \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__1d66f8.jpg",
+     "consulta": "Fronteira Grécia Bulgária"
+    },
+    {
+     "titulo": "Grenzverlauf BG-GR.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grenzverlauf_BG-GR.png/500px-Grenzverlauf_BG-GR.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGrenzverlauf_BG-GR.png",
+     "descricao": "English determination method or standard: SHA-1",
+     "ordem": 5,
+     "print": "referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__60705e.jpg",
+     "consulta": "Fronteira Grécia Bulgária"
+    }
+   ]
   },
   {
    "tipo": "lugar",
@@ -19,6 +56,15 @@
    ],
    "achados": [
     {
+     "titulo": "Burgas Aleksandrowska vor 1925.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Burgas_Aleksandrowska_vor_1925.jpg/500px-Burgas_Aleksandrowska_vor_1925.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABurgas_Aleksandrowska_vor_1925.jpg",
+     "descricao": "Stadtbibliothek ausgebrannt \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/bulg_ria_ea76bc.jpg",
+     "consulta": "Bulgária 1925"
+    },
+    {
      "titulo": "BASA 25K-1-135-4-Zmey Goryanin-1925.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/BASA_25K-1-135-4-Zmey_Goryanin-1925.jpg/500px-BASA_25K-1-135-4-Zmey_Goryanin-1925.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ABASA_25K-1-135-4-Zmey_Goryanin-1925.jpg",
@@ -28,21 +74,12 @@
      "consulta": "Bulgária 1925"
     },
     {
-     "titulo": "Ivan Valkov, 1925 photo by Keystone View.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ivan_Valkov%2C_1925_photo_by_Keystone_View.jpg/500px-Ivan_Valkov%2C_1925_photo_by_Keystone_View.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AIvan_Valkov%2C_1925_photo_by_Keystone_View.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/cachorro1925/prints/bulg_ria_e9dc45.jpg",
-     "consulta": "Bulgária 1925"
-    },
-    {
-     "titulo": "Congress of Macedonian emigration in Bulgaria, 1925.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Congress_of_Macedonian_emigration_in_Bulgaria%2C_1925.jpg/500px-Congress_of_Macedonian_emigration_in_Bulgaria%2C_1925.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACongress_of_Macedonian_emigration_in_Bulgaria%2C_1925.jpg",
-     "descricao": "0/PDMCreative Commons Public Domain Mark 1.0falsefalse English Congress of Macedonian emigration \\u003Cspan class=\\",
-     "ordem": 8,
-     "print": "referencias/cachorro1925/prints/bulg_ria_6073ab.jpg",
+     "titulo": "Bulgarian refugees from Demir Hisar.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bulgarian_refugees_from_Demir_Hisar.jpg/500px-Bulgarian_refugees_from_Demir_Hisar.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABulgarian_refugees_from_Demir_Hisar.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cachorro1925/prints/bulg_ria_068b6a.jpg",
      "consulta": "Bulgária 1925"
     }
    ]
@@ -51,27 +88,177 @@
    "tipo": "epoca",
    "item": "roupas e ruas de 1925",
    "consultas": [
+    "Bulgaria 1920s street photograph",
     "1925 fashion clothing",
     "1925 street photograph"
    ],
    "achados": [
     {
-     "titulo": "Practicoat knitted jackets ad 1925-11.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Practicoat_knitted_jackets_ad_1925-11.png/500px-Practicoat_knitted_jackets_ad_1925-11.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APracticoat_knitted_jackets_ad_1925-11.png",
-     "descricao": "English Print advertisement from \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/cachorro1925/prints/roupas_e_ruas_de_1925_52e4f6.jpg",
-     "consulta": "1925 fashion clothing"
+     "titulo": "Haltern am See, Sythen, Quarzwerke, Werkzeughalle -- 2014 -- 4050-4.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Haltern_am_See%2C_Sythen%2C_Quarzwerke%2C_Werkzeughalle_--_2014_--_4050-4.jpg/500px-Haltern_am_See%2C_Sythen%2C_Quarzwerke%2C_Werkzeughalle_--_2014_--_4050-4.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHaltern_am_See%2C_Sythen%2C_Quarzwerke%2C_Werkzeughalle_--_2014_--_4050-4.jpg",
+     "descricao": "(Кварцверке) во Зитен, Халтерн ам Зе, Северна Рајна-Вестфалија, Германија (2014) \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/roupas_e_ruas_de_1925_f4131e.jpg",
+     "consulta": "Bulgaria 1920s street photograph"
     },
     {
-     "titulo": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion rom antiquity to c 1640 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_rom_antiquity_to_c_1640_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/500px-Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_rom_antiquity_to_c_1640_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACostumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_rom_antiquity_to_c_1640_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "descricao": "DescriptionCostumes civils HISTORICAL \\u003Cspan class=\\",
-     "ordem": 9,
-     "print": "referencias/cachorro1925/prints/roupas_e_ruas_de_1925_d811c2.jpg",
-     "consulta": "1925 fashion clothing"
+     "titulo": "TampaFranklinStreetNorth.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/TampaFranklinStreetNorth.jpg/500px-TampaFranklinStreetNorth.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATampaFranklinStreetNorth.jpg",
+     "descricao": "Tampa, Florida \\u0026quot;Franklin \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cachorro1925/prints/roupas_e_ruas_de_1925_e231e0.jpg",
+     "consulta": "Bulgaria 1920s street photograph"
+    },
+    {
+     "titulo": "Jean Béraud La Rue de la Paix.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Jean_B%C3%A9raud_La_Rue_de_la_Paix.jpg/500px-Jean_B%C3%A9raud_La_Rue_de_la_Paix.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJean_B%C3%A9raud_La_Rue_de_la_Paix.jpg",
+     "descricao": "1820s · 1830s · 1840s · 1850s · 1860s · 1870s · 1890s · 1900s · 1910s · \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cachorro1925/prints/roupas_e_ruas_de_1925_48e24e.jpg",
+     "consulta": "Bulgaria 1920s street photograph"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldado grego",
+   "consultas": [
+    "Greek soldier 1925 uniform",
+    "soldado grego",
+    "soldado grego 1925"
+   ],
+   "achados": [
+    {
+     "titulo": "Andreas Kotzias 1868 031.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andreas_Kotzias_1868_031.JPG/500px-Andreas_Kotzias_1868_031.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAndreas_Kotzias_1868_031.JPG",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/soldado_grego_522fc3.jpg",
+     "consulta": "soldado grego"
+    },
+    {
+     "titulo": "The under-renovation headquarters of the National Art Gallery - Alexandros Soutsos on October 2, 2019.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/The_under-renovation_headquarters_of_the_National_Art_Gallery_-_Alexandros_Soutsos_on_October_2%2C_2019.jpg/500px-The_under-renovation_headquarters_of_the_National_Art_Gallery_-_Alexandros_Soutsos_on_October_2%2C_2019.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_under-renovation_headquarters_of_the_National_Art_Gallery_-_Alexandros_Soutsos_on_October_2%2C_2019.jpg",
+     "descricao": "Gallery - \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/cachorro1925/prints/soldado_grego_f9503a.jpg",
+     "consulta": "soldado grego"
+    },
+    {
+     "titulo": "A. Soutsos.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/A._Soutsos.JPG/500px-A._Soutsos.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AA._Soutsos.JPG",
+     "descricao": "DescriptionA. \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/cachorro1925/prints/soldado_grego_c439df.jpg",
+     "consulta": "soldado grego"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados búlgaros",
+   "consultas": [
+    "soldados búlgaros",
+    "soldados búlgaros 1925"
+   ],
+   "achados": [
+    {
+     "titulo": "SoldadosBúlgarosDeLaPrimeraGuerraBalcánica1912--bulgariaherpeopl00monr.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/SoldadosB%C3%BAlgarosDeLaPrimeraGuerraBalc%C3%A1nica1912--bulgariaherpeopl00monr.png/500px-SoldadosB%C3%BAlgarosDeLaPrimeraGuerraBalc%C3%A1nica1912--bulgariaherpeopl00monr.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoldadosB%C3%BAlgarosDeLaPrimeraGuerraBalc%C3%A1nica1912--bulgariaherpeopl00monr.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/soldados_b_lgaros_a976af.jpg",
+     "consulta": "soldados búlgaros"
+    },
+    {
+     "titulo": "SoldadosBúlgarosDeLaSegundaGuerraBalcánica--bulgariaherpeopl00monr.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/SoldadosB%C3%BAlgarosDeLaSegundaGuerraBalc%C3%A1nica--bulgariaherpeopl00monr.png/500px-SoldadosB%C3%BAlgarosDeLaSegundaGuerraBalc%C3%A1nica--bulgariaherpeopl00monr.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoldadosB%C3%BAlgarosDeLaSegundaGuerraBalc%C3%A1nica--bulgariaherpeopl00monr.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cachorro1925/prints/soldados_b_lgaros_0e6b8c.jpg",
+     "consulta": "soldados búlgaros"
+    },
+    {
+     "titulo": "SoldadosBúlgarosDeLaPrimeraGuerraBalcánica--bulgariaherpeopl00monr 0171.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SoldadosB%C3%BAlgarosDeLaPrimeraGuerraBalc%C3%A1nica--bulgariaherpeopl00monr_0171.png/500px-SoldadosB%C3%BAlgarosDeLaPrimeraGuerraBalc%C3%A1nica--bulgariaherpeopl00monr_0171.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoldadosB%C3%BAlgarosDeLaPrimeraGuerraBalc%C3%A1nica--bulgariaherpeopl00monr_0171.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cachorro1925/prints/soldados_b_lgaros_82a7f0.jpg",
+     "consulta": "soldados búlgaros"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "general Pangalos",
+   "consultas": [
+    "general Pangalos",
+    "general Pangalos 1925"
+   ],
+   "achados": [
+    {
+     "titulo": "Major General Theodoros Pangalos, 1920.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Major_General_Theodoros_Pangalos%2C_1920.jpg/500px-Major_General_Theodoros_Pangalos%2C_1920.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMajor_General_Theodoros_Pangalos%2C_1920.jpg",
+     "descricao": "DescriptionMajor \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/general_pangalos_505180.jpg",
+     "consulta": "general Pangalos"
+    },
+    {
+     "titulo": "Commander-in-Chief Pangalos inspects the Army of Evros.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Commander-in-Chief_Pangalos_inspects_the_Army_of_Evros.jpg/500px-Commander-in-Chief_Pangalos_inspects_the_Army_of_Evros.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACommander-in-Chief_Pangalos_inspects_the_Army_of_Evros.jpg",
+     "descricao": "Commons Attribution 4.0 truetrue English Commander-in-Chief Theodoros \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cachorro1925/prints/general_pangalos_3d5ca5.jpg",
+     "consulta": "general Pangalos"
+    },
+    {
+     "titulo": "Le Général Pangalos, Président du Conseil grec.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Le_G%C3%A9n%C3%A9ral_Pangalos%2C_Pr%C3%A9sident_du_Conseil_grec.jpg/500px-Le_G%C3%A9n%C3%A9ral_Pangalos%2C_Pr%C3%A9sident_du_Conseil_grec.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALe_G%C3%A9n%C3%A9ral_Pangalos%2C_Pr%C3%A9sident_du_Conseil_grec.jpg",
+     "descricao": "DescriptionLe \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cachorro1925/prints/general_pangalos_54ea40.jpg",
+     "consulta": "general Pangalos"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fuzil de 1925",
+   "consultas": [
+    "fuzil de 1925",
+    "fuzil de 1925 1925"
+   ],
+   "achados": [
+    {
+     "titulo": "Shlyakhova Alexandra Nikolaevna - B.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Shlyakhova_Alexandra_Nikolaevna_-_B.jpg/500px-Shlyakhova_Alexandra_Nikolaevna_-_B.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AShlyakhova_Alexandra_Nikolaevna_-_B.jpg",
+     "descricao": "Portuguese A sniper soviética Shlyakhova Alexandra Nikolaevna com seu \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/fuzil_de_1925_9b265f.jpg",
+     "consulta": "fuzil de 1925"
+    },
+    {
+     "titulo": "Снайпер Роза Шанина со своей винтовкой в селе Столяришки.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80_%D0%A0%D0%BE%D0%B7%D0%B0_%D0%A8%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D1%81%D0%BE_%D1%81%D0%B2%D0%BE%D0%B5%D0%B9_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%BE%D0%B9_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5_%D0%A1%D1%82%D0%BE%D0%BB%D1%8F%D1%80%D0%B8%D1%88%D0%BA%D0%B8.jpg/500px-%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80_%D0%A0%D0%BE%D0%B7%D0%B0_%D0%A8%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D1%81%D0%BE_%D1%81%D0%B2%D0%BE%D0%B5%D0%B9_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%BE%D0%B9_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5_%D0%A1%D1%82%D0%BE%D0%BB%D1%8F%D1%80%D0%B8%D1%88%D0%BA%D0%B8.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80_%D0%A0%D0%BE%D0%B7%D0%B0_%D0%A8%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D1%81%D0%BE_%D1%81%D0%B2%D0%BE%D0%B5%D0%B9_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%BE%D0%B9_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5_%D0%A1%D1%82%D0%BE%D0%BB%D1%8F%D1%80%D0%B8%D1%88%D0%BA%D0%B8.jpg",
+     "descricao": "com seu \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cachorro1925/prints/fuzil_de_1925_36eb0d.jpg",
+     "consulta": "fuzil de 1925"
     }
    ]
   },
@@ -79,36 +266,27 @@
    "tipo": "heroi",
    "item": "dog sit",
    "consultas": [
-    "dog sit",
+    "fuzil de 1925",
     "A Guerra do Cão Fugitivo"
    ],
    "achados": [
     {
-     "titulo": "Come and sit by me at the dog park.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Come_and_sit_by_me_at_the_dog_park.jpg/500px-Come_and_sit_by_me_at_the_dog_park.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACome_and_sit_by_me_at_the_dog_park.jpg",
-     "descricao": "0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English Bench at a \\u003Cspan class=\\",
+     "titulo": "Shlyakhova Alexandra Nikolaevna - B.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Shlyakhova_Alexandra_Nikolaevna_-_B.jpg/500px-Shlyakhova_Alexandra_Nikolaevna_-_B.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AShlyakhova_Alexandra_Nikolaevna_-_B.jpg",
+     "descricao": "Portuguese A sniper soviética Shlyakhova Alexandra Nikolaevna com seu \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/cachorro1925/prints/dog_sit_0a6f3d.jpg",
-     "consulta": "dog sit"
+     "print": "referencias/cachorro1925/prints/dog_sit_9b265f.jpg",
+     "consulta": "fuzil de 1925"
     },
     {
-     "titulo": "Sitted dog-AO 17419-IMG 7684-gradient.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sitted_dog-AO_17419-IMG_7684-gradient.jpg/500px-Sitted_dog-AO_17419-IMG_7684-gradient.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASitted_dog-AO_17419-IMG_7684-gradient.jpg",
-     "descricao": "\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/cachorro1925/prints/dog_sit_c8a378.jpg",
-     "consulta": "dog sit"
-    },
-    {
-     "titulo": "'t Hondie sit op (Little dog sit up) (BM 1945,0512.68).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%27t_Hondie_sit_op_%28Little_dog_sit_up%29_%28BM_1945%2C0512.68%29.jpg/500px-%27t_Hondie_sit_op_%28Little_dog_sit_up%29_%28BM_1945%2C0512.68%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A%27t_Hondie_sit_op_%28Little_dog_sit_up%29_%28BM_1945%2C0512.68%29.jpg",
-     "descricao": "Hondie \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/cachorro1925/prints/dog_sit_a9034a.jpg",
-     "consulta": "dog sit"
+     "titulo": "Снайпер Роза Шанина со своей винтовкой в селе Столяришки.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80_%D0%A0%D0%BE%D0%B7%D0%B0_%D0%A8%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D1%81%D0%BE_%D1%81%D0%B2%D0%BE%D0%B5%D0%B9_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%BE%D0%B9_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5_%D0%A1%D1%82%D0%BE%D0%BB%D1%8F%D1%80%D0%B8%D1%88%D0%BA%D0%B8.jpg/500px-%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80_%D0%A0%D0%BE%D0%B7%D0%B0_%D0%A8%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D1%81%D0%BE_%D1%81%D0%B2%D0%BE%D0%B5%D0%B9_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%BE%D0%B9_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5_%D0%A1%D1%82%D0%BE%D0%BB%D1%8F%D1%80%D0%B8%D1%88%D0%BA%D0%B8.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80_%D0%A0%D0%BE%D0%B7%D0%B0_%D0%A8%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D1%81%D0%BE_%D1%81%D0%B2%D0%BE%D0%B5%D0%B9_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%BE%D0%B9_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5_%D0%A1%D1%82%D0%BE%D0%BB%D1%8F%D1%80%D0%B8%D1%88%D0%BA%D0%B8.jpg",
+     "descricao": "com seu \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cachorro1925/prints/dog_sit_36eb0d.jpg",
+     "consulta": "fuzil de 1925"
     }
    ]
   },
@@ -120,6 +298,15 @@
     "soldier uniform"
    ],
    "achados": [
+    {
+     "titulo": "Tableau, military, man, soldier, uniform, barrack Fortepan 12592.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Tableau%2C_military%2C_man%2C_soldier%2C_uniform%2C_barrack_Fortepan_12592.jpg/500px-Tableau%2C_military%2C_man%2C_soldier%2C_uniform%2C_barrack_Fortepan_12592.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATableau%2C_military%2C_man%2C_soldier%2C_uniform%2C_barrack_Fortepan_12592.jpg",
+     "descricao": "DescriptionTableau, military, man, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cachorro1925/prints/soldado_da_epoca_b90f65.jpg",
+     "consulta": "soldier uniform 1925"
+    },
     {
      "titulo": "Uniform, tableau, man, soldier, weapon Fortepan 10530.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Uniform%2C_tableau%2C_man%2C_soldier%2C_weapon_Fortepan_10530.jpg/500px-Uniform%2C_tableau%2C_man%2C_soldier%2C_weapon_Fortepan_10530.jpg",
@@ -136,15 +323,6 @@
      "descricao": "DescriptionTableau, military, men, \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/cachorro1925/prints/soldado_da_epoca_277276.jpg",
-     "consulta": "soldier uniform 1925"
-    },
-    {
-     "titulo": "Soviet soldier marches past a fallen Japanese.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Soviet_soldier_marches_past_a_fallen_Japanese.jpg/500px-Soviet_soldier_marches_past_a_fallen_Japanese.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoviet_soldier_marches_past_a_fallen_Japanese.jpg",
-     "descricao": "DescriptionSoviet \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/cachorro1925/prints/soldado_da_epoca_3ac8b4.jpg",
      "consulta": "soldier uniform 1925"
     }
    ]

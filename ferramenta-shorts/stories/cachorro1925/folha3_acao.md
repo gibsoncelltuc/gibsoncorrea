@@ -1,19 +1,17 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.1s - 13 palavras - plano two
-> "Segundo uma versão, um cachorro fugiu e provocou uma invasão entre dois países."
+> "Segundo uma versão, um cachorro sumiu e provocou uma invasão entre dois países."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fugiu (1.8s) | EFEITO: dust | poeira + som | OK |
-| 2 | fugiu (1.8s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | - | CENA | animal: dog foge correndo | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 1 | - | CENA | animal: dog foge correndo | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b1 - 4.2s a 9.4s - 19 palavras - plano reveal
 > "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa."

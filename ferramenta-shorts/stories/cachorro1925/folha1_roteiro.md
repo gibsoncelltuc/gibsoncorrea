@@ -3,10 +3,10 @@
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 10 cenas, 139 palavras (~48 s)
 
 ## Cena b0  (~4.5 s)
-- Narracao: Segundo uma versão, um cachorro fugiu e provocou uma invasão entre dois países.
+- Narracao: Segundo uma versão, um cachorro sumiu e provocou uma invasão entre dois países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: dog foge correndo -> acao + som de efeito; fugiu -> dust + som de impacto; encena: corre @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: dog foge correndo -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO

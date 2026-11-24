@@ -1,12 +1,12 @@
 # CRONOGRAMA - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Gerado em 24/11 10:24 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | GRE, BUL | - | dog_sit | - | Segundo uma versão, um cachorro fugiu e provocou uma invasão entre doi
+b0 | simples | loc_campo | two | GRE, BUL | - | dog_sit | - | Segundo uma versão, um cachorro sumiu e provocou uma invasão entre doi
 b1 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc
 b2 | simples | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronte
 b3 | chave | mountain | group | BUL, GRE | 10 | dog_sit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Do outro lado, soldados búlgaros atiraram, e ele morreu.
@@ -22,11 +22,11 @@ b9 | simples | loc_campo | two | GRE | - | - | - | Agora não deixe de comentar:
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (5/14 itens) | PENDENTE | python3 pesquisar.py cachorro1925
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/11 itens) | FEITO | 
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
+5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | PENDENTE | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh cachorro1925
@@ -36,5 +36,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local cachorro1925 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 2. Pesquisa de campo
+**Etapa atual:** 6. Estilo e enquadramento
 
