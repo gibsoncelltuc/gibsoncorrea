@@ -1,115 +1,117 @@
 {
  "id": "zt",
- "ano": 2024,
+ "ano": 2023,
  "itens": [
   {
    "tipo": "tema",
-   "item": "O Presidente dos 85 por Cento",
+   "item": "A Maior Prisão das Américas",
    "consultas": [
-    "Nayib Bukele 2024 election night balcony",
-    "O Presidente dos 85 por Cento",
-    "Um Foi El Salvador América Central Nayib Bukele Ele 2024"
+    "A Maior Prisão das Américas",
+    "El Salvador Foi Por El Salvador 2023"
    ]
   },
   {
    "tipo": "lugar",
-   "item": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/",
+   "item": "Tecoluca, departamento de San Vicente, El Salvador: o CECOT (Centro de Confinami",
    "consultas": [
-    "San Salvador El Salvador",
-    "San Salvador El Salvador 2024"
+    "Tecoluca departamento de San Vicente El Salvador",
+    "Tecoluca departamento de San Vicente El Salvador 2023"
    ]
   },
   {
    "tipo": "lugar",
    "item": "El Salvador",
    "consultas": [
-    "El Salvador 2024",
+    "El Salvador 2023",
     "El Salvador landscape"
    ]
   },
   {
    "tipo": "epoca",
-   "item": "roupas e ruas de 2024",
+   "item": "roupas e ruas de 2023",
    "consultas": [
-    "San Salvador street 2024",
-    "2024 fashion clothing",
-    "2024 street photograph"
+    "2023 fashion clothing",
+    "2023 street photograph"
    ]
   },
   {
    "tipo": "pessoas",
-   "item": "Nayib Bukele (terno escuro, bone preto virado para tras nos anos de go",
+   "item": "Nayib Bukele (terno escuro)",
    "consultas": [
-    "Nayib Bukele terno escuro bone preto virado para tras nos anos de governo",
-    "Nayib Bukele terno escuro bone preto virado para tras nos anos de governo 2024"
+    "Nayib Bukele terno escuro",
+    "Nayib Bukele terno escuro 2023"
    ]
   },
   {
    "tipo": "pessoas",
-   "item": "apoiadores de camisa azul-ciano (cor do Nuevas Ideas)",
+   "item": "jornalista com credencial",
    "consultas": [
-    "apoiadores de camisa azul-ciano cor do Nuevas Ideas",
-    "apoiadores de camisa azul-ciano cor do Nuevas Ideas 2024"
+    "jornalista com credencial",
+    "jornalista com credencial 2023"
    ]
   },
   {
    "tipo": "pessoas",
-   "item": "eleitores",
+   "item": "soldados e policiais salvadorenhos de farda verde-oliva e capacete",
    "consultas": [
-    "El Salvador voters queue election 2024",
-    "eleitores",
-    "eleitores 2024"
+    "soldados e policiais salvadorenhos de farda verde-oliva e capacete",
+    "soldados e policiais salvadorenhos de farda verde-oliva e capacete 2023"
    ]
   },
   {
    "tipo": "pessoas",
-   "item": "jornalistas",
+   "item": "presos de camiseta e bermuda brancas, cabeca raspada",
    "consultas": [
-    "journalists press conference El Salvador",
-    "jornalistas",
-    "jornalistas 2024"
+    "presos de camiseta e bermuda brancas cabeca raspada",
+    "presos de camiseta e bermuda brancas cabeca raspada 2023"
    ]
   },
   {
    "tipo": "objeto",
-   "item": "urnas",
+   "item": "muralha de concreto",
    "consultas": [
-    "El Salvador election ballot box voting 2024",
-    "urnas",
-    "urnas 2024"
+    "muralha de concreto",
+    "muralha de concreto 2023"
    ]
   },
   {
    "tipo": "objeto",
-   "item": "bandeira de El Salvador (azul e branca)",
+   "item": "torre de vigia",
    "consultas": [
-    "bandeira de El Salvador",
-    "bandeira de El Salvador 2024"
+    "torre de vigia",
+    "torre de vigia 2023"
    ]
   },
   {
    "tipo": "objeto",
-   "item": "cartaz com rosto de Bukele",
+   "item": "portao de ferro",
    "consultas": [
-    "Nayib Bukele campaign poster Nuevas Ideas",
-    "cartaz com rosto de Bukele",
-    "cartaz com rosto de Bukele 2024"
+    "portao de ferro",
+    "portao de ferro 2023"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cerca eletrica",
+   "consultas": [
+    "cerca eletrica",
+    "cerca eletrica 2023"
    ]
   },
   {
    "tipo": "heroi",
-   "item": "ballot box",
+   "item": "prison",
    "consultas": [
-    "ballot box election voting booth",
-    "urnas",
-    "O Presidente dos 85 por Cento"
+    "muralha de concreto",
+    "A Maior Prisão das Américas"
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "volcano",
+   "tipo": "mecanismo",
+   "item": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
    "consultas": [
-    "volcano"
+    "muralhas altas cercas eletricas torres vigia lados",
+    "prison mini diagram"
    ]
   }
  ]

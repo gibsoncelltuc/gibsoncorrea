@@ -1,19 +1,18 @@
 {
  "id": "zt",
- "titulo": "Poder e Fama EP 26 - O Presidente dos 85 por Cento",
+ "titulo": "Poder e Fama EP 27 - A Maior Prisão das Américas",
  "ancoras": {
-  "ano": 2024,
+  "ano": 2023,
   "era": "atual (1950+)",
-  "regiao": "eua",
-  "luz_base": "day",
+  "regiao": "colonial",
+  "luz_base": "golden",
   "cenarios": [
-   "hall",
-   "interior loja",
-   "interior madeira",
+   "interior galpao",
    "loc_campo",
-   "loc_cidade",
-   "loc_pista",
-   "palace"
+   "loc_estudio",
+   "loc_montanha",
+   "loc_patio",
+   "loc_pista"
   ],
   "cenarios_trocados": []
  },
@@ -39,56 +38,50 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/ballot_box",
-  "kit/globe",
-  "kit/room_eua_wood",
-  "kit/room_europa_shop",
-  "kit/scroll",
-  "kit/volcano",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large"
+  "kit/cone_transito",
+  "kit/palete",
+  "kit/prison",
+  "kit/prison_mini",
+  "kit/room_galpao",
+  "mk/Crate_Metal",
+  "mk/Workbench"
  ],
  "pesquisa_visual": {
-  "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",
-  "quando": "4/fev/2024; apuracao e comemoracao de noite",
+  "local": "Tecoluca, departamento de San Vicente, El Salvador: o CECOT (Centro de Confinamiento del Terrorismo), complexo isolado cercado por campo e morros",
+  "quando": "inaugurado em 31/jan/2023; estado de excecao decretado em marco de 2022; dia, ceu claro",
   "participantes": [
-   "Nayib Bukele (terno escuro, bone preto virado para tras nos anos de governo)",
-   "apoiadores de camisa azul-ciano (cor do Nuevas Ideas)",
-   "eleitores",
-   "jornalistas"
+   "Nayib Bukele (terno escuro)",
+   "jornalista com credencial",
+   "soldados e policiais salvadorenhos de farda verde-oliva e capacete",
+   "presos de camiseta e bermuda brancas, cabeca raspada"
   ],
   "roupas": {
    "BUK": "terno escuro, camisa branca",
-   "POV": "camisetas e bones azul-ciano",
-   "JUI": "toga preta (Sala Constitucional)",
-   "REP": "camisa com crachá de imprensa"
+   "REP": "camisa com cracha de imprensa"
   },
-  "cenario": "fachada clara do Palacio Nacional com sacada, multidao na praca a noite, bandeiras azuis e brancas, urnas de papelao com cabine",
+  "cenario": "prisao de concreto cinza com muralha alta, cerca de arame, torres de vigia, portao de ferro; campo ao redor; clima tropical",
   "objetos": [
-   "urnas",
-   "bandeira de El Salvador (azul e branca)",
-   "cartaz com rosto de Bukele"
+   "muralha de concreto",
+   "torre de vigia",
+   "portao de ferro",
+   "cerca eletrica"
   ],
   "fontes_visuais": [
-   "https://www.gettyimages.com/editorial-images/news/event/salvadorians-vote-in-presidential-election/776100638",
-   "https://www.youtube.com/watch?v=FX3aCqFx_g0"
+   "https://en.wikipedia.org/wiki/Terrorism_Confinement_Center",
+   "https://commons.wikimedia.org/wiki/Category:Terrorism_Confinement_Center"
   ],
-  "buscas": {
-   "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao": "Palacio Nacional San Salvador El Salvador",
-   "urnas": "El Salvador election ballot box voting 2024",
-   "eleitores": "El Salvador voters queue election 2024",
-   "jornalistas": "journalists press conference El Salvador",
-   "roupas e ruas de 2024": "San Salvador street 2024",
-   "cartaz com rosto de Bukele": "Nayib Bukele campaign poster Nuevas Ideas",
-   "ballot box": "ballot box election voting booth",
-   "O Presidente dos 85 por Cento": "Nayib Bukele 2024 election night balcony"
-  }
+  "referencias": {
+   "jornalista com credencial": "repórter com crachá de imprensa e caderno, padrão geral de imprensa (sem foto específica no Commons)"
+  },
+  "explicacoes": [
+   "CECOT: complexo de concreto com muralhas, cercas e torres de vigia, previsto para 40 mil presos (fonte: governo de El Salvador / Wikipedia \"Terrorism Confinement Center\")"
+  ]
  },
  "fontes": [
-  "https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election",
-  "https://www.idea.int/democracytracker/report/el-salvador/february-2024"
+  "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
+  "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/",
+  "https://en.wikipedia.org/wiki/Crime_in_El_Salvador",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/"
  ],
  "falta": []
 }
