@@ -6,9 +6,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): ICE (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: conversar
-- Objetos/modelos: kit/navio_destroier
+- Personagens principais (0): -
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cortador, islandia, marinha, rede
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ICE (variante 0, expressao stern); BRI (variante 0, expressao stern) | multidao: 0 de ICE
 - Animacao: encena
-- Objetos/modelos: kit/navio_destroier, kit/cod
+- Objetos/modelos: kit/navio_leander, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bacalhau, dois
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 0 de ICE
 - Animacao: -
-- Objetos/modelos: kit/navio_destroier
+- Objetos/modelos: kit/navio_leander
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): limites
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (0): -
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/navio_destroier
+- Objetos/modelos: kit/navio_leander
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, marinha, pesca
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ICE (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/barco_guarda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, islandia, rede
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (0): -
 - Animacao: comemorar
-- Objetos/modelos: kit/navio_destroier, navios de guerra ao fundo, no tamanho real
+- Objetos/modelos: kit/barco_guarda, kit/navio_leander, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de du...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh) | multidao: 0 de BRI/ICE
-- Animacao: conversar | interacao: insiste | batalha encenada
-- Objetos/modelos: -
+- Personagens principais (2): BRI (variante 0, expressao pained, segura paper); ICE (variante 0, expressao laugh)
+- Animacao: conversar | interacao: entregar
+- Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, inglaterra, zona
 - RISCOS: nenhum
 
@@ -117,14 +117,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/navio_destroier | b0, b1, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/barco_guarda | b0, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fishing_net | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vapor | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_leander | b0, b1, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cod | b1, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b4, b7, b8 | planos abertos: 3 | mistura: close 14% | medio 53% | aberto 31% | detalhe 1%
-- Interacoes: b2 o outro se aproxima, b7 discutir, b8 insiste
+- Objeto heroi: kit/cod | grandes momentos: b0, b4, b7 | planos abertos: 3 | mistura: close 14% | medio 53% | aberto 31% | detalhe 1%
+- Interacoes: b2 o outro se aproxima, b7 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
