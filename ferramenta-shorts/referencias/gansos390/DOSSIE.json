@@ -7,9 +7,9 @@
   "regiao": "classico",
   "luz_base": "day",
   "cenarios": [
-   "interior pedra",
+   "interior madeira",
    "loc_campo",
-   "loc_montanha",
+   "medieval",
    "mountain"
   ],
   "cenarios_trocados": []
@@ -17,17 +17,14 @@
  "proibido_pela_epoca": [],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/apartment",
   "buildings/castle_tower",
-  "buildings/house_two",
   "kit/coin",
   "kit/fire",
-  "kit/room_classico_stone",
+  "kit/room_classico_wood",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Table_Large",
-  "nature/lamppost"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Roma, colina do Capitólio",

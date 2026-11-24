@@ -2,25 +2,24 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/gansos390/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py gansos390` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um bando de gansos barulhentos salvou Roma de um ataque noturno.
-- Cenario: loc_campo | luz: dia | clima: limpo
+## Cena b0 - Um bando de gansos barulhentos salvou Roma numa só noite.
+- Cenario: medieval | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained)
-- Animacao: reagir | interacao: susto
+- Personagens principais (1): ROM (variante 0, expressao nervous)
+- Animacao: reagir
 - Objetos/modelos: goose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ataque, bando, gansos
-- RISCOS: 
-  - a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta -> CORRECAO: "batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bando, gansos
+- RISCOS: nenhum
 
-## Cena b1 - Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram a...
+## Cena b1 - Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram R...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): GAU (variante 0, expressao angry, segura torch); GAU (variante 1, expressao shout, segura torch); GAU (variante 2, expressao grin, segura torch) | multidao: 16 de GAU/ROM
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/fire, buildings/apartment, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): breno, cidade, cristo, gauleses
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): GAU (variante 0, expressao angry, segura torch) | multidao: 8 de GAU
+- Animacao: encena
+- Objetos/modelos: kit/fire
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): breno, cristo, gauleses
 - RISCOS: nenhum
 
 ## Cena b2 - Os romanos que sobraram se trancaram no Capitólio, uma colina fortific...
@@ -28,83 +27,83 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained); MAN (variante 0, expressao stern)
-- Animacao: reagir | interacao: insiste
+- Animacao: reagir | interacao: susto
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitolio, colina, romanos
 - RISCOS: nenhum
 
 ## Cena b3 - Os gauleses cercaram a colina, e a fome apertou os dois lados.
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ROM (variante 1, expressao pained); GAU (variante 0, expressao stern)
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): ROM (variante 1, expressao pained); GAU (variante 0, expressao stern) | multidao: 6 de POV
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, dois, fome, gauleses
 - RISCOS: nenhum
 
-## Cena b4 - Numa noite, eles tentaram escalar em silêncio, e os guardas não ouvira...
-- Cenario: loc_montanha | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+## Cena b4 - Numa noite sem lua, eles tentaram escalar em silêncio, e os guardas nã...
+- Cenario: loc_campo | luz: noite | clima: limpo
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GAU (variante 0, expressao stern); GAU (variante 1, expressao grin) | multidao: 8 de GAU
-- Animacao: encena
+- Personagens principais (1): GAU (variante 0, expressao stern) | multidao: 6 de GAU
+- Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guardas
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que os gansos sagrados da deusa Juno ouviram, e começaram a g...
-- Cenario: loc_montanha | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: loc_campo | luz: noite | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ROM (variante 2, expressao shock)
 - Animacao: reagir
 - Objetos/modelos: goose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): deusa, gansos, gritar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): asas, bater, deusa, gansos, gritar
 - RISCOS: nenhum
 
-## Cena b6 - O barulho acordou o soldado Marco Mânlio, que correu para a muralha e ...
-- Cenario: loc_montanha | luz: noite | clima: limpo
+## Cena b6 - O barulho acordou o soldado Marco Mânlio, que correu até a muralha e i...
+- Cenario: medieval | luz: noite | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared)
 - Animacao: encena
 - Objetos/modelos: buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, muralha, soldado, subida
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, gauleses, muralha, soldado, subida
 - RISCOS: nenhum
 
-## Cena b7 - O ataque fracassou, mas o cerco ainda durou sete meses.
-- Cenario: loc_montanha | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): ROM (variante 0, expressao angry); MAN (variante 0, expressao shout); GAU (variante 0, expressao scared) | multidao: 18 de ROM/GAU
-- Animacao: encena | batalha encenada
+## Cena b7 - A subida fracassou, mas os gauleses mantiveram o cerco.
+- Cenario: loc_campo | luz: noite | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ROM (variante 0, expressao angry) | multidao: 10 de ROM
+- Animacao: encena
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ataque, cerco
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco, gauleses, subida
 - RISCOS: nenhum
 
-## Cena b8 - No fim, Roma pagou mil libras de ouro, e os gauleses foram embora.
-- Cenario: interior pedra | luz: dia | clima: limpo
+## Cena b8 - No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, ...
+- Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): ROM (variante 0, expressao sad, segura coin); GAU (variante 0, expressao grin, segura coin)
 - Animacao: encena | interacao: entregar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gauleses, ouro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fome, gauleses, ouro, sete
 - RISCOS: nenhum
 
 ## Cena b9 - Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
-- Cenario: mountain | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ROM (variante 0, expressao smile); ROM (variante 1, expressao grin)
-- Animacao: conversar | interacao: aproxima-se
+- Cenario: medieval | luz: dia | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ROM (variante 0, expressao smile)
+- Animacao: encena
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gansos, ouro
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: dia | clima: limpo
+- Cenario: medieval | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 0, expressao grin)
@@ -120,21 +119,15 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 goose | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 13% | medio 67% | aberto 16% | detalhe 4%
-- Interacoes: b0 susto, b2 insiste, b3 o outro se aproxima, b8 entregar, b9 aproxima-se
-- RISCOS GERAIS: 
-  - video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- Objeto heroi: - | grandes momentos: b3 | planos abertos: 6 | mistura: close 10% | medio 46% | aberto 42% | detalhe 2%
+- Interacoes: b2 susto, b8 entregar
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
-- geral: video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh gansos390 bN bM` (so essas cenas).
