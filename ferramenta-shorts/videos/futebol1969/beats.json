@@ -56,15 +56,11 @@
     "SAL:0:shout"
    ],
    "text": "HONDURAS x EL SALVADOR",
-   "say": "Dois países entraram em guerra depois de um jogo de futebol.",
+   "say": "Dois países entraram em guerra por causa de um jogo de futebol.",
    "set": "stadium",
    "titulo": true,
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
-   "lados": [
-    "HON",
-    "SAL"
-   ],
    "crowd": {
     "n": 16,
     "outfits": [
@@ -85,21 +81,6 @@
      }
     ]
    ],
-   "verbos_ok": [
-    "entra"
-   ],
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -120,7 +101,7 @@
    },
    "mapa": "AMÉRICA CENTRAL",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
+   "say": "Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigavam por terra e por imigrantes.",
    "fx": [
     "puff@70"
    ],
@@ -146,7 +127,7 @@
      }
     ]
    ],
-   "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
+   "say": "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro.",
    "text": "3 JOGOS",
    "titulo": true,
    "crowd": {
@@ -157,18 +138,6 @@
     ],
     "march": false,
     "expr": "shout"
-   },
-   "quadro": {
-    "local": "estadio",
-    "camera": "aereo; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -182,7 +151,7 @@
     "HON:0:laugh",
     "SAL:0:sad"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 18,
@@ -203,7 +172,7 @@
     "ding@30",
     "thump@70"
    ],
-   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
+   "say": "No primeiro, Honduras venceu por um a zero, em casa.",
    "props": [
     [
      "kit/panela",
@@ -224,24 +193,6 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano de multidao; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/panela",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/panela",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -255,11 +206,10 @@
    ],
    "interacao": "empurrar",
    "acao": "discutir",
-   "say": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "say": "No segundo, El Salvador devolveu por três a zero, e a tensão explodiu nas ruas.",
    "hora": "dia",
-   "verbos_ok": [
-    "troca"
-   ]
+   "text": "3 x 0",
+   "titulo": true
   },
   {
    "shot": "two",
@@ -268,7 +218,7 @@
     "PRE:0:angry:paper",
     "PRE:1:nervous"
    ],
-   "say": "Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.",
+   "say": "Acontece que, na véspera do terceiro jogo, El Salvador cortou relações com Honduras.",
    "hora": "dia"
   },
   {
@@ -300,28 +250,10 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
+   "say": "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação.",
    "hora": "dia",
    "text": "PRORROGAÇÃO",
    "titulo": true,
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/trave",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -338,15 +270,6 @@
    },
    "props": [
     [
-     "vehicles/tank",
-     0.0,
-     -8.6,
-     1.52,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "vehicles/airplane",
      7.0,
      -16.0,
@@ -358,31 +281,10 @@
    ],
    "text": "GUERRA",
    "titulo": true,
-   "say": "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.",
+   "say": "Semanas depois, o exército salvadorenho atacou Honduras.",
    "hora": "dia",
-   "verbos_ok": [
-    "cruza"
-   ],
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/tank",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "vehicles/airplane",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
@@ -396,9 +298,9 @@
     "PRE:0:stern:paper"
    ],
    "text": "100 HORAS",
-   "say": "Durou cem horas. Os outros países do continente obrigaram os dois a parar.",
+   "say": "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo.",
    "verbos_ok": [
-    "obrig"
+    "impor"
    ]
   },
   {
@@ -426,33 +328,54 @@
      }
     ]
    ],
-   "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
+   "say": "Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
    "set": "stadium",
    "text": "0 GOLS",
    "titulo": true,
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ball",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/trave",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0
   }
  ],
- "max_wide": 4
+ "max_wide": 4,
+ "duracao_ok": true,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Football_War"
+ ],
+ "visual": {
+  "local": "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexico, e a fronteira entre Honduras e El Salvador",
+  "quando": "8 de junho a 18 de julho de 1969",
+  "participantes": [
+   "torcedores e jogadores de Honduras (camisa azul)",
+   "torcedores e jogadores de El Salvador (camisa branca e azul)",
+   "diplomatas de terno",
+   "soldados salvadorenhos de uniforme verde"
+  ],
+  "roupas": {
+   "HON": "camisa azul e calcao branco",
+   "SAL": "camisa branca com faixa azul e calcao azul",
+   "PRE": "terno escuro e chapeu coco",
+   "SOL": "farda verde com capacete"
+  },
+  "cenario": "estadios cheios de torcida, rua de cidade da America Central de 1969 e fronteira com aviao e soldados",
+  "objetos": [
+   "bola de futebol",
+   "trave",
+   "aviao de combate",
+   "panela"
+  ],
+  "explicacoes": [
+   "Honduras venceu o primeiro jogo por 1 a 0; El Salvador venceu o segundo por 3 a 0 e o terceiro por 3 a 2 na prorrogacao, na Cidade do Mexico (fonte: Wikipedia Football War)",
+   "El Salvador rompeu relacoes na noite de 26 de junho e atacou em 14 de julho; a guerra durou 14 a 18 de julho, as cem horas (fonte: Wikipedia Football War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Football_War",
+   "https://commons.wikimedia.org/wiki/Category:Football_War"
+  ],
+  "buscas": {
+   "A Guerra do Futebol": "Football War 1969 Honduras El Salvador",
+   "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic": "Estadio Nacional Tegucigalpa 1969"
+  }
+ }
 }

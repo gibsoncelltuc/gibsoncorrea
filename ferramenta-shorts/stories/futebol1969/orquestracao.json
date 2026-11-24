@@ -4,33 +4,27 @@
  "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
-  "acoes_chave_com_efeito": 100,
+  "acoes_chave_com_efeito": 67,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "HON",
     "SAL"
    ],
-   "multidao": 40,
+   "multidao": 16,
    "objetos": [
     "kit/ball"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Dois países entraram em guerra depois de um jogo de futebol.",
-   "classe": "chave",
+   "frase": "Dois países entraram em guerra por causa de um jogo de futebol.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "stadium"
   },
@@ -42,14 +36,11 @@
    ],
    "multidao": 8,
    "objetos": [
-    "buildings/house_small",
-    "kit/volcano",
-    "nature/picket_fence",
-    "nature/tree_oak"
+    "kit/volcano"
    ],
-   "palavras": 21,
+   "palavras": 18,
    "cena": "b1",
-   "frase": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
+   "frase": "Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigavam por terra e por imigrantes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -68,7 +59,7 @@
    ],
    "palavras": 17,
    "cena": "b2",
-   "frase": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
+   "frase": "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,31 +67,24 @@
    "cenario": "stadium"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "HON",
     "SAL"
    ],
-   "multidao": 30,
+   "multidao": 18,
    "objetos": [
     "buildings/house_small",
-    "kit/kettle",
     "kit/panela",
     "nature/picket_fence",
     "nature/tree_oak"
    ],
-   "palavras": 19,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
-   "classe": "chave",
+   "frase": "No primeiro, Honduras venceu por um a zero, em casa.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "stadium"
   },
@@ -114,10 +98,10 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 17,
+   "palavras": 15,
    "cena": "b4",
-   "frase": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
-   "classe": "simples",
+   "frase": "No segundo, El Salvador devolveu por três a zero, e a tensão explodiu nas ruas.",
+   "classe": "chave",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -131,9 +115,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b5",
-   "frase": "Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.",
+   "frase": "Acontece que, na véspera do terceiro jogo, El Salvador cortou relações com Honduras.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -149,12 +133,15 @@
    ],
    "multidao": 0,
    "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
     "kit/ball",
-    "kit/trave"
+    "kit/trave",
+    "nature/lamppost"
    ],
-   "palavras": 12,
+   "palavras": 17,
    "cena": "b6",
-   "frase": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
+   "frase": "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -169,12 +156,34 @@
    "multidao": 48,
    "objetos": [
     "kit/volcano",
-    "vehicles/airplane",
-    "vehicles/tank"
+    "vehicles/airplane"
    ],
-   "palavras": 13,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.",
+   "frase": "Semanas depois, o exército salvadorenho atacou Honduras.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "PRE"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b8",
+   "frase": "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -190,23 +199,6 @@
   {
    "camera": "two",
    "personagens": [
-    "SOL",
-    "PRE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b8",
-   "frase": "Durou cem horas. Os outros países do continente obrigaram os dois a parar.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "SAL"
    ],
    "multidao": 0,
@@ -214,9 +206,9 @@
     "kit/ball",
     "kit/trave"
    ],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b9",
-   "frase": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
+   "frase": "Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
