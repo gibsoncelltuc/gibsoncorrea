@@ -162,7 +162,9 @@
    "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "detalhe": false,
    "fachada": false,
-   "_auto_vis": 1
+   "_auto_vis": 3,
+   "d0": 15.0,
+   "d1": 14.0
   },
   {
    "shot": "group",

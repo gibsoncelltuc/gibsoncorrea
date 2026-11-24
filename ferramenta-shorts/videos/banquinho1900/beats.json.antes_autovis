@@ -134,7 +134,7 @@
    "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "jungle",
    "who": [
     "ASH:0:angry"
@@ -161,7 +161,10 @@
    "titulo": true,
    "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "detalhe": false,
-   "fachada": false
+   "fachada": false,
+   "_auto_vis": 2,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "group",
