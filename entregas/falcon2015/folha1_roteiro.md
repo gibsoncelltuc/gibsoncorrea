@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 ## Cena b3  (~4.5 s)
 - Narracao: As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.
 - Som ambiente: sea
-- Efeitos sonoros marcados: thump@40
+- Efeitos sonoros marcados: splash@30
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
-- Efeito visual marcado: burst@40, dust@70, puff@50
+- Efeito visual marcado: splash@30, puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -61,7 +61,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, thump@50
 - Efeito + som nas palavras-chave: encena: x_desce (point) @3 -> acao + som de efeito
-- Efeito visual marcado: stars@30, puff@50
+- Efeito visual marcado: whoosh@10, puff@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
@@ -70,7 +70,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, thump@60
 - Efeito + som nas palavras-chave: encena: x_desce (point) @1 -> acao + som de efeito; encena: x_abre (push) @3 -> acao + som de efeito
-- Efeito visual marcado: stars@20, puff@60
+- Efeito visual marcado: puff@60, dust@60
 - Texto na tela: POUSOU!
 - Funcao na historia: GRANDE MOMENTO
 
