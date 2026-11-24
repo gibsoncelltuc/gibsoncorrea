@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NED (variante 0, expressao nervous); NED (variante 1, expressao shock) | multidao: 0 de NED
 - Animacao: reagir
-- Objetos/modelos: kit/navio_vela, kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real
+- Objetos/modelos: kit/navio_vela, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): NED (variante 2, expressao pained) | multidao: 0 de NED
 - Animacao: encena
-- Objetos/modelos: ship, kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real
+- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, lugar, navios
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin)
 - Animacao: reagir
-- Objetos/modelos: kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real, navio em movimento
+- Objetos/modelos: navios de guerra ao fundo, no tamanho real, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota, marinheiros
 - RISCOS: nenhum
 
@@ -109,7 +109,6 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 ship | b0, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vela | b1 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_amsterdam | b1, b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 horse | b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
