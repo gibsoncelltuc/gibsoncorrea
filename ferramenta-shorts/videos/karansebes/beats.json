@@ -156,7 +156,7 @@
    "hora": "noite"
   },
   {
-   "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro.",
+   "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
    "shot": "group",
    "who": [
     "AUT:0:stern",
@@ -223,7 +223,7 @@
    "hora": "noite"
   },
   {
-   "say": "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.",
+   "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
    "shot": "two",
    "who": [
     "TUR:0:shock:spyglass",

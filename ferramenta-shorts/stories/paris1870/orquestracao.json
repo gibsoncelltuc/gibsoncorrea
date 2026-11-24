@@ -17,9 +17,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 24,
+   "palavras": 6,
    "cena": "b0",
-   "frase": "Paris já serviu elefante no jantar. Era mil oitocentos e setenta, a Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
+   "frase": "Paris já serviu elefante no jantar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -29,15 +29,33 @@
   {
    "camera": "reveal",
    "personagens": [
+    "PAR"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "buildings/house_two",
+    "kit/marco_notredame",
+    "nature/lamppost"
+   ],
+   "palavras": 18,
+   "cena": "b1",
+   "frase": "Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
     "PAR",
     "PAR"
    ],
-   "multidao": 8,
-   "objetos": [
-    "kit/marco_notredame"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 12,
-   "cena": "b1",
+   "cena": "b2",
    "frase": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -53,10 +71,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "barrel"
+    "barrel",
+    "kit/panela"
    ],
    "palavras": 8,
-   "cena": "b2",
+   "cena": "b3",
    "frase": "Depois, os roedores, que viraram um prato chique.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -77,7 +96,7 @@
     "nature/lamppost"
    ],
    "palavras": 9,
-   "cena": "b3",
+   "cena": "b4",
    "frase": "Quando acabou tudo, olharam para o zoológico da cidade.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -99,10 +118,27 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 14,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
    "classe": "simples",
    "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle",
+    "kit/panela"
+   ],
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "Depois, os ursos e os lobos do zoológico também foram parar na panela.",
+   "classe": "simples",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
@@ -114,9 +150,11 @@
     "PAR"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/panela"
+   ],
    "palavras": 16,
-   "cena": "b5",
+   "cena": "b7",
    "frase": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -125,15 +163,56 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "close",
    "personagens": [
     "PAR"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 8,
-   "cena": "b6",
+   "cena": "b8",
    "frase": "Tinha até gato servido com roedores em volta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/balloon_air"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "PAR"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "buildings/house_two",
+    "kit/balloon",
+    "kit/balloon_air",
+    "nature/lamppost"
+   ],
+   "palavras": 14,
+   "cena": "b10",
+   "frase": "Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -147,21 +226,15 @@
    "cenario": "arctic"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "PAR",
-    "PAR"
-   ],
-   "multidao": 6,
-   "objetos": [
-    "kit/balloon",
-    "kit/balloon_air"
-   ],
-   "palavras": 9,
-   "cena": "b7",
-   "frase": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b11",
+   "frase": "O cerco durou mais de quatro meses, num dos invernos mais frios daquela época.",
    "classe": "simples",
-   "sujeito": "personagem",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
@@ -172,9 +245,11 @@
     "PAR"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/panela"
+   ],
    "palavras": 19,
-   "cena": "b8",
+   "cena": "b12",
    "frase": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -190,7 +265,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b9",
+   "cena": "b13",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

@@ -5,7 +5,7 @@
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -24,11 +24,31 @@
     "nature/picket_fence",
     "nature/scarecrow"
    ],
-   "palavras": 29,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira. Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
+   "frase": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira.",
    "classe": "chave",
    "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "group",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b1",
+   "frase": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
+   "classe": "chave",
+   "sujeito": "cenario",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",
@@ -53,7 +73,7 @@
     "nature/tree_pine"
    ],
    "palavras": 22,
-   "cena": "b1",
+   "cena": "b2",
    "frase": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
    "classe": "explicativa",
    "sujeito": "personagem",
@@ -69,7 +89,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 11,
-   "cena": "b2",
+   "cena": "b3",
    "frase": "Um deles era um homem do campo, baixinho, chamado Simo Häyhä.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -85,7 +105,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b3",
+   "cena": "b4",
    "frase": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -101,7 +121,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 17,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -121,7 +141,7 @@
     "nature/picket_fence"
    ],
    "palavras": 22,
-   "cena": "b5",
+   "cena": "b6",
    "frase": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -130,24 +150,18 @@
    "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "SOV"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [],
    "palavras": 8,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "Os soviéticos passaram a chamá-lo de Morte Branca.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "mountain"
   },
@@ -160,7 +174,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 24,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -176,7 +190,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 20,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -192,7 +206,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

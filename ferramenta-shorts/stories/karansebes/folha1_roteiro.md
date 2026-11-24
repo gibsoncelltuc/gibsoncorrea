@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countryside | 12 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countryside | 12 cenas, 146 palavras (~50 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um exército inteiro conseguiu perder uma batalha contra si mesmo.
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Texto na tela: AGUARDENTE
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~7.6 s)
-- Narracao: Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro.
+## Cena b5  (~5.9 s)
+- Narracao: Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: x_entrega (reach) @19 -> acao + som de efeito; encena: atira @21 -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: atira @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~9.0 s)
-- Narracao: Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.
+## Cena b9  (~3.8 s)
+- Narracao: Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; baixas -> puff + som de baque; encena: chega (point) @5 -> acao + som de efeito; encena: olha (point) @9 -> acao + som de efeito; encena: sai @12 -> acao + som de efeito; encena: perde (facepalm) @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) @5 -> acao + som de efeito; encena: olha (point) @7 -> acao + som de efeito; encena: sai @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 10.000?
 - Funcao na historia: desenvolvimento

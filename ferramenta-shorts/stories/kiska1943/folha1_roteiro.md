@@ -5,9 +5,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 ## Cena b0  (~4.5 s)
 - Narracao: Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.
 - Som ambiente: sea
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: thump@25
 - Efeito + som nas palavras-chave: desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: dust@25
 - Texto na tela: KISKA 1943
 - Funcao na historia: GANCHO
 
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Antes do desembarque, bombardearam Kiska durante semanas.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@40, cannon@70, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: atira @3 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: atira @3 -> acao + som de efeito
 - Efeito visual marcado: burst@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

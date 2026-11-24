@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Gerado em 24/11 04:12 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:13 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,11 +11,11 @@ b1 | simples | countryside | orbit | AUT, HUS, AUT, OFF | 32 | - | - | Era o ex�
 b2 | simples | countryside | track | HUS, HUS | - | lantern | - | Numa noite, os hussardos foram na frente procurar o inimigo.
 b3 | simples | countryside | two | HUS, LOC | - | barrel, barrel_r | - | Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 b4 | simples | countryside | group | HUS, HUS | - | barrel, lantern | - | Compraram tudo, beberam, e a festa começou.
-b5 | simples | countryside | two | AUT, HUS, AUT | 5 | - | - | Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiser
+b5 | simples | countryside | two | AUT, HUS, AUT | 5 | - | - | Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividi
 b6 | chave | countryside | orbit | HUS | 18 | campfire, tent | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampam
 b7 | chave | countryside | crowd | AUT, AUT, HUS | 48 | house_small, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava 
 b8 | simples | countryside | group | OFF, AUT | 5 | cannon | - | Um oficial mandou usar a artilharia, e os canhões dispararam contra o 
-b9 | simples | countryside | two | TUR, TUR | 5 | barrel, crate, campfire, tent | - | Dois dias depois, os turcos chegaram de verdade, e acharam o acampamen
+b9 | simples | countryside | two | TUR, TUR | 5 | barrel, crate, campfire, tent | - | Dois dias depois, os turcos chegaram e acharam o acampamento abandonad
 b10 | simples | countryside | close | TUR, TUR | - | - | - | Os turcos venceram sem dar um único tiro.
 b11 | simples | countryside | two | AUT | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

@@ -30,14 +30,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: -
 - Objetos/modelos: kit/aviao_ww2, kit/tanque_ww2, navios de guerra ao fundo, no tamanho real, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios
-- RISCOS: 
-  - veiculo citado e nao aparece -> CORRECAO: "veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha
+- RISCOS: nenhum
 
 ## Cena b3 - Antes do desembarque, bombardearam Kiska durante semanas.
 - Cenario: arctic | luz: overcast | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 48 de USA
+- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 18 de USA
 - Animacao: encena | batalha encenada
 - Objetos/modelos: kit/canhao_moderno
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque
@@ -153,12 +152,9 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 9% | medio 66% | aberto 19% | detalhe 6%
 - Interacoes: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar
-- RISCOS GERAIS: 
-  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b2: veiculo citado e nao aparece
-- geral: 1 palavra(s) de acao sem efeito + som
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).

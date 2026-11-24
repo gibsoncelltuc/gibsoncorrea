@@ -2,10 +2,10 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: KISKA 1943 | desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | invadiram
+b0 | two | -  | placa: KISKA 1943 | desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
 b1 | group | -  | tropa, placa: 34.000 SOLDADOS, mapa | encena: chega (point) @16 (acao + som de efeito) | -
 b2 | reveal | -  | - | chegaram (dust + som de impacto); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
-b3 | crowd | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito); encena: atira @3 (acao + som de efeito); explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) (acao + som de efeito) | -
+b3 | crowd | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito); encena: atira @3 (acao + som de efeito) | -
 b4 | orbit | overcast neblina | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito); encena: x_desce (point) @6 (acao + som de efeito) | -
 b5 | two | overcast neblina | interior, placa: ILHA VAZIA | encena: sai @9 (acao + som de efeito) | -
 b6 | track | dia  | - | - | -
