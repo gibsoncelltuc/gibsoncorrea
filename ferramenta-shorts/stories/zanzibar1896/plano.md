@@ -2,18 +2,18 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1896 | - | -
+b0 | two | -  | placa: MENOS DE 1 HORA | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); correu (dust + som de impacto); encena: morre @2 (acao + som de efeito); encena: corre @9 (acao + som de efeito); encena: senta @15 (acao + som de efeito) | -
-b3 | group | -  | interior, objeto na mao | encena: fala (point) @12 (acao + som de efeito) | -
-b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 3.000 | tiros: 5 soldados caem no chao (acao + som de efeito); canhões (burst + som de tiro/explosao); encena: pega (lift) @3 (acao + som de efeito); encena: atira @9 (acao + som de efeito); encena: x_abre (push) @13 (acao + som de efeito) | -
-b5 | close | -  | interior | - | -
-b6 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | tiros: 5 soldados caem no chao (acao + som de efeito); fogo (burst + som de tiro/explosao); fogo (burst + som de tiro/explosao); encena: x_abre (push) @9 (acao + som de efeito); encena: pega (lift) @20 (acao + som de efeito) | -
-b7 | track | -  | - | fugiu (dust + som de impacto); encena: corre @2 (acao + som de efeito); encena: fala (point) @9 (acao + som de efeito) | -
-b8 | two | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto); canhões (burst + som de tiro/explosao); encena: atira @11 (acao + som de efeito) | -
-b9 | group | -  | objeto na mao | encena: pega (lift) @9 (acao + som de efeito) | -
-b10 | close | -  | interior | balas (burst + som de tiro/explosao); encena: fala (point) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
+b2 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @2 (acao + som de efeito); encena: chega (point) @6 (acao + som de efeito) | -
+b3 | wide | -  | tropa, objeto na mao | encena: x_entrega (reach) @2 (acao + som de efeito) | -
+b4 | reveal | -  | tropa, placa: 2.800 | encena: chega (point) @2 (acao + som de efeito); encena: x_abre (push) @13 (acao + som de efeito) | -
+b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 9:02 | fogo (burst + som de tiro/explosao) | -
+b6 | two | -  | tropa | - | -
+b7 | orbit | -  | batalha aberta com tiros, tropa, interior | encena: fala (point) @3 (acao + som de efeito) | -
+b8 | two | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto) | -
+b9 | two | -  | tropa, interior, placa: OUTRO SULTÃO | pagaram (stars + som de sino); encena: pega (lift) @2 (acao + som de efeito); encena: negocio (reach) @12 (acao + som de efeito); encena: atira @14 (acao + som de efeito) | -
+b10 | close | -  | interior | encena: fala (point) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 21% | medio 65% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 16% | medio 56% | aberto 25% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | dentro do padrao do canal

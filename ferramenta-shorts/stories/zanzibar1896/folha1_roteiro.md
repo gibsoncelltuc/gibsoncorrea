@@ -1,112 +1,115 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 12 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 153 palavras (~53 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: A guerra mais curta da história durou menos que um almoço.
-- Som ambiente: birds
+## Cena b0  (~5.2 s)
+- Narracao: Uma guerra durou menos de uma hora, e é considerada a mais curta da história.
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 1896
+- Texto na tela: MENOS DE 1 HORA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.1 s)
-- Narracao: Era em Zanzibar, uma ilha da costa da África, controlada pela Inglaterra.
-- Som ambiente: birds
+## Cena b1  (~5.5 s)
+- Narracao: Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa.
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ZANZIBAR
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~7.2 s)
-- Narracao: O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.
+## Cena b2  (~4.1 s)
+- Narracao: O sultão morreu, e um primo ocupou o palácio sem pedir licença.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; correu -> dust + som de impacto; encena: morre @2 -> acao + som de efeito; encena: corre @9 -> acao + som de efeito; encena: senta @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @2 -> acao + som de efeito; encena: chega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.8 s)
-- Narracao: Os ingleses não gostaram. "Saia do palácio até as nove da manhã", avisaram eles.
-- Som ambiente: silencio/sala
+## Cena b3  (~4.5 s)
+- Narracao: Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.5 s)
-- Narracao: O novo sultão juntou quase três mil homens, alguns canhões velhos, e se trancou lá dentro.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; canhões -> burst + som de tiro/explosao; encena: pega (lift) @3 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito; encena: x_abre (push) @13 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: 3.000
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b5  (~2.1 s)
-- Narracao: "Eles não vão atirar", disse ele.
+- Narracao: O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: x_abre (push) @13 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: 2.800
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~3.8 s)
+- Narracao: Acontece que, às nove e dois, os navios ingleses abriram fogo.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: cannon@30, cannon@50
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao
+- Efeito visual marcado: burst@25, puff@30, burst@45, puff@50
+- Texto na tela: 9:02
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b6  (~5.2 s)
+- Narracao: O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: cannon@20, thump@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~7.6 s)
-- Narracao: Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; fogo -> burst + som de tiro/explosao; fogo -> burst + som de tiro/explosao; encena: x_abre (push) @9 -> acao + som de efeito; encena: pega (lift) @20 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: 9:02
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b7  (~5.2 s)
-- Narracao: O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha.
-- Som ambiente: sea
+## Cena b7  (~3.1 s)
+- Narracao: O sultão foi pedir abrigo no consulado da Alemanha.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito; encena: fala (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.5 s)
-- Narracao: Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
+## Cena b8  (~3.8 s)
+- Narracao: Por volta das nove e quarenta, a bandeira do palácio caiu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; canhões -> burst + som de tiro/explosao; encena: atira @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.8 s)
-- Narracao: Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.
+## Cena b9  (~5.2 s)
+- Narracao: Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagaram -> stars + som de sino; encena: pega (lift) @2 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: OUTRO SULTÃO
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~3.1 s)
-- Narracao: E ainda mandaram a conta das balas para Zanzibar.
+## Cena b10  (~2.4 s)
+- Narracao: E ainda mandaram a conta das balas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao; encena: fala (point) @2 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/Anglo-Zanzibar_War

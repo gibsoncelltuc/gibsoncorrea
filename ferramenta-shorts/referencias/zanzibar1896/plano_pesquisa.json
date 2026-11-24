@@ -6,8 +6,18 @@
    "tipo": "tema",
    "item": "A Guerra de 38 Minutos",
    "consultas": [
+    "Anglo-Zanzibar War 1896 Stone Town palace bombardment",
     "A Guerra de 38 Minutos",
-    "Era Zanzibar Inglaterra 1896"
+    "Uma Foi Zanzibar 1896"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles",
+   "consultas": [
+    "Stone Town Zanzibar sultan palace 1896",
+    "Palacio do sultao em Stone Town Zanzibar e o porto com navios de guerra ingleses",
+    "Palacio do sultao em Stone Town Zanzibar e o porto com navios de guerra ingleses 1896"
    ]
   },
   {
@@ -27,10 +37,74 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "cannon",
+   "tipo": "pessoas",
+   "item": "sultao Khalid bin Barghash e guardas zanzibaris",
    "consultas": [
-    "cannon",
+    "sultao Khalid bin Barghash e guardas zanzibaris",
+    "sultao Khalid bin Barghash e guardas zanzibaris 1896"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "oficiais e marinheiros da Marinha Real britanica",
+   "consultas": [
+    "oficiais e marinheiros da Marinha Real britanica",
+    "oficiais e marinheiros da Marinha Real britanica 1896"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "consul britanico Basil Cave",
+   "consultas": [
+    "consul britanico Basil Cave",
+    "consul britanico Basil Cave 1896"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "consul da Alemanha",
+   "consultas": [
+    "consul da Alemanha",
+    "consul da Alemanha 1896"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio de guerra britanico",
+   "consultas": [
+    "navio de guerra britanico",
+    "navio de guerra britanico 1896"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "canhao antigo",
+   "consultas": [
+    "canhao antigo",
+    "canhao antigo 1896"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bandeira do sultao",
+   "consultas": [
+    "bandeira do sultao",
+    "bandeira do sultao 1896"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "palacio de madeira em chamas",
+   "consultas": [
+    "palacio de madeira em chamas",
+    "palacio de madeira em chamas 1896"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "navio vapor",
+   "consultas": [
+    "navio de guerra britanico",
     "A Guerra de 38 Minutos"
    ]
   },
@@ -40,6 +114,14 @@
    "consultas": [
     "ship 1896",
     "ship"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira",
+   "consultas": [
+    "palacio pegou artilharia sultao calada bandeira",
+    "forte colonial diagram"
    ]
   }
  ]

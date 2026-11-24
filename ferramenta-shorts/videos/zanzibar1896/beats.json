@@ -5,7 +5,7 @@
  "ep": 8,
  "title": "A Guerra de 38 Minutos",
  "titulo_base": "A Guerra de 38 Minutos",
- "set": "palace",
+ "set": "harbor",
  "light": "day",
  "mood": "march",
  "outfits": {
@@ -55,6 +55,16 @@
     "cap"
    ],
    "cap": "#f1ece0"
+  },
+  "ING2": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#f1efe6",
+   "belt": "#8a5a34",
+   "buttons": "#e8c45a",
+   "rifle": false
   }
  },
  "beats": [
@@ -64,8 +74,9 @@
     "SUL:0:stern",
     "GUA:0:stern"
    ],
-   "text": "1896",
-   "say": "A guerra mais curta da história durou menos que um almoço."
+   "text": "MENOS DE 1 HORA",
+   "say": "Uma guerra durou menos de uma hora, e é considerada a mais curta da história.",
+   "tat": 6
   },
   {
    "shot": "two",
@@ -75,25 +86,87 @@
    ],
    "mapa": "ZANZIBAR",
    "mapa_at": 3,
-   "say": "Era em Zanzibar, uma ilha da costa da África, controlada pela Inglaterra."
+   "say": "Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa."
   },
   {
    "shot": "two",
    "who": [
     "SUL:0:grin",
-    "GUA:1:stern"
+    "GUA:0:stern"
    ],
    "interior": "pedra",
-   "say": "O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.",
-   "riscos_ok": true
+   "say": "O sultão morreu, e um primo ocupou o palácio sem pedir licença.",
+   "riscos_ok": true,
+   "acao": "conversar",
+   "batalha": false,
+   "tiros": false,
+   "props": [
+    [
+     "kit/throne",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/throne",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "ALM:0:stern:paper",
-    "ING:0:stern"
+    "ALM:0:stern:paper"
    ],
-   "say": "Os ingleses não gostaram. \"Saia do palácio até as nove da manhã\", avisaram eles."
+   "say": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
+   "props": [
+    [
+     "kit/navio_vapor",
+     0.0,
+     -25.7,
+     2.25,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vapor (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_vapor",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "reveal",
@@ -109,52 +182,124 @@
     ],
     "march": true
    },
-   "text": "3.000",
+   "text": "2.800",
    "titulo": true,
-   "say": "O novo sultão juntou quase três mil homens, alguns canhões velhos, e se trancou lá dentro."
+   "say": "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.",
+   "batalha": false,
+   "tiros": false
   },
   {
-   "shot": "close",
-   "who": [
-    "SUL:0:grin"
-   ],
-   "interior": "pedra",
-   "say": "\"Eles não vão atirar\", disse ele."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "ING:0:stern",
-    "GUA:0:shock"
-   ],
-   "batalha": true,
-   "crowd": {
-    "n": 20,
-    "outfits": [
-     "ING",
-     "GUA"
-    ],
-    "march": false,
-    "expr": "shock"
-   },
    "text": "9:02",
    "titulo": true,
-   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.",
-   "set": "palace"
+   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
+   "sfx": [
+    "cannon@30",
+    "cannon@50"
+   ],
+   "fx": [
+    "burst@25",
+    "puff@30",
+    "burst@45",
+    "puff@50"
+   ],
+   "props": [
+    [
+     "kit/navio_vapor_guerra",
+     0.0,
+     -30.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     -2.0,
+     -3.5,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     2.0,
+     -3.5,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "harbor",
+   "shot": "wide",
+   "who": [],
+   "crowd": {
+    "n": 0
+   },
+   "fachada": false,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -10.0,
+   "h": 4.0,
+   "d0": 22.0,
+   "d1": 20.0,
+   "riscos_ok": true,
+   "tiros": true
   },
   {
-   "shot": "track",
+   "say": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.",
+   "sfx": [
+    "cannon@20",
+    "thump@60"
+   ],
+   "explica": {
+    "objeto": "kit/forte_colonial",
+    "rotulos": [
+     [
+      "PALACIO EM CHAMAS",
+      "cima",
+      "palácio"
+     ],
+     [
+      "BANDEIRA CAIU",
+      "baixo",
+      "bandeira"
+     ]
+    ],
+    "vfx": [
+     {
+      "k": "fogo",
+      "na": "fogo",
+      "pts": "topo",
+      "pot": 2
+     },
+     {
+      "k": "onda",
+      "na": "calada"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
    "who": [
     "SUL:0:shock",
-    "GUA:1:shock"
+    "ALM:0:smile"
    ],
-   "say": "O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha."
+   "say": "O sultão foi pedir abrigo no consulado da Alemanha.",
+   "interior": "madeira",
+   "crowd": {
+    "n": 0
+   },
+   "batalha": false,
+   "tiros": false
   },
   {
    "shot": "two",
    "who": [
     "GUA:0:pained:flag",
-    "ING:1:stern"
+    "ING2:0:stern"
    ],
    "fx": [
     "dust@40"
@@ -163,24 +308,121 @@
     "thump@40"
    ],
    "text": "9:40",
-   "say": "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam."
+   "say": "Por volta das nove e quarenta, a bandeira do palácio caiu.",
+   "batalha": false,
+   "tiros": false,
+   "interior": "madeira",
+   "verbos_ok": [
+    "caiu"
+   ]
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "ALM:0:smile:paper",
-    "ING:0:grin",
-    "POV:0:nervous"
+    "SUL:0:smile",
+    "ING2:0:grin"
    ],
-   "say": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
+   "say": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
+   "text": "OUTRO SULTÃO",
+   "titulo": true,
+   "batalha": false,
+   "tiros": false,
+   "interior": "pedra",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/throne",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/throne",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "close",
    "who": [
     "ALM:0:grin"
    ],
-   "say": "E ainda mandaram a conta das balas para Zanzibar."
+   "say": "E ainda mandaram a conta das balas."
   }
  ],
- "exp": 0.9
+ "exp": 0.9,
+ "duracao_ok": true,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+ ],
+ "visual": {
+  "local": "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses",
+  "quando": "27 de agosto de 1896, manha, entre 9h00 e 9h40",
+  "participantes": [
+   "sultao Khalid bin Barghash e guardas zanzibaris",
+   "oficiais e marinheiros da Marinha Real britanica",
+   "consul britanico Basil Cave",
+   "consul da Alemanha"
+  ],
+  "roupas": {
+   "SUL": "tunica branca, turbante e capa de sultao",
+   "GUA": "guarda zanzibari de camisa clara e turbante",
+   "ING": "marinheiro britanico de farda branca e azul",
+   "ALM": "diplomata alemao de terno claro"
+  },
+  "cenario": "palacio de madeira do sultao em Stone Town, porto com cruzadores e canhoneiras britanicas, 1896",
+  "objetos": [
+   "navio de guerra britanico",
+   "canhao antigo",
+   "bandeira do sultao",
+   "palacio de madeira em chamas"
+  ],
+  "explicacoes": [
+   "O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Guerra Anglo-Zanzibar (27/8/1896): navios da Royal Navy bombardearam o palacio do sultao Khalid a partir das 9h02; o palacio pegou fogo, a artilharia foi silenciada e a bandeira derrubada; cessar-fogo por volta das 9h40 (fonte: Wikipedia, Anglo-Zanzibar War)."
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+   "https://commons.wikimedia.org/wiki/Category:Anglo-Zanzibar_War"
+  ],
+  "buscas": {
+   "A Guerra de 38 Minutos": "Anglo-Zanzibar War 1896 Stone Town palace bombardment",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "Stone Town Zanzibar sultan palace 1896"
+  },
+  "referencias": {
+   "A Guerra de 38 Minutos": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "Zanzibar": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "roupas e ruas de 1896": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "sultao Khalid bin Barghash e guardas zanzibaris": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "oficiais e marinheiros da Marinha Real britanica": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "consul britanico Basil Cave": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "consul da Alemanha": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "navio de guerra britanico": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "canhao antigo": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "bandeira do sultao": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "palacio de madeira em chamas": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "navio da epoca": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)"
+  }
+ },
+ "max_wide": 4,
+ "heroi": "kit/navio_vapor"
 }
