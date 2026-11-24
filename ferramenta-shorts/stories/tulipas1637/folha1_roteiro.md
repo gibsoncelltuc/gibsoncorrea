@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 149 palavras (~51 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma única flor já custou o preço de uma casa inteira.
@@ -20,11 +20,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: - | mapa: HOLANDA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~7.6 s)
-- Narracao: Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por um bulbo, e outro gritava que pagava duas mil.
+## Cena b2  (~4.8 s)
+- Narracao: Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; moedas -> stars + som de sino; gritava -> ring + som de alerta; encena: negocio (reach) @7 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito; encena: grita (up) @17 -> acao + som de efeito; encena: paga (reach) @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito; encena: paga (reach) @5 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -38,20 +38,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: TODO MUNDO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~6.2 s)
-- Narracao: Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos.
+## Cena b4  (~3.8 s)
+- Narracao: Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.5 s)
-- Narracao: Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna.
+## Cena b5  (~4.8 s)
+- Narracao: Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (eat) @4 -> acao + som de efeito; encena: paga (reach) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (eat) @4 -> acao + som de efeito; encena: paga (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

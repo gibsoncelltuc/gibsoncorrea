@@ -61,7 +61,7 @@
    ]
   },
   {
-   "say": "Era mil oitocentos e trinta e cinco, e o inglês Charles Darwin chegou às ilhas Galápagos, a bordo do navio Beagle.",
+   "say": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
    "shot": "reveal",
    "who": [
     "MAR:0:neutral",
@@ -79,7 +79,7 @@
    "mapa_at": 2
   },
   {
-   "say": "Ele passou semanas coletando animais, plantas e uns passarinhos pequenos, de ilha em ilha.",
+   "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha.",
    "shot": "two",
    "who": [
     "DAR:0:neutral:bag",
@@ -96,7 +96,7 @@
    "set": "harbor"
   },
   {
-   "say": "Darwin achou que eram aves bem diferentes entre si, e nem anotou de qual ilha vinha cada uma.",
+   "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
    "shot": "two",
    "who": [
     "DAR:0:suspicious:paper",
@@ -106,7 +106,7 @@
    "set": "harbor"
   },
   {
-   "say": "De volta à Inglaterra, o especialista John Gould revelou que eram todos tentilhões, de espécies diferentes.",
+   "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
    "shot": "two",
    "interior": "pedra",
    "who": [
@@ -147,7 +147,7 @@
    ]
   },
   {
-   "say": "Acontece que Darwin entendeu que, em cada ilha, o bico tinha mudado de acordo com a comida.",
+   "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
    "shot": "orbit",
    "who": [
     "DAR:0:shock",
@@ -213,7 +213,7 @@
    ]
   },
   {
-   "say": "Essa ideia foi a seleção natural, e ele publicou o livro em mil oitocentos e cinquenta e nove.",
+   "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -221,51 +221,6 @@
     "GOU:0:laugh"
    ],
    "acao": "comemorar"
-  },
-  {
-   "say": "A ideia virou a base da biologia moderna, e mostra como a vida muda ao longo do tempo.",
-   "shot": "crowd",
-   "who": [
-    "DAR:0:laugh",
-    "GOU:0:laugh"
-   ],
-   "impact": true,
-   "tiros": false,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "MAR",
-     "POV",
-     "GOU"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "props": [
-    [
-     "kit/finch_thick",
-     -1.4,
-     0.8,
-     1.5
-    ],
-    [
-     "kit/finch_long",
-     1.4,
-     0.8,
-     1.5
-    ]
-   ],
-   "text": "EVOLUÇÃO",
-   "fx": [
-    "stars@30",
-    "burst@70"
-   ],
-   "sfx": [
-    "ding@30",
-    "sting@70"
-   ],
-   "acao": "comemorar",
-   "set": "street"
   },
   {
    "say": "No fim, o erro das etiquetas virou um acerto de bico.",

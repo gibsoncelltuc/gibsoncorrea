@@ -11,7 +11,7 @@ b3 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | kit/golden_sto
 b4 | countryside | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b5 | jungle | crowd | 22 | encena, batalha | buildings/castle_tower | - | -
 b6 | jungle | orbit | 22 | encena, batalha | - | - | -
-b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
+b7 | interior pedra | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool | - | -
 b9 | countryside | close | 1 | conversar | kit/golden_stool | - | -
 b10 | countryside | two | 1 | conversar | - | - | -

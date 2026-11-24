@@ -22,14 +22,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chegar, holanda, moda, oriente, tulipa
 - RISCOS: nenhum
 
-## Cena b2 - Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por...
+## Cena b2 - Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas m...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): RIC (variante 0, expressao stern, segura coin); RIC (variante 1, expressao shock, segura coin)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/tulip_striped, kit/coin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulbo, oferecia, ricos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulbo, oferecia
 - RISCOS: nenhum
 
 ## Cena b3 - Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que...
@@ -42,24 +42,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b4 - Ninguém queria a flor de verdade. Queriam vender o papel mais caro na ...
+## Cena b4 - Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 2, expressao grin, segura paper); POV (variante 3, expressao smile, segura coin)
 - Animacao: discutir | interacao: reverencia
 - Objetos/modelos: kit/tulip_yellow, kit/tulip_purple
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): flor, papel, semana
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): flor, semana
 - RISCOS: nenhum
 
-## Cena b5 - Contam que um marinheiro comeu um bulbo no almoço, achando que era ceb...
+## Cena b5 - Contam que um marinheiro comeu um bulbo achando que era cebola. Valia ...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MAR (variante 0, expressao smile, segura tulip); MER (variante 0, expressao shock)
 - Animacao: discutir | interacao: aproxima-se
 - Objetos/modelos: kit/tulip_red
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almoco, bulbo, fortuna, marinheiro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulbo, fortuna, marinheiro
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e n...
@@ -129,7 +129,7 @@ kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 15% | medio 70% | aberto 12% | detalhe 3%
+- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 17% | medio 68% | aberto 13% | detalhe 2%
 - Interacoes: b0 susto, b2 discutir, b4 reverencia, b5 aproxima-se, b6 vai ate o outro, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

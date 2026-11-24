@@ -12,7 +12,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, planeta, quimico
 - RISCOS: nenhum
 
-## Cena b1 - Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados ...
+## Cena b1 - Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -22,10 +22,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados
 - RISCOS: nenhum
 
-## Cena b2 - Spencer Silver tentava criar uma super cola, tão forte que nada conseg...
+## Cena b2 - Spencer Silver tentava criar uma super cola.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (1): SIL (variante 0, expressao grin, segura paper)
 - Animacao: encena
 - Objetos/modelos: -
@@ -52,14 +52,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b5 - Em mil novecentos e setenta e quatro, o colega Art Fry cantava no cora...
+## Cena b5 - Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igre...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): FRY (variante 0, expressao sad); PAD (variante 0, expressao smile); POV (variante 0, expressao smile) | multidao: 4 de POV
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colega, coral, igreja
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coral, igreja
 - RISCOS: nenhum
 
 ## Cena b6 - Os papeizinhos que marcavam o hinário viviam caindo.
@@ -82,37 +82,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola
 - RISCOS: nenhum
 
-## Cena b8 - Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de ...
+## Cena b8 - O papel saiu amarelo por acaso: era o único de rascunho à mão.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): FRY (variante 0, expressao grin); SIL (variante 0, expressao laugh)
 - Animacao: conversar | interacao: abracar
 - Objetos/modelos: kit/postit
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, papel, rascunho
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papel, rascunho
 - RISCOS: nenhum
 
-## Cena b9 - O primeiro teste de vendas fracassou.
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (2): CHE (variante 0, expressao suspicious); FRY (variante 0, expressao nervous, segura paper)
-- Animacao: conversar | interacao: susto
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vendas
-- RISCOS: nenhum
-
-## Cena b10 - Então distribuíram amostras de graça numa cidade, e quase todos quiser...
-- Cenario: street | luz: day | clima: limpo
+## Cena b9 - Então distribuíram amostras de graça, e quase todos quiseram comprar.
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): FRY (variante 0, expressao laugh); SIL (variante 0, expressao grin); CHE (variante 0, expressao laugh) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/postit, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): graca
 - RISCOS: nenhum
 
-## Cena b11 - Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma c...
+## Cena b10 - Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma c...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -122,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, lojas, postit
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -137,21 +127,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/postit | b0, b6, b7, b8, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/postit | b0, b6, b7, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 27% | medio 54% | aberto 15% | detalhe 5%
-- Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar, b9 susto
-- RISCOS GERAIS: 
-  - video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- Objeto heroi: kit/postit | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 31% | medio 48% | aberto 16% | detalhe 5%
+- Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh postit1968 bN bM` (so essas cenas).

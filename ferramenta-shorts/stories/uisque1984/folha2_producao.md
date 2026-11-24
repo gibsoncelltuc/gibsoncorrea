@@ -12,24 +12,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, dinamarca
 - RISCOS: nenhum
 
-## Cena b1 - A ilha Hans é um pedaço de rocha gelada e sem gente, no mar entre o Ca...
+## Cena b1 - A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlân...
 - Cenario: arctic | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CAN (variante 0, expressao neutral); DIN (variante 0, expressao neutral) | multidao: 0 de CAN
 - Animacao: -
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, groenlandia, ilha, pedaco, rocha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, groenlandia, ilha, rocha
 - RISCOS: nenhum
 
-## Cena b2 - Os dois países achavam que ela era sua, mas ninguém queria começar uma...
+## Cena b2 - Os dois países diziam que a ilha era sua, mas ninguém queria guerra de...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): CAN (variante 0, expressao angry); DIN (variante 0, expressao angry)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, ilha
 - RISCOS: nenhum
 
 ## Cena b3 - Em mil novecentos e oitenta e quatro, soldados canadenses desembarcara...
@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, dinamarqueses
 - RISCOS: nenhum
 
-## Cena b6 - E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado d...
+## Cena b6 - E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.
 - Cenario: arctic | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): DIN (variante 0, expressao grin, segura paper); CAN (variante 0, expressao shock)
 - Animacao: reagir | interacao: entregar
 - Objetos/modelos: kit/whisky, barrel, kit/tequila_bolt
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aguardente, bilhete, garrafa, ilha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aguardente, bilhete, boasvindas, garrafa
 - RISCOS: nenhum
 
 ## Cena b7 - Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa...
@@ -82,10 +82,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
-## Cena b8 - Em dois mil e vinte e dois, os países enfim dividiram a ilha quase ao ...
+## Cena b8 - Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PRE (variante 0, expressao relief, segura paper); MIN (variante 0, expressao smile)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
@@ -125,7 +125,7 @@ barrel | b6 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 12% | medio 69% | aberto 13% | detalhe 6%
+- Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 13% | medio 69% | aberto 12% | detalhe 6%
 - Interacoes: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b8 entregar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py uisque1984  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/uisque1984/moodboard.jpg

@@ -1,24 +1,23 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Gerado em 24/11 10:18 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:23 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | PES, JOR | - | curie_box, marco_eiffel | - | Existem cadernos tão perigosos que só podem ser lidos com roupa de pro
-b1 | transicao | loc_campo | reveal | POV, POV | 6 | marco_eiffel | - | Era mil oitocentos e noventa e oito, em Paris, na França.
+b1 | chave | loc_campo | crowd | POV, POV | 6 | marco_eiffel | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e noventa e oito, em Paris, na França.
 b2 | simples | interior madeira | two | MAR, PIE | - | - | - | Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.
 b3 | simples | interior madeira | group | MAR, PIE | - | curie_box | - | Mexendo em toneladas de minério, eles descobriram dois elementos novos
-b4 | simples | interior madeira | close | MAR | - | curie_box | - | O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olha
+b4 | simples | interior madeira | close | MAR | - | curie_box | - | O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.
 b5 | simples | interior madeira | two | MAR, PIE | - | - | - | Ela carregava frascos no bolso. Ninguém sabia do perigo.
-b6 | chave | loc_campo | crowd | MAR, PIE, JOR | 18 | marco_eiffel | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu
-b7 | simples | loc_campo | two | MAR | - | - | - | Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mi
-b8 | simples | interior pedra | two | PES, JOR | - | crate, curie_box | - | Mas os cadernos dela continuam radioativos até hoje, guardados em caix
+b6 | chave | loc_deserto | crowd | MAR, PIE, JOR | 18 | marco_eiffel | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu
+b7 | simples | loc_deserto | two | MAR | - | - | - | Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos
+b8 | simples | interior pedra | two | PES, JOR | - | crate, curie_box | - | Mas os cadernos dela continuam radioativos, guardados em caixas de chu
 b9 | simples | interior pedra | low | PES | - | curie_box | - | Para ler, é preciso assinar um termo e usar roupa de proteção.
-b10 | chave | loc_montanha | orbit | POV, POV, PES | 16 | curie_box, marco_eiffel, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o rádio leva cerca de mil e seiscentos anos só para perder metade da
-b11 | simples | loc_montanha | close | MAR | - | curie_box | - | Ou seja: os cadernos vão continuar radioativos por séculos.
-b12 | simples | loc_campo | close | PES | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b10 | simples | loc_montanha | close | MAR | - | curie_box | - | Ou seja: os cadernos vão continuar radioativos por séculos.
+b11 | simples | loc_campo | close | PES | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

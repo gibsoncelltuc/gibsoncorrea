@@ -8,8 +8,8 @@
   "luz_base": "day",
   "cenarios": [
    "hall",
-   "interior hospital",
    "interior madeira",
+   "interior pedra",
    "loc_campo",
    "loc_montanha"
   ],
@@ -46,17 +46,20 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/gosma",
-  "kit/maca",
   "kit/marco_bigben",
   "kit/microscopio",
   "kit/petri",
-  "kit/room_hospital",
-  "kit/room_verde_wood",
+  "kit/room_europa_wood",
+  "kit/room_verde_stone",
   "mk/Barrel",
   "mk/Bed_Twin1",
+  "mk/Bookcase_2",
   "mk/Cabinet",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
   "mk/Nightstand_Shelf",
-  "mk/Stool"
+  "mk/Stool",
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas",

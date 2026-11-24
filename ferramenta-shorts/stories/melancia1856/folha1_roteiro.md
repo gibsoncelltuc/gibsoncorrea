@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 171 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 152 palavras (~52 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.
@@ -11,11 +11,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 1856
 - Funcao na historia: GANCHO
 
-## Cena b1  (~8.6 s)
-- Narracao: Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente.
+## Cena b1  (~5.9 s)
+- Narracao: Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: chega (point) @8 -> acao + som de efeito; encena: paga (reach) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: chega (point) @8 -> acao + som de efeito; encena: paga (reach) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: PANAMÁ
 - Funcao na historia: desenvolvimento
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.9 s)
-- Narracao: Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo.
+## Cena b4  (~4.1 s)
+- Narracao: Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: confusão -> puff + som de baque
@@ -74,10 +74,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b8  (~6.9 s)
-- Narracao: Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabou pagando uma indenização enorme aos americanos.
+## Cena b8  (~4.8 s)
+- Narracao: O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140
 - Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -

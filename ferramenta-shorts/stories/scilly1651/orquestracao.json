@@ -35,9 +35,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 18,
+   "palavras": 16,
    "cena": "b0",
-   "frase": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi uma guerra sem batalhas.",
+   "frase": "Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém deu um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -52,9 +52,9 @@
    ],
    "multidao": 8,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 15,
    "cena": "b1",
-   "frase": "Dizem que tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
+   "frase": "Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -72,9 +72,9 @@
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Piratas das ilhas atacavam navios holandeses, e a Holanda, que vivia do comércio, ficou furiosa.",
+   "frase": "Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -98,23 +98,17 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b3",
-   "frase": "Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.",
-   "classe": "chave",
+   "frase": "A Holanda mandou navios de guerra e exigiu o dinheiro de volta.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "MAR",
     "MAR"
@@ -163,9 +157,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "A guerra seguiu esquecida por mais de trezentos anos, sem um único tiro.",
+   "frase": "A guerra seguiu esquecida por mais de trezentos anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -180,9 +174,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
+   "palavras": 15,
    "cena": "b7",
-   "frase": "Em mil novecentos e oitenta e cinco, um historiador das ilhas perguntou à Holanda se a guerra ainda valia.",
+   "frase": "Em mil novecentos e oitenta e cinco, um historiador perguntou se a guerra ainda valia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -216,9 +210,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b9",
-   "frase": "Os dois fizeram a paz num tratado, e a guerra de 335 anos terminou.",
+   "frase": "Os dois assinaram a paz, e a guerra de 335 anos acabou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -234,9 +228,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b10",
-   "frase": "Foi a guerra mais longa e mais calma da história, dizem.",
+   "frase": "A guerra mais longa e mais calma da história.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

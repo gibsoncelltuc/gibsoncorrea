@@ -12,7 +12,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, cientista
 - RISCOS: nenhum
 
-## Cena b1 - Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando a...
+## Cena b1 - Karl von Frisch, da Áustria, passou a vida estudando abelhas.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -32,17 +32,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, colmeia, jardim, vidro
 - RISCOS: nenhum
 
-## Cena b3 - Depois pintou pontinhos coloridos nas costas das abelhas, para saber q...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): FRI (variante 0, expressao grin, segura paper); ASS (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/bee, kit/beehive
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, costas
-- RISCOS: nenhum
-
-## Cena b4 - Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava...
+## Cena b3 - Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -52,17 +42,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, acucar, favo
 - RISCOS: nenhum
 
-## Cena b5 - Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia u...
+## Cena b4 - Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): FRI (variante 0, expressao stern); COL (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/beehive, kit/bee
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, oito
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oito
 - RISCOS: nenhum
 
-## Cena b6 - E o mais incrível: o ângulo da rebolada mostrava a direção, comparada ...
+## Cena b5 - E o mais incrível: o ângulo da rebolada mostrava a direção, comparada ...
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -72,27 +62,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, direcao, rebolada
 - RISCOS: nenhum
 
-## Cena b7 - Quanto mais tempo ela rebolava, mais longe estava a comida. Era um map...
+## Cena b6 - Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): FRI (variante 0, expressao laugh); ASS (variante 0, expressao grin)
 - Animacao: dancar | interacao: entregar
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, danca, mapa
 - RISCOS: nenhum
 
-## Cena b8 - Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada...
+## Cena b7 - Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): COL (variante 0, expressao laugh); FRI (variante 0, expressao nervous, segura paper)
-- Animacao: discutir | interacao: empurrar
+- Animacao: discutir | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): linguagem
 - RISCOS: nenhum
 
-## Cena b9 - Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
+## Cena b8 - Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -102,17 +92,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, testes
 - RISCOS: nenhum
 
-## Cena b10 - Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobe...
+## Cena b9 - Já idoso, ele ganhou o Prêmio Nobel.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): FRI (variante 0, expressao laugh); ASS (variante 0, expressao laugh); COL (variante 0, expressao grin) | multidao: 4 de POV
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): premio
 - RISCOS: nenhum
 
-## Cena b11 - Da próxima vez que vir uma abelha, lembre: ela pode estar contando um ...
+## Cena b10 - Da próxima vez que vir uma abelha, lembre: ela pode estar contando um ...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -122,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, proxima, segredo
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -137,13 +127,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/beehive | b0, b1, b2, b3, b4, b5, b6, b7, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/bee | b0, b2, b3, b4, b5, b6, b7, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/beehive | b0, b1, b2, b3, b4, b5, b6, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bee | b0, b2, b3, b4, b5, b6, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/beehive | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 18% | medio 69% | aberto 9% | detalhe 4%
-- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 discutir, b7 entregar, b8 empurrar, b10 pular
+- Objeto heroi: kit/beehive | grandes momentos: b2, b8 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 10% | detalhe 5%
+- Interacoes: b0 avanca e o outro recua, b4 discutir, b6 entregar, b7 o outro se aproxima, b9 pular
 - RISCOS GERAIS: 
   - video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: 7 item(ns) sem referencia visual: As Abelhas que Dançam um Mapa, Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim, colegas cientistas desconfiados, colmeia de vid -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}

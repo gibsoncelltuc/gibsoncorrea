@@ -22,30 +22,30 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados
 - RISCOS: nenhum
 
-## Cena b2 - A borracha estava na moda, mas tinha um defeito: no calor, derretia e ...
+## Cena b2 - A borracha estava na moda, mas derretia no calor e rachava no frio.
 - Cenario: street | luz: desert | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GOO (variante 0, expressao sad); POV (variante 0, expressao angry) | multidao: 12 de POV
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/stove
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, defeito, frio, moda
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio, moda
 - RISCOS: nenhum
 
-## Cena b3 - Charles Goodyear ficou obcecado. Misturou a borracha com tudo que enco...
+## Cena b3 - Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GOO (variante 0, expressao stern, segura paper); CLA (variante 0, expressao worried)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/stove
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, dinheiro, familia
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, familia
 - RISCOS: nenhum
 
-## Cena b4 - Fez tantas dívidas que foi parar na prisão. E lá dentro continuou faze...
+## Cena b4 - Fez tantas dívidas que foi parar na prisão.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GUA (variante 0, expressao stern); GOO (variante 0, expressao sad)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: -
@@ -82,27 +82,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
 - RISCOS: nenhum
 
-## Cena b8 - Finalmente a borracha aguentava o calor e o frio.
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GOO (variante 0, expressao grin); CLA (variante 0, expressao surprised) | multidao: 6 de POV
-- Animacao: -
-- Objetos/modelos: kit/stove
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio
-- RISCOS: nenhum
-
-## Cena b9 - Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Mo...
+## Cena b8 - Mas outros copiaram a ideia, e ele morreu cheio de dívidas.
 - Cenario: hall | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): COB (variante 0, expressao smug); GOO (variante 0, expressao angry)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): COB (variante 0, expressao smug); GOO (variante 0, expressao angry) | multidao: 6 de POV
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dividas, justica
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dividas
 - RISCOS: nenhum
 
-## Cena b10 - Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu...
+## Cena b9 - Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu...
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -112,17 +102,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
 - RISCOS: nenhum
 
-## Cena b11 - E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nun...
+## Cena b10 - Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): GOO (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/stove, kit/tires
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, pneus
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -137,15 +127,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/stove | b0, b2, b3, b5, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/borracha | b6, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tires | b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stove | b0, b2, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/borracha | b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tires | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ball | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 19% | medio 68% | aberto 14% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 discutir
+- Objeto heroi: kit/borracha | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 19% | medio 70% | aberto 10% | detalhe 0%
+- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 discutir
 - RISCOS GERAIS: 
   - video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: 6 item(ns) sem referencia visual: credores e guardas da prisao de devedores, concorrentes que copiaram a ideia, borracha crua (gosma), fogao de ferro quente, pneus e bolas de borracha, borracha -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}

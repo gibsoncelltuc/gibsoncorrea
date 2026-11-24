@@ -5,19 +5,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b0 - Existem cadernos tão perigosos que só podem ser lidos com roupa de pro...
 - Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PES (variante 0, expressao scared); JOR (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/curie_box, kit/marco_eiffel
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientista, protecao, roupa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): protecao, roupa
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil oitocentos e noventa e oito, em Paris, na França.
 - Cenario: loc_campo | luz: dia | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/marco_eiffel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
@@ -42,10 +42,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): minerio, polonio, radio
 - RISCOS: nenhum
 
-## Cena b4 - O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olha...
+## Cena b4 - O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.
 - Cenario: interior madeira | luz: noite | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MAR (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/curie_box
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu...
-- Cenario: loc_campo | luz: dia | clima: limpo
+- Cenario: loc_deserto | luz: dia | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): MAR (variante 0, expressao laugh); PIE (variante 0, expressao grin); JOR (variante 0, expressao surprised) | multidao: 18 de POV/JOR
@@ -72,24 +72,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conseguir, primeira
 - RISCOS: nenhum
 
-## Cena b7 - Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mi...
-- Cenario: loc_campo | luz: dia | clima: limpo
+## Cena b7 - Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos...
+- Cenario: loc_deserto | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): MAR (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): radiacao, saude
 - RISCOS: nenhum
 
-## Cena b8 - Mas os cadernos dela continuam radioativos até hoje, guardados em caix...
+## Cena b8 - Mas os cadernos dela continuam radioativos, guardados em caixas de chu...
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PES (variante 0, expressao suspicious); JOR (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/curie_box, crate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, chumbo, paris
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, chumbo
 - RISCOS: nenhum
 
 ## Cena b9 - Para ler, é preciso assinar um termo e usar roupa de proteção.
@@ -102,17 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): protecao, termo
 - RISCOS: nenhum
 
-## Cena b10 - E o rádio leva cerca de mil e seiscentos anos só para perder metade da...
-- Cenario: loc_montanha | luz: dia | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); PES (variante 0, expressao surprised) | multidao: 16 de POV
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/curie_box, kit/marco_eiffel, nature/picket_fence
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, radio
-- RISCOS: nenhum
-
-## Cena b11 - Ou seja: os cadernos vão continuar radioativos por séculos.
+## Cena b10 - Ou seja: os cadernos vão continuar radioativos por séculos.
 - Cenario: loc_montanha | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -122,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -137,14 +127,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/curie_box | b0, b3, b4, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_eiffel | b0, b1, b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/curie_box | b0, b3, b4, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_eiffel | b0, b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 23% | medio 64% | aberto 9% | detalhe 4%
+- Objeto heroi: kit/curie_box | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 25% | medio 66% | aberto 5% | detalhe 3%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto
 - RISCOS GERAIS: 
   - video com ~77 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)

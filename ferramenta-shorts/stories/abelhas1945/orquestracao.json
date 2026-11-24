@@ -18,9 +18,14 @@
    "loc_campo"
   ],
   [
-   "cena 5",
+   "cena 4",
    "countryside",
    "loc_campo"
+  ],
+  [
+   "cena 5",
+   "mountain",
+   "loc_montanha"
   ],
   [
    "cena 6",
@@ -33,22 +38,17 @@
    "loc_montanha"
   ],
   [
-   "cena 8",
+   "cena 9",
    "mountain",
    "loc_montanha"
   ],
   [
-   "cena 10",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 12",
+   "cena 11",
    "countryside",
    "loc_campo"
   ],
   [
-   "cena 13",
+   "cena 12",
    "countryside",
    "loc_campo"
   ]
@@ -90,9 +90,9 @@
    "objetos": [
     "kit/beehive"
    ],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b1",
-   "frase": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas.",
+   "frase": "Karl von Frisch, da Áustria, passou a vida estudando abelhas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -126,26 +126,6 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "FRI",
-    "ASS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/bee",
-    "kit/beehive"
-   ],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
    "camera": "close",
    "personagens": [
     "FRI"
@@ -156,7 +136,7 @@
     "kit/beehive"
    ],
    "palavras": 16,
-   "cena": "b4",
+   "cena": "b3",
    "frase": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -175,9 +155,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 17,
-   "cena": "b5",
-   "frase": "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -195,7 +175,7 @@
     "kit/beehive"
    ],
    "palavras": 15,
-   "cena": "b6",
+   "cena": "b5",
    "frase": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -214,9 +194,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 16,
-   "cena": "b7",
-   "frase": "Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!",
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -232,7 +212,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 9,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -253,7 +233,7 @@
     "kit/beehive"
    ],
    "palavras": 11,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -276,9 +256,9 @@
    ],
    "multidao": 4,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b10",
-   "frase": "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.",
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Já idoso, ele ganhou o Prêmio Nobel.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -296,7 +276,7 @@
     "kit/beehive"
    ],
    "palavras": 14,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -312,7 +292,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

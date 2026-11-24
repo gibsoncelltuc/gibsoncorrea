@@ -15,16 +15,11 @@
   "cenarios_trocados": [
    [
     "cena 10",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
     "countryside",
     "loc_campo"
    ],
    [
-    "cena 12",
+    "cena 11",
     "countryside",
     "loc_campo"
    ]
@@ -48,7 +43,6 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "boat",
-  "buildings/lighthouse",
   "buildings/shop",
   "kit/finch",
   "kit/finch_long",
@@ -56,11 +50,9 @@
   "kit/gosma",
   "kit/navio_fragata",
   "kit/panela",
-  "kit/phone",
   "kit/room_colonial_stone",
   "kit/room_europa_wood",
   "kit/room_verde_wood",
-  "kit/scroll",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",

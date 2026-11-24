@@ -37,9 +37,9 @@
    ],
    "multidao": 18,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b1",
-   "frase": "Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos.",
+   "frase": "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -59,9 +59,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar.",
+   "frase": "Spencer Silver tentava criar uma super cola.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -110,9 +110,9 @@
    ],
    "multidao": 4,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 14,
    "cena": "b5",
-   "frase": "Em mil novecentos e setenta e quatro, o colega Art Fry cantava no coral da igreja.",
+   "frase": "Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -166,31 +166,14 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 18,
+   "palavras": 13,
    "cena": "b8",
-   "frase": "Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de rascunho à mão.",
+   "frase": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "CHE",
-    "FRY"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 6,
-   "cena": "b9",
-   "frase": "O primeiro teste de vendas fracassou.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
   },
   {
    "camera": "crowd",
@@ -201,14 +184,11 @@
    ],
    "multidao": 18,
    "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "kit/postit",
-    "nature/lamppost"
+    "kit/postit"
    ],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Então distribuíram amostras de graça numa cidade, e quase todos quiseram comprar mais.",
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Então distribuíram amostras de graça, e quase todos quiseram comprar.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -219,7 +199,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "countryside"
   },
   {
    "camera": "close",
@@ -230,9 +210,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 17,
-   "cena": "b11",
-   "frase": "Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma cola que deu errado.",
+   "palavras": 16,
+   "cena": "b10",
+   "frase": "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -247,7 +227,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

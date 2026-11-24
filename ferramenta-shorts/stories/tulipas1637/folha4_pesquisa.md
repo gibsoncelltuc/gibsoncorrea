@@ -14,10 +14,10 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Febre das Tulipas | A Febre das Tulipas / Uma Era Holanda Oriente Colorida Os Num 1637 | Tooneel van Flora Handel der Floristen in Amsterda (referencias/tulipas1637/prints/a_febre_das_tulipas_a0bf3e.jpg); Allegory of Tulip Mania by Jan Brueghel II.jpg (referencias/tulipas1637/prints/a_febre_das_tulipas_a2d940.jpg); Jan Brueghel the Younger, Satire on Tulip Mania, c (referencias/tulipas1637/prints/a_febre_das_tulipas_8e6946.jpg)
-lugar | Republica Holandesa (Haarlem, Amsterda): canais, casas de tijolo com fachada esc | Republica Holandesa / Republica Holandesa Haarlem Amsterda 1637 | Allegorie op de Nederlandse overwinningen op zee t (referencias/tulipas1637/prints/republica_holandesa_haarlem_amsterda_can_3fc8c6.jpg); Allegorie op de Nederlandse overwinningen op zee t (referencias/tulipas1637/prints/republica_holandesa_haarlem_amsterda_can_14cd1d.jpg); Overwinningen van Piet Hein op de Portugese oorlog (referencias/tulipas1637/prints/republica_holandesa_haarlem_amsterda_can_d6bab0.jpg)
-lugar | Holanda | Holanda 1637 / Holanda landscape | Carlos de Haes - Canal abandonado. Vriesland (Hola (referencias/tulipas1637/prints/holanda_ee971a.jpg); Nocturno nevado en Haarlem (Holanda) 1886.jpg (referencias/tulipas1637/prints/holanda_704e4b.jpg); De Cocksdorp (NL), Leuchtturm -- 2026 -- 0305.jpg (referencias/tulipas1637/prints/holanda_5a17d9.jpg)
-epoca | roupas e ruas de 1637 | 1637 fashion clothing / 17th century clothing painting | GeorgiusPasor.jpg (referencias/tulipas1637/prints/roupas_e_ruas_de_1637_dcdb70.jpg); 34 Johannes Bogerman.jpg (referencias/tulipas1637/prints/roupas_e_ruas_de_1637_676c2f.jpg); SB 5815-Dirck Jacobsz. Bas (1569-1637) en zijn fam (referencias/tulipas1637/prints/roupas_e_ruas_de_1637_e1eb3d.jpg)
+tema | A Febre das Tulipas | A Febre das Tulipas / Uma Era Holanda Oriente Colorida Num 1637 | SEM REFERENCIA
+lugar | Republica Holandesa (Haarlem, Amsterda): canais, casas de tijolo com fachada esc | Republica Holandesa / Republica Holandesa Haarlem Amsterda 1637 | SEM REFERENCIA
+lugar | Holanda | Holanda 1637 / Holanda landscape | SEM REFERENCIA
+epoca | roupas e ruas de 1637 | 1637 fashion clothing / 17th century clothing painting | SEM REFERENCIA
 pessoas | comerciantes de tulipa | comerciantes de tulipa / comerciantes de tulipa 1637 | SEM REFERENCIA
 pessoas | ricos colecionadores | ricos colecionadores / ricos colecionadores 1637 | SEM REFERENCIA
 pessoas | padeiros, sapateiros e gente comum | padeiros sapateiros e gente comum / padeiros sapateiros e gente comum 1637 | SEM REFERENCIA

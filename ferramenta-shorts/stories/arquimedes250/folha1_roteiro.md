@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 178 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 145 palavras (~50 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.
@@ -11,11 +11,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: EUREKA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.6 s)
-- Narracao: Conta a história que, em Siracusa, na Sicília, por volta de duzentos e cinquenta antes de Cristo, tudo começou com uma suspeita.
+## Cena b1  (~3.8 s)
+- Narracao: Foi em Siracusa, na Sicília, há mais de dois mil anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: SICÍLIA
 - Funcao na historia: desenvolvimento
@@ -29,11 +29,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.2 s)
-- Narracao: Será que ele trocou parte do ouro por prata e guardou o resto para si?
+## Cena b3  (~2.8 s)
+- Narracao: Será que trocou parte do ouro por prata?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: x_entrega (reach) @3 -> acao + som de efeito; encena: paga (reach) @6 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: x_entrega (reach) @2 -> acao + som de efeito; encena: paga (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -47,16 +47,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.8 s)
-- Narracao: Arquimedes pensou por dias e dias, e a resposta não vinha.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~4.8 s)
+## Cena b5  (~4.8 s)
 - Narracao: Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@50, ding@70
@@ -65,7 +56,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~5.9 s)
+## Cena b6  (~5.9 s)
 - Narracao: Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -74,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.2 s)
+## Cena b7  (~5.2 s)
 - Narracao: Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
@@ -83,16 +74,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~6.6 s)
-- Narracao: Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coroa tinha mesmo prata misturada.
+## Cena b8  (~5.2 s)
+- Narracao: Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@80
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; encena: grita (up) @5 -> acao + som de efeito; encena: sai @8 -> acao + som de efeito; encena: corre @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; encena: grita (up) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@80
 - Texto na tela: EUREKA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b10  (~3.8 s)
+## Cena b9  (~3.8 s)
 - Narracao: No fim, dá para enganar um rei, mas não uma banheira.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
@@ -101,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
+## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

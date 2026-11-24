@@ -93,7 +93,7 @@
      1.3
     ]
    ],
-   "say": "Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas na costa de Pernambuco, e os pescadores brasileiros não gostaram.",
+   "say": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
    "fx": [
     "puff@70"
    ],
@@ -108,7 +108,7 @@
     "PES:0:stern"
    ],
    "acao": "discutir",
-   "say": "O Brasil dizia que a lagosta anda no fundo do mar, colada na costa, e por isso era brasileira.",
+   "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
    "set": "harbor"
   },
   {
@@ -136,7 +136,7 @@
      1.3
     ]
    ],
-   "say": "A discussão ficou séria, e a França mandou um navio de guerra para proteger os pescadores dela.",
+   "say": "A França mandou um navio de guerra para proteger os pescadores dela.",
    "interior": "pedra"
   },
   {
@@ -189,7 +189,7 @@
    "sfx": [
     "tick@40"
    ],
-   "say": "Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o primeiro tiro."
+   "say": "Marinheiros dos dois lados se encararam no mar."
   },
   {
    "shot": "two",

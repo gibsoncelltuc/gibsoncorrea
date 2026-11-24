@@ -60,7 +60,7 @@
    ]
   },
   {
-   "say": "Conta a história que, em Siracusa, na Sicília, por volta de duzentos e cinquenta antes de Cristo, tudo começou com uma suspeita.",
+   "say": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",
    "shot": "reveal",
    "who": [
     "POV:0:smile",
@@ -96,7 +96,7 @@
    "detalhe": false
   },
   {
-   "say": "Será que ele trocou parte do ouro por prata e guardou o resto para si?",
+   "say": "Será que trocou parte do ouro por prata?",
    "shot": "two",
    "interior": "pedra",
    "who": [
@@ -116,23 +116,6 @@
    ],
    "interacao": "entregar",
    "detalhe": false
-  },
-  {
-   "say": "Arquimedes pensou por dias e dias, e a resposta não vinha.",
-   "shot": "close",
-   "who": [
-    "ARQ:0:sad"
-   ],
-   "impact": false,
-   "batalha": false,
-   "props": [
-    [
-     "kit/bathtub",
-     1.5,
-     -0.5,
-     1.0
-    ]
-   ]
   },
   {
    "say": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
@@ -195,7 +178,7 @@
    ]
   },
   {
-   "say": "Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coroa tinha mesmo prata misturada.",
+   "say": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
    "shot": "crowd",
    "who": [
     "ARQ:0:laugh",

@@ -1,20 +1,20 @@
 # CRONOGRAMA - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Gerado em 24/11 10:19 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | arctic | two | CAN, DIN | - | whisky | - | O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usan
-b1 | simples | arctic | reveal | CAN, DIN | - | - | - | A ilha Hans é um pedaço de rocha gelada e sem gente, no mar entre o Ca
-b2 | simples | interior madeira | two | CAN, DIN | - | - | - | Os dois países achavam que ela era sua, mas ninguém queria começar uma
+b1 | simples | arctic | reveal | CAN, DIN | - | - | - | A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlân
+b2 | simples | interior madeira | two | CAN, DIN | - | - | - | Os dois países diziam que a ilha era sua, mas ninguém queria guerra de
 b3 | chave | arctic | wide | CAN, CAN | 10 | helicopter | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e oitenta e quatro, soldados canadenses desembarcara
 b4 | simples | arctic | two | CAN, CAN | - | tequila_bolt, whisky, flagpole | - | Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque ca
 b5 | chave | harbor | crowd | DIN, DIN | 10 | flagpole | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a 
-b6 | simples | arctic | two | DIN, CAN | - | barrel, tequila_bolt, whisky | - | E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado d
+b6 | simples | arctic | two | DIN, CAN | - | barrel, tequila_bolt, whisky | - | E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.
 b7 | simples | harbor | two | CAN, DIN | - | tequila_bolt, flagpole | - | Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa
-b8 | simples | interior pedra | two | PRE, MIN | - | - | - | Em dois mil e vinte e dois, os países enfim dividiram a ilha quase ao 
+b8 | simples | interior pedra | two | PRE, MIN | - | - | - | Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
 b9 | simples | interior pedra | close | CAN | - | whisky | - | A guerra mais educada da história acabou sem um tiro e com muito uísqu
 b10 | simples | interior pedra | two | CAN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

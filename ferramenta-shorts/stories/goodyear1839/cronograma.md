@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Gerado em 24/11 10:18 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:23 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,17 +8,16 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior madeira | two | GOO, CLA | - | stove | - | Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou 
 b1 | transicao | street | reveal | POV, POV | 6 | - | - | Era mil oitocentos e trinta e nove, nos Estados Unidos.
-b2 | chave | street | crowd | GOO, POV | 12 | stove | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A borracha estava na moda, mas tinha um defeito: no calor, derretia e 
-b3 | simples | interior madeira | two | GOO, CLA | - | stove | - | Charles Goodyear ficou obcecado. Misturou a borracha com tudo que enco
-b4 | simples | interior pedra | two | GUA, GOO | - | - | - | Fez tantas dívidas que foi parar na prisão. E lá dentro continuou faze
+b2 | chave | street | crowd | GOO, POV | 12 | stove | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A borracha estava na moda, mas derretia no calor e rachava no frio.
+b3 | simples | interior madeira | two | GOO, CLA | - | - | - | Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em
+b4 | simples | interior pedra | two | GUA, GOO | - | - | - | Fez tantas dívidas que foi parar na prisão.
 b5 | simples | interior madeira | two | GOO, CLA | - | stove | - | Até que um dia, mexendo numa mistura de borracha com enxofre, ele se a
 b6 | simples | interior madeira | two | GOO | - | borracha, stove | - | A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
 b7 | simples | interior madeira | low | GOO | - | borracha, stove | - | Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha n
-b8 | transicao | countryside | orbit | GOO, CLA | 6 | stove | - | Finalmente a borracha aguentava o calor e o frio.
-b9 | simples | hall | two | COB, GOO | - | - | - | Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Mo
-b10 | chave | street | crowd | POV, POV, CLA | 18 | ball, borracha, stove, tires | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu
-b11 | simples | interior loja | close | GOO | - | stove, tires | - | E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nun
-b12 | simples | street | close | GOO | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b8 | simples | hall | group | COB, GOO | 6 | - | - | Mas outros copiaram a ideia, e ele morreu cheio de dívidas.
+b9 | chave | street | crowd | POV, POV, CLA | 18 | ball, borracha, stove, tires | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu
+b10 | simples | interior loja | close | GOO | - | stove, tires | - | Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.
+b11 | simples | street | close | GOO | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
