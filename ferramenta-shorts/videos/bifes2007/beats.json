@@ -72,7 +72,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em dois mil e sete, Donald Trump lançou uma linha de carnes com o próprio nome: a Trump Steaks.",
+   "say": "Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses.",
    "shot": "two",
    "who": [
     "TRU:0:grin",
@@ -81,18 +81,37 @@
    "props": [
     [
      "kit/steak",
-     0.5,
-     1.1,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "loc_cidade"
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Os bifes apareceram na loja Sharper Image, a partir de oito de maio.",
+   "say": "Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio.",
    "shot": "two",
    "who": [
     "TRU:0:smug",
@@ -103,11 +122,30 @@
    "props": [
     [
      "kit/steak",
-     -1.5,
-     0.6,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "interior": "loja"
   },
   {
@@ -121,12 +159,6 @@
     "CLI:0:shock",
     "POV:0:shock"
    ],
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
-   },
    "text": "$ 999",
    "fx": [
     "burst@40"
@@ -134,7 +166,7 @@
    "sfx": [
     "ding@40"
    ],
-   "set": "street"
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -149,11 +181,30 @@
    "props": [
     [
      "kit/steak",
-     -1.4,
-     0.5,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "interior": "loja"
   },
   {
@@ -178,7 +229,7 @@
    "sfx": [
     "thump@40"
    ],
-   "set": "street"
+   "set": "loc_cidade"
   },
   {
    "tiros": false,
@@ -190,7 +241,18 @@
     "TRU:0:smug",
     "VEN:0:laugh"
    ],
-   "interior": "loja"
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/tv",
+     0.0,
+     -1.5,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "tiros": false,
@@ -217,12 +279,31 @@
    "props": [
     [
      "kit/steak",
-     0.5,
-     1.1,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "interior": "pedra"
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "interior": "madeira"
   },
   {
    "tiros": false,
@@ -234,26 +315,45 @@
     "TRU:0:grin",
     "CLI:0:laugh"
    ],
-   "set": "street"
+   "set": "loc_cidade"
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
    "say": "Moral da história: nem todo produto com nome famoso dura mais que uma promoção.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "VEN:0:laugh"
    ],
    "props": [
     [
      "kit/steak",
-     0.5,
-     1.1,
-     1.3
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira"
   }
  ],
  "exp": 1.0,
@@ -264,5 +364,41 @@
  ],
  "light": "golden",
  "ano": 2007,
- "regiao": "eua"
+ "regiao": "eua",
+ "visual": {
+  "local": "Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hoteis Trump em Nova York",
+  "quando": "maio a julho de 2007, dia",
+  "participantes": [
+   "Donald Trump (terno escuro e gravata vermelha)",
+   "vendedores de loja",
+   "clientes"
+  ],
+  "roupas": {
+   "TRU": "terno escuro, gravata vermelha",
+   "VEN": "camisa e cracha da loja",
+   "CLI": "roupa casual"
+  },
+  "cenario": "loja de eletronicos e presentes com vitrine, rua de Nova York, estudio de televisao, restaurante de hotel",
+  "objetos": [
+   "caixa de bifes congelados com o nome Trump",
+   "bife",
+   "televisao"
+  ],
+  "explicacoes": [
+   "Trump Steaks: lancada em maio de 2007 pela Sharper Image, retirada cerca de dois meses depois (fonte: Wikipedia Trump Steaks)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Trump_Steaks"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "interior loja",
+   "interior pedra",
+   "interior madeira"
+  ],
+  "buscas": {
+   "bife": "Trump Steaks Sharper Image 2007",
+   "loja": "Sharper Image store 2007"
+  }
+ }
 }

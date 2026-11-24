@@ -48,33 +48,24 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "track",
    "set": "countryside",
    "who": [
-    "GRE:0:shock",
-    "BUL:0:neutral"
+    "GRE:0:shout",
+    "BUL:0:shout"
    ],
-   "text": "1925",
-   "interacao": "discutir",
-   "acao": "discutir",
-   "say": "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.",
-   "props": [
-    [
-     "kit/dog_sit",
-     1.7,
-     -0.6,
-     1.1
-    ]
-   ],
+   "say": "Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa.",
+   "props": [],
    "animals": [
     [
      "dog",
-     0.9,
-     1.4
+     0.6,
+     0.4,
+     "run"
     ]
    ],
-   "detalhe": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "objetos": false
   },
   {
    "shot": "reveal",
@@ -93,7 +84,7 @@
    },
    "mapa": "BULGÁRIA",
    "mapa_at": 3,
-   "say": "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados.",
+   "say": "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa.",
    "props": []
   },
   {
@@ -103,24 +94,7 @@
     "GRE:0:nervous",
     "GRE:1:scared"
    ],
-   "say": "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.",
-   "props": [],
-   "animals": [
-    [
-     "dog",
-     2.2,
-     0.8
-    ]
-   ]
-  },
-  {
-   "shot": "track",
-   "set": "countryside",
-   "who": [
-    "GRE:0:shout",
-    "GRE:1:angry"
-   ],
-   "say": "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.",
+   "say": "Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronteira.",
    "props": [],
    "animals": [
     [
@@ -137,22 +111,24 @@
     "BUL:0:angry",
     "GRE:0:scared"
    ],
-   "interacao": "empurrar",
    "fx": [
     "burst@60"
    ],
    "sfx": [
     "gun@60"
    ],
-   "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.",
-   "props": [
-    [
-     "kit/dog_sit",
-     1.8,
-     -0.6,
-     1.0
-    ]
-   ]
+   "say": "Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A Bulgária pediu desculpas e propôs investigar juntos.",
+   "props": [],
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "BUL"
+    ],
+    "march": false
+   },
+   "shot_lock": true,
+   "impact": false,
+   "batalha": false
   },
   {
    "shot": "two",
@@ -162,53 +138,65 @@
     "GRE:1:angry"
    ],
    "interacao": "susto",
-   "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
+   "say": "A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
    "props": []
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "mountain",
    "who": [
-    "GRE:0:angry",
-    "BUL:0:shout"
+    "GRE:0:angry"
    ],
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 20,
+    "n": 24,
     "outfits": [
      "GRE",
      "BUL"
     ],
-    "march": true,
+    "march": false,
     "expr": "angry"
    },
    "text": "INVASÃO",
    "titulo": true,
-   "say": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.",
-   "props": []
+   "say": "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.",
+   "props": [],
+   "detalhe": false,
+   "d0": 17.0,
+   "d1": 16.0,
+   "shot_lock": true
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "DIP:0:sad:paper",
-    "PRE:0:nervous"
+    "DIP:0:sad:paper"
    ],
    "interacao": "susto",
-   "say": "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.",
-   "props": []
+   "say": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
+   "props": [],
+   "text": "LIGA DAS NAÇÕES",
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "PRE:0:stern:paper",
     "DIP:0:relief"
    ],
    "interacao": "entregar",
-   "say": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.",
-   "props": []
+   "say": "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
+   "props": [],
+   "set": "mountain",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "GRE"
+    ],
+    "march": true
+   }
   },
   {
    "shot": "close",
@@ -216,7 +204,7 @@
    "who": [
     "GRE:0:sad"
    ],
-   "say": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
+   "say": "Até hoje, não há acordo nem sobre a existência do cachorro.",
    "props": [
     [
      "kit/dog_sit",
@@ -235,7 +223,40 @@
    "acao": "reagir"
   }
  ],
- "exp": 1.0,
+ "exp": 1.12,
  "variar_cenario": false,
- "heroi_sem_close_ok": true
+ "heroi_sem_close_ok": true,
+ "min_momentos": 1,
+ "visual": {
+  "local": "Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich",
+  "quando": "18 a 29 de outubro de 1925, outono",
+  "participantes": [
+   "soldado grego",
+   "soldados búlgaros",
+   "general Pangalos"
+  ],
+  "roupas": {
+   "GRE": "soldado grego de 1925: farda cáqui-azulada e capacete",
+   "BUL": "soldado búlgaro de 1925: farda cáqui verde e quepe",
+   "PRE": "político de terno escuro e chapéu",
+   "DIP": "diplomata de terno cinza"
+  },
+  "cenario": "posto de fronteira nas montanhas, cidade de Petrich, sala da Liga das Nações em Genebra",
+  "objetos": [
+   "fuzil de 1925"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Incident_at_Petrich",
+   "referencias/cachorro1925/moodboard.jpg"
+  ],
+  "buscas": {
+   "Petrich": "Petrich Bulgaria 1920s",
+   "soldado grego": "Greek soldier 1925 uniform",
+   "soldado búlgaro": "Bulgarian soldier 1925 uniform",
+   "Pangalos": "Theodoros Pangalos 1925 portrait",
+   "exército da época": "Bulgarian soldiers 1920s photograph",
+   "roupas e ruas de 1925": "Bulgaria 1920s street photograph"
+  }
+ },
+ "cinf": 4.5
 }

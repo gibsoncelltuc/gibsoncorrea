@@ -61,9 +61,12 @@
    "props": [
     [
      "kit/tequila_bolt",
-     0,
-     -1.4,
-     1.6500000000000001
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1º DE ABRIL",
@@ -73,7 +76,23 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade."
+   "say": "Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -94,38 +113,93 @@
    "props": [
     [
      "kit/tequila_bolt",
-     1.4,
-     -0.6,
-     1.6500000000000001
-    ],
-    [
-     "kit/tequila_bolt",
-     2.3,
+     0.0,
      -1.2,
-     1.6500000000000001
+     1.65,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/tequila_bolt",
-     -1.6,
-     -0.9,
-     1.6500000000000001
+     3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/tequila_bolt",
-     -2.4,
-     -1.5,
-     1.6500000000000001
+     -3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/tequila_bolt",
-     0.2,
-     -1.8,
-     1.6500000000000001
+     -3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tequila_bolt",
+     -3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "discutir",
    "say": "De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila.",
-   "set": "street"
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -161,17 +235,45 @@
    "props": [
     [
      "kit/veg_cacto",
-     -2.6,
-     -3.0,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/veg_cacto",
-     2.8,
-     -3.5,
-     1.3
+     7.0,
+     -14.0,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e veg_cacto juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -182,33 +284,79 @@
    "props": [
     [
      "kit/tequila_bolt",
-     1.6,
-     -0.8,
-     1.6500000000000001
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/veg_cacto",
-     -2.4,
-     -2.6,
-     1.2
+     3.6,
+     -2.0,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/veg_cacto",
-     2.9,
-     -3.2,
-     1.3
+     7.0,
+     -14.0,
+     1.3,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/veg_cacto",
-     -0.6,
-     -4.5,
-     1.1
+     -3.6,
+     -2.0,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interacao": "cochichar",
    "say": "Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.",
    "set": "outback",
-   "interior": false
+   "interior": false,
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -219,9 +367,12 @@
    "props": [
     [
      "kit/tequila_bolt",
-     1.0,
-     0.6,
-     2.2
+     2.4,
+     0.2,
+     2.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -235,7 +386,23 @@
    "say": "A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.",
    "acao": "comemorar",
    "shot_lock": true,
-   "detalhe": true
+   "detalhe": true,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -259,9 +426,12 @@
    "props": [
     [
      "kit/tequila_bolt",
-     0,
-     -3.0,
-     2.0999999999999996
+     0.0,
+     -1.2,
+     2.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -275,7 +445,23 @@
    "text": "ESGOTOU",
    "titulo": true,
    "say": "Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas.",
-   "set": "street"
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -286,14 +472,33 @@
    "props": [
     [
      "kit/tequila_bolt",
-     1.6,
-     -0.8,
-     1.6500000000000001
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interacao": "entregar",
    "say": "Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.",
-   "interior": "loja"
+   "interior": "loja",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -304,9 +509,12 @@
    "props": [
     [
      "kit/tequila_bolt",
-     1.6,
-     -0.8,
-     1.6500000000000001
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -317,7 +525,23 @@
    ],
    "acao": "conversar",
    "say": "Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro.",
-   "interior": "loja"
+   "interior": "loja",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "crowd",
@@ -341,9 +565,12 @@
    "props": [
     [
      "kit/tequila_bolt",
-     0,
-     -3.0,
-     2.0999999999999996
+     0.0,
+     -1.2,
+     2.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -357,27 +584,63 @@
    "text": "COLEÇÃO",
    "titulo": true,
    "say": "A garrafa em forma de raio virou item de colecionador dos fãs da marca.",
-   "set": "street"
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MUS:0:smile"
    ],
    "props": [
     [
      "kit/tequila_bolt",
-     -1.4,
-     -0.8,
-     1.6500000000000001
+     2.4,
+     0.2,
+     1.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "comemorar",
-   "say": "Uma piada do dia da mentira que terminou numa prateleira de verdade."
+   "say": "Uma piada do dia da mentira que terminou numa prateleira de verdade.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "fontes": [
   "https://www.cnbc.com/make-it/2020/11/06/elon-musks-tesla-tequila.html",
   "https://www.businessinsider.com/tesla-tequila-teslaquila-resold-online-ebay-empty-bottle-2020-11"
- ]
+ ],
+ "max_wide": 3
 }

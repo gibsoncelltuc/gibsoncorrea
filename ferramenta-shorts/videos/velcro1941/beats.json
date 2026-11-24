@@ -51,9 +51,12 @@
    "props": [
     [
      "kit/burr",
-     0,
-     -1.4,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1941",
@@ -73,7 +76,23 @@
    ],
    "verbos_ok": [
     "nasce"
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -116,9 +135,12 @@
    "props": [
     [
      "kit/burr",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -131,7 +153,23 @@
    "impact": false,
    "shot_lock": true,
    "set": "mountain",
-   "detalhe": false
+   "detalhe": false,
+   "quadro": {
+    "local": "encosta de montanha",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -142,22 +180,50 @@
    "props": [
     [
      "kit/microscopio",
-     1.7,
-     0.2,
-     1.5
+     3.6,
+     -2.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/burr",
-     -1.8,
-     -0.6,
-     0.9
+     2.4,
+     0.2,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Curioso, ele levou um carrapicho para casa e olhou no microscópio.",
-   "detalhe": true
+   "detalhe": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/microscopio",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
-   "shot": "close",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "MES:0:shock"
@@ -165,9 +231,12 @@
    "props": [
     [
      "kit/burr",
-     1.6,
-     -0.8,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -178,7 +247,23 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido."
+   "say": "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "low",
@@ -189,9 +274,12 @@
    "props": [
     [
      "kit/burr",
-     -1.8,
-     -1.0,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -200,7 +288,23 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser."
+   "say": "Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -232,9 +336,12 @@
    "props": [
     [
      "kit/burr",
-     1.6,
-     -0.8,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -243,7 +350,23 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!"
+   "say": "O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "crowd",
@@ -277,21 +400,30 @@
    "props": [
     [
      "kit/burr",
-     1.4,
-     -0.6,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/rocket",
-     -4.5,
-     -7,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/moon",
-     5,
-     -28,
-     5.0
+     -7.0,
+     -14.0,
+     5.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -305,10 +437,38 @@
    "text": "VELCRO",
    "titulo": true,
    "say": "Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis.",
-   "set": "arctic"
+   "set": "arctic",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/moon",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MES:0:smile"
    ],
@@ -322,12 +482,32 @@
    "props": [
     [
      "kit/burr",
-     -1.4,
-     -0.8,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos."
+   "say": "Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
- ]
+ ],
+ "max_wide": 3
 }

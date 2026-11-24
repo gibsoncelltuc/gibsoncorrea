@@ -53,17 +53,19 @@
  "beats": [
   {
    "say": "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "GAL:0:grin",
-    "ALU:0:shock"
+    "GAL:0:grin"
    ],
    "props": [
     [
      "kit/pisa_tower",
-     -2.6,
-     -5.0,
-     1.0
+     0.0,
+     -9.7,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -72,7 +74,28 @@
    "sfx": [
     "thump@30"
    ],
-   "detalhe": false
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "say": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.",
@@ -124,69 +147,113 @@
   },
   {
    "say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "GAL:0:smile",
-    "ALU:0:surprised"
+    "GAL:0:smile"
    ],
    "chega": true,
    "props": [
     [
      "kit/pisa_tower",
-     -2.0,
-     -2.4,
-     0.6
+     0.0,
+     -8.0,
+     0.6,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/ball",
-     1.2,
-     0.6,
-     0.9
+     -1.6,
+     0.8,
+     0.95,
+     {
+      "fixo": true
+     }
     ],
     [
      "war/cannonballs",
-     -1.2,
-     0.6,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "war/cannonballs",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.1,
+   "d1": 16.2
   },
   {
    "say": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
-   "shot": "orbit",
+   "shot": "wide",
    "who": [
-    "GAL:0:shock",
-    "ALU:0:surprised"
+    "GAL:0:shock"
    ],
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 12,
-    "outfits": [
-     "ALU",
-     "PRO"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [
      "kit/pisa_tower",
-     -2.8,
-     -5.5,
-     1.0
+     0.0,
+     -9.7,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/ball",
+     -1.6,
      0.8,
-     0.5,
-     0.9
+     0.95,
+     {
+      "fixo": true
+     }
     ],
     [
      "war/cannonballs",
-     -0.8,
-     0.5,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -196,7 +263,38 @@
    "sfx": [
     "thump@40",
     "ding@60"
-   ]
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "war/cannonballs",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "say": "A plateia ficou de boca aberta, e os professores ficaram bravos.",
@@ -239,15 +337,21 @@
    "props": [
     [
      "tools/hammer",
-     0.9,
-     0.6,
-     1.8
+     0.0,
+     -1.2,
+     1.8,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/feather",
-     -0.9,
-     0.6,
-     1.5
+     3.6,
+     -2.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -259,7 +363,29 @@
     "thump@70"
    ],
    "acao": "comemorar",
-   "hora": "noite"
+   "hora": "noite",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e hammer juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "tools/hammer",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/feather",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "No fim, até a pena deu razão ao Galileu.",
@@ -268,5 +394,6 @@
     "GAL:0:smug"
    ]
   }
- ]
+ ],
+ "max_wide": 5
 }

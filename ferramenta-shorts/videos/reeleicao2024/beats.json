@@ -53,15 +53,21 @@
    "props": [
     [
      "kit/ballot_box",
-     0,
-     -1.4,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/white_house",
-     0,
-     -14.0,
-     1.4
+     7.0,
+     -14.5,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "2024",
@@ -71,25 +77,71 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca."
+   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
-    "POV:0:smile",
-    "POV:1:grin"
+    "POV:0:smile"
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "props": [
     [
      "kit/white_house",
-     0,
-     -14.0,
-     1.4
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."
+   "say": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -100,13 +152,32 @@
    "props": [
     [
      "kit/ballot_box",
-     1.6,
-     -0.8,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "conversar",
-   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
+   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -135,29 +206,25 @@
    "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral."
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "TRU:0:laugh",
-    "ELE:0:laugh",
-    "POV:0:shout"
+    "TRU:0:laugh"
    ],
    "batalha": true,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 22,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [
      "kit/white_house",
-     0,
-     -14.0,
-     1.4
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -171,7 +238,26 @@
    "text": "312 VOTOS",
    "titulo": true,
    "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
-   "set": "hall"
+   "set": "hall",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -192,9 +278,12 @@
    "props": [
     [
      "kit/scroll",
-     1.6,
-     -0.8,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -203,48 +292,84 @@
    "sfx": [
     "thump@30"
    ],
-   "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos."
+   "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/scroll",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "TRU:0:grin",
-    "GEN:0:stern"
+    "TRU:0:grin"
    ],
    "props": [
     [
      "kit/white_house",
-     0,
-     -14.0,
-     1.4
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interacao": "entregar",
-   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
+   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "TRU:0:smug",
-    "POV:0:surprised",
-    "POV:1:grin"
+    "TRU:0:smug"
    ],
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
+    "n": 0
    },
    "props": [
     [
      "kit/white_house",
-     0,
-     -14.0,
-     1.4
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -255,28 +380,67 @@
    ],
    "text": "47º",
    "titulo": true,
-   "say": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete."
+   "say": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "TRU:0:smile"
    ],
    "props": [
     [
      "kit/ballot_box",
-     -1.4,
-     -0.8,
-     1.1
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "comemorar",
-   "say": "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana."
+   "say": "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "fontes": [
   "https://ballotpedia.org/Presidential_election,_2024",
   "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
   "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
- ]
+ ],
+ "max_wide": 4
 }

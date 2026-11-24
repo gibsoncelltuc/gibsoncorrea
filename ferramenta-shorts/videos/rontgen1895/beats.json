@@ -52,9 +52,12 @@
    "props": [
     [
      "kit/xray_plate",
-     0,
+     0.0,
      -1.2,
-     1.0
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1895",
@@ -64,7 +67,23 @@
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -85,9 +104,12 @@
    "props": [
     [
      "kit/crookes_tube",
-     1.6,
-     -0.6,
-     1.4
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -97,7 +119,23 @@
     "ding@40"
    ],
    "say": "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.",
-   "light": "study"
+   "light": "study",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/crookes_tube",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -108,9 +146,12 @@
    "props": [
     [
      "kit/crookes_tube",
-     1.6,
-     -0.6,
-     1.4
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.",
@@ -119,7 +160,23 @@
    ],
    "sfx": [
     "thump@60"
-   ]
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/crookes_tube",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "low",
@@ -130,9 +187,12 @@
    "props": [
     [
      "kit/xray_plate",
-     -1.8,
-     -1.0,
-     1.1
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -144,7 +204,23 @@
     "sting@24"
    ],
    "say": "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.",
-   "light": "study"
+   "light": "study",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -155,9 +231,12 @@
    "props": [
     [
      "kit/xray_plate",
-     1.8,
-     -1.0,
-     1.1
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -167,7 +246,23 @@
     "sting@30"
    ],
    "say": "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.",
-   "light": "study"
+   "light": "study",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -181,15 +276,34 @@
    "props": [
     [
      "kit/xray_plate",
-     0,
-     -1.5,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança."
+   "say": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "ANA:0:scared"
@@ -197,12 +311,31 @@
    "props": [
     [
      "kit/xray_plate",
-     1.6,
-     -0.8,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Dizem que ela olhou a chapa, e disse: \"Eu vi a minha morte.\""
+   "say": "Dizem que ela olhou a chapa, e disse: \"Eu vi a minha morte.\"",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -226,9 +359,12 @@
    "props": [
     [
      "kit/xray_plate",
-     0,
-     -3.0,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -244,7 +380,23 @@
    "say": "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso.",
    "verbos_ok": [
     "corre"
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -296,5 +448,6 @@
    "say": "E nunca quis patentear a descoberta. O raio X era de todo mundo."
   }
  ],
- "variar_cenario": false
+ "variar_cenario": false,
+ "max_wide": 3
 }

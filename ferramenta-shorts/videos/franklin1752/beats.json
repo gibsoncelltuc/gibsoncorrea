@@ -56,11 +56,30 @@
    "props": [
     [
      "kit/kite",
-     -1.8,
+     0.0,
      -1.2,
-     1.6
+     1.6,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
@@ -112,11 +131,30 @@
    "props": [
     [
      "kit/kite",
-     -1.6,
-     -0.8,
-     1.6
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
@@ -159,17 +197,45 @@
    "props": [
     [
      "kit/key",
-     0.3,
-     0.4,
-     1.8
+     3.6,
+     -2.0,
+     1.8,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/kite",
-     -1.8,
-     -1.0,
-     1.6
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "orbit; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/key",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter caído na pipa.",
@@ -193,36 +259,34 @@
   },
   {
    "say": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
-   "shot": "crowd",
+   "shot": "wide",
    "set": "street",
    "who": [
-    "FRA:0:laugh",
-    "FIL:0:laugh"
+    "FRA:0:laugh"
    ],
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "COM",
-     "POV",
-     "FIL"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [
      "kit/lightning_rod",
-     1.5,
-     0.9,
-     1.3
+     0.0,
+     -8.0,
+     1.3,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/lightning_rod",
-     -1.7,
-     0.2,
-     1.2
+     3.6,
+     -2.0,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "PARA-RAIOS",
@@ -235,7 +299,32 @@
     "sting@70"
    ],
    "acao": "comemorar",
-   "clima": "limpo"
+   "clima": "limpo",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 15.4 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/lightning_rod",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/lightning_rod",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 16.2,
+   "d1": 15.4
   },
   {
    "say": "No fim, o raio perdeu a briga para uma chave.",
