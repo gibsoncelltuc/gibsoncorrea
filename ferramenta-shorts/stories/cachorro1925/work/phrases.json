@@ -1,0 +1,234 @@
+{
+ "duration": 56.208,
+ "frames30": 1686,
+ "source": "silence-align (cost 0.73)",
+ "segments": [
+  [
+   0.152083,
+   3.29688
+  ],
+  [
+   4.16175,
+   6.16
+  ],
+  [
+   6.40904,
+   8.82488
+  ],
+  [
+   9.67867,
+   12.1348
+  ],
+  [
+   12.413,
+   13.4655
+  ],
+  [
+   14.3295,
+   15.12
+  ],
+  [
+   15.3321,
+   16.8025
+  ],
+  [
+   17.1303,
+   18.4624
+  ],
+  [
+   19.3094,
+   22.0485
+  ],
+  [
+   22.897,
+   23.8478
+  ],
+  [
+   24.1543,
+   26.8151
+  ],
+  [
+   27.0775,
+   28.2505
+  ],
+  [
+   29.0592,
+   29.7992
+  ],
+  [
+   30.0426,
+   31.1238
+  ],
+  [
+   31.3833,
+   32.2998
+  ],
+  [
+   32.6207,
+   33.8477
+  ],
+  [
+   34.0783,
+   36.4855
+  ],
+  [
+   37.3692,
+   39.4201
+  ],
+  [
+   39.6418,
+   40.744
+  ],
+  [
+   41.621,
+   43.6522
+  ],
+  [
+   43.8975,
+   47.074
+  ],
+  [
+   47.9242,
+   48.516
+  ],
+  [
+   48.743,
+   51.049
+  ],
+  [
+   51.8953,
+   53.3395
+  ],
+  [
+   53.6325,
+   55.3943
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um cachorro fugiu pela fronteira e quase come\u00e7ou uma guerra na Europa.",
+   "s": 0.152,
+   "e": 3.297
+  },
+  {
+   "text": "Em outubro de mil novecentos e vinte e cinco,",
+   "s": 4.162,
+   "e": 6.16
+  },
+  {
+   "text": "a fronteira entre a Gr\u00e9cia e a Bulg\u00e1ria estava tensa.",
+   "s": 6.409,
+   "e": 8.825
+  },
+  {
+   "text": "Dizem que um soldado grego correu atr\u00e1s do cachorro,",
+   "s": 9.679,
+   "e": 12.135
+  },
+  {
+   "text": "e cruzou a fronteira.",
+   "s": 12.413,
+   "e": 13.466
+  },
+  {
+   "text": "Do outro lado,",
+   "s": 14.329,
+   "e": 15.12
+  },
+  {
+   "text": "soldados b\u00falgaros atiraram,",
+   "s": 15.332,
+   "e": 16.802
+  },
+  {
+   "text": "e o soldado tombou morto.",
+   "s": 17.13,
+   "e": 18.462
+  },
+  {
+   "text": "A Bulg\u00e1ria pediu desculpas e prop\u00f4s investigar juntos.",
+   "s": 19.309,
+   "e": 22.049
+  },
+  {
+   "text": "A Gr\u00e9cia recusou,",
+   "s": 22.897,
+   "e": 23.848
+  },
+  {
+   "text": "e deu quarenta e oito horas para a Bulg\u00e1ria punir os culpados,",
+   "s": 24.154,
+   "e": 26.815
+  },
+  {
+   "text": "pedir desculpas e pagar.",
+   "s": 27.078,
+   "e": 28.25
+  },
+  {
+   "text": "Dias depois,",
+   "s": 29.059,
+   "e": 29.799
+  },
+  {
+   "text": "em vinte e dois de outubro,",
+   "s": 30.043,
+   "e": 31.124
+  },
+  {
+   "text": "o ex\u00e9rcito grego,",
+   "s": 31.383,
+   "e": 32.3
+  },
+  {
+   "text": "com vinte mil soldados,",
+   "s": 32.621,
+   "e": 33.848
+  },
+  {
+   "text": "invadiu a Bulg\u00e1ria e ocupou a cidade de Petrich.",
+   "s": 34.078,
+   "e": 36.486
+  },
+  {
+   "text": "S\u00f3 que a Bulg\u00e1ria apelou \u00e0 Liga das Na\u00e7\u00f5es,",
+   "s": 37.369,
+   "e": 39.42
+  },
+  {
+   "text": "a antecessora da ONU.",
+   "s": 39.642,
+   "e": 40.744
+  },
+  {
+   "text": "A Liga mandou parar a guerra de dez dias,",
+   "s": 41.621,
+   "e": 43.652
+  },
+  {
+   "text": "e a Gr\u00e9cia retirou as tropas e pagou quarenta e cinco mil libras.",
+   "s": 43.898,
+   "e": 47.074
+  },
+  {
+   "text": "At\u00e9 hoje,",
+   "s": 47.924,
+   "e": 48.516
+  },
+  {
+   "text": "n\u00e3o h\u00e1 acordo nem sobre a exist\u00eancia do cachorro.",
+   "s": 48.743,
+   "e": 51.049
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 51.895,
+   "e": 53.34
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 53.633,
+   "e": 55.394
+  }
+ ]
+}

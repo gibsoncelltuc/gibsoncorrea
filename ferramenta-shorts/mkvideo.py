@@ -1425,6 +1425,7 @@ def build_beat(k, b):
             if any(abs(float(dx) - px_) < 1.35 and float(z) > pz_ - 1.6 for px_, pz_ in _ppos):
                 _xs = sorted(px_ for px_, pz_ in _ppos); _gaps = [(_xs[j + 1] - _xs[j], (_xs[j + 1] + _xs[j]) / 2) for j in range(len(_xs) - 1)]
                 _eh_her = bool(HEROI) and re.sub(r'_(red|yellow|purple|striped)$', '', str(asset)) == re.sub(r'_(red|yellow|purple|striped)$', '', str(HEROI))
+                _eh_her = _eh_her or any(as_ == str(asset) and re.search(rx_, _say_sp) for rx_, as_, sc_, big_ in OBJ_DICT)   # 24/11 (Goodyear): objeto CITADO na frase (o fogao) fica ao lado dos personagens, nao 2 m fora do quadro
                 if _eh_her and _gaps and max(_gaps)[0] >= 1.6: dx = round(max(_gaps)[1], 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.3)   # 24/11 OBJETO HEROI: no vao ENTRE os personagens (antes ia 2 m para o lado e saia cortado na borda)
                 elif _eh_her: _lado = 0.95 if shot in ('close', 'two', 'low') else 1.3; dx = round((max(_xs) + _lado) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - _lado), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.8)   # sozinho ou colados: logo ao lado, dentro do quadro
                 else: dx = round((max(_xs) + 2.0) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 2.0), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.4)

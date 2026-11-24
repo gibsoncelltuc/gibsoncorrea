@@ -41,7 +41,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "reveal",
    "personagens": [
     "MED",
     "MED"
@@ -53,15 +53,9 @@
    "palavras": 17,
    "cena": "b1",
    "frase": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -120,11 +114,11 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "crowd",
    "personagens": [
     "FLE"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "kit/gosma",
     "kit/petri"
@@ -132,14 +126,20 @@
    "palavras": 9,
    "cena": "b5",
    "frase": "Ele ia jogar o prato fora, mas olhou melhor.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_montanha"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FLE",
     "COL"

@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b1  (~5.9 s)
 - Narracao: Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: INGLATERRA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~7.9 s)
 - Narracao: Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.
@@ -49,12 +49,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b5  (~3.1 s)
 - Narracao: Ele ia jogar o prato fora, mas olhou melhor.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: olha (point) @7 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~3.4 s)
 - Narracao: Acontece que, em volta do mofo, as bactérias tinham sumido.

@@ -1,0 +1,216 @@
+{
+ "duration": 56.232,
+ "frames30": 1687,
+ "source": "silence-align (cost 0.76)",
+ "segments": [
+  [
+   0.158667,
+   1.85646
+  ],
+  [
+   2.08363,
+   3.59967
+  ],
+  [
+   4.51037,
+   6.38796
+  ],
+  [
+   7.25546,
+   10.4713
+  ],
+  [
+   11.3256,
+   12.7372
+  ],
+  [
+   12.9415,
+   13.5102
+  ],
+  [
+   13.733,
+   16.0003
+  ],
+  [
+   16.8762,
+   19.1749
+  ],
+  [
+   19.4354,
+   21.3208
+  ],
+  [
+   22.1738,
+   24.9806
+  ],
+  [
+   25.8457,
+   28.8471
+  ],
+  [
+   29.113,
+   30.3477
+  ],
+  [
+   31.1771,
+   34.9392
+  ],
+  [
+   35.7658,
+   37.524
+  ],
+  [
+   37.7952,
+   39.4059
+  ],
+  [
+   40.269,
+   40.8105
+  ],
+  [
+   40.9763,
+   42.3393
+  ],
+  [
+   42.5825,
+   44.2728
+  ],
+  [
+   45.1304,
+   46.3548
+  ],
+  [
+   46.6325,
+   48.1794
+  ],
+  [
+   49.0357,
+   51.0731
+  ],
+  [
+   51.9272,
+   53.3722
+  ],
+  [
+   53.6687,
+   55.4145
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra inteira teve um \u00fanico tiro,",
+   "s": 0.159,
+   "e": 1.856
+  },
+  {
+   "text": "e ele acertou uma chaleira de sopa.",
+   "s": 2.084,
+   "e": 3.6
+  },
+  {
+   "text": "Foi em mil setecentos e oitenta e quatro.",
+   "s": 4.51,
+   "e": 6.388
+  },
+  {
+   "text": "A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
+   "s": 7.255,
+   "e": 10.471
+  },
+  {
+   "text": "O imperador Jos\u00e9 Segundo,",
+   "s": 11.326,
+   "e": 12.737
+  },
+  {
+   "text": "da \u00c1ustria,",
+   "s": 12.941,
+   "e": 13.51
+  },
+  {
+   "text": "queria o rio aberto para os navios de Antu\u00e9rpia.",
+   "s": 13.733,
+   "e": 16.0
+  },
+  {
+   "text": "Convencido de que os holandeses n\u00e3o reagiriam,",
+   "s": 16.876,
+   "e": 19.175
+  },
+  {
+   "text": "ele mandou tr\u00eas navios descerem o rio.",
+   "s": 19.435,
+   "e": 21.321
+  },
+  {
+   "text": "O maior levava a bandeira do imperador e seguia na frente.",
+   "s": 22.174,
+   "e": 24.981
+  },
+  {
+   "text": "Acontece que o navio de guerra holand\u00eas Dolfijn estava esperando,",
+   "s": 25.846,
+   "e": 28.847
+  },
+  {
+   "text": "e disparou um \u00fanico tiro.",
+   "s": 29.113,
+   "e": 30.348
+  },
+  {
+   "text": "A bala acertou e destruiu uma chaleira de sopa no conv\u00e9s do navio do imperador.",
+   "s": 31.177,
+   "e": 34.939
+  },
+  {
+   "text": "O navio austr\u00edaco se rendeu na hora,",
+   "s": 35.766,
+   "e": 37.524
+  },
+  {
+   "text": "sem trocar nem um tiro a mais.",
+   "s": 37.795,
+   "e": 39.406
+  },
+  {
+   "text": "Depois,",
+   "s": 40.269,
+   "e": 40.81
+  },
+  {
+   "text": "a Fran\u00e7a mediou a paz,",
+   "s": 40.976,
+   "e": 42.339
+  },
+  {
+   "text": "em mil setecentos e oitenta e cinco.",
+   "s": 42.583,
+   "e": 44.273
+  },
+  {
+   "text": "O rio continuou fechado,",
+   "s": 45.13,
+   "e": 46.355
+  },
+  {
+   "text": "e a Holanda pagou uma indeniza\u00e7\u00e3o.",
+   "s": 46.633,
+   "e": 48.179
+  },
+  {
+   "text": "O \u00fanico preju\u00edzo do dia foi o almo\u00e7o.",
+   "s": 49.036,
+   "e": 51.073
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 51.927,
+   "e": 53.372
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 53.669,
+   "e": 55.414
+  }
+ ]
+}
