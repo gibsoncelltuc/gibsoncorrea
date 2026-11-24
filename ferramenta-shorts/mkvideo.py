@@ -1376,6 +1376,7 @@ def build_beat(k, b):
         if _EH_VEIC(asset) and not ex.get('carregado') and (ex.get('fixo') or b.get('_pergunta')):   # veiculo parado de proposito: so' o tamanho real, sem animacao
             _sr, _tr = _tam_real(asset, s, z)
             if _tr and not ex.get('fixo'): s = _sr; b.setdefault('_tam', []).append(_tr)
+            if _ppos and float(z) > -3.0 and not ex.get('perto') and not ex.get('fixo'): dx, z = (0.0 if shot not in WIDE else dx), -3.4   # mesmo parado, o carro fica ATRAS dos personagens (nunca com a roda na frente das pernas)
         if _EH_VEIC(asset) and not ex.get('fixo') and not ex.get('carregado') and not b.get('_pergunta'):
             _L = _glb_len(asset); _alvo = 6.2 if re.search(r'truck|caminh|onibus|bus', str(asset)) else 5.0
             _sr, _tr = _tam_real(asset, s, z)

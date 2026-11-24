@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 17 palavras - plano two
@@ -22,7 +22,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
-| 2 | - | PLACA | 2026 | OK |
 
 ## Cena b2 - 12.1s a 17.5s - 17 palavras - plano two
 > "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo."
