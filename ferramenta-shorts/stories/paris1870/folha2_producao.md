@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous)
+- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous) | multidao: 0 de 
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: dog, cat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, cavalos, gatos, parisienses

@@ -1,150 +1,108 @@
 {
  "fails": [
   {
+   "f": 444,
+   "shot": "b2~2",
+   "why": [
+    "par: head/torso cropped (box 1.153, 0.526, 1.376, 0.712)"
+   ]
+  },
+  {
+   "f": 448,
+   "shot": "b2~2",
+   "why": [
+    "par: head/torso cropped (box 1.153, 0.529, 1.338, 0.712)"
+   ]
+  },
+  {
    "f": 452,
    "shot": "b2~2",
    "why": [
-    "par: head/torso cropped (box 1.03, 0.534, 1.173, 0.686)"
+    "par: head/torso cropped (box 1.145, 0.529, 1.33, 0.715)"
    ]
   },
   {
    "f": 456,
    "shot": "b2~2",
    "why": [
-    "par: head/torso cropped (box 1.019, 0.532, 1.162, 0.685)"
+    "par: head/torso cropped (box 1.132, 0.527, 1.316, 0.713)"
    ]
   },
   {
    "f": 457,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 1.018, 0.532, 1.193, 0.688)"
+    "par: head/torso cropped (box 1.13, 0.527, 1.356, 0.718)"
    ]
   },
   {
    "f": 460,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 1.014, 0.531, 1.188, 0.685)"
+    "par: head/torso cropped (box 1.123, 0.525, 1.348, 0.714)"
    ]
   },
   {
    "f": 464,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 1.022, 0.519, 1.186, 0.663)"
+    "par: head/torso cropped (box 1.126, 0.512, 1.334, 0.686)"
+   ]
+  },
+  {
+   "f": 468,
+   "shot": "b2~3",
+   "why": [
+    "par: head/torso cropped (box 1.093, 0.49, 1.231, 0.635)"
+   ]
+  },
+  {
+   "f": 480,
+   "shot": "b2~3",
+   "why": [
+    "par: head/torso cropped (box 1.031, 0.473, 1.139, 0.592)"
+   ]
+  },
+  {
+   "f": 484,
+   "shot": "b2~3",
+   "why": [
+    "par: head/torso cropped (box 1.029, 0.474, 1.136, 0.592)"
    ]
   },
   {
    "f": 488,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 0.957, 0.485, 1.043, 0.585)"
+    "par: head/torso cropped (box 1.029, 0.475, 1.133, 0.591)"
    ]
   },
   {
    "f": 492,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 0.958, 0.486, 1.041, 0.584)"
+    "par: head/torso cropped (box 1.029, 0.476, 1.13, 0.591)"
    ]
   },
   {
    "f": 496,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 0.958, 0.487, 1.043, 0.584)"
+    "par: head/torso cropped (box 1.029, 0.477, 1.132, 0.591)"
    ]
   },
   {
    "f": 500,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 0.957, 0.487, 1.042, 0.584)"
+    "par: head/torso cropped (box 1.028, 0.476, 1.132, 0.591)"
    ]
   },
   {
    "f": 503,
    "shot": "b2~3",
    "why": [
-    "par: head/torso cropped (box 0.96, 0.487, 1.044, 0.585)"
-   ]
-  },
-  {
-   "f": 574,
-   "shot": "b3_v",
-   "why": [
-    "par: head/torso cropped (box -0.29, -0.155, 0.355, 0.584)"
-   ]
-  },
-  {
-   "f": 576,
-   "shot": "b3_v",
-   "why": [
-    "par: head/torso cropped (box -0.245, -0.119, 0.385, 0.607)"
-   ]
-  },
-  {
-   "f": 848,
-   "shot": "b5_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 852,
-   "shot": "b5_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 856,
-   "shot": "b5_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 860,
-   "shot": "b5_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1596,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1600,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1604,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1608,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1612,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
+    "par: head/torso cropped (box 1.031, 0.477, 1.134, 0.592)"
    ]
   }
  ],

@@ -79,14 +79,14 @@
    "animals": [
     [
      "dog",
-     3.0,
+     1.6,
      1.2,
      "stand",
      1.1
     ],
     [
      "cat",
-     -3.2,
+     -1.8,
      1.0,
      "stand",
      1.0
@@ -95,7 +95,11 @@
    "text": "CAVALOS, CÃES, GATOS",
    "tat": 5,
    "tstyle": "brown",
-   "shot_lock": true
+   "shot_lock": true,
+   "crowd": {
+    "n": 0
+   },
+   "vary": false
   },
   {
    "say": "Depois, os roedores, que viraram um prato chique.",
