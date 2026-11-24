@@ -179,7 +179,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "ROM"
    ],

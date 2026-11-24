@@ -86,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | INTERACAO | entregar | OK |
 | 7 | - | PLACA | 1.000 LIBRAS | OK |
 
-## Cena b9 - 46.1s a 49.3s - 13 palavras - plano wide
+## Cena b9 - 46.1s a 49.3s - 13 palavras - plano group
 > "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

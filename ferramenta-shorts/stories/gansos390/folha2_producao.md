@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 0, expressao smile)
 - Animacao: encena
 - Objetos/modelos: goose
@@ -123,7 +123,7 @@ buildings/castle_tower | b2, b4, b6, b7 | pronto | conferir na folha de contato 
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3 | planos abertos: 7 | mistura: close 10% | medio 31% | aberto 59% | detalhe 0%
+- Objeto heroi: - | grandes momentos: b3 | planos abertos: 6 | mistura: close 10% | medio 40% | aberto 50% | detalhe 0%
 - Interacoes: b7 o outro se aproxima, b8 entregar
 - RISCOS GERAIS: nenhum
 

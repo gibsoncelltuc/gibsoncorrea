@@ -13,7 +13,7 @@ b5 | loc_campo | wide | 1 | reagir | goose | - | -
 b6 | loc_campo | wide | 1 | tomba | buildings/castle_tower | - | -
 b7 | loc_campo | two | 2 | tomba, INTERAGEM: o outro se aproxima | buildings/castle_tower | - | -
 b8 | interior madeira | two | 2 | encena, INTERAGEM: entregar | - | coin, coin | -
-b9 | medieval | wide | 1 | encena | goose | - | -
+b9 | medieval | group | 1 | encena | goose | - | -
 b10 | medieval | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
