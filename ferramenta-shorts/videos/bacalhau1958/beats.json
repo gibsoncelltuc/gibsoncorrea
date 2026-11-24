@@ -40,10 +40,9 @@
  "beats": [
   {
    "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
-    "ICE:0:stern",
-    "BRI:0:stern"
+    "ICE:0:stern"
    ],
    "props": [
     [
@@ -62,7 +61,17 @@
    "text": "ISLÂNDIA VENCEU",
    "tat": 16,
    "tstyle": "blue",
-   "mood": "march"
+   "mood": "march",
+   "cx": 0.0,
+   "cz": -18.2,
+   "h": 2.8,
+   "d0": 33.0,
+   "d1": 31.0,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 3,
+   "detalhe": false
   },
   {
    "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
@@ -148,15 +157,13 @@
   },
   {
    "say": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
-   "shot": "reveal",
-   "who": [
-    "ICE:2:stern"
-   ],
+   "shot": "wide",
+   "who": [],
    "props": [
     [
      "kit/navio_destroier",
-     -12,
-     -26,
+     0.0,
+     -9.0,
      1.0
     ],
     [
@@ -167,9 +174,17 @@
     ]
    ],
    "set": "harbor",
-   "text": "FRAGATAS",
-   "tat": 10,
-   "tstyle": "blue"
+   "cx": 0.0,
+   "cz": -6.3,
+   "h": 2.8,
+   "d0": 16.0,
+   "d1": 14.0,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 3,
+   "impact": true,
+   "detalhe": false
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",

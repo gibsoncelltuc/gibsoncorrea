@@ -12,8 +12,7 @@
   {
    "camera": "two",
    "personagens": [
-    "ICE",
-    "BRI"
+    "ICE"
    ],
    "multidao": 0,
    "objetos": [
@@ -88,9 +87,7 @@
   },
   {
    "camera": "group",
-   "personagens": [
-    "ICE"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/navio_destroier"
@@ -98,9 +95,15 @@
    "palavras": 10,
    "cena": "b4",
    "frase": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "chave",
+   "sujeito": "cenario",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },

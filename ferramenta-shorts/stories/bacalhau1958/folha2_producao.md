@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - A Islândia derrotou a marinha inglesa com um cortador de rede.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ICE (variante 0, expressao stern); BRI (variante 0, expressao stern)
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): ICE (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cortador, islandia, marinha, rede
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
-- Animacao: reagir | interacao: insiste
+- Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: crate, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): islandia, pesca
 - RISCOS: nenhum
@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): ICE (variante 2, expressao stern)
-- Animacao: conversar
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, pesca
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh) | multidao: 0 de BRI/ICE
-- Animacao: conversar | interacao: vai ate o outro | batalha encenada
+- Animacao: conversar | interacao: insiste | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, inglaterra, zona
 - RISCOS: nenhum
@@ -123,8 +123,8 @@ crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b7, b8 | planos abertos: 2 | mistura: close 19% | medio 57% | aberto 21% | detalhe 3%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b7 discutir, b8 vai ate o outro
+- Objeto heroi: kit/cod | grandes momentos: b4, b7, b8 | planos abertos: 2 | mistura: close 19% | medio 59% | aberto 21% | detalhe 1%
+- Interacoes: b2 o outro se aproxima, b7 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

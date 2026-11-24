@@ -1,0 +1,325 @@
+{
+ "title": "As Guerras do Bacalhau",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "assets": [
+  "ship"
+ ],
+ "outfits": {
+  "ICE": {
+   "jacket": "#1f3a6a",
+   "pants": "#1f3a6a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1f3a6a",
+   "buttons": "#e8c45a",
+   "belt": "#f1efe6",
+   "moustache_on": "#4a3020"
+  },
+  "BRI": {
+   "jacket": "#f1efe6",
+   "pants": "#1f2a4a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#f1efe6",
+   "buttons": "#e8c45a",
+   "belt": "#1f2a4a"
+  },
+  "PES": {
+   "jacket": "#e6c01f",
+   "pants": "#e6c01f",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#e6c01f",
+   "moustache_on": "#3a2a1f"
+  }
+ },
+ "beats": [
+  {
+   "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
+   "shot": "wide",
+   "who": [
+    "ICE:0:stern"
+   ],
+   "props": [
+    [
+     "kit/navio_destroier",
+     -12,
+     -26,
+     1.0
+    ],
+    [
+     "kit/navio_destroier",
+     13,
+     -30,
+     1.0
+    ]
+   ],
+   "text": "ISLÂNDIA VENCEU",
+   "tat": 16,
+   "tstyle": "blue",
+   "mood": "march",
+   "cx": 0.0,
+   "cz": -18.2,
+   "h": 2.8,
+   "d0": 33.0,
+   "d1": 31.0,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 3
+  },
+  {
+   "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
+   "shot": "wide",
+   "who": [
+    "ICE:0:stern",
+    "BRI:0:stern"
+   ],
+   "props": [
+    [
+     "kit/navio_destroier",
+     -14,
+     -42,
+     1.0
+    ],
+    [
+     "kit/navio_destroier",
+     12,
+     -46,
+     1.0
+    ]
+   ],
+   "text": "1958-1976",
+   "tat": 14,
+   "tstyle": "blue",
+   "mood": "march",
+   "cx": 0,
+   "cz": -40,
+   "h": 9.0,
+   "d0": 50,
+   "d1": 44
+  },
+  {
+   "say": "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa.",
+   "shot": "two",
+   "who": [
+    "ICE:1:nervous",
+    "PES:0:grin"
+   ],
+   "props": [
+    [
+     "crate",
+     2.8,
+     0.8,
+     1.1
+    ]
+   ],
+   "text": "BACALHAU",
+   "tat": 14,
+   "tstyle": "brown",
+   "set": "harbor",
+   "detalhe": false
+  },
+  {
+   "say": "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas.",
+   "shot": "wide",
+   "who": [
+    "ICE:2:stern"
+   ],
+   "props": [
+    [
+     "kit/navio_destroier",
+     -14,
+     -42,
+     1.0
+    ],
+    [
+     "kit/navio_destroier",
+     12,
+     -46,
+     1.0
+    ]
+   ],
+   "text": "12 · 50 · 200 MILHAS",
+   "tat": 14,
+   "tstyle": "gold",
+   "set": "harbor",
+   "cx": 0,
+   "cz": -40,
+   "h": 9.0,
+   "d0": 50,
+   "d1": 44
+  },
+  {
+   "say": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
+   "shot": "wide",
+   "who": [
+    "ICE:2:stern"
+   ],
+   "props": [
+    [
+     "kit/navio_destroier",
+     0.0,
+     -9.0,
+     1.0
+    ],
+    [
+     "kit/navio_destroier",
+     13,
+     -30,
+     1.0
+    ]
+   ],
+   "set": "harbor",
+   "text": "FRAGATAS",
+   "tat": 10,
+   "tstyle": "blue",
+   "cx": 0.0,
+   "cz": -6.3,
+   "h": 2.8,
+   "d0": 18.0,
+   "d1": 15.0,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 2
+  },
+  {
+   "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
+   "shot": "close",
+   "who": [
+    "ICE:0:grin"
+   ]
+  },
+  {
+   "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/navio_destroier",
+     -8,
+     -42,
+     1.0
+    ],
+    [
+     "kit/navio_destroier",
+     8,
+     -42,
+     1.0
+    ]
+   ],
+   "fx": [
+    "splash@50",
+    "burst@60"
+   ],
+   "sfx": [
+    "thump@60",
+    "creak@62"
+   ],
+   "mood": "tense",
+   "cx": 0,
+   "cz": -40,
+   "h": 8.0,
+   "d0": 48,
+   "d1": 40,
+   "acao": "comemorar"
+  },
+  {
+   "say": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",
+   "shot": "two",
+   "who": [
+    "ICE:1:stern",
+    "BRI:0:shock"
+   ],
+   "text": "OTAN",
+   "tat": 9,
+   "tstyle": "blue",
+   "mood": "march",
+   "detalhe": false,
+   "impact": true
+  },
+  {
+   "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
+   "shot": "two",
+   "who": [
+    "BRI:0:pained",
+    "ICE:0:laugh"
+   ],
+   "text": "VITÓRIA ISLANDESA",
+   "tat": 12,
+   "tstyle": "gold",
+   "mood": "playful",
+   "impact": true
+  },
+  {
+   "say": "Uma guerra inteira, por causa de um bacalhau.",
+   "shot": "close",
+   "who": [
+    "PES:0:laugh"
+   ],
+   "props": [
+    [
+     "crate",
+     -1.8,
+     0.7,
+     1.0
+    ],
+    [
+     "kit/cod",
+     1.6,
+     1.8,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "TUDO POR UM BACALHAU",
+   "tat": 13,
+   "tstyle": "brown",
+   "set": "harbor"
+  }
+ ],
+ "variar_cenario": false,
+ "serie": "Guerras Inusitadas",
+ "ep": 25,
+ "titulo_base": "As Guerras do Bacalhau",
+ "visual": {
+  "local": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de pesca); águas cinzentas e frias",
+  "quando": "1958 a 1976, em três disputas (1958-61, 1972-73, 1975-76); dia nublado de mar",
+  "participantes": [
+   "guarda costeira da Islândia (uniforme azul-marinho, bonés)",
+   "marinheiros da Marinha Real britânica (uniforme branco e azul)",
+   "pescadores de capa amarela"
+  ],
+  "roupas": {
+   "ICE": "uniforme azul-marinho com botões dourados",
+   "BRI": "uniforme branco e azul naval",
+   "PES": "capa de chuva amarela de pescador"
+  },
+  "cenario": "porto e mar cinzento do Atlântico Norte com barcos de pesca, fragatas e navios da guarda costeira da época (anos 1950-70)",
+  "objetos": [
+   "bacalhau",
+   "caixote de peixe",
+   "navio da guarda costeira",
+   "fragata britânica",
+   "cabo de rede de pesca"
+  ],
+  "explicacoes": [
+   "Cortadores de rede: a guarda costeira islandesa cortava os cabos de arrasto dos barcos ingleses (fonte: Wikipedia \"Cod Wars\")"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Cod_Wars",
+   "https://commons.wikimedia.org/wiki/Category:Cod_Wars"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Cod_Wars"
+ ],
+ "duracao_ok": true
+}
