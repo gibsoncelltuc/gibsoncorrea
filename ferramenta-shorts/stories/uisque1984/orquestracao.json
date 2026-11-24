@@ -65,7 +65,6 @@
   {
    "camera": "wide",
    "personagens": [
-    "CAN",
     "CAN"
    ],
    "multidao": 10,
@@ -109,9 +108,8 @@
    "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "DIN",
     "DIN"
    ],
    "multidao": 10,
