@@ -275,12 +275,10 @@ nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer 
 - Objeto heroi: - | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 15% | medio 67% | aberto 19% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b4 vai ate o outro, b8 aproxima-se, b9 entregar
 - RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles, sultao Khalid bin Barghash e guardas zanzibaris, oficiais e marinheiros da Mar -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles, sultao Khalid bin Barghash e guardas zanzibaris, oficiais e marinheiros da Mar
 - geral: video sem objeto heroi
 
 ## Reparos depois do render
