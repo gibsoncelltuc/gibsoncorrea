@@ -129,9 +129,11 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 ## Video inteiro
 - Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 2 | mistura: close 9% | medio 74% | aberto 12% | detalhe 4%
 - Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).
