@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paris1870/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paris1870` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Paris já serviu elefante no jantar.
-- Cenario: interior madeira | luz: pordosol | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
@@ -144,11 +144,9 @@ kit/balloon | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/panela | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 29% | medio 52% | aberto 13% | detalhe 7%
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 discutir, b6 tremem de frio, b7 o outro se aproxima, b9 vai ate o outro
-- RISCOS GERAIS: 
-  - video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).

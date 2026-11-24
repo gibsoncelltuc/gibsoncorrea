@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 
 ## Cena b1  (~5.9 s)
 - Narracao: Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: absurdo -> ring + som de alerta; encena: chega (point) @9 -> acao + som de efeito; encena: duvida (shrug) @16 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Narracao: O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (GEN) -> acao + som de efeito; atacar -> ring + som de alerta; encena: pensa (think) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: pensa (think) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: A CAVALO?
 - Funcao na historia: desenvolvimento

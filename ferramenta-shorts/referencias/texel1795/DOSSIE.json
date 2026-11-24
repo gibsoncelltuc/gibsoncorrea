@@ -9,16 +9,9 @@
   "cenarios": [
    "arctic",
    "harbor",
-   "interior madeira",
-   "loc_campo"
+   "interior madeira"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 6",
-    "countryside",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | pordosol  | animais, interior, placa: 1870 | encena: x_come (eat) @5 (acao + som de efeito) | -
+b0 | two | -  | animais, interior, placa: 1870 | encena: x_come (eat) @5 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: chega (point) @7 (acao + som de efeito) | -
 b2 | group | -  | animais, interior, placa: CAVALOS, CÃES, GATOS | - | -
 b3 | two | -  | placa: RATOS | - | -

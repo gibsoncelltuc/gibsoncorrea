@@ -62,7 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | CASTOR E PÓLUX | OK |
 
-## Cena b6 - 30.1s a 35.9s - 16 palavras - plano two
+## Cena b6 - 30.1s a 35.3s - 16 palavras - plano two
 > "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -71,28 +71,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | NATAL DE 1870 | OK |
 
-## Cena b7 - 36.0s a 39.3s - 9 palavras - plano group
+## Cena b7 - 36.5s a 39.4s - 9 palavras - plano group
 > "Para mandar notícias, os parisienses usavam balões e pombos-correio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandar (36.6s) | ACAO: fala | aponta explicando | OK |
+| 1 | mandar (36.8s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | BALÕES E POMBOS | OK |
 
-## Cena b8 - 39.7s a 44.9s - 14 palavras - plano crowd
+## Cena b8 - 40.9s a 44.4s - 14 palavras - plano crowd
 > "Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (40.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (40.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | fugir (41.4s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 1 | chegou (41.5s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegou (41.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | fugir (42.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 45.3s a 49.6s - 10 palavras - plano two
+## Cena b9 - 45.9s a 48.4s - 10 palavras - plano two
 > "O cerco durou mais de quatro meses, em pleno inverno."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -100,15 +100,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 49.9s a 56.1s - 19 palavras - plano close
+## Cena b10 - 49.7s a 54.6s - 19 palavras - plano close
 > "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendeu (55.0s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 1 | rendeu (53.4s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | PLACA | PARIS SE RENDEU | OK |
 
-## Cena b11 - 56.2s a 60.3s - 13 palavras - plano close
+## Cena b11 - 55.7s a 59.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
