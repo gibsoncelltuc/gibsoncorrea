@@ -131,11 +131,9 @@ kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/tulip_striped | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 15% | medio 70% | aberto 12% | detalhe 3%
 - Interacoes: b0 susto, b2 discutir, b4 reverencia, b5 aproxima-se, b6 vai ate o outro, b8 avanca e o outro recua
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tulipas1637  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tulipas1637/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh tulipas1637 bN bM` (so essas cenas).

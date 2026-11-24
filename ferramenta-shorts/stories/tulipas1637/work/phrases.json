@@ -1,0 +1,342 @@
+{
+ "duration": 65.184,
+ "frames30": 1956,
+ "source": "silence-align (cost 1.04)",
+ "segments": [
+  [
+   0.157833,
+   2.75
+  ],
+  [
+   3.61571,
+   4.24025
+  ],
+  [
+   4.51187,
+   6.76617
+  ],
+  [
+   7.64183,
+   8.18863
+  ],
+  [
+   8.38987,
+   8.701
+  ],
+  [
+   8.94637,
+   9.42967
+  ],
+  [
+   10.2961,
+   11.9199
+  ],
+  [
+   12.7513,
+   13.3314
+  ],
+  [
+   13.6028,
+   15.3195
+  ],
+  [
+   15.643,
+   17.5685
+  ],
+  [
+   18.4156,
+   18.7583
+  ],
+  [
+   19.0132,
+   20.5066
+  ],
+  [
+   21.3723,
+   21.8497
+  ],
+  [
+   22.0089,
+   22.6833
+  ],
+  [
+   22.894,
+   24.632
+  ],
+  [
+   25.4679,
+   27.1089
+  ],
+  [
+   27.9817,
+   30.5026
+  ],
+  [
+   30.7196,
+   31.541
+  ],
+  [
+   32.4066,
+   34.5329
+  ],
+  [
+   34.8032,
+   35.8946
+  ],
+  [
+   36.7331,
+   37.747
+  ],
+  [
+   38.6256,
+   39.4562
+  ],
+  [
+   39.688,
+   40.7063
+  ],
+  [
+   41.0278,
+   42.43
+  ],
+  [
+   42.638,
+   43.7004
+  ],
+  [
+   44.5669,
+   45.4592
+  ],
+  [
+   46.3137,
+   47.2272
+  ],
+  [
+   47.4435,
+   48.583
+  ],
+  [
+   48.9204,
+   50.2498
+  ],
+  [
+   51.0748,
+   52.1885
+  ],
+  [
+   53.0639,
+   55.9738
+  ],
+  [
+   56.162,
+   56.8953
+  ],
+  [
+   57.7533,
+   58.3231
+  ],
+  [
+   58.621,
+   59.1733
+  ],
+  [
+   59.3034,
+   60.0139
+  ],
+  [
+   60.8789,
+   62.3235
+  ],
+  [
+   62.616,
+   64.3777
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma \u00fanica flor j\u00e1 custou o pre\u00e7o de uma casa inteira.",
+   "s": 0.158,
+   "e": 2.75
+  },
+  {
+   "text": "Era a Holanda,",
+   "s": 3.616,
+   "e": 4.24
+  },
+  {
+   "text": "e a tulipa tinha acabado de chegar do Oriente.",
+   "s": 4.512,
+   "e": 6.766
+  },
+  {
+   "text": "Colorida,",
+   "s": 7.642,
+   "e": 8.189
+  },
+  {
+   "text": "rara,",
+   "s": 8.39,
+   "e": 8.701
+  },
+  {
+   "text": "e na moda.",
+   "s": 8.946,
+   "e": 9.43
+  },
+  {
+   "text": "Os ricos queriam as mais raras.",
+   "s": 10.296,
+   "e": 11.92
+  },
+  {
+   "text": "Num leil\u00e3o,",
+   "s": 12.751,
+   "e": 13.331
+  },
+  {
+   "text": "um oferecia mil moedas por um bulbo,",
+   "s": 13.603,
+   "e": 15.319
+  },
+  {
+   "text": "e outro gritava que pagava duas mil.",
+   "s": 15.643,
+   "e": 17.569
+  },
+  {
+   "text": "Logo,",
+   "s": 18.416,
+   "e": 18.758
+  },
+  {
+   "text": "o pa\u00eds inteiro estava comprando.",
+   "s": 19.013,
+   "e": 20.507
+  },
+  {
+   "text": "Padeiros,",
+   "s": 21.372,
+   "e": 21.85
+  },
+  {
+   "text": "sapateiros,",
+   "s": 22.009,
+   "e": 22.683
+  },
+  {
+   "text": "gente que nunca tinha plantado nada.",
+   "s": 22.894,
+   "e": 24.632
+  },
+  {
+   "text": "Ningu\u00e9m queria a flor de verdade.",
+   "s": 25.468,
+   "e": 27.109
+  },
+  {
+   "text": "Queriam vender o papel mais caro na semana seguinte,",
+   "s": 27.982,
+   "e": 30.503
+  },
+  {
+   "text": "e ficar ricos.",
+   "s": 30.72,
+   "e": 31.541
+  },
+  {
+   "text": "Contam que um marinheiro comeu um bulbo no almo\u00e7o,",
+   "s": 32.407,
+   "e": 34.533
+  },
+  {
+   "text": "achando que era cebola.",
+   "s": 34.803,
+   "e": 35.895
+  },
+  {
+   "text": "Valia uma fortuna.",
+   "s": 36.733,
+   "e": 37.747
+  },
+  {
+   "text": "Acontece que,",
+   "s": 38.626,
+   "e": 39.456
+  },
+  {
+   "text": "num leil\u00e3o de fevereiro,",
+   "s": 39.688,
+   "e": 40.706
+  },
+  {
+   "text": "o vendedor abriu os lances,",
+   "s": 41.028,
+   "e": 42.43
+  },
+  {
+   "text": "e ningu\u00e9m levantou a m\u00e3o.",
+   "s": 42.638,
+   "e": 43.7
+  },
+  {
+   "text": "A not\u00edcia correu.",
+   "s": 44.567,
+   "e": 45.459
+  },
+  {
+   "text": "Em poucos dias,",
+   "s": 46.314,
+   "e": 47.227
+  },
+  {
+   "text": "todo mundo quis vender,",
+   "s": 47.444,
+   "e": 48.583
+  },
+  {
+   "text": "e n\u00e3o havia mais comprador.",
+   "s": 48.92,
+   "e": 50.25
+  },
+  {
+   "text": "Os pre\u00e7os desabaram.",
+   "s": 51.075,
+   "e": 52.188
+  },
+  {
+   "text": "Quem tinha trocado a casa por flores ficou s\u00f3 com as flores,",
+   "s": 53.064,
+   "e": 55.974
+  },
+  {
+   "text": "e as d\u00edvidas.",
+   "s": 56.162,
+   "e": 56.895
+  },
+  {
+   "text": "O marinheiro,",
+   "s": 57.753,
+   "e": 58.323
+  },
+  {
+   "text": "pelo menos,",
+   "s": 58.621,
+   "e": 59.173
+  },
+  {
+   "text": "almo\u00e7ou bem.",
+   "s": 59.303,
+   "e": 60.014
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 60.879,
+   "e": 62.324
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 62.616,
+   "e": 64.378
+  }
+ ]
+}

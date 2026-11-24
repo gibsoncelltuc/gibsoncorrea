@@ -145,12 +145,12 @@ kit/bee | b0, b2, b3, b4, b5, b6, b7, b9, b11 | pronto | conferir na folha de co
 - Objeto heroi: kit/beehive | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 18% | medio 67% | aberto 10% | detalhe 4%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 discutir, b7 entregar, b8 empurrar, b10 pular
 - RISCOS GERAIS: 
-  - video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py abelhas1945  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/abelhas1945/moodboard.jpg
+  - video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - FOLHA 4: 7 item(ns) sem referencia visual: As Abelhas que Dançam um Mapa, Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim, colegas cientistas desconfiados, colmeia de vid -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 2 risco(s) em aberto
-- geral: video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: FOLHA 4: 7 item(ns) sem referencia visual: As Abelhas que Dançam um Mapa, Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim, colegas cientistas desconfiados, colmeia de vid
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh abelhas1945 bN bM` (so essas cenas).
