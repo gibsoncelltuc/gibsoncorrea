@@ -846,5 +846,5 @@ window.renderFrame = (f) => {
   return renderCore(f);
 };
 window.getFrameDataURL = (q = 0.92) => (compOn ? compA : canvas).toDataURL('image/jpeg', q);
-window.TOTAL = TOTAL; window.__scene = scene; window.__cam = camera;
+window.TOTAL = TOTAL; window.__scene = scene; window.__cam = camera; window.__propPool = propPool;
 window.ready = true;

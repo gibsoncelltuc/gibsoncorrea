@@ -1,13 +1,13 @@
 # CRONOGRAMA - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Gerado em 24/11 11:44 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 12:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | chave | arctic | wide | FRA, FRA | - | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Uma frota de navios de guerra foi capturada por soldados a cavalo.
-b1 | simples | harbor | reveal | FRA, NED | - | - | - | Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fa
+b1 | simples | arctic | reveal | FRA, NED | - | - | - | Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fa
 b2 | simples | arctic | orbit | NED, NED | - | ship | - | A frota holandesa estava ancorada perto de Den Helder, e o mar congelo
 b3 | simples | arctic | wide | NED | - | ship | - | Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 b4 | simples | arctic | group | FRA, FRA, OFF | - | - | - | Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n

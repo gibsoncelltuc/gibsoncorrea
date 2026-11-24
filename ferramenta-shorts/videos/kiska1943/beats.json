@@ -278,8 +278,8 @@
    "props": [
     [
      "kit/navio_encouracado",
-     -1.5,
-     -7.0,
+     -3.0,
+     -24.0,
      1.0
     ]
    ],
@@ -292,13 +292,7 @@
    "text": "MINA",
    "tat": 14,
    "tstyle": "red",
-   "animais": false,
-   "light": "arctic",
-   "cx": -1.5,
-   "cz": -5.0,
-   "h": 3.0,
-   "d0": 20.0,
-   "d1": 17.0
+   "animais": false
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -351,9 +345,9 @@
    "props": [
     [
      "kit/dog_sit",
-     1.6,
-     -0.6,
-     1.0
+     1.0,
+     1.0,
+     1.2
     ]
    ],
    "detalhe": false,
