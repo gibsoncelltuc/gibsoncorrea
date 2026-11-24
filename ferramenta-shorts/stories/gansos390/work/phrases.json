@@ -1,0 +1,225 @@
+{
+ "duration": 54.768,
+ "frames30": 1643,
+ "source": "silence-align (cost 0.53)",
+ "segments": [
+  [
+   0.148458,
+   3.20213
+  ],
+  [
+   4.06558,
+   5.90242
+  ],
+  [
+   6.21267,
+   9.06517
+  ],
+  [
+   9.92212,
+   12.163
+  ],
+  [
+   12.442,
+   13.67
+  ],
+  [
+   14.4924,
+   16.0516
+  ],
+  [
+   16.3284,
+   17.9877
+  ],
+  [
+   18.8478,
+   19.9017
+  ],
+  [
+   20.1318,
+   21.9137
+  ],
+  [
+   22.174,
+   23.7302
+  ],
+  [
+   24.5751,
+   27.1603
+  ],
+  [
+   27.5189,
+   29.5589
+  ],
+  [
+   30.4193,
+   32.3795
+  ],
+  [
+   32.6803,
+   35.3257
+  ],
+  [
+   36.1904,
+   37.4847
+  ],
+  [
+   37.7129,
+   38.8598
+  ],
+  [
+   39.7021,
+   40.0949
+  ],
+  [
+   40.2962,
+   41.9222
+  ],
+  [
+   42.1952,
+   43.5622
+  ],
+  [
+   43.881,
+   45.2257
+  ],
+  [
+   46.0607,
+   47.4744
+  ],
+  [
+   47.7141,
+   49.6115
+  ],
+  [
+   50.4615,
+   51.9062
+  ],
+  [
+   52.1989,
+   53.9605
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um bando de gansos barulhentos salvou Roma numa s\u00f3 noite.",
+   "s": 0.148,
+   "e": 3.202
+  },
+  {
+   "text": "Em trezentos e noventa antes de Cristo,",
+   "s": 4.066,
+   "e": 5.902
+  },
+  {
+   "text": "os gauleses de Breno tomaram Roma e queimaram quase tudo.",
+   "s": 6.213,
+   "e": 9.065
+  },
+  {
+   "text": "Os romanos que sobraram se trancaram no Capit\u00f3lio,",
+   "s": 9.922,
+   "e": 12.163
+  },
+  {
+   "text": "uma colina fortificada.",
+   "s": 12.442,
+   "e": 13.67
+  },
+  {
+   "text": "Os gauleses cercaram a colina,",
+   "s": 14.492,
+   "e": 16.052
+  },
+  {
+   "text": "e a fome apertou os dois lados.",
+   "s": 16.328,
+   "e": 17.988
+  },
+  {
+   "text": "Numa noite sem lua,",
+   "s": 18.848,
+   "e": 19.902
+  },
+  {
+   "text": "eles chegaram em sil\u00eancio ao p\u00e9 da muralha,",
+   "s": 20.132,
+   "e": 21.914
+  },
+  {
+   "text": "e os guardas n\u00e3o ouviram nada.",
+   "s": 22.174,
+   "e": 23.73
+  },
+  {
+   "text": "Acontece que os gansos sagrados da deusa Juno ouviram,",
+   "s": 24.575,
+   "e": 27.16
+  },
+  {
+   "text": "e come\u00e7aram a gritar e a bater as asas.",
+   "s": 27.519,
+   "e": 29.559
+  },
+  {
+   "text": "O barulho acordou o soldado Marco M\u00e2nlio,",
+   "s": 30.419,
+   "e": 32.38
+  },
+  {
+   "text": "que foi at\u00e9 a muralha e impediu a subida dos gauleses.",
+   "s": 32.68,
+   "e": 35.326
+  },
+  {
+   "text": "Os gauleses se afastaram,",
+   "s": 36.19,
+   "e": 37.485
+  },
+  {
+   "text": "mas mantiveram o cerco.",
+   "s": 37.713,
+   "e": 38.86
+  },
+  {
+   "text": "No fim,",
+   "s": 39.702,
+   "e": 40.095
+  },
+  {
+   "text": "depois de sete meses com fome,",
+   "s": 40.296,
+   "e": 41.922
+  },
+  {
+   "text": "Roma pagou mil libras de ouro,",
+   "s": 42.195,
+   "e": 43.562
+  },
+  {
+   "text": "e os gauleses foram embora.",
+   "s": 43.881,
+   "e": 45.226
+  },
+  {
+   "text": "Os gansos salvaram a colina,",
+   "s": 46.061,
+   "e": 47.474
+  },
+  {
+   "text": "mas o ouro foi embora do mesmo jeito.",
+   "s": 47.714,
+   "e": 49.611
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 50.462,
+   "e": 51.906
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 52.199,
+   "e": 53.961
+  }
+ ]
+}
