@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
 - Cenario: arctic | luz: day | clima: neve
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GOV (variante 0, expressao shock, segura coin); MIC (variante 0, expressao grin)
 - Animacao: reagir | interacao: cochichar
 - Objetos/modelos: kit/minerio, nature/tree_pine, nature/tree_oak, nature/bush
@@ -130,7 +130,7 @@ kit/minerio | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 27% | medio 55% | aberto 14% | detalhe 4%
+- Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
 - Interacoes: b0 susto, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
 - RISCOS GERAIS: nenhum
 

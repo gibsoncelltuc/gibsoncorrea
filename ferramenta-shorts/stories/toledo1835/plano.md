@@ -14,5 +14,5 @@ b8 | low | - neve | placa: COBRE E FERRO, objeto na mao | fortuna (stars + som d
 b9 | close | dia limpo | interior, objeto na mao | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) @5 (acao + som de efeito) | -
 b10 | two | dia  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 27% | medio 55% | aberto 14% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 28% | medio 55% | aberto 14% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
