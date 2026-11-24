@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 13 - Você Está Demitido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -32,8 +32,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | aproxima-se | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.0s a 23.3s - 18 palavras - plano two
-> "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
+## Cena b3 - 17.0s a 21.9s - 14 palavras - plano two
+> "Toda semana, as equipes faziam uma tarefa de negócios, como vender limonada na rua."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -42,26 +42,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 23.7s a 29.6s - 17 palavras - plano two
+## Cena b4 - 22.2s a 28.1s - 17 palavras - plano two
 > "No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdedora (25.2s) | ACAO: perde | mao na testa | OK |
-| 2 | embora (29.6s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | perdedora (23.7s) | ACAO: perde | mao na testa | OK |
+| 2 | embora (28.1s) | ACAO: sai | sai andando pela lateral | OK |
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 30.0s a 37.0s - 20 palavras - plano close
-> "Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido."
+## Cena b5 - 28.5s a 34.8s - 18 palavras - plano close
+> "O jeito de eliminar virou a marca do programa: ele apontava o dedo e dizia, você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | apontava (34.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | apontava (32.2s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | VOCÊ ESTÁ DEMITIDO! | OK |
 
-## Cena b6 - 37.4s a 43.0s - 16 palavras - plano crowd
+## Cena b6 - 35.2s a 40.7s - 16 palavras - plano crowd
 > "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -70,45 +70,42 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | 28 MILHÕES | OK |
 
-## Cena b7 - 43.3s a 49.3s - 17 palavras - plano two
+## Cena b7 - 41.1s a 47.0s - 17 palavras - plano two
 > "O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vencedor (43.7s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | ganhou (44.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | vencedor (41.5s) | ACAO: vence | bracos para cima + brilho | OK |
+| 2 | ganhou (42.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | - | INTERACAO | abracar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 49.6s a 55.6s - 17 palavras - plano crowd
+## Cena b8 - 47.4s a 53.3s - 17 palavras - plano crowd
 > "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | espalhou (50.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | espalhou (48.5s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | MAPA | BRASIL | OK |
 
-## Cena b9 - 55.9s a 63.3s - 21 palavras - plano two
-> "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
+## Cena b9 - 53.7s a 59.6s - 17 palavras - plano two
+> "Trump apresentou o programa por mais de dez anos, e só deixou em dois mil e quinze."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | apresentou (56.3s) | ACAO: fala | aponta explicando | OK |
-| 2 | saiu (60.0s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | entrou (62.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | CHEGADA | alguem entra andando | OK |
+| 1 | apresentou (54.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 63.7s a 67.4s - 11 palavras - plano close
+## Cena b10 - 60.0s a 63.7s - 11 palavras - plano close
 > "Um programa de emprego que acabou ficando famoso justamente por demitir."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b11 - 67.8s a 72.2s - 13 palavras - plano close
+## Cena b11 - 64.1s a 68.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

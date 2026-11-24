@@ -91,9 +91,9 @@
    "objetos": [
     "kit/stall"
    ],
-   "palavras": 18,
+   "palavras": 14,
    "cena": "b3",
-   "frase": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.",
+   "frase": "Toda semana, as equipes faziam uma tarefa de negócios, como vender limonada na rua.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -124,9 +124,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
+   "palavras": 18,
    "cena": "b5",
-   "frase": "Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido.",
+   "frase": "O jeito de eliminar virou a marca do programa: ele apontava o dedo e dizia, você está demitido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -213,9 +213,9 @@
    "objetos": [
     "kit/tv"
    ],
-   "palavras": 21,
+   "palavras": 17,
    "cena": "b9",
-   "frase": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.",
+   "frase": "Trump apresentou o programa por mais de dez anos, e só deixou em dois mil e quinze.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

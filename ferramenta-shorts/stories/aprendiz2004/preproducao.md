@@ -13,7 +13,7 @@ b5 | interior loja | close | 1 | conversar | - | - | -
 b6 | loc_pista | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -
 b7 | interior galpao | two | 2 | conversar, INTERAGEM: abracar | - | - | -
 b8 | loc_cidade | crowd | 14 | encena, batalha | kit/marco_trumptower | - | -
-b9 | loc_pista | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/tv | - | -
+b9 | loc_pista | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/tv | - | -
 b10 | loc_pista | close | 1 | comemorar | kit/tv | - | -
 b11 | loc_cidade | close | 1 | conversar | - | - | -
 

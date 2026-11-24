@@ -32,14 +32,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): donald, emprego, premio
 - RISCOS: nenhum
 
-## Cena b3 - Toda semana, as equipes tinham uma tarefa de negócios, como vender lim...
+## Cena b3 - Toda semana, as equipes faziam uma tarefa de negócios, como vender lim...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CND (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/stall
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipes, negocios, propaganda, tarefa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipes, negocios, tarefa
 - RISCOS: nenhum
 
 ## Cena b4 - No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha q...
@@ -52,10 +52,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe, reuniao, sala
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que o jeito de eliminar virou a marca do programa. Ele aponta...
+## Cena b5 - O jeito de eliminar virou a marca do programa: ele apontava o dedo e d...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: -
@@ -92,14 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, formato, roberto
 - RISCOS: nenhum
 
-## Cena b9 - Trump apresentou o programa por mais de dez anos, e só saiu em dois mi...
+## Cena b9 - Trump apresentou o programa por mais de dez anos, e só deixou em dois ...
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/tv
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): politica, programa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): programa
 - RISCOS: nenhum
 
 ## Cena b10 - Um programa de emprego que acabou ficando famoso justamente por demiti...
@@ -134,17 +134,11 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 26% | medio 57% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 26% | medio 57% | aberto 11% | detalhe 6%
 - Interacoes: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
-- RISCOS GERAIS: 
-  - video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py aprendiz2004  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/aprendiz2004/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aprendiz2004 bN bM` (so essas cenas).

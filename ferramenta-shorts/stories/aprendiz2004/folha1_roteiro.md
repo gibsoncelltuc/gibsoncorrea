@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 13 - Você Está Demitido
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 196 palavras (~68 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 186 palavras (~64 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~6.2 s)
-- Narracao: Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.
+## Cena b3  (~4.8 s)
+- Narracao: Toda semana, as equipes faziam uma tarefa de negócios, como vender limonada na rua.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @10 -> acao + som de efeito
@@ -47,14 +47,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~6.9 s)
-- Narracao: Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido.
+## Cena b5  (~6.2 s)
+- Narracao: O jeito de eliminar virou a marca do programa: ele apontava o dedo e dizia, você está demitido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: encena: fala (point) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: VOCÊ ESTÁ DEMITIDO!
-- Funcao na historia: VIRADA
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~5.5 s)
 - Narracao: A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: - | mapa: BRASIL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~7.2 s)
-- Narracao: Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.
+## Cena b9  (~5.9 s)
+- Narracao: Trump apresentou o programa por mais de dez anos, e só deixou em dois mil e quinze.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito; encena: sai @11 -> acao + som de efeito; encena: chega (point) @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
