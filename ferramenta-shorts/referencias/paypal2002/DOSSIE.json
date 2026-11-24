@@ -26,22 +26,12 @@
     "loc_cidade"
    ],
    [
-    "cena 5",
-    "outback",
-    "loc_pista"
-   ],
-   [
-    "cena 6",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 7",
+    "cena 4",
     "street",
     "loc_cidade"
    ],
    [
-    "cena 8",
+    "cena 9",
     "street",
     "loc_cidade"
    ]
@@ -70,28 +60,32 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/coin",
+  "kit/falcon9_land",
   "kit/roadster",
-  "kit/rocket",
+  "kit/room_azul_wood",
   "kit/room_eua_wood",
   "kit/room_europa_shop",
   "kit/room_verde_stone",
+  "mk/Bench",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Crate_Metal",
+  "mk/Shelf_Arch",
   "mk/Shelf_Small_Bottles",
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
+  "mk/Vase_4",
   "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
   "local": "Escritórios do PayPal em Palo Alto/Mountain View (Califórnia) e sede do eBay em San Jose: salas de escritório de tecnologia com mesas e computadores",
-  "quando": "julho de 2002 (anúncio da compra em 8/jul), de dia",
+  "quando": "8 de julho de 2002 (anúncio da compra; concluída em 3 de outubro de 2002), de dia",
   "participantes": [
    "Elon Musk (maior acionista do PayPal)",
-   "Meg Whitman (CEO do eBay)",
-   "equipe do PayPal"
+   "equipe do PayPal",
+   "representante do eBay"
   ],
   "roupas": {
    "MUS": "camisa social azul sem gravata, calça escura",
@@ -106,8 +100,19 @@
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/PayPal",
-   "https://en.wikipedia.org/wiki/Elon_Musk",
-   "https://en.wikipedia.org/wiki/SpaceX"
+   "https://en.wikipedia.org/wiki/SpaceX",
+   "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+   "referencias/paypal2002/moodboard.jpg"
+  ],
+  "buscas": {
+   "PayPal": "PayPal early 2002 office website screenshot",
+   "eBay": "eBay 2002 website homepage",
+   "Elon Musk": "Elon Musk 2002 PayPal",
+   "SpaceX": "SpaceX Falcon 1 2006 launch pad",
+   "Tesla": "Tesla Motors 2004 early prototype Roadster"
+  },
+  "explicacoes": [
+   "O PayPal permitia enviar dinheiro pelo e-mail; o eBay o comprou por 1,5 bilhão de dólares em ações e a compra foi concluída em 3 de outubro de 2002 (fonte: https://en.wikipedia.org/wiki/PayPal)"
   ]
  },
  "fontes": [

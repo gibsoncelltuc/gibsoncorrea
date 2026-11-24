@@ -8,7 +8,7 @@
  "set": "street",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/roadster",
+ "heroi": "kit/coin",
  "outfits": {
   "MUS": {
    "jacket": "#3a3d45",
@@ -39,98 +39,18 @@
  },
  "beats": [
   {
-   "say": "Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunciou a compra do PayPal.",
    "shot": "group",
    "who": [
     "EBY:0:grin",
     "MUS:0:surprised",
     "POV:0:smile"
    ],
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3,
    "props": [
     [
      "kit/coin",
      0.0,
-     1.0,
-     0.67,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "fx": [
-    "stars@6"
-   ],
-   "sfx": [
-    "ding@6"
-   ],
-   "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas)",
-    "objetos": [
-     {
-      "objeto": "kit/coin",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
-  },
-  {
-   "say": "O PayPal era um serviço para pagar e receber dinheiro pela internet.",
-   "shot": "two",
-   "who": [
-    "MUS:0:smile",
-    "EBY:0:neutral"
-   ],
-   "acao": "conversar",
-   "props": [
-    [
-     "kit/coin",
-     0.0,
-     1.0,
-     0.67,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "hora": "dia",
-   "interior": "madeira",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/coin",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
-  },
-  {
-   "say": "O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.",
-   "shot": "two",
-   "who": [
-    "EBY:0:shock"
-   ],
-   "props": [
-    [
-     "kit/coin",
-     1.0,
-     1.0,
-     0.67,
+     -1.2,
+     0.92,
      {
       "fixo": true
      }
@@ -138,50 +58,165 @@
    ],
    "text": "US$ 1,5 BILHÃO",
    "fx": [
-    "stars@5"
+    "stars@6"
    ],
    "sfx": [
-    "ding@5"
+    "ding@6"
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "interior": "loja",
+   "say": "Um serviço para pagar pela internet foi vendido por um bilhão e meio de dólares.",
+   "fachada": false,
+   "set": "street",
    "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/coin",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "11% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "say": "Elon Musk era o maior acionista do PayPal.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smile",
+    "EBY:0:neutral"
+   ],
+   "acao": "conversar",
+   "say": "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.",
+   "fachada": false,
+   "interior": "madeira"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "say": "O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem precisar de banco.",
+   "fachada": false,
+   "interior": "loja"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "EBY:0:shock",
+    "MUS:0:smile"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 6,
+   "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
+   "fachada": false,
+   "set": "street"
+  },
+  {
    "shot": "two",
    "who": [
     "MUS:0:smug",
     "EBY:0:smile"
    ],
+   "props": [
+    [
+     "kit/coin",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "O pagamento foi em ações do eBay, não em dinheiro vivo.",
+   "fachada": false,
+   "interior": "pedra",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/coin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "POV:0:smile"
+   ],
+   "say": "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente.",
+   "fachada": false,
+   "interior": "madeira"
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "SPACEX",
+   "fx": [
+    "stars@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ],
+   "say": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.",
+   "fachada": false,
+   "set": "loc_pista",
    "crowd": {
     "n": 0
    },
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "interior": "pedra"
+   "objetos": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
-   "say": "Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.",
    "shot": "wide",
    "who": [
     "MUS:0:grin"
    ],
-   "acao": "conversar",
    "props": [
     [
      "kit/roadster",
@@ -191,46 +226,31 @@
      {
       "fixo": true
      }
-    ],
-    [
-     "kit/rocket",
-     7.0,
-     -14.0,
-     1.1,
-     {
-      "fixo": true
-     }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": true,
+   "text": "TESLA",
    "fx": [
     "stars@3"
    ],
    "sfx": [
     "ding@3"
    ],
-   "detalhe": false,
-   "set": "outback",
+   "say": "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.",
    "fachada": false,
+   "set": "loc_pista",
    "crowd": {
     "n": 0
    },
+   "objetos": false,
+   "detalhe": false,
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/rocket",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -242,135 +262,78 @@
    "d1": 10.0
   },
   {
-   "say": "A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.",
    "shot": "wide",
    "who": [
-    "MUS:0:laugh"
+    "MUS:0:laugh",
+    "POV:0:smile"
    ],
    "props": [
-    [
-     "kit/rocket",
-     0.0,
-     -8.0,
-     1.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "burst@4"
-   ],
-   "sfx": [
-    "whoosh@4"
-   ],
-   "crowd": {
-    "n": 0
-   },
-   "tiros": false,
-   "batalha": false,
-   "impact": true,
-   "set": "countryside",
-   "fachada": false,
-   "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/rocket",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.0,
-   "d1": 16.2
-  },
-  {
-   "say": "Uma venda de internet que ajudou a pagar foguetes e carros elétricos.",
-   "shot": "wide",
-   "who": [
-    "MUS:0:laugh"
-   ],
-   "props": [
-    [
-     "kit/roadster",
-     0.0,
-     -8.0,
-     2.6,
-     {
-      "fixo": true
-     }
-    ],
     [
      "kit/coin",
-     -1.6,
-     0.8,
-     0.67,
+     0.0,
+     1.0,
+     0.92,
      {
       "fixo": true
      }
     ],
     [
-     "kit/rocket",
+     "kit/roadster",
      7.0,
      -14.0,
-     1.1,
+     2.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/falcon9_land",
+     0.6,
+     -22.0,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "fx": [
-    "stars@3"
-   ],
-   "sfx": [
-    "ding@3"
-   ],
-   "hora": "dia",
-   "set": "street",
+   "say": "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.",
    "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
+   "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
-      "objeto": "kit/roadster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
       "objeto": "kit/coin",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/rocket",
+      "objeto": "kit/roadster",
       "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, esquerda",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "objetos": false,
+   "_auto_vis": 3
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "say": "Quem diria: um pagamento online chegou ao espaço.",
+   "fachada": false,
+   "set": "loc_campo"
   }
  ],
  "fontes": [
@@ -381,11 +344,11 @@
  "cinf": 4.5,
  "visual": {
   "local": "Escritórios do PayPal em Palo Alto/Mountain View (Califórnia) e sede do eBay em San Jose: salas de escritório de tecnologia com mesas e computadores",
-  "quando": "julho de 2002 (anúncio da compra em 8/jul), de dia",
+  "quando": "8 de julho de 2002 (anúncio da compra; concluída em 3 de outubro de 2002), de dia",
   "participantes": [
    "Elon Musk (maior acionista do PayPal)",
-   "Meg Whitman (CEO do eBay)",
-   "equipe do PayPal"
+   "equipe do PayPal",
+   "representante do eBay"
   ],
   "roupas": {
    "MUS": "camisa social azul sem gravata, calça escura",
@@ -400,9 +363,22 @@
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/PayPal",
-   "https://en.wikipedia.org/wiki/Elon_Musk",
-   "https://en.wikipedia.org/wiki/SpaceX"
+   "https://en.wikipedia.org/wiki/SpaceX",
+   "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+   "referencias/paypal2002/moodboard.jpg"
+  ],
+  "buscas": {
+   "PayPal": "PayPal early 2002 office website screenshot",
+   "eBay": "eBay 2002 website homepage",
+   "Elon Musk": "Elon Musk 2002 PayPal",
+   "SpaceX": "SpaceX Falcon 1 2006 launch pad",
+   "Tesla": "Tesla Motors 2004 early prototype Roadster"
+  },
+  "explicacoes": [
+   "O PayPal permitia enviar dinheiro pelo e-mail; o eBay o comprou por 1,5 bilhão de dólares em ações e a compra foi concluída em 3 de outubro de 2002 (fonte: https://en.wikipedia.org/wiki/PayPal)"
   ]
  },
- "max_wide": 3
+ "regiao": "eua",
+ "min_momentos": 1,
+ "max_wide": 4
 }
