@@ -144,7 +144,7 @@
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FLE:0:suspicious"
    ],
@@ -170,7 +170,7 @@
    ],
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/petri",
@@ -193,7 +193,7 @@
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FLE:0:shock",
     "COL:0:surprised"
@@ -216,7 +216,7 @@
     [
      "kit/petri",
      0.0,
-     -0.6,
+     -1.2,
      1.2,
      {
       "fixo": true
@@ -224,9 +224,9 @@
     ],
     [
      "kit/gosma",
-     0.0,
-     -0.6,
-     0.5,
+     -1.6,
+     0.8,
+     0.57,
      {
       "fixo": true
      }
@@ -234,7 +234,29 @@
    ],
    "detalhe": true,
    "text": "BACTÉRIAS SUMIRAM",
-   "explica": false
+   "explica": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
