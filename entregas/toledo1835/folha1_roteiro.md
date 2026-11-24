@@ -5,10 +5,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 ## Cena b0  (~4.5 s)
 - Narracao: Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: sting@106
 - Efeito + som nas palavras-chave: encena: espeta (punch) @9 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: 1835
+- Efeito visual marcado: burst@106, stars@110
+- Texto na tela: 1 FERIDO: CANIVETADA
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.6 s)
@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: TOLEDO
+- Texto na tela: MAPA ERRADO | mapa: TOLEDO
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.5 s)
@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: paga (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: COBRE E FERRO
 - Funcao na historia: VIRADA
 
 ## Cena b9  (~3.8 s)
