@@ -270,13 +270,11 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 empurrar, b5 susto, b6 pular, b8 o outro se aproxima
 - RISCOS GERAIS: 
   - pouca variedade de cenario ({'stadium': 6, 'street': 4, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
-  - FOLHA 4: 10 item(ns) sem referencia visual: Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic, torcedores e jogadores de Honduras (camisa azul), torcedores e jogadores de El -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 4 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
 - b4: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
 - b4: a narracao fala de EXPLOSAO e nao ha explosao
 - geral: pouca variedade de cenario ({'stadium': 6, 'street': 4, 'interior madeira': 1}): o video fica parecendo todos os outros
-- geral: FOLHA 4: 10 item(ns) sem referencia visual: Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic, torcedores e jogadores de Honduras (camisa azul), torcedores e jogadores de El
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh futebol1969 bN bM` (so essas cenas).
