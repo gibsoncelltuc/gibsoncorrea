@@ -54,10 +54,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "JUNO" flutuando no alto, na palavra 1 da frase
 
 ## b6: "O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses."
-- LOCAL: loc_campo; hora: dia
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente
-- PERSONAGENS: GAU no centro, expressao scared; sem multidao; acao: tomba
-- OBJETO buildings/castle_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 19.7 m de altura x 10.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- LOCAL: loc_campo; hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MAN na esquerda, expressao angry; GAU na direita, expressao scared; sem multidao; acao: tomba
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +70 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +80 da cena
 - SOM: thump@66
@@ -65,9 +65,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Os gauleses se afastaram, mas mantiveram o cerco."
 - LOCAL: loc_campo; hora: noite
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GAU na esquerda, expressao scared; MAN na direita, expressao angry; sem multidao; acao: tomba
-- OBJETO buildings/castle_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 19.7 m de altura x 10.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: thump@50
 

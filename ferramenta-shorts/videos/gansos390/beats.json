@@ -215,11 +215,6 @@
     ]
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 3.0,
-   "d0": 12.0,
-   "d1": 11.0,
    "quadro": {
     "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
@@ -232,7 +227,11 @@
      }
     ]
    },
-   "quadro_manual": true
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 6.0,
+   "d0": 82.7,
+   "d1": 78.8
   },
   {
    "shot": "wide",
@@ -278,8 +277,9 @@
    "shot_lock": true
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
+    "MAN:0:angry",
     "GAU:0:scared"
    ],
    "fachada": false,
@@ -300,35 +300,8 @@
    },
    "detalhe": false,
    "interacao": "empurrar",
-   "props": [
-    [
-     "buildings/castle_tower",
-     0.0,
-     -8.0,
-     1.6,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 3.0,
-   "d0": 12.0,
-   "d1": 11.0,
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "buildings/castle_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "quadro_manual": true
+   "props": [],
+   "hora": "noite"
   },
   {
    "shot": "two",
@@ -337,17 +310,7 @@
     "MAN:0:angry"
    ],
    "say": "Os gauleses se afastaram, mas mantiveram o cerco.",
-   "props": [
-    [
-     "buildings/castle_tower",
-     0.0,
-     -6.0,
-     1.6,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "detalhe": false,
    "_auto_vis": 3,
    "shot_lock": true,
@@ -355,30 +318,12 @@
    "acao": "tomba",
    "hora": "noite",
    "fachada": false,
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 2.2,
-   "d0": 11.0,
-   "d1": 11.0,
    "fx": [
     "dust@50"
    ],
    "sfx": [
     "thump@50"
-   ],
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "buildings/castle_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   ]
   },
   {
    "shot": "two",
@@ -400,31 +345,24 @@
    "animals": [
     [
      "goose",
-     -1.8,
-     0.8,
+     -1.5,
+     1.2,
      "stand",
-     1.6
+     1.9
     ],
     [
      "goose",
-     -0.6,
-     1.4,
+     0.0,
+     1.2,
      "stand",
-     1.6
+     1.9
     ],
     [
      "goose",
-     0.8,
-     0.7,
-     "stand",
-     1.6
-    ],
-    [
-     "goose",
-     1.9,
      1.5,
+     1.2,
      "stand",
-     1.6
+     1.9
     ]
    ],
    "set": "medieval",
@@ -434,12 +372,8 @@
    "_auto_vis": 3,
    "shot_lock": true,
    "objetos": false,
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 1.0,
-   "h": 1.8,
-   "d0": 13.0,
-   "d1": 13.0
+   "d0": 7.0,
+   "d1": 6.0
   }
  ],
  "cinf": 4.5,

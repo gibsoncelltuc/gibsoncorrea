@@ -125,8 +125,9 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
+    "MAN",
     "GAU"
    ],
    "multidao": 0,
@@ -149,9 +150,7 @@
     "MAN"
    ],
    "multidao": 0,
-   "objetos": [
-    "buildings/castle_tower"
-   ],
+   "objetos": [],
    "palavras": 8,
    "cena": "b7",
    "frase": "Os gauleses se afastaram, mas mantiveram o cerco.",
