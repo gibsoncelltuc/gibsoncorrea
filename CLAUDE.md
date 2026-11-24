@@ -21,6 +21,12 @@ Usuário: Gibson, fala português. Responda sempre em português, curto e honest
 - PRODUCAO RELIGADA em 24/11 (ordem do Gibson: "distribuir os roteiros e produzir nas 3 sessoes"): PAUSA removida. Principal = `fila_principal.txt` (16, comeca pelo Roadster); A = `fila_sessao_A.txt` (19); B = `fila_sessao_B.txt` (18). Quase todo roteiro precisa de ajuste para passar nas travas v13 (etapa 4 do cronograma) antes do storyboard. AUTO-APROVACAO DESLIGADA por padrao (so' com o arquivo `AUTO_APROVAR_LIGADO`): storyboard so' e' aprovado por quem olhou. Conferencia final e entrega ao Gibson: sempre na principal.
 - NAO usar agentes/subagentes/workflows (ordem repetida em 24/11).
 
+
+## REVISAO FINAL FRASE A FRASE (ordem do Gibson 24/11) — vale para as 3 sessoes, sem excecao
+- Padrao de qualidade = piloto do Roadster EP25. Todo mp4 (principal, A e B) passa por `bash ferramenta-shorts/revisao_final.sh <id>`: gera `out/<id>/frase_a_frase.jpg` (1 quadro por frase); ABRIR a imagem e escrever `stories/<id>/revisao_final.md` (f0..fN: OK/CORRIGIDO citando a frase + `gancho:` + `piloto:`). Frase cuja imagem nao mostra o que a narracao diz = refazer antes. Sem revisao valida: `enviar_para_principal.sh` recusa e a principal nao entrega.
+- A principal confere DE NOVO, ela mesma, o frase_a_frase de todo video que chega das sessoes antes de mandar ao Gibson.
+- Roteiro: gancho forte (cena 1 com impacto visual, trava "GANCHO sem impacto visual"), virada no meio, final curto + chamada para comentar.
+
 ## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
 1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
 2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.
