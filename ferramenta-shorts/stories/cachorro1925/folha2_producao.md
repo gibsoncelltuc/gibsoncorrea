@@ -125,9 +125,11 @@ dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 - Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 16% | medio 67% | aberto 13% | detalhe 4%
 - Interacoes: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: 
+  - GANCHO longo: a 1a frase tem 17 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- geral: GANCHO longo: a 1a frase tem 17 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

@@ -97,10 +97,14 @@ kit/rocket | b4, b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 - Interacoes: b0 insiste, b1 entregar, b3 vai ate o outro, b6 o outro se aproxima
 - RISCOS GERAIS: 
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
+  - GANCHO longo: a 1a frase tem 18 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
+  - sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia) -> CORRECAO: por uma frase de virada no meio: "Acontece que...", "So que...", "Mas..."
   - video com ~36 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
+- geral: GANCHO longo: a 1a frase tem 18 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
+- geral: sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia)
 - geral: video com ~36 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render

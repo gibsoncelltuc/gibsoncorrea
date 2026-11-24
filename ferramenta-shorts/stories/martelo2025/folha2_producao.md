@@ -164,13 +164,15 @@ nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parec
 - Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9, b11 | planos abertos: 4 | mistura: close 28% | medio 57% | aberto 11% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b6 insiste, b8 aproxima-se, b10 reverencia, b12 pular
 - RISCOS GERAIS: 
+  - GANCHO longo: a 1a frase tem 21 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
   - video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 6 risco(s) em aberto
 - b5: ACAO SEM ANIMACAO na narracao: voaram
 - b7: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
 - b8: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
+- geral: GANCHO longo: a 1a frase tem 21 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
 - geral: video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
