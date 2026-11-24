@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "harbor",
-   "interior loja",
    "interior pedra",
    "loc_campo",
    "palace"
@@ -38,40 +37,56 @@
   "buildings/house_two",
   "buildings/shop",
   "cannon",
+  "kit/coin",
+  "kit/fire",
   "kit/marco_zanzibar",
   "kit/navio_vapor_guerra",
-  "kit/room_azul_stone",
-  "kit/room_europa_stone",
-  "kit/room_rosa_shop",
   "kit/room_verde_stone",
-  "kit/throne",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
   "mk/Bookcase_2",
-  "mk/Cabinet",
-  "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Wooden",
-  "mk/Nightstand_Shelf",
-  "mk/Shelf_Small_Bottles",
-  "mk/Stool",
   "mk/Table_Large",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers",
   "nature/bench",
   "nature/lamppost",
   "war/flagpole"
  ],
- "pesquisa_visual": {},
- "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "pesquisa_visual": {
+  "local": "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses",
+  "quando": "27 de agosto de 1896, manha, entre 9h00 e 9h40",
+  "participantes": [
+   "sultao Khalid bin Barghash e guardas zanzibaris",
+   "oficiais e marinheiros da Marinha Real britanica",
+   "consul britanico Basil Cave",
+   "consul da Alemanha"
+  ],
+  "roupas": {
+   "SUL": "tunica branca, turbante e capa de sultao",
+   "GUA": "guarda zanzibari de camisa clara e turbante",
+   "ING": "marinheiro britanico de farda branca e azul",
+   "ALM": "diplomata alemao de terno claro"
+  },
+  "cenario": "palacio de madeira do sultao em Stone Town, porto com cruzadores e canhoneiras britanicas, 1896",
+  "objetos": [
+   "navio de guerra britanico",
+   "canhao antigo",
+   "bandeira do sultao",
+   "palacio de madeira em chamas"
+  ],
+  "explicacoes": [
+   "O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+   "https://commons.wikimedia.org/wiki/Category:Anglo-Zanzibar_War"
+  ],
+  "buscas": {
+   "A Guerra de 38 Minutos": "Anglo-Zanzibar War 1896 Stone Town palace bombardment",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "Stone Town Zanzibar sultan palace 1896"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+ ],
+ "falta": []
 }

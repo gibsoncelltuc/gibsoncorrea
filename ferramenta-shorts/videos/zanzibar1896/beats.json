@@ -64,8 +64,9 @@
     "SUL:0:stern",
     "GUA:0:stern"
    ],
-   "text": "1896",
-   "say": "A guerra mais curta da história durou menos que um almoço."
+   "text": "MENOS DE 1 HORA",
+   "say": "Uma guerra durou menos de uma hora, e é considerada a mais curta da história.",
+   "tat": 6
   },
   {
    "shot": "two",
@@ -75,7 +76,7 @@
    ],
    "mapa": "ZANZIBAR",
    "mapa_at": 3,
-   "say": "Era em Zanzibar, uma ilha da costa da África, controlada pela Inglaterra."
+   "say": "Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa."
   },
   {
    "shot": "two",
@@ -84,7 +85,7 @@
     "GUA:1:stern"
    ],
    "interior": "pedra",
-   "say": "O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.",
+   "say": "O sultão morreu, e um primo ocupou o palácio sem pedir licença.",
    "riscos_ok": true
   },
   {
@@ -93,7 +94,7 @@
     "ALM:0:stern:paper",
     "ING:0:stern"
    ],
-   "say": "Os ingleses não gostaram. \"Saia do palácio até as nove da manhã\", avisaram eles."
+   "say": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã."
   },
   {
    "shot": "reveal",
@@ -109,17 +110,9 @@
     ],
     "march": true
    },
-   "text": "3.000",
+   "text": "2.800",
    "titulo": true,
-   "say": "O novo sultão juntou quase três mil homens, alguns canhões velhos, e se trancou lá dentro."
-  },
-  {
-   "shot": "close",
-   "who": [
-    "SUL:0:grin"
-   ],
-   "interior": "pedra",
-   "say": "\"Eles não vão atirar\", disse ele."
+   "say": "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro."
   },
   {
    "shot": "crowd",
@@ -139,7 +132,25 @@
    },
    "text": "9:02",
    "titulo": true,
-   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.",
+   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
+   "set": "palace"
+  },
+  {
+   "say": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.",
+   "shot": "wide",
+   "who": [
+    "SUL:0:shock",
+    "GUA:0:shock"
+   ],
+   "fx": [
+    "burst@20",
+    "puff@30",
+    "burst@60"
+   ],
+   "sfx": [
+    "cannon@20",
+    "thump@60"
+   ],
    "set": "palace"
   },
   {
@@ -148,7 +159,7 @@
     "SUL:0:shock",
     "GUA:1:shock"
    ],
-   "say": "O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha."
+   "say": "O sultão fugiu e pediu abrigo no consulado da Alemanha."
   },
   {
    "shot": "two",
@@ -163,7 +174,7 @@
     "thump@40"
    ],
    "text": "9:40",
-   "say": "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam."
+   "say": "Os tiros pararam por volta das nove e quarenta."
   },
   {
    "shot": "group",
@@ -172,15 +183,57 @@
     "ING:0:grin",
     "POV:0:nervous"
    ],
-   "say": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
+   "say": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
+   "text": "OUTRO SULTÃO",
+   "titulo": true
   },
   {
    "shot": "close",
    "who": [
     "ALM:0:grin"
    ],
-   "say": "E ainda mandaram a conta das balas para Zanzibar."
+   "say": "E ainda mandaram a conta das balas."
   }
  ],
- "exp": 0.9
+ "exp": 0.9,
+ "duracao_ok": true,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+ ],
+ "visual": {
+  "local": "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses",
+  "quando": "27 de agosto de 1896, manha, entre 9h00 e 9h40",
+  "participantes": [
+   "sultao Khalid bin Barghash e guardas zanzibaris",
+   "oficiais e marinheiros da Marinha Real britanica",
+   "consul britanico Basil Cave",
+   "consul da Alemanha"
+  ],
+  "roupas": {
+   "SUL": "tunica branca, turbante e capa de sultao",
+   "GUA": "guarda zanzibari de camisa clara e turbante",
+   "ING": "marinheiro britanico de farda branca e azul",
+   "ALM": "diplomata alemao de terno claro"
+  },
+  "cenario": "palacio de madeira do sultao em Stone Town, porto com cruzadores e canhoneiras britanicas, 1896",
+  "objetos": [
+   "navio de guerra britanico",
+   "canhao antigo",
+   "bandeira do sultao",
+   "palacio de madeira em chamas"
+  ],
+  "explicacoes": [
+   "O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+   "https://commons.wikimedia.org/wiki/Category:Anglo-Zanzibar_War"
+  ],
+  "buscas": {
+   "A Guerra de 38 Minutos": "Anglo-Zanzibar War 1896 Stone Town palace bombardment",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "Stone Town Zanzibar sultan palace 1896"
+  }
+ },
+ "max_wide": 3
 }
