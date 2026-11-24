@@ -60,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 16.3s a 21.9s - 16 palavras - plano close
+## Cena b3 - 16.3s a 21.9s - 16 palavras - plano two
 > "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -184,7 +184,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 4: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b10 - 50.4s a 55.2s - 14 palavras - plano close
+## Cena b10 - 50.4s a 55.2s - 14 palavras - plano two
 > "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -200,7 +200,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b11 - 55.6s a 60.0s - 13 palavras - plano two
+## Cena b11 - 55.6s a 60.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

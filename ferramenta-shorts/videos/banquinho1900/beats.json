@@ -178,12 +178,7 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "ASH"
-    ],
-    "march": false,
-    "expr": "angry"
+    "n": 0
    },
    "props": [
     [
@@ -221,7 +216,7 @@
    "d1": 31.0
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "jungle",
    "who": [
     "SOL:0:stern"
@@ -238,9 +233,9 @@
    "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
    "props": [],
    "detalhe": false,
-   "d0": 24.0,
-   "d1": 21.0,
-   "_auto_vis": 0
+   "d0": 30.0,
+   "d1": 27.0,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -290,7 +285,7 @@
    "d1": 11.5
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "countryside",
    "who": [
     "GOV:0:sad"
@@ -310,7 +305,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/golden_stool",

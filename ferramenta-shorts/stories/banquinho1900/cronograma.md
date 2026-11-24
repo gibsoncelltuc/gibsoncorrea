@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Gerado em 24/11 17:44 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:49 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | simples | jungle | reveal | ASH, ASH | 30 | - | - | Era mil e novecentos, e
 b2 | simples | countryside | two | CHE, ASH | - | golden_stool | - | Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o 
 b3 | simples | interior madeira | two | GOV, CHE | - | golden_stool | - | Acontece que o governador inglês exigiu o banquinho: "Por que eu ainda
 b4 | simples | countryside | two | CHE, ASH | - | - | - | Os líderes ashanti ficaram em choque, porque isso era como pedir para 
-b5 | chave | countryside | crowd | ASH | 10 | forte_colonial | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Eles se revoltaram e cercaram o forte onde o governador estava.
+b5 | chave | countryside | crowd | ASH | - | forte_colonial | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Eles se revoltaram e cercaram o forte onde o governador estava.
 b6 | chave | jungle | orbit | SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Soldados ingleses marcharam para salvar o governador preso, e a guerra
 b7 | simples | interior pedra | two | GOV, PRE | - | - | - | No fim, os ingleses venceram e a região virou colônia.
 b8 | simples | interior loja | two | CHE, ASH | - | golden_stool | - | Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram

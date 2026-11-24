@@ -13,8 +13,8 @@ b7 | crowd | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou 
 b8 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @17 (acao + som de efeito) | -
 b9 | two | dia limpo | interior | encena: pega (lift) @6 (acao + som de efeito) | -
 b10 | low | dia limpo | interior | encena: x_le (think) @1 (acao + som de efeito); encena: escreve (write) @4 (acao + som de efeito) | -
-b11 | close | dia limpo | - | - | -
+b11 | two | dia limpo | - | - | -
 b12 | close | dia  | placa: COMENTE! | - | -
 
-Mistura de planos: close 22% | medio 70% | aberto 5% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 18% | medio 74% | aberto 5% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal
