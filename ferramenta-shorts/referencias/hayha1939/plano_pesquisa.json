@@ -91,14 +91,6 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "campfire",
-   "consultas": [
-    "fuzil de mira de ferro",
-    "A Morte Branca"
-   ]
-  },
-  {
    "tipo": "epoca",
    "item": "soldado da epoca",
    "consultas": [

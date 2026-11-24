@@ -4,20 +4,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um fazendeiro baixinho virou o soldado mais temido de uma guerra intei...
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (4): SOV (variante 0, expressao stern); SOV (variante 1, expressao stern); SOV (variante 2, expressao neutral); SOV (variante 3, expressao stern) | multidao: 18 de SOV
-- Animacao: - | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): FIN (variante 3, expressao stern); SOV (variante 0, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro, soldado
 - RISCOS: nenhum
 
 ## Cena b1 - Era o inverno de mil novecentos e trinta e nove, e a União Soviética i...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): FIN (variante 0, expressao stern); FIN (variante 1, expressao nervous) | multidao: 10 de FIN
-- Animacao: conversar | interacao: tremem de frio | o ultimo personagem ENTRA andando | batalha encenada
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): FIN (variante 0, expressao stern); FIN (variante 1, expressao nervous) | multidao: 18 de FIN
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): finlandia, inverno, uniao
 - RISCOS: nenhum
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
-- Cenario: mountain | luz: arctic | clima: neve
+- Cenario: countryside | luz: arctic | clima: neve
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): FIN (variante 3, expressao stern)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Dizem que ele mantinha neve na boca, para o vapor da respiração não en...
-- Cenario: mountain | luz: arctic | clima: neve
+- Cenario: countryside | luz: arctic | clima: neve
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FIN (variante 3, expressao neutral)
@@ -67,17 +67,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/campfire, nature/picket_fence
+- Animacao: conversar | interacao: tremem de frio
+- Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ferro, fuzil, mira, quinhentos
 - RISCOS: nenhum
 
 ## Cena b7 - Os soviéticos passaram a chamá-lo de Morte Branca.
-- Cenario: mountain | luz: arctic | clima: neve
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): SOV (variante 1, expressao shock)
-- Animacao: reagir
+- Cenario: countryside | luz: arctic | clima: neve
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 12 de SOV
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chamalo, morte, sovieticos
 - RISCOS: nenhum
@@ -106,7 +106,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: arctic | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): SOV (variante 0, expressao grin)
+- Personagens principais (1): FIN (variante 3, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
@@ -124,17 +124,14 @@ nature/scarecrow | b0 | pronto | conferir na folha de contato se le bem; se pare
 nature/tree_pine | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/campfire | b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/campfire | grandes momentos: b0, b1 | planos abertos: 2 | mistura: close 24% | medio 54% | aberto 15% | detalhe 7%
-- Interacoes: b1 tremem de frio, b6 susto, b8 cochichar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py hayha1939  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/hayha1939/moodboard.jpg
+- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 4 | mistura: close 26% | medio 44% | aberto 24% | detalhe 7%
+- Interacoes: b6 tremem de frio, b8 cochichar
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh hayha1939 bN bM` (so essas cenas).

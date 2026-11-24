@@ -13,7 +13,8 @@
    "hat": "boonie",
    "cap": "#f4f6fa",
    "belt": "#8a7a50",
-   "rifle": true
+   "rifle": true,
+   "uniforme_fixo": true
   },
   "SOV": {
    "jacket": "#6a6a50",
@@ -22,18 +23,17 @@
    "hat": "helmet",
    "cap": "#4f5a3f",
    "belt": "#2a2218",
-   "rifle": true
+   "rifle": true,
+   "uniforme_fixo": true
   }
  },
  "beats": [
   {
    "say": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira.",
-   "shot": "track",
+   "shot": "wide",
    "who": [
-    "SOV:0:stern",
-    "SOV:1:stern",
-    "SOV:2:neutral",
-    "SOV:3:stern"
+    "FIN:3:stern",
+    "SOV:0:shock"
    ],
    "text": "1939",
    "tat": 0,
@@ -41,7 +41,12 @@
    "mood": "march",
    "batalha": true,
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "shot_lock": true,
+   "lados": [
+    "FIN",
+    "SOV"
+   ]
   },
   {
    "say": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
@@ -103,7 +108,7 @@
     "FIN:3:stern"
    ],
    "mood": "tense",
-   "set": "mountain",
+   "set": "countryside",
    "clima": "neve"
   },
   {
@@ -116,7 +121,7 @@
    "tat": 5,
    "tstyle": "white",
    "props": [],
-   "set": "mountain",
+   "set": "countryside",
    "clima": "neve"
   },
   {
@@ -129,15 +134,7 @@
    "text": "100 DIAS",
    "tat": 4,
    "tstyle": "gold",
-   "props": [
-    [
-     "kit/campfire",
-     1.6,
-     -0.8,
-     1.0
-    ]
-   ],
-   "detalhe": true,
+   "props": [],
    "set": "arctic",
    "clima": "neve"
   },
@@ -150,7 +147,7 @@
    "text": "MORTE BRANCA",
    "tat": 8,
    "tstyle": "red",
-   "set": "mountain",
+   "set": "countryside",
    "clima": "neve"
   },
   {
@@ -177,7 +174,7 @@
    "interior": "madeira"
   }
  ],
- "heroi": "kit/campfire",
+ "heroi": null,
  "visual": {
   "local": "Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos",
   "quando": "Guerra de Inverno, 30/nov/1939 a 13/mar/1940; ferido em 6/mar/1940; temperaturas de ate -40 C, dias curtos",
