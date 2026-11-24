@@ -818,6 +818,7 @@ _LADOS = list(_PAISES.values())[:2] if len(_PAISES) >= 2 else None
 for _ib, _b in enumerate(B['beats']):
     if _b.get('modo_acao') is False: continue
     _s = __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()
+    _s = re.sub(r'\b(ninguem|nenhum|nenhuma|nunca|sem|nao)\b(\s+\w+){0,4}?\s+(combate|combateu|combateram|batalha|batalhas|lutaram|lutou|lutar|luta|tiro|tiros|atacou|atacaram|ataque)\b', ' ', _s)   # NEGACAO (pendencia da sessao B): 'ninguem morreu em combate', 'nunca lutaram', 'sem um tiro' nao viram batalha
     if re.search(r'desembarc|navios? .{0,30}(chegou|chegaram|atracou|atracaram|aportou|apareceram)|(chegou|chegaram|vieram|veio) .{0,25}(de navio|de barco|pelo mar|na praia)|aportaram|atracaram', _s):
         _b['desembarque'] = True; _b.setdefault('set', 'harbor'); _b['shot'] = 'wide'; _b['shot_lock'] = True
         _o = [w_.split(':')[0] for w_ in _b.get('who', [])] or _EXERC[:1]
