@@ -1,0 +1,3 @@
+VISIBILIDADE: 2 FALHA(S)
+FALHA b0: objeto citado "buildings/windmill" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b0: objeto "kit/tulip_bed" saiu com 13% da altura da tela, a ficha de cena planejou 30%

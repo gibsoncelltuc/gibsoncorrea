@@ -45,6 +45,31 @@ def commons(q, n=3):   # busca de imagens do Wikimedia Commons (pagina de busca;
 RUINS = [l.strip().lower() for l in open(f'{D}/prints_ruins.txt', encoding='utf-8')] if os.path.exists(f'{D}/prints_ruins.txt') else []
 RUINS = [r for r in RUINS if r and not r.startswith('#')]
 ruim = lambda titulo, arq='': any(r in titulo.lower() or (arq and r in os.path.basename(arq).lower()) for r in RUINS)
+# CONSULTA EM INGLES AUTOMATICA (24/11: Goodyear e Abelhas travaram porque a busca em portugues nao acha nada no Commons):
+# traduz palavra por palavra as palavras comuns; nomes proprios ficam como estao; o resto (artigos, preposicoes) sai.
+PT_EN = dict(x.split(':') for x in ('abelha:bee abelhas:bees colmeia:beehive colmeias:beehives mel:honey flor:flower flores:flowers jardim:garden casa:house casas:houses '
+  'verao:summer inverno:winter lago:lake rio:river mar:sea praia:beach porto:harbor cais:pier navio:ship navios:ships barco:boat barcos:boats trem:train estacao:station '
+  'cientista:scientist cientistas:scientists colegas:colleagues laboratorio:laboratory microscopio:microscope vidro:glass madeira:wooden ferro:iron pedra:stone '
+  'fogao:stove panela:pot panelas:pots cozinha:kitchen prisao:prison guarda:guard guardas:guards soldado:soldier soldados:soldiers tropa:troops exercito:army '
+  'rei:king rainha:queen castelo:castle forte:fort igreja:church cidade:town vila:village rua:street mercado:market barraca:stall fazenda:farm campo:field '
+  'montanha:mountain montanhas:mountains alpes:alps floresta:forest selva:jungle deserto:desert gelo:ice neve:snow ilha:island ponte:bridge fabrica:factory fabricas:factories '
+  'roupa:clothing roupas:clothing vestido:dress chapeu:hat farda:uniform uniforme:uniform pescador:fisherman pescadores:fishermen lagosta:lobster melancia:watermelon '
+  'borracha:rubber pneu:tire pneus:tires bola:ball bolas:balls carro:car caminhao:truck aviao:airplane avioes:airplanes balao:balloon foguete:rocket canhao:cannon '
+  'espada:sword fuzil:rifle pistola:pistol bandeira:flag mapa:map carta:letter jornal:newspaper jornais:newspapers livro:book caderno:notebook cadernos:notebooks '
+  'caixa:box caixas:boxes chumbo:lead garrafa:bottle uisque:whisky vinho:wine cerveja:beer pao:bread queijo:cheese bolo:cake porco:pig cavalo:horse vaca:cow '
+  'galinha:chicken ganso:goose gansos:geese cachorro:dog gato:cat urso:bear emu:emu tulipa:tulip tulipas:tulips bulbo:bulb bulbos:bulbs comerciante:merchant '
+  'comerciantes:merchants inventor:inventor presidente:president governador:governor marinheiro:sailor marinheiros:sailors policia:police tribunal:courtroom juiz:judge '
+  'escola:school professor:teacher medico:doctor hospital:hospital doente:patient remedio:medicine mofo:mold placa:plate danca:dance dancam:dance mapa:map sol:sun '
+  'noite:night antigo:antique antiga:antique quente:hot crua:raw cru:raw seculo:century epoca:period').split())
+def ingles(q):
+    import unicodedata
+    ws = []
+    for w in re.findall(r"[\w']+", q):
+        k = unicodedata.normalize('NFD', w.lower()).encode('ascii', 'ignore').decode()
+        if k in PT_EN: ws.append(PT_EN[k])
+        elif w[:1].isupper() and len(w) > 2 and k not in ('era', 'uma', 'um', 'os', 'as', 'que', 'em', 'de', 'do', 'da'): ws.append(w)
+        elif re.match(r'^1[5-9]\d\d$', w): ws.append(w)
+    return ' '.join(dict.fromkeys(ws))
 out = {'id': ID, 'itens': []}
 for it in plano['itens']:
     achados = []
@@ -52,7 +77,8 @@ for it in plano['itens']:
     for q in it['consultas']:   # consultas de reserva, cada vez mais simples: so' os nomes proprios; as 3 primeiras palavras fortes; as 2 primeiras
         prop = ' '.join(re.findall(r'\b[A-Z][\w]+', q)); fortes = [w for w in re.findall(r'[\w]{4,}', q) if w.lower() not in ('para', 'como', 'sobre', 'entre', 'estilo', 'grupo', 'branco', 'soltando', 'embaixo')]
         qs += [x for x in ((prop,) if it['tipo'] in ('tema', 'mecanismo', 'epoca') else (prop, ' '.join(fortes[:3]), ' '.join(fortes[:2]))) if x and len(x) > 3 and len(x.split()) >= (2 if it['tipo'] in ('tema', 'mecanismo') else 1)]   # tema e mecanismo: so' nomes proprios (busca solta traz imagem que nao tem nada a ver)
-    for q in list(dict.fromkeys(qs))[:6]:
+    qs += [ingles(q) for q in it['consultas'] if len(ingles(q).split()) >= 1]   # reserva em ingles (o Commons e' quase todo em ingles)
+    for q in list(dict.fromkeys([q for q in qs if q.strip()]))[:8]:
         for r_ in commons(q, 3 - len(achados) + 6):
             if len(achados) >= 3: break
             fn = f"{D}/prints/{re.sub(r'[^a-z0-9]+', '_', it['item'].lower())[:40]}_{hashlib.md5(r_['thumb'].encode()).hexdigest()[:6]}.jpg"
