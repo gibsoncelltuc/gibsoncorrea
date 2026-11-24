@@ -21,3 +21,5 @@
 ## Fontes da historia
 - https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections
 - https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/
+- https://en.wikipedia.org/wiki/Crime_in_El_Salvador
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/

@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lados, vigia
 - RISCOS: nenhum
 
-## Cena b6 - Nos anos seguintes, os assassinatos no país despencaram.
+## Cena b6 - Os assassinatos despencaram: de cento e seis para dois vírgula quatro ...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, cento
 - RISCOS: nenhum
 
 ## Cena b7 - Organizações de direitos humanos denunciaram prisões sem julgamento e ...
@@ -131,7 +131,7 @@ kit/prison | b0, b1, b2, b4, b9, b10 | pronto (HEROI: aparece em close) | confer
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 12% | medio 67% | aberto 22% | detalhe 0%
+- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 11% | medio 68% | aberto 21% | detalhe 0%
 - Interacoes: b0 aproxima-se, b3 entregar, b6 avanca e o outro recua, b8 discutir, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

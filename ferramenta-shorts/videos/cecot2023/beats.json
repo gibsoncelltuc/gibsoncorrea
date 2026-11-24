@@ -181,8 +181,22 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Nos anos seguintes, os assassinatos no país despencaram.",
-   "set": "loc_campo"
+   "say": "Os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
+   "set": "loc_campo",
+   "hud": {
+    "comparar": [
+     [
+      "2015",
+      106.3,
+      ""
+     ],
+     [
+      "2023",
+      2.4,
+      ""
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
@@ -264,7 +278,9 @@
  ],
  "fontes": [
   "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
-  "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/"
+  "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/",
+  "https://en.wikipedia.org/wiki/Crime_in_El_Salvador",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/"
  ],
  "heroi_sem_close_ok": true,
  "visual": {

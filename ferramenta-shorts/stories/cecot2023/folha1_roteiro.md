@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 27 - A Maior Prisão das Américas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 163 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 170 palavras (~59 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
@@ -56,11 +56,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~2.8 s)
-- Narracao: Nos anos seguintes, os assassinatos no país despencaram.
+## Cena b6  (~5.2 s)
+- Narracao: Os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: tomba @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: tomba @2 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -114,3 +114,5 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 ## Fontes (fatos conferidos)
 - https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections
 - https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/
+- https://en.wikipedia.org/wiki/Crime_in_El_Salvador
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/
