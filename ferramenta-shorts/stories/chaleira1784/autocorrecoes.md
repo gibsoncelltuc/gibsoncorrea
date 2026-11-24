@@ -25,3 +25,18 @@
 ## 24/11 16:39 autocorrecao de visibilidade
 - b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
 - b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+
+## 24/11 16:40 autocorrecao de visibilidade
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b5: objeto citado "cannon" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (-0.8, 0.6)
+
+## 24/11 16:41 autocorrecao de visibilidade
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b5: objeto citado "cannon" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (-0.4, 0.6)
+
+## 24/11 16:42 autocorrecao de visibilidade
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b5: objeto citado "cannon" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (-0.2, 0.6)

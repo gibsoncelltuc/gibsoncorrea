@@ -76,16 +76,13 @@
    ],
    "mapa": "HOLANDA",
    "say": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
-   "set": "loc_campo",
+   "set": "harbor",
    "props": [
     [
      "kit/navio_fragata",
-     0.0,
-     -18.2,
-     7.06,
-     {
-      "fixo": true
-     }
+     14,
+     -34,
+     1.0
     ]
    ],
    "fachada": false,
@@ -101,11 +98,12 @@
     "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
     "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
    },
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5
+   "cx": 6,
+   "cz": -14,
+   "h": 3.5,
+   "d0": 24,
+   "d1": 20,
+   "quadro_manual": true
   },
   {
    "shot": "two",
@@ -120,28 +118,27 @@
   {
    "shot": "wide",
    "who": [
-    "IMP:0:shout",
-    "GEN:0:scared:paper"
+    "IMP:0:shout"
    ],
    "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
    "set": "harbor",
    "props": [
     [
      "kit/navio_fragata",
-     -22,
-     -40,
+     -30,
+     -44,
      1.0
     ],
     [
      "kit/navio_fragata",
-     0,
-     -46,
+     -4,
+     -50,
      1.0
     ],
     [
      "kit/navio_fragata",
      22,
-     -40,
+     -44,
      1.0
     ]
    ],
@@ -150,11 +147,11 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5,
+   "cx": -2,
+   "cz": -24,
+   "h": 6,
+   "d0": 30,
+   "d1": 27,
    "quadro_manual": true,
    "quadro": {
     "objeto": "kit/navio_fragata",
@@ -206,7 +203,7 @@
    "d1": 117.5
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "MAR:0:stern",
     "MAR:1:angry"
@@ -218,18 +215,15 @@
    "props": [
     [
      "cannon",
-     -1.5,
-     0.6,
-     1.6
+     0.0,
+     0.8,
+     2.2
     ],
     [
      "kit/navio_fragata",
-     0.0,
-     -18.2,
-     7.06,
-     {
-      "fixo": true
-     }
+     12,
+     -32,
+     1.0
     ]
    ],
    "fx": [
@@ -254,10 +248,11 @@
    "cz": -8.2,
    "h": 6.0,
    "d0": 123.4,
-   "d1": 117.5
+   "d1": 117.5,
+   "quadro_manual": true
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "IMP:0:surprised",
     "COZ:0:scared"
@@ -290,6 +285,8 @@
     "relacao": "objeto com ~1.5 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
     "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
    },
+   "detalhe": false,
+   "set": "harbor",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,

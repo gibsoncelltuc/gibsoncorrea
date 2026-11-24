@@ -48,7 +48,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | 3 NAVIOS | OK |
 
-## Cena b5 - 25.8s a 30.1s - 15 palavras - plano group
+## Cena b5 - 25.8s a 30.1s - 15 palavras - plano two
 > "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
