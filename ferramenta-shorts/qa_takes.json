@@ -1,110 +1,429 @@
 {
  "fails": [
   {
-   "f": 444,
-   "shot": "b2~2",
+   "f": 0,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.153, 0.526, 1.376, 0.712)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 448,
-   "shot": "b2~2",
+   "f": 4,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.153, 0.529, 1.338, 0.712)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 452,
-   "shot": "b2~2",
+   "f": 8,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.145, 0.529, 1.33, 0.715)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 456,
-   "shot": "b2~2",
+   "f": 12,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.132, 0.527, 1.316, 0.713)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 457,
-   "shot": "b2~3",
+   "f": 16,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.13, 0.527, 1.356, 0.718)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 460,
-   "shot": "b2~3",
+   "f": 20,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.123, 0.525, 1.348, 0.714)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 464,
-   "shot": "b2~3",
+   "f": 24,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.126, 0.512, 1.334, 0.686)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 468,
-   "shot": "b2~3",
+   "f": 28,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.093, 0.49, 1.231, 0.635)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 480,
-   "shot": "b2~3",
+   "f": 32,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.031, 0.473, 1.139, 0.592)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 484,
-   "shot": "b2~3",
+   "f": 36,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.029, 0.474, 1.136, 0.592)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 488,
-   "shot": "b2~3",
+   "f": 39,
+   "shot": "b0",
    "why": [
-    "par: head/torso cropped (box 1.029, 0.475, 1.133, 0.591)"
+    "ice: behind the camera"
    ]
   },
   {
-   "f": 492,
-   "shot": "b2~3",
+   "f": 40,
+   "shot": "b0_d",
    "why": [
-    "par: head/torso cropped (box 1.029, 0.476, 1.13, 0.591)"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 496,
-   "shot": "b2~3",
+   "f": 76,
+   "shot": "b0_v",
    "why": [
-    "par: head/torso cropped (box 1.029, 0.477, 1.132, 0.591)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 500,
-   "shot": "b2~3",
+   "f": 80,
+   "shot": "b0_v",
    "why": [
-    "par: head/torso cropped (box 1.028, 0.476, 1.132, 0.591)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 503,
-   "shot": "b2~3",
+   "f": 84,
+   "shot": "b0_v",
    "why": [
-    "par: head/torso cropped (box 1.031, 0.477, 1.134, 0.592)"
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 88,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 89,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 92,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 96,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 100,
+   "shot": "b0_v",
+   "why": [
+    "ice: behind the camera"
+   ]
+  },
+  {
+   "f": 104,
+   "shot": "b0_v",
+   "why": [
+    "ice: behind the camera"
+   ]
+  },
+  {
+   "f": 108,
+   "shot": "b0_v",
+   "why": [
+    "ice: behind the camera"
+   ]
+  },
+  {
+   "f": 110,
+   "shot": "b0_v",
+   "why": [
+    "ice: behind the camera"
+   ]
+  },
+  {
+   "f": 633,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 636,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 640,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 644,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 648,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 652,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 656,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 660,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 662,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 664,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 668,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 672,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 676,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 680,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 684,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 688,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 691,
+   "shot": "b4",
+   "why": [
+    "bri: behind the camera"
+   ]
+  },
+  {
+   "f": 692,
+   "shot": "b4~1",
+   "why": [
+    "bri: head/torso cropped (box -0.201, 0.613, -0.156, 0.665)",
+    "bri: too small (5% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 696,
+   "shot": "b4~1",
+   "why": [
+    "bri: head/torso cropped (box -0.143, 0.629, -0.098, 0.68)",
+    "bri: too small (5% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 700,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (5% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 704,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (4% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 708,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 712,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 716,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 720,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 721,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 724,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 728,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 732,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 736,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 740,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 744,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 748,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 749,
+   "shot": "b4~1",
+   "why": [
+    "bri: too small (3% of frame height, min 7%)"
+   ]
+  },
+  {
+   "f": 1471,
+   "shot": "b9_v",
+   "why": [
+    "pes: head/torso cropped (box -0.074, 0.227, 0.226, 0.657)"
+   ]
+  },
+  {
+   "f": 1472,
+   "shot": "b9_v",
+   "why": [
+    "pes: head/torso cropped (box -0.073, 0.228, 0.227, 0.657)"
+   ]
+  },
+  {
+   "f": 1476,
+   "shot": "b9_v",
+   "why": [
+    "pes: head/torso cropped (box -0.05, 0.244, 0.242, 0.67)"
    ]
   }
  ],
- "tiny": []
+ "tiny": [
+  "b4~1"
+ ]
 }
