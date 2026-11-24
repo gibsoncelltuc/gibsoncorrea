@@ -7,7 +7,7 @@
 - Roupas: {'FRA': 'hussardo frances de 1795: dolma azul com alamares, calca vermelha, barretina alta', 'OFF': 'oficial de hussardos com faixa dourada', 'GEN': 'chefe frances de casaca azul e faixa', 'NED': 'marinheiro holandes de 1795: jaqueta azul curta, calca branca, chapeu redondo de aba'}
 - Cenario real: mar congelado e liso, cavalos atravessando o gelo, navios a vela de tres mastros presos no gelo, neve
 - Objetos: ['navios de guerra a vela', 'cavalos com panos nos cascos', 'sabres']
-- Cenarios usados no video: arctic, harbor, interior madeira, interior pedra
+- Cenarios usados no video: arctic, harbor, interior madeira, loc_campo
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

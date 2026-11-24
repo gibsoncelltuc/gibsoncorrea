@@ -10,9 +10,15 @@
    "arctic",
    "harbor",
    "interior madeira",
-   "interior pedra"
+   "loc_campo"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 6",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -36,16 +42,10 @@
   "buildings/lighthouse",
   "kit/navio_fragata",
   "kit/navio_vela",
-  "kit/room_europa_wood",
-  "kit/room_franca_stone",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
+  "kit/room_franca_wood",
   "mk/Bookcase_2",
-  "mk/Cabinet",
-  "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
   "mk/Table_Large",
   "ship"
  ],

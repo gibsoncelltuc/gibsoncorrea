@@ -76,7 +76,8 @@
    "sfx": [
     "ding@30"
    ],
-   "clima": "neve"
+   "clima": "neve",
+   "encena": false
   },
   {
    "say": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
@@ -169,37 +170,30 @@
    "text": "A CAVALO?",
    "tat": 9,
    "tstyle": "red",
-   "interior": "pedra"
+   "montado": false,
+   "animals": [],
+   "set": "countryside",
+   "clima": "neve"
   },
   {
    "say": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho.",
-   "shot": "track",
+   "shot": "two",
    "who": [
     "FRA:0:stern",
     "FRA:2:neutral"
    ],
-   "animals": [
-    [
-     "horse",
-     -3.0,
-     1.6,
-     "trot",
-     0.7
-    ],
-    [
-     "horse",
-     3.0,
-     2.0,
-     "trot",
-     0.7
-    ]
-   ],
    "move": 10,
    "mood": "tense",
-   "batalha": true,
    "set": "arctic",
    "hora": "noite",
-   "clima": "neve"
+   "clima": "neve",
+   "montado": {
+    "animal": "horse_sela"
+   },
+   "impact": true,
+   "tiros": false,
+   "sem_mortos": true,
+   "shot_lock": true
   },
   {
    "say": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",

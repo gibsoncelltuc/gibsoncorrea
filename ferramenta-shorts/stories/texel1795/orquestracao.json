@@ -1,7 +1,13 @@
 {
  "id": "texel1795",
  "ano": 1795,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 6",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -108,7 +114,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GEN",
     "OFF"
@@ -122,10 +128,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "FRA",
     "FRA"

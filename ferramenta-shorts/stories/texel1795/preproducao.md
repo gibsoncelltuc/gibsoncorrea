@@ -9,8 +9,8 @@ b1 | arctic | reveal | 2 | reagir | - | - | -
 b2 | harbor | orbit | 2 | reagir | kit/navio_vela, navios de guerra ao fundo, no tamanho real | - | -
 b3 | harbor | two | 1 | conversar | ship | - | -
 b4 | arctic | group | 3 | conversar, INTERAGEM: aproxima-se | horse | - | -
-b5 | interior pedra | two | 2 | conversar, INTERAGEM: avanca e o outro recua | horse | - | -
-b6 | arctic | crowd | 2 | encena, andando, batalha | horse | - | -
+b5 | loc_campo | group | 2 | conversar, INTERAGEM: avanca e o outro recua | horse | - | -
+b6 | arctic | two | 2 | encena, andando, batalha | horse | - | -
 b7 | harbor | group | 12 | reagir, INTERAGEM: discutir, batalha | navio em movimento | - | -
 b8 | arctic | group | 2 | conversar, INTERAGEM: o outro se aproxima | ship, horse | - | -
 b9 | interior madeira | close | 1 | conversar | - | - | -

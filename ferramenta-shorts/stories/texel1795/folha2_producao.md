@@ -53,10 +53,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
-- Cenario: interior pedra | luz: arctic | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): GEN (variante 0, expressao grin); OFF (variante 0, expressao surprised)
+- Cenario: loc_campo | luz: arctic | clima: neve
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): GEN (variante 0, expressao grin); OFF (variante 0, expressao surprised) | multidao: 0 de GEN/OFF
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, cavalo, chefe, frota
@@ -64,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo....
 - Cenario: arctic | luz: noite | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral) | multidao: 0 de FRA
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral)
 - Animacao: encena | batalha encenada
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cascos, cavalos, gelo, hussardos, janeiro, vinte
@@ -123,7 +123,7 @@ kit/navio_vela | b2 | pronto (HEROI: aparece em close) | conferir na folha de co
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vela | grandes momentos: b6, b7 | planos abertos: 3 | mistura: close 13% | medio 64% | aberto 22% | detalhe 2%
+- Objeto heroi: kit/navio_vela | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 9% | medio 70% | aberto 17% | detalhe 4%
 - Interacoes: b0 tremem de frio, b4 aproxima-se, b5 avanca e o outro recua, b7 discutir, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
