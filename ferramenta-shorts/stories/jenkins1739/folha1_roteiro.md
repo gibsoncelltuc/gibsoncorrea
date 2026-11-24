@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b9  (~4.5 s)
 - Narracao: A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

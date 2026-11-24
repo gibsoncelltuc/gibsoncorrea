@@ -13,8 +13,8 @@ b5 | interior pedra | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
 b6 | harbor | crowd | 22 | batalha | ship | - | -
 b7 | palace | two | 2 | conversar, INTERAGEM: apertar | - | paper | -
 b8 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ear_jar | book | -
-b9 | harbor | close | 1 | conversar | kit/ear_jar | - | -
-b10 | harbor | two | 1 | conversar | - | - | -
+b9 | loc_campo | close | 1 | conversar | kit/ear_jar | - | -
+b10 | loc_campo | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/ear_jar
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b6
