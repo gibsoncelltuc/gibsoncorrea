@@ -30,9 +30,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/shop",
-  "kit/navio_fragata",
-  "kit/navio_vela",
   "ship"
  ],
  "pesquisa_visual": {

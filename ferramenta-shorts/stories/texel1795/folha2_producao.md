@@ -23,22 +23,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - A frota holandesa estava ancorada perto de Den Helder, e o mar congelo...
-- Cenario: harbor | luz: arctic | clima: neve
+- Cenario: arctic | luz: arctic | clima: neve
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NED (variante 0, expressao nervous); NED (variante 1, expressao shock) | multidao: 0 de NED
 - Animacao: reagir
-- Objetos/modelos: kit/navio_vela, navios de guerra ao fundo, no tamanho real
+- Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota
 - RISCOS: nenhum
 
 ## Cena b3 - Os navios ficaram presos no gelo, sem conseguir sair do lugar.
-- Cenario: harbor | luz: arctic | clima: neve
+- Cenario: arctic | luz: arctic | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): NED (variante 2, expressao pained)
 - Animacao: encena
-- Objetos/modelos: ship, kit/navio_vela, navios de guerra ao fundo, no tamanho real
+- Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, lugar, navios
 - RISCOS: nenhum
 
@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Acontece que os holandeses nem tentaram lutar. A frota inteira se rend...
-- Cenario: harbor | luz: arctic | clima: neve
+- Cenario: arctic | luz: arctic | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 10 de NED
 - Animacao: reagir | interacao: discutir | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota, holandeses
 - RISCOS: nenhum
 
@@ -117,9 +117,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-ship | b0, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b0, b2, b3, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 horse | b0, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/navio_vela | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
