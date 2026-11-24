@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
-Gerado em 24/11 18:27 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 67%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 18:28 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 67%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
