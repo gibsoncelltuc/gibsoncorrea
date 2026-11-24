@@ -5,7 +5,7 @@
  "ep": 19,
  "title": "A Guerra de Aroostook",
  "titulo_base": "A Guerra de Aroostook",
- "set": "countryside",
+ "set": "arctic",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/logs",
@@ -62,7 +62,7 @@
  "beats": [
   {
    "shot": "wide",
-   "set": "countryside",
+   "set": "arctic",
    "who": [
     "AME:0:angry",
     "CAN:0:angry"
@@ -110,7 +110,7 @@
   },
   {
    "shot": "two",
-   "set": "loc_campo",
+   "set": "arctic",
    "who": [
     "AME:0:neutral",
     "CAN:0:angry"
@@ -124,7 +124,7 @@
   },
   {
    "shot": "two",
-   "set": "countryside",
+   "set": "arctic",
    "who": [
     "AME:0:smug",
     "CAN:0:smug"
@@ -153,9 +153,9 @@
     ],
     [
      "tools/axe",
-     -0.9,
-     0.9,
-     3.2
+     0.3,
+     0.7,
+     2.8
     ]
    ],
    "verbos_ok": [
@@ -165,7 +165,7 @@
   },
   {
    "shot": "reveal",
-   "set": "countryside",
+   "set": "arctic",
    "who": [
     "AME:0:shout",
     "CAN:0:angry"
@@ -207,7 +207,7 @@
   },
   {
    "shot": "wide",
-   "set": "countryside",
+   "set": "arctic",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -305,8 +305,7 @@
     ]
    ],
    "fachada": false,
-   "interior": "loja",
-   "clima": "neve"
+   "interior": "loja"
   }
  ],
  "regiao": "europa",

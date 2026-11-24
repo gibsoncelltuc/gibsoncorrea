@@ -1,33 +1,7 @@
 {
  "id": "aroostook1838",
  "ano": 1838,
- "cenarios_trocados": [
-  [
-   "video",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 1",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 3",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 4",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 5",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -53,7 +27,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
@@ -70,7 +44,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
    "camera": "group",
@@ -93,7 +67,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
    "camera": "reveal",
@@ -118,7 +92,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
    "camera": "wide",
@@ -135,7 +109,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
    "camera": "two",

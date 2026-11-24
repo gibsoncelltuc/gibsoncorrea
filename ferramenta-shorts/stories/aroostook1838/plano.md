@@ -11,7 +11,7 @@ b5 | two | -  | interior, placa: PRESO | confusão (puff + som de baque); encena
 b6 | two | -  | interior | encena: fala (point) @11 (acao + som de efeito); encena: fala (point) @16 (acao + som de efeito) | -
 b7 | group | -  | interior, objeto na mao | encena: x_entrega (reach) @1 (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | - | -
-b9 | two | - neve | animais, interior | - | -
+b9 | two | -  | animais, interior | - | -
 b10 | close | -  | interior, placa: COMENTE! | - | -
 
 Mistura de planos: close 9% | medio 66% | aberto 22% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

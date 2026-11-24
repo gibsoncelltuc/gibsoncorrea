@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/aroostook1838/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py aroostook1838` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por ...
-- Cenario: loc_campo | luz: day | clima: neve
+- Cenario: arctic | luz: day | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry) | multidao: 0 de 
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine...
-- Cenario: loc_campo | luz: day | clima: neve
+- Cenario: arctic | luz: day | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): AME (variante 0, expressao neutral); CAN (variante 0, expressao angry)
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árv...
-- Cenario: loc_campo | luz: day | clima: neve
+- Cenario: arctic | luz: day | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent...
-- Cenario: loc_campo | luz: day | clima: neve
+- Cenario: arctic | luz: day | clima: neve
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry) | multidao: 12 de AME
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma...
-- Cenario: loc_campo | luz: day | clima: neve
+- Cenario: arctic | luz: day | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 20 de MIL/ING
@@ -93,11 +93,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ficou conhecida até como a Guerra do Porco com Feijão.
-- Cenario: interior loja | luz: day | clima: neve
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin)
-- Animacao: conversar | interacao: susto
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/logs, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco
 - RISCOS: nenhum
@@ -129,7 +129,7 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 ## Video inteiro
 - Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 3 | mistura: close 9% | medio 66% | aberto 22% | detalhe 2%
-- Interacoes: b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 susto
+- Interacoes: b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

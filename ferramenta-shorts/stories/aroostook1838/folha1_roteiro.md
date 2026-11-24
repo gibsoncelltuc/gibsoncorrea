@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 11 cenas, 198 palavras (~68 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 11 cenas, 198 palavras (~68 s)
 
 ## Cena b0  (~7.2 s)
 - Narracao: Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém foi morto pelo inimigo.

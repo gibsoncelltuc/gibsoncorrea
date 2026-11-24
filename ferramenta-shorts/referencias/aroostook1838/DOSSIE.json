@@ -7,39 +7,12 @@
   "regiao": "europa",
   "luz_base": "day",
   "cenarios": [
+   "arctic",
    "interior loja",
    "interior madeira",
-   "interior pedra",
-   "loc_campo",
-   "loc_estudio"
+   "interior pedra"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 1",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 3",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 4",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 5",
-    "countryside",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -86,7 +59,7 @@
  ],
  "pesquisa_visual": {
   "local": "Maine",
-  "quando": "inverno de 1838-1839 (fevereiro de 1839: neve e frio); tratado em 1842",
+  "quando": "inverno de 1838-1839: fevereiro de 1839, neve e frio no norte do Maine; tratado em 1842",
   "participantes": [
    "Winfield Scott",
    "Daniel Webster e Lord Ashburton",
