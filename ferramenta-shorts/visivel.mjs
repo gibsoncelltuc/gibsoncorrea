@@ -24,7 +24,7 @@ await new Promise((r) => srv.on('listening', r));
 const br = await launch(); const pg = await br.newPage({ viewport: { width: RW, height: RH } }); pg.on('pageerror', (e) => console.log('ERR', e.message));
 await pg.addInitScript(([w, h]) => { window.RENDER_W = w; window.RENDER_H = h; }, [RW, RH]);
 await pg.goto(`http://localhost:${srv.address().port}/index.html`); await pg.waitForFunction(() => window.ready || window.err, null, { timeout: 240000 });
-const out = []; const falhas = []; const porCena = {};
+const out = []; const falhas = []; const porCena = {}; const altCena = {};
 for (const s of SPEC.shots) {
   const len = s.b - s.a; const frs = [0.2, 0.5, 0.8].map((q) => s.a + Math.round(len * q)); const res = [];
   for (const f of frs) {
@@ -49,8 +49,9 @@ for (const s of SPEC.shots) {
           for (const p of pts) { const n = p.clone().project(cam); if (n.z > 1 || Math.abs(n.x) > 1 || Math.abs(n.y) > 1) continue; inq++; x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x); y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y);
             const d = p.clone().sub(cp); const dist = d.length(); rc.set(cp, d.normalize()); rc.far = dist + 0.05; const h = first(hitAll(rc));
             if (!h || h.distance >= dist - Math.max(0.15, dist * 0.04)) { ok++; continue; } let q = h.object; while (q && q !== o) q = q.parent; if (q === o) ok++; }
-          const area = inq ? Math.max(0, x1 - x0) * Math.max(0, y1 - y0) / 4 : 0; const r = { a, inq: pts.length ? inq / pts.length : 0, vis: inq ? ok / inq : 0, area, cx: inq ? (x0 + x1) / 2 : 9 };
+          const area = inq ? Math.max(0, x1 - x0) * Math.max(0, y1 - y0) / 4 : 0; const r = { a, inq: pts.length ? inq / pts.length : 0, vis: inq ? ok / inq : 0, area, cx: inq ? (x0 + x1) / 2 : 9, alt: inq ? (Math.min(y1, 1) - Math.max(y0, -1)) / 2 : 0 };
           if (r.vis * r.area > best.vis * best.area) best = r;
+          best.altmax = Math.max(best.altmax || 0, r.alt || 0);
           const bb = new THREE.Box3().setFromObject(o); if (bb.containsPoint(cp) && bb.getSize(new THREE.Vector3()).length() > 4) R.dentro = a;
         }
         R.objs.push(best);
@@ -72,7 +73,7 @@ for (const s of SPEC.shots) {
     }, [f, need[s.id] || []]));
   }
   const rep = { id: s.id, quadros: res };
-  for (const a of need[s.id] || []) { const okT = (r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && (a !== String(B.heroi || '') || Math.abs(o.cx ?? 0) < 0.55) && o.area >= (/navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a) ? 0.05 : 0.004)); const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (porCena[bk + '|' + a] = porCena[bk + '|' + a] || []).push(res.filter(okT).length >= 1); continue;   /* 1 dos 3 quadros basta: o mapa do pais cobre a tela por 1-2 s */ const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
+  for (const a of need[s.id] || []) { const okT = (r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && (a !== String(B.heroi || '') || Math.abs(o.cx ?? 0) < 0.55) && o.area >= (/navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a) ? 0.05 : 0.004)); const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (porCena[bk + '|' + a] = porCena[bk + '|' + a] || []).push(res.filter(okT).length >= 1); (altCena[bk + '|' + a] = altCena[bk + '|' + a] || []).push(Math.max(0, ...res.map((r) => Math.max(0, ...r.objs.filter((o) => o.a === a).map((o) => o.alt || 0))))); continue;   /* 1 dos 3 quadros basta: o mapa do pais cobre a tela por 1-2 s */ const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
   const bl = res.filter((r) => r.bloq); if (bl.length >= 2) falhas.push(`${s.id}: "${bl[0].bloq.obj}" tapando a camera (${Math.round(bl[0].bloq.frac * 100)}% do quadro, colado na lente)`);
   if (!/_d$|_v$/.test(s.id) && res.filter((r) => r.cortado).length >= 2) falhas.push(`${s.id}: personagem CORTADO na borda do quadro (boneco grande saindo da tela)`);
   const pw = res.filter((r) => r.parede); if (pw.length >= 2) falhas.push(`${s.id}: "${pw[0].parede.obj}" cobrindo a tela (${Math.round(pw[0].parede.frac * 100)}% do quadro: so' se ve uma parede/casco)`);
@@ -80,6 +81,9 @@ for (const s of SPEC.shots) {
   out.push(rep);
 }
 for (const [k, v] of Object.entries(porCena)) if (!v.some(Boolean)) { const [bk, a] = k.split('|'); falhas.push(`${bk}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
+// OLHOS x FICHA DE CENA: o objeto apareceu do tamanho que a folha 2 planejou? (menos da metade do planejado = falha)
+for (const [k_, v] of Object.entries(altCena)) { const [bk, a] = k_.split('|'); const bt = (B.beats || [])[+bk.slice(1)]; const q = bt && bt.quadro && (bt.quadro.objetos || []).find((o) => o.objeto === a); const pl = q ? parseInt(q.tela) / 100 : 0;
+  if (pl > 0 && Math.max(...v) < pl * 0.5) falhas.push(`${bk}: objeto "${a}" saiu com ${Math.round(Math.max(...v) * 100)}% da altura da tela, a ficha de cena planejou ${Math.round(pl * 100)}%`); }
 await br.close(); srv.close();
 fs.writeFileSync(`stories/${id}/visibilidade.json`, JSON.stringify({ id, falhas, tomadas: out }, null, 1));
 if (falhas.length) { console.log('VISIBILIDADE: ' + falhas.length + ' FALHA(S)'); falhas.forEach((x) => console.log('FALHA ' + x)); process.exit(3); }

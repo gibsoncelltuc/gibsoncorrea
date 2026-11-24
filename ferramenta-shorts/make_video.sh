@@ -11,7 +11,7 @@ if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 4000 ]; then for d in out/*/frame
 log() { echo "$(date +%T) $*" | tee -a $L; }
 st() { [ -f stories/$ID/stages/$1 ]; }; mark() { mkdir -p stories/$ID/stages; date +%s > stories/$ID/stages/$1; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }
-[ -f stories/$ID/STORYBOARD_OK ] || python3 enquadrar.py $ID >> $L 2>&1 || true   # 24/11 ENQUADRAMENTO NA FONTE: a folha 2 descreve lugar/tamanho/camera de cada objeto e a cena e' montada com isso (storyboard ja aprovado nao e' mexido)
+[ -f stories/$ID/STORYBOARD_OK ] || [ "${AUTOVIS:-0}" -gt 0 ] || python3 enquadrar.py $ID >> $L 2>&1 || true   # 24/11 ENQUADRAMENTO NA FONTE: a folha 2 descreve lugar/tamanho/camera de cada objeto e a cena e' montada com isso (storyboard ja aprovado nao e' mexido)
 python3 mkvideo.py $ID >> $L 2>&1
 # FOLHA 4 (v13): pesquisa de campo automatica antes de tudo (busca cada item do roteiro na internet, baixa os prints e monta o quadro de referencias)
 if [ ! -f referencias/$ID/pesquisa.json ]; then log "pesquisa de campo (folha 4)"; python3 pesquisar.py $ID >> $L 2>&1 || true; python3 mkvideo.py $ID >> $L 2>&1; fi

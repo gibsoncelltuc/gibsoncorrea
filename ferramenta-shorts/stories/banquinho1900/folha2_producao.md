@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O governador ganhou a guerra, mas o banquinho nunca foi dele.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): GOV (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/golden_stool
@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): GOV (variante 0, expressao grin)
 - Animacao: conversar
@@ -122,7 +122,7 @@ buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 9% | medio 72% | aberto 13% | detalhe 6%
+- Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 12% | medio 70% | aberto 13% | detalhe 5%
 - Interacoes: b0 discutir, b2 o outro se aproxima, b3 empurrar, b4 susto, b7 entregar, b8 cochichar
 - RISCOS GERAIS: nenhum
 

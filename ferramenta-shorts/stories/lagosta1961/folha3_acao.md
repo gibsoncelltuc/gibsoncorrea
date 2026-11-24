@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 14 palavras - plano two
@@ -9,10 +9,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | PLACA | 1961 | OK |
+| 1 | - | ATUACAO | discutir | OK |
+| 2 | - | PLACA | 1961 | OK |
 
 ## Cena b1 - 4.3s a 8.6s - 16 palavras - plano crowd
 > "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco."
@@ -44,8 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (20.0s) | ACAO: fala | aponta explicando | OK |
 | 2 | proteger (21.4s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 23.6s a 29.1s - 17 palavras - plano crowd
 > "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu."
@@ -64,7 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | encararam (31.7s) | ACAO: olha | aponta/olha | OK |
 | 2 | chamaram (33.8s) | ACAO: fala | aponta explicando | OK |
 | 3 | achou (37.0s) | ACAO: olha | aponta/olha | OK |
-| 4 | - | INTERACAO | cochichar | OK |
+| 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b7 - 38.2s a 43.2s - 16 palavras - plano two
@@ -98,8 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b10 - 54.4s a 57.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

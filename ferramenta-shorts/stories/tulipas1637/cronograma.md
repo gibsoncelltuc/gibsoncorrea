@@ -1,21 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
-Gerado em 24/11 16:10 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 16:42 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | countryside | two | MER, POV | - | house_small, windmill, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | - | Uma única flor já custou o preço de uma casa inteira.
-b1 | simples | countryside | wide | POV, RIC | - | windmill, marco_amsterdam, tulip_bed, tulip_red | - | Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida
+b0 | simples | countryside | two | MER | - | house_small, windmill, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | - | Uma única flor já custou o preço de uma casa inteira.
+b1 | simples | countryside | wide | POV | - | windmill, marco_amsterdam, tulip_bed, tulip_red | - | Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida
 b2 | simples | interior madeira | two | RIC, RIC | - | coin, tulip_striped | - | Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas m
-b3 | chave | harbor | crowd | POV, POV | - | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que
-b4 | chave | harbor | orbit | POV, POV | - | house_small, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Contam que teve gente que trocou terras e casas por um único bulbo.
+b3 | chave | harbor | crowd | POV | - | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que
+b4 | chave | harbor | orbit | POV | - | house_small, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Contam que teve gente que trocou terras e casas por um único bulbo.
 b5 | simples | street | two | POV, POV | - | tulip_purple, tulip_yellow | - | Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
 b6 | simples | interior madeira | two | MAR, MER | - | tulip_red | - | Contam que um marinheiro comeu um bulbo achando que era cebola. Valia 
 b7 | simples | interior loja | group | MER, POV, POV, RIC | - | stall | - | Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e n
-b8 | chave | street | crowd | POV, RIC | 30 | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu. Em poucos dias, todo mundo quis vender, e não havia 
-b9 | simples | countryside | group | RIC, MER | - | house_small, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | - | Os preços desabaram. Quem tinha trocado a casa por flores ficou só com
+b8 | chave | street | crowd | POV | 30 | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu. Em poucos dias, todo mundo quis vender, e não havia 
+b9 | simples | countryside | group | RIC | - | house_small, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | - | Os preços desabaram. Quem tinha trocado a casa por flores ficou só com
 b10 | simples | interior pedra | close | MAR | - | - | - | O marinheiro, pelo menos, almoçou bem.
 b11 | simples | countryside | close | MER | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

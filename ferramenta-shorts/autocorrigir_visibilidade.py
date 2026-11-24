@@ -24,7 +24,7 @@ for falha in V.get('falhas', []):
     props = b.setdefault('props', [])
     a = re.search(r'"([^"]+)"', txt); a = a.group(1) if a else ''
     idx = next((j for j, p in enumerate(props) if str(p[0]) == a), None)
-    if 'nao aparece' in txt:
+    if 'nao aparece' in txt or 'planejou' in txt:
         if idx is None: props.append([a, 0.0, 0.6, 1.2]); idx = len(props) - 1
         p = props[idx]; x, z = num(p[1]), num(p[2]); s = num(p[3]) if len(p) > 3 else 1.0
         if GRANDE.search(a):
