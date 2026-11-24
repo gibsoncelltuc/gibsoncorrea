@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): AME (variante 0, expressao neutral); CAN (variante 0, expressao neutral) | multidao: 8 de AME/CAN
+- Personagens principais (2): AME (variante 0, expressao neutral); CAN (variante 0, expressao angry) | multidao: 0 de AME/CAN
 - Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colonia, estado, fronteira, maine
@@ -130,9 +130,11 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 ## Video inteiro
 - Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 3 | mistura: close 9% | medio 67% | aberto 19% | detalhe 5%
 - Interacoes: b0 discutir, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).

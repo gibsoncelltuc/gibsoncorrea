@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_campo | two | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine | - | -
-b1 | loc_estudio | reveal | 10 | encena | - | - | -
+b1 | loc_estudio | reveal | 2 | encena | - | - | -
 b2 | loc_campo | two | 2 | discutir, INTERAGEM: vai ate o outro | kit/logs, tools/axe, nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b3 | loc_campo | reveal | 14 | encena, batalha | nature/tree_pine | - | -
 b4 | loc_campo | wide | 22 | encena | - | - | -
