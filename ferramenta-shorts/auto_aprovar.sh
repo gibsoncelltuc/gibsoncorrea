@@ -4,6 +4,8 @@
 # e que passe nas verificacoes AUTOMATICAS (folha 2 com 0 risco, verificar_execucao 100% acoes e cenario), aprova sozinho (aprovar_rapido.sh)
 # e marca stories/<id>/AUTO_APROVADO (o modelo REVE o video quando a cota voltar: conferir.sh + auditar_acoes.sh). Nunca aprova curie1898 nem ese_* (pausados).
 cd "$(dirname "$0")"; ESPERA_MIN=${ESPERA_MIN:-5}
+# 24/11: DESLIGADA por padrao. Aprovar storyboard sem ninguem olhar contraria o COMO_OLHAR.md (comparar com a pesquisa e procurar os 8 defeitos). So' roda se existir o arquivo AUTO_APROVAR_LIGADO (decisao do Gibson).
+[ -f AUTO_APROVAR_LIGADO ] || { echo "$(date +%T) auto-aprovacao desligada (crie ferramenta-shorts/AUTO_APROVAR_LIGADO para ligar)"; exit 0; }
 [ -f "$(dirname "$0")/PAUSA" ] || [ -f PAUSA ] && { echo "$(date +%T) PAUSA ativa: nao rodo (apague ferramenta-shorts/PAUSA)"; exit 0; }
 while true; do
   for f in stories/*/AGUARDA_STORYBOARD; do
