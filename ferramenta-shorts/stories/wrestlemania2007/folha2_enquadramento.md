@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário."
+## b0: "Donald Trump raspou a cabeça de outro bilionário no meio de um ringue."
 - LOCAL: estadio; hora: day
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; VIN na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -18,13 +18,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
-## b2: "Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon."
+## b2: "A rivalidade era combinada, como todo show de luta: Trump contra o dono da empresa, Vince McMahon."
 - LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TRU na esquerda, expressao angry; VIN na direita, expressao shout; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b3: "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada."
+## b3: "A aposta: cada um escolheu um lutador, e o dono do perdedor teria a cabeça raspada."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)
 - PERSONAGENS: VIN na esquerda, expressao smug; TRU na direita, expressao suspicious; sem multidao; acao: cochichar
@@ -35,7 +35,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários."
 - LOCAL: estadio; hora: day
 - CAMERA: plano de multidao
-- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao shout; POV na direita, expressao grin; multidao de 22 (POV) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao shout; POV na direita, expressao grin; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
@@ -49,9 +49,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
 
-## b6: "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça."
+## b6: "Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça."
 - LOCAL: estadio; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: JUI no centro, expressao smug; sem multidao; acao: susto
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
@@ -68,7 +68,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "VITÓRIA" flutuando no alto, na palavra 1 da frase
 
-## b8: "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
+## b8: "Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar careca."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: discutir
@@ -77,15 +77,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@40
 
-## b9: "O dono da luta livre saiu do ringue completamente careca."
-- LOCAL: estadio; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)
-- PERSONAGENS: VIB na esquerda, expressao cry; TRU no centro, expressao laugh; LAS (lutador) na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/clipper: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
-- SOM: sting@20
-
-## b10: "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
+## b9: "E sobrou para Trump: o juiz derrubou ele também."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: JUI no centro, expressao smug; sem multidao; acao: discutir
@@ -93,7 +85,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
 
-## b11: "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo."
+## b10: "Seis anos depois, Trump entrou para o Hall da Fama da luta livre."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TRU na esquerda, expressao smile; JUI na direita, expressao smile; sem multidao; acao: comemorar

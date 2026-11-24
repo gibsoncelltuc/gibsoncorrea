@@ -273,7 +273,7 @@
    "titulo": true,
    "say": "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.",
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "loc_cidade",
     "camera": "plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -284,11 +284,11 @@
      }
     ]
    },
+   "set": "loc_cidade",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "set": "loc_cidade"
+   "d1": 11.5
   },
   {
    "shot": "two",

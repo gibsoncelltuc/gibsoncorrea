@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagaram -> stars + som de sino; encena: pega (lift) @2 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagaram -> stars + som de sino; encena: pega (lift) @2 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: OUTRO SULTÃO
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: E ainda mandaram a conta das balas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

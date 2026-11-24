@@ -50,13 +50,7 @@
    "frase": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
    "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -144,7 +138,7 @@
     "REP",
     "BUK"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [],
    "palavras": 15,
    "cena": "b6",
@@ -195,14 +189,14 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "REP",
-    "POV"
+    "REP"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/prison"
+    "kit/prison",
+    "kit/volcano"
    ],
    "palavras": 15,
    "cena": "b9",
@@ -214,11 +208,11 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/ballot_box",
     "kit/globe"

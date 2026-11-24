@@ -19,7 +19,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 
-## b2: "Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar."
+## b2: "Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao lado do dólar."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; ENA na direita, expressao suspicious; sem multidao; acao: conversar
@@ -40,20 +40,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@40
 
 ## b5: "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa."
-- LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o turbina (alvo z -2.0, camera a 20.0 m, altura 3.0 m), sem multidao na frente
-- PERSONAGENS: ENA no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/turbina: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.5 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/volcano: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.2 m de altura x 23.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/turbina: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 8.0 m de altura x 3.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +5 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +25 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +45 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +65 da cena
-- SOM: whoosh@10
-- SOM: whoosh@35
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/turbina no centro, manobra "gira"
+- PASSOS NA TELA: -
 
-## b6: "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin."
+## b6: "Acontece que, ao lado da usina, instalaram computadores só para minerar bitcoin."
 - LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)
 - PERSONAGENS: ENG na esquerda, expressao surprised; ENA na direita, expressao grin; sem multidao; acao: conversar
@@ -70,24 +61,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@20
 - SOM: sting@50
 
-## b8: "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão."
-- LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: BUK no centro, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
-- SOM: ding@20
-- SOM: ding@60
-- TEXTO NA TELA: "VULCÃO" flutuando no alto, na palavra 1 da frase
-
-## b9: "Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão."
+## b8: "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: ENA na esquerda, expressao smile, segura paper; ENG na direita, expressao grin; sem multidao; acao: conversar
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b10: "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão."
+## b9: "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: batalha
@@ -96,7 +76,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@30
 - TEXTO NA TELA: "CIDADE BITCOIN" flutuando no alto, na palavra 1 da frase
 
-## b11: "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."
+## b10: "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar

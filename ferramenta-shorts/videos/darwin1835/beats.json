@@ -155,7 +155,19 @@
     "DAR:0:surprised",
     "GOU:0:shout"
    ],
-   "interacao": "discutir"
+   "interacao": "discutir",
+   "props": [
+    [
+     "kit/finch",
+     0.9,
+     1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_ok": true
   },
   {
    "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",

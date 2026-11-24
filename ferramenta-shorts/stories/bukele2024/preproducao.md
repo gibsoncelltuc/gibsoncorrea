@@ -13,13 +13,13 @@ b5 | loc_campo | wide | 8 | encena | kit/ballot_box | - | -
 b6 | loc_pista | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
 b7 | loc_cidade | orbit | 17 | comemorar, batalha | - | - | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
-b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/prison | - | -
-b10 | loc_pista | orbit | 7 | comemorar | kit/ballot_box, kit/globe | - | -
+b9 | loc_pista | wide | 1 | discutir | kit/prison, kit/volcano | - | -
+b10 | loc_pista | two | 1 | comemorar | kit/ballot_box, kit/globe | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/ballot_box
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b7
-Interacoes entre personagens: b0 pular, b1 o outro se aproxima, b3 discutir, b4 susto, b6 insiste, b8 vai ate o outro, b9 empurrar
+Interacoes entre personagens: b0 pular, b1 o outro se aproxima, b3 discutir, b4 susto, b6 insiste, b8 vai ate o outro
 
 Cenas com personagens parados: 0 de 12
 FALTA MODELAR: nada
