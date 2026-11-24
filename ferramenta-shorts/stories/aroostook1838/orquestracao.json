@@ -1,53 +1,7 @@
 {
  "id": "aroostook1838",
  "ano": 1838,
- "cenarios_trocados": [
-  [
-   "video",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 1",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 2",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 3",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 4",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 5",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 7",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -56,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "AME",
     "CAN"
@@ -66,31 +20,14 @@
     "kit/logs",
     "nature/tree_pine"
    ],
-   "palavras": 16,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e todos sobreviveram.",
+   "frase": "Uma guerra entre Estados Unidos e Inglaterra quase começou por causa de lenhadores.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "reveal",
-   "personagens": [
-    "AME",
-    "CAN"
-   ],
-   "multidao": 8,
-   "objetos": [],
-   "palavras": 21,
-   "cena": "b1",
-   "frase": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e uma colônia inglesa ainda era confusa.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
@@ -99,58 +36,101 @@
     "CAN"
    ],
    "multidao": 0,
+   "objetos": [],
+   "palavras": 24,
+   "cena": "b1",
+   "frase": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e a colônia inglesa de New Brunswick ainda era disputada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "AME",
+    "CAN"
+   ],
+   "multidao": 0,
    "objetos": [
     "kit/logs",
-    "mk/Axe_Bronze",
     "nature/bush",
     "nature/tree_oak",
     "nature/tree_pine"
    ],
    "palavras": 18,
    "cena": "b2",
-   "frase": "Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "frase": "Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árvores, e cada lado queria a madeira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "AME",
-    "CAN"
+    "AME"
    ],
-   "multidao": 16,
+   "multidao": 8,
    "objetos": [
     "nature/tree_pine"
    ],
-   "palavras": 15,
+   "palavras": 25,
    "cena": "b3",
-   "frase": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
-   "classe": "chave",
+   "frase": "Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agente de terras com voluntários para prender os lenhadores de New Brunswick.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "MIL",
     "ING"
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 15,
    "cena": "b4",
-   "frase": "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.",
+   "frase": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAN",
+    "AME"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "PRE",
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b6",
+   "frase": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -161,43 +141,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "AME",
-    "ING"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/prison"
-   ],
-   "palavras": 15,
-   "cena": "b5",
-   "frase": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "GEN",
-    "MIL"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b6",
-   "frase": "Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -207,9 +151,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 16,
    "cena": "b7",
-   "frase": "Ele convenceu os dois lados a parar, e a história terminou sem um único tiro.",
+   "frase": "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -226,9 +170,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 18,
+   "palavras": 23,
    "cena": "b8",
-   "frase": "Alguns anos depois, as duas nações assinaram um tratado que dividiu o território, e a fronteira ficou definida.",
+   "frase": "Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton definiu a fronteira, e a maior parte da área ficou com o Maine.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -236,24 +180,21 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "AME",
     "AME"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/logs",
-    "nature/tree_pine"
-   ],
-   "palavras": 15,
+   "objetos": [],
+   "palavras": 10,
    "cena": "b9",
-   "frase": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
+   "frase": "Ficou conhecida até como a Guerra do Porco com Feijão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior loja"
   },
   {
    "camera": "close",
@@ -269,7 +210,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior loja"
   }
  ]
 }

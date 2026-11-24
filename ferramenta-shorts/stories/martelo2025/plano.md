@@ -2,20 +2,19 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 2025 | - | -
+b0 | two | -  | tropa | encena: atira @1 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | objeto na mao | - | -
-b3 | close | -  | - | - | -
-b4 | two | dia  | interior | encena: escreve (write) @1 (acao + som de efeito) | -
-b5 | crowd | dia  | batalha aberta com tiros, tropa, placa: B-2 | encena: voa (point) @3 (acao + som de efeito) | -
-b6 | two | dia  | - | encena: fala (point) @5 (acao + som de efeito) | -
-b7 | low | noite  | - | encena: x_solta (up) @6 (acao + som de efeito) | -
-b8 | two | noite  | placa: SUBMARINO | encena: fala (point) @3 (acao + som de efeito); encena: desaba @6 (acao + som de efeito) | -
-b9 | orbit | dia  | batalha aberta com tiros, tropa | encena: chega (point) @3 (acao + som de efeito) | -
-b10 | two | dia  | interior, objeto na mao | - | -
-b11 | crowd | -  | batalha aberta com tiros, tropa, placa: FORDOW | encena: x_discute (point) @2 (acao + som de efeito) | -
-b12 | close | -  | - | - | -
-b13 | two | -  | placa: COMENTE! | - | -
+b2 | wide | -  | tropa, placa: FORDOW | - | -
+b3 | two | -  | tropa | - | -
+b4 | two | -  | interior, placa: MARTELO DA MEIA-NOITE | encena: fala (point) @3 (acao + som de efeito) | -
+b5 | two | noite  | tropa | - | -
+b6 | two | noite  | tropa | - | -
+b7 | two | -  | tropa | - | -
+b8 | two | noite  | tropa | - | -
+b9 | two | noite  | tropa | - | -
+b10 | two | -  | interior, placa: DESTRUÍDAS? | - | -
+b11 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 28% | medio 57% | aberto 11% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 10% | medio 72% | aberto 18% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

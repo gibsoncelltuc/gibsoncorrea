@@ -1,18 +1,18 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_montanha | 14 cenas, 192 palavras (~66 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 13 cenas, 151 palavras (~52 s)
 
-## Cena b0  (~7.2 s)
-- Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma arma que nunca tinha saído do papel.
+## Cena b0  (~4.8 s)
+- Narracao: Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@30
-- Texto na tela: 2025
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: encena: atira @1 -> acao + som de efeito
+- Efeito visual marcado: ring@30
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.2 s)
-- Narracao: Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.
+## Cena b1  (~5.2 s)
+- Narracao: Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do Irã.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_mont
 - Texto na tela: - | mapa: IRÃ
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.8 s)
-- Narracao: A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha.
+## Cena b2  (~5.2 s)
+- Narracao: A principal, Fordow, fica de oitenta a noventa metros de profundidade, dentro de uma montanha.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: FORDOW
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~6.2 s)
+- Narracao: Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,71 +38,53 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_mont
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~7.6 s)
-- Narracao: Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas. E só um avião carrega essa arma: o B-2.
+## Cena b4  (~2.4 s)
+- Narracao: A missão se chamou Martelo da Meia-Noite.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@30
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: MARTELO DA MEIA-NOITE
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~4.1 s)
+- Narracao: Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@30
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b4  (~4.5 s)
-- Narracao: Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-Noite.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: escreve (write) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.8 s)
-- Narracao: Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: whoosh@20, whoosh@50
-- Efeito + som nas palavras-chave: encena: voa (point) @3 -> acao + som de efeito
-- Efeito visual marcado: whoosh@20, whoosh@50
-- Texto na tela: B-2
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b6  (~4.1 s)
-- Narracao: Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.
+## Cena b6  (~3.4 s)
+- Narracao: Para despistar, outros aviões foram mandados na direção do Pacífico.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~6.9 s)
-- Narracao: Acontece que, de madrugada, os aviões soltaram catorze cargas explosivas. Doze delas em cima de Fordow, pelos respiros do bunker.
+## Cena b7  (~3.8 s)
+- Narracao: Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
-- Efeito + som nas palavras-chave: encena: x_solta (up) @6 -> acao + som de efeito
-- Efeito visual marcado: burst@25, burst@45, puff@60
+- Efeitos sonoros marcados: cannon@25, cannon@40, thump@55
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: burst@25, burst@40, puff@55
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b8  (~3.4 s)
-- Narracao: Um submarino ainda mandou mísseis que explodiram numa terceira usina.
+## Cena b8  (~3.1 s)
+- Narracao: Um submarino ainda lançou mísseis contra uma terceira usina.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@50
-- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito; encena: desaba @6 -> acao + som de efeito
-- Efeito visual marcado: burst@50
-- Texto na tela: SUBMARINO
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~2.1 s)
-- Narracao: Todos os aviões voltaram para casa.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito
+- Efeitos sonoros marcados: whoosh@30
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.4 s)
-- Narracao: Trump disse que as usinas foram destruídas.
+## Cena b9  (~2.8 s)
+- Narracao: Depois, os aviões voltaram para casa em segurança.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -101,25 +92,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_mont
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~2.8 s)
-- Narracao: Avaliações posteriores discutiram o tamanho real do estrago.
+## Cena b10  (~3.1 s)
+- Narracao: Os Estados Unidos disseram que as usinas foram destruídas.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito
-- Efeito visual marcado: ring@30
-- Texto na tela: FORDOW
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b12  (~4.8 s)
-- Narracao: Foi a primeira vez na história que essa arma gigante foi usada de verdade.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: burst@40
-- Texto na tela: -
+- Efeito visual marcado: -
+- Texto na tela: DESTRUÍDAS?
 - Funcao na historia: desenvolvimento
 
-## Cena b13  (~4.5 s)
+## Cena b11  (~3.4 s)
+- Narracao: Mas até hoje ninguém concorda sobre o tamanho do estrago.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b12  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

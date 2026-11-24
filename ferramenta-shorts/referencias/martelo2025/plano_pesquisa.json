@@ -7,7 +7,16 @@
    "item": "O Martelo da Meia-Noite",
    "consultas": [
     "O Martelo da Meia-Noite",
-    "Para Estados Unidos Foi Irã Fordow 2025"
+    "Uma Foi Irã Fordow 2025"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)",
+   "consultas": [
+    "Fordow enrichment plant",
+    "Fordow Natanz e Isfahan",
+    "Fordow Natanz e Isfahan Irã base de Whiteman Missouri EUA 2025"
    ]
   },
   {
@@ -22,38 +31,136 @@
    "tipo": "epoca",
    "item": "roupas e ruas de 2025",
    "consultas": [
+    "US Air Force airmen B-2 maintenance Whiteman 2025",
     "2025 fashion clothing",
     "2025 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Força Aérea dos EUA",
+   "consultas": [
+    "US Air Force B-2 Spirit Whiteman Air Force Base hangar",
+    "Força Aérea dos EUA",
+    "Força Aérea dos EUA 2025"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "tripulações de B-2",
+   "consultas": [
+    "B-2 Spirit pilots flight crew cockpit",
+    "tripulações de B-2",
+    "tripulações de B-2 2025"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Marinha dos EUA",
+   "consultas": [
+    "US Navy Ohio-class submarine surfaced",
+    "Marinha dos EUA",
+    "Marinha dos EUA 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bomba antibunker GBU-57",
+   "consultas": [
+    "bomba antibunker GBU-57",
+    "bomba antibunker GBU-57 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bombardeiro B-2 Spirit",
+   "consultas": [
+    "bombardeiro B-2 Spirit",
+    "bombardeiro B-2 Spirit 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "submarino",
+   "consultas": [
+    "Ohio-class guided missile submarine USS Georgia",
+    "submarino",
+    "submarino 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bunker na montanha",
+   "consultas": [
+    "Fordow Fuel Enrichment Plant satellite image Iran mountain",
+    "bunker na montanha",
+    "bunker na montanha 2025"
    ]
   },
   {
    "tipo": "heroi",
    "item": "bunker bomb",
    "consultas": [
-    "bunker bomb",
+    "bomba antibunker GBU-57",
     "O Martelo da Meia-Noite"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "b2 air",
-   "consultas": [
-    "b2 air"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "mountain bunker",
-   "consultas": [
-    "mountain bunker"
    ]
   },
   {
    "tipo": "epoca",
    "item": "aviao da epoca",
    "consultas": [
+    "B-2 Spirit bomber 2025",
     "airplane 2025",
     "airplane"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um av",
+   "consultas": [
+    "bomba chegava antibunker treze toneladas aviao carrega",
+    "bunker bomb diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até",
+   "consultas": [
+    "avioes invisiveis sairam missouri viajaram dezoito",
+    "b2 air diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
+   "consultas": [
+    "despistar avioes foram mandados direcao pacifico",
+    "b2 air diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fo",
+   "consultas": [
+    "acontece madrugada catorze bombas cairam fordow",
+    "mountain bunker diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Um submarino ainda lançou mísseis contra uma terceira usina.",
+   "consultas": [
+    "Ohio class submarine",
+    "submarino lancou misseis contra terceira usina",
+    "submarino moderno diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Depois, os aviões voltaram para casa em segurança.",
+   "consultas": [
+    "avioes voltaram seguranca",
+    "b2 air diagram"
    ]
   }
  ]
