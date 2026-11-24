@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Guerra de Toledo
 - Epoca: 1835 | Lugar: Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna | Quando: abril a setembro de 1835 (Phillips Corners: domingo, 26/abr/1835, de dia; facada na taverna: julho de 1835)
-- HEROIS (objeto): kit/canivete
+- HEROIS (objeto): kit/canivete_aberto
 - HEROIS (personagens): OHI, GOV, MIC
 - Cenarios: arctic, countryside, interior madeira, interior pedra, jungle
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
@@ -28,7 +28,7 @@ objeto | mosquetes de pederneira | mosquetes de pederneira / mosquetes de pedern
 objeto | canivete de bolso | canivete de bolso / canivete de bolso 1835 | SEM REFERENCIA
 objeto | instrumento de agrimensor em tripe | instrumento de agrimensor em tripe / instrumento de agrimensor em tripe 1835 | SEM REFERENCIA
 objeto | mapa antigo com a linha da fronteira | mapa antigo com a linha da fronteira / mapa antigo com a linha da fronteira 1835 | MAPA ANTIGO araçatuba sp.jpg (referencias/toledo1835/prints/mapa_antigo_com_a_linha_da_fronteira_52d53b.jpg); Linha 3 - Vermelha - Mapa de Embarque 1988 (2023). (referencias/toledo1835/prints/mapa_antigo_com_a_linha_da_fronteira_b7911e.jpg); Great Map of Japan WDL9930.png (referencias/toledo1835/prints/mapa_antigo_com_a_linha_da_fronteira_a72d4f.jpg)
-heroi | canivete | mosquetes de pederneira / A Guerra de Toledo | Disputed Toledo Strip.png (referencias/toledo1835/prints/canivete_ce33a9.jpg); Upper peninsula Toledo War.png (referencias/toledo1835/prints/canivete_5773c2.jpg); Willy Toledo NO A LA GUERRA DE LIBIA.jpg (referencias/toledo1835/prints/canivete_52e546.jpg)
+heroi | canivete aberto | mosquetes de pederneira / A Guerra de Toledo | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

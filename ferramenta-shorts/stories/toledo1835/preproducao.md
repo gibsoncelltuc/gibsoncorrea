@@ -16,7 +16,7 @@ b8 | arctic | low | 2 | reagir, INTERAGEM: cochichar | kit/minerio, nature/tree_
 b9 | interior madeira | close | 1 | encena | - | coin | -
 b10 | interior madeira | two | 1 | conversar | - | - | -
 
-OBJETO HEROI: kit/canivete
+OBJETO HEROI: kit/canivete_aberto
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4
 Interacoes entre personagens: b0 susto, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
 
