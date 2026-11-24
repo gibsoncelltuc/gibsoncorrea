@@ -1,0 +1,1157 @@
+{
+ "id": "banquinho1900",
+ "falhas": [
+  "b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b6_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)"
+ ],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 10,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.5591397849462365,
+       "area": 0.12218212570948939,
+       "cx": -0.028187299160643442,
+       "alt": 0.2130931302147702,
+       "altmax": 0.2130931302147702
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 25,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.4838709677419355,
+       "area": 0.13258174874540954,
+       "cx": 0.002026842216232616,
+       "alt": 0.22285693825421135,
+       "altmax": 0.22285693825421135
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 40,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.5913978494623656,
+       "area": 0.1392122943196548,
+       "cx": 0.03592083983559685,
+       "alt": 0.22989380767812534,
+       "altmax": 0.22989380767812534
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_d",
+   "quadros": [
+    {
+     "f": 58,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.6129032258064516,
+       "area": 0.1482124521995462,
+       "cx": 0.03196963539996034,
+       "alt": 0.23684342530114666,
+       "altmax": 0.23684342530114666
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 68,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.8817204301075269,
+       "area": 0.2020998565759429,
+       "cx": -0.0069924915822621725,
+       "alt": 0.2738656539478564,
+       "altmax": 0.2738656539478564
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 77,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.288523895255962,
+       "cx": -0.03152355176546984,
+       "alt": 0.32648396825436193,
+       "altmax": 0.32648396825436193
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_v",
+   "quadros": [
+    {
+     "f": 96,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.8817204301075269,
+       "area": 0.24659115424475542,
+       "cx": -0.03402145559682862,
+       "alt": 0.3019734148669279,
+       "altmax": 0.3019734148669279
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 113,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.4838709677419355,
+       "area": 0.1368515204354415,
+       "cx": 0.0006722354393206009,
+       "alt": 0.22631308518208484,
+       "altmax": 0.22631308518208484
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 130,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.6236559139784946,
+       "area": 0.13993684591266636,
+       "cx": 0.03622233071137099,
+       "alt": 0.23049926377543484,
+       "altmax": 0.23049926377543484
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 179,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 235,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 291,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 342,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.7096774193548387,
+       "area": 0.08893705064939461,
+       "cx": -0.07405988965442373,
+       "alt": 0.1848564242715037,
+       "altmax": 0.1848564242715037
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 363,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.7204301075268817,
+       "area": 0.09749586244709323,
+       "cx": -0.047905802121399166,
+       "alt": 0.19281647158868437,
+       "altmax": 0.19281647158868437
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 383,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.6559139784946236,
+       "area": 0.10291372081765253,
+       "cx": -0.018976863095247543,
+       "alt": 0.19798845267576695,
+       "altmax": 0.19798845267576695
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2_d",
+   "quadros": [
+    {
+     "f": 406,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.7741935483870968,
+       "area": 0.11602206273658626,
+       "cx": -0.01701151515801186,
+       "alt": 0.2095169720612483,
+       "altmax": 0.2095169720612483
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 419,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.20694480355001638,
+       "cx": -0.029670394686624135,
+       "alt": 0.2768019816092311,
+       "altmax": 0.2768019816092311
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 432,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.2979134605708858,
+       "cx": -0.03586131585027197,
+       "alt": 0.3315872091200429,
+       "altmax": 0.3315872091200429
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2_v",
+   "quadros": [
+    {
+     "f": 457,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.9354838709677419,
+       "area": 0.16907043312832157,
+       "cx": -0.05292934973494717,
+       "alt": 0.25553796448609817,
+       "altmax": 0.25553796448609817
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 479,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.6129032258064516,
+       "area": 0.09659638082744727,
+       "cx": -0.03419729828411677,
+       "alt": 0.19788946758961945,
+       "altmax": 0.19788946758961945
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 501,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.7849462365591398,
+       "area": 0.10297630212437728,
+       "cx": -0.0062301388371843736,
+       "alt": 0.20236604242526474,
+       "altmax": 0.20236604242526474
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 528,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 545,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 561,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~1",
+   "quadros": [
+    {
+     "f": 584,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 601,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 617,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~2",
+   "quadros": [
+    {
+     "f": 640,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 657,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 673,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 696,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 712,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 728,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4~1",
+   "quadros": [
+    {
+     "f": 751,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 767,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 782,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4~2",
+   "quadros": [
+    {
+     "f": 805,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 821,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 837,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 856,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.6842105263157895,
+       "vis": 0.9384615384615385,
+       "area": 0.060656100425070594,
+       "cx": -0.6874763678153654,
+       "alt": 0.19471902253538176,
+       "altmax": 0.19471902253538176
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 866,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.7157894736842105,
+       "vis": 1,
+       "area": 0.06571489052755937,
+       "cx": -0.658935615589436,
+       "alt": 0.1999610982173289,
+       "altmax": 0.1999610982173289
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 876,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.7789473684210526,
+       "vis": 1,
+       "area": 0.07491983471877982,
+       "cx": -0.6275599673272834,
+       "alt": 0.203550682836688,
+       "altmax": 0.203550682836688
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b5_1",
+   "quadros": [
+    {
+     "f": 890,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0839073882253134,
+       "cx": -0.08383684484653364,
+       "alt": 0.1919607912904201,
+       "altmax": 0.1919607912904201
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 898,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.9157894736842105,
+       "vis": 0.5057471264367817,
+       "area": 0.06059674831014803,
+       "cx": 0.6470123360394804,
+       "alt": 0.17212497026553042,
+       "altmax": 0.17212497026553042
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 906,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 0.8842105263157894,
+       "area": 0.05628187368974415,
+       "cx": 0.19385475716517847,
+       "alt": 0.15595948167268187,
+       "altmax": 0.15595948167268187
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5_2",
+   "quadros": [
+    {
+     "f": 923,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 0.9368421052631579,
+       "area": 0.0504264333264541,
+       "cx": -0.06766035675602064,
+       "alt": 0.1488852180825683,
+       "altmax": 0.1488852180825683
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 939,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.03319564695234948,
+       "cx": -0.12532194411068442,
+       "alt": 0.12999415218756777,
+       "altmax": 0.12999415218756777
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 954,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.024431666896850595,
+       "cx": -0.14731793288341166,
+       "alt": 0.11445292643828579,
+       "altmax": 0.11445292643828579
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 975,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 2
+    },
+    {
+     "f": 991,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1006,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6_1",
+   "quadros": [
+    {
+     "f": 1025,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1038,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1051,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b6_2",
+   "quadros": [
+    {
+     "f": 1075,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1099,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1122,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1149,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1167,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1184,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7~1",
+   "quadros": [
+    {
+     "f": 1207,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1224,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1241,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1262,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.3978494623655914,
+       "area": 0.048897918739788736,
+       "cx": 0.0628053803621445,
+       "alt": 0.13793333486484757,
+       "altmax": 0.13793333486484757
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1276,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.4946236559139785,
+       "area": 0.0594380684857456,
+       "cx": -0.06629744051459777,
+       "alt": 0.15180204359123106,
+       "altmax": 0.15180204359123106
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1290,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.46236559139784944,
+       "area": 0.07311884980402263,
+       "cx": -0.21992865473478226,
+       "alt": 0.1681385589906802,
+       "altmax": 0.1681385589906802
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1309,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.7419354838709677,
+       "area": 0.05736574685168028,
+       "cx": -0.2624182310606353,
+       "alt": 0.15936081630246232,
+       "altmax": 0.15936081630246232
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1324,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02585000708820197,
+       "cx": -0.11336478677408537,
+       "alt": 0.12340713639213398,
+       "altmax": 0.12340713639213398
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1338,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.967741935483871,
+       "area": 0.022331193489557765,
+       "cx": -0.016826892888019043,
+       "alt": 0.11542828077055237,
+       "altmax": 0.11542828077055237
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8~2",
+   "quadros": [
+    {
+     "f": 1357,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.7956989247311828,
+       "area": 0.03266825394906941,
+       "cx": -0.00938026573707143,
+       "alt": 0.11999414157000739,
+       "altmax": 0.11999414157000739
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1371,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.978494623655914,
+       "area": 0.05235862837986012,
+       "cx": -0.10139858192875295,
+       "alt": 0.14243246728200976,
+       "altmax": 0.14243246728200976
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1385,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 0.956989247311828,
+       "area": 0.06468900218968553,
+       "cx": -0.2424061090700253,
+       "alt": 0.1575293915764996,
+       "altmax": 0.1575293915764996
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1407,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.07936100628718222,
+       "cx": 0.5272814518945289,
+       "alt": 0.1748267868445487,
+       "altmax": 0.1748267868445487
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1425,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.09999762317426492,
+       "cx": 0.4472942842557764,
+       "alt": 0.19699044000450244,
+       "altmax": 0.19699044000450244
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1442,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.12410052365970477,
+       "cx": 0.3536406232541453,
+       "alt": 0.22091673703671189,
+       "altmax": 0.22091673703671189
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9~1",
+   "quadros": [
+    {
+     "f": 1467,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.1395050817001277,
+       "cx": 0.3826126588852229,
+       "alt": 0.23379376008735067,
+       "altmax": 0.23379376008735067
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1485,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.989247311827957,
+       "vis": 1,
+       "area": 0.11461940594439983,
+       "cx": 0.47083553800503375,
+       "alt": 0.21738455822625374,
+       "altmax": 0.21738455822625374
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1502,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.967741935483871,
+       "vis": 1,
+       "area": 0.09408709348440866,
+       "cx": 0.5274688209807082,
+       "alt": 0.20468059884689285,
+       "altmax": 0.20468059884689285
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1528,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1548,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1567,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1594,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1614,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1633,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  }
+ ]
+}
