@@ -398,5 +398,6 @@
    "https://en.wikipedia.org/wiki/Whisky_War"
   ]
  },
- "variar_cenario": false
+ "variar_cenario": false,
+ "max_wide": 4
 }

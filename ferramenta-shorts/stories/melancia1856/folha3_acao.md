@@ -12,6 +12,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | 1856 | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b1 - 5.1s a 9.7s - 17 palavras - plano wide
 > "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
@@ -22,6 +29,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | ouro (9.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | ouro (9.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 4 | - | MAPA | PANAMÁ | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra cruzavam (7.6s): executa: entra andando pela lateral
+- EFEITO: stars na palavra ouro (9.2s): executa: estrelinhas + som
+- ACAO: paga na palavra ouro (9.2s): executa: estende a mao com moedas + brilho
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
 ## Cena b2 - 11.0s a 14.5s - 14 palavras - plano wide
 > "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico."
@@ -29,6 +44,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cruzavam (12.2s) | ACAO: chega | entra andando pela lateral | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra cruzavam (12.2s): executa: entra andando pela lateral
+<!-- /FISICA -->
 
 ## Cena b3 - 15.8s a 19.7s - 15 palavras - plano two
 > "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar."
@@ -39,6 +59,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | embora (19.1s) | ACAO: sai | sai andando pela lateral | OK |
 | 3 | - | INTERACAO | empurrar | OK |
 | 4 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_come na palavra comeu (17.5s): executa: leva a comida a boca
+- ACAO: sai na palavra embora (19.1s): executa: sai andando pela lateral
+- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
 ## Cena b4 - 20.7s a 23.3s - 10 palavras - plano two
 > "O vendedor cobrou a fatia, e o viajante só riu."
@@ -51,6 +79,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | INTERACAO | discutir | OK |
 | 6 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_discute na palavra cobrou (21.4s): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- EFEITO: stars na palavra riu (23.3s): executa: estrelinhas + som
+- ACAO: x_ri na palavra riu (23.3s): executa: ri de bracos para cima + brilho
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
 
 ## Cena b5 - 24.4s a 28.1s - 12 palavras - plano group
 > "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo."
@@ -61,6 +99,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | empurrar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | ARMA! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra confusão (27.1s): executa: fumaca + som
+- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b6 - 29.2s a 32.8s - 13 palavras - plano crowd
 > "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
@@ -71,8 +117,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | briga (31.3s) | ACAO: golpe | soco + estouro | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | BRIGA | OK |
+<!-- FISICA -->
 
-## Cena b7 - 34.1s a 38.0s - 16 palavras - plano group
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra briga (31.3s): executa: fumaca + som
+- ACAO: golpe na palavra briga (31.3s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- PLACA (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- multidao de 20: parada, reagindo (angry), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b7 - 34.1s a 38.0s - 16 palavras - plano wide
 > "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -83,6 +138,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | briga (38.0s) | ACAO: golpe | soco + estouro | OK |
 | 5 | - | ATUACAO | discutir | OK |
 | 6 | - | PLACA | ESTAÇÃO DE TREM | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: empurra na palavra trancaram (34.9s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: chega na palavra entrou (37.6s): executa: entra andando pela lateral
+- EFEITO: puff na palavra briga (38.0s): executa: fumaca + som
+- ACAO: golpe na palavra briga (38.0s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b8 - 39.1s a 43.4s - 15 palavras - plano two
 > "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
@@ -94,6 +159,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | INTERACAO | susto | OK |
 | 5 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra morreram (40.7s): executa: fumaca + som
+- ACAO: morre na palavra morreram (40.7s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b9 - 44.4s a 48.1s - 14 palavras - plano orbit
 > "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos."
@@ -102,6 +176,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b10 - 49.6s a 52.4s - 11 palavras - plano two
 > "Tudo isso por uma fatia de melancia que custava poucos centavos."
@@ -109,6 +189,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b11 - 53.6s a 57.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -117,4 +202,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

@@ -351,5 +351,6 @@
    "https://en.wikipedia.org/wiki/Golden_Stool"
   ]
  },
- "variar_cenario": false
+ "variar_cenario": false,
+ "max_wide": 3
 }

@@ -41,7 +41,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite."
 - LOCAL: sala de madeira; hora: noite
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
-- PERSONAGENS: MAR na centro, expressao smile; sem multidao; acao: fala/gesto
+- PERSONAGENS: MAR no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
@@ -57,7 +57,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia; clima: limpo
 - CAMERA: plano de multidao
-- PERSONAGENS: MAR na esquerda, expressao laugh; PIE (cientista) na centro, expressao grin; JOR (jornalista) na direita, expressao surprised; multidao de 18 (POV, JOR) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: MAR na esquerda, expressao laugh; PIE (cientista) no centro, expressao grin; JOR (jornalista) na direita, expressao surprised; multidao de 18 (POV, JOR) ATRAS dos principais; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
@@ -68,7 +68,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia; clima: limpo
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MAR na centro, expressao sad; sem multidao; acao: fala/gesto
+- PERSONAGENS: MAR no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
@@ -82,7 +82,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b10: "Para ler, é preciso assinar um termo e usar roupa de proteção."
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
 - CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
-- PERSONAGENS: PES na centro, expressao scared; sem multidao; acao: fala/gesto
+- PERSONAGENS: PES no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
@@ -90,6 +90,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b11: "Ou seja: os cadernos vão continuar radioativos por séculos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia; clima: limpo
 - CAMERA: close (rosto e ombros)
-- PERSONAGENS: MAR na centro, expressao smile; sem multidao; acao: fala/gesto
+- PERSONAGENS: MAR no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: FRENTE, centro (objeto principal da cena); tamanho na tela: 12% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.9 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 

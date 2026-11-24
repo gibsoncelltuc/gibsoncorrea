@@ -5,14 +5,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b0: "A França e o Brasil quase entraram em guerra por causa de uma lagosta."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: BRA na centro, expressao angry; sem multidao; acao: discutir
+- PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/lobster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.2 m de altura x 7.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "1961" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o boat (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PES na centro, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: PES no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO boat: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.3 m de altura x 7.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +70 da cena
 - SOM: thump@70
@@ -31,13 +31,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "A França mandou um navio de guerra para proteger os pescadores dela."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -8.2, camera a 54.6 m, altura 6.0 m), sem multidao na frente
-- PERSONAGENS: MAR na centro, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: MAR no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_destroier: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 25.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b5: "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -8.2, camera a 101.6 m, altura 6.0 m), sem multidao na frente
-- PERSONAGENS: MAR na centro, expressao angry; sem multidao; acao: batalha
+- PERSONAGENS: MAR no centro, expressao angry; sem multidao; acao: batalha
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 17.1 m de altura x 17.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "NAVIOS E AVIÕES" flutuando no alto, na palavra 1 da frase
@@ -66,6 +66,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: BRA na centro, expressao nervous; sem multidao; acao: fala/gesto
+- PERSONAGENS: BRA no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/lobster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.2 m de altura x 7.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

@@ -37,7 +37,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Ele ia jogar o prato fora, mas olhou melhor."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)
-- PERSONAGENS: FLE na centro, expressao suspicious; sem multidao; acao: fala/gesto
+- PERSONAGENS: FLE no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/petri: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/gosma: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: MED na esquerda, expressao smile; MED na centro, expressao grin; POV na direita, expressao relief; sem multidao; acao: comemorar
+- PERSONAGENS: MED na esquerda, expressao smile; MED no centro, expressao grin; POV na direita, expressao relief; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b9: "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel."
@@ -76,6 +76,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b10: "No fim, a bagunça dele valeu mais que qualquer faxina."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros)
-- PERSONAGENS: FLE na centro, expressao smug; sem multidao; acao: fala/gesto
+- PERSONAGENS: FLE no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 

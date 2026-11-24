@@ -25,7 +25,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b3: "Em mil novecentos e oitenta e quatro, soldados canadenses desembarcaram na ilha."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente
-- PERSONAGENS: CAN (soldado) na centro, expressao laugh, segura flag; sem multidao; acao: fala/gesto
+- PERSONAGENS: CAN (soldado) no centro, expressao laugh, segura flag; sem multidao; acao: fala/gesto
 - OBJETO vehicles/helicopter: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
@@ -40,7 +40,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o flagpole (alvo z -3.6, camera a 24.3 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: DIN (soldado) na centro, expressao smug, segura flag; sem multidao; acao: fala/gesto
+- PERSONAGENS: DIN (soldado) no centro, expressao smug, segura flag; sem multidao; acao: fala/gesto
 - OBJETO war/flagpole: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.5 m de altura x 2.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
@@ -72,6 +72,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b10: "A guerra mais educada da história acabou sem um tiro e com muito uísque."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)
-- PERSONAGENS: CAN (soldado) na centro, expressao smile; sem multidao; acao: comemorar
+- PERSONAGENS: CAN (soldado) no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/whisky: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

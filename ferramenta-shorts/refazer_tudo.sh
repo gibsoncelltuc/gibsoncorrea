@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# 24/11: conta a refacao (limite 1 por video; acima disso o status alerta)
+[ -n "$1" ] && { n_=$(cut -d" " -f1 stories/$1/refacoes.txt 2>/dev/null || echo 0); echo "$((n_ + 1)) $(date +%F_%T)" > stories/$1/refacoes.txt; }
 # usage: ./refazer_tudo.sh <id>...  -> apaga TUDO que faria o render reaproveitar a versao antiga (quadros, trechos, selos, snapshot) e poe o id no fim da fila.
 # Use quando a FERRAMENTA mudou (animacao, camera, objetos) e o video precisa sair inteiro de novo. Para mexer so' em cenas, use refazer.sh.
 cd "$(dirname "$0")"

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 24/11 16:42 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 16:45 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou n
 b4 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
 b5 | simples | street | group | VIA, VEN | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 b6 | chave | street | crowd | VEN | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj
-b7 | simples | loc_campo | group | VIA | - | house_two, lamppost, locomotive | - | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
+b7 | simples | loc_campo | wide | VIA | - | house_two, lamppost, locomotive | - | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
 b8 | simples | interior madeira | two | PRE, MOR | - | - | - | Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f
 b9 | chave | harbor | orbit | SOL | 48 | locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização 
 b10 | simples | jungle | two | VEN | - | melon | - | Tudo isso por uma fatia de melancia que custava poucos centavos.
@@ -30,13 +30,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh melancia1856
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh melancia1856
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh melancia1856
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local melancia1856 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 9. Revisao escrita e aprovacao
+**Etapa atual:** 8. Storyboard e grade de acoes
 

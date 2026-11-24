@@ -10,7 +10,7 @@
 # Roda antes do mkvideo (make_video.sh). Grava "quadro" em cada cena do beats.json e escreve stories/<id>/folha2_enquadramento.md.
 # Cena com "quadro_manual": true: so' descreve, nao recalcula.
 import json, re, os, sys, math, struct, ast, unicodedata
-ID = sys.argv[1]; P = f'videos/{ID}/beats.json'; B = json.load(open(P)); BT = B['beats']
+ID = sys.argv[1]; SO_DESC = '--so-descrever' in sys.argv; P = f'videos/{ID}/beats.json'; B = json.load(open(P)); BT = B['beats']
 SRC = open('mkvideo.py', encoding='utf-8').read()
 TAM = ast.literal_eval(re.search(r'_TAM_REAL = (\(\(.*?\)\))\s', SRC, re.S).group(1)); KM = 1.35
 DECOR = re.compile(r'picket_fence|haybale|scarecrow|bush|rocks|flowerbed|lamppost|bench|wheelbarrow|^barrel$|^crate$|kit/room|kit/porch|tree|cone_transito|barreira|palete|grade_evento|^mk/|tools/lantern|fishing_net')
@@ -66,7 +66,7 @@ for k, b in enumerate(BT):
     objs = [p for p in (b.get('props') or []) if isinstance(p, list) and p and not DECOR.search(str(p[0]))]
     principal = next((q for q in objs if HEROI and fam(q[0]) == fam(HEROI)), None) or next((q for q in objs if re.sub(r'[^a-z]', '', str(q[0]).split('/')[-1])[:5] in re.sub(r'[^a-z]', '', t)), None) or (objs[0] if objs else None)
     fichas = []; cena = {}; plano_extra = None
-    manual = b.get('quadro_manual') or b.get('veiculo') or b.get('montado')
+    manual = b.get('quadro_manual') or b.get('veiculo') or b.get('montado') or SO_DESC
     usados_x = []
     for p in sorted(objs, key=lambda q: q is not principal):
         a = str(p[0]); s0 = float(p[3]) if len(p) > 3 else 1.0; ex = dict(p[4]) if len(p) > 4 and isinstance(p[4], dict) else {}
@@ -117,7 +117,8 @@ for k, b in enumerate(BT):
     hora = b.get('hora') or b.get('light') or B.get('light', 'dia'); clima = b.get('clima', '')
     shot = b.get('shot', 'two')
     pos = ['centro'] if n_p == 1 else ['esquerda', 'direita'] if n_p == 2 else ['esquerda', 'centro', 'direita'] + ['fundo'] * 8
-    pers = '; '.join(f'{w[0]}{" (" + OUT.get(w[0], {}).get("profissao", "") + ")" if OUT.get(w[0], {}).get("profissao") else ""} na {pos[i]}, expressao {w[2] if len(w) > 2 else "neutra"}{", segura " + w[3] if len(w) > 3 else ""}' for i, w in enumerate(who)) or 'nenhum'
+    art = lambda p_: 'no' if p_ in ('centro', 'fundo') else 'na'
+    pers = '; '.join(f'{w[0]}{" (" + OUT.get(w[0], {}).get("profissao", "") + ")" if OUT.get(w[0], {}).get("profissao") else ""} {art(pos[i])} {pos[i]}, expressao {w[2] if len(w) > 2 else "neutra"}{", segura " + w[3] if len(w) > 3 else ""}' for i, w in enumerate(who)) or 'nenhum'
     cr = b.get('crowd') or {}; multid = f'multidao de {cr.get("n")} ({", ".join(cr.get("outfits") or [])}){" marchando" if cr.get("march") else ""} ATRAS dos principais' if cr.get('n') else 'sem multidao'
     acao = b.get('acao') or b.get('interacao') or ('batalha' if b.get('batalha') else 'fala/gesto')
     linhas += [f'- LOCAL: {loc}; hora: {hora}{"; clima: " + clima if clima else ""}',
@@ -133,6 +134,8 @@ for k, b in enumerate(BT):
     if b.get('mapa'): linhas.append(f'- MAPA: {b["mapa"]} (cobre a tela 1-2 s)')
     linhas.append('')
     if fichas: b['quadro'] = {'local': loc, 'camera': PLANO.get(shot, shot) + (f'; {plano_extra}' if plano_extra else ''), 'objetos': [{'objeto': a, 'lugar': lg, 'tela': tl, 'estado': est} for a, lg, tl, est, _ in fichas]}
-json.dump(B, open(P, 'w'), ensure_ascii=False, indent=1)
+_nw = sum(1 for b_ in BT if b_.get('shot') in ('wide', 'crowd', 'reveal'))
+if not SO_DESC and _nw > int(B.get('max_wide', 2)): B['max_wide'] = _nw   # a FICHA manda: o motor limitava a 2 planos abertos e trocava o resto por plano de grupo (o navio virava parede)
+if not SO_DESC: json.dump(B, open(P, 'w'), ensure_ascii=False, indent=1)
 os.makedirs(f'stories/{ID}', exist_ok=True); open(f'stories/{ID}/folha2_enquadramento.md', 'w').write('\n'.join(linhas) + '\n')
 print(f'FICHA DE CENA: {len(BT)} cenas descritas, {mud} montadas a partir da ficha -> stories/{ID}/folha2_enquadramento.md')

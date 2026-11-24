@@ -13,13 +13,13 @@ b5 | harbor | orbit | 12 | reagir, batalha | kit/bathtub | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b7 | interior madeira | group | 2 | conversar, INTERAGEM: cochichar | kit/crown | - | -
 b8 | harbor | prop | 2 | reagir, INTERAGEM: susto | kit/crown | - | -
-b9 | street | group | 16 | comemorar, INTERAGEM: vai ate o outro, batalha | kit/crown | - | -
-b10 | harbor | group | 2 | conversar, INTERAGEM: insiste | kit/bathtub | - | -
+b9 | street | crowd | 16 | comemorar, batalha | kit/crown | - | -
+b10 | harbor | two | 2 | conversar, INTERAGEM: insiste | kit/bathtub | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/bathtub
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b9
-Interacoes entre personagens: b2 discutir, b3 o outro se aproxima, b4 entregar, b6 cochichar, b7 cochichar, b8 susto, b9 vai ate o outro, b10 insiste
+Interacoes entre personagens: b2 discutir, b3 o outro se aproxima, b4 entregar, b6 cochichar, b7 cochichar, b8 susto, b10 insiste
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

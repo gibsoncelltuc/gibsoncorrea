@@ -13,7 +13,7 @@ b5 | harbor | crowd | 1 | encena, batalha | ship, vehicles/airplane, navios de g
 b6 | harbor | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
 b8 | harbor | reveal | 2 | comemorar | navio em movimento | - | -
-b9 | harbor | group | 1 | reagir | kit/lobster | - | -
+b9 | harbor | wide | 1 | reagir | kit/lobster | - | -
 b10 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/lobster
