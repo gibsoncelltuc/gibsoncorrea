@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: SUL na esquerda, expressao smile; ING na direita, expressao grin; sem multidao; acao: fala/gesto
+- PERSONAGENS: SUL na esquerda, expressao smile; ING2 na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "OUTRO SULTÃO" flutuando no alto, na palavra 1 da frase
 

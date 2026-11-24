@@ -55,6 +55,16 @@
     "cap"
    ],
    "cap": "#f1ece0"
+  },
+  "ING2": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#f1efe6",
+   "belt": "#8a5a34",
+   "buttons": "#e8c45a",
+   "rifle": false
   }
  },
  "beats": [
@@ -105,11 +115,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -126,7 +131,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "reveal",
@@ -212,11 +222,13 @@
    "shot": "group",
    "who": [
     "SUL:0:smile",
-    "ING:0:grin"
+    "ING2:0:grin"
    ],
    "say": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
    "text": "OUTRO SULTÃO",
-   "titulo": true
+   "titulo": true,
+   "batalha": false,
+   "tiros": false
   },
   {
    "shot": "close",

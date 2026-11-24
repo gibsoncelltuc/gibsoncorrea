@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Gerado em 24/11 20:39 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 20:40 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,7 +15,7 @@ b5 | chave | harbor | crowd | ING, GUA | 48 | marco_zanzibar, navios de guerra a
 b6 | chave | harbor | crowd | SUL, GUA | 32 | cannon, fire, marco_zanzibar, flagpole | corpo: labaredas 3D; emissao: fumaca; luz: clarao do fogo; camera: plano da cena; som: fogo | O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira 
 b7 | simples | loc_montanha | track | SUL, GUA | - | house_two, bench, lamppost | - | O sultão fugiu e pediu abrigo no consulado da Alemanha.
 b8 | simples | interior madeira | two | GUA, ING | - | - | - | Os tiros pararam por volta das nove e quarenta.
-b9 | chave | loc_campo | crowd | SUL, ING | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os ingleses colocaram outro sultão no trono, e os aliados do primo pag
+b9 | chave | loc_campo | crowd | SUL, ING2 | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os ingleses colocaram outro sultão no trono, e os aliados do primo pag
 b10 | simples | interior madeira | close | ALM | - | - | - | E ainda mandaram a conta das balas.
 b11 | simples | harbor | close | SUL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

@@ -14,5 +14,5 @@ b8 | group | -  | batalha aberta com tiros, tropa, placa: 100 HORAS, objeto na m
 b9 | two | -  | placa: 0 GOLS | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) @4 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 10% | medio 68% | aberto 16% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 70% | aberto 16% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

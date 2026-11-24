@@ -136,7 +136,6 @@
     "buildings/apartment",
     "buildings/house_two",
     "kit/ball",
-    "kit/trave",
     "nature/lamppost"
    ],
    "palavras": 17,
@@ -202,8 +201,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
-    "kit/trave"
+    "kit/ball"
    ],
    "palavras": 13,
    "cena": "b9",

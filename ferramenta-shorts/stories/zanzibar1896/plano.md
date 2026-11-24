@@ -11,7 +11,7 @@ b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 9:02 | tiros: 5 soldad
 b6 | crowd | -  | tropa | fogo (burst + som de tiro/explosao); caiu (dust + som de impacto); encena: pega (lift) @2 (acao + som de efeito); encena: atira @5 (acao + som de efeito) | -
 b7 | track | -  | - | (rosto) pleading (expr + som de efeito); fugiu (dust + som de impacto); encena: corre @2 (acao + som de efeito); encena: fala (point) @4 (acao + som de efeito) | -
 b8 | two | -  | interior, placa: 9:40, objeto na mao | tiros (burst + som de tiro/explosao); encena: atira @1 (acao + som de efeito) | -
-b9 | crowd | -  | batalha aberta com tiros, tropa, placa: OUTRO SULTÃO | cavalaria: 4 soldados a cavalo (ING) (acao + som de efeito); tiros: 4 soldados caem no chao (acao + som de efeito); pagaram (stars + som de sino); balas (burst + som de tiro/explosao); encena: pega (lift) @2 (acao + som de efeito); encena: negocio (reach) @12 (acao + som de efeito); encena: atira @14 (acao + som de efeito) | -
+b9 | crowd | -  | batalha aberta com tiros, tropa, placa: OUTRO SULTÃO | pagaram (stars + som de sino); encena: pega (lift) @2 (acao + som de efeito); encena: negocio (reach) @12 (acao + som de efeito); encena: atira @14 (acao + som de efeito) | -
 b10 | close | -  | interior | encena: fala (point) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 

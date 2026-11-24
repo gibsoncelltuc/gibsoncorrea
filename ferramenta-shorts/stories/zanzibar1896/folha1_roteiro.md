@@ -85,9 +85,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 
 ## Cena b9  (~5.2 s)
 - Narracao: Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (ING) -> acao + som de efeito; tiros: 4 soldados caem no chao -> acao + som de efeito; pagaram -> stars + som de sino; balas -> burst + som de tiro/explosao; encena: pega (lift) @2 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: pagaram -> stars + som de sino; encena: pega (lift) @2 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: OUTRO SULTÃO
 - Funcao na historia: GRANDE MOMENTO
