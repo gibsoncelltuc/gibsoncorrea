@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - O jogo foi na Cidade do México, e El Salvador venceu por três a dois, ...
 - Cenario: stadium | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): SAL (variante 0, expressao laugh); SAL (variante 1, expressao grin); HON (variante 0, expressao sad)
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/ball, kit/trave, buildings/apartment, buildings/house_two, nature/lamppost
@@ -130,7 +130,7 @@ nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b7, b8 | planos abertos: 3 | mistura: close 10% | medio 71% | aberto 16% | detalhe 4%
+- Objeto heroi: kit/ball | grandes momentos: b7, b8 | planos abertos: 3 | mistura: close 10% | medio 68% | aberto 16% | detalhe 7%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 empurrar, b5 susto, b6 pular, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

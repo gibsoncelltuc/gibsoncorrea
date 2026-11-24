@@ -272,9 +272,9 @@
     ],
     [
      "kit/trave",
-     0.6,
-     -8.0,
-     1.8,
+     0.0,
+     1.4,
+     2.0,
      {
       "fixo": true
      }
@@ -289,8 +289,8 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2,
-   "detalhe": false
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "shot": "crowd",

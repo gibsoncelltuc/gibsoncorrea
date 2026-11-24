@@ -32,7 +32,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
    "camera": "reveal",
@@ -51,7 +51,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -71,13 +71,15 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "ALM",
-    "ING"
+    "ALM"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/marco_zanzibar",
+    "kit/navio_vapor"
+   ],
    "palavras": 13,
    "cena": "b3",
    "frase": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
@@ -85,7 +87,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "harbor"
   },
   {
    "camera": "group",
@@ -104,7 +106,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "crowd",
@@ -130,10 +132,10 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "SUL",
     "GUA"
@@ -158,7 +160,7 @@
     "som": "fogo"
    },
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
    "camera": "track",
@@ -179,19 +181,36 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_montanha"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "GUA",
     "ING"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [],
    "palavras": 9,
    "cena": "b8",
    "frase": "Os tiros pararam por volta das nove e quarenta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "SUL",
+    "ING"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b9",
+   "frase": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -201,24 +220,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "ALM",
-    "ING",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b9",
-   "frase": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -236,7 +237,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -252,7 +253,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   }
  ]
 }

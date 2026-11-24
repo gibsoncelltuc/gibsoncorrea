@@ -132,8 +132,8 @@
     [
      "kit/ball",
      0.0,
-     -1.2,
-     1.31,
+     0.6,
+     0.8,
      {
       "fixo": true
      }
@@ -151,22 +151,11 @@
     "march": false,
     "expr": "shout"
    },
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "detalhe": false
   },
   {
    "shot": "crowd",
@@ -275,8 +264,8 @@
     [
      "kit/ball",
      0.0,
-     -1.2,
-     1.31,
+     0.6,
+     0.8,
      {
       "fixo": true
      }
@@ -284,7 +273,7 @@
     [
      "kit/trave",
      0.6,
-     1.0,
+     -8.0,
      1.8,
      {
       "fixo": true
@@ -296,29 +285,12 @@
    "hora": "dia",
    "text": "PRORROGAÇÃO",
    "titulo": true,
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/trave",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "detalhe": false
   },
   {
    "shot": "crowd",
@@ -372,8 +344,8 @@
    "props": [
     [
      "kit/ball",
-     1.2,
-     0.2,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -415,7 +387,7 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "_auto_vis": 1
+   "_auto_vis": 2
   }
  ],
  "max_wide": 4,

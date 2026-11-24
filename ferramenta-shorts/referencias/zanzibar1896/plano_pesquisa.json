@@ -101,6 +101,14 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "navio vapor",
+   "consultas": [
+    "navio de guerra britanico",
+    "A Guerra de 38 Minutos"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "navio da epoca",
    "consultas": [

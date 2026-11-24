@@ -5,7 +5,7 @@
  "ep": 8,
  "title": "A Guerra de 38 Minutos",
  "titulo_base": "A Guerra de 38 Minutos",
- "set": "palace",
+ "set": "harbor",
  "light": "day",
  "mood": "march",
  "outfits": {
@@ -89,12 +89,44 @@
    "riscos_ok": true
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "ALM:0:stern:paper",
-    "ING:0:stern"
+    "ALM:0:stern:paper"
    ],
-   "say": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã."
+   "say": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
+   "props": [
+    [
+     "kit/navio_vapor",
+     0.0,
+     -25.7,
+     2.25,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vapor (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_vapor",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -133,7 +165,7 @@
    "text": "9:02",
    "titulo": true,
    "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
-   "set": "palace"
+   "set": "harbor"
   },
   {
    "say": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.",
@@ -151,7 +183,7 @@
     "cannon@20",
     "thump@60"
    ],
-   "set": "palace"
+   "set": "harbor"
   },
   {
    "shot": "track",
@@ -179,9 +211,8 @@
   {
    "shot": "group",
    "who": [
-    "ALM:0:smile:paper",
-    "ING:0:grin",
-    "POV:0:nervous"
+    "SUL:0:smile",
+    "ING:0:grin"
    ],
    "say": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
    "text": "OUTRO SULTÃO",
@@ -250,5 +281,6 @@
    "navio da epoca": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)"
   }
  },
- "max_wide": 3
+ "max_wide": 4,
+ "heroi": "kit/navio_vapor"
 }

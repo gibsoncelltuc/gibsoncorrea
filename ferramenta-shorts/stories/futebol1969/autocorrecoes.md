@@ -38,3 +38,6 @@
 
 ## 24/11 20:13 autocorrecao de visibilidade
 - b9: objeto "kit/ball" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 24/11 20:39 autocorrecao de visibilidade
+- b6: objeto citado "kit/trave" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto

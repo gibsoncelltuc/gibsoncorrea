@@ -4,11 +4,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Guerra de 38 Minutos
 - Epoca: 1896 | Lugar: Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses | Quando: 27 de agosto de 1896, manha, entre 9h00 e 9h40
-- HEROIS (objeto): -
+- HEROIS (objeto): kit/navio_vapor
 - HEROIS (personagens): GUA, SUL, ING, ALM
-- Cenarios: harbor, interior pedra, loc_campo, palace
+- Cenarios: harbor, interior madeira, interior pedra, loc_campo, loc_montanha
 - Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
-- Tamanho real aplicado: kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.8: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.8: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 
@@ -26,6 +26,7 @@ objeto | navio de guerra britanico | navio de guerra britanico / navio de guerra
 objeto | canhao antigo | canhao antigo / canhao antigo 1896 | QF 6-pounder Nordenfelt Mark II barrel diagrams.jp (referencias/zanzibar1896/prints/canhao_antigo_df800e.jpg); QF 6-pounder Nordenfelt Mark I barrel diagrams.jpg (referencias/zanzibar1896/prints/canhao_antigo_de6d35.jpg); QF 6 pounder Nordenfelt Mark II on non-recoil moun (referencias/zanzibar1896/prints/canhao_antigo_1d6292.jpg)
 objeto | bandeira do sultao | bandeira do sultao / bandeira do sultao 1896 | Torre del Oro flag Seville Spain.jpg (referencias/zanzibar1896/prints/bandeira_do_sultao_92cf9f.jpg); Winchester cathedral flags.jpg (referencias/zanzibar1896/prints/bandeira_do_sultao_430d14.jpg); Chiang Kai-shek memorial amk.jpg (referencias/zanzibar1896/prints/bandeira_do_sultao_8b3fa4.jpg)
 objeto | palacio de madeira em chamas | palacio de madeira em chamas / palacio de madeira em chamas 1896 | Palácio dos Biscainhos - Braga - Portugal (3658419 (referencias/zanzibar1896/prints/palacio_de_madeira_em_chamas_9a1057.jpg); Palácio dos Biscainhos - Braga - Portugal (3658419 (referencias/zanzibar1896/prints/palacio_de_madeira_em_chamas_9a1057.jpg)
+heroi | navio vapor | navio de guerra britanico / A Guerra de 38 Minutos | SEM REFERENCIA
 epoca | navio da epoca | ship 1896 / ship | Viper (ship, 1896) - Cassier's 1897-08.png (referencias/zanzibar1896/prints/navio_da_epoca_72cc04.jpg); SS Pennsylvania (1896).jpg (referencias/zanzibar1896/prints/navio_da_epoca_4fa3d0.jpg); Lifeboat at Grindal Island, South Australia (ca. 1 (referencias/zanzibar1896/prints/navio_da_epoca_73ecf1.jpg)
 
 ## Explicacoes (como funciona, com fonte)

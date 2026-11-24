@@ -8,9 +8,10 @@
   "luz_base": "day",
   "cenarios": [
    "harbor",
+   "interior madeira",
    "interior pedra",
    "loc_campo",
-   "palace"
+   "loc_montanha"
   ],
   "cenarios_trocados": [
    [
@@ -40,12 +41,25 @@
   "kit/coin",
   "kit/fire",
   "kit/marco_zanzibar",
+  "kit/navio_vapor",
   "kit/navio_vapor_guerra",
+  "kit/room_azul_wood",
+  "kit/room_europa_wood",
   "kit/room_verde_stone",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
   "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
+  "mk/Crate_Wooden",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
   "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers",
   "nature/bench",
   "nature/lamppost",
   "war/flagpole"
