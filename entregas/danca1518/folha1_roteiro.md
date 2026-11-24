@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: dançarinos -> stars + som de sino; dança -> stars + som de sino; encena: danca (up) @3 -> acao + som de efeito; encena: danca (up) @20 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: CAPELA DO MONTE
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~4.8 s)
