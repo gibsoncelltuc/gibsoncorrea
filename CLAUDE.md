@@ -87,44 +87,16 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 5f9a3592 progresso da fila
-- 75664b6b Texel: ajuste fino de duracao
-- ef3a296d Paris e Texel: cortes finais para 60 s reais
-- 1136d475 Kekule: storyboard (gancho novo) aprovado
-- 39e9b41a progresso da fila
-
-**In-progress files (35):**
-- ferramenta-shorts/stories/kekule1865/caps.ass
-- ferramenta-shorts/stories/kekule1865/cronograma.md
-- ferramenta-shorts/stories/paris1870/cronograma.md
-- ferramenta-shorts/stories/paris1870/grade_acoes.jpg
-- ferramenta-shorts/stories/paris1870/precheck.jpg
-- ferramenta-shorts/stories/paris1870/storyboard.hash
-- ferramenta-shorts/stories/paris1870/storyboard.jpg
-- ferramenta-shorts/stories/texel1795/cronograma.md
-- ferramenta-shorts/stories/texel1795/cues.py
-- ferramenta-shorts/stories/texel1795/folha1_roteiro.md
-- ferramenta-shorts/stories/texel1795/folha2_producao.md
-- ferramenta-shorts/stories/texel1795/folha3_acao.md
-- ferramenta-shorts/stories/texel1795/folhas.json
-- ferramenta-shorts/stories/texel1795/orquestracao.json
-- ferramenta-shorts/stories/texel1795/plano.md
-- ferramenta-shorts/stories/texel1795/preproducao.md
-- ferramenta-shorts/stories/texel1795/script.txt
-- ferramenta-shorts/stories/texel1795/script_one.txt
-- ferramenta-shorts/stories/texel1795/spec.js
-- ferramenta-shorts/stories/texel1795/stages/voice
-- ferramenta-shorts/stories/texel1795/stages/voice.hash
-- ferramenta-shorts/stories/texel1795/timing.js
-- ferramenta-shorts/stories/texel1795/voice.mp3
-- ferramenta-shorts/stories/texel1795/work/phrases.json
-- ferramenta-shorts/stories/texel1795/work/words.json
-- [truncated — 10 more files]
+- a4e0c5a1 progresso da fila
+- 9b3890c8 storyboards regenerados com o motor corrigido
+- eaa6b51e motor: 'montada em caminhao' nao vira cavalaria; soldado com fuzil sem batalha automatica com crowd n 0; outback sem celeiro/moinho holandes fora de fazenda; coerencia R7 (palace = praia) + testes (defeitos achados pela sessao A)
+- 712e2c4f forte colonial modelado (muralha com ameias, torres, portao, bandeira); Banquinho com o forte cercado
+- 0a44b07c Post-it: cenas de 1 personagem com 2 (gate cortava), close do papel amarelo como explicacao
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-24 10:33:26 UTC
+**Hook generated:** 2026-11-24 17:38:19 UTC
 <!-- post-compact-recovery-end -->
