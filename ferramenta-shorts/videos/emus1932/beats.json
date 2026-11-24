@@ -139,12 +139,12 @@
    "tiros": false,
    "detalhe": false,
    "cx": 0,
-   "cz": -3,
-   "d0": 9,
-   "d1": 8,
+   "cz": -0.8,
+   "d0": 8,
+   "d1": 7,
    "fachada": false,
    "quadro_manual": true,
-   "h": 1.8,
+   "h": 1.5,
    "_auto_vis": 3
   },
   {
