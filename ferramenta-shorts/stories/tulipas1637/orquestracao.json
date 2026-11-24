@@ -12,17 +12,12 @@
   {
    "camera": "two",
    "personagens": [
-    "MER"
+    "MER",
+    "RIC"
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/house_small",
-    "buildings/windmill",
-    "kit/marco_amsterdam",
-    "kit/tulip_bed",
-    "kit/tulip_red",
-    "nature/picket_fence",
-    "nature/tree_oak"
+    "kit/tulip_striped"
    ],
    "palavras": 11,
    "cena": "b0",
@@ -31,7 +26,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior madeira"
   },
   {
    "camera": "wide",
@@ -79,7 +74,7 @@
    "personagens": [
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 14,
    "objetos": [
     "kit/marco_amsterdam",
     "kit/tulip_bed"
@@ -250,10 +245,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "countryside"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MER"
    ],
