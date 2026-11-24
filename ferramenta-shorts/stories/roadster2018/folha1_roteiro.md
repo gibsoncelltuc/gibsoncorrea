@@ -2,8 +2,8 @@
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 153 palavras (~53 s)
 
-## Cena b0  (~5.5 s)
-- Narracao: Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço.
+## Cena b0  (~4.5 s)
+- Narracao: Um carro de verdade está dando voltas ao redor do Sol até hoje.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -11,17 +11,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.5 s)
-- Narracao: Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.
+## Cena b1  (~6.2 s)
+- Narracao: É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~7.9 s)
-- Narracao: O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos.
+## Cena b2  (~6.6 s)
+- Narracao: Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,14 +29,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.9 s)
-- Narracao: Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.
+## Cena b3  (~6.9 s)
+- Narracao: Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; encena: pega (lift) @8 -> acao + som de efeito; encena: fala (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; encena: fala (point) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: VIRADA
 
 ## Cena b4  (~2.1 s)
 - Narracao: O foguete decolou com um estrondo!
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: NÃO ENTRE EM PÂNICO
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.2 s)
-- Narracao: O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.
+## Cena b7  (~5.9 s)
+- Narracao: O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito; encena: chega (point) @8 -> acao + som de efeito
@@ -84,7 +84,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.9 s)
-- Narracao: Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
+- Narracao: Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -

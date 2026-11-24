@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -66,16 +66,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 37.0s a 41.5s - 13 palavras - plano two
-> "Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte.""
+## Cena b7 - 37.0s a 41.9s - 14 palavras - plano two
+> "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | olhou (38.1s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 41.9s a 46.7s - 14 palavras - plano crowd
-> "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso."
+## Cena b8 - 42.2s a 47.0s - 14 palavras - plano crowd
+> "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -83,8 +83,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | NOTÍCIA | OK |
 
-## Cena b9 - 47.0s a 51.9s - 14 palavras - plano two
-> "Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido."
+## Cena b9 - 47.4s a 51.9s - 13 palavras - plano two
+> "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -93,26 +93,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | RAIO X | OK |
 
-## Cena b10 - 52.2s a 57.4s - 15 palavras - plano orbit
-> "Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Física da história."
+## Cena b10 - 52.2s a 58.1s - 17 palavras - plano orbit
+> "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (54.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (54.4s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | Prêmio (55.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
-## Cena b11 - 57.8s a 62.2s - 13 palavras - plano group
-> "E nunca quis patentear a descoberta. O raio X era de todo mundo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-
-## Cena b12 - 62.6s a 67.0s - 13 palavras - plano close
+## Cena b11 - 58.5s a 63.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

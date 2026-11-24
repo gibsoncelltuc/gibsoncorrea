@@ -4,8 +4,8 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 1 | conversar | kit/falcon_air, kit/roadster | - | -
-b1 | harbor | wide | 1 | encena | kit/roadster | - | -
+b0 | harbor | two | 1 | conversar | kit/rocket, kit/roadster | - | -
+b1 | harbor | wide | 1 | parados (so fala e pisca) | kit/roadster | - | -
 b2 | harbor | wide | 1 | parados (so fala e pisca) | kit/rocket | - | -
 b3 | interior loja | two | 1 | conversar | kit/roadster | - | -
 b4 | harbor | crowd | 1 | reagir, batalha | kit/falcon_air | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/roadster
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
 Interacoes entre personagens: nenhuma
 
-Cenas com personagens parados: 2 de 11
+Cenas com personagens parados: 3 de 11
 FALTA MODELAR: nada

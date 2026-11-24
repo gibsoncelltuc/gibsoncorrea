@@ -22,12 +22,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air",
-    "kit/roadster"
+    "kit/roadster",
+    "kit/rocket"
    ],
-   "palavras": 16,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço.",
+   "frase": "Um carro de verdade está dando voltas ao redor do Sol até hoje.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -43,10 +43,10 @@
    "objetos": [
     "kit/roadster"
    ],
-   "palavras": 16,
+   "palavras": 18,
    "cena": "b1",
-   "frase": "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.",
-   "classe": "simples",
+   "frase": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -61,9 +61,9 @@
    "objetos": [
     "kit/rocket"
    ],
-   "palavras": 23,
+   "palavras": 19,
    "cena": "b2",
-   "frase": "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos.",
+   "frase": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -79,9 +79,9 @@
    "objetos": [
     "kit/roadster"
    ],
-   "palavras": 17,
+   "palavras": 20,
    "cena": "b3",
-   "frase": "Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.",
+   "frase": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -158,9 +158,9 @@
     "kit/globe",
     "kit/roadster"
    ],
-   "palavras": 15,
+   "palavras": 17,
    "cena": "b7",
-   "frase": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
+   "frase": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -197,7 +197,7 @@
    ],
    "palavras": 17,
    "cena": "b9",
-   "frase": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
+   "frase": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

@@ -12,14 +12,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dois, eleicao
 - RISCOS: nenhum
 
-## Cena b1 - Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Uni...
+## Cena b1 - Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, estados, novembro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, estados
 - RISCOS: nenhum
 
 ## Cena b2 - Milhões de americanos foram às urnas escolher entre Trump e a vice-pre...
@@ -92,14 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, novo
 - RISCOS: nenhum
 
-## Cena b9 - Ele tinha sido o presidente número quarenta e cinco. Agora era o númer...
+## Cena b9 - Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare...
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: - | batalha encenada
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): numero, presidente
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, quarenta
 - RISCOS: nenhum
 
 ## Cena b10 - Perdeu, voltou e ganhou. Uma das maiores viradas da política americana...
@@ -134,17 +134,13 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 21% | medio 61% | aberto 14% | detalhe 3%
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 13% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b6 vai ate o outro, b7 aproxima-se
 - RISCOS GERAIS: 
-  - video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py reeleicao2024  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/reeleicao2024/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh reeleicao2024 bN bM` (so essas cenas).

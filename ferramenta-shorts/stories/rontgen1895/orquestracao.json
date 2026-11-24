@@ -151,9 +151,9 @@
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 13,
+   "palavras": 14,
    "cena": "b7",
-   "frase": "Dizem que ela olhou a chapa, e disse: \"Eu vi a minha morte.\"",
+   "frase": "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -167,14 +167,14 @@
     "MED",
     "POV"
    ],
-   "multidao": 18,
+   "multidao": 14,
    "objetos": [
     "kit/marco_wurzburg",
     "kit/xray_plate"
    ],
    "palavras": 14,
    "cena": "b8",
-   "frase": "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso.",
+   "frase": "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -197,9 +197,9 @@
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b9",
-   "frase": "Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido.",
+   "frase": "Sem saber o que era, ele chamou de raio X: X, de desconhecido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -217,9 +217,9 @@
    "objetos": [
     "kit/marco_wurzburg"
    ],
-   "palavras": 15,
+   "palavras": 17,
    "cena": "b10",
-   "frase": "Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Física da história.",
+   "frase": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -233,24 +233,6 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "ROE"
-   ],
-   "multidao": 5,
-   "objetos": [
-    "kit/xray_plate"
-   ],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "E nunca quis patentear a descoberta. O raio X era de todo mundo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
    "camera": "close",
    "personagens": [
     "ROE"
@@ -258,7 +240,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

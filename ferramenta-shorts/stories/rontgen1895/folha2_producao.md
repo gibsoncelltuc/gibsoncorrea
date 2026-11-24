@@ -72,57 +72,47 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alianca, esposa
 - RISCOS: nenhum
 
-## Cena b7 - Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
+## Cena b7 - Conta-se que ela olhou a chapa e disse que tinha visto a própria morte...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ANA (variante 0, expressao scared)
 - Animacao: conversar
 - Objetos/modelos: kit/xray_plate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chapa, minha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chapa, propria
 - RISCOS: nenhum
 
-## Cena b8 - A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o ra...
+## Cena b8 - A notícia correu o mundo, e médicos e curiosos queriam ver o raio mist...
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): JOR (variante 0, expressao surprised, segura paper); MED (variante 0, expressao grin); POV (variante 0, expressao shock) | multidao: 18 de POV/JOR/MED
+- Personagens principais (3): JOR (variante 0, expressao surprised, segura paper); MED (variante 0, expressao grin); POV (variante 0, expressao shock) | multidao: 14 de JOR/MED/POV
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/xray_plate, kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia, raio
 - RISCOS: nenhum
 
-## Cena b9 - Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido...
+## Cena b9 - Sem saber o que era, ele chamou de raio X: X, de desconhecido.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ROE (variante 0, expressao smug); JOR (variante 0, expressao suspicious, segura paper)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desconhecido, raio
 - RISCOS: nenhum
 
-## Cena b10 - Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Físi...
+## Cena b10 - Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e n...
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ROE (variante 0, expressao laugh); MED (variante 0, expressao grin); POV (variante 0, expressao laugh) | multidao: 18 de POV/MED/JOR
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/marco_wurzburg
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fisica, rontgen
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descoberta, fisica, rontgen
 - RISCOS: nenhum
 
-## Cena b11 - E nunca quis patentear a descoberta. O raio X era de todo mundo.
-- Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): ROE (variante 0, expressao smile) | multidao: 5 de POV
-- Animacao: conversar
-- Objetos/modelos: kit/xray_plate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descoberta, raio
-- RISCOS: nenhum
-
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -137,7 +127,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/xray_plate | b0, b4, b5, b6, b7, b8, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/xray_plate | b0, b4, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_wurzburg | b0, b1, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -145,17 +135,13 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 17% | medio 70% | aberto 9% | detalhe 4%
+- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 19% | medio 69% | aberto 10% | detalhe 2%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
 - RISCOS GERAIS: 
-  - video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py rontgen1895  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/rontgen1895/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh rontgen1895 bN bM` (so essas cenas).

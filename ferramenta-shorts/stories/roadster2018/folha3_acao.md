@@ -1,72 +1,71 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
-> "Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço."
+## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
+> "Um carro de verdade está dando voltas ao redor do Sol até hoje."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b1 - 5.9s a 11.5s - 16 palavras - plano wide
-> "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX."
+## Cena b1 - 4.8s a 11.1s - 18 palavras - plano wide
+> "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (8.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b2 - 11.9s a 20.0s - 23 palavras - plano wide
-> "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos."
+## Cena b2 - 11.5s a 18.1s - 19 palavras - plano wide
+> "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b3 - 20.4s a 26.3s - 17 palavras - plano two
-> "Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster."
+## Cena b3 - 18.5s a 25.6s - 20 palavras - plano two
+> "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | colocar (23.3s) | ACAO: pega | levanta/segura | OK |
-| 2 | mandar (25.6s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | mandar (24.4s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 26.7s a 28.5s - 6 palavras - plano crowd
+## Cena b4 - 25.9s a 27.8s - 6 palavras - plano crowd
 > "O foguete decolou com um estrondo!"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | decolou (27.4s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
+| 1 | decolou (26.7s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 28.9s a 33.0s - 12 palavras - plano two
+## Cena b5 - 28.1s a 32.2s - 12 palavras - plano two
 > "No banco do motorista foi sentado um boneco de astronauta, chamado Starman."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sentado (30.7s) | ACAO: senta | senta | OK |
-| 2 | chamado (32.6s) | ACAO: fala | aponta explicando | OK |
+| 1 | sentado (30.0s) | ACAO: senta | senta | OK |
+| 2 | chamado (31.9s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.3s a 35.9s - 8 palavras - plano orbit
+## Cena b6 - 32.6s a 35.2s - 8 palavras - plano orbit
 > "No painel, estava escrito: Não entre em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 
-## Cena b7 - 36.3s a 41.5s - 15 palavras - plano wide
-> "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol."
+## Cena b7 - 35.6s a 41.5s - 17 palavras - plano wide
+> "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (37.0s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | seguiu (39.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | saiu (36.3s) | ACAO: sai | sai andando pela lateral | OK |
+| 2 | seguiu (38.5s) | ACAO: chega | entra andando pela lateral | OK |
 
 ## Cena b8 - 41.9s a 45.2s - 10 palavras - plano two
 > "E ele continua lá em cima, dando voltas, até hoje."
@@ -76,7 +75,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 45.6s a 51.5s - 17 palavras - plano orbit
-> "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
+> "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

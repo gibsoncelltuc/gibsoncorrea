@@ -7,7 +7,7 @@
    "item": "O Carro que Foi Parar no Espaço",
    "consultas": [
     "O Carro que Foi Parar no Espaço",
-    "Em Tesla Era Roadster Elon Musk SpaceX Falcon Heavy Cabo Canaveral Estados Unido 2018"
+    "Um Sol Tesla Roadster SpaceX Elon Musk Era Falcon Heavy Cabo Canaveral Estados U 2018"
    ]
   },
   {
@@ -96,6 +96,21 @@
    "consultas": [
     "Tesla Roadster vermelho",
     "O Carro que Foi Parar no Espaço"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "rocket",
+   "consultas": [
+    "rocket"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "carro da epoca",
+   "consultas": [
+    "car 2018",
+    "car"
    ]
   },
   {
