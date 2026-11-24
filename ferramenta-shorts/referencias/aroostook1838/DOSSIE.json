@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1838,
   "era": "historica",
-  "regiao": "europa",
+  "regiao": "eua",
   "luz_base": "day",
   "cenarios": [
    "arctic",
@@ -33,10 +33,10 @@
  "objetos_em_cena": [
   "kit/logs",
   "kit/prison",
-  "kit/room_azul_stone",
-  "kit/room_europa_stone",
-  "kit/room_rosa_shop",
-  "kit/room_verde_wood",
+  "kit/room_azul_shop",
+  "kit/room_eua_stone",
+  "kit/room_europa_wood",
+  "kit/room_verde_stone",
   "kit/scroll",
   "mk/Barrel",
   "mk/Bed_Twin1",

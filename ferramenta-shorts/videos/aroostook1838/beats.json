@@ -95,7 +95,7 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém foi morto pelo inimigo.",
+   "say": "Uma guerra entre Estados Unidos e Inglaterra quase começou por causa de lenhadores.",
    "fachada": false,
    "batalha": false,
    "tiros": false,
@@ -302,7 +302,7 @@
    "interior": "loja"
   }
  ],
- "regiao": "europa",
+ "regiao": "eua",
  "visual": {
   "local": "Maine",
   "quando": "inverno de 1838-1839: fevereiro de 1839, neve e frio no norte do Maine; tratado em 1842",
