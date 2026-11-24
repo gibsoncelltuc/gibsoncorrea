@@ -1,12 +1,12 @@
 pesquisa: o quadro de referencias mostra uma fragata britanica em mar cinzento, arrastao de pesca e costa da Islandia; comparei com fragata Leander cinza com radar grande ao fundo, barco azul da guarda costeira islandesa com bandeira, rede de pesca e navio a vapor como pesqueiro ingles, uniformes azul-marinho e branco.
 defeitos procurados: cenario de porto e mar da epoca sem predio de cidade; epoca 1958 com fragata Leander e vapor de pesca sem navio moderno de cruzeiro; tamanho do navio grande ao fundo e do barquinho pequeno; ninguem cortado nas bordas; multidao ausente sem clone; legenda livre porque textos e contador ficam no alto; acao de cada verbo aparece e ninguem cai sem motivo; objeto heroi bacalhau aparece no fim e navios nas cenas de guerra.
-b0: CORRIGIDO - a Islandia derrotou a marinha inglesa com um cortador de rede: torre de cais cobria o quadro e o cortador nao aparecia -> barco azul da guarda com a rede de pesca, navio a vapor ingles e a fragata Leander ao fundo, texto ISLANDIA VENCEU.
+b0: CORRIGIDO - a Islandia derrotou a marinha inglesa com um cortador de rede: plano aberto com o barco azul da guarda, a rede de pesca, o navio a vapor ingles e a fragata Leander ao fundo, tudo afastado para nao cortar o casco.
 b1: OK - entre 1958 e 1976 os dois paises travaram tres Guerras do Bacalhau: fragata Leander cinza no mar com o texto 1958-1976.
 b2: OK - a Islandia vivia da pesca e barcos ingleses pescavam bacalhau: guarda e pescador de capa amarela diante da placa BACALHAU.
 b3: CORRIGIDO - ela ampliou os limites do mar doze cinquenta e duzentas milhas: bonecos minusculos e o mesmo navio parado tres vezes -> contador LIMITE DO MAR subindo de 12 ate 200 MILHAS com a Leander ao fundo.
 b4: CORRIGIDO - a marinha mandou fragatas para proteger os barcos de pesca: destroier moderno com radar de domo -> fragata Leander da epoca, cinza com canhao duplo e radar de varredura, sem personagem.
-b5: CORRIGIDO - a Islandia so tinha barquinhos da guarda costeira: aparecia marinheiro e farol sem barco -> guarda islandes sorrindo com o barco azul da guarda costeira ao lado.
-b6: CORRIGIDO - eles cortavam os cabos das redes e os navios batiam um no outro: dois cascos parados -> o barquinho azul da guarda encostado no casco enorme da Leander no mesmo enquadramento.
+b5: CORRIGIDO - a Islandia so tinha barquinhos da guarda costeira mas eles tinham cortadores de rede: sem personagem, o barco azul da guarda com bandeira e a rede de pesca aparecem inteiros em primeiro plano, com o vapor ingles atras.
+b6: CORRIGIDO - eles cortavam os cabos das redes e os navios batiam um no outro: barquinho azul com a rede, pesqueiro a vapor e a fragata Leander afastada no mesmo plano aberto, com respingo e baque nas palavras.
 b7: OK - a Islandia ameacou fechar a base da Otan: guarda e marinheiro britanico diante da placa OTAN e depois mapa da Inglaterra.
-b8: CORRIGIDO - em 1976 a Inglaterra cedeu e a zona de duzentas milhas se espalhou: mesmo par no cais -> ministros em sala de pedra com pergaminho e texto VITORIA ISLANDESA.
+b8: CORRIGIDO - em 1976 a Inglaterra cedeu e a zona de duzentas milhas se espalhou: sala de pedra tapava a tela -> par de bonecos no cais com o pergaminho entre eles e o texto VITORIA ISLANDESA.
 b9: OK - uma guerra inteira por causa de um bacalhau: pescador de capa amarela com bacalhau grande e depois a chamada COMENTE.
