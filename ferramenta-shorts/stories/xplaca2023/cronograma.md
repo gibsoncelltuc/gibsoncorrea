@@ -6,7 +6,7 @@ Gerado em 24/11 17:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | close | MUS | - | finch, marco_goldengate, phone | - | Em julho de dois mil e vinte e três, o Twitter acordou com outro nome:
+b0 | simples | loc_cidade | two | MUS | - | finch, marco_goldengate, phone | - | Em julho de dois mil e vinte e três, o Twitter acordou com outro nome:
 b1 | simples | interior pedra | two | MUS, OPE | - | - | - | O dono, Elon Musk, anunciou a mudança projetando um grande X no prédio
 b2 | chave | loc_cidade | group | OPE, OPE2, MUS | 10 | apartment, house_two, finch, marco_goldengate, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os operários começaram a remover as letras da placa do Twitter e o pas
 b3 | simples | interior loja | two | OPE, FIS | - | - | - | Mas o trabalho parou no meio, porque a empresa não tinha as licenças n
@@ -15,8 +15,8 @@ b5 | chave | loc_cidade | crowd | MUS | 10 | apartment, house_two, marco_goldeng
 b6 | simples | interior pedra | two | FIS, MUS | - | - | - | A prefeitura registrou vinte e quatro reclamações em um fim de semana 
 b7 | simples | interior loja | two | MUS, FIS | - | - | - | A empresa disse que era uma placa luminosa temporária para um evento, 
 b8 | simples | loc_cidade | two | FIS, OPE | - | - | - | A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido
-b9 | simples | loc_patio | close | MUS | - | house_two, phone, bench, lamppost | - | Moral da história: até trocar de nome precisa de licença da prefeitura
-b10 | simples | loc_patio | two | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | loc_patio | two | MUS | - | house_two, phone, bench, lamppost | - | Moral da história: até trocar de nome precisa de licença da prefeitura
+b10 | simples | loc_patio | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -11,12 +11,12 @@ b1 | transicao | loc_cidade | reveal | POV, POV | 6 | marco_detroit | - | Foi em
 b2 | simples | interior loja | two | TRU, VIN | - | - | - | Como todo show de luta, a rivalidade era combinada: Trump contra o don
 b3 | simples | interior pedra | group | VIN, TRU | - | clipper | - | A aposta era maluca: cada um escolheu um lutador, e o dono de quem per
 b4 | chave | stadium | crowd | POV, POV, POV | 30 | ball | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos 
-b5 | simples | stadium | group | LAS, UMA | - | ring | - | No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umag
-b6 | simples | stadium | low | JUI, UMA | 5 | ring | - | Acontece que o juiz convidado era Steve Austin, famoso por derrubar to
-b7 | chave | stadium | orbit | LAS, TRU, POV | 22 | ball, ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
-b8 | simples | stadium | group | TRU, VIN | - | clipper, ring | - | Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na c
+b5 | simples | stadium | wide | LAS | - | ring | - | No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umag
+b6 | simples | stadium | group | JUI | 30 | ring | - | Acontece que o juiz convidado era Steve Austin, famoso por derrubar to
+b7 | chave | stadium | orbit | LAS | - | ball, ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
+b8 | simples | stadium | wide | TRU | - | clipper, ring | - | Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na c
 b9 | simples | stadium | two | VIB, TRU, LAS | - | clipper | - | O dono da luta livre saiu do ringue completamente careca.
-b10 | simples | stadium | group | JUI, TRU | - | ring | - | E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele 
+b10 | simples | stadium | close | JUI | - | ring | - | E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele 
 b11 | simples | interior madeira | two | TRU, JUI | - | - | - | Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo
 b12 | simples | interior madeira | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

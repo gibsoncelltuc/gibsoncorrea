@@ -10,15 +10,15 @@ b0 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Uma empresa d
 b1 | chave | loc_cidade | crowd | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa s
 b2 | simples | interior loja | two | CIM, MUS | - | - | - | A ideia é um chip implantado no cérebro, que lê os sinais dos neurônio
 b3 | simples | interior loja | two | CIE | - | monkey_pong | - | O voluntário foi o Pager, um macaco de nove anos. Primeiro, ele aprend
-b4 | simples | interior madeira | close | CIE | - | monkey_pong | - | A cada acerto, ganhava um golinho de vitamina de banana, por um canudi
+b4 | simples | interior madeira | two | CIE | - | monkey_pong | - | A cada acerto, ganhava um golinho de vitamina de banana, por um canudi
 b5 | simples | interior pedra | two | CIM, CIE | - | monkey_pong | - | Enquanto isso, o chip gravava o que os neurônios faziam a cada movimen
 b6 | simples | interior loja | two | CIM | - | monkey_pong | - | Acontece que, um dia, desligaram o joystick. E o Pager continuou jogan
 b7 | chave | loc_cidade | crowd | POV, POV, MUS | 18 | monkey_pong | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O vídeo rodou o mundo. Muita gente se encantou, e muita gente debateu 
 b8 | simples | loc_cidade | two | MUS, CIM | - | chess_pc, miners, phone | - | O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar com
 b9 | simples | interior madeira | two | NOL, CIE | - | chess_pc | - | Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chi
 b10 | simples | interior loja | two | NOL, CIE | - | chess_pc | - | Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
-b11 | simples | loc_cidade | close | MUS | - | monkey_pong | - | E tudo começou com um macaco, um videogame antigo, e um copo de vitami
-b12 | simples | loc_cidade | two | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | loc_cidade | two | MUS | - | monkey_pong | - | E tudo começou com um macaco, um videogame antigo, e um copo de vitami
+b12 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

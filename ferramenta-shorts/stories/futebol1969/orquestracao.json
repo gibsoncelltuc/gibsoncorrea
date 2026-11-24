@@ -164,7 +164,6 @@
   {
    "camera": "crowd",
    "personagens": [
-    "SOL",
     "SOL"
    ],
    "multidao": 48,
@@ -206,7 +205,7 @@
    "cenario": "street"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "SAL"
    ],
@@ -225,7 +224,7 @@
    "cenario": "stadium"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "HON"
    ],

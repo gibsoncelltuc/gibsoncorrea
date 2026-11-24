@@ -46,7 +46,7 @@
  },
  "cenas": [
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FUN"
    ],
@@ -108,7 +108,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],
@@ -225,7 +225,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],
@@ -243,7 +243,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "FUN"
    ],

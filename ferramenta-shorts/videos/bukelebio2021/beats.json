@@ -54,21 +54,40 @@
    "batalha": false,
    "impact": false,
    "say": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:smug"
    ],
    "props": [
     [
      "kit/phone",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "mapa": "EL SALVADOR",
    "mapa_at": 1,
-   "interior": "pedra"
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -95,7 +114,7 @@
    "batalha": false,
    "impact": false,
    "say": "Primeiro, ele escreveu só uma palavra no perfil: ditador.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:laugh"
    ],
@@ -103,9 +122,12 @@
    "props": [
     [
      "kit/phone",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -114,7 +136,23 @@
    "sfx": [
     "ding@8"
    ],
-   "interior": "pedra"
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -168,12 +206,31 @@
    "props": [
     [
      "kit/phone",
-     -1.5,
-     0.3,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "set": "street",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -192,7 +249,7 @@
    "batalha": false,
    "impact": false,
    "say": "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:grin"
    ],
@@ -200,15 +257,21 @@
    "props": [
     [
      "kit/phone",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/ballot_box",
-     -1.3,
-     0.7,
-     1.1
+     3.6,
+     -2.0,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -218,7 +281,29 @@
     "ding@8"
    ],
    "riscos_ok": true,
-   "interior": "pedra"
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -237,19 +322,38 @@
    "batalha": false,
    "impact": false,
    "say": "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:laugh"
    ],
    "props": [
     [
      "kit/phone",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.12,

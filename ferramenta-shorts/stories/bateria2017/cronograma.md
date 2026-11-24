@@ -6,16 +6,16 @@ Gerado em 24/11 17:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior loja | close | MUS | - | megapack | - | Em março de dois mil e dezessete, Elon Musk respondeu no Twitter ao em
-b1 | explicativa | outback | reveal | MUS, CAN | 8 | marco_goldengate, megapack, roadster | - | Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do
-b2 | chave | outback | group | MUS, CAN, POV | 10 | megapack | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os jornais calcularam que ele podia perder mais de cinquenta milhões d
+b0 | simples | interior loja | two | MUS | - | megapack | - | Em março de dois mil e dezessete, Elon Musk respondeu no Twitter ao em
+b1 | explicativa | outback | wide | MUS | - | marco_goldengate, megapack, roadster | - | Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do
+b2 | chave | outback | wide | MUS | 30 | marco_goldengate, megapack | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os jornais calcularam que ele podia perder mais de cinquenta milhões d
 b3 | simples | interior pedra | two | MUS, JOR | - | megapack | - | O contrato foi fechado no fim de setembro, e o prazo de cem dias começ
-b4 | chave | outback | wide | MUS | 10 | marco_goldengate, megapack, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias
+b4 | chave | outback | wide | MUS | - | marco_goldengate, megapack, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias
 b5 | explicativa | outback | two | JOR, JOR2 | - | marco_goldengate, megapack | - | A imprensa chamou de a maior bateria do mundo, com cem megawatts de po
 b6 | simples | interior loja | close | CAN | - | - | - | Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder u
-b7 | simples | outback | close | CAN | - | marco_goldengate, megapack | - | Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d
+b7 | simples | outback | two | CAN | - | marco_goldengate, megapack | - | Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d
 b8 | simples | loc_campo | two | MUS, JOR | - | megapack, phone | - | E tudo começou com uma resposta curta, escrita no celular.
-b9 | simples | loc_campo | orbit | MUS, CAN | 30 | megapack | - | Moral da história: antes de apostar cinquenta milhões num prazo, leia 
+b9 | simples | loc_campo | group | MUS, CAN | - | megapack | - | Moral da história: antes de apostar cinquenta milhões num prazo, leia 
 b10 | simples | loc_campo | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

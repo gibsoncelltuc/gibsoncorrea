@@ -81,12 +81,31 @@
    "props": [
     [
      "kit/steak",
-     0.5,
-     1.1,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "set": "street",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -103,12 +122,31 @@
    "props": [
     [
      "kit/steak",
-     -1.5,
-     0.6,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -149,12 +187,31 @@
    "props": [
     [
      "kit/steak",
-     -1.4,
-     0.5,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -217,12 +274,31 @@
    "props": [
     [
      "kit/steak",
-     0.5,
-     1.1,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "interior": "pedra"
+   "interior": "pedra",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -241,19 +317,38 @@
    "batalha": false,
    "impact": false,
    "say": "Moral da história: nem todo produto com nome famoso dura mais que uma promoção.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "VEN:0:laugh"
    ],
    "props": [
     [
      "kit/steak",
-     0.5,
-     1.1,
-     1.3
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,

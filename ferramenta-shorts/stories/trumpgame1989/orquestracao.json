@@ -203,7 +203,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "TRU",
     "POV",
@@ -250,7 +250,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],

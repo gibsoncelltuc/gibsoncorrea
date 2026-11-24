@@ -6,14 +6,14 @@ Gerado em 24/11 17:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior pedra | close | BUK | - | phone | - | Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nay
+b0 | simples | interior pedra | two | BUK | - | phone | - | Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nay
 b1 | chave | loc_cidade | crowd | BUK | 30 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas d
-b2 | simples | interior pedra | close | BUK | - | phone | - | Primeiro, ele escreveu só uma palavra no perfil: ditador.
+b2 | simples | interior pedra | two | BUK | - | phone | - | Primeiro, ele escreveu só uma palavra no perfil: ditador.
 b3 | chave | interior loja | group | BUK, POV, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguns dias depois, trocou por uma frase mais longa: o ditador mais le
 b4 | simples | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a notícia se espalhou pelo mundo.
 b5 | simples | loc_cidade | two | JOR, JOR2 | - | phone | - | Um jornal de cada país publicou a frase, e muita gente ficou discutind
 b6 | simples | interior loja | two | JOR, BUK | - | - | - | Vários comentaristas leram aquilo como uma ironia, feita para os críti
-b7 | simples | interior pedra | close | BUK | - | ballot_box, phone | - | Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil 
+b7 | simples | interior pedra | two | BUK | - | ballot_box, phone | - | Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil 
 b8 | simples | interior loja | two | BUK, JOR2 | - | - | - | Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a des
 b9 | simples | loc_cidade | group | BUK | - | phone | - | Conclusão: se a sua biografia estiver chata, lembre que dá para trocar
 b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

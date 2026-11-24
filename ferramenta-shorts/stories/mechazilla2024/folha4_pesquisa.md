@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Torre que Pegou um Foguete no Ar
 - Epoca: 2024 | Lugar: ? | Quando: ?
 - HEROIS (objeto): kit/tower_mini, kit/booster_air
-- HEROIS (personagens): MUS, ENG
+- HEROIS (personagens): ENG, MUS
 - Cenarios: interior True, loc_deserto, loc_patio
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste

@@ -61,9 +61,12 @@
    "props": [
     [
      "kit/boardgame",
-     0,
-     -1.6,
-     1.54
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1989",
@@ -76,7 +79,23 @@
    "say": "Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro.",
    "verbos_ok": [
     "lanco"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -99,9 +118,12 @@
    "props": [
     [
      "kit/boardgame",
-     1.6,
-     -0.8,
-     1.54
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico.",
@@ -110,10 +132,26 @@
    ],
    "sfx": [
     "ding@40"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "close",
+   "shot": "two",
    "interior": "loja",
    "who": [
     "TRU:0:grin"
@@ -121,9 +159,12 @@
    "props": [
     [
      "kit/boardgame",
-     1.6,
-     -0.8,
-     1.54
+     2.4,
+     0.2,
+     1.54,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -135,7 +176,23 @@
     "sting@50"
    ],
    "say": "As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com a cara do Trump estampada.",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -147,13 +204,32 @@
    "props": [
     [
      "kit/boardgame",
-     1.6,
-     -0.8,
-     1.54
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "discutir",
-   "say": "Acontece que o manual tinha mais de doze páginas. As famílias abriam a caixa, e não entendiam nada."
+   "say": "Acontece que o manual tinha mais de doze páginas. As famílias abriam a caixa, e não entendiam nada.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -165,9 +241,12 @@
    "props": [
     [
      "kit/boardgame",
-     1.6,
-     -0.8,
-     1.54
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interacao": "empurrar",
@@ -177,7 +256,23 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa."
+   "say": "Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -225,9 +320,12 @@
    "props": [
     [
      "kit/boardgame",
-     1.6,
-     -1.0,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interacao": "entregar",
@@ -237,7 +335,23 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Até que, em dois mil e quatro, Trump virou estrela de um programa de TV, O Aprendiz."
+   "say": "Até que, em dois mil e quatro, Trump virou estrela de um programa de TV, O Aprendiz.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido.",
@@ -262,9 +376,12 @@
    "props": [
     [
      "kit/boardgame",
-     0,
-     -3.0,
-     1.96
+     0.0,
+     -1.2,
+     1.96,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -277,7 +394,23 @@
    ],
    "text": "VOLTOU",
    "titulo": true,
-   "impact": true
+   "impact": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador.",
@@ -292,30 +425,69 @@
      "kit/boardgame",
      0.0,
      -1.2,
-     1.5
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "detalhe": true
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "TRU:0:smile"
    ],
    "props": [
     [
      "kit/boardgame",
-     -1.4,
-     -0.8,
-     1.4
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "comemorar",
-   "say": "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história."
+   "say": "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história.",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/Trump:_The_Game",
   "https://www.vox.com/2015/8/19/9176285/donald-trump-board-game"
- ]
+ ],
+ "max_wide": 3
 }

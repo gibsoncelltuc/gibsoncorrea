@@ -77,20 +77,39 @@
    "batalha": false,
    "impact": false,
    "say": "Em julho de dois mil e vinte e três, o Twitter acordou com outro nome: X, e o passarinho azul saiu de cena.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MUS:0:smug"
    ],
    "props": [
     [
      "kit/phone",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "X",
-   "set": "street"
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -148,20 +167,39 @@
    "batalha": false,
    "impact": false,
    "say": "Sobraram só as letras E e R, em cinza, na fachada.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "OPE2:0:laugh"
    ],
    "props": [
     [
      "kit/phone",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "E R",
-   "set": "street"
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -228,19 +266,38 @@
    "batalha": false,
    "impact": false,
    "say": "Moral da história: até trocar de nome precisa de licença da prefeitura.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MUS:0:laugh"
    ],
    "props": [
     [
      "kit/phone",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,

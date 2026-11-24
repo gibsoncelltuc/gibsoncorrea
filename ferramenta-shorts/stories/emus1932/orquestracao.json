@@ -4,7 +4,7 @@
  "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
-  "acoes_chave_com_efeito": 100,
+  "acoes_chave_com_efeito": 75,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
@@ -131,13 +131,7 @@
    "frase": "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.",
    "classe": "chave",
    "sujeito": "objeto",
-   "briefing": {
-    "corpo": "canta pneu, pula em arco inclinando o nariz e cai do outro lado com poeira",
-    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
-    "luz": "luz do propulsor acompanha o objeto",
-    "camera": "camera segue o objeto",
-    "som": "som na palavra da acao"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "countryside"
   },

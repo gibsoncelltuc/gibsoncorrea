@@ -23,8 +23,7 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU",
-    "GEN"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -61,10 +60,9 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "MAD",
-    "POV"
+    "MAD"
    ],
    "multidao": 0,
    "objetos": [
@@ -99,8 +97,6 @@
   {
    "camera": "crowd",
    "personagens": [
-    "SOL",
-    "SOL",
     "SOL"
    ],
    "multidao": 48,
@@ -123,11 +119,11 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "low",
+   "camera": "wide",
    "personagens": [
     "SOL"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [
     "kit/helicopter_air"
    ],
@@ -219,7 +215,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],

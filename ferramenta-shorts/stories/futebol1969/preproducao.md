@@ -11,10 +11,10 @@ b3 | stadium | orbit | 32 | comemorar, batalha | kit/panela, kit/kettle, buildin
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball, kit/trave | - | -
-b7 | street | crowd | 22 | encena, batalha | vehicles/tank, vehicles/airplane, kit/volcano | - | -
+b7 | street | crowd | 1 | encena, batalha | vehicles/tank, vehicles/airplane, kit/volcano | - | -
 b8 | street | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
-b9 | stadium | close | 1 | conversar | kit/ball, kit/trave | - | -
-b10 | stadium | two | 1 | conversar | - | - | -
+b9 | stadium | two | 1 | conversar | kit/ball, kit/trave | - | -
+b10 | stadium | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/ball
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b3, b7

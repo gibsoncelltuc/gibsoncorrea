@@ -15,9 +15,9 @@ b5 | simples | interior madeira | group | FIL, PAI | - | boardgame | - | Muita g
 b6 | chave | loc_cidade | crowd | EXE, POV, POV | 30 | marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil
 b7 | simples | interior loja | two | EXE, TRU | - | - | - | O jogo saiu das lojas, e ficou esquecido por anos.
 b8 | simples | loc_pista | two | TRU, EXE | - | boardgame, tv | - | Até que, em dois mil e quatro, Trump virou estrela de um programa de T
-b9 | chave | loc_cidade | group | TRU, POV, POV | 18 | boardgame, marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o jogo voltou às lojas, com regras mais simples, e com a frase famos
+b9 | chave | loc_cidade | crowd | TRU, POV, POV | 18 | boardgame, marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o jogo voltou às lojas, com regras mais simples, e com a frase famos
 b10 | simples | interior pedra | two | PAI, FIL | - | crate, boardgame | - | Hoje, as caixas originais de mil novecentos e oitenta e nove viraram i
-b11 | simples | loc_pista | group | TRU | - | boardgame | - | Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade 
+b11 | simples | loc_pista | two | TRU | - | boardgame | - | Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade 
 b12 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

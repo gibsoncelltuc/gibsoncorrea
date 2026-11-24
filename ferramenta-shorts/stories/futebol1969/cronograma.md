@@ -13,10 +13,10 @@ b3 | chave | stadium | orbit | HON, SAL | 30 | house_small, kettle, panela, pick
 b4 | simples | street | two | TOR, TOR | - | volcano | - | No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e o
 b5 | simples | interior madeira | two | PRE, PRE | - | - | - | Acontece que, no dia do terceiro jogo, El Salvador cortou relações com
 b6 | simples | stadium | group | SAL, SAL, HON | - | ball, trave | - | El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
-b7 | chave | street | crowd | SOL, SOL | 48 | volcano, airplane, tank | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra t
+b7 | chave | street | crowd | SOL | 48 | volcano, airplane, tank | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra t
 b8 | simples | street | two | SOL, PRE | - | - | - | Durou cem horas. Os outros países do continente obrigaram os dois a pa
-b9 | simples | stadium | close | SAL | - | ball, trave | - | E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.
-b10 | simples | stadium | two | HON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | stadium | two | SAL | - | ball, trave | - | E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.
+b10 | simples | stadium | close | HON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

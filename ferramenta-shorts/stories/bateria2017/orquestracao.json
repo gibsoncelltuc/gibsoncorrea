@@ -26,7 +26,7 @@
  },
  "cenas": [
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
@@ -44,12 +44,11 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "MUS",
-    "CAN"
+    "MUS"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/marco_goldengate",
     "kit/megapack",
@@ -65,14 +64,13 @@
    "cenario": "outback"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "MUS",
-    "CAN",
-    "POV"
+    "MUS"
    ],
-   "multidao": 10,
+   "multidao": 30,
    "objetos": [
+    "kit/marco_goldengate",
     "kit/megapack"
    ],
    "palavras": 13,
@@ -114,7 +112,7 @@
    "personagens": [
     "MUS"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/marco_goldengate",
     "kit/megapack",
@@ -172,7 +170,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "CAN"
    ],
@@ -211,12 +209,12 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "MUS",
     "CAN"
    ],
-   "multidao": 30,
+   "multidao": 0,
    "objetos": [
     "kit/megapack"
    ],

@@ -8,17 +8,17 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_patio | two | MUS, ENG | - | tower, tower_catch, tower_mini | - | Elon Musk mandou construir uma torre com braços gigantes, para pegar u
 b1 | transicao | loc_patio | reveal | POV, POV | 6 | tower | - | Foi em outubro de dois mil e vinte e quatro, na base de foguetes da Sp
-b2 | simples | loc_deserto | two | ENG, MUS | - | booster_air | - | Normalmente, a parte de baixo de um foguete é descartada, ou pousa sob
-b3 | explicativa | loc_deserto | group | MUS, ENA | - | tower | - | A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre d
-b4 | simples | loc_deserto | two | ENA, ENG | - | tower, tower_catch | - | Os engenheiros apelidaram os braços de pauzinhos, como os de comida ja
-b5 | chave | loc_patio | crowd | ENG, ENA, MUS | 18 | booster_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No dia do teste, o propulsor gigante decolou com trinta e três motores
-b6 | simples | loc_patio | reveal | ENG | - | booster_air, tower | - | Minutos depois, ele voltou do espaço, descendo de ré, direto na direçã
-b7 | simples | loc_patio | low | ENA, MUS | - | tower_catch | - | Acontece que, no último segundo, os braços se fecharam, e seguraram o 
-b8 | chave | loc_deserto | orbit | ENG, ENA, MUS | 20 | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém f
+b2 | simples | loc_deserto | wide | ENG | - | booster_air, tower | - | Normalmente, a parte de baixo de um foguete é descartada, ou pousa sob
+b3 | explicativa | loc_deserto | two | MUS | - | tower | - | A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre d
+b4 | simples | loc_deserto | group | ENA | - | tower, tower_catch | - | Os engenheiros apelidaram os braços de pauzinhos, como os de comida ja
+b5 | chave | loc_patio | crowd | ENG | - | booster_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No dia do teste, o propulsor gigante decolou com trinta e três motores
+b6 | simples | loc_patio | wide | ENG | - | booster_air, tower | - | Minutos depois, ele voltou do espaço, descendo de ré, direto na direçã
+b7 | simples | loc_patio | wide | ENA | - | tower, tower_catch | - | Acontece que, no último segundo, os braços se fecharam, e seguraram o 
+b8 | chave | loc_deserto | orbit | ENG | - | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém f
 b9 | simples | interior True | two | MUS, ENG | - | - | - | Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
-b10 | explicativa | loc_deserto | two | ENA, ENG | - | tower_catch | - | Assim, o propulsor que antes ia para o lixo pode ser usado de novo, vá
-b11 | simples | loc_patio | close | MUS | - | tower_catch, tower_mini | - | E a torre já repetiu a pegada outras vezes. Parece filme de robô gigan
-b12 | simples | loc_patio | two | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b10 | explicativa | loc_deserto | wide | ENA | - | tower, tower_catch | - | Assim, o propulsor que antes ia para o lixo pode ser usado de novo, vá
+b11 | simples | loc_patio | two | MUS | - | tower_catch, tower_mini | - | E a torre já repetiu a pegada outras vezes. Parece filme de robô gigan
+b12 | simples | loc_patio | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

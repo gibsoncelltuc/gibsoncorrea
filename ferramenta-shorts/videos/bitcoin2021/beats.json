@@ -54,9 +54,12 @@
    "props": [
     [
      "kit/bitcoin",
-     1.5,
-     0.3,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -64,7 +67,23 @@
    "impact": false,
    "verbos_ok": [
     "aceit"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
@@ -90,14 +109,33 @@
    "props": [
     [
      "kit/bitcoin",
-     1.6,
-     0.3,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "E passou a valer em sete de setembro de dois mil e vinte e um.",
@@ -131,15 +169,21 @@
    "props": [
     [
      "kit/stall",
-     1.7,
-     -0.5,
-     1.2
+     3.6,
+     -2.0,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bitcoin",
-     -1.6,
-     0.3,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -150,7 +194,29 @@
    "sfx": [
     "ding@3"
    ],
-   "impact": false
+   "impact": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stall",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",
@@ -201,9 +267,12 @@
    "props": [
     [
      "kit/globe",
-     1.5,
-     -0.3,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "crowd": {
@@ -216,7 +285,23 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
@@ -229,14 +314,33 @@
    "props": [
     [
      "kit/bitcoin",
-     1.8,
-     -0.4,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ]
 }

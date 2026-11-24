@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Gerado em 24/11 17:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 75%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | simples | outback | reveal | FARM, FARM | - | barn, haybale, picket_fence, 
 b2 | simples | interior madeira | two | FARM, AUS | - | - | - | "Mande o exército", pediram eles. E o ministro mandou.
 b3 | chave | outback | crowd | AUS, AUS, AUS | 14 | canhao_moderno, sandbags | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Soldados, duas metralhadoras, e dez mil balas. Contra emus.
 b4 | chave | outback | orbit | AUS, AUS | 24 | barn, haybale, picket_fence, scarecrow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e 
-b5 | chave | countryside | two | AUS | - | truck | corpo: canta pneu, pula em arco inclinando o nariz e cai do outro lado com poeira; emissao: VFX 3D preso no objeto (jato | Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava 
+b5 | chave | countryside | two | AUS | - | truck | - | Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava 
 b6 | simples | outback | group | AUS, AUS | - | - | - | Depois de uma semana, milhares de balas gastas, e os emus quase sem um
 b7 | simples | countryside | track | AUS, PRESS, PRESS | 12 | - | - | A tropa bateu em retirada. A imprensa gargalhou, e o comandante admiti
 b8 | chave | outback | crowd | AUS, AUS | 24 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O exército tentou de novo, abateu algumas centenas, e os emus continua

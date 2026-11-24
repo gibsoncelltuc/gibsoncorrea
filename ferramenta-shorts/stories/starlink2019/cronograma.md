@@ -7,14 +7,14 @@ Gerado em 24/11 17:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | AST | - | falcon_air, marco_canaveral, rocket, starlink_sat | - | Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon
-b1 | transicao | loc_cidade | reveal | AST, JOR | 8 | falcon_air, marco_canaveral, starlink_sat | - | O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros sa
+b1 | transicao | loc_cidade | wide | AST | - | falcon_air, marco_canaveral, starlink_sat | - | O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros sa
 b2 | simples | loc_campo | two | AST, JOR | - | rocket, starlink_sat | - | Um dia depois, um rastreador de satélites holandês, Marco Langbroek, f
-b3 | chave | loc_campo | group | AST, POV, POV | 10 | starlink_train, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele registrou uma fila de luzes, que levava cerca de três minutos para
-b4 | simples | loc_campo | wide | AST | 6 | starlink_train | - | Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
+b3 | chave | loc_campo | wide | AST | - | marco_canaveral, starlink_train, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele registrou uma fila de luzes, que levava cerca de três minutos para
+b4 | simples | loc_campo | wide | AST | - | marco_canaveral, starlink_train | - | Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
 b5 | chave | loc_cidade | crowd | JOR | 10 | marco_canaveral | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o site holandês de avistamentos de OVNIs registrou mais d
 b6 | simples | interior loja | two | JOR, JOR2 | - | starlink_sat | - | Jornais de vários países explicaram que não eram OVNIs, e sim satélite
-b7 | simples | loc_cidade | two | AST, JOR2 | - | falcon_air, starlink_sat | - | Os satélites ainda estavam juntos, em fila, logo depois do lançamento.
-b8 | simples | loc_cidade | group | JOR | 10 | marco_canaveral | - | A imagem da fila de luzes se espalhou por vários países e foi assunto 
+b7 | transicao | loc_cidade | wide | AST | - | falcon_air, marco_canaveral, starlink_sat | - | Os satélites ainda estavam juntos, em fila, logo depois do lançamento.
+b8 | simples | loc_cidade | reveal | JOR | 10 | marco_canaveral | - | A imagem da fila de luzes se espalhou por vários países e foi assunto 
 b9 | simples | loc_campo | two | AST, JOR2 | - | rocket, starlink_sat | - | Moral da história: se olhar o céu e vir uma fila de luzes, pode ser um
 b10 | simples | loc_campo | close | AST | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

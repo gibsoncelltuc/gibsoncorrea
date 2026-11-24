@@ -38,17 +38,19 @@
  "beats": [
   {
    "say": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "MUS:0:grin",
-    "DSG:0:smile"
+    "MUS:0:grin"
    ],
    "props": [
     [
      "kit/cybertruck",
-     2.4,
-     -1.5,
-     1.15
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -59,29 +61,46 @@
    "set": "hall",
    "hora": "dia",
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "smile"
+    "n": 0
    },
    "text": "CYBERTRUCK",
    "titulo": true,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "MUS:0:smug"
    ],
    "props": [
     [
      "kit/cybertruck",
-     2.4,
-     -1.5,
-     1.15
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -89,21 +108,45 @@
    "impact": false,
    "set": "hall",
    "hora": "dia",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "DSG:0:stern:ball",
-    "MUS:0:smile"
+    "DSG:0:stern:ball"
    ],
    "props": [
     [
      "kit/cybertruck",
-     2.4,
-     -1.5,
-     1.15
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -132,21 +175,34 @@
     }
    ],
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "smile"
+    "n": 0
    },
-   "riscos_ok": true
+   "riscos_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
-    "MUS:0:shock",
-    "DSG:0:scared"
+    "MUS:0:shock"
    ],
    "fx": [
     "burst@3"
@@ -156,33 +212,49 @@
    ],
    "impact": true,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [
      "kit/cybertruck",
-     2.4,
-     -1.5,
-     1.15
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
    "set": "hall",
    "hora": "dia",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "DSG:0:nervous",
-    "MUS:0:surprised"
+    "DSG:0:nervous"
    ],
    "fx": [
     "burst@4"
@@ -193,9 +265,12 @@
    "props": [
     [
      "kit/cybertruck",
-     2.4,
-     -1.5,
-     1.15
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -224,33 +299,53 @@
     }
    ],
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "smile"
+    "n": 0
    },
-   "riscos_ok": true
+   "riscos_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MUS:0:smile"
    ],
    "props": [
     [
      "kit/steel_ball",
-     1.4,
-     0.3,
-     0.7
+     1.0,
+     1.0,
+     1.03,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/cybertruck",
-     2.4,
-     -1.5,
-     1.15
+     7.0,
+     -14.0,
+     1.37,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -258,7 +353,25 @@
    "impact": false,
    "set": "hall",
    "hora": "dia",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/steel_ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -270,9 +383,12 @@
    "props": [
     [
      "kit/globe",
-     1.6,
-     -0.4,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "crowd": {
@@ -288,7 +404,23 @@
    "impact": false,
    "set": "hall",
    "hora": "dia",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "salao",
+    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -300,15 +432,21 @@
    "props": [
     [
      "kit/cybertruck",
-     2.4,
-     -1.5,
-     1.15
+     7.0,
+     -14.0,
+     1.37,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/steel_ball",
-     -1.6,
-     0.3,
-     0.7
+     0.0,
+     1.0,
+     1.03,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -328,10 +466,29 @@
    },
    "verbos_ok": [
     "aguen"
-   ]
+   ],
+   "quadro": {
+    "local": "salao",
+    "camera": "plano de grupo (3+ pessoas)",
+    "objetos": [
+     {
+      "objeto": "kit/steel_ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 0.9,
  "marco": "kit/marco_hollywood",
- "variar_cenario": false
+ "variar_cenario": false,
+ "max_wide": 5
 }

@@ -70,21 +70,40 @@
    "batalha": false,
    "impact": false,
    "say": "Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FUN:0:grin"
    ],
    "props": [
     [
      "kit/tv",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "mapa": "NOVA YORK",
    "mapa_at": 1,
-   "set": "street"
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -129,20 +148,39 @@
    "batalha": false,
    "impact": false,
    "say": "Acontece que aquele hotel, o Plaza, pertencia a Trump na época.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "TRU:0:laugh"
    ],
    "props": [
     [
      "kit/tv",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "riscos_ok": true,
-   "interior": "pedra"
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -207,14 +245,33 @@
    "props": [
     [
      "kit/tv",
-     -1.5,
-     0.3,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "mapa": "CANADÁ",
    "mapa_at": 1,
-   "interior": "loja"
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -238,19 +295,38 @@
    "batalha": false,
    "impact": false,
    "say": "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "TRU:0:laugh"
    ],
    "props": [
     [
      "kit/tv",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,

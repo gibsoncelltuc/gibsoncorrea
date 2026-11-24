@@ -11,16 +11,43 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): energia, presidente, vulcao
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
+- PERSONAGENS: BUK na esquerda, expressao smug; ENG na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/volcano: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "2021" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (0.2-2.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (2.1-4.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b1 - El Salvador é um país pequeno da América Central, cheio de vulcões.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
+- Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, vulcoes
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- MAPA: EL SALVADOR (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (5.2-6.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (6.8-8.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b2 - Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficia...
 - Cenario: loc_pista | luz: day | clima: limpo
@@ -31,6 +58,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bitcoin, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, dolar, moeda, nayib
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
+- PERSONAGENS: BUK na esquerda, expressao grin; ENA na direita, expressao suspicious; sem multidao; acao: conversar
+- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (9.7-11.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (11.4-13.2 s): mesmo angulo
+  - take 3 (13.2-14.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b3 - Só que, para criar bitcoins novos, computadores fazem contas sem parar...
 - Cenario: interior loja | luz: day | clima: limpo
@@ -41,27 +80,71 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/miners, kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)
+- PERSONAGENS: ENG na esquerda, expressao worried, segura paper; BUK na direita, expressao suspicious; sem multidao; acao: discutir
+- OBJETO kit/miners: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (15.9-17.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (17.9-19.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (19.9-21.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b4 - Então ele mandou a empresa de energia do governo usar o calor do vulcã...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): BUK (variante 0, expressao smug); ENG (variante 0, expressao shock)
-- Animacao: conversar | interacao: entregar
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: encena
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): calor, empresa, energia, governo, vulcao
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: entregar
+- OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
+- SOM: sting@40
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (23.2-24.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (24.9-26.7 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b5 - O vapor quente que sai de dentro da terra gira turbinas, e vira eletri...
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ENA (variante 0, expressao grin); BUK (variante 0, expressao smile)
+- Personagens principais (1): ENA (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/volcano, kit/turbina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dentro, terra, vapor
 - RISCOS: 
   - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o turbina (alvo z -3.6, camera a 32.9 m, altura 3.0 m), sem multidao na frente
+- PERSONAGENS: ENA no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/turbina: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.5 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/volcano: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.2 m de altura x 23.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/turbina: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 8.0 m de altura x 3.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +5 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +25 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +45 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +65 da cena
+- SOM: whoosh@10
+- SOM: whoosh@35
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (28.0-29.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (29.9-31.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b6 - Acontece que, ao lado da usina, instalaram centenas de computadores só...
 - Cenario: interior loja | luz: day | clima: limpo
@@ -72,26 +155,69 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/miners, kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): computadores, usina
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)
+- PERSONAGENS: ENG na esquerda, expressao surprised; ENA na direita, expressao grin; sem multidao; acao: conversar
+- OBJETO kit/miners: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/miners: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (33.0-34.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (34.6-36.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (36.1-37.7 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b7 - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: comemorar
 - Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, pedacinho
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
+- PERSONAGENS: BUK no centro, expressao grin; sem multidao; acao: comemorar
+- OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
+- SOM: ding@20
+- SOM: sting@50
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (38.9-40.4 s): mesmo angulo
+  - take 2 (40.4-41.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (41.9-43.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b8 - Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): BUK (variante 0, expressao laugh); ENG (variante 0, expressao laugh); ENA (variante 0, expressao grin) | multidao: 18 de POV
+- Personagens principais (1): BUK (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): redes, usina, video, vulcao
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- PERSONAGENS: BUK no centro, expressao laugh; sem multidao; acao: comemorar
+- OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "VULCÃO" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b9 - Anos depois, o governo contava quase quinhentos bitcoins minerados com...
 - Cenario: loc_patio | luz: day | clima: limpo
@@ -102,26 +228,61 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, governo, vulcao
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
+- PERSONAGENS: ENA na esquerda, expressao smile, segura paper; ENG na direita, expressao grin; sem multidao; acao: conversar
+- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (49.0-50.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (50.5-52.0 s): mesmo angulo
+  - take 3 (52.0-53.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b10 - E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); BUK (variante 0, expressao smug) | multidao: 16 de POV
-- Animacao: reagir | batalha encenada
+- Personagens principais (1): POV (variante 0, expressao surprised) | multidao: 0 de 
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, plano
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: batalha
+- OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+- TEXTO NA TELA: "CIDADE BITCOIN" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (4.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b11 - Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): BUK (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vulcao
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
+- PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
+- OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (59.9-62.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (62.0-64.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -149,8 +310,8 @@ nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b8, b10 | planos abertos: 4 | mistura: close 22% | medio 55% | aberto 17% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b4 entregar, b6 vai ate o outro, b9 aproxima-se
+- Objeto heroi: kit/bitcoin | grandes momentos: b8, b10 | planos abertos: 5 | mistura: close 10% | medio 56% | aberto 27% | detalhe 6%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b6 vai ate o outro, b9 aproxima-se
 - RISCOS GERAIS: 
   - video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
@@ -164,3 +325,12 @@ nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se pare
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh vulcao2021 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh vulcao2021` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (65.3-66.9 s): mesmo angulo
+  - take 2 (66.9-68.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+

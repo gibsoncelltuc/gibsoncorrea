@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): MUS, DSG
 - Cenarios: hall
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/cybertruck: 5.7 m reais -> escala 1.37 (estava 1.15: pequeno demais)
+- Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados
 

@@ -100,15 +100,21 @@
    "props": [
     [
      "war/sandbags",
-     -3,
-     0.2,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "cannon",
-     3.5,
-     0.5,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "10.000 BALAS",
@@ -124,6 +130,28 @@
     "x": 4.5,
     "z": 0.5,
     "cols": 2
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sandbags juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "war/sandbags",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -152,19 +180,20 @@
   },
   {
    "say": "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "AUS:2:grin"
    ],
    "props": [
     [
      "vehicles/truck",
-     -3.4,
-     -1.6,
-     1.0,
+     0.0,
+     -8.0,
+     1.52,
      {
       "bob": 0.06,
-      "ry": 1.5708
+      "ry": 1.5708,
+      "fixo": true
      }
     ]
    ],
@@ -177,7 +206,29 @@
    },
    "shot_lock": true,
    "move": 0,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o truck (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "vehicles/truck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.",
@@ -279,5 +330,6 @@
    "titulo": true
   }
  ],
- "heroi": null
+ "heroi": null,
+ "max_wide": 4
 }

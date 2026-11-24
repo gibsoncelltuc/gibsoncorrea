@@ -6,11 +6,11 @@ Gerado em 24/11 17:07 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_co
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | hall | two | MUS, DSG | 14 | cybertruck | - | Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon M
-b1 | transicao | hall | reveal | MUS | 8 | cybertruck | - | Na apresentação, Musk disse que as janelas eram feitas de um vidro sup
-b2 | simples | hall | group | DSG, MUS | 14 | cybertruck, steel_ball | - | Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n
-b3 | chave | hall | crowd | MUS, DSG | 30 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o vidro rachou, ao vivo, na frente de todo mundo.
-b4 | simples | hall | group | DSG, MUS | 14 | cybertruck | - | Ele tentou de novo, em outra janela, e ela também rachou.
+b0 | simples | hall | two | MUS | - | cybertruck | - | Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon M
+b1 | transicao | hall | wide | MUS | - | cybertruck | - | Na apresentação, Musk disse que as janelas eram feitas de um vidro sup
+b2 | simples | hall | wide | DSG | - | cybertruck, steel_ball | - | Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n
+b3 | chave | hall | crowd | MUS | 30 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o vidro rachou, ao vivo, na frente de todo mundo.
+b4 | simples | hall | two | DSG | - | cybertruck | - | Ele tentou de novo, em outra janela, e ela também rachou.
 b5 | simples | hall | close | MUS | - | cybertruck, steel_ball | - | Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin
 b6 | simples | hall | orbit | MUS, DSG | 30 | globe | - | A plateia riu, a internet também, e a cena deu o que falar no mundo in
 b7 | simples | hall | group | MUS, DSG | 10 | cybertruck, steel_ball | - | Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam

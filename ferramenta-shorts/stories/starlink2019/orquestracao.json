@@ -87,12 +87,11 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "AST",
-    "JOR"
+    "AST"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/falcon_air",
     "kit/marco_canaveral",
@@ -128,14 +127,13 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "AST",
-    "POV",
-    "POV"
+    "AST"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
+    "kit/marco_canaveral",
     "kit/starlink_train",
     "nature/picket_fence"
    ],
@@ -159,8 +157,9 @@
    "personagens": [
     "AST"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
+    "kit/marco_canaveral",
     "kit/starlink_train"
    ],
    "palavras": 11,
@@ -216,27 +215,27 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "AST",
-    "JOR2"
+    "AST"
    ],
    "multidao": 0,
    "objetos": [
     "kit/falcon_air",
+    "kit/marco_canaveral",
     "kit/starlink_sat"
    ],
    "palavras": 11,
    "cena": "b7",
    "frase": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {
-   "camera": "group",
+   "camera": "reveal",
    "personagens": [
     "JOR"
    ],

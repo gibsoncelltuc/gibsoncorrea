@@ -41,7 +41,7 @@
  },
  "cenas": [
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -83,7 +83,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -179,7 +179,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],

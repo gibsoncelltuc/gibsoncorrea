@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior pedra | close | 1 | conversar | kit/surfboard | - | -
+b0 | interior pedra | two | 1 | conversar | kit/surfboard | - | -
 b1 | harbor | two | 2 | conversar, INTERAGEM: cochichar | kit/surfboard, kit/volcano | - | -
 b2 | harbor | crowd | 11 | batalha | kit/surfboard, kit/volcano | - | -
 b3 | loc_cidade | two | 2 | reagir, INTERAGEM: insiste | - | - | -

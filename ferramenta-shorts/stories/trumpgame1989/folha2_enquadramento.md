@@ -1,0 +1,98 @@
+# FOLHA 2 - FICHA DE CENA (gerada por enquadrar.py; a ferramenta monta cada cena com estes dados)
+
+Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
+
+## b0: "Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao smug; EXE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "1989" numa placa atras dos personagens, na palavra 1 da frase
+
+## b1: "Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um empresário famoso de Nova York."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
+
+## b2: "Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico."
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: EXE (empresario) na esquerda, expressao grin, segura paper; TRU na direita, expressao smug; sem multidao; acao: entregar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+
+## b3: "As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com a cara do Trump estampada."
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)
+- PERSONAGENS: TRU no centro, expressao grin; sem multidao; acao: comemorar
+- OBJETO kit/boardgame: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
+- SOM: ding@20
+- SOM: sting@50
+
+## b4: "Acontece que o manual tinha mais de doze páginas. As famílias abriam a caixa, e não entendiam nada."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: PAI na esquerda, expressao suspicious, segura paper; FIL na direita, expressao bored; sem multidao; acao: discutir
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+
+## b5: "Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: FIL na esquerda, expressao angry; PAI na direita, expressao nervous; sem multidao; acao: empurrar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- SOM: thump@40
+
+## b6: "A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil. Foi considerado um fracasso."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: EXE (empresario) na esquerda, expressao sad; POV no centro, expressao bored; POV na direita, expressao suspicious; multidao de 16 (POV) ATRAS dos principais; acao: batalha
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+- TEXTO NA TELA: "800 MIL" flutuando no alto, na palavra 1 da frase
+
+## b7: "O jogo saiu das lojas, e ficou esquecido por anos."
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: EXE (empresario) na esquerda, expressao sad; TRU na direita, expressao suspicious; sem multidao; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+
+## b8: "Até que, em dois mil e quatro, Trump virou estrela de um programa de TV, O Aprendiz."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao grin; EXE (empresario) na direita, expressao surprised; sem multidao; acao: entregar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+
+## b9: "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao smug; POV no centro, expressao laugh; POV na direita, expressao grin; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "VOLTOU" flutuando no alto, na palavra 1 da frase
+
+## b10: "Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador."
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: PAI na esquerda, expressao surprised; FIL na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+
+## b11: "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)
+- PERSONAGENS: TRU no centro, expressao smile; sem multidao; acao: comemorar
+- OBJETO kit/boardgame: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+

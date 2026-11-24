@@ -6,7 +6,7 @@ Gerado em 24/11 17:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior pedra | close | BUK | - | surfboard | - | Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City E
+b0 | simples | interior pedra | two | BUK | - | surfboard | - | Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City E
 b1 | simples | harbor | two | BUK, JOR | - | surfboard, volcano | - | O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal
 b2 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzent
 b3 | simples | loc_cidade | two | JOR, JOR2 | - | - | - | Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias vir

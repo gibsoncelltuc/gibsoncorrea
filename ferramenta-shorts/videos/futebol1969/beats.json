@@ -77,14 +77,29 @@
    "props": [
     [
      "kit/ball",
-     0,
-     0.5,
-     1.1
+     0.0,
+     1.0,
+     1.31,
+     {
+      "fixo": true
+     }
     ]
    ],
    "verbos_ok": [
     "entra"
-   ]
+   ],
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano de multidao",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -119,9 +134,12 @@
    "props": [
     [
      "kit/ball",
-     0,
-     1.9,
-     1.1
+     0.0,
+     1.0,
+     1.31,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
@@ -135,6 +153,18 @@
     ],
     "march": false,
     "expr": "shout"
+   },
+   "quadro": {
+    "local": "estadio",
+    "camera": "aereo",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -169,8 +199,8 @@
    "props": [
     [
      "kit/panela",
-     -1.6,
-     2.2,
+     0.0,
+     -1.2,
      1.3,
      {
       "fixo": true
@@ -178,14 +208,36 @@
     ],
     [
      "kit/panela",
-     1.6,
-     2.2,
+     3.6,
+     -2.0,
      1.3,
      {
       "fixo": true
      }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano de multidao; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/panela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/panela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -222,50 +274,74 @@
    "props": [
     [
      "kit/ball",
-     0,
-     2.0,
-     1.1
+     0.0,
+     1.0,
+     1.31,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/trave",
-     0,
-     -4.5,
-     1.8
+     7.0,
+     -14.0,
+     1.8,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "comemorar",
    "say": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
    "hora": "dia",
    "text": "PRORROGAÇÃO",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano de grupo (3+ pessoas)",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/trave",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "orbit",
+   "shot": "wide",
    "who": [
-    "SOL:0:stern",
-    "SOL:1:angry"
+    "SOL:0:stern"
    ],
    "batalha": true,
    "crowd": {
-    "n": 20,
-    "outfits": [
-     "SOL"
-    ],
-    "march": true,
-    "expr": "stern"
+    "n": 0
    },
    "props": [
     [
      "vehicles/tank",
-     -6,
-     -6,
-     1.2
+     0.0,
+     -8.0,
+     1.52,
+     {
+      "fixo": true
+     }
     ],
     [
      "vehicles/airplane",
-     5,
-     -10,
-     1.2
+     7.0,
+     -16.0,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "GUERRA",
@@ -274,7 +350,32 @@
    "hora": "dia",
    "verbos_ok": [
     "cruza"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 23.9,
+   "d1": 22.8,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -3.6, camera a 22.8 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "vehicles/tank",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "vehicles/airplane",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -289,28 +390,57 @@
    ]
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "SAL:0:sad"
    ],
    "props": [
     [
      "kit/ball",
-     1.5,
-     -0.5,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/trave",
-     0,
-     -4.5,
-     1.8
+     7.0,
+     -14.0,
+     1.8,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
    "set": "stadium",
    "text": "0 GOLS",
-   "titulo": true
+   "titulo": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/trave",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "max_wide": 4
 }

@@ -58,21 +58,40 @@
    "batalha": false,
    "impact": false,
    "say": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City El Salvador.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:smug"
    ],
    "props": [
     [
      "kit/surfboard",
-     0.8,
-     1.0,
-     0.6
+     2.4,
+     0.2,
+     0.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "mapa": "EL SALVADOR",
    "mapa_at": 1,
-   "interior": "pedra"
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -87,12 +106,31 @@
    "props": [
     [
      "kit/surfboard",
-     -1.4,
-     0.6,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -119,18 +157,46 @@
    "props": [
     [
      "kit/surfboard",
-     -4.0,
-     -7.0,
-     2.0
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/surfboard",
-     4.0,
-     -8.0,
-     2.0
+     3.6,
+     -2.0,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -169,18 +235,46 @@
    "props": [
     [
      "kit/surfboard",
-     -4.5,
-     -6.0,
-     2.0
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/surfboard",
-     4.5,
-     -8.0,
-     2.0
+     3.6,
+     -2.0,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -196,12 +290,31 @@
    "props": [
     [
      "kit/surfboard",
-     1.3,
-     0.5,
-     0.7
+     0.0,
+     -1.2,
+     0.7,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -245,31 +358,69 @@
    "props": [
     [
      "kit/surfboard",
-     -1.6,
-     0.6,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
    "say": "Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:smug"
    ],
    "props": [
     [
      "kit/surfboard",
-     0.8,
-     1.0,
-     0.6
+     2.4,
+     0.2,
+     0.6,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

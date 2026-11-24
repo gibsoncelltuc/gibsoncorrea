@@ -6,17 +6,17 @@ Gerado em 24/11 17:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior loja | two | TRU, GEN | - | helicopter_air | - | Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou 
+b0 | simples | interior loja | two | TRU | - | helicopter_air | - | Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou 
 b1 | simples | loc_cidade | reveal | POV, POV | 6 | apartment, house_two, lamppost | - | O alvo estava em Caracas, a capital da Venezuela.
-b2 | simples | loc_patio | two | MAD, POV | - | helicopter_air | - | Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer
+b2 | simples | loc_patio | wide | MAD | - | helicopter_air | - | Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer
 b3 | simples | interior loja | two | TRU, AGE | - | - | - | Durante meses, a inteligência americana estudou cada passo dele, em se
-b4 | chave | loc_patio | crowd | SOL, SOL, SOL | 48 | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às duas da manhã, helicópteros levaram os soldados da Força Delta dire
-b5 | simples | loc_pista | low | SOL | - | helicopter_air | - | Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí
+b4 | chave | loc_patio | crowd | SOL | 48 | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às duas da manhã, helicópteros levaram os soldados da Força Delta dire
+b5 | simples | loc_pista | wide | SOL | 32 | helicopter_air | - | Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí
 b6 | simples | loc_pista | two | SOL, MAD | - | - | - | Acontece que, em menos de três horas, Maduro foi capturado e levado pa
 b7 | simples | interior loja | two | TRU, GEN | - | - | - | Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA 
 b8 | simples | loc_cidade | two | AGE, MAD | - | scroll, airplane | - | Maduro foi levado de avião para Nova York, onde responde a um processo
 b9 | chave | loc_cidade | orbit | POV, POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op
-b10 | simples | loc_pista | close | TRU | - | helicopter_air | - | A operação ganhou um nome que resume tudo: Resolução Absoluta.
+b10 | simples | loc_pista | two | TRU | - | helicopter_air | - | A operação ganhou um nome que resume tudo: Resolução Absoluta.
 b11 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

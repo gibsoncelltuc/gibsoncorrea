@@ -11,8 +11,8 @@ b5 | two | dia  | interior, objeto na mao | encena: corta (hammer) @9 (acao + so
 b6 | group | dia  | placa: PRORROGAÇÃO | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b7 | crowd | dia  | batalha aberta com tiros, tropa, placa: GUERRA | tiros: 5 soldados caem no chao (acao + som de efeito); encena: chega (point) @6 (acao + som de efeito) | -
 b8 | two | -  | placa: 100 HORAS, objeto na mao | - | -
-b9 | close | -  | placa: 0 GOLS | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) @5 (acao + som de efeito) | -
-b10 | two | -  | placa: COMENTE! | - | -
+b9 | two | -  | placa: 0 GOLS | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) @5 (acao + som de efeito) | -
+b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 14% | medio 63% | aberto 17% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 64% | aberto 17% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

@@ -17,7 +17,7 @@ b7 | chave | loc_cidade | crowd | FAN, POV, POV | 20 | marco_mexico, tequila_bol
 b8 | simples | interior loja | two | POV, FAN | - | tequila_bolt | - | Logo apareceu gente revendendo na internet. Até garrafas vazias, por c
 b9 | simples | interior loja | group | FAN, POV | - | tequila_bolt | - | Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem n
 b10 | chave | loc_cidade | orbit | FAN, POV, MUS | 18 | marco_mexico, tequila_bolt | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A garrafa em forma de raio virou item de colecionador dos fãs da marca
-b11 | simples | loc_patio | close | MUS | - | tequila_bolt | - | Uma piada do dia da mentira que terminou numa prateleira de verdade.
+b11 | simples | loc_patio | two | MUS | - | tequila_bolt | - | Uma piada do dia da mentira que terminou numa prateleira de verdade.
 b12 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

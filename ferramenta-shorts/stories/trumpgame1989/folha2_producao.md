@@ -11,6 +11,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, jogo, politica, proprio, rosto, tabuleiro
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao smug; EXE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "1989" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (0.2-2.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (2.3-4.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (4.3-6.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b1 - Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um ...
 - Cenario: loc_cidade | luz: day | clima: limpo
@@ -21,6 +36,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, estados, nova
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
+- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (7.6-9.6 s): mesmo angulo
+  - take 2 (9.6-11.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (11.5-13.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b2 - Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios,...
 - Cenario: interior loja | luz: day | clima: limpo
@@ -31,6 +59,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/boardgame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinquedos, grande, jogo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: EXE (empresario) na esquerda, expressao grin, segura paper; TRU na direita, expressao smug; sem multidao; acao: entregar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (14.5-16.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (16.5-18.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (18.4-20.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b3 - As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com ...
 - Cenario: interior loja | luz: day | clima: limpo
@@ -41,6 +83,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/boardgame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, dolares, jogo, notas, trump
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)
+- PERSONAGENS: TRU no centro, expressao grin; sem multidao; acao: comemorar
+- OBJETO kit/boardgame: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
+- SOM: ding@20
+- SOM: sting@50
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (21.6-23.4 s): mesmo angulo
+  - take 2 (23.4-25.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (25.2-27.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b4 - Acontece que o manual tinha mais de doze páginas. As famílias abriam a...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -51,6 +109,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/boardgame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixa, doze, familias, manual
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: PAI na esquerda, expressao suspicious, segura paper; FIL na direita, expressao bored; sem multidao; acao: discutir
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (28.4-30.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (30.3-32.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (32.2-34.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b5 - Muita gente comprou só de presente, ou de curiosidade, e nunca tirou a...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -61,6 +131,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/boardgame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixa, curiosidade, pecas, presente
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: FIL na esquerda, expressao angry; PAI na direita, expressao nervous; sem multidao; acao: empurrar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- SOM: thump@40
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (35.2-37.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (37.4-39.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b6 - A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil...
 - Cenario: loc_cidade | luz: day | clima: limpo
@@ -71,6 +154,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, fracasso, jogos
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: EXE (empresario) na esquerda, expressao sad; POV no centro, expressao bored; POV na direita, expressao suspicious; multidao de 16 (POV) ATRAS dos principais; acao: batalha
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+- TEXTO NA TELA: "800 MIL" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (6.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b7 - O jogo saiu das lojas, e ficou esquecido por anos.
 - Cenario: interior loja | luz: day | clima: limpo
@@ -81,6 +176,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogo, lojas
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: EXE (empresario) na esquerda, expressao sad; TRU na direita, expressao suspicious; sem multidao; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (48.6-50.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (50.0-51.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b8 - Até que, em dois mil e quatro, Trump virou estrela de um programa de T...
 - Cenario: loc_pista | luz: day | clima: limpo
@@ -91,16 +197,43 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/boardgame, kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, programa
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao grin; EXE (empresario) na direita, expressao surprised; sem multidao; acao: entregar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (52.5-54.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (54.6-56.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b9 - E o jogo voltou às lojas, com regras mais simples, e com a frase famos...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao smug; POV no centro, expressao laugh; POV na direita, expressao grin; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "VOLTOU" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (5.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b10 - Hoje, as caixas originais de mil novecentos e oitenta e nove viraram i...
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -111,16 +244,38 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/boardgame, crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixas, colecionador
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: PAI na esquerda, expressao surprised; FIL na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (64.9-66.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (66.7-68.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b11 - Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade ...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/boardgame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): curiosidade, jogo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)
+- PERSONAGENS: TRU no centro, expressao smile; sem multidao; acao: comemorar
+- OBJETO kit/boardgame: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (69.9-71.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (71.8-73.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: day | clima: limpo
@@ -144,8 +299,8 @@ crate | b10 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/boardgame | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 70% | aberto 7% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar, b9 pular, b10 vai ate o outro
+- Objeto heroi: kit/boardgame | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 11% | detalhe 6%
+- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar, b10 vai ate o outro
 - RISCOS GERAIS: 
   - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
@@ -158,3 +313,12 @@ crate | b10 | pronto | conferir na folha de contato se le bem; se parecer caixot
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh trumpgame1989 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh trumpgame1989` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (74.9-76.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (76.6-78.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+

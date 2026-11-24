@@ -111,14 +111,14 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ENG",
-    "MUS"
+    "ENG"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/booster_air"
+    "kit/booster_air",
+    "kit/tower"
    ],
    "palavras": 19,
    "cena": "b2",
@@ -130,10 +130,9 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "MUS",
-    "ENA"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
@@ -149,10 +148,9 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
-    "ENA",
-    "ENG"
+    "ENA"
    ],
    "multidao": 0,
    "objetos": [
@@ -171,11 +169,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "ENG",
-    "ENA",
-    "MUS"
+    "ENG"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/booster_air"
    ],
@@ -195,7 +191,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "ENG"
    ],
@@ -214,13 +210,13 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "low",
+   "camera": "wide",
    "personagens": [
-    "ENA",
-    "MUS"
+    "ENA"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/tower",
     "kit/tower_catch"
    ],
    "palavras": 15,
@@ -235,11 +231,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "ENG",
-    "ENA",
-    "MUS"
+    "ENG"
    ],
-   "multidao": 20,
+   "multidao": 0,
    "objetos": [
     "kit/tower",
     "kit/tower_catch"
@@ -277,13 +271,13 @@
    "cenario": "interior True"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ENA",
-    "ENG"
+    "ENA"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/tower",
     "kit/tower_catch"
    ],
    "palavras": 16,
@@ -296,7 +290,7 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
@@ -315,7 +309,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],

@@ -12,10 +12,9 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS",
-    "DSG"
+    "MUS"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "kit/cybertruck"
    ],
@@ -29,11 +28,11 @@
    "cenario": "hall"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/cybertruck"
    ],
@@ -47,12 +46,11 @@
    "cenario": "hall"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "DSG",
-    "MUS"
+    "DSG"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "kit/cybertruck",
     "kit/steel_ball"
@@ -69,8 +67,7 @@
   {
    "camera": "crowd",
    "personagens": [
-    "MUS",
-    "DSG"
+    "MUS"
    ],
    "multidao": 30,
    "objetos": [
@@ -92,12 +89,11 @@
    "cenario": "hall"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "DSG",
-    "MUS"
+    "DSG"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "kit/cybertruck"
    ],
