@@ -28,9 +28,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 18 de POV
+- Personagens principais (1): POV (variante 0, expressao smile) | multidao: 18 de POV
 - Animacao: - | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados
@@ -39,8 +39,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 - TAKES: sequencia de acao em 3 cameras (3.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
@@ -203,7 +203,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): FRY (variante 0, expressao laugh); SIL (variante 0, expressao grin); CHE (variante 0, expressao laugh) | multidao: 18 de POV
+- Personagens principais (2): FRY (variante 0, expressao laugh); SIL (variante 0, expressao grin) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): graca
@@ -212,8 +212,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de multidao; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
-- PERSONAGENS: FRY na esquerda, expressao laugh; SIL (cientista) no centro, expressao grin; CHE (empresario) na direita, expressao laugh; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
+- PERSONAGENS: FRY na esquerda, expressao laugh; SIL (cientista) na direita, expressao grin; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena

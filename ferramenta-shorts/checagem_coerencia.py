@@ -51,6 +51,10 @@ if os.path.exists(f'stories/{i}/folha3_acao.md') and 'R6' not in ok:
         _tiro = _b6.get('tiros') is not False and (_arm or re.search(r'atir|tiro|dispar|fuzil|bala', n(m.group(2))))   # so' vira tiroteio de verdade com arma em cena ou palavra de tiro
         if '| BATALHA |' in m.group(3) and _tiro and not _b6.get('batalha') and not re.search(r'guerra|batalh|lut|atac|atir|tiro|bomb|combat|invad|cerc|ataque|canh|soldad|tropa|exercit|confront|briga|brigar', n(m.group(2))):
             erros.append(f'R6 b{m.group(1)}: a ferramenta pos BATALHA (tropa atirando) numa frase sem luta: ponha "batalha": false, "tiros": false na cena')
+# R7: cenario "palace" e' PRAIA de areia (navio em cima da areia): so' com praia/litoral/palacio na historia
+for k, b in enumerate(BT):
+    if b.get('set') == 'palace' and not b.get('interior') and 'R7' not in ok and not re.search(r'praia|areia|litoral|palacio|costa', n(b.get('say', ''))):
+        erros.append(f'R7 b{k}: cenario "palace" desenha uma PRAIA de areia; a frase nao fala de praia: use harbor (cais), countryside ou interior')
 # gancho
 s0 = n(BT[0]['say']) if BT else ''
 if re.match(r'(segundo|dizem|conta-se|contam|reza a lenda|era (mil|o ano)|em (mil|\d{3,4})|no ano de)', s0) and 'R4' not in ok:

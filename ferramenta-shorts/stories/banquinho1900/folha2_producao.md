@@ -208,7 +208,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
 - PERSONAGENS: GOV no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):

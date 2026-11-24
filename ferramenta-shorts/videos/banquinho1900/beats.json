@@ -197,11 +197,6 @@
    "detalhe": false,
    "fachada": false,
    "objetos": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.8,
-   "d0": 32.6,
-   "d1": 31.0,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), sem multidao na frente",
@@ -213,7 +208,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.8,
+   "d0": 32.6,
+   "d1": 31.0
   },
   {
    "shot": "group",
@@ -285,7 +285,7 @@
    "d1": 11.5
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "countryside",
    "who": [
     "GOV:0:sad"
@@ -318,7 +318,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "ano": 1900,
