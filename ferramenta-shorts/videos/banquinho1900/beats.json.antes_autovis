@@ -58,7 +58,7 @@
      "kit/golden_stool",
      0.6,
      1.0,
-     1.5
+     2.6
     ]
    ],
    "text": "1900",
@@ -66,6 +66,7 @@
    "acao": "discutir",
    "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
    "set": "countryside",
+   "detalhe": true,
    "_auto_vis": 2
   },
   {
@@ -101,14 +102,15 @@
    "props": [
     [
      "kit/golden_stool",
-     0.3,
-     2.2,
-     1.3
+     0.6,
+     1.0,
+     2.2
     ]
    ],
    "acao": "conversar",
    "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
-   "set": "countryside"
+   "set": "countryside",
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -131,7 +133,7 @@
    "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "jungle",
    "who": [
     "ASH:0:angry"
@@ -139,7 +141,7 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 20,
+    "n": 12,
     "outfits": [
      "ASH"
     ],
@@ -150,22 +152,23 @@
     [
      "buildings/castle_tower",
      0.0,
-     -9.0,
-     1.2
+     -12.0,
+     1.6
     ]
    ],
    "text": "REVOLTA",
    "titulo": true,
    "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "detalhe": false,
-   "_auto_vis": 3,
    "cx": 0.0,
-   "cz": -6.3,
-   "d0": 21.0,
-   "d1": 18.0
+   "cz": -8.0,
+   "d0": 23.0,
+   "d1": 20.0,
+   "h": 3.0,
+   "_auto_vis": 2
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "jungle",
    "who": [
     "SOL:0:stern"
@@ -182,6 +185,8 @@
    "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
    "props": [],
    "detalhe": false,
+   "d0": 15.0,
+   "d1": 14.0,
    "_auto_vis": 2
   },
   {
@@ -202,7 +207,15 @@
    ],
    "interacao": "cochichar",
    "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
-   "interior": "loja"
+   "interior": "loja",
+   "props": [
+    [
+     "kit/golden_stool",
+     0.6,
+     0.4,
+     1.6
+    ]
+   ]
   },
   {
    "shot": "close",
@@ -213,12 +226,13 @@
    "props": [
     [
      "kit/golden_stool",
-     1.0,
      0.6,
-     1.3
+     1.0,
+     1.6
     ]
    ],
-   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele."
+   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
+   "_auto_vis": 2
   }
  ],
  "ano": 1900,

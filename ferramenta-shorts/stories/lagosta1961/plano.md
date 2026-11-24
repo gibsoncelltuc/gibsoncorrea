@@ -3,8 +3,8 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1961 | - | -
-b1 | reveal | -  | tropa, mapa | encena: x_pesca (lift) @10 (acao + som de efeito) | -
-b2 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | encena: x_pesca (lift) @10 (acao + som de efeito) | -
+b2 | wide | -  | tropa | - | -
 b3 | two | -  | - | encena: fala (point) @2 (acao + som de efeito) | -
 b4 | group | -  | interior | encena: fala (point) @2 (acao + som de efeito); encena: x_defende (cross) @8 (acao + som de efeito) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: NAVIOS E AVIÕES | encena: escala (lift) @16 (acao + som de efeito) | -
@@ -14,5 +14,5 @@ b8 | reveal | -  | placa: 1963 | chegaram (dust + som de impacto); encena: chega
 b9 | close | -  | interior | - | -
 b10 | two | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 69% | aberto 17% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 12% | medio 65% | aberto 21% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

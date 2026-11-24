@@ -142,11 +142,13 @@
    "props": [
     [
      "kit/ear_jar",
-     0.9,
-     0.8,
-     1.6
+     0.0,
+     1.4,
+     2.0
     ]
-   ]
+   ],
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "shot": "two",
@@ -246,13 +248,14 @@
    "props": [
     [
      "kit/ear_jar",
-     0.9,
-     0.8,
-     1.6
+     0.0,
+     1.4,
+     2.0
     ]
    ],
    "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
-   "detalhe": false
+   "detalhe": true,
+   "_auto_vis": 3
   }
  ],
  "ano": 1739,

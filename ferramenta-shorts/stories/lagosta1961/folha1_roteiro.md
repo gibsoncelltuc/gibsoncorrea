@@ -13,21 +13,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~5.5 s)
 - Narracao: Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.
-- Som ambiente: sea
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@70
 - Efeito + som nas palavras-chave: encena: x_pesca (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@70
 - Texto na tela: - | mapa: PERNAMBUCO
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~5.5 s)
 - Narracao: O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.8 s)
 - Narracao: A França respondia que a lagosta nada, e por isso era de quem pescasse.

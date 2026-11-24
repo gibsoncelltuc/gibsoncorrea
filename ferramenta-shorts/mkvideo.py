@@ -1379,7 +1379,11 @@ def build_beat(k, b):
         # NADA NA FRENTE DE PERSONAGEM (ordem do Gibson): objeto solto (fogueira, barril, caixa...) que cairia em cima/na frente de alguem vai para o lado livre
         if _ppos and not str(asset).startswith(('kit/room', 'kit/marco', 'kit/rg_', 'buildings/', 'vehicles/', 'kit/ring', 'kit/hospital_ext', 'kit/prison', 'kit/porch', 'mk/')) and float(z) > -2.6 and not (len(p) > 4 and isinstance(p[4], dict) and (p[4].get('carregado') or p[4].get('fixo'))):
             if any(abs(float(dx) - px_) < 1.35 and float(z) > pz_ - 1.6 for px_, pz_ in _ppos):
-                _xs = [px_ for px_, pz_ in _ppos]; dx = round((max(_xs) + 2.0) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 2.0), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.4)
+                _xs = sorted(px_ for px_, pz_ in _ppos); _gaps = [(_xs[j + 1] - _xs[j], (_xs[j + 1] + _xs[j]) / 2) for j in range(len(_xs) - 1)]
+                _eh_her = bool(HEROI) and re.sub(r'_(red|yellow|purple|striped)$', '', str(asset)) == re.sub(r'_(red|yellow|purple|striped)$', '', str(HEROI))
+                if _eh_her and _gaps and max(_gaps)[0] >= 1.6: dx = round(max(_gaps)[1], 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.3)   # 24/11 OBJETO HEROI: no vao ENTRE os personagens (antes ia 2 m para o lado e saia cortado na borda)
+                elif _eh_her: dx = round((max(_xs) + 1.3) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 1.3), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.6)   # sozinho ou colados: logo ao lado, dentro do quadro
+                else: dx = round((max(_xs) + 2.0) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 2.0), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.4)
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
         if asset == 'kit/searchlight' and 'vfx' not in ex and (b.get('hora') == 'noite' or b.get('light') == 'night' or (not b.get('hora') and re.search(r'holofote|madrugada', nrm0x(b.get('say', ''))))): ex = {**ex, 'vfx': [{'k': 'feixe', 'a': 0, 'b': 999999, 'ph': round((float(dx) * 1.7 + float(z)) % 6.28, 2), 'inc': -0.55 if float(dx) > 0.5 else (0.55 if float(dx) < -0.5 else 0)}]}   # HOLOFOTE a noite: facho de luz varrendo o ceu (Batalha de Los Angeles)

@@ -58,30 +58,26 @@
    "props": [
     [
      "kit/lobster",
-     0.4,
-     2.6,
-     0.55
+     0.6,
+     1.0,
+     1.5
     ]
    ],
    "text": "1961",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
-   "set": "street"
+   "set": "street",
+   "_auto_vis": 2
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "set": "harbor",
    "who": [
-    "PES:0:stern",
-    "PES:1:angry"
+    "PES:0:stern"
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "PES"
-    ],
-    "march": false
+    "n": 0
    },
    "mapa": "PERNAMBUCO",
    "mapa_at": 3,
@@ -99,17 +95,25 @@
    ],
    "sfx": [
     "thump@70"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -5.6,
+   "h": 2.8,
+   "d0": 15.0,
+   "d1": 13.0,
+   "_auto_vis": 3
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "BRA:0:angry",
-    "PES:0:stern"
+    "BRA:0:angry"
    ],
    "acao": "discutir",
    "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
-   "set": "harbor"
+   "set": "harbor",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -140,11 +144,10 @@
    "interior": "pedra"
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "harbor",
    "who": [
-    "MAR:0:angry",
-    "MAR:1:shout"
+    "MAR:0:angry"
    ],
    "batalha": true,
    "tiros": false,
@@ -173,7 +176,11 @@
    ],
    "text": "NAVIOS E AVIÕES",
    "titulo": true,
-   "say": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu."
+   "say": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "two",
@@ -220,13 +227,14 @@
    "props": [
     [
      "kit/lobster",
-     0.9,
      0.6,
-     0.65
+     1.0,
+     1.5
     ]
    ],
    "say": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.",
-   "interior": "pedra"
+   "interior": "pedra",
+   "_auto_vis": 2
   }
  ],
  "ano": 1961,
