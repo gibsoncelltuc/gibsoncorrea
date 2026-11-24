@@ -7,7 +7,15 @@
    "item": "A Piada que Virou Tequila",
    "consultas": [
     "A Piada que Virou Tequila",
-    "Elon Musk Dois Era Estados Unidos De Musk Tesla Teslaquila 2020"
+    "Uma Em Elon Musk Tesla Na Teslaquila 2020"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria c",
+   "consultas": [
+    "Estados Unidos",
+    "Estados Unidos redes sociais fabrica da Tesla e Jalisco Mexico destilaria com campos de ag"
    ]
   },
   {
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Elon Musk (camiseta preta)",
+   "consultas": [
+    "Elon Musk camiseta preta",
+    "Elon Musk camiseta preta 2020"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "fas da Tesla",
+   "consultas": [
+    "fas da Tesla",
+    "fas da Tesla 2020"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "representante do Conselho Regulador da Tequila",
+   "consultas": [
+    "representante do Conselho Regulador da Tequila",
+    "representante do Conselho Regulador da Tequila 2020"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "compradores",
+   "consultas": [
+    "compradores",
+    "compradores 2020"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "garrafa de vidro em forma de raio com suporte de metal",
+   "consultas": [
+    "garrafa de vidro em forma de raio com suporte de metal",
+    "garrafa de vidro em forma de raio com suporte de metal 2020"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "agave azul",
+   "consultas": [
+    "agave azul",
+    "agave azul 2020"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "placa da Tesla",
+   "consultas": [
+    "placa da Tesla",
+    "placa da Tesla 2020"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "tequila bolt",
    "consultas": [
-    "tequila bolt",
+    "garrafa de vidro em forma de raio com suporte de metal",
     "A Piada que Virou Tequila"
    ]
   },

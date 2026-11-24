@@ -18,26 +18,26 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MUS (variante 0, expressao smile); EBY (variante 0, expressao neutral)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ebay, epoca, leiloes, paypal, site
 - RISCOS: nenhum
 
-## Cena b2 - O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem pr...
-- Cenario: interior loja | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+## Cena b2 - O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem pre...
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banco, email, paypal, pessoas
+- Objetos/modelos: kit/phone
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banco, email, mandar, paypal
 - RISCOS: nenhum
 
 ## Cena b3 - O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a co...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): EBY (variante 0, expressao shock); MUS (variante 0, expressao smile) | multidao: 6 de POV
-- Animacao: reagir
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): EBY (variante 0, expressao shock); MUS (variante 0, expressao smile)
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anuncio, compra, dois, estados
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smug); EBY (variante 0, expressao smile)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ebay, pagamento
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MUS (variante 0, expressao grin); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paypal, repente
 - RISCOS: nenhum
@@ -87,23 +87,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, internet, venda
 - RISCOS: nenhum
 
 ## Cena b9 - Quem diria: um pagamento online chegou ao espaço.
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): MUS (variante 0, expressao smug)
-- Animacao: conversar
-- Objetos/modelos: -
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 6 de POV
+- Animacao: encena
+- Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pagamento
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: golden | clima: limpo
+- Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): EBY (variante 0, expressao grin)
@@ -118,13 +118,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/coin | b0, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon9_land | b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon_air | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b6 | planos abertos: 3 | mistura: close 10% | medio 64% | aberto 21% | detalhe 4%
-- Interacoes: b0 entregar, b1 o outro se aproxima, b2 insiste, b4 vai ate o outro, b5 aproxima-se, b8 avanca e o outro recua
+- Objeto heroi: kit/coin | grandes momentos: b6 | planos abertos: 3 | mistura: close 10% | medio 66% | aberto 19% | detalhe 4%
+- Interacoes: b0 entregar, b1 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b5 avanca e o outro recua, b8 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paypal2002  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paypal2002/moodboard.jpg
 

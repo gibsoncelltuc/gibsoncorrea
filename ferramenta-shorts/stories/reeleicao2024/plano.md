@@ -15,5 +15,5 @@ b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: 47º | - | -
 b10 | two | noite  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino); encena: perde (facepalm) @0 (acao + som de efeito); encena: chega (point) @1 (acao + som de efeito); encena: vence (up) @3 (acao + som de efeito) | -
 b11 | close | noite  | placa: COMENTE! | - | -
 
-Mistura de planos: close 21% | medio 61% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 22% | medio 62% | aberto 13% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

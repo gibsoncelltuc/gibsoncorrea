@@ -1,30 +1,25 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 04 - A Fila de Luzes no Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 5.5s - 21 palavras - plano two
-> "Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | decolou (2.2s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: voa na palavra decolou (2.2s): executa: decola: poeira no chao, olha para cima
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b1 - 6.5s a 12.2s - 18 palavras - plano wide
-> "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial."
+## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
+> "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | FLÓRIDA | OK |
-<!-- FISICA -->
+| 1 | cruzou (1.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | 3 MINUTOS | OK |
+
+## Cena b1 - 5.6s a 14.1s - 24 palavras - plano reveal
+> "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
@@ -110,14 +105,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | MAPA | MUNDO | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra explicaram (34.8s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
-
-## Cena b7 - 38.5s a 41.8s - 11 palavras - plano wide
+## Cena b7 - 38.9s a 42.6s - 11 palavras - plano two
 > "Os satélites ainda estavam juntos, em fila, logo depois do lançamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

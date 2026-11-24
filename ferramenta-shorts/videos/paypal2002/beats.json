@@ -92,7 +92,19 @@
    "acao": "conversar",
    "say": "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/tv",
+     0.0,
+     -1.5,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "eBay"
   },
   {
    "shot": "two",
@@ -100,12 +112,24 @@
     "POV:0:smile",
     "POV:1:grin"
    ],
-   "say": "O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem precisar de banco.",
+   "say": "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.",
    "fachada": false,
-   "interior": "loja"
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "E-MAIL = DINHEIRO",
+   "interior": "madeira"
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "EBY:0:shock",
     "MUS:0:smile"
@@ -114,7 +138,8 @@
    "mapa_at": 6,
    "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
    "fachada": false,
-   "set": "street"
+   "set": "street",
+   "acao": "conversar"
   },
   {
    "shot": "two",
@@ -327,13 +352,24 @@
    "_auto_vis": 3
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MUS:0:smug"
    ],
    "say": "Quem diria: um pagamento online chegou ao espaço.",
    "fachada": false,
-   "set": "loc_campo"
+   "set": "loc_pista",
+   "props": [
+    [
+     "kit/falcon_air",
+     0.0,
+     -14.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   }
  ],
  "fontes": [

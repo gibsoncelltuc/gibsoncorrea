@@ -17,16 +17,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: eBay
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.2 s)
-- Narracao: O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem precisar de banco.
+- Narracao: O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: fala (point) @5 -> acao + som de efeito; encena: paga (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: E-MAIL = DINHEIRO
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.6 s)

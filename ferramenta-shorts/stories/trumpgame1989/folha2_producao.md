@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/trumpgame1989/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py trumpgame1989` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Muito antes da política, Donald Trump lançou um jogo de tabuleiro com ...
+## Cena b0 - Donald Trump lançou um jogo de tabuleiro com o próprio rosto no dinhei...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); EXE (variante 0, expressao grin)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, jogo, politica, proprio, rosto, tabuleiro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, jogo, proprio, tabuleiro
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -27,14 +27,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (4.3-6.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b1 - Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um ...
+## Cena b1 - Era mil novecentos e oitenta e nove, e ele era um empresário famoso de...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: kit/marco_liberdade
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, estados, nova
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, nova
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -50,14 +50,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (11.5-13.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b2 - Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios,...
+## Cena b2 - Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hoté...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): EXE (variante 0, expressao grin, segura paper); TRU (variante 0, expressao smug)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/boardgame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinquedos, grande, jogo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinquedos, fabrica, jogo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -74,14 +74,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (18.4-20.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b3 - As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com ...
+## Cena b3 - As notas eram de dez, cinquenta e cem milhões de dólares, com a cara d...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): TRU (variante 0, expressao grin)
 - Animacao: comemorar
 - Objetos/modelos: kit/boardgame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, dolares, jogo, notas, trump
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, dolares, notas, trump
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -100,14 +100,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (25.2-27.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b4 - Acontece que o manual tinha mais de doze páginas. As famílias abriam a...
+## Cena b4 - Acontece que o manual era longo, e as famílias abriam a caixa e não en...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PAI (variante 0, expressao suspicious, segura paper); FIL (variante 0, expressao bored)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/boardgame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixa, doze, familias, manual
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixa, familias, manual
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -122,37 +122,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (32.2-34.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b5 - Muita gente comprou só de presente, ou de curiosidade, e nunca tirou a...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): FIL (variante 0, expressao angry); PAI (variante 0, expressao nervous)
-- Animacao: conversar | interacao: empurrar
-- Objetos/modelos: kit/boardgame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixa, curiosidade, pecas, presente
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
-- PERSONAGENS: FIL na esquerda, expressao angry; PAI na direita, expressao nervous; sem multidao; acao: empurrar
-- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
-- SOM: thump@40
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (35.2-37.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (37.4-39.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b6 - A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil...
+## Cena b5 - A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos m...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): EXE (variante 0, expressao sad); POV (variante 0, expressao bored); POV (variante 1, expressao suspicious) | multidao: 30 de POV
 - Animacao: encena | batalha encenada
 - Objetos/modelos: kit/marco_liberdade
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, fracasso, jogos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, jogos
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -167,34 +144,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (6.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b7 - O jogo saiu das lojas, e ficou esquecido por anos.
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): EXE (variante 0, expressao sad); TRU (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogo, lojas
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loja / taverna; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: EXE (empresario) na esquerda, expressao sad; TRU na direita, expressao suspicious; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (48.6-50.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (50.0-51.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b8 - Até que, em dois mil e quatro, Trump virou estrela de um programa de T...
+## Cena b6 - Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao grin); EXE (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/boardgame, kit/tv
+- Objetos/modelos: kit/boardgame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, programa
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -211,7 +167,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (54.6-56.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b9 - E o jogo voltou às lojas, com regras mais simples, e com a frase famos...
+## Cena b7 - E o jogo voltou às lojas, com regras mais simples e a frase do program...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -235,35 +191,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (5.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b10 - Hoje, as caixas originais de mil novecentos e oitenta e nove viraram i...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): PAI (variante 0, expressao surprised); FIL (variante 0, expressao grin)
-- Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/boardgame, crate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixas, colecionador
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
-- PERSONAGENS: PAI na esquerda, expressao surprised; FIL na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (64.9-66.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (66.7-68.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b11 - Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade ...
+## Cena b8 - Um jogo sobre ficar bilionário, que virou curiosidade.
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TRU (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/boardgame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): curiosidade, jogo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -277,7 +212,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (71.8-73.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -292,22 +227,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/boardgame | b0, b2, b3, b4, b5, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_liberdade | b0, b1, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tv | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-crate | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/boardgame | b0, b2, b3, b4, b6, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b1, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/boardgame | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 11% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar, b10 vai ate o outro
+- Objeto heroi: kit/boardgame | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 25% | medio 56% | aberto 14% | detalhe 6%
+- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b6 entregar
 - RISCOS GERAIS: 
-  - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py trumpgame1989  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/trumpgame1989/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh trumpgame1989 bN bM` (so essas cenas).

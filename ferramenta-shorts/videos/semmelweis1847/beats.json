@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/maca",
+ "heroi": "kit/wash_basin",
  "outfits": {
   "SEM": {
    "profissao": "medico",
@@ -77,7 +77,7 @@
     ]
    ],
    "text": "1847",
-   "say": "Um médico pediu uma coisa simples aos colegas: lavem as mãos. E foi expulso do hospital por isso.",
+   "say": "Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hospital.",
    "fx": [
     "stars@30"
    ],
@@ -154,7 +154,7 @@
     "SEM:0:worried",
     "PAR:0:sad"
    ],
-   "say": "O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos."
+   "say": "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos."
   },
   {
    "shot": "two",
@@ -169,55 +169,7 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
-  },
-  {
-   "shot": "group",
-   "who": [
-    "MAE:0:scared",
-    "POV:0:cry"
-   ],
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "MAE",
-     "POV"
-    ],
-    "march": false,
-    "expr": "scared"
-   },
-   "say": "As mulheres imploravam de joelhos para não ir para a ala dos médicos.",
-   "batalha": false,
-   "tiros": false,
-   "shot_lock": true,
-   "impact": false,
-   "props": [
-    [
-     "kit/maca",
-     0.0,
-     -1.2,
-     1.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/maca",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "say": "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
   },
   {
    "shot": "two",
@@ -232,7 +184,7 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre."
+   "say": "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre."
   },
   {
    "shot": "close",
@@ -246,7 +198,7 @@
    "sfx": [
     "ding@20"
    ],
-   "say": "Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas."
+   "say": "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas."
   },
   {
    "shot": "two",
@@ -272,7 +224,7 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.",
+   "say": "Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar.",
    "batalha": false,
    "quadro": {
     "local": "sala de madeira",
@@ -289,7 +241,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "detalhe": true
   },
   {
    "shot": "crowd",
@@ -329,7 +282,7 @@
    ],
    "text": "VIDAS SALVAS",
    "titulo": true,
-   "say": "As mortes despencaram quase dez vezes. Centenas de mães foram salvas.",
+   "say": "As mortes despencaram quase dez vezes.",
    "batalha": true,
    "tiros": false,
    "quadro": {
@@ -358,7 +311,7 @@
    ],
    "acao": "discutir",
    "interacao": "empurrar",
-   "say": "Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora.",
+   "say": "Mas os médicos se ofenderam, e Semmelweis foi mandado embora.",
    "fx": [
     "ring@50"
    ],
@@ -385,7 +338,7 @@
      }
     ]
    ],
-   "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.",
+   "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.",
    "detalhe": true,
    "shot_lock": true,
    "quadro": {
@@ -422,7 +375,7 @@
     ]
    ],
    "text": "LAVE AS MÃOS",
-   "say": "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.",
+   "say": "Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
@@ -438,8 +391,45 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "explica": false
   }
  ],
- "variar_cenario": false
+ "variar_cenario": false,
+ "visual": {
+  "local": "Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto com leitos em fileira, sala de autopsia",
+  "quando": "1846-1849, dia",
+  "participantes": [
+   "Ignaz Semmelweis (calvo, bigode, sobrecasaca escura)",
+   "medicos e estudantes de sobrecasaca",
+   "parteiras de avental branco",
+   "maes gravidas",
+   "Jakob Kolletschka"
+  ],
+  "roupas": {
+   "SEM": "sobrecasaca escura e bigode",
+   "DIR": "sobrecasaca e costeletas grisalhas",
+   "PAR": "vestido escuro e avental branco",
+   "MAE": "camisola branca de hospital",
+   "KOL": "sobrecasaca e barba"
+  },
+  "cenario": "enfermaria longa com leitos de ferro em fileira, paredes claras, janelas altas; bacia de agua clorada na porta",
+  "objetos": [
+   "bacia com agua e cal clorada",
+   "bisturi",
+   "leitos de hospital",
+   "lapide"
+  ],
+  "explicacoes": [
+   "Na Primeira Clinica (medicos) de Viena a febre puerperal matava muito mais que na Segunda (parteiras); apos a morte de Kolletschka, Semmelweis impos a lavagem com cal clorada em 1847 e a mortalidade caiu de cerca de 18% para 2%; foi demitido e morreu em 1865 (fonte: Wikipedia Ignaz Semmelweis)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+   "https://en.wikipedia.org/wiki/Vienna_General_Hospital"
+  ],
+  "buscas": {
+   "hospital": "Vienna General Hospital 1840s maternity ward",
+   "medico": "Ignaz Semmelweis portrait"
+  }
+ }
 }

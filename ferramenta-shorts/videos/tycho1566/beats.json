@@ -92,7 +92,7 @@
    ],
    "mapa": "DINAMARCA",
    "mapa_at": 3,
-   "say": "Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha."
+   "say": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
   },
   {
    "shot": "group",
@@ -120,7 +120,7 @@
     "whoosh@36",
     "thump@40"
    ],
-   "say": "A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro."
+   "say": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro."
   },
   {
    "shot": "two",
@@ -276,35 +276,6 @@
    ]
   },
   {
-   "shot": "crowd",
-   "hora": "dia",
-   "who": [
-    "KEP:0:laugh",
-    "POV:0:grin",
-    "POV:1:laugh"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "fx": [
-    "stars@20",
-    "ring@50"
-   ],
-   "sfx": [
-    "ding@20",
-    "sting@50"
-   ],
-   "say": "Essa descoberta mudou a astronomia para sempre."
-  },
-  {
    "shot": "two",
    "who": [
     "TYC:0:smug"
@@ -320,7 +291,7 @@
      }
     ]
    ],
-   "say": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.",
+   "say": "Com a cabeça nas estrelas, e o nariz de metal.",
    "verbos_ok": [
     "entro"
    ],
@@ -342,5 +313,40 @@
    "d1": 8.0
   }
  ],
- "max_wide": 3
+ "max_wide": 3,
+ "visual": {
+  "local": "Rostock (Alemanha) em 1566; ilha de Hven (Dinamarca) com o castelo-observatorio Uraniborg",
+  "quando": "dezembro de 1566, noite (duelo); 1576-1597 em Hven",
+  "participantes": [
+   "Tycho Brahe (bigode longo, gibao nobre, nariz de metal)",
+   "primo Manderup Parsbjerg",
+   "rei Frederico II da Dinamarca",
+   "Johannes Kepler"
+  ],
+  "roupas": {
+   "TYC": "gibao renascentista com gola de rufos e capa",
+   "PAR": "gibao escuro e espada",
+   "REI": "manto real e coroa",
+   "KEP": "gola branca e casaco escuro",
+   "POV": "estudantes renascentistas"
+  },
+  "cenario": "salao de festa de madeira com velas, patio escuro para o duelo, ilha verde com castelo de tijolo e cupulas, instrumentos de medir estrelas",
+  "objetos": [
+   "nariz de latao",
+   "espadas",
+   "quadrante mural",
+   "Uraniborg"
+  ],
+  "explicacoes": [
+   "Em 1566, em Rostock, Tycho perdeu parte do nariz num duelo com o primo Manderup Parsbjerg e passou a usar protese de metal; Frederico II lhe deu a ilha de Hven, onde ergueu Uraniborg; seus dados permitiram a Kepler suas leis (fonte: Wikipedia Tycho Brahe)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tycho_Brahe",
+   "https://en.wikipedia.org/wiki/Uraniborg"
+  ],
+  "buscas": {
+   "castelo": "Uraniborg engraving Hven",
+   "retrato": "Tycho Brahe portrait nose"
+  }
+ }
 }

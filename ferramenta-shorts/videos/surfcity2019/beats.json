@@ -57,7 +57,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City El Salvador.",
+   "say": "Um país pequeno decidiu virar a capital mundial do surfe.",
    "shot": "two",
    "who": [
     "BUK:0:smug"
@@ -97,7 +97,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal, ao mundo.",
+   "say": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal.",
    "shot": "two",
    "who": [
     "BUK:0:grin",
@@ -433,5 +433,38 @@
  ],
  "ano": 2019,
  "regiao": "colonial",
- "cinf": 4.5
+ "cinf": 4.5,
+ "visual": {
+  "local": "La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de pedra, coqueiros, morros verdes)",
+  "quando": "2019 a 2025, dia de sol",
+  "participantes": [
+   "Nayib Bukele (jaqueta escura, bone)",
+   "surfistas com prancha",
+   "jornalistas",
+   "moradores da costa"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura e barba",
+   "JOR": "camisa social com microfone",
+   "JOR2": "camiseta e cracha de imprensa",
+   "POV": "roupa de praia"
+  },
+  "cenario": "praia de areia escura vulcanica com ondas longas, coqueiros, palanque do campeonato; rua do porto de La Libertad",
+  "objetos": [
+   "pranchas de surfe",
+   "placa Surf City",
+   "palanque de competicao"
+  ],
+  "explicacoes": [
+   "Surf City El Salvador: programa de turismo lancado em 2019; o pais sediou o ISA World Surfing Games 2021 (classificatoria olimpica para Toquio) e 2023 (para Paris) em El Sunzal e La Bocana (fonte: Wikipedia Surf City El Salvador; ISA)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/El_Sunzal",
+   "https://en.wikipedia.org/wiki/La_Libertad,_El_Salvador"
+  ],
+  "buscas": {
+   "praia": "El Sunzal surf El Salvador",
+   "evento": "ISA World Surfing Games 2021 El Salvador"
+  }
+ }
 }

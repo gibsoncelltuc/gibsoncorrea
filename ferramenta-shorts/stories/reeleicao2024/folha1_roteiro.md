@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 21 - A Volta de Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 173 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 170 palavras (~59 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: 2024
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.2 s)
-- Narracao: Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos.
+## Cena b1  (~4.5 s)
+- Narracao: Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.5 s)
-- Narracao: Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.
+## Cena b9  (~5.2 s)
+- Narracao: Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -

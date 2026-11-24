@@ -71,19 +71,42 @@
   "mk/Vase_4",
   "mk/Workbench"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noite da vitoria, Capitolio em Washington na posse",
+  "quando": "5 e 6 de novembro de 2024 (noite e madrugada); posse em 20 de janeiro de 2025, dia frio",
+  "participantes": [
+   "Donald Trump (terno azul, gravata vermelha)",
+   "apoiadores de bone vermelho",
+   "eleitores",
+   "Kamala Harris (citada)"
+  ],
+  "roupas": {
+   "TRU": "terno azul escuro e gravata vermelha",
+   "REP": "bone vermelho e camiseta",
+   "ELE": "roupa casual com adesivo de voto",
+   "POV": "roupa casual"
+  },
+  "cenario": "fila de votacao com urnas e cabines, palco com bandeiras americanas, Casa Branca e Capitolio",
+  "objetos": [
+   "urna e cedulas",
+   "bandeiras dos EUA",
+   "Casa Branca"
+  ],
+  "explicacoes": [
+   "Trump venceu a eleicao de 5/11/2024 com 312 votos no colegio eleitoral, vencendo os sete estados decisivos; tomou posse em 20/1/2025 como 47o presidente; Grover Cleveland (22o e 24o) foi o unico antes com mandatos nao consecutivos (fonte: Wikipedia 2024 United States presidential election)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/2024_United_States_presidential_election",
+   "https://en.wikipedia.org/wiki/Second_inauguration_of_Donald_Trump"
+  ],
+  "buscas": {
+   "vitoria": "Trump victory speech Palm Beach November 2024"
+  }
+ },
  "fontes": [
   "https://ballotpedia.org/Presidential_election,_2024",
   "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
   "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

@@ -50,9 +50,9 @@
     "kit/marco_casabranca",
     "kit/white_house"
    ],
-   "palavras": 15,
+   "palavras": 13,
    "cena": "b1",
-   "frase": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos.",
+   "frase": "Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -200,9 +200,9 @@
     "kit/marco_casabranca",
     "kit/white_house"
    ],
-   "palavras": 16,
+   "palavras": 15,
    "cena": "b9",
-   "frase": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.",
+   "frase": "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

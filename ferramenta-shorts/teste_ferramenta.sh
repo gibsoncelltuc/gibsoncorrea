@@ -163,6 +163,7 @@ ok = ('tiro' in S.explicar('Mas o tiro nunca veio.')[0] and S.cena('Agricultores
 raise SystemExit(0 if ok else 1)" || f "sentido.py nao entende negacao/figurado/hipotese/valor (o tiro nunca veio, pediram metralhadoras, misturou etiquetas, preco de uma casa)"
 grep -q "_neg_idx_base(say) | _SENT.figurado(say)" mkvideo.py && grep -q "_SENT.cena(_b.get('say', ''))" mkvideo.py || f "mkvideo nao usa o sentido da frase"
 grep -q "suspeitas.py \$ID --corrigir" make_video.sh && grep -q "suspeitas.py" lista_revisao.py || f "fila sem a conferencia automatica frase x cena (suspeitas.py)"
+grep -q "voz antiga: o texto mudou" mkvideo.py || f "duracao medida na voz de um texto antigo (roteiro encurtado continua acusando video longo)"
 grep -q "_negm" suspeitas.py || f "suspeitas acusa multidao em frase negada (nao foram pessoas)"
 grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----

@@ -76,7 +76,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade.",
+   "say": "Uma piada de primeiro de abril virou uma garrafa de duzentos e cinquenta dólares.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
@@ -102,7 +102,7 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Era primeiro de abril de dois mil e dezoito, o dia da mentira, nos Estados Unidos."
+   "say": "Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido."
   },
   {
    "shot": "two",
@@ -158,7 +158,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila.",
+   "say": "Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila.",
    "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -230,7 +230,7 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.",
+   "say": "Acontece que o conselho que protege a tequila no México reclamou: o nome tem regras.",
    "set": "outback",
    "props": [
     [
@@ -444,7 +444,7 @@
    ],
    "text": "ESGOTOU",
    "titulo": true,
-   "say": "Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas.",
+   "say": "Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas horas.",
    "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -481,113 +481,11 @@
     ]
    ],
    "interacao": "entregar",
-   "say": "Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.",
+   "say": "Logo, até garrafas vazias apareceram à venda na internet por mais de mil dólares.",
    "interior": "loja",
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tequila_bolt",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "who": [
-    "FAN:0:shock",
-    "POV:1:surprised"
-   ],
-   "props": [
-    [
-     "kit/tequila_bolt",
-     0.0,
-     -1.2,
-     1.65,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "acao": "conversar",
-   "say": "Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro.",
-   "interior": "loja",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tequila_bolt",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "FAN:0:laugh",
-    "POV:0:laugh",
-    "MUS:0:grin"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV",
-     "FAN"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "props": [
-    [
-     "kit/tequila_bolt",
-     0.0,
-     -1.2,
-     2.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "COLEÇÃO",
-   "titulo": true,
-   "say": "A garrafa em forma de raio virou item de colecionador dos fãs da marca.",
-   "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/tequila_bolt",
@@ -642,5 +540,38 @@
   "https://www.cnbc.com/make-it/2020/11/06/elon-musks-tesla-tequila.html",
   "https://www.businessinsider.com/tesla-tequila-teslaquila-resold-online-ebay-empty-bottle-2020-11"
  ],
- "max_wide": 3
+ "max_wide": 3,
+ "visual": {
+  "local": "Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria com campos de agave azul)",
+  "quando": "1 de abril de 2018; lancamento em 5 de novembro de 2020, dia",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "fas da Tesla",
+   "representante do Conselho Regulador da Tequila",
+   "compradores"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "FAN": "camiseta com logo T",
+   "INV": "terno",
+   "MEX": "camisa social e chapeu de palha",
+   "POV": "roupa casual"
+  },
+  "cenario": "campo de agave azul no Mexico, destilaria, loja online/sala, rua",
+  "objetos": [
+   "garrafa de vidro em forma de raio com suporte de metal",
+   "agave azul",
+   "placa da Tesla"
+  ],
+  "explicacoes": [
+   "Teslaquila nasceu da piada de 1/4/2018; o Conselho Regulador da Tequila contestou o nome; em 2020 saiu como Tesla Tequila, anejo de Jalisco, a US$ 250, esgotando em horas; garrafas vazias foram revendidas por mais de US$ 1.000 (fonte: Wikipedia Tesla Tequila)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tesla_Tequila"
+  ],
+  "buscas": {
+   "garrafa": "Tesla Tequila lightning bolt bottle",
+   "agave": "blue agave field Jalisco"
+  }
+ }
 }

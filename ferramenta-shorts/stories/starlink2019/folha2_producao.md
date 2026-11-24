@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/starlink2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py starlink2019` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon...
-- Cenario: loc_cidade | luz: golden | clima: limpo
+## Cena b0 - Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador...
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): AST (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: kit/falcon_air, kit/marco_canaveral, kit/rocket, kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, foguete, sessenta, spacex
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de 
+- Animacao: reagir | batalha encenada
+- Objetos/modelos: kit/starlink_train
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): disco, europa, fila, luzes
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -25,14 +25,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (3.7-5.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b1 - O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros sa...
-- Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
+## Cena b1 - Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta sa...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): AST (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: kit/falcon_air, kit/marco_canaveral, kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): florida, internet, lancamento, primeiros, starlink
+- Objetos/modelos: kit/falcon_air, kit/starlink_sat
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, florida, internet, primeiros, spacex, starlink
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -49,7 +49,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b2 - Um dia depois, um rastreador de satélites holandês, Marco Langbroek, f...
-- Cenario: loc_campo | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AST (variante 0, expressao grin); JOR (variante 0, expressao smug)
@@ -71,12 +71,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b3 - Ele registrou uma fila de luzes, que levava cerca de três minutos para...
-- Cenario: loc_campo | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/starlink_train, kit/marco_canaveral, nature/picket_fence
+- Objetos/modelos: kit/starlink_train, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes, tres
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -93,12 +93,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
-- Cenario: loc_campo | luz: noite | clima: limpo
+- Cenario: loc_montanha | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): AST (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: encena
-- Objetos/modelos: kit/starlink_train, kit/marco_canaveral
+- Objetos/modelos: kit/starlink_train
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 10 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_canaveral
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avistamentos, cento, ovnis, site
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -157,11 +157,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Os satélites ainda estavam juntos, em fila, logo depois do lançamento.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao smug) | multidao: 0 de 
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (0): - | multidao: 0 de 
 - Animacao: -
-- Objetos/modelos: kit/falcon_air, kit/marco_canaveral, kit/starlink_sat
+- Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancamento, satelites
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -182,7 +182,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 10 de POV
 - Animacao: reagir
-- Objetos/modelos: kit/marco_canaveral
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, imagem, internet, luzes
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -198,7 +198,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b9 - Moral da história: se olhar o céu e vir uma fila de luzes, pode ser um...
-- Cenario: loc_campo | luz: golden | clima: limpo
+- Cenario: loc_montanha | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AST (variante 0, expressao laugh); JOR2 (variante 0, expressao laugh)
@@ -220,7 +220,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: golden | clima: limpo
+- Cenario: loc_montanha | luz: noite | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): AST (variante 0, expressao grin)
@@ -234,26 +234,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/falcon_air | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_canaveral | b0, b1, b3, b4, b5, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/rocket | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/starlink_sat | b0, b1, b2, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/starlink_train | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_train | b0, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon_air | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_sat | b1, b2, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/rocket | grandes momentos: b3, b5 | planos abertos: 6 | mistura: close 11% | medio 48% | aberto 36% | detalhe 5%
+- Objeto heroi: kit/rocket | grandes momentos: b0, b3, b5 | planos abertos: 5 | mistura: close 11% | medio 57% | aberto 27% | detalhe 5%
 - Interacoes: b2 avanca e o outro recua, b6 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - GANCHO longo: a 1a frase tem 21 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py starlink2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/starlink2019/moodboard.jpg
 
-## RESUMO: 3 risco(s) em aberto
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: GANCHO longo: a 1a frase tem 21 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh starlink2019 bN bM` (so essas cenas).

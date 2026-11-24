@@ -7,7 +7,15 @@
    "item": "A Cidade do Surfe",
    "consultas": [
     "A Cidade do Surfe",
-    "Em Nayib Bukele Surf City El Salvador La Libertad Punta Roca El Sunzal Em Mundia 2019"
+    "Um Em Nayib Bukele Surf City Punta Roca El Sunzal Em Mundial Surfe 2019"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de",
+   "consultas": [
+    "La Libertad El Salvador",
+    "La Libertad El Salvador 2019"
    ]
   },
   {
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Nayib Bukele (jaqueta escura, bone)",
+   "consultas": [
+    "Nayib Bukele jaqueta escura bone",
+    "Nayib Bukele jaqueta escura bone 2019"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "surfistas com prancha",
+   "consultas": [
+    "surfistas com prancha",
+    "surfistas com prancha 2019"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas",
+   "consultas": [
+    "jornalistas",
+    "jornalistas 2019"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores da costa",
+   "consultas": [
+    "moradores da costa",
+    "moradores da costa 2019"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pranchas de surfe",
+   "consultas": [
+    "pranchas de surfe",
+    "pranchas de surfe 2019"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "placa Surf City",
+   "consultas": [
+    "placa Surf City",
+    "placa Surf City 2019"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "palanque de competicao",
+   "consultas": [
+    "palanque de competicao",
+    "palanque de competicao 2019"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "surfboard",
    "consultas": [
-    "surfboard",
+    "pranchas de surfe",
     "A Cidade do Surfe"
    ]
   },

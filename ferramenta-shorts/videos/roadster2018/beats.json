@@ -50,7 +50,7 @@
  },
  "beats": [
   {
-   "say": "Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço.",
+   "say": "Um carro de verdade está dando voltas ao redor do Sol até hoje.",
    "shot": "wide",
    "who": [
     "MUS:0:grin"
@@ -107,7 +107,7 @@
    "d1": 10.0
   },
   {
-   "say": "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.",
+   "say": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
    "shot": "wide",
    "who": [
     "MUS:0:smug"
@@ -149,7 +149,7 @@
    "d1": 10.0
   },
   {
-   "say": "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos.",
+   "say": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
    "shot": "wide",
    "who": [
     "MUS:0:smile"
@@ -193,7 +193,7 @@
    "d1": 21.3
   },
   {
-   "say": "Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.",
+   "say": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
    "shot": "wide",
    "who": [
     "ENG:0:suspicious"
@@ -292,7 +292,7 @@
   },
   {
    "say": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "STA:0:smile"
    ],
@@ -300,14 +300,14 @@
     [
      "kit/roadster",
      0.0,
-     -8.0,
+     -2.5,
      2.67,
      {
       "fixo": true
      }
     ]
    ],
-   "detalhe": false,
+   "detalhe": true,
    "veiculo": false,
    "objetos": false,
    "fachada": false,
@@ -326,12 +326,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
@@ -377,12 +372,12 @@
    "d1": 10.0
   },
   {
-   "say": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
+   "say": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
    "shot": "wide",
    "who": [
     "ENG:0:surprised"
    ],
-   "hora": "noite",
+   "hora": "espaco",
    "props": [
     [
      "kit/roadster",
@@ -445,7 +440,7 @@
    "who": [
     "MUS:0:smile"
    ],
-   "hora": "noite",
+   "hora": "espaco",
    "props": [
     [
      "kit/roadster",
@@ -489,12 +484,12 @@
    "d1": 10.0
   },
   {
-   "say": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
+   "say": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
    "shot": "wide",
    "who": [
     "MUS:0:laugh"
    ],
-   "hora": "noite",
+   "hora": "espaco",
    "props": [
     [
      "kit/rocket",

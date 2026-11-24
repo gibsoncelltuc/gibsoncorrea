@@ -95,16 +95,6 @@
    "d1": 11.5
   },
   {
-   "shot": "reveal",
-   "who": [
-    "POV:0:smile",
-    "POV:1:grin"
-   ],
-   "mapa": "SUÍÇA",
-   "mapa_at": 3,
-   "say": "Era mil novecentos e quarenta e um, na Suíça."
-  },
-  {
    "shot": "two",
    "who": [
     "MES:0:smile"
@@ -116,9 +106,11 @@
      0.6
     ]
    ],
-   "say": "O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro.",
+   "say": "Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Mestral voltou de uma caminhada com o seu cachorro.",
    "impact": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "mapa": "SUÍÇA",
+   "mapa_at": 3
   },
   {
    "shot": "two",
@@ -149,7 +141,7 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar.",
+   "say": "O pelo do cachorro e a calça dele estavam cheios de carrapichos.",
    "impact": false,
    "shot_lock": true,
    "set": "mountain",
@@ -288,7 +280,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser.",
+   "say": "Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?",
    "quadro": {
     "local": "sala de madeira",
     "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -350,7 +342,7 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!",
+   "say": "O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, gancho.",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
@@ -367,30 +359,6 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "TEC:0:bored",
-    "POV:0:suspicious"
-   ],
-   "fx": [
-    "puff@30"
-   ],
-   "sfx": [
-    "thump@30"
-   ],
-   "say": "No começo, muita gente achou o velcro feio, e as vendas foram fracas.",
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "suspicious"
-   }
   },
   {
    "shot": "two",
@@ -436,7 +404,7 @@
    ],
    "text": "VELCRO",
    "titulo": true,
-   "say": "Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis.",
+   "say": "Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis.",
    "set": "arctic",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -490,7 +458,7 @@
      }
     ]
    ],
-   "say": "Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.",
+   "say": "Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio de carrapichos.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -509,5 +477,38 @@
    "d1": 8.0
   }
  ],
- "max_wide": 3
+ "max_wide": 3,
+ "visual": {
+  "local": "Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tecelagem em Lyon (Franca)",
+  "quando": "1941 (passeio, verao) e anos 1950",
+  "participantes": [
+   "George de Mestral (terno e chapeu de caca, bigode)",
+   "seu cachorro",
+   "teceloes",
+   "astronautas da Apollo"
+  ],
+  "roupas": {
+   "MES": "casaco de tweed e chapeu",
+   "TEC": "avental de oficina",
+   "AST": "traje espacial branco",
+   "POV": "roupa dos anos 50"
+  },
+  "cenario": "trilha nos Alpes com pinheiros e montanhas, sala com microscopio, fabrica de tecido; espaco",
+  "objetos": [
+   "carrapicho de bardana",
+   "microscopio",
+   "fita de velcro de nailon"
+  ],
+  "explicacoes": [
+   "George de Mestral notou em 1941 que os carrapichos de bardana tinham ganchos que prendiam em lacos; desenvolveu o fecho de nailon e patenteou o Velcro (velours + crochet) em 1955; a NASA o popularizou nas missoes Apollo (fonte: Wikipedia Velcro, George de Mestral)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Velcro",
+   "https://en.wikipedia.org/wiki/George_de_Mestral"
+  ],
+  "buscas": {
+   "carrapicho": "burdock burr hooks microscope",
+   "montanha": "Swiss Alps trail Jura 1940s"
+  }
+ }
 }

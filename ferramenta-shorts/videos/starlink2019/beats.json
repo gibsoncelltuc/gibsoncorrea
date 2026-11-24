@@ -53,8 +53,43 @@
   {
    "tiros": false,
    "batalha": false,
+   "impact": true,
+   "say": "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador.",
+   "shot": "wide",
+   "who": [
+    "AST:0:shock"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "3 MINUTOS",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "hora": "noite",
+   "props": [
+    [
+     "kit/starlink_train",
+     0.0,
+     -10.6,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "countryside",
+   "fachada": false,
+   "detalhe": false
+  },
+  {
+   "tiros": false,
+   "batalha": false,
    "impact": false,
-   "say": "Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez.",
+   "say": "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial.",
    "shot": "reveal",
    "who": [
     "AST:0:grin"
@@ -79,7 +114,6 @@
      }
     ]
    ],
-   "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e rocket juntos (camera a 8.0 m)",
@@ -101,53 +135,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial.",
-   "shot": "wide",
-   "who": [
-    "AST:0:smug"
-   ],
-   "mapa": "FLÓRIDA",
-   "mapa_at": 1,
-   "props": [
-    [
-     "kit/falcon_air",
-     0.0,
-     -8.0,
-     1.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "set": "street",
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/falcon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 20.6,
-   "d1": 19.6
+   "d1": 8.0,
+   "set": "loc_pista"
   },
   {
    "tiros": false,
@@ -262,7 +251,6 @@
      }
     ]
    ],
-   "set": "countryside",
    "fachada": false,
    "crowd": {
     "n": 0
@@ -284,7 +272,8 @@
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_montanha"
   },
   {
    "tiros": false,
@@ -329,9 +318,7 @@
    "impact": false,
    "say": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
    "shot": "wide",
-   "who": [
-    "AST:0:smug"
-   ],
+   "who": [],
    "props": [
     [
      "kit/falcon_air",
@@ -365,7 +352,23 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 20.6,
-   "d1": 19.6
+   "d1": 19.6,
+   "explica": {
+    "objeto": "kit/starlink_train",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "60 SATÉLITES",
+      "topo",
+      "satélites"
+     ],
+     [
+      "AINDA EM FILA",
+      "meio",
+      "fila"
+     ]
+    ]
+   }
   },
   {
    "tiros": false,
@@ -405,7 +408,6 @@
      }
     ]
    ],
-   "set": "countryside",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
@@ -421,7 +423,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "set": "loc_montanha",
+   "hora": "noite"
   }
  ],
  "exp": 1.0,
@@ -433,5 +437,35 @@
  ],
  "ano": 2019,
  "regiao": "eua",
- "max_wide": 7
+ "max_wide": 7,
+ "visual": {
+  "local": "Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leiden), Europa",
+  "quando": "23 a 25 de maio de 2019, noite",
+  "participantes": [
+   "astronomo amador Marco Langbroek com camera e tripe",
+   "jornalistas"
+  ],
+  "roupas": {
+   "AST": "jaqueta de frio e gorro",
+   "JOR": "camisa social",
+   "JOR2": "blazer"
+  },
+  "cenario": "campo escuro a noite com ceu estrelado e fila de pontos brilhantes; base de lancamento com foguete; redacao",
+  "objetos": [
+   "foguete Falcon 9",
+   "fila de satelites Starlink",
+   "camera no tripe"
+  ],
+  "explicacoes": [
+   "Os 60 primeiros satelites Starlink foram lancados em 23/05/2019; Marco Langbroek filmou o \"trem\" de satelites sobre a Holanda e o site holandes de OVNIs recebeu mais de 150 relatos (fonte: Wikipedia Starlink; satobs.org Langbroek)",
+   "Logo apos o lancamento os satelites viajam juntos, em fila, antes de subir para a orbita final (fonte: Wikipedia Starlink)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Starlink"
+  ],
+  "buscas": {
+   "fila": "Starlink satellite train night sky 2019",
+   "foguete": "Falcon 9 Starlink launch May 2019"
+  }
+ }
 }

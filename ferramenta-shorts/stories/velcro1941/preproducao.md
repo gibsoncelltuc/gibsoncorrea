@@ -4,23 +4,21 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_campo | two | 2 | conversar, INTERAGEM: insiste | kit/burr, kit/marco_alpes, dog | - | -
-b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | kit/marco_alpes | - | -
-b2 | loc_montanha | two | 1 | conversar | dog | - | -
-b3 | loc_montanha | two | 1 | conversar | kit/burr, dog | - | -
-b4 | interior madeira | two | 1 | conversar | kit/microscopio, kit/burr | - | -
-b5 | interior madeira | close | 1 | reagir | kit/burr | - | -
-b6 | interior madeira | low | 1 | conversar | kit/burr | - | -
-b7 | loc_campo | orbit | 16 | discutir, batalha | kit/marco_alpes | - | -
-b8 | interior madeira | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | kit/burr | - | -
-b9 | loc_deserto | crowd | 18 | encena, batalha | kit/marco_alpes, kit/burr | - | -
-b10 | loc_campo | two | 1 | conversar | kit/burr, kit/rocket, kit/moon | - | -
-b11 | loc_deserto | two | 1 | conversar | kit/burr, dog | - | -
-b12 | loc_campo | close | 1 | conversar | - | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/burr, dog | - | -
+b1 | street | two | 1 | conversar | dog | - | -
+b2 | loc_montanha | two | 1 | conversar | kit/burr, dog | - | -
+b3 | interior madeira | two | 1 | conversar | kit/microscopio, kit/burr | - | -
+b4 | interior madeira | close | 1 | reagir | kit/burr | - | -
+b5 | interior madeira | low | 1 | conversar | kit/burr | - | -
+b6 | street | wide | 16 | discutir, batalha | - | - | -
+b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/burr | - | -
+b8 | arctic | crowd | 13 | batalha | kit/burr, kit/rocket, kit/moon | - | -
+b9 | loc_campo | two | 1 | conversar | kit/burr, dog | - | -
+b10 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/burr
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b7, b9
-Interacoes entre personagens: b0 insiste, b8 entregar
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b8
+Interacoes entre personagens: b0 insiste, b7 entregar
 
-Cenas com personagens parados: 1 de 13
+Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

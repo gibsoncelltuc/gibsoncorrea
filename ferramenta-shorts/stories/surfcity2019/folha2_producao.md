@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/surfcity2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py surfcity2019` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City E...
+## Cena b0 - Um país pequeno decidiu virar a capital mundial do surfe.
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/surfboard
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, surf
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capital, surfe
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -24,14 +24,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (2.0-3.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b1 - O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal...
+## Cena b1 - Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, ...
 - Cenario: harbor | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR (variante 0, expressao laugh)
-- Animacao: conversar | interacao: cochichar
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/surfboard, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): plano, praias
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, surf
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao laugh)
-- Animacao: reagir | interacao: insiste
+- Animacao: reagir | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): olimpiadas, praias, toquio
 - RISCOS: nenhum
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR2 (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/surfboard
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): auditoria, governo, projecao
 - RISCOS: nenhum
@@ -184,7 +184,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): BUK (variante 0, expressao laugh); JOR (variante 0, expressao grin); JOR2 (variante 0, expressao laugh)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/surfboard
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mundial
 - RISCOS: nenhum
@@ -242,15 +242,13 @@ kit/volcano | b1, b2, b4, b7, b9 | pronto | conferir na folha de contato se le b
 
 
 ## Video inteiro
-- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 73% | aberto 8% | detalhe 7%
-- Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b6 discutir, b7 susto, b8 aproxima-se
+- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 72% | aberto 8% | detalhe 8%
+- Interacoes: b1 insiste, b3 vai ate o outro, b5 aproxima-se, b6 discutir, b7 susto, b8 avanca e o outro recua
 - RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py surfcity2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/surfcity2019/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh surfcity2019 bN bM` (so essas cenas).
