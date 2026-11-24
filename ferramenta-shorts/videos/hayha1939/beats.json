@@ -54,9 +54,16 @@
    "set": "arctic",
    "mapa": "FINLÂNDIA",
    "who": [
-    "FIN:0:stern",
-    "FIN:1:nervous"
-   ]
+    "SOV:0:stern",
+    "SOV:1:angry"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "SOV"
+    ],
+    "march": true
+   }
   },
   {
    "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
@@ -95,11 +102,12 @@
     "FIN:3:smile"
    ],
    "text": "SIMO HÄYHÄ",
-   "tat": 8,
-   "tstyle": "blue",
    "props": [],
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "quadro_manual": true,
+   "d0": 5.0,
+   "d1": 4.5
   },
   {
    "say": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
@@ -118,11 +126,12 @@
     "FIN:3:neutral"
    ],
    "text": "NEVE NA BOCA",
-   "tat": 5,
-   "tstyle": "white",
    "props": [],
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "quadro_manual": true,
+   "d0": 5.0,
+   "d1": 4.5
   },
   {
    "say": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",

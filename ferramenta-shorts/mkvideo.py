@@ -1536,7 +1536,7 @@ def build_beat(k, b):
         st = TXT[b.get('tstyle', TXT_CYCLE[k % 4])]
         off = int(b.get('tat', 0))
         up = {'close': 0.55, 'two': 0.46}.get(shot, 0.42)   # em plano fechado o texto sobe para nao cobrir o chapeu
-        if b.get('titulo') or B.get('titulos') or shot in WIDE or b.get('veiculo') or k == len(beats) - 1 or len(b['text']) > 14:   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto
+        if b.get('titulo') or B.get('titulos') or shot in WIDE or shot == 'close' or b.get('veiculo') or k == len(beats) - 1 or len(b['text']) > 14:   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto
             fx.append(f"txt(X, WS({starts[k] + off}, -2), {bb}, {json.dumps(b['text'], ensure_ascii=False)}, '{st[0]}', '{st[1]}', {num(T['h'] + 2.2)}, {{ s: {b.get('tscale', 1.5)}, up: {up} }})")
         else:                                                                           # MODO RICKS: texto numa placa fincada na cena, ao lado dos personagens
             _sx = 0.0   # placa alta, atras e acima das cabecas, no centro do quadro
