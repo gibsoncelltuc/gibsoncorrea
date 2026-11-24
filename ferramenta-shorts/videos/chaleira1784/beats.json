@@ -47,6 +47,13 @@
    "boots": "#2a2218",
    "hat": "bonnet",
    "build": "stout"
+  },
+  "MAR": {
+   "jacket": "#d9742a",
+   "pants": "#27408b",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#27408b"
   }
  },
  "beats": [
@@ -64,8 +71,8 @@
   {
    "shot": "wide",
    "who": [
-    "HOL:0:stern",
-    "HOL:1:stern"
+    "MAR:0:stern",
+    "MAR:1:stern"
    ],
    "mapa": "HOLANDA",
    "say": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
@@ -81,11 +88,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -98,7 +100,12 @@
     "tela": "42% da altura da tela",
     "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
     "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
-   }
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 123.4,
+   "d1": 117.5
   },
   {
    "shot": "two",
@@ -121,36 +128,34 @@
    "props": [
     [
      "kit/navio_fragata",
-     0.0,
-     -18.2,
-     7.06,
-     {
-      "fixo": true
-     }
+     -22,
+     -40,
+     1.0
     ],
     [
      "kit/navio_fragata",
      0,
-     -34,
+     -46,
      1.0
     ],
     [
      "kit/navio_fragata",
-     12,
-     -30,
+     22,
+     -40,
      1.0
     ]
    ],
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5,
    "fachada": false,
    "crowd": {
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 123.4,
+   "d1": 117.5,
+   "quadro_manual": true,
    "quadro": {
     "objeto": "kit/navio_fragata",
     "classe": "grande",
@@ -184,11 +189,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -198,15 +198,20 @@
     "tela": "42% da altura da tela",
     "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
     "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
-   }
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 123.4,
+   "d1": 117.5
   },
   {
    "shot": "wide",
    "who": [
-    "HOL:0:stern",
-    "HOL:1:angry"
+    "MAR:0:stern",
+    "MAR:1:angry"
    ],
-   "batalha": true,
+   "batalha": false,
    "crowd": {
     "n": 0
    },
@@ -244,6 +249,7 @@
     "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
     "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
    },
+   "tiros": false,
    "cx": 0.0,
    "cz": -8.2,
    "h": 6.0,

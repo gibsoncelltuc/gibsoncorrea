@@ -29,27 +29,21 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "HOL",
-    "HOL"
+    "MAR",
+    "MAR"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [
     "kit/navio_fragata"
    ],
    "palavras": 18,
    "cena": "b1",
    "frase": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -91,7 +85,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "IMP",
     "AUS"
@@ -104,27 +98,6 @@
    "palavras": 11,
    "cena": "b4",
    "frase": "O maior levava a bandeira do imperador e seguia na frente.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "HOL",
-    "HOL"
-   ],
-   "multidao": 48,
-   "objetos": [
-    "cannon",
-    "kit/navio_fragata",
-    "navios de guerra ao fundo, no tamanho real"
-   ],
-   "palavras": 15,
-   "cena": "b5",
-   "frase": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -138,21 +111,48 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
+   "personagens": [
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "cannon",
+    "kit/navio_fragata"
+   ],
+   "palavras": 15,
+   "cena": "b5",
+   "frase": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
    "personagens": [
     "IMP",
     "COZ"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/kettle"
+    "kit/kettle",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 15,
    "cena": "b6",
    "frase": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -190,7 +190,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
     "COZ"
    ],
@@ -208,7 +208,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "COZ"
    ],

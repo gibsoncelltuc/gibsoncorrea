@@ -62,25 +62,43 @@
    "set": "loc_campo"
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
     "HOL:0:stern",
     "HOL:1:stern"
    ],
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "HOL"
-    ],
-    "march": false
-   },
    "mapa": "HOLANDA",
-   "mapa_at": 3,
    "say": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
-   "verbos_ok": [
-    "passa"
+   "set": "loc_campo",
+   "props": [
+    [
+     "kit/navio_fragata",
+     0.0,
+     -18.2,
+     7.06,
+     {
+      "fixo": true
+     }
+    ]
    ],
-   "set": "loc_campo"
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "objeto": "kit/navio_fragata",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 123.4,
+   "d1": 117.5
   },
   {
    "shot": "two",
@@ -93,32 +111,94 @@
    "say": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia."
   },
   {
-   "shot": "two",
-   "interior": "pedra",
+   "shot": "wide",
    "who": [
     "IMP:0:shout",
     "GEN:0:scared:paper"
    ],
-   "interacao": "reverencia",
-   "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio."
+   "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
+   "set": "harbor",
+   "props": [
+    [
+     "kit/navio_fragata",
+     0.0,
+     -18.2,
+     7.06,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/navio_fragata",
+     0,
+     -34,
+     1.0
+    ],
+    [
+     "kit/navio_fragata",
+     12,
+     -30,
+     1.0
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "objeto": "kit/navio_fragata",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 123.4,
+   "d1": 117.5
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
     "IMP:0:smug",
     "AUS:0:grin"
    ],
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "AUS"
-    ],
-    "march": true
+    "n": 0
    },
    "text": "3 NAVIOS",
    "titulo": true,
    "say": "O maior levava a bandeira do imperador e seguia na frente.",
-   "set": "harbor"
+   "set": "harbor",
+   "props": [
+    [
+     "kit/navio_fragata",
+     0.0,
+     -18.2,
+     7.06,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "objeto": "kit/navio_fragata",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 123.4,
+   "d1": 117.5
   },
   {
    "shot": "wide",
@@ -133,9 +213,15 @@
    "props": [
     [
      "cannon",
+     -1.5,
+     0.6,
+     1.6
+    ],
+    [
+     "kit/navio_fragata",
      0.0,
-     -8.0,
-     1.5,
+     -18.2,
+     7.06,
      {
       "fixo": true
      }
@@ -151,18 +237,18 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "objeto": "cannon",
+    "objeto": "kit/navio_fragata",
     "classe": "grande",
     "lugar": "fundo",
     "tela": "42% da altura da tela",
-    "relacao": "objeto com ~6.2 m de altura e 8.9 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~21% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 15.8 m), sem multidao na frente"
+    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
    },
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 16.5,
-   "d1": 15.8
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 123.4,
+   "d1": 117.5
   },
   {
    "shot": "two",
@@ -206,13 +292,12 @@
   {
    "shot": "wide",
    "who": [
-    "GEN:0:scared:flag",
-    "AUS:0:nervous"
+    "GEN:0:scared:flag"
    ],
    "say": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -222,7 +307,8 @@
     "HOL:0:smug:money"
    ],
    "interacao": "entregar",
-   "say": "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização."
+   "say": "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização.",
+   "light": "day"
   },
   {
    "shot": "close",
@@ -316,5 +402,6 @@
    "bandeira imperial": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
    "kettle": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa"
   }
- }
+ },
+ "marco": false
 }
