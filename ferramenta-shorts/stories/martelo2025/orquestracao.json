@@ -1,61 +1,10 @@
 {
  "id": "martelo2025",
  "ano": 2025,
- "cenarios_trocados": [
-  [
-   "video",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 1",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 2",
-   "outback",
-   "loc_pista"
-  ],
-  [
-   "cena 3",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 6",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 7",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 9",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 13",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 14",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 93,
-  "acoes_chave_com_efeito": 60,
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
@@ -63,23 +12,20 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU",
     "GEN"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/b2_air",
-    "kit/bunker_bomb",
-    "kit/marco_mesquita"
+    "kit/bunker_bomb"
    ],
-   "palavras": 21,
+   "palavras": 14,
    "cena": "b0",
-   "frase": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma arma que nunca tinha saído do papel.",
+   "frase": "Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_pista"
   },
   {
    "camera": "reveal",
@@ -88,16 +34,51 @@
     "POV"
    ],
    "multidao": 6,
-   "objetos": [
-    "kit/marco_mesquita",
-    "kit/mountain_bunker"
-   ],
-   "palavras": 18,
+   "objetos": [],
+   "palavras": 15,
    "cena": "b1",
-   "frase": "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.",
-   "classe": "simples",
+   "frase": "Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do Irã.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/mountain_bunker"
+   ],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "A principal, Fordow, fica de oitenta a noventa metros de profundidade, dentro de uma montanha.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b3",
+   "frase": "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bunker_bomb (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -105,186 +86,130 @@
    "camera": "two",
    "personagens": [
     "GEN",
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/mountain_bunker"
-   ],
-   "palavras": 14,
-   "cena": "b2",
-   "frase": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "GEN",
     "PIL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/b2_air",
-    "kit/bunker_bomb",
-    "vehicles/airplane"
-   ],
-   "palavras": 22,
-   "cena": "b3",
-   "frase": "Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas. E só um avião carrega essa arma: o B-2.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TRU",
-    "GEN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b4",
-   "frase": "Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-Noite.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "PIL",
-    "PIL",
-    "GEN"
-   ],
-   "multidao": 12,
-   "objetos": [
-    "kit/b2_air",
-    "kit/marco_mesquita"
-   ],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [
-    "voaram"
-   ],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "PIL",
-    "GEN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/b2_air"
-   ],
-   "palavras": 12,
-   "cena": "b6",
-   "frase": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_patio"
-  },
-  {
-   "camera": "low",
-   "personagens": [
-    "PIL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/b2_air",
-    "kit/bunker_bomb",
-    "kit/marco_mesquita",
-    "kit/mountain_bunker",
-    "vehicles/airplane"
-   ],
-   "palavras": 20,
-   "cena": "b7",
-   "frase": "Acontece que, de madrugada, os aviões soltaram catorze cargas explosivas. Doze delas em cima de Fordow, pelos respiros do bunker.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "GEN",
-    "PIL"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b8",
-   "frase": "Um submarino ainda mandou mísseis que explodiram numa terceira usina.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_patio"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "PIL",
-    "GEN"
-   ],
-   "multidao": 14,
-   "objetos": [
-    "buildings/house_small",
-    "kit/b2_air",
-    "kit/marco_mesquita",
-    "nature/picket_fence",
-    "nature/tree_oak"
-   ],
-   "palavras": 6,
-   "cena": "b9",
-   "frase": "Todos os aviões voltaram para casa.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TRU",
-    "GEN"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 7,
+   "cena": "b4",
+   "frase": "A missão se chamou Martelo da Meia-Noite.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/mountain_bunker (parado)",
+    "emissao": "fogo, onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Um submarino ainda lançou mísseis contra uma terceira usina.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/submarino_moderno (parado)",
+    "emissao": "fogo, vapor",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Depois, os aviões voltaram para casa em segurança.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GEN",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
    "cena": "b10",
-   "frase": "Trump disse que as usinas foram destruídas.",
+   "frase": "Os Estados Unidos disseram que as usinas foram destruídas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -295,17 +220,13 @@
    "camera": "crowd",
    "personagens": [
     "POV",
-    "POV",
     "POV"
    ],
-   "multidao": 18,
-   "objetos": [
-    "kit/marco_mesquita",
-    "kit/mountain_bunker"
-   ],
-   "palavras": 8,
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 10,
    "cena": "b11",
-   "frase": "Avaliações posteriores discutiram o tamanho real do estrago.",
+   "frase": "Mas até hoje ninguém concorda sobre o tamanho do estrago.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -316,43 +237,23 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "hall"
   },
   {
    "camera": "close",
    "personagens": [
-    "GEN",
-    "PIL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/b2_air",
-    "kit/bunker_bomb"
-   ],
-   "palavras": 14,
-   "cena": "b12",
-   "frase": "Foi a primeira vez na história que essa arma gigante foi usada de verdade.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TRU"
+    "GEN"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b13",
+   "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "hall"
   }
  ]
 }

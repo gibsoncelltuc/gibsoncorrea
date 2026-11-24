@@ -1,130 +1,146 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 14 frases, 40 acoes catalogadas, 39 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 13 frases, 14 acoes catalogadas, 14 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
-> "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma arma que nunca tinha saído do papel."
+## Cena b0 - 0.2s a 4.7s - 14 palavras - plano two
+> "Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | bomba (0.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | PLACA | 2025 | OK |
+<!-- FISICA -->
 
-## Cena b1 - 7.8s a 14.1s - 18 palavras - plano reveal
-> "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: atira na palavra bomba (0.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | MAPA | IRÃ | OK |
-
-## Cena b2 - 14.4s a 19.3s - 14 palavras - plano two
-> "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha."
+## Cena b1 - 5.8s a 9.2s - 15 palavras - plano reveal
+> "Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do Irã."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | - | MAPA | IRÃ | OK |
+<!-- FISICA -->
 
-## Cena b3 - 19.6s a 27.4s - 22 palavras - plano close
-> "Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas. E só um avião carrega essa arma: o B-2."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-
-## Cena b4 - 27.8s a 32.2s - 13 palavras - plano two
-> "Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-Noite."
+## Cena b2 - 10.2s a 14.9s - 15 palavras - plano wide
+> "A principal, Fordow, fica de oitenta a noventa metros de profundidade, dentro de uma montanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | assinou (28.1s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | INTERACAO | entregar | OK |
+| 1 | - | PLACA | FORDOW | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b3 - 16.1s a 22.6s - 18 palavras - plano two
+> "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b4 - 23.8s a 25.6s - 7 palavras - plano two
+> "A missão se chamou Martelo da Meia-Noite."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | chamou (24.5s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | MARTELO DA MEIA-NOITE | OK |
+<!-- FISICA -->
 
-## Cena b5 - 32.6s a 37.4s - 14 palavras - plano crowd
-> "Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra chamou (24.5s): braco estendido apontando para o objeto/lugar citado
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | decolaram (33.7s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | B-2 | OK |
-| ! | voaram | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
-
-## Cena b6 - 37.8s a 41.9s - 12 palavras - plano two
-> "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | mandados (39.6s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | discutir | OK |
-
-## Cena b7 - 42.2s a 49.3s - 20 palavras - plano low
-> "Acontece que, de madrugada, os aviões soltaram catorze cargas explosivas. Doze delas em cima de Fordow, pelos respiros do bunker."
+## Cena b5 - 26.8s a 30.5s - 12 palavras - plano two
+> "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltaram (44.4s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b6 - 31.6s a 34.7s - 10 palavras - plano two
+> "Para despistar, outros aviões foram mandados na direção do Pacífico."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b7 - 36.0s a 40.4s - 11 palavras - plano two
+> "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b8 - 41.7s a 44.2s - 9 palavras - plano two
+> "Um submarino ainda lançou mísseis contra uma terceira usina."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b9 - 45.5s a 47.8s - 8 palavras - plano two
+> "Depois, os aviões voltaram para casa em segurança."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b10 - 49.2s a 51.7s - 9 palavras - plano two
+> "Os Estados Unidos disseram que as usinas foram destruídas."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | DESTRUÍDAS? | OK |
+<!-- FISICA -->
 
-## Cena b8 - 49.6s a 53.0s - 10 palavras - plano two
-> "Um submarino ainda mandou mísseis que explodiram numa terceira usina."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | mandou (50.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | explodiram (51.9s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | SUBMARINO | OK |
-
-## Cena b9 - 53.3s a 55.2s - 6 palavras - plano orbit
-> "Todos os aviões voltaram para casa."
+## Cena b11 - 53.0s a 55.3s - 10 palavras - plano crowd
+> "Mas até hoje ninguém concorda sobre o tamanho do estrago."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltaram (54.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+<!-- FISICA -->
 
-## Cena b10 - 55.6s a 57.8s - 7 palavras - plano two
-> "Trump disse que as usinas foram destruídas."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | reverencia | OK |
-| 2 | - | ATUACAO | discutir | OK |
-
-## Cena b11 - 58.1s a 60.7s - 8 palavras - plano crowd
-> "Avaliações posteriores discutiram o tamanho real do estrago."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | discutiram (58.9s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | FORDOW | OK |
-
-## Cena b12 - 61.1s a 65.9s - 14 palavras - plano close
-> "Foi a primeira vez na história que essa arma gigante foi usada de verdade."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | pular | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-
-## Cena b13 - 66.3s a 70.7s - 13 palavras - plano two
+## Cena b12 - 56.6s a 60.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
