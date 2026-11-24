@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # SINCRONIZA A FERRAMENTA AUTOMATICAMENTE (ordem do Gibson 19/11: as sessoes recebem e aplicam as correcoes sozinhas).
-# Puxa o branch principal (claude/serene-dirac-ckwlt5), faz o merge, regenera as folhas dos videos ainda nao prontos, roda a
+# Puxa o branch principal (claude/bold-sagan-dskrsj), faz o merge, regenera as folhas dos videos ainda nao prontos, roda a
 # verificacao de execucao e invalida storyboards que mudaram (a fila gera outro e a sessao revisa com grade + revisao escrita).
 # Uso nas sessoes: nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 60; done' > /dev/null 2>&1 &
 cd "$(dirname "$0")"; exec 9>/tmp/sync_ferramenta.lock; flock -n 9 || exit 0   # a cada 1 min: nunca duas sincronizacoes ao mesmo tempo
@@ -22,7 +22,7 @@ git show FETCH_HEAD:ferramenta-shorts/PAUSA > /dev/null 2>&1 && git checkout FET
 [ -z "$(git diff --diff-filter=MD --name-only FETCH_HEAD -- "${FERR[@]}")" ] || echo "$(date +%T) AVISO: ainda ha arquivo do motor diferente da principal (git diff --diff-filter=MD FETCH_HEAD -- ferramenta-shorts)"   # arquivo que so a sessao tem (objeto que ela modelou) nao conta
 cd ferramenta-shorts; cat web/toonbase.js web/roman.js web/pig2d.js web/animals2d.js > web/toon.js
 N=0
-for id in $(grep -v '^#' "$(bash qfile.sh)" 2>/dev/null); do
+for id in $(grep -v '^#' queue.txt 2>/dev/null); do
   [ -f stories/$id/DONE ] && continue; [ -f videos/$id/beats.json ] || continue
   pgrep -af "make_video.sh $id\$" >/dev/null && continue
   python3 mkvideo.py $id > /dev/null 2>&1 || { echo "$(date +%T) $id: mkvideo falhou"; continue; }
