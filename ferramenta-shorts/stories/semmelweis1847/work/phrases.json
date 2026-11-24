@@ -1,396 +1,279 @@
 {
- "duration": 81.816,
- "frames30": 2454,
- "source": "silence-align (cost 1.51)",
+ "duration": 60.48,
+ "frames30": 1814,
+ "source": "silence-align (cost 0.94)",
  "segments": [
   [
-   0.150375,
-   2.66213
+   0.158,
+   2.66296
   ],
   [
-   2.84483,
-   3.71042
+   2.95717,
+   4.23442
   ],
   [
-   4.56537,
-   6.27637
+   5.07842,
+   6.86808
   ],
   [
-   7.14629,
-   8.93613
+   7.11346,
+   8.45767
   ],
   [
-   9.18154,
-   10.5257
+   8.63333,
+   9.1495
   ],
   [
-   10.7014,
-   11.2175
+   10.0269,
+   11.8446
   ],
   [
-   12.0879,
-   14.0192
+   12.1113,
+   13.8861
   ],
   [
-   14.8687,
-   15.2357
+   14.7383,
+   15.55
   ],
   [
-   15.4482,
-   17.4683
+   15.7227,
+   16.7405
   ],
   [
-   18.3227,
-   18.8069
+   17.0381,
+   18.2884
   ],
   [
-   19.1118,
-   19.7558
+   18.4947,
+   19.7
   ],
   [
-   20.6067,
-   21.4844
+   20.5532,
+   21.03
   ],
   [
-   21.6844,
-   22.6919
+   21.2514,
+   23.8522
   ],
   [
-   22.9938,
-   24.2635
+   24.2008,
+   25.3933
   ],
   [
-   24.4667,
-   25.6567
+   26.2406,
+   26.871
   ],
   [
-   26.5267,
-   29.9381
+   27.1719,
+   30.0465
   ],
   [
-   30.792,
-   31.2451
+   30.2341,
+   31.124
   ],
   [
-   31.4805,
-   32.224
+   31.9822,
+   34.2478
   ],
   [
-   32.5072,
-   33.0493
+   34.5692,
+   37.1524
   ],
   [
-   33.3167,
-   34.6466
+   37.9547,
+   40.1839
   ],
   [
-   34.8455,
-   35.8065
+   41.0414,
+   42.4609
   ],
   [
-   36.1594,
-   37.3517
+   42.823,
+   44.4206
   ],
   [
-   38.2314,
-   39.5884
+   45.2705,
+   47.3897
   ],
   [
-   39.9028,
-   42.8543
+   47.6603,
+   48.7717
   ],
   [
-   43.1095,
-   44.0935
+   49.6043,
+   50.3469
   ],
   [
-   44.9537,
-   47.3326
+   50.5389,
+   52.3959
   ],
   [
-   47.5921,
-   50.1318
+   53.2535,
+   53.5566
   ],
   [
-   50.9446,
-   53.175
+   53.6832,
+   55.3272
   ],
   [
-   54.054,
-   55.7858
+   56.1768,
+   57.6215
   ],
   [
-   56.6417,
-   58.1027
-  ],
-  [
-   58.9584,
-   59.6752
-  ],
-  [
-   59.9013,
-   60.3927
-  ],
-  [
-   60.7061,
-   61.7064
-  ],
-  [
-   62.591,
-   64.1021
-  ],
-  [
-   64.2846,
-   65.3283
-  ],
-  [
-   66.1637,
-   68.2569
-  ],
-  [
-   68.501,
-   70.1007
-  ],
-  [
-   70.9581,
-   71.7112
-  ],
-  [
-   71.8637,
-   73.5097
-  ],
-  [
-   74.3731,
-   74.698
-  ],
-  [
-   74.8867,
-   76.6552
-  ],
-  [
-   77.5093,
-   78.9537
-  ],
-  [
-   79.2465,
-   81.0082
+   57.9142,
+   59.6758
   ]
  ],
  "phrases": [
   {
-   "text": "Um m\u00e9dico pediu uma coisa simples aos colegas:",
-   "s": 0.15,
-   "e": 2.662
+   "text": "Um m\u00e9dico pediu aos colegas para lavarem as m\u00e3os,",
+   "s": 0.158,
+   "e": 2.663
   },
   {
-   "text": "lavem as m\u00e3os.",
-   "s": 2.845,
-   "e": 3.71
-  },
-  {
-   "text": "E foi expulso do hospital por isso.",
-   "s": 4.565,
-   "e": 6.276
+   "text": "e foi expulso do hospital.",
+   "s": 2.957,
+   "e": 4.234
   },
   {
    "text": "Era mil oitocentos e quarenta e sete,",
-   "s": 7.146,
-   "e": 8.936
+   "s": 5.078,
+   "e": 6.868
   },
   {
    "text": "no grande hospital de Viena,",
-   "s": 9.182,
-   "e": 10.526
+   "s": 7.113,
+   "e": 8.458
   },
   {
    "text": "na \u00c1ustria.",
-   "s": 10.701,
-   "e": 11.217
+   "s": 8.633,
+   "e": 9.149
   },
   {
-   "text": "O hospital tinha duas alas de parto.",
-   "s": 12.088,
-   "e": 14.019
+   "text": "O hospital tinha duas alas de parto:",
+   "s": 10.027,
+   "e": 11.845
   },
   {
-   "text": "Numa,",
-   "s": 14.869,
-   "e": 15.236
+   "text": "uma de parteiras e outra de m\u00e9dicos.",
+   "s": 12.111,
+   "e": 13.886
   },
   {
-   "text": "as m\u00e3es eram atendidas por parteiras.",
-   "s": 15.448,
-   "e": 17.468
-  },
-  {
-   "text": "Na outra,",
-   "s": 18.323,
-   "e": 18.807
-  },
-  {
-   "text": "por m\u00e9dicos.",
-   "s": 19.112,
-   "e": 19.756
-  },
-  {
-   "text": "E acontece que,",
-   "s": 20.607,
-   "e": 21.484
+   "text": "Acontece que,",
+   "s": 14.738,
+   "e": 15.55
   },
   {
    "text": "na ala dos m\u00e9dicos,",
-   "s": 21.684,
-   "e": 22.692
+   "s": 15.723,
+   "e": 16.741
   },
   {
    "text": "morriam muito mais m\u00e3es,",
-   "s": 22.994,
-   "e": 24.264
+   "s": 17.038,
+   "e": 18.288
   },
   {
    "text": "de uma febre misteriosa.",
-   "s": 24.467,
-   "e": 25.657
-  },
-  {
-   "text": "As mulheres imploravam de joelhos para n\u00e3o ir para a ala dos m\u00e9dicos.",
-   "s": 26.527,
-   "e": 29.938
+   "s": 18.495,
+   "e": 19.7
   },
   {
    "text": "Um dia,",
-   "s": 30.792,
-   "e": 31.245
+   "s": 20.553,
+   "e": 21.03
   },
   {
-   "text": "o amigo dele,",
-   "s": 31.48,
-   "e": 32.224
-  },
-  {
-   "text": "Kolletschka,",
-   "s": 32.507,
-   "e": 33.049
-  },
-  {
-   "text": "cortou o dedo com um bisturi,",
-   "s": 33.317,
-   "e": 34.647
-  },
-  {
-   "text": "examinando um corpo,",
-   "s": 34.846,
-   "e": 35.806
+   "text": "o amigo Kolletschka se cortou com um bisturi numa aut\u00f3psia,",
+   "s": 21.251,
+   "e": 23.852
   },
   {
    "text": "e morreu da mesma febre.",
-   "s": 36.159,
-   "e": 37.352
+   "s": 24.201,
+   "e": 25.393
   },
   {
-   "text": "Semmelweis entendeu tudo:",
-   "s": 38.231,
-   "e": 39.588
+   "text": "Ele entendeu:",
+   "s": 26.241,
+   "e": 26.871
   },
   {
-   "text": "os m\u00e9dicos sa\u00edam das aut\u00f3psias e iam direto para os partos,",
-   "s": 39.903,
-   "e": 42.854
+   "text": "os m\u00e9dicos sa\u00edam das aut\u00f3psias e iam direto aos partos,",
+   "s": 27.172,
+   "e": 30.047
   },
   {
-   "text": "com as m\u00e3os sujas.",
-   "s": 43.109,
-   "e": 44.093
+   "text": "de m\u00e3os sujas.",
+   "s": 30.234,
+   "e": 31.124
   },
   {
-   "text": "Ele colocou uma bacia com \u00e1gua e cloro na porta,",
-   "s": 44.954,
-   "e": 47.333
+   "text": "Ele p\u00f4s uma bacia com \u00e1gua e cloro na porta,",
+   "s": 31.982,
+   "e": 34.248
   },
   {
-   "text": "e obrigou todo mundo a lavar as m\u00e3os antes de entrar.",
-   "s": 47.592,
-   "e": 50.132
+   "text": "e obrigou os m\u00e9dicos a lavar as m\u00e3os antes de entrar.",
+   "s": 34.569,
+   "e": 37.152
   },
   {
    "text": "As mortes despencaram quase dez vezes.",
-   "s": 50.945,
-   "e": 53.175
+   "s": 37.955,
+   "e": 40.184
   },
   {
-   "text": "Centenas de m\u00e3es foram salvas.",
-   "s": 54.054,
-   "e": 55.786
+   "text": "Mas os m\u00e9dicos se ofenderam,",
+   "s": 41.041,
+   "e": 42.461
   },
   {
-   "text": "Mas os m\u00e9dicos se ofenderam.",
-   "s": 56.642,
-   "e": 58.103
-  },
-  {
-   "text": "Um cavalheiro,",
-   "s": 58.958,
-   "e": 59.675
-  },
-  {
-   "text": "diziam,",
-   "s": 59.901,
-   "e": 60.393
-  },
-  {
-   "text": "tem as m\u00e3os limpas.",
-   "s": 60.706,
-   "e": 61.706
-  },
-  {
-   "text": "Semmelweis brigou com todos,",
-   "s": 62.591,
-   "e": 64.102
-  },
-  {
-   "text": "e foi mandado embora.",
-   "s": 64.285,
-   "e": 65.328
+   "text": "e Semmelweis foi mandado embora.",
+   "s": 42.823,
+   "e": 44.421
   },
   {
    "text": "Ele morreu em mil oitocentos e sessenta e cinco,",
-   "s": 66.164,
-   "e": 68.257
+   "s": 45.27,
+   "e": 47.39
   },
   {
-   "text": "sem ver ningu\u00e9m dar raz\u00e3o a ele.",
-   "s": 68.501,
-   "e": 70.101
+   "text": "sem ser reconhecido.",
+   "s": 47.66,
+   "e": 48.772
   },
   {
    "text": "Anos depois,",
-   "s": 70.958,
-   "e": 71.711
+   "s": 49.604,
+   "e": 50.347
   },
   {
-   "text": "a ci\u00eancia provou os micr\u00f3bios.",
-   "s": 71.864,
-   "e": 73.51
+   "text": "a ci\u00eancia provou que ele estava certo.",
+   "s": 50.539,
+   "e": 52.396
   },
   {
    "text": "Hoje,",
-   "s": 74.373,
-   "e": 74.698
+   "s": 53.254,
+   "e": 53.557
   },
   {
-   "text": "ele \u00e9 chamado de salvador das m\u00e3es.",
-   "s": 74.887,
-   "e": 76.655
+   "text": "\u00e9 chamado de salvador das m\u00e3es.",
+   "s": 53.683,
+   "e": 55.327
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 77.509,
-   "e": 78.954
+   "s": 56.177,
+   "e": 57.621
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 79.246,
-   "e": 81.008
+   "s": 57.914,
+   "e": 59.676
   }
  ]
 }

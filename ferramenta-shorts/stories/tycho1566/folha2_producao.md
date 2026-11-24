@@ -41,10 +41,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: DINAMARCA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (5.1-7.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (7.1-9.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (9.0-11.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (5.1-6.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (6.9-8.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (8.6-10.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b2 - Numa festa, ele discutiu com um primo sobre quem era o melhor em matem...
@@ -63,9 +63,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR no centro, expressao shout; POV na direita, expressao surprised, segura mug; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (11.2-13.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (13.3-15.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (11.7-13.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (13.3-14.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b3 - Dias depois, os dois resolveram a briga num duelo de espadas, no escur...
@@ -87,10 +87,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@36
 - SOM: thump@40
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (15.8-17.7 s): mesmo angulo
-  - take 2 (17.7-19.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (19.5-21.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (16.2-18.0 s): mesmo angulo
+  - take 2 (18.0-19.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç...
@@ -113,10 +112,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +36 da cena
 - SOM: whoosh@26
 - SOM: thump@30
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (21.7-23.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (23.6-25.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (25.4-27.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (21.2-23.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (23.3-25.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b5 - Para esconder o buraco, ele passou a usar um nariz de metal, colado no...
@@ -135,9 +133,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
 - PERSONAGENS: TYC (nobre) no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (27.6-29.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (29.8-31.9 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (26.6-28.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (28.5-30.3 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b6 - Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es...
@@ -156,10 +154,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REI (rei) na esquerda, expressao grin; TYC (nobre) na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (32.0-33.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (33.7-35.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (35.4-37.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (31.5-33.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.6-35.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b7 - Lá, ele construiu um castelo observatório, e anotou a posição de mais ...
@@ -184,10 +181,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "MIL ESTRELAS" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (37.4-39.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (39.4-41.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (41.5-43.5 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (36.7-38.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (38.4-40.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (40.1-41.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b8 - As anotações eram tão precisas, que ajudaram Kepler a descobrir como o...
@@ -209,11 +206,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@50
 - TEXTO NA TELA: "KEPLER" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (43.6-45.2 s): mesmo angulo
-  - take 2 (45.2-46.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (46.9-48.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (48.6-50.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (43.2-44.9 s): mesmo angulo
+  - take 2 (44.9-46.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (46.7-48.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b9 - Com a cabeça nas estrelas, e o nariz de metal.
@@ -232,9 +228,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
 - PERSONAGENS: TYC (nobre) no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (50.3-52.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (52.0-53.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -274,8 +268,8 @@ kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (53.9-56.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (56.0-58.0 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (52.8-54.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (54.5-56.2 s): mesmo angulo
 <!-- /FICHA -->
 

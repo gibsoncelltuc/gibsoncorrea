@@ -21,10 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "1847" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (0.1-1.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (1.7-3.3 s): mesmo angulo
-  - take 3 (3.3-4.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (0.2-2.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (2.0-3.8 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b1 - Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na ...
@@ -45,9 +44,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "HOSPITAL DE VIENA" flutuando no alto, na palavra 1 da frase
 - MAPA: ÁUSTRIA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (5.3-7.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (7.4-9.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (5.1-7.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (7.0-8.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b2 - O hospital tinha duas alas de parto: uma de parteiras e outra de médic...
@@ -66,10 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SEM (medico) na esquerda, expressao worried; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (10.0-11.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (11.9-13.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (13.7-15.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (10.0-11.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (11.8-13.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b3 - Acontece que, na ala dos médicos, morriam muito mais mães, de uma febr...
@@ -90,11 +88,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (15.8-17.4 s): mesmo angulo
-  - take 2 (17.4-19.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (19.0-20.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (20.6-22.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (14.7-16.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (16.9-19.1 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b4 - Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e ...
@@ -115,10 +111,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
-- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (22.4-24.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (24.5-26.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (26.5-28.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (20.6-22.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (22.1-23.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (23.7-25.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b5 - Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, ...
@@ -139,10 +135,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (28.8-30.5 s): mesmo angulo
-  - take 2 (30.5-32.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (32.3-34.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (26.2-27.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (27.7-29.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (29.2-30.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b6 - Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a la...
@@ -163,11 +159,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
-- TAKES: 4 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (34.1-36.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (36.0-37.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (37.8-39.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (39.6-41.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (32.0-33.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.6-35.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (35.2-36.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b7 - As mortes despencaram quase dez vezes.
@@ -191,7 +186,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "VIDAS SALVAS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Mas os médicos se ofenderam, e Semmelweis foi mandado embora.
@@ -212,9 +207,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@50
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (43.7-45.3 s): mesmo angulo
-  - take 2 (45.3-46.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (41.0-42.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (42.5-44.0 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b9 - Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.
@@ -234,8 +229,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MAE no centro, expressao cry; sem multidao; acao: fala/gesto
 - OBJETO kit/lapide: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (47.1-48.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (48.5-49.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (45.3-46.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (46.6-48.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b10 - Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de...
@@ -255,11 +250,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: PAR no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/wash_basin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "LAVE AS MÃOS" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (50.9-52.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (52.5-54.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (54.2-55.9 s): mesmo angulo
-  - take 4 (55.9-57.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (49.6-51.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (51.5-53.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (53.3-55.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -301,9 +295,8 @@ kit/lapide | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (59.0-60.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (60.8-62.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (62.6-64.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (56.2-57.9 s): mesmo angulo
+  - take 2 (57.9-59.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
