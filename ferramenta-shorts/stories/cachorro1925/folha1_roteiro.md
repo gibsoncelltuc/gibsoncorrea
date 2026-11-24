@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 10 cenas, 154 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 10 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Segundo uma versão, um cachorro sumiu e provocou uma invasão entre dois países.
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.8 s)
-- Narracao: Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de Petrich.
+## Cena b5  (~8.3 s)
+- Narracao: Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: invadiu -> dust + som de impacto; encena: chega (point) @5 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: invadiu -> dust + som de impacto; encena: chega (point) @15 -> acao + som de efeito; encena: chega (point) @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: INVASÃO
 - Funcao na historia: GRANDE MOMENTO

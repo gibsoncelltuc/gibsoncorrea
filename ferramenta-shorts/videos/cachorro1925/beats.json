@@ -60,19 +60,13 @@
    "props": [
     [
      "kit/dog_sit",
-     1.7,
-     -0.6,
-     1.1
+     0.2,
+     1.2,
+     1.6
     ]
    ],
-   "animals": [
-    [
-     "dog",
-     0.9,
-     1.4
-    ]
-   ],
-   "detalhe": true,
+   "animals": [],
+   "detalhe": false,
    "shot_lock": true,
    "verbos_ok": [
     "fug",
@@ -131,14 +125,7 @@
     "gun@60"
    ],
    "say": "Do outro lado, soldados búlgaros atiraram, e ele morreu. A Bulgária pediu desculpas e propôs investigar juntos.",
-   "props": [
-    [
-     "kit/dog_sit",
-     1.8,
-     -0.6,
-     1.0
-    ]
-   ]
+   "props": []
   },
   {
    "shot": "two",
@@ -171,7 +158,7 @@
    },
    "text": "INVASÃO",
    "titulo": true,
-   "say": "Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de Petrich.",
+   "say": "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.",
    "props": []
   },
   {
@@ -222,7 +209,7 @@
    "acao": "reagir"
   }
  ],
- "exp": 1.0,
+ "exp": 1.12,
  "variar_cenario": false,
  "heroi_sem_close_ok": true,
  "min_momentos": 1,
@@ -256,5 +243,6 @@
    "exército da época": "Bulgarian soldiers 1920s photograph",
    "roupas e ruas de 1925": "Bulgaria 1920s street photograph"
   }
- }
+ },
+ "cinf": 4.5
 }

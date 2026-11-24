@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_campo | two | 2 | discutir, INTERAGEM: discutir | kit/dog_sit, dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | loc_campo | track | 2 | encena, andando | dog | - | -
-b3 | mountain | group | 12 | conversar, INTERAGEM: empurrar, batalha | kit/dog_sit | - | -
+b3 | mountain | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
 b4 | mountain | two | 2 | conversar, INTERAGEM: susto | - | - | -
 b5 | mountain | orbit | 22 | encena, batalha | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b6 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -

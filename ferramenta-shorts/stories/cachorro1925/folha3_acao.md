@@ -59,18 +59,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | susto | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 29.2s a 33.2s - 14 palavras - plano orbit
-> "Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de Petrich."
+## Cena b5 - 29.2s a 36.4s - 24 palavras - plano orbit
+> "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | invadiu (31.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | invadiu (31.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | ocupou (32.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | invadiu (34.3s) | EFEITO: dust | poeira + som | OK |
+| 2 | invadiu (34.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | ocupou (35.3s) | ACAO: chega | entra andando pela lateral | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | PLACA | INVASÃO | OK |
 
-## Cena b6 - 34.4s a 37.5s - 13 palavras - plano two
+## Cena b6 - 37.5s a 40.7s - 13 palavras - plano two
 > "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -79,26 +79,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | LIGA DAS NAÇÕES | OK |
 
-## Cena b7 - 38.6s a 43.8s - 22 palavras - plano two
+## Cena b7 - 41.8s a 47.0s - 22 palavras - plano two
 > "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (39.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | retirou (41.4s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | pagou (42.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | pagou (42.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | mandou (42.3s) | ACAO: fala | aponta explicando | OK |
+| 2 | retirou (44.5s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | pagou (45.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | pagou (45.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 5 | - | INTERACAO | entregar | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 44.9s a 47.6s - 11 palavras - plano close
+## Cena b8 - 48.1s a 50.8s - 11 palavras - plano close
 > "Até hoje, não há acordo nem sobre a existência do cachorro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 48.9s a 52.2s - 13 palavras - plano two
+## Cena b9 - 52.1s a 55.4s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

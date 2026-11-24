@@ -90,9 +90,7 @@
     "GRE"
    ],
    "multidao": 10,
-   "objetos": [
-    "kit/dog_sit"
-   ],
+   "objetos": [],
    "palavras": 17,
    "cena": "b3",
    "frase": "Do outro lado, soldados búlgaros atiraram, e ele morreu. A Bulgária pediu desculpas e propôs investigar juntos.",
@@ -137,9 +135,9 @@
     "buildings/house_two",
     "nature/lamppost"
    ],
-   "palavras": 14,
+   "palavras": 24,
    "cena": "b5",
-   "frase": "Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de Petrich.",
+   "frase": "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

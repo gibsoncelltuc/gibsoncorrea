@@ -1,23 +1,23 @@
 {
- "duration": 53.208,
- "frames30": 1596,
- "source": "silence-align (cost 0.66)",
+ "duration": 56.376,
+ "frames30": 1691,
+ "source": "silence-align (cost 0.75)",
  "segments": [
   [
    0.172292,
-   1.16987
+   1.16983
   ],
   [
    1.40046,
    4.30713
   ],
   [
-   5.16179,
+   5.16167,
    7.15992
   ],
   [
    7.40833,
-   9.82475
+   9.82483
   ],
   [
    10.6786,
@@ -56,44 +56,56 @@
    28.4274
   ],
   [
-   29.2329,
-   29.9863
+   29.241,
+   29.9794
   ],
   [
-   30.1806,
-   33.4945
+   30.2245,
+   31.3056
   ],
   [
-   34.3801,
-   36.4317
+   31.565,
+   32.4816
   ],
   [
-   36.6533,
-   37.7555
+   32.8025,
+   34.0294
   ],
   [
-   38.6325,
-   40.6612
+   34.26,
+   36.6673
   ],
   [
-   40.909,
-   44.0857
+   37.5503,
+   39.6024
   ],
   [
-   44.9355,
-   45.5275
+   39.8236,
+   40.9258
   ],
   [
-   45.7545,
-   48.0605
+   41.8028,
+   43.834
   ],
   [
-   48.9067,
-   50.3512
+   44.0793,
+   47.257
   ],
   [
-   50.644,
-   52.4057
+   48.1077,
+   48.6977
+  ],
+  [
+   48.9247,
+   51.2308
+  ],
+  [
+   52.077,
+   53.5194
+  ],
+  [
+   53.8113,
+   55.576
   ]
  ],
  "phrases": [
@@ -164,53 +176,68 @@
   },
   {
    "text": "Dias depois,",
-   "s": 29.233,
-   "e": 29.986
+   "s": 29.241,
+   "e": 29.979
   },
   {
-   "text": "o ex\u00e9rcito grego invadiu a Bulg\u00e1ria e ocupou a cidade de Petrich.",
-   "s": 30.181,
-   "e": 33.495
+   "text": "em vinte e dois de outubro,",
+   "s": 30.224,
+   "e": 31.306
+  },
+  {
+   "text": "o ex\u00e9rcito grego,",
+   "s": 31.565,
+   "e": 32.482
+  },
+  {
+   "text": "com vinte mil soldados,",
+   "s": 32.803,
+   "e": 34.029
+  },
+  {
+   "text": "invadiu a Bulg\u00e1ria e ocupou a cidade de Petrich.",
+   "s": 34.26,
+   "e": 36.667
   },
   {
    "text": "S\u00f3 que a Bulg\u00e1ria apelou \u00e0 Liga das Na\u00e7\u00f5es,",
-   "s": 34.38,
-   "e": 36.432
+   "s": 37.55,
+   "e": 39.602
   },
   {
    "text": "a antecessora da ONU.",
-   "s": 36.653,
-   "e": 37.755
+   "s": 39.824,
+   "e": 40.926
   },
   {
    "text": "A Liga mandou parar a guerra de dez dias,",
-   "s": 38.633,
-   "e": 40.661
+   "s": 41.803,
+   "e": 43.834
   },
   {
    "text": "e a Gr\u00e9cia retirou as tropas e pagou quarenta e cinco mil libras.",
-   "s": 40.909,
-   "e": 44.086
+   "s": 44.079,
+   "e": 47.257
   },
   {
    "text": "At\u00e9 hoje,",
-   "s": 44.935,
-   "e": 45.528
+   "s": 48.108,
+   "e": 48.698
   },
   {
    "text": "n\u00e3o h\u00e1 acordo nem sobre a exist\u00eancia do cachorro.",
-   "s": 45.755,
-   "e": 48.06
+   "s": 48.925,
+   "e": 51.231
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 48.907,
-   "e": 50.351
+   "s": 52.077,
+   "e": 53.519
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 50.644,
-   "e": 52.406
+   "s": 53.811,
+   "e": 55.576
   }
  ]
 }
