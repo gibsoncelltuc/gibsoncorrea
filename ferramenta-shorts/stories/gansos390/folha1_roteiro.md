@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo | 11 cenas, 155 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo | 11 cenas, 157 palavras (~54 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um bando de gansos barulhentos salvou Roma numa só noite.
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~5.2 s)
-- Narracao: Numa noite sem lua, eles tentaram escalar em silêncio, e os guardas não ouviram nada.
+## Cena b4  (~6.2 s)
+- Narracao: Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os guardas não ouviram nada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,12 +65,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.1 s)
-- Narracao: A subida fracassou, mas os gauleses mantiveram o cerco.
+## Cena b7  (~2.8 s)
+- Narracao: Os gauleses se afastaram, mas mantiveram o cerco.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@30, sting@10, thump@70
-- Efeito + som nas palavras-chave: encena: perde (facepalm) @2 -> acao + som de efeito
-- Efeito visual marcado: burst@30, dust@70
+- Efeitos sonoros marcados: thump@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: dust@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

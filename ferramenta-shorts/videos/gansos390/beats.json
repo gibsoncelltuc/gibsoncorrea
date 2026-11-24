@@ -138,8 +138,7 @@
   {
    "shot": "wide",
    "who": [
-    "ROM:0:nervous",
-    "ROM:1:pained"
+    "ROM:0:nervous"
    ],
    "props": [
     [
@@ -161,18 +160,22 @@
    },
    "detalhe": false,
    "quadro": {
-    "objeto": "buildings/castle_tower",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~24.6 m de altura e 13.4 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~3% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -3.9, distancia 69.7 m), sem multidao na frente"
+    "local": "encosta de montanha",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.9, camera a 98.7 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "cx": 0.0,
    "cz": -3.9,
    "h": 6.0,
-   "d0": 73.2,
-   "d1": 69.7
+   "d0": 103.6,
+   "d1": 98.7
   },
   {
    "shot": "wide",
@@ -188,18 +191,13 @@
   {
    "shot": "wide",
    "who": [
-    "GAU:0:stern",
-    "ROM:0:tired"
+    "GAU:0:stern"
    ],
    "hora": "noite",
    "say": "Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os guardas não ouviram nada.",
    "riscos_ok": true,
    "crowd": {
-    "n": 5,
-    "outfits": [
-     "GAU"
-    ],
-    "march": false
+    "n": 0
    },
    "batalha": false,
    "set": "loc_campo",
@@ -209,14 +207,31 @@
     [
      "buildings/castle_tower",
      0.0,
-     -9.0,
+     -8.0,
      1.6,
      {
       "fixo": true
      }
     ]
    ],
-   "fachada": false
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 6.0,
+   "d0": 82.7,
+   "d1": 78.8,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -264,8 +279,7 @@
   {
    "shot": "wide",
    "who": [
-    "GAU:0:scared",
-    "MAN:0:angry"
+    "GAU:0:scared"
    ],
    "fachada": false,
    "say": "O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses.",
@@ -289,13 +303,30 @@
     [
      "buildings/castle_tower",
      0.0,
-     -9.0,
+     -8.0,
      1.6,
      {
       "fixo": true
      }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 6.0,
+   "d0": 82.7,
+   "d1": 78.8,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -303,7 +334,7 @@
     "GAU:0:scared",
     "MAN:0:angry"
    ],
-   "say": "Os gauleses recuaram, mas mantiveram o cerco.",
+   "say": "Os gauleses se afastaram, mas mantiveram o cerco.",
    "props": [
     [
      "buildings/castle_tower",
@@ -333,7 +364,19 @@
    ],
    "sfx": [
     "thump@50"
-   ]
+   ],
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -429,5 +472,6 @@
    "tocha": "ancient torch burning",
    "soldado da época": "Gaul warrior helmet sword illustration"
   }
- }
+ },
+ "max_wide": 6
 }

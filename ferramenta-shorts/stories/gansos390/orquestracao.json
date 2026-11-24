@@ -52,7 +52,6 @@
   {
    "camera": "wide",
    "personagens": [
-    "ROM",
     "ROM"
    ],
    "multidao": 0,
@@ -94,16 +93,15 @@
   {
    "camera": "wide",
    "personagens": [
-    "GAU",
-    "ROM"
+    "GAU"
    ],
-   "multidao": 5,
+   "multidao": 0,
    "objetos": [
     "buildings/castle_tower"
    ],
-   "palavras": 15,
+   "palavras": 18,
    "cena": "b4",
-   "frase": "Numa noite sem lua, eles tentaram escalar em silêncio, e os guardas não ouviram nada.",
+   "frase": "Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os guardas não ouviram nada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -129,8 +127,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "GAU",
-    "MAN"
+    "GAU"
    ],
    "multidao": 0,
    "objetos": [
@@ -146,24 +143,21 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "two",
    "personagens": [
-    "ROM"
+    "GAU",
+    "MAN"
    ],
-   "multidao": 10,
-   "objetos": [],
-   "palavras": 9,
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 8,
    "cena": "b7",
-   "frase": "A subida fracassou, mas os gauleses mantiveram o cerco.",
-   "classe": "chave",
+   "frase": "Os gauleses se afastaram, mas mantiveram o cerco.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -185,7 +179,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "ROM"
    ],
