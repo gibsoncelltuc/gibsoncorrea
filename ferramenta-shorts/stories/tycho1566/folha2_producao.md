@@ -27,9 +27,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b1 - Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da D...
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TYC (variante 0, expressao smile); POV (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_rostock, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, dinamarca, jovem
 - RISCOS: nenhum

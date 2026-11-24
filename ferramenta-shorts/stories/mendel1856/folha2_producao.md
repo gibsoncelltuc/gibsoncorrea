@@ -142,9 +142,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am...
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MEN (variante 0, expressao shock); FRE (variante 0, expressao surprised) | multidao: 10 de FRE/POV
-- Animacao: reagir | batalha encenada
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): verde
 - RISCOS: nenhum
@@ -212,7 +212,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CIE (variante 0, expressao laugh); CIE (variante 1, expressao grin) | multidao: 14 de CIE/POV/FRE
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_green, kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientistas, morte
 - RISCOS: nenhum

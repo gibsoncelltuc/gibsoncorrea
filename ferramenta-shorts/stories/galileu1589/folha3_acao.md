@@ -92,7 +92,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | soltou (33.0s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caíram (34.1s) | EFEITO: dust | poeira + som | OK |
 | 3 | chão (34.5s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
@@ -100,7 +100,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: x_solta na palavra soltou (33.0s): executa: solta/liberta + brilho
 - EFEITO: dust na palavra caíram (34.1s): executa: poeira + som
 - ACAO: tomba na palavra chão (34.5s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
@@ -139,14 +139,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | soltou (49.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caíram (51.9s) | EFEITO: dust | poeira + som | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_solta na palavra soltou (49.6s): executa: solta/liberta + brilho
 - EFEITO: dust na palavra caíram (51.9s): executa: poeira + som
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - multidao de 8: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->

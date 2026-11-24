@@ -105,13 +105,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (32.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra voltou (32.2s): executa: entra andando pela lateral
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 - multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -156,7 +156,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | viram (50.1s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | GENÉTICA | OK |
@@ -164,7 +164,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: olha na palavra viram (50.1s): braco estendido apontando para o objeto/lugar citado
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena

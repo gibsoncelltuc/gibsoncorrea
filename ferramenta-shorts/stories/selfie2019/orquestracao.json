@@ -145,7 +145,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "BUK",
     "DIP"
@@ -155,15 +155,9 @@
    "palavras": 13,
    "cena": "b7",
    "frase": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
@@ -185,7 +179,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV",
@@ -199,9 +193,15 @@
    "palavras": 12,
    "cena": "b9",
    "frase": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "palace"
   },

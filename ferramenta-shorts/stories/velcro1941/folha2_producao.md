@@ -166,9 +166,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b7 - Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous) | multidao: 14 de POV
-- Animacao: discutir | batalha encenada
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_alpes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): material, teceloes, tentativas
 - RISCOS: nenhum

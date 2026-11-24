@@ -77,7 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | fechar (23.1s) | ACAO: empurra | empurra/puxa | OK |
 | 2 | compra (23.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | INTERACAO | insiste | OK |
 | 5 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
@@ -85,7 +85,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: empurra na palavra fechar (23.1s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - ACAO: negocio na palavra compra (23.5s): executa: moeda girando (compra/venda)
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->

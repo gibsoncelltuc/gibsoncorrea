@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smile); FUN (variante 0, expressao neutral)
-- Animacao: conversar | interacao: insiste | batalha encenada
+- Animacao: conversar | interacao: insiste | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): compra, dolares, fechar, twitter
 - RISCOS: nenhum
@@ -195,7 +195,7 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Objeto heroi: kit/sink | grandes momentos: b4 | planos abertos: 2 | mistura: close 20% | medio 47% | aberto 26% | detalhe 7%
 - Interacoes: b2 o outro se aproxima, b4 insiste, b5 vai ate o outro, b7 pular
 - RISCOS GERAIS: 
-  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
+  - menos de 2 grandes momentos -> CORRECAO: "impact": true em duas cenas de acao ("batalha": true SO' se a frase for de luta de verdade)
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
   - GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
   - sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia) -> CORRECAO: por uma frase de virada no meio: "Acontece que...", "So que...", "Mas..."

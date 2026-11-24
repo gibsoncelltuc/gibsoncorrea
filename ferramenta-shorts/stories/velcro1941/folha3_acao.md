@@ -114,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | ideia (37.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 4 | Levou (38.2s) | ACAO: pega | levanta/segura | OK |
 | 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 7 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
@@ -124,7 +124,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: pensa na palavra ideia (37.0s): executa: mao no queixo + brilho de ideia
 - ACAO: pega na palavra Levou (38.2s): executa: levanta/segura
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->

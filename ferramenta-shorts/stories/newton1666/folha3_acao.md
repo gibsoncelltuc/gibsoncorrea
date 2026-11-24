@@ -101,7 +101,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | soltou (28.1s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caiu (29.1s) | EFEITO: dust | poeira + som | OK |
 | 3 | caiu (29.1s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
@@ -109,7 +109,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: x_solta na palavra soltou (28.1s): executa: solta/liberta + brilho
 - EFEITO: dust na palavra caiu (29.1s): executa: poeira + som
 - ACAO: cai na palavra caiu (29.1s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 - multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -148,7 +148,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | virou (44.1s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | GRAVIDADE | OK |
@@ -156,7 +156,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: vira na palavra virou (44.1s): executa: o material vira o produto, que surge girando em destaque
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena

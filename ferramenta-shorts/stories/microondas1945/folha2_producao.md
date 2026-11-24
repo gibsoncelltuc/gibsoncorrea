@@ -134,9 +134,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Acontece que ele testou milho de pipoca, e os grãos começaram a estour...
 - Cenario: hall | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SPE (variante 0, expressao laugh); ENG (variante 0, expressao shock) | multidao: 10 de ENG/COL
-- Animacao: reagir | batalha encenada
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/popcorn
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estourar, graos, pipoca
 - RISCOS: nenhum
@@ -206,7 +206,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 14 de POV/ENG/COL
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar, minuto, sobra
 - RISCOS: nenhum

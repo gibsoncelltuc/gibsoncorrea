@@ -115,9 +115,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b5 - Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NEW (variante 0, expressao surprised); AMI (variante 0, expressao shock) | multidao: 10 de LAV/AMI
-- Animacao: reagir | batalha encenada
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: nature/tree_oak, kit/apple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, galho, maca
 - RISCOS: nenhum
@@ -183,7 +183,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): NEW (variante 0, expressao laugh); AMI (variante 0, expressao laugh) | multidao: 14 de LAV/AMI/MAE
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gravidade
 - RISCOS: nenhum
