@@ -13,8 +13,8 @@ b5 | loc_pista | two | 1 | reagir | kit/roadster26, kit/torre_luz, kit/marco_tex
 b6 | loc_pista | two | 1 | conversar | kit/roadster26, kit/cybercab, kit/cybertruck, kit/torre_luz, kit/marco_texas | - | -
 b7 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/marco_texas | - | -
 b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster26 | - | -
-b9 | loc_pista | two | 1 | conversar | kit/roadster26, kit/torre_luz, kit/marco_texas | - | -
-b10 | loc_pista | close | 1 | conversar | kit/marco_texas | - | -
+b9 | interior galpao | two | 1 | conversar | kit/roadster26 | - | -
+b10 | interior galpao | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/roadster26
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 0  << AVISO: menos de 2 -> 

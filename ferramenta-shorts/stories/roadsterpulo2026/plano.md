@@ -11,8 +11,8 @@ b5 | two | noite  | tropa | encena: x_solta (up) @2 (acao + som de efeito); ence
 b6 | two | noite  | tropa | - | -
 b7 | two | -  | tropa | - | -
 b8 | two | -  | interior | - | -
-b9 | two | noite  | tropa | - | -
-b10 | close | noite  | placa: COMENTE! | - | -
+b9 | two | -  | tropa, interior | - | -
+b10 | close | -  | interior, placa: COMENTE! | - | -
 
 Mistura de planos: close 8% | medio 75% | aberto 17% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

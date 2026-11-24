@@ -228,9 +228,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_texas",
-    "kit/roadster26",
-    "kit/torre_luz"
+    "kit/roadster26"
    ],
    "palavras": 8,
    "cena": "b9",
@@ -245,7 +243,7 @@
     "som": "som na palavra da acao"
    },
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "interior galpao"
   },
   {
    "camera": "close",
@@ -253,9 +251,7 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_texas"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
@@ -263,7 +259,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "interior galpao"
   }
  ]
 }

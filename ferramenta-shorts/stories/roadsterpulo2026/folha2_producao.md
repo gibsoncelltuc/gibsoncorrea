@@ -93,22 +93,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Carro voador ou carro que pula? Você decide.
-- Cenario: loc_pista | luz: noite | clima: limpo
+- Cenario: interior galpao | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao smile) | multidao: 0 de MUS
 - Animacao: conversar
-- Objetos/modelos: kit/roadster26, kit/torre_luz, kit/marco_texas
+- Objetos/modelos: kit/roadster26
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_pista | luz: noite | clima: limpo
+- Cenario: interior galpao | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_texas
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -120,8 +120,8 @@ Objeto | Cenas | Situacao | O que fazer
 kit/roadster26 | b0, b4, b5, b6, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rampa_curva | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/telao_led | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/torre_luz | b1, b4, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_texas | b1, b2, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/torre_luz | b1, b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_texas | b1, b2, b3, b4, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cybercab | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cybertruck | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
@@ -129,11 +129,9 @@ kit/cybertruck | b6 | pronto | conferir na folha de contato se le bem; se parece
 ## Video inteiro
 - Objeto heroi: kit/roadster26 | grandes momentos: - | planos abertos: 2 | mistura: close 8% | medio 75% | aberto 17% | detalhe 0%
 - Interacoes: b0 insiste, b8 vai ate o outro
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'interior galpao': 2, 'loc_pista': 6, 'loc_estudio': 3}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'interior galpao': 2, 'loc_pista': 6, 'loc_estudio': 3}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).
