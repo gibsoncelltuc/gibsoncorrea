@@ -10,27 +10,21 @@
  },
  "cenas": [
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "HON",
     "SAL"
    ],
-   "multidao": 40,
+   "multidao": 16,
    "objetos": [
     "kit/ball"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Dois países entraram em guerra depois de um jogo de futebol.",
-   "classe": "chave",
+   "frase": "Dois países entraram em guerra por causa de um jogo de futebol.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "stadium"
   },
@@ -42,14 +36,11 @@
    ],
    "multidao": 8,
    "objetos": [
-    "buildings/house_small",
-    "kit/volcano",
-    "nature/picket_fence",
-    "nature/tree_oak"
+    "kit/volcano"
    ],
-   "palavras": 21,
+   "palavras": 18,
    "cena": "b1",
-   "frase": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
+   "frase": "Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigavam por terra e por imigrantes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -57,18 +48,40 @@
    "cenario": "street"
   },
   {
-   "camera": "aereo",
+   "camera": "two",
    "personagens": [
     "HON",
     "SAL"
    ],
-   "multidao": 16,
+   "multidao": 6,
    "objetos": [
     "kit/ball"
    ],
    "palavras": 17,
    "cena": "b2",
-   "frase": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
+   "frase": "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "HON",
+    "SAL"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "buildings/house_small",
+    "kit/ball",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "No primeiro, Honduras venceu por um a zero, em casa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,47 +89,20 @@
    "cenario": "stadium"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
+    "HON",
+    "SAL",
     "HON",
     "SAL"
    ],
-   "multidao": 30,
-   "objetos": [
-    "buildings/house_small",
-    "kit/kettle",
-    "kit/panela",
-    "nature/picket_fence",
-    "nature/tree_oak"
-   ],
-   "palavras": 19,
-   "cena": "b3",
-   "frase": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "stadium"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TOR",
-    "TOR"
-   ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 17,
+   "palavras": 15,
    "cena": "b4",
-   "frase": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "frase": "No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -131,9 +117,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b5",
-   "frase": "Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.",
+   "frase": "Acontece que, na véspera do terceiro jogo, El Salvador cortou relações com Honduras.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -147,14 +133,16 @@
     "SAL",
     "HON"
    ],
-   "multidao": 0,
+   "multidao": 18,
    "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
     "kit/ball",
-    "kit/trave"
+    "nature/lamppost"
    ],
-   "palavras": 12,
+   "palavras": 17,
    "cena": "b6",
-   "frase": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
+   "frase": "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -164,18 +152,38 @@
   {
    "camera": "crowd",
    "personagens": [
-    "SOL",
     "SOL"
    ],
    "multidao": 48,
    "objetos": [
-    "kit/volcano",
-    "vehicles/airplane",
-    "vehicles/tank"
+    "kit/volcano"
    ],
-   "palavras": 13,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.",
+   "frase": "Semanas depois, o exército salvadorenho atacou Honduras.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "PRE"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b8",
+   "frase": "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -191,33 +199,15 @@
   {
    "camera": "two",
    "personagens": [
-    "SOL",
-    "PRE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b8",
-   "frase": "Durou cem horas. Os outros países do continente obrigaram os dois a parar.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "close",
-   "personagens": [
     "SAL"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
-    "kit/trave"
+    "kit/ball"
    ],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b9",
-   "frase": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
+   "frase": "Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -225,7 +215,7 @@
    "cenario": "stadium"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "HON"
    ],

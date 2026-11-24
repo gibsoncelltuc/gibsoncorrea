@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1969,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
    "interior madeira",
@@ -33,33 +33,76 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/apartment",
   "buildings/house_small",
+  "buildings/house_two",
   "buildings/shop",
   "kit/ball",
-  "kit/kettle",
   "kit/logs",
-  "kit/panela",
-  "kit/room_eua_wood",
-  "kit/trave",
+  "kit/room_colonial_wood",
   "kit/volcano",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Table_Large",
+  "nature/lamppost",
   "nature/picket_fence",
-  "nature/tree_oak",
-  "vehicles/airplane",
-  "vehicles/tank"
+  "nature/tree_oak"
  ],
- "pesquisa_visual": {},
- "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "pesquisa_visual": {
+  "local": "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexico, e a fronteira entre Honduras e El Salvador",
+  "quando": "8 de junho a 18 de julho de 1969",
+  "participantes": [
+   "torcedores e jogadores de Honduras (camisa azul)",
+   "torcedores e jogadores de El Salvador (camisa branca e azul)",
+   "diplomatas de terno",
+   "soldados salvadorenhos de uniforme verde"
+  ],
+  "roupas": {
+   "HON": "camisa azul e calcao branco",
+   "SAL": "camisa branca com faixa azul e calcao azul",
+   "PRE": "terno escuro e chapeu coco",
+   "SOL": "farda verde com capacete"
+  },
+  "cenario": "estadios cheios de torcida, rua de cidade da America Central de 1969 e fronteira com aviao e soldados",
+  "objetos": [
+   "bola de futebol",
+   "trave",
+   "aviao de combate",
+   "panela"
+  ],
+  "explicacoes": [
+   "Honduras venceu o primeiro jogo por 1 a 0; El Salvador venceu o segundo por 3 a 0 e o terceiro por 3 a 2 na prorrogacao, na Cidade do Mexico (fonte: Wikipedia Football War)",
+   "El Salvador rompeu relacoes na noite de 26 de junho e atacou em 14 de julho; a guerra durou 14 a 18 de julho, as cem horas (fonte: Wikipedia Football War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Football_War",
+   "https://commons.wikimedia.org/wiki/Category:Football_War"
+  ],
+  "buscas": {
+   "A Guerra do Futebol": "Football War 1969 Honduras El Salvador",
+   "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic": "Estadio Nacional Tegucigalpa 1969"
+  },
+  "referencias": {
+   "A Guerra do Futebol": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "América Central": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "roupas e ruas de 1969": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "torcedores e jogadores de Honduras (camisa azul)": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "torcedores e jogadores de El Salvador (camisa branca e azul)": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "diplomatas de terno": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "soldados salvadorenhos de uniforme verde": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "bola de futebol": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "trave": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "aviao de combate": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "panela": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "ball": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "volcano": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "exercito da epoca": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Football_War"
+ ],
+ "falta": []
 }

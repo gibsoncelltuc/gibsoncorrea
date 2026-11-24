@@ -1,117 +1,218 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.7s - 11 palavras - plano crowd
-> "Dois países entraram em guerra depois de um jogo de futebol."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | jogo (3.0s) | ACAO: bola | chuta a bola: parabola pela GRAVIDADE (0,67 s) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 3 | - | PLACA | HONDURAS x EL SALVADOR | OK |
-
-## Cena b1 - 4.1s a 11.5s - 21 palavras - plano reveal
-> "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira."
+## Cena b0 - 0.2s a 2.7s - 12 palavras - plano two
+> "Dois países entraram em guerra por causa de um jogo de futebol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | brigando (9.6s) | ACAO: golpe | soco + estouro | OK |
+| 1 | jogo (2.3s) | ACAO: bola | chuta a bola: parabola pela GRAVIDADE (0,67 s) | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | HONDURAS x EL SALVADOR | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: bola na palavra jogo (2.3s): executa: chuta a bola: parabola pela GRAVIDADE (0,67 s)
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- CHEGADA (a cena toda): executa: alguem entra andando
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 16: parada, reagindo (shout), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b1 - 4.0s a 8.4s - 18 palavras - plano reveal
+> "Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigavam por terra e por imigrantes."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | brigavam (7.2s) | ACAO: golpe | soco + estouro | OK |
 | 2 | - | ATUACAO | discutir | OK |
-| 3 | - | MAPA | AMÉRICA CENTRAL | OK |
+| 3 | - | MAPA | HONDURAS | OK |
+<!-- FISICA -->
 
-## Cena b2 - 11.9s a 17.8s - 17 palavras - plano aereo
-> "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: golpe na palavra brigavam (7.2s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b2 - 9.9s a 14.0s - 17 palavras - plano two
+> "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | CHEGADA | alguem entra andando | OK |
 | 4 | - | PLACA | 3 JOGOS | OK |
+<!-- FISICA -->
 
-## Cena b3 - 18.1s a 24.8s - 19 palavras - plano orbit
-> "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- CHEGADA (a cena toda): executa: alguem entra andando
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 6: parada, reagindo (shout), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | venceu (19.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | venceu (19.3s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | batendo (22.2s) | ACAO: x_bate | bate + estouro | OK |
-| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | comemorar | OK |
-| 7 | - | PLACA | 1 x 0 | OK |
-
-## Cena b4 - 25.2s a 31.1s - 17 palavras - plano two
-> "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos."
+## Cena b3 - 15.1s a 17.8s - 10 palavras - plano crowd
+> "No primeiro, Honduras venceu por um a zero, em casa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deu (26.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | brigaram (28.1s) | EFEITO: puff | fumaca + som | OK |
-| 3 | brigaram (28.1s) | ACAO: golpe | soco + estouro | OK |
-| 4 | trocaram (30.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 1 | venceu (16.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | venceu (16.4s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | 1 x 0 | OK |
+<!-- FISICA -->
 
-## Cena b5 - 31.5s a 36.3s - 14 palavras - plano two
-> "Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra venceu (16.4s): executa: estrelinhas + som
+- ACAO: vence na palavra venceu (16.4s): executa: bracos para cima + brilho
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b4 - 19.0s a 23.6s - 15 palavras - plano crowd
+> "No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cortou (34.8s) | ACAO: corta | machado e toras + poeira | OK |
+| 1 | brigaram (22.9s) | EFEITO: puff | fumaca + som | OK |
+| 2 | brigaram (22.9s) | ACAO: golpe | soco + estouro | OK |
+| 3 | brigaram (22.9s) | ACAO: golpe | soco + estouro | OK |
+| 4 | ruas (23.6s) | ACAO: empurra | empurra/puxa | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | PLACA | 3 x 0 | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra brigaram (22.9s): executa: fumaca + som
+- ACAO: golpe na palavra brigaram (22.9s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ACAO: golpe na palavra brigaram (22.9s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ACAO: empurra na palavra ruas (23.6s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 10: parada, reagindo (shout), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b5 - 24.6s a 28.9s - 13 palavras - plano two
+> "Acontece que, na véspera do terceiro jogo, El Salvador cortou relações com Honduras."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | cortou (28.0s) | ACAO: corta | machado e toras + poeira | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b6 - 36.7s a 40.7s - 12 palavras - plano group
-> "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: corta na palavra cortou (28.0s): executa: machado e toras + poeira
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | ganhou (37.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (37.4s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | PRORROGAÇÃO | OK |
-
-## Cena b7 - 41.1s a 45.6s - 13 palavras - plano crowd
-> "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado."
+## Cena b6 - 30.2s a 34.4s - 17 palavras - plano group
+> "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cruzaram (43.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | GUERRA | OK |
+| 1 | venceu (33.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | venceu (33.0s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | INTERACAO | pular | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | PRORROGAÇÃO | OK |
+<!-- FISICA -->
 
-## Cena b8 - 45.9s a 50.4s - 13 palavras - plano two
-> "Durou cem horas. Os outros países do continente obrigaram os dois a parar."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra venceu (33.0s): executa: estrelinhas + som
+- ACAO: vence na palavra venceu (33.0s): executa: bracos para cima + brilho
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- INTERACAO (a cena toda): executa: pular
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b7 - 35.8s a 38.7s - 7 palavras - plano crowd
+> "Semanas depois, o exército salvadorenho atacou Honduras."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | PLACA | 100 HORAS | OK |
+| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | PLACA | GUERRA | OK |
+<!-- FISICA -->
 
-## Cena b9 - 50.7s a 55.6s - 14 palavras - plano close
-> "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- vehicles/airplane CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
+- multidao de 6: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b8 - 40.0s a 44.1s - 14 palavras - plano group
+> "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (52.6s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (52.6s) | ACAO: perde | mao na testa | OK |
+| 1 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | 100 HORAS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b9 - 45.6s a 49.2s - 13 palavras - plano two
+> "Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | perdeu (47.0s) | EFEITO: puff | fumaca + som | OK |
+| 2 | perdeu (47.0s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 0 GOLS | OK |
+<!-- FISICA -->
 
-## Cena b10 - 55.9s a 60.4s - 13 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra perdeu (47.0s): executa: fumaca + som
+- ACAO: perde na palavra perdeu (47.0s): executa: mao na testa
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b10 - 50.2s a 53.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
