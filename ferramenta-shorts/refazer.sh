@@ -21,5 +21,5 @@ echo "trechos a refazer: $SEGS"; for k in $SEGS; do rm -f ckpt/$ID/seg_$(printf 
 rm -f stories/$ID/DONE; ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
 node render_pool.mjs $ID $N >> $L 2>&1
 T=$(python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['file'])")
-./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tail -2
+python3 cenas_hash.py $ID > ckpt/$ID/cenas.txt 2>/dev/null || true; ./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tail -2
 echo "motor v13 $(date +%F_%T) refeito: $*" > stories/$ID/DONE; echo "PRONTO out/$ID/$T.mp4 (cenas refeitas: $*)"

@@ -1,6 +1,8 @@
 {
  "id": "gansos390",
- "falhas": [],
+ "falhas": [
+  "b9: animal citado aparece pequeno demais no take 2 (media 12% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior"
+ ],
  "tomadas": [
   {
    "id": "b0",
@@ -10,21 +12,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.331
     },
     {
      "f": 30,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.36700000000000005
     },
     {
      "f": 47,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.407
     }
    ]
   },
@@ -36,21 +41,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.314
     },
     {
      "f": 89,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.26299999999999996
     },
     {
      "f": 106,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.25299999999999995
     }
    ]
   },
@@ -62,21 +70,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0,
+     "altP": 0.31299999999999994
     },
     {
      "f": 207,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.173
     },
     {
      "f": 259,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.11599999999999994
     }
    ]
   },
@@ -88,51 +99,54 @@
      "objs": [
       {
        "a": "buildings/castle_tower",
-       "inq": 1,
-       "vis": 0.95625,
-       "area": 0.07022245492244583,
-       "cx": 0.005506853104385034,
-       "alt": 0.16840010489701657,
-       "altmax": 0.16840010489701657
+       "inq": 0.775,
+       "vis": 0.9354838709677419,
+       "area": 0.30861546405245116,
+       "cx": -0.027290746230686336,
+       "alt": 0.3546587004977041,
+       "altmax": 0.3546587004977041
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.18300000000000005
     },
     {
      "f": 363,
      "objs": [
       {
        "a": "buildings/castle_tower",
-       "inq": 1,
-       "vis": 0.95,
-       "area": 0.07657481992794632,
-       "cx": 0.0011805747071407247,
-       "alt": 0.17454191635283983,
-       "altmax": 0.17454191635283983
+       "inq": 0.95,
+       "vis": 0.9473684210526315,
+       "area": 0.35754969822850374,
+       "cx": -0.038011789789579475,
+       "alt": 0.3745066149338083,
+       "altmax": 0.3745066149338083
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.19200000000000006
     },
     {
      "f": 404,
      "objs": [
       {
        "a": "buildings/castle_tower",
-       "inq": 1,
-       "vis": 0.95,
-       "area": 0.08329338486996729,
-       "cx": -0.0035312126692751133,
-       "alt": 0.18259590359580077,
-       "altmax": 0.18259590359580077
+       "inq": 0.7875,
+       "vis": 0.9365079365079365,
+       "area": 0.3726597553943368,
+       "cx": 0.014194572837691766,
+       "alt": 0.37864037415831453,
+       "altmax": 0.37864037415831453
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.20000000000000007
     }
    ]
   },
@@ -144,21 +158,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.321
     },
     {
      "f": 451,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.35700000000000004
     },
     {
      "f": 462,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.43399999999999994
     }
    ]
   },
@@ -170,21 +187,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0,
+     "altP": 0.44099999999999995
     },
     {
      "f": 487,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.29100000000000004
     },
     {
      "f": 497,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.265
     }
    ]
   },
@@ -196,21 +216,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.21400000000000002
     },
     {
      "f": 533,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.11399999999999999
     },
     {
      "f": 550,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.07999999999999996
     }
    ]
   },
@@ -222,17 +245,18 @@
      "objs": [
       {
        "a": "buildings/castle_tower",
-       "inq": 1,
-       "vis": 1,
-       "area": 0.07003852630014916,
-       "cx": 0.0026875275039501823,
-       "alt": 0.16888998731893745,
-       "altmax": 0.16888998731893745
+       "inq": 0.975,
+       "vis": 0.9487179487179487,
+       "area": 0.2946336697406991,
+       "cx": -0.11251791734784328,
+       "alt": 0.33971862435014416,
+       "altmax": 0.33971862435014416
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.18300000000000005
     },
     {
      "f": 648,
@@ -240,33 +264,35 @@
       {
        "a": "buildings/castle_tower",
        "inq": 1,
-       "vis": 1,
-       "area": 0.07724419776918062,
-       "cx": 0.0005506385528236957,
-       "alt": 0.1760663464277828,
-       "altmax": 0.1760663464277828
+       "vis": 0.95,
+       "area": 0.3279220540246854,
+       "cx": -0.03177131339574585,
+       "alt": 0.34601481142290613,
+       "altmax": 0.34601481142290613
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.19200000000000006
     },
     {
      "f": 699,
      "objs": [
       {
        "a": "buildings/castle_tower",
-       "inq": 1,
-       "vis": 1,
-       "area": 0.08484157810902863,
-       "cx": -0.0016356190083518796,
-       "alt": 0.18508283847415813,
-       "altmax": 0.18508283847415813
+       "inq": 0.975,
+       "vis": 0.9487179487179487,
+       "area": 0.3406510657070519,
+       "cx": 0.05879431806177604,
+       "alt": 0.36321083669012844,
+       "altmax": 0.36321083669012844
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.20200000000000007
     }
    ]
   },
@@ -278,21 +304,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.35300000000000004
     },
     {
      "f": 822,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.37500000000000006
     },
     {
      "f": 874,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.39199999999999996
     }
    ]
   },
@@ -304,21 +333,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.28900000000000003
     },
     {
      "f": 939,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.31400000000000006
     },
     {
      "f": 956,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.34299999999999997
     }
    ]
   },
@@ -330,21 +362,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.41200000000000003
     },
     {
      "f": 996,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.433
     },
     {
      "f": 1013,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.417
     }
    ]
   },
@@ -356,21 +391,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.401
     },
     {
      "f": 1054,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.468
     },
     {
      "f": 1071,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 1,
+     "altP": 0.5029999999999999
     }
    ]
   },
@@ -382,21 +420,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.34400000000000003
     },
     {
      "f": 1109,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.38600000000000007
     },
     {
      "f": 1125,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.435
     }
    ]
   },
@@ -408,21 +449,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.43099999999999994
     },
     {
      "f": 1162,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.38
     },
     {
      "f": 1177,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.36100000000000004
     }
    ]
   },
@@ -434,21 +478,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.39200000000000007
     },
     {
      "f": 1212,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.43199999999999994
     },
     {
      "f": 1226,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.474
     }
    ]
   },
@@ -460,21 +507,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.4099999999999999
     },
     {
      "f": 1260,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.304
     },
     {
      "f": 1274,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.288
     }
    ]
   },
@@ -486,21 +536,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.352
     },
     {
      "f": 1307,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.401
     },
     {
      "f": 1321,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0,
+     "altP": 0.43899999999999995
     }
    ]
   },
@@ -512,21 +565,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.43899999999999995
     },
     {
      "f": 1355,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.39899999999999997
     },
     {
      "f": 1369,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.37300000000000005
     }
    ]
   },
@@ -538,21 +594,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.38699999999999996
     },
     {
      "f": 1412,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.429
     },
     {
      "f": 1431,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.47700000000000004
     }
    ]
   },
@@ -564,21 +623,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.14300000000000002
     },
     {
      "f": 1478,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.132
     },
     {
      "f": 1497,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0.126
     }
    ]
   },
@@ -590,21 +652,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0
     },
     {
      "f": 1544,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0
     },
     {
      "f": 1563,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0
     }
    ]
   },
@@ -616,21 +681,24 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0
     },
     {
      "f": 1610,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0
     },
     {
      "f": 1629,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 0,
+     "altP": 0
     }
    ]
   }
