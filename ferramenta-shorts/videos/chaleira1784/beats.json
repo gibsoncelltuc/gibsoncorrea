@@ -56,8 +56,9 @@
     "COZ:0:shock",
     "HOL:0:grin"
    ],
-   "text": "1784",
-   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa."
+   "text": "UM ÚNICO TIRO",
+   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.",
+   "titulo": true
   },
   {
    "shot": "reveal",
@@ -74,7 +75,7 @@
    },
    "mapa": "HOLANDA",
    "mapa_at": 3,
-   "say": "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali.",
+   "say": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
    "verbos_ok": [
     "passa"
    ]
@@ -87,7 +88,7 @@
     "GEN:0:nervous"
    ],
    "acao": "discutir",
-   "say": "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.",
+   "say": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia.",
    "set": "harbor"
   },
   {
@@ -98,7 +99,7 @@
     "GEN:0:scared:paper"
    ],
    "interacao": "reverencia",
-   "say": "\"Mandem três navios\", ordenou ele. \"Os holandeses não vão ter coragem de atirar.\"",
+   "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
    "set": "harbor"
   },
   {
@@ -116,7 +117,7 @@
    },
    "text": "3 NAVIOS",
    "titulo": true,
-   "say": "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras.",
+   "say": "O maior levava a bandeira do imperador e seguia na frente.",
    "set": "harbor"
   },
   {
@@ -148,7 +149,7 @@
    "sfx": [
     "cannon@60"
    ],
-   "say": "Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão."
+   "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
   },
   {
    "shot": "two",
@@ -172,7 +173,7 @@
     "thump@20",
     "ding@24"
    ],
-   "say": "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro."
+   "say": "A bala acertou uma chaleira de sopa no convés do navio do imperador."
   },
   {
    "shot": "group",
@@ -181,7 +182,7 @@
     "AUS:0:nervous",
     "COZ:0:cry"
    ],
-   "say": "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora."
+   "say": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais."
   },
   {
    "shot": "two",
@@ -191,7 +192,7 @@
     "HOL:0:smug:money"
    ],
    "interacao": "entregar",
-   "say": "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro."
+   "say": "Depois, a França mediou a paz. O rio continuou fechado, e a Holanda pagou uma indenização."
   },
   {
    "shot": "close",
@@ -206,7 +207,43 @@
      1.2
     ]
    ],
-   "say": "Ninguém morreu. Só o almoço."
+   "say": "O único prejuízo do dia foi o almoço."
   }
- ]
+ ],
+ "visual": {
+  "local": "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e República Holandesa; margens baixas, forte de Lillo e rio largo",
+  "quando": "8 de outubro de 1784, dia claro de outono",
+  "participantes": [
+   "imperador José II da Áustria (casaca clara com faixa vermelha)",
+   "oficiais e marinheiros austríacos de farda clara e azul",
+   "marinheiros holandeses de casaca laranja e calça azul",
+   "cozinheiro do navio de avental e touca branca"
+  ],
+  "roupas": {
+   "IMP": "casaca clara com faixa vermelha e coroa",
+   "AUS": "farda clara, calça azul-acinzentada e shako",
+   "HOL": "casaca laranja, calça azul e boina",
+   "COZ": "touca e avental claros de cozinheiro"
+  },
+  "cenario": "rio largo com margens baixas, porto de Antuérpia e navio de guerra holandês Dolfijn contra o navio mercante Le Louis, com a bandeira do imperador",
+  "objetos": [
+   "chaleira de sopa",
+   "canhão de bordo",
+   "navio mercante Le Louis",
+   "navio de guerra Dolfijn",
+   "bandeira imperial"
+  ],
+  "explicacoes": [
+   "O Escalda estava fechado aos navios desde 1585 e a Paz de Vestfália confirmou isso em 1648 (fonte: Wikipedia Kettle War)",
+   "Só um tiro foi disparado e acertou uma chaleira de sopa; o Le Louis se rendeu e o Tratado de Fontainebleau (1785) manteve o rio fechado, com a Holanda pagando compensação de 2 milhões de florins (outras fontes dizem 10) (fonte: Wikipedia Kettle War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kettle_War",
+   "https://commons.wikimedia.org/wiki/Category:Kettle_War"
+  ],
+  "buscas": [
+   "Kettle War 1784 Dolfijn Le Louis Scheldt",
+   "Keteloorlog 1784 Schelde Lillo"
+  ]
+ }
 }

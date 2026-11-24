@@ -30,28 +30,22 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "reveal",
    "personagens": [
     "HOL",
     "HOL"
    ],
-   "multidao": 48,
+   "multidao": 32,
    "objetos": [
     "kit/marco_viena",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 20,
+   "palavras": 18,
    "cena": "b1",
-   "frase": "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali.",
-   "classe": "chave",
+   "frase": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -65,7 +59,7 @@
    "objetos": [],
    "palavras": 15,
    "cena": "b2",
-   "frase": "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.",
+   "frase": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -80,9 +74,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 14,
    "cena": "b3",
-   "frase": "\"Mandem três navios\", ordenou ele. \"Os holandeses não vão ter coragem de atirar.\"",
+   "frase": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -100,9 +94,9 @@
     "kit/marco_viena",
     "war/flagpole"
    ],
-   "palavras": 17,
+   "palavras": 11,
    "cena": "b4",
-   "frase": "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras.",
+   "frase": "O maior levava a bandeira do imperador e seguia na frente.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -121,9 +115,9 @@
     "kit/marco_viena",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 16,
+   "palavras": 15,
    "cena": "b5",
-   "frase": "Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão.",
+   "frase": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -146,34 +140,41 @@
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 15,
+   "palavras": 13,
    "cena": "b6",
-   "frase": "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.",
+   "frase": "A bala acertou uma chaleira de sopa no convés do navio do imperador.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "GEN",
     "AUS",
     "COZ"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [
-    "kit/kettle"
+    "kit/marco_viena",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 14,
    "cena": "b7",
-   "frase": "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.",
-   "classe": "simples",
+   "frase": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -183,9 +184,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 16,
    "cena": "b8",
-   "frase": "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.",
+   "frase": "Depois, a França mediou a paz. O rio continuou fechado, e a Holanda pagou uma indenização.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -201,9 +202,9 @@
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 5,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Ninguém morreu. Só o almoço.",
+   "frase": "O único prejuízo do dia foi o almoço.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
