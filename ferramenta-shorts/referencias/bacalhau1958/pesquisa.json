@@ -6,9 +6,18 @@
    "item": "As Guerras do Bacalhau",
    "consultas": [
     "As Guerras do Bacalhau",
-    "Entre Islândia Inglaterra Por Islândia Mas Então Islândia 1958"
+    "Islândia Entre Guerras Bacalhau Islândia 1958"
    ],
    "achados": [
+    {
+     "titulo": "CoventryAlbertWestfj.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/CoventryAlbertWestfj.jpg/500px-CoventryAlbertWestfj.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACoventryAlbertWestfj.jpg",
+     "descricao": "Coast Guard Patrol vessel Albert off the Westfjords in 1958 during the \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/as_guerras_do_bacalhau_d1ec4b.jpg",
+     "consulta": "As Guerras do Bacalhau"
+    },
     {
      "titulo": "Scylla - Odinn scrap.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Scylla_-_Odinn_scrap.jpg/500px-Scylla_-_Odinn_scrap.jpg",
@@ -26,15 +35,43 @@
      "ordem": 3,
      "print": "referencias/bacalhau1958/prints/as_guerras_do_bacalhau_659f20.jpg",
      "consulta": "As Guerras do Bacalhau"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de p",
+   "consultas": [
+    "Atlântico Norte mar aberto perto da costa da Islândia",
+    "Atlântico Norte mar aberto perto da costa da Islândia Reykjavik e a costa de pesca águas c"
+   ],
+   "achados": [
+    {
+     "titulo": "Global companies with offices in the Nordic region 20160212 (24674521290).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Global_companies_with_offices_in_the_Nordic_region_20160212_%2824674521290%29.jpg/500px-Global_companies_with_offices_in_the_Nordic_region_20160212_%2824674521290%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlobal_companies_with_offices_in_the_Nordic_region_20160212_%2824674521290%29.jpg",
+     "descricao": "under \\u003Cspan class=\\",
+     "ordem": 10,
+     "print": "referencias/bacalhau1958/prints/atl_ntico_norte_mar_aberto_perto_da_cost_cd3753.jpg",
+     "consulta": "Atlântico Norte Islândia"
     },
     {
-     "titulo": "Klippuemployment.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Klippuemployment.png/500px-Klippuemployment.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKlippuemployment.png",
-     "descricao": "recommended to name the SVG file “Klippuemployment.svg”—then the template Vector version available (or Vva) \\u003Cspan class=\\",
-     "ordem": 8,
-     "print": "referencias/bacalhau1958/prints/as_guerras_do_bacalhau_bb5e3f.jpg",
-     "consulta": "As Guerras do Bacalhau"
+     "titulo": "Immigrants in the Nordic countries in 2012.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Immigrants_in_the_Nordic_countries_in_2012.JPG/500px-Immigrants_in_the_Nordic_countries_in_2012.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AImmigrants_in_the_Nordic_countries_in_2012.JPG",
+     "descricao": "I, \\u003Cspan class=\\",
+     "ordem": 11,
+     "print": "referencias/bacalhau1958/prints/atl_ntico_norte_mar_aberto_perto_da_cost_e8d544.jpg",
+     "consulta": "Atlântico Norte Islândia"
+    },
+    {
+     "titulo": "Anti-capitalism Nordic.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Anti-capitalism_Nordic.png/500px-Anti-capitalism_Nordic.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAnti-capitalism_Nordic.png",
+     "descricao": "Anti-capitalist graphic depicting an arm representing \\u003Cspan class=\\",
+     "ordem": 12,
+     "print": "referencias/bacalhau1958/prints/atl_ntico_norte_mar_aberto_perto_da_cost_c798de.jpg",
+     "consulta": "Atlântico Norte Islândia"
     }
    ]
   },
@@ -113,30 +150,326 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "guarda costeira da Islândia (uniforme azul-marinho, bonés)",
+   "consultas": [
+    "guarda costeira da Islândia uniforme azul-marinho bonés",
+    "guarda costeira da Islândia uniforme azul-marinho bonés 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "Reynisfjara, Suðurland, Islandia, 2014-08-17, DD 164.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Reynisfjara%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_164.JPG/500px-Reynisfjara%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_164.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AReynisfjara%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_164.JPG",
+     "descricao": "under the mountain Reynisfjall near the village Vík í Mýrdal, southern \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/guarda_costeira_da_isl_ndia_uniforme_azu_cde1cc.jpg",
+     "consulta": "Islândia"
+    },
+    {
+     "titulo": "001 Volcano eruption of Litli-Hrútur in Iceland in 2023 Photo by Giles Laurent.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/001_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Photo_by_Giles_Laurent.jpg/500px-001_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Photo_by_Giles_Laurent.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A001_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Photo_by_Giles_Laurent.jpg",
+     "descricao": "Island im Jahr 2023 Spanish Erupción del volcán cerca del Litli-Hrútur en \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/bacalhau1958/prints/guarda_costeira_da_isl_ndia_uniforme_azu_899782.jpg",
+     "consulta": "Islândia"
+    },
+    {
+     "titulo": "193 Herd of Reindeers running in Southern Iceland Photo by Giles Laurent.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/193_Herd_of_Reindeers_running_in_Southern_Iceland_Photo_by_Giles_Laurent.jpg/500px-193_Herd_of_Reindeers_running_in_Southern_Iceland_Photo_by_Giles_Laurent.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A193_Herd_of_Reindeers_running_in_Southern_Iceland_Photo_by_Giles_Laurent.jpg",
+     "descricao": "0 Creative Commons Attribution-Share Alike 4.0 truetrue English Herd of Reindeers running in Southern \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/bacalhau1958/prints/guarda_costeira_da_isl_ndia_uniforme_azu_9b59c0.jpg",
+     "consulta": "Islândia"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "marinheiros da Marinha Real britânica (uniforme branco e azul)",
+   "consultas": [
+    "marinheiros da Marinha Real britânica uniforme branco e azul",
+    "marinheiros da Marinha Real britânica uniforme branco e azul 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "Royal Navy Type 45 Destroyer HMS Dragon MOD 45153124.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Royal_Navy_Type_45_Destroyer_HMS_Dragon_MOD_45153124.jpg/500px-Royal_Navy_Type_45_Destroyer_HMS_Dragon_MOD_45153124.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoyal_Navy_Type_45_Destroyer_HMS_Dragon_MOD_45153124.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/marinheiros_da_marinha_real_brit_nica_un_df78d6.jpg",
+     "consulta": "Marinha Real"
+    },
+    {
+     "titulo": "Future of the Royal Navy 2025.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Future_of_the_Royal_Navy_2025.png/500px-Future_of_the_Royal_Navy_2025.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFuture_of_the_Royal_Navy_2025.png",
+     "descricao": "Attribution 4.0 truetrue English Silhouettes of all planned future ships of the \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/bacalhau1958/prints/marinheiros_da_marinha_real_brit_nica_un_a28b7f.jpg",
+     "consulta": "Marinha Real"
+    },
+    {
+     "titulo": "Portrait of Captain John Murray, Royal Navy, SL ca. 1804.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Portrait_of_Captain_John_Murray%2C_Royal_Navy%2C_SL_ca._1804.jpg/500px-Portrait_of_Captain_John_Murray%2C_Royal_Navy%2C_SL_ca._1804.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APortrait_of_Captain_John_Murray%2C_Royal_Navy%2C_SL_ca._1804.jpg",
+     "descricao": "English Portrait of Captain John Murray, \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bacalhau1958/prints/marinheiros_da_marinha_real_brit_nica_un_048ac0.jpg",
+     "consulta": "Marinha Real"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "pescadores de capa amarela",
+   "consultas": [
+    "pescadores de capa amarela",
+    "pescadores de capa amarela 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "Pescadores de quimeras.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pescadores_de_quimeras.jpg/500px-Pescadores_de_quimeras.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APescadores_de_quimeras.jpg",
+     "descricao": "foreground. Spanish Barcos bajo el efecto fata morgana y en primer plano \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/pescadores_de_capa_amarela_56e7b3.jpg",
+     "consulta": "pescadores capa"
+    },
+    {
+     "titulo": "Schwanenstein, Lohme, Insel Rügen, 170422, ako (3).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Schwanenstein%2C_Lohme%2C_Insel_R%C3%BCgen%2C_170422%2C_ako_%283%29.jpg/500px-Schwanenstein%2C_Lohme%2C_Insel_R%C3%BCgen%2C_170422%2C_ako_%283%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASchwanenstein%2C_Lohme%2C_Insel_R%C3%BCgen%2C_170422%2C_ako_%283%29.jpg",
+     "descricao": "tiempo, y una tormenta rompió la \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/bacalhau1958/prints/pescadores_de_capa_amarela_d8a813.jpg",
+     "consulta": "pescadores capa"
+    },
+    {
+     "titulo": "DSCN1965 c.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DSCN1965_c.jpg/500px-DSCN1965_c.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADSCN1965_c.jpg",
+     "descricao": "DescriptionDSCN1965 c.jpg Español: En la foto se aprecia en primer plano un espigón de \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/bacalhau1958/prints/pescadores_de_capa_amarela_ddc89c.jpg",
+     "consulta": "pescadores capa"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bacalhau",
+   "consultas": [
+    "bacalhau",
+    "bacalhau 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "Bacalhau@UltrajeaRigor.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bacalhau%40UltrajeaRigor.jpg/500px-Bacalhau%40UltrajeaRigor.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacalhau%40UltrajeaRigor.jpg",
+     "descricao": "Attribution 2.0 Generic license. You are free: to share – to copy, distribute \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/bacalhau_685e71.jpg",
+     "consulta": "bacalhau"
+    },
+    {
+     "titulo": "Bacalhau a Bras.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacalhau_a_Bras.jpg",
+     "descricao": "Attribution: Fpenteado at en.wikipedia You are free: to share – to copy, distribute \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/bacalhau1958/prints/bacalhau_e98d69.jpg",
+     "consulta": "bacalhau"
+    },
+    {
+     "titulo": "Bacalhau em 2007.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bacalhau_em_2007.jpg/500px-Bacalhau_em_2007.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacalhau_em_2007.jpg",
+     "descricao": "Commons Attribution 2.0 truetrue 13 August 2020 English Brazilian Portuguese \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bacalhau1958/prints/bacalhau_90ec04.jpg",
+     "consulta": "bacalhau"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "caixote de peixe",
+   "consultas": [
+    "caixote de peixe",
+    "caixote de peixe 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "Naked Woman (1933) - Ruy Gameiro (1907-1935) (50005780768).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Naked_Woman_%281933%29_-_Ruy_Gameiro_%281907-1935%29_%2850005780768%29.jpg/500px-Naked_Woman_%281933%29_-_Ruy_Gameiro_%281907-1935%29_%2850005780768%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANaked_Woman_%281933%29_-_Ruy_Gameiro_%281907-1935%29_%2850005780768%29.jpg",
+     "descricao": "mobiliário \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/caixote_de_peixe_6d05ff.jpg",
+     "consulta": "caixote de peixe"
+    },
+    {
+     "titulo": "Naked Woman (1933) - Ruy Gameiro (1907-1935) (50005780768).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Naked_Woman_%281933%29_-_Ruy_Gameiro_%281907-1935%29_%2850005780768%29.jpg/500px-Naked_Woman_%281933%29_-_Ruy_Gameiro_%281907-1935%29_%2850005780768%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANaked_Woman_%281933%29_-_Ruy_Gameiro_%281907-1935%29_%2850005780768%29.jpg",
+     "descricao": "flores pintadas ao sabor popular, todo feito pelo Ruy com tábuas de velhos \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/caixote_de_peixe_6d05ff.jpg",
+     "consulta": "caixote peixe"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio da guarda costeira",
+   "consultas": [
+    "navio da guarda costeira",
+    "navio da guarda costeira 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "04-navios-e-embarcacoes-1498-1580 - Image 206786.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/04-navios-e-embarcacoes-1498-1580_-_Image_206786.jpg/500px-04-navios-e-embarcacoes-1498-1580_-_Image_206786.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A04-navios-e-embarcacoes-1498-1580_-_Image_206786.jpg",
+     "descricao": " 2º v.: \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/navio_da_guarda_costeira_b5db63.jpg",
+     "consulta": "navio da guarda costeira"
+    },
+    {
+     "titulo": "05-nuno rubim capa-1o-volume - Image 206789.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/05-nuno_rubim_capa-1o-volume_-_Image_206789.jpg/500px-05-nuno_rubim_capa-1o-volume_-_Image_206789.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A05-nuno_rubim_capa-1o-volume_-_Image_206789.jpg",
+     "descricao": "período que decorreu desde a sua construção até à data \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/bacalhau1958/prints/navio_da_guarda_costeira_19a451.jpg",
+     "consulta": "navio da guarda costeira"
+    },
+    {
+     "titulo": "01-guine guileje 2-66 nuno rubim1 - Image 206747.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/01-guine_guileje_2-66_nuno_rubim1_-_Image_206747.jpg/500px-01-guine_guileje_2-66_nuno_rubim1_-_Image_206747.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A01-guine_guileje_2-66_nuno_rubim1_-_Image_206747.jpg",
+     "descricao": "período que decorreu desde a sua construção até à data \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/bacalhau1958/prints/navio_da_guarda_costeira_5c4d5d.jpg",
+     "consulta": "navio da guarda costeira"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fragata britânica",
+   "consultas": [
+    "fragata britânica",
+    "fragata britânica 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "Frigates at Devonport (41565864901).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Frigates_at_Devonport_%2841565864901%29.jpg/500px-Frigates_at_Devonport_%2841565864901%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrigates_at_Devonport_%2841565864901%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/bacalhau1958/prints/fragata_brit_nica_832bec.jpg",
+     "consulta": "fragata britânica"
+    },
+    {
+     "titulo": "UKfrigateoutline.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/UKfrigateoutline.png/500px-UKfrigateoutline.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUKfrigateoutline.png",
+     "descricao": "DescriptionUKfrigateoutline.png outline of a British \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/bacalhau1958/prints/fragata_brit_nica_738ad4.jpg",
+     "consulta": "fragata britânica"
+    },
+    {
+     "titulo": "HMS Amazon Type 21 Frigate F169 (1971).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HMS_Amazon_Type_21_Frigate_F169_%281971%29.jpg/500px-HMS_Amazon_Type_21_Frigate_F169_%281971%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHMS_Amazon_Type_21_Frigate_F169_%281971%29.jpg",
+     "descricao": "BY 4.0 Creative Commons Attribution 4.0 truetrue \\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/bacalhau1958/prints/fragata_brit_nica_d869b1.jpg",
+     "consulta": "fragata britânica"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cabo de rede de pesca",
+   "consultas": [
+    "cabo de rede de pesca",
+    "cabo de rede de pesca 1958"
+   ],
+   "achados": [
+    {
+     "titulo": "Seine fishing in Portugal, at Praia da Saúde beach, Costa da Caparica (2).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Seine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%282%29.jpg/500px-Seine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%282%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASeine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%282%29.jpg",
+     "descricao": "Português: \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/bacalhau1958/prints/cabo_de_rede_de_pesca_3fc935.jpg",
+     "consulta": "cabo de rede de pesca"
+    },
+    {
+     "titulo": "Seine fishing in Portugal, at Praia da Saúde beach, Costa da Caparica (3).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Seine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%283%29.jpg/500px-Seine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%283%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASeine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%283%29.jpg",
+     "descricao": "Português: \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bacalhau1958/prints/cabo_de_rede_de_pesca_01adaa.jpg",
+     "consulta": "cabo rede pesca"
+    },
+    {
+     "titulo": "Seine fishing in Portugal, at Praia da Saúde beach, Costa da Caparica (2).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Seine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%282%29.jpg/500px-Seine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%282%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASeine_fishing_in_Portugal%2C_at_Praia_da_Sa%C3%BAde_beach%2C_Costa_da_Caparica_%282%29.jpg",
+     "descricao": "Português: \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bacalhau1958/prints/cabo_de_rede_de_pesca_3fc935.jpg",
+     "consulta": "cabo rede pesca"
+    }
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "cod",
    "consultas": [
-    "cod",
+    "bacalhau",
     "As Guerras do Bacalhau"
    ],
    "achados": [
     {
-     "titulo": "DR Congo - collage.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/DR_Congo_-_collage.jpg/500px-DR_Congo_-_collage.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ADR_Congo_-_collage.jpg",
-     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "titulo": "Bacalhau@UltrajeaRigor.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bacalhau%40UltrajeaRigor.jpg/500px-Bacalhau%40UltrajeaRigor.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacalhau%40UltrajeaRigor.jpg",
+     "descricao": "Attribution 2.0 Generic license. You are free: to share – to copy, distribute \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/bacalhau1958/prints/cod_9ac890.jpg",
-     "consulta": "cod"
+     "print": "referencias/bacalhau1958/prints/cod_685e71.jpg",
+     "consulta": "bacalhau"
     },
     {
-     "titulo": "Congo, Democratic Republic of the-CIA WFB Map-ar.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Congo%2C_Democratic_Republic_of_the-CIA_WFB_Map-ar.png/500px-Congo%2C_Democratic_Republic_of_the-CIA_WFB_Map-ar.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACongo%2C_Democratic_Republic_of_the-CIA_WFB_Map-ar.png",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 23,
-     "print": "referencias/bacalhau1958/prints/cod_160daf.jpg",
-     "consulta": "cod"
+     "titulo": "Bacalhau a Bras.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacalhau_a_Bras.jpg",
+     "descricao": "Attribution: Fpenteado at en.wikipedia You are free: to share – to copy, distribute \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/bacalhau1958/prints/cod_e98d69.jpg",
+     "consulta": "bacalhau"
+    },
+    {
+     "titulo": "Bacalhau em 2007.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bacalhau_em_2007.jpg/500px-Bacalhau_em_2007.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacalhau_em_2007.jpg",
+     "descricao": "Commons Attribution 2.0 truetrue 13 August 2020 English Brazilian Portuguese \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bacalhau1958/prints/cod_90ec04.jpg",
+     "consulta": "bacalhau"
     }
    ]
   },
@@ -155,6 +488,15 @@
      "descricao": "DescriptionLindau (\\u003Cspan class=\\",
      "ordem": 2,
      "print": "referencias/bacalhau1958/prints/navio_da_epoca_26d7dc.jpg",
+     "consulta": "ship 1958"
+    },
+    {
+     "titulo": "Lindau (1958) Sonderfahrt.jpeg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Lindau_%281958%29_Sonderfahrt.jpeg/500px-Lindau_%281958%29_Sonderfahrt.jpeg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALindau_%281958%29_Sonderfahrt.jpeg",
+     "descricao": "DescriptionLindau (\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bacalhau1958/prints/navio_da_epoca_68517f.jpg",
      "consulta": "ship 1958"
     },
     {
