@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@20, thump@40, thump@60
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @13 -> acao + som de efeito; encena: atira @16 -> acao + som de efeito
 - Efeito visual marcado: dust@20, dust@40, dust@60, puff@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -85,6 +85,7 @@
   {
    "camera": "crowd",
    "personagens": [
+    "SOL",
     "SOL"
    ],
    "multidao": 5,
@@ -149,8 +150,7 @@
   {
    "camera": "group",
    "personagens": [
-    "SOL",
-    "PRESS"
+    "SOL"
    ],
    "multidao": 5,
    "objetos": [
