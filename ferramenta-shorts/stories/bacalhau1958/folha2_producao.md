@@ -22,13 +22,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bacalhau, dois
 - RISCOS: nenhum
 
-## Cena b2 - A Islândia vivia da pesca, mas barcos ingleses pescavam pertinho da su...
+## Cena b2 - A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau perti...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: crate
+- Objetos/modelos: crate, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): islandia, pesca
 - RISCOS: nenhum
 
@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): base, inglaterra, islandia, otan
 - RISCOS: nenhum
 
-## Cena b8 - Em mil novecentos e setenta e seis, a Inglaterra cedeu, e as duzentas ...
+## Cena b8 - Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de du...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, inglaterra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, inglaterra, zona
 - RISCOS: nenhum
 
 ## Cena b9 - Uma guerra inteira, por causa de um bacalhau.
@@ -118,18 +118,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 ship | b0, b1, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/cod | b1, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cod | b1, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b6 | planos abertos: 2 | mistura: close 19% | medio 54% | aberto 22% | detalhe 6%
+- Objeto heroi: kit/cod | grandes momentos: b0, b6 | planos abertos: 2 | mistura: close 19% | medio 54% | aberto 21% | detalhe 6%
 - Interacoes: b0 pular, b2 o outro se aproxima, b4 insiste, b7 discutir, b8 vai ate o outro
-- RISCOS GERAIS: 
-  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bacalhau1958 bN bM` (so essas cenas).

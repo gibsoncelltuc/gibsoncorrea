@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 152 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 155 palavras (~53 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Islândia derrotou a marinha inglesa com um cortador de rede.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: 1958-1976
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.5 s)
-- Narracao: A Islândia vivia da pesca, mas barcos ingleses pescavam pertinho da sua costa.
+## Cena b2  (~4.8 s)
+- Narracao: A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_pesca (lift) @8 -> acao + som de efeito
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: OTAN
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~6.2 s)
-- Narracao: Em mil novecentos e setenta e seis, a Inglaterra cedeu, e as duzentas milhas se espalharam pelo mundo.
+## Cena b8  (~6.9 s)
+- Narracao: Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: VITÓRIA ISLANDESA
 - Funcao na historia: desenvolvimento

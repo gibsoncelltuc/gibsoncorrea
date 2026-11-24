@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | comemorar, INTERAGEM: pular, batalha | ship | - | -
 b1 | harbor | wide | 2 | encena | ship, kit/cod | - | -
-b2 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | crate | - | -
+b2 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | crate, kit/cod | - | -
 b3 | harbor | wide | 1 | parados (so fala e pisca) | ship | - | -
 b4 | harbor | group | 3 | conversar, INTERAGEM: insiste | ship | - | -
 b5 | harbor | low | 1 | conversar | - | - | -

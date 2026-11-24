@@ -120,7 +120,7 @@
    "mood": "march"
   },
   {
-   "say": "A Islândia vivia da pesca, mas barcos ingleses pescavam pertinho da sua costa.",
+   "say": "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa.",
    "shot": "two",
    "who": [
     "ICE:1:nervous",
@@ -245,7 +245,7 @@
    "mood": "march"
   },
   {
-   "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e as duzentas milhas se espalharam pelo mundo.",
+   "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
    "shot": "two",
    "who": [
     "BRI:0:pained",
@@ -320,5 +320,6 @@
  },
  "fontes": [
   "https://en.wikipedia.org/wiki/Cod_Wars"
- ]
+ ],
+ "duracao_ok": true
 }

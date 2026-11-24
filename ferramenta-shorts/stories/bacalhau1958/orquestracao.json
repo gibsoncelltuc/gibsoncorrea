@@ -62,11 +62,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "crate"
+    "crate",
+    "kit/cod"
    ],
-   "palavras": 13,
+   "palavras": 14,
    "cena": "b2",
-   "frase": "A Islândia vivia da pesca, mas barcos ingleses pescavam pertinho da sua costa.",
+   "frase": "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -174,9 +175,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 20,
    "cena": "b8",
-   "frase": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e as duzentas milhas se espalharam pelo mundo.",
+   "frase": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
