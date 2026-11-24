@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Gerado em 24/11 08:31 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 08:33 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | chave | arctic | wide | FRA, FRA | - | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Uma frota de navios de guerra foi capturada por soldados a cavalo.
 b1 | simples | harbor | reveal | FRA, NED | - | - | - | Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fa
 b2 | simples | harbor | orbit | NED, NED | - | navio_vela, navios de guerra ao fundo, no tamanho real | - | A frota holandesa estava ancorada perto de Den Helder, e o mar congelo
-b3 | simples | harbor | prop | NED | - | navio_vela | - | Os navios ficaram presos no gelo, sem conseguir sair do lugar.
+b3 | simples | harbor | wide | NED | - | navio_vela, navios de guerra ao fundo, no tamanho real, ship | - | Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 b4 | simples | arctic | group | FRA, FRA, OFF | - | - | - | Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n
 b5 | simples | arctic | two | GEN, OFF | - | - | - | O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 b6 | chave | arctic | two | FRA, FRA | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo.
@@ -23,7 +23,7 @@ b10 | simples | interior madeira | two | FRA | - | - | - | Agora não deixe de c
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (12/13 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (12/12 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
