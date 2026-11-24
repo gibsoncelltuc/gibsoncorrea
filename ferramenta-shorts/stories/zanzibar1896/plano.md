@@ -10,9 +10,9 @@ b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 3.000 | tiros: 5 solda
 b5 | close | -  | interior | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | tiros: 5 soldados caem no chao (acao + som de efeito); fogo (burst + som de tiro/explosao); fogo (burst + som de tiro/explosao); encena: x_abre (push) @9 (acao + som de efeito); encena: pega (lift) @20 (acao + som de efeito) | -
 b7 | track | -  | - | fugiu (dust + som de impacto); encena: corre @2 (acao + som de efeito); encena: fala (point) @9 (acao + som de efeito) | -
-b8 | two | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto); canhões (burst + som de tiro/explosao); encena: atira @11 (acao + som de efeito) | -
+b8 | two | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto); encena: atira @11 (acao + som de efeito) | -
 b9 | group | -  | objeto na mao | encena: pega (lift) @9 (acao + som de efeito) | -
-b10 | close | -  | interior | balas (burst + som de tiro/explosao); encena: fala (point) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
+b10 | close | -  | interior | encena: fala (point) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
 Mistura de planos: close 21% | medio 65% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

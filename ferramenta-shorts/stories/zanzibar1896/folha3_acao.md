@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 51 acoes catalogadas, 51 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.5s - 11 palavras - plano two
@@ -164,16 +164,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | caiu (45.2s) | EFEITO: dust | poeira + som | OK |
-| 2 | canhões (46.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | canhões (46.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | PLACA | 9:40 | OK |
+| 2 | canhões (46.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | 9:40 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra caiu (45.2s): executa: poeira + som
-- EFEITO: burst na palavra canhões (46.0s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - ACAO: atira na palavra canhões (46.0s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
@@ -202,14 +200,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandaram (53.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | balas (54.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | balas (54.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | balas (54.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra mandaram (53.9s): braco estendido apontando para o objeto/lugar citado
-- EFEITO: burst na palavra balas (54.9s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - ACAO: atira na palavra balas (54.9s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->

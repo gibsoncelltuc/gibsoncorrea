@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; canhões -> burst + som de tiro/explosao; encena: atira @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; encena: atira @11 -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: E ainda mandaram a conta das balas para Zanzibar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao; encena: fala (point) @2 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
