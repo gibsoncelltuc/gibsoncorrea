@@ -100,8 +100,8 @@ for k, b in enumerate(BT):
             x = (0.0 if n_p != 1 else 1.0) if eh_p else (-1.6 if -1.6 not in usados_x else 1.6); z = 1.0 if eh_p else 0.8; tela = round(H / (2 * TANF * 9.0), 2)
             rel = f'objeto pequeno ampliado para {num(H)} m (le de longe): NA FRENTE, {"entre os personagens" if eh_p else "ao lado"}, sem tapar rosto'
         usados_x.append(x)
-        if estado == 'chegando': ex['mover'] = [num(x), num(z)]; x0, z0 = x - 16.0, z
-        elif estado == 'indo embora': ex['mover'] = [num(x + 16.0), num(z)]; x0, z0 = x, z
+        if estado == 'chegando': ex['mover'] = [num(x), num(z)]; x0, z0 = x - 7.0, z   # entra perto da borda (a -16 m o veiculo ficava fora do quadro quase a cena toda)
+        elif estado == 'indo embora': ex['mover'] = [num(x + 7.0), num(z)]; x0, z0 = x, z
         else: ex.pop('mover', None); x0, z0 = x, z
         if not manual:
             novo = [a, num(x0), num(z0), round(s, 2), {**{kk: vv for kk, vv in ex.items() if kk != 'fixo'}, 'fixo': True}]
