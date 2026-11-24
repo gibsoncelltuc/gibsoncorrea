@@ -35,6 +35,7 @@ while true; do
     export DEADLINE=$(( $(date +%s) + LEFT )); echo "$(date +%T) prazo de seguranca em $((LEFT/60)) min (container no ar ha $((UP/60)) min)"
   fi
   echo "$(date +%T) >>> $NEXT"
+  bash garantir_sync.sh; [ "$(git -C .. rev-parse --abbrev-ref HEAD 2>/dev/null)" != "claude/bold-sagan-dskrsj" ] && bash sync_ferramenta.sh >> logs/sync.log 2>&1   # antes de CADA video: ferramenta na ultima versao
   bash make_video.sh "$NEXT" 9>&-; RC=$?   # 9>&-: os filhos nao herdam a trava (senao um processo orfao bloqueia a fila)
   if [ $RC -eq 76 ]; then echo "$(date +%T) $NEXT: storyboard pronto, AGUARDANDO APROVACAO (stories/$NEXT/storyboard.jpg)"; continue; fi
   if [ $RC -eq 75 ]; then
