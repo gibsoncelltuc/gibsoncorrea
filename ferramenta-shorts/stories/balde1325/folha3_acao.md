@@ -4,8 +4,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.6s - 16 palavras - plano prop
-> "Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um balde de madeira."
+## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
+> "Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

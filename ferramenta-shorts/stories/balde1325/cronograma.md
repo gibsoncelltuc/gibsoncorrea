@@ -1,12 +1,12 @@
 # CRONOGRAMA - Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Gerado em 24/11 05:38 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 05:39 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | medieval | prop | MOD, BOL | - | house_two, balde_madeira, lamppost, bucket | - | Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um b
+b0 | simples | medieval | two | MOD, BOL | - | house_small, balde_madeira, picket_fence, tree_oak, bucket | - | Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um 
 b1 | simples | medieval | two | NOB, BOL | - | - | - | Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o 
 b2 | simples | loc_campo | crowd | BOL, BOL | 18 | picket_fence | - | Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil s
 b3 | simples | loc_campo | group | MOD, MOD | 6 | - | - | Módena tinha menos de oito mil homens, entre cavaleiros e soldados a p

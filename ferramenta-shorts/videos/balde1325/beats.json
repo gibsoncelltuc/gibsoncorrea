@@ -48,12 +48,12 @@
  "titulo_base": "A Guerra do Balde",
  "beats": [
   {
-   "shot": "prop",
+   "shot": "two",
    "who": [
     "MOD:0:grin",
     "BOL:0:shock"
    ],
-   "say": "Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um balde de madeira.",
+   "say": "Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.",
    "props": [
     [
      "kit/balde_madeira",
@@ -62,7 +62,7 @@
      2.6
     ]
    ],
-   "shot_lock": true
+   "detalhe": true
   },
   {
    "shot": "two",

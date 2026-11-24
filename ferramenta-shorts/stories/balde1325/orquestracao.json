@@ -10,21 +10,22 @@
  },
  "cenas": [
   {
-   "camera": "prop",
+   "camera": "two",
    "personagens": [
     "MOD",
     "BOL"
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/house_two",
+    "buildings/house_small",
     "kit/balde_madeira",
-    "nature/lamppost",
+    "nature/picket_fence",
+    "nature/tree_oak",
     "tools/bucket"
    ],
    "palavras": 16,
    "cena": "b0",
-   "frase": "Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um balde de madeira.",
+   "frase": "Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

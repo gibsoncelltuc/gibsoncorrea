@@ -2,13 +2,13 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/balde1325/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py balde1325` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um b...
+## Cena b0 - Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um ...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: prop = - + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao grin); BOL (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/balde_madeira, tools/bucket, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/balde_madeira, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira, premio, vencedor
 - RISCOS: nenhum
 
@@ -119,9 +119,9 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/balde_madeira | b0, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b0, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
