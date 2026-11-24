@@ -61,7 +61,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "set": "countryside",
    "who": [
     "AME:0:angry",
@@ -104,20 +104,23 @@
     "outfits": [],
     "march": false
    },
-   "impact": false
+   "impact": false,
+   "clima": "neve",
+   "shot_lock": true
   },
   {
    "shot": "two",
-   "set": "loc_estudio",
+   "set": "loc_campo",
    "who": [
     "AME:0:neutral",
     "CAN:0:angry"
    ],
    "mapa": "MAINE",
-   "mapa_at": 0.5,
    "say": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e a colônia inglesa de New Brunswick ainda era disputada.",
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "clima": "neve",
+   "mapa_at": 0.5
   },
   {
    "shot": "two",
@@ -137,12 +140,6 @@
      1.3
     ],
     [
-     "tools/axe",
-     0.2,
-     0.7,
-     2.2
-    ],
-    [
      "nature/tree_pine",
      -3.0,
      -5.5,
@@ -153,11 +150,18 @@
      3.2,
      -6.5,
      1.7
+    ],
+    [
+     "tools/axe",
+     -0.9,
+     0.9,
+     3.2
     ]
    ],
    "verbos_ok": [
     "cort"
-   ]
+   ],
+   "clima": "neve"
   },
   {
    "shot": "reveal",
@@ -198,7 +202,8 @@
     "march": true,
     "expr": "angry"
    },
-   "impact": true
+   "impact": true,
+   "clima": "neve"
   },
   {
    "shot": "wide",
@@ -222,7 +227,8 @@
    "titulo": true,
    "say": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.",
    "impact": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "clima": "neve"
   },
   {
    "shot": "two",
@@ -299,13 +305,14 @@
     ]
    ],
    "fachada": false,
-   "interior": "loja"
+   "interior": "loja",
+   "clima": "neve"
   }
  ],
  "regiao": "europa",
  "visual": {
   "local": "Maine",
-  "quando": "inverno de 1838-1839 (fevereiro de 1839: neve e frio); tratado em 1842",
+  "quando": "inverno de 1838-1839: fevereiro de 1839, neve e frio no norte do Maine; tratado em 1842",
   "participantes": [
    "Winfield Scott",
    "Daniel Webster e Lord Ashburton",

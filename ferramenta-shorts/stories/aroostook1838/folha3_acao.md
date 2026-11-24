@@ -1,17 +1,16 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 5.5s - 21 palavras - plano two
+## Cena b0 - 0.2s a 5.5s - 21 palavras - plano wide
 > "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém foi morto pelo inimigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | lenhadores (3.7s) | ACAO: corta | machado e toras + poeira | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b1 - 6.9s a 12.3s - 24 palavras - plano two
 > "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e a colônia inglesa de New Brunswick ainda era disputada."
@@ -19,11 +18,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | disputada (12.3s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | INTERACAO | tremem de frio | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | MAINE | OK |
 
-## Cena b2 - 13.7s a 19.3s - 18 palavras - plano two
+## Cena b2 - 13.7s a 19.3s - 18 palavras - plano group
 > "Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árvores, e cada lado queria a madeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -96,7 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 61.2s a 64.5s - 13 palavras - plano close

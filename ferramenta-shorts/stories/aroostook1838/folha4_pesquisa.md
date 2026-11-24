@@ -3,12 +3,12 @@
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py aroostook1838` busca cada item na internet, baixa os prints (referencias/aroostook1838/prints/) e monta o quadro referencias/aroostook1838/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
 - Historia: A Guerra de Aroostook
-- Epoca: 1838 | Lugar: Maine | Quando: inverno de 1838-1839 (fevereiro de 1839: neve e frio); tratado em 1842
+- Epoca: 1838 | Lugar: Maine | Quando: inverno de 1838-1839: fevereiro de 1839, neve e frio no norte do Maine; tratado em 1842
 - HEROIS (objeto): kit/logs
 - HEROIS (personagens): AME, CAN, PRE, MIL
-- Cenarios: interior loja, interior madeira, interior pedra, loc_campo, loc_estudio
+- Cenarios: interior loja, interior madeira, interior pedra, loc_campo
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
+- Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais); kit/prison: 11.0 m reais -> escala 2.65 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados
 
