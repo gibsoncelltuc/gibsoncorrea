@@ -56,7 +56,7 @@ TV0=$(tv); H3="$H3-$TV0"
 if [ "$(cat ckpt/$ID/folha3.hash 2>/dev/null)" != "$H3" ]; then
   # 24/11 (pedido do Gibson: "refazer so' o trecho com defeito e remontar"): compara a impressao digital de CADA CENA com a do ultimo render.
   # So' cenas mudaram (e o global igual: motor de desenho, voz, figurinos) -> apaga e refaz so' os trechos dessas cenas; o resto do video fica.
-  ./build3.sh $ID >/dev/null 2>&1; python3 cenas_hash.py $ID > ckpt/$ID/cenas_novo.txt 2>/dev/null || true
+  mkdir -p ckpt/$ID; ./build3.sh $ID >/dev/null 2>&1; python3 cenas_hash.py $ID > ckpt/$ID/cenas_novo.txt 2>/dev/null || true
   if [ -f ckpt/$ID/cenas.txt ] && [ -s ckpt/$ID/cenas_novo.txt ] && [ "$(grep '^global ' ckpt/$ID/cenas.txt)" = "$(grep '^global ' ckpt/$ID/cenas_novo.txt)" ] && ls ckpt/$ID/seg_*.mp4 >/dev/null 2>&1; then
     MUD=$(python3 -c "
 a=dict(l.split() for l in open('ckpt/$ID/cenas.txt') if l.strip()); b=dict(l.split() for l in open('ckpt/$ID/cenas_novo.txt') if l.strip())
