@@ -1,0 +1,249 @@
+{
+ "id": "melancia1856",
+ "ano": 1856,
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 5",
+   "harbor",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "VIA",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/melon"
+   ],
+   "palavras": 16,
+   "cena": "b0",
+   "frase": "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "VIA",
+    "VIA"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "vehicles/locomotive"
+   ],
+   "palavras": 25,
+   "cena": "b1",
+   "frase": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VIA",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/melon",
+    "kit/stall"
+   ],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VEN",
+    "VIA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/shop",
+    "kit/stall"
+   ],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "O vendedor pediu o pagamento: \"Pague a fatia!\", gritou ele, e o viajante só riu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "VIA",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "war/pistol"
+   ],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "VEN",
+    "VIA"
+   ],
+   "multidao": 20,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b5",
+   "frase": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "MOR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "buildings/house_two",
+    "nature/lamppost",
+    "vehicles/locomotive"
+   ],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "PRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "No fim, o governo local pagou uma indenização enorme pelas mortes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/melon"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VIA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

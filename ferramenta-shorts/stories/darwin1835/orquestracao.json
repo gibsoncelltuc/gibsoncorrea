@@ -1,0 +1,268 @@
+{
+ "id": "darwin1835",
+ "ano": 1835,
+ "cenarios_trocados": [
+  [
+   "cena 10",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 12",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "DAR",
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch"
+   ],
+   "palavras": 15,
+   "cena": "b0",
+   "frase": "Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "navio em movimento",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 21,
+   "cena": "b1",
+   "frase": "Era mil oitocentos e trinta e cinco, e o inglês Charles Darwin chegou às ilhas Galápagos, a bordo do navio Beagle.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DAR",
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch"
+   ],
+   "palavras": 14,
+   "cena": "b2",
+   "frase": "Ele passou semanas coletando animais, plantas e uns passarinhos pequenos, de ilha em ilha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "DAR",
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch"
+   ],
+   "palavras": 18,
+   "cena": "b3",
+   "frase": "Darwin achou que eram aves bem diferentes entre si, e nem anotou de qual ilha vinha cada uma.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DAR",
+    "GOU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch"
+   ],
+   "palavras": 15,
+   "cena": "b4",
+   "frase": "De volta à Inglaterra, o especialista John Gould disse: \"São todos tentilhões, de espécies diferentes!\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOU",
+    "DAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch_long",
+    "kit/finch_thick"
+   ],
+   "palavras": 15,
+   "cena": "b5",
+   "frase": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "DAR",
+    "GOU"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/finch",
+    "kit/finch_long",
+    "kit/finch_thick"
+   ],
+   "palavras": 17,
+   "cena": "b6",
+   "frase": "Acontece que Darwin entendeu que, em cada ilha, o bico tinha mudado de acordo com a comida.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DAR",
+    "GOU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch_thick"
+   ],
+   "palavras": 14,
+   "cena": "b7",
+   "frase": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "DAR",
+    "GOU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b8",
+   "frase": "Essa ideia foi a seleção natural, e ele publicou o livro em mil oitocentos e cinquenta e nove.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "DAR",
+    "GOU"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/finch_long",
+    "kit/finch_thick"
+   ],
+   "palavras": 18,
+   "cena": "b9",
+   "frase": "A ideia virou a base da biologia moderna, e mostra como a vida muda ao longo do tempo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "DAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "No fim, o erro das etiquetas virou um acerto de bico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DAR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

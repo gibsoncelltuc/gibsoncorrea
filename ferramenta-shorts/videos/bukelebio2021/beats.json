@@ -1,0 +1,264 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 1,
+ "title": "O Ditador Mais Legal do Mundo",
+ "titulo_base": "O Ditador Mais Legal do Mundo",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "fixo": true,
+   "cap": "#1b1b1f",
+   "capBack": true
+  },
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.",
+   "shot": "close",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 1,
+   "interior": "pedra"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.",
+   "shot": "crowd",
+   "who": [
+    "BUK:0:worried"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "sfx": [
+    "gibber@10"
+   ],
+   "set": "street"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Primeiro, ele escreveu só uma palavra no perfil: ditador.",
+   "shot": "close",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "text": "DITADOR",
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "ding@8"
+   ],
+   "interior": "pedra"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.",
+   "shot": "group",
+   "who": [
+    "BUK:0:grin",
+    "POV:0:shock",
+    "POV:1:shock"
+   ],
+   "text": "O DITADOR MAIS LEGAL DO MUNDO",
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "interior": "loja"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Acontece que a notícia se espalhou pelo mundo.",
+   "shot": "reveal",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "mapa": "MUNDO",
+   "mapa_at": 1,
+   "set": "street"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.",
+   "shot": "two",
+   "who": [
+    "JOR:0:shock",
+    "JOR2:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     -1.5,
+     0.3,
+     1.2
+    ]
+   ],
+   "set": "street"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.",
+   "shot": "two",
+   "who": [
+    "JOR:0:suspicious",
+    "BUK:0:smug"
+   ],
+   "interior": "loja"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.",
+   "shot": "close",
+   "who": [
+    "BUK:0:grin"
+   ],
+   "text": "REI FILÓSOFO",
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ],
+    [
+     "kit/ballot_box",
+     -1.3,
+     0.7,
+     1.1
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "ding@8"
+   ],
+   "riscos_ok": true,
+   "interior": "pedra"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh",
+    "JOR2:0:suspicious"
+   ],
+   "interior": "loja"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.",
+   "shot": "close",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "set": "street"
+  }
+ ],
+ "exp": 1.12,
+ "fontes": [
+  "https://news.yahoo.com/el-salvadors-millennial-president-switched-043818079.html",
+  "https://emisorasunidas.com/2021/09/21/bukele-descripcion-twitter-el-dictador-mas-cool/",
+  "https://www.britannica.com/biography/Nayib-Bukele"
+ ],
+ "ano": 2021,
+ "regiao": "colonial",
+ "cinf": 4.5
+}

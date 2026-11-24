@@ -1,0 +1,85 @@
+{
+ "id": "melancia1856",
+ "titulo": "Guerras Inusitadas EP 16 - A Guerra da Melancia",
+ "ancoras": {
+  "ano": 1856,
+  "era": "historica",
+  "regiao": "colonial",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "interior pedra",
+   "loc_campo",
+   "street"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 3",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 5",
+    "harbor",
+    "loc_campo"
+   ],
+   [
+    "cena 10",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 11",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/coin",
+  "kit/melon",
+  "kit/room_colonial_wood",
+  "kit/room_europa_stone",
+  "kit/stall",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "nature/lamppost",
+  "vehicles/locomotive",
+  "war/pistol"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

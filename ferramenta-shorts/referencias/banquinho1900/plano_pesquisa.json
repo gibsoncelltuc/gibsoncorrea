@@ -1,0 +1,46 @@
+{
+ "id": "banquinho1900",
+ "ano": 1900,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra do Banquinho Dourado",
+   "consultas": [
+    "A Guerra do Banquinho Dourado",
+    "Um Em Gana Os Nem 1900"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Gana",
+   "consultas": [
+    "Gana 1900",
+    "Gana landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1900",
+   "consultas": [
+    "1900 fashion clothing",
+    "1900 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "golden stool",
+   "consultas": [
+    "golden stool",
+    "A Guerra do Banquinho Dourado"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1900",
+    "soldier uniform"
+   ]
+  }
+ ]
+}

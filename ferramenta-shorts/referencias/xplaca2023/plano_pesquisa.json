@@ -1,0 +1,38 @@
+{
+ "id": "xplaca2023",
+ "ano": 2023,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O X no Prédio do Twitter",
+   "consultas": [
+    "O X no Prédio do Twitter",
+    "Em Twitter Elon Musk São Francisco Os Twitter 2023"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "São Francisco",
+   "consultas": [
+    "São Francisco 2023",
+    "São Francisco landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2023",
+   "consultas": [
+    "2023 fashion clothing",
+    "2023 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "phone",
+   "consultas": [
+    "phone",
+    "O X no Prédio do Twitter"
+   ]
+  }
+ ]
+}

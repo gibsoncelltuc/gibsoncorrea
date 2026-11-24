@@ -1,0 +1,61 @@
+{
+ "id": "starlink2019",
+ "ano": 2019,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Fila de Luzes no Céu",
+   "consultas": [
+    "A Fila de Luzes no Céu",
+    "Em SpaceX Falcon Cabo Canaveral Flórida Starlink Um Marco Langbroek 2019"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Flórida",
+   "consultas": [
+    "Flórida 2019",
+    "Flórida landscape"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Mundo",
+   "consultas": [
+    "Mundo 2019",
+    "Mundo landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2019",
+   "consultas": [
+    "2019 fashion clothing",
+    "2019 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "rocket",
+   "consultas": [
+    "rocket",
+    "A Fila de Luzes no Céu"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "falcon air",
+   "consultas": [
+    "falcon air"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "foguete da epoca",
+   "consultas": [
+    "rocket 2019",
+    "rocket"
+   ]
+  }
+ ]
+}

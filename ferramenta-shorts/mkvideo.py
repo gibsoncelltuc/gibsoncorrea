@@ -2177,8 +2177,8 @@ if B.get('serie') != 'Teste':
         _glob.append(('o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)', 'reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa'))
     try: _dur = json.load(open(f'stories/{ID}/work/phrases.json'))['frames30'] / 30
     except Exception: _dur = sum(len(b_['say'].split()) for b_ in beats) / 2.9
-    if not (50 <= _dur <= 80) and B.get('duracao_ok') is not True:
-        _glob.append((f'video com ~{round(_dur)} s (o canal fica entre 55 e 75 s)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 50 else 'cortar frases que nao mudam a imagem') + ' ate ficar entre 55 e 75 s'))
+    if not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)
+        _glob.append((f'video com ~{round(_dur)} s (o padrao e\' 60 s; aceito de 54 a 66, ja com a chamada final)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 54 else 'cortar frases que nao mudam a imagem') + ' ate ficar em ~60 s (com esta voz, ~150 palavras no total)'))
 # ===== v13 OBJETO FORA DE EPOCA: nada do que esta em cena pode ser de outra epoca (bloqueia o render) =====
 _PROP_ERA = (('barrel|Barrel', -9999, 1945, 'barril'), ('crate$|Crate_Wooden', -9999, 1965, 'caixote de madeira'), ('lantern', -9999, 1925, 'lampiao'), ('CandleStick|Candle', -9999, 1920, 'castical'), ('carro_antigo', 1885, 1940, 'carro antigo'), ('carro_50', 1940, 1975, 'carro dos anos 50'),
              ('wagon|carroca|charrete', -9999, 1935, 'carroca'), ('^cannon$', 1300, 1900, 'canhao antigo'), ('shield|escudo', -9999, 1650, 'escudo'), ('war/drum', -9999, 1900, 'tambor de guerra'), ('haybale|scarecrow', -9999, 1990, 'feno/espantalho'),

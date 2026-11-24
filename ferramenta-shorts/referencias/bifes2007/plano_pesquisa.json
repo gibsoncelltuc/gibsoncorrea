@@ -1,0 +1,38 @@
+{
+ "id": "bifes2007",
+ "ano": 2007,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Os Bifes com o Nome do Trump",
+   "consultas": [
+    "Os Bifes com o Nome do Trump",
+    "Em Donald Trump Trump Steaks Os Sharper Image Os 2007"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2007",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2007",
+   "consultas": [
+    "2007 fashion clothing",
+    "2007 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "steak",
+   "consultas": [
+    "steak",
+    "Os Bifes com o Nome do Trump"
+   ]
+  }
+ ]
+}

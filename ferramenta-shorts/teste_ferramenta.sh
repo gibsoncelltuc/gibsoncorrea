@@ -77,4 +77,7 @@ python3 -c "import json,sys;o=json.load(open('stories/$G/orquestracao.json'));sy
 grep -q 'voando' stories/$G/plano.md && f "v13: soldado voando em guerra sem tiro"
 { [ -f stories/$G/cronograma.md ] && grep -q 'Etapa atual' stories/$G/cronograma.md; } || f "v13: cronograma nao foi gerado"
 [ -n "$G" ] && rm -rf "videos/$G" "stories/$G" "referencias/$G"
+# ---- filas: nenhum roteiro em duas filas (duas sessoes fazendo o mesmo video), nem roteiro sem arquivo ----
+D=$(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}' | sort | uniq -d | tr '\n' ' '); [ -z "$D" ] || f "roteiro em mais de uma fila (video duplicado): $D"
+for i in $(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}'); do [ -f videos/$i/beats.json ] || f "fila aponta para roteiro que nao existe: $i"; done
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

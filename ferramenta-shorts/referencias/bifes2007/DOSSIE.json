@@ -1,0 +1,105 @@
+{
+ "id": "bifes2007",
+ "titulo": "Poder e Fama EP 06 - Os Bifes com o Nome do Trump",
+ "ancoras": {
+  "ano": 2007,
+  "era": "atual (1950+)",
+  "regiao": "eua",
+  "luz_base": "golden",
+  "cenarios": [
+   "interior loja",
+   "interior pedra",
+   "loc_cidade"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 1",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 3",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 5",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 9",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 10",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 11",
+    "street",
+    "loc_cidade"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/shop",
+  "kit/coin",
+  "kit/room_azul_stone",
+  "kit/room_eua_shop",
+  "kit/room_europa_shop",
+  "kit/room_verde_shop",
+  "kit/stall",
+  "kit/steak",
+  "kit/tv",
+  "mk/Bench",
+  "mk/Shelf_Arch",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "nature/picket_fence"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Trump_Steaks",
+  "https://www.businessinsider.in/trump-once-put-his-name-on-everything-from-deodorant-to-water-bottles-heres-where-those-products-are-now/Trump-Steaks-launched-for-Sharper-Image-in-2007-ranged-from-199-for-a-pack-of-12-steak-burgers-and-four-steaks-to-999-for-a-selection-of-16-top-cuts-The-steaks-only-lasted-about-two-months-at-Sharper-Image-but-are-still-served-at-Trump-hotels-/slideshow/63802272.cms",
+  "https://www.yahoo.com/news/wild-story-behind-trumps-short-113300160.html"
+ ],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

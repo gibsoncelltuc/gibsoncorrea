@@ -1,0 +1,62 @@
+{
+ "id": "fleming1928",
+ "ano": 1928,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Fleming e a Penicilina",
+   "consultas": [
+    "Fleming e a Penicilina",
+    "Um Era Londres Alexander Fleming Ele 1928"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Inglaterra",
+   "consultas": [
+    "Inglaterra 1928",
+    "Inglaterra landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1928",
+   "consultas": [
+    "1928 fashion clothing",
+    "1928 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "petri",
+   "consultas": [
+    "petri",
+    "Fleming e a Penicilina"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "hospital da epoca",
+   "consultas": [
+    "hospital 1928",
+    "hospital"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Ele estudava bactérias, e deixava os pratos de cultura empilhados na b",
+   "consultas": [
+    "estudava bacterias deixava pratos cultura empilhados bancada",
+    "diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d",
+   "consultas": [
+    "soltava matava bacterias penicilina",
+    "diagram"
+   ]
+  }
+ ]
+}
