@@ -9,7 +9,7 @@ b3 | group | -  | tropa | cavalaria: 2 soldados a cavalo (MOD) (acao + som de ef
 b4 | crowd | -  | batalha aberta com tiros, tropa | atacaram (ring + som de alerta); fugiu (dust + som de impacto); encena: corre @19 (acao + som de efeito) | -
 b5 | group | -  | tropa, placa: MUROS DE BOLONHA | Morreram (puff + som de baque); chegaram (dust + som de impacto); encena: morre @0 (acao + som de efeito); encena: chega (point) @9 (acao + som de efeito) | -
 b6 | two | -  | tropa, objeto na mao | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: chega (point) @3 (acao + som de efeito); encena: vence (up) @6 (acao + som de efeito); encena: x_ri (up) @10 (acao + som de efeito); encena: perde (facepalm) @12 (acao + som de efeito) | -
-b7 | two | -  | tropa, placa: O BALDE, objeto na mao | encena: pega (lift) @2 (acao + som de efeito) | -
+b7 | two | -  | tropa, placa: PORTA DE BOLONHA, objeto na mao | encena: pega (lift) @2 (acao + som de efeito) | -
 b8 | close | -  | placa: TORRE GHIRLANDINA | (rosto) laugh (expr + som de efeito); vitória (stars + som de sino); encena: pega (lift) @3 (acao + som de efeito); encena: vence (up) @13 (acao + som de efeito) | -
 b9 | two | -  | interior, objeto na mao | - | -
 b10 | close | -  | interior, placa: COMENTE! | - | -

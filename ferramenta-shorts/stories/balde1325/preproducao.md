@@ -11,7 +11,7 @@ b3 | loc_campo | group | 8 | reagir, INTERAGEM: insiste | - | - | -
 b4 | loc_campo | crowd | 34 | reagir, batalha | - | - | -
 b5 | medieval | group | 10 | conversar, INTERAGEM: aproxima-se, alguem chega andando | buildings/castle_tower, buildings/church, nature/picket_fence | - | -
 b6 | loc_campo | two | 10 | comemorar, INTERAGEM: pular | - | flag | -
-b7 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/well, kit/balde_madeira, tools/bucket | bag | -
+b7 | medieval | two | 2 | pega, INTERAGEM: vai ate o outro | kit/well, kit/balde_madeira, buildings/castle_tower, tools/bucket | bag | -
 b8 | medieval | close | 1 | comemorar | buildings/castle_tower, kit/balde_madeira, tools/bucket | - | -
 b9 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b10 | interior madeira | close | 1 | conversar | - | - | -

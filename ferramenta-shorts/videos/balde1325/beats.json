@@ -210,25 +210,41 @@
    "props": [
     [
      "kit/well",
-     2.2,
-     -1.2,
-     1.1
+     1.6,
+     -0.8,
+     1.4
     ],
     [
      "kit/balde_madeira",
-     0.4,
-     0.6,
+     0.2,
+     0.5,
      2.0
+    ],
+    [
+     "buildings/castle_tower",
+     -3.5,
+     -12,
+     1.5
+    ],
+    [
+     "buildings/castle_tower",
+     5,
+     -12,
+     1.5
     ]
    ],
-   "text": "O BALDE",
+   "text": "PORTA DE BOLONHA",
    "crowd": {
     "n": 0,
     "outfits": [],
     "march": false
    },
    "tiros": false,
-   "say": "Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha."
+   "say": "Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha.",
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "acao": "pega"
   },
   {
    "shot": "close",

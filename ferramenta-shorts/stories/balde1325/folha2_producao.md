@@ -73,12 +73,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Na volta, levaram como troféu um balde de madeira, tirado de um poço p...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 0 de 
-- Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/well, kit/balde_madeira, tools/bucket
+- Animacao: pega | interacao: vai ate o outro
+- Objetos/modelos: kit/well, kit/balde_madeira, buildings/castle_tower, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, bolonha, madeira, poco, porta
 - RISCOS: nenhum
 
@@ -122,7 +122,7 @@ tools/bucket | b0, b7, b8 | pronto | conferir na folha de contato se le bem; se 
 buildings/house_small | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b5, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/church | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

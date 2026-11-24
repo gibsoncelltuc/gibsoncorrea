@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1325 | Lugar: Zappolino | Quando: 15 de novembro de 1325, ao pôr do sol; outono
 - HEROIS (objeto): kit/balde_madeira
 - HEROIS (personagens): MOD, BOL
-- Cenarios: countryside, interior madeira, loc_campo, medieval
+- Cenarios: interior madeira, loc_campo, medieval
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, fragata a vela, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

@@ -154,6 +154,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "buildings/castle_tower",
     "kit/balde_madeira",
     "kit/well",
     "tools/bucket"
@@ -165,7 +166,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "medieval"
   },
   {
    "camera": "close",

@@ -88,8 +88,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | levaram (44.1s) | ACAO: pega | levanta/segura | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | O BALDE | OK |
+| 3 | - | ATUACAO | pega | OK |
+| 4 | - | PLACA | PORTA DE BOLONHA | OK |
 
 ## Cena b8 - 49.2s a 53.4s - 14 palavras - plano close
 > "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória."
