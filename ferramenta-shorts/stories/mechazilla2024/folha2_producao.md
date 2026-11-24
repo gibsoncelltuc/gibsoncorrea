@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_patio; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; ENG na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/tower_mini: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -22,10 +22,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "2024" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (0.2-2.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (2.0-3.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (3.9-5.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (0.2-2.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (2.3-4.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - Foi em outubro de dois mil e vinte e quatro, na base de foguetes da Sp...
@@ -40,14 +39,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_campo; hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (7.0-9.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (9.1-11.1 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (5.4-7.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (7.0-8.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (8.5-10.1 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b2 - Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre ...
@@ -62,15 +62,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: day
+- LOCAL: loc_deserto; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 2.7 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao worried, segura paper; sem multidao; acao: discutir
 - OBJETO kit/booster_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.8 m de altura x 1.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (12.4-14.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (14.1-15.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (15.7-17.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (17.4-19.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 4 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (10.3-12.2 s): mesmo angulo
+  - take 2 (12.2-14.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (14.0-15.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (15.8-17.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b3 - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a...
@@ -82,6 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, musk, pernas, propria, propulsor
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/tower_catch no centro, manobra "parado"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (5.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
 ## Cena b4 - Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinho...
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -95,14 +103,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: day
+- LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao laugh; sem multidao; acao: conversar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.5 m de altura x 3.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (26.9-28.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (28.8-30.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (30.7-32.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (24.0-25.6 s): mesmo angulo
+  - take 2 (25.6-27.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (27.1-28.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b5 - No dia do teste, o propulsor gigante decolou com trinta e três motores...
@@ -117,7 +125,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_patio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao surprised; sem multidao; acao: batalha
 - OBJETO kit/booster_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.1 m de altura x 1.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -126,7 +134,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@20
 - SOM: thump@40
-- TAKES: sequencia de acao em 3 cameras (5.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (5.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - Minutos depois, ele voltou descendo de ré, direto na direção da torre.
@@ -141,17 +149,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_patio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/booster_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.1 m de altura x 1.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.2 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +30 da cena
 - SOM: whoosh@30
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (40.1-41.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (41.7-43.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (43.3-44.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (34.7-36.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (36.6-38.5 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - Acontece que, no último segundo, os braços se fecharam, e seguraram o ...
@@ -166,7 +173,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_patio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.2 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -174,17 +181,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
 - SOM: ding@50
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (45.9-47.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (47.5-49.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (49.2-50.8 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (38.6-40.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (40.5-42.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (42.4-44.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b8 - Os engenheiros comemoraram aos gritos: era a primeira vez na história.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): ENG (variante 0, expressao laugh); ENG (variante 1, expressao shout) | multidao: 12 de ENG
+- Personagens principais (1): ENG (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): engenheiros, primeira
@@ -192,7 +199,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: day
+- LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -201,7 +208,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "PEGOU!" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b9 - Assim, o propulsor que antes ia para o lixo pode voar de novo, várias ...
@@ -213,6 +220,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/tower_catch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lixo, novo, propulsor
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/booster_air no centro, manobra "sobe"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (5.8 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
 ## Cena b10 - Parece filme de robô gigante, mas é engenharia.
 - Cenario: loc_deserto | luz: day | clima: limpo
@@ -226,15 +241,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_deserto; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/tower_mini: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/tower_catch: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (67.6-69.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (69.4-71.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (71.2-73.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -262,10 +274,12 @@ kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; 
 - Objeto heroi: kit/tower_mini | grandes momentos: b5, b8 | planos abertos: 6 | mistura: close 7% | medio 52% | aberto 38% | detalhe 3%
 - Interacoes: b0 aproxima-se
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py mechazilla2024  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/mechazilla2024/moodboard.jpg
+  - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - FOLHA 4: 10 item(ns) sem referencia visual: A Torre que Pegou um Foguete no Ar, Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo, Elon Musk (camiseta preta), engenheiros da  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 2 risco(s) em aberto
+- geral: video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: FOLHA 4: 10 item(ns) sem referencia visual: A Torre que Pegou um Foguete no Ar, Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo, Elon Musk (camiseta preta), engenheiros da 
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mechazilla2024 bN bM` (so essas cenas).
@@ -275,8 +289,9 @@ kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (74.4-76.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (76.1-77.8 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (58.6-60.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (60.2-61.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (61.8-63.4 s): mesmo angulo
 <!-- /FICHA -->
 

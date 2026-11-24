@@ -2,17 +2,17 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil."
+## b0: "Um presidente escreveu no próprio perfil que era um ditador."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 
-## b1: "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador."
+## b1: "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano de multidao
-- PERSONAGENS: BUK no centro, expressao worried; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: BUK no centro, expressao worried; multidao de 16 (POV) marchando ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - SOM: gibber@10
 

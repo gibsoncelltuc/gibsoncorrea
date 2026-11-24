@@ -4,17 +4,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
+## Cena b0 - 0.2s a 3.5s - 14 palavras - plano two
 > "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | briga (1.9s) | EFEITO: puff | fumaca + som | OK |
-| 2 | briga (1.9s) | ACAO: golpe | soco + estouro | OK |
+| 1 | briga (1.4s) | EFEITO: puff | fumaca + som | OK |
+| 2 | briga (1.4s) | ACAO: golpe | soco + estouro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | NOVA YORK | OK |
+<!-- FISICA -->
 
-## Cena b1 - 5.2s a 15.2s - 28 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra briga (1.4s): executa: fumaca + som
+- ACAO: golpe na palavra briga (1.4s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b1 - 3.9s a 12.1s - 28 palavras - plano two
 > "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -38,7 +46,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-## Cena b3 - 18.1s a 21.9s - 11 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: conversar
+- multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b3 - 16.0s a 19.3s - 11 palavras - plano two
 > "Acontece que aquele hotel, o Plaza, pertencia a Trump na época."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -123,7 +138,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | discussão (43.8s) | EFEITO: puff | fumaca + som | OK |
 <!-- FISICA -->
 
-## Cena b9 - 50.7s a 55.9s - 15 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra discussão (43.8s): executa: fumaca + som
+- multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b9 - 46.0s a 50.1s - 15 palavras - plano two
 > "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -131,7 +151,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-## Cena b10 - 56.3s a 60.7s - 13 palavras - plano close
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b10 - 51.3s a 54.6s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -36,7 +36,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_solta (up) @4 -> acao + som de efeito
 - Efeito visual marcado: puff@20, puff@60
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.5 s)
 - Narracao: Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.

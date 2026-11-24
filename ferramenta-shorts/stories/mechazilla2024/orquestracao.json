@@ -184,10 +184,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "ENG",
     "ENG"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/tower",
     "kit/tower_catch"
@@ -212,7 +211,6 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/tower",
     "kit/tower_catch"
    ],
    "palavras": 15,
@@ -231,7 +229,7 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],
@@ -250,7 +248,7 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],

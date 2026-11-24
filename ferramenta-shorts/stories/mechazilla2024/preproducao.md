@@ -12,7 +12,7 @@ b4 | interior pedra | two | 1 | conversar | kit/tower_catch | - | -
 b5 | loc_patio | crowd | 1 | encena, batalha | kit/booster_air | - | -
 b6 | loc_patio | wide | 1 | reagir | kit/booster_air, kit/tower | - | -
 b7 | loc_patio | wide | 1 | encena | kit/tower_catch, kit/tower | - | -
-b8 | loc_campo | orbit | 14 | comemorar, batalha | kit/tower_catch, kit/tower | - | -
+b8 | loc_campo | orbit | 1 | comemorar, batalha | kit/tower_catch, kit/tower | - | -
 b9 | loc_deserto | two | 0 | parados (so fala e pisca) | kit/tower_catch | - | -
 b10 | loc_deserto | close | 1 | comemorar | kit/tower_catch, kit/tower_mini | - | -
 b11 | loc_deserto | two | 1 | conversar | - | - | -

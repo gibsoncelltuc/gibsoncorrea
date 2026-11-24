@@ -18,7 +18,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | PLACA | 2021 | OK |
 <!-- FISICA -->
 
-## Cena b1 - 5.6s a 9.6s - 12 palavras - plano wide
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: constroi na palavra fabricar (1.8s): executa: martela e o objeto cresce
+- EFEITO: stars na palavra dinheiro (2.3s): executa: estrelinhas + som
+- ACAO: paga na palavra dinheiro (2.3s): executa: estende a mao com moedas + brilho
+- EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 5.2s a 8.4s - 12 palavras - plano wide
 > "El Salvador é um país pequeno da América Central, cheio de vulcões."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -55,12 +65,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
-## Cena b4 - 23.7s a 28.9s - 15 palavras - plano wide
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b4 - 23.2s a 26.7s - 15 palavras - plano wide
 > "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (24.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | mandou (23.8s) | ACAO: fala | aponta explicando | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra mandou (23.8s): braco estendido apontando para o objeto/lugar citado
@@ -83,7 +99,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-## Cena b7 - 40.0s a 45.6s - 16 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pega na palavra instalaram (35.2s): executa: levanta/segura
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b7 - 38.9s a 43.4s - 16 palavras - plano two
 > "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -142,8 +164,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | construída (57.3s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | CIDADE BITCOIN | OK |
+<!-- FISICA -->
 
-## Cena b11 - 61.5s a 64.8s - 10 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra anunciou (55.3s): braco estendido apontando para o objeto/lugar citado
+- ACAO: constroi na palavra construída (57.3s): executa: martela e o objeto cresce
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b11 - 59.9s a 64.1s - 10 palavras - plano two
 > "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -20,10 +20,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "CYBERTRUCK" flutuando no alto, na palavra 1 da frase
 - MAPA: CALIFÓRNIA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (0.2-2.3 s): mesmo angulo
-  - take 2 (2.3-4.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (4.3-6.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (0.2-1.7 s): mesmo angulo
+  - take 2 (1.7-3.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresen...
@@ -42,9 +41,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (7.4-9.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (9.3-11.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 4 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (3.4-5.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (5.3-7.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (7.3-9.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (9.2-11.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b2 - Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n...
@@ -82,11 +83,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: MUS no centro, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: MUS no centro, expressao shock; multidao de 14 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +3 da cena
 - SOM: thump@3
-- TAKES: sequencia de acao em 3 cameras (2.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b4 - Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou...
@@ -107,9 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +4 da cena
 - SOM: thump@4
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (21.3-22.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (22.8-24.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: sequencia de acao em 3 cameras (7.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b5 - Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin...
@@ -130,9 +129,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/steel_ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/cybertruck: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (25.5-27.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (27.5-29.5 s): mesmo angulo
-  - take 3 (29.5-31.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (29.4-31.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (31.4-33.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (33.5-35.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b6 - A plateia riu, a internet também, e a cena deu o que falar no mundo in...
@@ -151,9 +150,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao grin; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (32.7-34.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (34.6-36.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (35.6-37.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (37.1-38.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (38.6-40.1 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarent...
@@ -165,6 +165,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/globe, kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cento, picape
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: salao; hora: dia
+- CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao grin; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (40.2-42.1 s): mesmo angulo
+  - take 2 (42.1-44.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (44.1-46.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b8 - Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam...
 - Cenario: hall | luz: dia | clima: limpo
@@ -183,9 +195,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao smile; multidao de 10 (POV) ATRAS dos principais; acao: comemorar
 - OBJETO kit/steel_ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/cybertruck: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (37.7-39.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (39.7-41.7 s): mesmo angulo
+- TAKES: 1 take continuo (0.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -213,10 +223,12 @@ kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer
 - Objeto heroi: kit/steel_ball | grandes momentos: b3, b4 | planos abertos: 5 | mistura: close 12% | medio 40% | aberto 40% | detalhe 7%
 - Interacoes: b7 aproxima-se, b8 pular
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py cybertruck2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/cybertruck2019/moodboard.jpg
+  - video com ~48 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - FOLHA 4: 8 item(ns) sem referencia visual: A Janela do Cybertruck, Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla, Elon Musk (jaqueta de couro preta), designer Franz von -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 2 risco(s) em aberto
+- geral: video com ~48 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: FOLHA 4: 8 item(ns) sem referencia visual: A Janela do Cybertruck, Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla, Elon Musk (jaqueta de couro preta), designer Franz von
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cybertruck2019 bN bM` (so essas cenas).
@@ -226,8 +238,6 @@ kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (43.2-44.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (44.9-46.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (0.0 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

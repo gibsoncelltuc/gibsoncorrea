@@ -125,7 +125,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -136,12 +136,12 @@
      }
     ]
    },
+   "explica": false,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "explica": false
+   "d1": 10.0
   },
   {
    "tiros": false,
@@ -185,7 +185,7 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "loc_cidade",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -202,12 +202,12 @@
      }
     ]
    },
+   "set": "loc_cidade",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "set": "loc_cidade"
+   "d1": 10.0
   },
   {
    "tiros": false,
@@ -300,7 +300,7 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
@@ -423,7 +423,7 @@
    ],
    "set": "loc_campo",
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "loc_campo",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -461,7 +461,7 @@
     ]
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -472,11 +472,11 @@
      }
     ]
    },
+   "interior": "madeira",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "interior": "madeira"
+   "d1": 11.5
   },
   {
    "tiros": false,
@@ -500,7 +500,7 @@
     ]
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_cidade",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -511,11 +511,11 @@
      }
     ]
    },
+   "set": "loc_cidade",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "set": "loc_cidade"
+   "d1": 11.5
   }
  ],
  "exp": 1.0,

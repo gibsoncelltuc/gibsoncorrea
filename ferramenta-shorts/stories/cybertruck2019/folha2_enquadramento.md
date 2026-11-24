@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço."
+## b0: "Uma picape blindada teve as janelas quebradas ao vivo, no próprio lançamento."
 - LOCAL: salao; hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -10,7 +10,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "CYBERTRUCK" flutuando no alto, na palavra 1 da frase
 - MAPA: CALIFÓRNIA (cobre a tela 1-2 s)
 
-## b1: "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente."
+## b1: "Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente."
 - LOCAL: salao; hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
@@ -22,15 +22,15 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: DSG no centro, expressao stern, segura ball; sem multidao; acao: fala/gesto
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b3: "E o vidro rachou, ao vivo, na frente de todo mundo."
+## b3: "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia."
 - LOCAL: salao; hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: MUS no centro, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: MUS no centro, expressao shock; multidao de 14 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +3 da cena
 - SOM: thump@3
 
-## b4: "Ele tentou de novo, em outra janela, e ela também rachou."
+## b4: "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou."
 - LOCAL: salao; hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: DSG no centro, expressao nervous; sem multidao; acao: fala/gesto
@@ -51,7 +51,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao grin; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b7: "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível."
+## b7: "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape."
+- LOCAL: salao; hora: dia
+- CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao grin; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+
+## b8: "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível."
 - LOCAL: salao; hora: dia
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e steel_ball juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao smile; multidao de 10 (POV) ATRAS dos principais; acao: comemorar

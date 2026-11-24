@@ -83,12 +83,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | PLACA | 80 MIL | OK |
 <!-- FISICA -->
 
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra lotaram (26.2s): executa: entra andando pela lateral
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 22: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
 ## Cena b5 - 29.9s a 35.1s - 16 palavras - plano wide
 > "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | enfrentou (32.7s) | ACAO: golpe | soco + estouro | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: golpe na palavra enfrentou (32.7s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+<!-- /FISICA -->
 
 ## Cena b6 - 36.4s a 42.1s - 17 palavras - plano group
 > "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça."
@@ -98,6 +111,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | convidado (37.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | derrubar (39.5s) | ACAO: golpe | soco + estouro | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra convidado (37.3s): braco estendido apontando para o objeto/lugar citado
+- ACAO: golpe na palavra derrubar (39.5s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b7 - 43.4s a 47.3s - 12 palavras - plano orbit
 > "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
@@ -112,6 +132,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | PLACA | VITÓRIA | OK |
 <!-- FISICA -->
 
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra venceu (45.1s): executa: estrelinhas + som
+- ACAO: vence na palavra venceu (45.1s): executa: bracos para cima + brilho
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
 ## Cena b8 - 48.6s a 52.6s - 14 palavras - plano wide
 > "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
 
@@ -119,6 +148,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | seguraram (49.3s) | ACAO: pega | levanta/segura | OK |
 | 2 | raspar (51.8s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pega na palavra seguraram (49.3s): executa: levanta/segura
+- ACAO: raspa na palavra raspar (51.8s): executa: maquina na cabeca + cabelo voando
+<!-- /FISICA -->
 
 ## Cena b9 - 53.7s a 56.2s - 10 palavras - plano two
 > "O dono da luta livre saiu do ringue completamente careca."
@@ -131,6 +166,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: sai na palavra saiu (54.9s): executa: sai andando pela lateral
+- ACAO: raspa na palavra careca (56.2s): executa: maquina na cabeca + cabelo voando
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
 ## Cena b10 - 57.6s a 61.9s - 17 palavras - plano close
 > "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
 
@@ -140,6 +182,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | golpe (60.2s) | ACAO: golpe | soco + estouro | OK |
 | 3 | chão (61.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 4 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_entrega na palavra aplicou (59.5s): executa: estende a mao entregando
+- ACAO: golpe na palavra golpe (60.2s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ACAO: tomba na palavra chão (61.9s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b11 - 62.9s a 68.5s - 21 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo."

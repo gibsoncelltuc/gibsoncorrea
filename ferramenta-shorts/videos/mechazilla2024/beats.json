@@ -84,7 +84,7 @@
    "say": "Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar.",
    "objetos": false,
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "loc_patio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -101,11 +101,11 @@
      }
     ]
    },
+   "set": "loc_patio",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "set": "loc_patio"
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -144,7 +144,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "loc_deserto",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 2.7 m), sem multidao na frente",
     "objetos": [
      {
@@ -155,12 +155,12 @@
      }
     ]
    },
+   "set": "loc_deserto",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.7,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_deserto"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -258,7 +258,7 @@
     "n": 0
    },
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "sala de pedra (governo/castelo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente",
     "objetos": [
      {
@@ -269,12 +269,12 @@
      }
     ]
    },
+   "interior": "pedra",
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.3,
    "d0": 21.0,
-   "d1": 20.0,
-   "interior": "pedra"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -319,7 +319,7 @@
    "detalhe": false,
    "fachada": false,
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente",
     "objetos": [
      {
@@ -336,12 +336,12 @@
      }
     ]
    },
+   "set": "loc_patio",
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_patio"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -383,7 +383,7 @@
     "n": 0
    },
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente",
     "objetos": [
      {
@@ -400,12 +400,12 @@
      }
     ]
    },
+   "set": "loc_patio",
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_patio"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -440,7 +440,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -451,29 +451,23 @@
      }
     ]
    },
+   "set": "loc_patio",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_patio"
+   "d1": 20.0
   },
   {
    "shot": "wide",
    "who": [
-    "ENG:0:laugh",
-    "ENG:1:shout"
+    "ENG:0:laugh"
    ],
    "batalha": true,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 12,
-    "outfits": [
-     "ENG"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [
@@ -501,7 +495,7 @@
    "detalhe": false,
    "fachada": false,
    "quadro": {
-    "local": "fazenda aberta",
+    "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -512,12 +506,12 @@
      }
     ]
    },
+   "set": "loc_campo",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_campo"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -611,7 +605,7 @@
    "say": "Parece filme de robô gigante, mas é engenharia.",
    "objetos": false,
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "loc_deserto",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -628,11 +622,11 @@
      }
     ]
    },
+   "set": "loc_deserto",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "set": "loc_deserto"
+   "d1": 8.0
   }
  ],
  "fontes": [

@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 8.1s - 23 palavras - plano two
+## Cena b0 - 0.1s a 5.8s - 23 palavras - plano two
 > "Em julho de dois mil e vinte e três, o Twitter acordou com outro nome: X, e o passarinho azul saiu de cena."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -142,7 +142,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
-## Cena b9 - 56.3s a 60.4s - 12 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: sai na palavra retirado (50.1s): executa: sai andando pela lateral
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b9 - 51.5s a 54.5s - 12 palavras - plano two
 > "Moral da história: até trocar de nome precisa de licença da prefeitura."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -151,7 +157,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-## Cena b10 - 60.7s a 65.2s - 13 palavras - plano close
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_entrega na palavra trocar (52.7s): executa: estende a mao entregando
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b10 - 56.0s a 59.3s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

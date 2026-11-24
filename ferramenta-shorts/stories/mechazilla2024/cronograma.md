@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
-Gerado em 24/11 22:44 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:48 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | interior pedra | two | ENA | - | tower_catch | - | Os engenheiros
 b5 | chave | loc_patio | crowd | ENG | - | booster_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No dia do teste, o propulsor gigante decolou com trinta e três motores
 b6 | simples | loc_patio | wide | ENG | - | booster_air, tower | - | Minutos depois, ele voltou descendo de ré, direto na direção da torre.
 b7 | simples | loc_patio | wide | ENA | - | tower, tower_catch | - | Acontece que, no último segundo, os braços se fecharam, e seguraram o 
-b8 | chave | loc_campo | orbit | ENG, ENG | 12 | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os engenheiros comemoraram aos gritos: era a primeira vez na história.
+b8 | chave | loc_campo | orbit | ENG | - | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os engenheiros comemoraram aos gritos: era a primeira vez na história.
 b9 | explicativa | loc_deserto | two | sem personagem | - | tower_catch | corpo: kit/booster_air (sobe); emissao: fogo; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada en | Assim, o propulsor que antes ia para o lixo pode voar de novo, várias 
 b10 | simples | loc_deserto | close | MUS | - | tower_catch, tower_mini | - | Parece filme de robô gigante, mas é engenharia.
 b11 | simples | loc_deserto | two | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -24,9 +24,9 @@ b11 | simples | loc_deserto | two | MUS | - | - | - | Agora não deixe de coment
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py mechazilla2024
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (7/15 itens) | PENDENTE | python3 pesquisar.py mechazilla2024
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
@@ -38,5 +38,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local mechazilla2024 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 4. Travas do roteiro
+**Etapa atual:** 2. Pesquisa de campo
 

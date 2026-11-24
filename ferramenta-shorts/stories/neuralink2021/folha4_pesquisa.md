@@ -16,8 +16,8 @@ Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | O Macaco que Jogou Videogame com a Mente | O Macaco que Jogou Videogame com a Mente / Um Foi Neuralink 2021 | SEM REFERENCIA
 lugar | Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas | Neuralink Fremont California / Neuralink Fremont California 2021 | SEM REFERENCIA
-lugar | Estados Unidos | Estados Unidos 2021 / Estados Unidos landscape | SEM REFERENCIA
-epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | SEM REFERENCIA
+lugar | Estados Unidos | Estados Unidos 2021 / Estados Unidos landscape | Tronco de árbol fosilizado, Arizona, Estados Unido (referencias/neuralink2021/prints/estados_unidos_b2f11c.jpg); Fósil de erizo de mar (Pentremites godoni), Waterl (referencias/neuralink2021/prints/estados_unidos_81aca2.jpg); Fósiles de dientes de tiburón tigre (Galeocerdo ad (referencias/neuralink2021/prints/estados_unidos_b1fee4.jpg)
+epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | HK WC night Johnston Road shop Maple Fashion Cloth (referencias/neuralink2021/prints/roupas_e_ruas_de_2021_b29385.jpg); HK WCD Wan Chai Johnston Road shop clothing Maple  (referencias/neuralink2021/prints/roupas_e_ruas_de_2021_cc4f85.jpg)
 pessoas | macaco Pager (macaco-rhesus de 9 anos) | macaco Pager macaco-rhesus de 9 anos / macaco Pager macaco-rhesus de 9 anos 2021 | SEM REFERENCIA
 pessoas | cientistas de jaleco | cientistas de jaleco / cientistas de jaleco 2021 | SEM REFERENCIA
 pessoas | Elon Musk | Elon Musk / Elon Musk 2021 | SEM REFERENCIA
@@ -27,7 +27,7 @@ objeto | joystick | joystick / joystick 2021 | SEM REFERENCIA
 objeto | canudo de metal com vitamina de banana | canudo de metal com vitamina de banana / canudo de metal com vitamina de banana 2021 | SEM REFERENCIA
 objeto | chip N1 (moeda pequena) | chip N1 / chip N1 2021 | SEM REFERENCIA
 objeto | computador com xadrez | computador com xadrez / computador com xadrez 2021 | SEM REFERENCIA
-heroi | monkey pong | tela com Pong / O Macaco que Jogou Videogame com a Mente | SEM REFERENCIA
+heroi | monkey pong | tela com Pong / O Macaco que Jogou Videogame com a Mente | Mae Sai Tham Pla P1110520.JPG (referencias/neuralink2021/prints/monkey_pong_cb323c.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)

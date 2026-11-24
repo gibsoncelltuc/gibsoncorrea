@@ -302,13 +302,11 @@ crate | b10 | pronto | conferir na folha de contato se le bem; se parecer caixot
 - Objeto heroi: kit/boardgame | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 11% | detalhe 6%
 - Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar, b10 vai ate o outro
 - RISCOS GERAIS: 
-  - video com ~81 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py trumpgame1989  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/trumpgame1989/moodboard.jpg
+  - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~81 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 2 risco(s) em aberto
+- geral: video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

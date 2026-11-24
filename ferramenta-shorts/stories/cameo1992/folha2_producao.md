@@ -14,15 +14,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
 - PERSONAGENS: FUN no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: NOVA YORK (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.2-2.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (2.1-3.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (3.9-5.8 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.2-1.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.8-3.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b1 - Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevi...
@@ -41,10 +40,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FUN na esquerda, expressao grin; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (6.8-8.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (8.6-10.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (10.3-12.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 5 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (3.9-5.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (5.5-7.2 s): mesmo angulo
+  - take 3 (7.2-8.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (8.8-10.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 5 (10.5-12.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b2 - A cena dura cerca de sete segundos.
@@ -59,7 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- LOCAL: loc_cidade; hora: golden
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: TRU na esquerda, expressao grin; POV no centro, expressao shock; POV na direita, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -80,7 +81,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: golden
+- LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
 - PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -165,7 +166,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loja / taverna; hora: golden
+- LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)
 - PERSONAGENS: JOR na esquerda, expressao shock; JOR2 na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -187,7 +188,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- LOCAL: loc_cidade; hora: golden
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: JOR no centro, expressao suspicious; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -208,7 +209,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
 - PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -244,10 +245,10 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 - Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 10% | medio 81% | aberto 8% | detalhe 2%
 - Interacoes: b1 aproxima-se, b2 susto, b4 avanca e o outro recua, b6 discutir, b7 o outro se aproxima
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py cameo1992  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/cameo1992/moodboard.jpg
+  - FOLHA 4: 8 item(ns) sem referencia visual: O Cameo de Sete Segundos, Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C, Donald Trump (sobretudo escuro e gravata), menino Ke -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: FOLHA 4: 8 item(ns) sem referencia visual: O Cameo de Sete Segundos, Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C, Donald Trump (sobretudo escuro e gravata), menino Ke
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cameo1992 bN bM` (so essas cenas).
