@@ -16,28 +16,7 @@
    "loc_pista",
    "palace"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "jungle",
-    "loc_campo"
-   ],
-   [
-    "cena 1",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 6",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 12",
-    "jungle",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",

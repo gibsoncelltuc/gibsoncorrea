@@ -5,7 +5,7 @@
  "ep": 26,
  "title": "O Presidente dos 85 por Cento",
  "titulo_base": "O Presidente dos 85 por Cento",
- "set": "jungle",
+ "set": "loc_campo",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/ballot_box",
@@ -65,7 +65,7 @@
     "ding@30"
    ],
    "say": "Um presidente foi reeleito com uma das maiores votações do mundo.",
-   "set": "street"
+   "set": "loc_cidade"
   },
   {
    "shot": "reveal",
@@ -146,7 +146,7 @@
    ],
    "interacao": "entregar",
    "say": "No dia da eleição, os salvadorenhos foram às urnas.",
-   "set": "countryside"
+   "set": "loc_campo"
   },
   {
    "shot": "close",
