@@ -48,6 +48,18 @@
    "boots": "#2a2218",
    "hat": "beret",
    "cap": "#8a2b2b"
+  },
+  "DAN": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#c0282f",
+   "hats": [
+    "cap",
+    "straw",
+    "bonnet",
+    "beret"
+   ],
+   "cap": "#8a5a3a"
   }
  },
  "beats": [
@@ -83,8 +95,18 @@
     "POV:3:pained"
    ],
    "say": "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela.",
-   "set": "loc_campo",
-   "fachada": false
+   "set": "medieval",
+   "fachada": false,
+   "acao": "dancar",
+   "crowd": {
+    "n": 36,
+    "outfits": [
+     "POV",
+     "TRO"
+    ],
+    "march": false,
+    "expr": "pained"
+   }
   },
   {
    "shot": "group",
@@ -97,7 +119,13 @@
    "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 0
+    "n": 36,
+    "outfits": [
+     "POV",
+     "TRO"
+    ],
+    "march": false,
+    "expr": "pained"
    },
    "fx": [
     "stars@40",
@@ -110,10 +138,18 @@
    "text": "50 A 400",
    "titulo": true,
    "say": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
-   "set": "loc_campo",
+   "set": "medieval",
    "fachada": false,
    "props": [],
-   "detalhe": false
+   "detalhe": false,
+   "acao": "dancar",
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.0,
+   "h": 2.5,
+   "d0": 13.0,
+   "d1": 12.0,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -138,12 +174,10 @@
    "detalhe": false
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "POV:0:pained",
-    "MUS:0:scared",
-    "POV:2:pained",
-    "POV:3:shock"
+    "PRE:0:stern:paper",
+    "POV:0:pained"
    ],
    "batalha": false,
    "tiros": false,
@@ -176,15 +210,22 @@
    "fachada": false
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
-    "POV:0:relief"
+    "DAN:0:relief",
+    "DAN:1:smile",
+    "DAN:2:relief"
    ],
    "say": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
    "set": "mountain",
    "fachada": false,
    "crowd": {
-    "n": 0
+    "n": 6,
+    "outfits": [
+     "DAN"
+    ],
+    "march": false,
+    "expr": "relief"
    },
    "props": [
     [
@@ -198,27 +239,7 @@
     ]
    ],
    "text": "CAPELA DO MONTE",
-   "detalhe": false,
-   "quadro": {
-    "local": "encosta de montanha",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -4.3, camera a 82.5 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "buildings/church",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -10.8,
-   "h": 2.5,
-   "d0": 23.0,
-   "d1": 20.0,
-   "quadro_manual": true,
-   "shot_lock": true,
-   "_auto_vis": 1
+   "detalhe": false
   },
   {
    "shot": "two",
