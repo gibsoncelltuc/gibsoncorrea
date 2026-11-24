@@ -118,8 +118,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "LAS",
-    "UMA"
+    "LAS"
    ],
    "multidao": 0,
    "objetos": [
@@ -157,7 +156,7 @@
    "personagens": [
     "LAS"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/ball",
     "kit/ring"
@@ -180,9 +179,7 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU",
-    "LAS",
-    "VIB"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -201,8 +198,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "JUI",
-    "TRU"
+    "JUI"
    ],
    "multidao": 0,
    "objetos": [

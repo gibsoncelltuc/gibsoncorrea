@@ -11,8 +11,8 @@ b5 | wide | -  | tropa | encena: voto (reach) @3 (acao + som de efeito); encena:
 b6 | two | -  | placa: 84,6%, objeto na mao | - | -
 b7 | orbit | dusk  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de efeito); encena: chega (point) @2 (acao + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
 b8 | two | -  | interior, placa: 106 → 2,4, objeto na mao | caíram (dust + som de impacto) | -
-b9 | two | -  | - | encena: protesto (up) @5 (acao + som de efeito) | -
-b10 | orbit | -  | tropa | - | -
+b9 | wide | -  | tropa | encena: protesto (up) @5 (acao + som de efeito) | -
+b10 | two | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
 Mistura de planos: close 10% | medio 67% | aberto 19% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

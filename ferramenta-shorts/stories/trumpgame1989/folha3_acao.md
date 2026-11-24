@@ -75,31 +75,43 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
-## Cena b5 - 28.9s a 33.0s - 12 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b5 - 28.4s a 32.3s - 12 palavras - plano two
 > "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperava (29.6s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | vender (30.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vender (30.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | vendeu (32.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | vendeu (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | esperava (29.1s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | vender (29.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | vender (29.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | vendeu (31.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | vendeu (31.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 6 | - | INTERACAO | susto | OK |
 | 7 | - | ATUACAO | conversar | OK |
 | 8 | - | PLACA | 800 MIL | OK |
+<!-- FISICA -->
 
-## Cena b6 - 33.3s a 37.4s - 12 palavras - plano orbit
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_espera na palavra esperava (29.1s): executa: espera de bracos cruzados
+- EFEITO: stars na palavra vender (29.3s): executa: estrelinhas + som
+- ACAO: negocio na palavra vender (29.3s): executa: moeda girando (compra/venda)
+- EFEITO: stars na palavra vendeu (31.8s): executa: estrelinhas + som
+- ACAO: negocio na palavra vendeu (31.8s): executa: moeda girando (compra/venda)
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b6 - 32.7s a 36.5s - 12 palavras - plano orbit
 > "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b7 - 37.1s a 43.0s - 18 palavras - plano crowd
 > "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."
@@ -117,7 +129,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b8 - 44.2s a 48.6s - 8 palavras - plano two

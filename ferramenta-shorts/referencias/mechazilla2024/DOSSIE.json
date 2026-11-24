@@ -7,6 +7,7 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
+   "interior pedra",
    "loc_campo",
    "loc_deserto",
    "loc_patio"
@@ -48,9 +49,14 @@
  "objetos_em_cena": [
   "kit/booster_air",
   "kit/rocket",
+  "kit/room_azul_stone",
   "kit/tower",
   "kit/tower_catch",
-  "kit/tower_mini"
+  "kit/tower_mini",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo plano, sala de controle",

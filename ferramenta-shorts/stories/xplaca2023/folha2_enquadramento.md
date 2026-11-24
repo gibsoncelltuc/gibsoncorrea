@@ -3,7 +3,7 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Uma empresa trocou de nome, e a placa nova acabou investigada pela prefeitura."
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- LOCAL: loc_patio; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -32,15 +32,15 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Sobraram só as letras E e R, em cinza, na fachada."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: OPE2 (pedreiro) no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "E R" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b5: "Acontece que depois instalaram um X gigante piscando no alto do prédio."
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano de multidao
-- PERSONAGENS: MUS no centro, expressao grin; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: sting@40
@@ -65,7 +65,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b9: "Moral da história: até trocar de nome precisa de licença da prefeitura."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
+- LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa

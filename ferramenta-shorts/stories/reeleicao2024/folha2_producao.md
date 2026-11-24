@@ -61,8 +61,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
-- PERSONAGENS: ELE na esquerda, expressao grin; POV na direita, expressao suspicious; sem multidao; acao: conversar
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
+- PERSONAGENS: ELE na esquerda, expressao grin; POV na direita, expressao suspicious; multidao de 12 (ELE, POV) ATRAS dos principais; acao: conversar
 - OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
   - take 1 (9.3-10.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -112,6 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
 - SOM: ding@50
+- TEXTO NA TELA: "312 VOTOS" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (20.2-21.9 s): mesmo angulo
   - take 2 (21.9-23.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -123,7 +124,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 14 de REP
+- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores
@@ -139,7 +140,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
-- TEXTO NA TELA: "312 VOTOS" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "VITÓRIA" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (27.0-28.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (28.9-30.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -214,10 +215,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, quarenta
 - RISCOS: nenhum
@@ -281,7 +282,7 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b8 | planos abertos: 4 | mistura: close 22% | medio 55% | aberto 22% | detalhe 2%
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b8 | planos abertos: 5 | mistura: close 22% | medio 46% | aberto 31% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b3 discutir, b6 insiste, b7 vai ate o outro
 - RISCOS GERAIS: 
   - FOLHA 4: 8 item(ns) sem referencia visual: Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi, Donald Trump (terno azul, gravata vermelha), apoiadores de bone vermelho, elei -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}

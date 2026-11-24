@@ -117,7 +117,7 @@
    "personagens": [
     "TRU"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "kit/white_house"
    ],
@@ -198,7 +198,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "TRU"
    ],
@@ -210,7 +210,7 @@
    "palavras": 15,
    "cena": "b9",
    "frase": "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

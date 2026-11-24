@@ -102,32 +102,25 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "ENA"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tower",
     "kit/tower_catch"
    ],
    "palavras": 12,
    "cena": "b4",
    "frase": "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "ENG"
    ],
@@ -138,9 +131,15 @@
    "palavras": 14,
    "cena": "b5",
    "frase": "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },
@@ -191,10 +190,9 @@
   {
    "camera": "wide",
    "personagens": [
-    "ENG",
     "ENG"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/tower",
     "kit/tower_catch"

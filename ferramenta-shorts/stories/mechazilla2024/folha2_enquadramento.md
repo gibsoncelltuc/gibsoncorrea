@@ -35,6 +35,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao laugh; sem multidao; acao: conversar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.5 m de altura x 3.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "MECHAZILLA" flutuando no alto, na palavra 1 da frase
 
 ## b5: "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos."
 - LOCAL: loc_patio; hora: day
@@ -65,8 +66,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
 - SOM: ding@50
+- TEXTO NA TELA: "PEGOU!" flutuando no alto, na palavra 1 da frase
 
-## b8: "Os engenheiros comemoraram aos gritos: era a primeira vez na história."
+## b8: "Os engenheiros comemoraram: era a primeira vez na história."
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: comemorar
@@ -75,7 +77,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
-- TEXTO NA TELA: "PEGOU!" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "PRIMEIRA VEZ" flutuando no alto, na palavra 1 da frase
 
 ## b9: "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias vezes."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)

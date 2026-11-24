@@ -104,12 +104,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: golden
-- CAMERA: plano de multidao
-- PERSONAGENS: TRU no centro, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: TRU na esquerda, expressao sad; JOR na direita, expressao smug, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
-- TEXTO NA TELA: "$ 50 MIL" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "$ 50 MIL" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: sequencia de acao em 3 cameras (4.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 

@@ -32,12 +32,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares."
 - LOCAL: loc_cidade; hora: golden
-- CAMERA: plano de multidao
-- PERSONAGENS: TRU no centro, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: TRU na esquerda, expressao sad; JOR na direita, expressao smug, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
-- TEXTO NA TELA: "$ 50 MIL" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "$ 50 MIL" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b5: "A marca também apareceu na QVC, um canal de televisão."
 - LOCAL: sala de madeira; hora: golden

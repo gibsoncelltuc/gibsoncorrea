@@ -28,6 +28,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | postou (8.7s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
 | 3 | - | PLACA | TESLA FALIU? | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_fone na palavra postou (8.7s): executa: celular na mao + toque
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b2 - 10.0s a 14.4s - 12 palavras - plano two
 > "Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila."

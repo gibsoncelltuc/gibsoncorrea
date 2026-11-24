@@ -13,8 +13,8 @@ b5 | loc_campo | wide | 14 | encena | kit/ballot_box, kit/volcano | - | -
 b6 | loc_cidade | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
 b7 | loc_cidade | orbit | 17 | comemorar, batalha | - | - | -
 b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
-b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/prison | - | -
-b10 | loc_pista | orbit | 7 | comemorar | kit/ballot_box, kit/globe | - | -
+b9 | loc_pista | wide | 1 | discutir | kit/prison, kit/volcano | - | -
+b10 | loc_pista | two | 1 | comemorar | kit/ballot_box, kit/globe | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/ballot_box

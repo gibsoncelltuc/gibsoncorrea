@@ -120,12 +120,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 146 MIL RESERVAS | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra anunciou (43.7s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
-- multidao de 8: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
 ## Cena b8 - 46.2s a 46.5s - 15 palavras - plano two
@@ -140,7 +141,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- multidao de 10: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b9 - 46.5s a 46.5s - 13 palavras - plano close

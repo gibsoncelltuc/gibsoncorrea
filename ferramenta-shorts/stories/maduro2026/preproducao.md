@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | kit/helicopter_air, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b0 | loc_cidade | two | 1 | conversar | kit/helicopter_air, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b1 | loc_cidade | reveal | 8 | reagir | - | - | -
 b2 | loc_pista | group | 1 | discutir | kit/helicopter_air | - | -
 b3 | loc_pista | crowd | 1 | encena, batalha | kit/helicopter_air | - | -
@@ -18,7 +18,7 @@ b10 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/helicopter_air
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b8
-Interacoes entre personagens: b0 susto, b5 empurrar, b6 aproxima-se, b7 entregar
+Interacoes entre personagens: b5 empurrar, b6 aproxima-se, b7 entregar
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

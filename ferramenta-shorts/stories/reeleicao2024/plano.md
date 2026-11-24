@@ -11,9 +11,9 @@ b5 | crowd | -  | batalha aberta com tiros, tropa, placa: VITÓRIA | (rosto) lau
 b6 | two | -  | interior, objeto na mao | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | orbit | noite  | batalha aberta com tiros, tropa | - | -
-b9 | group | noite  | tropa, placa: 47º | - | -
+b9 | wide | noite  | tropa, placa: 47º | - | -
 b10 | two | noite  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino); encena: perde (facepalm) @0 (acao + som de efeito); encena: chega (point) @1 (acao + som de efeito); encena: vence (up) @3 (acao + som de efeito) | -
 b11 | close | noite  | placa: COMENTE! | - | -
 
-Mistura de planos: close 22% | medio 55% | aberto 22% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 22% | medio 46% | aberto 31% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

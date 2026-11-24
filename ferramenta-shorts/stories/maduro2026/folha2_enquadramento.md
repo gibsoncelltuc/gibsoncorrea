@@ -3,9 +3,9 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas."
-- LOCAL: loja / taverna; hora: day
+- LOCAL: loc_cidade; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
-- PERSONAGENS: TRU no centro, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
@@ -19,7 +19,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - MAPA: VENEZUELA (cobre a tela 1-2 s)
 
 ## b2: "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: MAD no centro, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

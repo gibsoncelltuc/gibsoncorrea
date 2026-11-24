@@ -172,8 +172,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: dia
 - CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao grin; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "146 MIL RESERVAS" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (40.2-42.1 s): mesmo angulo
   - take 2 (42.1-44.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -194,7 +195,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: dia
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e steel_ball juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao smile; multidao de 10 (POV) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: MUS na esquerda, expressao laugh; DSG na direita, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/steel_ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/cybertruck: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 1 take continuo (0.3 s), a camera desliza devagar do enquadramento inicial ao final

@@ -14,14 +14,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FUN na esquerda, expressao grin; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "O HOMEM É TRUMP" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b2: "A cena dura cerca de sete segundos."
-- LOCAL: loc_cidade; hora: golden
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: TRU na esquerda, expressao grin; POV no centro, expressao shock; POV na direita, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FUN na esquerda, expressao surprised; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
 - SOM: sting@30
+- TEXTO NA TELA: "7 SEGUNDOS" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b3: "Acontece que aquele hotel, o Plaza, pertencia a Trump na época."
 - LOCAL: sala de madeira; hora: golden
@@ -37,11 +39,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Segundo o diretor, a participação de Trump foi o preço para usar o hotel."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: DIR na esquerda, expressao worried; TRU no centro, expressao smug; POV na direita, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: DIR na esquerda, expressao smug; TRU na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
 - SOM: sting@30
+- TEXTO NA TELA: "O PREÇO DO HOTEL" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b6: "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer."
 - LOCAL: loja / taverna; hora: golden

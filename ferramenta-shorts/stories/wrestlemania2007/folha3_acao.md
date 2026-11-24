@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.0s - 13 palavras - plano group
@@ -81,7 +81,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra lotaram (22.4s): executa: entra andando pela lateral
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 18: parada, reagindo (shout), sempre ATRAS dos personagens principais
@@ -105,6 +105,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | convidado (33.1s) | ACAO: fala | aponta explicando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra convidado (33.1s): braco estendido apontando para o objeto/lugar citado
+<!-- /FISICA -->
 
 ## Cena b7 - 37.0s a 41.4s - 12 palavras - plano wide
 > "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
@@ -123,7 +128,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - EFEITO: stars na palavra venceu (39.0s): executa: estrelinhas + som
 - ACAO: vence na palavra venceu (39.0s): executa: bracos para cima + brilho
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -136,8 +141,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | seguraram (43.4s) | ACAO: pega | levanta/segura | OK |
 | 2 | rasparam (44.3s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
 | 3 | careca (46.7s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pega na palavra seguraram (43.4s): executa: levanta/segura
+- ACAO: raspa na palavra rasparam (44.3s): executa: maquina na cabeca + cabelo voando
+- ACAO: raspa na palavra careca (46.7s): executa: maquina na cabeca + cabelo voando
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b9 - 47.2s a 50.8s - 9 palavras - plano wide
 > "E sobrou para Trump: o juiz derrubou ele também."
@@ -145,7 +157,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | derrubou (50.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra derrubou (50.0s): executa: poeira + som
+<!-- /FISICA -->
 
 ## Cena b10 - 51.2s a 54.9s - 13 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre."

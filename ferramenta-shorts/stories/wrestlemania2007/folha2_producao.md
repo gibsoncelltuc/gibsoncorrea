@@ -121,7 +121,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): LAS (variante 0, expressao angry); UMA (variante 0, expressao angry) | multidao: 0 de 
+- Personagens principais (1): LAS (variante 0, expressao angry) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, mcmahon, ringue, trump
@@ -169,7 +169,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 18 de POV
+- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ring, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, lutador, trump
@@ -193,8 +193,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (3): TRU (variante 0, expressao laugh); LAS (variante 0, expressao grin); VIB (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: conversar | interacao: discutir
+- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/ring, kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca
 - RISCOS: nenhum
@@ -218,8 +218,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): JUI (variante 0, expressao angry); TRU (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir
+- Personagens principais (1): JUI (variante 0, expressao angry) | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz
 - RISCOS: nenhum
@@ -228,7 +228,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: JUI no centro, expressao smug; sem multidao; acao: discutir
+- PERSONAGENS: JUI no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
@@ -281,7 +281,7 @@ kit/ring | b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem;
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 6 | mistura: close 11% | medio 55% | aberto 35% | detalhe 0%
-- Interacoes: b0 susto, b2 discutir, b3 cochichar, b8 discutir, b10 pular
+- Interacoes: b0 susto, b2 discutir, b3 cochichar, b10 pular
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py wrestlemania2007  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/wrestlemania2007/moodboard.jpg
 

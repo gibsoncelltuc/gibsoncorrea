@@ -21,8 +21,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
-- PERSONAGENS: ELE na esquerda, expressao grin; POV na direita, expressao suspicious; sem multidao; acao: conversar
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
+- PERSONAGENS: ELE na esquerda, expressao grin; POV na direita, expressao suspicious; multidao de 12 (ELE, POV) ATRAS dos principais; acao: conversar
 - OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b3: "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
@@ -40,6 +40,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
 - SOM: ding@50
+- TEXTO NA TELA: "312 VOTOS" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b5: "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória."
 - LOCAL: salao; hora: day
@@ -50,7 +51,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
-- TEXTO NA TELA: "312 VOTOS" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "VITÓRIA" flutuando no alto, na palavra 1 da frase
 
 ## b6: "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

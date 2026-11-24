@@ -6,17 +6,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/helicopter_air, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): madrugada, presidente, propria, tres
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loja / taverna; hora: day
+- LOCAL: loc_cidade; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
-- PERSONAGENS: TRU no centro, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
@@ -62,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: MAD no centro, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -256,7 +256,7 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 ## Video inteiro
 - Objeto heroi: kit/helicopter_air | grandes momentos: b3, b8 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 14% | detalhe 2%
-- Interacoes: b0 susto, b5 empurrar, b6 aproxima-se, b7 entregar
+- Interacoes: b5 empurrar, b6 aproxima-se, b7 entregar
 - RISCOS GERAIS: 
   - FOLHA 4: 9 item(ns) sem referencia visual: Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sal, Donald Trump (terno azul, gravata vermelha), Nicolas Maduro (bigode, jaqueta), -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 

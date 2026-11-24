@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2024 | Lugar: Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo plano, sala de controle | Quando: 13 de outubro de 2024, manha
 - HEROIS (objeto): kit/tower_mini, kit/booster_air
 - HEROIS (personagens): ENG, MUS
-- Cenarios: loc_campo, loc_deserto, loc_patio
+- Cenarios: interior pedra, loc_campo, loc_deserto, loc_patio
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

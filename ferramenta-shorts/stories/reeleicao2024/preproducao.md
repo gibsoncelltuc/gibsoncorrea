@@ -9,11 +9,11 @@ b1 | loc_cidade | wide | 1 | parados (so fala e pisca) | kit/white_house, kit/ma
 b2 | loc_pista | crowd | 32 | conversar | kit/ballot_box, kit/marco_casabranca | - | -
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | - | paper | -
 b4 | interior loja | close | 1 | comemorar | - | paper | -
-b5 | hall | crowd | 15 | comemorar, batalha | kit/white_house | - | -
+b5 | hall | crowd | 1 | comemorar, batalha | kit/white_house | - | -
 b6 | interior galpao | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/scroll | paper | -
 b8 | loc_pista | orbit | 1 | batalha | kit/white_house, kit/marco_casabranca | - | -
-b9 | loc_pista | group | 1 | conversar | kit/white_house, kit/marco_casabranca | - | -
+b9 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/white_house, kit/marco_casabranca | - | -
 b10 | loc_cidade | two | 1 | comemorar | kit/ballot_box | - | -
 b11 | loc_cidade | close | 1 | conversar | - | - | -
 
@@ -21,5 +21,5 @@ OBJETO HEROI: kit/ballot_box
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b8
 Interacoes entre personagens: b0 o outro se aproxima, b3 discutir, b6 insiste, b7 vai ate o outro
 
-Cenas com personagens parados: 1 de 12
+Cenas com personagens parados: 2 de 12
 FALTA MODELAR: nada

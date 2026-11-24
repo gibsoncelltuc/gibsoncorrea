@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano de multidao
-- PERSONAGENS: BUK no centro, expressao worried; multidao de 16 (POV) marchando ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: POV na esquerda, expressao shout; POV na direita, expressao angry; multidao de 16 (POV) marchando ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - SOM: gibber@10
 - TAKES: sequencia de acao em 3 cameras (7.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)

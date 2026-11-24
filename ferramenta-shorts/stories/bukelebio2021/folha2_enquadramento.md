@@ -12,7 +12,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano de multidao
-- PERSONAGENS: BUK no centro, expressao worried; multidao de 16 (POV) marchando ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: POV na esquerda, expressao shout; POV na direita, expressao angry; multidao de 16 (POV) marchando ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - SOM: gibber@10
 

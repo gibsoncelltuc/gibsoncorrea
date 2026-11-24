@@ -270,13 +270,13 @@
     ]
    },
    "interior": "pedra",
+   "set": "loc_patio",
+   "text": "MECHAZILLA",
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.3,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_patio",
-   "text": "MECHAZILLA"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -339,13 +339,12 @@
     ]
    },
    "set": "loc_patio",
+   "explica": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_patio",
-   "explica": false
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -456,14 +455,13 @@
     ]
    },
    "set": "loc_patio",
+   "impact": true,
+   "text": "PEGOU!",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_patio",
-   "impact": true,
-   "text": "PEGOU!"
+   "d1": 20.0
   },
   {
    "shot": "wide",

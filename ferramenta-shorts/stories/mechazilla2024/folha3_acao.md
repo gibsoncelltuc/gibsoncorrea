@@ -57,22 +57,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 25.9s a 30.0s - 12 palavras - plano crowd
+## Cena b4 - 24.0s a 28.7s - 12 palavras - plano two
 > "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chamaram (26.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | MECHAZILLA | OK |
+| 1 | chamaram (25.0s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | MECHAZILLA | OK |
+<!-- FISICA -->
 
-## Cena b5 - 30.4s a 35.2s - 14 palavras - plano wide
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra chamaram (25.0s): braco estendido apontando para o objeto/lugar citado
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b5 - 28.8s a 34.5s - 14 palavras - plano crowd
 > "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | decolou (33.0s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
+| 1 | decolou (31.8s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: voa na palavra decolou (31.8s): executa: decola: poeira no chao, olha para cima
@@ -100,30 +108,47 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fecharam (43.0s) | ACAO: x_abre | empurra a porta | OK |
-| 2 | seguraram (43.7s) | ACAO: pega | levanta/segura | OK |
+| 1 | fecharam (42.0s) | ACAO: x_abre | empurra a porta | OK |
+| 2 | seguraram (43.0s) | ACAO: pega | levanta/segura | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | PLACA | PEGOU! | OK |
+<!-- FISICA -->
 
-## Cena b8 - 45.6s a 48.5s - 9 palavras - plano wide
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_abre na palavra fecharam (42.0s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: pega na palavra seguraram (43.0s): executa: levanta/segura
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b8 - 44.7s a 48.4s - 9 palavras - plano wide
 > "Os engenheiros comemoraram: era a primeira vez na história."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comemoraram: (46.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | comemoraram (46.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | comemoraram: (45.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | comemoraram (45.9s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | PRIMEIRA VEZ | OK |
+<!-- FISICA -->
 
-## Cena b9 - 48.9s a 54.1s - 15 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra comemoraram: (45.9s): executa: estrelinhas + som
+- ACAO: vence na palavra comemoraram (45.9s): executa: bracos para cima + brilho
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b9 - 48.5s a 54.9s - 15 palavras - plano two
 > "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias vezes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b10 - 54.4s a 57.0s - 8 palavras - plano close
+## Cena b10 - 55.0s a 56.6s - 8 palavras - plano close
 > "Parece filme de robô gigante, mas é engenharia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -131,7 +156,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
-## Cena b11 - 57.4s a 61.9s - 13 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b11 - 57.7s a 62.8s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

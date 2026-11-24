@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Trump na Batalha dos Bilionários
 - Epoca: 2007 | Lugar: Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, telao e fogos | Quando: 1 de abril de 2007 (WrestleMania 23), noite
 - HEROIS (objeto): kit/ring, kit/clipper
-- HEROIS (personagens): TRU, VIN, LAS, JUI
+- HEROIS (personagens): TRU, VIN, JUI, LAS
 - Cenarios: interior loja, interior madeira, interior pedra, loc_cidade, stadium
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste

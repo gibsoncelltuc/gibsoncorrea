@@ -43,12 +43,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "No dia da eleição, os salvadorenhos foram às urnas."
 - LOCAL: loc_campo; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao grin; POV na direita, expressao smile; sem multidao; acao: entregar
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao grin; POV na direita, expressao smile; multidao de 12 (POV) ATRAS dos principais; acao: entregar
 - OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b6: "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos."
-- LOCAL: loc_pista; hora: golden
+- LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao shock, segura paper; BUK na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -73,6 +73,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao surprised, segura paper; BUK na direita, expressao smug; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "106 → 2,4" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b9: "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
 - LOCAL: loc_campo; hora: golden
