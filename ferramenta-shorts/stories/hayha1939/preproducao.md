@@ -8,10 +8,10 @@ b0 | arctic | wide | 2 | reagir | buildings/barn, nature/picket_fence, nature/ha
 b1 | arctic | crowd | 20 | reagir, batalha | - | - | -
 b2 | arctic | orbit | 13 | reagir | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b3 | arctic | close | 1 | conversar | - | - | -
-b4 | countryside | low | 1 | conversar | - | - | -
-b5 | countryside | close | 1 | conversar | - | - | -
+b4 | arctic | low | 1 | conversar | - | - | -
+b5 | arctic | close | 1 | conversar | - | - | -
 b6 | arctic | two | 2 | conversar, INTERAGEM: tremem de frio | nature/picket_fence | - | -
-b7 | countryside | crowd | 13 | reagir, batalha | - | - | -
+b7 | arctic | crowd | 13 | reagir, batalha | - | - | -
 b8 | interior hospital | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b9 | interior madeira | close | 1 | conversar | - | - | -
 b10 | interior madeira | two | 1 | conversar | - | - | -

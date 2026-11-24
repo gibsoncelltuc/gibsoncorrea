@@ -112,7 +112,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "arctic"
   },
   {
    "camera": "close",
@@ -128,7 +128,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
@@ -169,7 +169,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "arctic"
   },
   {
    "camera": "two",

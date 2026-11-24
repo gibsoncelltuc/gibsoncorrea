@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1939 | Lugar: Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos | Quando: Guerra de Inverno, 30/nov/1939 a 13/mar/1940; ferido em 6/mar/1940; temperaturas de ate -40 C, dias curtos
 - HEROIS (objeto): -
 - HEROIS (personagens): FIN, SOV
-- Cenarios: arctic, countryside, interior hospital, interior madeira
+- Cenarios: arctic, interior hospital, interior madeira
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
 - Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
 

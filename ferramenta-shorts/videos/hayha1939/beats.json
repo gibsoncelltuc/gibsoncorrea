@@ -108,7 +108,7 @@
     "FIN:3:stern"
    ],
    "mood": "tense",
-   "set": "countryside",
+   "set": "arctic",
    "clima": "neve"
   },
   {
@@ -121,7 +121,7 @@
    "tat": 5,
    "tstyle": "white",
    "props": [],
-   "set": "countryside",
+   "set": "arctic",
    "clima": "neve"
   },
   {
@@ -147,7 +147,7 @@
    "text": "MORTE BRANCA",
    "tat": 8,
    "tstyle": "red",
-   "set": "countryside",
+   "set": "arctic",
    "clima": "neve"
   },
   {
@@ -201,5 +201,6 @@
  },
  "serie": "Guerras Inusitadas",
  "ep": 23,
- "titulo_base": "A Morte Branca"
+ "titulo_base": "A Morte Branca",
+ "variar_cenario": false
 }

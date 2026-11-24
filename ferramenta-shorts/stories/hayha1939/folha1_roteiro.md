@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 
 ## Cena b4  (~4.5 s)
 - Narracao: Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_espera (cross) @4 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 
 ## Cena b5  (~5.9 s)
 - Narracao: Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 
 ## Cena b7  (~2.8 s)
 - Narracao: Os soviéticos passaram a chamá-lo de Morte Branca.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
 - Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40

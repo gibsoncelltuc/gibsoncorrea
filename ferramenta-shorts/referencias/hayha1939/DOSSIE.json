@@ -8,7 +8,6 @@
   "luz_base": "arctic",
   "cenarios": [
    "arctic",
-   "countryside",
    "interior hospital",
    "interior madeira"
   ],
@@ -34,8 +33,6 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/barn",
-  "buildings/house_small",
-  "buildings/house_two",
   "kit/maca",
   "kit/room_europa_wood",
   "kit/room_hospital",

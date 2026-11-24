@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
-- Cenario: countryside | luz: arctic | clima: neve
+- Cenario: arctic | luz: arctic | clima: neve
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): FIN (variante 3, expressao stern)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Dizem que ele mantinha neve na boca, para o vapor da respiração não en...
-- Cenario: countryside | luz: arctic | clima: neve
+- Cenario: arctic | luz: arctic | clima: neve
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FIN (variante 3, expressao neutral)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Os soviéticos passaram a chamá-lo de Morte Branca.
-- Cenario: countryside | luz: arctic | clima: neve
+- Cenario: arctic | luz: arctic | clima: neve
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 12 de SOV
