@@ -1,198 +1,198 @@
 {
- "duration": 46.104,
- "frames30": 1383,
- "source": "silence-align (cost 0.33)",
+ "duration": 53.376,
+ "frames30": 1601,
+ "source": "silence-align (cost 0.43)",
  "segments": [
   [
-   0.157833,
-   1.05108
+   0.154292,
+   2.52629
   ],
   [
-   1.35621,
-   3.62112
+   2.82975,
+   5.48971
   ],
   [
-   3.84946,
-   5.805
+   6.37383,
+   7.28567
   ],
   [
-   6.665,
-   7.92917
+   7.52104,
+   8.45662
   ],
   [
-   8.15925,
-   9.07133
+   8.78592,
+   10.9075
   ],
   [
-   9.40192,
-   11.4933
+   11.7713,
+   14.2112
   ],
   [
-   12.355,
-   14.9192
+   14.5641,
+   16.6279
   ],
   [
-   15.7836,
-   18.6259
+   17.4841,
+   19.3923
   ],
   [
-   19.4914,
-   19.9488
+   19.705,
+   21.7135
   ],
   [
-   20.168,
-   21.9726
+   22.5985,
+   23.6534
   ],
   [
-   22.8407,
-   24.9466
+   23.9265,
+   28.124
   ],
   [
-   25.2789,
-   26.0429
+   28.9789,
+   29.8461
   ],
   [
-   26.8957,
-   27.8597
+   30.0556,
+   30.7915
   ],
   [
-   28.0837,
-   29.7546
+   31.1007,
+   33.7021
   ],
   [
-   30.0449,
-   31.2242
+   34.5407,
+   39.6825
   ],
   [
-   32.1402,
-   33.9433
+   40.526,
+   41.1697
   ],
   [
-   34.1866,
-   36.327
+   41.4098,
+   43.5851
   ],
   [
-   37.1805,
-   38.1764
+   44.4352,
+   45.4312
   ],
   [
-   38.4745,
-   40.9519
+   45.7293,
+   48.2072
   ],
   [
-   41.807,
-   43.2517
+   49.0617,
+   50.5065
   ],
   [
-   43.5445,
-   45.3061
+   50.799,
+   52.5607
   ]
  ],
  "phrases": [
   {
-   "text": "Em dois mil e vinte e um,",
-   "s": 0.158,
-   "e": 1.051
+   "text": "Um pa\u00eds aceitou o bitcoin como dinheiro oficial,",
+   "s": 0.154,
+   "e": 2.526
   },
   {
-   "text": "um pa\u00eds fez algo que nenhum outro tinha feito:",
-   "s": 1.356,
-   "e": 3.621
+   "text": "e nove em cada dez moradores n\u00e3o entendiam o que era.",
+   "s": 2.83,
+   "e": 5.49
   },
   {
-   "text": "aceitou o bitcoin como dinheiro oficial.",
-   "s": 3.849,
-   "e": 5.805
-  },
-  {
-   "text": "O pa\u00eds era El Salvador,",
-   "s": 6.665,
-   "e": 7.929
+   "text": "Foi em El Salvador,",
+   "s": 6.374,
+   "e": 7.286
   },
   {
    "text": "na Am\u00e9rica Central,",
-   "s": 8.159,
-   "e": 9.071
+   "s": 7.521,
+   "e": 8.457
   },
   {
    "text": "e a ideia foi do presidente Nayib Bukele.",
-   "s": 9.402,
-   "e": 11.493
+   "s": 8.786,
+   "e": 10.908
   },
   {
-   "text": "A lei foi aprovada pelo congresso em junho daquele ano.",
-   "s": 12.355,
-   "e": 14.919
+   "text": "Ele anunciou o projeto em junho de dois mil e vinte e um,",
+   "s": 11.771,
+   "e": 14.211
   },
   {
-   "text": "E passou a valer em sete de setembro de dois mil e vinte e um.",
-   "s": 15.784,
-   "e": 18.626
+   "text": "e o congresso aprovou poucos dias depois.",
+   "s": 14.564,
+   "e": 16.628
   },
   {
-   "text": "Com isso,",
-   "s": 19.491,
-   "e": 19.949
+   "text": "A lei passou a valer em sete de setembro,",
+   "s": 17.484,
+   "e": 19.392
   },
   {
-   "text": "dava para pagar as compras com bitcoin.",
-   "s": 20.168,
-   "e": 21.973
+   "text": "e o pa\u00eds foi o primeiro do mundo a fazer isso.",
+   "s": 19.705,
+   "e": 21.713
   },
   {
-   "text": "O governo lan\u00e7ou at\u00e9 uma carteira digital,",
-   "s": 22.841,
-   "e": 24.947
+   "text": "Para convencer o povo,",
+   "s": 22.599,
+   "e": 23.653
   },
   {
-   "text": "chamada Chivo.",
-   "s": 25.279,
-   "e": 26.043
+   "text": "o governo prometeu trinta d\u00f3lares em bitcoin a quem baixasse a carteira digital Chivo.",
+   "s": 23.927,
+   "e": 28.124
   },
   {
-   "text": "Nas primeiras horas,",
-   "s": 26.896,
-   "e": 27.86
+   "text": "Acontece que,",
+   "s": 28.979,
+   "e": 29.846
   },
   {
-   "text": "o aplicativo ficou fora do ar,",
-   "s": 28.084,
-   "e": 29.755
+   "text": "no lan\u00e7amento,",
+   "s": 30.056,
+   "e": 30.791
   },
   {
-   "text": "por excesso de acessos.",
-   "s": 30.045,
-   "e": 31.224
+   "text": "o aplicativo ficou fora do ar por algumas horas.",
+   "s": 31.101,
+   "e": 33.702
   },
   {
-   "text": "Foi o primeiro pa\u00eds do mundo a fazer isso,",
-   "s": 32.14,
-   "e": 33.943
+   "text": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decis\u00e3o.",
+   "s": 34.541,
+   "e": 39.682
   },
   {
-   "text": "e o assunto virou conversa no planeta inteiro.",
-   "s": 34.187,
-   "e": 36.327
+   "text": "Mesmo assim,",
+   "s": 40.526,
+   "e": 41.17
+  },
+  {
+   "text": "a moeda digital virou assunto no mundo inteiro.",
+   "s": 41.41,
+   "e": 43.585
   },
   {
    "text": "Uma moeda digital,",
-   "s": 37.181,
-   "e": 38.176
+   "s": 44.435,
+   "e": 45.431
   },
   {
    "text": "uma lei nova e um pa\u00eds no centro das aten\u00e7\u00f5es.",
-   "s": 38.474,
-   "e": 40.952
+   "s": 45.729,
+   "e": 48.207
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 41.807,
-   "e": 43.252
+   "s": 49.062,
+   "e": 50.507
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 43.544,
-   "e": 45.306
+   "s": 50.799,
+   "e": 52.561
   }
  ]
 }
