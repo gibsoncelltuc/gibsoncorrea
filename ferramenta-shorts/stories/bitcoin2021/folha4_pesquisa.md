@@ -14,11 +14,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O País do Bitcoin | O País do Bitcoin / Em El Salvador América Central Nayib Bukele 2021 | SEM REFERENCIA
-lugar | El Salvador | El Salvador 2021 / El Salvador landscape | SEM REFERENCIA
-epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | SEM REFERENCIA
-heroi | bitcoin | bitcoin / O País do Bitcoin | SEM REFERENCIA
-heroi | volcano | volcano | SEM REFERENCIA
+tema | O País do Bitcoin | O País do Bitcoin / Em El Salvador América Central Nayib Bukele 2021 | Criptolegal.jpg (referencias/bitcoin2021/prints/o_pa_s_do_bitcoin_ba9332.jpg)
+lugar | El Salvador | El Salvador 2021 / El Salvador landscape | Día de la Amistad EE UU - El Salvador (51250394955 (referencias/bitcoin2021/prints/el_salvador_0b86fd.jpg); Día de la Amistad EE UU - El Salvador (51248626122 (referencias/bitcoin2021/prints/el_salvador_fe3317.jpg)
+epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | Lüdinghausen, Burg Kakesbeck -- 2021 -- 8860.jpg (referencias/bitcoin2021/prints/roupas_e_ruas_de_2021_b6463c.jpg); Kirschholzbrett -- 2021 -- 7656.jpg (referencias/bitcoin2021/prints/roupas_e_ruas_de_2021_780eb5.jpg); Münster, Freiherr-vom-Stein-Haus -- 2021 -- 9042-6 (referencias/bitcoin2021/prints/roupas_e_ruas_de_2021_b37fe6.jpg)
+heroi | bitcoin | bitcoin / O País do Bitcoin | Bitcoin, Wroclaw (P1180334).jpg (referencias/bitcoin2021/prints/bitcoin_1a12ce.jpg); Bitcoin-core-v0.10.0.png (referencias/bitcoin2021/prints/bitcoin_3370f3.jpg); Electrum Bitcoin Wallet.png (referencias/bitcoin2021/prints/bitcoin_baf1f6.jpg)
+heroi | volcano | volcano | Tavurvur volcano edit.jpg (referencias/bitcoin2021/prints/volcano_bbbdad.jpg); Volcán de Ollagüe, Bolivia, 2016-02-03, DD 80-88 P (referencias/bitcoin2021/prints/volcano_004c05.jpg); Fimmvorduhals 2010 03 27 dawn.jpg (referencias/bitcoin2021/prints/volcano_a21273.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -
