@@ -67,7 +67,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "ALM"
    ],
@@ -79,15 +79,9 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -165,17 +159,13 @@
    "cenario": "harbor"
   },
   {
-   "camera": "track",
+   "camera": "two",
    "personagens": [
     "SUL",
-    "GUA"
+    "ALM"
    ],
    "multidao": 0,
-   "objetos": [
-    "buildings/house_two",
-    "nature/bench",
-    "nature/lamppost"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b7",
    "frase": "O sultão fugiu e pediu abrigo no consulado da Alemanha.",
@@ -183,24 +173,30 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "GUA",
     "ING"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [],
    "palavras": 9,
    "cena": "b8",
    "frase": "Os tiros pararam por volta das nove e quarenta.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -235,7 +231,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior loja"
   },
   {
    "camera": "close",

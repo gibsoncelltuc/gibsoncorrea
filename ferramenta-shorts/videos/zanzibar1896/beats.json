@@ -111,10 +111,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
@@ -126,7 +122,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -226,12 +226,13 @@
    "set": "harbor"
   },
   {
-   "shot": "track",
+   "shot": "two",
    "who": [
     "SUL:0:shock",
-    "GUA:1:shock"
+    "ALM:0:smile"
    ],
-   "say": "O sultão fugiu e pediu abrigo no consulado da Alemanha."
+   "say": "O sultão fugiu e pediu abrigo no consulado da Alemanha.",
+   "interior": "madeira"
   },
   {
    "shot": "two",
@@ -274,10 +275,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
@@ -289,7 +286,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "close",

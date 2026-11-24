@@ -54,9 +54,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@60
 
 ## b7: "O sultão fugiu e pediu abrigo no consulado da Alemanha."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: travelling (camera acompanha andando)
-- PERSONAGENS: SUL na esquerda, expressao shock; GUA na direita, expressao shock; sem multidao; acao: fala/gesto
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: SUL na esquerda, expressao shock; ALM na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b8: "Os tiros pararam por volta das nove e quarenta."
