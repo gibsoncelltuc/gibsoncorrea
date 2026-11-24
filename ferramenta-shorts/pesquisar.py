@@ -40,6 +40,11 @@ def commons(q, n=3):   # busca de imagens do Wikimedia Commons (pagina de busca;
         idx = re.search(r'"index":(\d+)', blk); sn = re.search(r'"snippet":"([^"]{0,300})', blk)
         res.append({'titulo': tit.replace('File:', ''), 'thumb': thumb, 'pagina': 'https://commons.wikimedia.org/wiki/' + urllib.parse.quote(tit.replace(' ', '_')), 'descricao': re.sub(r'\\u003C[^>]*?\\u003E|<[^>]+>', '', sn.group(1))[:200] if sn else '', 'ordem': int(idx.group(1)) if idx else 99})
     return sorted(res, key=lambda x: x['ordem'])[:n]
+# PRINT ERRADO SE DESCARTA (24/11): quem confere o quadro escreve em referencias/<id>/prints_ruins.txt o nome do arquivo (ou um pedaco do titulo) de cada
+# print que nao tem nada a ver; ao rodar de novo, a pesquisa pula esses e pega o proximo resultado.
+RUINS = [l.strip().lower() for l in open(f'{D}/prints_ruins.txt', encoding='utf-8')] if os.path.exists(f'{D}/prints_ruins.txt') else []
+RUINS = [r for r in RUINS if r and not r.startswith('#')]
+ruim = lambda titulo, arq='': any(r in titulo.lower() or (arq and r in os.path.basename(arq).lower()) for r in RUINS)
 out = {'id': ID, 'itens': []}
 for it in plano['itens']:
     achados = []
@@ -48,8 +53,12 @@ for it in plano['itens']:
         prop = ' '.join(re.findall(r'\b[A-Z][\w]+', q)); fortes = [w for w in re.findall(r'[\w]{4,}', q) if w.lower() not in ('para', 'como', 'sobre', 'entre', 'estilo', 'grupo', 'branco', 'soltando', 'embaixo')]
         qs += [x for x in ((prop,) if it['tipo'] in ('tema', 'mecanismo', 'epoca') else (prop, ' '.join(fortes[:3]), ' '.join(fortes[:2]))) if x and len(x) > 3 and len(x.split()) >= (2 if it['tipo'] in ('tema', 'mecanismo') else 1)]   # tema e mecanismo: so' nomes proprios (busca solta traz imagem que nao tem nada a ver)
     for q in list(dict.fromkeys(qs))[:6]:
-        for r_ in commons(q, 3 - len(achados)):
+        for r_ in commons(q, 3 - len(achados) + 6):
+            if len(achados) >= 3: break
             fn = f"{D}/prints/{re.sub(r'[^a-z0-9]+', '_', it['item'].lower())[:40]}_{hashlib.md5(r_['thumb'].encode()).hexdigest()[:6]}.jpg"
+            if ruim(r_['titulo'], fn):
+                if os.path.exists(fn): os.remove(fn)
+                continue
             if os.path.exists(fn) or get(r_['thumb'], fn): achados.append({**r_, 'print': fn, 'consulta': q})
         if len(achados) >= 2: break
     out['itens'].append({**it, 'achados': achados}); print(f"{'ok ' if achados else 'SEM'} {it['tipo']:10s} {it['item'][:50]:50s} {len(achados)} referencia(s)")
