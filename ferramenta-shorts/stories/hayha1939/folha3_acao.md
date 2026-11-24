@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.1s - 12 palavras - plano crowd
@@ -19,8 +19,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (9.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | MAPA | FINLÂNDIA | OK |
+| 2 | invadiu (9.6s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | INTERACAO | tremem de frio | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | CHEGADA | alguem entra andando | OK |
+| 8 | - | MAPA | FINLÂNDIA | OK |
 
 ## Cena b2 - 10.7s a 18.5s - 22 palavras - plano orbit
 > "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero."
@@ -61,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | tremem de frio | OK |
+| 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 100 DIAS | OK |
 

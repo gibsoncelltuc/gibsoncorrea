@@ -16,8 +16,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (0): -
-- Animacao: - | batalha encenada
+- Personagens principais (2): FIN (variante 0, expressao stern); FIN (variante 1, expressao nervous) | multidao: 10 de FIN
+- Animacao: conversar | interacao: tremem de frio | o ultimo personagem ENTRA andando | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): finlandia, inverno, uniao
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock)
-- Animacao: conversar | interacao: tremem de frio
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/campfire, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ferro, fuzil, mira, quinhentos
 - RISCOS: nenhum
@@ -129,7 +129,7 @@ kit/campfire | b6 | pronto (HEROI: aparece em close) | conferir na folha de cont
 
 ## Video inteiro
 - Objeto heroi: kit/campfire | grandes momentos: b0, b1 | planos abertos: 2 | mistura: close 24% | medio 54% | aberto 15% | detalhe 7%
-- Interacoes: b6 tremem de frio, b8 cochichar
+- Interacoes: b1 tremem de frio, b6 susto, b8 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py hayha1939  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/hayha1939/moodboard.jpg
 

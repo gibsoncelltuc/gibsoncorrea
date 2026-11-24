@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | crowd | - neve | batalha aberta com tiros, tropa, placa: 1939 | tiros: 5 soldados caem no chao (acao + som de efeito) | -
-b1 | group | -  | batalha aberta com tiros, mapa | invadiu (dust + som de impacto) | -
+b1 | group | -  | batalha aberta com tiros, tropa, mapa | tiros: 3 soldados caem no chao (acao + som de efeito); invadiu (dust + som de impacto); encena: chega (point) @14 (acao + som de efeito) | -
 b2 | orbit | - neve | tropa, placa: -40 °C, mapa | - | -
 b3 | close | - neve | placa: SIMO HÄYHÄ | encena: fala (point) @8 (acao + som de efeito) | -
 b4 | low | - neve | - | encena: x_espera (cross) @4 (acao + som de efeito) | -

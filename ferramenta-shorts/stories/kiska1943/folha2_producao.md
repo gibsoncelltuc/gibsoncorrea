@@ -26,8 +26,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: overcast | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (0): -
-- Animacao: -
+- Personagens principais (2): USA (variante 0, expressao stern); CAN (variante 1, expressao smile)
+- Animacao: encena
 - Objetos/modelos: kit/aviao_ww2, kit/tanque_ww2, navios de guerra ao fundo, no tamanho real, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios
 - RISCOS: nenhum

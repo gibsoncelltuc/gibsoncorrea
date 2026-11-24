@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 13 palavras - plano two
@@ -33,7 +33,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegaram (13.4s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
+| 2 | chegaram (13.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
 
 ## Cena b3 - 16.4s a 19.0s - 7 palavras - plano crowd
 > "Antes do desembarque, bombardearam Kiska durante semanas."

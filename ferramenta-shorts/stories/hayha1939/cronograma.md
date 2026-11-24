@@ -1,13 +1,13 @@
 # CRONOGRAMA - A Morte Branca
 
-Gerado em 24/11 04:13 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 07:54 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | chave | arctic | crowd | SOV, SOV, SOV, SOV | 48 | barn, haybale, picket_fence, scarecrow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um fazendeiro baixinho virou o soldado mais temido de uma guerra intei
-b1 | chave | arctic | group | sem personagem | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era o inverno de mil novecentos e trinta e nove, e a União Soviética i
+b1 | chave | arctic | group | FIN, FIN | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era o inverno de mil novecentos e trinta e nove, e a União Soviética i
 b2 | explicativa | arctic | orbit | FIN, FIN, FIN | 32 | bush, tree_oak, tree_pine | - | Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve 
 b3 | simples | arctic | close | FIN | - | - | - | Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 b4 | simples | mountain | low | FIN | - | - | - | Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.

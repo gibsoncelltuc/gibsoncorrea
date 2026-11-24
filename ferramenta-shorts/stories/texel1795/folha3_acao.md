@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 12 palavras - plano two
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | invadia (6.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | absurdo (8.7s) | EFEITO: ring | onda + som | OK |
 | 3 | absurdo (8.7s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
-| 4 | - | MAPA | HOLANDA | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | MAPA | HOLANDA | OK |
 
 ## Cena b2 - 10.1s a 14.2s - 16 palavras - plano orbit
 > "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela."

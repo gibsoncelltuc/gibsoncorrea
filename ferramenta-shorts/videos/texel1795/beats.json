@@ -80,7 +80,11 @@
    "say": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
    "shot": "reveal",
    "set": "arctic",
-   "mapa": "HOLANDA"
+   "mapa": "HOLANDA",
+   "who": [
+    "FRA:0:stern",
+    "NED:0:nervous"
+   ]
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",

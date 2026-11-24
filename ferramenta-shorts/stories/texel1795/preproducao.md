@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | arctic | two | 0 | conversar | ship, horse | - | -
-b1 | arctic | reveal | 1 | encena | - | - | -
+b1 | arctic | reveal | 2 | reagir | - | - | -
 b2 | harbor | orbit | 2 | reagir | kit/navio_vela, navios de guerra ao fundo, no tamanho real | - | -
 b3 | harbor | two | 1 | conversar | ship | - | -
 b4 | arctic | group | 3 | conversar, INTERAGEM: tremem de frio | horse | - | -

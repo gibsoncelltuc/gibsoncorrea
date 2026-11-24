@@ -29,6 +29,7 @@
   {
    "camera": "reveal",
    "personagens": [
+    "PAR",
     "PAR"
    ],
    "multidao": 6,
@@ -128,7 +129,10 @@
   },
   {
    "camera": "two",
-   "personagens": [],
+   "personagens": [
+    "CHF",
+    "PAR"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/kettle",
@@ -138,7 +142,7 @@
    "cena": "b6",
    "frase": "Depois, os ursos e os lobos do zoológico também foram parar na panela.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
@@ -201,6 +205,7 @@
   {
    "camera": "crowd",
    "personagens": [
+    "PAR",
     "PAR"
    ],
    "multidao": 18,
@@ -227,14 +232,17 @@
   },
   {
    "camera": "two",
-   "personagens": [],
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
    "multidao": 0,
    "objetos": [],
    "palavras": 14,
    "cena": "b11",
    "frase": "O cerco durou mais de quatro meses, num dos invernos mais frios daquela época.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"

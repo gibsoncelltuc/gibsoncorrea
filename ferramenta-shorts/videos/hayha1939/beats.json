@@ -47,7 +47,11 @@
    "say": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
    "shot": "reveal",
    "set": "arctic",
-   "mapa": "FINLÂNDIA"
+   "mapa": "FINLÂNDIA",
+   "who": [
+    "FIN:0:stern",
+    "FIN:1:nervous"
+   ]
   },
   {
    "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",

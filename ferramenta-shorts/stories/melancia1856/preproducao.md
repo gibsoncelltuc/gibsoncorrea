@@ -10,7 +10,7 @@ b2 | jungle | two | 2 | reagir, INTERAGEM: empurrar | kit/stall, kit/melon | - |
 b3 | street | two | 2 | discutir, INTERAGEM: discutir | kit/stall, buildings/shop | - | -
 b4 | street | group | 2 | conversar, INTERAGEM: empurrar | war/pistol | - | -
 b5 | street | crowd | 22 | discutir, batalha | - | - | -
-b6 | street | group | 0 | discutir | buildings/house_two, nature/lamppost, locomotive | - | -
+b6 | street | group | 2 | discutir, alguem chega andando | buildings/house_two, nature/lamppost, locomotive | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b8 | loc_campo | orbit | 22 | batalha | vehicles/locomotive | - | -
 b9 | jungle | close | 1 | conversar | kit/melon | - | -

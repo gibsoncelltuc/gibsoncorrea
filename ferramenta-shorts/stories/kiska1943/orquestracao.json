@@ -51,7 +51,10 @@
   },
   {
    "camera": "reveal",
-   "personagens": [],
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/aviao_ww2",
@@ -63,7 +66,7 @@
    "cena": "b2",
    "frase": "Americanos e canadenses chegaram com navios, aviões e tanques.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"

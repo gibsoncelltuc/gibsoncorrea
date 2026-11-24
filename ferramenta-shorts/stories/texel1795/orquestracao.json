@@ -28,7 +28,8 @@
   {
    "camera": "reveal",
    "personagens": [
-    "X"
+    "FRA",
+    "NED"
    ],
    "multidao": 0,
    "objetos": [],
@@ -206,7 +207,7 @@
   {
    "camera": "two",
    "personagens": [
-    "NED"
+    "FRA"
    ],
    "multidao": 0,
    "objetos": [],
