@@ -64,15 +64,19 @@
    "say": "Um dos maiores segredos da química foi resolvido num cochilo, com a ajuda de uma cobra."
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
-    "POV:0:smile",
-    "POV:1:grin"
+    "POV:0:smile"
    ],
    "mapa": "BÉLGICA",
    "mapa_at": 3,
    "say": "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.",
-   "impact": true
+   "impact": true,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "two",
@@ -217,10 +221,9 @@
    "interior": "pedra"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "COL:0:suspicious",
-    "KEK:0:smile"
+    "COL:0:suspicious"
    ],
    "say": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.",
    "text": "REMÉDIOS, TINTAS, PLÁSTICOS",
@@ -233,7 +236,11 @@
      -1.6,
      1.2
     ]
-   ]
+   ],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "close",

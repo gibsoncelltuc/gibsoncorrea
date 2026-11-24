@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CAP (variante 0, expressao angry); JEN (variante 0, expressao scared)
-- Animacao: conversar | interacao: empurrar | batalha encenada
+- Animacao: golpe | interacao: empurrar | batalha encenada
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, contrabando, orelha
 - RISCOS: nenhum
@@ -43,10 +43,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e o...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PRE (variante 0, expressao angry, segura paper); JEN (variante 0, expressao sad)
+- Personagens principais (4): PRE (variante 0, expressao angry, segura paper); JEN (variante 0, expressao sad); ING (variante 0, expressao angry); PRE (variante 1, expressao shout)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): deputados
@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe, comercio, desculpa, espanha, inglaterra
 - RISCOS: nenhum
 
-## Cena b6 - Em mil setecentos e trinta e nove, a guerra começou.
+## Cena b6 - Em mil setecentos e trinta e nove, a guerra começou, com navios ingles...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SOL (variante 0, expressao angry); SOL (variante 1, expressao shout) | multidao: 20 de SOL
+- Personagens principais (1): SOL (variante 0, expressao angry) | multidao: 20 de SOL
 - Animacao: - | batalha encenada
-- Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe, navios
 - RISCOS: nenhum
 
 ## Cena b7 - Depois de quase dez anos, os dois lados fizeram a paz.
@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): JEN (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/ear_jar
@@ -122,13 +122,11 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 14% | medio 69% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 17% | medio 68% | aberto 11% | detalhe 5%
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py jenkins1739  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/jenkins1739/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).

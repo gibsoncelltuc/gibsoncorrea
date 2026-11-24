@@ -11,7 +11,8 @@ python3 verificar_folhas.py $ID || exit 1
 python3 - "$ID" <<'PYV' || exit 1
 import json, sys, re
 i = sys.argv[1]; V = json.load(open(f'stories/{i}/visibilidade.json')); B = json.load(open(f'videos/{i}/beats.json'))
-ok = set(B.get('visivel_ok', []))   # excecao consciente: ["b11"] + motivo na revisao
+import os
+ok = set(B.get('visivel_ok', [])) | (set(re.findall(r'^(b\d+):', open(f'stories/{i}/visivel_ok.txt').read(), re.M)) if os.path.exists(f'stories/{i}/visivel_ok.txt') else set())   # excecao consciente, com motivo: stories/<id>/visivel_ok.txt  ('b1: figurante da multidao encostando na borda')
 f = [x for x in V['falhas'] if re.match(r'b\d+', x).group(0) not in ok]
 if f: print('VISIBILIDADE REPROVADA (corrija o beats.json e gere o storyboard de novo):\n  ' + '\n  '.join(f)); sys.exit(1)
 print('visibilidade OK')

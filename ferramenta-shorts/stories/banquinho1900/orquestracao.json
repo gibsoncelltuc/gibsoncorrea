@@ -103,10 +103,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "ASH",
     "ASH"
    ],
-   "multidao": 20,
+   "multidao": 12,
    "objetos": [
     "buildings/castle_tower"
    ],
@@ -128,7 +127,6 @@
   {
    "camera": "orbit",
    "personagens": [
-    "SOL",
     "SOL"
    ],
    "multidao": 48,

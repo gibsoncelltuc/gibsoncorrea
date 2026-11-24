@@ -56,16 +56,17 @@
    "props": [
     [
      "kit/golden_stool",
-     0.3,
-     2.2,
-     1.3
+     0.0,
+     0.2,
+     2.6
     ]
    ],
    "text": "1900",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
-   "set": "countryside"
+   "set": "countryside",
+   "detalhe": true
   },
   {
    "shot": "reveal",
@@ -100,9 +101,9 @@
    "props": [
     [
      "kit/golden_stool",
-     0.3,
-     2.2,
-     1.3
+     0.0,
+     0.2,
+     2.2
     ]
    ],
    "acao": "conversar",
@@ -130,16 +131,15 @@
    "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "jungle",
    "who": [
-    "ASH:0:angry",
-    "ASH:1:shout"
+    "ASH:0:angry"
    ],
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 20,
+    "n": 12,
     "outfits": [
      "ASH"
     ],
@@ -149,21 +149,26 @@
    "props": [
     [
      "buildings/castle_tower",
-     -7,
-     -9,
-     1.2
+     0.0,
+     -12.0,
+     1.6
     ]
    ],
    "text": "REVOLTA",
    "titulo": true,
-   "say": "Eles se revoltaram e cercaram o forte onde o governador estava."
+   "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -8.0,
+   "d0": 20.0,
+   "d1": 17.0,
+   "h": 3.0
   },
   {
-   "shot": "orbit",
+   "shot": "wide",
    "set": "jungle",
    "who": [
-    "SOL:0:stern",
-    "SOL:1:angry"
+    "SOL:0:stern"
    ],
    "batalha": true,
    "crowd": {
@@ -174,7 +179,11 @@
     "march": true,
     "expr": "stern"
    },
-   "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses."
+   "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
+   "props": [],
+   "detalhe": false,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "two",
@@ -194,7 +203,15 @@
    ],
    "interacao": "cochichar",
    "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
-   "interior": "loja"
+   "interior": "loja",
+   "props": [
+    [
+     "kit/golden_stool",
+     0.6,
+     0.4,
+     1.6
+    ]
+   ]
   },
   {
    "shot": "close",
@@ -205,9 +222,9 @@
    "props": [
     [
      "kit/golden_stool",
-     1.0,
      0.6,
-     1.3
+     0.4,
+     1.6
     ]
    ],
    "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele."

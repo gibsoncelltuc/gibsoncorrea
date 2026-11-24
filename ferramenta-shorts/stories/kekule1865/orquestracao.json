@@ -30,9 +30,8 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
    "multidao": 18,
@@ -173,11 +172,11 @@
   {
    "camera": "crowd",
    "personagens": [
-    "COL",
-    "KEK"
+    "COL"
    ],
    "multidao": 6,
    "objetos": [
+    "kit/marco_viena",
     "kit/snake_ring"
    ],
    "palavras": 19,

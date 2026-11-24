@@ -6,11 +6,11 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/ear_jar | - | -
 b1 | harbor | reveal | 10 | reagir | ship, navios de guerra ao fundo, no tamanho real | - | -
-b2 | loc_campo | two | 2 | conversar, INTERAGEM: empurrar, batalha | kit/ear_jar | - | -
+b2 | loc_campo | two | 2 | golpe, INTERAGEM: empurrar, batalha | kit/ear_jar | - | -
 b3 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
-b4 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
+b4 | interior pedra | group | 4 | conversar, INTERAGEM: susto | - | paper | -
 b5 | interior pedra | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
-b6 | harbor | crowd | 22 | batalha | ship | - | -
+b6 | harbor | wide | 21 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
 b7 | palace | two | 2 | conversar, INTERAGEM: apertar | - | paper | -
 b8 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ear_jar | book | -
 b9 | loc_campo | close | 1 | conversar | kit/ear_jar | - | -

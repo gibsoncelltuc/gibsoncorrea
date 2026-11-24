@@ -139,7 +139,7 @@
   },
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "USA:2:grin"
    ],
@@ -171,7 +171,11 @@
    "set": "arctic",
    "text": "BOMBARDEIO",
    "tat": 3,
-   "tstyle": "red"
+   "tstyle": "red",
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 15.0,
+   "d1": 14.0
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",

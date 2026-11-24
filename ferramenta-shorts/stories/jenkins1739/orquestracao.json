@@ -112,10 +112,12 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRE",
-    "JEN"
+    "JEN",
+    "ING",
+    "PRE"
    ],
    "multidao": 0,
    "objetos": [],
@@ -126,7 +128,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -146,18 +148,18 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "SOL",
     "SOL"
    ],
    "multidao": 48,
    "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 10,
+   "palavras": 18,
    "cena": "b6",
-   "frase": "Em mil setecentos e trinta e nove, a guerra começou.",
+   "frase": "Em mil setecentos e trinta e nove, a guerra começou, com navios ingleses atacando portos espanhóis no Caribe.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

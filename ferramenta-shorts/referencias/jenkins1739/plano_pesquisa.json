@@ -121,6 +121,14 @@
     "ship 1739",
     "ship"
    ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "porto da epoca",
+   "consultas": [
+    "harbor 1739",
+    "harbor"
+   ]
   }
  ]
 }

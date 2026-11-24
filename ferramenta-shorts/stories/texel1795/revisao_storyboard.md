@@ -1,12 +1,13 @@
-b0: CORRIGIDO - cavalo sem cavaleiro passando colado na camera -> uma frota capturada por soldados a cavalo: hussardos montados diante dos navios no gelo, placa 1795
-b1: OK - 1795, a Franca invadia a Holanda e fazia um frio absurdo: mapa da Holanda e cais com neve
-b2: CORRIGIDO - casco vermelho tapando a tela -> a frota holandesa ancorada perto de Den Helder e o mar congelou: marinheiros e navio a vela inteiro ao fundo, placa FROTA CONGELADA
-b3: OK - os navios presos no gelo sem sair do lugar: navios a vela no porto congelado
-b4: OK - do outro lado os franceses tinham cavalaria, os hussardos, e nenhum navio: hussardos com cavalo no campo nevado
-b5: CORRIGIDO - cavalo dentro de uma sala -> o chefe da cavalaria teve a ideia maluca de atacar a frota a cavalo: oficiais com o cavalo na neve, placa A CAVALO?
-b6: CORRIGIDO - cavalos sem cavaleiro -> na noite de 23 de janeiro os hussardos atravessaram o gelo: hussardos montados a noite na neve
-b7: OK - os marinheiros viram a cavalaria chegar e a frota se rendeu: marinheiros com bracos erguidos, placa RENDIDOS, sem tiro
-b8: OK - mais de uma dezena de navios capturados por soldados a cavalo: hussardos montados ao lado dos navios
-b9: OK - a unica vez na historia em que uma cavalaria capturou uma frota: oficial rindo, placa CAVALARIA 1 X 0 MARINHA
-pesquisa: o quadro de referencias mostra a frota holandesa presa no gelo em Den Helder, hussardos franceses de 1795 de dolma azul e barretina, o mar congelado de Texel e a pintura da captura; comparei fardas, navios a vela, gelo e cavalos
-defeitos procurados: cenario de porto e gelo de 1795 sem predio moderno; epoca 1795 sem vapor; tamanho real do navio de 30 m e dos cavalos; ninguem cortado; multidao sem clone; legenda livre; acao de cada frase visivel (cavalgada, gelo, rendicao); cavaleiro sempre em cima do cavalo; objeto do video o navio a vela aparece inteiro
+# Revisao do storyboard - texel1795 (v3, 24/11)
+pesquisa: Captura da frota holandesa em Den Helder/Texel, 23/01/1795, hussardos franceses sobre o mar congelado; navios presos no gelo; rendicao sem combate
+b0: OK - "Uma frota de navios de guerra foi capturada por soldados a cavalo" hussardo montado diante dos navios presos no gelo
+b1: OK - "1795, a Franca invadia a Holanda, e fazia um frio absurdo" mapa HOLANDA e campo de neve com texto 1795
+b2: CORRIGIDO - mar azul sem gelo -> "a frota holandesa estava ancorada perto de Den Helder, e o mar congelou": navios no mar congelado, FROTA CONGELADA
+b3: CORRIGIDO - cena sem navio -> "Os navios ficaram presos no gelo": navios presos no gelo com marinheiros holandeses
+b4: OK - "os franceses tinham cavalaria, os hussardos, e nenhum navio" hussardos com cavalos na neve
+b5: OK - "atacar a frota a cavalo" oficiais com placa A CAVALO?
+b6: OK - "Só que ninguem sabia se o gelo ia aguentar o peso de centenas de cavalos" hussardo com cavalo hesitando no gelo a noite
+b7: OK - "os hussardos atravessaram o gelo, com panos nos cascos" hussardos montados atravessando o gelo a noite
+b8: CORRIGIDO - rua com predio -> "os holandeses nem tentaram lutar. A frota inteira se rendeu": rendicao no gelo diante dos navios, placa RENDIDOS
+b9: OK - "capturados por soldados a cavalo. Cavalaria um, marinha zero." hussardo montado diante da frota; chamada final COMENTE
+defeitos procurados: cenario (gelo de Texel 1795), epoca (navios a vela da epoca), tamanho (navios e cavalos em tamanho real), cortado (ninguem cortado), multidao (sem clone), legenda (texto em cima, 1795 longe do rosto), acao (cada frase com a acao), objeto (navio heroi em destaque)
