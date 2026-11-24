@@ -14,5 +14,5 @@ b8 | two | -  | objeto na mao | encena: x_entrega (reach) @1 (acao + som de efei
 b9 | close | -  | - | - | -
 b10 | two | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 17% | medio 68% | aberto 11% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 15% | medio 68% | aberto 11% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

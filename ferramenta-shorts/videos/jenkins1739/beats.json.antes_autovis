@@ -83,16 +83,17 @@
    "props": [
     [
      "kit/ear_jar",
-     0.6,
+     0.0,
      1.0,
-     1.6
+     2.6
     ]
    ],
    "text": "1739",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por quase dez anos.",
-   "_auto_vis": 2
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "shot": "reveal",
@@ -128,7 +129,7 @@
    ],
    "interacao": "empurrar",
    "fx": [
-    "puff@70"
+    "stars@40"
    ],
    "sfx": [
     "whoosh@70"
@@ -136,7 +137,17 @@
    "say": "Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha dele.",
    "set": "street",
    "impact": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "acao": "golpe",
+   "props": [
+    [
+     "kit/ear_jar",
+     0.6,
+     1.0,
+     1.6
+    ]
+   ],
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -150,14 +161,18 @@
    "riscos_ok": true
   },
   {
-   "shot": "two",
-   "interior": "madeira",
+   "shot": "group",
+   "interior": "pedra",
    "who": [
     "PRE:0:angry:paper",
-    "JEN:0:sad"
+    "JEN:0:sad",
+    "ING:0:angry",
+    "PRE:1:shout"
    ],
    "interacao": "susto",
-   "say": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos."
+   "say": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos.",
+   "text": "PARLAMENTO",
+   "tstyle": "red"
   },
   {
    "shot": "two",
@@ -199,7 +214,9 @@
    "impact": true,
    "shot_lock": true,
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "two",
@@ -230,12 +247,14 @@
    "props": [
     [
      "kit/ear_jar",
-     1.0,
      0.6,
-     1.3
+     1.0,
+     1.6
     ]
    ],
-   "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela."
+   "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
+   "detalhe": false,
+   "_auto_vis": 2
   }
  ],
  "ano": 1739,

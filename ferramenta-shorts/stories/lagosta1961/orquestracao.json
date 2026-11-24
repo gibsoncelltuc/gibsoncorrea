@@ -40,35 +40,17 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
-    "PES",
     "PES"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "boat"
    ],
    "palavras": 16,
    "cena": "b1",
    "frase": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "BRA",
-    "PES"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -78,6 +60,22 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -121,7 +119,6 @@
   {
    "camera": "crowd",
    "personagens": [
-    "MAR",
     "MAR"
    ],
    "multidao": 20,

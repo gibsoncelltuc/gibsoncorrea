@@ -57,7 +57,7 @@
     [
      "kit/golden_stool",
      0.0,
-     0.2,
+     1.4,
      2.6
     ]
    ],
@@ -66,7 +66,8 @@
    "acao": "discutir",
    "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
    "set": "countryside",
-   "detalhe": true
+   "detalhe": true,
+   "_auto_vis": 3
   },
   {
    "shot": "reveal",
@@ -102,13 +103,15 @@
     [
      "kit/golden_stool",
      0.0,
-     0.2,
+     1.4,
      2.2
     ]
    ],
    "acao": "conversar",
    "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
-   "set": "countryside"
+   "set": "countryside",
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "shot": "two",
@@ -131,7 +134,7 @@
    "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "jungle",
    "who": [
     "ASH:0:angry"
@@ -160,12 +163,13 @@
    "detalhe": false,
    "cx": 0.0,
    "cz": -8.0,
-   "d0": 20.0,
-   "d1": 17.0,
-   "h": 3.0
+   "d0": 26.0,
+   "d1": 23.0,
+   "h": 3.0,
+   "_auto_vis": 3
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "jungle",
    "who": [
     "SOL:0:stern"
@@ -182,8 +186,9 @@
    "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
    "props": [],
    "detalhe": false,
-   "d0": 12.0,
-   "d1": 11.0
+   "d0": 18.0,
+   "d1": 17.0,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -222,12 +227,14 @@
    "props": [
     [
      "kit/golden_stool",
-     0.6,
-     0.4,
-     1.6
+     0.0,
+     1.4,
+     2.0
     ]
    ],
-   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele."
+   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
+   "_auto_vis": 3,
+   "detalhe": true
   }
  ],
  "ano": 1900,
