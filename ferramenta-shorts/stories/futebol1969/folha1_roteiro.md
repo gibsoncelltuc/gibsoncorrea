@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: thump@70
 - Efeito + som nas palavras-chave: encena: golpe (punch) @12 -> acao + som de efeito
 - Efeito visual marcado: puff@70
-- Texto na tela: - | mapa: AMÉRICA CENTRAL
+- Texto na tela: - | mapa: HONDURAS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.9 s)

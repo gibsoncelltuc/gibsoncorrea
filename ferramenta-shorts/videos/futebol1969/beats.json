@@ -111,7 +111,7 @@
     ],
     "march": false
    },
-   "mapa": "AMÉRICA CENTRAL",
+   "mapa": "HONDURAS",
    "mapa_at": 3,
    "say": "Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigavam por terra e por imigrantes.",
    "fx": [
@@ -119,8 +119,7 @@
    ],
    "sfx": [
     "thump@70"
-   ],
-   "fachada": false
+   ]
   },
   {
    "shot": "two",
@@ -164,7 +163,6 @@
      }
     ]
    },
-   "fachada": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -253,8 +251,7 @@
    "say": "No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas.",
    "hora": "dia",
    "text": "3 x 0",
-   "titulo": true,
-   "fachada": false
+   "titulo": true
   },
   {
    "shot": "two",
@@ -264,8 +261,7 @@
     "PRE:1:nervous"
    ],
    "say": "Acontece que, na véspera do terceiro jogo, El Salvador cortou relações com Honduras.",
-   "hora": "dia",
-   "fachada": false
+   "hora": "dia"
   },
   {
    "shot": "group",
@@ -344,7 +340,6 @@
    "titulo": true,
    "say": "Semanas depois, o exército salvadorenho atacou Honduras.",
    "hora": "dia",
-   "fachada": false,
    "detalhe": false,
    "quadro_manual": true,
    "cx": 0,
@@ -382,8 +377,7 @@
    "say": "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo.",
    "verbos_ok": [
     "impor"
-   ],
-   "fachada": false
+   ]
   },
   {
    "shot": "two",
@@ -494,6 +488,5 @@
    "volcano": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
    "exercito da epoca": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)"
   }
- },
- "regiao": "colonial"
+ }
 }

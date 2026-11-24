@@ -16,7 +16,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +70 da cena
 - SOM: thump@70
-- MAPA: AMÉRICA CENTRAL (cobre a tela 1-2 s)
+- MAPA: HONDURAS (cobre a tela 1-2 s)
 
 ## b2: "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
