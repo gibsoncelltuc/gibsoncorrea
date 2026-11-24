@@ -71,15 +71,38 @@
   "mk/Workbench_Drawers",
   "ship"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda costeira espanhola); depois Londres, Parlamento",
+  "quando": "abril de 1731 (a orelha), 1738 (Parlamento), outubro de 1739 (declaracao de guerra); de dia",
+  "participantes": [
+   "capitao Robert Jenkins",
+   "capitao Julio Leon Fandino, da guarda costeira espanhola",
+   "deputados do Parlamento britanico",
+   "rei Jorge II",
+   "marinheiros e soldados britanicos"
+  ],
+  "roupas": {
+   "JEN": "capitao mercante ingles de 1731: casaca longa azul, colete, chapeu tricornio",
+   "CAP": "oficial espanhol de 1731: casaca, chapeu tricornio",
+   "ESP": "marinheiro espanhol de 1731",
+   "ING": "cavalheiro ingles de casaca e peruca",
+   "PRE": "deputado com casaca e peruca branca",
+   "SOL": "soldado britanico de 1739: casaca vermelha e tricornio",
+   "REI": "rei Jorge II com manto e coroa",
+   "MAR": "marinheiro de 1731 com camisa e lenco"
+  },
+  "cenario": "navios a vela de madeira no mar do Caribe, porto colonial, salao do Parlamento de Londres",
+  "objetos": [
+   "navios a vela",
+   "orelha num frasco",
+   "espadas",
+   "canhoes de navio"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear",
+   "https://en.wikipedia.org/wiki/Robert_Jenkins_(master_mariner)"
+  ]
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

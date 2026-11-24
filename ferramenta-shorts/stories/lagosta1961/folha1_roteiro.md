@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 171 palavras (~59 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: A França e o Brasil quase entraram em guerra por causa de uma lagosta.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: - | mapa: PERNAMBUCO
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: O Brasil dizia: "Lagosta anda no fundo do mar, então é nossa."
+## Cena b2  (~6.6 s)
+- Narracao: O Brasil dizia que a lagosta anda no fundo do mar, colada na costa, e por isso era brasileira.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.4 s)
-- Narracao: A França respondia: "Lagosta nada, então é de todo mundo."
+## Cena b3  (~4.8 s)
+- Narracao: A França respondia que a lagosta nada, e por isso era de quem pescasse.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~6.2 s)
-- Narracao: Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.
+## Cena b8  (~4.1 s)
+- Narracao: Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: x_pesca (lift) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: x_pesca (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1963
 - Funcao na historia: desenvolvimento

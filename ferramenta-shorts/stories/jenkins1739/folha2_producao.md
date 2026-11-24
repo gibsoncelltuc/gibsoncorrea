@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): REI (variante 0, expressao smug); JEN (variante 0, expressao pained)
+- Personagens principais (2): CAP (variante 0, expressao smug); JEN (variante 0, expressao pained)
 - Animacao: discutir | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanhol
@@ -136,11 +136,9 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 insiste, b8 apertar, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py jenkins1739  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/jenkins1739/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).

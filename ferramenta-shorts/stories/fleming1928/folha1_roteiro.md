@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 163 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 161 palavras (~56 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.
@@ -30,7 +30,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
-- Narracao: Um dia, ele saiu de férias por duas semanas e não limpou nada.
+- Narracao: Um dia, ele saiu de férias por um mês e não limpou nada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: sai @3 -> acao + som de efeito
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: Quando voltou, achou um prato com bolor verde e disse: "Que sujeira!"
+## Cena b4  (~3.4 s)
+- Narracao: Quando voltou, achou um prato estragado, coberto de bolor verde.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @1 -> acao + som de efeito; encena: olha (point) @2 -> acao + som de efeito
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: x_entrega (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

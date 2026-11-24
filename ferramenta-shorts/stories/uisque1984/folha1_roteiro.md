@@ -22,21 +22,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b2  (~5.5 s)
 - Narracao: Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.5 s)
-- Narracao: Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá de helicóptero.
-- Som ambiente: silencio/sala
+## Cena b3  (~4.1 s)
+- Narracao: Em mil novecentos e oitenta e quatro, soldados canadenses desembarcaram na ilha.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @9 -> acao + som de efeito; desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.5 s)
 - Narracao: Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense.
@@ -49,21 +49,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b5  (~4.8 s)
 - Narracao: Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.
-- Som ambiente: silencio/sala
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: encena: chega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.2 s)
-- Narracao: E deixaram um bilhete: "Bem-vindos à terra dinamarquesa", ao lado de uma garrafa de licor.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+## Cena b6  (~5.5 s)
+- Narracao: E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado de uma garrafa de aguardente.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.2 s)
 - Narracao: Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.

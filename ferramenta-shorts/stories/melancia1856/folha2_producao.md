@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de t...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 8 de VIA
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Um deles parou numa barraca, comeu uma fatia de melancia e foi embora ...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: jungle | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): VIA (variante 0, expressao grin); VEN (variante 0, expressao shock)
@@ -32,20 +32,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fatia, melancia
 - RISCOS: nenhum
 
-## Cena b3 - O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajan...
+## Cena b3 - O vendedor cobrou a fatia, e o viajante só riu.
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): VEN (variante 0, expressao angry); VIA (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/stall, buildings/shop
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fatia, pagamento, vendedor, viajante
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fatia, vendedor, viajante
 - RISCOS: nenhum
 
 ## Cena b4 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, n...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Cenario: street | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared) | multidao: 0 de VIA
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: war/pistol
@@ -62,7 +62,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f...
+## Cena b6 - Os viajantes se trancaram na estação de trem, e a polícia da cidade en...
+- Cenario: street | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (0): -
+- Animacao: discutir
+- Objetos/modelos: buildings/house_two, nature/lamppost, locomotive
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
+- RISCOS: nenhum
+
+## Cena b7 - Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -72,28 +82,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, quinze
 - RISCOS: nenhum
 
-## Cena b7 - No fim, o governo local pagou uma indenização enorme pelas mortes, e a...
-- Cenario: street | luz: day | clima: limpo
+## Cena b8 - Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabo...
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry) | multidao: 20 de SOL
-- Animacao: encena | batalha encenada
-- Objetos/modelos: vehicles/locomotive, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, governo, indenizacao
-- RISCOS: nenhum
-
-## Cena b8 - No fim, o governo local pagou uma indenização enorme pelas mortes.
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): PRE (variante 0, expressao relief, segura coin); PRE (variante 1, expressao smug, segura paper)
-- Animacao: encena | interacao: entregar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, indenizacao
+- Animacao: - | batalha encenada
+- Objetos/modelos: vehicles/locomotive
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colombia, epoca, indenizacao, panama
 - RISCOS: nenhum
 
 ## Cena b9 - Tudo isso por uma fatia de melancia que custava poucos centavos.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: jungle | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): VEN (variante 0, expressao sad)
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: jungle | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): VIA (variante 0, expressao grin)
@@ -118,24 +118,23 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/melon | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/locomotive | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/locomotive | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/pistol | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+locomotive | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 17% | medio 62% | aberto 15% | detalhe 7%
-- Interacoes: b0 discutir, b2 empurrar, b3 discutir, b4 empurrar, b6 susto, b8 entregar
+- Objeto heroi: kit/melon | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 10% | medio 68% | aberto 15% | detalhe 7%
+- Interacoes: b0 discutir, b2 empurrar, b3 discutir, b4 empurrar, b7 susto
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py melancia1856  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/melancia1856/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh melancia1856 bN bM` (so essas cenas).

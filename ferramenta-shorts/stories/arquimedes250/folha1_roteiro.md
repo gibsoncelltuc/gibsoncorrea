@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 172 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 178 palavras (~61 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.
@@ -38,18 +38,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: O rei chamou Arquimedes e disse: "Descubra, mas sem estragar a coroa."
+## Cena b4  (~4.5 s)
+- Narracao: O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~3.8 s)
 - Narracao: Arquimedes pensou por dias e dias, e a resposta não vinha.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~4.8 s)
 - Narracao: Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@50, ding@70
 - Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: ring@50, stars@70
@@ -76,25 +76,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~5.2 s)
 - Narracao: Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: examina (think) @3 -> acao + som de efeito; encena: paga (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.8 s)
-- Narracao: "Eureca!", gritou ele, e a cidade inteira correu atrás. A coroa tinha prata misturada.
+## Cena b9  (~6.6 s)
+- Narracao: Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coroa tinha mesmo prata misturada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@80
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; correu -> dust + som de impacto; encena: grita (up) @1 -> acao + som de efeito; encena: corre @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; encena: grita (up) @5 -> acao + som de efeito; encena: sai @8 -> acao + som de efeito; encena: corre @9 -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@80
 - Texto na tela: EUREKA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b10  (~3.8 s)
 - Narracao: No fim, dá para enganar um rei, mas não uma banheira.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

@@ -47,7 +47,6 @@
   "boat",
   "buildings/shop",
   "kit/lobster",
-  "kit/marco_olinda",
   "kit/navio_destroier",
   "kit/room_europa_wood",
   "kit/room_franca_stone",
@@ -68,15 +67,36 @@
   "ship",
   "vehicles/airplane"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros",
+  "quando": "1961 a 1963, de dia",
+  "participantes": [
+   "pescadores franceses em barcos lagosteiros",
+   "pescadores brasileiros",
+   "Marinha do Brasil",
+   "Marinha francesa (contratorpedeiro Tartu)",
+   "presidente Joao Goulart",
+   "presidente Charles de Gaulle"
+  ],
+  "roupas": {
+   "BRA": "marinheiro brasileiro de branco",
+   "FRA": "marinheiro frances de azul com boina de pompom vermelho",
+   "PES": "pescador de camisa simples e chapeu de palha",
+   "MAR": "oficial da Marinha de uniforme branco",
+   "PRE": "presidente de terno escuro"
+  },
+  "cenario": "mar aberto com navios de guerra cinzentos dos anos 1960, barcos de pesca, porto nordestino",
+  "objetos": [
+   "lagosta",
+   "barcos de pesca",
+   "navios de guerra",
+   "avioes de patrulha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Lobster_War",
+   "https://pt.wikipedia.org/wiki/Guerra_da_Lagosta"
+  ]
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

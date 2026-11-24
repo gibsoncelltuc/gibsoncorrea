@@ -1,10 +1,10 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 11 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 167 palavras (~58 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -12,17 +12,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
-- Narracao: Em mil e novecentos, os ingleses mandavam numa região da África chamada Gana, onde vivia o povo ashanti.
-- Som ambiente: silencio/sala
+- Narracao: Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.
+- Som ambiente: birds
 - Efeitos sonoros marcados: thump@70
-- Efeito + som nas palavras-chave: encena: fala (point) @6 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: Ouro -> stars + som de sino; encena: fala (point) @7 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: puff@70
 - Texto na tela: - | mapa: GANA
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~6.6 s)
 - Narracao: Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b4  (~5.5 s)
 - Narracao: Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b5  (~6.2 s)
 - Narracao: Eles se revoltaram, cercaram o forte onde ele estava, e o governador teve que se trancar lá dentro.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito; encena: empurra (push) @15 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b6  (~5.2 s)
 - Narracao: Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
 - Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; marcharam -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: x_entrega (reach) @4 -> acao + som de efeito; encena: prende (push) @7 -> acao + som de efeito; encena: chega (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b9  (~3.8 s)
 - Narracao: O governador ganhou a guerra, mas o banquinho nunca foi dele.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
