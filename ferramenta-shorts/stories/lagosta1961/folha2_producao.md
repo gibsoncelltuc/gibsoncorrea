@@ -12,24 +12,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, franca, lagosta
 - RISCOS: nenhum
 
-## Cena b1 - Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas...
+## Cena b1 - Era mil novecentos e sessenta e um, e barcos franceses pescavam lagost...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PES (variante 0, expressao stern); PES (variante 1, expressao angry) | multidao: 8 de PES
 - Animacao: encena
 - Objetos/modelos: boat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, costa, pernambuco, pescadores
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, pernambuco
 - RISCOS: nenhum
 
-## Cena b2 - O Brasil dizia que a lagosta anda no fundo do mar, colada na costa, e ...
+## Cena b2 - O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): BRA (variante 0, expressao angry); PES (variante 0, expressao stern)
-- Animacao: discutir | interacao: cochichar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): BRA (variante 0, expressao angry); PES (variante 0, expressao stern) | multidao: 12 de PES
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, fundo, lagosta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, fundo, lagosta
 - RISCOS: nenhum
 
 ## Cena b3 - A França respondia que a lagosta nada, e por isso era de quem pescasse...
@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, lagosta
 - RISCOS: nenhum
 
-## Cena b4 - A discussão ficou séria, e a França mandou um navio de guerra para pro...
+## Cena b4 - A França mandou um navio de guerra para proteger os pescadores dela.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): FRA (variante 0, expressao stern); MAR (variante 0, expressao stern); MAR (variante 1, expressao angry)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discussao, franca, navio, pescadores
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, navio, pescadores
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que o Brasil não recuou. Mandou navios e aviões para a costa,...
@@ -62,12 +62,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, tensao
 - RISCOS: nenhum
 
-## Cena b6 - Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o...
+## Cena b6 - Marinheiros dos dois lados se encararam no mar.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao nervous) | multidao: 10 de PES
-- Animacao: discutir | interacao: susto | batalha encenada
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao nervous)
+- Animacao: discutir | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
@@ -124,8 +124,8 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 10% | medio 73% | aberto 15% | detalhe 2%
-- Interacoes: b0 discutir, b2 cochichar, b3 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
+- Objeto heroi: kit/lobster | grandes momentos: b2, b5 | planos abertos: 4 | mistura: close 13% | medio 66% | aberto 19% | detalhe 2%
+- Interacoes: b0 discutir, b3 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py lagosta1961  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/lagosta1961/moodboard.jpg
 

@@ -29,9 +29,14 @@
     "loc_campo"
    ],
    [
-    "cena 5",
+    "cena 4",
     "countryside",
     "loc_campo"
+   ],
+   [
+    "cena 5",
+    "mountain",
+    "loc_montanha"
    ],
    [
     "cena 6",
@@ -44,22 +49,17 @@
     "loc_montanha"
    ],
    [
-    "cena 8",
+    "cena 9",
     "mountain",
     "loc_montanha"
    ],
    [
-    "cena 10",
-    "mountain",
-    "loc_montanha"
-   ],
-   [
-    "cena 12",
+    "cena 11",
     "countryside",
     "loc_campo"
    ],
    [
-    "cena 13",
+    "cena 12",
     "countryside",
     "loc_campo"
    ]
@@ -86,22 +86,17 @@
   "kit/bee",
   "kit/beehive",
   "kit/lupa",
-  "kit/room_azul_stone",
   "kit/room_europa_wood",
-  "kit/room_verde_wood",
+  "kit/room_verde_stone",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",
   "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Crate_Metal",
-  "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
-  "mk/Shelf_Small_Bottles",
   "mk/Stool",
-  "mk/Table_Large",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim com colmeias e pratinhos de agua com acucar; laboratorio em Munique; cerimonia do Nobel em Estocolmo",

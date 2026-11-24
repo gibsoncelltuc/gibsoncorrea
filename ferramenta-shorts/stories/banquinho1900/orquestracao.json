@@ -55,9 +55,9 @@
    "objetos": [
     "kit/golden_stool"
    ],
-   "palavras": 19,
+   "palavras": 16,
    "cena": "b2",
-   "frase": "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele.",
+   "frase": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -110,9 +110,9 @@
    "objetos": [
     "buildings/castle_tower"
    ],
-   "palavras": 18,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "Eles se revoltaram, cercaram o forte onde ele estava, e o governador teve que se trancar lá dentro.",
+   "frase": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -156,9 +156,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "No fim, os ingleses venceram a guerra e assumiram o controle da região, que virou colônia.",
+   "frase": "No fim, os ingleses venceram e a região virou colônia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

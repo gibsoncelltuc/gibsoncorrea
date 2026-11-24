@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Febre das Tulipas | A Febre das Tulipas / Uma Era Holanda Oriente Colorida Os Num 1637 | SEM REFERENCIA
+tema | A Febre das Tulipas | A Febre das Tulipas / Uma Era Holanda Oriente Colorida Num 1637 | SEM REFERENCIA
 lugar | Republica Holandesa (Haarlem, Amsterda): canais, casas de tijolo com fachada esc | Republica Holandesa / Republica Holandesa Haarlem Amsterda 1637 | SEM REFERENCIA
 lugar | Holanda | Holanda 1637 / Holanda landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1637 | 1637 fashion clothing / 17th century clothing painting | SEM REFERENCIA

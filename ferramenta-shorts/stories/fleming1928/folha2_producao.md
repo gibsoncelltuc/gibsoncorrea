@@ -12,20 +12,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bagunca, mofo, vidas
 - RISCOS: nenhum
 
-## Cena b1 - Era mil novecentos e vinte e oito, num hospital de Londres, e o cienti...
+## Cena b1 - Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MED (variante 0, expressao neutral); MED (variante 1, expressao smile) | multidao: 8 de MED/POV
 - Animacao: -
 - Objetos/modelos: kit/marco_bigben
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientista, londres
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b2 - Ele estudava bactérias, e deixava os pratos de cultura empilhados na b...
-- Cenario: interior hospital | luz: day | clima: limpo
+## Cena b2 - Ele estudava bactérias e deixava os pratos de cultura empilhados na ba...
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FLE (variante 0, expressao neutral, segura book); COL (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Um dia, ele saiu de férias por um mês e não limpou nada.
-- Cenario: interior hospital | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FLE (variante 0, expressao grin, segura bag); COL (variante 0, expressao shock)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Quando voltou, achou um prato estragado, coberto de bolor verde.
-- Cenario: interior hospital | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): COL (variante 0, expressao smug); FLE (variante 0, expressao angry)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d...
-- Cenario: interior hospital | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (0): - | multidao: 0 de 
@@ -83,27 +83,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Anos depois, outros cientistas transformaram o bolor em remédio, e ele...
-- Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): MED (variante 0, expressao smile); MED (variante 1, expressao grin); POV (variante 0, expressao relief)
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/petri
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolor, pessoas
 - RISCOS: nenhum
 
-## Cena b9 - Fleming ganhou, junto com dois colegas, o prêmio Nobel em mil novecent...
+## Cena b9 - Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.
 - Cenario: hall | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FLE (variante 0, expressao laugh); COL (variante 0, expressao laugh) | multidao: 14 de MED/COL/POV
 - Animacao: comemorar | interacao: o outro se aproxima | batalha encenada
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, premio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nobel
 - RISCOS: nenhum
 
 ## Cena b10 - No fim, a bagunça dele valeu mais que qualquer faxina.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FLE (variante 0, expressao smug)
@@ -133,7 +133,7 @@ kit/gosma | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 20% | medio 65% | aberto 10% | detalhe 5%
+- Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 21% | medio 66% | aberto 9% | detalhe 3%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b8 pular, b9 o outro se aproxima
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py fleming1928  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/fleming1928/moodboard.jpg

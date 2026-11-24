@@ -94,7 +94,7 @@
      1.5
     ]
    ],
-   "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente."
+   "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
   },
   {
    "shot": "two",
@@ -132,7 +132,7 @@
     "VEN:0:scared"
    ],
    "interacao": "empurrar",
-   "say": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo.",
+   "say": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.",
    "props": [
     [
      "war/pistol",
@@ -213,7 +213,7 @@
      1.6
     ]
    ],
-   "say": "Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabou pagando uma indenização enorme aos americanos."
+   "say": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos."
   },
   {
    "shot": "close",

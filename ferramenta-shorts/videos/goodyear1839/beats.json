@@ -89,7 +89,7 @@
     "POV:0:angry"
    ],
    "acao": "discutir",
-   "say": "A borracha estava na moda, mas tinha um defeito: no calor, derretia e fedia. No frio, rachava."
+   "say": "A borracha estava na moda, mas derretia no calor e rachava no frio."
   },
   {
    "shot": "two",
@@ -104,7 +104,7 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo o dinheiro da família."
+   "say": "Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências."
   },
   {
    "shot": "two",
@@ -114,7 +114,7 @@
     "GOO:0:sad"
    ],
    "interacao": "empurrar",
-   "say": "Fez tantas dívidas que foi parar na prisão. E lá dentro continuou fazendo experiências."
+   "say": "Fez tantas dívidas que foi parar na prisão."
   },
   {
    "shot": "two",
@@ -195,23 +195,6 @@
   {
    "shot": "two",
    "who": [
-    "GOO:0:grin",
-    "CLA:0:surprised"
-   ],
-   "interacao": "abracar",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "Finalmente a borracha aguentava o calor e o frio.",
-   "set": "countryside",
-   "interior": false
-  },
-  {
-   "shot": "two",
-   "who": [
     "COB:0:smug",
     "GOO:0:angry"
    ],
@@ -222,7 +205,7 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas.",
+   "say": "Mas outros copiaram a ideia, e ele morreu cheio de dívidas.",
    "set": "hall"
   },
   {
@@ -301,7 +284,7 @@
     ]
    ],
    "text": "GOODYEAR",
-   "say": "E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube."
+   "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube."
   }
  ],
  "visual": {

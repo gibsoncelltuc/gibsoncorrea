@@ -77,7 +77,7 @@
    ],
    "mapa": "GROENLÂNDIA",
    "mapa_at": 3,
-   "say": "A ilha Hans é um pedaço de rocha gelada e sem gente, no mar entre o Canadá e a Groenlândia."
+   "say": "A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia."
   },
   {
    "shot": "two",
@@ -86,7 +86,7 @@
     "DIN:0:angry"
    ],
    "interacao": "empurrar",
-   "say": "Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade.",
+   "say": "Os dois países diziam que a ilha era sua, mas ninguém queria guerra de verdade.",
    "interior": "madeira"
   },
   {
@@ -193,7 +193,7 @@
      1.2
     ]
    ],
-   "say": "E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado de uma garrafa de aguardente.",
+   "say": "E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.",
    "set": "arctic",
    "riscos_ok": true
   },
@@ -215,7 +215,7 @@
     "MIN:0:smile"
    ],
    "interacao": "entregar",
-   "say": "Em dois mil e vinte e dois, os países enfim dividiram a ilha quase ao meio."
+   "say": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio."
   },
   {
    "shot": "close",

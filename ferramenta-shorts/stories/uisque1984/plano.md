@@ -10,9 +10,9 @@ b4 | two | -  | objeto na mao | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @6 (acao + som de efeito) | -
 b6 | two | -  | objeto na mao | - | -
 b7 | two | -  | - | encena: chega (point) @5 (acao + som de efeito); encena: x_entrega (reach) @8 (acao + som de efeito) | -
-b8 | two | -  | interior, objeto na mao | encena: x_entrega (reach) @10 (acao + som de efeito) | -
+b8 | two | -  | interior, objeto na mao | encena: x_entrega (reach) @8 (acao + som de efeito) | -
 b9 | close | -  | interior | - | -
 b10 | two | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 69% | aberto 13% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 69% | aberto 12% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

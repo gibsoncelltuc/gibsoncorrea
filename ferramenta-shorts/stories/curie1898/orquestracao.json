@@ -8,7 +8,7 @@
    "loc_campo"
   ],
   [
-   "cena 13",
+   "cena 12",
    "street",
    "loc_campo"
   ]
@@ -31,9 +31,9 @@
     "kit/curie_box",
     "kit/marco_eiffel"
    ],
-   "palavras": 18,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.",
+   "frase": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -41,7 +41,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV"
@@ -53,9 +53,15 @@
    "palavras": 11,
    "cena": "b1",
    "frase": "Era mil oitocentos e noventa e oito, em Paris, na França.",
-   "classe": "transicao",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -104,9 +110,9 @@
    "objetos": [
     "kit/curie_box"
    ],
-   "palavras": 16,
+   "palavras": 13,
    "cena": "b4",
-   "frase": "O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olhar os frascos à noite.",
+   "frase": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -154,7 +160,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_deserto"
   },
   {
    "camera": "two",
@@ -163,14 +169,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
+   "palavras": 18,
    "cena": "b7",
-   "frase": "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.",
+   "frase": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_deserto"
   },
   {
    "camera": "two",
@@ -183,9 +189,9 @@
     "crate",
     "kit/curie_box"
    ],
-   "palavras": 17,
+   "palavras": 13,
    "cena": "b8",
-   "frase": "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris.",
+   "frase": "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -211,34 +217,6 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
-   "personagens": [
-    "POV",
-    "POV",
-    "PES"
-   ],
-   "multidao": 16,
-   "objetos": [
-    "kit/curie_box",
-    "kit/marco_eiffel",
-    "nature/picket_fence"
-   ],
-   "palavras": 16,
-   "cena": "b10",
-   "frase": "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
    "camera": "close",
    "personagens": [
     "MAR"
@@ -248,7 +226,7 @@
     "kit/curie_box"
    ],
    "palavras": 9,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Ou seja: os cadernos vão continuar radioativos por séculos.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -264,7 +242,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

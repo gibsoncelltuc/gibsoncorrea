@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra de 335 Anos | A Guerra de 335 Anos / Uma Holanda Dizem Scilly Inglaterra Piratas Holanda 1651 | SEM REFERENCIA
+tema | A Guerra de 335 Anos | A Guerra de 335 Anos / Uma Holanda Tudo Scilly Inglaterra Piratas Holanda 1651 | SEM REFERENCIA
 lugar | Ilhas Scilly, arquipelago no extremo sudoeste da Inglaterra: ilhas pequenas, pra | Ilhas Scilly arquipelago no extremo sudoeste da Inglaterra / Ilhas Scilly arquipelago no extremo sudoeste da Inglaterra 1651 | SEM REFERENCIA
 lugar | Ilhas Scilly | Ilhas Scilly 1651 / Ilhas Scilly landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1651 | 1651 fashion clothing / 17th century clothing painting | SEM REFERENCIA

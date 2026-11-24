@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1928 | Lugar: Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas | Quando: agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945
 - HEROIS (objeto): kit/petri
 - HEROIS (personagens): FLE, COL
-- Cenarios: hall, interior hospital, interior madeira, loc_campo, loc_montanha
+- Cenarios: hall, interior madeira, interior pedra, loc_campo, loc_montanha
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -25,7 +25,6 @@ objeto | placa de Petri com mofo | placa de Petri com mofo / placa de Petri com 
 objeto | microscopio | microscopio / microscopio 1928 | SEM REFERENCIA
 objeto | frascos de vidro | frascos de vidro / frascos de vidro 1928 | SEM REFERENCIA
 heroi | petri | placa de Petri com mofo / Fleming e a Penicilina | SEM REFERENCIA
-epoca | hospital da epoca | hospital 1928 / hospital | SEM REFERENCIA
 mecanismo | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d | soltava matava bacterias penicilina / petri diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

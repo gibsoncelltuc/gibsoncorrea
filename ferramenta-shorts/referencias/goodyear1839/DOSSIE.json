@@ -7,7 +7,6 @@
   "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
-   "countryside",
    "hall",
    "interior loja",
    "interior madeira",
@@ -33,7 +32,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/shop",
+  "buildings/house_two",
   "kit/ball",
   "kit/borracha",
   "kit/coin",

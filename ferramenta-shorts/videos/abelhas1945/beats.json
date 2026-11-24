@@ -86,7 +86,7 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas."
+   "say": "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
   },
   {
    "shot": "two",
@@ -130,47 +130,6 @@
    ],
    "set": "countryside",
    "text": "DANÇA"
-  },
-  {
-   "shot": "two",
-   "who": [
-    "FRI:0:grin:paper",
-    "ASS:0:surprised"
-   ],
-   "fx": [
-    "puff@40"
-   ],
-   "sfx": [
-    "thump@40"
-   ],
-   "say": "Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.",
-   "props": [
-    [
-     "kit/bee",
-     0.9,
-     -0.6,
-     0.45,
-     {
-      "y": 2.4
-     }
-    ],
-    [
-     "kit/bee",
-     -1.2,
-     -1.4,
-     0.45,
-     {
-      "y": 3.0
-     }
-    ],
-    [
-     "kit/beehive",
-     1.6,
-     -0.8,
-     1.0
-    ]
-   ],
-   "interior": "madeira"
   },
   {
    "shot": "close",
@@ -257,7 +216,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio.",
+   "say": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
    "set": "mountain",
    "shot_lock": true,
    "detalhe": false
@@ -321,7 +280,7 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!",
+   "say": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
    "set": "mountain",
    "props": [
     [
@@ -447,7 +406,7 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.",
+   "say": "Já idoso, ele ganhou o Prêmio Nobel.",
    "interior": "pedra"
   },
   {

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Gerado em 24/11 10:19 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,12 +8,12 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | countryside | two | GOV, ASH | - | golden_stool | - | Um governador inglês pediu para sentar num banquinho, e isso começou u
 b1 | simples | jungle | reveal | ASH, ASH | 30 | - | - | Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Ga
-b2 | simples | countryside | two | CHE, ASH | - | golden_stool | - | Os ashanti tinham um banquinho dourado sagrado, que representava a alm
+b2 | simples | countryside | two | CHE, ASH | - | golden_stool | - | Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o 
 b3 | simples | interior madeira | two | GOV, CHE | - | golden_stool | - | Acontece que o governador inglês exigiu o banquinho: "Por que eu ainda
 b4 | simples | countryside | two | CHE, ASH | - | - | - | Os líderes ashanti ficaram em choque, porque isso era como pedir para 
-b5 | chave | jungle | crowd | ASH, ASH | 20 | castle_tower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Eles se revoltaram, cercaram o forte onde ele estava, e o governador t
+b5 | chave | jungle | crowd | ASH, ASH | 20 | castle_tower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Eles se revoltaram e cercaram o forte onde o governador estava.
 b6 | chave | jungle | orbit | SOL, SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Soldados ingleses marcharam para salvar o governador preso, e a guerra
-b7 | simples | interior pedra | two | GOV, PRE | - | - | - | No fim, os ingleses venceram a guerra e assumiram o controle da região
+b7 | simples | interior pedra | two | GOV, PRE | - | - | - | No fim, os ingleses venceram e a região virou colônia.
 b8 | simples | interior loja | two | CHE, ASH | - | golden_stool | - | Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram
 b9 | simples | countryside | close | GOV | - | golden_stool | - | O governador ganhou a guerra, mas o banquinho nunca foi dele.
 b10 | simples | countryside | two | GOV | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: - | mapa: GANA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~6.6 s)
-- Narracao: Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele.
+## Cena b2  (~5.5 s)
+- Narracao: Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~6.2 s)
-- Narracao: Eles se revoltaram, cercaram o forte onde ele estava, e o governador teve que se trancar lá dentro.
+## Cena b5  (~3.8 s)
+- Narracao: Eles se revoltaram e cercaram o forte onde o governador estava.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito; encena: empurra (push) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: REVOLTA
 - Funcao na historia: GRANDE MOMENTO
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~5.5 s)
-- Narracao: No fim, os ingleses venceram a guerra e assumiram o controle da região, que virou colônia.
+## Cena b7  (~3.4 s)
+- Narracao: No fim, os ingleses venceram e a região virou colônia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; encena: vence (up) @4 -> acao + som de efeito

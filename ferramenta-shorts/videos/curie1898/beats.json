@@ -68,7 +68,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.",
+   "say": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção.",
    "hora": "dia",
    "clima": "limpo"
   },
@@ -144,7 +144,7 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olhar os frascos à noite."
+   "say": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite."
   },
   {
    "shot": "two",
@@ -201,7 +201,7 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.",
+   "say": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
    "hora": "dia",
    "clima": "limpo"
   },
@@ -220,7 +220,7 @@
      1.1
     ]
    ],
-   "say": "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris.",
+   "say": "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris.",
    "hora": "dia",
    "clima": "limpo"
   },
@@ -245,43 +245,6 @@
     "sting@20"
    ],
    "say": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
-   "hora": "dia",
-   "clima": "limpo"
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "POV:0:shock",
-    "POV:1:surprised",
-    "PES:0:surprised"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
-   },
-   "props": [
-    [
-     "kit/curie_box",
-     0,
-     -3.0,
-     1.4
-    ]
-   ],
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "text": "1.600 ANOS",
-   "titulo": true,
-   "say": "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.",
    "hora": "dia",
    "clima": "limpo"
   },

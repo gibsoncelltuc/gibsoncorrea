@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1839 | Lugar: Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois | Quando: inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas
 - HEROIS (objeto): kit/borracha, kit/stove
 - HEROIS (personagens): GOO, CLA
-- Cenarios: countryside, hall, interior loja, interior madeira, interior pedra, street
+- Cenarios: hall, interior loja, interior madeira, interior pedra, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Borracha que Caiu no Fogão | A Borracha que Caiu no Fogão / Um Era Estados Unidos No 1839 | SEM REFERENCIA
+tema | A Borracha que Caiu no Fogão | A Borracha que Caiu no Fogão / Um Era Estados Unidos 1839 | SEM REFERENCIA
 lugar | Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao | Woburn / Woburn Massachusetts EUA 1839 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1839 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1839 | 1839 fashion clothing / 19th century clothing painting | SEM REFERENCIA

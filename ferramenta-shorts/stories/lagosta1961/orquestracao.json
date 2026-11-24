@@ -49,9 +49,9 @@
    "objetos": [
     "boat"
    ],
-   "palavras": 21,
+   "palavras": 16,
    "cena": "b1",
-   "frase": "Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas na costa de Pernambuco, e os pescadores brasileiros não gostaram.",
+   "frase": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,19 +59,25 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "BRA",
     "PES"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [],
-   "palavras": 19,
+   "palavras": 16,
    "cena": "b2",
-   "frase": "O Brasil dizia que a lagosta anda no fundo do mar, colada na costa, e por isso era brasileira.",
-   "classe": "simples",
+   "frase": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -103,9 +109,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 17,
+   "palavras": 12,
    "cena": "b4",
-   "frase": "A discussão ficou séria, e a França mandou um navio de guerra para proteger os pescadores dela.",
+   "frase": "A França mandou um navio de guerra para proteger os pescadores dela.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -140,25 +146,19 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "MAR",
     "MAR"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o primeiro tiro.",
-   "classe": "chave",
+   "frase": "Marinheiros dos dois lados se encararam no mar.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },

@@ -140,7 +140,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por um bulbo, e outro gritava que pagava duas mil."
+   "say": "Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil."
   },
   {
    "shot": "crowd",
@@ -213,7 +213,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos."
+   "say": "Ninguém queria a flor. Queriam revender mais caro na semana seguinte."
   },
   {
    "shot": "two",
@@ -231,7 +231,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna."
+   "say": "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna."
   },
   {
    "shot": "group",

@@ -12,24 +12,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanha, inglaterra, orelha
 - RISCOS: nenhum
 
-## Cena b1 - Em mil setecentos e trinta e um, o capitão inglês Robert Jenkins estav...
+## Cena b1 - Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol paro...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): JEN (variante 0, expressao nervous); MAR (variante 0, expressao neutral) | multidao: 8 de MAR
 - Animacao: reagir
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, cuba, navio, parou
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, cuba, navio, perto
 - RISCOS: nenhum
 
-## Cena b2 - Os espanhóis suspeitaram que ele fazia contrabando, e Jenkins disse qu...
+## Cena b2 - Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha del...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CAP (variante 0, expressao angry); JEN (variante 0, expressao scared)
-- Animacao: conversar | interacao: empurrar
+- Animacao: conversar | interacao: empurrar | batalha encenada
 - Objetos/modelos: kit/ear_jar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, espanhois
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, contrabando, orelha
 - RISCOS: nenhum
 
 ## Cena b3 - "Vá levar isso ao seu rei", teria dito o espanhol.
@@ -62,28 +62,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe, comercio, desculpa, espanha, inglaterra
 - RISCOS: nenhum
 
-## Cena b6 - Em mil setecentos e trinta e nove, declarou guerra, e navios e soldado...
+## Cena b6 - Em mil setecentos e trinta e nove, a guerra começou.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao angry); SOL (variante 1, expressao shout) | multidao: 20 de SOL
-- Animacao: encena | batalha encenada
-- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oceano
+- Animacao: - | batalha encenada
+- Objetos/modelos: ship
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b7 - A guerra foi longa, e até se juntou a outra guerra maior, na Europa.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): SOL (variante 0, expressao nervous); ING (variante 0, expressao pained) | multidao: 10 de SOL
-- Animacao: discutir | interacao: insiste | batalha encenada
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): europa
-- RISCOS: nenhum
-
-## Cena b8 - Depois de quase dez anos, os dois lados fizeram a paz.
-- Cenario: interior madeira | luz: day | clima: limpo
+## Cena b7 - Depois de quase dez anos, os dois lados fizeram a paz.
+- Cenario: palace | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ESP (variante 0, expressao relief, segura paper); ING (variante 0, expressao relief)
@@ -92,27 +82,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
-## Cena b9 - Quem batizou de Guerra da Orelha de Jenkins foi um escritor, mais de c...
+## Cena b8 - Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um séc...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRE (variante 0, expressao smile, segura book); ING (variante 0, expressao grin)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/ear_jar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escritor, jenkins, orelha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escritor, jenkins, orelha, seculo
 - RISCOS: nenhum
 
-## Cena b10 - A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
+## Cena b9 - A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): JEN (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -127,17 +117,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/ear_jar | b0, b2, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ear_jar | b0, b2, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 14% | medio 68% | aberto 11% | detalhe 6%
-- Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 insiste, b8 apertar, b9 avanca e o outro recua
+- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 14% | medio 69% | aberto 10% | detalhe 7%
+- Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar
 - RISCOS GERAIS: 
+  - pouca variedade de cenario ({'harbor': 6, 'loc_campo': 2, 'interior madeira': 1, 'interior pedra': 1, 'palace': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py jenkins1739  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/jenkins1739/moodboard.jpg
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- geral: pouca variedade de cenario ({'harbor': 6, 'loc_campo': 2, 'interior madeira': 1, 'interior pedra': 1, 'palace': 1}): o video fica parecendo todos os outros
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

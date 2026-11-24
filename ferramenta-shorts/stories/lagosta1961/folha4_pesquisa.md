@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra da Lagosta | A Guerra da Lagosta / França Brasil Era Barcos Pernambuco Brasil 1961 | SEM REFERENCIA
+tema | A Guerra da Lagosta | A Guerra da Lagosta / França Brasil Era Pernambuco Brasil 1961 | SEM REFERENCIA
 lugar | litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa | litoral de Pernambuco e do Nordeste do Brasil / litoral de Pernambuco e do Nordeste do Brasil 1961 | SEM REFERENCIA
 lugar | Pernambuco | Pernambuco 1961 / Pernambuco landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1961 | 1961 fashion clothing / 1961 street photograph | SEM REFERENCIA

@@ -8,12 +8,7 @@
    "loc_campo"
   ],
   [
-   "cena 8",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 10",
+   "cena 9",
    "street",
    "loc_campo"
   ]
@@ -55,9 +50,9 @@
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 24,
+   "palavras": 19,
    "cena": "b1",
-   "frase": "Em mil setecentos e trinta e um, o capitão inglês Robert Jenkins estava num navio perto de Cuba, quando um navio espanhol o parou.",
+   "frase": "Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol parou o capitão inglês Robert Jenkins.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -74,12 +69,18 @@
    "objetos": [
     "kit/ear_jar"
    ],
-   "palavras": 17,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Os espanhóis suspeitaram que ele fazia contrabando, e Jenkins disse que o capitão deles arrancou sua orelha.",
-   "classe": "simples",
+   "frase": "Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha dele.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -142,12 +143,11 @@
    ],
    "multidao": 48,
    "objetos": [
-    "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 17,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Em mil setecentos e trinta e nove, declarou guerra, e navios e soldados ingleses cruzaram o oceano.",
+   "frase": "Em mil setecentos e trinta e nove, a guerra começou.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -161,29 +161,6 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "SOL",
-    "ING"
-   ],
-   "multidao": 10,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b7",
-   "frase": "A guerra foi longa, e até se juntou a outra guerra maior, na Europa.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
    "camera": "two",
    "personagens": [
     "ESP",
@@ -192,13 +169,13 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 11,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Depois de quase dez anos, os dois lados fizeram a paz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "palace"
   },
   {
    "camera": "two",
@@ -211,8 +188,8 @@
     "kit/ear_jar"
    ],
    "palavras": 16,
-   "cena": "b9",
-   "frase": "Quem batizou de Guerra da Orelha de Jenkins foi um escritor, mais de cem anos depois.",
+   "cena": "b8",
+   "frase": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um século depois.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -229,7 +206,7 @@
     "kit/ear_jar"
    ],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -245,7 +222,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -25,15 +25,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | Ouro (8.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 4 | - | MAPA | GANA | OK |
 
-## Cena b2 - 11.5s a 18.1s - 19 palavras - plano two
-> "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele."
+## Cena b2 - 11.5s a 17.0s - 16 palavras - plano two
+> "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 18.5s a 24.1s - 16 palavras - plano two
+## Cena b3 - 17.4s a 23.0s - 16 palavras - plano two
 > "Acontece que o governador inglês exigiu o banquinho: "Por que eu ainda não estou sentado nele?""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -41,51 +41,50 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | empurrar | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 24.4s a 30.0s - 16 palavras - plano two
+## Cena b4 - 23.3s a 28.9s - 16 palavras - plano two
 > "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pedir (28.1s) | ACAO: fala | aponta explicando | OK |
+| 1 | pedir (27.0s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 30.4s a 36.7s - 18 palavras - plano crowd
-> "Eles se revoltaram, cercaram o forte onde ele estava, e o governador teve que se trancar lá dentro."
+## Cena b5 - 29.3s a 33.0s - 11 palavras - plano crowd
+> "Eles se revoltaram e cercaram o forte onde o governador estava."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cercaram (31.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | trancar (35.9s) | ACAO: empurra | empurra/puxa | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | REVOLTA | OK |
+| 1 | cercaram (30.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | PLACA | REVOLTA | OK |
 
-## Cena b6 - 37.0s a 42.2s - 15 palavras - plano orbit
+## Cena b6 - 33.3s a 38.5s - 15 palavras - plano orbit
 > "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | marcharam (37.8s) | EFEITO: dust | poeira + som | OK |
-| 2 | marcharam (37.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | salvar (38.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 4 | preso (39.6s) | ACAO: prende | empurra/prende | OK |
-| 5 | seguiu (41.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | marcharam (34.1s) | EFEITO: dust | poeira + som | OK |
+| 2 | marcharam (34.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | salvar (34.8s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 4 | preso (35.9s) | ACAO: prende | empurra/prende | OK |
+| 5 | seguiu (37.4s) | ACAO: chega | entra andando pela lateral | OK |
 | 6 | - | CENA | cavalaria: 4 soldados a cavalo (SOL) | OK |
 | 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b7 - 42.6s a 48.1s - 16 palavras - plano two
-> "No fim, os ingleses venceram a guerra e assumiram o controle da região, que virou colônia."
+## Cena b7 - 38.9s a 42.2s - 10 palavras - plano two
+> "No fim, os ingleses venceram e a região virou colônia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venceram (44.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | venceram (44.1s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | venceram (40.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | venceram (40.4s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b8 - 48.5s a 52.6s - 12 palavras - plano two
+## Cena b8 - 42.6s a 46.7s - 12 palavras - plano two
 > "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -93,16 +92,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 53.0s a 56.7s - 11 palavras - plano close
+## Cena b9 - 47.0s a 50.7s - 11 palavras - plano close
 > "O governador ganhou a guerra, mas o banquinho nunca foi dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (53.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (53.7s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganhou (47.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (47.8s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 57.0s a 61.5s - 13 palavras - plano two
+## Cena b10 - 51.1s a 55.6s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

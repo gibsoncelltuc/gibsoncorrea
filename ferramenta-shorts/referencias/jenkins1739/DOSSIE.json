@@ -10,7 +10,8 @@
    "harbor",
    "interior madeira",
    "interior pedra",
-   "loc_campo"
+   "loc_campo",
+   "palace"
   ],
   "cenarios_trocados": [
    [
@@ -19,12 +20,7 @@
     "loc_campo"
    ],
    [
-    "cena 8",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 10",
+    "cena 9",
     "street",
     "loc_campo"
    ]
@@ -52,7 +48,6 @@
   "buildings/shop",
   "kit/ear_jar",
   "kit/navio_fragata",
-  "kit/room_azul_wood",
   "kit/room_europa_wood",
   "kit/room_verde_stone",
   "mk/Barrel",
@@ -62,13 +57,8 @@
   "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
-  "mk/Shelf_Small_Bottles",
-  "mk/Stool",
   "mk/Table_Large",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers",
   "ship"
  ],
  "pesquisa_visual": {

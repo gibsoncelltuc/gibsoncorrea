@@ -1,84 +1,101 @@
 {
  "id": "arquimedes250",
- "ano": null,
+ "ano": 2000,
  "itens": [
   {
    "tipo": "tema",
    "item": "Arquimedes e o Eureca",
    "consultas": [
     "Arquimedes e o Eureca",
-    "Um Conta Siracusa Sicília Cristo Hierão"
+    "Um Foi Siracusa Sicília Hierão 2000"
    ]
   },
   {
    "tipo": "lugar",
    "item": "Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra,",
    "consultas": [
-    "Siracusa cidade grega na Sicilia"
+    "Siracusa cidade grega na Sicilia",
+    "Siracusa cidade grega na Sicilia 2000"
    ]
   },
   {
    "tipo": "lugar",
    "item": "Sicília",
    "consultas": [
-    "Sicília",
+    "Sicília 2000",
     "Sicília landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2000",
+   "consultas": [
+    "2000 fashion clothing",
+    "2000 street photograph"
    ]
   },
   {
    "tipo": "pessoas",
    "item": "Arquimedes, sabio de Siracusa",
    "consultas": [
-    "Arquimedes sabio de Siracusa"
+    "Arquimedes sabio de Siracusa",
+    "Arquimedes sabio de Siracusa 2000"
    ]
   },
   {
    "tipo": "pessoas",
    "item": "rei Hierao II",
    "consultas": [
-    "rei Hierao II"
+    "rei Hierao II",
+    "rei Hierao II 2000"
    ]
   },
   {
    "tipo": "pessoas",
    "item": "o ourives da coroa",
    "consultas": [
-    "o ourives da coroa"
+    "o ourives da coroa",
+    "o ourives da coroa 2000"
    ]
   },
   {
    "tipo": "pessoas",
    "item": "moradores de Siracusa",
    "consultas": [
-    "moradores de Siracusa"
+    "moradores de Siracusa",
+    "moradores de Siracusa 2000"
    ]
   },
   {
    "tipo": "objeto",
    "item": "coroa de ouro (de louros)",
    "consultas": [
-    "coroa de ouro"
+    "coroa de ouro",
+    "coroa de ouro 2000"
    ]
   },
   {
    "tipo": "objeto",
    "item": "banheira",
    "consultas": [
-    "banheira"
+    "banheira",
+    "banheira 2000"
    ]
   },
   {
    "tipo": "objeto",
    "item": "balanca de pratos",
    "consultas": [
-    "balanca de pratos"
+    "balanca de pratos",
+    "balanca de pratos 2000"
    ]
   },
   {
    "tipo": "objeto",
    "item": "barra de ouro",
    "consultas": [
-    "barra de ouro"
+    "barra de ouro",
+    "barra de ouro 2000"
    ]
   },
   {

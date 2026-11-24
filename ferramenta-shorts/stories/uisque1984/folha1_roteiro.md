@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 11 cenas, 164 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 11 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: 1984
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.9 s)
-- Narracao: A ilha Hans é um pedaço de rocha gelada e sem gente, no mar entre o Canadá e a Groenlândia.
+## Cena b1  (~5.5 s)
+- Narracao: A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: - | mapa: GROENLÂNDIA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.5 s)
-- Narracao: Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade.
+## Cena b2  (~5.2 s)
+- Narracao: Os dois países diziam que a ilha era sua, mas ninguém queria guerra de verdade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.5 s)
-- Narracao: E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado de uma garrafa de aguardente.
+## Cena b6  (~3.8 s)
+- Narracao: E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.5 s)
-- Narracao: Em dois mil e vinte e dois, os países enfim dividiram a ilha quase ao meio.
+## Cena b8  (~4.5 s)
+- Narracao: Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
