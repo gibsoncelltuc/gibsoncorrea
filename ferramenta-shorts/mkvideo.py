@@ -2192,6 +2192,9 @@ _glob = []
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))
 if sum(1 for b in beats if b.get('impact') or b.get('_veic_anim') or b.get('explica')) < int(B.get('min_momentos', 2)): _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
 if HEROI and not any(b.get('_det_heroi') or b.get('explica') or b.get('_voo_cam') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
+_b0 = beats[0] if beats else {}
+if beats and not B.get('gancho_ok') and not any(_b0.get(k_) for k_ in ('text', 'fx', 'impact', 'batalha', 'explica', 'montado', 'veiculo', 'animals', 'hud', 'mapa')) and not _b0.get('props'):   # ordem do Gibson 24/11: IMPACTO nos 5 primeiros segundos
+    _glob.append(('GANCHO sem impacto visual nos 5 primeiros segundos (cena 1 so com gente parada)', 'na cena 1: o objeto heroi em "props", "text" grande, "fx"/"impact", animal ou veiculo em acao - a imagem tem que surpreender junto com a frase'))
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
 if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
     _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))
