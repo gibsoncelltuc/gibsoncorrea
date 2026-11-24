@@ -46,9 +46,12 @@
    "props": [
     [
      "kit/beehive",
-     0,
-     -1.4,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -76,7 +79,19 @@
     "ding@30"
    ],
    "say": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.",
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "reveal",
@@ -97,9 +112,12 @@
    "props": [
     [
      "kit/beehive",
-     1.6,
-     -0.8,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -129,7 +147,19 @@
     "thump@30"
    ],
    "set": "countryside",
-   "text": "DANÇA"
+   "text": "DANÇA",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "close",
@@ -139,9 +169,12 @@
    "props": [
     [
      "kit/beehive",
-     0.0,
-     -1.6,
-     1.6
+     2.4,
+     0.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -177,7 +210,19 @@
    "say": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
    "set": "countryside",
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~2.2 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   },
   {
    "shot": "two",
@@ -189,8 +234,11 @@
     [
      "kit/beehive",
      0.0,
-     -1.6,
-     1.6
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -219,7 +267,19 @@
    "say": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
    "set": "mountain",
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~2.2 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "low",
@@ -229,9 +289,12 @@
    "props": [
     [
      "kit/beehive",
-     0.0,
-     -1.6,
-     1.6
+     2.4,
+     0.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -265,7 +328,19 @@
    "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
    "set": "mountain",
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~2.2 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   },
   {
    "shot": "two",
@@ -286,8 +361,11 @@
     [
      "kit/beehive",
      0.0,
-     -1.6,
-     1.6
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -313,7 +391,19 @@
     ]
    ],
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~2.2 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "two",
@@ -345,9 +435,12 @@
    "props": [
     [
      "kit/beehive",
-     0,
-     -3.0,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -377,7 +470,19 @@
    "text": "TESTE",
    "titulo": true,
    "say": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
-   "set": "mountain"
+   "set": "mountain",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.9 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "group",
@@ -417,9 +522,12 @@
    "props": [
     [
      "kit/beehive",
-     1.4,
-     -0.8,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bee",
@@ -441,7 +549,19 @@
     ]
    ],
    "say": "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.",
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/beehive",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.4 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   }
  ],
  "regiao": "europa",

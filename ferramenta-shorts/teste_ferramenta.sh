@@ -121,6 +121,7 @@ T_=videos/_teste_coer; mkdir -p $T_; printf '{"regiao":"brasil","outfits":{"A":{
 _co=$(python3 checagem_coerencia.py _teste_coer 2>&1); for r_ in R1 R2 R3 R4; do echo "$_co" | grep -q "$r_ " || f "coerencia nao pega a regra $r_ (lugar/regiao/fardas/gancho)"; done; rm -rf $T_
 grep -q 'R5 b' checagem_coerencia.py || f "coerencia nao confere a farda FINAL (depois da farda automatica da epoca)"
 grep -q 'checagem_coerencia.py' verificar_folhas.py || f "verificar_folhas nao roda a checagem de coerencia"
+grep -q 'python3 enquadrar.py' make_video.sh && grep -q "'lugar': lugar" enquadrar.py || f "folha 2 sem enquadramento na fonte (objeto jogado na cena sem lugar/tamanho/camera)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

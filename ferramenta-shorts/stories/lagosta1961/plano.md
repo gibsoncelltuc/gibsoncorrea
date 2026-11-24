@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1961 | - | -
+b0 | two | -  | tropa, placa: 1961 | - | -
 b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | encena: x_pesca (lift) @10 (acao + som de efeito) | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | tropa | - | -
@@ -11,8 +11,8 @@ b5 | crowd | -  | batalha aberta com tiros, tropa, placa: NAVIOS E AVIÕES | enc
 b6 | two | -  | - | encena: olha (point) @5 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito); encena: olha (point) @21 (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | tiro (burst + som de tiro/explosao); brigar (puff + som de baque); encena: atira @2 (acao + som de efeito); encena: chega (point) @9 (acao + som de efeito); encena: fala (point) @11 (acao + som de efeito); encena: golpe (punch) @15 (acao + som de efeito) | -
 b8 | reveal | -  | placa: 1963 | chegaram (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito); encena: x_pesca (lift) @9 (acao + som de efeito) | -
-b9 | two | -  | - | - | -
+b9 | group | -  | tropa | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 73% | aberto 11% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 12% | medio 77% | aberto 11% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

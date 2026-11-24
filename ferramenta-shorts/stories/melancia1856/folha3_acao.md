@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | 1856 | OK |
 
-## Cena b1 - 5.1s a 9.7s - 17 palavras - plano reveal
+## Cena b1 - 5.1s a 9.7s - 17 palavras - plano wide
 > "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

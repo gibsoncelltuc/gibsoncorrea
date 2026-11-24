@@ -56,9 +56,12 @@
    "props": [
     [
      "kit/curie_box",
-     0,
-     -1.4,
-     1.0
+     0.0,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "PERIGO",
@@ -70,7 +73,15 @@
    ],
    "say": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "quadro": {
+    "objeto": "kit/curie_box",
+    "classe": "pequeno",
+    "lugar": "frente",
+    "tela": "12% da altura da tela",
+    "relacao": "objeto pequeno ampliado para ~0.9 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
+    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+   }
   },
   {
    "shot": "reveal",
@@ -117,9 +128,12 @@
    "props": [
     [
      "kit/curie_box",
-     1.6,
-     -0.8,
-     1.0
+     0.0,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -130,7 +144,15 @@
    ],
    "say": "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "quadro": {
+    "objeto": "kit/curie_box",
+    "classe": "pequeno",
+    "lugar": "frente",
+    "tela": "12% da altura da tela",
+    "relacao": "objeto pequeno ampliado para ~0.9 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
+    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+   }
   },
   {
    "shot": "close",
@@ -142,9 +164,12 @@
    "props": [
     [
      "kit/curie_box",
-     1.6,
-     -0.8,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -155,7 +180,19 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite."
+   "say": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/curie_box",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.1 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   },
   {
    "shot": "two",
@@ -226,14 +263,25 @@
    "props": [
     [
      "kit/curie_box",
-     1.6,
-     -0.8,
-     1.1
+     0.0,
+     1.0,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "quadro": {
+    "objeto": "kit/curie_box",
+    "classe": "pequeno",
+    "lugar": "frente",
+    "tela": "14% da altura da tela",
+    "relacao": "objeto pequeno ampliado para ~1.0 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
+    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+   }
   },
   {
    "shot": "low",
@@ -244,9 +292,12 @@
    "props": [
     [
      "kit/curie_box",
-     -1.8,
-     -1.0,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -257,7 +308,19 @@
    ],
    "say": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/curie_box",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.1 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   },
   {
    "shot": "close",
@@ -267,14 +330,25 @@
    "props": [
     [
      "kit/curie_box",
-     1.4,
-     -0.8,
-     1.0
+     1.0,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Ou seja: os cadernos vão continuar radioativos por séculos.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "quadro": {
+    "objeto": "kit/curie_box",
+    "classe": "pequeno",
+    "lugar": "frente",
+    "tela": "12% da altura da tela",
+    "relacao": "objeto pequeno ampliado para ~0.9 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
+    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+   }
   }
  ],
  "objetos_do_video": {

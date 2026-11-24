@@ -4,9 +4,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - A França e o Brasil quase entraram em guerra por causa de uma lagosta.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): BRA (variante 0, expressao angry); FRA (variante 0, expressao smug)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): BRA (variante 0, expressao angry); FRA (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/lobster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, franca, lagosta
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 20 de MAR/BRA
+- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 0 de 
 - Animacao: encena | batalha encenada
 - Objetos/modelos: ship, vehicles/airplane, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, tensao
@@ -94,9 +94,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): BRA (variante 0, expressao nervous); FRA (variante 0, expressao nervous)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): BRA (variante 0, expressao nervous); FRA (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/lobster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lagosta
@@ -126,7 +126,7 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b1, b5 | planos abertos: 3 | mistura: close 12% | medio 73% | aberto 11% | detalhe 4%
+- Objeto heroi: kit/lobster | grandes momentos: b1, b5 | planos abertos: 3 | mistura: close 12% | medio 77% | aberto 11% | detalhe 0%
 - Interacoes: b0 discutir, b4 avanca e o outro recua, b6 cochichar, b7 entregar, b9 susto
 - RISCOS GERAIS: nenhum
 

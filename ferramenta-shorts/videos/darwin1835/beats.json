@@ -54,11 +54,26 @@
    "props": [
     [
      "kit/finch",
+     0.0,
+     -1.2,
      1.4,
-     0.5,
-     1.4
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/finch",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.3 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "say": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
@@ -88,12 +103,27 @@
    "props": [
     [
      "kit/finch",
-     -1.3,
-     0.6,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/finch",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.2 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
@@ -126,9 +156,12 @@
    "props": [
     [
      "kit/finch_thick",
-     -1.3,
-     0.5,
-     1.5
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/finch_long",
@@ -144,7 +177,19 @@
    "sfx": [
     "thump@40",
     "ding@60"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/finch_thick",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
@@ -180,8 +225,11 @@
     [
      "kit/finch",
      0.0,
-     1.2,
-     1.4
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -192,7 +240,19 @@
     "ding@40",
     "sting@60"
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/finch",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.3 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
@@ -206,11 +266,26 @@
    "props": [
     [
      "kit/finch_thick",
-     -1.3,
-     0.5,
-     1.5
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/finch_thick",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
@@ -231,12 +306,27 @@
    "props": [
     [
      "kit/finch",
-     1.0,
-     0.3,
-     1.3
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/finch",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.2 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   }
  ],
  "visual": {

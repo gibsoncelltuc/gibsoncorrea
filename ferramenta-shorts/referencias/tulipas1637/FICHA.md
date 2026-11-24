@@ -7,7 +7,7 @@
 - Roupas: {'MER': 'comerciante de gibao escuro, gola branca, chapeu de aba', 'RIC': 'rico de seda preta, gola branca larga, chapeu alto', 'POV': 'povo de 1637: touca branca, chapeu de aba, chapeu de palha', 'MAR': 'marinheiro de jaqueta curta e boina'}
 - Cenario real: rua holandesa com casas de tijolo e moinho, canteiros de tulipas, taberna de madeira com mesas e canecas, sala de leilao
 - Objetos: ['tulipa listrada Semper Augustus', 'bulbos', 'moedas de prata (florins)', 'contratos de papel']
-- Cenarios usados no video: countryside, harbor, interior loja, interior madeira, street
+- Cenarios usados no video: countryside, harbor, interior loja, interior madeira, interior pedra, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, encouracado, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
