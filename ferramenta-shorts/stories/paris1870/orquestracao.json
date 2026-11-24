@@ -50,7 +50,7 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "PAR",
     "PAR"
@@ -67,7 +67,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PAR",
     "CHF"
@@ -113,9 +113,10 @@
    "cenario": "arctic"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "BUT"
+    "BUT",
+    "PAR"
    ],
    "multidao": 0,
    "objetos": [],
@@ -213,8 +214,9 @@
    "cenario": "arctic"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
+    "PAR",
     "PAR"
    ],
    "multidao": 0,
