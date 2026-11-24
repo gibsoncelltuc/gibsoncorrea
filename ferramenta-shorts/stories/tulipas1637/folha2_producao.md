@@ -3,21 +3,21 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/tulipas1637/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py tulipas1637` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma única flor já custou o preço de uma casa inteira.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MER (variante 0, expressao grin, segura tulip); RIC (variante 0, expressao shock, segura coin)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/tulip_striped
+- Objetos/modelos: kit/tulip_striped, kit/marco_amsterdam, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, preco
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
 - PERSONAGENS: MER na esquerda, expressao grin, segura tulip; RIC na direita, expressao shock, segura coin; sem multidao; acao: fala/gesto
-- OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1637" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
@@ -119,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 2, expressao grin, segura paper); POV (variante 3, expressao smile, segura coin)
@@ -185,7 +185,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): POV (variante 2, expressao shock, segura tulip) | multidao: 30 de 
@@ -267,14 +267,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tulip_striped | b0, b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b0, b1, b3, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_bed | b1, b3, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/windmill | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_amsterdam | b1, b3, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_red | b1, b4, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_yellow | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_purple | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

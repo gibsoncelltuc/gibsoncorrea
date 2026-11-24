@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -178,13 +178,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ler (50.8s) | ACAO: x_le | le o papel | OK |
 | 2 | assinar (51.7s) | ACAO: escreve | escreve/assina | OK |
-| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_le na palavra ler (50.8s): executa: le o papel
 - ACAO: escreve na palavra assinar (51.7s): segura o papel e mexe a mao como se escrevesse
-- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b11 - 54.5s a 57.6s - 9 palavras - plano two

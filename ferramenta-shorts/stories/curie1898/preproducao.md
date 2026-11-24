@@ -14,9 +14,9 @@ b6 | interior madeira | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
 b7 | loc_campo | crowd | 19 | comemorar, batalha | kit/marco_eiffel | - | -
 b8 | loc_campo | two | 1 | conversar | - | - | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/curie_box, crate | - | -
-b10 | interior pedra | close | 1 | conversar | kit/curie_box | - | -
-b11 | loc_montanha | two | 1 | conversar | kit/curie_box | - | -
-b12 | loc_campo | close | 1 | conversar | - | - | -
+b10 | interior pedra | close | 1 | encena | kit/curie_box | paper | -
+b11 | interior pedra | two | 1 | conversar | kit/curie_box | - | -
+b12 | interior pedra | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/curie_box
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b7
