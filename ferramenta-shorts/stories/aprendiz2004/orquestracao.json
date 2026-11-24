@@ -21,10 +21,9 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
-    "TRU",
-    "CND"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -178,7 +177,6 @@
    "camera": "crowd",
    "personagens": [
     "JUS",
-    "POV",
     "POV"
    ],
    "multidao": 12,

@@ -49,18 +49,21 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "TRU:0:smug",
-    "CND:0:shock"
+    "TRU:0:smug"
    ],
    "fx": [
-    "stars@30"
+    "ring@60",
+    "stars@75"
    ],
    "sfx": [
-    "ding@30"
+    "sting@60",
+    "ding@75"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido."
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.",
+   "text": "VOCÊ ESTÁ DEMITIDO!",
+   "titulo": true
   },
   {
    "shot": "reveal",
@@ -202,11 +205,10 @@
    ]
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "JUS:0:smug",
-    "POV:0:surprised",
-    "POV:1:grin"
+    "POV:0:surprised"
    ],
    "mapa": "BRASIL",
    "mapa_at": 3,

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | - | -
+b0 | close | -  | placa: VOCÊ ESTÁ DEMITIDO! | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | crowd | -  | tropa | encena: x_discute (point) @2 (acao + som de efeito) | -
 b3 | two | -  | - | vender (stars + som de sino); encena: negocio (reach) @9 (acao + som de efeito) | -
@@ -15,5 +15,5 @@ b9 | two | -  | - | encena: fala (point) @1 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 29% | medio 51% | aberto 18% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 36% | medio 44% | aberto 18% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

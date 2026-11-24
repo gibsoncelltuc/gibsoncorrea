@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Duas palavras transformaram um empresário de Nova York numa estrela mu...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): TRU (variante 0, expressao smug); CND (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): TRU (variante 0, expressao smug)
+- Animacao: conversar
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, nova
 - RISCOS: nenhum
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): JUS (variante 0, expressao smug); POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 12 de POV
+- Personagens principais (2): JUS (variante 0, expressao smug); POV (variante 0, expressao surprised) | multidao: 12 de POV
 - Animacao: - | batalha encenada
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, roberto
@@ -134,8 +134,8 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 29% | medio 51% | aberto 18% | detalhe 2%
-- Interacoes: b0 susto, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
+- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 36% | medio 44% | aberto 18% | detalhe 2%
+- Interacoes: b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
