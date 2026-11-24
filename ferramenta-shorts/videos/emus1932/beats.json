@@ -182,7 +182,7 @@
    "batalha": false,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1,
+   "_auto_vis": 0,
    "fachada": false,
    "fx": [
     "dust@20",
@@ -208,8 +208,8 @@
      "quem": 1
     }
    ],
-   "d0": 6.0,
-   "d1": 5.1,
+   "d0": 9.0,
+   "d1": 8.5,
    "quadro_manual": true,
    "cx": 0.8,
    "cz": -0.5,
@@ -219,26 +219,28 @@
      2.4,
      -1.5,
      "run",
-     1.35
+     1.6
     ],
     [
      "emu",
      3.4,
      -2.2,
      "run",
-     1.35
+     1.6
     ],
     [
      "emu",
      4.2,
      -1.2,
      "run",
-     1.35
+     1.6
     ]
    ],
    "crowd": {
     "n": 0
-   }
+   },
+   "impact": false,
+   "grua": false
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
