@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): VIA (variante 0, expressao shock); MOR (variante 0, expressao angry)
 - Animacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: buildings/house_two, nature/lamppost, locomotive
+- Objetos/modelos: buildings/house_two, nature/lamppost, vehicles/locomotive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
 - RISCOS: nenhum
 
@@ -128,23 +128,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/melon | b0, b3, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/locomotive | b1, b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/locomotive | b1, b2, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/pistol | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-locomotive | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
 - Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 10% | medio 64% | aberto 20% | detalhe 6%
 - Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b8 susto
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py melancia1856  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/melancia1856/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh melancia1856 bN bM` (so essas cenas).

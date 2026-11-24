@@ -1,18 +1,7 @@
 {
  "id": "lagosta1961",
  "ano": 1961,
- "cenarios_trocados": [
-  [
-   "cena 1",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 4",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -37,7 +26,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "harbor"
   },
   {
    "camera": "crowd",
@@ -46,7 +35,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "boat"
+    "boat",
+    "kit/fishing_net"
    ],
    "palavras": 16,
    "cena": "b1",
@@ -64,48 +54,53 @@
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "BRA"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [],
    "palavras": 16,
    "cena": "b2",
    "frase": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/lobster (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
-   "personagens": [
-    "FRA",
-    "FRA"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [],
    "palavras": 14,
    "cena": "b3",
    "frase": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/lobster (sobe)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "group",
    "personagens": [
-    "FRA",
-    "MAR",
     "MAR"
    ],
    "multidao": 0,
    "objetos": [
-    "ship"
+    "kit/navio_destroier"
    ],
    "palavras": 12,
    "cena": "b4",
@@ -114,7 +109,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "harbor"
   },
   {
    "camera": "crowd",
@@ -174,7 +169,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior pedra"
   },
   {
    "camera": "reveal",
@@ -196,9 +191,10 @@
    "cenario": "harbor"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "BRA"
+    "BRA",
+    "FRA"
    ],
    "multidao": 0,
    "objetos": [
@@ -211,10 +207,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "BRA"
    ],
@@ -227,7 +223,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "harbor"
   }
  ]
 }

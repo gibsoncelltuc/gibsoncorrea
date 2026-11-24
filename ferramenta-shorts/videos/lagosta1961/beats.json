@@ -58,17 +58,16 @@
    "props": [
     [
      "kit/lobster",
-     0.6,
+     0.0,
      1.0,
-     1.5
+     2.2
     ]
    ],
    "text": "1961",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
-   "set": "street",
-   "_auto_vis": 2
+   "set": "harbor"
   },
   {
    "shot": "wide",
@@ -84,9 +83,15 @@
    "props": [
     [
      "boat",
-     5,
-     -8,
-     1.3
+     0.0,
+     -9.0,
+     1.6
+    ],
+    [
+     "kit/fishing_net",
+     1.6,
+     0.6,
+     1.2
     ]
    ],
    "say": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
@@ -97,51 +102,53 @@
     "thump@70"
    ],
    "cx": 0.0,
-   "cz": -5.6,
-   "h": 2.8,
-   "d0": 15.0,
-   "d1": 13.0,
-   "_auto_vis": 3
+   "cz": -6.0,
+   "d0": 16.0,
+   "d1": 13.0
+  },
+  {
+   "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
+   "explica": {
+    "objeto": "kit/lobster",
+    "manobra": "parado",
+    "passos": [
+     "FUNDO DO MAR",
+     "ANDA",
+     "BRASILEIRA"
+    ]
+   }
+  },
+  {
+   "say": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
+   "explica": {
+    "objeto": "kit/lobster",
+    "manobra": "sobe",
+    "passos": [
+     "NADA",
+     "NO MAR",
+     "DE QUEM PESCAR"
+    ]
+   }
   },
   {
    "shot": "wide",
    "who": [
-    "BRA:0:angry"
-   ],
-   "acao": "discutir",
-   "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
-   "set": "harbor",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 2
-  },
-  {
-   "shot": "two",
-   "who": [
-    "FRA:0:smug",
-    "FRA:1:laugh"
-   ],
-   "interacao": "cochichar",
-   "say": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
-   "set": "countryside"
-  },
-  {
-   "shot": "group",
-   "who": [
-    "FRA:0:stern",
-    "MAR:0:stern",
-    "MAR:1:angry"
+    "MAR:0:stern"
    ],
    "props": [
     [
-     "ship",
-     -6,
-     -8,
-     1.3
+     "kit/navio_destroier",
+     0.0,
+     -16.0,
+     1.0
     ]
    ],
    "say": "A França mandou um navio de guerra para proteger os pescadores dela.",
-   "interior": "pedra"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -10.0,
+   "d0": 20.0,
+   "d1": 17.0
   },
   {
    "shot": "wide",
@@ -177,10 +184,7 @@
    "text": "NAVIOS E AVIÕES",
    "titulo": true,
    "say": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
-   "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -200,13 +204,13 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "FRA:0:relief:paper",
     "BRA:0:smile"
    ],
    "interacao": "entregar",
-   "say": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar."
+   "say": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.",
+   "interior": "pedra"
   },
   {
    "shot": "two",
@@ -220,21 +224,21 @@
    "set": "harbor"
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "BRA:0:nervous"
+    "BRA:0:nervous",
+    "FRA:0:nervous"
    ],
    "props": [
     [
      "kit/lobster",
-     0.6,
+     0.0,
      1.0,
-     1.5
+     2.2
     ]
    ],
    "say": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.",
-   "interior": "pedra",
-   "_auto_vis": 2
+   "set": "harbor"
   }
  ],
  "ano": 1961,
@@ -268,6 +272,10 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Lobster_War",
    "https://pt.wikipedia.org/wiki/Guerra_da_Lagosta"
+  ],
+  "explicacoes": [
+   "Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004)."
   ]
- }
+ },
+ "variar_cenario": false
 }
