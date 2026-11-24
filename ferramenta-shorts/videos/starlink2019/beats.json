@@ -224,7 +224,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -4.6, camera a 22.2 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -4.6, camera a 22.2 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/starlink_train",

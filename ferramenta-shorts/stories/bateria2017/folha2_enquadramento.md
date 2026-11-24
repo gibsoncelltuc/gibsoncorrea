@@ -34,7 +34,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias, bem antes do prazo."
 - LOCAL: fazenda aberta; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.3 m de altura x 7.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/megapack: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.3 m de altura x 7.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

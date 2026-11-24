@@ -102,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: batalha
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +20 da cena

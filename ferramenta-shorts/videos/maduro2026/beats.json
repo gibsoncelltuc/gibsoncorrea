@@ -208,7 +208,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/helicopter_air",
