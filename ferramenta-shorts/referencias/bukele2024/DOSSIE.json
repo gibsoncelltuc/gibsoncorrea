@@ -40,7 +40,9 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/ballot_box",
+  "kit/flag_pole",
   "kit/globe",
+  "kit/prison",
   "kit/room_eua_wood",
   "kit/room_europa_shop",
   "kit/scroll",

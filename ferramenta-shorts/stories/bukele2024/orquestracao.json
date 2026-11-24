@@ -155,6 +155,7 @@
    "multidao": 30,
    "objetos": [
     "kit/ballot_box",
+    "kit/flag_pole",
     "kit/volcano"
    ],
    "palavras": 13,
@@ -199,6 +200,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/prison",
     "kit/volcano"
    ],
    "palavras": 15,

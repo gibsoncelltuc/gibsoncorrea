@@ -11,9 +11,9 @@ b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | p
 b4 | hall | crowd | 14 | reagir, batalha | - | paper | -
 b5 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box, kit/volcano | - | -
 b6 | interior loja | close | 1 | reagir | - | paper | -
-b7 | palace | orbit | 33 | comemorar, batalha | kit/ballot_box, kit/volcano | - | -
+b7 | palace | orbit | 33 | comemorar, batalha | kit/ballot_box, kit/flag_pole, kit/volcano | - | -
 b8 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/volcano | paper | -
-b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
+b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/prison, kit/volcano | - | -
 b10 | loc_pista | close | 1 | comemorar | kit/ballot_box, kit/volcano, kit/globe | - | -
 b11 | loc_campo | close | 1 | conversar | kit/volcano | - | -
 

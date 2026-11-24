@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Gerado em 24/11 03:14 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:15 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,9 +13,9 @@ b3 | simples | interior madeira | two | JUI, REP | - | scroll | - | A Constitui�
 b4 | chave | hall | crowd | REP, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Críticos e opositores disseram que a candidatura era ilegal. O governo
 b5 | simples | loc_campo | two | POV, POV | - | ballot_box, volcano | - | No dia da eleição, os salvadorenhos foram às urnas.
 b6 | simples | interior loja | close | REP | - | - | - | Acontece que o resultado impressionou: Bukele teve quase oitenta e cin
-b7 | chave | palace | orbit | BUK, POV, POV | 30 | ballot_box, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de um
+b7 | chave | palace | orbit | BUK, POV, POV | 30 | ballot_box, flag_pole, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de um
 b8 | simples | loc_campo | two | REP, BUK | - | volcano | - | O motivo mais citado pelos eleitores: a queda enorme no número de assa
-b9 | simples | loc_pista | two | REP, POV | - | volcano | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
+b9 | simples | loc_pista | two | REP, POV | - | prison, volcano | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
 b10 | simples | loc_pista | close | BUK | - | ballot_box, globe, volcano | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
 b11 | simples | loc_campo | close | BUK | - | volcano | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
