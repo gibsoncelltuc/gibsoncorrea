@@ -52,3 +52,12 @@
 ## 24/11 16:45 autocorrecao de visibilidade
 - b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
 - b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+
+## 24/11 16:46 autocorrecao de visibilidade
+- b5: objeto "cannon" saiu com 5% da altura da tela, a ficha de cena planejou 18% -> objeto trazido para perto do centro (0.0, 0.8)
+
+## 24/11 16:47 autocorrecao de visibilidade
+- b5: objeto "cannon" saiu com 5% da altura da tela, a ficha de cena planejou 18% -> objeto na frente dos personagens e maior
+
+## 24/11 16:48 autocorrecao de visibilidade
+- b5: objeto "cannon" saiu com 5% da altura da tela, a ficha de cena planejou 18% -> close no objeto

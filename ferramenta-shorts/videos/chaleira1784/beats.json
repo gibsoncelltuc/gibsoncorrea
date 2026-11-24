@@ -239,13 +239,13 @@
     [
      "cannon",
      0.0,
-     0.8,
-     2.2
+     -7.0,
+     2.6
     ],
     [
      "kit/navio_fragata",
-     12,
-     -32,
+     14,
+     -34,
      1.0
     ]
    ],
@@ -257,7 +257,7 @@
    ],
    "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
    "fachada": false,
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
@@ -277,13 +277,15 @@
     ]
    },
    "tiros": false,
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5,
+   "cx": 0,
+   "cz": -12,
+   "h": 2.2,
+   "d0": 16,
+   "d1": 12,
    "quadro_manual": true,
-   "impact": true
+   "impact": true,
+   "_auto_vis": 3,
+   "shot_lock": true
   },
   {
    "shot": "two",

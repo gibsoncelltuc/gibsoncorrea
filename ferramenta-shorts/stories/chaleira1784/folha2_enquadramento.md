@@ -42,7 +42,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente
 - PERSONAGENS: MAR na esquerda, expressao stern; MAR na direita, expressao angry; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 9.0 m de altura x 13.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 10.7 m de altura x 15.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
 - SOM: cannon@60
 
