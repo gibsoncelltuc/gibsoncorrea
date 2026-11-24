@@ -2,15 +2,17 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/kiska1943/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py kiska1943` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma ...
+## Cena b0 - Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo...
 - Cenario: harbor | luz: overcast | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 6 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (0): -
 - Animacao: conversar
 - Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alasca, aliados, grande, ilha, kiska
-- RISCOS: nenhum
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alasca, ilha
+- RISCOS: 
+  - a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta -> CORRECAO: "batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true
+  - cena longa (30 palavras, ~10 s no mesmo lugar) -> CORRECAO: dividir em duas cenas com planos diferentes
 
 ## Cena b1 - Foram mais de trinta e quatro mil soldados americanos e canadenses, co...
 - Cenario: mountain | luz: overcast | clima: limpo
@@ -116,19 +118,21 @@ dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 11% | medio 63% | aberto 22% | detalhe 4%
+- Objeto heroi: kit/dog_sit | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 10% | medio 64% | aberto 21% | detalhe 5%
 - Interacoes: b4 susto, b6 aproxima-se
 - RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - video com ~47 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - video com ~49 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - objeto heroi kit/dog_sit nao aparece em nenhuma cena -> CORRECAO: por kit/dog_sit em "props" de pelo menos uma cena (ou tirar de "herois")
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py kiska1943  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/kiska1943/moodboard.jpg
+  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 4 risco(s) em aberto
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: video com ~47 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 6 risco(s) em aberto
+- b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
+- b0: cena longa (30 palavras, ~10 s no mesmo lugar)
+- geral: video com ~49 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: objeto heroi kit/dog_sit nao aparece em nenhuma cena
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).

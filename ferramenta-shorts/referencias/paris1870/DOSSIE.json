@@ -10,7 +10,6 @@
    "arctic",
    "interior loja",
    "interior madeira",
-   "loc_campo",
    "street"
   ],
   "cenarios_trocados": []
@@ -33,6 +32,7 @@
  "objetos_em_cena": [
   "barrel",
   "buildings/house_two",
+  "buildings/shop",
   "kit/balloon",
   "kit/balloon_air",
   "kit/coin",

@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Invasão da Ilha Vazia | A Invasão da Ilha Vazia / Agosto Os Aliados Kiska Alasca Foram Antes Kiska 1943 | SEM REFERENCIA
+tema | A Invasão da Ilha Vazia | A Invasão da Ilha Vazia / Trinta Foi Kiska Alasca Foram Antes Kiska 1943 | SEM REFERENCIA
 lugar | Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim | Ilha de Kiska nas Aleutas / Ilha de Kiska nas Aleutas Alasca 1943 | SEM REFERENCIA
 lugar | Alasca | Alasca 1943 / Alasca landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1943 | 1943 fashion clothing / 1943 street photograph | SEM REFERENCIA

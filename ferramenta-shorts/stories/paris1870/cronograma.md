@@ -1,14 +1,14 @@
 # CRONOGRAMA - O Cardápio do Zoológico
 
-Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:47 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PAR, PAR | - | marco_notredame | - | Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, 
-b1 | simples | interior madeira | group | PAR, PAR | - | - | - | Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os
-b2 | simples | loc_campo | two | PAR, CHF | - | barrel | - | Depois, os roedores, que viraram um prato chique.
+b0 | simples | interior madeira | two | PAR, PAR | - | - | - | Paris já serviu elefante no jantar. Era mil oitocentos e setenta, a Pr
+b1 | simples | street | reveal | PAR, PAR | 8 | marco_notredame | - | Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os
+b2 | simples | street | two | PAR, CHF | - | barrel | - | Depois, os roedores, que viraram um prato chique.
 b3 | chave | street | crowd | PAR, PAR | 6 | house_two, marco_notredame, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Quando acabou tudo, olharam para o zoológico da cidade.
 b4 | simples | arctic | close | BUT | - | - | - | O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne 
 b5 | simples | interior loja | two | CHF, PAR | - | - | - | No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de
