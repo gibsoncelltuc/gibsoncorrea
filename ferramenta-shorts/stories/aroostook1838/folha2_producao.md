@@ -35,15 +35,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b3 - Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent...
 - Cenario: arctic | luz: day | clima: neve
 - Camera: wide = ABERTO fixo
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): AME (variante 0, expressao shout) | multidao: 12 de AME
-- Animacao: encena | batalha encenada
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): AME (variante 0, expressao shout) | multidao: 8 de AME
+- Animacao: encena
 - Objetos/modelos: nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, lenhadores, maine, terras, voluntarios
 - RISCOS: nenhum
 
 ## Cena b4 - O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma...
-- Cenario: arctic | luz: day | clima: neve
+- Cenario: loc_campo | luz: day | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 20 de MIL/ING
@@ -53,28 +53,28 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): AME (variante 0, expressao shock); CAN (variante 0, expressao smug)
-- Animacao: reagir | interacao: empurrar
+- Cenario: arctic | luz: day | clima: neve
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): AME (variante 0, expressao shock); CAN (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: reagir
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, clima, maine
 - RISCOS: nenhum
 
 ## Cena b6 - Mas ninguém queria uma guerra de verdade, então o presidente americano...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous)
-- Animacao: conversar | interacao: cochichar
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): GEN (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, presidente
 - RISCOS: nenhum
 
 ## Cena b7 - Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao smile, segura paper); PRE (variante 0, expressao relief)
 - Animacao: discutir | interacao: entregar | o ultimo personagem ENTRA andando
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/logs, pig
+- Objetos/modelos: pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco
 - RISCOS: nenhum
 
@@ -117,7 +117,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/logs | b0, b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b0, b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -127,8 +127,8 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 2 | mistura: close 9% | medio 74% | aberto 12% | detalhe 4%
-- Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
+- Objeto heroi: kit/logs | grandes momentos: b6 | planos abertos: 4 | mistura: close 9% | medio 55% | aberto 33% | detalhe 4%
+- Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b7 entregar, b8 entregar, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

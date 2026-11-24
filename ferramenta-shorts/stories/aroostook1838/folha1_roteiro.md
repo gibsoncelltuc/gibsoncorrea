@@ -36,7 +36,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito; encena: corta (hammer) @21 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.2 s)
 - Narracao: O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.
@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b6  (~5.9 s)
 - Narracao: Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito; encena: fala (point) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.5 s)
 - Narracao: Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar.

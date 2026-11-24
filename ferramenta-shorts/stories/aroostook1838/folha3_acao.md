@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.6s - 13 palavras - plano group
@@ -40,7 +40,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (21.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | lenhadores (24.0s) | ACAO: corta | machado e toras + poeira | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b4 - 26.1s a 30.3s - 15 palavras - plano wide
 > "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus."
@@ -51,7 +50,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | mandou (29.8s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | PLACA | MILÍCIA | OK |
 
-## Cena b5 - 31.3s a 35.9s - 16 palavras - plano two
+## Cena b5 - 31.3s a 35.9s - 16 palavras - plano wide
 > "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -59,21 +58,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | confusão (31.6s) | EFEITO: puff | fumaca + som | OK |
 | 2 | lenhadores (32.4s) | ACAO: corta | machado e toras + poeira | OK |
 | 3 | prenderam (33.6s) | ACAO: prende | empurra/prende | OK |
-| 4 | - | INTERACAO | empurrar | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | PRESO | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | PRESO | OK |
 
-## Cena b6 - 37.3s a 42.5s - 17 palavras - plano two
+## Cena b6 - 37.3s a 42.5s - 17 palavras - plano orbit
 > "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (41.1s) | ACAO: fala | aponta explicando | OK |
 | 2 | conversar (42.5s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b7 - 43.8s a 47.6s - 16 palavras - plano group
+## Cena b7 - 43.8s a 47.6s - 16 palavras - plano two
 > "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

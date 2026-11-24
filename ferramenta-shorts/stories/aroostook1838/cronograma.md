@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
-Gerado em 24/11 16:11 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 16:52 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,13 +9,13 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | arctic | group | AME, CAN | - | logs, tree_pine | - | Uma guerra entre Estados Unidos e Inglaterra quase começou por causa d
 b1 | simples | arctic | two | AME, CAN | - | - | - | Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine
 b2 | simples | arctic | group | AME, CAN | - | logs, bush, tree_oak, tree_pine | - | Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árv
-b3 | chave | arctic | wide | AME | 12 | tree_pine | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent
-b4 | simples | arctic | wide | MIL, ING | 48 | - | - | O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma
-b5 | simples | interior pedra | two | AME, CAN | - | prison | - | Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main
-b6 | simples | interior madeira | two | GEN, MIL | - | - | - | Mas ninguém queria uma guerra de verdade, então o presidente americano
-b7 | simples | interior madeira | group | GEN, PRE | - | - | - | Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar
+b3 | simples | arctic | wide | AME | 8 | tree_pine | - | Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent
+b4 | simples | loc_campo | wide | MIL, ING | 48 | - | - | O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma
+b5 | simples | arctic | wide | AME, CAN | - | prison | - | Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main
+b6 | chave | interior madeira | orbit | GEN | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas ninguém queria uma guerra de verdade, então o presidente americano
+b7 | simples | interior madeira | two | GEN, PRE | - | - | - | Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar
 b8 | simples | interior pedra | two | PRE, PRE | - | scroll | - | Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton defin
-b9 | simples | interior loja | two | AME, AME | - | logs | - | Ficou conhecida até como a Guerra do Porco com Feijão.
+b9 | simples | interior loja | two | AME, AME | - | - | - | Ficou conhecida até como a Guerra do Porco com Feijão.
 b10 | simples | interior loja | close | AME | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
@@ -34,7 +34,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh aroostook1838
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local aroostook1838 <mp4>
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local aroostook1838 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
 **Etapa atual:** 9. Revisao escrita e aprovacao

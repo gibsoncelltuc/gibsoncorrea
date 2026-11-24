@@ -70,9 +70,12 @@
    "props": [
     [
      "kit/logs",
-     0.3,
-     2.2,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ],
     [
      "nature/tree_pine",
@@ -106,7 +109,19 @@
    },
    "impact": false,
    "clima": "neve",
-   "shot_lock": true
+   "shot_lock": true,
+   "quadro": {
+    "objeto": "kit/logs",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.7 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -135,9 +150,12 @@
    "props": [
     [
      "kit/logs",
-     1.2,
-     0.6,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ],
     [
      "nature/tree_pine",
@@ -155,7 +173,19 @@
    "verbos_ok": [
     "cort"
    ],
-   "clima": "neve"
+   "clima": "neve",
+   "quadro": {
+    "objeto": "kit/logs",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.7 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -188,23 +218,20 @@
    "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 12,
+    "n": 8,
     "outfits": [
      "AME"
     ],
-    "march": true,
+    "march": false,
     "expr": "angry"
    },
-   "impact": true,
+   "impact": false,
    "clima": "neve",
-   "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "detalhe": false
   },
   {
    "shot": "wide",
-   "set": "arctic",
+   "set": "loc_campo",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -228,33 +255,60 @@
    "clima": "neve"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "AME:0:shock",
     "CAN:0:smug"
    ],
    "interacao": "empurrar",
    "say": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
-   "interior": "pedra",
    "props": [
     [
      "kit/prison",
      0.0,
-     -2.5,
-     1.0
+     -16.4,
+     2.65,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "text": "PRESO"
+   "text": "PRESO",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "arctic",
+   "clima": "neve",
+   "quadro": {
+    "objeto": "kit/prison",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~14.8 m de altura e 35.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~7% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -7.4, distancia 42.0 m), sem multidao na frente"
+   },
+   "cx": 0.0,
+   "cz": -7.4,
+   "h": 5.2,
+   "d0": 44.1,
+   "d1": 42.0
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "GEN:0:stern",
-    "MIL:0:nervous"
+    "GEN:0:stern"
    ],
    "interacao": "cochichar",
    "say": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.",
-   "interior": "madeira"
+   "interior": "madeira",
+   "crowd": {
+    "n": 0
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -283,14 +337,7 @@
     "AME:0:smile",
     "AME:1:grin"
    ],
-   "props": [
-    [
-     "kit/logs",
-     -1.6,
-     0.2,
-     1.0
-    ]
-   ],
+   "props": [],
    "say": "Ficou conhecida até como a Guerra do Porco com Feijão.",
    "animals": [
     [
@@ -302,7 +349,8 @@
     ]
    ],
    "fachada": false,
-   "interior": "loja"
+   "interior": "loja",
+   "objetos": false
   }
  ],
  "regiao": "eua",

@@ -73,22 +73,16 @@
    "personagens": [
     "AME"
    ],
-   "multidao": 12,
+   "multidao": 8,
    "objetos": [
     "nature/tree_pine"
    ],
    "palavras": 25,
    "cena": "b3",
    "frase": "Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agente de terras com voluntários para prender os lenhadores de New Brunswick.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },
@@ -107,10 +101,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "AME",
     "CAN"
@@ -126,27 +120,32 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
-    "GEN",
-    "MIL"
+    "GEN"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 17,
    "cena": "b6",
    "frase": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "GEN",
     "PRE"
@@ -188,9 +187,7 @@
     "AME"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/logs"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b9",
    "frase": "Ficou conhecida até como a Guerra do Porco com Feijão.",
