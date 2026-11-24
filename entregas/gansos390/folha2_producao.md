@@ -4,9 +4,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um bando de gansos barulhentos salvou Roma numa só noite.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 0, expressao nervous)
+- Personagens principais (1): ROM (variante 2, expressao shock)
 - Animacao: reagir
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bando, gansos
@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Os romanos que sobraram se trancaram no Capitólio, uma colina fortific...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained); MAN (variante 0, expressao stern)
-- Animacao: reagir | interacao: susto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained) | multidao: 0 de 
+- Animacao: reagir
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitolio, colina, romanos
 - RISCOS: nenhum
@@ -46,9 +46,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): GAU (variante 0, expressao stern) | multidao: 6 de GAU
-- Animacao: -
-- Objetos/modelos: -
+- Personagens principais (2): GAU (variante 0, expressao stern); ROM (variante 0, expressao tired) | multidao: 5 de GAU
+- Animacao: escala
+- Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guardas
 - RISCOS: nenhum
 
@@ -62,16 +62,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): asas, bater, deusa, gansos, gritar
 - RISCOS: nenhum
 
-## Cena b6 - O barulho acordou o soldado Marco Mânlio, que correu até a muralha e i...
+## Cena b6 - O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impe...
 - Cenario: loc_campo | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): GAU (variante 0, expressao scared); MAN (variante 0, expressao angry)
-- Animacao: tomba | interacao: cochichar
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): GAU (variante 0, expressao scared); MAN (variante 0, expressao angry) | multidao: 0 de 
+- Animacao: tomba
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, gauleses, muralha, soldado, subida
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+- RISCOS: nenhum
 
 ## Cena b7 - A subida fracassou, mas os gauleses mantiveram o cerco.
 - Cenario: loc_campo | luz: noite | clima: limpo
@@ -95,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 0, expressao smile)
 - Animacao: encena
 - Objetos/modelos: goose
@@ -107,7 +106,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 0, expressao grin)
+- Personagens principais (1): ROM (variante 2, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
@@ -120,16 +119,15 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 goose | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b2, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3 | planos abertos: 6 | mistura: close 10% | medio 46% | aberto 42% | detalhe 2%
-- Interacoes: b2 susto, b6 cochichar, b8 entregar
+- Objeto heroi: - | grandes momentos: b3 | planos abertos: 7 | mistura: close 10% | medio 37% | aberto 53% | detalhe 0%
+- Interacoes: b8 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b6: a narracao fala de FUGA/CORRERIA e ninguem corre
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh gansos390 bN bM` (so essas cenas).

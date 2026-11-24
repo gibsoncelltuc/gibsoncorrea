@@ -1,26 +1,26 @@
-f0: OK - um bando de gansos barulhentos salvou Roma numa so noite: um romano de tunica clara e faixa vermelha ao lado de um ganso branco numa praca de pedra de Roma, com templo ao fundo.
-f1: OK - em trezentos e noventa antes de Cristo: mapa da Italia com o pino em Roma.
-f2: OK - os gauleses de Breno tomaram Roma e queimaram quase tudo: gauleses azuis de cabelo ruivo diante de chamas, com o texto 390 a.C.
-f3: OK - os romanos que sobraram se trancaram no Capitolio: tres romanos de elmo diante da casa de pedra com o texto CAPITOLIO.
-f4: OK - uma colina fortificada: romanos de elmo diante da casa de pedra e das rochas, com o texto CAPITOLIO.
-f5: OK - os gauleses cercaram a colina: romano e gaules ruivo de azul na colina de pedras, de lados opostos.
-f6: OK - e a fome apertou os dois lados: romano e gaules de azul na colina, com estrelinhas de cansaco.
-f7: OK - numa noite sem lua: gaules de cabelo ruivo sozinho em campo escuro sob o ceu estrelado.
-f8: OK - eles tentaram escalar em silencio: o gaules ruivo de pe, serio, com outro gaules entrando no quadro, de noite.
-f9: OK - e os guardas nao ouviram nada: o gaules ruivo de cabeca baixa em campo escuro.
-f10: OK - acontece que os gansos sagrados da deusa Juno ouviram: tres gansos juntos diante de um romano assustado com o texto JUNO, de noite.
-f11: OK - e comecaram a gritar e a bater as asas: os tres gansos com o romano de bracos erguidos e o texto JUNO.
-f12: OK - o barulho acordou o soldado Marco Manlio: os gansos ao fundo e o romano de elmo acordando ao lado do gaules ruivo, de noite.
-f13: CORRIGIDO - que correu ate a muralha e impediu a subida dos gauleses: antes Manlio e o gaules so andavam lado a lado diante de uma casa e nada impedia ninguem -> agora o gaules tomba e sai do quadro diante de Manlio de pe, de noite no campo, com uma torre ao fundo (o motor so tem esse modelo de torre; nao ha muralha de verdade).
-f14: OK - a subida fracassou: romanos de elmo de pe, serios, de noite.
-f15: OK - mas os gauleses mantiveram o cerco: fileira de gauleses pequenos ao fundo no campo escuro.
-f16: OK - no fim: romano de tunica clara e gaules ruivo diante da placa 1.000 LIBRAS.
-f17: OK - depois de sete meses com fome: os dois diante da placa 1.000 LIBRAS, o romano de boca aberta.
-f18: OK - Roma pagou mil libras de ouro: romano com moeda na mao e gaules ruivo com moeda, diante da placa 1.000 LIBRAS.
-f19: OK - e os gauleses foram embora: gaules ruivo com a moeda e o romano se afastando ao lado, sob a placa 1.000 LIBRAS.
-f20: OK - os gansos salvaram a colina: romano e um ganso branco na praca de pedra de Roma, com casas e templo ao fundo.
-f21: OK - mas o ouro foi embora do mesmo jeito: romano de tunica clara e ganso com uma moeda dourada voando e estrelas.
-f22: OK - agora nao deixe de comentar: romano sorrindo com o texto COMENTE diante de uma casa de Roma.
-f23: OK - qual deve ser o tema do proximo video: romano sorrindo para a camera com o texto COMENTE.
-gancho: um romano ao lado de um ganso branco numa praca de Roma logo no primeiro quadro, com a frase de que um bando de gansos barulhentos salvou Roma numa so noite.
-piloto: comparado ao Roadster EP25, tem gancho curto, virada Acontece que no meio e final ironico; o impacto visual e menor (sem veiculo nem efeito grande); pontos fracos: a muralha do Capitolio e so uma torre/casa do motor e a pesquisa visual trouxe poucos prints uteis.
+f0: OK - cinco gansos juntos no centro, romano inteiro, templo ao fundo - frase 'Um bando de gansos barulhentos salvou Roma numa so noite'
+f1: OK - mapa de Roma - frase 'Em trezentos e noventa antes de Cristo'
+f2: OK - gauleses diante das chamas, 390 a.C. - frase 'os gauleses de Breno tomaram Roma e queimaram quase tudo'
+f3: OK - romanos diante da casa de pedra, texto CAPITOLIO - frase 'Os romanos que sobraram se trancaram no Capitolio'
+f4: OK - colina fortificada - frase 'uma colina fortificada'
+f5: OK - gaules cerca a colina - frase 'Os gauleses cercaram a colina'
+f6: OK - fome, romano e gaules na colina - frase 'e a fome apertou os dois lados'
+f7: OK - noite, gauleses azuis diante da muralha - frase 'Numa noite sem lua'
+f8: OK PARCIAL - gauleses diante da muralha; a ferramenta nao tem animacao de escalar (CAPACIDADES), so' bracos para cima - frase 'eles tentaram escalar em silencio'
+f9: OK - guarda romano ao lado, noite - frase 'e os guardas nao ouviram nada'
+f10: OK - tres gansos e romano assustado, JUNO - frase 'Acontece que os gansos sagrados da deusa Juno ouviram'
+f11: OK - gansos gritando - frase 'e comecaram a gritar e a bater as asas'
+f12: OK - Manlio acordando diante da muralha - frase 'O barulho acordou o soldado Marco Manlio'
+f13: OK PARCIAL - Manlio e gaules diante da muralha; empurrao e queda nao aparecem neste trecho - frase 'que foi ate a muralha e impediu a subida dos gauleses'
+f14: OK - romano irritado - frase 'A subida fracassou'
+f15: OK - romanos em bloco de noite - frase 'mas os gauleses mantiveram o cerco'
+f16: OK - placa 1.000 LIBRAS - frase 'No fim'
+f17: OK - sete meses, expressao cansada - frase 'depois de sete meses com fome'
+f18: OK - moedas, mil libras - frase 'Roma pagou mil libras de ouro'
+f19: OK - gaules saindo - frase 'e os gauleses foram embora'
+f20: OK - gansos e templo - frase 'Os gansos salvaram a colina'
+f21: OK - ouro e ganso - frase 'mas o ouro foi embora do mesmo jeito'
+f22: OK - COMENTE - frase 'Agora nao deixe de comentar'
+f23: OK - COMENTE - frase 'qual deve ser o tema do proximo video'
+gancho: bando de cinco gansos gritando em primeiro plano com templo ao fundo, impacto visual imediato, ninguem cortado.
+piloto: comparado ao Roadster EP25 o gancho e a virada dos gansos estao no nivel; escalada e queda do gaules na muralha ficam abaixo (limite do motor: sem animacao de escalar).
