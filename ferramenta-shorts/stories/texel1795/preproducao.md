@@ -13,7 +13,7 @@ b5 | arctic | two | 2 | conversar, INTERAGEM: aproxima-se | horse | - | -
 b6 | arctic | low | 1 | reagir | horse | - | -
 b7 | arctic | two | 2 | encena, andando, batalha | horse | - | -
 b8 | arctic | group | 12 | reagir, INTERAGEM: avanca e o outro recua, batalha | ship | - | -
-b9 | arctic | crowd | 2 | batalha | ship, horse | - | -
+b9 | arctic | crowd | 2 | batalha | ship, horse_sela | - | -
 b10 | arctic | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)

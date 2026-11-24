@@ -256,7 +256,7 @@
    "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria."
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "GOV:0:shock:coin",
     "MIC:0:grin"
@@ -267,7 +267,7 @@
     [
      "kit/minerio",
      0.0,
-     1.2,
+     0.4,
      1.6,
      {
       "fixo": true
@@ -277,7 +277,8 @@
    "text": "COBRE E FERRO",
    "tat": 6,
    "tstyle": "gold",
-   "titulo": true
+   "titulo": true,
+   "detalhe": false
   },
   {
    "shot": "close",
