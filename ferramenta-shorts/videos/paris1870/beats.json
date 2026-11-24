@@ -181,7 +181,7 @@
   },
   {
    "say": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
-   "shot": "prop",
+   "shot": "two",
    "who": [
     "CHF:0:grin",
     "PAR:2:shock"
@@ -195,14 +195,8 @@
    "props": [
     [
      "kit/panela",
-     0.9,
-     -0.4,
-     1.0
-    ],
-    [
-     "kit/panela",
      0.0,
-     1.2,
+     1.4,
      1.3,
      {
       "fixo": true
@@ -210,7 +204,8 @@
     ]
    ],
    "animais": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "detalhe": true
   },
   {
    "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",

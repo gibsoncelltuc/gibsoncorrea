@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de...
 - Cenario: interior loja | luz: day | clima: neve
-- Camera: prop = -
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/panela
@@ -141,13 +141,11 @@ kit/balloon | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/panela | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 12% | medio 76% | aberto 13% | detalhe 0%
+- Objeto heroi: kit/panela | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 12% | medio 73% | aberto 13% | detalhe 3%
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b7 vai ate o outro, b9 cochichar, b10 insiste
-- RISCOS GERAIS: 
-  - objeto heroi (kit/panela) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/panela) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).

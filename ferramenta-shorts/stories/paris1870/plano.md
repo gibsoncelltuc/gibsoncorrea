@@ -8,12 +8,12 @@ b2 | two | -  | animais, placa: CAVALOS, CÃES, GATOS | cavalaria: 2 soldados a 
 b3 | group | - neve | placa: RATOS | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, animais | encena: olha (point) @3 (acao + som de efeito) | -
 b5 | two | - neve | animais, placa: CASTOR E PÓLUX | comprou (stars + som de sino); vendeu (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito); encena: negocio (reach) @9 (acao + som de efeito) | -
-b6 | prop | - neve | interior, placa: NATAL DE 1870 | - | -
+b6 | two | - neve | interior, placa: NATAL DE 1870 | - | -
 b7 | group | - neve | placa: BALÕES E POMBOS | encena: fala (point) @1 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa | chegou (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito); encena: corre @4 (acao + som de efeito) | -
 b9 | two | - neve | - | - | -
 b10 | group | dusk neve | placa: PARIS SE RENDEU | encena: rende (up) @15 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 76% | aberto 13% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 12% | medio 73% | aberto 13% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

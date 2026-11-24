@@ -64,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | PLACA | CASTOR E PÓLUX | OK |
 
-## Cena b6 - 30.1s a 35.3s - 16 palavras - plano prop
+## Cena b6 - 30.1s a 35.3s - 16 palavras - plano two
 > "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

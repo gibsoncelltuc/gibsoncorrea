@@ -10,7 +10,7 @@ b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | dog, cat 
 b3 | street | group | 2 | reagir, INTERAGEM: tremem de frio | barrel, kit/panela | - | -
 b4 | arctic | crowd | 8 | reagir, batalha | buildings/house_two, nature/lamppost, elephant, deer | - | -
 b5 | arctic | two | 2 | conversar, INTERAGEM: discutir | elephant | - | -
-b6 | interior loja | prop | 2 | conversar, INTERAGEM: o outro se aproxima | kit/panela | - | -
+b6 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/panela | - | -
 b7 | arctic | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/balloon_air, kit/balloon | - | -
 b8 | arctic | crowd | 20 | reagir, batalha | kit/balloon_air, kit/balloon, buildings/house_two, nature/lamppost | - | -
 b9 | arctic | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
