@@ -70,3 +70,8 @@ Ordem do Gibson (24/11): as sessões de produção têm de pensar, agir e **olha
 - `defeitos procurados: …` — respondendo, com o que viu: **cenario, epoca, tamanho, cortado, multidao, legenda, acao, objeto**.
 
 Sem essas duas linhas `./aprovar_storyboard.sh` recusa.
+
+## Conferencia FRASE A FRASE (24/11, obrigatoria antes de mandar o mp4)
+`bash frase_a_frase.sh <seu-branch> <id> <caminho do mp4> /tmp/ff.jpg` e abra /tmp/ff.jpg: um quadro no meio de cada frase, com a frase escrita embaixo.
+Para cada frase pergunte: a imagem mostra o que a narracao diz? (papa -> tem papa; muros -> tem muralha; sacada -> tem sacada; presos -> tem gente sendo presa).
+Frase que nao aparece na tela = defeito: refaca a cena (./refazer.sh <id> bN) antes de mandar.
