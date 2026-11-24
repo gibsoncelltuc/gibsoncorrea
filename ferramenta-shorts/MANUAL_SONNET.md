@@ -5,8 +5,8 @@ Escrito em 19/11 à noite, na troca de modelo pedida pelo Gibson. Leia INTEIRO a
 | Sessão | Branch | Fila | Papel |
 |---|---|---|---|
 | PRINCIPAL (session_01HE8Dy3UcXXZZMLa7uzjNJD) | claude/bold-sagan-dskrsj | `queue.txt` | produz vídeos, mantém a FERRAMENTA (motor), AUDITA as sessões A/B, entrega TODOS os vídeos ao Gibson pelo chat |
-| A (session_01HE8Dy3Tz5Mgz6d3rSUrMHS) | claude/prod-a-karansebes | `fila_sessao_A.txt` | só produz vídeos e envia à principal |
-| B (session_01HE8DxzBrskhVHznwqCpD4i) | claude/prod-b-emus | `fila_sessao_B.txt` | só produz vídeos e envia à principal |
+| A (session_01HE8Dy2wiQov2uhW6ZYikBX) | claude/prod-a2 | `fila_sessao_A.txt` | só produz vídeos e envia à principal |
+| B (session_01HE8Dy2XpEMgdYAHCmWZFay) | claude/prod-b2 | `fila_sessao_B.txt` | só produz vídeos e envia à principal |
 
 Sessões A/B NÃO mexem no motor (`web/`, `mkvideo.py`, `blender/`): pegam as correções sozinhas pelo `sync_ferramenta.sh` (a cada 1 min). Se acharem defeito do motor, corrigem o ROTEIRO (`videos/<id>/beats.json`) e avisam a principal no relatório da entrega.
 

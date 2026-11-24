@@ -3,8 +3,8 @@
 # Reprovado: deixe a linha "id sha" em logs/recebidos.txt (o mesmo arquivo nao volta); versao corrigida tem outro sha e chega como NOVO.
 # Lista na saida os arquivos novos (a principal OLHA a folha de contato e manda pelo chat). Ja recebidos ficam em logs/recebidos.txt.
 cd "$(dirname "$0")/.."; R=ferramenta-shorts/logs/recebidos.txt; touch $R
-git fetch -q --depth=1 origin claude/prod-a-karansebes claude/prod-b-emus   # so a ponta (disco: o historico dos pedacos de mp4 nao vem)
-for BR in claude/prod-a-karansebes claude/prod-b-emus; do
+git fetch -q --depth=1 origin claude/prod-a2 claude/prod-b2   # so a ponta (disco: o historico dos pedacos de mp4 nao vem)
+for BR in claude/prod-a2 claude/prod-b2; do
   for nf in $(git ls-tree -r --name-only origin/$BR entregas | grep '/mp4.nome$'); do
     d=$(dirname $nf); id=$(basename $d); sha=$(git show origin/$BR:$d/mp4.sha256 2>/dev/null)
     grep -q "^$id $sha$" $R && continue
