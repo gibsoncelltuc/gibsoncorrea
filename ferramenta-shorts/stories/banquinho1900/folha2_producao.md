@@ -124,11 +124,9 @@ buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; s
 ## Video inteiro
 - Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 9% | medio 72% | aberto 13% | detalhe 6%
 - Interacoes: b0 discutir, b2 o outro se aproxima, b3 empurrar, b4 susto, b7 entregar, b8 cochichar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'countryside': 6, 'jungle': 2, 'interior madeira': 1, 'interior pedra': 1, 'interior loja': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'countryside': 6, 'jungle': 2, 'interior madeira': 1, 'interior pedra': 1, 'interior loja': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh banquinho1900 bN bM` (so essas cenas).

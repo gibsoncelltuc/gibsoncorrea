@@ -9,8 +9,8 @@ b3 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega 
 b4 | two | -  | objeto na mao | - | -
 b5 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @6 (acao + som de efeito) | -
 b6 | two | -  | objeto na mao | - | -
-b7 | two | -  | - | encena: chega (point) @5 (acao + som de efeito); encena: x_entrega (reach) @8 (acao + som de efeito) | -
-b8 | group | -  | - | - | -
+b7 | group | -  | - | encena: chega (point) @5 (acao + som de efeito); encena: x_entrega (reach) @8 (acao + som de efeito) | -
+b8 | two | -  | - | - | -
 b9 | two | -  | interior, objeto na mao | encena: x_entrega (reach) @8 (acao + som de efeito) | -
 b10 | close | -  | interior | - | -
 b11 | two | -  | interior, placa: COMENTE! | - | -
