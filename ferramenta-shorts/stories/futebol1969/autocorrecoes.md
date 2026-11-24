@@ -41,3 +41,6 @@
 
 ## 24/11 20:39 autocorrecao de visibilidade
 - b6: objeto citado "kit/trave" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 24/11 20:41 autocorrecao de visibilidade
+- b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
