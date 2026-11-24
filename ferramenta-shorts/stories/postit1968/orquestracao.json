@@ -30,26 +30,21 @@
    "cenario": "street"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "POV"
+    "POV",
+    "SIL"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [],
    "palavras": 12,
    "cena": "b1",
    "frase": "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior galpao"
   },
   {
    "camera": "two",
@@ -139,7 +134,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "FRY"
    ],
@@ -150,9 +145,15 @@
    "palavras": 16,
    "cena": "b7",
    "frase": "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "countryside"
   },

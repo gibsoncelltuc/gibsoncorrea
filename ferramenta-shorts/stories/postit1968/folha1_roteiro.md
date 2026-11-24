@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~4.1 s)
 - Narracao: Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~2.4 s)
 - Narracao: Spencer Silver tentava criar uma super cola.
@@ -67,12 +67,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~5.5 s)
 - Narracao: Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.
-- Som ambiente: birds
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, sting@40
 - Efeito + som nas palavras-chave: encena: pensa (think) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.5 s)
 - Narracao: O papel saiu amarelo por acaso: era o único de rascunho à mão.

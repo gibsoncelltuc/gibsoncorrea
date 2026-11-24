@@ -1,19 +1,19 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Gerado em 24/11 18:27 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 18:29 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | SIL, CHE | - | globe, postit | - | Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no
-b1 | chave | street | wide | POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.
+b1 | simples | interior galpao | two | POV, SIL | - | - | - | Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.
 b2 | simples | interior madeira | two | SIL | - | - | - | Spencer Silver tentava criar uma super cola.
 b3 | simples | interior madeira | group | SIL, CHE | - | - | - | Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil
 b4 | simples | interior madeira | two | CHE, SIL | - | - | - | Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo
 b5 | simples | interior pedra | group | FRY, PAD, POV | 4 | - | - | Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igre
 b6 | simples | interior pedra | two | FRY, PAD | - | postit | - | Os papeizinhos que marcavam o hinário viviam caindo.
-b7 | simples | countryside | orbit | FRY | 6 | postit | - | Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem
+b7 | chave | countryside | crowd | FRY | 6 | postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem
 b8 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/postit (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | O papel saiu amarelo por acaso: era o único de rascunho à mão.
 b9 | chave | street | crowd | FRY | 18 | postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Então distribuíram amostras de graça para vários escritórios, e quase 
 b10 | simples | countryside | two | SIL, CHE | - | postit | - | Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma c
