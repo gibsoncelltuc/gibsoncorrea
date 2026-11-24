@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 
 ## Cena b3  (~4.5 s)
 - Narracao: As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.
-- Som ambiente: sea
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: splash@30
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
 - Efeito visual marcado: splash@30, puff@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Texto na tela: TOMBOU
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.5 s)
 - Narracao: Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
@@ -67,12 +67,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 
 ## Cena b7  (~3.1 s)
 - Narracao: E pousou inteira, abrindo as pernas no último segundo.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, thump@60
 - Efeito + som nas palavras-chave: encena: x_desce (point) @1 -> acao + som de efeito; encena: x_abre (push) @3 -> acao + som de efeito
 - Efeito visual marcado: puff@60, dust@60
 - Texto na tela: POUSOU!
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~2.8 s)
 - Narracao: Os funcionários da SpaceX comemoraram e se abraçaram.

@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ALM (variante 0, expressao stern, segura paper) | multidao: 0 de 
-- Animacao: encena
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/navio_vapor, kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, nove, palacio, ultimato
 - RISCOS: nenhum
@@ -54,7 +54,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que, às nove e dois, os navios ingleses abriram fogo.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (0): - | multidao: 0 de 
 - Animacao: - | batalha encenada
@@ -62,54 +62,54 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, nove
 - RISCOS: nenhum
 
-## Cena b6 - O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira ...
+## Cena b6 - O palácio pegou fogo, e a artilharia do sultão foi calada.
 - Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (0): - | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, bandeira, palacio, sultao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, palacio, sultao
 - RISCOS: nenhum
 
 ## Cena b7 - O sultão foi pedir abrigo no consulado da Alemanha.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SUL (variante 0, expressao shock); ALM (variante 0, expressao smile) | multidao: 0 de 
-- Animacao: discutir | batalha encenada
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): SUL (variante 0, expressao scared) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, consulado, sultao
 - RISCOS: nenhum
 
 ## Cena b8 - Por volta das nove e quarenta, a bandeira do palácio caiu.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: war/flagpole
+- Objetos/modelos: kit/forte_colonial, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, nove, palacio
 - RISCOS: nenhum
 
-## Cena b9 - Os ingleses colocaram outro sultão no trono, e os aliados do primo pag...
+## Cena b9 - Os ingleses colocaram outro sultão no trono.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): SUL (variante 0, expressao smile); ING2 (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: conversar | interacao: entregar
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/throne
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aliados, ingleses, primo, trono
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
 - RISCOS: nenhum
 
-## Cena b10 - E ainda mandaram a conta das balas.
+## Cena b10 - E ainda mandaram a conta das balas para os derrotados.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ALM (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, derrotados
 - RISCOS: nenhum
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -132,12 +132,13 @@ kit/throne | b2, b9 | pronto | conferir na folha de contato se le bem; se parece
 kit/navio_vapor | b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vapor_guerra | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/forte_colonial | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b5, b7 | planos abertos: 5 | mistura: close 16% | medio 56% | aberto 25% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b8 insiste, b9 entregar
+- Objeto heroi: kit/navio_vapor | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 19% | medio 59% | aberto 19% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b8 insiste, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

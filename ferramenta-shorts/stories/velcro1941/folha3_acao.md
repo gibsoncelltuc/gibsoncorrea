@@ -65,7 +65,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | ideia (33.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 4 | Levou (33.7s) | ACAO: pega | levanta/segura | OK |
 | 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 7 | - | ATUACAO | discutir | OK |
 
 ## Cena b7 - 37.4s a 42.2s - 14 palavras - plano two
@@ -84,7 +84,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | VELCRO | OK |
 
 ## Cena b9 - 47.8s a 53.0s - 15 palavras - plano two

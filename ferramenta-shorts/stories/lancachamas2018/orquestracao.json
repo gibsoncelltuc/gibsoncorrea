@@ -187,7 +187,8 @@
    "multidao": 0,
    "objetos": [
     "kit/fire",
-    "kit/flamethrower"
+    "kit/flamethrower",
+    "kit/phone"
    ],
    "palavras": 10,
    "cena": "b8",

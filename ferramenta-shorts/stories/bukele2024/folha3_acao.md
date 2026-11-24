@@ -43,10 +43,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (7.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (7.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | prometendo (9.1s) | ACAO: fala | aponta explicando | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | chegou (9.3s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegou (9.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | prometendo (10.4s) | ACAO: fala | aponta explicando | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
@@ -132,7 +132,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | lotaram (33.6s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | comemorou (35.7s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 

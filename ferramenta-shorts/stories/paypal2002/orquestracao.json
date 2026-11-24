@@ -39,7 +39,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/coin"
+    "kit/coin",
+    "kit/tv"
    ],
    "palavras": 15,
    "cena": "b0",
@@ -142,7 +143,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -153,6 +154,24 @@
    "palavras": 14,
    "cena": "b6",
    "frase": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -166,24 +185,6 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/roadster"
-   ],
-   "palavras": 17,
-   "cena": "b7",
-   "frase": "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
    "camera": "two",
    "personagens": [
     "MUS",
@@ -193,6 +194,7 @@
    "objetos": [
     "kit/coin",
     "kit/falcon9_land",
+    "kit/phone",
     "kit/roadster"
    ],
    "palavras": 13,

@@ -161,25 +161,31 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "BUK"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "kit/bitcoin"
    ],
    "palavras": 16,
    "cena": "b7",
    "frase": "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "ENA",
     "ENG"
@@ -199,7 +205,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "POV"
    ],
@@ -214,15 +220,9 @@
    "palavras": 16,
    "cena": "b9",
    "frase": "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },

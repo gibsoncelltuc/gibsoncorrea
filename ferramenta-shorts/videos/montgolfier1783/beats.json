@@ -288,7 +288,7 @@
    "who": [
     "REI:0:smile"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 16,
@@ -455,7 +455,7 @@
    "who": [
     "POV:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {

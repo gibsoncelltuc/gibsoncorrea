@@ -25,9 +25,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | protestaram (8.2s) | ACAO: protesto | punho para cima (protesto) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-<!-- FISICA -->
+| 1 | protestaram (9.6s) | ACAO: protesto | punho para cima (protesto) | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: protesto na palavra protestaram (8.2s): executa: punho para cima (protesto)
@@ -56,8 +55,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | trocou (14.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | trocou (15.9s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | O DITADOR MAIS LEGAL DO MUNDO | OK |

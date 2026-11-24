@@ -63,16 +63,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: encena: x_abre (push) @7 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: MENTE
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.5 s)
 - Narracao: Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito; encena: pensa (think) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~7.9 s)
 - Narracao: Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o corpo do pescoço para baixo, jogou xadrez só pensando.

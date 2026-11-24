@@ -32,10 +32,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | calcularam (11.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | perder (14.1s) | EFEITO: dust | poeira + som | OK |
-| 3 | perder (14.1s) | ACAO: perde | mao na testa | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | calcularam (13.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | perder (14.4s) | EFEITO: dust | poeira + som | OK |
+| 3 | perder (14.4s) | ACAO: perde | mao na testa | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | PLACA | 50 MILHÕES | OK |
 <!-- FISICA -->
 
@@ -68,7 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | 55 DIAS | OK |
 <!-- FISICA -->
 

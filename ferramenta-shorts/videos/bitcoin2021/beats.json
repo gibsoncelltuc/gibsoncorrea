@@ -121,6 +121,17 @@
     "DEP:1:grin",
     "BUK:0:smile"
    ],
+   "props": [
+    [
+     "kit/bitcoin",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
    "tiros": false,
    "batalha": false,
    "impact": false,
@@ -139,7 +150,6 @@
     "expr": "smile"
    },
    "text": "LEI APROVADA",
-   "titulo": true,
    "set": "loc_cidade"
   },
   {
@@ -269,7 +279,8 @@
      }
     ]
    ],
-   "titulo": true
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",

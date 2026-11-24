@@ -35,9 +35,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b3 - A lei passou a valer em sete de setembro, e o país foi o primeiro do m...
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 8 de POV/CLI/DEP
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, setembro, valer
 - RISCOS: nenhum
@@ -56,8 +56,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): CLI (variante 0, expressao surprised, segura phone); POV (variante 0, expressao shock) | multidao: 10 de POV
-- Animacao: reagir | interacao: susto | batalha encenada
+- Personagens principais (1): CLI (variante 0, expressao surprised) | multidao: 10 de POV
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aplicativo, lancamento
 - RISCOS: nenhum
@@ -117,8 +117,9 @@ kit/coin | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer 
 
 ## Video inteiro
 - Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 11% | medio 72% | aberto 17% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b5 susto, b6 discutir, b8 vai ate o outro
-- RISCOS GERAIS: nenhum
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bitcoin2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bitcoin2021/moodboard.jpg
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 

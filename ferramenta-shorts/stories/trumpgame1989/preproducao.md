@@ -5,19 +5,19 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/boardgame, kit/marco_liberdade | - | -
-b1 | loc_cidade | reveal | 8 | parados (so fala e pisca) | kit/marco_liberdade | - | -
+b1 | loc_cidade | crowd | 8 | batalha | kit/marco_liberdade | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame | paper | -
 b3 | interior loja | close | 1 | comemorar | kit/boardgame | - | -
 b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/boardgame | paper | -
-b5 | loc_cidade | crowd | 33 | encena, batalha | kit/marco_liberdade | - | -
+b5 | loc_cidade | crowd | 33 | encena | kit/marco_liberdade | - | -
 b6 | loc_pista | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame | - | -
 b7 | loc_cidade | crowd | 21 | comemorar, batalha | kit/boardgame, kit/marco_liberdade | - | -
 b8 | loc_pista | two | 1 | comemorar | kit/boardgame | - | -
 b9 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/boardgame
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b7
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b7
 Interacoes entre personagens: b0 o outro se aproxima, b2 entregar, b4 discutir, b6 entregar
 
-Cenas com personagens parados: 1 de 10
+Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

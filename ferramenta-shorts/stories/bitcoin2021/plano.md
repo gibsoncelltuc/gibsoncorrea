@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | encena: pensa (think) @9 (acao + som de efeito)
 b2 | group | -  | tropa, placa: LEI APROVADA | encena: fala (point) @1 (acao + som de efeito) | -
 b3 | reveal | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO | - | -
 b4 | two | -  | tropa, placa: US$ 30, objeto na mao | encena: fala (point) @1 (acao + som de efeito); encena: fala (point) @6 (acao + som de efeito) | -
-b5 | two | -  | batalha aberta com tiros, tropa, placa: FORA DO AR, objeto na mao | - | -
+b5 | two | -  | batalha aberta com tiros, tropa, placa: FORA DO AR | - | -
 b6 | group | -  | placa: 68% DISCORDAM | encena: fala (point) @5 (acao + som de efeito) | -
 b7 | orbit | -  | tropa | encena: paga (reach) @3 (acao + som de efeito); encena: vira (up) @5 (acao + som de efeito) | -
 b8 | group | -  | - | encena: paga (reach) @1 (acao + som de efeito) | -

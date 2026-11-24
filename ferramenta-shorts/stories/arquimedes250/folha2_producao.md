@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ARQ (variante 0, expressao shock); POV (variante 0, expressao surprised) | multidao: 0 de 
-- Animacao: reagir | interacao: insiste | o ultimo personagem ENTRA andando | batalha encenada
+- Animacao: reagir | interacao: insiste | o ultimo personagem ENTRA andando | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bathtub
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, banheira
 - RISCOS: nenhum
@@ -95,9 +95,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b9 - Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr...
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ARQ (variante 0, expressao laugh); POV (variante 0, expressao shock) | multidao: 14 de POV/OUR
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/crown
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, lenda
 - RISCOS: nenhum

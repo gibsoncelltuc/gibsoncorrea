@@ -60,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | entrou (23.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | gritou (43.1s) | EFEITO: ring | onda + som | OK |
 | 2 | gritou (43.1s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | EUREKA | OK |
 

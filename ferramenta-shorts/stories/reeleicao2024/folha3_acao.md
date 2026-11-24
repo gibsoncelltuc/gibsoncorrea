@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -108,7 +108,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | vitória (32.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 6 | vitória (32.8s) | ACAO: vence | bracos para cima + brilho | OK |
 | 7 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 9 | - | ATUACAO | comemorar | OK |
 | 10 | - | PLACA | 312 VOTOS | OK |
 <!-- FISICA -->
@@ -149,31 +149,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b8 - 42.9s a 47.1s - 16 palavras - plano group
+## Cena b8 - 42.6s a 48.1s - 16 palavras - plano orbit
 > "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b9 - 47.2s a 52.3s - 15 palavras - plano orbit
+## Cena b9 - 48.5s a 53.7s - 15 palavras - plano wide
 > "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | 47º | OK |
-<!-- FISICA -->
+| 1 | - | PLACA | 47º | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair

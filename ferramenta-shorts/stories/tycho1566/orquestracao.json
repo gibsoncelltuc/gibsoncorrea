@@ -150,20 +150,14 @@
    "palavras": 17,
    "cena": "b6",
    "frase": "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "TYC"
    ],
@@ -175,9 +169,15 @@
    "palavras": 17,
    "cena": "b7",
    "frase": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },

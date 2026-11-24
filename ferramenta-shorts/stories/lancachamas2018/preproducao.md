@@ -12,7 +12,7 @@ b4 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/flamethrower |
 b5 | interior loja | two | 2 | comemorar, INTERAGEM: brindar | kit/extinguisher | - | -
 b6 | loc_cidade | crowd | 18 | reagir, batalha | kit/marco_hollywood | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | nature/picket_fence | - | -
-b8 | loc_deserto | two | 1 | conversar | kit/flamethrower, kit/fire | - | -
+b8 | loc_deserto | two | 1 | conversar | kit/flamethrower, kit/phone, kit/fire | - | -
 b9 | loc_cidade | two | 2 | conversar, INTERAGEM: insiste | kit/flamethrower, kit/extinguisher | - | -
 b10 | loc_cidade | close | 1 | conversar | - | - | -
 

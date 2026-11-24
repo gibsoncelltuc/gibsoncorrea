@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 153 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 144 palavras (~50 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Uma guerra durou menos de uma hora, e é considerada a mais curta da história.
@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 
 ## Cena b3  (~4.5 s)
 - Narracao: Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~5.5 s)
 - Narracao: O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: 9:02
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.2 s)
-- Narracao: O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.
+## Cena b6  (~3.8 s)
+- Narracao: O palácio pegou fogo, e a artilharia do sultão foi calada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@60
 - Efeito + som nas palavras-chave: -
@@ -71,8 +71,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Texto na tela: CONSULADO ALEMÃO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.8 s)
 - Narracao: Por volta das nove e quarenta, a bandeira do palácio caiu.
@@ -83,20 +83,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: 9:40
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.2 s)
-- Narracao: Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.
+## Cena b9  (~2.4 s)
+- Narracao: Os ingleses colocaram outro sultão no trono.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagaram -> stars + som de sino; encena: pega (lift) @2 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: OUTRO SULTÃO
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.4 s)
-- Narracao: E ainda mandaram a conta das balas.
+## Cena b10  (~3.4 s)
+- Narracao: E ainda mandaram a conta das balas para os derrotados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: perde (facepalm) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

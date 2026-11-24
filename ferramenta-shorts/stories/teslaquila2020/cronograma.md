@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 20 - A Piada que Virou Tequila
 
-Gerado em 24/11 22:58 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,8 +13,8 @@ b3 | simples | interior loja | two | FAN, MUS | - | - | - | Muita gente riu. Mas
 b4 | chave | loc_pista | crowd | MEX, MUS | 12 | tequila_bolt, veg_cacto | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o conselho que protege a tequila no México reclamou: o no
 b5 | simples | loc_pista | two | MUS, MEX | - | roadster, tequila_bolt, veg_cacto | - | Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no Méxi
 b6 | simples | interior loja | two | FAN | - | tequila_bolt | - | A garrafa era de vidro soprado à mão, em forma de raio, presa num supo
-b7 | chave | loc_cidade | crowd | FAN, POV, POV | 20 | tequila_bolt | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas hor
-b8 | simples | interior loja | two | POV, FAN | - | tequila_bolt | - | Logo, até garrafas vazias apareceram à venda na internet por mais de m
+b7 | chave | loc_cidade | orbit | FAN, POV, POV | 20 | tequila_bolt | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas hor
+b8 | simples | interior loja | two | POV, FAN | - | phone, tequila_bolt | - | Logo, até garrafas vazias apareceram à venda na internet por mais de m
 b9 | simples | loc_patio | two | MUS | - | tequila_bolt | - | Uma piada do dia da mentira que terminou numa prateleira de verdade.
 b10 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

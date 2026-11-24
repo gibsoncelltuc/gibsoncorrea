@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
-Gerado em 24/11 22:53 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,9 +11,9 @@ b1 | simples | arctic | two | AME, CAN | - | - | - | Em mil oitocentos e trinta 
 b2 | simples | arctic | group | AME, CAN | - | logs, bush, tree_oak, tree_pine | - | Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árv
 b3 | simples | arctic | wide | AME | 8 | tree_pine | - | Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent
 b4 | simples | loc_montanha | wide | MIL, ING | 48 | - | - | O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma
-b5 | simples | arctic | two | CAN, AME | - | - | - | Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main
-b6 | chave | interior madeira | orbit | PRE, GEN | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas ninguém queria uma guerra de verdade, então o presidente americano
-b7 | simples | interior madeira | two | GEN, PRE | - | - | - | Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar
+b5 | chave | arctic | orbit | CAN, AME | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main
+b6 | simples | interior madeira | two | PRE, GEN | - | - | - | Mas ninguém queria uma guerra de verdade, então o presidente americano
+b7 | simples | interior madeira | group | GEN, PRE | - | - | - | Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar
 b8 | simples | interior pedra | two | PRE, PRE | - | scroll | - | Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton defin
 b9 | simples | interior loja | two | AME, AME | - | - | - | Ficou conhecida até como a Guerra do Porco com Feijão.
 b10 | simples | interior loja | close | AME | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

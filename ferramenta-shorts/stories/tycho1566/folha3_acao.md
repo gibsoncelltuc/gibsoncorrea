@@ -24,7 +24,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | estudava (10.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | MAPA | DINAMARCA | OK |
 
 ## Cena b2 - 11.9s a 16.7s - 14 palavras - plano group
@@ -72,16 +72,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | deu (35.9s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | estudar (38.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b7 - 40.0s a 45.9s - 17 palavras - plano wide
+## Cena b7 - 40.0s a 45.9s - 17 palavras - plano orbit
 > "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | construiu (40.7s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | anotou (42.6s) | ACAO: escreve | escreve/assina | OK |
-| 3 | - | PLACA | MIL ESTRELAS | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | PLACA | MIL ESTRELAS | OK |
 
 ## Cena b8 - 46.3s a 52.6s - 18 palavras - plano two
 > "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol."

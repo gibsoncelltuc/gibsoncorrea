@@ -48,7 +48,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | construiu (10.6s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | DANÇA | OK |
 <!-- FISICA -->
@@ -144,12 +144,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b8 - 44.9s a 48.7s - 11 palavras - plano crowd
+## Cena b8 - 44.9s a 48.7s - 11 palavras - plano orbit
 > "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | TESTE | OK |
 <!-- FISICA -->

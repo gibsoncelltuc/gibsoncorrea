@@ -59,10 +59,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltava (16.2s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | fogo (16.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-<!-- FISICA -->
+| 1 | soltava (18.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | fogo (18.9s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_solta na palavra soltava (16.2s): executa: solta/liberta + brilho
@@ -113,8 +112,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venda (29.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | venda (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 

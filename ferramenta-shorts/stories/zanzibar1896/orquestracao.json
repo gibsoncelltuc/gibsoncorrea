@@ -67,7 +67,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "ALM"
    ],
@@ -79,9 +79,15 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -104,7 +110,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [],
    "multidao": 0,
    "objetos": [
@@ -133,9 +139,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b6",
-   "frase": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.",
+   "frase": "O palácio pegou fogo, e a artilharia do sultão foi calada.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -149,25 +155,18 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
-    "SUL",
-    "ALM"
+    "SUL"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 9,
    "cena": "b7",
    "frase": "O sultão foi pedir abrigo no consulado da Alemanha.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
@@ -179,6 +178,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/forte_colonial",
     "war/flagpole"
    ],
    "palavras": 11,
@@ -188,10 +188,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "SUL",
     "ING2"
@@ -200,9 +200,9 @@
    "objetos": [
     "kit/throne"
    ],
-   "palavras": 15,
+   "palavras": 7,
    "cena": "b9",
-   "frase": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
+   "frase": "Os ingleses colocaram outro sultão no trono.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -216,9 +216,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 7,
+   "palavras": 10,
    "cena": "b10",
-   "frase": "E ainda mandaram a conta das balas.",
+   "frase": "E ainda mandaram a conta das balas para os derrotados.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

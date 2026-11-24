@@ -245,7 +245,7 @@
    "who": [
     "MAR:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {

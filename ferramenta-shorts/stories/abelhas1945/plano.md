@@ -10,7 +10,7 @@ b4 | two | -  | - | encena: danca (up) @7 (acao + som de efeito) | -
 b5 | low | -  | - | (rosto) shock (expr + som de efeito); encena: danca (up) @7 (acao + som de efeito); encena: fala (point) @8 (acao + som de efeito) | -
 b6 | two | -  | - | dança (stars + som de sino); encena: danca (up) @2 (acao + som de efeito); encena: danca (up) @11 (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | - | -
-b8 | crowd | -  | batalha aberta com tiros, tropa, placa: TESTE | - | -
+b8 | orbit | -  | batalha aberta com tiros, tropa, placa: TESTE | - | -
 b9 | group | -  | tropa, interior, placa: NOBEL | ganhou (stars + som de sino); Prêmio (stars + som de sino); encena: vence (up) @10 (acao + som de efeito) | -
 b10 | two | -  | - | segredo (ring + som de alerta); encena: pensa (think) @13 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -

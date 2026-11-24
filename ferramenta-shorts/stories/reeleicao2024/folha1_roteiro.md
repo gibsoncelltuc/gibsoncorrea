@@ -76,12 +76,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b8  (~5.5 s)
 - Narracao: Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~5.2 s)
 - Narracao: Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.
@@ -90,7 +90,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: 47º
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b10  (~3.8 s)
 - Narracao: Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.

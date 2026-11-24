@@ -110,18 +110,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b8 - 46.7s a 51.7s - 14 palavras - plano orbit
+## Cena b8 - 45.2s a 50.0s - 14 palavras - plano crowd
 > "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dividiu (50.4s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | dividiu (48.9s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | MUNDO | OK |
 <!-- FISICA -->

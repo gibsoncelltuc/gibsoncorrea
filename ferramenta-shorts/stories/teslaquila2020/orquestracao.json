@@ -181,7 +181,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "FAN",
     "POV",
@@ -214,6 +214,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/phone",
     "kit/tequila_bolt"
    ],
    "palavras": 14,

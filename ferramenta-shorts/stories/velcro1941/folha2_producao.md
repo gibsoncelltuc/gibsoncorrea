@@ -65,9 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace...
 - Cenario: street | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous) | multidao: 14 de POV
-- Animacao: discutir | batalha encenada
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): material, teceloes, tentativas
 - RISCOS: nenhum
@@ -85,9 +85,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b8 - Até que astronautas passaram a usar velcro no espaço, e o mundo inteir...
 - Cenario: arctic | luz: espaco | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): AST (variante 0, expressao laugh) | multidao: 12 de POV
-- Animacao: - | batalha encenada
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/burr, kit/rocket, kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, usar
 - RISCOS: nenhum

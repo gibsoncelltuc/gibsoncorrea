@@ -63,7 +63,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 6 DIAS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.5 s)
 - Narracao: O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.
@@ -72,7 +72,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @9 -> acao + som de efeito; encena: sai @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~5.9 s)
 - Narracao: O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.

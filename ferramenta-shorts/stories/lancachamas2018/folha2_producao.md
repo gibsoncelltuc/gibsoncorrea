@@ -70,9 +70,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b3 - Acontece que o aparelho soltava fogo de verdade, e essa era a piada.
 - Cenario: loc_deserto | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 18 de POV
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/flamethrower, kit/marco_hollywood, kit/fire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, piada
 - RISCOS: nenhum
@@ -131,9 +131,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao grin) | multidao: 16 de POV
-- Animacao: reagir | batalha encenada
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): venda
 - RISCOS: nenhum
@@ -174,7 +174,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/flamethrower, kit/fire
+- Objetos/modelos: kit/flamethrower, kit/phone, kit/fire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, proprio
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -227,6 +227,7 @@ kit/marco_hollywood | b0, b3, b6 | pronto | conferir na folha de contato se le b
 kit/fire | b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/extinguisher | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

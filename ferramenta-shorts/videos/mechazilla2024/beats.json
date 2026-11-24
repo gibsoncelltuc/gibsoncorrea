@@ -281,7 +281,7 @@
    "who": [
     "ENG:0:surprised"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 0
@@ -463,7 +463,7 @@
    "who": [
     "ENG:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {

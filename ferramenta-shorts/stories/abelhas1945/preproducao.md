@@ -12,7 +12,7 @@ b4 | loc_montanha | two | 2 | discutir, INTERAGEM: discutir | kit/beehive, kit/b
 b5 | loc_montanha | low | 1 | reagir | kit/beehive, kit/bee | - | -
 b6 | loc_montanha | two | 2 | dancar, INTERAGEM: entregar | kit/beehive, kit/bee | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: o outro se aproxima | - | paper | -
-b8 | loc_montanha | crowd | 33 | reagir, batalha | kit/beehive, kit/bee | - | -
+b8 | loc_montanha | orbit | 33 | reagir, batalha | kit/beehive, kit/bee | - | -
 b9 | interior pedra | group | 7 | comemorar, INTERAGEM: pular | - | - | -
 b10 | loc_campo | two | 1 | conversar | kit/beehive, kit/bee | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -

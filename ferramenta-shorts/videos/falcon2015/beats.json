@@ -199,7 +199,9 @@
    "cz": -2.0,
    "h": 3.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "impact": true,
+   "text": "TOMBOU"
   },
   {
    "shot": "wide",
@@ -470,14 +472,25 @@
    "d1": 20.0
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MUS:0:smile",
     "POV:0:smile"
    ],
    "say": "Hoje, pousar de ré virou rotina.",
    "fachada": false,
-   "set": "harbor"
+   "set": "harbor",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   }
  ],
  "fontes": [

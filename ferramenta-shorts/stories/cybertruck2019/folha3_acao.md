@@ -46,8 +46,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rachou (18.6s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | rachou (20.0s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
@@ -63,9 +63,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rachou (26.3s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 2 | brincou (27.0s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | rachou (27.0s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 2 | brincou (27.8s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 

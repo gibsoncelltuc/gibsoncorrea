@@ -85,7 +85,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | reclamou (24.4s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
 | 2 | - | EMOCAO: annoyed | o rosto vira "annoyed" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
@@ -126,12 +126,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b7 - 37.1s a 40.9s - 12 palavras - plano crowd
+## Cena b7 - 37.1s a 40.9s - 12 palavras - plano orbit
 > "Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | ESGOTOU | OK |
 <!-- FISICA -->

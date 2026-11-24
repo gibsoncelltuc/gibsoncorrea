@@ -13,11 +13,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil ...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Cenario: hall | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 12 de POV
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assembleia, dois
 - RISCOS: nenhum
@@ -67,17 +67,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUK (variante 0, expressao laugh); DIP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet
 - RISCOS: nenhum
 
 ## Cena b7 - E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUK (variante 0, expressao stern); DIP (variante 0, expressao worried) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinossauros, kodak
 - RISCOS: nenhum
@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - A selfie rodou o mundo, e o discurso ficou em segundo plano.
 - Cenario: palace | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
-- Animacao: comemorar
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_onu, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, selfie
 - RISCOS: nenhum
@@ -129,12 +129,12 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 mk/BookStand | b0, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_onu | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b0, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b0, b4, b5, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b7 | planos abertos: 4 | mistura: close 10% | medio 62% | aberto 25% | detalhe 2%
-- Interacoes: b1 avanca e o outro recua, b2 discutir, b3 cochichar, b6 o outro se aproxima, b8 insiste
+- Objeto heroi: kit/phone | grandes momentos: b9 | planos abertos: 4 | mistura: close 10% | medio 64% | aberto 23% | detalhe 2%
+- Interacoes: b2 discutir, b3 cochichar, b6 avanca e o outro recua, b7 o outro se aproxima, b8 insiste
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py selfie2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/selfie2019/moodboard.jpg
 

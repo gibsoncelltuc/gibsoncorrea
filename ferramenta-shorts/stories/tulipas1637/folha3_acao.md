@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -39,18 +39,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comprando (17.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | comprando (17.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | PLACA | TODO MUNDO | OK |
 
-## Cena b4 - 22.4s a 25.2s - 13 palavras - plano orbit
+## Cena b4 - 22.4s a 25.2s - 13 palavras - plano two
 > "Contam que teve gente que trocou terras e casas por um único bulbo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | trocou (23.4s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | trocou (23.4s) | ACAO: entrega | entrega | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | PLACA | 1 CASA = 1 BULBO | OK |
 
-## Cena b5 - 26.3s a 29.3s - 11 palavras - plano two
+## Cena b5 - 26.3s a 29.3s - 11 palavras - plano group
 > "Ninguém queria a flor. Queriam revender mais caro na semana seguinte."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -78,14 +79,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | LEILÃO | OK |
 
-## Cena b8 - 42.0s a 47.2s - 15 palavras - plano crowd
+## Cena b8 - 42.0s a 47.2s - 15 palavras - plano orbit
 > "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | vender (45.7s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | vender (45.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | discutir | OK |
 | 5 | - | PLACA | PÂNICO | OK |
 

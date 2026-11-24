@@ -344,7 +344,7 @@
     "MED:0:grin",
     "POV:0:shock"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 14,
@@ -415,7 +415,7 @@
     "MED:0:grin",
     "POV:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {

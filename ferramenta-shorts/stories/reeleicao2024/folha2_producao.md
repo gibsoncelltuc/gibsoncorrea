@@ -121,10 +121,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl...
 - Cenario: hall | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores
 - RISCOS: nenhum
@@ -190,10 +190,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: conversar
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, novo
 - RISCOS: nenhum
@@ -211,10 +211,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: - | batalha encenada
+- Animacao: -
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, quarenta
 - RISCOS: nenhum
@@ -275,7 +275,7 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 13% | detalhe 4%
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b8 | planos abertos: 4 | mistura: close 22% | medio 53% | aberto 22% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b6 vai ate o outro, b7 aproxima-se
 - RISCOS GERAIS: 
   - FOLHA 4: 8 item(ns) sem referencia visual: Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi, Donald Trump (terno azul, gravata vermelha), apoiadores de bone vermelho, elei -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}

@@ -49,12 +49,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b5  (~5.5 s)
 - Narracao: Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: confusão -> puff + som de baque; encena: corta (hammer) @2 -> acao + som de efeito; encena: prende (push) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: PRESO
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.9 s)
 - Narracao: Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.
@@ -63,7 +63,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito; encena: fala (point) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.5 s)
 - Narracao: Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar.

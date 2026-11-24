@@ -102,9 +102,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b4 - Acontece que o conselho que protege a tequila no México reclamou: o no...
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MEX (variante 0, expressao angry); MUS (variante 0, expressao surprised) | multidao: 12 de POV
-- Animacao: discutir | batalha encenada
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/veg_cacto, kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conselho, mexico, tequila
 - RISCOS: nenhum
@@ -177,10 +177,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas hor...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): FAN (variante 0, expressao shout); POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 20 de POV/FAN
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): custava
 - RISCOS: nenhum
@@ -205,7 +205,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): POV (variante 0, expressao smug, segura paper); FAN (variante 0, expressao nervous)
 - Animacao: reagir | interacao: entregar | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/tequila_bolt
+- Objetos/modelos: kit/tequila_bolt, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet, venda
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -262,6 +262,7 @@ kit/tequila_bolt | b0, b2, b4, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em cl
 kit/roadster | b1, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

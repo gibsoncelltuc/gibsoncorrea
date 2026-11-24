@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | soltou (31.1s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caíram (32.6s) | EFEITO: dust | poeira + som | OK |
 | 3 | chão (33.3s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 34.8s a 40.7s - 17 palavras - plano two
@@ -71,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | soltou (45.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caíram (48.9s) | EFEITO: dust | poeira + som | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 
 ## Cena b8 - 49.6s a 52.6s - 9 palavras - plano close

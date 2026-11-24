@@ -8,11 +8,11 @@ b2 | two | -  | tropa, interior, objeto na mao | (rosto) pleading (expr + som de
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 10.000 BALAS | encena: pega (lift) @3 (acao + som de efeito) | -
 b4 | wide | -  | tropa, animais | encena: atira @13 (acao + som de efeito); encena: atira @16 (acao + som de efeito) | -
 b5 | wide | -  | - | encena: pega (lift) @5 (acao + som de efeito) | -
-b6 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: 6 DIAS | - | -
-b7 | group | -  | tropa, animais, placa: HA HA HA | (rosto) laugh (expr + som de efeito); riu (stars + som de sino); encena: x_ri (up) @9 (acao + som de efeito); encena: sai @13 (acao + som de efeito) | -
+b6 | orbit | -  | tropa, animais, placa: 6 DIAS | - | -
+b7 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: HA HA HA | (rosto) laugh (expr + som de efeito); riu (stars + som de sino); encena: x_ri (up) @9 (acao + som de efeito); encena: sai @13 (acao + som de efeito) | -
 b8 | two | -  | tropa, animais, placa: 986 (CONTESTADO) | encena: chega (point) @2 (acao + som de efeito) | -
 b9 | crowd | golden  | tropa, animais, placa: EXÉRCITO 0 - 1 EMUS | pagou (stars + som de sino); encena: negocio (reach) @10 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 45% | aberto 44% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 11% | medio 36% | aberto 53% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 7 | AVISOS: aberto demais (personagem pequeno por muito tempo); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

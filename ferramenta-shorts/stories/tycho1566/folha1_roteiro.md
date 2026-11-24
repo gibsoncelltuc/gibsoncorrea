@@ -58,21 +58,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b6  (~5.9 s)
 - Narracao: Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito; encena: examina (think) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.9 s)
 - Narracao: Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: encena: constroi (hammer) @2 -> acao + som de efeito; encena: escreve (write) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: MIL ESTRELAS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~6.2 s)
 - Narracao: As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.

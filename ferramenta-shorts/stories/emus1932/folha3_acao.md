@@ -61,15 +61,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | levou (16.2s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | PLACA | 10.000 BALAS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra levou (16.2s): executa: levanta/segura
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b4 - 19.3s a 23.9s - 17 palavras - plano wide
 > "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira."
@@ -91,27 +84,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | instalada (27.2s) | ACAO: pega | levanta/segura | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra instalada (27.2s): executa: levanta/segura
-<!-- /FISICA -->
 
 ## Cena b6 - 31.4s a 34.9s - 12 palavras - plano orbit
 > "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | 6 DIAS | OK |
-<!-- FISICA -->
+| 1 | - | PLACA | 6 DIAS | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b7 - 36.3s a 40.9s - 16 palavras - plano group
+## Cena b7 - 36.3s a 40.9s - 16 palavras - plano orbit
 > "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -120,18 +101,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | riu (39.1s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | retirou (40.4s) | ACAO: sai | sai andando pela lateral | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | PLACA | HA HA HA | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra riu (39.1s): executa: estrelinhas + som
-- ACAO: x_ri na palavra riu (39.1s): executa: ri de bracos para cima + brilho
-- ACAO: sai na palavra retirou (40.4s): executa: sai andando pela lateral
-- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- vehicles/tank INDO EMBORA: parte do lugar da ficha e sai pela direita do quadro ate o fim da cena
-- multidao de 10: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
-<!-- /FISICA -->
+| 5 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 6 | - | PLACA | HA HA HA | OK |
 
 ## Cena b8 - 42.1s a 47.0s - 17 palavras - plano two
 > "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."

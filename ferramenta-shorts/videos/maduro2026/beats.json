@@ -367,7 +367,7 @@
     "POV:1:surprised",
     "POV:2:nervous"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 18,

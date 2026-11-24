@@ -53,9 +53,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b2 - Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar n...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FRI (variante 0, expressao suspicious); ASS (variante 0, expressao smile) | multidao: 12 de POV
-- Animacao: conversar | batalha encenada
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, colmeia, jardim, vidro
 - RISCOS: nenhum
@@ -203,10 +203,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao surprised); COL (variante 0, expressao shock); FRI (variante 0, expressao smug) | multidao: 30 de POV
-- Animacao: reagir | batalha encenada
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, testes
 - RISCOS: nenhum

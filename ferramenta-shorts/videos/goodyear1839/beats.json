@@ -309,7 +309,7 @@
     "POV:1:grin",
     "CLA:0:smile"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {

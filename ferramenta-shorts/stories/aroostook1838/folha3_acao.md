@@ -50,7 +50,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | mandou (29.8s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | PLACA | MILÍCIA | OK |
 
-## Cena b5 - 31.3s a 35.9s - 16 palavras - plano two
+## Cena b5 - 31.3s a 35.9s - 16 palavras - plano orbit
 > "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -58,21 +58,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | confusão (31.6s) | EFEITO: puff | fumaca + som | OK |
 | 2 | lenhadores (32.4s) | ACAO: corta | machado e toras + poeira | OK |
 | 3 | prenderam (33.6s) | ACAO: prende | empurra/prende | OK |
-| 4 | - | INTERACAO | empurrar | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | reagir | OK |
 | 6 | - | PLACA | PRESO | OK |
 
-## Cena b6 - 37.3s a 42.5s - 17 palavras - plano orbit
+## Cena b6 - 37.3s a 42.5s - 17 palavras - plano two
 > "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (41.1s) | ACAO: fala | aponta explicando | OK |
 | 2 | conversar (42.5s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 43.8s a 47.6s - 16 palavras - plano two
+## Cena b7 - 43.8s a 47.6s - 16 palavras - plano group
 > "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

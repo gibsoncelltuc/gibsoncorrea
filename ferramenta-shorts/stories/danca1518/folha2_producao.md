@@ -11,17 +11,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dancar, mulher
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila medieval; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: TRO na esquerda, expressao laugh; POV na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (0.1-1.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.8-3.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b1 - Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por ...
 - Cenario: medieval | luz: dia | clima: limpo
@@ -32,40 +21,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): semana
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila medieval; hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: TRO na esquerda, expressao pained; POV na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: ESTRASBURGO (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (4.7-6.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (6.8-8.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (8.8-10.9 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b2 - Em poucos dias, mais de trinta pessoas dançavam também, incluindo o ma...
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (4): TRO (variante 0, expressao pained); POV (variante 1, expressao laugh); POV (variante 2, expressao grin); POV (variante 3, expressao pained) | multidao: 36 de POV/TRO
-- Animacao: dancar | batalha encenada
+- Animacao: dancar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido, trinta
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila medieval; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: TRO na esquerda, expressao pained; POV no centro, expressao laugh; POV na direita, expressao grin; POV no fundo, expressao pained; multidao de 36 (POV, TRO) ATRAS dos principais; acao: dancar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (12.0-14.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (14.1-16.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b3 - Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sa...
 - Cenario: medieval | luz: day | clima: limpo
@@ -76,23 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, quatrocentas
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila medieval; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: POV na esquerda, expressao pained; TRO no centro, expressao pained; POV na direita, expressao pained; POV no fundo, expressao shock; multidao de 36 (POV, TRO) ATRAS dos principais; acao: dancar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
-- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +90 da cena
-- SOM: ding@40
-- SOM: thump@90
-- TEXTO NA TELA: "50 A 400" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (17.2-18.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (18.9-20.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (20.6-22.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b4 - O conselho da cidade chamou os médicos, que culparam o sangue quente e...
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -103,17 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, conselho, medicos, sangue
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE na esquerda, expressao stern; MED na direita, expressao nervous, segura book; sem multidao; acao: nenhuma
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (23.5-25.6 s): mesmo angulo
-  - take 2 (25.6-27.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b5 - A cidade reformou salões e contratou músicos para manter os dançarinos...
 - Cenario: hall | luz: day | clima: limpo
@@ -124,65 +61,26 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dancarinos
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: salao; hora: day
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: MUS na esquerda, expressao grin; MUS na direita, expressao laugh; multidao de 12 (DAN) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "SALÃO" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (28.9-30.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (30.8-32.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b6 - Deu errado: mais gente entrou na dança, com medo de um castigo de São ...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PRE (variante 0, expressao stern, segura paper); POV (variante 0, expressao pained) | multidao: 0 de 
-- Animacao: dancar | batalha encenada
+- Animacao: dancar | interacao: entregar | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, conselho, danca, medo
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila medieval; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE na esquerda, expressao stern, segura paper; POV na direita, expressao pained; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +50 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +110 da cena
-- SOM: thump@50
-- SOM: sting@110
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (33.7-35.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (35.6-37.5 s): mesmo angulo
-  - take 3 (37.5-39.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b7 - Alguns dizem que morriam quinze por dia, mas os documentos da época nã...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock)
-- Animacao: reagir | interacao: discutir
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock) | multidao: 12 de POV/DAN
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): documentos, epoca
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE na esquerda, expressao pained; MED na direita, expressao shock; sem multidao; acao: nenhuma
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (40.6-42.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (42.7-44.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b8 - No fim, os dançarinos foram levados a uma capela no alto de um monte, ...
 - Cenario: mountain | luz: day | clima: limpo
@@ -193,19 +91,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: buildings/church, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, capela, danca, dancarinos, monte, sapatos
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: encosta de montanha; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: DAN no centro, expressao relief; multidao de 6 (DAN) ATRAS dos principais; acao: fala/gesto
-- OBJETO buildings/church: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 20.8 m de altura x 16.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "CAPELA DO MONTE" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (46.0-48.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (48.1-50.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (50.1-52.2 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b9 - Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -216,17 +101,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): histeria
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MED na esquerda, expressao nervous; POV na direita, expressao neutral; sem multidao; acao: nenhuma
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (53.3-55.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (55.0-56.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -250,8 +124,8 @@ buildings/church | b8 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b2, b6 | planos abertos: 4 | mistura: close 20% | medio 54% | aberto 27% | detalhe 0%
-- Interacoes: b0 susto, b1 aproxima-se, b3 empurrar, b4 avanca e o outro recua, b7 discutir
+- Objeto heroi: - | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 19% | medio 56% | aberto 26% | detalhe 0%
+- Interacoes: b0 susto, b1 aproxima-se, b3 empurrar, b4 avanca e o outro recua, b6 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -260,12 +134,3 @@ buildings/church | b8 | pronto | conferir na folha de contato se le bem; se pare
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh danca1518 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh danca1518` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (58.1-59.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (59.8-61.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-

@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/sink
+- Objetos/modelos: kit/sink, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, internet, propria, video
 - RISCOS: nenhum
 
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao laugh); FUN (variante 0, expressao shock)
-- Animacao: reagir | interacao: discutir | batalha encenada
+- Animacao: reagir | interacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): compra, dolares, twitter
 - RISCOS: nenhum
@@ -78,16 +78,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chefe, perfil
 - RISCOS: nenhum
 
 ## Cena b8 - O vídeo da pia virou piada no mundo inteiro.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao laugh) | multidao: 14 de FUN/FUN2
-- Animacao: - | batalha encenada
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_goldengate, kit/sink
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): video
 - RISCOS: nenhum
@@ -119,6 +119,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/sink | b0, b1, b2, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_goldengate | b0, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

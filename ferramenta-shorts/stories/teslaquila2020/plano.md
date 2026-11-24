@@ -9,7 +9,7 @@ b3 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); 
 b4 | crowd | -  | batalha aberta com tiros, tropa | (rosto) annoyed (expr + som de efeito); encena: x_discute (point) @10 (acao + som de efeito) | -
 b5 | two | -  | - | encena: sai @5 (acao + som de efeito) | -
 b6 | two | -  | interior | encena: prende (push) @12 (acao + som de efeito) | -
-b7 | crowd | -  | batalha aberta com tiros, tropa, placa: ESGOTOU | - | -
+b7 | orbit | -  | batalha aberta com tiros, tropa, placa: ESGOTOU | - | -
 b8 | two | -  | interior, objeto na mao | encena: chega (point) @4 (acao + som de efeito); encena: negocio (reach) @6 (acao + som de efeito) | -
 b9 | two | -  | - | - | -
 b10 | close | -  | placa: COMENTE! | - | -

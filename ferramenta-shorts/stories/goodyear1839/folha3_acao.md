@@ -27,7 +27,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 18.0s a 24.0s - 20 palavras - plano two
@@ -76,7 +76,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | elástica (41.1s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
-## Cena b8 - 45.9s a 48.9s - 11 palavras - plano group
+## Cena b8 - 45.9s a 48.9s - 11 palavras - plano orbit
 > "Mas outros copiaram a ideia, e ele morreu cheio de dívidas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -86,15 +86,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | morreu (48.3s) | EFEITO: puff | fumaca + som | OK |
 | 4 | morreu (48.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | INTERACAO | discutir | OK |
+| 6 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 7 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 50.1s a 54.2s - 14 palavras - plano crowd
+## Cena b9 - 50.1s a 54.2s - 14 palavras - plano group
 > "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | INTERACAO | pular | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | PNEUS | OK |
 

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ideia (8.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | MAPA | EL SALVADOR | OK |
 
-## Cena b2 - 10.7s a 15.2s - 20 palavras - plano group
+## Cena b2 - 10.7s a 17.8s - 20 palavras - plano group
 > "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -38,7 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | 7 DE SETEMBRO | OK |
 
 ## Cena b4 - 21.5s a 26.7s - 18 palavras - plano two
@@ -52,17 +52,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | US$ 30 | OK |
 
-## Cena b5 - 27.9s a 32.3s - 13 palavras - plano two
+## Cena b5 - 32.2s a 36.7s - 13 palavras - plano two
 > "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | FORA DO AR | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | FORA DO AR | OK |
 
-## Cena b6 - 33.5s a 38.2s - 15 palavras - plano group
+## Cena b6 - 37.0s a 42.2s - 15 palavras - plano group
 > "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

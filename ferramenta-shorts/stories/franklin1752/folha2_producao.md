@@ -65,9 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulo...
 - Cenario: countryside | luz: day | clima: tempestade
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FRA (variante 0, expressao shock); FIL (variante 0, expressao scared) | multidao: 8 de COM/POV
-- Animacao: reagir | batalha encenada
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/key, kit/kite
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chave, faisca, linha, nuvem
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): FRA (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pararaios
 - RISCOS: nenhum

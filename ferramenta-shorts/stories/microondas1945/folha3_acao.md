@@ -65,7 +65,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | testou (31.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | estourar (35.2s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 36.3s a 41.1s - 14 palavras - plano two
@@ -76,7 +76,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | testou (36.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | explodiu (38.9s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | explodiu (38.9s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | INTERACAO | discutir | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
@@ -96,7 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | jantar (52.2s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | 1 MINUTO | OK |

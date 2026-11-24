@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 12 palavras - plano two
@@ -25,7 +25,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
 <!-- FISICA -->
 
@@ -97,28 +97,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | abriu (32.5s) | ACAO: x_abre | empurra a porta | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | MENTE | OK |
-<!-- FISICA -->
+| 1 | abriu (35.2s) | ACAO: x_abre | empurra a porta | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | MENTE | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_abre na palavra abriu (32.5s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 14: parada, reagindo (surprised), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b7 - 36.4s a 42.5s - 16 palavras - plano two
+## Cena b7 - 38.5s a 44.1s - 16 palavras - plano orbit
 > "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ajudar (39.2s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | pensando (42.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 3 | - | INTERACAO | discutir | OK |
+| 1 | ajudar (40.7s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | pensando (44.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 

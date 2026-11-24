@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
-Gerado em 24/11 22:58 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,9 +13,9 @@ b3 | simples | interior loja | two | ENG, BUK | - | bitcoin, miners | - | Só qu
 b4 | simples | jungle | wide | BUK | - | volcano | - | Então ele mandou a empresa de energia do governo usar o calor do vulcã
 b5 | explicativa | loc_estudio | two | sem personagem | - | turbina, volcano | corpo: kit/turbina (gira); emissao: vapor; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entra | O vapor quente que sai de dentro da terra gira turbinas, e vira eletri
 b6 | simples | interior loja | two | ENG, ENA | - | bitcoin, miners | - | Acontece que, ao lado da usina, instalaram computadores só para minera
-b7 | simples | loc_pista | two | BUK | - | bitcoin | - | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
-b8 | simples | loc_pista | group | ENA, ENG | - | bitcoin, volcano | - | Anos depois, o governo contava quase quinhentos bitcoins feitos com o 
-b9 | chave | loc_cidade | crowd | POV | - | apartment, house_two, bitcoin, volcano, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés
+b7 | chave | loc_pista | orbit | BUK | 12 | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
+b8 | simples | loc_pista | two | ENA, ENG | - | bitcoin, volcano | - | Anos depois, o governo contava quase quinhentos bitcoins feitos com o 
+b9 | simples | loc_cidade | wide | POV | - | apartment, house_two, bitcoin, volcano, lamppost | - | E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés
 b10 | simples | loc_pista | two | BUK | - | bitcoin, volcano | - | Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
 b11 | simples | jungle | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -24,7 +24,7 @@ b11 | simples | jungle | close | BUK | - | - | - | Agora não deixe de comentar:
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (7/15 itens) | PENDENTE | python3 pesquisar.py vulcao2021
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py vulcao2021
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 

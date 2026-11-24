@@ -32,12 +32,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | o outro se aproxima | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 14.7s a 18.2s - 13 palavras - plano wide
+## Cena b3 - 14.7s a 18.2s - 13 palavras - plano crowd
 > "Os ingleses deram um ultimato: sair do palácio até as nove da manhã."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deram (15.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 ## Cena b4 - 19.3s a 23.7s - 16 palavras - plano reveal
 > "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro."
@@ -48,7 +49,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | trancou (23.3s) | ACAO: x_abre | empurra a porta | OK |
 | 3 | - | PLACA | 2.800 | OK |
 
-## Cena b5 - 24.9s a 28.4s - 11 palavras - plano crowd
+## Cena b5 - 24.9s a 28.4s - 11 palavras - plano orbit
 > "Acontece que, às nove e dois, os navios ingleses abriram fogo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -57,53 +58,52 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | 9:02 | OK |
 
-## Cena b6 - 29.6s a 33.9s - 15 palavras - plano two
-> "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu."
+## Cena b6 - 29.6s a 32.9s - 11 palavras - plano two
+> "O palácio pegou fogo, e a artilharia do sultão foi calada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 34.9s a 36.8s - 9 palavras - plano orbit
+## Cena b7 - 33.0s a 35.7s - 9 palavras - plano two
 > "O sultão foi pedir abrigo no consulado da Alemanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pedir (35.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | pedir (33.9s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | CONSULADO ALEMÃO | OK |
 
-## Cena b8 - 38.2s a 41.1s - 11 palavras - plano two
+## Cena b8 - 36.0s a 39.9s - 11 palavras - plano two
 > "Por volta das nove e quarenta, a bandeira do palácio caiu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caiu (41.1s) | EFEITO: dust | poeira + som | OK |
+| 1 | caiu (39.9s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 9:40 | OK |
 
-## Cena b9 - 42.1s a 46.3s - 15 palavras - plano two
-> "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas."
+## Cena b9 - 40.1s a 42.6s - 7 palavras - plano group
+> "Os ingleses colocaram outro sultão no trono."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | colocaram (42.6s) | ACAO: pega | levanta/segura | OK |
-| 2 | pagaram (45.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | pagaram (45.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | PLACA | OUTRO SULTÃO | OK |
+| 1 | colocaram (40.7s) | ACAO: pega | levanta/segura | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | OUTRO SULTÃO | OK |
 
-## Cena b10 - 47.5s a 49.1s - 7 palavras - plano close
-> "E ainda mandaram a conta das balas."
+## Cena b10 - 43.2s a 45.6s - 10 palavras - plano close
+> "E ainda mandaram a conta das balas para os derrotados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandaram (48.0s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | mandaram (43.8s) | ACAO: fala | aponta explicando | OK |
+| 2 | derrotados (45.6s) | ACAO: perde | mao na testa | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 50.2s a 53.5s - 13 palavras - plano close
+## Cena b11 - 46.1s a 51.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

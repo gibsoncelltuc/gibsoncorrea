@@ -74,7 +74,9 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/chess_pc"
+   ],
    "palavras": 18,
    "cena": "b2",
    "frase": "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador.",
@@ -152,6 +154,26 @@
    "palavras": 16,
    "cena": "b6",
    "frase": "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS",
+    "CIM"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/chess_pc",
+    "kit/phone"
+   ],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -161,26 +183,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MUS",
-    "CIM"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/chess_pc",
-    "kit/phone"
-   ],
-   "palavras": 16,
-   "cena": "b7",
-   "frase": "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },

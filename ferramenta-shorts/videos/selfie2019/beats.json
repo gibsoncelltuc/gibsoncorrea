@@ -82,8 +82,15 @@
    "acao": "conversar",
    "text": "ONU - NOVA YORK",
    "say": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
-   "interior": "madeira",
-   "fachada": true
+   "fachada": true,
+   "set": "hall",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
    "shot": "two",
@@ -207,7 +214,20 @@
    "objetos": false,
    "say": "Depois explicou: o mundo novo está onde essa foto vai parar, na internet.",
    "interior": "pedra",
-   "fachada": false
+   "fachada": false,
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "shot": "two",

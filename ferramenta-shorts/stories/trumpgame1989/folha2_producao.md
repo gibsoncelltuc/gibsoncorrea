@@ -28,10 +28,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil novecentos e oitenta e nove, e ele era um empresário famoso de...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, nova
 - RISCOS: nenhum
@@ -125,9 +125,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b5 - A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos m...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): EXE (variante 0, expressao sad); POV (variante 0, expressao bored); POV (variante 1, expressao suspicious) | multidao: 30 de POV
-- Animacao: encena | batalha encenada
+- Animacao: encena
 - Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, jogos
 - RISCOS: nenhum
@@ -170,9 +170,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b7 - E o jogo voltou às lojas, com regras mais simples e a frase do program...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras
 - RISCOS: nenhum
@@ -232,7 +232,7 @@ kit/marco_liberdade | b0, b1, b5, b7 | pronto | conferir na folha de contato se 
 
 
 ## Video inteiro
-- Objeto heroi: kit/boardgame | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 25% | medio 56% | aberto 14% | detalhe 6%
+- Objeto heroi: kit/boardgame | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 25% | medio 52% | aberto 17% | detalhe 6%
 - Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b6 entregar
 - RISCOS GERAIS: 
   - FOLHA 4: 8 item(ns) sem referencia visual: O Jogo de Tabuleiro do Trump, Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas, Donald Trump (terno azul, gravata vermelha, anos -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
