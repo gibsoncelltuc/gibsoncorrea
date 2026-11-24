@@ -244,17 +244,8 @@
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
    "shot": "group",
    "who": [
-    "USA:1:laugh",
+    "USA:1:surprised",
     "CAN:0:surprised"
-   ],
-   "animals": [
-    [
-     "dog",
-     2.0,
-     1.4,
-     "stand",
-     1.2
-    ]
    ],
    "text": "SÓ CACHORROS",
    "tat": 6,
@@ -266,15 +257,21 @@
    "props": [
     [
      "kit/dog_sit",
-     1.6,
-     -1.0,
-     1.0
+     1.2,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/dog_sit",
-     -1.8,
      -1.4,
-     1.0
+     1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "shot_lock": true
