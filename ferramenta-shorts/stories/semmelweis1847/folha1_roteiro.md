@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 166 palavras (~57 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hospital.

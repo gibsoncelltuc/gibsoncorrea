@@ -1,13 +1,7 @@
 {
  "id": "fleming1928",
  "ano": 1928,
- "cenarios_trocados": [
-  [
-   "video",
-   "street",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
