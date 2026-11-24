@@ -119,10 +119,9 @@
    "text": "23 ANOS"
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
-    "OHI:0:stern",
-    "OHI:1:nervous"
+    "OHI:0:stern"
    ],
    "crowd": {
     "n": 18,
@@ -137,13 +136,15 @@
    "sem_mortos": true,
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "OHI:2:shock",
-    "MIC:2:shock"
+    "OHI:2:shock"
    ],
    "batalha": true,
    "crowd": {
@@ -171,7 +172,9 @@
    "lados": [
     "OHI",
     "MIC"
-   ]
+   ],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
