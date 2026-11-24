@@ -126,11 +126,11 @@
      }
     ]
    },
+   "set": "stadium",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "set": "stadium"
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -230,8 +230,7 @@
   {
    "shot": "wide",
    "who": [
-    "LAS:0:angry",
-    "UMA:0:angry"
+    "LAS:0:angry"
    ],
    "props": [
     [
@@ -270,11 +269,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "set": "stadium",
    "acoes": [
     {
@@ -283,7 +277,12 @@
      "quem": 0,
      "alvo": 1
     }
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -316,7 +315,7 @@
    },
    "quadro": {
     "local": "estadio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/ring",
@@ -326,12 +325,12 @@
      }
     ]
    },
+   "set": "stadium",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "set": "stadium"
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -342,12 +341,7 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "shout"
+    "n": 0
    },
    "props": [
     [
@@ -385,20 +379,18 @@
      }
     ]
    },
+   "set": "stadium",
+   "impact": true,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "set": "stadium",
-   "impact": true
+   "d1": 10.0
   },
   {
    "shot": "wide",
    "who": [
-    "TRU:0:laugh",
-    "LAS:0:grin",
-    "VIB:0:shock"
+    "TRU:0:laugh"
    ],
    "props": [
     [
@@ -451,18 +443,17 @@
      }
     ]
    },
+   "set": "stadium",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "set": "stadium"
+   "d1": 10.0
   },
   {
    "shot": "wide",
    "who": [
-    "JUI:0:angry",
-    "TRU:0:shock"
+    "JUI:0:angry"
    ],
    "props": [
     [
@@ -500,11 +491,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "set": "stadium",
    "acoes": [
     {
@@ -513,7 +499,12 @@
      "quem": 0,
      "alvo": 1
     }
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "two",
