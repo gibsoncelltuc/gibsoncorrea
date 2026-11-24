@@ -129,11 +129,9 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/searchlight | grandes momentos: b2, b4, b6 | planos abertos: 3 | mistura: close 9% | medio 73% | aberto 14% | detalhe 4%
 - Interacoes: b0 susto, b2 cochichar, b3 entregar, b5 discutir, b7 susto, b8 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py losangeles1942  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/losangeles1942/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh losangeles1942 bN bM` (so essas cenas).
