@@ -25,3 +25,13 @@
 ## 24/11 12:38 autocorrecao de visibilidade
 - b4: ja corrigida 3 vezes, objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b6: ja corrigida 3 vezes, objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 24/11 12:40 autocorrecao de visibilidade
+- b6: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx -8.0, cz -29.4), sem multidao na frente
+
+## 24/11 12:40 autocorrecao de visibilidade
+- b6: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto no centro do fundo, so 1 personagem na frente
+- b6: "buildings/shop" tapando a camera (72% do quadro, colado na lente) -> enquadramento trocado para "group" (o que tapava e cenario)
+
+## 24/11 12:41 autocorrecao de visibilidade
+- b6: ja corrigida 3 vezes, objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

@@ -130,9 +130,9 @@
    "objetos": [
     "kit/navio_destroier"
    ],
-   "palavras": 16,
+   "palavras": 15,
    "cena": "b6",
-   "frase": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
+   "frase": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.",
    "classe": "simples",
    "sujeito": "cenario",
    "briefing": {},

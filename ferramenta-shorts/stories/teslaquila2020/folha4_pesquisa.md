@@ -15,10 +15,10 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | A Piada que Virou Tequila | A Piada que Virou Tequila / Elon Musk Dois Era Estados Unidos De Musk Tesla Teslaquila 2020 | SEM REFERENCIA
-lugar | Estados Unidos | Estados Unidos 2020 / Estados Unidos landscape | SEM REFERENCIA
-epoca | roupas e ruas de 2020 | 2020 fashion clothing / 2020 street photograph | SEM REFERENCIA
+lugar | Estados Unidos | Estados Unidos 2020 / Estados Unidos landscape | Parque estatal Chugach, Alaska, Estados Unidos, 20 (referencias/teslaquila2020/prints/estados_unidos_50cb1b.jpg); Parque Eagle River, Anchorage, Alaska, Estados Uni (referencias/teslaquila2020/prints/estados_unidos_acdc1c.jpg)
+epoca | roupas e ruas de 2020 | 2020 fashion clothing / 2020 street photograph | Camp - Notes on Fashion at the Met - Burberry rain (referencias/teslaquila2020/prints/roupas_e_ruas_de_2020_d85c36.jpg); Balaclava as suggested fashion piece for winter 20 (referencias/teslaquila2020/prints/roupas_e_ruas_de_2020_4148a9.jpg); HK CWB Fashion Walk mall clothing shop November 20 (referencias/teslaquila2020/prints/roupas_e_ruas_de_2020_25b237.jpg)
 heroi | tequila bolt | tequila bolt / A Piada que Virou Tequila | SEM REFERENCIA
-heroi | veg cacto | veg cacto | SEM REFERENCIA
+heroi | veg cacto | veg cacto | Ferocactus wislizeni (Fishhook Barrel Cactus) frui (referencias/teslaquila2020/prints/veg_cacto_dab1eb.jpg); Eriosyce curvispina 2019-06-09 02.jpg (referencias/teslaquila2020/prints/veg_cacto_ffa258.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

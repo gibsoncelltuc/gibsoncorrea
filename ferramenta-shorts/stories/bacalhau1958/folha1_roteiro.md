@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 155 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 154 palavras (~53 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Islândia derrotou a marinha inglesa com um cortador de rede.
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b6  (~5.5 s)
-- Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
+## Cena b6  (~5.2 s)
+- Narracao: Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@60, creak@62
 - Efeito + som nas palavras-chave: -

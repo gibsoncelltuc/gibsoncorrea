@@ -51,38 +51,38 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 31.1s a 36.7s - 16 palavras - plano group
-> "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito."
+## Cena b6 - 31.1s a 36.3s - 15 palavras - plano group
+> "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 37.0s a 41.9s - 14 palavras - plano two
+## Cena b7 - 36.7s a 41.5s - 14 palavras - plano two
 > "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ameaçou (37.8s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | fechar (38.1s) | ACAO: empurra | empurra/puxa | OK |
+| 1 | ameaçou (37.4s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
+| 2 | fechar (37.8s) | ACAO: empurra | empurra/puxa | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | discutir | OK |
 | 6 | - | MAPA | INGLATERRA | OK |
 | 7 | - | PLACA | OTAN | OK |
 
-## Cena b8 - 42.2s a 49.3s - 20 palavras - plano group
+## Cena b8 - 41.9s a 48.9s - 20 palavras - plano group
 > "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | espalhou (48.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | espalhou (48.1s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | VITÓRIA ISLANDESA | OK |
 
-## Cena b9 - 49.6s a 52.2s - 8 palavras - plano two
+## Cena b9 - 49.3s a 51.9s - 8 palavras - plano two
 > "Uma guerra inteira, por causa de um bacalhau."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -90,7 +90,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | TUDO POR UM BACALHAU | OK |
 
-## Cena b10 - 52.6s a 57.0s - 13 palavras - plano close
+## Cena b10 - 52.2s a 56.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

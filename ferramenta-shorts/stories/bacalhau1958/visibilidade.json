@@ -1,8 +1,6 @@
 {
  "id": "bacalhau1958",
  "falhas": [
-  "b4: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
-  "b4~1: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
   "b6: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
   "b6~1: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
   "b6~2: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
@@ -278,13 +276,13 @@
    "id": "b4",
    "quadros": [
     {
-     "f": 645,
+     "f": 644,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.09486166007905138,
-       "vis": 0.08333333333333333,
-       "area": 0.6221246977014723
+       "inq": 0.7470355731225297,
+       "vis": 1,
+       "area": 0.4711981571353873
       }
      ],
      "bloq": null,
@@ -292,13 +290,13 @@
      "cortado": 0
     },
     {
-     "f": 662,
+     "f": 661,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.07114624505928854,
-       "vis": 0.2777777777777778,
-       "area": 0.6179762874116299
+       "inq": 0.6719367588932806,
+       "vis": 0.9882352941176471,
+       "area": 0.49897552895316427
       }
      ],
      "bloq": null,
@@ -306,13 +304,13 @@
      "cortado": 0
     },
     {
-     "f": 679,
+     "f": 677,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.05138339920948617,
-       "vis": 0.15384615384615385,
-       "area": 0.5695195774370235
+       "inq": 0.6086956521739131,
+       "vis": 0.974025974025974,
+       "area": 0.5263621071222739
       }
      ],
      "bloq": null,
@@ -325,13 +323,13 @@
    "id": "b4~1",
    "quadros": [
     {
-     "f": 703,
+     "f": 700,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.05928853754940711,
-       "vis": 0.8,
-       "area": 0.582195401117779
+       "inq": 0.5691699604743083,
+       "vis": 1,
+       "area": 0.4210132688591664
       }
      ],
      "bloq": null,
@@ -339,13 +337,13 @@
      "cortado": 0
     },
     {
-     "f": 721,
+     "f": 716,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.07905138339920949,
-       "vis": 0.4,
-       "area": 0.5002702428404184
+       "inq": 0.6877470355731226,
+       "vis": 0.9942528735632183,
+       "area": 0.3721202520992595
       }
      ],
      "bloq": null,
@@ -353,13 +351,13 @@
      "cortado": 0
     },
     {
-     "f": 738,
+     "f": 732,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.08695652173913043,
-       "vis": 0.36363636363636365,
-       "area": 0.5232338759877846
+       "inq": 0.7470355731225297,
+       "vis": 0.9735449735449735,
+       "area": 0.3811847854394328
       }
      ],
      "bloq": null,
@@ -372,21 +370,21 @@
    "id": "b5",
    "quadros": [
     {
-     "f": 761,
+     "f": 755,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 778,
+     "f": 772,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 795,
+     "f": 789,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -398,21 +396,21 @@
    "id": "b5~1",
    "quadros": [
     {
-     "f": 818,
+     "f": 812,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 835,
+     "f": 830,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 852,
+     "f": 847,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -424,21 +422,21 @@
    "id": "b5~2",
    "quadros": [
     {
-     "f": 875,
+     "f": 870,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 892,
+     "f": 887,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 909,
+     "f": 904,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -450,7 +448,7 @@
    "id": "b6",
    "quadros": [
     {
-     "f": 932,
+     "f": 927,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -464,7 +462,7 @@
      "cortado": 0
     },
     {
-     "f": 948,
+     "f": 943,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -478,7 +476,7 @@
      "cortado": 0
     },
     {
-     "f": 964,
+     "f": 959,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -497,7 +495,7 @@
    "id": "b6~1",
    "quadros": [
     {
-     "f": 987,
+     "f": 982,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -511,7 +509,7 @@
      "cortado": 0
     },
     {
-     "f": 1004,
+     "f": 999,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -525,7 +523,7 @@
      "cortado": 0
     },
     {
-     "f": 1020,
+     "f": 1015,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -544,7 +542,7 @@
    "id": "b6~2",
    "quadros": [
     {
-     "f": 1043,
+     "f": 1038,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -558,7 +556,7 @@
      "cortado": 0
     },
     {
-     "f": 1059,
+     "f": 1054,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -572,7 +570,7 @@
      "cortado": 0
     },
     {
-     "f": 1075,
+     "f": 1070,
      "objs": [
       {
        "a": "kit/navio_destroier",
@@ -591,21 +589,21 @@
    "id": "b7",
    "quadros": [
     {
-     "f": 1096,
+     "f": 1091,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1110,
+     "f": 1105,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1123,
+     "f": 1118,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -617,21 +615,21 @@
    "id": "b7~1",
    "quadros": [
     {
-     "f": 1142,
+     "f": 1137,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1156,
+     "f": 1150,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1169,
+     "f": 1163,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -643,21 +641,21 @@
    "id": "b7~2",
    "quadros": [
     {
-     "f": 1188,
+     "f": 1182,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1202,
+     "f": 1196,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1215,
+     "f": 1209,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -669,21 +667,21 @@
    "id": "b8",
    "quadros": [
     {
-     "f": 1234,
+     "f": 1228,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1249,
+     "f": 1243,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1263,
+     "f": 1257,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -695,21 +693,21 @@
    "id": "b8~1",
    "quadros": [
     {
-     "f": 1282,
+     "f": 1276,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1297,
+     "f": 1291,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1311,
+     "f": 1305,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -721,21 +719,21 @@
    "id": "b8~2",
    "quadros": [
     {
-     "f": 1330,
+     "f": 1324,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1344,
+     "f": 1339,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1358,
+     "f": 1353,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -747,21 +745,21 @@
    "id": "b8~3",
    "quadros": [
     {
-     "f": 1377,
+     "f": 1372,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1392,
+     "f": 1387,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1406,
+     "f": 1401,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -773,7 +771,7 @@
    "id": "b9",
    "quadros": [
     {
-     "f": 1422,
+     "f": 1417,
      "objs": [
       {
        "a": "kit/cod",
@@ -787,7 +785,7 @@
      "cortado": 0
     },
     {
-     "f": 1432,
+     "f": 1427,
      "objs": [
       {
        "a": "kit/cod",
@@ -801,7 +799,7 @@
      "cortado": 0
     },
     {
-     "f": 1442,
+     "f": 1437,
      "objs": [
       {
        "a": "kit/cod",
@@ -820,7 +818,7 @@
    "id": "b9_d",
    "quadros": [
     {
-     "f": 1453,
+     "f": 1448,
      "objs": [
       {
        "a": "kit/cod",
@@ -834,7 +832,7 @@
      "cortado": 0
     },
     {
-     "f": 1460,
+     "f": 1455,
      "objs": [
       {
        "a": "kit/cod",
@@ -848,7 +846,7 @@
      "cortado": 0
     },
     {
-     "f": 1466,
+     "f": 1461,
      "objs": [
       {
        "a": "kit/cod",
@@ -867,7 +865,7 @@
    "id": "b9_v",
    "quadros": [
     {
-     "f": 1478,
+     "f": 1473,
      "objs": [
       {
        "a": "kit/cod",
@@ -881,7 +879,7 @@
      "cortado": 1
     },
     {
-     "f": 1489,
+     "f": 1484,
      "objs": [
       {
        "a": "kit/cod",
@@ -895,7 +893,7 @@
      "cortado": 0
     },
     {
-     "f": 1499,
+     "f": 1494,
      "objs": [
       {
        "a": "kit/cod",
@@ -914,21 +912,21 @@
    "id": "b10",
    "quadros": [
     {
-     "f": 1520,
+     "f": 1515,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1540,
+     "f": 1535,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1559,
+     "f": 1554,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -940,21 +938,21 @@
    "id": "b10~1",
    "quadros": [
     {
-     "f": 1586,
+     "f": 1581,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1606,
+     "f": 1601,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1625,
+     "f": 1620,
      "objs": [],
      "bloq": null,
      "dentro": null,

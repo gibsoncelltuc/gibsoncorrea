@@ -148,13 +148,13 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 - Objeto heroi: kit/tequila_bolt | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 23% | medio 60% | aberto 9% | detalhe 7%
 - Interacoes: b0 insiste, b2 discutir, b3 entregar, b4 o outro se aproxima, b5 cochichar, b8 entregar, b9 vai ate o outro
 - RISCOS GERAIS: 
-  - video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py teslaquila2020  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/teslaquila2020/moodboard.jpg
+  - video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - FOLHA 4: 2 item(ns) sem referencia visual: A Piada que Virou Tequila, tequila bolt -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
 ## RESUMO: 3 risco(s) em aberto
-- geral: video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: FOLHA 4: 2 item(ns) sem referencia visual: A Piada que Virou Tequila, tequila bolt
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

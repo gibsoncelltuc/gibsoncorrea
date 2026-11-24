@@ -190,7 +190,6 @@
    ]
   },
   {
-   "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -221,7 +220,8 @@
    "h": 8.0,
    "d0": 48,
    "d1": 40,
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "say": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
   },
   {
    "say": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",

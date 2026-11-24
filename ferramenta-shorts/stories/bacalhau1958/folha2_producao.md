@@ -62,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, islandia, rede
 - RISCOS: nenhum
 
-## Cena b6 - Eles cortavam os cabos das redes inglesas, e os navios batiam um no ou...
+## Cena b6 - Eles cortavam os cabos das redes, e os navios batiam um no outro, de p...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -123,7 +123,7 @@ crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b4, b7, b8 | planos abertos: 2 | mistura: close 19% | medio 59% | aberto 21% | detalhe 1%
+- Objeto heroi: kit/cod | grandes momentos: b4, b7, b8 | planos abertos: 2 | mistura: close 19% | medio 58% | aberto 21% | detalhe 1%
 - Interacoes: b2 o outro se aproxima, b7 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 

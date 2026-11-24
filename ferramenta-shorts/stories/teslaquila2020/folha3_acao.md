@@ -117,7 +117,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b12 - 69.4s a 69.4s - 13 palavras - plano close
+## Cena b12 - 70.6s a 73.9s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
