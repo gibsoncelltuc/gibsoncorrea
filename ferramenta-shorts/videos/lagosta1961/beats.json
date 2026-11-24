@@ -57,9 +57,9 @@
    "props": [
     [
      "kit/lobster",
-     0.6,
+     2.4,
+     0.2,
      1.0,
-     2.2,
      {
       "fixo": true
      }
@@ -77,22 +77,20 @@
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 13.5,
-   "d1": 13.0,
-   "_auto_vis": 3
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "wide",
@@ -321,9 +319,9 @@
    "props": [
     [
      "kit/lobster",
-     0.0,
-     -1.0,
-     2.2,
+     2.4,
+     0.2,
+     1.0,
      {
       "fixo": true
      }
@@ -338,22 +336,20 @@
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 13.5,
-   "d1": 13.0,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "ano": 1961,

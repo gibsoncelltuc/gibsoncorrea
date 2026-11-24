@@ -15,5 +15,5 @@ b9 | crowd | -  | batalha aberta com tiros, tropa, placa: POST-IT | encena: x_en
 b10 | two | -  | placa: 1980 | chegou (dust + som de impacto); encena: chega (point) @7 (acao + som de efeito); encena: perde (facepalm) @15 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 64% | aberto 15% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 20% | medio 62% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

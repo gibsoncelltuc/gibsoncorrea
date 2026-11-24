@@ -402,7 +402,7 @@
      }
     ]
    },
-   "detalhe": false,
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

@@ -95,7 +95,8 @@ for k, b in enumerate(BT):
             rel = f'{num(H)} m: {"ao lado do personagem" if n_p <= 1 else "entre e um pouco atras dos personagens"}, mesmo plano, tamanho de uma pessoa'
         else:
             lugar = 'FRENTE'; alvo_h = 0.75 if HEROI and fam(a) == fam(HEROI) else 0.55
-            if H < alvo_h: s = s * alvo_h / H; H = alvo_h
+            M_ = max(H, L); alvo_m = 1.1 if HEROI and fam(a) == fam(HEROI) else 0.8   # o tamanho le pela MAIOR medida (lagosta comprida ampliada pela altura ficava gigante)
+            if M_ < alvo_m: f_ = alvo_m / M_; s = s * f_; H = H * f_; L = L * f_
             x = (0.0 if n_p != 1 else 1.0) if eh_p else (-1.6 if -1.6 not in usados_x else 1.6); z = 1.0 if eh_p else 0.8; tela = round(H / (2 * TANF * 9.0), 2)
             rel = f'objeto pequeno ampliado para {num(H)} m (le de longe): NA FRENTE, {"entre os personagens" if eh_p else "ao lado"}, sem tapar rosto'
         usados_x.append(x)
