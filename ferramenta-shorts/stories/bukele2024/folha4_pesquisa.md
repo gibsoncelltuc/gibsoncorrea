@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Presidente dos 85 por Cento
 - Epoca: 2024 | Lugar: San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao | Quando: 4/fev/2024; apuracao e comemoracao de noite
-- HEROIS (objeto): kit/ballot_box, kit/volcano
+- HEROIS (objeto): kit/ballot_box
 - HEROIS (personagens): BUK, REP
 - Cenarios: interior loja, interior madeira, loc_campo, loc_cidade, loc_patio, loc_pista, palace
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -26,7 +26,6 @@ objeto | urnas | El Salvador election ballot box voting 2024 / urnas / urnas 202
 objeto | bandeira de El Salvador (azul e branca) | bandeira de El Salvador / bandeira de El Salvador 2024 | CGI El Salvador Flag.png (referencias/bukele2024/prints/bandeira_de_el_salvador_azul_e_branca__e734ac.jpg); Bandeira Santa Tecla, El Salvador.png (referencias/bukele2024/prints/bandeira_de_el_salvador_azul_e_branca__fa394f.jpg); Bandeira de El Salvador. JMJ - Brasil (9377164415) (referencias/bukele2024/prints/bandeira_de_el_salvador_azul_e_branca__ab66d5.jpg)
 objeto | cartaz com rosto de Bukele | Nayib Bukele campaign poster Nuevas Ideas / cartaz com rosto de Bukele / cartaz com rosto de Bukele 2024 | Presidente Bukele (cropped).jpg (referencias/bukele2024/prints/cartaz_com_rosto_de_bukele_cffca9.jpg); Nayib Bukele and the armed forces in 2019 (E0A1211 (referencias/bukele2024/prints/cartaz_com_rosto_de_bukele_24bbfc.jpg); Nayib Bukele and the armed forces in 2019 (E0A1119 (referencias/bukele2024/prints/cartaz_com_rosto_de_bukele_11b7da.jpg)
 heroi | ballot box | ballot box election voting booth / urnas / O Presidente dos 85 por Cento | Las urnas del tama.jpg (referencias/bukele2024/prints/ballot_box_968f5b.jpg); Fragmentos de urnas procedentes de Cabezo Colorao, (referencias/bukele2024/prints/ballot_box_ef835c.jpg)
-heroi | volcano | volcano | Tavurvur volcano edit.jpg (referencias/bukele2024/prints/volcano_bbbdad.jpg); Volcán de Ollagüe, Bolivia, 2016-02-03, DD 80-88 P (referencias/bukele2024/prints/volcano_004c05.jpg); Радуга над вулканическими конусами.jpg (referencias/bukele2024/prints/volcano_4e2f60.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

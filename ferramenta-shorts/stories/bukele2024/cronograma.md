@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Gerado em 24/11 09:25 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 15:36 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | interior madeira | two | JUI, REP | - | scroll | - | A Constitui�
 b4 | simples | loc_patio | two | REP, POV | - | - | - | Críticos e opositores disseram que a candidatura era ilegal. O governo
 b5 | simples | loc_campo | two | POV, POV | - | ballot_box | - | No dia da eleição, os salvadorenhos foram às urnas.
 b6 | simples | loc_pista | orbit | REP, BUK | 6 | - | - | Acontece que o resultado impressionou: Bukele teve quase oitenta e cin
-b7 | chave | palace | orbit | BUK, POV, POV | 22 | ballot_box, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
+b7 | chave | palace | orbit | BUK, POV, POV | 22 | porch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
 b8 | simples | interior loja | two | REP, BUK | - | - | - | Os eleitores citaram os assassinatos: de cento e seis para dois vírgul
 b9 | simples | loc_pista | two | REP, POV | - | prison | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
 b10 | simples | loc_pista | close | BUK | - | ballot_box, globe | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
@@ -24,19 +24,19 @@ b11 | simples | loc_campo | close | BUK | - | - | - | Agora não deixe de coment
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/13 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/12 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | PENDENTE | ./conferir.sh bukele2024
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local bukele2024 <mp4>
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh bukele2024
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh bukele2024
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local bukele2024 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 12. Conferencia
+**Etapa atual:** 4. Travas do roteiro
 

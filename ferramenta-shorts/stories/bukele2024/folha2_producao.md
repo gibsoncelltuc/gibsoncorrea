@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh); POV (variante 1, expressao shout) | multidao: 22 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/ballot_box, kit/volcano
+- Objetos/modelos: kit/porch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores, ruas
 - RISCOS: nenhum
 
@@ -127,9 +127,10 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/ballot_box | b0, b5, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ballot_box | b0, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/porch | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/prison | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
@@ -137,9 +138,11 @@ kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/ballot_box | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 17% | medio 57% | aberto 21% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b3 discutir, b4 susto, b5 entregar, b8 insiste, b9 empurrar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - contexto arrastado: datas em 3 frases seguidas no comeco (o espectador sai antes da historia andar) -> CORRECAO: deixar so uma frase de contexto (data + lugar) logo depois do gancho
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: contexto arrastado: datas em 3 frases seguidas no comeco (o espectador sai antes da historia andar)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukele2024 bN bM` (so essas cenas).
