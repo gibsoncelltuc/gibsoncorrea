@@ -9,4 +9,4 @@ b7: OK - os marinheiros viram a cavalaria chegar e a frota se rendeu: marinheiro
 b8: OK - mais de uma dezena de navios capturados por soldados a cavalo: hussardos montados ao lado dos navios
 b9: OK - a unica vez na historia em que uma cavalaria capturou uma frota: oficial rindo, placa CAVALARIA 1 X 0 MARINHA
 pesquisa: o quadro de referencias mostra a frota holandesa presa no gelo em Den Helder, hussardos franceses de 1795 de dolma azul e barretina, o mar congelado de Texel e a pintura da captura; comparei fardas, navios a vela, gelo e cavalos
-defeitos procurados: cenario de porto e gelo de 1795 sem predio moderno; epoca 1795 sem vapor; tamanho real do navio de 30 m e dos cavalos; ninguem cortado; multidao sem clone; legenda livre; acao de cada frase visivel (cavalgada, gelo, rendicao); cavaleiro sempre em cima do cavalo
+defeitos procurados: cenario de porto e gelo de 1795 sem predio moderno; epoca 1795 sem vapor; tamanho real do navio de 30 m e dos cavalos; ninguem cortado; multidao sem clone; legenda livre; acao de cada frase visivel (cavalgada, gelo, rendicao); cavaleiro sempre em cima do cavalo; objeto do video o navio a vela aparece inteiro
