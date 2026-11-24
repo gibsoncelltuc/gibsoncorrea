@@ -92,7 +92,7 @@
    "sfx": [
     "ding@40"
    ],
-   "set": "palace"
+   "set": "loc_cidade"
   },
   {
    "shot": "two",
@@ -215,7 +215,9 @@
     "BUK:0:smug"
    ],
    "acao": "conversar",
-   "say": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país."
+   "say": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.",
+   "interior": false,
+   "objetos": false
   },
   {
    "shot": "two",

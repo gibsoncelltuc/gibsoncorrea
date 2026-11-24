@@ -65,7 +65,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -179,7 +179,9 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/volcano"
+   ],
    "palavras": 15,
    "cena": "b8",
    "frase": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.",
@@ -187,7 +189,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",

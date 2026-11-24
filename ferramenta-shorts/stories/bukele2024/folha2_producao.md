@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete a...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - O motivo mais citado pelos eleitores: a queda enorme no número de assa...
-- Cenario: interior hospital | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, motivo, numero, queda
 - RISCOS: nenhum
 
@@ -128,7 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ballot_box | b0, b5, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b2, b5, b7, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b2, b5, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

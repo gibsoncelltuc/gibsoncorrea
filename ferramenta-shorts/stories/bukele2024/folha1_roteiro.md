@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b2  (~7.6 s)
 - Narracao: Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete anos, prometendo acabar com a violência das gangues.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: encena: fala (point) @15 -> acao + som de efeito
 - Efeito visual marcado: stars@40
@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: HOSPITAL
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.2 s)

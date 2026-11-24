@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "hall",
-   "interior hospital",
    "interior loja",
    "interior madeira",
    "loc_campo",
@@ -42,10 +41,8 @@
  "objetos_em_cena": [
   "kit/ballot_box",
   "kit/globe",
-  "kit/maca",
   "kit/room_eua_wood",
   "kit/room_europa_shop",
-  "kit/room_hospital",
   "kit/scroll",
   "kit/volcano",
   "mk/Bookcase_2",
