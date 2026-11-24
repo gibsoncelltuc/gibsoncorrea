@@ -1,288 +1,243 @@
 {
- "duration": 68.76,
- "frames30": 2063,
- "source": "silence-align (cost 0.76)",
+ "duration": 55.056,
+ "frames30": 1652,
+ "source": "silence-align (cost 0.72)",
  "segments": [
   [
    0.158583,
-   1.287
+   1.00983
   ],
   [
-   1.52004,
-   3.81642
+   1.22071,
+   3.56883
   ],
   [
-   4.669,
-   6.54108
+   4.41387,
+   5.66979
   ],
   [
-   7.43933,
-   8.89438
+   6.57575,
+   8.03083
   ],
   [
-   9.10525,
-   10.0454
+   8.24167,
+   9.18187
   ],
   [
-   10.2424,
-   10.8435
+   9.37879,
+   9.97992
   ],
   [
-   11.6819,
-   14.6087
+   10.8185,
+   12.9273
   ],
   [
-   14.9146,
-   16.2385
+   13.1094,
+   14.3736
   ],
   [
-   17.1009,
-   18.4985
+   15.2374,
+   16.6343
   ],
   [
-   19.3943,
-   21.5568
+   17.527,
+   19.7015
   ],
   [
-   22.486,
-   23.3944
+   19.984,
+   21.3567
   ],
   [
-   23.6753,
-   24.6015
+   22.149,
+   23.2217
   ],
   [
-   25.419,
-   26.5662
+   23.4621,
+   25.758
   ],
   [
-   27.4413,
-   28.5035
+   26.6122,
+   27.9059
   ],
   [
-   28.7914,
-   31.0101
+   28.1515,
+   29.9658
   ],
   [
-   31.8626,
-   33.62
+   30.8115,
+   32.3307
   ],
   [
-   33.8461,
-   35.3353
+   32.5292,
+   32.9309
   ],
   [
-   35.6268,
-   37.1548
+   33.3138,
+   34.8313
   ],
   [
-   38.004,
-   39.5232
+   35.7005,
+   36.6082
   ],
   [
-   39.7218,
-   40.1234
+   36.8397,
+   38.6176
   ],
   [
-   40.5063,
-   42.0238
+   39.4886,
+   42.307
   ],
   [
-   42.8935,
-   44.8971
+   43.2207,
+   47.1118
   ],
   [
-   45.1268,
-   46.8491
+   47.9455,
+   48.2963
   ],
   [
-   47.7236,
-   49.9214
+   48.5212,
+   49.8983
   ],
   [
-   50.2599,
-   51.5284
+   50.7569,
+   52.2003
   ],
   [
-   52.4348,
-   56.495
-  ],
-  [
-   57.367,
-   57.6807
-  ],
-  [
-   57.8212,
-   60.3437
-  ],
-  [
-   61.2048,
-   63.6174
-  ],
-  [
-   64.4512,
-   65.8955
-  ],
-  [
-   66.1883,
-   67.9499
+   52.4943,
+   54.2561
   ]
  ],
  "phrases": [
   {
-   "text": "Durante sessenta anos,",
+   "text": "Durante d\u00e9cadas,",
    "s": 0.159,
-   "e": 1.287
+   "e": 1.01
   },
   {
    "text": "todo foguete era jogado fora depois de um voo.",
-   "s": 1.52,
-   "e": 3.816
+   "s": 1.221,
+   "e": 3.569
   },
   {
-   "text": "At\u00e9 que um deles voltou e desceu de r\u00e9.",
-   "s": 4.669,
-   "e": 6.541
+   "text": "At\u00e9 que um desceu de r\u00e9.",
+   "s": 4.414,
+   "e": 5.67
   },
   {
    "text": "Foi em dezembro de dois mil e quinze,",
-   "s": 7.439,
-   "e": 8.894
+   "s": 6.576,
+   "e": 8.031
   },
   {
    "text": "no Cabo Canaveral,",
-   "s": 9.105,
-   "e": 10.045
+   "s": 8.242,
+   "e": 9.182
   },
   {
    "text": "na Fl\u00f3rida.",
-   "s": 10.242,
-   "e": 10.844
+   "s": 9.379,
+   "e": 9.98
   },
   {
-   "text": "Elon Musk queria reaproveitar os foguetes da SpaceX,",
-   "s": 11.682,
-   "e": 14.609
+   "text": "Elon Musk queria reaproveitar foguetes,",
+   "s": 10.819,
+   "e": 12.927
   },
   {
-   "text": "como se reaproveita um avi\u00e3o.",
-   "s": 14.915,
-   "e": 16.238
+   "text": "em vez de jog\u00e1-los fora.",
+   "s": 13.109,
+   "e": 14.374
   },
   {
    "text": "Muitos achavam imposs\u00edvel.",
-   "s": 17.101,
-   "e": 18.498
+   "s": 15.237,
+   "e": 16.634
   },
   {
-   "text": "As primeiras tentativas de pouso deram errado.",
-   "s": 19.394,
-   "e": 21.557
+   "text": "As primeiras tentativas de pouso deram errado,",
+   "s": 17.527,
+   "e": 19.701
   },
   {
-   "text": "Foguetes tombaram,",
-   "s": 22.486,
-   "e": 23.394
-  },
-  {
-   "text": "e explodiram no mar.",
-   "s": 23.675,
-   "e": 24.602
-  },
-  {
-   "text": "Mas a equipe insistiu.",
-   "s": 25.419,
-   "e": 26.566
+   "text": "e os foguetes tombaram no mar.",
+   "s": 19.984,
+   "e": 21.357
   },
   {
    "text": "Em vinte e um de dezembro,",
-   "s": 27.441,
-   "e": 28.503
+   "s": 22.149,
+   "e": 23.222
   },
   {
-   "text": "o Falcon nove decolou levando sat\u00e9lites.",
-   "s": 28.791,
-   "e": 31.01
+   "text": "o Falcon nove decolou com onze sat\u00e9lites.",
+   "s": 23.462,
+   "e": 25.758
   },
   {
-   "text": "Depois de soltar a parte de cima,",
-   "s": 31.863,
-   "e": 33.62
+   "text": "Depois de soltar o topo,",
+   "s": 26.612,
+   "e": 27.906
   },
   {
-   "text": "a parte de baixo virou no c\u00e9u,",
-   "s": 33.846,
-   "e": 35.335
-  },
-  {
-   "text": "e come\u00e7ou a voltar para a Terra.",
-   "s": 35.627,
-   "e": 37.155
+   "text": "a parte de baixo voltou para a Terra.",
+   "s": 28.151,
+   "e": 29.966
   },
   {
    "text": "Acontece que ela desceu de r\u00e9,",
-   "s": 38.004,
-   "e": 39.523
+   "s": 30.811,
+   "e": 32.331
   },
   {
    "text": "de p\u00e9,",
-   "s": 39.722,
-   "e": 40.123
+   "s": 32.529,
+   "e": 32.931
   },
   {
    "text": "com o motor aceso freando a queda.",
-   "s": 40.506,
-   "e": 42.024
+   "s": 33.314,
+   "e": 34.831
   },
   {
-   "text": "E desceu certinho no meio da plataforma,",
-   "s": 42.894,
-   "e": 44.897
+   "text": "E pousou inteira,",
+   "s": 35.7,
+   "e": 36.608
   },
   {
    "text": "abrindo as pernas no \u00faltimo segundo.",
-   "s": 45.127,
-   "e": 46.849
+   "s": 36.84,
+   "e": 38.618
   },
   {
-   "text": "Os funcion\u00e1rios da SpaceX gritaram de alegria,",
-   "s": 47.724,
-   "e": 49.921
+   "text": "Os funcion\u00e1rios da SpaceX comemoraram e se abra\u00e7aram.",
+   "s": 39.489,
+   "e": 42.307
   },
   {
-   "text": "como numa final de campeonato.",
-   "s": 50.26,
-   "e": 51.528
-  },
-  {
-   "text": "Foi a primeira vez que um foguete desse tamanho voltou do espa\u00e7o e ficou inteiro em terra.",
-   "s": 52.435,
-   "e": 56.495
+   "text": "Foi a primeira vez que o primeiro est\u00e1gio de um foguete orbital voltou e pousou inteiro.",
+   "s": 43.221,
+   "e": 47.112
   },
   {
    "text": "Hoje,",
-   "s": 57.367,
-   "e": 57.681
+   "s": 47.946,
+   "e": 48.296
   },
   {
-   "text": "os foguetes da SpaceX pousam quase toda semana.",
-   "s": 57.821,
-   "e": 60.344
-  },
-  {
-   "text": "E a viagem ao espa\u00e7o ficou muito mais barata.",
-   "s": 61.205,
-   "e": 63.617
+   "text": "pousar de r\u00e9 virou rotina.",
+   "s": 48.521,
+   "e": 49.898
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 64.451,
-   "e": 65.895
+   "s": 50.757,
+   "e": 52.2
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 66.188,
-   "e": 67.95
+   "s": 52.494,
+   "e": 54.256
   }
  ]
 }

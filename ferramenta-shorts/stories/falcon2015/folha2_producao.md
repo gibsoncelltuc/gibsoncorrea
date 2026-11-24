@@ -2,185 +2,159 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/falcon2015/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py falcon2015` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Durante sessenta anos, todo foguete era jogado fora depois de um voo. ...
-- Cenario: harbor | luz: day | clima: limpo
+## Cena b0 - Durante décadas, todo foguete era jogado fora depois de um voo. Até qu...
+- Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: conversar
-- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral, kit/rocket
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- Objetos/modelos: kit/falcon9_land, kit/rocket
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desceu
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_pista; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.2 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2015" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (0.2-2.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (2.3-4.3 s): mesmo angulo
-  - take 3 (4.3-6.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (0.2-2.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (2.0-3.7 s): mesmo angulo
+  - take 3 (3.7-5.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.
-- Cenario: loc_pista | luz: day | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: kit/marco_canaveral
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabo, dois, florida
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: fazenda aberta; hora: day
+- LOCAL: loc_campo; hora: golden
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (7.4-8.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (8.9-10.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (6.6-8.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (8.1-9.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b2 - Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaprovei...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b2 - Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muito...
+- Cenario: hall | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MUS (variante 0, expressao smile); ENG (variante 0, expressao worried, segura paper)
+- Animacao: discutir | interacao: discutir
+- Objetos/modelos: kit/rocket
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogalos
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: salao; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MUS na esquerda, expressao smile; ENG na direita, expressao worried, segura paper; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (10.8-12.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (12.6-14.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (14.3-16.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
+
+## Cena b3 - As primeiras tentativas de pouso deram errado, e os foguetes tombaram ...
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENG (variante 0, expressao worried, segura paper) | multidao: 0 de 
-- Animacao: discutir
-- Objetos/modelos: kit/rocket, kit/falcon9_land, kit/marco_canaveral
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aviao, foguetes, spacex
+- Personagens principais (1): ENG (variante 0, expressao shock) | multidao: 0 de 
+- Animacao: tomba
+- Objetos/modelos: kit/falcon9_land, kit/rocket
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguetes, pouso, primeiras
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: ENG no centro, expressao worried, segura paper; sem multidao; acao: discutir
-- OBJETO kit/rocket: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.5 m de altura x 2.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/falcon9_land: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 10.2 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (11.7-13.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (13.3-14.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (14.8-16.4 s): mesmo angulo
-  - take 4 (16.4-18.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
+- PERSONAGENS: ENG no centro, expressao shock; sem multidao; acao: tomba
+- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.2 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
+- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +70 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
+- SOM: thump@40
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (17.5-19.4 s): mesmo angulo
+  - take 2 (19.4-21.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b3 - As primeiras tentativas de pouso deram errado. Foguetes tombaram, e ex...
-- Cenario: harbor | luz: day | clima: limpo
+## Cena b4 - Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: encena
+- Objetos/modelos: kit/falcon_air, kit/rocket, kit/starlink_sat
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dezembro, falcon, onze
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_pista; hora: golden
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao stern; sem multidao; acao: entregar
+- OBJETO kit/rocket: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.5 m de altura x 2.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "11 SATÉLITES" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (22.1-23.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (23.6-25.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b5 - Depois de soltar o topo, a parte de baixo voltou para a Terra.
+- Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): ENA (variante 0, expressao sad) | multidao: 0 de 
-- Animacao: conversar
-- Objetos/modelos: kit/rocket, kit/marco_canaveral
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pouso, primeiras
-- RISCOS: 
-  - ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera) -> CORRECAO: por o objeto da acao em "props" (veiculo/objeto grande) para a ferramenta animar com VFX, ou "batalha"/"explica" na cena
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: ENA no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/rocket: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.1 m de altura x 2.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
-- SOM: cannon@30
-- SOM: thump@50
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (19.4-21.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (21.1-22.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (22.8-24.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b4 - Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolo...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao stern); ENG (variante 0, expressao grin, segura paper)
-- Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/marco_canaveral, kit/rocket, kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dezembro, equipe, falcon
+- Personagens principais (1): ENA (variante 0, expressao nervous) | multidao: 0 de 
+- Animacao: reagir
+- Objetos/modelos: kit/falcon_air
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): baixo, soltar, terra, topo
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MUS na esquerda, expressao stern; ENG na direita, expressao grin, segura paper; sem multidao; acao: entregar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (25.4-27.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (27.1-28.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (28.8-30.5 s): mesmo angulo
-<!-- /FICHA -->
-
-## Cena b5 - Depois de soltar a parte de cima, a parte de baixo virou no céu, e com...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de 
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/falcon_air, kit/marco_canaveral
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): baixo, cima, soltar, terra, voltar
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
-- PERSONAGENS: ENG no centro, expressao surprised; sem multidao; acao: batalha
-- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.5 m de altura x 5.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- LOCAL: loc_pista; hora: golden
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
+- PERSONAGENS: ENA no centro, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.0 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +20 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@20
 - SOM: thump@40
-- TAKES: sequencia de acao em 3 cameras (5.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (26.6-28.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (28.1-29.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued...
-- Cenario: loc_campo | luz: noite | clima: limpo
+- Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENA (variante 0, expressao nervous) | multidao: 0 de 
+- Personagens principais (1): ENG (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir
-- Objetos/modelos: kit/falcon_air, kit/marco_canaveral
+- Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): motor, queda
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
-- PERSONAGENS: ENA no centro, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.0 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
-- SOM: sting@20
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (38.0-39.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (39.9-41.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-
-## Cena b7 - E desceu certinho no meio da plataforma, abrindo as pernas no último s...
-- Cenario: loc_campo | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): ENG (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir
-- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pernas, plataforma
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: noite
+- LOCAL: loc_pista; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -188,80 +162,97 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: ding@30
 - SOM: thump@50
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (42.9-44.6 s): mesmo angulo
-  - take 2 (44.6-46.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (30.8-32.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (32.7-34.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b8 - Os funcionários da SpaceX gritaram de alegria, como numa final de camp...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b7 - E pousou inteira, abrindo as pernas no último segundo.
+- Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alegria, campeonato, funcionarios, spacex
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/falcon9_land
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pernas
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+- LOCAL: loc_pista; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 13.3 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.2 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - SOM: ding@20
-- SOM: ding@60
+- SOM: thump@60
 - TEXTO NA TELA: "POUSOU!" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Foi a primeira vez que um foguete desse tamanho voltou do espaço e fic...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao smug); ENG (variante 0, expressao grin)
-- Animacao: conversar | interacao: abracar
-- Objetos/modelos: kit/rocket
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, foguete, primeira
+## Cena b8 - Os funcionários da SpaceX comemoraram e se abraçaram.
+- Cenario: hall | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (2): ENA (variante 0, expressao laugh); ENG (variante 0, expressao laugh) | multidao: 6 de ENG
+- Animacao: comemorar | interacao: abracar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): funcionarios, spacex
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loja / taverna; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao smug; ENG na direita, expressao grin; sem multidao; acao: abracar
-- OBJETO kit/rocket: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (52.4-54.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (54.3-56.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- LOCAL: salao; hora: golden
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: ENA na esquerda, expressao laugh; ENG na direita, expressao laugh; multidao de 6 (ENG) ATRAS dos principais; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b10 - Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao es...
-- Cenario: harbor | luz: day | clima: limpo
+## Cena b9 - Foi a primeira vez que o primeiro estágio de um foguete orbital voltou...
+- Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao smile) | multidao: 0 de 
-- Animacao: comemorar
-- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral, kit/rocket
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguetes, spacex, viagem
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
+- Animacao: encena
+- Objetos/modelos: kit/falcon9_land, kit/rocket
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, primeira
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: loc_pista; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
-- PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: comemorar
+- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.2 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (57.4-59.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (59.3-61.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (61.2-63.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TEXTO NA TELA: "PRIMEIRA VEZ" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (43.2-45.0 s): mesmo angulo
+  - take 2 (45.0-46.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b10 - Hoje, pousar de ré virou rotina.
+- Cenario: harbor | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
+- Personagens principais (2): MUS (variante 0, expressao smile); POV (variante 0, expressao smile)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MUS na esquerda, expressao smile; POV na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): MUS (variante 0, expressao grin)
@@ -275,24 +266,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/falcon9_land | b0, b2, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_canaveral | b0, b1, b2, b3, b4, b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/rocket | b0, b2, b3, b4, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon9_land | b0, b3, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b0, b2, b3, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon_air | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/starlink_sat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/falcon_air | b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/rocket | grandes momentos: b5, b8 | planos abertos: 6 | mistura: close 10% | medio 49% | aberto 36% | detalhe 4%
-- Interacoes: b4 entregar, b9 abracar
-- RISCOS GERAIS: 
-  - video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+- Objeto heroi: kit/falcon9_land | grandes momentos: b7 | planos abertos: 6 | mistura: close 10% | medio 42% | aberto 46% | detalhe 2%
+- Interacoes: b2 discutir, b8 abracar, b10 o outro se aproxima
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
-- b3: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
-- geral: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh falcon2015 bN bM` (so essas cenas).
@@ -303,7 +288,7 @@ kit/falcon_air | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (64.5-66.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (66.2-67.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 1 (50.8-52.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (52.5-54.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 

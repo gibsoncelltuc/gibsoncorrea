@@ -6,9 +6,46 @@
    "item": "O Foguete que Voltou de Ré",
    "consultas": [
     "O Foguete que Voltou de Ré",
-    "Durante Até Foi Cabo Canaveral Flórida Elon Musk SpaceX Muitos 2015"
+    "Durante Até Foi Cabo Canaveral Flórida Elon Musk Muitos 2015"
    ],
    "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de",
+   "consultas": [
+    "Cabo Canaveral Flórida",
+    "Cabo Canaveral Flórida Landing Zone 1 área de concreto perto da plataforma de lançamento 2"
+   ],
+   "achados": [
+    {
+     "titulo": "Cape canaveral.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cape_canaveral.jpg/500px-Cape_canaveral.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACape_canaveral.jpg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/cabo_canaveral_fl_rida_landing_zone_1_re_b7dbab.jpg",
+     "consulta": "Cabo Canaveral Flórida"
+    },
+    {
+     "titulo": "Workers at Cape Kennedy watched a Saturn 1B lift off.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Workers_at_Cape_Kennedy_watched_a_Saturn_1B_lift_off.jpg/500px-Workers_at_Cape_Kennedy_watched_a_Saturn_1B_lift_off.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWorkers_at_Cape_Kennedy_watched_a_Saturn_1B_lift_off.jpg",
+     "descricao": "English The Apollo 7/Saturn IB space vehicle is launched from the \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/falcon2015/prints/cabo_canaveral_fl_rida_landing_zone_1_re_25a0e3.jpg",
+     "consulta": "Cabo Canaveral Flórida"
+    },
+    {
+     "titulo": "CAPE CANAVERAL, Fla (68PC-0164).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CAPE_CANAVERAL%2C_Fla_%2868PC-0164%29.jpg/500px-CAPE_CANAVERAL%2C_Fla_%2868PC-0164%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACAPE_CANAVERAL%2C_Fla_%2868PC-0164%29.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/falcon2015/prints/cabo_canaveral_fl_rida_landing_zone_1_re_1e319e.jpg",
+     "consulta": "Cabo Canaveral Flórida"
+    }
+   ]
   },
   {
    "tipo": "lugar",
@@ -85,39 +122,206 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Elon Musk",
+   "consultas": [
+    "Elon Musk",
+    "Elon Musk 2015"
+   ],
+   "achados": [
+    {
+     "titulo": "Elon Musk Colorado 2022 (cropped2).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg/500px-Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AElon_Musk_Colorado_2022_%28cropped2%29.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/elon_musk_e8e7bb.jpg",
+     "consulta": "Elon Musk"
+    },
+    {
+     "titulo": "Elon Musk Royal Society (crop2).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/500px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AElon_Musk_Royal_Society_%28crop2%29.jpg",
+     "descricao": "Маск (2018) Italian \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/falcon2015/prints/elon_musk_1bc86c.jpg",
+     "consulta": "Elon Musk"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "engenheiros da SpaceX",
+   "consultas": [
+    "engenheiros da SpaceX",
+    "engenheiros da SpaceX 2015"
+   ],
+   "achados": [
+    {
+     "titulo": "CRS-20 Dragon–Enhanced.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/CRS-20_Dragon%E2%80%93Enhanced.jpg/500px-CRS-20_Dragon%E2%80%93Enhanced.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACRS-20_Dragon%E2%80%93Enhanced.jpg",
+     "descricao": "Dragon–Enhanced.jpg English: \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/engenheiros_da_spacex_e40014.jpg",
+     "consulta": "SpaceX"
+    },
+    {
+     "titulo": "The SpaceX Factory.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_SpaceX_Factory.jpg/500px-The_SpaceX_Factory.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_SpaceX_Factory.jpg",
+     "descricao": "truetrue 13 June 2020 English Spanish Edificio central de \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/falcon2015/prints/engenheiros_da_spacex_b8f1f9.jpg",
+     "consulta": "SpaceX"
+    },
+    {
+     "titulo": "SpaceX Headquarters, Hawthorne, CA.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/SpaceX_Headquarters%2C_Hawthorne%2C_CA.jpg/500px-SpaceX_Headquarters%2C_Hawthorne%2C_CA.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASpaceX_Headquarters%2C_Hawthorne%2C_CA.jpg",
+     "descricao": "English Portuguese Sede da \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/falcon2015/prints/engenheiros_da_spacex_1b224a.jpg",
+     "consulta": "SpaceX"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "foguete Falcon 9 com pernas de pouso",
+   "consultas": [
+    "foguete Falcon 9 com pernas de pouso",
+    "foguete Falcon 9 com pernas de pouso 2015"
+   ],
+   "achados": [
+    {
+     "titulo": "Dassault Falcon 8X, Paris Air Show 2019, Le Bourget (SIAE8623).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Dassault_Falcon_8X%2C_Paris_Air_Show_2019%2C_Le_Bourget_%28SIAE8623%29.jpg/500px-Dassault_Falcon_8X%2C_Paris_Air_Show_2019%2C_Le_Bourget_%28SIAE8623%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADassault_Falcon_8X%2C_Paris_Air_Show_2019%2C_Le_Bourget_%28SIAE8623%29.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Dassault \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/foguete_falcon_9_com_pernas_de_pouso_bd3e25.jpg",
+     "consulta": "Falcon"
+    },
+    {
+     "titulo": "Falcon, Mississippi.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Falcon%2C_Mississippi.jpg/500px-Falcon%2C_Mississippi.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFalcon%2C_Mississippi.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/falcon2015/prints/foguete_falcon_9_com_pernas_de_pouso_fd1641.jpg",
+     "consulta": "Falcon"
+    },
+    {
+     "titulo": "Brown falcon1444.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brown_falcon1444.jpg/500px-Brown_falcon1444.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrown_falcon1444.jpg",
+     "descricao": "während einer Vogelexpedition in Südostaustralien English: Molly the Brown \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/falcon2015/prints/foguete_falcon_9_com_pernas_de_pouso_727b92.jpg",
+     "consulta": "Falcon"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "primeiro estágio descendo de ré",
+   "consultas": [
+    "primeiro estágio descendo de ré",
+    "primeiro estágio descendo de ré 2015"
+   ],
+   "achados": [
+    {
+     "titulo": "Smooches (baby and child kiss).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Smooches_%28baby_and_child_kiss%29.jpg/500px-Smooches_%28baby_and_child_kiss%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmooches_%28baby_and_child_kiss%29.jpg",
+     "descricao": "DescriptionSmooches (\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/primeiro_est_gio_descendo_de_r__244438.jpg",
+     "consulta": "primeiro estágio"
+    },
+    {
+     "titulo": "Yawning Infant, August 2018.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Yawning_Infant%2C_August_2018.jpg/500px-Yawning_Infant%2C_August_2018.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AYawning_Infant%2C_August_2018.jpg",
+     "descricao": "DescriptionYawning \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/falcon2015/prints/primeiro_est_gio_descendo_de_r__412508.jpg",
+     "consulta": "primeiro estágio"
+    },
+    {
+     "titulo": "Baby.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Baby.jpg/500px-Baby.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABaby.jpg",
+     "descricao": "  English A smiling \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/falcon2015/prints/primeiro_est_gio_descendo_de_r__c5715b.jpg",
+     "consulta": "primeiro estágio"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "satélites Orbcomm",
+   "consultas": [
+    "satélites Orbcomm",
+    "satélites Orbcomm 2015"
+   ],
+   "achados": [
+    {
+     "titulo": "Falcon 9 first stage at LZ-1(two).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Falcon_9_first_stage_at_LZ-1%28two%29.jpg/500px-Falcon_9_first_stage_at_LZ-1%28two%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFalcon_9_first_stage_at_LZ-1%28two%29.jpg",
+     "descricao": "Falcon 9 Full Thrust en la Zona de aterrizaje 1 (LZ-1). Tras poner 11 \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/sat_lites_orbcomm_6fcf40.jpg",
+     "consulta": "satélites Orbcomm"
+    },
+    {
+     "titulo": "Falcon 9 first stage at LZ-1(two).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Falcon_9_first_stage_at_LZ-1%28two%29.jpg/500px-Falcon_9_first_stage_at_LZ-1%28two%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFalcon_9_first_stage_at_LZ-1%28two%29.jpg",
+     "descricao": "Falcon 9 Full Thrust en la Zona de aterrizaje 1 (LZ-1). Tras poner 11 \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/sat_lites_orbcomm_6fcf40.jpg",
+     "consulta": "satélites Orbcomm 2015"
+    }
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "rocket",
    "consultas": [
-    "rocket",
+    "foguete Falcon 9 com pernas de pouso",
     "O Foguete que Voltou de Ré"
    ],
    "achados": [
     {
-     "titulo": "Soyuz TMA-5 launch.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Soyuz_TMA-5_launch.jpg/500px-Soyuz_TMA-5_launch.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoyuz_TMA-5_launch.jpg",
-     "descricao": "Soyuz \\u003Cspan class=\\",
+     "titulo": "Dassault Falcon 8X, Paris Air Show 2019, Le Bourget (SIAE8623).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Dassault_Falcon_8X%2C_Paris_Air_Show_2019%2C_Le_Bourget_%28SIAE8623%29.jpg/500px-Dassault_Falcon_8X%2C_Paris_Air_Show_2019%2C_Le_Bourget_%28SIAE8623%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADassault_Falcon_8X%2C_Paris_Air_Show_2019%2C_Le_Bourget_%28SIAE8623%29.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Dassault \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/falcon2015/prints/rocket_bd3e25.jpg",
+     "consulta": "Falcon"
+    },
+    {
+     "titulo": "Falcon, Mississippi.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Falcon%2C_Mississippi.jpg/500px-Falcon%2C_Mississippi.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFalcon%2C_Mississippi.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/falcon2015/prints/rocket_97cd6c.jpg",
-     "consulta": "rocket"
+     "print": "referencias/falcon2015/prints/rocket_fd1641.jpg",
+     "consulta": "Falcon"
     },
     {
-     "titulo": "STS120LaunchHiRes-edit1.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/500px-STS120LaunchHiRes-edit1.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASTS120LaunchHiRes-edit1.jpg",
-     "descricao": "English Space shuttle launch Japanese スペースシャトルの打ち上げ French Navette spatiale américaine German Space Shuttle Galician Lanzamento do transbordador espacial",
-     "ordem": 4,
-     "print": "referencias/falcon2015/prints/rocket_85340c.jpg",
-     "consulta": "rocket"
-    },
-    {
-     "titulo": "Soyuz TMA-9 launch.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Soyuz_TMA-9_launch.jpg/500px-Soyuz_TMA-9_launch.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoyuz_TMA-9_launch.jpg",
-     "descricao": "English Soyuz TMA-9 lift off (on September 18, 2006.) French Soyuz TMA-9 au nicolage du cosmodrome de Baïkonour, le 18 septembre 2006. Bangla এটি এক ধরনের",
-     "ordem": 7,
-     "print": "referencias/falcon2015/prints/rocket_3c01b4.jpg",
-     "consulta": "rocket"
+     "titulo": "Brown falcon1444.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brown_falcon1444.jpg/500px-Brown_falcon1444.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrown_falcon1444.jpg",
+     "descricao": "während einer Vogelexpedition in Südostaustralien English: Molly the Brown \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/falcon2015/prints/rocket_727b92.jpg",
+     "consulta": "Falcon"
     }
    ]
   },
@@ -184,6 +388,15 @@
      "consulta": "airplane 2015"
     },
     {
+     "titulo": "Trigana Air Service Flight 267.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Trigana_Air_Service_Flight_267.jpg/500px-Trigana_Air_Service_Flight_267.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATrigana_Air_Service_Flight_267.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/falcon2015/prints/aviao_da_epoca_363f8c.jpg",
+     "consulta": "airplane 2015"
+    },
+    {
      "titulo": "Trigana Air Flight IL267 map New Guinea DE.png",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Trigana_Air_Flight_IL267_map_New_Guinea_DE.png/500px-Trigana_Air_Flight_IL267_map_New_Guinea_DE.png",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ATrigana_Air_Flight_IL267_map_New_Guinea_DE.png",
@@ -191,15 +404,43 @@
      "ordem": 3,
      "print": "referencias/falcon2015/prints/aviao_da_epoca_49bae8.jpg",
      "consulta": "airplane 2015"
+    }
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Os funcionários da SpaceX gritaram de alegria, como numa final de camp",
+   "consultas": [
+    "funcionarios spacex gritaram alegria campeonato",
+    "diagram"
+   ],
+   "achados": [
+    {
+     "titulo": "CMB Timeline300 no WMAP.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/500px-CMB_Timeline300_no_WMAP.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACMB_Timeline300_no_WMAP.jpg",
+     "descricao": "DescriptionCMB Timeline300 no WMAP.jpg English: Timeline of the universe. A \\u003Cspan class=\\",
+     "ordem": 21,
+     "print": "referencias/falcon2015/prints/os_funcion_rios_da_spacex_gritaram_de_al_53683d.jpg",
+     "consulta": "diagram"
     },
     {
-     "titulo": "PK-YRN Flight Path.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/PK-YRN_Flight_Path.png/500px-PK-YRN_Flight_Path.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APK-YRN_Flight_Path.png",
-     "descricao": "English The \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/falcon2015/prints/aviao_da_epoca_931ee4.jpg",
-     "consulta": "airplane 2015"
+     "titulo": "The violent youth of solar proxies.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_violent_youth_of_solar_proxies.jpg/500px-The_violent_youth_of_solar_proxies.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_violent_youth_of_solar_proxies.jpg",
+     "descricao": "English determination method or standard: SHA-1",
+     "ordem": 22,
+     "print": "referencias/falcon2015/prints/os_funcion_rios_da_spacex_gritaram_de_al_751e49.jpg",
+     "consulta": "diagram"
+    },
+    {
+     "titulo": "Littleboy inner1 info.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Littleboy_inner1_info.png/500px-Littleboy_inner1_info.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALittleboy_inner1_info.png",
+     "descricao": "File:Little Boy internal \\u003Cspan class=\\",
+     "ordem": 23,
+     "print": "referencias/falcon2015/prints/os_funcion_rios_da_spacex_gritaram_de_al_fa1ed7.jpg",
+     "consulta": "diagram"
     }
    ]
   }

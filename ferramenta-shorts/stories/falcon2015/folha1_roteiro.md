@@ -1,14 +1,14 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 188 palavras (~65 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 12 cenas, 149 palavras (~51 s)
 
-## Cena b0  (~7.2 s)
-- Narracao: Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.
-- Som ambiente: sea
+## Cena b0  (~5.9 s)
+- Narracao: Durante décadas, todo foguete era jogado fora depois de um voo. Até que um desceu de ré.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: cai (throw) @6 -> acao + som de efeito; encena: chega (point) @16 -> acao + som de efeito; encena: x_desce (point) @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: cai (throw) @5 -> acao + som de efeito; encena: x_desce (point) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@30
-- Texto na tela: 2015
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.5 s)
@@ -20,83 +20,83 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.5 s)
-- Narracao: Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.
+## Cena b2  (~4.5 s)
+- Narracao: Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
-- Narracao: As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.
+- Narracao: As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.
 - Som ambiente: sea
-- Efeitos sonoros marcados: cannon@30, thump@50
-- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: tomba @8 -> acao + som de efeito; encena: desaba @10 -> acao + som de efeito
-- Efeito visual marcado: burst@30, puff@50
+- Efeitos sonoros marcados: thump@40
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
+- Efeito visual marcado: burst@40, dust@70, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.5 s)
-- Narracao: Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.
+## Cena b4  (~4.5 s)
+- Narracao: Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voa (point) @13 -> acao + som de efeito; encena: pega (lift) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voa (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 11 SATÉLITES
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~7.2 s)
-- Narracao: Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.
-- Som ambiente: sea
+## Cena b5  (~4.5 s)
+- Narracao: Depois de soltar o topo, a parte de baixo voltou para a Terra.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: vira (up) @11 -> acao + som de efeito; encena: chega (point) @17 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~5.2 s)
 - Narracao: Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@20
+- Efeitos sonoros marcados: ding@30, thump@50
 - Efeito + som nas palavras-chave: encena: x_desce (point) @3 -> acao + som de efeito
-- Efeito visual marcado: ring@20
+- Efeito visual marcado: stars@30, puff@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b7  (~4.5 s)
-- Narracao: E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30, thump@50
-- Efeito + som nas palavras-chave: encena: x_desce (point) @1 -> acao + som de efeito; encena: x_abre (push) @7 -> acao + som de efeito
-- Efeito visual marcado: stars@30, puff@50
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~4.1 s)
-- Narracao: Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; (rosto) happy -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) @4 -> acao + som de efeito
-- Efeito visual marcado: stars@20, stars@60
+## Cena b7  (~3.1 s)
+- Narracao: E pousou inteira, abrindo as pernas no último segundo.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: ding@20, thump@60
+- Efeito + som nas palavras-chave: encena: x_desce (point) @1 -> acao + som de efeito; encena: x_abre (push) @3 -> acao + som de efeito
+- Efeito visual marcado: stars@20, puff@60
 - Texto na tela: POUSOU!
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~5.9 s)
-- Narracao: Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra.
+## Cena b8  (~2.8 s)
+- Narracao: Os funcionários da SpaceX comemoraram e se abraçaram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; encena: vence (up) @4 -> acao + som de efeito; encena: x_abraca @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~6.2 s)
-- Narracao: Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.
+## Cena b9  (~5.5 s)
+- Narracao: Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: chega (point) @12 -> acao + som de efeito; encena: x_desce (point) @14 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: PRIMEIRA VEZ
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~2.1 s)
+- Narracao: Hoje, pousar de ré virou rotina.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_desce (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: vira (up) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

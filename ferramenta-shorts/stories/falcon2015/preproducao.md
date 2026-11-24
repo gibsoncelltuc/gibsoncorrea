@@ -4,22 +4,22 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 1 | conversar | kit/falcon9_land, kit/marco_canaveral, kit/rocket | - | -
-b1 | loc_pista | reveal | 8 | parados (so fala e pisca) | kit/marco_canaveral | - | -
-b2 | loc_campo | wide | 1 | discutir | kit/rocket, kit/falcon9_land, kit/marco_canaveral | paper | -
-b3 | harbor | two | 1 | conversar | kit/rocket, kit/marco_canaveral | - | -
-b4 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/marco_canaveral, kit/rocket, kit/starlink_sat | paper | -
-b5 | harbor | crowd | 1 | encena, batalha | kit/falcon_air, kit/marco_canaveral | - | -
-b6 | loc_campo | wide | 1 | reagir | kit/falcon_air, kit/marco_canaveral | - | -
-b7 | loc_campo | two | 1 | reagir | kit/falcon9_land, kit/marco_canaveral | - | -
-b8 | loc_campo | orbit | 1 | comemorar, batalha | kit/falcon9_land, kit/marco_canaveral | - | -
-b9 | interior loja | two | 2 | conversar, INTERAGEM: abracar | kit/rocket | - | -
-b10 | harbor | wide | 1 | comemorar | kit/falcon9_land, kit/marco_canaveral, kit/rocket | - | -
+b0 | loc_pista | two | 1 | conversar | kit/falcon9_land, kit/rocket | - | -
+b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | - | - | -
+b2 | hall | two | 2 | discutir, INTERAGEM: discutir | kit/rocket | paper | -
+b3 | harbor | wide | 1 | tomba | kit/falcon9_land, kit/rocket | - | -
+b4 | loc_pista | wide | 1 | encena | kit/falcon_air, kit/rocket, kit/starlink_sat | - | -
+b5 | loc_pista | two | 1 | reagir | kit/falcon_air | - | -
+b6 | loc_pista | wide | 1 | reagir | kit/falcon9_land | - | -
+b7 | loc_pista | orbit | 1 | encena, batalha | kit/falcon9_land | - | -
+b8 | hall | two | 8 | comemorar, INTERAGEM: abracar | - | - | -
+b9 | loc_pista | wide | 1 | encena | kit/falcon9_land, kit/rocket | - | -
+b10 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b11 | harbor | close | 1 | conversar | - | - | -
 
-OBJETO HEROI: kit/rocket
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b8
-Interacoes entre personagens: b4 entregar, b9 abracar
+OBJETO HEROI: kit/falcon9_land
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b7
+Interacoes entre personagens: b2 discutir, b8 abracar, b10 o outro se aproxima
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada
