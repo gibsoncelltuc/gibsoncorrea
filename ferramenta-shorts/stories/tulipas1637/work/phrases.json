@@ -1,0 +1,315 @@
+{
+ "duration": 62.616,
+ "frames30": 1878,
+ "source": "silence-align (cost 1.29)",
+ "segments": [
+  [
+   0.157833,
+   2.75
+  ],
+  [
+   3.61571,
+   4.24025
+  ],
+  [
+   4.51187,
+   6.76617
+  ],
+  [
+   7.64183,
+   8.18863
+  ],
+  [
+   8.38987,
+   8.701
+  ],
+  [
+   8.94637,
+   9.42975
+  ],
+  [
+   10.2796,
+   10.8312
+  ],
+  [
+   11.109,
+   12.8518
+  ],
+  [
+   13.1464,
+   14.4655
+  ],
+  [
+   15.3157,
+   15.6582
+  ],
+  [
+   15.9132,
+   17.4067
+  ],
+  [
+   18.2723,
+   18.7457
+  ],
+  [
+   18.9089,
+   19.5886
+  ],
+  [
+   19.7941,
+   21.532
+  ],
+  [
+   22.3846,
+   25.4842
+  ],
+  [
+   26.3282,
+   29.5947
+  ],
+  [
+   30.475,
+   33.323
+  ],
+  [
+   34.1558,
+   35.1697
+  ],
+  [
+   36.0484,
+   36.8824
+  ],
+  [
+   37.1108,
+   38.1291
+  ],
+  [
+   38.4507,
+   39.8508
+  ],
+  [
+   40.0608,
+   41.1232
+  ],
+  [
+   41.9897,
+   42.882
+  ],
+  [
+   43.7364,
+   44.6475
+  ],
+  [
+   44.8663,
+   46.0045
+  ],
+  [
+   46.3431,
+   47.6726
+  ],
+  [
+   48.4975,
+   49.611
+  ],
+  [
+   50.4867,
+   53.3966
+  ],
+  [
+   53.5848,
+   54.3224
+  ],
+  [
+   55.1761,
+   55.7458
+  ],
+  [
+   56.0438,
+   56.5937
+  ],
+  [
+   56.7262,
+   57.4367
+  ],
+  [
+   58.3015,
+   59.746
+  ],
+  [
+   60.039,
+   61.8005
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma \u00fanica flor j\u00e1 custou o pre\u00e7o de uma casa inteira.",
+   "s": 0.158,
+   "e": 2.75
+  },
+  {
+   "text": "Era a Holanda,",
+   "s": 3.616,
+   "e": 4.24
+  },
+  {
+   "text": "e a tulipa tinha acabado de chegar do Oriente.",
+   "s": 4.512,
+   "e": 6.766
+  },
+  {
+   "text": "Colorida,",
+   "s": 7.642,
+   "e": 8.189
+  },
+  {
+   "text": "rara,",
+   "s": 8.39,
+   "e": 8.701
+  },
+  {
+   "text": "e na moda.",
+   "s": 8.946,
+   "e": 9.43
+  },
+  {
+   "text": "Num leil\u00e3o,",
+   "s": 10.28,
+   "e": 10.831
+  },
+  {
+   "text": "um oferecia mil moedas por um bulbo,",
+   "s": 11.109,
+   "e": 12.852
+  },
+  {
+   "text": "e outro pagava duas mil.",
+   "s": 13.146,
+   "e": 14.466
+  },
+  {
+   "text": "Logo,",
+   "s": 15.316,
+   "e": 15.658
+  },
+  {
+   "text": "o pa\u00eds inteiro estava comprando.",
+   "s": 15.913,
+   "e": 17.407
+  },
+  {
+   "text": "Padeiros,",
+   "s": 18.272,
+   "e": 18.746
+  },
+  {
+   "text": "sapateiros,",
+   "s": 18.909,
+   "e": 19.589
+  },
+  {
+   "text": "gente que nunca tinha plantado nada.",
+   "s": 19.794,
+   "e": 21.532
+  },
+  {
+   "text": "Contam que teve gente que trocou terras e casas por um \u00fanico bulbo.",
+   "s": 22.385,
+   "e": 25.484
+  },
+  {
+   "text": "Ningu\u00e9m queria a flor. Queriam revender mais caro na semana seguinte.",
+   "s": 26.328,
+   "e": 29.595
+  },
+  {
+   "text": "Contam que um marinheiro comeu um bulbo achando que era cebola.",
+   "s": 30.475,
+   "e": 33.323
+  },
+  {
+   "text": "Valia uma fortuna.",
+   "s": 34.156,
+   "e": 35.17
+  },
+  {
+   "text": "Acontece que,",
+   "s": 36.048,
+   "e": 36.882
+  },
+  {
+   "text": "num leil\u00e3o de fevereiro,",
+   "s": 37.111,
+   "e": 38.129
+  },
+  {
+   "text": "o vendedor abriu os lances,",
+   "s": 38.451,
+   "e": 39.851
+  },
+  {
+   "text": "e ningu\u00e9m levantou a m\u00e3o.",
+   "s": 40.061,
+   "e": 41.123
+  },
+  {
+   "text": "A not\u00edcia correu.",
+   "s": 41.99,
+   "e": 42.882
+  },
+  {
+   "text": "Em poucos dias,",
+   "s": 43.736,
+   "e": 44.648
+  },
+  {
+   "text": "todo mundo quis vender,",
+   "s": 44.866,
+   "e": 46.005
+  },
+  {
+   "text": "e n\u00e3o havia mais comprador.",
+   "s": 46.343,
+   "e": 47.673
+  },
+  {
+   "text": "Os pre\u00e7os desabaram.",
+   "s": 48.498,
+   "e": 49.611
+  },
+  {
+   "text": "Quem tinha trocado a casa por flores ficou s\u00f3 com as flores,",
+   "s": 50.487,
+   "e": 53.397
+  },
+  {
+   "text": "e as d\u00edvidas.",
+   "s": 53.585,
+   "e": 54.322
+  },
+  {
+   "text": "O marinheiro,",
+   "s": 55.176,
+   "e": 55.746
+  },
+  {
+   "text": "pelo menos,",
+   "s": 56.044,
+   "e": 56.594
+  },
+  {
+   "text": "almo\u00e7ou bem.",
+   "s": 56.726,
+   "e": 57.437
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 58.301,
+   "e": 59.746
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 60.039,
+   "e": 61.8
+  }
+ ]
+}
