@@ -39,23 +39,24 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "two",
    "personagens": [
     "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
-    "kit/marco_trumptower"
+    "kit/marco_trumptower",
+    "kit/tv"
    ],
    "palavras": 13,
    "cena": "b1",
    "frase": "Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_pista"
   },
   {
    "camera": "crowd",
@@ -96,13 +97,18 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "TRU",
-    "CND"
+    "CND",
+    "POV",
+    "POV"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "mk/Chair_1",
+    "mk/Table_Large"
+   ],
    "palavras": 13,
    "cena": "b4",
    "frase": "A equipe perdedora ia para a sala de reunião, e alguém era eliminado.",
@@ -119,9 +125,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 16,
    "cena": "b5",
-   "frase": "Acontece que o jeito de eliminar virou marca: ele apontava e dizia, você está demitido.",
+   "frase": "Acontece que o jeito de eliminar virou marca: apontando o dedo, ele dizia, você está demitido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -196,13 +202,12 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
    "personagens": [
-    "TRU",
-    "POV"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -215,7 +220,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "close",
@@ -233,10 +238,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],

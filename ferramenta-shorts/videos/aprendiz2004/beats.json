@@ -64,14 +64,22 @@
    "titulo": true
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "POV:0:smile",
     "POV:1:grin"
    ],
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3,
-   "say": "Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz."
+   "say": "Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
+   "props": [
+    [
+     "kit/tv",
+     0,
+     -1.0,
+     1.8
+    ]
+   ],
+   "text": "O APRENDIZ",
+   "titulo": true
   },
   {
    "shot": "crowd",
@@ -117,11 +125,13 @@
    "detalhe": false
   },
   {
-   "shot": "two",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "TRU:0:stern",
-    "CND:0:nervous"
+    "CND:0:nervous",
+    "POV:0:worried",
+    "POV:1:nervous"
    ],
    "acao": "discutir",
    "fx": [
@@ -130,7 +140,27 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "A equipe perdedora ia para a sala de reunião, e alguém era eliminado."
+   "say": "A equipe perdedora ia para a sala de reunião, e alguém era eliminado.",
+   "props": [
+    [
+     "mk/Table_Large",
+     0,
+     -1.2,
+     1.6
+    ],
+    [
+     "mk/Chair_1",
+     -2.2,
+     -1.2,
+     1.0
+    ],
+    [
+     "mk/Chair_1",
+     2.2,
+     -1.2,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "close",
@@ -147,7 +177,7 @@
     "ding@50"
    ],
    "text": "VOCÊ ESTÁ DEMITIDO!",
-   "say": "Acontece que o jeito de eliminar virou marca: ele apontava e dizia, você está demitido."
+   "say": "Acontece que o jeito de eliminar virou marca: apontando o dedo, ele dizia, você está demitido."
   },
   {
    "shot": "crowd",
@@ -200,7 +230,9 @@
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "text": "$250.000",
+   "titulo": true
   },
   {
    "shot": "two",
@@ -216,25 +248,30 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
+   "say": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "set": "loc_estudio",
+   "text": "ROBERTO JUSTUS",
+   "titulo": true
   },
   {
    "shot": "two",
    "who": [
-    "TRU:0:smug",
-    "POV:0:surprised"
+    "TRU:0:smug"
    ],
    "props": [
     [
      "kit/tv",
-     1.6,
-     -0.8,
-     1.0
+     1.8,
+     -1.2,
+     1.2
     ]
    ],
    "acao": "conversar",
    "say": "Trump apresentou por mais de dez anos, até dois mil e quinze.",
-   "detalhe": false
+   "detalhe": false,
+   "set": "loc_estudio",
+   "text": "2004-2015",
+   "titulo": true
   },
   {
    "shot": "close",

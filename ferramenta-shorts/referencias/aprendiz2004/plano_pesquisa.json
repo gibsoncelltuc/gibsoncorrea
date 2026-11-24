@@ -20,14 +20,6 @@
   },
   {
    "tipo": "lugar",
-   "item": "Estados Unidos",
-   "consultas": [
-    "Estados Unidos 2004",
-    "Estados Unidos landscape"
-   ]
-  },
-  {
-   "tipo": "lugar",
    "item": "Brasil",
    "consultas": [
     "Brasil 2004",
