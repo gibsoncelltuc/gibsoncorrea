@@ -134,7 +134,7 @@
    "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "street",
    "hora": "noite",
    "who": [
@@ -143,7 +143,7 @@
    ],
    "tiros": true,
    "crowd": {
-    "n": 10,
+    "n": 4,
     "outfits": [
      "SOL"
     ],
@@ -153,20 +153,14 @@
    "props": [
     [
      "cannon",
-     -3.2,
-     -1.6,
+     -2.6,
+     -4.5,
      1.0
     ],
     [
      "cannon",
-     3.4,
-     -2.2,
-     1.0
-    ],
-    [
-     "kit/searchlight",
-     0,
-     -9,
+     3.0,
+     -5.5,
      1.0
     ]
    ],

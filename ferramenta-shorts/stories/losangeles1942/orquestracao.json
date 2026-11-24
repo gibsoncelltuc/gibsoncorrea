@@ -94,16 +94,15 @@
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "SOL",
     "SOL"
    ],
-   "multidao": 32,
+   "multidao": 4,
    "objetos": [
     "cannon",
-    "kit/canhao_moderno",
-    "kit/searchlight"
+    "kit/canhao_moderno"
    ],
    "palavras": 15,
    "cena": "b4",
@@ -196,11 +195,11 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "orbit",
    "personagens": [
     "CID"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "kit/searchlight"
    ],
@@ -214,7 +213,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "CID"
    ],
