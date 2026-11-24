@@ -15,20 +15,20 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | O Químico que Sonhou com uma Cobra | O Químico que Sonhou com uma Cobra / Um Era Gante Bélgica August Kekulé 1865 | SEM REFERENCIA
-lugar | Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laborat | Gante / Gante Belgica 1865 | SEM REFERENCIA
-lugar | Bélgica | Bélgica 1865 / Bélgica landscape | SEM REFERENCIA
-epoca | roupas e ruas de 1865 | 1865 fashion clothing / 1865 street photograph | SEM REFERENCIA
-pessoas | August Kekule, professor de quimica de barba cheia | August Kekule professor de quimica de barba cheia / August Kekule professor de quimica de barba cheia 1865 | SEM REFERENCIA
+lugar | Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laborat | Gante / Gante Belgica 1865 | Ghent - centre.jpg (referencias/kekule1865/prints/gante_belgica_gabinete_de_professor_com__65695d.jpg); L-Gante Conferencia de prensa (51862639395).jpg (referencias/kekule1865/prints/gante_belgica_gabinete_de_professor_com__352bf9.jpg); L-Gante Conferencia de prensa (51861973411).jpg (referencias/kekule1865/prints/gante_belgica_gabinete_de_professor_com__e406fb.jpg)
+lugar | Bélgica | Bélgica 1865 / Bélgica landscape | 1840 portrait of King Leopold I (King of the Belgi (referencias/kekule1865/prints/b_lgica_246de9.jpg); Prince Leopold of Saxe-Coburg-Gotha (1824-1884)-Wi (referencias/kekule1865/prints/b_lgica_d11a54.jpg); Prince Leopold of Saxe-Coburg and Gotha by Charles (referencias/kekule1865/prints/b_lgica_936b8b.jpg)
+epoca | roupas e ruas de 1865 | 1865 fashion clothing / 1865 street photograph | Gazette of Fashion, February 1865, RP-P-2009-2675. (referencias/kekule1865/prints/roupas_e_ruas_de_1865_eb7f09.jpg); Gazette of Fashion, August 1865, RP-P-2009-2676.jp (referencias/kekule1865/prints/roupas_e_ruas_de_1865_a878de.jpg); The Englishwoman's Domestic Magazine, August 1865  (referencias/kekule1865/prints/roupas_e_ruas_de_1865_2a8cc6.jpg)
+pessoas | August Kekule, professor de quimica de barba cheia | August Kekule professor de quimica de barba cheia / August Kekule professor de quimica de barba cheia 1865 | Friedrich August Kekulé von Stradonitz (1890er).jp (referencias/kekule1865/prints/august_kekule_professor_de_quimica_de_ba_b09ad6.jpg); August Kekulé Round Portrait.png (referencias/kekule1865/prints/august_kekule_professor_de_quimica_de_ba_a6e571.jpg); August Kekule Gent ca1866.jpg (referencias/kekule1865/prints/august_kekule_professor_de_quimica_de_ba_1ca35c.jpg)
 pessoas | colegas quimicos | colegas quimicos / colegas quimicos 1865 | SEM REFERENCIA
-pessoas | alunos | alunos / alunos 1865 | SEM REFERENCIA
+pessoas | alunos | alunos / alunos 1865 | Fachada - Sociedade Filarmónica Alunos Apolo, Camp (referencias/kekule1865/prints/alunos_fd83e8.jpg); Sociedade Filarmónica Alunos de Apolo, Campo de Ou (referencias/kekule1865/prints/alunos_ddb0c2.jpg); Sociedade Filarmónica Alunos de Apolo, Campo de Ou (referencias/kekule1865/prints/alunos_712ab2.jpg)
 pessoas | convidados da Benzolfest | convidados da Benzolfest / convidados da Benzolfest 1865 | SEM REFERENCIA
-objeto | anel do benzeno (cobra mordendo o rabo) | anel do benzeno / anel do benzeno 1865 | SEM REFERENCIA
-objeto | lareira | lareira / lareira 1865 | SEM REFERENCIA
-objeto | poltrona | poltrona / poltrona 1865 | SEM REFERENCIA
-objeto | papel com desenhos de moleculas | papel com desenhos de moleculas / papel com desenhos de moleculas 1865 | SEM REFERENCIA
-objeto | frascos de quimica | frascos de quimica / frascos de quimica 1865 | SEM REFERENCIA
-heroi | snake ring | anel do benzeno / O Químico que Sonhou com uma Cobra | SEM REFERENCIA
-mecanismo | O professor August Kekulé tinha um problema: o benzeno, um líquido com | professor august kekule tinha problema benzeno liquido atomo / diagram | SEM REFERENCIA
+objeto | anel do benzeno (cobra mordendo o rabo) | anel do benzeno / anel do benzeno 1865 | AnelAIM.jpg (referencias/kekule1865/prints/anel_do_benzeno_cobra_mordendo_o_rabo__a059a0.jpg); AnelAIM.jpg (referencias/kekule1865/prints/anel_do_benzeno_cobra_mordendo_o_rabo__a059a0.jpg)
+objeto | lareira | lareira / lareira 1865 | Pé de Lareira (1-06-03-000-01356-00-00-01).jpg (referencias/kekule1865/prints/lareira_18a5a1.jpg); Pé de Lareira (1-06-03-000-01356-00-00-03).jpg (referencias/kekule1865/prints/lareira_631daf.jpg); Pé de Lareira (1-06-03-000-01356-00-00-02).jpg (referencias/kekule1865/prints/lareira_cebe06.jpg)
+objeto | poltrona | poltrona / poltrona 1865 | Poltrona (1-05-02-000-05865-00-00-01), Acervo do M (referencias/kekule1865/prints/poltrona_d9b0dc.jpg); Poltrona (1-05-02-000-05887-00-00-01), Acervo do M (referencias/kekule1865/prints/poltrona_235ab4.jpg); Poltrona (1-05-02-000-05865-00-00-07), Acervo do M (referencias/kekule1865/prints/poltrona_f6c4bd.jpg)
+objeto | papel com desenhos de moleculas | papel com desenhos de moleculas / papel com desenhos de moleculas 1865 | Lapis e Papel 213050.jpg (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_9b63eb.jpg); Théodore Fort - Cena de batalha com Hussardos fran (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_944df3.jpg); Abertura da Exposição “Holocausto – Qual teria sid (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_e58a99.jpg)
+objeto | frascos de quimica | frascos de quimica / frascos de quimica 1865 | Conjunto de frascos de reactivos químicos - (M.A.B (referencias/kekule1865/prints/frascos_de_quimica_55ee48.jpg); Cistac-Tristan-1865-06-28-prodigios-de-la-quimica. (referencias/kekule1865/prints/frascos_de_quimica_f0b0d2.jpg); Cistac-Tristan-1865-07-21-prodigios-de-la-quimica. (referencias/kekule1865/prints/frascos_de_quimica_8d9195.jpg)
+heroi | snake ring | anel do benzeno / O Químico que Sonhou com uma Cobra | AnelAIM.jpg (referencias/kekule1865/prints/snake_ring_a059a0.jpg); AnelAIM.jpg (referencias/kekule1865/prints/snake_ring_a059a0.jpg)
+mecanismo | O professor August Kekulé tinha um problema: o benzeno, um líquido com | professor august kekule tinha problema benzeno liquido atomo / diagram | CMB Timeline300 no WMAP.jpg (referencias/kekule1865/prints/o_professor_august_kekul_tinha_um_proble_53683d.jpg); The violent youth of solar proxies.jpg (referencias/kekule1865/prints/o_professor_august_kekul_tinha_um_proble_751e49.jpg); Littleboy inner1 info.png (referencias/kekule1865/prints/o_professor_august_kekul_tinha_um_proble_fa1ed7.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

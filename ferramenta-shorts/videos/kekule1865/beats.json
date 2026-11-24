@@ -82,7 +82,7 @@
     "ALU:0:suspicious:paper"
    ],
    "acao": "discutir",
-   "say": "O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos de carbono que ninguém sabia arrumar.",
+   "say": "O professor August Kekulé tinha um problema: o benzeno, com seis carbonos que ninguém sabia arrumar.",
    "hud": {
     "contador": {
      "de": 0,
@@ -174,7 +174,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!"
+   "say": "Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!"
   },
   {
    "shot": "two",
@@ -198,16 +198,6 @@
     "ding@40"
    ],
    "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "KEK:0:smug",
-    "COL:0:shock"
-   ],
-   "interacao": "entregar",
-   "say": "Os colegas ficaram de boca aberta."
   },
   {
    "shot": "group",
@@ -236,7 +226,7 @@
    ],
    "text": "FESTA",
    "titulo": true,
-   "say": "Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez.",
+   "say": "Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pela primeira vez.",
    "interior": "pedra"
   },
   {
