@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - O major comparou os pássaros a tanques, a imprensa riu, e o governo re...
 - Cenario: countryside | luz: desert | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): SOL (variante 0, expressao smug); PRESS (variante 0, expressao grin) | multidao: 5 de SOL/FARM
-- Animacao: conversar | interacao: avanca e o outro recua
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): SOL (variante 0, expressao smug) | multidao: 5 de SOL/FARM
+- Animacao: encena
 - Objetos/modelos: vehicles/tank
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, imprensa, major, passaros, tanques, tropas
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin) | multidao: 0 de 
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, major
 - RISCOS: nenhum
@@ -129,8 +129,8 @@ vehicles/tank | b7 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 5 | mistura: close 12% | medio 51% | aberto 35% | detalhe 2%
-- Interacoes: b2 vai ate o outro, b3 aproxima-se, b7 avanca e o outro recua, b8 o outro se aproxima
+- Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 5 | mistura: close 12% | medio 53% | aberto 35% | detalhe 0%
+- Interacoes: b2 vai ate o outro, b3 aproxima-se, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

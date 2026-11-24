@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao neutral; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: SICÍLIA (cobre a tela 1-2 s)
 
 ## b2: "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives."

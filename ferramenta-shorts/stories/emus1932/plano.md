@@ -14,5 +14,5 @@ b8 | two | -  | tropa, animais, placa: 986 (CONTESTADO) | encena: chega (point) 
 b9 | crowd | golden  | tropa, animais, placa: EXÉRCITO 0 - 1 EMUS | pagou (stars + som de sino); encena: negocio (reach) @10 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 51% | aberto 35% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | dentro do padrao do canal
+Mistura de planos: close 12% | medio 53% | aberto 35% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

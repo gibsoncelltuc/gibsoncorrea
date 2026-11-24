@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
@@ -82,9 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | riu (39.1s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | retirou (40.4s) | ACAO: sai | sai andando pela lateral | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | avanca e o outro recua | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | HA HA HA | OK |
+| 5 | - | PLACA | HA HA HA | OK |
 
 ## Cena b8 - 42.1s a 47.0s - 17 palavras - plano two
 > "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
@@ -92,7 +90,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (42.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 986 (CONTESTADO) | OK |
 

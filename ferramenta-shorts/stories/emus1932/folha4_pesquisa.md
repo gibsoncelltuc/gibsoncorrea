@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): SOL, FARM, AUS
 - Cenarios: countryside, interior madeira, loc_campo, loc_deserto, outback
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
-- Tamanho real aplicado: vehicles/tank: 7.0 m reais -> escala 1.52 (estava 1.0: pequeno demais)
+- Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados
 
