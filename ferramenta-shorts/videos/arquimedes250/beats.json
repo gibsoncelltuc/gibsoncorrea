@@ -57,7 +57,9 @@
    ],
    "sfx": [
     "steps@10"
-   ]
+   ],
+   "set": "medieval",
+   "_auto_vis": 0
   },
   {
    "say": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",
@@ -80,14 +82,14 @@
      "kit/bathtub",
      0.0,
      -1.2,
-     1.0,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "vila medieval",
     "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -98,6 +100,7 @@
      }
     ]
    },
+   "set": "medieval",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -138,7 +141,7 @@
   },
   {
    "say": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "ARQ:0:shock",
     "POV:0:surprised"
@@ -146,12 +149,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [
@@ -172,9 +170,14 @@
     "whoosh@50",
     "ding@70"
    ],
+   "interior": "pedra",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "orbit; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/bathtub",
@@ -184,10 +187,7 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "batalha": false
   },
   {
    "say": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
@@ -197,7 +197,28 @@
     "ARQ:0:smile",
     "POV:0:smile"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "explica": {
+    "objeto": "kit/bathtub",
+    "vfx": [
+     {
+      "k": "onda",
+      "na": "sai"
+     }
+    ],
+    "rotulos": [
+     [
+      "AGUA QUE SAI",
+      "topo",
+      "sai"
+     ],
+     [
+      "= TAMANHO DO CORPO",
+      "baixo",
+      "tamanho"
+     ]
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -207,7 +228,28 @@
     "POV:0:smile"
    ],
    "interacao": "cochichar",
-   "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água."
+   "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
+   "explica": {
+    "objeto": "kit/crown",
+    "vfx": [
+     {
+      "k": "onda",
+      "na": "derramaria"
+     }
+    ],
+    "rotulos": [
+     [
+      "COM PRATA = MAIOR",
+      "topo",
+      "maior"
+     ],
+     [
+      "DERRAMA MAIS AGUA",
+      "baixo",
+      "derramaria"
+     ]
+    ]
+   }
   },
   {
    "say": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
@@ -228,7 +270,7 @@
     ]
    ],
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "vila medieval",
     "camera": "plano do objeto; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -239,6 +281,7 @@
      }
     ]
    },
+   "set": "medieval",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -271,7 +314,9 @@
     "sting@80"
    ],
    "acao": "comemorar",
-   "tiros": false
+   "tiros": false,
+   "set": "medieval",
+   "_auto_vis": 0
   },
   {
    "say": "No fim, dá para enganar um rei, mas não uma banheira.",
@@ -292,7 +337,7 @@
     ]
    ],
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "vila medieval",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -303,6 +348,7 @@
      }
     ]
    },
+   "set": "medieval",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -334,7 +380,11 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Eureka_(word)",
    "https://en.wikipedia.org/wiki/Archimedes"
+  ],
+  "explicacoes": [
+   "Principio do deslocamento: um corpo mergulhado desloca um volume de agua igual ao seu proprio volume (Vitruvio, De Architectura, livro IX). Prata e menos densa que o ouro: uma coroa com prata no mesmo peso tem volume maior e desloca mais agua."
   ]
  },
- "max_wide": 3
+ "max_wide": 3,
+ "regiao": "classico"
 }

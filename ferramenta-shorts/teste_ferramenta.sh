@@ -148,6 +148,8 @@ grep -q "VIDEO MAIS CURTO QUE A VOZ" make_video.sh && grep -q "video MAIS CURTO 
 python3 cenas_hash.py lagosta1961 | grep -q "^b7 " && grep -q "so' estas cenas mudaram" make_video.sh && grep -q "cenas_hash.py \$ID > ckpt/\$ID/cenas.txt" refazer.sh || f "mudanca numa cena joga fora o video inteiro (devia refazer so' os trechos dela)"
 grep -q "o tiro NUNCA VEIO" mkvideo.py || f "'o tiro nunca veio' ganha explosao (Lagosta f14)"
 grep -q "Tulipas): 'o preco de uma casa inteira'" mkvideo.py || f "'o preco de uma casa' joga a cena para dentro de casa (Tulipas gancho)"
+T_=videos/_teste_r9; mkdir -p $T_; printf '{"outfits":{},"beats":[{"say":"Foi em Siracusa, ha mais de dois mil anos."}]}' > $T_/beats.json
+python3 checagem_coerencia.py _teste_r9 2>&1 | grep -q "R9 " || f "historia antiga sem regiao classico sai com cidade moderna (Arquimedes)"; rm -rf $T_
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

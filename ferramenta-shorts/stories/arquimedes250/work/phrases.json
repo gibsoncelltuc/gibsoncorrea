@@ -1,0 +1,252 @@
+{
+ "duration": 55.248,
+ "frames30": 1657,
+ "source": "silence-align (cost 0.71)",
+ "segments": [
+  [
+   0.147958,
+   2.66704
+  ],
+  [
+   2.81567,
+   4.06529
+  ],
+  [
+   4.96642,
+   5.71904
+  ],
+  [
+   6.03404,
+   6.66796
+  ],
+  [
+   6.88992,
+   8.06129
+  ],
+  [
+   8.92521,
+   11.2582
+  ],
+  [
+   11.5756,
+   12.9416
+  ],
+  [
+   13.8245,
+   15.791
+  ],
+  [
+   16.631,
+   18.6335
+  ],
+  [
+   18.8798,
+   20.0999
+  ],
+  [
+   20.9582,
+   21.8191
+  ],
+  [
+   22.0023,
+   22.6748
+  ],
+  [
+   22.9495,
+   23.8464
+  ],
+  [
+   24.0954,
+   25.8178
+  ],
+  [
+   26.677,
+   30.3537
+  ],
+  [
+   31.2391,
+   32.4806
+  ],
+  [
+   32.7677,
+   34.9408
+  ],
+  [
+   35.2154,
+   36.4088
+  ],
+  [
+   37.2607,
+   38.774
+  ],
+  [
+   39.0845,
+   41.1527
+  ],
+  [
+   42.0142,
+   44.2005
+  ],
+  [
+   45.0662,
+   46.5025
+  ],
+  [
+   47.3427,
+   47.7618
+  ],
+  [
+   47.9283,
+   48.9041
+  ],
+  [
+   49.1405,
+   50.1126
+  ],
+  [
+   50.9428,
+   52.3875
+  ],
+  [
+   52.68,
+   54.4417
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um homem pulou da banheira e saiu correndo pela rua,",
+   "s": 0.148,
+   "e": 2.667
+  },
+  {
+   "text": "gritando uma palavra s\u00f3.",
+   "s": 2.816,
+   "e": 4.065
+  },
+  {
+   "text": "Foi em Siracusa,",
+   "s": 4.966,
+   "e": 5.719
+  },
+  {
+   "text": "na Sic\u00edlia,",
+   "s": 6.034,
+   "e": 6.668
+  },
+  {
+   "text": "h\u00e1 mais de dois mil anos.",
+   "s": 6.89,
+   "e": 8.061
+  },
+  {
+   "text": "O rei Hier\u00e3o mandou fazer uma coroa de ouro puro,",
+   "s": 8.925,
+   "e": 11.258
+  },
+  {
+   "text": "mas desconfiou do ourives.",
+   "s": 11.576,
+   "e": 12.942
+  },
+  {
+   "text": "Ser\u00e1 que trocou parte do ouro por prata?",
+   "s": 13.825,
+   "e": 15.791
+  },
+  {
+   "text": "O rei chamou Arquimedes e pediu a verdade,",
+   "s": 16.631,
+   "e": 18.634
+  },
+  {
+   "text": "mas sem estragar a coroa.",
+   "s": 18.88,
+   "e": 20.1
+  },
+  {
+   "text": "Acontece que,",
+   "s": 20.958,
+   "e": 21.819
+  },
+  {
+   "text": "numa tarde,",
+   "s": 22.002,
+   "e": 22.675
+  },
+  {
+   "text": "ele entrou na banheira,",
+   "s": 22.95,
+   "e": 23.846
+  },
+  {
+   "text": "e a \u00e1gua transbordou pelas bordas.",
+   "s": 24.095,
+   "e": 25.818
+  },
+  {
+   "text": "Ele percebeu que o tanto de \u00e1gua que sai \u00e9 igual ao tamanho do corpo que entra.",
+   "s": 26.677,
+   "e": 30.354
+  },
+  {
+   "text": "Se a coroa tivesse prata,",
+   "s": 31.239,
+   "e": 32.481
+  },
+  {
+   "text": "seria maior que o ouro puro de mesmo peso,",
+   "s": 32.768,
+   "e": 34.941
+  },
+  {
+   "text": "e derramaria mais \u00e1gua.",
+   "s": 35.215,
+   "e": 36.409
+  },
+  {
+   "text": "Assim dava para medir a coroa,",
+   "s": 37.261,
+   "e": 38.774
+  },
+  {
+   "text": "e comparar com o mesmo peso de ouro puro.",
+   "s": 39.084,
+   "e": 41.153
+  },
+  {
+   "text": "Conta a lenda que ele gritou Eureca pela rua.",
+   "s": 42.014,
+   "e": 44.2
+  },
+  {
+   "text": "E a coroa tinha mesmo prata.",
+   "s": 45.066,
+   "e": 46.502
+  },
+  {
+   "text": "No fim,",
+   "s": 47.343,
+   "e": 47.762
+  },
+  {
+   "text": "d\u00e1 para enganar um rei,",
+   "s": 47.928,
+   "e": 48.904
+  },
+  {
+   "text": "mas n\u00e3o uma banheira.",
+   "s": 49.141,
+   "e": 50.113
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 50.943,
+   "e": 52.388
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 52.68,
+   "e": 54.442
+  }
+ ]
+}

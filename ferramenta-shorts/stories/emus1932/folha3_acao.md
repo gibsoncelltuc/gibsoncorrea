@@ -1,138 +1,109 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 64 acoes catalogadas, 64 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
-> "A Austrália declarou guerra a um bando de pássaros. E perdeu."
+## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
+> "A Austrália declarou guerra a um bando de pássaros, e perdeu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (3.7s) | EFEITO: puff | fumaca + som | OK |
+| 1 | perdeu (2.8s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | PLACA | 1932 | OK |
+| 3 | - | PLACA | EXÉRCITO × EMUS | OK |
 
-## Cena b1 - 4.1s a 11.5s - 21 palavras - plano reveal
-> "Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | devorando (5.6s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | pedir (10.4s) | ACAO: fala | aponta explicando | OK |
-| 3 | socorro (10.7s) | EFEITO: ring | onda + som | OK |
-| 4 | socorro (10.7s) | ACAO: grita | grita de bracos para cima | OK |
-| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 6 | - | ATUACAO | reagir | OK |
-| 7 | - | MAPA | AUSTRÁLIA | OK |
-| 8 | - | PLACA | 20.000 EMUS | OK |
-
-## Cena b2 - 11.9s a 14.8s - 9 palavras - plano two
-> ""Mande o exército", pediram eles. E o ministro mandou."
+## Cena b1 - 4.0s a 8.8s - 19 palavras - plano reveal
+> "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pediram (13.0s) | ACAO: fala | aponta explicando | OK |
-| 2 | mandou (14.8s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
+| 1 | invadiram (6.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | MAPA | AUSTRÁLIA | OK |
+| 4 | - | PLACA | 20.000 EMUS | OK |
+
+## Cena b2 - 9.8s a 13.9s - 11 palavras - plano two
+> "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | pediram (11.0s) | ACAO: fala | aponta explicando | OK |
+| 2 | metralhadoras (11.4s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | metralhadoras (11.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | mandou (13.6s) | ACAO: fala | aponta explicando | OK |
+| 5 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 6 | - | INTERACAO | vai ate o outro | OK |
+| 7 | - | ATUACAO | reagir | OK |
+
+## Cena b3 - 15.2s a 18.1s - 10 palavras - plano two
+> "O major Meredith levou duas metralhadoras e dez mil balas."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | levou (16.2s) | ACAO: pega | levanta/segura | OK |
+| 2 | metralhadoras (16.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | balas (18.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
 | 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 10.000 BALAS | OK |
 
-## Cena b3 - 15.2s a 18.1s - 9 palavras - plano crowd
-> "Soldados, duas metralhadoras, e dez mil balas. Contra emus."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | metralhadoras (15.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | metralhadoras (15.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | balas (17.4s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | balas (17.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | CENA | tiros: 4 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | PLACA | 10.000 BALAS | OK |
-
-## Cena b4 - 18.5s a 26.3s - 22 palavras - plano orbit
-> "Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira."
+## Cena b4 - 19.3s a 23.9s - 17 palavras - plano crowd
+> "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atiravam (22.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | atiravam (22.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | espalhavam (24.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-
-## Cena b5 - 26.7s a 32.6s - 17 palavras - plano two
-> "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | montou (27.4s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | metralhadora (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | metralhadora (28.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | ATUACAO | conversar | OK |
-
-## Cena b6 - 33.0s a 38.1s - 15 palavras - plano group
-> "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | balas (35.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | balas (35.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1 SEMANA | OK |
-
-## Cena b7 - 38.5s a 44.4s - 17 palavras - plano track
-> "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques.""
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | bateu (39.3s) | EFEITO: dust | poeira + som | OK |
-| 2 | bateu (39.3s) | ACAO: x_bate | bate + estouro | OK |
-| 3 | retirada (40.0s) | EFEITO: dust | poeira + som | OK |
-| 4 | retirada (40.0s) | ACAO: perde | mao na testa | OK |
-| 5 | gargalhou (41.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | gargalhou (41.1s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 7 | bala (43.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 8 | bala (43.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 9 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 10 | - | ATUACAO | comemorar | OK |
-| 11 | - | PLACA | HA HA HA | OK |
-
-## Cena b8 - 44.8s a 49.3s - 13 palavras - plano crowd
-> "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | voltando (49.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 1 | balas (22.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 2 | poeira (23.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | CENTENAS | OK |
 
-## Cena b9 - 49.6s a 55.9s - 18 palavras - plano two
-> "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | desistiu (51.1s) | EFEITO: puff | fumaca + som | OK |
-| 2 | desistiu (51.1s) | ACAO: perde | mao na testa | OK |
-| 3 | pagar (53.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | pagar (53.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 5 | recompensa (53.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | - | INTERACAO | entregar | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | RECOMPENSA | OK |
-
-## Cena b10 - 56.3s a 57.4s - 4 palavras - plano close
-> "Humanos, zero. Emus, um."
+## Cena b5 - 25.1s a 30.0s - 15 palavras - plano wide
+> "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | HUMANOS 0 - 1 EMUS | OK |
+| 1 | metralhadora (26.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 2 | instalada (27.2s) | ACAO: pega | levanta/segura | OK |
 
-## Cena b11 - 57.8s a 62.2s - 13 palavras - plano two
+## Cena b6 - 31.4s a 34.9s - 12 palavras - plano orbit
+> "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | PLACA | 6 DIAS | OK |
+
+## Cena b7 - 36.3s a 40.9s - 16 palavras - plano group
+> "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | riu (39.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | riu (39.1s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 3 | retirou (40.4s) | ACAO: sai | sai andando pela lateral | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | PLACA | HA HA HA | OK |
+
+## Cena b8 - 42.1s a 47.0s - 17 palavras - plano two
+> "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | voltou (42.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 986 (CONTESTADO) | OK |
+
+## Cena b9 - 48.5s a 56.0s - 21 palavras - plano crowd
+> "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | pagou (51.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagou (51.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | - | PLACA | EXÉRCITO 0 - 1 EMUS | OK |
+
+## Cena b10 - 57.1s a 60.4s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -1,0 +1,385 @@
+{
+ "title": "A Guerra dos Emus",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "outback",
+ "light": "desert",
+ "mood": "march",
+ "outfits": {
+  "AUS": {
+   "jacket": "#8a7a4a",
+   "pants": "#6e6038",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#8a7a50",
+   "belt": "#4a3a24",
+   "rifle": true
+  },
+  "FARM": {
+   "jacket": "#7a9ac2",
+   "pants": "#4a5a7a",
+   "boots": "#4a3426",
+   "moustache_on": "#4a3020",
+   "hats": [
+    "straw",
+    "cap",
+    "straw"
+   ],
+   "cap": "#d8c070"
+  },
+  "PRESS": {
+   "jacket": "#7a4a8a",
+   "pants": "#3a3a4a",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  },
+  "SOL": {
+   "jacket": "#8a7a4a",
+   "pants": "#6e6038",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#8a7a50",
+   "belt": "#4a3a24",
+   "rifle": false
+  }
+ },
+ "cinf": 4.5,
+ "exp": 1.008,
+ "serie": "Guerras Inusitadas",
+ "ep": 2,
+ "titulo_base": "A Guerra dos Emus",
+ "beats": [
+  {
+   "say": "A Austrália declarou guerra a um bando de pássaros, e perdeu.",
+   "shot": "reveal",
+   "who": [],
+   "text": "EXÉRCITO × EMUS",
+   "tat": 6,
+   "light": "desert",
+   "emus": {
+    "n": 10,
+    "mode": "stand",
+    "x": 0.5,
+    "z": 1.0,
+    "cols": 5
+   },
+   "riscos_ok": true,
+   "verbos_ok": [
+    "decla"
+   ],
+   "fachada": false
+  },
+  {
+   "say": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantações de trigo no oeste do país.",
+   "shot": "group",
+   "who": [
+    "FARM:0:shock:pitchfork",
+    "FARM:1:nervous"
+   ],
+   "text": "20.000 EMUS",
+   "tat": 3,
+   "tstyle": "red",
+   "emus": {
+    "n": 8,
+    "mode": "stand",
+    "x": 5.5,
+    "z": 0.5,
+    "cols": 3
+   },
+   "mapa": "AUSTRÁLIA",
+   "mapa_at": 3,
+   "riscos_ok": true,
+   "fachada": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FARM:0:nervous:paper",
+    "AUS:0:stern"
+   ],
+   "interior": "madeira",
+   "say": "Fazendeiros veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
+   "fachada": false
+  },
+  {
+   "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
+   "shot": "two",
+   "who": [
+    "SOL:0:stern",
+    "SOL:1:grin"
+   ],
+   "props": [
+    [
+     "mgun",
+     -0.9,
+     1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "mgun",
+     0.9,
+     1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "crate",
+     0.0,
+     0.4,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "10.000 BALAS",
+   "tat": 6,
+   "batalha": false,
+   "tiros": false,
+   "detalhe": false,
+   "fachada": false,
+   "_auto_vis": 3
+  },
+  {
+   "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
+   "shot": "wide",
+   "who": [
+    "SOL:0:stern"
+   ],
+   "emus": {
+    "n": 10,
+    "mode": "run",
+    "x": 4.5,
+    "z": -2.0,
+    "dir": -1
+   },
+   "batalha": false,
+   "caminhoes": 2,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "fachada": false,
+   "fx": [
+    "dust@20",
+    "dust@40",
+    "dust@60",
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@20",
+    "thump@40",
+    "thump@60"
+   ],
+   "tiros": false
+  },
+  {
+   "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
+   "shot": "wide",
+   "who": [
+    "SOL:0:grin"
+   ],
+   "props": [
+    [
+     "vehicles/truck",
+     0.0,
+     -2.5,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "mgun",
+     0.0,
+     -1.0,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "move": 0,
+   "riscos_ok": true,
+   "fachada": false,
+   "detalhe": false,
+   "d0": 12,
+   "d1": 11,
+   "quadro_manual": true,
+   "cx": 0,
+   "cz": -2.0,
+   "h": 2.5,
+   "batalha": false,
+   "tiros": false,
+   "_auto_vis": 1
+  },
+  {
+   "say": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
+   "shot": "two",
+   "who": [
+    "SOL:0:pained",
+    "SOL:1:pained"
+   ],
+   "text": "6 DIAS",
+   "tat": 0,
+   "set": "loc_campo",
+   "fachada": false
+  },
+  {
+   "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
+   "shot": "two",
+   "who": [
+    "SOL:0:smug",
+    "PRESS:0:grin"
+   ],
+   "text": "HA HA HA",
+   "tat": 8,
+   "tstyle": "gold",
+   "riscos_ok": true,
+   "fachada": false,
+   "props": [
+    [
+     "vehicles/tank",
+     3.0,
+     -6.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "batalha": false,
+   "tiros": false
+  },
+  {
+   "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",
+   "shot": "two",
+   "who": [
+    "AUS:0:stern",
+    "AUS:1:grin"
+   ],
+   "emus": {
+    "n": 12,
+    "mode": "scatter",
+    "x": 4.5,
+    "z": 1.5,
+    "cols": 4
+   },
+   "text": "986 (CONTESTADO)",
+   "tat": 6,
+   "tstyle": "red",
+   "batalha": false,
+   "crowd": {
+    "n": 0
+   },
+   "set": "loc_deserto",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 15,
+   "d1": 13,
+   "fachada": false,
+   "fx": [
+    "burst@40",
+    "burst@75"
+   ],
+   "sfx": [
+    "thump@40",
+    "thump@75"
+   ],
+   "shot_lock": true,
+   "quadro_manual": true,
+   "cx": 3.0,
+   "cz": 0.8,
+   "h": 2.4,
+   "tiros": false
+  },
+  {
+   "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
+   "shot": "two",
+   "who": [
+    "FARM:0:smile",
+    "FARM:1:grin"
+   ],
+   "text": "EXÉRCITO 0 - 1 EMUS",
+   "tat": 40,
+   "light": "golden",
+   "emus": {
+    "n": 3,
+    "mode": "stand",
+    "x": 4.5,
+    "z": 0.5,
+    "cols": 3
+   },
+   "riscos_ok": true,
+   "titulo": true,
+   "fachada": false
+  }
+ ],
+ "heroi": null,
+ "max_wide": 5,
+ "duracao_ok": true,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Emu_War"
+ ],
+ "visual": {
+  "local": "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia): plantações de trigo e terra seca com mato baixo",
+  "quando": "2 de novembro a 10 de dezembro de 1932, início do verão seco",
+  "participantes": [
+   "major Meredith e dois soldados da artilharia real australiana com duas metralhadoras Lewis",
+   "fazendeiros veteranos da Primeira Guerra",
+   "ministro da Defesa George Pearce",
+   "cerca de 20 mil emus",
+   "imprensa"
+  ],
+  "roupas": {
+   "AUS": "farda cáqui da artilharia com chapéu de aba larga",
+   "FARM": "camisa azul, calça de trabalho e chapéu de palha",
+   "PRESS": "terno e chapéu coco"
+  },
+  "cenario": "plantações de trigo e pastagem seca do oeste australiano, cercas, estrada de terra e caminhão da época",
+  "objetos": [
+   "metralhadora Lewis",
+   "caminhão da época",
+   "emus",
+   "sacos de trigo"
+  ],
+  "explicacoes": [
+   "Os emus se dividiam em pequenos grupos rápidos, o que tornava as metralhadoras antieconômicas (fonte: Wikipedia Emu War)",
+   "Meredith disse ter abatido 986 emus com 9.860 balas, número contestado (fonte: Wikipedia Emu War)",
+   "Em 1934 foram pagas 57.034 recompensas em seis meses (fonte: Wikipedia Emu War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Emu_War",
+   "https://commons.wikimedia.org/wiki/Category:Emu_War"
+  ],
+  "buscas": {
+   "A Guerra dos Emus": "Emu War 1932 Western Australia Lewis gun soldiers",
+   "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia)": "Campion Western Australia wheatbelt 1930s farm"
+  },
+  "referencias": {
+   "A Guerra dos Emus": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia)": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "Austrália": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "roupas e ruas de 1932": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "major Meredith e dois soldados da artilharia real australiana com duas": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "fazendeiros veteranos da Primeira Guerra": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "ministro da Defesa George Pearce": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "cerca de 20 mil emus": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "imprensa": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "metralhadora Lewis": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "caminhão da época": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "emus": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "sacos de trigo": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "caminhao da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "tanque da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "soldado da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "exercito da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)"
+  }
+ }
+}
