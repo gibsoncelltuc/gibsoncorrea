@@ -150,11 +150,9 @@ kit/booster_air | b7 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 14% | medio 67% | aberto 18% | detalhe 2%
 - Interacoes: b0 insiste, b2 vai ate o outro, b9 aproxima-se
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py roadsterpulo2026  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/roadsterpulo2026/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).
