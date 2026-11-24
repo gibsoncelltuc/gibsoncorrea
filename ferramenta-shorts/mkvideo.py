@@ -1596,6 +1596,7 @@ def build_beat(k, b):
           for j_, w_ in enumerate(_ws):
               nw_ = nrm(w_); wi_ = starts[k] + j_
               if (b.get('_obj_acao') or b.get('_pergunta')) and re.match(r'(pul|salt|voa|voo|voar|decol|desc|pous|aterriss|acel|arranc|sub|gir|plan|sobrevo|levant|caiu|cair)', nw_): b.setdefault('_enc_words', []).append(nw_); continue   # v13 SUJEITO = OBJETO: quem pula/voa/pousa e' o carro (com VFX), nao o personagem que assiste
+              if re.match(r'(despenc|caiu|cairam|desab|afund|tomb)', nw_) and re.search(r'taxa|indice|numero|assassinat|homicid|crime|preco|valor|venda|acao|acoes|bolsa|lucro|porcent|por cento|grafico|estatistic|inflac|juro|popularidade|audiencia|cotac', unicodedata.normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()): b.setdefault('_enc_words', []).append(nw_); continue   # numero que despencou/caiu (taxa, preco, assassinatos) e' grafico, ninguem cai no chao
               if nw_ in ('saiu', 'sairam', 'sai', 'sair', 'chao') and re.search(r'(saiu|sairam|sair|sai|tirou|tiraram|levantou|fora)dochao', nrm(b.get('say', ''))): b.setdefault('_enc_words', []).append(nw_); continue   # 'saiu do chao' = decolou (objeto), ninguem sai andando nem cai
               if j_ in _negi: b.setdefault('_enc_words', []).append(nw_); continue   # acao NEGADA na frase: nao encena (e nao conta como falta)
               if j_ in _idiom_idx(b['say']): b.setdefault('_enc_words', []).append(nw_); continue   # EXPRESSAO: "o panico tomou", "a noticia correu", "o preco caiu"
