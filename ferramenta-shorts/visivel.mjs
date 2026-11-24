@@ -59,6 +59,10 @@ for (const s of SPEC.shots) {
       const cnt = new Map(); let tot = 0;
       for (let i = 0; i < 6; i++) for (let j = 0; j < 10; j++) { tot++; rc.setFromCamera(new THREE.Vector2(-0.9 + i * 0.36, -0.9 + j * 0.2), cam); rc.far = 3.5; const h = first(hitAll(rc)); if (!h || isCard(h.object)) continue;
         const nw = h.face ? h.face.normal.clone().transformDirection(h.object.matrixWorld) : null; if (nw && nw.y > 0.75) continue; const t = top(h.object); cnt.set(t, (cnt.get(t) || 0) + 1); }
+      // PAREDE: um mesmo objeto (navio, predio) cobrindo 60%+ do quadro a qualquer distancia = a camera so' ve um casco/parede
+      const cnt2 = new Map(); let tot2 = 0;
+      for (let i = 0; i < 6; i++) for (let j = 0; j < 10; j++) { tot2++; rc.setFromCamera(new THREE.Vector2(-0.9 + i * 0.36, -0.9 + j * 0.2), cam); rc.far = 400; const h = first(hitAll(rc)); if (!h || isCard(h.object)) continue; const nw = h.face ? h.face.normal.clone().transformDirection(h.object.matrixWorld) : null; if (nw && nw.y > 0.75) continue; const t = top(h.object); let nm = ''; for (const k in pool) if (pool[k].includes(t)) nm = k; if (nm) cnt2.set(nm, (cnt2.get(nm) || 0) + 1); }
+      for (const [nm, c] of cnt2) if (c / tot2 >= 0.6) R.parede = { obj: nm, frac: c / tot2 };
       for (const [t, c] of cnt) if (c / tot >= 0.35) { let nm = ''; for (const k in pool) if (pool[k].includes(t)) nm = k; R.bloq = { obj: nm || t.name || t.type, frac: c / tot }; }
       // personagem cortado: carta de boneco grande (mais de 45% da altura da tela) atravessando a borda do quadro
       R.cortado = 0; scene.traverse((o) => { if (!o.isMesh || !isCard(o) || !vis(o)) return; const bb = new THREE.Box3().setFromObject(o); if (bb.isEmpty() || bb.min.y > 6.7) return; /* so' boneco com os pes no chao (placa de texto e passaro flutuam) */ let x0 = 9, x1 = -9, y0 = 9, y1 = -9, atras = false;
@@ -71,6 +75,7 @@ for (const s of SPEC.shots) {
   for (const a of need[s.id] || []) { const okT = (r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && (a !== String(B.heroi || '') || Math.abs(o.cx ?? 0) < 0.55) && o.area >= (/navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a) ? 0.05 : 0.004)); const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (porCena[bk + '|' + a] = porCena[bk + '|' + a] || []).push(res.filter(okT).length >= 1); continue;   /* 1 dos 3 quadros basta: o mapa do pais cobre a tela por 1-2 s */ const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
   const bl = res.filter((r) => r.bloq); if (bl.length >= 2) falhas.push(`${s.id}: "${bl[0].bloq.obj}" tapando a camera (${Math.round(bl[0].bloq.frac * 100)}% do quadro, colado na lente)`);
   if (!/_d$|_v$/.test(s.id) && res.filter((r) => r.cortado).length >= 2) falhas.push(`${s.id}: personagem CORTADO na borda do quadro (boneco grande saindo da tela)`);
+  const pw = res.filter((r) => r.parede); if (pw.length >= 2) falhas.push(`${s.id}: "${pw[0].parede.obj}" cobrindo a tela (${Math.round(pw[0].parede.frac * 100)}% do quadro: so' se ve uma parede/casco)`);
   const dn = res.find((r) => r.dentro); if (dn) falhas.push(`${s.id}: camera DENTRO de "${dn.dentro}"`);
   out.push(rep);
 }

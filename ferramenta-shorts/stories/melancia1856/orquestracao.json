@@ -129,8 +129,7 @@
   {
    "camera": "crowd",
    "personagens": [
-    "VEN",
-    "VIA"
+    "VEN"
    ],
    "multidao": 20,
    "objetos": [],
@@ -152,6 +151,7 @@
   {
    "camera": "group",
    "personagens": [
+    "VIA",
     "VIA",
     "MOR"
    ],
@@ -190,7 +190,6 @@
   {
    "camera": "orbit",
    "personagens": [
-    "SOL",
     "SOL"
    ],
    "multidao": 48,
