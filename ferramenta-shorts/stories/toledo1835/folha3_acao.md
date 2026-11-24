@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | levou (3.2s) | ACAO: pega | levanta/segura | OK |
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1835 | OK |
+| 5 | - | PLACA | 1 FERIDO: CANIVETADA | OK |
 
 ## Cena b1 - 5.1s a 9.6s - 19 palavras - plano reveal
 > "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo."
