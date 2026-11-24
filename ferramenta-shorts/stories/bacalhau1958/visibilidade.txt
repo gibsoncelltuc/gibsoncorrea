@@ -1,1 +1,3 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (27 tomadas)
+VISIBILIDADE: 2 FALHA(S)
+FALHA b0: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b4: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

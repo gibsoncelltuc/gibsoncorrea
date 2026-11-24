@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Gerado em 24/11 12:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 12:25 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,11 +10,11 @@ b0 | chave | harbor | two | ICE, BRI | - | navio_destroier | corpo: tropa/person
 b1 | simples | harbor | wide | ICE, BRI | - | cod, navio_destroier | - | Entre mil novecentos e cinquenta e oito e setenta e seis, os dois país
 b2 | simples | harbor | two | ICE, PES | - | crate, cod | - | A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau perti
 b3 | transicao | harbor | wide | ICE | - | navio_destroier | - | Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim
-b4 | chave | harbor | group | sem personagem | - | navio_destroier | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra mandou fragatas para proteger os barcos de pesca.
+b4 | simples | harbor | group | BRI | - | navio_destroier | - | A Inglaterra mandou fragatas para proteger os barcos de pesca.
 b5 | simples | harbor | low | ICE | - | - | - | Acontece que a Islândia só tinha barquinhos da guarda costeira, mas el
 b6 | simples | harbor | group | sem personagem | - | navio_destroier | - | Eles cortavam os cabos das redes inglesas, e os navios batiam um no ou
 b7 | simples | harbor | two | ICE, BRI | - | - | - | A Islândia ameaçou fechar a base da Otan e rompeu relações com a Ingla
-b8 | simples | harbor | group | BRI, ICE | - | - | - | Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de du
+b8 | chave | harbor | group | BRI, ICE | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de du
 b9 | simples | harbor | two | PES | - | crate, cod | - | Uma guerra inteira, por causa de um bacalhau.
 b10 | simples | harbor | close | ICE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

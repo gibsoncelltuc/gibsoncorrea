@@ -94,7 +94,9 @@
   },
   {
    "camera": "group",
-   "personagens": [],
+   "personagens": [
+    "BRI"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/navio_destroier"
@@ -102,15 +104,9 @@
    "palavras": 10,
    "cena": "b4",
    "frase": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
-   "classe": "chave",
-   "sujeito": "cenario",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -174,9 +170,15 @@
    "palavras": 20,
    "cena": "b8",
    "frase": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },

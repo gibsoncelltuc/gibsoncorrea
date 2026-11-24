@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
@@ -44,8 +44,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | MAPA | INGLATERRA | OK |
+| 1 | mandou (21.9s) | ACAO: fala | aponta explicando | OK |
+| 2 | proteger (22.9s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | MAPA | INGLATERRA | OK |
 
 ## Cena b5 - 25.1s a 29.8s - 16 palavras - plano low
 > "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede."
@@ -78,9 +80,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | espalhou (45.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | VITÓRIA ISLANDESA | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | VITÓRIA ISLANDESA | OK |
 
 ## Cena b9 - 47.3s a 49.1s - 8 palavras - plano two
 > "Uma guerra inteira, por causa de um bacalhau."
