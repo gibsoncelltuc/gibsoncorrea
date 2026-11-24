@@ -267,11 +267,9 @@ kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixo
 ## Video inteiro
 - Objeto heroi: kit/microwave | grandes momentos: b6, b7, b9 | planos abertos: 2 | mistura: close 20% | medio 59% | aberto 19% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b6 discutir, b7 cochichar, b9 pular
-- RISCOS GERAIS: 
-  - FOLHA 4: 10 item(ns) sem referencia visual: Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magne, Percy Spencer (terno, gravata, cabelo penteado), engenheiros de jaleco, colega -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 10 item(ns) sem referencia visual: Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magne, Percy Spencer (terno, gravata, cabelo penteado), engenheiros de jaleco, colega
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh microondas1945 bN bM` (so essas cenas).

@@ -279,11 +279,9 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 ## Video inteiro
 - Objeto heroi: kit/balloon | grandes momentos: b1, b7 | planos abertos: 6 | mistura: close 10% | medio 46% | aberto 43% | detalhe 0%
 - Interacoes: b2 avanca e o outro recua, b4 discutir
-- RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: Os Primeiros Passageiros do Céu, Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante, Joseph e Etienne Montgolfier (casaca, peruca e -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: Os Primeiros Passageiros do Céu, Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante, Joseph e Etienne Montgolfier (casaca, peruca e
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh montgolfier1783 bN bM` (so essas cenas).
