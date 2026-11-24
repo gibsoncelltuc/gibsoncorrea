@@ -1,6 +1,10 @@
 {
  "id": "emus1932",
- "falhas": [],
+ "falhas": [
+  "b8~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b8~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b8~3: personagem CORTADO na borda do quadro (boneco grande saindo da tela)"
+ ],
  "tomadas": [
   {
    "id": "b0",
@@ -569,21 +573,21 @@
    "id": "b8",
    "quadros": [
     {
-     "f": 1265,
+     "f": 1267,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1277,
+     "f": 1282,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1288,
+     "f": 1296,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -592,76 +596,76 @@
    ]
   },
   {
-   "id": "b8_1",
+   "id": "b8~1",
    "quadros": [
-    {
-     "f": 1304,
-     "objs": [],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
     {
      "f": 1315,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 1
     },
     {
-     "f": 1326,
+     "f": 1330,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 1
+    },
+    {
+     "f": 1344,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
     }
    ]
   },
   {
-   "id": "b8_2",
+   "id": "b8~2",
    "quadros": [
     {
-     "f": 1345,
+     "f": 1363,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1378,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1360,
+     "f": 1392,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 1374,
-     "objs": [],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
+     "cortado": 1
     }
    ]
   },
   {
-   "id": "b8_3",
+   "id": "b8~3",
    "quadros": [
     {
-     "f": 1398,
+     "f": 1411,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1417,
+     "f": 1426,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 1
     },
     {
-     "f": 1436,
+     "f": 1440,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -691,12 +695,12 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 1
     }
    ]
   },
   {
-   "id": "b9~1",
+   "id": "b9_1",
    "quadros": [
     {
      "f": 1512,
@@ -710,7 +714,7 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 1
     },
     {
      "f": 1542,
@@ -722,24 +726,24 @@
    ]
   },
   {
-   "id": "b9~2",
+   "id": "b9_2",
    "quadros": [
     {
-     "f": 1563,
+     "f": 1566,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1579,
+     "f": 1586,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1594,
+     "f": 1606,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -748,50 +752,24 @@
    ]
   },
   {
-   "id": "b9~3",
+   "id": "b9_3",
    "quadros": [
     {
-     "f": 1615,
+     "f": 1637,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1630,
+     "f": 1664,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1645,
-     "objs": [],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    }
-   ]
-  },
-  {
-   "id": "b9~4",
-   "quadros": [
-    {
-     "f": 1666,
-     "objs": [],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 1682,
-     "objs": [],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 1697,
+     "f": 1690,
      "objs": [],
      "bloq": null,
      "dentro": null,

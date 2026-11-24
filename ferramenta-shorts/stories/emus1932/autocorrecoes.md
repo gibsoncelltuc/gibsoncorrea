@@ -34,3 +34,6 @@
 
 ## 24/11 17:29 autocorrecao de visibilidade
 - b8: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 24/11 17:34 autocorrecao de visibilidade
+- b8: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
