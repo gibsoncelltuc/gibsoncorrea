@@ -111,12 +111,16 @@
    "clima": "neve",
    "shot_lock": true,
    "quadro": {
-    "objeto": "kit/logs",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.7 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e logs juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/logs",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -175,12 +179,16 @@
    ],
    "clima": "neve",
    "quadro": {
-    "objeto": "kit/logs",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.7 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e logs juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/logs",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -257,8 +265,7 @@
   {
    "shot": "wide",
    "who": [
-    "AME:0:shock",
-    "CAN:0:smug"
+    "AME:0:shock"
    ],
    "interacao": "empurrar",
    "say": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
@@ -282,18 +289,22 @@
    "set": "arctic",
    "clima": "neve",
    "quadro": {
-    "objeto": "kit/prison",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~14.8 m de altura e 35.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~7% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -7.4, distancia 42.0 m), sem multidao na frente"
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -7.4, camera a 54.2 m, altura 5.2 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/prison",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "cx": 0.0,
    "cz": -7.4,
    "h": 5.2,
-   "d0": 44.1,
-   "d1": 42.0
+   "d0": 56.9,
+   "d1": 54.2
   },
   {
    "shot": "wide",
@@ -398,5 +409,6 @@
    "roupas e ruas de 1838": "1838 American clothing fashion plate men"
   }
  },
- "min_momentos": 1
+ "min_momentos": 1,
+ "max_wide": 4
 }

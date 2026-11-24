@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: day | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): AME (variante 0, expressao shock); CAN (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): AME (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, clima, maine

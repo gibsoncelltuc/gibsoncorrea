@@ -9,7 +9,7 @@ b1 | arctic | two | 2 | conversar, INTERAGEM: tremem de frio | - | - | -
 b2 | arctic | group | 2 | discutir, INTERAGEM: vai ate o outro | kit/logs, nature/tree_pine, nature/tree_oak, nature/bush | axe, axe | -
 b3 | arctic | wide | 9 | encena | nature/tree_pine | - | -
 b4 | loc_campo | wide | 22 | encena | - | - | -
-b5 | arctic | wide | 2 | reagir | kit/prison | - | -
+b5 | arctic | wide | 1 | reagir | kit/prison | - | -
 b6 | interior madeira | orbit | 1 | encena, batalha | - | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: entregar, alguem chega andando | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -

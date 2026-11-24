@@ -11,7 +11,7 @@ b1 | simples | arctic | two | AME, CAN | - | - | - | Em mil oitocentos e trinta 
 b2 | simples | arctic | group | AME, CAN | - | logs, bush, tree_oak, tree_pine | - | Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árv
 b3 | simples | arctic | wide | AME | 8 | tree_pine | - | Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent
 b4 | simples | loc_campo | wide | MIL, ING | 48 | - | - | O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma
-b5 | simples | arctic | wide | AME, CAN | - | prison | - | Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main
+b5 | simples | arctic | wide | AME | - | prison | - | Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main
 b6 | chave | interior madeira | orbit | GEN | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas ninguém queria uma guerra de verdade, então o presidente americano
 b7 | simples | interior madeira | two | GEN, PRE | - | - | - | Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar
 b8 | simples | interior pedra | two | PRE, PRE | - | scroll | - | Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton defin
