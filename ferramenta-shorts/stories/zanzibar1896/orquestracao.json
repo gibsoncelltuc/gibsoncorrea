@@ -1,13 +1,7 @@
 {
  "id": "zanzibar1896",
  "ano": 1896,
- "cenarios_trocados": [
-  [
-   "cena 10",
-   "medieval",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -60,7 +54,9 @@
     "GUA"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/throne"
+   ],
    "palavras": 12,
    "cena": "b2",
    "frase": "O sultão morreu, e um primo ocupou o palácio sem pedir licença.",
@@ -71,7 +67,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "ALM"
    ],
@@ -83,9 +79,15 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -106,7 +108,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "crowd",
@@ -181,7 +183,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -201,27 +203,23 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "SUL",
     "ING2"
    ],
-   "multidao": 12,
-   "objetos": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/throne"
+   ],
    "palavras": 15,
    "cena": "b9",
    "frase": "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior pedra"
   },
   {
    "camera": "close",

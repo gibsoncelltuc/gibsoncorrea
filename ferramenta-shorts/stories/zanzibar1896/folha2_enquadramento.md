@@ -18,9 +18,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "O sultão morreu, e um primo ocupou o palácio sem pedir licença."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SUL na esquerda, expressao grin; GUA na direita, expressao stern; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)
+- PERSONAGENS: SUL na esquerda, expressao grin; GUA na direita, expressao stern; sem multidao; acao: conversar
+- OBJETO kit/throne: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b3: "Os ingleses deram um ultimato: sair do palácio até as nove da manhã."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
@@ -69,10 +69,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "9:40" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b9: "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano de grupo (3+ pessoas)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)
 - PERSONAGENS: SUL na esquerda, expressao smile; ING2 na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/throne: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "OUTRO SULTÃO" flutuando no alto, na palavra 1 da frase
 
 ## b10: "E ainda mandaram a conta das balas."

@@ -92,11 +92,41 @@
    "shot": "two",
    "who": [
     "SUL:0:grin",
-    "GUA:1:stern"
+    "GUA:0:stern"
    ],
    "interior": "pedra",
    "say": "O sultão morreu, e um primo ocupou o palácio sem pedir licença.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "acao": "conversar",
+   "batalha": false,
+   "tiros": false,
+   "props": [
+    [
+     "kit/throne",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/throne",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -219,7 +249,7 @@
    "say": "Os tiros pararam por volta das nove e quarenta."
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "SUL:0:smile",
     "ING2:0:grin"
@@ -228,7 +258,38 @@
    "text": "OUTRO SULTÃO",
    "titulo": true,
    "batalha": false,
-   "tiros": false
+   "tiros": false,
+   "interior": "pedra",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/throne",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/throne",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "close",

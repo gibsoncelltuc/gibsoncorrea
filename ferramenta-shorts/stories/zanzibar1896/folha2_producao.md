@@ -26,24 +26,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): SUL (variante 0, expressao grin); GUA (variante 1, expressao stern)
+- Personagens principais (2): SUL (variante 0, expressao grin); GUA (variante 0, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Objetos/modelos: kit/throne
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palacio, primo, sultao
 - RISCOS: nenhum
 
 ## Cena b3 - Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): ALM (variante 0, expressao stern, segura paper) | multidao: 0 de 
-- Animacao: encena
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/navio_vapor, kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, nove, palacio, ultimato
 - RISCOS: nenhum
 
 ## Cena b4 - O primo reuniu quase três mil homens, com fuzis e mosquetes, e se tran...
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern) | multidao: 18 de GUA/POV
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O sultão fugiu e pediu abrigo no consulado da Alemanha.
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): SUL (variante 0, expressao shock); GUA (variante 1, expressao shock)
@@ -93,12 +93,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Os ingleses colocaram outro sultão no trono, e os aliados do primo pag...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SUL (variante 0, expressao smile); ING2 (variante 0, expressao grin) | multidao: 12 de POV
-- Animacao: encena | batalha encenada
-- Objetos/modelos: -
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): SUL (variante 0, expressao smile); ING2 (variante 0, expressao grin) | multidao: 0 de 
+- Animacao: conversar | interacao: entregar
+- Objetos/modelos: kit/throne
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aliados, ingleses, primo, trono
 - RISCOS: nenhum
 
@@ -128,6 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/marco_zanzibar | b0, b1, b3, b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/throne | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vapor | b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -138,8 +139,8 @@ nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b5, b9 | planos abertos: 5 | mistura: close 17% | medio 50% | aberto 31% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b8 vai ate o outro
+- Objeto heroi: kit/navio_vapor | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 16% | medio 60% | aberto 22% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b8 vai ate o outro, b9 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

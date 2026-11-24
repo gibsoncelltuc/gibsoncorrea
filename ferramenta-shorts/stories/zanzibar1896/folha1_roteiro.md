@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 
 ## Cena b3  (~4.5 s)
 - Narracao: Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~5.5 s)
 - Narracao: O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.
@@ -86,11 +86,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 ## Cena b9  (~5.2 s)
 - Narracao: Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagaram -> stars + som de sino; encena: pega (lift) @2 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: OUTRO SULTÃO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b10  (~2.4 s)
 - Narracao: E ainda mandaram a conta das balas.

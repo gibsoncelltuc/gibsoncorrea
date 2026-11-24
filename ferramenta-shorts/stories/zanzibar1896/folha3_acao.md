@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.6s - 15 palavras - plano two
@@ -32,12 +32,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | o outro se aproxima | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 14.7s a 18.2s - 13 palavras - plano wide
+## Cena b3 - 14.7s a 18.2s - 13 palavras - plano crowd
 > "Os ingleses deram um ultimato: sair do palácio até as nove da manhã."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deram (15.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b4 - 19.3s a 23.7s - 16 palavras - plano group
 > "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro."
@@ -95,7 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 9:40 | OK |
 
-## Cena b9 - 41.5s a 45.8s - 15 palavras - plano crowd
+## Cena b9 - 41.5s a 45.8s - 15 palavras - plano two
 > "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -104,8 +105,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | pagaram (45.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | pagaram (45.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | balas (45.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | PLACA | OUTRO SULTÃO | OK |
+| 5 | - | INTERACAO | entregar | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | PLACA | OUTRO SULTÃO | OK |
 
 ## Cena b10 - 46.9s a 48.5s - 7 palavras - plano close
 > "E ainda mandaram a conta das balas."
