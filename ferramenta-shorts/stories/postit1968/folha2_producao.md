@@ -148,12 +148,10 @@ nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se pare
 - Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 14% | detalhe 4%
 - Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar, b9 susto
 - RISCOS GERAIS: 
-  - video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py postit1968  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/postit1968/moodboard.jpg
+  - video com ~82 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 1 risco(s) em aberto
+- geral: video com ~82 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh postit1968 bN bM` (so essas cenas).
