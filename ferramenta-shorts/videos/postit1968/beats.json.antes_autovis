@@ -54,7 +54,7 @@
     [
      "kit/postit",
      0.0,
-     -1.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -85,23 +85,21 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   "d1": 11.5
   },
   {
    "shot": "wide",
    "who": [
-    "POV:0:smile"
+    "POV:0:smile",
+    "SIL:0:neutral:paper"
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "say": "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.",
-   "impact": true,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "_auto_vis": 0,
+   "interior": "galpao"
   },
   {
    "shot": "two",
@@ -361,7 +359,7 @@
     [
      "kit/postit",
      0.0,
-     -1.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -386,8 +384,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   "d1": 11.5
   }
  ],
  "visual": {
