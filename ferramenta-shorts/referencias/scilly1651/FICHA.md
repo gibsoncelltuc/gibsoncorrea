@@ -7,7 +7,7 @@
 - Roupas: {'HOL': 'oficial holandes de 1651: gibao, gola branca larga, chapeu de aba larga', 'ILH': 'morador das ilhas de 1651 com gibao e chapeu de aba', 'MAR': 'marinheiro holandes de 1651', 'SOL': 'soldado de 1651 com capacete morion', 'PRE': 'autoridade local de 1986 de terno', 'EMB': 'embaixador de 1986 de terno escuro'}
 - Cenario real: ilhas rochosas com praias, porto de pedra, navios a vela holandeses de 1651 no mar; em 1986 cidade pequena de casas de pedra
 - Objetos: ['navios a vela de 1651', 'tratado de paz em papel', 'bandeiras da Holanda e da Inglaterra']
-- Cenarios usados no video: harbor, interior pedra, loc_campo, street
+- Cenarios usados no video: harbor, interior madeira, interior pedra, loc_campo
 - PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

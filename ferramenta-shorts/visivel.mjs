@@ -62,7 +62,7 @@ for (const s of SPEC.shots) {
       // PAREDE: um mesmo objeto (navio, predio) cobrindo 60%+ do quadro a qualquer distancia = a camera so' ve um casco/parede
       const cnt2 = new Map(); let tot2 = 0;
       for (let i = 0; i < 6; i++) for (let j = 0; j < 10; j++) { tot2++; rc.setFromCamera(new THREE.Vector2(-0.9 + i * 0.36, -0.9 + j * 0.2), cam); rc.far = 400; const h = first(hitAll(rc)); if (!h || isCard(h.object)) continue; const nw = h.face ? h.face.normal.clone().transformDirection(h.object.matrixWorld) : null; if (nw && nw.y > 0.75) continue; const t = top(h.object); let nm = ''; for (const k in pool) if (pool[k].includes(t)) nm = k; if (nm) cnt2.set(nm, (cnt2.get(nm) || 0) + 1); }
-      for (const [nm, c] of cnt2) if (c / tot2 >= 0.6) R.parede = { obj: nm, frac: c / tot2 };
+      for (const [nm, c] of cnt2) if (c / tot2 >= 0.6 && !/^kit\/(room|porch|hospital|prison|rg_|marco_)|^buildings\//.test(nm)) R.parede = { obj: nm, frac: c / tot2 };
       for (const [t, c] of cnt) if (c / tot >= 0.35) { let nm = ''; for (const k in pool) if (pool[k].includes(t)) nm = k; R.bloq = { obj: nm || t.name || t.type, frac: c / tot }; }
       // personagem cortado: carta de boneco grande (mais de 45% da altura da tela) atravessando a borda do quadro
       R.cortado = 0; scene.traverse((o) => { if (!o.isMesh || !isCard(o) || !vis(o)) return; const bb = new THREE.Box3().setFromObject(o); if (bb.isEmpty() || bb.min.y > 6.7) return; /* so' boneco com os pes no chao (placa de texto e passaro flutuam) */ let x0 = 9, x1 = -9, y0 = 9, y1 = -9, atras = false;

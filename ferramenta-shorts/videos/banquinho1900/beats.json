@@ -134,7 +134,7 @@
    "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "jungle",
    "who": [
     "ASH:0:angry"
@@ -142,7 +142,7 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 12,
+    "n": 10,
     "outfits": [
      "ASH"
     ],
@@ -153,20 +153,15 @@
     [
      "buildings/castle_tower",
      0.0,
-     -12.0,
-     1.6
+     -7.0,
+     1.3
     ]
    ],
-   "text": "REVOLTA",
+   "text": "FORTE CERCADO",
    "titulo": true,
    "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -8.0,
-   "d0": 26.0,
-   "d1": 23.0,
-   "h": 3.0,
-   "_auto_vis": 3
+   "fachada": false
   },
   {
    "shot": "group",

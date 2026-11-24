@@ -209,9 +209,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
-    "JEN"
+    "JEN",
+    "ESP"
    ],
    "multidao": 0,
    "objetos": [
@@ -227,7 +228,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "JEN"
    ],

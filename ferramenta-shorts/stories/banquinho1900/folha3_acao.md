@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | cercaram (29.5s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | REVOLTA | OK |
+| 3 | - | PLACA | FORTE CERCADO | OK |
 
 ## Cena b6 - 32.3s a 36.8s - 15 palavras - plano orbit
 > "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses."
