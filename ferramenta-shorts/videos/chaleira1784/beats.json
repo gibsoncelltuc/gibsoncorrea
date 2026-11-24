@@ -300,7 +300,8 @@
    "say": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "set": "loc_patio"
   },
   {
    "shot": "two",

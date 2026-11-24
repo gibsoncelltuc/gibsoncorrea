@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~4.8 s)
 - Narracao: O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: rende (up) @4 -> acao + som de efeito
 - Efeito visual marcado: -

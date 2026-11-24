@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: loc_patio | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): GEN (variante 0, expressao scared, segura flag)
@@ -126,11 +126,9 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/kettle | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 26% | detalhe 1%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b8 entregar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'loc_campo': 1, 'harbor': 6, 'interior pedra': 2, 'loc_patio': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'loc_campo': 1, 'harbor': 6, 'interior pedra': 2, 'loc_patio': 2}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).
