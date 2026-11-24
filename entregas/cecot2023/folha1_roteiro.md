@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: encena: protesto (up) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@30
-- Texto na tela: -
+- Texto na tela: SEM JULGAMENTO
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.5 s)
