@@ -93,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | 1963 | OK |
 
-## Cena b9 - 50.1s a 53.3s - 13 palavras - plano two
+## Cena b9 - 50.1s a 53.3s - 13 palavras - plano group
 > "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -57,9 +57,12 @@
    "props": [
     [
      "kit/stove",
-     0,
-     -1.4,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1839",
@@ -69,7 +72,19 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre."
+   "say": "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/stove",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.3 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "reveal",
@@ -126,12 +141,27 @@
    "props": [
     [
      "kit/stove",
-     1.6,
-     -0.8,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou."
+   "say": "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/stove",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "close",
@@ -148,9 +178,12 @@
     ],
     [
      "kit/borracha",
-     0.9,
-     -0.5,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -161,7 +194,19 @@
     "thump@20",
     "sting@40"
    ],
-   "say": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse."
+   "say": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse.",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/borracha",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~0.5 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   },
   {
    "shot": "low",
@@ -178,9 +223,12 @@
     ],
     [
      "kit/borracha",
-     0.9,
-     -0.5,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -190,7 +238,19 @@
     "ding@20"
    ],
    "say": "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/borracha",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~0.5 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   },
   {
    "shot": "two",
@@ -247,9 +307,12 @@
     ],
     [
      "kit/borracha",
-     0.9,
-     -0.5,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -262,7 +325,19 @@
    ],
    "text": "PNEUS",
    "titulo": true,
-   "say": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."
+   "say": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/borracha",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~0.5 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "close",
@@ -272,9 +347,12 @@
    "props": [
     [
      "kit/stove",
-     1.4,
-     -0.8,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/tires",
@@ -284,7 +362,19 @@
     ]
    ],
    "text": "GOODYEAR",
-   "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube."
+   "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/stove",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.3 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   }
  ],
  "visual": {

@@ -35,12 +35,12 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "VIA",
     "VIA"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "vehicles/locomotive"
    ],
@@ -59,7 +59,7 @@
     "VIA",
     "VIA"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "navios de guerra ao fundo, no tamanho real",
     "vehicles/locomotive"

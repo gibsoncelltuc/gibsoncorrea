@@ -9,11 +9,11 @@ b1 | harbor | crowd | 1 | encena, batalha | boat, kit/fishing_net | - | -
 b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b4 | harbor | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/navio_destroier | - | -
-b5 | harbor | crowd | 21 | encena, batalha | ship, vehicles/airplane, navios de guerra ao fundo, no tamanho real | - | -
+b5 | harbor | crowd | 1 | encena, batalha | ship, vehicles/airplane, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
 b8 | harbor | reveal | 2 | comemorar | navio em movimento | - | -
-b9 | harbor | two | 2 | reagir, INTERAGEM: susto | kit/lobster | - | -
+b9 | harbor | group | 2 | reagir, INTERAGEM: susto | kit/lobster | - | -
 b10 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/lobster

@@ -14,9 +14,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a ca...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 8 de VIA
+- Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: vehicles/locomotive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, caminho, ouro, panama
@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 8 de VIA
+- Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: vehicles/locomotive, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): istmo, navio, trem
@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): VIA (variante 0, expressao shock)
+- Personagens principais (1): VIA (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: discutir
 - Objetos/modelos: vehicles/locomotive, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 20 de SOL
+- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 0 de 
 - Animacao: - | batalha encenada
 - Objetos/modelos: vehicles/locomotive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colombia, indenizacao, panama
@@ -137,7 +137,7 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 8% | medio 68% | aberto 20% | detalhe 4%
+- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 8% | medio 64% | aberto 24% | detalhe 4%
 - Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b8 susto
 - RISCOS GERAIS: nenhum
 

@@ -60,41 +60,30 @@
    "props": [
     [
      "kit/melon",
-     0.3,
-     2.2,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1856",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos."
-  },
-  {
-   "shot": "reveal",
-   "set": "harbor",
-   "who": [
-    "VIA:0:neutral",
-    "VIA:1:nervous"
-   ],
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "VIA"
-    ],
-    "march": false
-   },
-   "mapa": "PANAMÁ",
-   "mapa_at": 3,
-   "props": [
-    [
-     "vehicles/locomotive",
-     -2.5,
-     -6.5,
-     1.5
-    ]
-   ],
-   "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
+   "say": "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/melon",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.2 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "wide",
@@ -104,22 +93,76 @@
     "VIA:1:nervous"
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "VIA"
-    ],
-    "march": false
+    "n": 0
+   },
+   "mapa": "PANAMÁ",
+   "mapa_at": 3,
+   "props": [
+    [
+     "vehicles/locomotive",
+     0.0,
+     -8.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia.",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.1,
+   "d0": 24.6,
+   "d1": 23.5,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "objeto": "vehicles/locomotive",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~8.8 m de altura e 5.0 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~12% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 23.5 m), sem multidao na frente"
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "VIA:0:neutral",
+    "VIA:1:nervous"
+   ],
+   "crowd": {
+    "n": 0
    },
    "mapa_at": 3,
    "props": [
     [
      "vehicles/locomotive",
-     -2.5,
-     -6.5,
-     1.5
+     0.0,
+     -8.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico."
+   "say": "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico.",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.1,
+   "d0": 24.6,
+   "d1": 23.5,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "objeto": "vehicles/locomotive",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~8.8 m de altura e 5.0 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~12% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 23.5 m), sem multidao na frente"
+   }
   },
   {
    "shot": "two",
@@ -130,15 +173,30 @@
    "props": [
     [
      "kit/stall",
-     -1.6,
-     -1.0,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interacao": "empurrar",
    "say": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
    "set": "jungle",
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/stall",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~2.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "two",
@@ -163,7 +221,7 @@
     [
      "war/pistol",
      0.0,
-     1.2,
+     -1.2,
      6.0,
      {
       "fixo": true
@@ -174,7 +232,19 @@
    "detalhe": false,
    "text": "ARMA!",
    "tat": 5,
-   "tstyle": "red"
+   "tstyle": "red",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "war/pistol",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~2.2 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "group",
@@ -204,7 +274,7 @@
   },
   {
    "say": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
-   "shot": "group",
+   "shot": "wide",
    "set": "countryside",
    "acao": "discutir",
    "who": [
@@ -214,19 +284,33 @@
     [
      "vehicles/locomotive",
      0.0,
-     -6.0,
-     1.4
+     -8.0,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": -3.0,
-   "d0": 16.0,
-   "d1": 13.0,
    "text": "ESTAÇÃO DE TREM",
    "titulo": true,
    "detalhe": false,
-   "_auto_vis": 3
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.9,
+   "d0": 22.8,
+   "d1": 21.7,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "objeto": "vehicles/locomotive",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~8.2 m de altura e 4.6 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~14% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 21.7 m), sem multidao na frente"
+   }
   },
   {
    "shot": "two",
@@ -239,33 +323,42 @@
    "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "harbor",
    "who": [
     "SOL:0:stern"
    ],
    "batalha": true,
    "crowd": {
-    "n": 20,
-    "outfits": [
-     "SOL"
-    ],
-    "march": true,
-    "expr": "stern"
+    "n": 0
    },
    "props": [
     [
      "vehicles/locomotive",
-     -3,
-     -7.5,
-     1.6
+     0.0,
+     -8.0,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
    "detalhe": false,
-   "d0": 18.0,
-   "d1": 17.0,
-   "_auto_vis": 3
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.3,
+   "d0": 26.4,
+   "d1": 25.2,
+   "fachada": false,
+   "quadro": {
+    "objeto": "vehicles/locomotive",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~9.4 m de altura e 5.3 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~11% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 25.2 m), sem multidao na frente"
+   }
   },
   {
    "shot": "close",
@@ -275,13 +368,28 @@
    "props": [
     [
      "kit/melon",
-     1.0,
-     0.5,
-     1.3
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
-   "set": "jungle"
+   "set": "jungle",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/melon",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.2 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   }
  ],
  "ano": 1856,

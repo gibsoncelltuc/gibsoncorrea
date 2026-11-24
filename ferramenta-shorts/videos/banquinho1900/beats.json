@@ -57,8 +57,11 @@
     [
      "kit/golden_stool",
      0.0,
-     1.4,
-     2.6
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1900",
@@ -67,7 +70,18 @@
    "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
    "set": "countryside",
    "detalhe": true,
-   "_auto_vis": 3
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/golden_stool",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~2.3 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "reveal",
@@ -103,15 +117,29 @@
     [
      "kit/golden_stool",
      0.0,
-     1.4,
-     2.2
+     -1.2,
+     2.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "conversar",
    "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
    "set": "countryside",
-   "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/golden_stool",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.9 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "two",
@@ -134,7 +162,7 @@
    "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "countryside",
    "who": [
     "ASH:0:angry"
@@ -142,19 +170,17 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "ASH"
-    ],
-    "march": true,
-    "expr": "angry"
+    "n": 0
    },
    "props": [
     [
      "buildings/castle_tower",
      0.0,
-     -5.0,
-     1.0
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "FORTE CERCADO",
@@ -162,12 +188,20 @@
    "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "detalhe": false,
    "fachada": false,
-   "_auto_vis": 3,
-   "d0": 15.0,
-   "d1": 12.0,
+   "objetos": false,
    "cx": 0.0,
-   "cz": -3.0,
-   "objetos": false
+   "cz": -3.6,
+   "h": 4.3,
+   "d0": 35.5,
+   "d1": 33.8,
+   "quadro": {
+    "objeto": "buildings/castle_tower",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~12.3 m de altura e 6.7 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~8% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 33.8 m), sem multidao na frente"
+   }
   },
   {
    "shot": "group",
@@ -213,11 +247,26 @@
    "props": [
     [
      "kit/golden_stool",
-     0.6,
-     0.4,
-     1.6
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/golden_stool",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "shot": "close",
@@ -228,14 +277,28 @@
    "props": [
     [
      "kit/golden_stool",
-     0.0,
-     1.4,
-     2.0
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
-   "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/golden_stool",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.8 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   }
  ],
  "ano": 1900,

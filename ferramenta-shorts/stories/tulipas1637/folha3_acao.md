@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 1637 | OK |
 
-## Cena b1 - 4.1s a 10.0s - 17 palavras - plano reveal
+## Cena b1 - 4.1s a 10.0s - 17 palavras - plano wide
 > "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -91,7 +91,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | discutir | OK |
 | 5 | - | PLACA | PÂNICO | OK |
 
-## Cena b9 - 46.3s a 52.6s - 18 palavras - plano two
+## Cena b9 - 46.3s a 52.6s - 18 palavras - plano group
 > "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -107,7 +107,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | almoçou (54.4s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 55.2s a 59.6s - 13 palavras - plano two
+## Cena b11 - 55.2s a 59.6s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
