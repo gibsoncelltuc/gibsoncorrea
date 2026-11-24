@@ -157,7 +157,7 @@
   {
    "shot": "two",
    "who": [
-    "FAZ:0:angry"
+    "FAZ:0:angry:rifle"
    ],
    "fx": [
     "burst@24"
@@ -192,7 +192,8 @@
      1.1
     ]
    ],
-   "set": "countryside"
+   "set": "countryside",
+   "encena": false
   },
   {
    "shot": "two",
@@ -336,8 +337,8 @@
    "props": [
     [
      "kit/cross",
-     1.2,
-     -1.4,
+     2.6,
+     -1.6,
      1.0
     ],
     [
@@ -345,6 +346,16 @@
      -2.6,
      -2.4,
      1.2
+    ]
+   ],
+   "set": "countryside",
+   "animals": [
+    [
+     "pig",
+     1.6,
+     -0.3,
+     "fall",
+     1.1
     ]
    ]
   }

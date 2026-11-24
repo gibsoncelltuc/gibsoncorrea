@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | countryside | two | 2 | reagir, INTERAGEM: o outro se aproxima, alguem chega andando | nature/picket_fence, nature/haybale, pig | pitchfork | -
 b1 | countryside | reveal | 2 | parados (so fala e pisca) | - | - | -
 b2 | countryside | two | 1 | encena | nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, kit/batatas, buildings/barn, nature/haybale, pig | pitchfork | -
-b3 | countryside | two | 1 | atira | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | - | -
+b3 | countryside | two | 1 | usa o objeto da mao | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | rifle | -
 b4 | loc_campo | two | 2 | reagir, INTERAGEM: entregar | nature/picket_fence, nature/haybale, tools/wheelbarrow, buildings/barn, nature/scarecrow, pig | money | -
 b5 | loc_campo | two | 2 | discutir, INTERAGEM: discutir | nature/picket_fence, pig | money | -
 b6 | harbor | group | 19 | discutir, INTERAGEM: empurrar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow | - | -
@@ -15,7 +15,7 @@ b7 | harbor | crowd | 32 | discutir, batalha | cannon, navios de guerra ao fundo
 b8 | interior madeira | two | 2 | reagir, INTERAGEM: susto | pig | - | -
 b9 | interior pedra | group | 3 | discutir, INTERAGEM: vai ate o outro | - | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
-b11 | loc_montanha | two | 1 | conversar | kit/cross, nature/picket_fence, pig | - | -
+b11 | countryside | two | 1 | conversar | kit/cross, nature/picket_fence, pig | - | -
 b12 | countryside | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/batatas

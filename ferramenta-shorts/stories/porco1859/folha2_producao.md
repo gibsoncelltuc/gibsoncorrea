@@ -36,8 +36,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): FAZ (variante 0, expressao angry)
-- Animacao: atira
+- Personagens principais (1): FAZ (variante 0, expressao angry, segura rifle)
+- Animacao: -
 - Objetos/modelos: nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espingarda, porco, vizinho
 - RISCOS: nenhum
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - A única baixa da guerra foi o porco.
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao sad)

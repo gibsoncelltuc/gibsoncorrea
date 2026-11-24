@@ -1,4 +1,4 @@
-# FOLHA 1 - ROTEIRO: A Invasão da Ilha Vazia
+# FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain | 13 cenas, 164 palavras (~57 s)
 
@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@25
-- Efeito + som nas palavras-chave: desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito; desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
 - Efeito visual marcado: dust@25
 - Texto na tela: KISKA 1943
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Americanos e canadenses chegaram com navios, aviões e tanques.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) @3 -> acao + som de efeito; desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 ## Cena b3  (~2.4 s)
 - Narracao: Antes do desembarque, bombardearam Kiska durante semanas.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@40, cannon@70, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60
+- Efeitos sonoros marcados: cannon@8, cannon@24, cannon@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60
 - Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito
-- Efeito visual marcado: burst@40
+- Efeito visual marcado: burst@8, burst@24, burst@40, dust@26
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Eles procuraram o inimigo por dias, em trincheiras vazias.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_procura (think) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

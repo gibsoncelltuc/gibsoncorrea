@@ -7,7 +7,7 @@
 - Roupas: {'FAZ': 'camisa azul e chapeu de palha de colono', 'IRL': 'paleto e chapeu-coco (1859)', 'AME': 'soldado americano de 1859: casaca azul-escura, calca azul-clara, quepe de campanha', 'ING': 'Royal Marine: casaca vermelha, barretina', 'ALM': 'almirante da Marinha Real: casaca azul-escura com dragonas, chapeu bicorne'}
 - Cenario real: horta de batatas cercada, fazenda de colonos, pinheiros, praia com navios de guerra a vela/vapor, acampamentos dos dois exercitos
 - Objetos: ['batatas da horta', 'espingarda', 'notas de dolar', 'navios de guerra', 'canhoes']
-- Cenarios usados no video: countryside, harbor, interior madeira, interior pedra, loc_campo, loc_montanha
+- Cenarios usados no video: countryside, harbor, interior madeira, interior pedra, loc_campo
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

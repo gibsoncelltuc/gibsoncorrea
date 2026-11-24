@@ -1,4 +1,4 @@
-# FOLHA 1 - ROTEIRO: A Cavalaria que Capturou uma Frota
+# FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 11 cenas, 158 palavras (~54 s)
 
@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Narracao: Uma frota de navios de guerra foi capturada por soldados a cavalo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: prende (push) @7 -> acao + som de efeito; montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1795
 - Funcao na historia: GANCHO
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 
 ## Cena b7  (~4.1 s)
 - Narracao: Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito; encena: rende (up) @11 -> acao + som de efeito
 - Efeito visual marcado: -

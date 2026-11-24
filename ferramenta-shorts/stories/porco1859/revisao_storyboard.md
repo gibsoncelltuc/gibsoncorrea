@@ -1,12 +1,14 @@
-b0: OK - cena confere com a frase: Dois países quase entraram em guerra por causa de um porco.
-b1: OK - cena confere com a frase: Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia
-b2: OK - cena confere com a frase: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
-b3: OK - cena confere com a frase: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
-b4: OK - cena confere com a frase: O fazendeiro foi até a casa do vizinho, com as notas na mão, e
-b5: OK - cena confere com a frase: O dono gritou que o porco valia cem, e empurrou o dinheiro de volta.
-b6: OK - cena confere com a frase: Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a
-b7: OK - cena confere com a frase: Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados
-b8: OK - cena confere com a frase: O almirante inglês recebeu a ordem de atacar, e se recusou: disse que não
-b9: OK - cena confere com a frase: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
-b10: OK - cena confere com a frase: Treze anos depois, um árbitro decidiu que a ilha era americana.
-b11: OK - cena confere com a frase: A única baixa da guerra foi o porco.
+b0: OK - dois paises quase em guerra por causa de um porco: fazendeiro e irlandes com o porco e placa 1859
+b1: OK - mapa da ilha de San Juan entre os Estados Unidos e o Canada, ilha pequena de ninguem
+b2: CORRIGIDO - a horta caia num cenario de montanha de pedra -> campo com a horta e o porco comendo as batatas
+b3: OK - fazendeiro pegou a espingarda e atirou: clarão e o porco do vizinho ingles cai
+b4: OK - o fazendeiro ofereceu dez dolares pelo porco: notas na mao e placa $10
+b5: OK - o dono gritou que o porco valia cem e recusou o dinheiro: placa $100
+b6: OK - ingleses ameacaram prender o fazendeiro e os americanos mandaram soldados: placa TROPAS no cais
+b7: OK - Inglaterra respondeu com navios de guerra a vela, centenas de soldados e canhoes apontados no cais
+b8: OK - almirante ingles recebeu ordem de atacar e se recusou: almirante e oficial na sala
+b9: OK - soldados passaram meses trocando insultos e depois festas, ninguem deu um tiro: casacas vermelhas e azuis juntos na sala
+b10: CORRIGIDO - a cena do arbitro virava batalha com soldados caidos -> treze anos depois o arbitro decidiu: placa 13 ANOS, sem batalha
+b11: CORRIGIDO - final caia na montanha sem o porco -> a unica baixa foi o porco: porco caido no campo com a cruz
+pesquisa: o quadro de referencias mostra a ilha de San Juan com fazendas, pinheiros e a costa, soldados americanos de casaca azul e Royal Marines de casaca vermelha de 1859, navios de guerra a vela e o acampamento ingles; comparei fardas, navios e a horta
+defeitos procurados: cenario de campo e cais de 1859 sem predio moderno nem montanha de pedra; epoca 1859 sem vapor moderno; tamanho de navios e canhoes certo; ninguem cortado; multidao sem clone e com os dois lados; legenda livre; acao de cada frase visivel (tiro no porco, dinheiro, tropas, navios); objeto heroi porco aparece no comeco e no fim

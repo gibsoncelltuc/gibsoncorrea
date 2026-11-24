@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (0): -
-- Animacao: discutir
+- Personagens principais (2): VIA (variante 0, expressao shock); MOR (variante 0, expressao angry)
+- Animacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: buildings/house_two, nature/lamppost, locomotive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
 - RISCOS: nenhum

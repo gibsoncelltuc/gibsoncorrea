@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 24/11 04:17 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 07:54 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou n
 b3 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
 b4 | simples | street | group | VIA, VEN | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, n
 b5 | chave | street | crowd | VEN, VIA | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj
-b6 | simples | street | group | sem personagem | - | house_two, lamppost | - | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
+b6 | simples | street | group | VIA, MOR | - | house_two, lamppost | - | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
 b7 | simples | interior madeira | two | PRE, MOR | - | - | - | Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f
 b8 | chave | loc_campo | orbit | SOL, SOL | 48 | locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabo
 b9 | simples | jungle | close | VEN | - | melon | - | Tudo isso por uma fatia de melancia que custava poucos centavos.

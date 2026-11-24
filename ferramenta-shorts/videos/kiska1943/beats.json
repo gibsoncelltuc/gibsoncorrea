@@ -42,7 +42,10 @@
   {
    "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
    "shot": "wide",
-   "who": [],
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern"
+   ],
    "props": [
     [
      "ship",
@@ -62,14 +65,21 @@
    "tstyle": "white",
    "mood": "epic",
    "set": "harbor",
-   "acao": "conversar",
    "desembarque": true,
    "fx": [
     "dust@25"
    ],
    "sfx": [
     "thump@25"
-   ]
+   ],
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
   },
   {
    "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
@@ -121,6 +131,10 @@
      -6,
      1.0
     ]
+   ],
+   "who": [
+    "USA:0:stern",
+    "CAN:1:smile"
    ]
   },
   {
@@ -138,11 +152,15 @@
     ]
    ],
    "fx": [
-    "burst@40"
+    "burst@8",
+    "burst@24",
+    "burst@40",
+    "dust@26"
    ],
    "sfx": [
-    "cannon@40",
-    "cannon@70"
+    "cannon@8",
+    "cannon@24",
+    "cannon@40"
    ],
    "mood": "march",
    "set": "arctic"
@@ -158,7 +176,7 @@
    "move": 8,
    "light": "overcast",
    "mood": "tense",
-   "set": "mountain",
+   "set": "arctic",
    "clima": "neblina"
   },
   {
@@ -178,8 +196,19 @@
   {
    "say": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
    "shot": "track",
-   "set": "mountain",
-   "hora": "dia"
+   "set": "arctic",
+   "who": [
+    "USA:0:nervous",
+    "CAN:0:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
   },
   {
    "say": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
@@ -227,7 +256,7 @@
    "tstyle": "red",
    "light": "overcast",
    "mood": "tense",
-   "set": "mountain",
+   "set": "arctic",
    "clima": "neblina"
   },
   {
@@ -243,18 +272,10 @@
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
-   "shot": "two",
+   "shot": "prop",
    "who": [
-    "USA:1:laugh"
-   ],
-   "animals": [
-    [
-     "dog",
-     2.0,
-     1.4,
-     "stand",
-     1.2
-    ]
+    "USA:1:surprised",
+    "CAN:0:surprised"
    ],
    "text": "SÓ CACHORROS",
    "tat": 6,
@@ -266,30 +287,38 @@
    "props": [
     [
      "kit/dog_sit",
-     1.6,
-     -1.0,
-     1.0
+     1.2,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/dog_sit",
-     -1.8,
      -1.4,
-     1.0
+     1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "OFF:0:pained"
+    "OFF:0:pained",
+    "USA:0:surprised"
    ],
    "text": "OPERAÇÃO ILHA VAZIA",
    "tat": 11,
    "tstyle": "white",
    "mood": "playful",
    "set": "harbor",
-   "clima": "neblina",
    "props": [
     [
      "kit/dog_sit",
@@ -303,7 +332,8 @@
      -1.4,
      1.0
     ]
-   ]
+   ],
+   "detalhe": false
   }
  ],
  "heroi": "kit/dog_sit",
@@ -332,5 +362,8 @@
    "https://en.wikipedia.org/wiki/Operation_Cottage",
    "https://en.wikipedia.org/wiki/Kiska"
   ]
- }
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 21,
+ "titulo_base": "A Invasão da Ilha Vazia"
 }

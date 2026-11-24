@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | animais, placa: 1859, objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | animais, objeto na mao | animal: pig come (acao + som de efeito); encena: pega (lift) @3 (acao + som de efeito) | -
-b3 | two | -  | animais | animal: pig leva o tiro e cai (acao + som de efeito); atirou (burst + som de tiro/explosao); encena: pega (lift) @1 (acao + som de efeito); encena: atira @5 (acao + som de efeito) | -
+b3 | two | -  | animais, objeto na mao | animal: pig leva o tiro e cai (acao + som de efeito); atirou (burst + som de tiro/explosao) | -
 b4 | two | -  | animais, placa: $10, objeto na mao | encena: x_entrega (reach) @2 (acao + som de efeito) | -
 b5 | two | -  | animais, placa: $100, objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); dinheiro (stars + som de sino); encena: grita (up) @2 (acao + som de efeito); encena: paga (reach) @11 (acao + som de efeito) | -
 b6 | group | -  | tropa, placa: TROPAS | encena: x_discute (point) @2 (acao + som de efeito); encena: fala (point) @9 (acao + som de efeito) | -

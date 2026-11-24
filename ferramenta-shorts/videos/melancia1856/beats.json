@@ -173,7 +173,11 @@
     "asset": "locomotive",
     "fixo": true
    },
-   "acao": "discutir"
+   "acao": "discutir",
+   "who": [
+    "VIA:0:shock",
+    "MOR:0:angry"
+   ]
   },
   {
    "shot": "two",

@@ -1,7 +1,7 @@
 {
- "duration": 66.672,
- "frames30": 2000,
- "source": "silence-align (cost 1.04)",
+ "duration": 64.344,
+ "frames30": 1930,
+ "source": "silence-align (cost 0.91)",
  "segments": [
   [
    0.158125,
@@ -17,7 +17,7 @@
   ],
   [
    8.76675,
-   9.3475
+   9.34758
   ],
   [
    9.56921,
@@ -41,15 +41,15 @@
   ],
   [
    20.359,
-   21.3497
+   21.3496
   ],
   [
-   21.6489,
+   21.649,
    23.236
   ],
   [
    23.6255,
-   25.0016
+   25.0015
   ],
   [
    25.8418,
@@ -60,72 +60,64 @@
    28.9273
   ],
   [
-   29.7655,
-   30.4052
+   29.7596,
+   31.5306
   ],
   [
-   30.6067,
-   32.3134
+   31.6934,
+   32.8929
   ],
   [
-   32.5018,
-   34.1281
+   33.7854,
+   34.7522
   ],
   [
-   35.0072,
-   35.967
+   34.9585,
+   38.4108
   ],
   [
-   36.1707,
-   39.5685
+   38.6115,
+   39.7275
   ],
   [
-   39.8399,
-   40.7705
+   40.6133,
+   41.6617
   ],
   [
-   40.9542,
-   42.0593
+   41.9196,
+   44.1173
   ],
   [
-   42.943,
-   43.9911
+   44.3288,
+   45.3227
   ],
   [
-   44.2491,
-   46.4429
+   46.1924,
+   48.3729
   ],
   [
-   46.6582,
-   47.652
+   48.6088,
+   50.6423
   ],
   [
-   48.5219,
-   50.7022
+   51.5063,
+   51.9125
   ],
   [
-   50.9381,
-   52.9717
+   52.1471,
+   54.3677
   ],
   [
-   53.8357,
-   54.2419
+   55.2248,
+   59.1991
   ],
   [
-   54.4765,
-   56.6966
+   60.029,
+   61.4713
   ],
   [
-   57.5542,
-   61.5285
-  ],
-  [
-   62.3548,
-   63.8028
-  ],
-  [
-   64.0958,
-   65.8574
+   61.7662,
+   63.5277
   ]
  ],
  "phrases": [
@@ -200,89 +192,79 @@
    "e": 28.927
   },
   {
-   "text": "Mesmo assim,",
-   "s": 29.765,
-   "e": 30.405
+   "text": "Eles procuraram o inimigo por dias,",
+   "s": 29.76,
+   "e": 31.531
   },
   {
-   "text": "eles procuraram o inimigo por dias,",
-   "s": 30.607,
-   "e": 32.313
-  },
-  {
-   "text": "em t\u00faneis e trincheiras vazias.",
-   "s": 32.502,
-   "e": 34.128
+   "text": "em trincheiras vazias.",
+   "s": 31.693,
+   "e": 32.893
   },
   {
    "text": "Semanas antes,",
-   "s": 35.007,
-   "e": 35.967
+   "s": 33.785,
+   "e": 34.752
   },
   {
-   "text": "navios japoneses tinham levado cerca de cinco mil homens embora,",
-   "s": 36.171,
-   "e": 39.569
-  },
-  {
-   "text": "em menos de uma hora,",
-   "s": 39.84,
-   "e": 40.77
+   "text": "navios japoneses levaram cinco mil homens embora em menos de uma hora,",
+   "s": 34.959,
+   "e": 38.411
   },
   {
    "text": "escondidos na neblina.",
-   "s": 40.954,
-   "e": 42.059
+   "s": 38.611,
+   "e": 39.727
   },
   {
    "text": "Sem inimigo \u00e0 vista,",
-   "s": 42.943,
-   "e": 43.991
+   "s": 40.613,
+   "e": 41.662
   },
   {
    "text": "os Aliados come\u00e7aram a atirar uns nos outros,",
-   "s": 44.249,
-   "e": 46.443
+   "s": 41.92,
+   "e": 44.117
   },
   {
    "text": "no escuro e na neblina.",
-   "s": 46.658,
-   "e": 47.652
+   "s": 44.329,
+   "e": 45.323
   },
   {
    "text": "Mais de vinte soldados morreram nesses tiros,",
-   "s": 48.522,
-   "e": 50.702
+   "s": 46.192,
+   "e": 48.373
   },
   {
    "text": "e um navio americano ainda bateu numa mina.",
-   "s": 50.938,
-   "e": 52.972
+   "s": 48.609,
+   "e": 50.642
   },
   {
    "text": "No fim,",
-   "s": 53.836,
-   "e": 54.242
+   "s": 51.506,
+   "e": 51.913
   },
   {
    "text": "s\u00f3 acharam na ilha alguns cachorros abandonados.",
-   "s": 54.477,
-   "e": 56.697
+   "s": 52.147,
+   "e": 54.368
   },
   {
    "text": "Uma das maiores invas\u00f5es do Pac\u00edfico Norte tomou uma ilha completamente vazia.",
-   "s": 57.554,
-   "e": 61.529
+   "s": 55.225,
+   "e": 59.199
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 62.355,
-   "e": 63.803
+   "s": 60.029,
+   "e": 61.471
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 64.096,
-   "e": 65.857
+   "s": 61.766,
+   "e": 63.528
   }
  ]
 }

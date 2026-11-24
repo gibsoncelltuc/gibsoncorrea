@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): RAP (variante 0, expressao angry); XER (variante 0, expressao pained)
-- Animacao: discutir | interacao: empurrar
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/canivete
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivete, michigan, taverna, xerife
 - RISCOS: nenhum
@@ -129,7 +129,7 @@ nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 ## Video inteiro
 - Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b5 empurrar, b6 pedir, b7 tremem de frio, b8 cochichar
+- Interacoes: b0 avanca e o outro recua, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

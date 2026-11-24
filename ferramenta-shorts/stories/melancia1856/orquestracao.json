@@ -142,7 +142,10 @@
   },
   {
    "camera": "group",
-   "personagens": [],
+   "personagens": [
+    "VIA",
+    "MOR"
+   ],
    "multidao": 0,
    "objetos": [
     "buildings/house_two",
@@ -152,7 +155,7 @@
    "cena": "b6",
    "frase": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"

@@ -41,14 +41,17 @@
   },
   {
    "camera": "group",
-   "personagens": [],
-   "multidao": 0,
+   "personagens": [
+    "FIN",
+    "FIN"
+   ],
+   "multidao": 10,
    "objetos": [],
    "palavras": 17,
    "cena": "b1",
    "frase": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
    "classe": "chave",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",

@@ -1,7 +1,7 @@
-# FOLHA 3 - ACOES - O Cardápio do Zoológico
+# FOLHA 3 - ACOES - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 14 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 14 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 1.9s - 6 palavras - plano two
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cercou (4.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | MAPA | FRANÇA | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | MAPA | FRANÇA | OK |
 
 ## Cena b2 - 8.9s a 13.0s - 12 palavras - plano group
 > "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos."
@@ -67,7 +68,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 29.6s a 35.2s - 16 palavras - plano two
 > "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo."
@@ -92,7 +94,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandar (38.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | BALÕES E POMBOS | OK |
 
@@ -105,13 +107,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | chegou (42.6s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | fugir (43.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b11 - 47.0s a 51.9s - 14 palavras - plano two
 > "O cerco durou mais de quatro meses, num dos invernos mais frios daquela época."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | cochichar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b12 - 52.2s a 58.9s - 19 palavras - plano close
 > "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia."

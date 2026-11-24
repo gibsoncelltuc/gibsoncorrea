@@ -52,7 +52,11 @@
   {
    "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
    "shot": "reveal",
-   "mapa": "FRANÇA"
+   "mapa": "FRANÇA",
+   "who": [
+    "PAR:0:nervous",
+    "PAR:1:sad"
+   ]
   },
   {
    "say": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
@@ -169,7 +173,11 @@
      1.0
     ]
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "who": [
+    "CHF:0:grin",
+    "PAR:0:surprised"
+   ]
   },
   {
    "say": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
@@ -235,13 +243,21 @@
      -6,
      1.3
     ]
+   ],
+   "who": [
+    "PAR:0:surprised",
+    "PAR:1:shock"
    ]
   },
   {
    "say": "O cerco durou mais de quatro meses, num dos invernos mais frios daquela época.",
    "shot": "two",
    "clima": "neve",
-   "acao": "conversar"
+   "acao": "conversar",
+   "who": [
+    "PAR:0:sad",
+    "PAR:1:nervous"
+   ]
   },
   {
    "say": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
@@ -293,5 +309,8 @@
    "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)",
    "https://en.wikipedia.org/wiki/Castor_and_Pollux_(elephants)"
   ]
- }
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 24,
+ "titulo_base": "O Cardápio do Zoológico"
 }

@@ -505,6 +505,7 @@ def nodrop(c): return re.sub(r'(asset: "[^"]+", at: \[[^\]]*\], s: [\d.]+)(?![\d
 
 
 import unicodedata
+def nrm0x(t): return unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode()
 def nrm(t): return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
 MASS = re.compile(r'infantaria|batalh|exercito|soldados|milhares|dezenas|tropas|acampamento|regimento|multidao|todomundo|artilharia|canhoes|campocheio|panico|marcha|esquadrao|legiao|frota|armada|invasao|invadiu')
 ARRIVE = re.compile(r'chegou|chegaram|apareceu|surgiu|avancou|avancaram|marchava|marcharam|invadiu|invadiram|desembarcou|cercou|cercaram')
@@ -1381,6 +1382,7 @@ def build_beat(k, b):
                 _xs = [px_ for px_, pz_ in _ppos]; dx = round((max(_xs) + 2.0) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 2.0), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.4)
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
+        if asset == 'kit/searchlight' and 'vfx' not in ex and (b.get('hora') == 'noite' or b.get('light') == 'night' or (not b.get('hora') and re.search(r'holofote|madrugada', nrm0x(b.get('say', ''))))): ex = {**ex, 'vfx': [{'k': 'feixe', 'a': 0, 'b': 999999, 'ph': round((float(dx) * 1.7 + float(z)) % 6.28, 2), 'inc': -0.55 if float(dx) > 0.5 else (0.55 if float(dx) < -0.5 else 0)}]}   # HOLOFOTE a noite: facho de luz varrendo o ceu (Batalha de Los Angeles)
         extra = ''.join((f', y: DK + {num(vv)}' if kk == 'y' else f', {kk}: {json.dumps(vv)}') for kk, vv in ex.items() if kk not in ('alto', 'mover', 'carregado') and not (kk == 'y' and ex.get('carregado')))   # 19/11: 'y' do roteiro e' altura acima do chao (DK +) + (f", y: DK + {num(ex.get('y', 0.7))}, move: [[X + {num(dx + mv / 2)}, {num(z)}], {a}, {bb}, 'lin'], drop: false" if ex.get('carregado') and mv else '')   # OBJETO CARREGADO: ["kit/sink", dx_do_personagem + 0.5, z, escala, {"carregado": true}] em cena "track": anda junto na altura das maos + (f", move: [[X + {num(ex['mover'][0])}, {num(ex['mover'][1])}], {a}, Math.round({a} + ({bb} - ({a})) * 0.85), 'sm'], drop: false" if ex.get('mover') else '')
         # VEICULO DE VERDADE (23/11, Gibson: "carro do tamanho correto", "carro voador saindo do chao e voando", "nada de carro parado no ceu")
         if _EH_VEIC(asset) and not ex.get('carregado') and (ex.get('fixo') or b.get('_pergunta')):   # veiculo parado de proposito: so' o tamanho real, sem animacao
@@ -1601,6 +1603,7 @@ def build_beat(k, b):
               nw_ = nrm(w_); wi_ = starts[k] + j_
               if (b.get('_obj_acao') or b.get('_pergunta')) and re.match(r'(pul|salt|voa|voo|voar|decol|desc|pous|aterriss|acel|arranc|sub|gir|plan|sobrevo|levant|caiu|cair)', nw_): b.setdefault('_enc_words', []).append(nw_); continue   # v13 SUJEITO = OBJETO: quem pula/voa/pousa e' o carro (com VFX), nao o personagem que assiste
               if re.match(r'(despenc|caiu|cairam|desab|afund|tomb)', nw_) and re.search(r'taxa|indice|numero|assassinat|homicid|crime|preco|valor|venda|acao|acoes|bolsa|lucro|porcent|por cento|grafico|estatistic|inflac|juro|popularidade|audiencia|cotac', unicodedata.normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()): b.setdefault('_enc_words', []).append(nw_); continue   # numero que despencou/caiu (taxa, preco, assassinatos) e' grafico, ninguem cai no chao
+              if nw_.startswith('varr') and re.search(r'holofote|ceu|luz|farol|radar', nrm(b.get('say', ''))): b.setdefault('_enc_words', []).append(nw_); continue   # 'holofotes varreram o ceu' = facho de luz (VFX feixe), ninguem lava nem varre
               if nw_ in ('saiu', 'sairam', 'sai', 'sair', 'chao') and re.search(r'(saiu|sairam|sair|sai|tirou|tiraram|levantou|fora)dochao', nrm(b.get('say', ''))): b.setdefault('_enc_words', []).append(nw_); continue   # 'saiu do chao' = decolou (objeto), ninguem sai andando nem cai
               if j_ in _negi: b.setdefault('_enc_words', []).append(nw_); continue   # acao NEGADA na frase: nao encena (e nao conta como falta)
               if j_ in _idiom_idx(b['say']): b.setdefault('_enc_words', []).append(nw_); continue   # EXPRESSAO: "o panico tomou", "a noticia correu", "o preco caiu"

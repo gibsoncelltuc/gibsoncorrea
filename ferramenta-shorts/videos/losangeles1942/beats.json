@@ -110,7 +110,7 @@
    "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
   },
   {
-   "shot": "two",
+   "shot": "low",
    "set": "harbor",
    "hora": "noite",
    "who": [
@@ -120,8 +120,23 @@
    "props": [
     [
      "kit/searchlight",
-     1.8,
-     -1.2,
+     0.0,
+     -2.4,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/searchlight",
+     -3.4,
+     -4.6,
+     1.0
+    ],
+    [
+     "kit/searchlight",
+     3.6,
+     -5.2,
      1.0
     ]
    ],
@@ -131,7 +146,9 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
+   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
+   "shot_lock": true,
+   "detalhe": true
   },
   {
    "shot": "group",

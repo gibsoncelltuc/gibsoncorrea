@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: O Cardápio do Zoológico
+# FOLHA 2 - PRODUCAO: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paris1870/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paris1870` de novo ate esta folha sair sem risco.
 
@@ -16,8 +16,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): PAR (variante 0, expressao neutral) | multidao: 6 de PAR
-- Animacao: encena
+- Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao sad) | multidao: 6 de PAR
+- Animacao: reagir
 - Objetos/modelos: kit/marco_notredame, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, comida, prussia
 - RISCOS: nenhum
@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (0): -
-- Animacao: conversar
+- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao surprised)
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/panela, kit/kettle, bear, wolf
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lobos, panela, ursos, zoologico
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 0, expressao smile); PAR (variante 1, expressao smile)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/balloon_air, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): parisienses
 - RISCOS: nenhum
@@ -106,8 +106,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): PAR (variante 0, expressao neutral) | multidao: 18 de PAR
-- Animacao: encena | batalha encenada
+- Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 18 de PAR
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/balloon_air, kit/balloon, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, fugir, ministro, tropas
 - RISCOS: nenhum
@@ -116,8 +116,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: day | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (0): -
-- Animacao: conversar
+- Personagens principais (2): PAR (variante 0, expressao sad); PAR (variante 1, expressao nervous)
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco, invernos, quatro
 - RISCOS: nenhum
@@ -165,7 +165,7 @@ kit/balloon | b9, b10 | pronto | conferir na folha de contato se le bem; se pare
 
 ## Video inteiro
 - Objeto heroi: kit/panela | grandes momentos: b4, b10 | planos abertos: 3 | mistura: close 32% | medio 52% | aberto 11% | detalhe 5%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 discutir, b7 tremem de frio, b9 o outro se aproxima
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 discutir, b6 o outro se aproxima, b7 tremem de frio, b9 vai ate o outro, b11 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paris1870  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paris1870/moodboard.jpg
 

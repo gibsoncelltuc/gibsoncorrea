@@ -1,4 +1,4 @@
-# FOLHA 4 - PESQUISA: O Cardápio do Zoológico
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py paris1870` busca cada item na internet, baixa os prints (referencias/paris1870/prints/) e monta o quadro referencias/paris1870/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
