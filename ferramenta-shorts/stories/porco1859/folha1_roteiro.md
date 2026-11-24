@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 13 cenas, 175 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 13 cenas, 171 palavras (~59 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Dois países quase entraram em guerra por causa de um porco.
@@ -20,11 +20,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: - | mapa: ILHA DE SAN JUAN
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.8 s)
-- Narracao: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
+## Cena b2  (~3.8 s)
+- Narracao: Um fazendeiro americano pegou um porco comendo as batatas da horta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: olha (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: pega (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -56,11 +56,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.2 s)
-- Narracao: Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.
+## Cena b6  (~4.8 s)
+- Narracao: Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: fala (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TROPAS
 - Funcao na historia: desenvolvimento

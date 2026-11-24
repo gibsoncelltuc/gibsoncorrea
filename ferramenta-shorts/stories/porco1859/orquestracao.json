@@ -61,9 +61,9 @@
     "nature/scarecrow",
     "tools/wheelbarrow"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
+   "frase": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -147,9 +147,9 @@
     "nature/picket_fence",
     "nature/scarecrow"
    ],
-   "palavras": 15,
+   "palavras": 14,
    "cena": "b6",
-   "frase": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
+   "frase": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
