@@ -89,11 +89,10 @@
    "batalha": false
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "OFI:0:laugh",
-    "OFI:1:grin",
-    "CON:0:shock"
+    "OFI:0:grin",
+    "OFI:1:laugh"
    ],
    "interior": "loja",
    "fx": [
@@ -105,20 +104,21 @@
    "say": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram.",
    "props": [
     [
+     "kit/cake_table",
+     0.0,
+     1.2,
+     1.6
+    ],
+    [
      "mk/Table_Large",
      0,
      2.6,
      1.8
-    ],
-    [
-     "kit/cake_table",
-     0.6,
-     2.6,
-     1.2
     ]
    ],
    "acao": "comer",
-   "humanos_comem": true
+   "humanos_comem": true,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -138,24 +138,26 @@
    "say": "O governo francês juntou outras queixas e exigiu seiscentos mil pesos, mas o México não pagou."
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
     "FRA:0:stern",
     "FRA:1:stern"
    ],
    "crowd": {
-    "n": 18,
+    "n": 10,
     "outfits": [
      "FRA"
     ],
-    "march": true
+    "march": false
    },
    "text": "A MARINHA",
    "titulo": true,
    "say": "Acontece que a França mandou a esquadra, e navios de guerra fecharam os portos do México.",
    "batalha": false,
    "tiros": false,
-   "impact": false
+   "impact": false,
+   "shot_lock": true,
+   "set": "harbor"
   },
   {
    "shot": "crowd",

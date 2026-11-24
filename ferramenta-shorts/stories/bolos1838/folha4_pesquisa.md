@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): CON, FRA, OFI, REI
 - Cenarios: harbor, interior loja, interior pedra, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 

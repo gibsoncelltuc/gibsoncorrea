@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
@@ -19,7 +19,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | MÉXICO | OK |
 
-## Cena b2 - 9.2s a 13.7s - 16 palavras - plano group
+## Cena b2 - 9.2s a 13.7s - 16 palavras - plano two
 > "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -46,16 +46,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | juntou (22.0s) | ACAO: pega | levanta/segura | OK |
 
-## Cena b5 - 27.1s a 31.6s - 16 palavras - plano low
+## Cena b5 - 27.1s a 31.6s - 16 palavras - plano wide
 > "Acontece que a França mandou a esquadra, e navios de guerra fecharam os portos do México."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (28.2s) | ACAO: fala | aponta explicando | OK |
 | 2 | fecharam (30.4s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | A MARINHA | OK |
+| 3 | - | PLACA | A MARINHA | OK |
 
 ## Cena b6 - 32.7s a 37.5s - 15 palavras - plano crowd
 > "Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz."

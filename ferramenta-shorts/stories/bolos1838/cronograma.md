@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 24/11 11:47 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 11:55 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,10 +8,10 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | CON, OFI | - | cake_table, marco_ulua | - | A França foi à guerra contra o México por causa de uma conta de confei
 b1 | transicao | street | reveal | CON, OFI | - | shop, cake_table, marco_ulua, stall | - | Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do 
-b2 | simples | interior loja | group | OFI, OFI, CON | - | cake_table, Table_Large | - | Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja
+b2 | simples | interior loja | two | OFI, OFI | - | cake_table, Table_Large | - | Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja
 b3 | simples | interior pedra | two | CON, REI | - | cake_table | - | O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia
 b4 | simples | interior pedra | close | REI | - | - | - | O governo francês juntou outras queixas e exigiu seiscentos mil pesos,
-b5 | simples | harbor | low | FRA, FRA | 18 | marco_ulua | - | Acontece que a França mandou a esquadra, e navios de guerra fecharam o
+b5 | simples | harbor | wide | FRA, FRA | 32 | marco_ulua, navios de guerra ao fundo, no tamanho real | - | Acontece que a França mandou a esquadra, e navios de guerra fecharam o
 b6 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os s
 b7 | simples | harbor | two | GEN | - | - | - | Santa Anna foi ferido na perna por metralha, e a perna foi enterrada c
 b8 | simples | interior pedra | two | GEN, FRA | - | - | - | Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e
@@ -30,12 +30,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | FEITO | 
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh bolos1838
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh bolos1838
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local bolos1838 <mp4>
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 14. Entrega
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

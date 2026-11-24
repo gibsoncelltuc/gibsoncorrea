@@ -52,11 +52,10 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "OFI",
-    "OFI",
-    "CON"
+    "OFI"
    ],
    "multidao": 0,
    "objetos": [
@@ -108,14 +107,15 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "low",
+   "camera": "wide",
    "personagens": [
     "FRA",
     "FRA"
    ],
-   "multidao": 18,
+   "multidao": 32,
    "objetos": [
-    "kit/marco_ulua"
+    "kit/marco_ulua",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 16,
    "cena": "b5",
