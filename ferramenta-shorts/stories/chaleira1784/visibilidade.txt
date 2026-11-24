@@ -1,2 +1,1 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b5: objeto "cannon" saiu com 5% da altura da tela, a ficha de cena planejou 18%
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (28 tomadas)
