@@ -11,8 +11,8 @@ b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 9:02 | fogo (burst + s
 b6 | two | -  | tropa | - | -
 b7 | orbit | -  | batalha aberta com tiros, tropa, interior | encena: fala (point) @3 (acao + som de efeito) | -
 b8 | two | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto) | -
-b9 | two | -  | tropa, interior, placa: OUTRO SULTÃO | pagaram (stars + som de sino); encena: pega (lift) @2 (acao + som de efeito); encena: negocio (reach) @12 (acao + som de efeito); encena: atira @14 (acao + som de efeito) | -
-b10 | close | -  | interior | encena: fala (point) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
+b9 | two | -  | tropa, interior, placa: OUTRO SULTÃO | pagaram (stars + som de sino); encena: pega (lift) @2 (acao + som de efeito); encena: negocio (reach) @12 (acao + som de efeito) | -
+b10 | close | -  | interior | encena: fala (point) @2 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
 Mistura de planos: close 16% | medio 56% | aberto 25% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

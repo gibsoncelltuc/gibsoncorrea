@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: O major Meredith levou duas metralhadoras e dez mil balas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: 10.000 BALAS
 - Funcao na historia: GRANDE MOMENTO
@@ -51,14 +51,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito; encena: pega (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.1 s)
 - Narracao: Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

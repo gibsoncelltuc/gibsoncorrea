@@ -119,7 +119,19 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
+   "say": "Karl von Frisch, da Áustria, passou a vida estudando abelhas.",
+   "props": [
+    [
+     "kit/beehive",
+     0.9,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_ok": true
   },
   {
    "shot": "two",

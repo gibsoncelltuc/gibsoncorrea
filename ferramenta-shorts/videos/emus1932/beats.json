@@ -105,7 +105,15 @@
    "sfx": [
     "ding@20"
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "FARM"
+    ],
+    "march": false,
+    "expr": "angry"
+   }
   },
   {
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
@@ -311,7 +319,23 @@
    "text": "6 DIAS",
    "tat": 0,
    "set": "loc_campo",
-   "fachada": false
+   "fachada": false,
+   "animals": [
+    [
+     "emu",
+     2.6,
+     -1.4,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     3.6,
+     -2.0,
+     "run",
+     1.6
+    ]
+   ]
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
@@ -358,7 +382,37 @@
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "animals": [
+    [
+     "emu",
+     -3.0,
+     -4.0,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     -1.8,
+     -5.0,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     3.4,
+     -3.6,
+     "run",
+     1.6
+    ]
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true
+   }
   },
   {
    "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",

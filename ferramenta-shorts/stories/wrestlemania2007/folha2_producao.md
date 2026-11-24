@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/wrestlemania2007/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py wrestlemania2007` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Antes de virar presidente, Donald Trump entrou num ringue de luta livr...
+## Cena b0 - Donald Trump raspou a cabeça de outro bilionário no meio de um ringue.
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao smug); VIN (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/clipper
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, luta, virar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, ringue
 - RISCOS: nenhum
 
 ## Cena b1 - Foi em abril de dois mil e sete, em Detroit, no maior show de luta liv...
@@ -22,24 +22,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, luta
 - RISCOS: nenhum
 
-## Cena b2 - Como todo show de luta, a rivalidade era combinada: Trump contra o don...
+## Cena b2 - A rivalidade era combinada, como todo show de luta: Trump contra o don...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TRU (variante 0, expressao angry); VIN (variante 0, expressao shout)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, empresa, luta, rivalidade
 - RISCOS: nenhum
 
-## Cena b3 - A aposta era maluca: cada um escolheu um lutador, e o dono de quem per...
+## Cena b3 - A aposta: cada um escolheu um lutador, e o dono do perdedor teria a ca...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): VIN (variante 0, expressao smug); TRU (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/clipper
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aposta, cabeca, dono, escolheu, lutador
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aposta, cabeca, dono, escolheu, lutador, perdedor
 - RISCOS: nenhum
 
 ## Cena b4 - Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos ...
@@ -62,11 +62,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, mcmahon, ringue, trump
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que o juiz convidado era Steve Austin, famoso por derrubar to...
+## Cena b6 - Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça...
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 30 de 
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: conversar
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz, luta
@@ -82,47 +82,37 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, lutador, trump
 - RISCOS: nenhum
 
-## Cena b8 - Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na c...
+## Cena b8 - Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar c...
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/ring, kit/clipper
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, maquina, raspar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca
 - RISCOS: nenhum
 
-## Cena b9 - O dono da luta livre saiu do ringue completamente careca.
+## Cena b9 - E sobrou para Trump: o juiz derrubou ele também.
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (3): VIB (variante 0, expressao cry); TRU (variante 0, expressao laugh); LAS (variante 0, expressao smile)
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/clipper
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, luta, ringue
-- RISCOS: nenhum
-
-## Cena b10 - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele ...
-- Cenario: stadium | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: conversar
 - Objetos/modelos: kit/ring
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, juiz
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz
 - RISCOS: nenhum
 
-## Cena b11 - Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo...
+## Cena b10 - Seis anos depois, Trump entrou para o Hall da Fama da luta livre.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao smile); JUI (variante 0, expressao smile)
 - Animacao: comemorar | interacao: pular | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabelo, corte, fama, hall, luta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fama, hall, luta
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -137,26 +127,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/clipper | b0, b3, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/clipper | b0, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_detroit | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ball | b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/ring | b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ring | b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 5 | mistura: close 22% | medio 55% | aberto 24% | detalhe 0%
-- Interacoes: b0 susto, b2 discutir, b3 cochichar, b9 insiste, b11 pular
+- Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 5 | mistura: close 11% | medio 60% | aberto 29% | detalhe 0%
+- Interacoes: b0 susto, b2 discutir, b3 cochichar, b10 pular
 - RISCOS GERAIS: 
-  - GANCHO longo: a 1a frase tem 19 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
-  - video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py wrestlemania2007  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/wrestlemania2007/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
-- geral: GANCHO longo: a 1a frase tem 19 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
-- geral: video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh wrestlemania2007 bN bM` (so essas cenas).

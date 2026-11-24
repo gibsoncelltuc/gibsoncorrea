@@ -171,7 +171,15 @@
    "say": "A cidade reformou salões e contratou músicos para manter os dançarinos de pé.",
    "set": "hall",
    "riscos_ok": true,
-   "detalhe": false
+   "detalhe": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "DAN"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",
