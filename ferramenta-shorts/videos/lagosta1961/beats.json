@@ -84,8 +84,8 @@
     [
      "boat",
      0.0,
-     -9.0,
-     1.6
+     -7.0,
+     2.0
     ],
     [
      "kit/fishing_net",
@@ -104,7 +104,8 @@
    "cx": 0.0,
    "cz": -6.0,
    "d0": 16.0,
-   "d1": 13.0
+   "d1": 13.0,
+   "fachada": false
   },
   {
    "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
@@ -139,7 +140,7 @@
     [
      "kit/navio_destroier",
      0.0,
-     -16.0,
+     -18.0,
      1.0
     ]
    ],
@@ -153,7 +154,8 @@
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "fachada": false
   },
   {
    "shot": "group",
@@ -250,7 +252,7 @@
   }
  ],
  "ano": 1961,
- "regiao": "franca",
+ "regiao": "brasil",
  "exp": 1.0,
  "visual": {
   "local": "litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros",
