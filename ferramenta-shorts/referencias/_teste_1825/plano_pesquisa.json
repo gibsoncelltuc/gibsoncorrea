@@ -1,0 +1,30 @@
+{
+ "id": "_teste_1825",
+ "ano": 1825,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "teste",
+   "consultas": [
+    "teste",
+    "Numa No 1825"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1825",
+   "consultas": [
+    "1825 fashion clothing",
+    "19th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "kettle",
+   "consultas": [
+    "kettle",
+    "teste"
+   ]
+  }
+ ]
+}
