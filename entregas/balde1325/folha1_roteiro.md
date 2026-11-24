@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 184 palavras (~63 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 185 palavras (~64 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.
@@ -38,22 +38,22 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~7.6 s)
-- Narracao: Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.
+## Cena b4  (~7.9 s)
+- Narracao: Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacaram -> ring + som de alerta; fugiu -> dust + som de impacto; encena: corre @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: atacaram -> ring + som de alerta; fugiu -> dust + som de impacto; encena: corre @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~4.8 s)
 - Narracao: Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: Morreram -> puff + som de baque; chegaram -> dust + som de impacto; encena: morre @0 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: MUROS DE BOLONHA
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.5 s)
@@ -76,11 +76,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b8  (~4.8 s)
 - Narracao: O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; vitória -> stars + som de sino; encena: pega (lift) @3 -> acao + som de efeito; encena: vence (up) @13 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: TORRE GHIRLANDINA
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.9 s)
