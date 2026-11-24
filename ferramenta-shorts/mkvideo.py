@@ -7,6 +7,7 @@ Cada "beat" = uma frase narrada + o que aparece na tela durante ela.  Veja video
 """
 import json, sys, os, re
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mapas')); import mapas as _MAPAS   # mapa de verdade (contorno real do pais)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import sentido as _SENT   # 24/11: sentido da frase (sentido.py)
 
 ID = sys.argv[1]
 MODO_CLI = None
@@ -166,12 +167,20 @@ _LUGAR = ((r'australia|\bemus?\b', 'set', 'outback'), (r'desert|areia|egito|egip
           (r'(?<!para )\bcasa\b|\bsala\b|quarto|cozinha|familia|jantar', 'interior', 'madeira'),
           (r'\bpraia\b|\bareia\b|\bcosta\b|desembarc|\bcais\b|\bporto\b|navios?\b', 'set', 'harbor'),
           (r'\bcidade\b|\bruas?\b|predio|avenida|transito|metro\b|bairro', 'set', 'street'))
+for _b in B['beats']:   # 24/11 SENTIDO: frase cuja violencia e' toda negada/figurada/hipotetica nao vira tiro nem batalha (o roteiro ainda pode forcar com true)
+    _sc = _SENT.cena(_b.get('say', ''))
+    if _sc.get('sem_violencia'):
+        if _b.get('batalha') is not True: _b['batalha'] = False
+        if _b.get('tiros') is not True: _b['tiros'] = False
+    if _sc.get('nao_interior'): _b['_nao_interior'] = True
+    if _sc.get('nao_cozinha'): _b['_nao_cozinha'] = True
 for i_, _b in enumerate(B['beats']):
     if i_ in _EXPL or _b.get('mapa') or B.get('variar_cenario') is False: continue
     _t = __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()
     for rx_, k_, v_ in _LUGAR:
         if re.search(rx_, _t):
             _b['_lug_ok'] = True   # a narracao CITOU o lugar: a variedade nunca tira a cena dele (estadio lotado continua no estadio)
+            if k_ == 'interior' and _b.get('_nao_interior'): continue
             if v_ == 'madeira' and re.search(r'(preco|valor|custo|custava|custou|valia|trocou|trocaram|troca|vendeu|venderam|comprou|compraram|pagou|pagaram)\D{0,25}\bcasas?\b|\bcasas? inteiras?\b', _t): continue   # 24/11 (Tulipas): 'o preco de uma casa inteira' / 'trocou casas por um bulbo' e' VALOR, nao a cena dentro de casa
             if k_ == 'interior' and (_b.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or _b.get('batalha') or _b.get('veiculo') or _b.get('crowd')): continue
             if k_ == 'set' and v_ == SET: break
@@ -304,6 +313,9 @@ if MARCO:
         b_['props'] = list(b_.get('props', [])) + [[MARCO[0], MARCO[1] * (1 if k_ % 2 else -1), MARCO[2], MARCO[3]]]
 _hosp = next((b_ for b_ in B['beats'] if b_.get('interior') == 'hospital' and not b_.get('text')), None)
 if _hosp is not None and not any(b_.get('text') == 'HOSPITAL' for b_ in B['beats']): _hosp['text'] = 'HOSPITAL'
+# 24/11 (Zanzibar): CENARIO PADRAO SEM COISA A MAIS: se as cenas de porto ja trazem o navio da historia (props), o navio padrao do cenario some
+# (ele ficava gigante perto da camera e roubava a cena do navio certo).
+_NAV_PROPRIO = any((b_.get('set') or SET) == 'harbor' and any(isinstance(p_, list) and re.search(r'navio|ship|boat|barco|fragata|submarin|caravela|galera|vapor|encouracado|destroier', str(p_[0])) for p_ in (b_.get('props') or [])) for b_ in B['beats'])
 _REG_JS = f"globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_REG_CHAO.get(REGIAO))};\n" if _regmap else "globalThis.REGMAP = null; globalThis.REGCHAO = null;\n"
 
 if B.get('serie') and B.get('ep'): B['titulo_base'] = B.get('titulo_base') or B.get('title', ID); B['title'] = f"{B['serie']} EP {int(B['ep']):02d} - {B['titulo_base']}"   # serie com episodio numerado no titulo e no nome do arquivo
@@ -478,7 +490,7 @@ NAVIO = _navio_epoca(ANO or _ANO0)
 if B.get('navio_livre') is not True:
     for _nk in ('ship', 'kit/navio_vapor', 'kit/navio_vela', 'kit/navio_moderno'): _regmap[_nk] = [NAVIO]
 _FAZ = bool(re.search(r"fazend|celeiro|moinho|sitio|granja|rancho|curral", _nrm0(" ".join(b_["say"] for b_ in beats))))
-_REG_JS = f"globalThis.FAZENDA = {json.dumps(_FAZ)}; globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_CHAO)}; globalThis.ASFALTO = {json.dumps(_ASF)}; globalThis.PRAIA = {json.dumps(bool(_PRAIA))}; globalThis.SEM_NAVIO = {json.dumps(B.get('navio') is False or bool(ANO and ANO >= 1990 and not re.search(r'navio|marinha|frota|porto|barco', ' '.join(b_['say'].lower() for b_ in B['beats']))))}; globalThis.ERA_ANO = {json.dumps(ANO or _ANO0)}; globalThis.ERA_GUERRA = {json.dumps(bool(re.search(r'guerra|batalha|trincheir|soldad|exercit|tropa|front', _TXT0)))}; globalThis.DRESS_OFF = {json.dumps([_nrm0(x_) for x_ in (_VIS0.get('proibidos') or []) if isinstance(x_, str)] + (B.get('sem_enfeite') or []))}; globalThis.LOCCFG = {json.dumps(B.get('locacao') or {})}; globalThis.LOC_NOITE = {json.dumps((lambda ext_: bool(ext_) and sum(1 for b_ in ext_ if b_.get('hora') == 'noite') * 2 >= len(ext_))([b_ for b_ in B['beats'] if not b_.get('interior') and not b_.get('explica') and str(b_.get('set', SET)).startswith('loc_')]))};\n"
+_REG_JS = f"globalThis.FAZENDA = {json.dumps(_FAZ)}; globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_CHAO)}; globalThis.ASFALTO = {json.dumps(_ASF)}; globalThis.PRAIA = {json.dumps(bool(_PRAIA))}; globalThis.SEM_NAVIO = {json.dumps(B.get('navio') is False or _NAV_PROPRIO or bool(ANO and ANO >= 1990 and not re.search(r'navio|marinha|frota|porto|barco', ' '.join(b_['say'].lower() for b_ in B['beats']))))}; globalThis.ERA_ANO = {json.dumps(ANO or _ANO0)}; globalThis.ERA_GUERRA = {json.dumps(bool(re.search(r'guerra|batalha|trincheir|soldad|exercit|tropa|front', _TXT0)))}; globalThis.DRESS_OFF = {json.dumps([_nrm0(x_) for x_ in (_VIS0.get('proibidos') or []) if isinstance(x_, str)] + (B.get('sem_enfeite') or []))}; globalThis.LOCCFG = {json.dumps(B.get('locacao') or {})}; globalThis.LOC_NOITE = {json.dumps((lambda ext_: bool(ext_) and sum(1 for b_ in ext_ if b_.get('hora') == 'noite') * 2 >= len(ext_))([b_ for b_ in B['beats'] if not b_.get('interior') and not b_.get('explica') and str(b_.get('set', SET)).startswith('loc_')]))};\n"
 _FAMHAIR = {str(o_.get('hair', '')).lower() for o_ in B.get('outfits', {}).values() if o_.get('pele')} - {''}
 for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em video com famoso, ninguem mais usa a cor de cabelo dele (loiro do Trump so no Trump)
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
@@ -545,6 +557,10 @@ def _neg_idx(say):   # NEGACAO (19/11): "ninguem deu um tiro", "sem dar um unico
         if w_ in _NEGW: out_.update(range(i_ + 1, min(len(ws_), i_ + 5)))
         if w_ in ('nunca', 'jamais') and i_ + 1 < len(ws_) and ws_[i_ + 1] in ('veio', 'vieram', 'chegou', 'chegaram', 'aconteceu', 'aconteceram', 'houve', 'saiu', 'foi', 'foram', 'apareceu', 'existiu'): out_.update(range(max(0, i_ - 3), i_))   # 24/11 (Lagosta): "o tiro NUNCA VEIO" nega o que vem ANTES
     return out_
+# 24/11: SENTIDO DA FRASE (negacao, figurado, hipotese, valor, arma so' citada) vale para todo consumidor de _neg_idx
+_neg_idx_base = _neg_idx
+def _neg_idx(say): return _neg_idx_base(say) | _SENT.figurado(say)
+
 def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a noticia correu o mundo", "o preco caiu" -> nao sao beber/correr/cair
     ws_ = say.split(); out_ = set(); n_ = lambda t: re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
     for j_, w_ in enumerate(ws_):
@@ -950,6 +966,7 @@ for _b in beats:
     if _b.get('encena') is False or _b.get('shot') in WIDE or _b.get('veiculo'): continue
     _tem_mat = any(re.search(r_, nrm(_b['say'])) for r_, a_ in ENC_MAT + ENC_RES) or any(re.search(r'stove|panela|kettle|bancada', str(p_[0])) for p_ in (_b.get('props') or []))
     _mist_falsa = re.search(r'(mistur|mexe|mexi|combin)\w* (as |os |uns |umas |a |o )?(etiqueta|papel|papeis|carta|nome|ficha|dado|numero|peca|arquivo|documento|foto|cabo|fio|ideia|lingua|cor)', unicodedata.normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
+    _mist_falsa = _mist_falsa or _b.get('_nao_cozinha')
     if any(re.match(rx_, nrm(w_)) for w_ in _b['say'].split() for rx_, g_, t_ in ENC if (t_ == 'mistura' and not _mist_falsa) or t_ in ('constroi', 'quimico', 'examina') or (t_ in ('vira', 'cai', 'calor') and _tem_mat)):
         _b['_enc'] = True
         if _b.get('shot') in ('close', None): _b['shot'] = 'two'

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -107,16 +107,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comeu (31.5s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | fortuna (34.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | fortuna (34.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | INTERACAO | aproxima-se | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_come na palavra comeu (31.5s): executa: leva a comida a boca
-- EFEITO: stars na palavra fortuna (34.7s): executa: estrelinhas + som
-- ACAO: paga na palavra fortuna (34.7s): executa: estende a mao com moedas + brilho
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->

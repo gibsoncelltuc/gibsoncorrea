@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (eat) @4 -> acao + som de efeito; encena: paga (reach) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_come (eat) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -121,3 +121,9 @@ PENDENCIAS EM 24/11 19:35: Lagosta b7 na refazer.txt (depois: revisao_final ja q
 ## REFAZER SO' O TRECHO (pedido do Gibson 24/11)
 - `cenas_hash.py <id>` = impressao digital de cada cena (linha S('bN') do spec + ajuste de camera) e do global (motor de desenho web/*.js, voz, cabecalho/figurinos). Guardada em ckpt/<id>/cenas.txt a cada render.
 - Mudou so' cena(s): a fila refaz so' os trechos de 150 quadros dessas cenas e remonta (log "so' estas cenas mudaram"). Mudou o global: video inteiro (nunca metade antigo, metade novo). Defeito numa cena ja renderizada: corrigir beats + `echo "<id> bN" >> refazer.txt`.
+
+## SENTIDO + SUSPEITAS + PRE-CHECAGEM (24/11 noite, pedido do Gibson: resolver os 8 pontos)
+- `sentido.py`: le a FRASE inteira (negacao antes/depois, "nunca veio", hipotese "quase/pediram/ameacou", arma so' citada sem verbo de disparo, valor "preco de uma casa", "misturou as etiquetas", expressoes figuradas). Ligado no mkvideo: palavra figurada nao e' encenada; frase sem violencia real = sem tiro/batalha; "casa" valor = sem interior; mistura de papeis = sem panela. Teste: `python3 sentido.py "<frase>"`.
+- `suspeitas.py <id> [--corrigir]`: frase x cena (muita gente sem multidao, animal citado sem animal, frase pacifica com explosao, tiro real sem tiro, noite de dia, ar livre dentro de sala). A fila roda com --corrigir antes de montar (corrige animal e multidao sozinha); o resto vai para a lista_revisao como SUSPEITA = olhar primeiro.
+- Cenario padrao: navio padrao do porto some quando a cena traz o navio da historia (_NAV_PROPRIO); navio posto no cais vai para a agua.
+- `PRECHECK_ROTEIROS.md`: todas as travas rodadas nos 56 roteiros que faltam (42 com pendencia de texto: gancho longo, abre com data, video > 66 s, falta explica, sem pesquisa visual). Cada sessao corrige os DELA antes do storyboard.
