@@ -210,7 +210,7 @@
    "fachada": false
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "DAN:0:relief"
    ],
@@ -218,13 +218,18 @@
    "set": "mountain",
    "fachada": false,
    "crowd": {
-    "n": 0
+    "n": 6,
+    "outfits": [
+     "DAN"
+    ],
+    "march": false,
+    "expr": "relief"
    },
    "props": [
     [
      "buildings/church",
      0.0,
-     -18.0,
+     -14.0,
      1.3,
      {
       "fixo": true
@@ -235,7 +240,7 @@
    "detalhe": false,
    "quadro": {
     "local": "encosta de montanha",
-    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "buildings/church",
@@ -247,9 +252,9 @@
    },
    "cx": 0.0,
    "cz": 0.0,
-   "h": 2.0,
-   "d0": 10.0,
-   "d1": 9.0,
+   "h": 2.2,
+   "d0": 14.0,
+   "d1": 13.0,
    "quadro_manual": true,
    "shot_lock": true
   },

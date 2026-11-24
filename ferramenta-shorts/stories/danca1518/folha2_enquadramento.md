@@ -63,10 +63,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou."
 - LOCAL: encosta de montanha; hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: DAN no centro, expressao relief; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: DAN no centro, expressao relief; multidao de 6 (DAN) ATRAS dos principais; acao: fala/gesto
 - OBJETO buildings/church: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 20.8 m de altura x 16.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "CAPELA DO MONTE" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "CAPELA DO MONTE" flutuando no alto, na palavra 1 da frase
 
 ## b9: "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu."
 - LOCAL: sala de madeira; hora: day

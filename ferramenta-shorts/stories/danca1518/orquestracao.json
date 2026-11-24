@@ -169,13 +169,14 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "DAN"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
-    "buildings/church"
+    "buildings/church",
+    "kit/marco_viena"
    ],
    "palavras": 22,
    "cena": "b8",

@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 46.0s a 52.2s - 22 palavras - plano group
+## Cena b8 - 46.0s a 52.2s - 22 palavras - plano wide
 > "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
