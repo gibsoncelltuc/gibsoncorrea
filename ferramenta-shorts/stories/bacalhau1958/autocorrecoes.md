@@ -74,3 +74,18 @@
 
 ## 24/11 13:46 autocorrecao de visibilidade
 - b0: objeto citado "kit/barco_guarda" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 24/11 15:07 autocorrecao de visibilidade
+- b5: "buildings/shop" cobrindo a tela (78% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)
+- b5: "buildings/shop" cobrindo a tela (90% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)
+- b5: "buildings/shop" cobrindo a tela (93% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)
+- b8: "kit/room_europa_stone" cobrindo a tela (60% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)
+- b5: ja corrigida 3 vezes, objeto citado "kit/barco_guarda" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: ja corrigida 3 vezes, objeto citado "kit/fishing_net" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: ja corrigida 3 vezes, objeto citado "kit/navio_vapor" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 24/11 15:08 autocorrecao de visibilidade
+- b8: "kit/room_europa_stone" cobrindo a tela (60% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)
+
+## 24/11 15:09 autocorrecao de visibilidade
+- b8: "kit/room_europa_stone" cobrindo a tela (60% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)

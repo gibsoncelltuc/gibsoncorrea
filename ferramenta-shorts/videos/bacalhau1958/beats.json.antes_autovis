@@ -45,37 +45,37 @@
    "props": [
     [
      "kit/barco_guarda",
-     0.6,
-     1.0,
-     1.5
+     2,
+     -13,
+     1.0
     ],
     [
      "kit/fishing_net",
-     9,
+     6,
      -14,
      1.0
     ],
     [
-     "vehicles/motorboat",
-     17,
-     -18,
+     "kit/navio_vapor",
+     12,
+     -20,
      1.0
     ],
     [
      "kit/navio_leander",
-     20,
-     -42,
+     18,
+     -44,
      1.0
     ]
    ],
    "text": "ISLÂNDIA VENCEU",
    "tat": 16,
    "tstyle": "blue",
-   "cx": 17.0,
-   "cz": -12.6,
-   "h": 2.8,
-   "d0": 22.4,
-   "d1": 19.4,
+   "cx": 7,
+   "cz": -16,
+   "h": 4.5,
+   "d0": 26,
+   "d1": 22,
    "detalhe": false,
    "impact": true,
    "fx": [
@@ -83,11 +83,7 @@
    ],
    "sfx": [
     "creak@40"
-   ],
-   "crowd": {
-    "n": 0
-   },
-   "_auto_vis": 2
+   ]
   },
   {
    "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
@@ -207,19 +203,37 @@
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
-   "shot": "two",
-   "who": [
-    "ICE:0:grin"
-   ],
+   "shot": "wide",
+   "who": [],
    "props": [
     [
      "kit/barco_guarda",
-     3.5,
-     -6,
+     3,
+     -11,
+     1.0
+    ],
+    [
+     "kit/fishing_net",
+     7,
+     -12,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     13,
+     -18,
      1.0
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "cx": 6,
+   "cz": -13,
+   "h": 3.5,
+   "d0": 20,
+   "d1": 17,
+   "impact": true,
+   "fachada": false,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -227,32 +241,42 @@
    "props": [
     [
      "kit/barco_guarda",
+     2,
+     -12,
+     1.0
+    ],
+    [
+     "kit/fishing_net",
      6,
-     -20,
+     -13,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     11,
+     -16,
      1.0
     ],
     [
      "kit/navio_leander",
-     12,
-     -24,
+     22,
+     -40,
      1.0
     ]
    ],
    "fx": [
-    "splash@50",
-    "burst@60"
+    "splash@30",
+    "burst@55"
    ],
    "sfx": [
-    "thump@60",
-    "creak@62"
+    "creak@30",
+    "thump@55"
    ],
-   "mood": "tense",
-   "cx": 9,
-   "cz": -22,
-   "h": 5.0,
-   "d0": 24,
-   "d1": 20,
-   "acao": "comemorar",
+   "cx": 7,
+   "cz": -14,
+   "h": 4.0,
+   "d0": 20,
+   "d1": 17,
    "shot_lock": true,
    "detalhe": false,
    "say": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
@@ -273,7 +297,7 @@
   },
   {
    "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "BRI:0:pained:paper",
     "ICE:0:laugh"
@@ -291,7 +315,9 @@
      -1.5,
      1.2
     ]
-   ]
+   ],
+   "fachada": false,
+   "_auto_vis": 2
   },
   {
    "say": "Uma guerra inteira, por causa de um bacalhau.",

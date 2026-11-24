@@ -12,7 +12,7 @@ b4 | harbor | group | 0 | batalha | kit/navio_leander | - | -
 b5 | harbor | group | 0 | batalha | kit/barco_guarda, kit/fishing_net, kit/navio_vapor | - | -
 b6 | harbor | wide | 0 | parados (so fala e pisca) | kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander, navios de guerra ao fundo, no tamanho real | - | -
 b7 | harbor | two | 2 | discutir, INTERAGEM: discutir, batalha | - | - | -
-b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
+b8 | harbor | group | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
 b9 | harbor | close | 1 | conversar | crate, kit/cod | - | -
 b10 | harbor | two | 1 | conversar | - | - | -
 

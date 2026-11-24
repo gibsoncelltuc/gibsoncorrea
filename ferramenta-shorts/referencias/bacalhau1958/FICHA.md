@@ -7,7 +7,7 @@
 - Roupas: {'ICE': 'uniforme azul-marinho com botões dourados', 'BRI': 'uniforme branco e azul naval', 'PES': 'capa de chuva amarela de pescador'}
 - Cenario real: porto e mar cinzento do Atlântico Norte com barcos de pesca, fragatas e navios da guarda costeira da época (anos 1950-70)
 - Objetos: ['bacalhau', 'caixote de peixe', 'navio da guarda costeira', 'fragata britânica', 'cabo de rede de pesca']
-- Cenarios usados no video: harbor, interior pedra
+- Cenarios usados no video: harbor
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

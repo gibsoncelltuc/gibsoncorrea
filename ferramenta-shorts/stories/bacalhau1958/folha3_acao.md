@@ -71,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | MAPA | INGLATERRA | OK |
 | 7 | - | PLACA | OTAN | OK |
 
-## Cena b8 - 40.3s a 45.6s - 20 palavras - plano two
+## Cena b8 - 40.3s a 45.6s - 20 palavras - plano group
 > "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

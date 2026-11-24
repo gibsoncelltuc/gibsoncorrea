@@ -231,7 +231,9 @@
    "h": 3.5,
    "d0": 20,
    "d1": 17,
-   "impact": true
+   "impact": true,
+   "fachada": false,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -257,8 +259,8 @@
     ],
     [
      "kit/navio_leander",
-     22,
-     -40,
+     30,
+     -56,
      1.0
     ]
    ],
@@ -295,7 +297,7 @@
   },
   {
    "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "BRI:0:pained:paper",
     "ICE:0:laugh"
@@ -304,7 +306,6 @@
    "tat": 12,
    "tstyle": "gold",
    "mood": "playful",
-   "interior": "pedra",
    "interacao": "entregar",
    "props": [
     [
@@ -313,7 +314,8 @@
      -1.5,
      1.2
     ]
-   ]
+   ],
+   "fachada": false
   },
   {
    "say": "Uma guerra inteira, por causa de um bacalhau.",

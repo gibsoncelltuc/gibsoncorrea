@@ -83,9 +83,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de du...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BRI (variante 0, expressao pained, segura paper); ICE (variante 0, expressao laugh)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/scroll
@@ -127,7 +127,7 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b4, b5, b7 | planos abertos: 3 | mistura: close 4% | medio 64% | aberto 31% | detalhe 1%
+- Objeto heroi: kit/cod | grandes momentos: b0, b4, b5, b7 | planos abertos: 3 | mistura: close 4% | medio 61% | aberto 31% | detalhe 4%
 - Interacoes: b2 o outro se aproxima, b7 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 
