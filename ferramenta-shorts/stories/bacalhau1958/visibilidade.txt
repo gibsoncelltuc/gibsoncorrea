@@ -1,1 +1,3 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (25 tomadas)
+VISIBILIDADE: 2 FALHA(S)
+FALHA b0: objeto citado "kit/barco_guarda" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b6: objeto citado "kit/barco_guarda" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

@@ -41,37 +41,50 @@
   {
    "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
    "shot": "wide",
-   "who": [
-    "ICE:0:stern"
-   ],
+   "who": [],
    "props": [
     [
-     "kit/navio_destroier",
-     -12,
-     -26,
+     "kit/barco_guarda",
+     0.6,
+     1.0,
+     1.5
+    ],
+    [
+     "vehicles/motorboat",
+     5,
+     -18,
      1.0
     ],
     [
-     "kit/navio_destroier",
+     "kit/fishing_net",
+     0,
+     -17,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
      13,
-     -30,
+     -44,
      1.0
     ]
    ],
    "text": "ISLÂNDIA VENCEU",
    "tat": 16,
    "tstyle": "blue",
-   "mood": "march",
-   "cx": 0.0,
-   "cz": -18.2,
-   "h": 2.8,
-   "d0": 33.0,
-   "d1": 31.0,
-   "crowd": {
-    "n": 0
-   },
-   "_auto_vis": 3,
-   "detalhe": false
+   "cx": 0,
+   "cz": -17,
+   "h": 5.0,
+   "d0": 26,
+   "d1": 22,
+   "detalhe": false,
+   "impact": true,
+   "fx": [
+    "splash@40"
+   ],
+   "sfx": [
+    "creak@40"
+   ],
+   "_auto_vis": 2
   },
   {
    "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
@@ -82,13 +95,13 @@
    ],
    "props": [
     [
-     "kit/navio_destroier",
+     "kit/navio_leander",
      -14,
      -42,
      1.0
     ],
     [
-     "kit/navio_destroier",
+     "kit/navio_leander",
      12,
      -46,
      1.0
@@ -133,41 +146,13 @@
    ],
    "props": [
     [
-     "kit/navio_destroier",
+     "kit/navio_leander",
      -14,
      -42,
      1.0
     ],
     [
-     "kit/navio_destroier",
-     12,
-     -46,
-     1.0
-    ]
-   ],
-   "text": "12 · 50 · 200 MILHAS",
-   "tat": 14,
-   "tstyle": "gold",
-   "set": "harbor",
-   "cx": 0,
-   "cz": -40,
-   "h": 9.0,
-   "d0": 50,
-   "d1": 44
-  },
-  {
-   "say": "A marinha mandou fragatas para proteger os barcos de pesca.",
-   "shot": "wide",
-   "who": [],
-   "props": [
-    [
-     "kit/navio_destroier",
-     -14,
-     -42,
-     1.0
-    ],
-    [
-     "kit/navio_destroier",
+     "kit/navio_leander",
      12,
      -46,
      1.0
@@ -179,30 +164,74 @@
    "h": 9.0,
    "d0": 50,
    "d1": 44,
-   "impact": true,
-   "detalhe": false
+   "hud": {
+    "contador": {
+     "de": 12,
+     "para": 200,
+     "un": "MILHAS",
+     "titulo": "LIMITE DO MAR",
+     "na": "doze",
+     "dur": 3.2
+    }
+   }
+  },
+  {
+   "say": "A marinha mandou fragatas para proteger os barcos de pesca.",
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/navio_leander",
+     -14,
+     -42,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     12,
+     -46,
+     1.0
+    ]
+   ],
+   "set": "harbor",
+   "cx": 0,
+   "cz": -40,
+   "h": 9.0,
+   "d0": 50,
+   "d1": 44,
+   "detalhe": false,
+   "impact": true
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "ICE:0:grin"
-   ]
+   ],
+   "props": [
+    [
+     "kit/barco_guarda",
+     3.5,
+     -6,
+     1.0
+    ]
+   ],
+   "detalhe": false
   },
   {
    "shot": "wide",
    "who": [],
    "props": [
     [
-     "kit/navio_destroier",
-     0.0,
-     -9.0,
+     "kit/barco_guarda",
+     0.6,
      1.0,
+     1.5,
      {
       "move": [
        [
-        -3,
-        -42
+        -1,
+        -30
        ],
        0,
        0
@@ -210,20 +239,10 @@
      }
     ],
     [
-     "kit/navio_destroier",
-     9,
-     -42,
-     1.0,
-     {
-      "move": [
-       [
-        3,
-        -42
-       ],
-       0,
-       0
-      ]
-     }
+     "kit/navio_leander",
+     7,
+     -33,
+     1.0
     ]
    ],
    "fx": [
@@ -235,18 +254,15 @@
     "creak@62"
    ],
    "mood": "tense",
-   "cx": 0.0,
-   "cz": -6.3,
-   "h": 2.8,
-   "d0": 18.0,
-   "d1": 15.0,
+   "cx": 0,
+   "cz": -31,
+   "h": 6.0,
+   "d0": 38,
+   "d1": 32,
    "acao": "comemorar",
-   "say": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.",
    "shot_lock": true,
    "detalhe": false,
-   "crowd": {
-    "n": 0
-   },
+   "say": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.",
    "_auto_vis": 2
   },
   {
@@ -267,14 +283,23 @@
    "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
    "shot": "two",
    "who": [
-    "BRI:0:pained",
+    "BRI:0:pained:paper",
     "ICE:0:laugh"
    ],
    "text": "VITÓRIA ISLANDESA",
    "tat": 12,
    "tstyle": "gold",
    "mood": "playful",
-   "impact": true
+   "interior": "pedra",
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/scroll",
+     0,
+     -1.5,
+     1.2
+    ]
+   ]
   },
   {
    "say": "Uma guerra inteira, por causa de um bacalhau.",
