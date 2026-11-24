@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Gerado em 24/11 16:10 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 16:20 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,8 +15,8 @@ b5 | chave | countryside | crowd | ASH | - | castle_tower | corpo: tropa/persona
 b6 | chave | jungle | orbit | SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Soldados ingleses marcharam para salvar o governador preso, e a guerra
 b7 | simples | interior pedra | two | GOV, PRE | - | - | - | No fim, os ingleses venceram e a região virou colônia.
 b8 | simples | interior loja | two | CHE, ASH | - | golden_stool | - | Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram
-b9 | simples | countryside | close | GOV | - | golden_stool | - | O governador ganhou a guerra, mas o banquinho nunca foi dele.
-b10 | simples | countryside | two | GOV | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | countryside | group | GOV | - | golden_stool | - | O governador ganhou a guerra, mas o banquinho nunca foi dele.
+b10 | simples | countryside | close | GOV | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

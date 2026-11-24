@@ -92,7 +92,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 46.6s a 49.4s - 11 palavras - plano close
+## Cena b9 - 46.6s a 49.4s - 11 palavras - plano group
 > "O governador ganhou a guerra, mas o banquinho nunca foi dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -101,7 +101,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | ganhou (47.3s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 50.6s a 53.9s - 13 palavras - plano two
+## Cena b10 - 50.6s a 53.9s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

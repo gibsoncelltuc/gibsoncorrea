@@ -183,7 +183,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
     "GOV"
    ],
@@ -201,7 +201,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "GOV"
    ],
