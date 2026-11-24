@@ -7,7 +7,15 @@
    "item": "O Martelo da Meia-Noite",
    "consultas": [
     "O Martelo da Meia-Noite",
-    "Para Estados Unidos Foi Irã Fordow 2025"
+    "Uma Foi Irã Fordow 2025"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)",
+   "consultas": [
+    "Fordow Natanz e Isfahan",
+    "Fordow Natanz e Isfahan Irã base de Whiteman Missouri EUA 2025"
    ]
   },
   {
@@ -27,10 +35,67 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Força Aérea dos EUA",
+   "consultas": [
+    "Força Aérea dos EUA",
+    "Força Aérea dos EUA 2025"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "tripulações de B-2",
+   "consultas": [
+    "tripulações de B-2",
+    "tripulações de B-2 2025"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Marinha dos EUA",
+   "consultas": [
+    "Marinha dos EUA",
+    "Marinha dos EUA 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bomba antibunker GBU-57",
+   "consultas": [
+    "bomba antibunker GBU-57",
+    "bomba antibunker GBU-57 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bombardeiro B-2 Spirit",
+   "consultas": [
+    "bombardeiro B-2 Spirit",
+    "bombardeiro B-2 Spirit 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "submarino",
+   "consultas": [
+    "US Navy Ohio class submarine surfaced",
+    "submarino",
+    "submarino 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bunker na montanha",
+   "consultas": [
+    "bunker na montanha",
+    "bunker na montanha 2025"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "bunker bomb",
    "consultas": [
-    "bunker bomb",
+    "bomba antibunker GBU-57",
     "O Martelo da Meia-Noite"
    ]
   },
@@ -39,13 +104,6 @@
    "item": "b2 air",
    "consultas": [
     "b2 air"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "mountain bunker",
-   "consultas": [
-    "mountain bunker"
    ]
   },
   {

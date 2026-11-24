@@ -4,24 +4,23 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_montanha | two | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | kit/bunker_bomb, kit/b2_air, kit/marco_mesquita | - | -
-b1 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/mountain_bunker, kit/marco_mesquita | - | -
-b2 | loc_montanha | wide | 1 | discutir | kit/mountain_bunker, kit/marco_mesquita | paper | -
-b3 | loc_montanha | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/bunker_bomb, kit/b2_air, vehicles/airplane | - | -
-b4 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | - | -
-b5 | loc_campo | crowd | 1 | encena, batalha | kit/b2_air, kit/marco_mesquita | - | -
-b6 | loc_patio | wide | 1 | discutir | kit/b2_air, kit/marco_mesquita | - | -
-b7 | loc_montanha | two | 1 | conversar | kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb | - | -
-b8 | loc_patio | two | 2 | reagir, INTERAGEM: insiste | - | - | -
-b9 | loc_campo | orbit | 1 | encena, batalha | kit/b2_air, kit/marco_mesquita, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
-b10 | interior pedra | two | 2 | discutir, INTERAGEM: susto | - | paper | -
-b11 | loc_montanha | crowd | 1 | encena, batalha | kit/mountain_bunker, kit/marco_mesquita | - | -
-b12 | loc_campo | two | 2 | comemorar, INTERAGEM: pular | kit/bunker_bomb, kit/b2_air | - | -
-b13 | loc_campo | close | 1 | conversar | - | - | -
+b0 | loc_pista | two | 1 | conversar | kit/bunker_bomb | - | -
+b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | - | - | -
+b2 | mountain | wide | 1 | parados (so fala e pisca) | kit/mountain_bunker | - | -
+b3 | loc_pista | two | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | kit/bunker_bomb, kit/b2_air, vehicles/airplane | - | -
+b4 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | - | -
+b5 | loc_pista | wide | 1 | encena | kit/b2_air | - | -
+b6 | harbor | wide | 1 | encena | kit/b2_air | - | -
+b7 | mountain | orbit | 1 | encena, batalha | kit/b2_air, kit/mountain_bunker | - | -
+b8 | harbor | wide | 1 | parados (so fala e pisca) | kit/submarino_ww2 | - | -
+b9 | loc_pista | two | 2 | conversar, INTERAGEM: vai ate o outro | vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b10 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
+b11 | hall | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
+b12 | hall | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/bunker_bomb
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b5, b9, b11
-Interacoes entre personagens: b0 o outro se aproxima, b3 discutir, b4 entregar, b8 insiste, b10 susto, b12 pular
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b7
+Interacoes entre personagens: b3 o outro se aproxima, b4 insiste, b9 vai ate o outro, b10 aproxima-se, b11 avanca e o outro recua
 
-Cenas com personagens parados: 1 de 14
+Cenas com personagens parados: 3 de 13
 FALTA MODELAR: nada

@@ -1,34 +1,33 @@
 # CRONOGRAMA - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Gerado em 24/11 20:51 | 14 cenas | metricas: acoes_encenadas 93%, acoes_chave_com_efeito 60%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 21:01 | 13 cenas | metricas: acoes_encenadas 85%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_montanha | two | TRU, GEN | - | b2_air, bunker_bomb, marco_mesquita | - | Para destruir um bunker escondido dentro de uma montanha, os Estados U
-b1 | transicao | loc_pista | wide | POV | - | marco_mesquita, mountain_bunker | - | Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nuclea
-b2 | simples | loc_montanha | wide | GEN | - | marco_mesquita, mountain_bunker | - | A principal, Fordow, fica a quase noventa metros de profundidade, dent
-b3 | simples | loc_montanha | two | GEN, PIL | - | b2_air, bunker_bomb, airplane | - | Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas
-b4 | simples | interior pedra | two | TRU, GEN | - | - | - | Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-No
-b5 | chave | loc_campo | crowd | PIL | - | b2_air, marco_mesquita | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de u
-b6 | simples | loc_patio | wide | PIL | - | b2_air, marco_mesquita | - | Para despistar, outros B-2 foram mandados na direção contrária, para o
-b7 | chave | loc_montanha | two | PIL | - | b2_air, bunker_bomb, marco_mesquita, mountain_bunker, airplane | - | Acontece que, de madrugada, os aviões soltaram catorze cargas explosiv
-b8 | chave | loc_patio | two | GEN, PIL | - | - | - | Um submarino ainda mandou mísseis que explodiram numa terceira usina.
-b9 | chave | loc_campo | orbit | PIL | - | house_small, b2_air, marco_mesquita, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Todos os aviões voltaram para casa.
-b10 | simples | interior pedra | two | TRU, GEN | - | - | - | Trump disse que as usinas foram destruídas.
-b11 | chave | loc_montanha | crowd | POV | - | marco_mesquita, mountain_bunker | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Avaliações posteriores discutiram o tamanho real do estrago.
-b12 | simples | loc_campo | two | GEN, PIL | - | b2_air, bunker_bomb | - | Foi a primeira vez na história que essa arma gigante foi usada de verd
-b13 | simples | loc_campo | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_pista | two | GEN | - | bunker_bomb | - | Uma bomba gigante, feita para furar montanhas, foi usada de verdade pe
+b1 | transicao | loc_campo | reveal | POV, POV | 6 | - | - | Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do I
+b2 | transicao | mountain | wide | GEN | - | mountain_bunker | - | A principal, Fordow, fica de oitenta a noventa metros de profundidade,
+b3 | simples | loc_pista | two | GEN, PIL | - | b2_air, bunker_bomb, airplane | - | Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um av
+b4 | simples | interior pedra | two | GEN, PIL | - | - | - | A missão se chamou Martelo da Meia-Noite.
+b5 | simples | loc_pista | wide | PIL | - | b2_air | - | Sete bombardeiros invisíveis decolaram do Missouri e voaram dezoito ho
+b6 | simples | harbor | wide | PIL | - | b2_air | - | Para despistar, outros aviões foram mandados na direção do Pacífico.
+b7 | chave | mountain | orbit | PIL | - | b2_air, mountain_bunker | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fo
+b8 | transicao | harbor | wide | PIL | - | submarino_ww2 | - | Um submarino ainda lançou mísseis contra uma terceira usina.
+b9 | simples | loc_pista | two | PIL, GEN | - | house_small, picket_fence, tree_oak, airplane | - | Os bombardeiros voltaram para casa.
+b10 | simples | interior pedra | two | GEN, POV | - | - | - | Os Estados Unidos disseram que as usinas foram destruídas.
+b11 | simples | hall | two | POV, POV | - | - | - | Mas até hoje ninguém concorda sobre o tamanho do estrago.
+b12 | simples | hall | close | GEN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (7/7 itens) | FEITO | 
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 6) | PENDENTE | corrigir o roteiro conforme a folha 2
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (7/14 itens) | PENDENTE | python3 pesquisar.py martelo2025
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 13) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
@@ -40,5 +39,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local martelo2025 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 4. Travas do roteiro
+**Etapa atual:** 2. Pesquisa de campo
 

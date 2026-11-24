@@ -42,7 +42,7 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "prop",
    "who": [
     "GEN:0:stern"
    ],
@@ -70,11 +70,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -86,7 +81,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "reveal",
@@ -124,11 +124,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0,
    "quadro": {
     "local": "encosta de montanha",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
@@ -140,7 +135,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -178,10 +178,6 @@
    "fachada": false,
    "set": "loc_pista",
    "tiros": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bunker_bomb juntos (camera a 11.5 m)",
@@ -199,7 +195,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -228,17 +228,9 @@
      }
     ]
    ],
-   "fx": [
-    "whoosh@20",
-    "whoosh@50"
-   ],
-   "sfx": [
-    "whoosh@20",
-    "whoosh@50"
-   ],
    "text": "B-2",
    "titulo": true,
-   "say": "Sete bombardeiros invisíveis decolaram do Missouri e voaram dezoito horas até lá.",
+   "say": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.",
    "fachada": false,
    "set": "loc_pista",
    "hora": "dia",
@@ -246,11 +238,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -4.3,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -262,7 +249,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.3,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -293,11 +285,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -4.3,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -309,7 +296,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.3,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -355,11 +347,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -4.3,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "quadro": {
     "local": "encosta de montanha",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -377,7 +364,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.3,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -402,18 +394,13 @@
    "sfx": [
     "whoosh@30"
    ],
-   "say": "Um submarino ainda lançou mísseis contra uma terceira usina.",
+   "say": "Um submarino ainda lançou mísseis contra uma terceira usina, e todos os aviões voltaram para casa.",
    "fachada": false,
    "set": "harbor",
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -5.1,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.1, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -425,17 +412,12 @@
       "estado": "parado"
      }
     ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PIL:0:smile",
-    "GEN:0:smile"
-   ],
-   "say": "Os bombardeiros voltaram para casa.",
-   "fachada": false,
-   "set": "loc_pista"
+   },
+   "cx": 0.0,
+   "cz": -5.1,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "two",
