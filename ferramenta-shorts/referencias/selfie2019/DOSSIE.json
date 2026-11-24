@@ -9,18 +9,10 @@
   "cenarios": [
    "hall",
    "interior loja",
-   "interior madeira",
    "interior pedra",
-   "loc_cidade",
    "palace"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 1",
-    "stadium",
-    "loc_cidade"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -47,25 +39,18 @@
   "kit/marco_onu",
   "kit/phone",
   "kit/room_azul_stone",
-  "kit/room_classico_stone",
-  "kit/room_colonial_shop",
   "kit/room_eua_stone",
   "kit/room_europa_shop",
-  "kit/room_rosa_wood",
-  "kit/room_verde_wood",
+  "kit/room_verde_shop",
   "mk/Bench",
   "mk/BookStand",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Metal",
   "mk/Shelf_Arch",
-  "mk/Shelf_Small_Bottles",
-  "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Vase_4",
-  "mk/Workbench_Drawers"
+  "mk/Vase_4"
  ],
  "pesquisa_visual": {
   "local": "Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de mármore verde e fundo dourado, edifício da ONU à beira do East River",

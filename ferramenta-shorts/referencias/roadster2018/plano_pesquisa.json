@@ -99,13 +99,6 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "rocket",
-   "consultas": [
-    "rocket"
-   ]
-  },
-  {
    "tipo": "epoca",
    "item": "carro da epoca",
    "consultas": [
@@ -119,6 +112,14 @@
    "consultas": [
     "rocket 2018",
     "rocket"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,",
+   "consultas": [
+    "roadster orbita terra seguiu orbita redor espaco",
+    "roadster diagram"
    ]
   }
  ]

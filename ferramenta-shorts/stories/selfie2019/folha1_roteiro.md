@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b5  (~4.5 s)
 - Narracao: Virou de costas para o plenário e tirou a selfie com todos atrás.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: encena: tira (lift) @7 -> acao + som de efeito
 - Efeito visual marcado: burst@20, stars@30
@@ -72,7 +72,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: KODAK?
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~5.2 s)
 - Narracao: Propôs que líderes gravassem vídeos de seus discursos, e um concurso de ideias para jovens.
@@ -90,7 +90,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Efeito + som nas palavras-chave: encena: tira (lift) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: SELFIE
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b10  (~3.1 s)
 - Narracao: Um segundo de selfie, e a ONU virou assunto.

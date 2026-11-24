@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -59,13 +59,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 
-## Cena b7 - 35.6s a 41.5s - 17 palavras - plano wide
+## Cena b7 - 35.6s a 41.5s - 17 palavras - plano two
 > "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (36.3s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | seguiu (38.5s) | ACAO: chega | entra andando pela lateral | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b8 - 41.9s a 45.2s - 10 palavras - plano crowd
 > "E ele continua lá em cima, dando voltas, até hoje."
@@ -75,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 45.6s a 51.5s - 17 palavras - plano wide
+## Cena b9 - 45.6s a 51.5s - 17 palavras - plano two
 > "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

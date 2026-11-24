@@ -79,7 +79,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam."
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao surprised; COL (cientista) no centro, expressao shock; FRI (cientista) na direita, expressao smug; multidao de 16 (POV) ATRAS dos principais; acao: batalha
+- PERSONAGENS: POV na esquerda, expressao surprised; COL (cientista) no centro, expressao shock; FRI (cientista) na direita, expressao smug; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto

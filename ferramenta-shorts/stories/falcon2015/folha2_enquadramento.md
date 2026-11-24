@@ -31,6 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO respingo: no chao; entra no quadro +30 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: splash@30
+- TEXTO NA TELA: "TOMBOU" flutuando no alto, na palavra 1 da frase
 
 ## b4: "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites."
 - LOCAL: loc_pista; hora: golden
@@ -85,7 +86,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "Hoje, pousar de ré virou rotina."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
 - PERSONAGENS: MUS na esquerda, expressao smile; POV na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

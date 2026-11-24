@@ -10,9 +10,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: revelacao (camera sobe e abre)
+- CAMERA: revelacao (camera sobe e abre); plano aberto mirando o navio_vela (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: MAR (marinheiro) na esquerda, expressao neutral; MAR (marinheiro) na direita, expressao smile; multidao de 8 (MAR, POV) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/navio_vela: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 42.8 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: GALÁPAGOS (cobre a tela 1-2 s)
 
 ## b2: "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo."
@@ -46,8 +46,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida."
 - LOCAL: praia / palacio; hora: day
-- CAMERA: orbit; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
-- PERSONAGENS: DAR (cientista) na esquerda, expressao shock; GOU (cientista) na direita, expressao surprised; multidao de 10 (MAR, POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
+- PERSONAGENS: DAR (cientista) na esquerda, expressao shock; GOU (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/finch_thick: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/finch_long: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
