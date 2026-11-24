@@ -57,6 +57,12 @@ for falha in V.get('falhas', []):
             if GRANDE.search(str(p[0])) and len(p) > 2: p[2] = round(num(p[2]) - (d0 - nd0), 1)
         b['d0'], b['d1'] = round(nd0, 1), round(nd1, 1); b['cz'] = 0.0; b['h'] = min(num(b.get('h', 3)), 3.5)
         acao = f'camera perto dos personagens (d {b["d0"]}) e objeto grande empurrado para o fundo (continua inteiro pela perspectiva)'
+    elif 'objeto ENORME' in txt:   # objeto pequeno cobrindo o quadro: menor e sem o close automatico
+        if idx is not None:
+            p = props[idx]
+            if len(p) > 3 and not isinstance(p[3], dict): p[3] = round(num(p[3]) * 0.6, 2)
+            else: p.insert(3, 0.7)
+        b['detalhe'] = False; acao = f'"{a}" menor e sem close (cobria o quadro)'
     elif 'animal citado' in txt:   # bicho citado pequeno demais: camera mais perto e bicho maior/na frente
         an = b.get('animals') or []
         for a_ in an:
