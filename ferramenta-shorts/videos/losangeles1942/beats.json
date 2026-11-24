@@ -99,7 +99,7 @@
    "say": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "set": "harbor",
    "hora": "pordosol",
    "who": [
@@ -107,7 +107,24 @@
     "SOL:0:nervous"
    ],
    "interacao": "cochichar",
-   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
+   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
+   "props": [
+    [
+     "kit/submarino_ww2",
+     3.0,
+     -12.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "burst@68"
+   ],
+   "sfx": [
+    "cannon@68"
+   ],
+   "text": "SUBMARINO JAPONÊS",
+   "tat": 2,
+   "tstyle": "red"
   },
   {
    "shot": "low",

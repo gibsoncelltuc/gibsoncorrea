@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -101,7 +101,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | trocando (47.9s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | festas (49.9s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | FESTAS | OK |
 
 ## Cena b10 - 53.1s a 55.9s - 11 palavras - plano two
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."

@@ -66,9 +66,15 @@
    "palavras": 10,
    "cena": "b2",
    "frase": "Numa noite, os hussardos foram na frente procurar o inimigo.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "cavaleiro galopando",
+    "emissao": "poeira/clarao do tiro",
+    "luz": "cena",
+    "camera": "camera acompanha",
+    "som": "galope"
+   },
    "acoes_faltando": [],
    "cenario": "countryside"
   },

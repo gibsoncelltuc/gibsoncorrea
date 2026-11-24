@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): USA (variante 2, expressao grin) | multidao: 18 de USA
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/canhao_moderno
+- Objetos/modelos: kit/aviao_ww2, kit/canhao_moderno
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): USA (variante 0, expressao sad); CAN (variante 0, expressao sad) | multidao: 5 de USA/CAN
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: kit/navio_encouracado
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, vinte
 - RISCOS: nenhum
 
@@ -114,9 +114,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Uma das maiores invasões do Pacífico Norte tomou uma ilha completament...
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised)
+- Personagens principais (3): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised); CAN (variante 0, expressao shock)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/dog_sit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha, maiores, pacifico
@@ -140,10 +140,11 @@ Objeto | Cenas | Situacao | O que fazer
 ship | b0, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vapor | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/aviao_ww2 | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/aviao_ww2 | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tanque_ww2 | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/canhao_moderno | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/sandbags | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_encouracado | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/dog_sit | b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

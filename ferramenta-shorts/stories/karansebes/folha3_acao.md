@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 72 acoes catalogadas, 72 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 73 acoes catalogadas, 73 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -34,6 +34,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | cavalaria: 2 soldados a cavalo (HUS) | OK |
+| 2 | - | CENA | montado: HUS galopando em cima do animal (horse_sela) atravessando a cena | OK |
 
 ## Cena b3 - 14.5s a 18.1s - 8 palavras - plano two
 > "Não acharam turco nenhum. Acharam moradores vendendo aguardente."
@@ -56,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | festa (21.5s) | ACAO: vence | bracos para cima + brilho | OK |
 | 7 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 8 | - | INTERACAO | brindar | OK |
-| 9 | - | ATUACAO | comemorar | OK |
+| 9 | - | ATUACAO | beber | OK |
 | 10 | - | PLACA | AGUARDENTE | OK |
 
 ## Cena b5 - 23.0s a 28.6s - 17 palavras - plano two
@@ -68,8 +69,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | chegou (23.2s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | tiro (28.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
-| 5 | - | INTERACAO | entregar | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 5 | - | INTERACAO | discutir | OK |
+| 6 | - | ATUACAO | discutir | OK |
 | 7 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b6 - 29.7s a 35.1s - 12 palavras - plano orbit

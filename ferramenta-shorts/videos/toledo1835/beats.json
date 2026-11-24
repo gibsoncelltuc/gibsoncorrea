@@ -68,10 +68,18 @@
    ],
    "text": "1835",
    "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
-   "set": "countryside"
+   "set": "countryside",
+   "props": [
+    [
+     "kit/canivete",
+     0.0,
+     1.4,
+     1.2
+    ]
+   ]
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "OHI:1:stern",
     "MIC:1:stern"
@@ -86,7 +94,10 @@
      -0.6,
      1.0
     ]
-   ]
+   ],
+   "text": "MAPA ERRADO",
+   "tat": 15,
+   "tstyle": "red"
   },
   {
    "shot": "close",
@@ -206,13 +217,14 @@
     [
      "kit/canivete",
      0.0,
-     1.8,
-     1.1,
+     0.2,
+     1.4,
      {
       "fixo": true
      }
     ]
-   ]
+   ],
+   "acao": "discutir"
   },
   {
    "shot": "two",
@@ -240,7 +252,21 @@
     "MIC:0:grin"
    ],
    "clima": "neve",
-   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna."
+   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.",
+   "props": [
+    [
+     "kit/minerio",
+     0.0,
+     1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "COBRE E FERRO",
+   "tat": 6,
+   "tstyle": "gold"
   },
   {
    "shot": "close",

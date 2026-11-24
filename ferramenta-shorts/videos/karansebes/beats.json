@@ -133,6 +133,9 @@
      "HUS"
     ],
     "march": false
+   },
+   "montado": {
+    "dir": 1
    }
   },
   {
@@ -198,7 +201,8 @@
      "HUS"
     ],
     "march": false
-   }
+   },
+   "acao": "beber"
   },
   {
    "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
@@ -208,8 +212,12 @@
     "HUS:0:laugh",
     "AUT:1:shock"
    ],
-   "sfx": [],
-   "fx": [],
+   "sfx": [
+    "gun@167"
+   ],
+   "fx": [
+    "burst@167"
+   ],
    "mood": "tense",
    "tiros": false,
    "impact": false,
@@ -221,7 +229,8 @@
      "HUS"
     ],
     "march": false
-   }
+   },
+   "acao": "discutir"
   },
   {
    "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
@@ -299,7 +308,17 @@
      "HUS"
     ],
     "march": false
-   }
+   },
+   "fx": [
+    "burst@85",
+    "burst@97",
+    "burst@109"
+   ],
+   "sfx": [
+    "cannon@85",
+    "cannon@97",
+    "cannon@109"
+   ]
   },
   {
    "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
@@ -311,14 +330,14 @@
    "props": [
     [
      "crate",
+     -3.6,
      -2.2,
-     0.5,
      1.0
     ],
     [
      "barrel",
-     2.4,
-     0.4,
+     3.4,
+     -1.8,
      1.0
     ]
    ],

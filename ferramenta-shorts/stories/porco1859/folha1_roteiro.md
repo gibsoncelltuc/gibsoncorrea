@@ -89,7 +89,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: FESTAS
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~3.8 s)
