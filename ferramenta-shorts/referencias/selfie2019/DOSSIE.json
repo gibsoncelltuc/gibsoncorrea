@@ -10,22 +10,13 @@
    "interior loja",
    "interior madeira",
    "interior pedra",
-   "loc_cidade"
+   "loc_cidade",
+   "palace"
   ],
   "cenarios_trocados": [
    [
     "cena 1",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 6",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 8",
-    "street",
+    "stadium",
     "loc_cidade"
    ]
   ]
@@ -52,12 +43,11 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/globe",
   "kit/marco_onu",
   "kit/phone",
   "kit/room_azul_wood",
-  "kit/room_classico_wood",
-  "kit/room_colonial_shop",
+  "kit/room_classico_shop",
+  "kit/room_colonial_wood",
   "kit/room_eua_stone",
   "kit/room_eua_wood",
   "kit/room_europa_stone",
@@ -73,23 +63,21 @@
   "mk/Crate_Metal",
   "mk/Nightstand_Shelf",
   "mk/Shelf_Arch",
-  "mk/Shelf_Small_Bottles",
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Vase_4",
-  "mk/Workbench_Drawers"
+  "mk/Vase_4"
  ],
  "pesquisa_visual": {
   "local": "Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de mármore verde e fundo dourado, edifício da ONU à beira do East River",
-  "quando": "24 de setembro de 2019, de dia",
+  "quando": "26 de setembro de 2019 (quinta-feira), de dia, 74ª Assembleia Geral da ONU",
   "participantes": [
    "Nayib Bukele (terno escuro, gravata)",
    "delegados de vários países",
    "repórteres"
   ],
   "roupas": {
-   "BUK": "terno escuro, camisa branca, boné preto virado para trás (marca pessoal)",
+   "BUK": "terno escuro, camisa branca; boné preto virado para trás é marca pessoal",
    "DIP": "ternos e gravatas escuros",
    "REP": "roupa social com crachá"
   },
@@ -100,12 +88,28 @@
    "crachás de delegado"
   ],
   "fontes_visuais": [
-   "https://www.reuters.com/article/world/just-a-second-please-el-salvador-presidents-un-selfie-eclipses-speech-idUSKBN1WB31O/",
+   "https://news.un.org/es/story/2019/09/1462902",
    "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Hall",
-   "https://en.wikipedia.org/wiki/Nayib_Bukele"
-  ]
+   "referencias/selfie2019/moodboard.jpg"
+  ],
+  "explicacoes": [
+   "Bukele disse que o mundo novo estava no lugar para onde iria a foto, a internet, e que a ONU poderia desaparecer como a Kodak e os dinossauros se não mudasse (fonte: Notícias ONU, 26/9/2019)"
+  ],
+  "buscas": {
+   "plenário da ONU": "United Nations General Assembly Hall podium",
+   "Bukele": "Nayib Bukele UN General Assembly 2019 selfie",
+   "celular": "smartphone camera selfie podium",
+   "Nova York": "United Nations headquarters New York East River",
+   "A Selfie na ONU": "Bukele selfie United Nations General Assembly podium 2019",
+   "Estados Unidos": "United Nations headquarters New York skyline",
+   "roupas e ruas de 2019": "United Nations General Assembly delegates suits 2019",
+   "delegados de vários países": "UN General Assembly delegates seated 2019",
+   "púlpito": "United Nations General Assembly podium green marble",
+   "phone": "smartphone selfie stick photo"
+  }
  },
  "fontes": [
+  "https://news.un.org/es/story/2019/09/1462902",
   "https://www.reuters.com/article/world/just-a-second-please-el-salvador-presidents-un-selfie-eclipses-speech-idUSKBN1WB31O/"
  ],
  "falta": []

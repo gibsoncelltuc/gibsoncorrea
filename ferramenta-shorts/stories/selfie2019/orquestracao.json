@@ -4,17 +4,7 @@
  "cenarios_trocados": [
   [
    "cena 1",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 6",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 8",
-   "street",
+   "stadium",
    "loc_cidade"
   ]
  ],
@@ -37,9 +27,9 @@
     "kit/phone",
     "mk/BookStand"
    ],
-   "palavras": 16,
+   "palavras": 15,
    "cena": "b0",
-   "frase": "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.",
+   "frase": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -56,7 +46,7 @@
    "objetos": [],
    "palavras": 16,
    "cena": "b1",
-   "frase": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
+   "frase": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -71,9 +61,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Ali, os líderes de quase todos os países fazem discursos longos e sérios.",
+   "frase": "Ali, líderes fazem discursos longos e sérios.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -88,9 +78,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b3",
-   "frase": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
+   "frase": "O presidente de El Salvador, Nayib Bukele, tinha trinta e oito anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -107,9 +97,9 @@
     "kit/phone",
     "mk/BookStand"
    ],
-   "palavras": 17,
+   "palavras": 16,
    "cena": "b4",
-   "frase": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.",
+   "frase": "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -130,7 +120,41 @@
    ],
    "palavras": 13,
    "cena": "b5",
-   "frase": "Virou de costas para o plenário, e tirou uma selfie com todos atrás.",
+   "frase": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "palace"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "Depois explicou: o mundo novo está onde essa foto vai parar, na internet.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b7",
+   "frase": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -141,24 +165,24 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
    "personagens": [
-    "BUK",
-    "DIP"
+    "REP",
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 15,
-   "cena": "b6",
-   "frase": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.",
+   "cena": "b8",
+   "frase": "Propôs que líderes gravassem vídeos de seus discursos, e um concurso de ideias para jovens.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "interior loja"
   },
   {
    "camera": "crowd",
@@ -169,57 +193,17 @@
    ],
    "multidao": 20,
    "objetos": [
-    "kit/globe",
-    "kit/marco_onu"
+    "kit/marco_onu",
+    "kit/phone"
    ],
    "palavras": 12,
-   "cena": "b7",
-   "frase": "E ele tinha razão. A foto rodou o planeta em poucas horas.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "REP",
-    "DIP"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "Alguns acharam falta de respeito com a ONU. Outros acharam genial.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "BUK",
-    "REP"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 17,
    "cena": "b9",
-   "frase": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.",
+   "frase": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "palace"
   },
   {
    "camera": "two",
@@ -230,9 +214,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b10",
-   "frase": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.",
+   "frase": "Um segundo de selfie, e a ONU virou assunto.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
