@@ -1,0 +1,46 @@
+{
+ "id": "uisque1984",
+ "ano": 1984,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra do Uísque",
+   "consultas": [
+    "A Guerra do Uísque",
+    "Canadá Dinamarca Hans Canadá Groenlândia Os 1984"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Groenlândia",
+   "consultas": [
+    "Groenlândia 1984",
+    "Groenlândia landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1984",
+   "consultas": [
+    "1984 fashion clothing",
+    "1984 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "whisky",
+   "consultas": [
+    "whisky",
+    "A Guerra do Uísque"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1984",
+    "soldier uniform"
+   ]
+  }
+ ]
+}

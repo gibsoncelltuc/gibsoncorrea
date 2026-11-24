@@ -1,0 +1,255 @@
+{
+ "id": "fleming1928",
+ "ano": 1928,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 12",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 0,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "FLE",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_bigben",
+    "kit/petri"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MED",
+    "MED"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_bigben"
+   ],
+   "palavras": 21,
+   "cena": "b1",
+   "frase": "Era mil novecentos e vinte e oito, num hospital de Londres, e o cientista Alexander Fleming era famoso pela mesa bagunçada.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FLE",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "Ele estudava bactérias, e deixava os pratos de cultura empilhados na bancada, sem pressa nenhuma.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FLE",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b3",
+   "frase": "Um dia, ele saiu de férias por duas semanas e não limpou nada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "COL",
+    "FLE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/gosma",
+    "kit/petri"
+   ],
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "Quando voltou, achou um prato com bolor verde e disse: \"Que sujeira!\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FLE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/gosma",
+    "kit/petri"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Ele ia jogar o prato fora, mas olhou melhor.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "FLE",
+    "COL"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/petri"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FLE",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/petri"
+   ],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MED",
+    "MED",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/petri"
+   ],
+   "palavras": 15,
+   "cena": "b8",
+   "frase": "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FLE",
+    "COL"
+   ],
+   "multidao": 14,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "Fleming ganhou, junto com dois colegas, o prêmio Nobel em mil novecentos e quarenta e cinco.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FLE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b10",
+   "frase": "No fim, a bagunça dele valeu mais que qualquer faxina.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FLE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

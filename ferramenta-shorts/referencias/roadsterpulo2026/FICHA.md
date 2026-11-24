@@ -7,7 +7,7 @@
 - Roupas: {'MUS': 'camiseta cinza-escura com logo T vermelho da Tesla, calca jeans', 'ENG': 'camisa azul de equipe, bone', 'ENA': 'camisa azul de equipe', 'POV': 'roupa casual de convidado'}
 - Cenario real: estrutura curva gigante estilo pista Hot Wheels (o carro sobe ate ficar de cabeca para baixo), refletores fortes na noite, plateia; galpao iluminado para as cenas tecnicas
 - Objetos: ['Tesla Roadster branco em cunha (estilo Lotus Esprit)', 'propulsores SpaceX soltando fumaca branca', 'ventiladores sob o carro (succao)']
-- Cenarios usados no video: interior galpao, loc_cidade, loc_deserto
+- Cenarios usados no video: interior galpao, loc_estudio, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

@@ -109,7 +109,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_mesquita",
     "kit/mountain_bunker"
    ],
    "palavras": 14,
@@ -131,7 +130,6 @@
    "objetos": [
     "kit/b2_air",
     "kit/bunker_bomb",
-    "kit/marco_mesquita",
     "vehicles/airplane"
    ],
    "palavras": 22,
@@ -197,8 +195,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/b2_air",
-    "kit/marco_mesquita"
+    "kit/b2_air"
    ],
    "palavras": 12,
    "cena": "b6",
@@ -238,9 +235,7 @@
     "PIL"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_mesquita"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b8",
    "frase": "Um submarino ainda mandou mísseis que explodiram numa terceira usina.",
@@ -332,8 +327,7 @@
    "multidao": 0,
    "objetos": [
     "kit/b2_air",
-    "kit/bunker_bomb",
-    "kit/marco_mesquita"
+    "kit/bunker_bomb"
    ],
    "palavras": 14,
    "cena": "b12",
@@ -350,9 +344,7 @@
     "TRU"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_mesquita"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b13",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

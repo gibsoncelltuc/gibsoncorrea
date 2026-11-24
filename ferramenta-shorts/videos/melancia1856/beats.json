@@ -1,0 +1,234 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 16,
+ "title": "A Guerra da Melancia",
+ "titulo_base": "A Guerra da Melancia",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/melon",
+ "outfits": {
+  "VEN": {
+   "profissao": "comerciante",
+   "jacket": "#3a7a5a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "VIA": {
+   "profissao": "jornalista",
+   "jacket": "#8a2a2a",
+   "pants": "#2a3a6a",
+   "boots": "#1b1b1f",
+   "hat": "slouch",
+   "cap": "#4a3020"
+  },
+  "MOR": {
+   "profissao": "agricultor",
+   "jacket": "#d9a630",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "SOL": {
+   "profissao": "soldado",
+   "jacket": "#1f3a8a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#b0282f"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "VIA:0:smug",
+    "VEN:0:angry"
+   ],
+   "props": [
+    [
+     "kit/melon",
+     0.3,
+     2.2,
+     1.3
+    ]
+   ],
+   "text": "1856",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos."
+  },
+  {
+   "shot": "reveal",
+   "set": "street",
+   "who": [
+    "VIA:0:neutral",
+    "VIA:1:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "VIA"
+    ],
+    "march": false
+   },
+   "mapa": "PANAMÁ",
+   "mapa_at": 3,
+   "props": [
+    [
+     "vehicles/locomotive",
+     -2.5,
+     -6.5,
+     1.5
+    ]
+   ],
+   "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "VIA:0:grin",
+    "VEN:0:shock"
+   ],
+   "props": [
+    [
+     "kit/stall",
+     -5,
+     -3,
+     1.0
+    ]
+   ],
+   "interacao": "empurrar",
+   "say": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
+   "set": "countryside"
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "VEN:0:angry",
+    "VIA:0:smug"
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "O vendedor pediu o pagamento: \"Pague a fatia!\", gritou ele, e o viajante só riu."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "VIA:0:angry",
+    "VEN:0:scared"
+   ],
+   "interacao": "empurrar",
+   "say": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo.",
+   "props": [
+    [
+     "war/pistol",
+     0.8,
+     1.4,
+     2.2
+    ]
+   ],
+   "set": "harbor"
+  },
+  {
+   "shot": "crowd",
+   "set": "street",
+   "who": [
+    "VEN:0:shout",
+    "VIA:0:angry"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "MOR",
+     "VIA"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "text": "BRIGA",
+   "titulo": true,
+   "say": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PRE:0:sad:paper",
+    "MOR:0:cry"
+   ],
+   "interacao": "susto",
+   "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
+  },
+  {
+   "shot": "orbit",
+   "set": "street",
+   "who": [
+    "SOL:0:stern",
+    "SOL:1:angry"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "stern"
+   },
+   "props": [
+    [
+     "vehicles/locomotive",
+     -3,
+     -7.5,
+     1.6
+    ]
+   ],
+   "say": "No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:relief:coin",
+    "PRE:1:smug:paper"
+   ],
+   "interacao": "entregar",
+   "say": "No fim, o governo local pagou uma indenização enorme pelas mortes."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "VEN:0:sad"
+   ],
+   "props": [
+    [
+     "kit/melon",
+     1.0,
+     0.5,
+     1.3
+    ]
+   ],
+   "say": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
+   "set": "countryside"
+  }
+ ],
+ "ano": 1856,
+ "regiao": "colonial",
+ "exp": 1.0
+}

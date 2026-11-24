@@ -147,10 +147,12 @@ kit/ring | b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem
 - Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 22% | medio 69% | aberto 9% | detalhe 0%
 - Interacoes: b0 susto, b2 discutir, b3 cochichar, b5 discutir, b6 susto, b8 discutir, b9 insiste, b10 discutir, b11 pular
 - RISCOS GERAIS: 
+  - video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py wrestlemania2007  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/wrestlemania2007/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
+- geral: video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

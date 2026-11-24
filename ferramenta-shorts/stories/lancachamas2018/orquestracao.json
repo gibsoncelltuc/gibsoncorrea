@@ -47,8 +47,7 @@
    ],
    "multidao": 8,
    "objetos": [
-    "kit/flamethrower",
-    "kit/marco_hollywood"
+    "kit/flamethrower"
    ],
    "palavras": 8,
    "cena": "b1",
@@ -67,8 +66,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/flamethrower",
-    "kit/marco_hollywood"
+    "kit/flamethrower"
    ],
    "palavras": 6,
    "cena": "b2",
@@ -87,8 +85,7 @@
    ],
    "multidao": 12,
    "objetos": [
-    "kit/flamethrower",
-    "kit/marco_hollywood"
+    "kit/flamethrower"
    ],
    "palavras": 18,
    "cena": "b3",
@@ -113,8 +110,7 @@
    ],
    "multidao": 6,
    "objetos": [
-    "kit/extinguisher",
-    "kit/marco_hollywood"
+    "kit/extinguisher"
    ],
    "palavras": 10,
    "cena": "b4",
@@ -198,8 +194,7 @@
    "multidao": 0,
    "objetos": [
     "kit/extinguisher",
-    "kit/flamethrower",
-    "kit/marco_hollywood"
+    "kit/flamethrower"
    ],
    "palavras": 11,
    "cena": "b8",
@@ -216,9 +211,7 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_hollywood"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

@@ -1,0 +1,256 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 14,
+ "title": "A Guerra de 335 Anos",
+ "titulo_base": "A Guerra de 335 Anos",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/scroll",
+ "outfits": {
+  "HOL": {
+   "profissao": "marinheiro",
+   "jacket": "#e8791f",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "cap": "#1f3a8a"
+  },
+  "ILH": {
+   "profissao": "pescador",
+   "jacket": "#3a7a5a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#b0282f"
+  },
+  "EMB": {
+   "profissao": "nobre",
+   "jacket": "#1f3a8a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "tie": "#e8791f"
+  },
+  "MAR": {
+   "profissao": "marinheiro",
+   "jacket": "#e8791f",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#1f3a8a"
+  },
+  "SOL": {
+   "profissao": "soldado",
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "ILH:0:laugh",
+    "HOL:0:smug"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     0.3,
+     2.2,
+     1.2
+    ]
+   ],
+   "text": "335 ANOS",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi uma guerra sem batalhas.",
+   "set": "harbor"
+  },
+  {
+   "shot": "reveal",
+   "set": "harbor",
+   "who": [
+    "ILH:0:neutral",
+    "ILH:1:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "ILH"
+    ],
+    "march": false
+   },
+   "mapa": "ILHAS SCILLY",
+   "mapa_at": 3,
+   "say": "Dizem que tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra."
+  },
+  {
+   "shot": "crowd",
+   "set": "harbor",
+   "who": [
+    "ILH:0:grin",
+    "HOL:0:angry"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "ILH",
+     "MAR"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "ship",
+     -7,
+     -9,
+     1.3
+    ]
+   ],
+   "fx": [
+    "puff@50"
+   ],
+   "sfx": [
+    "thump@50"
+   ],
+   "say": "Piratas das ilhas atacavam navios holandeses, e a Holanda, que vivia do comércio, ficou furiosa."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "HOL:0:stern",
+    "MAR:0:angry",
+    "MAR:1:stern"
+   ],
+   "props": [
+    [
+     "ship",
+     -6,
+     -8,
+     1.3
+    ]
+   ],
+   "say": "Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.",
+   "set": "harbor"
+  },
+  {
+   "shot": "crowd",
+   "set": "harbor",
+   "who": [
+    "MAR:0:angry",
+    "MAR:1:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "MAR"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "ship",
+     -7,
+     -9,
+     1.3
+    ]
+   ],
+   "text": "GUERRA",
+   "titulo": true,
+   "say": "Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas."
+  },
+  {
+   "shot": "crowd",
+   "set": "street",
+   "who": [
+    "PRE:0:smug:paper",
+    "ILH:0:shock"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "stern"
+   },
+   "say": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ILH:0:smile",
+    "ILH:1:grin"
+   ],
+   "acao": "comemorar",
+   "say": "A guerra seguiu esquecida por mais de trezentos anos, sem um único tiro.",
+   "set": "countryside"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "EMB:0:smile",
+    "PRE:0:nervous"
+   ],
+   "interacao": "reverencia",
+   "say": "Em mil novecentos e oitenta e seis, alguém perguntou: \"Será que ainda estamos em guerra?\" E o embaixador holandês visitou as ilhas.",
+   "set": "street"
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "EMB:0:relief:paper",
+    "PRE:0:relief"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/scroll",
+     1.0,
+     0.6,
+     1.1
+    ]
+   ],
+   "say": "Os dois fizeram a paz num tratado, e a guerra de 335 anos terminou."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ILH:0:smile"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.0,
+     0.5,
+     1.2
+    ]
+   ],
+   "say": "Foi a guerra mais longa e mais calma da história, dizem.",
+   "set": "street"
+  }
+ ],
+ "ano": 1651,
+ "regiao": "europa",
+ "exp": 1.0
+}

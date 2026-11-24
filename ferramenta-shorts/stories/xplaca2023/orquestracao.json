@@ -1,0 +1,271 @@
+{
+ "id": "xplaca2023",
+ "ano": 2023,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 5",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "harbor",
+   "loc_patio"
+  ],
+  [
+   "cena 11",
+   "harbor",
+   "loc_patio"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/finch",
+    "kit/marco_goldengate",
+    "kit/phone"
+   ],
+   "palavras": 23,
+   "cena": "b0",
+   "frase": "Em julho de dois mil e vinte e três, o Twitter acordou com outro nome: X, e o passarinho azul saiu de cena.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "OPE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b1",
+   "frase": "O dono, Elon Musk, anunciou a mudança projetando um grande X no prédio da empresa, em São Francisco.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "OPE",
+    "OPE2",
+    "MUS"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/finch",
+    "kit/marco_goldengate",
+    "nature/lamppost"
+   ],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "Os operários começaram a remover as letras da placa do Twitter e o passarinho do prédio.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "OPE",
+    "FIS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Mas o trabalho parou no meio, porque a empresa não tinha as licenças necessárias.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "OPE2"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Sobraram só as letras E e R, em cinza, na fachada.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/marco_goldengate",
+    "nature/lamppost"
+   ],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Acontece que depois instalaram um X gigante piscando no alto do prédio.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FIS",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 23,
+   "cena": "b6",
+   "frase": "A prefeitura registrou vinte e quatro reclamações em um fim de semana e iniciou uma investigação, porque aquela placa também não tinha permissão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FIS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b7",
+   "frase": "A empresa disse que era uma placa luminosa temporária para um evento, e Musk a chamou de provisória.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FIS",
+    "OPE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b8",
+   "frase": "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_two",
+    "kit/phone",
+    "nature/bench",
+    "nature/lamppost"
+   ],
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "Moral da história: até trocar de nome precisa de licença da prefeitura.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  }
+ ]
+}

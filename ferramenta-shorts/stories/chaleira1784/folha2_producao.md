@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/kettle, kit/marco_viena
+- Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, cozinheiro, sopa
 - RISCOS: nenhum
 
@@ -99,7 +99,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (1): COZ (variante 0, expressao sad)
 - Animacao: conversar
-- Objetos/modelos: kit/kettle, kit/marco_viena
+- Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almoco
 - RISCOS: 
   - cena curta (5 palavras): nao da tempo de ler a acao -> CORRECAO: juntar com a cena vizinha
@@ -110,7 +110,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): COZ (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -119,7 +119,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_viena | b0, b1, b4, b5, b6, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b0, b1, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/kettle | b0, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -130,13 +130,15 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 reverencia, b4 insiste, b6 vai ate o outro, b7 susto, b8 entregar
 - RISCOS GERAIS: 
   - objeto heroi (kit/kettle) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py chaleira1784  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/chaleira1784/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 6 risco(s) em aberto
 - b7: a narracao cita "capitao" e ninguem em cena esta vestido a carater
 - b9: cena curta (5 palavras): nao da tempo de ler a acao
 - geral: objeto heroi (kit/kettle) sem close de camera
+- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

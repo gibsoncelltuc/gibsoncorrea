@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Gerado em 24/11 03:01 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,15 +9,15 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | medieval | two | TYC, PAR | - | brass_nose, marco_rostock | - | Um dos maiores astrônomos da história perdeu o nariz numa briga por ca
 b1 | chave | street | crowd | TYC, POV | 6 | house_two, marco_rostock, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da D
 b2 | simples | interior madeira | group | TYC, PAR, POV | - | - | - | Numa festa, ele discutiu com um primo sobre quem era o melhor em matem
-b3 | simples | street | two | TYC, PAR | - | marco_rostock | - | A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo
+b3 | simples | street | two | TYC, PAR | - | - | - | A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo
 b4 | simples | street | two | PAR, TYC | - | brass_nose, marco_rostock | - | Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç
-b5 | simples | loc_montanha | two | TYC | - | brass_nose, marco_rostock | - | Para esconder o buraco, ele passou a usar um nariz de metal, colado no
-b6 | simples | harbor | orbit | REI, TYC | 6 | marco_rostock | - | Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es
+b5 | simples | loc_montanha | two | TYC | - | brass_nose | - | Para esconder o buraco, ele passou a usar um nariz de metal, colado no
+b6 | simples | harbor | orbit | REI, TYC | 6 | - | - | Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es
 b7 | simples | loc_campo | group | TYC | - | marco_rostock, marco_uraniborg, tower | - | Lá, ele construiu um castelo observatório, e anotou a posição de mais 
 b8 | simples | interior pedra | two | TYC, KEP | - | - | - | As anotações eram tão precisas, que ajudaram Kepler a descobrir como o
 b9 | chave | medieval | crowd | KEP, POV, POV | 16 | marco_rostock | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Essa descoberta mudou a astronomia para sempre.
 b10 | simples | loc_montanha | close | TYC | - | brass_nose, marco_rostock | - | E Tycho entrou para a história assim: com a cabeça nas estrelas, e o n
-b11 | simples | street | close | TYC | - | marco_rostock | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | street | close | TYC | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
-Gerado em 24/11 03:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | street | two | TOR, TOR | - | volcano | - | No segundo, El Salvad
 b5 | simples | interior madeira | two | PRE, PRE | - | - | - | Acontece que, no dia do terceiro jogo, El Salvador cortou relações com
 b6 | simples | stadium | group | SAL, SAL, HON | - | ball, trave | - | El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
 b7 | chave | street | crowd | SOL, SOL | 48 | volcano, airplane, tank | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra t
-b8 | simples | street | two | SOL, PRE | - | volcano | - | Durou cem horas. Os outros países do continente obrigaram os dois a pa
+b8 | simples | street | two | SOL, PRE | - | - | - | Durou cem horas. Os outros países do continente obrigaram os dois a pa
 b9 | simples | stadium | close | SAL | - | ball, trave | - | E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.
 b10 | simples | stadium | two | HON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

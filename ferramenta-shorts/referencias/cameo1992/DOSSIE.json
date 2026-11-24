@@ -1,0 +1,109 @@
+{
+ "id": "cameo1992",
+ "titulo": "Poder e Fama EP 02 - O Cameo de Sete Segundos",
+ "ancoras": {
+  "ano": 1992,
+  "era": "atual (1950+)",
+  "regiao": "eua",
+  "luz_base": "golden",
+  "cenarios": [
+   "interior loja",
+   "interior pedra",
+   "loc_cidade"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 1",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 3",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 6",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 9",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 10",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 11",
+    "street",
+    "loc_cidade"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
+  "kit/marco_liberdade",
+  "kit/room_azul_shop",
+  "kit/room_eua_stone",
+  "kit/room_europa_stone",
+  "kit/room_verde_shop",
+  "kit/tv",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Metal",
+  "mk/Nightstand_Shelf",
+  "mk/Stool",
+  "mk/Table_Large",
+  "nature/lamppost",
+  "nature/picket_fence"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [
+  "https://www.thewrap.com/home-alone-2-lost-in-new-york-donald-trump-plaza-hotel-chris-columbus/",
+  "https://www.thewrap.com/trump-home-alone-2-cameo-chris-columbus-response/",
+  "https://salon.com/2023/12/28/donald-home-alone-2-bullied"
+ ],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

@@ -8,12 +8,12 @@ b0 | loc_cidade | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/b
 b1 | loc_cidade | reveal | 9 | encena | kit/volcano | - | -
 b2 | interior pedra | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin | - | -
 b3 | loc_pista | crowd | 10 | batalha | kit/volcano | - | -
-b4 | loc_pista | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/bitcoin, kit/volcano | coin | -
-b5 | loc_pista | close | 1 | conversar | kit/volcano | - | -
-b6 | loc_pista | orbit | 14 | discutir, batalha | kit/volcano | - | -
+b4 | loc_pista | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/bitcoin | coin | -
+b5 | loc_pista | close | 1 | conversar | - | - | -
+b6 | loc_pista | orbit | 14 | discutir, batalha | - | - | -
 b7 | loc_patio | orbit | 8 | parados (so fala e pisca) | kit/globe, kit/volcano | - | -
-b8 | loc_patio | group | 3 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano, kit/coin | - | -
-b9 | loc_cidade | close | 1 | conversar | kit/volcano | - | -
+b8 | loc_patio | group | 3 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/coin | - | -
+b9 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/bitcoin
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6

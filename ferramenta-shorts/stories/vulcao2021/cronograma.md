@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
-Gerado em 24/11 03:01 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,17 +8,17 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | BUK, ENG | - | bitcoin, volcano | - | O presidente de El Salvador resolveu fabricar dinheiro digital com a e
 b1 | transicao | loc_campo | reveal | POV, POV | 6 | volcano | - | El Salvador é um país pequeno da América Central, cheio de vulcões.
-b2 | simples | loc_pista | two | BUK, ENA | - | bitcoin, coin, volcano | - | Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficia
+b2 | simples | loc_pista | two | BUK, ENA | - | bitcoin, coin | - | Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficia
 b3 | simples | interior loja | two | ENG, BUK | - | bitcoin, miners | - | Só que, para criar bitcoins novos, computadores fazem contas sem parar
 b4 | simples | loc_campo | two | BUK, ENG | - | volcano | - | Então ele mandou a empresa de energia do governo usar o calor do vulcã
 b5 | explicativa | loc_pista | wide | ENA, BUK | - | turbina, volcano | - | O vapor quente que sai de dentro da terra gira turbinas, e vira eletri
 b6 | simples | interior loja | two | ENG, ENA | - | bitcoin, miners | - | Acontece que, ao lado da usina, instalaram centenas de computadores só
-b7 | simples | loc_pista | close | BUK | - | bitcoin, volcano | - | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
+b7 | simples | loc_pista | close | BUK | - | bitcoin | - | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
 b8 | chave | loc_pista | crowd | BUK, ENG, ENA | 18 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
 b9 | simples | loc_patio | two | ENA, ENG | - | bitcoin, volcano | - | Anos depois, o governo contava quase quinhentos bitcoins minerados com
 b10 | chave | loc_cidade | orbit | POV, POV, BUK | 16 | apartment, house_two, bitcoin, volcano, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés
 b11 | simples | loc_patio | close | BUK | - | bitcoin, volcano | - | Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
-b12 | simples | loc_campo | close | BUK | - | volcano | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b12 | simples | loc_campo | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -1,0 +1,252 @@
+{
+ "id": "bukelebio2021",
+ "ano": 2021,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 5",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 11",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 25,
+   "cena": "b0",
+   "frase": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 14,
+   "cena": "b1",
+   "frase": "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Primeiro, ele escreveu só uma palavra no perfil: ditador.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Acontece que a notícia se espalhou pelo mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 18,
+   "cena": "b5",
+   "frase": "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/phone"
+   ],
+   "palavras": 19,
+   "cena": "b7",
+   "frase": "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 15,
+   "cena": "b9",
+   "frase": "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

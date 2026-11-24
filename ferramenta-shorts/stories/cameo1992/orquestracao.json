@@ -1,0 +1,262 @@
+{
+ "id": "cameo1992",
+ "ano": 1992,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 11",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "close",
+   "personagens": [
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_liberdade",
+    "kit/tv"
+   ],
+   "palavras": 22,
+   "cena": "b0",
+   "frase": "Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FUN",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 20,
+   "cena": "b1",
+   "frase": "Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU",
+    "POV",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "nature/picket_fence"
+   ],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "A cena dura cerca de sete segundos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Acontece que aquele hotel, o Plaza, pertencia a Trump na época.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DIR",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 19,
+   "cena": "b4",
+   "frase": "O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "DIR",
+    "TRU",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "Segundo o diretor, a participação de Trump foi o preço para usar o hotel.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "DIR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "JOR"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/marco_liberdade"
+   ],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "O corte virou assunto por lá, e a discussão ainda dura até hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 15,
+   "cena": "b9",
+   "frase": "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

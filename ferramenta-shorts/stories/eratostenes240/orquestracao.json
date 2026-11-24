@@ -72,7 +72,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_alexandria",
     "kit/well",
     "nature/tree_palm",
     "tools/bucket"
@@ -94,7 +93,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_alexandria",
     "kit/well",
     "nature/tree_palm"
    ],
@@ -186,7 +184,6 @@
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
-    "kit/marco_alexandria",
     "kit/stick",
     "nature/lamppost",
     "nature/tree_palm"
@@ -252,7 +249,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_alexandria",
     "kit/starlink_sat",
     "kit/stick",
     "kit/well",
@@ -274,9 +270,7 @@
     "ERA"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alexandria"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

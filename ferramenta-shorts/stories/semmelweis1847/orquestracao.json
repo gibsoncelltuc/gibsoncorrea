@@ -108,8 +108,7 @@
    ],
    "multidao": 14,
    "objetos": [
-    "kit/maca",
-    "kit/marco_viena"
+    "kit/maca"
    ],
    "palavras": 13,
    "cena": "b4",
@@ -223,8 +222,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/lapide",
-    "kit/marco_viena"
+    "kit/lapide"
    ],
    "palavras": 16,
    "cena": "b10",
@@ -242,7 +240,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_viena",
     "kit/wash_basin"
    ],
    "palavras": 15,
@@ -260,9 +257,7 @@
     "SEM"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_viena"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

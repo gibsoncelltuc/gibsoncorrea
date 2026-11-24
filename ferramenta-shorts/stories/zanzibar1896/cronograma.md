@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Gerado em 24/11 03:01 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,11 +13,11 @@ b3 | simples | interior pedra | group | ALM, ING | - | - | - | Os ingleses não 
 b4 | chave | harbor | crowd | GUA, GUA | 48 | cannon, marco_zanzibar | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O novo sultão juntou quase três mil homens, alguns canhões velhos, e s
 b5 | simples | interior pedra | close | SUL | - | - | - | "Eles não vão atirar", disse ele.
 b6 | chave | palace | orbit | ING, GUA | 48 | marco_zanzibar, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, às nove e dois, os navios ingleses abriram fogo. O palác
-b7 | simples | harbor | track | SUL, GUA | - | house_two, marco_zanzibar, bench, lamppost | - | O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado 
+b7 | simples | harbor | track | SUL, GUA | - | house_two, bench, lamppost | - | O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado 
 b8 | simples | interior pedra | two | GUA, ING | - | cannon, flagpole | - | Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
-b9 | simples | loc_campo | group | ALM, ING, POV | - | marco_zanzibar | - | Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã
+b9 | simples | loc_campo | group | ALM, ING, POV | - | - | - | Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã
 b10 | simples | interior loja | close | ALM | - | - | - | E ainda mandaram a conta das balas para Zanzibar.
-b11 | simples | palace | close | SUL | - | marco_zanzibar | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | palace | close | SUL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

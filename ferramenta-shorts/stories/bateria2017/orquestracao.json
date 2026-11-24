@@ -1,0 +1,249 @@
+{
+ "id": "bateria2017",
+ "ano": 2017,
+ "cenarios_trocados": [
+  [
+   "cena 9",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 0,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/megapack"
+   ],
+   "palavras": 17,
+   "cena": "b0",
+   "frase": "Em março de dois mil e dezessete, Elon Musk respondeu no Twitter ao empresário australiano Mike Cannon-Brookes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MUS",
+    "CAN"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/megapack",
+    "kit/roadster"
+   ],
+   "palavras": 19,
+   "cena": "b1",
+   "frase": "Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do Sul em cem dias, ou seria de graça.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS",
+    "CAN",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/megapack"
+   ],
+   "palavras": 13,
+   "cena": "b2",
+   "frase": "Os jornais calcularam que ele podia perder mais de cinquenta milhões de dólares.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/megapack"
+   ],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "O contrato foi fechado no fim de setembro, e o prazo de cem dias começou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/megapack",
+    "nature/picket_fence"
+   ],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias, bem antes do prazo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/megapack"
+   ],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder uma aposta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/megapack"
+   ],
+   "palavras": 14,
+   "cena": "b7",
+   "frase": "Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/megapack",
+    "kit/phone"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "E tudo começou com uma resposta curta, escrita no celular.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS",
+    "CAN"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/megapack"
+   ],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

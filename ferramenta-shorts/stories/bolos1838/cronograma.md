@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 24/11 03:01 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,13 +11,13 @@ b1 | transicao | street | reveal | CON, OFI | 32 | shop, cake_table, marco_ulua,
 b2 | simples | interior loja | group | OFI, OFI, CON | - | cake_table, Table_Large | - | Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebrar
 b3 | simples | interior pedra | two | CON, REI | - | cake_table | - | O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", p
 b4 | simples | interior pedra | close | REI | - | - | - | O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil.
-b5 | simples | loc_campo | two | GEN, OFI | - | marco_ulua | - | O México riu do pedido, e não deu um centavo.
+b5 | simples | loc_campo | two | GEN, OFI | - | - | - | O México riu do pedido, e não deu um centavo.
 b6 | simples | harbor | wide | FRA, FRA | 32 | marco_ulua, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecha
 b7 | chave | harbor | crowd | FRA, OFI | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldad
-b8 | chave | street | orbit | GEN | 40 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um general mexicano correu para o combate, e tombou, atingido por um t
+b8 | chave | street | orbit | GEN | 40 | cannon | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um general mexicano correu para o combate, e tombou, atingido por um t
 b9 | simples | interior madeira | two | GEN, FRA | - | - | - | Meses depois, o México pagou os seiscentos mil pesos, e a França foi e
 b10 | simples | interior madeira | close | CON | - | cake_table, coin | - | Nunca um doce custou tão caro, e o confeiteiro contou as moedas.
-b11 | simples | street | close | CON | - | marco_ulua | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | street | close | CON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

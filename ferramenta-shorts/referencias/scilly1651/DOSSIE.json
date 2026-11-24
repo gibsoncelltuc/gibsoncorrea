@@ -1,0 +1,82 @@
+{
+ "id": "scilly1651",
+ "titulo": "Guerras Inusitadas EP 14 - A Guerra de 335 Anos",
+ "ancoras": {
+  "ano": 1651,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "interior pedra",
+   "loc_campo"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 6",
+    "street",
+    "loc_campo"
+   ],
+   [
+    "cena 7",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 8",
+    "street",
+    "loc_campo"
+   ],
+   [
+    "cena 10",
+    "street",
+    "loc_campo"
+   ],
+   [
+    "cena 11",
+    "street",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/lighthouse",
+  "kit/coin",
+  "kit/marco_amsterdam",
+  "kit/navio_fragata",
+  "kit/room_europa_stone",
+  "kit/scroll",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "ship"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

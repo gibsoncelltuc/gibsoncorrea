@@ -131,9 +131,11 @@ nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 - Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 26% | medio 56% | aberto 15% | detalhe 3%
 - Interacoes: b0 avanca e o outro recua, b5 empurrar, b6 pedir, b7 tremem de frio, b8 cochichar
 - RISCOS GERAIS: 
+  - video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py toledo1835  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/toledo1835/moodboard.jpg
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- geral: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

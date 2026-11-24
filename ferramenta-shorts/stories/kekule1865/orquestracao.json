@@ -238,7 +238,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_viena",
     "kit/snake_ring"
    ],
    "palavras": 12,
@@ -256,9 +255,7 @@
     "KEK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_viena"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

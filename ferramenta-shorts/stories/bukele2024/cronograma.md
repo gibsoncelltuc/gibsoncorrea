@@ -1,23 +1,23 @@
 # CRONOGRAMA - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Gerado em 24/11 03:32 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | BUK, REP | - | ballot_box, volcano | - | Um presidente foi reeleito com uma das maiores votações do mundo.
-b1 | transicao | loc_campo | reveal | POV, POV | 6 | volcano | - | Foi em El Salvador, na América Central, em fevereiro de dois mil e vin
-b2 | simples | loc_cidade | two | BUK, POV | - | volcano | - | Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete a
+b0 | simples | loc_cidade | two | BUK, REP | - | ballot_box, volcano | - | Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito 
+b1 | transicao | loc_campo | reveal | POV, POV | 6 | volcano | - | Foi em El Salvador, na América Central. O presidente era Nayib Bukele.
+b2 | simples | palace | two | BUK, POV | - | - | - | Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete a
 b3 | simples | interior madeira | two | JUI, REP | - | scroll | - | A Constituição proibia a reeleição seguida. Mas, em dois mil e vinte e
 b4 | chave | hall | crowd | REP, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Críticos e opositores disseram que a candidatura era ilegal. O governo
-b5 | simples | loc_campo | two | POV, POV | - | ballot_box, volcano | - | No dia da eleição, os salvadorenhos foram às urnas.
+b5 | simples | loc_campo | two | POV, POV | - | ballot_box | - | No dia da eleição, os salvadorenhos foram às urnas.
 b6 | simples | interior loja | close | REP | - | - | - | Acontece que o resultado impressionou: Bukele teve quase oitenta e cin
-b7 | chave | palace | orbit | BUK, POV, POV | 30 | ballot_box, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de um
-b8 | simples | loc_campo | two | REP, BUK | - | volcano | - | O motivo mais citado pelos eleitores: a queda enorme no número de assa
-b9 | simples | loc_pista | two | REP, POV | - | prison, volcano | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
-b10 | simples | loc_pista | close | BUK | - | ballot_box, globe, volcano | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
-b11 | simples | loc_campo | close | BUK | - | volcano | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b7 | chave | palace | crowd | BUK, POV, POV | 30 | ballot_box, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de um
+b8 | simples | interior galpao | two | REP, BUK | - | - | - | O motivo mais citado pelos eleitores: a queda enorme no número de assa
+b9 | simples | interior galpao | group | REP, POV | - | - | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
+b10 | simples | loc_pista | close | BUK | - | ballot_box, globe | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
+b11 | simples | loc_campo | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

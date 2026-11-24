@@ -1,0 +1,293 @@
+{
+ "id": "starlink2019",
+ "ano": 2019,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 3",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 4",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 5",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "AST"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon_air",
+    "kit/marco_canaveral",
+    "kit/rocket",
+    "kit/starlink_sat"
+   ],
+   "palavras": 21,
+   "cena": "b0",
+   "frase": "Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "AST",
+    "JOR"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/falcon_air",
+    "kit/marco_canaveral",
+    "kit/starlink_sat"
+   ],
+   "palavras": 18,
+   "cena": "b1",
+   "frase": "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AST",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/rocket",
+    "kit/starlink_sat"
+   ],
+   "palavras": 13,
+   "cena": "b2",
+   "frase": "Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "AST",
+    "POV",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/starlink_train",
+    "nature/picket_fence"
+   ],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "AST"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/starlink_train"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Ele viu pelo menos cinquenta e seis objetos brilhando em linha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "JOR"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/marco_canaveral"
+   ],
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/starlink_sat"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Jornais de vários países explicaram que não eram OVNIs, e sim satélites.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AST",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon_air",
+    "kit/starlink_sat"
+   ],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "JOR"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/marco_canaveral"
+   ],
+   "palavras": 16,
+   "cena": "b8",
+   "frase": "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AST",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/rocket",
+    "kit/starlink_sat"
+   ],
+   "palavras": 22,
+   "cena": "b9",
+   "frase": "Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "AST"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "id": "galileu1589",
+ "ano": 1589,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 8",
+   "stadium",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "arctic",
+   "loc_campo"
+  ],
+  [
+   "cena 12",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "GAL",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ball",
+    "kit/marco_pisa",
+    "kit/pisa_tower"
+   ],
+   "palavras": 16,
+   "cena": "b0",
+   "frase": "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "ALU",
+    "ALU"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_pisa"
+   ],
+   "palavras": 22,
+   "cena": "b1",
+   "frase": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ARI",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ALU",
+    "ALU",
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Todo mundo achava óbvio, e ninguém tinha testado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ALU",
+    "GAL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "Mas Galileu Galilei achou estranho e disse: \"Eu vou provar o contrário.\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GAL",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ball",
+    "kit/marco_pisa",
+    "kit/pisa_tower",
+    "war/cannonballs"
+   ],
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "GAL",
+    "ALU"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/ball",
+    "kit/marco_pisa",
+    "kit/pisa_tower",
+    "war/cannonballs"
+   ],
+   "palavras": 14,
+   "cena": "b6",
+   "frase": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PRO",
+    "PRO",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "A plateia ficou de boca aberta, e os professores ficaram bravos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GAL",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b8",
+   "frase": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "AST",
+    "AST"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/feather",
+    "kit/marco_pisa",
+    "tools/hammer"
+   ],
+   "palavras": 23,
+   "cena": "b9",
+   "frase": "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "GAL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b10",
+   "frase": "No fim, até a pena deu razão ao Galileu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "GAL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

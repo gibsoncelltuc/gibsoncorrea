@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised) | multidao: 8 de POV
 - Animacao: conversar
-- Objetos/modelos: kit/flamethrower, kit/marco_hollywood
+- Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancachamas
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao smug); CMP (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/flamethrower, kit/marco_hollywood
+- Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): preco, quinhentos
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): CMP (variante 0, expressao suspicious); MUS (variante 0, expressao laugh) | multidao: 12 de POV
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/flamethrower, kit/marco_hollywood
+- Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, lancachamas, piada
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao smile); CMP (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: comemorar
-- Objetos/modelos: kit/extinguisher, kit/marco_hollywood
+- Objetos/modelos: kit/extinguisher
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinde, extintor, incendio
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); CMP (variante 0, expressao smile)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/flamethrower, kit/extinguisher, kit/marco_hollywood
+- Objetos/modelos: kit/flamethrower, kit/extinguisher
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): produto
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_hollywood
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -107,7 +107,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_hollywood | b0, b1, b2, b3, b4, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/flamethrower | b1, b2, b3, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/extinguisher | b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -118,12 +118,12 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Objeto heroi: kit/flamethrower | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 16% | medio 55% | aberto 22% | detalhe 7%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b5 o outro se aproxima, b7 insiste, b8 vai ate o outro
 - RISCOS GERAIS: 
-  - video com ~40 s (o canal fica entre 55 e 75 s) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar entre 55 e 75 s
+  - video com ~40 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py lancachamas2018  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/lancachamas2018/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
 ## RESUMO: 3 risco(s) em aberto
-- geral: video com ~40 s (o canal fica entre 55 e 75 s)
+- geral: video com ~40 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

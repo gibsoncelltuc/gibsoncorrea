@@ -69,8 +69,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 15,
    "cena": "b0",
@@ -89,8 +88,7 @@
    ],
    "multidao": 6,
    "objetos": [
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 13,
    "cena": "b1",
@@ -110,8 +108,7 @@
    "multidao": 12,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 20,
    "cena": "b2",
@@ -156,8 +153,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 16,
    "cena": "b4",
@@ -177,8 +173,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 17,
    "cena": "b5",
@@ -197,8 +192,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 15,
    "cena": "b6",
@@ -218,8 +212,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 16,
    "cena": "b7",
@@ -257,8 +250,7 @@
    "multidao": 30,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 16,
    "cena": "b9",
@@ -301,8 +293,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bee",
-    "kit/beehive",
-    "kit/marco_viena"
+    "kit/beehive"
    ],
    "palavras": 16,
    "cena": "b11",
@@ -319,9 +310,7 @@
     "FRI"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_viena"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

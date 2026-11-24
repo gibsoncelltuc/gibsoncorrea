@@ -4,22 +4,21 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_deserto | two | 2 | conversar, INTERAGEM: insiste | kit/roadster26, kit/torre_luz, kit/tower | - | -
-b1 | loc_deserto | reveal | 8 | encena | kit/rampa_curva, kit/torre_luz, kit/tower | - | -
-b2 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster26 | paper | -
-b3 | interior galpao | group | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | kit/roadster26 | paper | -
-b4 | loc_deserto | wide | 1 | encena | kit/roadster26, kit/torre_luz, kit/tower | - | -
-b5 | loc_deserto | group | 1 | reagir | kit/roadster26, kit/torre_luz, kit/tower | - | -
-b6 | loc_deserto | two | 2 | comemorar, INTERAGEM: pular | kit/torre_luz, kit/tower | - | -
-b7 | loc_cidade | orbit | 14 | batalha | kit/tower | - | -
-b8 | loc_cidade | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster26, kit/tower | paper | -
-b9 | loc_cidade | close | 1 | conversar | kit/tower | - | -
-b10 | interior galpao | two | 1 | conversar | kit/roadster26 | - | -
-b11 | interior galpao | close | 1 | conversar | - | - | -
+b0 | loc_pista | two | 2 | conversar, INTERAGEM: insiste | kit/roadster26, kit/torre_luz | - | -
+b1 | loc_pista | reveal | 8 | parados (so fala e pisca) | kit/rampa_curva, kit/telao_led, kit/torre_luz | - | -
+b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
+b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
+b4 | loc_pista | wide | 1 | encena | kit/roadster26, kit/torre_luz | - | -
+b5 | loc_pista | two | 1 | reagir | kit/roadster26, kit/torre_luz | - | -
+b6 | loc_pista | two | 1 | conversar | kit/roadster26, kit/cybercab, kit/cybertruck, kit/torre_luz | - | -
+b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
+b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster26 | - | -
+b9 | interior galpao | close | 1 | conversar | kit/roadster26 | - | -
+b10 | interior galpao | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/roadster26
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b7
-Interacoes entre personagens: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b8 aproxima-se
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 0  << AVISO: menos de 2 -> 
+Interacoes entre personagens: b0 insiste, b8 vai ate o outro
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 4 de 11 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando
 FALTA MODELAR: nada

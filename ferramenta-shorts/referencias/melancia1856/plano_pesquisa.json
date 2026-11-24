@@ -1,0 +1,46 @@
+{
+ "id": "melancia1856",
+ "ano": 1856,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra da Melancia",
+   "consultas": [
+    "A Guerra da Melancia",
+    "Uma Panamá Estados Unidos Em Panamá Califórnia Um 1856"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Panamá",
+   "consultas": [
+    "Panamá 1856",
+    "Panamá landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1856",
+   "consultas": [
+    "1856 fashion clothing",
+    "1856 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "melon",
+   "consultas": [
+    "melon",
+    "A Guerra da Melancia"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "trem da epoca",
+   "consultas": [
+    "train locomotive 1856",
+    "train locomotive"
+   ]
+  }
+ ]
+}

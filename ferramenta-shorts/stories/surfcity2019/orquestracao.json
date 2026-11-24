@@ -1,0 +1,250 @@
+{
+ "id": "surfcity2019",
+ "ano": 2019,
+ "cenarios_trocados": [
+  [
+   "cena 4",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 8",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 11",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard"
+   ],
+   "palavras": 15,
+   "cena": "b0",
+   "frase": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City El Salvador.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 16,
+   "cena": "b1",
+   "frase": "O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal, ao mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 21,
+   "cena": "b2",
+   "frase": "Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzentos e cinquenta e sete atletas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 18,
+   "cena": "b4",
+   "frase": "Em dois mil e vinte e três, vieram duzentos e noventa e quatro competidores, de olho em Paris.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard"
+   ],
+   "palavras": 17,
+   "cena": "b5",
+   "frase": "O governo estimou quinhentos mil empregos em dez anos, mas é uma projeção oficial, não uma auditoria.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "JOR",
+    "JOR2",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Críticos dizem que o projeto na costa preocupa moradores e ambientalistas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "A Surf City dois leva o projeto para o leste do país.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard"
+   ],
+   "palavras": 16,
+   "cena": "b8",
+   "frase": "Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 15,
+   "cena": "b9",
+   "frase": "Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

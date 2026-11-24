@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FRI (variante 0, expressao grin); COL (variante 0, expressao surprised)
 - Animacao: dancar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, cientista
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: encena
-- Objetos/modelos: kit/marco_viena, kit/beehive
+- Objetos/modelos: kit/beehive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRI (variante 0, expressao suspicious); ASS (variante 0, expressao smile) | multidao: 12 de POV
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, colmeia, jardim, vidro
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FRI (variante 0, expressao surprised)
 - Animacao: dancar
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, acucar, favo
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FRI (variante 0, expressao stern); COL (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, oito
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FRI (variante 0, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, direcao, rebolada
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FRI (variante 0, expressao laugh); ASS (variante 0, expressao grin)
 - Animacao: dancar | interacao: entregar
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, danca, mapa
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); COL (variante 0, expressao shock); FRI (variante 0, expressao smug) | multidao: 30 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, acucar, lugar, testes
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRI (variante 0, expressao smile)
 - Animacao: dancar
-- Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
+- Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, proxima, segredo
 - RISCOS: nenhum
 
@@ -128,7 +128,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FRI (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -139,16 +139,17 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/beehive | b0, b1, b2, b3, b4, b5, b6, b7, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/bee | b0, b2, b3, b4, b5, b6, b7, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_viena | b0, b1, b2, b4, b5, b6, b7, b9, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
 - Objeto heroi: kit/beehive | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 18% | medio 67% | aberto 10% | detalhe 4%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 discutir, b7 entregar, b8 empurrar, b10 pular
 - RISCOS GERAIS: 
+  - video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py abelhas1945  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/abelhas1945/moodboard.jpg
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- geral: video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

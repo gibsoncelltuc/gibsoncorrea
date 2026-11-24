@@ -1,20 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 10 - A Pia no Twitter
 
-Gerado em 24/11 03:01 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | wide | MUS | - | marco_goldengate, sink | - | Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twi
-b1 | simples | loc_patio | close | MUS | - | marco_goldengate | - | Ele filmou a própria entrada e postou o vídeo na internet.
+b1 | simples | loc_patio | close | MUS | - | - | - | Ele filmou a própria entrada e postou o vídeo na internet.
 b2 | simples | loc_patio | two | MUS, FUN2 | - | marco_goldengate, sink | - | A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
-b3 | simples | loc_pista | close | FUN | - | marco_goldengate, sink | - | É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam
+b3 | simples | loc_pista | close | FUN | - | sink | - | É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam
 b4 | chave | loc_pista | group | MUS, FUN | - | marco_goldengate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Naquela época, ele estava prestes a fechar a compra do Twitter, por qu
 b5 | simples | interior loja | two | MUS, FUN2 | - | - | - | Ele também mudou o perfil, e escreveu que era o Chefe Twit.
 b6 | chave | loc_campo | crowd | FUN, FUN2 | 6 | globe, marco_goldengate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A cena deu o que falar no mundo inteiro.
-b7 | simples | loc_campo | group | MUS, FUN, FUN2 | - | marco_goldengate, sink | - | Uma pia, uma legenda e uma piada que ninguém esqueceu.
-b8 | simples | loc_cidade | close | MUS | - | marco_goldengate | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b7 | simples | loc_campo | group | MUS, FUN, FUN2 | - | sink | - | Uma pia, uma legenda e uma piada que ninguém esqueceu.
+b8 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

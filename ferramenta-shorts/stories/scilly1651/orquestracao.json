@@ -1,0 +1,265 @@
+{
+ "id": "scilly1651",
+ "ano": 1651,
+ "cenarios_trocados": [
+  [
+   "cena 6",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 7",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "ILH",
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "kit/scroll"
+   ],
+   "palavras": 18,
+   "cena": "b0",
+   "frase": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi uma guerra sem batalhas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ILH",
+    "ILH"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_amsterdam"
+   ],
+   "palavras": 17,
+   "cena": "b1",
+   "frase": "Dizem que tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ILH",
+    "HOL"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "Piratas das ilhas atacavam navios holandeses, e a Holanda, que vivia do comércio, ficou furiosa.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "HOL",
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "ship"
+   ],
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PRE",
+    "ILH"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/marco_amsterdam"
+   ],
+   "palavras": 17,
+   "cena": "b5",
+   "frase": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ILH",
+    "ILH"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "A guerra seguiu esquecida por mais de trezentos anos, sem um único tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "EMB",
+    "PRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam"
+   ],
+   "palavras": 22,
+   "cena": "b7",
+   "frase": "Em mil novecentos e oitenta e seis, alguém perguntou: \"Será que ainda estamos em guerra?\" E o embaixador holandês visitou as ilhas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EMB",
+    "PRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 14,
+   "cena": "b8",
+   "frase": "Os dois fizeram a paz num tratado, e a guerra de 335 anos terminou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ILH"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Foi a guerra mais longa e mais calma da história, dizem.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ILH"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

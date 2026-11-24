@@ -1,0 +1,46 @@
+{
+ "id": "bukelebio2021",
+ "ano": 2021,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Ditador Mais Legal do Mundo",
+   "consultas": [
+    "O Ditador Mais Legal do Mundo",
+    "Em El Salvador Nayib Bukele Poucos San Salvador Primeiro 2021"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "El Salvador",
+   "consultas": [
+    "El Salvador 2021",
+    "El Salvador landscape"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Mundo",
+   "consultas": [
+    "Mundo 2021",
+    "Mundo landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2021",
+   "consultas": [
+    "2021 fashion clothing",
+    "2021 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "phone",
+   "consultas": [
+    "phone",
+    "O Ditador Mais Legal do Mundo"
+   ]
+  }
+ ]
+}

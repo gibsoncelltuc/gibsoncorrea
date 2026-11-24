@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 09 - O País do Bitcoin
 
-Gerado em 24/11 03:01 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,12 +10,12 @@ b0 | simples | loc_cidade | two | BUK, POV | - | bitcoin, volcano | - | Em dois 
 b1 | simples | loc_cidade | reveal | BUK | 8 | volcano | - | O país era El Salvador, na América Central, e a ideia foi do president
 b2 | simples | interior pedra | group | DEP, BUK, CLI | - | bitcoin | - | A lei foi aprovada pelo congresso em junho daquele ano.
 b3 | chave | loc_pista | crowd | BUK, POV | 8 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E passou a valer em sete de setembro de dois mil e vinte e um.
-b4 | simples | loc_pista | two | CLI, POV | - | bitcoin, stall, volcano | - | Com isso, dava para pagar as compras com bitcoin.
-b5 | simples | loc_pista | close | CLI | - | volcano | - | O governo lançou até uma carteira digital, chamada Chivo.
-b6 | chave | loc_pista | orbit | CLI, POV | 12 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de ace
+b4 | simples | loc_pista | two | CLI, POV | - | bitcoin, stall | - | Com isso, dava para pagar as compras com bitcoin.
+b5 | simples | loc_pista | close | CLI | - | - | - | O governo lançou até uma carteira digital, chamada Chivo.
+b6 | chave | loc_pista | orbit | CLI, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de ace
 b7 | transicao | loc_patio | orbit | BUK, DEP | 6 | globe, volcano | - | Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa 
-b8 | simples | loc_patio | group | BUK, POV, CLI | - | bitcoin, coin, volcano | - | Uma moeda digital, uma lei nova e um país no centro das atenções.
-b9 | simples | loc_cidade | close | BUK | - | volcano | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b8 | simples | loc_patio | group | BUK, POV, CLI | - | bitcoin, coin | - | Uma moeda digital, uma lei nova e um país no centro das atenções.
+b9 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

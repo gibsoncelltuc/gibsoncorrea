@@ -12,11 +12,11 @@ b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/boardgame 
 b5 | interior madeira | group | 2 | conversar, INTERAGEM: empurrar | kit/boardgame | - | -
 b6 | loc_cidade | crowd | 33 | encena, batalha | kit/marco_liberdade | - | -
 b7 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
-b8 | loc_pista | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame, kit/marco_liberdade, kit/tv | - | -
+b8 | loc_pista | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame, kit/tv | - | -
 b9 | loc_cidade | group | 21 | comemorar, INTERAGEM: pular, batalha | kit/boardgame, kit/marco_liberdade | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/boardgame, crate | - | -
-b11 | loc_pista | group | 1 | comemorar | kit/boardgame, kit/marco_liberdade | - | -
-b12 | loc_cidade | close | 1 | conversar | kit/marco_liberdade | - | -
+b11 | loc_pista | group | 1 | comemorar | kit/boardgame | - | -
+b12 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/boardgame
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9

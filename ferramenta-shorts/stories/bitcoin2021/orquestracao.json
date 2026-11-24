@@ -112,8 +112,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bitcoin",
-    "kit/stall",
-    "kit/volcano"
+    "kit/stall"
    ],
    "palavras": 9,
    "cena": "b4",
@@ -130,9 +129,7 @@
     "CLI"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 9,
    "cena": "b5",
    "frase": "O governo lançou até uma carteira digital, chamada Chivo.",
@@ -149,9 +146,7 @@
     "POV"
    ],
    "multidao": 12,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b6",
    "frase": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",
@@ -197,8 +192,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bitcoin",
-    "kit/coin",
-    "kit/volcano"
+    "kit/coin"
    ],
    "palavras": 13,
    "cena": "b8",
@@ -215,9 +209,7 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

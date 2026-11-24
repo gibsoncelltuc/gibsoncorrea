@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Gerado em 24/11 03:01 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -17,8 +17,8 @@ b7 | simples | interior madeira | close | ANA | - | xray_plate | - | Dizem que e
 b8 | chave | street | crowd | JOR, MED, POV | 18 | marco_wurzburg, xray_plate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o ra
 b9 | simples | interior madeira | two | ROE, JOR | - | xray_plate | - | Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido
 b10 | chave | street | orbit | ROE, MED, POV | 18 | marco_wurzburg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Físi
-b11 | simples | street | group | ROE | 5 | marco_wurzburg, xray_plate | - | E nunca quis patentear a descoberta. O raio X era de todo mundo.
-b12 | simples | street | close | ROE | - | marco_wurzburg | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | street | group | ROE | 5 | xray_plate | - | E nunca quis patentear a descoberta. O raio X era de todo mundo.
+b12 | simples | street | close | ROE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

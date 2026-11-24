@@ -1,0 +1,228 @@
+{
+ "id": "uisque1984",
+ "ano": 1984,
+ "cenarios_trocados": [
+  [
+   "cena 7",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "CAN",
+    "DIN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/whisky"
+   ],
+   "palavras": 15,
+   "cena": "b0",
+   "frase": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "CAN",
+    "DIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 20,
+   "cena": "b1",
+   "frase": "A ilha Hans é um pedaço de rocha gelada e sem gente, no mar entre o Canadá e a Groenlândia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAN",
+    "DIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "CAN",
+    "CAN"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "vehicles/helicopter"
+   ],
+   "palavras": 13,
+   "cena": "b3",
+   "frase": "Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá de helicóptero.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAN",
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tequila_bolt",
+    "kit/whisky",
+    "war/flagpole"
+   ],
+   "palavras": 13,
+   "cena": "b4",
+   "frase": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "DIN",
+    "DIN"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "war/flagpole"
+   ],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "DIN",
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tequila_bolt",
+    "kit/whisky"
+   ],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "E deixaram um bilhete: \"Bem-vindos à terra dinamarquesa\", ao lado de uma garrafa de licor.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAN",
+    "DIN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tequila_bolt",
+    "war/flagpole"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "MIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b8",
+   "frase": "Em dois mil e vinte e dois, os países enfim dividiram a ilha quase ao meio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/whisky"
+   ],
+   "palavras": 14,
+   "cena": "b9",
+   "frase": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  }
+ ]
+}

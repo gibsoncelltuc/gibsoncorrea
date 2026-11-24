@@ -67,6 +67,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/lighthouse",
   "kit/falcon9_land",
   "kit/falcon_air",
   "kit/gosma",

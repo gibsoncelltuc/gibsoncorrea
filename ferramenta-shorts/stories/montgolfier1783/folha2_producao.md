@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): JOS (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
+- Objetos/modelos: kit/balloon, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cesta, frente, galo, ovelha, pato, solucao
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ETI (variante 0, expressao nervous); JOS (variante 0, expressao worried)
 - Animacao: reagir | interacao: vai ate o outro | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush
+- Objetos/modelos: kit/balloon, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): JOS (variante 0, expressao laugh); ETI (variante 0, expressao laugh)
 - Animacao: conversar | interacao: abracar
-- Objetos/modelos: kit/marco_versalhes, sheep, duck, rooster
+- Objetos/modelos: sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ETI (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
+- Objetos/modelos: kit/balloon, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galo, ovelha, pato
 - RISCOS: nenhum
 
@@ -128,7 +128,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): JOS (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_versalhes
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -138,7 +138,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/balloon | b0, b3, b5, b6, b7, b8, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_versalhes | b0, b1, b2, b5, b6, b7, b8, b9, b10, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_versalhes | b0, b1, b2, b6, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 sheep | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 duck | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 rooster | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -154,11 +154,13 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b8 vai ate o outro, b9 abracar
 - RISCOS GERAIS: 
   - pouca variedade de cenario ({'loc_campo': 10, 'interior madeira': 2, 'palace': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+  - video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py montgolfier1783  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/montgolfier1783/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - geral: pouca variedade de cenario ({'loc_campo': 10, 'interior madeira': 2, 'palace': 1}): o video fica parecendo todos os outros
+- geral: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

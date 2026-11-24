@@ -1,0 +1,248 @@
+{
+ "id": "arquimedes250",
+ "ano": null,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "track",
+   "personagens": [
+    "ARQ",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 14,
+   "cena": "b0",
+   "frase": "Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 22,
+   "cena": "b1",
+   "frase": "Conta a história que, em Siracusa, na Sicília, por volta de duzentos e cinquenta antes de Cristo, tudo começou com uma suspeita.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REI",
+    "OUR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 14,
+   "cena": "b2",
+   "frase": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "REI",
+    "OUR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "Será que ele trocou parte do ouro por prata e guardou o resto para si?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REI",
+    "ARQ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "O rei chamou Arquimedes e disse: \"Descubra, mas sem estragar a coroa.\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ARQ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Arquimedes pensou por dias e dias, e a resposta não vinha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ARQ",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 14,
+   "cena": "b6",
+   "frase": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ARQ",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "prop",
+   "personagens": [
+    "ARQ",
+    "OUR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 15,
+   "cena": "b8",
+   "frase": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ARQ",
+    "POV"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/crown",
+    "nature/lamppost"
+   ],
+   "palavras": 14,
+   "cena": "b9",
+   "frase": "\"Eureca!\", gritou ele, e a cidade inteira correu atrás. A coroa tinha prata misturada.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REI",
+    "OUR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "No fim, dá para enganar um rei, mas não uma banheira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ARQ"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

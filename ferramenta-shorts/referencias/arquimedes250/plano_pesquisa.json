@@ -1,0 +1,30 @@
+{
+ "id": "arquimedes250",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Arquimedes e o Eureca",
+   "consultas": [
+    "Arquimedes e o Eureca",
+    "Um Conta Siracusa Sicília Cristo Hierão"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Sicília",
+   "consultas": [
+    "Sicília",
+    "Sicília landscape"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bathtub",
+   "consultas": [
+    "bathtub",
+    "Arquimedes e o Eureca"
+   ]
+  }
+ ]
+}

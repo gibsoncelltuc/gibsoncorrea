@@ -1,0 +1,38 @@
+{
+ "id": "franklin1752",
+ "ano": 1752,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Franklin, a Pipa e o Raio",
+   "consultas": [
+    "Franklin a Pipa e o Raio",
+    "Um Era Filadélfia Benjamin Franklin Na 1752"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 1752",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1752",
+   "consultas": [
+    "1752 fashion clothing",
+    "18th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "kite",
+   "consultas": [
+    "kite",
+    "Franklin a Pipa e o Raio"
+   ]
+  }
+ ]
+}

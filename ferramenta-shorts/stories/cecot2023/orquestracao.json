@@ -120,7 +120,8 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/volcano"
+    "buildings/castle_tower",
+    "kit/prison"
    ],
    "palavras": 12,
    "cena": "b5",
@@ -162,10 +163,8 @@
     "REP",
     "POV"
    ],
-   "multidao": 12,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 12,
    "cena": "b7",
    "frase": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.",
@@ -228,8 +227,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 15,
    "cena": "b10",
@@ -246,9 +244,7 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

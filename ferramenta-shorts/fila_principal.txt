@@ -15,3 +15,13 @@ goodyear1839
 curie1898
 abelhas1945
 tulipas1637
+# acrescentados em 24/11 (roteiros que estavam so nos branches antigos das sessoes)
+banquinho1900
+jenkins1739
+lagosta1961
+melancia1856
+scilly1651
+uisque1984
+arquimedes250
+darwin1835
+fleming1928

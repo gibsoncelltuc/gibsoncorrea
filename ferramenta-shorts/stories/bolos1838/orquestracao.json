@@ -114,9 +114,7 @@
     "OFI"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_ulua"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b5",
    "frase": "O México riu do pedido, e não deu um centavo.",
@@ -180,8 +178,7 @@
    ],
    "multidao": 40,
    "objetos": [
-    "cannon",
-    "kit/marco_ulua"
+    "cannon"
    ],
    "palavras": 19,
    "cena": "b8",
@@ -240,9 +237,7 @@
     "CON"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_ulua"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

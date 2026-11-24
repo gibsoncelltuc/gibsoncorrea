@@ -1,57 +1,11 @@
 {
  "id": "roadsterpulo2026",
  "ano": 2026,
- "cenarios_trocados": [
-  [
-   "video",
-   "outback",
-   "loc_pista"
-  ],
-  [
-   "cena 1",
-   "outback",
-   "loc_deserto"
-  ],
-  [
-   "cena 2",
-   "outback",
-   "loc_deserto"
-  ],
-  [
-   "cena 5",
-   "outback",
-   "loc_deserto"
-  ],
-  [
-   "cena 6",
-   "outback",
-   "loc_deserto"
-  ],
-  [
-   "cena 7",
-   "outback",
-   "loc_deserto"
-  ],
-  [
-   "cena 8",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 9",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_cidade"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -64,12 +18,11 @@
    "multidao": 0,
    "objetos": [
     "kit/roadster26",
-    "kit/torre_luz",
-    "kit/tower"
+    "kit/torre_luz"
    ],
-   "palavras": 21,
+   "palavras": 17,
    "cena": "b0",
-   "frase": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
+   "frase": "Elon Musk prometeu um carro que voa. E, diante de convidados, o carro dele saiu do chão.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -80,7 +33,7 @@
     "som": "som na palavra da acao"
    },
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_pista"
   },
   {
    "camera": "reveal",
@@ -91,55 +44,57 @@
    "multidao": 6,
    "objetos": [
     "kit/rampa_curva",
-    "kit/torre_luz",
-    "kit/tower"
+    "kit/telao_led",
+    "kit/torre_luz"
    ],
    "palavras": 16,
    "cena": "b1",
-   "frase": "Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, diante de convidados.",
-   "classe": "simples",
+   "frase": "Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Texas.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
-   "personagens": [
-    "ENG",
-    "MUS"
-   ],
+   "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/roadster26"
-   ],
-   "palavras": 18,
+   "objetos": [],
+   "palavras": 17,
    "cena": "b2",
-   "frase": "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "frase": "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster26 (paira) em raio-X",
+    "emissao": "jato",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "interior galpao"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "ENA",
-    "ENG"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/roadster26"
-   ],
-   "palavras": 17,
+   "objetos": [],
+   "palavras": 18,
    "cena": "b3",
-   "frase": "O segredo eram propulsores da SpaceX escondidos no carro, e ventiladores embaixo que grudavam ele na pista.",
+   "frase": "E um sistema de sucção gruda o carro na pista, como uma ventosa, até de cabeça para baixo.",
    "classe": "explicativa",
-   "sujeito": "personagem",
-   "briefing": {},
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster26 (parado)",
+    "emissao": "onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "interior galpao"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "wide",
@@ -149,12 +104,11 @@
    "multidao": 0,
    "objetos": [
     "kit/roadster26",
-    "kit/torre_luz",
-    "kit/tower"
+    "kit/torre_luz"
    ],
-   "palavras": 19,
+   "palavras": 17,
    "cena": "b4",
-   "frase": "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "frase": "Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -165,18 +119,17 @@
     "som": "som na palavra da acao"
    },
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_pista"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "ENA"
    ],
    "multidao": 0,
    "objetos": [
     "kit/roadster26",
-    "kit/torre_luz",
-    "kit/tower"
+    "kit/torre_luz"
    ],
    "palavras": 14,
    "cena": "b5",
@@ -191,90 +144,7 @@
     "som": "som na palavra da acao"
    },
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MUS",
-    "ENG"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/torre_luz",
-    "kit/tower"
-   ],
-   "palavras": 13,
-   "cena": "b6",
-   "frase": "Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "ENG",
-    "ENA"
-   ],
-   "multidao": 12,
-   "objetos": [
-    "kit/tower"
-   ],
-   "palavras": 13,
-   "cena": "b7",
-   "frase": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "ENG",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/roadster26",
-    "kit/tower"
-   ],
-   "palavras": 14,
-   "cena": "b8",
-   "frase": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
-   "classe": "explicativa",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tower"
-   ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "O vídeo correu o mundo. Metade ficou impressionada, a outra metade desconfiada.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
@@ -283,20 +153,62 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster26"
+    "kit/cybercab",
+    "kit/cybertruck",
+    "kit/roadster26",
+    "kit/torre_luz"
    ],
-   "palavras": 8,
-   "cena": "b10",
-   "frase": "Carro voador ou carro que pula? Você decide.",
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Depois decolou e voou, nos propulsores, por cima de veículos parados.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
-    "corpo": "canta pneu, pula em arco inclinando o nariz e cai do outro lado com poeira",
+    "corpo": "decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a camera acompanha",
     "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
     "luz": "luz do propulsor acompanha o objeto",
     "camera": "camera segue o objeto",
     "som": "som na palavra da acao"
    },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster26 (corre)",
+    "emissao": "velocidade, jato, pneu",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior galpao"
   },
@@ -306,9 +218,27 @@
     "MUS"
    ],
    "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Carro voador ou carro que pula? Você decide.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

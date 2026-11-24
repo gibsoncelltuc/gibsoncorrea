@@ -148,6 +148,7 @@ _RX_OBJ_ACAO = r' (pul\w*|salt\w*|voa|voam|voou|voaram|voando|voar|decol\w*|leva
 for _b in B['beats']:
     _t = ' ' + re.sub(r'[^a-z ]', ' ', _nrm0(_b.get('say', ''))) + ' '
     if _b.get('explica'): _b['set'] = _b.get('set') or ('loc_estudio' if (not isinstance(_b['explica'], dict) or _b['explica'].get('fundo', 'estudio') == 'estudio') else None); _b['who'] = []; _b['crowd'] = {'n': 0, 'outfits': [], 'march': False}; _b['mapa'] = None; _b['detalhe'] = False; _b['shot'] = 'two'; _b['shot_lock'] = True; continue
+    if '?' in _b.get('say', '') and _b.get('obj_acao') is None: _b['obj_acao'] = False; _b['_pergunta'] = True   # v13: pergunta ('carro voador ou carro que pula?') nao e' acao: ninguem voa nem pula
     if any(_EH_VEIC(p_[0]) for p_ in (_b.get('props') or [])) and re.search(_RX_OBJ_ACAO, _t) and not re.search(r' rampa| loop|cabeca para baixo|se soltou|soltou', _t) and not _b.get('veiculo') and _b.get('obj_acao') is not False:
         _b['_obj_acao'] = True; _b['shot'] = 'two'; _b['shot_lock'] = True; _b['who'] = (_b.get('who') or [])[:2]; _b['crowd'] = {'n': 0, 'outfits': [w_.split(':')[0] for w_ in _b['who']] or ['POV'], 'march': False}; _b['detalhe'] = False; _b['fachada'] = False
 # ===== VARIEDADE DE CENARIO (ordem do Gibson 19/11: "cada video tem que ter cenarios diferentes") =====
@@ -159,7 +160,7 @@ _LUGAR = ((r'australia|\bemus?\b', 'set', 'outback'), (r'desert|areia|egito|egip
           (r'estadio|torcida|futebol|\bpartida\b|ringue|\bluta\b|campeonato|\bcopa\b|lutador|luta livre|\barena\b|plateia|nocaute', 'set', 'stadium'),
           (r'fazenda|\bcampo\b|plantac|colheit|lavoura|agricult|\bsitio\b|pasto', 'set', 'countryside'),
           (r'palacio|congresso|parlamento|\bonu\b|assembleia|tribunal|senado|discurso|coletiva|casa branca|gabinete', 'interior', 'pedra'),
-          (r'hospital|enfermaria|pronto.socorro|\buti\b|internad|cirurgia|\bmaca\b|leito|maternidade|clinica|paciente|enfermeir|parteir|\bparto\b', 'interior', 'hospital'),
+          (r'hospital|enfermaria|pronto.socorro|\buti\b|internad|cirurgia|\bmaca\b|\bleitos?\b|maternidade|clinica|paciente|enfermeir|parteir|\bparto\b', 'interior', 'hospital'),
           (r'galpao|hangar|armazem|oficina|base de testes|linha de montagem|fabrica de foguete', 'interior', 'galpao'),
           (r'escritorio|empresa\b|reuniao|laboratorio|\bloja\b|mercado|padaria|\bbanco\b|restaurante|bar\b|fabrica\b|fabricas\b', 'interior', 'loja'),
           (r'(?<!para )\bcasa\b|\bsala\b|quarto|cozinha|familia|jantar', 'interior', 'madeira'),
@@ -279,10 +280,18 @@ _MARCO_ANO = {'kit/marco_detroit': (1977, 9999), 'kit/marco_texas': (1888, 9999)
 _mt = __import__('unicodedata').normalize('NFKD', (B.get('title', '') + ' ' + ' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:3])).lower()).encode('ascii', 'ignore').decode()   # so o LUGAR da historia (titulo, mapa, comeco), nao qualquer citacao
 _anoM2 = re.search(r'(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)', ' '.join([str(B.get('ano', '')), B.get('title', ''), ID] + [str(b_.get('text', '')) for b_ in B['beats'][:4]])); _ANO_M = int(_anoM2.group(1)) if _anoM2 else (int(B['ano']) if str(B.get('ano', '')).lstrip('-').isdigit() else None)
 MARCO = None if B.get('marco') is False else (B.get('marco') or next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if re.search(rx_, _mt) and (_ANO_M is None or _MARCO_ANO.get(a_, (-9999, 9999))[0] <= _ANO_M <= _MARCO_ANO.get(a_, (-9999, 9999))[1])), None))
+# v13: marco e' predio de CIDADE (capitolio, torre, palacio). Se a pesquisa diz que a historia se passa fora da cidade (base de testes, pista, deserto, fazenda, ilha, mato...), o marco automatico nao entra (o Capitolio do Texas aparecia atras da base da SpaceX em McGregor)
+if MARCO and not B.get('marco') and re.search(r'base de testes|base da spacex|\bpista\b|desert|fazend|\bilha\b|\bcampo\b|florest|montanh|acampamento|area aberta|rural|isolad|\bmar\b|oceano|\bselva', _nrm0(str(_VIS0.get('local', '')) + ' ' + str(_VIS0.get('cenario', '')))): MARCO = None
 if MARCO and isinstance(MARCO, str): MARCO = next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if a_ == MARCO), (MARCO, 18, -70, 1.0))
 if MARCO:
     for k_, b_ in enumerate(B['beats']):
         if b_.get('interior') or b_.get('marco') is False or b_.get('set', SET) in ('hall', 'arctic', 'stadium'): continue
+        # v13 (achado da sessao A, bukele2024): o marco situa o lugar; nao fica atras de TODA cena. Entra na 1a cena ao ar livre, em plano aberto, no mapa e quando a frase cita o lugar
+        _mrx = next((rx_ for rx_, a_, *_ in _MARCOS if a_ == MARCO[0]), None)
+        _cita = bool(_mrx and re.search(_mrx, _nrm0(b_.get('say', ''))))
+        _prim = not any(x_.get('_marco_posto') for x_ in B['beats'][:k_])
+        if not (_cita or _prim or b_.get('mapa') or b_.get('shot') in ('reveal', 'crowd', 'orbit', 'wide') or b_.get('marco') is True or B.get('marco_sempre')): continue
+        b_['_marco_posto'] = True
         b_['props'] = list(b_.get('props', [])) + [[MARCO[0], MARCO[1] * (1 if k_ % 2 else -1), MARCO[2], MARCO[3]]]
 _hosp = next((b_ for b_ in B['beats'] if b_.get('interior') == 'hospital' and not b_.get('text')), None)
 if _hosp is not None and not any(b_.get('text') == 'HOSPITAL' for b_ in B['beats']): _hosp['text'] = 'HOSPITAL'
@@ -1370,7 +1379,11 @@ def build_beat(k, b):
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
         extra = ''.join((f', y: DK + {num(vv)}' if kk == 'y' else f', {kk}: {json.dumps(vv)}') for kk, vv in ex.items() if kk not in ('alto', 'mover', 'carregado') and not (kk == 'y' and ex.get('carregado')))   # 19/11: 'y' do roteiro e' altura acima do chao (DK +) + (f", y: DK + {num(ex.get('y', 0.7))}, move: [[X + {num(dx + mv / 2)}, {num(z)}], {a}, {bb}, 'lin'], drop: false" if ex.get('carregado') and mv else '')   # OBJETO CARREGADO: ["kit/sink", dx_do_personagem + 0.5, z, escala, {"carregado": true}] em cena "track": anda junto na altura das maos + (f", move: [[X + {num(ex['mover'][0])}, {num(ex['mover'][1])}], {a}, Math.round({a} + ({bb} - ({a})) * 0.85), 'sm'], drop: false" if ex.get('mover') else '')
         # VEICULO DE VERDADE (23/11, Gibson: "carro do tamanho correto", "carro voador saindo do chao e voando", "nada de carro parado no ceu")
-        if _EH_VEIC(asset) and not ex.get('fixo') and not ex.get('carregado'):
+        if _EH_VEIC(asset) and not ex.get('carregado') and (ex.get('fixo') or b.get('_pergunta')):   # veiculo parado de proposito: so' o tamanho real, sem animacao
+            _sr, _tr = _tam_real(asset, s, z)
+            if _tr and not ex.get('fixo'): s = _sr; b.setdefault('_tam', []).append(_tr)
+            if _ppos and float(z) > -3.0 and not ex.get('perto') and not ex.get('fixo'): dx, z = (0.0 if shot not in WIDE else dx), -3.4   # mesmo parado, o carro fica ATRAS dos personagens (nunca com a roda na frente das pernas)
+        if _EH_VEIC(asset) and not ex.get('fixo') and not ex.get('carregado') and not b.get('_pergunta'):
             _L = _glb_len(asset); _alvo = 6.2 if re.search(r'truck|caminh|onibus|bus', str(asset)) else 5.0
             _sr, _tr = _tam_real(asset, s, z)
             if _tr: s = _sr; b.setdefault('_tam', []).append(_tr)
@@ -1582,7 +1595,7 @@ def build_beat(k, b):
         else:
           for j_, w_ in enumerate(_ws):
               nw_ = nrm(w_); wi_ = starts[k] + j_
-              if b.get('_obj_acao') and re.match(r'(pul|salt|voa|voo|voar|decol|desc|pous|aterriss|acel|arranc|sub|gir|plan|sobrevo|levant|caiu|cair)', nw_): b.setdefault('_enc_words', []).append(nw_); continue   # v13 SUJEITO = OBJETO: quem pula/voa/pousa e' o carro (com VFX), nao o personagem que assiste
+              if (b.get('_obj_acao') or b.get('_pergunta')) and re.match(r'(pul|salt|voa|voo|voar|decol|desc|pous|aterriss|acel|arranc|sub|gir|plan|sobrevo|levant|caiu|cair)', nw_): b.setdefault('_enc_words', []).append(nw_); continue   # v13 SUJEITO = OBJETO: quem pula/voa/pousa e' o carro (com VFX), nao o personagem que assiste
               if j_ in _negi: b.setdefault('_enc_words', []).append(nw_); continue   # acao NEGADA na frase: nao encena (e nao conta como falta)
               if j_ in _idiom_idx(b['say']): b.setdefault('_enc_words', []).append(nw_); continue   # EXPRESSAO: "o panico tomou", "a noticia correu", "o preco caiu"
               for rx_, gest_, tipo_ in ENC:
@@ -1872,7 +1885,7 @@ def build_beat(k, b):
                f"{{ f: {bb}, at: [X + {num(_x1m - 2.2 * _dr)}, DK + 2.1, {num(_zm)}], d: 11.5, az: {-8 * _dr}, el: 7, fov: 42, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
         call = call.replace("k: 'flash',", f"k: 'flash', follow: 0, dx: 1.5,")   # o clarao do tiro sai da arma do cavaleiro (acompanha o galope)
-    if b.get('_voo_cam') and not b.get('cam_livre') and call.count("S('b") == 1:   # v13 VOO: plano aberto no carro (inteiro, com chao embaixo para ver o jato bater) e a camera SOBE e anda com ele
+    if b.get('_voo_cam') and not b.get('cam_livre') and b.get('obj_acao') is not False and call.count("S('b") == 1:   # obj_acao: false = a cena e' dos personagens (o objeto se mexe atras, a camera fica neles)   # v13 VOO: plano aberto no carro (inteiro, com chao embaixo para ver o jato bater) e a camera SOBE e anda com ele
         _vc = b['_voo_cam']; _dv = round(_vc['L'] * 2.6 + 6.5, 2); _cxv = _vc['dx'] - _vc['sg'] * 1.7
         cam = (f"cam: [{{ f: {a}, at: [X + {num(_cxv)}, DK + 1.5, {num(_vc['z'])}], d: {num(_dv)}, az: {8 * _vc['sg']}, el: 5, fov: 44 }}, "
                f"{{ f: {bb}, at: [X + {num(_cxv)}, DK + 1.2, {num(_vc['z'])}], d: {num(_dv * 1.08)}, az: {-8 * _vc['sg']}, el: 1.5, fov: 44 }}]")
@@ -2177,8 +2190,8 @@ if B.get('serie') != 'Teste':
         _glob.append(('o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)', 'reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa'))
     try: _dur = json.load(open(f'stories/{ID}/work/phrases.json'))['frames30'] / 30
     except Exception: _dur = sum(len(b_['say'].split()) for b_ in beats) / 2.9
-    if not (50 <= _dur <= 80) and B.get('duracao_ok') is not True:
-        _glob.append((f'video com ~{round(_dur)} s (o canal fica entre 55 e 75 s)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 50 else 'cortar frases que nao mudam a imagem') + ' ate ficar entre 55 e 75 s'))
+    if not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)
+        _glob.append((f'video com ~{round(_dur)} s (o padrao e\' 60 s; aceito de 54 a 66, ja com a chamada final)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 54 else 'cortar frases que nao mudam a imagem') + ' ate ficar em ~60 s (com esta voz, ~150 palavras no total)'))
 # ===== v13 OBJETO FORA DE EPOCA: nada do que esta em cena pode ser de outra epoca (bloqueia o render) =====
 _PROP_ERA = (('barrel|Barrel', -9999, 1945, 'barril'), ('crate$|Crate_Wooden', -9999, 1965, 'caixote de madeira'), ('lantern', -9999, 1925, 'lampiao'), ('CandleStick|Candle', -9999, 1920, 'castical'), ('carro_antigo', 1885, 1940, 'carro antigo'), ('carro_50', 1940, 1975, 'carro dos anos 50'),
              ('wagon|carroca|charrete', -9999, 1935, 'carroca'), ('^cannon$', 1300, 1900, 'canhao antigo'), ('shield|escudo', -9999, 1650, 'escudo'), ('war/drum', -9999, 1900, 'tambor de guerra'), ('haybale|scarecrow', -9999, 1990, 'feno/espantalho'),

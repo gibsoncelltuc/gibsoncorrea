@@ -1,0 +1,257 @@
+{
+ "id": "jenkins1739",
+ "ano": 1739,
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "JEN",
+    "ESP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 15,
+   "cena": "b0",
+   "frase": "Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por quase dez anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "JEN",
+    "MAR"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 24,
+   "cena": "b1",
+   "frase": "Em mil setecentos e trinta e um, o capitão inglês Robert Jenkins estava num navio perto de Cuba, quando um navio espanhol o parou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAP",
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 17,
+   "cena": "b2",
+   "frase": "Os espanhóis suspeitaram que ele fazia contrabando, e Jenkins disse que o capitão deles arrancou sua orelha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REI",
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "\"Vá levar isso ao seu rei\", teria dito o espanhol.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b4",
+   "frase": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b5",
+   "frase": "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 17,
+   "cena": "b6",
+   "frase": "Em mil setecentos e trinta e nove, declarou guerra, e navios e soldados ingleses cruzaram o oceano.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "ING"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b7",
+   "frase": "A guerra foi longa, e até se juntou a outra guerra maior, na Europa.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ESP",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Depois de quase dez anos, os dois lados fizeram a paz.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "Quem batizou de Guerra da Orelha de Jenkins foi um escritor, mais de cem anos depois.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

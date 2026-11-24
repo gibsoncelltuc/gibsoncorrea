@@ -1,6 +1,6 @@
 # CRONOGRAMA - O Cardápio do Zoológico
 
-Gerado em 24/11 03:02 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,14 +8,14 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | PAR, PAR | - | marco_notredame | - | Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, 
 b1 | simples | interior madeira | group | PAR, PAR | - | - | - | Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os
-b2 | simples | loc_campo | two | PAR, CHF | - | barrel, marco_notredame | - | Depois, os roedores, que viraram um prato chique.
+b2 | simples | loc_campo | two | PAR, CHF | - | barrel | - | Depois, os roedores, que viraram um prato chique.
 b3 | chave | street | crowd | PAR, PAR | 6 | house_two, marco_notredame, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Quando acabou tudo, olharam para o zoológico da cidade.
 b4 | simples | arctic | close | BUT | - | - | - | O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne 
 b5 | simples | interior loja | two | CHF, PAR | - | - | - | No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de
 b6 | chave | arctic | orbit | PAR | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Tinha até gato servido com roedores em volta.
 b7 | simples | arctic | wide | PAR, PAR | 6 | balloon, balloon_air | - | Para mandar notícias, os parisienses usavam balões e pombos-correio.
 b8 | simples | arctic | close | PAR | - | - | - | O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se
-b9 | simples | street | close | PAR | - | marco_notredame | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | street | close | PAR | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -1,0 +1,38 @@
+{
+ "id": "pasteur1885",
+ "ano": 1885,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Pasteur e a Vacina da Raiva",
+   "consultas": [
+    "Pasteur e a Vacina da Raiva",
+    "Um Era França Louis Pasteur Na 1885"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "França",
+   "consultas": [
+    "França 1885",
+    "França landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1885",
+   "consultas": [
+    "1885 fashion clothing",
+    "1885 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "syringe",
+   "consultas": [
+    "syringe",
+    "Pasteur e a Vacina da Raiva"
+   ]
+  }
+ ]
+}

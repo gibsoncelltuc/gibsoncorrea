@@ -35,6 +35,8 @@
  "objetos_em_cena": [
   "buildings/apartment",
   "buildings/house_two",
+  "buildings/lighthouse",
+  "buildings/shop",
   "kit/canhao_moderno",
   "kit/marco_hollywood",
   "kit/room_eua_wood",
