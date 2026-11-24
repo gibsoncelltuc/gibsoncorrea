@@ -1553,6 +1553,7 @@ def build_beat(k, b):
             nw = nrm(w)
             if j in _ngK or j in _idiom_idx(b['say']): continue   # "ninguem deu um tiro" / "a noticia correu": sem efeito de acao
             for rx, kind, kick in KW:
+                if kind in ('burst', 'flash') and re.match(r'^(metralhadoras?|balas?|canhoes|canhao|bombas?|artilharia|fuzis|fuzil|armas?|municao)$', nw) and not b.get('batalha') and not b.get('impact') and not re.search(r'atir|dispar|abri\w* fogo|metralh(ou|aram|ava)|explod|explos|bombard|acert|ating|fuzil(ou|aram)|tiro', nrm0x(b['say'])): continue   # 24/11 (Emus): 'pediram metralhadoras' e' um PEDIDO, nao um tiro: substantivo de arma so' vira clarao com verbo de disparo
                 if rx.match(nw) and kfx < 7 and not ((b.get('_enc') or b.get('_veic_anim')) and kind in ('puff', 'dust', 'splash')) and not (b.get('tiros') is False and kind in ('burst', 'flash')):   # v13: cena marcada sem tiro nao ganha clarao de tiro por causa de uma palavra ("canhoes")
                     kfx += 1; wi = starts[k] + j; PLANO.append((k, w.strip('.,!?"'), kind)); KWSFX.append((wi, 'cannon' if re.match(r'canh|explo|bomb', nw) else {'burst': 'gun', 'ring': 'sting', 'dust': 'thump', 'puff': 'thump', 'stars': 'ding'}.get(kind, 'tick')))   # SOM na mesma palavra do efeito
                     px, pz = (crowd_pos[(j * 5) % len(crowd_pos)] if crowd_pos else (sl[0] if n else 0.0, 1.5))
