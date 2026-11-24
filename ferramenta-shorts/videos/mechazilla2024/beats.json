@@ -84,10 +84,6 @@
    "say": "Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.",
    "objetos": false,
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 11.5 m)",
@@ -105,7 +101,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -138,11 +138,6 @@
     ]
    ],
    "set": "outback",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.7,
-   "d0": 31.2,
-   "d1": 29.7,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -159,7 +154,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.7,
+   "d0": 31.2,
+   "d1": 29.7
   },
   {
    "shot": "wide",
@@ -188,11 +188,6 @@
    "objetos": false,
    "detalhe": false,
    "set": "outback",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.9,
-   "d0": 46.2,
-   "d1": 44.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -208,7 +203,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.9,
+   "d0": 46.2,
+   "d1": 44.0
   },
   {
    "shot": "wide",
@@ -232,11 +232,6 @@
    "detalhe": false,
    "set": "outback",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.3,
-   "d0": 38.5,
-   "d1": 36.7,
    "crowd": {
     "n": 0
    },
@@ -251,7 +246,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.3,
+   "d0": 38.5,
+   "d1": 36.7
   },
   {
    "shot": "wide",
@@ -295,11 +295,6 @@
    "objetos": false,
    "detalhe": false,
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.5,
-   "d0": 41.3,
-   "d1": 39.3,
    "fachada": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -318,7 +313,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.5,
+   "d0": 41.3,
+   "d1": 39.3
   },
   {
    "shot": "wide",
@@ -356,11 +356,6 @@
    "detalhe": false,
    "shot_lock": true,
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.5,
-   "d0": 41.3,
-   "d1": 39.3,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -382,7 +377,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.5,
+   "d0": 41.3,
+   "d1": 39.3
   },
   {
    "shot": "wide",
@@ -412,11 +412,6 @@
    "objetos": false,
    "set": "harbor",
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 5.3,
-   "d0": 63.2,
-   "d1": 60.2,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -433,7 +428,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 5.3,
+   "d0": 63.2,
+   "d1": 60.2
   },
   {
    "shot": "wide",
@@ -471,11 +471,6 @@
    "objetos": false,
    "detalhe": false,
    "set": "outback",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 4.3,
-   "d0": 50.9,
-   "d1": 48.4,
    "fachada": false,
    "quadro": {
     "local": "fazenda aberta",
@@ -488,7 +483,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 4.3,
+   "d0": 50.9,
+   "d1": 48.4
   },
   {
    "shot": "two",
@@ -528,11 +528,6 @@
    "objetos": false,
    "detalhe": false,
    "set": "outback",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 4.3,
-   "d0": 50.9,
-   "d1": 48.4,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -548,7 +543,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 4.3,
+   "d0": 50.9,
+   "d1": 48.4
   },
   {
    "shot": "two",
@@ -579,10 +579,6 @@
    "say": "E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.",
    "objetos": false,
    "set": "harbor",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 8.0 m)",
@@ -600,7 +596,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "fontes": [

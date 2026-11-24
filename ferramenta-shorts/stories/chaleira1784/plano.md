@@ -14,5 +14,5 @@ b8 | two | noite  | interior, objeto na mao | pagou (stars + som de sino); encen
 b9 | two | -  | interior | - | -
 b10 | close | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 10% | medio 60% | aberto 30% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 59% | aberto 30% | detalhe 1%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

@@ -92,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - O maior levava a bandeira do imperador e seguia na frente.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: palace | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): IMP (variante 0, expressao smug) | multidao: 0 de 
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: praia / palacio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente
 - PERSONAGENS: IMP no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -140,19 +140,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): COZ (variante 0, expressao scared) | multidao: 0 de COZ
-- Animacao: conversar | batalha encenada
+- Personagens principais (2): IMP (variante 0, expressao surprised); COZ (variante 0, expressao scared) | multidao: 0 de IMP/COZ
+- Animacao: conversar | interacao: vai ate o outro | batalha encenada
 - Objetos/modelos: kit/kettle, kit/navio_fragata
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, imperador, navio, sopa
-- RISCOS: 
-  - a narracao cita "imperador" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
-- PERSONAGENS: COZ no centro, expressao scared; sem multidao; acao: fala/gesto
-- OBJETO kit/kettle: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
+- PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
+- OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/navio_fragata: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +55 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
@@ -205,8 +204,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O único prejuízo do dia foi o almoço.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): COZ (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/kettle
@@ -244,16 +243,11 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 10% | medio 60% | aberto 30% | detalhe 0%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b8 entregar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/kettle) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - pouca variedade de cenario ({'loc_campo': 1, 'harbor': 6, 'interior pedra': 2, 'interior madeira': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+- Objeto heroi: kit/kettle | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 10% | medio 59% | aberto 30% | detalhe 1%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b6 vai ate o outro, b8 entregar
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
-- b6: a narracao cita "imperador" e ninguem em cena esta vestido a carater
-- geral: objeto heroi (kit/kettle) sem close de camera
-- geral: pouca variedade de cenario ({'loc_campo': 1, 'harbor': 6, 'interior pedra': 2, 'interior madeira': 2}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).

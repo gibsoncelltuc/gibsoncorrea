@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~3.8 s)
 - Narracao: O maior levava a bandeira do imperador e seguia na frente.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito; encena: chega (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -

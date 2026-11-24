@@ -208,7 +208,7 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "praia / palacio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -296,8 +296,8 @@
    "props": [
     [
      "kit/kettle",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.2,
      {
       "fixo": true
@@ -324,11 +324,11 @@
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/kettle",
-      "lugar": "MEIO, direita (objeto principal da cena)",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
@@ -343,10 +343,10 @@
    "detalhe": false,
    "set": "harbor",
    "impact": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -431,11 +431,11 @@
     ]
    },
    "interior": "madeira",
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "detalhe": true
+   "d1": 8.0
   }
  ],
  "visual": {

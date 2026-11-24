@@ -31,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/navio_fragata: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b4: "O maior levava a bandeira do imperador e seguia na frente."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- LOCAL: praia / palacio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente
 - PERSONAGENS: IMP no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -49,9 +49,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
-- PERSONAGENS: COZ no centro, expressao scared; sem multidao; acao: fala/gesto
-- OBJETO kit/kettle: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
+- PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
+- OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/navio_fragata: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +55 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena

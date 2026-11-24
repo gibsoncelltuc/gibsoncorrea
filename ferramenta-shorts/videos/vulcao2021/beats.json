@@ -87,10 +87,6 @@
    "detalhe": false,
    "interior": false,
    "objetos": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -108,7 +104,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -130,11 +130,6 @@
    ],
    "say": "El Salvador é um país pequeno da América Central, cheio de vulcões.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -150,7 +145,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -5.8,
+   "h": 5.4,
+   "d0": 61.2,
+   "d1": 58.3
   },
   {
    "shot": "two",
@@ -171,10 +171,6 @@
     ]
    ],
    "say": "Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -186,7 +182,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -209,10 +209,6 @@
    "acao": "discutir",
    "say": "Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta muita energia.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)",
@@ -224,7 +220,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -253,11 +253,6 @@
    "detalhe": false,
    "interior": false,
    "objetos": false,
-   "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -273,7 +268,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -5.8,
+   "h": 5.4,
+   "d0": 61.2,
+   "d1": 58.3
   },
   {
    "shot": "wide",
@@ -322,11 +322,6 @@
    "say": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.",
    "detalhe": false,
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.0,
-   "d0": 34.5,
-   "d1": 32.9,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -354,7 +349,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.0,
+   "d0": 34.5,
+   "d1": 32.9
   },
   {
    "shot": "two",
@@ -386,10 +386,6 @@
    "acao": "conversar",
    "say": "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)",
@@ -407,7 +403,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -435,10 +435,6 @@
    ],
    "say": "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.",
    "acao": "comemorar",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
@@ -450,7 +446,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "wide",
@@ -486,11 +486,6 @@
    "titulo": true,
    "say": "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3,
    "fachada": false,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
@@ -503,7 +498,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -5.8,
+   "h": 5.4,
+   "d0": 61.2,
+   "d1": 58.3
   },
   {
    "shot": "two",
@@ -524,10 +524,6 @@
    ],
    "acao": "conversar",
    "say": "Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -539,7 +535,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -572,11 +572,6 @@
    "titulo": true,
    "say": "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3,
    "fachada": false,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
@@ -589,7 +584,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -5.8,
+   "h": 5.4,
+   "d0": 61.2,
+   "d1": 58.3
   },
   {
    "shot": "two",
@@ -609,10 +609,6 @@
    ],
    "acao": "comemorar",
    "say": "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
@@ -624,7 +620,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "fontes": [

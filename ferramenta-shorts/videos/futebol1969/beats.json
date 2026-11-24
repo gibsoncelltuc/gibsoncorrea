@@ -78,7 +78,7 @@
     [
      "kit/ball",
      0.0,
-     1.0,
+     -1.2,
      1.31,
      {
       "fixo": true
@@ -90,16 +90,20 @@
    ],
    "quadro": {
     "local": "estadio",
-    "camera": "plano de multidao",
+    "camera": "plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -135,7 +139,7 @@
     [
      "kit/ball",
      0.0,
-     1.0,
+     -1.2,
      1.31,
      {
       "fixo": true
@@ -156,16 +160,20 @@
    },
    "quadro": {
     "local": "estadio",
-    "camera": "aereo",
+    "camera": "aereo; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "crowd",
@@ -216,10 +224,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "estadio",
     "camera": "plano de multidao; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
@@ -237,7 +241,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -275,7 +283,7 @@
     [
      "kit/ball",
      0.0,
-     1.0,
+     -1.2,
      1.31,
      {
       "fixo": true
@@ -298,12 +306,12 @@
    "titulo": true,
    "quadro": {
     "local": "estadio",
-    "camera": "plano de grupo (3+ pessoas)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -313,7 +321,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -351,11 +363,6 @@
    "verbos_ok": [
     "cruza"
    ],
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 23.9,
-   "d1": 22.8,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -375,7 +382,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 24.0,
+   "d1": 22.8
   },
   {
    "shot": "two",
@@ -418,10 +430,6 @@
    "set": "stadium",
    "text": "0 GOLS",
    "titulo": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "estadio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
@@ -439,7 +447,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "max_wide": 4

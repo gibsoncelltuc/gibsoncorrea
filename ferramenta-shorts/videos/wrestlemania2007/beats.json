@@ -114,10 +114,6 @@
    "say": "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.",
    "detalhe": false,
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "estadio",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)",
@@ -129,7 +125,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -179,10 +179,6 @@
    "say": "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.",
    "detalhe": false,
    "interior": "pedra",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)",
@@ -194,7 +190,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "crowd",
@@ -250,11 +250,6 @@
    "say": "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.",
    "detalhe": false,
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -270,7 +265,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -297,11 +297,6 @@
    ],
    "say": "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -317,7 +312,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -352,11 +352,6 @@
    "text": "VITÓRIA",
    "titulo": true,
    "say": "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -370,7 +365,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -406,11 +406,6 @@
    ],
    "say": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -432,7 +427,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "two",
@@ -462,10 +462,6 @@
    "shot_lock": true,
    "detalhe": false,
    "perto": 0.8,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "estadio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)",
@@ -477,7 +473,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -504,11 +504,6 @@
    ],
    "say": "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -524,7 +519,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "two",

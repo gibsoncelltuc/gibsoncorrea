@@ -87,11 +87,6 @@
     "ding@30"
    ],
    "say": "Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.",
-   "cx": 0.0,
-   "cz": -4.4,
-   "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -108,7 +103,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.4,
+   "h": 2.6,
+   "d0": 28.5,
+   "d1": 27.2
   },
   {
    "shot": "reveal",
@@ -138,11 +138,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -4.4,
-   "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -159,7 +154,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.4,
+   "h": 2.6,
+   "d0": 28.5,
+   "d1": 27.2
   },
   {
    "shot": "two",
@@ -204,11 +204,6 @@
    "text": "DELTA",
    "titulo": true,
    "say": "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.",
-   "cx": 0.0,
-   "cz": -4.4,
-   "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -222,7 +217,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.4,
+   "h": 2.6,
+   "d0": 28.5,
+   "d1": 27.2
   },
   {
    "shot": "wide",
@@ -250,11 +250,6 @@
     "thump@40"
    ],
    "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
-   "cx": 0.0,
-   "cz": -4.4,
-   "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -271,7 +266,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.4,
+   "h": 2.6,
+   "d0": 28.5,
+   "d1": 27.2
   },
   {
    "shot": "two",
@@ -327,10 +327,6 @@
    ],
    "interacao": "entregar",
    "say": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
@@ -348,7 +344,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "crowd",
@@ -395,11 +395,6 @@
    ],
    "acao": "comemorar",
    "say": "A operação ganhou um nome que resume tudo: Resolução Absoluta.",
-   "cx": 0.0,
-   "cz": -4.4,
-   "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -416,7 +411,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -4.4,
+   "h": 2.6,
+   "d0": 28.5,
+   "d1": 27.2
   }
  ],
  "fontes": [

@@ -66,11 +66,6 @@
    "text": "CYBERTRUCK",
    "titulo": true,
    "riscos_ok": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -84,7 +79,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
   },
   {
    "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
@@ -109,11 +109,6 @@
    "set": "hall",
    "hora": "dia",
    "riscos_ok": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -130,7 +125,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
   },
   {
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
@@ -178,11 +178,6 @@
     "n": 0
    },
    "riscos_ok": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -196,7 +191,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
   },
   {
    "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
@@ -230,11 +230,6 @@
    "set": "hall",
    "hora": "dia",
    "riscos_ok": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -248,7 +243,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
@@ -302,11 +302,6 @@
     "n": 0
    },
    "riscos_ok": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -320,7 +315,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
@@ -331,8 +331,8 @@
    "props": [
     [
      "kit/steel_ball",
-     1.0,
-     1.0,
+     2.4,
+     0.2,
      1.03,
      {
       "fixo": true
@@ -356,12 +356,12 @@
    "riscos_ok": true,
    "quadro": {
     "local": "salao",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steel_ball juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/steel_ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -371,7 +371,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -405,10 +409,6 @@
    "set": "hall",
    "hora": "dia",
    "riscos_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "salao",
     "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
@@ -420,7 +420,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -442,7 +446,7 @@
     [
      "kit/steel_ball",
      0.0,
-     1.0,
+     -1.2,
      1.03,
      {
       "fixo": true
@@ -469,12 +473,12 @@
    ],
    "quadro": {
     "local": "salao",
-    "camera": "plano de grupo (3+ pessoas)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e steel_ball juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/steel_ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -484,7 +488,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "exp": 0.9,

@@ -68,10 +68,6 @@
    "verbos_ok": [
     "aceit"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -83,7 +79,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
@@ -120,10 +120,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -135,7 +131,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "E passou a valer em sete de setembro de dois mil e vinte e um.",
@@ -195,10 +195,6 @@
     "ding@3"
    ],
    "impact": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -216,7 +212,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",
@@ -286,10 +286,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
@@ -301,7 +297,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
@@ -325,10 +325,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -340,7 +336,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ]
 }

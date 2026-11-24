@@ -101,7 +101,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "palace"
   },
   {
    "camera": "two",
@@ -126,6 +126,7 @@
   {
    "camera": "two",
    "personagens": [
+    "IMP",
     "COZ"
    ],
    "multidao": 0,

@@ -78,10 +78,6 @@
     "ding@30"
    ],
    "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
@@ -99,7 +95,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -120,11 +120,6 @@
     ]
    ],
    "say": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos.",
-   "cx": 0.0,
-   "cz": -3.8,
-   "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -141,7 +136,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.8,
+   "h": 2.5,
+   "d0": 28.7,
+   "d1": 27.3
   },
   {
    "shot": "two",
@@ -162,10 +162,6 @@
    ],
    "acao": "conversar",
    "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
@@ -177,7 +173,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -239,11 +239,6 @@
    "titulo": true,
    "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
    "set": "hall",
-   "cx": 0.0,
-   "cz": -3.8,
-   "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -257,7 +252,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.8,
+   "h": 2.5,
+   "d0": 28.7,
+   "d1": 27.3
   },
   {
    "shot": "two",
@@ -293,10 +293,6 @@
     "thump@30"
    ],
    "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
@@ -308,7 +304,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -328,11 +328,6 @@
    ],
    "interacao": "entregar",
    "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
-   "cx": 0.0,
-   "cz": -3.8,
-   "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -349,7 +344,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.8,
+   "h": 2.5,
+   "d0": 28.7,
+   "d1": 27.3
   },
   {
    "shot": "wide",
@@ -381,11 +381,6 @@
    "text": "47º",
    "titulo": true,
    "say": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.",
-   "cx": 0.0,
-   "cz": -3.8,
-   "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -399,7 +394,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.8,
+   "h": 2.5,
+   "d0": 28.7,
+   "d1": 27.3
   },
   {
    "shot": "two",
@@ -419,10 +419,6 @@
    ],
    "acao": "comemorar",
    "say": "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)",
@@ -434,7 +430,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "fontes": [

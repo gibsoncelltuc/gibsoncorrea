@@ -76,10 +76,6 @@
    ],
    "say": "Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as mãos, só com o pensamento.",
    "set": "street",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
@@ -91,7 +87,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -132,10 +132,6 @@
    ],
    "acao": "conversar",
    "say": "O voluntário foi o Pager, um macaco de nove anos. Primeiro, ele aprendeu a jogar Pong com um joystick.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
@@ -147,7 +143,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -173,10 +173,6 @@
     "ding@30"
    ],
    "say": "A cada acerto, ganhava um golinho de vitamina de banana, por um canudinho de metal.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
@@ -188,7 +184,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -210,10 +210,6 @@
    ],
    "interacao": "cochichar",
    "say": "Enquanto isso, o chip gravava o que os neurônios faziam a cada movimento.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
@@ -225,7 +221,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -255,10 +255,6 @@
    "say": "Acontece que, um dia, desligaram o joystick. E o Pager continuou jogando, só com a mente!",
    "shot_lock": true,
    "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
@@ -270,7 +266,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -309,10 +309,6 @@
    "text": "MENTE",
    "titulo": true,
    "say": "O vídeo rodou o mundo. Muita gente se encantou, e muita gente debateu o uso de animais na pesquisa.",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
@@ -324,7 +320,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -354,10 +354,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
@@ -375,7 +371,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -409,10 +409,6 @@
     "jogo",
     "jogo"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
@@ -424,7 +420,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.",
@@ -455,10 +455,6 @@
    "detalhe": false,
    "shot_lock": true,
    "impact": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
@@ -470,7 +466,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -490,10 +490,6 @@
    ],
    "acao": "comemorar",
    "say": "E tudo começou com um macaco, um videogame antigo, e um copo de vitamina de banana.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
@@ -505,7 +501,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "fontes": [
