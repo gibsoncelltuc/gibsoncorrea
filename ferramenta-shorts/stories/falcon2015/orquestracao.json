@@ -136,7 +136,9 @@
   },
   {
    "camera": "orbit",
-   "personagens": [],
+   "personagens": [
+    "ENG"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/falcon9_land"
@@ -145,7 +147,7 @@
    "cena": "b7",
    "frase": "E pousou inteira, abrindo as pernas no último segundo.",
    "classe": "chave",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",

@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: E pousou inteira, abrindo as pernas no último segundo.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, thump@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_desce (point) @1 -> acao + som de efeito; encena: x_abre (push) @3 -> acao + som de efeito
 - Efeito visual marcado: puff@60, dust@60
 - Texto na tela: POUSOU!
 - Funcao na historia: GRANDE MOMENTO

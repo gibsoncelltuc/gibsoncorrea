@@ -61,8 +61,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "E pousou inteira, abrindo as pernas no último segundo."
 - LOCAL: loc_pista; hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 43.9 m, altura 3.9 m), sem multidao na frente
-- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
+- PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +60 da cena

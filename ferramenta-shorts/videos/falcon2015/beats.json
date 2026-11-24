@@ -351,7 +351,9 @@
   {
    "shot": "wide",
    "hora": "noite",
-   "who": [],
+   "who": [
+    "ENG:0:laugh"
+   ],
    "props": [
     [
      "kit/falcon9_land",
@@ -400,7 +402,9 @@
    },
    "vary": false,
    "quadro_manual": true,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "obj_acao": false,
+   "_auto_vis": 0
   },
   {
    "shot": "reveal",
