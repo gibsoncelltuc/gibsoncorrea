@@ -9,5 +9,5 @@ b5: OK - "os gansos sagrados da deusa Juno ouviram" romano assustado e gansos gr
 b6: CORRIGIDO - Manlio parado -> "impediu a subida dos gauleses" Manlio empurra e o gaules cai no chao com poeira
 b7: OK - "Os gauleses se afastaram, mas mantiveram o cerco" gaules e romano de noite
 b8: OK - "Roma pagou mil libras de ouro" romano e gaules com as moedas, placa 1.000 LIBRAS
-b9: CORRIGIDO - gansos pequenos/cortados -> "Os gansos salvaram a colina" gansos grandes diante do templo; chamada final COMENTE
+b9: CORRIGIDO - gansos pequenos/romano cortado -> "Os gansos salvaram a colina" so os gansos grandes diante do templo; chamada final COMENTE
 defeitos procurados: cenario (Roma antiga, noite no Capitolio), epoca (390 a.C., sem objeto moderno), tamanho (gansos e muralha), cortado (ninguem cortado), multidao (gauleses de farda propria), legenda (texto no alto), acao (empurrao e queda na palavra), objeto (gansos no gancho e no fim)
