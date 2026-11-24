@@ -165,7 +165,7 @@
    "set": "harbor"
   },
   {
-   "say": "A Inglaterra mandou a marinha proteger os barcos de pesca.",
+   "say": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
    "shot": "group",
    "who": [
     "BRI:1:stern",
@@ -194,7 +194,7 @@
    "tstyle": "red"
   },
   {
-   "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro.",
+   "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -233,7 +233,7 @@
    "impact": true
   },
   {
-   "say": "A Islândia ainda ameaçou fechar a base da Otan no país.",
+   "say": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",
    "shot": "two",
    "who": [
     "ICE:1:stern",

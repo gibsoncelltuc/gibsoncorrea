@@ -104,7 +104,7 @@
    ],
    "palavras": 10,
    "cena": "b4",
-   "frase": "A Inglaterra mandou a marinha proteger os barcos de pesca.",
+   "frase": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -134,9 +134,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 14,
+   "palavras": 16,
    "cena": "b6",
-   "frase": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro.",
+   "frase": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {
@@ -157,9 +157,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 14,
    "cena": "b7",
-   "frase": "A Islândia ainda ameaçou fechar a base da Otan no país.",
+   "frase": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

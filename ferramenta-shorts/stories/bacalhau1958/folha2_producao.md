@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): limites
 - RISCOS: nenhum
 
-## Cena b4 - A Inglaterra mandou a marinha proteger os barcos de pesca.
+## Cena b4 - A Inglaterra mandou fragatas para proteger os barcos de pesca.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, marinha, pesca
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, pesca
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que a Islândia só tinha barquinhos da guarda costeira, mas el...
@@ -69,17 +69,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (0): -
 - Animacao: - | batalha encenada
 - Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, redes
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
-## Cena b7 - A Islândia ainda ameaçou fechar a base da Otan no país.
+## Cena b7 - A Islândia ameaçou fechar a base da Otan e rompeu relações com a Ingla...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao stern); BRI (variante 0, expressao shock)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): base, islandia, otan
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): base, inglaterra, islandia, otan
 - RISCOS: nenhum
 
 ## Cena b8 - Em mil novecentos e setenta e seis, a Inglaterra cedeu, e as duzentas ...
@@ -123,13 +123,11 @@ crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b6 | planos abertos: 2 | mistura: close 20% | medio 53% | aberto 22% | detalhe 5%
+- Objeto heroi: kit/cod | grandes momentos: b0, b6 | planos abertos: 2 | mistura: close 19% | medio 54% | aberto 22% | detalhe 6%
 - Interacoes: b0 pular, b2 o outro se aproxima, b4 insiste, b7 discutir, b8 vai ate o outro
-- RISCOS GERAIS: 
-  - video com ~52 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~52 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bacalhau1958 bN bM` (so essas cenas).

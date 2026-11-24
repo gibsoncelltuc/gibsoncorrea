@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 147 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 152 palavras (~52 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Islândia derrotou a marinha inglesa com um cortador de rede.
@@ -39,7 +39,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.4 s)
-- Narracao: A Inglaterra mandou a marinha proteger os barcos de pesca.
+- Narracao: A Inglaterra mandou fragatas para proteger os barcos de pesca.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_defende (cross) @5 -> acao + som de efeito
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: CORTADORES DE REDE
 - Funcao na historia: VIRADA
 
-## Cena b6  (~4.8 s)
-- Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro.
+## Cena b6  (~5.5 s)
+- Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@60, creak@62
 - Efeito + som nas palavras-chave: -
@@ -65,11 +65,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~3.8 s)
-- Narracao: A Islândia ainda ameaçou fechar a base da Otan no país.
+## Cena b7  (~4.8 s)
+- Narracao: A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_discute (point) @3 -> acao + som de efeito; encena: empurra (push) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: empurra (push) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: OTAN
 - Funcao na historia: desenvolvimento
