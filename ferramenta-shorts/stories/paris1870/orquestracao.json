@@ -16,7 +16,9 @@
     "PAR"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/panela"
+   ],
    "palavras": 6,
    "cena": "b0",
    "frase": "Paris já serviu elefante no jantar.",
@@ -93,7 +95,6 @@
    "multidao": 6,
    "objetos": [
     "buildings/house_two",
-    "kit/marco_notredame",
     "nature/lamppost"
    ],
    "palavras": 9,
@@ -109,7 +110,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "arctic"
   },
   {
    "camera": "close",
@@ -135,52 +136,16 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/kettle",
-    "kit/panela"
-   ],
-   "palavras": 13,
-   "cena": "b6",
-   "frase": "Depois, os ursos e os lobos do zoológico também foram parar na panela.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "CHF",
-    "PAR"
-   ],
-   "multidao": 0,
-   "objetos": [
     "kit/panela"
    ],
    "palavras": 16,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior loja"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "PAR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b8",
-   "frase": "Tinha até gato servido com roedores em volta.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
   },
   {
    "camera": "group",
@@ -194,7 +159,7 @@
     "kit/balloon_air"
    ],
    "palavras": 9,
-   "cena": "b9",
+   "cena": "b7",
    "frase": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -216,7 +181,7 @@
     "nature/lamppost"
    ],
    "palavras": 14,
-   "cena": "b10",
+   "cena": "b8",
    "frase": "Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -238,9 +203,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b11",
-   "frase": "O cerco durou mais de quatro meses, num dos invernos mais frios daquela época.",
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "O cerco durou mais de quatro meses, em pleno inverno.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -257,7 +222,7 @@
     "kit/panela"
    ],
    "palavras": 19,
-   "cena": "b12",
+   "cena": "b10",
    "frase": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -273,7 +238,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b13",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

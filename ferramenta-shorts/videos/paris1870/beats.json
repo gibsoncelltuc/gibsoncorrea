@@ -47,7 +47,18 @@
    "text": "1870",
    "tat": 0,
    "tstyle": "blue",
-   "hora": "pordosol"
+   "animais": false,
+   "props": [
+    [
+     "kit/panela",
+     0.0,
+     1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
@@ -108,7 +119,9 @@
    ],
    "text": "RATOS",
    "tat": 3,
-   "tstyle": "red"
+   "tstyle": "red",
+   "set": "street",
+   "clima": "neve"
   },
   {
    "say": "Quando acabou tudo, olharam para o zoológico da cidade.",
@@ -163,23 +176,6 @@
    "clima": "neve"
   },
   {
-   "say": "Depois, os ursos e os lobos do zoológico também foram parar na panela.",
-   "shot": "two",
-   "props": [
-    [
-     "kit/panela",
-     0.9,
-     -0.4,
-     1.0
-    ]
-   ],
-   "acao": "conversar",
-   "who": [
-    "CHF:0:grin",
-    "PAR:0:surprised"
-   ]
-  },
-  {
    "say": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
    "shot": "two",
    "who": [
@@ -198,19 +194,18 @@
      0.9,
      -0.4,
      1.0
+    ],
+    [
+     "kit/panela",
+     0.0,
+     1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
-   ]
-  },
-  {
-   "say": "Tinha até gato servido com roedores em volta.",
-   "shot": "close",
-   "who": [
-    "PAR:3:shock"
    ],
-   "text": "GATO COM RATOS",
-   "tat": 4,
-   "tstyle": "red",
-   "clima": "neve"
+   "animais": false
   },
   {
    "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
@@ -250,7 +245,7 @@
    ]
   },
   {
-   "say": "O cerco durou mais de quatro meses, num dos invernos mais frios daquela época.",
+   "say": "O cerco durou mais de quatro meses, em pleno inverno.",
    "shot": "two",
    "clima": "neve",
    "acao": "conversar",

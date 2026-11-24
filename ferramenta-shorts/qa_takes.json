@@ -1,276 +1,150 @@
 {
  "fails": [
   {
-   "f": 64,
-   "shot": "b0_d",
+   "f": 452,
+   "shot": "b2~2",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 1.03, 0.534, 1.173, 0.686)"
    ]
   },
   {
-   "f": 68,
-   "shot": "b0_d",
+   "f": 456,
+   "shot": "b2~2",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 1.019, 0.532, 1.162, 0.685)"
    ]
   },
   {
-   "f": 72,
-   "shot": "b0_d",
+   "f": 457,
+   "shot": "b2~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 1.018, 0.532, 1.193, 0.688)"
    ]
   },
   {
-   "f": 75,
-   "shot": "b0_d",
+   "f": 460,
+   "shot": "b2~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 1.014, 0.531, 1.188, 0.685)"
    ]
   },
   {
-   "f": 76,
-   "shot": "b0_v",
+   "f": 464,
+   "shot": "b2~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 1.022, 0.519, 1.186, 0.663)"
    ]
   },
   {
-   "f": 80,
-   "shot": "b0_v",
+   "f": 488,
+   "shot": "b2~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 0.957, 0.485, 1.043, 0.585)"
    ]
   },
   {
-   "f": 84,
-   "shot": "b0_v",
+   "f": 492,
+   "shot": "b2~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 0.958, 0.486, 1.041, 0.584)"
    ]
   },
   {
-   "f": 88,
-   "shot": "b0_v",
+   "f": 496,
+   "shot": "b2~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 0.958, 0.487, 1.043, 0.584)"
    ]
   },
   {
-   "f": 92,
-   "shot": "b0_v",
+   "f": 500,
+   "shot": "b2~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 0.957, 0.487, 1.042, 0.584)"
    ]
   },
   {
-   "f": 760,
-   "shot": "b5",
+   "f": 503,
+   "shot": "b2~3",
    "why": [
-    "gen: head/torso cropped (box -0.028, 0.448, 0.529, 1.016)"
+    "par: head/torso cropped (box 0.96, 0.487, 1.044, 0.585)"
    ]
   },
   {
-   "f": 764,
-   "shot": "b5",
+   "f": 574,
+   "shot": "b3_v",
    "why": [
-    "gen: head/torso cropped (box -0.085, 0.447, 0.495, 1.031)"
+    "par: head/torso cropped (box -0.29, -0.155, 0.355, 0.584)"
    ]
   },
   {
-   "f": 768,
-   "shot": "b5",
+   "f": 576,
+   "shot": "b3_v",
    "why": [
-    "gen: head/torso cropped (box -0.108, 0.44, 0.475, 1.04)"
+    "par: head/torso cropped (box -0.245, -0.119, 0.385, 0.607)"
    ]
   },
   {
-   "f": 772,
-   "shot": "b5",
+   "f": 848,
+   "shot": "b5_v",
    "why": [
-    "gen: head/torso cropped (box -0.169, 0.451, 0.466, 1.071)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 776,
-   "shot": "b5",
+   "f": 852,
+   "shot": "b5_v",
    "why": [
-    "gen: head/torso cropped (box -0.204, 0.435, 0.3, 1.074)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 780,
-   "shot": "b5",
+   "f": 856,
+   "shot": "b5_v",
    "why": [
-    "gen: head/torso cropped (box -0.222, 0.445, 0.3, 1.1)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 784,
-   "shot": "b5",
+   "f": 860,
+   "shot": "b5_v",
    "why": [
-    "gen: head/torso cropped (box -0.251, 0.434, 0.278, 1.106)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 788,
-   "shot": "b5",
+   "f": 1596,
+   "shot": "b10_v",
    "why": [
-    "gen: head/torso cropped (box -0.291, 0.434, 0.259, 1.121)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 792,
-   "shot": "b5",
+   "f": 1600,
+   "shot": "b10_v",
    "why": [
-    "gen: head/torso cropped (box -0.322, 0.439, 0.232, 1.138)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 796,
-   "shot": "b5",
+   "f": 1604,
+   "shot": "b10_v",
    "why": [
-    "gen: head/torso cropped (box -0.337, 0.428, 0.223, 1.134)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 800,
-   "shot": "b5",
+   "f": 1608,
+   "shot": "b10_v",
    "why": [
-    "gen: head/torso cropped (box -0.362, 0.446, 0.205, 1.158)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 804,
-   "shot": "b5",
+   "f": 1612,
+   "shot": "b10_v",
    "why": [
-    "gen: head/torso cropped (box -0.356, 0.428, 0.211, 1.141)"
-   ]
-  },
-  {
-   "f": 805,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.347, 0.427, 0.218, 1.139)"
-   ]
-  },
-  {
-   "f": 808,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.332, 0.44, 0.234, 1.139)"
-   ]
-  },
-  {
-   "f": 812,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.288, 0.419, 0.301, 1.094)"
-   ]
-  },
-  {
-   "f": 816,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.225, 0.417, 0.362, 1.025)"
-   ]
-  },
-  {
-   "f": 820,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.136, 0.442, 0.4, 0.975)"
-   ]
-  },
-  {
-   "f": 824,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.108, 0.441, 0.409, 0.948)"
-   ]
-  },
-  {
-   "f": 828,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.076, 0.473, 0.41, 0.95)"
-   ]
-  },
-  {
-   "f": 832,
-   "shot": "b5~1",
-   "why": [
-    "gen: head/torso cropped (box -0.038, 0.474, 0.427, 0.936)"
-   ]
-  },
-  {
-   "f": 1205,
-   "shot": "b7_1",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1206,
-   "shot": "b7_2",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1270,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box -0.044, 0.202, 0.285, 0.519)"
-   ]
-  },
-  {
-   "f": 1272,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box -0.035, 0.201, 0.292, 0.519)"
-   ]
-  },
-  {
-   "f": 1376,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box 0.691, 0.123, 1.033, 0.511)"
-   ]
-  },
-  {
-   "f": 1380,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box 0.724, 0.12, 1.068, 0.509)"
-   ]
-  },
-  {
-   "f": 1384,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box 0.761, 0.113, 1.104, 0.503)"
-   ]
-  },
-  {
-   "f": 1388,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box 0.791, 0.121, 1.139, 0.51)"
-   ]
-  },
-  {
-   "f": 1392,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box 0.824, 0.111, 1.174, 0.503)"
-   ]
-  },
-  {
-   "f": 1396,
-   "shot": "b8",
-   "why": [
-    "fra: head/torso cropped (box 0.857, 0.103, 1.205, 0.496)"
+    "empty take: no character in the take"
    ]
   }
  ],

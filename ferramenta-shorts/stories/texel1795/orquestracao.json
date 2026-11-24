@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FRA",
     "FRA"
@@ -49,7 +49,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "harbor"
   },
   {
    "camera": "orbit",
@@ -72,12 +72,14 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "NED"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/navio_vela",
+    "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
    "palavras": 11,
@@ -122,10 +124,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "FRA",
     "FRA"

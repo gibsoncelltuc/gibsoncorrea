@@ -6,14 +6,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Narracao: Uma frota de navios de guerra foi capturada por soldados a cavalo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: prende (push) @7 -> acao + som de efeito; montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
+- Efeito + som nas palavras-chave: montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1795
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.9 s)
 - Narracao: Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: absurdo -> ring + som de alerta; encena: chega (point) @9 -> acao + som de efeito; encena: duvida (shrug) @16 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,9 +58,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 
 ## Cena b6  (~8.6 s)
 - Narracao: Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @10 -> acao + som de efeito; montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

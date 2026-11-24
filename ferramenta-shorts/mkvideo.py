@@ -796,7 +796,7 @@ def direct(beats):
                 _OF = B.get('outfits', {}); _massa = lambda o_: o_.startswith(('POV', 'SOL', 'TRO')) or bool(_OF.get(o_, {}).get('rifle') or _OF.get(o_, {}).get('hats') or _OF.get(o_, {}).get('multidao'))
                 _om = [o_ for o_ in b['crowd']['outfits'] if _massa(o_)] or ([] if b.get('impact') else [o_ for o_ in _OF if o_.startswith(('POV', 'POVO'))][:1])
                 if _om: b['crowd']['outfits'] = _om
-                elif not b.get('impact'): b['crowd'] = {'n': 0, 'outfits': persons_out[:1] or ['X'], 'march': False}
+                elif not b.get('impact'): b['crowd'] = {'n': 0, 'outfits': persons_out[:1] or list(B.get('outfits', {}))[:1] or ['X'], 'march': False}   # cena sem 'who' nao vira ator 'X' (figurino inexistente quebrava o render)
             if not b.get('who') and not b.get('explica') and b['crowd'].get('outfits'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
             _sy = __import__('unicodedata').normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()
             if re.search(r'multid|milhares|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
@@ -2131,7 +2131,7 @@ def _riscos(k, b):
     an = sorted(set(re.findall(_ANIM_ALL, t)))
     for a_ in an:
         if a_ not in _ANIM_OK: R.append((f'animal sem modelo: {a_}', 'modelar o animal antes, ou tirar da narracao desta cena, ou mostrar so a reacao das pessoas'))
-        elif not (b.get('animals') or b.get('emus') or (b.get('montado') and _ANIM_OK[a_] in ('horse',))): R.append((f'{a_} citado e nao esta em cena', '"animals": [["' + _ANIM_OK[a_] + '", 1.6, 0.6]]' if _ANIM_OK[a_] != 'emus' else '"emus": true'))
+        elif not (b.get('animals') or b.get('emus') or b.get('animais') is False or (b.get('montado') and _ANIM_OK[a_] in ('horse',))): R.append((f'{a_} citado e nao esta em cena', '"animals": [["' + _ANIM_OK[a_] + '", 1.6, 0.6]]' if _ANIM_OK[a_] != 'emus' else '"emus": true'))
     m_ = re.findall(r'\b(nadou|nadaram|nadando|cavalg\w+|montou|montaram|escalou|escalaram|mergulh\w+|voou|voaram|ajoelh\w+|deitou|dormiu|dormiam|sentou|sentaram|subiu|subiram|pulou no|cavou|cavaram)\b', t)
     if b.get('_veic_anim'): m_ = [x_ for x_ in m_ if not re.match(r'voou|voaram|subiu|subiram', x_)]
     if b.get('montado'): m_ = [x_ for x_ in m_ if not re.match(r'cavalg|montou|montaram', x_)]
@@ -2200,6 +2200,7 @@ if B.get('serie') != 'Teste':
     _g0 = _nz(beats[0]['say'])
     if re.match(r'(em|no ano de|no ano|era|foi em|no dia|em meados de|no inverno de|no verao de|na primavera de|no outono de)?\s*(janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?\s*(de )?(mil|dois mil|1[0-9]{3}|20[0-9]{2})\b', _g0) and B.get('gancho_ok') is not True:
         _glob.append(('o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)', 'reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa'))
+    if not (B.get('serie') and B.get('ep')) and not ID.startswith(('_', 'teste')): _glob.append(('roteiro sem "serie" e "ep": o video sairia sem EP no titulo', 'por no topo "serie": "Guerras Inusitadas" | "Curiosidade e Ciência" | "Poder e Fama" | "E Se" e "ep": <proximo numero livre da serie>'))
     try: _dur = json.load(open(f'stories/{ID}/work/phrases.json'))['frames30'] / 30
     except Exception: _dur = sum(len(b_['say'].split()) for b_ in beats) / 2.9
     if not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)

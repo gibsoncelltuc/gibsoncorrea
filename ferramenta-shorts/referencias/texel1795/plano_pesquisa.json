@@ -75,14 +75,6 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "navio vela",
-   "consultas": [
-    "navios de guerra a vela",
-    "A Cavalaria que Capturou uma Frota"
-   ]
-  },
-  {
    "tipo": "epoca",
    "item": "navio da epoca",
    "consultas": [
