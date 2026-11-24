@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Febre das Tulipas
 - Epoca: 1637 | Lugar: Republica Holandesa (Haarlem, Amsterda): canais, casas de tijolo com fachada escalonada, moinhos, campos de tulipas; tabernas onde se negociavam bulbos | Quando: 1636 a fevereiro de 1637 (o leilao de Haarlem em que ninguem deu lance), Seculo de Ouro holandes
 - HEROIS (objeto): kit/tulip_striped, kit/tulip_bed
-- HEROIS (personagens): MER, RIC
-- Cenarios: countryside, harbor, interior loja, interior madeira, street
+- HEROIS (personagens): RIC, MER
+- Cenarios: countryside, harbor, interior loja, interior madeira, interior pedra, street
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

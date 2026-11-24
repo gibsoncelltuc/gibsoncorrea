@@ -33,6 +33,7 @@ Usuário: Gibson, fala português. Responda sempre em português, curto e honest
 - Ferramenta (padroes ruins): farol como fachada no cais; regra "nada na frente" jogava o objeto heroi para fora do quadro; estimativa de duracao otimista; nome de veiculo sem pasta -> corrigidos no motor + teste.
 - Roteiro/coerencia: predios de outro pais, regiao inexistente, lados de batalha com a mesma farda, gancho com data/ressalva -> `checagem_coerencia.py` (R1-R4) trava o render.
 - Folha 4 (pesquisa) nao era cruzada com a producao: a R1 agora cruza o lugar (mapa) com os predios.
+- ENQUADRAMENTO NA FONTE (pedido do Gibson): `enquadrar.py` roda antes do mkvideo e a folha 2 ganha `folha2_enquadramento.md`: para cada objeto da cena diz LUGAR (fundo atras dos personagens / meio ao lado / frente entre eles), TAMANHO NA TELA, RELACAO com os personagens e CAMERA; a cena e' montada com esses numeros (posicao, escala, distancia e mira calculadas pelo tamanho real do modelo). `"quadro_manual": true` na cena respeita o que o roteiro definiu.
 - Ainda no olho: acao citada que existe no catalogo mas nao se le na tela (ex.: saque, beber) -> grade de acoes + frase a frase.
 
 ## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras

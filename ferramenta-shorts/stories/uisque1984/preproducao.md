@@ -7,9 +7,9 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/whisky | flag | -
 b1 | arctic | reveal | 2 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
-b3 | arctic | wide | 11 | encena, batalha | vehicles/helicopter | flag | -
+b3 | arctic | wide | 1 | encena, batalha | vehicles/helicopter | flag | -
 b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
-b5 | arctic | wide | 11 | encena, batalha | war/flagpole | flag | -
+b5 | arctic | wide | 1 | encena, batalha | war/flagpole | flag | -
 b6 | arctic | two | 2 | reagir, INTERAGEM: entregar | kit/whisky, barrel, kit/tequila_bolt | paper | -
 b7 | arctic | group | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
 b8 | arctic | two | 2 | conversar, INTERAGEM: cochichar | kit/whisky | - | -

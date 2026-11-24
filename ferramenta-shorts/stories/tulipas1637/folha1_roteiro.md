@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma única flor já custou o preço de uma casa inteira.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b9  (~6.2 s)
 - Narracao: Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b10  (~2.1 s)
 - Narracao: O marinheiro, pelo menos, almoçou bem.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_come (eat) @4 -> acao + som de efeito
 - Efeito visual marcado: -

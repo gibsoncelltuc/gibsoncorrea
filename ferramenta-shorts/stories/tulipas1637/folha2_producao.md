@@ -3,20 +3,20 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/tulipas1637/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py tulipas1637` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma única flor já custou o preço de uma casa inteira.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MER (variante 0, expressao grin, segura tulip); POV (variante 1, expressao shock)
+- Personagens principais (2): MER (variante 0, expressao grin, segura tulip); POV (variante 1, expressao shock) | multidao: 0 de 
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/tulip_red
+- Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/marco_amsterdam, kit/tulip_red, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, preco
 - RISCOS: nenhum
 
 ## Cena b1 - Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao smile, segura tulip); RIC (variante 0, expressao grin) | multidao: 6 de POV
+- Personagens principais (2): POV (variante 0, expressao smile, segura tulip); RIC (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/marco_amsterdam, kit/tulip_red
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chegar, holanda, moda, oriente, tulipa
@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin); MER (variante 0, expressao grin) | multidao: 20 de POV/RIC
+- Personagens principais (2): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin) | multidao: 0 de 
 - Animacao: encena | batalha encenada
 - Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin); MER (variante 0, expressao grin) | multidao: 20 de POV/RIC
+- Personagens principais (2): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin) | multidao: 0 de 
 - Animacao: encena | batalha encenada
 - Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam, kit/tulip_red, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -86,24 +86,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): POV (variante 2, expressao shock, segura tulip); RIC (variante 0, expressao pained, segura paper) | multidao: 30 de POV/RIC/MER
+- Personagens principais (2): POV (variante 2, expressao shock, segura tulip); RIC (variante 0, expressao pained, segura paper) | multidao: 30 de 
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
 
 ## Cena b9 - Os preços desabaram. Quem tinha trocado a casa por flores ficou só com...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): RIC (variante 0, expressao pained, segura tulip); MER (variante 0, expressao pained, segura paper)
+- Personagens principais (2): RIC (variante 0, expressao pained, segura tulip); MER (variante 0, expressao pained, segura paper) | multidao: 0 de 
 - Animacao: encena | interacao: avanca e o outro recua
-- Objetos/modelos: kit/tulip_bed, kit/tulip_red
+- Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam, kit/tulip_red, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dividas, flores, precos
 - RISCOS: nenhum
 
 ## Cena b10 - O marinheiro, pelo menos, almoçou bem.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao grin)
@@ -114,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MER (variante 0, expressao grin)
 - Animacao: conversar
@@ -129,20 +129,20 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tulip_bed | b0, b1, b3, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/windmill | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b0, b1, b3, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_red | b0, b1, b4, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_amsterdam | b1, b3, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_striped | b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_yellow | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_purple | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 9% | medio 74% | aberto 15% | detalhe 2%
+- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 17% | medio 62% | aberto 19% | detalhe 2%
 - Interacoes: b0 susto, b2 discutir, b5 reverencia, b6 aproxima-se, b7 vai ate o outro, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tulipas1637  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tulipas1637/moodboard.jpg

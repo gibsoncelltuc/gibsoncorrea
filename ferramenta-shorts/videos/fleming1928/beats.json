@@ -102,9 +102,12 @@
    "props": [
     [
      "kit/petri",
-     1.2,
-     -0.3,
-     1.9
+     0.0,
+     -1.2,
+     1.9,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/gosma",
@@ -112,7 +115,19 @@
      -0.05,
      0.9
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "objeto": "kit/petri",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~0.4 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   }
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
@@ -123,9 +138,12 @@
    "props": [
     [
      "kit/petri",
-     1.2,
-     -0.3,
-     1.9
+     2.4,
+     0.2,
+     1.9,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/gosma",
@@ -133,7 +151,19 @@
      -0.05,
      0.9
     ]
-   ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "objeto": "kit/petri",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~0.4 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   }
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",

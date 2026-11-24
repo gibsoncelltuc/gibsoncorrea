@@ -67,7 +67,7 @@
    "personagens": [
     "CAN"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "vehicles/helicopter"
    ],
@@ -112,7 +112,7 @@
    "personagens": [
     "DIN"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "war/flagpole"
    ],
