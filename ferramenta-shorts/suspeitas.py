@@ -13,7 +13,7 @@ EXTERNO = r'\b(no mar|na praia|no campo|na rua|nas ruas|na floresta|na mata|no m
 out = []
 _am = re.search(r'(\d{3,4})$', ID); _ANO = int(B.get('ano') or (_am.group(1) if _am else 2000)) if str(B.get('ano') or (_am.group(1) if _am else 2000)).isdigit() else 2000   # celular so' depois de 2007, TV de 1950 em diante
 for k, b in enumerate(BT):
-    if b.get('explica') or b.get('mapa') and len((b.get('say') or '').split()) < 8: continue
+    if b.get('explica') or b.get('susp_ok') or b.get('mapa') and len((b.get('say') or '').split()) < 8: continue   # susp_ok: cena revisada no olho (ex.: 'o Congresso ofereceu um acordo' = decisao, nao multidao)
     s = n(b.get('say', '')); who = b.get('who') or []; cr = (b.get('crowd') or {}).get('n') or 0; fx = ' '.join(b.get('fx') or [])
     sc = sentido.cena(b.get('say', ''))
     _mm = re.search(MUITA, s); _negm = bool(_mm and re.match(r'\s+(nunca|nao|jamais)\b', s[_mm.end():])) or bool(_mm and re.match(r'(milhares|centenas)$', _mm.group(1)) and not re.match(r'\s+de\s+(pessoas|soldados|homens|mulheres|moradores|torcedores|manifestantes|fas|trabalhadores|operarios|criancas)', s[_mm.end():])) or bool(_mm and re.search(r'\b(nao|nunca|nem|sem|ninguem)\b(\s+\w+){0,3}\s*$', s[:_mm.start()]))
@@ -23,7 +23,7 @@ for k, b in enumerate(BT):
     _tem_tela = any(re.search(r'phone|tv|telao|computer|pc|laptop|monitor|screen|pong|chess_pc|tablet', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))
     if re.search(TELA, s) and not _tem_tela and b.get('tela') is not False and not b.get('explica') and not b.get('mapa') and not b.get('_cta'):
         out.append((k, 'a frase fala de CELULAR/INTERNET/TELA e a cena nao tem celular nem tela'))
-    _cr_ok = r'hussard|infantaria|acampamento|cavalaria|regimento|marinha|plenario|todos|teceloes|homens|mil |voluntari|milicia|competidor|atleta|estadio|jogo|venceu|copa|nobel|premio|cerimonia|operarios|engenheiros|funcionarios|cientistas|comemor|festa|aplaud|assist|public|plateia|torcid|lotar|lotou|lotaram|multidao|milhares|centenas|todo mundo|mundo inteiro|cidade|povo|pais|rua|marcha|protest|fila|compr|vend|esgot|celebr|desfile|convidad|leilao|mercado|feira|jornais|imprensa|noticia|viral|rodou o mundo|eleic|urna|vot|assunto|soldad|tropa|exercito|guerra|batalha|invad|atac|frota|navios|marinheiros|tripula|dancar|danc'
+    _cr_ok = r'candidat|hussard|infantaria|acampamento|cavalaria|regimento|marinha|plenario|todos|teceloes|homens|mil |voluntari|milicia|competidor|atleta|estadio|jogo|venceu|copa|nobel|premio|cerimonia|operarios|engenheiros|funcionarios|cientistas|comemor|festa|aplaud|assist|public|plateia|torcid|lotar|lotou|lotaram|multidao|milhares|centenas|todo mundo|mundo inteiro|cidade|povo|pais|rua|marcha|protest|fila|compr|vend|esgot|celebr|desfile|convidad|leilao|mercado|feira|jornais|imprensa|noticia|viral|rodou o mundo|eleic|urna|vot|assunto|soldad|tropa|exercito|guerra|batalha|invad|atac|frota|navios|marinheiros|tripula|dancar|danc'
     if cr > 0 and not re.search(MUITA, s) and not re.search(_cr_ok, s) and not b.get('batalha') and not b.get('emus') and not b.get('_cta') and not b.get('mapa'):
         out.append((k, 'MULTIDAO SEM MOTIVO: a frase nao fala de gente, publico ou festa e a cena tem ' + str(cr) + ' figurantes'))
     _bich = any(re.search(r'bee|abelha|finch|bird|passar|emu|gans|goose|chicken|galinh|horse|cavalo|pig|porco|dog|cow|fish|peixe|lagosta|lobster', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))

@@ -16,7 +16,7 @@ def _w(t):
     return re.sub(r'[^a-z]', '', _n(t))
 
 ARMA = r'^(metralhadoras?|balas?|canhoes|canhao|bombas?|fuzis|fuzil|armas?|municao|misseis|missil|artilharia|cartuchos?|tiros?|mosquetes?|granadas?|torpedos?|disparos?|polvora)$'
-DISPARO = r'\b(atir\w*|dispar\w*|abri\w* fogo|bombarde\w*|explod\w*|explos\w*|acert\w*|ating\w*|fuzil(ou|aram)|metralh(ou|aram|ava)|lanc\w* (os |uns |dois |tres )?(misseis|missil|bombas?|torpedos?|granadas?)|bombas? ca\w*|ca\w* (as |uma |duas |catorze |doze )?bombas?|fogo cruzado|tiroteio|balear\w*|mat\w*|feri\w*|derrub\w* (o |os |um |uns )?(aviao|avioes|navio))'
+DISPARO = r'\b(deu um tiro|deram tiros|nesses tiros|tiros? amigos?|fogo amigo|atir\w*|dispar\w*|abri\w* fogo|bombarde\w*|explod\w*|explos\w*|acert\w*|ating\w*|fuzil(ou|aram)|metralh(ou|aram|ava)|lanc\w* (os |uns |dois |tres )?(misseis|missil|bombas?|torpedos?|granadas?)|bombas? ca\w*|ca\w* (as |uma |duas |catorze |doze )?bombas?|fogo cruzado|tiroteio|balear\w*|mat\w*|feri\w*|derrub\w* (o |os |um |uns )?(aviao|avioes|navio))'
 VIOLENTO = r'^(atirou|atiraram|atirava|atiravam|atirar|disparou|dispararam|disparar|explodiu|explodiram|explodir|bombardeou|bombardearam|atacou|atacaram|atacar|matou|mataram|lutou|lutaram|brigou|brigaram|guerra|batalha|tiro|tiros|bomba|bombas|explosao|canhao|canhoes|metralhadora|metralhadoras|balas?|fogo|invadiu|invadiram|combate|combateram)$'
 NEG_ANTES = r'^(nao|nunca|jamais|nem|sem|ninguem|nenhum|nenhuma)$'
 HIPOTESE = r'^(quase|queria|queriam|ameacou|ameacaram|ameacava|planejou|planejaram|pensou|pensaram|tentou\s*evitar|evitou|evitaram|temia|temiam|poderia|poderiam|iria|iriam|preferiu|prefeririam|pediu|pediram|pedia|pediam|exigiu|exigiram|prometeu|prometeram|sonhava|imaginou)$'
@@ -33,6 +33,7 @@ FIG = [   # (regex na frase normalizada, palavras afetadas) -> expressoes que NA
     (r'\b(guerra|batalha|briga|luta) (de precos|fria|de nervos|comercial|judicial|na justica|de egos|contra a (doenca|fome|pobreza))\b', r'^(guerra|batalha|briga|luta)$'),
     (r'\b(chuva|onda|enxurrada) de (criticas|comentarios|pedidos|cartas|reclamacoes|mensagens)\b', r'^(chuva|onda|enxurrada)$'),
     (r'\bfoi (um )?tiro (no pe|certeiro)\b', r'^(tiro)$'),
+    (r'\b(tensao|temperatura|preco|precos|inflacao|clima|audiencia) (subiu|subiram|aumentou|cresceu)\b', r'^(subiu|subiram|aumentou|cresceu)$'),
     (r'\batir\w* para (todo lado|todos os lados)\b', r'^(atirou|atiraram)$'),
     (r'\b(fogo|chamas) (da paixao|nos olhos)\b', r'^(fogo|chamas)$'),
 ]
