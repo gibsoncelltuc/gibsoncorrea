@@ -53,13 +53,30 @@ rm -f stories/$ID/AGUARDA_STORYBOARD
 # com a versao do motor. Se a ferramenta foi atualizada, os trechos ja renderizados sao descartados e o video e' renderizado INTEIRO na versao nova.
 tv() { cat web/head.js web/core.js web/tail.js web/runtime.js web/acting.js web/vfx.js web/weather.js web/toonbase.js web/sets/*.js mkvideo.py audio_story.py 2>/dev/null | md5sum | cut -c1-10; }
 TV0=$(tv); H3="$H3-$TV0"
-if [ "$(cat ckpt/$ID/folha3.hash 2>/dev/null)" != "$H3" ]; then rm -rf ckpt/$ID out/$ID/frames; mkdir -p ckpt/$ID; echo "$H3" > ckpt/$ID/folha3.hash; log "trechos antigos descartados (versao nova das folhas)"; fi
+if [ "$(cat ckpt/$ID/folha3.hash 2>/dev/null)" != "$H3" ]; then
+  # 24/11 (pedido do Gibson: "refazer so' o trecho com defeito e remontar"): compara a impressao digital de CADA CENA com a do ultimo render.
+  # So' cenas mudaram (e o global igual: motor de desenho, voz, figurinos) -> apaga e refaz so' os trechos dessas cenas; o resto do video fica.
+  ./build3.sh $ID >/dev/null 2>&1; python3 cenas_hash.py $ID > ckpt/$ID/cenas_novo.txt 2>/dev/null || true
+  if [ -f ckpt/$ID/cenas.txt ] && [ -s ckpt/$ID/cenas_novo.txt ] && [ "$(grep '^global ' ckpt/$ID/cenas.txt)" = "$(grep '^global ' ckpt/$ID/cenas_novo.txt)" ] && ls ckpt/$ID/seg_*.mp4 >/dev/null 2>&1; then
+    MUD=$(python3 -c "
+a=dict(l.split() for l in open('ckpt/$ID/cenas.txt') if l.strip()); b=dict(l.split() for l in open('ckpt/$ID/cenas_novo.txt') if l.strip())
+print(' '.join(k for k in b if k != 'global' and a.get(k) != b[k]))")
+    NQ=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'))['frames30'])")
+    SEGS=""; [ -n "$MUD" ] && SEGS=$(node -e "
+import('$PWD/web/story.js').then(m=>{const want=process.argv.slice(1);const S=m.SHOTS.filter(s=>want.includes(s.id.split('~')[0].split('_')[0]));const k=new Set();for(const s of S)for(let f=Math.max(0,s.a-10);f<=Math.min($NQ-1,s.b+10);f++)k.add(Math.floor(f/150));console.log([...k].sort((a,b)=>a-b).join(' '))})" $MUD)
+    for k in $SEGS; do rm -f ckpt/$ID/seg_$(printf %03d $k).mp4; for f in $(seq $((k*150)) $((k*150+149))); do rm -f out/$ID/frames/f$(printf %04d $f).jpg; done; done
+    echo "$H3" > ckpt/$ID/folha3.hash; log "so' estas cenas mudaram: ${MUD:-nenhuma} -> refazendo so' os trechos: ${SEGS:-nenhum} (o resto do video foi aproveitado)"
+  else
+    rm -rf ckpt/$ID out/$ID/frames; mkdir -p ckpt/$ID; echo "$H3" > ckpt/$ID/folha3.hash; log "trechos antigos descartados (mudou o que vale para o video inteiro: motor de desenho, voz ou figurinos)"
+  fi
+fi
 ./build3.sh $ID >/dev/null 2>&1; python3 verificar_folhas.py $ID --render >> $L 2>&1 || { log "BLOQUEADO: o render nao carrega a folha 3"; exit 1; }; N=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'))['frames30'])")
 ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
 log "render $N quadros (trechos de 150, retomavel)"
 set +e; node render_pool.mjs $ID $N >> $L 2>&1; RC=$?; set -e; tail -3 $L
 [ $RC -eq 75 ] && { log "PAUSADO pela trava de seguranca; relance run_queue.sh para continuar"; exit 75; }
 [ $RC -ne 0 ] && { log "render incompleto (codigo $RC)"; exit 1; }
+python3 cenas_hash.py $ID > ckpt/$ID/cenas.txt 2>/dev/null || true   # impressao digital das cenas deste render (para a proxima refacao ser so' dos trechos que mudarem)
 # 24/11 (Melancia): disco cheio no meio do render deixou um trecho com 95 de 150 quadros e o video saiu 1,8 s mais curto que a voz.
 # Confere cada trecho (150 quadros, o ultimo o resto) e refaz sozinho o que veio incompleto (ate 2 vezes).
 for _volta in 1 2; do _ruins=$(python3 - "$ID" "$N" <<'PYS'
@@ -73,6 +90,6 @@ for k in range((n + 149) // 150):
 print(' '.join(out))
 PYS
 ); [ -z "$_ruins" ] && break; log "trecho(s) incompleto(s) ($_ruins): apagando e renderizando de novo"; for _s in $_ruins; do rm -f "$_s"; _k=$((10#$(basename $_s .mp4 | sed 's/seg_//'))); for _q in $(seq $((_k*150)) $((_k*150+149))); do rm -f out/$ID/frames/f$(printf %04d $_q).jpg; done; done; bash limpar_disco.sh >> $L 2>&1; set +e; node render_pool.mjs $ID $N >> $L 2>&1; set -e; done
-if [ "$(tv)" != "$TV0" ]; then log "a ferramenta foi atualizada DURANTE o render: descartando e refazendo o video inteiro na versao nova"; rm -rf ckpt/$ID out/$ID/frames stories/$ID/stages/fit stories/$ID/stages/gate stories/$ID/stages/style; exit 75; fi
+if [ "$(tv)" != "$TV0" ]; then log "a ferramenta foi atualizada DURANTE o render: na proxima rodada compara cena a cena e refaz so' o que mudou (motor de desenho mudou = video inteiro)"; rm -rf stories/$ID/stages/fit stories/$ID/stages/gate stories/$ID/stages/style; exit 75; fi
 ./assemble.sh $ID "$T" >> $L 2>&1; _dv=$(ffprobe -v error -show_entries format=duration -of csv=p=0 out/$ID/$T.mp4 2>/dev/null); _da=$(ffprobe -v error -show_entries format=duration -of csv=p=0 stories/$ID/voice.mp3 2>/dev/null); python3 -c "import sys;sys.exit(0 if float('${_dv:-0}') >= float('${_da:-0}') - 0.4 else 1)" || { log "VIDEO MAIS CURTO QUE A VOZ (${_dv}s x ${_da}s): falta trecho; refazendo"; rm -f out/$ID/$T.mp4; exit 1; }; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tee -a $L
 echo "motor v13 $(date +%F_%T)" > stories/$ID/DONE; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "pronto" >/dev/null 2>&1 || true; log "PRONTO out/$ID/$T.mp4 (+ out/$ID/review_sheet.jpg)"

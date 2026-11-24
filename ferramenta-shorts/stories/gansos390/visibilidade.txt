@@ -1,1 +1,2 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (22 tomadas)
+VISIBILIDADE: 1 FALHA(S)
+FALHA b9: animal citado aparece pequeno demais no take 2 (media 12% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
