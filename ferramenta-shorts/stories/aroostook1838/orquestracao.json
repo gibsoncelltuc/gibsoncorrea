@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "AME",
     "CAN"
@@ -57,8 +57,7 @@
     "kit/logs",
     "nature/bush",
     "nature/tree_oak",
-    "nature/tree_pine",
-    "tools/axe"
+    "nature/tree_pine"
    ],
    "palavras": 18,
    "cena": "b2",

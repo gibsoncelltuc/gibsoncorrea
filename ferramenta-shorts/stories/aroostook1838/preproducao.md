@@ -4,9 +4,9 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | arctic | wide | 2 | discutir | kit/logs, nature/tree_pine | - | -
+b0 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine | axe, axe | -
 b1 | arctic | two | 2 | conversar, INTERAGEM: tremem de frio | - | - | -
-b2 | arctic | group | 2 | discutir, INTERAGEM: vai ate o outro | kit/logs, nature/tree_pine, tools/axe, nature/tree_oak, nature/bush | - | -
+b2 | arctic | group | 2 | discutir, INTERAGEM: vai ate o outro | kit/logs, nature/tree_pine, nature/tree_oak, nature/bush | axe, axe | -
 b3 | arctic | reveal | 14 | encena, batalha | nature/tree_pine | - | -
 b4 | arctic | wide | 22 | encena | - | - | -
 b5 | interior pedra | two | 2 | reagir, INTERAGEM: empurrar | kit/prison | - | -
@@ -18,7 +18,7 @@ b10 | interior loja | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/logs
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b3
-Interacoes entre personagens: b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
+Interacoes entre personagens: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
 
 Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

@@ -54,8 +54,7 @@
   "mk/Workbench_Drawers",
   "nature/bush",
   "nature/tree_oak",
-  "nature/tree_pine",
-  "tools/axe"
+  "nature/tree_pine"
  ],
  "pesquisa_visual": {
   "local": "Maine",
