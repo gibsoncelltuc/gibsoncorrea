@@ -77,41 +77,41 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 19.4s a 26.1s - 16 palavras - plano orbit
+## Cena b4 - 19.4s a 23.8s - 16 palavras - plano orbit
 > "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltou (22.2s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | caiu (23.5s) | EFEITO: dust | poeira + som | OK |
-| 3 | caiu (23.5s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
+| 1 | soltou (22.1s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | caiu (23.1s) | EFEITO: dust | poeira + som | OK |
+| 3 | caiu (23.1s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
 | 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_solta na palavra soltou (22.2s): executa: solta/liberta + brilho
-- EFEITO: dust na palavra caiu (23.5s): executa: poeira + som
-- ACAO: cai na palavra caiu (23.5s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- ACAO: x_solta na palavra soltou (22.1s): executa: solta/liberta + brilho
+- EFEITO: dust na palavra caiu (23.1s): executa: poeira + som
+- ACAO: cai na palavra caiu (23.1s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b5 - 26.5s a 32.5s - 20 palavras - plano close
+## Cena b5 - 25.0s a 30.5s - 20 palavras - plano close
 > "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perguntou (29.7s) | ACAO: fala | aponta explicando | OK |
+| 1 | perguntou (28.8s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra perguntou (29.7s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra perguntou (28.8s): braco estendido apontando para o objeto/lugar citado
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 33.0s a 39.3s - 19 palavras - plano two
+## Cena b6 - 31.7s a 36.0s - 19 palavras - plano two
 > "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -125,12 +125,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 39.4s a 43.7s - 15 palavras - plano group
+## Cena b7 - 37.0s a 41.1s - 15 palavras - plano group
 > "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | virou (39.7s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | virou (37.6s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
@@ -138,7 +138,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: vira na palavra virou (39.7s): executa: o material vira o produto, que surge girando em destaque
+- ACAO: vira na palavra virou (37.6s): executa: o material vira o produto, que surge girando em destaque
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
@@ -146,23 +146,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 44.1s a 46.9s - 10 palavras - plano two
+## Cena b8 - 42.2s a 44.6s - 10 palavras - plano two
 > "Anos depois, ele mesmo contou essa história a um amigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | contou (44.9s) | ACAO: fala | aponta explicando | OK |
+| 1 | contou (43.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra contou (44.9s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra contou (43.6s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: cochichar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 47.1s a 50.9s - 11 palavras - plano two
+## Cena b9 - 45.9s a 48.2s - 11 palavras - plano two
 > "No fim, a maçã mudou a ciência e nem foi comida."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -176,7 +176,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 51.0s a 54.7s - 13 palavras - plano close
+## Cena b10 - 49.5s a 52.8s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -1,6 +1,6 @@
 {
- "duration": 65.904,
- "frames30": 1977,
+ "duration": 58.08,
+ "frames30": 1742,
  "source": "silence-align (cost 1.06)",
  "segments": [
   [
@@ -8,140 +8,112 @@
    3.30271
   ],
   [
-   4.16258,
-   5.90333
+   4.16271,
+   5.87462
   ],
   [
-   6.13146,
-   6.68971
+   6.10896,
+   6.70217
   ],
   [
-   6.92808,
-   10.238
+   6.9695,
+   9.68079
   ],
   [
-   11.084,
-   11.6532
+   10.5269,
+   11.1196
   ],
   [
-   11.903,
-   13.362
+   11.3343,
+   14.374
   ],
   [
-   13.6331,
-   16.5948
+   15.2442,
+   17.9755
   ],
   [
-   17.4713,
-   20.2027
+   18.198,
+   19.2112
   ],
   [
-   20.4251,
-   21.4383
+   20.0727,
+   20.5507
   ],
   [
-   22.2982,
-   22.7721
+   20.6858,
+   22.9702
   ],
   [
-   22.9963,
-   24.4182
+   23.2472,
+   24.8288
   ],
   [
-   24.6794,
-   25.6316
+   25.6879,
+   27.3947
   ],
   [
-   25.895,
-   26.9719
+   27.6198,
+   28.6189
   ],
   [
-   27.2586,
-   27.7111
+   29.4224,
+   30.2593
   ],
   [
-   28.0182,
-   28.8972
+   30.4823,
+   31.5388
   ],
   [
-   29.7507,
-   30.8554
+   31.7271,
+   32.7649
   ],
   [
-   31.1432,
-   31.9388
+   32.9992,
+   34.5141
   ],
   [
-   32.1704,
-   34.5199
+   35.3501,
+   36.4084
   ],
   [
-   35.3324,
-   36.1498
+   36.7013,
+   37.9565
   ],
   [
-   36.3472,
-   37.3798
+   38.8072,
+   39.5337
   ],
   [
-   37.5629,
-   39.5971
+   39.7996,
+   41.6841
   ],
   [
-   39.856,
-   41.3324
+   42.0258,
+   43.7992
   ],
   [
-   42.17,
-   43.2282
+   44.6545,
+   46.8673
   ],
   [
-   43.5212,
-   44.7764
+   47.1228,
+   49.0781
   ],
   [
-   45.627,
-   46.3566
+   49.9295,
+   50.3451
   ],
   [
-   46.6195,
-   48.5039
+   50.6348,
+   52.9228
   ],
   [
-   48.8456,
-   50.6191
+   53.7794,
+   55.2243
   ],
   [
-   51.4692,
-   52.6075
-  ],
-  [
-   52.8903,
-   53.4208
-  ],
-  [
-   53.6297,
-   54.6737
-  ],
-  [
-   54.9142,
-   56.9062
-  ],
-  [
-   57.7607,
-   58.1762
-  ],
-  [
-   58.466,
-   60.7548
-  ],
-  [
-   61.6107,
-   63.0553
-  ],
-  [
-   63.3479,
-   65.1097
+   55.5167,
+   57.2784
   ]
  ],
  "phrases": [
@@ -153,172 +125,137 @@
   {
    "text": "Era mil oitocentos e oitenta e cinco,",
    "s": 4.163,
-   "e": 5.903
+   "e": 5.875
   },
   {
    "text": "na Fran\u00e7a,",
-   "s": 6.131,
-   "e": 6.69
+   "s": 6.109,
+   "e": 6.702
   },
   {
-   "text": "e o cientista Louis Pasteur j\u00e1 era famoso por estudar micr\u00f3bios.",
-   "s": 6.928,
-   "e": 10.238
+   "text": "e Louis Pasteur j\u00e1 era famoso por estudar micr\u00f3bios.",
+   "s": 6.97,
+   "e": 9.681
   },
   {
    "text": "Na \u00e9poca,",
-   "s": 11.084,
-   "e": 11.653
+   "s": 10.527,
+   "e": 11.12
   },
   {
-   "text": "a raiva era uma doen\u00e7a fatal,",
-   "s": 11.903,
-   "e": 13.362
-  },
-  {
-   "text": "e quem era mordido por um animal doente quase nunca se salvava.",
-   "s": 13.633,
-   "e": 16.595
+   "text": "quem era mordido por um animal com raiva quase nunca se salvava.",
+   "s": 11.334,
+   "e": 14.374
   },
   {
    "text": "Pasteur tinha criado uma vacina e testado s\u00f3 em animais,",
-   "s": 17.471,
-   "e": 20.203
+   "s": 15.244,
+   "e": 17.976
   },
   {
    "text": "nunca em uma pessoa.",
-   "s": 20.425,
-   "e": 21.438
+   "s": 18.198,
+   "e": 19.211
   },
   {
    "text": "Um dia,",
-   "s": 22.298,
-   "e": 22.772
+   "s": 20.073,
+   "e": 20.551
   },
   {
-   "text": "uma m\u00e3e chegou \u00e0 porta dele,",
-   "s": 22.996,
-   "e": 24.418
+   "text": "uma m\u00e3e chegou \u00e0 porta dele com o filho Joseph,",
+   "s": 20.686,
+   "e": 22.97
   },
   {
-   "text": "com o filho Joseph,",
-   "s": 24.679,
-   "e": 25.632
+   "text": "mordido por um cachorro com raiva.",
+   "s": 23.247,
+   "e": 24.829
   },
   {
-   "text": "mordido por um animal,",
-   "s": 25.895,
-   "e": 26.972
+   "text": "Pasteur n\u00e3o era m\u00e9dico e tinha medo,",
+   "s": 25.688,
+   "e": 27.395
   },
   {
-   "text": "e pediu:",
-   "s": 27.259,
-   "e": 27.711
-  },
-  {
-   "text": "\"Salve o meu filho!\"",
-   "s": 28.018,
-   "e": 28.897
-  },
-  {
-   "text": "Pasteur n\u00e3o era m\u00e9dico,",
-   "s": 29.751,
-   "e": 30.855
-  },
-  {
-   "text": "e ficou com medo,",
-   "s": 31.143,
-   "e": 31.939
-  },
-  {
-   "text": "mas depois de ouvir os m\u00e9dicos ele decidiu tentar.",
-   "s": 32.17,
-   "e": 34.52
+   "text": "mas decidiu tentar.",
+   "s": 27.62,
+   "e": 28.619
   },
   {
    "text": "Acontece que,",
-   "s": 35.332,
-   "e": 36.15
+   "s": 29.422,
+   "e": 30.259
   },
   {
    "text": "durante dez dias,",
-   "s": 36.347,
-   "e": 37.38
+   "s": 30.482,
+   "e": 31.539
   },
   {
-   "text": "ele aplicou inje\u00e7\u00f5es cada vez mais fortes,",
-   "s": 37.563,
-   "e": 39.597
+   "text": "ele aplicou inje\u00e7\u00f5es,",
+   "s": 31.727,
+   "e": 32.765
   },
   {
    "text": "e o menino nunca ficou doente.",
-   "s": 39.856,
-   "e": 41.332
+   "s": 32.999,
+   "e": 34.514
   },
   {
    "text": "Joseph sobreviveu,",
-   "s": 42.17,
-   "e": 43.228
+   "s": 35.35,
+   "e": 36.408
   },
   {
    "text": "e a not\u00edcia correu o mundo.",
-   "s": 43.521,
-   "e": 44.776
+   "s": 36.701,
+   "e": 37.956
   },
   {
    "text": "Anos depois,",
-   "s": 45.627,
-   "e": 46.357
+   "s": 38.807,
+   "e": 39.534
   },
   {
    "text": "ele virou o guarda do instituto de Pasteur,",
-   "s": 46.62,
-   "e": 48.504
+   "s": 39.8,
+   "e": 41.684
   },
   {
    "text": "e cuidou do lugar at\u00e9 o fim da vida.",
-   "s": 48.846,
-   "e": 50.619
+   "s": 42.026,
+   "e": 43.799
   },
   {
-   "text": "Hoje o Instituto Pasteur,",
-   "s": 51.469,
-   "e": 52.608
-  },
-  {
-   "text": "em Paris,",
-   "s": 52.89,
-   "e": 53.421
-  },
-  {
-   "text": "ainda leva o nome dele,",
-   "s": 53.63,
-   "e": 54.674
+   "text": "Hoje o Instituto Pasteur ainda leva o nome dele,",
+   "s": 44.654,
+   "e": 46.867
   },
   {
    "text": "e a vacina salva vidas no mundo inteiro.",
-   "s": 54.914,
-   "e": 56.906
+   "s": 47.123,
+   "e": 49.078
   },
   {
    "text": "No fim,",
-   "s": 57.761,
-   "e": 58.176
+   "s": 49.929,
+   "e": 50.345
   },
   {
    "text": "uma picada salvou mais que mil discursos.",
-   "s": 58.466,
-   "e": 60.755
+   "s": 50.635,
+   "e": 52.923
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 61.611,
-   "e": 63.055
+   "s": 53.779,
+   "e": 55.224
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 63.348,
-   "e": 65.11
+   "s": 55.517,
+   "e": 57.278
   }
  ]
 }

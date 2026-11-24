@@ -170,12 +170,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_pista; hora: golden
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.9 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
 - SOM: ding@3
-- TEXTO NA TELA: "TESLA" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "TESLA" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (35.8-37.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (37.6-39.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -184,10 +184,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile) | multidao: 6 de POV
-- Animacao: encena
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile)
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, internet, venda
 - RISCOS: nenhum
@@ -207,10 +207,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Quem diria: um pagamento online chegou ao espaço.
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pagamento
 - RISCOS: nenhum
@@ -248,8 +248,8 @@ kit/falcon_air | b9 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b7 | planos abertos: 3 | mistura: close 11% | medio 66% | aberto 21% | detalhe 2%
-- Interacoes: b0 entregar, b1 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b5 avanca e o outro recua
+- Objeto heroi: kit/coin | grandes momentos: b7 | planos abertos: 3 | mistura: close 11% | medio 67% | aberto 18% | detalhe 4%
+- Interacoes: b0 entregar, b1 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b5 avanca e o outro recua, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

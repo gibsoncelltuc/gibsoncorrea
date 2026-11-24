@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 15 palavras - plano group
@@ -142,7 +142,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 42.6s a 45.7s - 13 palavras - plano wide
+## Cena b8 - 42.6s a 45.7s - 13 palavras - plano two
 > "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -151,6 +151,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | dinheiro (42.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 3 | venda (43.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | ajudou (44.4s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 5 | - | INTERACAO | cochichar | OK |
+| 6 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
@@ -158,22 +160,22 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: paga na palavra dinheiro (42.7s): executa: estende a mao com moedas + brilho
 - ACAO: negocio na palavra venda (43.5s): executa: moeda girando (compra/venda)
 - ACAO: x_entrega na palavra ajudou (44.4s): executa: estende a mao entregando
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.9s a 49.2s - 8 palavras - plano two
+## Cena b9 - 46.9s a 49.2s - 8 palavras - plano wide
 > "Quem diria: um pagamento online chegou ao espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (48.7s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (48.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegou (48.7s): executa: poeira + som
 - ACAO: chega na palavra chegou (48.7s): executa: entra andando pela lateral
-- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b10 - 50.3s a 53.6s - 13 palavras - plano close
