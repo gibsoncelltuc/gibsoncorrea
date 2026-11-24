@@ -9,12 +9,11 @@ b3 | group | - neve | placa: RATOS | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, animais | encena: olha (point) @3 (acao + som de efeito) | -
 b5 | two | - neve | animais, placa: CASTOR E PÓLUX | comprou (stars + som de sino); vendeu (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito); encena: negocio (reach) @9 (acao + som de efeito) | -
 b6 | two | - neve | interior, placa: NATAL DE 1870 | - | -
-b7 | orbit | - neve | batalha aberta com tiros, tropa, animais, placa: BALÕES E POMBOS | animal: elephant come (acao + som de efeito); fortuna (stars + som de sino); encena: paga (reach) @7 (acao + som de efeito); encena: x_come (eat) @11 (acao + som de efeito) | -
+b7 | orbit | - neve | batalha aberta com tiros, tropa, placa: SÓ PARA OS RICOS | fortuna (stars + som de sino); encena: paga (reach) @7 (acao + som de efeito); encena: x_come (eat) @11 (acao + som de efeito) | -
 b8 | group | -  | tropa | - | -
-b9 | two | - neve | - | - | -
-b10 | group | - neve | - | - | -
-b11 | two | dusk neve | placa: PARIS SE RENDEU | encena: rende (up) @11 (acao + som de efeito) | -
-b12 | close | -  | placa: COMENTE! | - | -
+b9 | two | - neve | placa: BALÕES | encena: fala (point) @1 (acao + som de efeito); encena: x_solta (up) @3 (acao + som de efeito) | -
+b10 | group | dusk neve | placa: PARIS SE RENDEU | encena: rende (up) @11 (acao + som de efeito) | -
+b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 73% | aberto 11% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 12% | medio 74% | aberto 11% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

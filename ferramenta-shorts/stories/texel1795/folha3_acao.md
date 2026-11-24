@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 12 palavras - plano wide
@@ -86,16 +86,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | RENDIDOS | OK |
 
-## Cena b9 - 45.6s a 51.2s - 16 palavras - plano group
-> "Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero."
+## Cena b9 - 45.5s a 51.6s - 17 palavras - plano crowd
+> "Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b10 - 52.3s a 55.7s - 13 palavras - plano close
+## Cena b10 - 52.8s a 56.1s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

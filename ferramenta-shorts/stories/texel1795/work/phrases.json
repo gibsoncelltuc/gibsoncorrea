@@ -1,6 +1,6 @@
 {
- "duration": 56.64,
- "frames30": 1699,
+ "duration": 57.072,
+ "frames30": 1712,
  "source": "silence-align (cost 0.49)",
  "segments": [
   [
@@ -60,11 +60,11 @@
    28.2854
   ],
   [
-   29.1616,
+   29.1625,
    32.9045
   ],
   [
-   33.7449,
+   33.7448,
    35.2795
   ],
   [
@@ -84,24 +84,28 @@
    44.653
   ],
   [
-   45.5673,
-   48.978
+   45.5276,
+   47.3393
   ],
   [
-   49.8291,
-   50.5273
+   47.566,
+   49.4111
   ],
   [
-   50.7708,
-   51.5124
+   50.2515,
+   50.9498
   ],
   [
-   52.3457,
-   53.7889
+   51.1932,
+   51.935
   ],
   [
-   54.0831,
-   55.8447
+   52.7681,
+   54.2126
+  ],
+  [
+   54.5054,
+   56.267
   ]
  ],
  "phrases": [
@@ -177,7 +181,7 @@
   },
   {
    "text": "S\u00f3 que ningu\u00e9m sabia se o gelo ia aguentar o peso de centenas de cavalos.",
-   "s": 29.162,
+   "s": 29.163,
    "e": 32.904
   },
   {
@@ -206,29 +210,34 @@
    "e": 44.653
   },
   {
-   "text": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
-   "s": 45.567,
-   "e": 48.978
+   "text": "Mais de uma dezena de navios de guerra,",
+   "s": 45.528,
+   "e": 47.339
+  },
+  {
+   "text": "capturados por soldados a cavalo.",
+   "s": 47.566,
+   "e": 49.411
   },
   {
    "text": "Cavalaria um,",
-   "s": 49.829,
-   "e": 50.527
+   "s": 50.252,
+   "e": 50.95
   },
   {
    "text": "marinha zero.",
-   "s": 50.771,
-   "e": 51.512
+   "s": 51.193,
+   "e": 51.935
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 52.346,
-   "e": 53.789
+   "s": 52.768,
+   "e": 54.213
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 54.083,
-   "e": 55.845
+   "s": 54.505,
+   "e": 56.267
   }
  ]
 }
