@@ -1520,7 +1520,7 @@ export const bodyFront = (p, o, opts)=>{
         const wob = 0.035 * Math.sin(gt * 9), fs = (facing || 1) > 0 ? 1 : -1;
         const G = {
             point: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.3 - wob), Q(s, 1.32, -0.1 + wob)], front: false } : null,
-            up: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.66, -0.06 + wob), Q(s, 0.74, -0.84 + wob * 1.5)], front: true }),   /* 20/11: na frente do tronco (soldado de farda larga escondia os bracos da comemoracao) */
+            up: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.66, -0.06 + wob), Q(s, 0.74, -0.84 + wob * 1.5)], front: false }),
             shrug: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.78, 0.44), Q(s, 1.05, 0.2 + wob)], front: false }),
             hips: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.9, 0.42), Q(s, 0.52, 0.72)], front: false }),
             scared: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.3), Q(s, 0.3, -0.38 + wob)], front: true }),

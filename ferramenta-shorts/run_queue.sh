@@ -25,7 +25,7 @@ while true; do
     [ -f stories/$id/SKIP ] && continue   # reprovou 2x no gate: precisa de ajuste no roteiro/cena (veja logs/gate_<id>.txt); apague SKIP para tentar de novo
     [ -f stories/$id/AGUARDA_STORYBOARD ] && { ESPERA=1; continue; }   # storyboard pronto esperando aprovacao: a fila segue com o proximo
     NEXT=$id; break
-  done < "$(bash qfile.sh)"
+  done < queue.txt
   [ -z "$NEXT" ] && [ "$ESPERA" = "1" ] && { echo "$(date +%T) so falta aprovar storyboard(s): ./aprovar_storyboard.sh <id>; espero 2 min"; sleep 120; continue; }
   [ -z "$NEXT" ] && { echo "$(date +%T) fila vazia: tudo pronto"; exit 0; }
   if [ "${SESSION_GUARD:-1}" != "0" ]; then

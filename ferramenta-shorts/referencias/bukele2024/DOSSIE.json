@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 2024,
   "era": "atual (1950+)",
-  "regiao": "colonial",
+  "regiao": "eua",
   "luz_base": "day",
   "cenarios": [
    "hall",
@@ -64,7 +64,7 @@
   "kit/ballot_box",
   "kit/globe",
   "kit/maca",
-  "kit/room_colonial_wood",
+  "kit/room_eua_wood",
   "kit/room_europa_shop",
   "kit/room_hospital",
   "kit/scroll",

@@ -8,14 +8,14 @@ b0 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/ball
 b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
 b2 | palace | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | kit/volcano | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
-b4 | hall | crowd | 14 | conversar, batalha | - | paper | -
+b4 | hall | crowd | 14 | reagir, batalha | - | paper | -
 b5 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box, kit/volcano | - | -
 b6 | interior loja | close | 1 | reagir | - | paper | -
 b7 | palace | crowd | 33 | comemorar, batalha | kit/ballot_box, kit/volcano | - | -
 b8 | interior hospital | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
 b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b10 | loc_pista | close | 1 | comemorar | kit/ballot_box, kit/volcano, kit/globe | - | -
-b11 | loc_campo | close | 1 | reagir | kit/volcano | - | -
+b11 | loc_campo | close | 1 | conversar | kit/volcano | - | -
 
 OBJETO HEROI: kit/ballot_box
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7

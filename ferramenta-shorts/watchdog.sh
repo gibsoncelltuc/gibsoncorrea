@@ -7,7 +7,7 @@ cd "$(dirname "$0")"; ST=logs/watchdog.state; touch $ST
 [ -f "$(dirname "$0")/PAUSA" ] || [ -f PAUSA ] && { echo "$(date +%T) PAUSA ativa: nao rodo (apague ferramenta-shorts/PAUSA)"; exit 0; }
 declare -A BR=([A]=claude/prod-a-karansebes [B]=claude/prod-b-emus)
 while true; do
-  if ! pgrep -f run_queue.sh >/dev/null && grep -qv '^#' "$(bash qfile.sh)"; then
+  if ! pgrep -f run_queue.sh >/dev/null && grep -qv '^#' queue.txt; then
     nohup bash run_queue.sh > logs/queue_run.log 2>&1 &
     echo "$(date +%T) watchdog: fila local estava parada -> relancada" >> logs/watchdog.log
   fi
