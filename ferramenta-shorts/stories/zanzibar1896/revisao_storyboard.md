@@ -4,10 +4,11 @@ b0: OK - uma guerra durou menos de uma hora e e considerada a mais curta da hist
 b1: OK - foi em mil oitocentos e noventa e seis em Zanzibar uma ilha africana sob influencia inglesa: mapa de ZANZIBAR e pequeno grupo no cais.
 b2: CORRIGIDO - o sultao morreu e um primo ocupou o palacio sem pedir licenca: antes sala sem trono; agora o primo de fez vermelho ao lado do trono com o sultao morto caido no chao.
 b3: OK - os ingleses deram um ultimato sair do palacio ate as nove da manha: marinheiro ingles de azul com papel no cais com o navio a vapor ao fundo.
-b4: OK - o primo reuniu quase tres mil homens com fuzis e mosquetes e se trancou la dentro: soldados de fez em bloco diante do galpao com o texto 2.800.
+b4: OK - o primo reuniu quase tres mil homens com fuzis e mosquetes e se trancou la dentro: soldados de fez em bloco com o texto 2.800, mas num gramado verde com galpao ao fundo e nao no cais.
 b5: OK - acontece que as nove e dois os navios ingleses abriram fogo: soldados de capacete colonial e fez diante do navio com o texto 9:02 e clarao.
 b6: OK - o palacio pegou fogo a artilharia do sultao foi calada e a bandeira dele caiu: soldados diante de chamas laranja atras e o galpao.
 b7: CORRIGIDO - o sultao foi pedir abrigo no consulado da Alemanha: antes gramado com casa e frase com fuga; agora sultao de fez e diplomata alemao de azul numa sala de madeira.
 b8: CORRIGIDO - por volta das nove e quarenta a bandeira do palacio caiu: antes gramado com cavalos e explosao; agora dois guardas na sala com o texto 9:40 e a bandeira vermelha e branca.
 b9: CORRIGIDO - os ingleses colocaram outro sultao no trono e os aliados do primo pagaram pelas balas: antes gramado com palmeiras; agora sala com o trono e o novo sultao de fez ao lado do marinheiro ingles, com o texto OUTRO SULTAO.
-b10: OK - e ainda mandaram a conta das balas: sultao rindo de frente ao navio a vapor com o texto COMENTE.
+b10: OK - e ainda mandaram a conta das balas: oficial ingles rindo num escritorio com prateleiras, depois sultao rindo diante do navio a vapor com o texto COMENTE.
+
