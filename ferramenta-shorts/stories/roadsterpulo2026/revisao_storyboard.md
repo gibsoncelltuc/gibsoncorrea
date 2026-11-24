@@ -1,4 +1,4 @@
-b0: OK - Musk e a engenheira diante do carro na pista a noite, o carro saiu do chao com o jato dos propulsores embaixo
+b0: CORRIGIDO - "saiu do chao" fazia o Musk sair andando do quadro -> corrigido na ferramenta; agora Musk e a engenheira ficam inteiros diante do carro, que sobe com o jato embaixo
 b1: OK - mapa dos Estados Unidos, depois convidados na base da SpaceX no Texas a noite com a rampa curva e o telao ao fundo, outubro
 b2: OK - estudio so com o carro, raio-X mostra os tanques escondidos, dez bocais sopram ar comprimido para baixo, rotulos e seta de empuxo
 b3: OK - carro no estudio com seta amarela para baixo e rotulo succao, sistema que gruda o carro na pista como ventosa
