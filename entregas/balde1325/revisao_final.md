@@ -16,9 +16,9 @@ f14: OK - morreram cerca de duas mil pessoas: soldado amarelo caido no chao de p
 f15: CORRIGIDO - os modeneses chegaram aos muros de Bolonha: antes so aparecia campo -> agora torre e portao com o texto MUROS DE BOLONHA e soldados amarelos na frente.
 f16: OK - em vez de invadir: soldados amarelos parados em campo, sem atacar a cidade.
 f17: OK - fizeram uma festa la fora para zombar: soldados amarelos de bracos erguidos comemorando em campo.
-f18: OK - na volta: soldados amarelos rindo ao lado da placa O BALDE e do balde de madeira.
-f19: OK - levaram como trofeu um balde de madeira: soldado segurando o balde de madeira com a placa O BALDE atras.
-f20: OK - tirado de um poco perto da porta de Bolonha: soldado ao lado do poco de pedra cinza e do balde, casas baixas ao fundo; o poco e a porta aparecem pouco.
+f18: CORRIGIDO - na volta: antes so havia soldados em campo -> agora dois soldados amarelos rindo ao lado do poco de pedra, das torres da porta e do balde de madeira.
+f19: OK - levaram como trofeu um balde de madeira: os soldados amarelos com o balde de madeira ao lado do poco, sob o texto PORTA DE BOLONHA.
+f20: CORRIGIDO - tirado de um poco perto da porta de Bolonha: antes o poco aparecia como um cilindro e sem porta -> agora o poco de pedra com o balde, as torres do portao ao fundo, o texto PORTA DE BOLONHA e dois modeneses com o balde na mao.
 f21: CORRIGIDO - o balde ficou guardado na torre Ghirlandina: antes aparecia so uma sala -> agora o soldado diante da base da torre com o texto TORRE GHIRLANDINA.
 f22: OK - em Modena: a mesma torre com o balde de madeira na frente, no cenario da cidade de Modena.
 f23: OK - e virou simbolo da vitoria: soldado de bracos erguidos sorrindo diante da torre.

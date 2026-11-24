@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: O BALDE
+- Texto na tela: PORTA DE BOLONHA
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.8 s)
