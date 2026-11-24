@@ -393,5 +393,6 @@
  },
  "serie": "Guerras Inusitadas",
  "ep": 21,
- "titulo_base": "A Invasão da Ilha Vazia"
+ "titulo_base": "A Invasão da Ilha Vazia",
+ "variar_cenario": false
 }

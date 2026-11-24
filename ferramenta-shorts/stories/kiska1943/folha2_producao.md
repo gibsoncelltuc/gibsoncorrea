@@ -152,11 +152,9 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 65% | aberto 18% | detalhe 6%
 - Interacoes: b0 aproxima-se, b1 avanca e o outro recua, b5 susto, b8 discutir, b9 empurrar, b10 o outro se aproxima, b11 insiste
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'harbor': 7, 'arctic': 5, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'harbor': 7, 'arctic': 5, 'interior pedra': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).
