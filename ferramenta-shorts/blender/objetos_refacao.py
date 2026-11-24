@@ -23,3 +23,16 @@ caixa((0, 0.12, 0), (0.09, 0.24, 0.05), '#7a4a26'); cil((0, 0.245, 0), 0.03, 0.0
 prisma((0, 0.25, 0), [(-0.035, 0), (0.035, 0), (0.03, 0.22), (0.0, 0.32), (-0.02, 0.24)], 0.012, '#dfe3ea')
 caixa((0, 0.01, 0), (0.22, 0.02, 0.14), '#5a5f68')
 fim(0.004)
+novo('forte_colonial')   # forte colonial de pedra (Kumasi 1900): muralha quadrada com ameias, torres nos cantos, portao e mastro com bandeira
+W = 9.0; Hm = 3.2; e = 0.6
+for (cx, cz, sx, sz) in ((0, -W / 2, W, e), (0, W / 2, W, e), (-W / 2, 0, e, W), (W / 2, 0, e, W)):
+    caixa((cx, Hm / 2, cz), (sx, Hm, sz), '#c9b89a')
+for i in range(9):
+    t = -W / 2 + 0.5 + i * (W - 1) / 8
+    for (cx, cz) in ((t, W / 2), (t, -W / 2), (W / 2, t), (-W / 2, t)): caixa((cx, Hm + 0.25, cz), (0.45, 0.5, 0.65), '#b8a787')
+for (cx, cz) in ((-W / 2, -W / 2), (W / 2, -W / 2), (-W / 2, W / 2), (W / 2, W / 2)):
+    cil((cx, 2.2, cz), 1.0, 4.4, '#bfae8e'); cil((cx, 4.7, cz), 1.15, 0.5, '#a8987a')
+caixa((0, 1.1, W / 2 + 0.32), (1.8, 2.2, 0.06), '#4a3426')
+cil((0, 5.6, 0), 0.08, 5.0, '#5a4a3a')
+pano((0.08, 8.0, 0), 1.6, 1.0, ['#1f3a8a', '#d8282f', '#1f3a8a'])
+fim(0.03)
