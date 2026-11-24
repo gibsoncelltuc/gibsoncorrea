@@ -100,3 +100,7 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 
 **Hook generated:** 2026-11-24 17:38:19 UTC
 <!-- post-compact-recovery-end -->
+
+## PASTA DE ENTREGA SEM MISTURA (ordem do Gibson 24/11)
+- `videos_prontos/<serie>/` tem SO' videos aprovados no padrao novo (conferidos frase a frase pela principal). Versoes antigas: `videos_prontos/_antigos_nao_entregar/` (nao entregar). Reprovados: `_reprovados/`.
+- Video das sessoes chega em `videos_prontos/_a_conferir/` (receber_das_sessoes.sh); so' depois da conferencia: `bash ferramenta-shorts/aprovar_entrega.sh <arquivo.mp4>`. Video da principal: copiar de out/<id>/ para a pasta da serie depois da revisao final.
