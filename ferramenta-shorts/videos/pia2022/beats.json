@@ -75,10 +75,6 @@
    "detalhe": true,
    "acao": "comemorar",
    "shot_lock": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e sink juntos (camera a 8.0 m)",
@@ -90,7 +86,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Ele filmou a própria entrada e postou o vídeo na internet.",
@@ -132,10 +132,6 @@
     "thump@8"
    ],
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)",
@@ -147,7 +143,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar.",
@@ -177,10 +177,6 @@
    "impact": false,
    "detalhe": true,
    "shot_lock": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 8.0 m)",
@@ -192,7 +188,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.",
@@ -247,10 +247,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
@@ -262,7 +258,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Uma pia, uma legenda e uma piada que ninguém esqueceu.",
@@ -287,10 +287,6 @@
    "batalha": false,
    "impact": false,
    "acao": "comemorar",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e sink juntos (camera a 11.5 m)",
@@ -302,7 +298,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "exp": 1.0,

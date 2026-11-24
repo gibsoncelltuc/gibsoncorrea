@@ -213,11 +213,6 @@
    ],
    "detalhe": false,
    "set": "outback",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -239,7 +234,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "say": "A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.",
@@ -271,11 +271,6 @@
    "batalha": false,
    "impact": true,
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.0,
-   "d1": 16.2,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -289,7 +284,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.0,
+   "d1": 16.2
   },
   {
    "say": "Uma venda de internet que ajudou a pagar foguetes e carros elétricos.",
@@ -337,11 +337,6 @@
    ],
    "hora": "dia",
    "set": "street",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -370,7 +365,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   }
  ],
  "fontes": [

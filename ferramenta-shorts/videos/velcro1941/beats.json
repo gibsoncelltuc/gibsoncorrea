@@ -77,10 +77,6 @@
    "verbos_ok": [
     "nasce"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
@@ -92,7 +88,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -154,10 +154,6 @@
    "shot_lock": true,
    "set": "mountain",
    "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "encosta de montanha",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -169,7 +165,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -199,10 +199,6 @@
    ],
    "say": "Curioso, ele levou um carrapicho para casa e olhou no microscópio.",
    "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -220,7 +216,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -248,10 +248,6 @@
     "sting@50"
    ],
    "say": "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -263,7 +259,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "low",
@@ -289,10 +289,6 @@
     "sting@20"
    ],
    "say": "Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "sala de madeira",
     "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -304,7 +300,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -351,10 +351,6 @@
     "ding@40"
    ],
    "say": "O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
@@ -366,7 +362,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "crowd",
@@ -438,10 +438,6 @@
    "titulo": true,
    "say": "Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis.",
    "set": "arctic",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -465,7 +461,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -491,10 +491,6 @@
     ]
    ],
    "say": "Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
@@ -506,7 +502,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "max_wide": 3

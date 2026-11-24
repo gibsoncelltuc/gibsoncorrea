@@ -96,11 +96,6 @@
    ],
    "say": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.",
    "set": "medieval",
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -117,7 +112,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   },
   {
    "shot": "reveal",
@@ -154,10 +154,6 @@
    ],
    "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.",
    "set": "medieval",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "vila medieval",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
@@ -169,7 +165,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -191,11 +191,6 @@
    ],
    "say": "Então costuraram um balão gigante de pano e papel, e encheram de ar quente.",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -211,7 +206,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   },
   {
    "shot": "two",
@@ -259,11 +259,6 @@
     ]
    ],
    "set": "medieval",
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -280,7 +275,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   },
   {
    "shot": "wide",
@@ -311,11 +311,6 @@
    ],
    "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
    "set": "palace",
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -329,7 +324,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   },
   {
    "shot": "wide",
@@ -344,7 +344,7 @@
      8.22,
      {
       "mover": [
-       16.0,
+       7.0,
        -8.1
       ],
       "fixo": true
@@ -361,11 +361,6 @@
    ],
    "say": "Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.",
    "set": "medieval",
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -382,7 +377,12 @@
       "estado": "indo embora"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   },
   {
    "shot": "wide",
@@ -404,11 +404,6 @@
    "shot_lock": true,
    "detalhe": false,
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -424,7 +419,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   },
   {
    "shot": "two",
@@ -473,7 +473,7 @@
    "props": [
     [
      "kit/balloon_air",
-     -16.0,
+     -7.0,
      -8.1,
      8.22,
      {
@@ -497,11 +497,6 @@
    "titulo": true,
    "say": "Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.",
    "set": "medieval",
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -515,7 +510,12 @@
       "estado": "chegando"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   },
   {
    "shot": "wide",
@@ -558,11 +558,6 @@
    ],
    "say": "E tudo graças a uma ovelha, um pato e um galo corajosos.",
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -579,7 +574,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.7,
+   "h": 6.0,
+   "d0": 79.3,
+   "d1": 75.5
   }
  ],
  "exp": 0.81,

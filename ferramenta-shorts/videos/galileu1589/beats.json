@@ -75,11 +75,6 @@
     "thump@30"
    ],
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.6,
-   "d0": 30.1,
-   "d1": 28.7,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -95,7 +90,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.6,
+   "d0": 30.1,
+   "d1": 28.7
   },
   {
    "say": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.",
@@ -181,11 +181,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.1,
-   "d1": 16.2,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -214,7 +209,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.1,
+   "d1": 16.2
   },
   {
    "say": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
@@ -264,11 +264,6 @@
     "thump@40",
     "ding@60"
    ],
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.6,
-   "d0": 30.1,
-   "d1": 28.7,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -294,7 +289,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.6,
+   "d0": 30.1,
+   "d1": 28.7
   },
   {
    "say": "A plateia ficou de boca aberta, e os professores ficaram bravos.",
@@ -364,10 +364,6 @@
    ],
    "acao": "comemorar",
    "hora": "noite",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
     "camera": "plano de multidao; plano medio enquadrando personagens e hammer juntos (camera a 11.5 m)",
@@ -385,7 +381,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "No fim, até a pena deu razão ao Galileu.",

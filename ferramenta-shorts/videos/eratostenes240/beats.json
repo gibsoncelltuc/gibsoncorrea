@@ -84,10 +84,6 @@
     ]
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
@@ -105,7 +101,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.",
@@ -159,10 +159,6 @@
     ]
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)",
@@ -174,7 +170,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
@@ -208,10 +208,6 @@
    ],
    "clima": "calor",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)",
@@ -223,7 +219,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
@@ -258,11 +258,6 @@
    "fachada": false,
    "detalhe": false,
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 19.3,
-   "d1": 18.4,
    "crowd": {
     "n": 0
    },
@@ -277,7 +272,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.3,
+   "d1": 18.4
   },
   {
    "say": "Eratóstenes pensou: \"Se a Terra fosse plana, as duas sombras seriam iguais.\"",
@@ -309,10 +309,6 @@
     ]
    ],
    "fachada": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 8.0 m)",
@@ -324,7 +320,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
@@ -386,10 +386,6 @@
     "sting@60"
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "praia / palacio",
     "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
@@ -407,7 +403,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.",
@@ -440,10 +440,6 @@
     ]
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "praia / palacio",
     "camera": "travelling (camera acompanha andando); plano medio enquadrando personagens e stick juntos (camera a 11.5 m)",
@@ -455,7 +451,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
@@ -520,10 +520,6 @@
    ],
    "acao": "comemorar",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano de multidao; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
@@ -535,7 +531,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
@@ -578,10 +578,6 @@
    "detalhe": false,
    "fachada": false,
    "acao": "comemorar",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 8.0 m)",
@@ -599,7 +595,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "exp": 0.9,

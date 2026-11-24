@@ -74,11 +74,6 @@
    "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.",
    "fachada": false,
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.6,
-   "d0": 41.7,
-   "d1": 39.7,
    "crowd": {
     "n": 0
    },
@@ -94,7 +89,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.6,
+   "d0": 41.7,
+   "d1": 39.7
   },
   {
    "shot": "reveal",
@@ -137,11 +137,6 @@
    ],
    "fachada": false,
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.0,
-   "d1": 16.2,
    "crowd": {
     "n": 0
    },
@@ -163,7 +158,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.0,
+   "d1": 16.2
   },
   {
    "shot": "wide",
@@ -192,11 +192,6 @@
    ],
    "set": "harbor",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 15.3,
-   "d1": 14.5,
    "crowd": {
     "n": 0
    },
@@ -212,7 +207,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 15.3,
+   "d1": 14.5
   },
   {
    "shot": "two",
@@ -258,11 +258,6 @@
    "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
    "fachada": false,
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.6,
-   "d0": 29.8,
-   "d1": 28.4,
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -275,7 +270,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.6,
+   "d0": 29.8,
+   "d1": 28.4
   },
   {
    "shot": "wide",
@@ -303,11 +303,6 @@
    "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
    "fachada": false,
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.8,
-   "d0": 32.1,
-   "d1": 30.6,
    "crowd": {
     "n": 0
    },
@@ -323,7 +318,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.8,
+   "d0": 32.1,
+   "d1": 30.6
   },
   {
    "shot": "wide",
@@ -353,11 +353,6 @@
    "say": "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.",
    "fachada": false,
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.9,
-   "d0": 46.1,
-   "d1": 43.9,
    "crowd": {
     "n": 0
    },
@@ -373,7 +368,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.9,
+   "d0": 46.1,
+   "d1": 43.9
   },
   {
    "shot": "wide",
@@ -410,11 +410,6 @@
    "say": "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.",
    "fachada": false,
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 4.6,
-   "d0": 54.9,
-   "d1": 52.3,
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
@@ -427,7 +422,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 4.6,
+   "d0": 54.9,
+   "d1": 52.3
   },
   {
    "shot": "two",
@@ -451,10 +451,6 @@
    ],
    "detalhe": true,
    "interior": "loja",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
@@ -466,7 +462,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -488,11 +488,6 @@
    "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.",
    "fachada": false,
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.6,
-   "d0": 41.7,
-   "d1": 39.7,
    "crowd": {
     "n": 0
    },
@@ -508,7 +503,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.6,
+   "d0": 41.7,
+   "d1": 39.7
   }
  ],
  "fontes": [
