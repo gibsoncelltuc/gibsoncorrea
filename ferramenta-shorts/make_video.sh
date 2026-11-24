@@ -38,7 +38,11 @@ H3=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['h
 if [ "$(cat stories/$ID/STORYBOARD_OK 2>/dev/null)" != "$H3" ]; then
   if [ ! -f stories/$ID/storyboard.jpg ] || [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" != "$H3" ]; then log "storyboard (video inteiro, 1 quadro a cada ~1,5 s)"; ./prechecar.sh $ID >> $L 2>&1 && cp stories/$ID/precheck.jpg stories/$ID/storyboard.jpg && echo "$H3" > stories/$ID/storyboard.hash && { log "grade de acoes (1 quadro no instante de cada acao da folha 3)"; ./prechecar.sh $ID acoes >> $L 2>&1; }; fi
   if [ ! -f stories/$ID/visibilidade.json ] || [ stories/$ID/visibilidade.json -ot stories/$ID/storyboard.jpg ]; then log "visibilidade (objeto citado aparece? algo tapando a camera? camera dentro de objeto?)"; ./build3.sh $ID >/dev/null 2>&1; node visivel.mjs $ID > stories/$ID/visibilidade.txt 2>&1; cat stories/$ID/visibilidade.txt >> $L; fi
-  grep -q '^FALHA' stories/$ID/visibilidade.txt 2>/dev/null && log "VISIBILIDADE: $(grep -c '^FALHA' stories/$ID/visibilidade.txt) falha(s) (stories/$ID/visibilidade.txt) - corrija o roteiro antes de aprovar"
+  if grep -q '^FALHA' stories/$ID/visibilidade.txt 2>/dev/null; then
+    # AUTOCORRECAO (ordem do Gibson 24/11): a ferramenta conserta sozinha o enquadramento e gera o storyboard de novo (ate 3 voltas)
+    if [ "${AUTOVIS:-0}" -lt 3 ] && python3 autocorrigir_visibilidade.py $ID >> $L 2>&1; then log "VISIBILIDADE: $(grep -c '^FALHA' stories/$ID/visibilidade.txt) falha(s) CORRIGIDA(S) SOZINHA(S) (stories/$ID/autocorrecoes.md) -> storyboard de novo"; rm -f stories/$ID/storyboard.jpg stories/$ID/storyboard.hash stories/$ID/visibilidade.json stories/$ID/visibilidade.txt; AUTOVIS=$(( ${AUTOVIS:-0} + 1 )) exec bash make_video.sh $ID; fi
+    log "VISIBILIDADE: $(grep -c '^FALHA' stories/$ID/visibilidade.txt) falha(s) que a autocorrecao nao resolveu (stories/$ID/visibilidade.txt)"
+  fi
   touch stories/$ID/AGUARDA_STORYBOARD; log "AGUARDANDO APROVACAO DO STORYBOARD: abra stories/$ID/storyboard.jpg, confira com a folha 3 e rode ./aprovar_storyboard.sh $ID"; exit 76
 fi
 rm -f stories/$ID/AGUARDA_STORYBOARD
