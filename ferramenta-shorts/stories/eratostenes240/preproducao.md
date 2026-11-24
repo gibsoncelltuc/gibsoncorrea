@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_campo | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
 b1 | loc_campo | reveal | 10 | parados (so fala e pisca) | kit/marco_alexandria, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b2 | loc_deserto | two | 2 | conversar, INTERAGEM: insiste | kit/well, nature/tree_palm, tools/bucket | paper | -
-b3 | loc_deserto | crowd | 14 | batalha | kit/well, nature/tree_palm | - | -
+b3 | loc_deserto | wide | 2 | batalha | kit/well, nature/tree_palm | - | -
 b4 | loc_montanha | wide | 1 | parados (so fala e pisca) | kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
 b5 | loc_montanha | two | 1 | conversar | kit/globe, nature/tree_palm | - | -
 b6 | loc_campo | orbit | 2 | reagir, batalha | kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria | - | -

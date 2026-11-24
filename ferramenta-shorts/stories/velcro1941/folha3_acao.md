@@ -138,7 +138,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 42.7s a 46.6s - 14 palavras - plano crowd
+## Cena b8 - 42.7s a 46.6s - 14 palavras - plano wide
 > "Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Gerado em 24/11 23:39 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:44 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | chave | loc_pista | wide | ENG | - | falcon_air | corpo: tropa/personagens 
 b5 | simples | interior loja | two | STA | - | roadster | - | No banco do motorista foi sentado um boneco de astronauta, chamado Sta
 b6 | simples | arctic | orbit | STA | - | roadster | - | No painel, estava escrito: Não entre em pânico.
 b7 | explicativa | arctic | two | sem personagem | - | globe, roadster | corpo: kit/roadster (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som e | O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,
-b8 | chave | arctic | crowd | MUS | - | roadster | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele continua lá em cima, dando voltas, até hoje.
+b8 | chave | arctic | wide | MUS | - | roadster | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele continua lá em cima, dando voltas, até hoje.
 b9 | simples | loc_pista | two | MUS | - | roadster, rocket | - | Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras
 b10 | simples | loc_pista | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -23,7 +23,7 @@ b10 | simples | loc_pista | close | MUS | - | - | - | Agora não deixe de coment
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (12/15 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (14/15 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 

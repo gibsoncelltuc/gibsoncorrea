@@ -49,7 +49,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b3 - 17.3s a 20.6s - 13 palavras - plano crowd
+## Cena b3 - 17.3s a 20.6s - 13 palavras - plano wide
 > "Isso significava que o sol estava bem em cima, e nada fazia sombra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

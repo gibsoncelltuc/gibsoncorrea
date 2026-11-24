@@ -1,13 +1,13 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Gerado em 24/11 23:43 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:44 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior hospital | two | SEM, DIR | - | wash_basin | - | Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hos
-b1 | chave | loc_campo | crowd | POV, POV | 6 | maca, marco_viena, room_hospital | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na 
+b1 | chave | loc_campo | wide | POV, POV | 6 | maca, marco_viena, room_hospital | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na 
 b2 | simples | interior hospital | two | SEM, PAR | - | - | - | O hospital tinha duas alas de parto: uma de parteiras e outra de médic
 b3 | simples | interior hospital | group | MAE, SEM | - | - | - | Acontece que, na ala dos médicos, morriam muito mais mães, de uma febr
 b4 | simples | interior hospital | two | KOL, SEM | - | - | - | Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e 
@@ -16,7 +16,7 @@ b6 | simples | interior hospital | two | SEM, KOL | - | wash_basin | - | Ele pô
 b7 | simples | loc_campo | orbit | SEM, MAE, PAR | - | marco_viena, wash_basin | - | As mortes despencaram quase dez vezes.
 b8 | simples | interior hospital | two | DIR, SEM | - | - | - | Mas os médicos se ofenderam, e Semmelweis foi mandado embora.
 b9 | simples | loc_campo | two | MAE | - | lapide | - | Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.
-b10 | chave | loc_campo | orbit | PAR | 12 | wash_basin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de
+b10 | chave | loc_campo | orbit | PAR | - | wash_basin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de
 b11 | simples | loc_campo | close | SEM | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Gerado em 24/11 23:37 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:44 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | loc_campo | two | ERA, BIB | - | globe, marco_alexandria, stick, tree_palm | - | Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela
 b1 | transicao | loc_campo | reveal | BIB, POV | 8 | apartment, house_two, marco_alexandria, lamppost | - | Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes er
 b2 | simples | loc_deserto | two | ERA, BIB | - | well, tree_palm, bucket | - | Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminav
-b3 | chave | loc_deserto | crowd | ERA, CAM | 12 | well, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Isso significava que o sol estava bem em cima, e nada fazia sombra.
+b3 | chave | loc_deserto | wide | ERA, CAM | - | well, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Isso significava que o sol estava bem em cima, e nada fazia sombra.
 b4 | transicao | loc_montanha | wide | ERA | - | marco_alexandria, stick, tree_palm | - | Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra
 b5 | simples | loc_montanha | two | ERA | - | globe, tree_palm | - | Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
 b6 | chave | loc_campo | orbit | ERA, BIB | - | globe, marco_alexandria, stick, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a sombra era diferente, e isso só podia acontecer se a Te

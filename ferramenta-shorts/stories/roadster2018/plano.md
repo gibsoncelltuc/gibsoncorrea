@@ -10,7 +10,7 @@ b4 | wide | -  | batalha aberta com tiros, tropa | encena: voa (point) @2 (acao 
 b5 | two | -  | tropa, interior | encena: senta @5 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito) | -
 b6 | orbit | espaco  | tropa, placa: NÃO ENTRE EM PÂNICO | - | -
 b7 | two | espaco  | tropa | - | -
-b8 | crowd | espaco  | batalha aberta com tiros, tropa | - | -
+b8 | wide | espaco  | batalha aberta com tiros, tropa | - | -
 b9 | two | -  | tropa, placa: STARMAN | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 

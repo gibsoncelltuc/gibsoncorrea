@@ -285,11 +285,9 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 ## Video inteiro
 - Objeto heroi: kit/xray_plate | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 15% | detalhe 2%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio, Wilhelm Rontgen (barba cheia escura, sobrecasaca), Anna Bertha Rontgen (vestid -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio, Wilhelm Rontgen (barba cheia escura, sobrecasaca), Anna Bertha Rontgen (vestid
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh rontgen1895 bN bM` (so essas cenas).

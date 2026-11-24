@@ -30,7 +30,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.1s a 10.4s - 17 palavras - plano crowd
+## Cena b1 - 5.1s a 10.4s - 17 palavras - plano wide
 > "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -166,11 +166,11 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "AST"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/burr",
     "kit/moon",

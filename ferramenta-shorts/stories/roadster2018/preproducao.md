@@ -12,7 +12,7 @@ b4 | loc_pista | wide | 1 | reagir, batalha | kit/falcon_air | - | -
 b5 | interior loja | two | 1 | conversar | kit/roadster | - | -
 b6 | arctic | orbit | 1 | parados (so fala e pisca) | kit/roadster | - | -
 b7 | arctic | two | 0 | parados (so fala e pisca) | kit/roadster, kit/globe | - | -
-b8 | arctic | crowd | 1 | reagir, batalha | kit/roadster | - | -
+b8 | arctic | wide | 1 | reagir, batalha | kit/roadster | - | -
 b9 | loc_pista | two | 1 | comemorar | kit/rocket, kit/roadster | - | -
 b10 | loc_pista | close | 1 | conversar | - | - | -
 

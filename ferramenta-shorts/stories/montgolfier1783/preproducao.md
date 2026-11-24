@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_campo | two | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
-b1 | street | crowd | 8 | batalha | kit/marco_versalhes | - | -
+b1 | street | wide | 8 | batalha | kit/marco_versalhes | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/campfire | - | -
 b3 | interior madeira | two | 1 | conversar | kit/balloon | - | -
 b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -

@@ -171,7 +171,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - O vídeo da pia virou piada no mundo inteiro.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao laugh) | multidao: 14 de FUN/FUN2
 - Animacao: - | grande momento (efeito + som, sem tiro)
@@ -234,11 +234,9 @@ kit/phone | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer
 - Interacoes: b0 susto, b1 o outro se aproxima, b3 insiste, b5 discutir, b6 vai ate o outro
 - RISCOS GERAIS: 
   - video com ~51 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: 8 item(ns) sem referencia visual: Sede do Twitter, Market Street, Sao Francisco (California): saguao moderno com o, Elon Musk (camiseta preta, sorrindo, carregando uma pia de porcelana b, funcio -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: video com ~51 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: Sede do Twitter, Market Street, Sao Francisco (California): saguao moderno com o, Elon Musk (camiseta preta, sorrindo, carregando uma pia de porcelana b, funcio
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh pia2022 bN bM` (so essas cenas).

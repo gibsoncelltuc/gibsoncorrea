@@ -18,7 +18,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 6.3s a 8.6s - 9 palavras - plano crowd
+## Cena b1 - 6.3s a 8.6s - 9 palavras - plano wide
 > "Era mil setecentos e oitenta e três, na França."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
