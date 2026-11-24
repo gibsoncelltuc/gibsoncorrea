@@ -7,12 +7,12 @@
 - Roupas: {'KEK': 'sobrecasaca escura dos anos 1860, colete, barba e bigode castanhos', 'COL': 'quimico mais velho de sobrecasaca e barba grisalha', 'ALU': 'aluno de paleto escuro', 'POV': 'publico de 1865 com chapeu-coco e cartola'}
 - Cenario real: gabinete com lareira acesa e poltrona, quadro com formulas, frascos de laboratorio; salao de banquete em Berlim
 - Objetos: ['anel do benzeno (cobra mordendo o rabo)', 'lareira', 'poltrona', 'papel com desenhos de moleculas', 'frascos de quimica']
-- Cenarios usados no video: interior madeira, interior pedra, street
+- Cenarios usados no video: interior madeira, interior pedra, loc_estudio, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)
-- -
+- Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim
 
 ## Fontes visuais
 - https://en.wikipedia.org/wiki/August_Kekul%C3%A9

@@ -1,31 +1,28 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 23 - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 3.0s - 12 palavras - plano crowd
+## Cena b0 - 0.1s a 3.0s - 12 palavras - plano wide
 > "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | 1939 | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | 1939 | OK |
 
-## Cena b1 - 4.2s a 8.5s - 17 palavras - plano group
+## Cena b1 - 4.2s a 8.5s - 17 palavras - plano crowd
 > "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (7.8s) | EFEITO: dust | poeira + som | OK |
 | 2 | invadiu (7.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | INTERACAO | tremem de frio | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | CHEGADA | alguem entra andando | OK |
-| 8 | - | MAPA | FINLÂNDIA | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | MAPA | FINLÂNDIA | OK |
 
 ## Cena b2 - 9.6s a 16.0s - 22 palavras - plano orbit
 > "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero."
@@ -66,17 +63,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
+| 1 | - | INTERACAO | tremem de frio | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 100 DIAS | OK |
 
-## Cena b7 - 38.6s a 40.8s - 8 palavras - plano group
+## Cena b7 - 38.6s a 40.8s - 8 palavras - plano crowd
 > "Os soviéticos passaram a chamá-lo de Morte Branca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | PLACA | MORTE BRANCA | OK |
+| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | MORTE BRANCA | OK |
 
 ## Cena b8 - 41.9s a 49.1s - 24 palavras - plano two
 > "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou."

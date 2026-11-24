@@ -9,8 +9,7 @@
   "cenarios": [
    "arctic",
    "interior hospital",
-   "interior madeira",
-   "mountain"
+   "interior madeira"
   ],
   "cenarios_trocados": []
  },
@@ -34,7 +33,6 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/barn",
-  "kit/campfire",
   "kit/maca",
   "kit/room_europa_wood",
   "kit/room_hospital",
