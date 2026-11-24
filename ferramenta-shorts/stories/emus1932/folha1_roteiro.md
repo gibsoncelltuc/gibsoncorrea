@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.8 s)
-- Narracao: Fazendeiros veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.
+- Narracao: Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; metralhadoras -> burst + som de tiro/explosao; encena: fala (point) @2 -> acao + som de efeito; encena: atira @3 -> acao + som de efeito; encena: fala (point) @9 -> acao + som de efeito

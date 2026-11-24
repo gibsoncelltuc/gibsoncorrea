@@ -17,7 +17,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "20.000 EMUS" numa placa atras dos personagens, na palavra 4 da frase
 - MAPA: AUSTRÁLIA (cobre a tela 1-2 s)
 
-## b2: "Fazendeiros veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados."
+## b2: "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados."
 - LOCAL: sala de madeira; hora: desert
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FARM na esquerda, expressao nervous, segura paper; AUS na direita, expressao stern; sem multidao; acao: fala/gesto

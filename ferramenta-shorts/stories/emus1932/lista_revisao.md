@@ -1,4 +1,4 @@
-# LISTA UNICA DE REVISAO - emus1932  (refacoes ate agora: 0; limite: 1)
+# LISTA UNICA DE REVISAO - emus1932  (refacoes ate agora: 1; limite: 1)
 
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
