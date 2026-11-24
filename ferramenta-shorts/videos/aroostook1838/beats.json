@@ -207,13 +207,13 @@
    "impact": true
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "countryside",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 20,
@@ -221,13 +221,14 @@
      "MIL",
      "ING"
     ],
-    "march": true,
+    "march": false,
     "expr": "angry"
    },
    "text": "MILÍCIA",
    "titulo": true,
    "say": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.",
-   "impact": true
+   "impact": false,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -291,18 +292,6 @@
      -1.6,
      0.2,
      1.0
-    ],
-    [
-     "nature/tree_pine",
-     -3.0,
-     -5.5,
-     1.6
-    ],
-    [
-     "nature/tree_pine",
-     3.2,
-     -6.5,
-     1.7
     ]
    ],
    "say": "Ficou conhecida até como a Guerra do Porco com Feijão.",
@@ -363,5 +352,6 @@
    "soldado da epoca": "Maine militia 1839 uniform",
    "roupas e ruas de 1838": "1838 American clothing fashion plate men"
   }
- }
+ },
+ "min_momentos": 1
 }

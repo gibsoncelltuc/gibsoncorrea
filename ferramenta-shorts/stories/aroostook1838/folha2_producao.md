@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 30 de MIL/ING
-- Animacao: encena | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 20 de MIL/ING
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colonia, maine, milicia, seus, soldados
 - RISCOS: nenhum
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/logs, nature/tree_pine, pig
+- Objetos/modelos: kit/logs, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_pine | b0, b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/axe | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -128,7 +128,7 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 11% | medio 71% | aberto 14% | detalhe 5%
+- Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 3 | mistura: close 9% | medio 67% | aberto 19% | detalhe 5%
 - Interacoes: b0 discutir, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 

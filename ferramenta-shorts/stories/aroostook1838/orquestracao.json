@@ -121,7 +121,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "MIL",
     "ING"
@@ -131,15 +131,9 @@
    "palavras": 15,
    "cena": "b4",
    "frase": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -223,8 +217,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/logs",
-    "nature/tree_pine"
+    "kit/logs"
    ],
    "palavras": 10,
    "cena": "b9",

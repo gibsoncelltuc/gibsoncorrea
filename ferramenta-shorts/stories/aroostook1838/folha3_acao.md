@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.6s - 21 palavras - plano two
@@ -40,16 +40,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | lenhadores (26.2s) | ACAO: corta | machado e toras + poeira | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b4 - 27.9s a 32.8s - 15 palavras - plano crowd
+## Cena b4 - 27.9s a 32.8s - 15 palavras - plano wide
 > "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chamou (28.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | mandou (31.7s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (MIL) | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | MILÍCIA | OK |
+| 3 | - | PLACA | MILÍCIA | OK |
 
 ## Cena b5 - 33.2s a 38.8s - 16 palavras - plano two
 > "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso."

@@ -42,10 +42,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (MIL) -> acao + som de efeito; encena: fala (point) @2 -> acao + som de efeito; encena: fala (point) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: fala (point) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: MILÍCIA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b5  (~5.5 s)
 - Narracao: Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.
