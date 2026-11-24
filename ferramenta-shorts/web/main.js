@@ -259,7 +259,7 @@ SETDEF.harbor = (X) => {
   add(box(130, 1.4, 22), toon({ color: '#b9b3a6' }), X + 26, DECK - 0.75, -10.4, world); add(box(130, 0.3, 0.6), toon({ color: '#8f897c' }), X + 26, DECK + 0.1, -21.2, world);   /* cais de pedra atras do pier: tropa e multidao nao pisam na agua */
   for (let i = 0; i < 14; i++) add(new THREE.CylinderGeometry(0.3, 0.3, 3.0, 8), MW.trunk, X - 36 + i * 5.6, DECK - 1.6, 7.2, world);
   for (let i = 0; i < 6; i++) libInst('crate', X - 30 + i * 11, DECK, -3 - (i % 2) * 1.5, 0.1 * i, 1.1);
-  if (!globalThis.SEM_NAVIO) libInst('ship', X + 4, DECK - 1.2, -26, 0.1, 0.8);   /* 19/11: historia moderna sem navio na narracao nao ganha navio de guerra no cais */ libInst('buildings/lighthouse', X - 48, DECK - 0.3, -10, 0, 1.4);
+  if (!globalThis.SEM_NAVIO) libInst('ship', X + 4, DECK - 1.2, -26, 0.1, 0.8);   /* 19/11: historia moderna sem navio na narracao nao ganha navio de guerra no cais */ libInst('buildings/lighthouse', X - 90, DECK - 0.3, -70, 0, 1.4);   /* 24/11: farol bem longe (aparecia colado na camera e dominava o quadro) */
   farHills(X, -150, '#7d93b8', '#8aa0c4', 12, 300);
 };
 UPD.push((W, f, t) => { world.children.forEach((m) => { if (m.userData && m.userData.wv !== undefined) { m.position.x += Math.sin(t * 0.6 + m.userData.wv) * 0.01; m.scale.x = 1 + 0.25 * Math.sin(t * 1.3 + m.userData.wv * 2); } }); });

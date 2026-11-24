@@ -67,7 +67,8 @@
    "cz": -40,
    "h": 9.0,
    "d0": 50,
-   "d1": 44
+   "d1": 44,
+   "detalhe": false
   },
   {
    "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
@@ -155,7 +156,7 @@
    "say": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
    "shot": "wide",
    "who": [
-    "BRI:1:stern"
+    "ICE:2:stern"
    ],
    "props": [
     [
@@ -171,13 +172,13 @@
      1.0
     ]
    ],
-   "mood": "march",
    "set": "harbor",
    "cx": 0,
    "cz": -40,
    "h": 9.0,
    "d0": 50,
-   "d1": 44
+   "d1": 44,
+   "detalhe": false
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",

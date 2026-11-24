@@ -2,9 +2,7 @@ _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
 _A = [0] + [int(_W(i) - 3) for i in [11, 30, 44, 58, 68, 84, 100, 114, 134, 142]] + [FR]
 drone(F(_A[0]), F(_A[1]), 49); heartbeat(F(_A[0]), F(_A[1]), 72, 0.55)
 march(F(_A[1]), F(_A[2]), 112)
-playful(F(_A[2]), F(_A[4]), 122)
-march(F(_A[4]), F(_A[5]), 112)
-playful(F(_A[5]), F(_A[6]), 122)
+playful(F(_A[2]), F(_A[6]), 122)
 drone(F(_A[6]), F(_A[7]), 49); heartbeat(F(_A[6]), F(_A[7]), 72, 0.55)
 march(F(_A[7]), F(_A[8]), 112)
 playful(F(_A[8]), F(_A[11]), 122)
