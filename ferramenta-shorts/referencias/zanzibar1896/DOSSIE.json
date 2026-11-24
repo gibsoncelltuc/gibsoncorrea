@@ -1,0 +1,76 @@
+{
+ "id": "zanzibar1896",
+ "titulo": "Guerras Inusitadas EP 08 - A Guerra de 38 Minutos",
+ "ancoras": {
+  "ano": 1896,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "interior loja",
+   "interior pedra",
+   "loc_campo",
+   "palace"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 10",
+    "medieval",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro dos anos 50",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "cannon",
+  "kit/marco_zanzibar",
+  "kit/navio_vapor_guerra",
+  "kit/room_azul_stone",
+  "kit/room_europa_stone",
+  "kit/room_rosa_shop",
+  "kit/room_verde_stone",
+  "kit/throne",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Wooden",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers",
+  "nature/bench",
+  "nature/lamppost",
+  "war/flagpole"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - O novo sultão juntou quase três mil homens, alguns canhões velhos, e s...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern) | multidao: 18 de GUA/POV
@@ -68,12 +68,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao stern); GUA (variante 0, expressao shock) | multidao: 20 de ING/GUA
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_zanzibar, navios ao fundo
+- Objetos/modelos: kit/marco_zanzibar, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, madeira, navios, nove, palacio, pegar
 - RISCOS: nenhum
 
 ## Cena b7 - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): SUL (variante 0, expressao shock); GUA (variante 1, expressao shock)
@@ -83,21 +83,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
-- Cenario: hall | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern) | multidao: 10 de GUA/ING/POV
-- Animacao: encena
-- Objetos/modelos: cannon, war/flagpole, buildings/castle_tower
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern)
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: cannon, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, canhoes, nove, palacio
 - RISCOS: nenhum
 
 ## Cena b9 - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): ALM (variante 0, expressao smile, segura paper); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
 - RISCOS: 
@@ -135,17 +135,20 @@ buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se p
 nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 21% | medio 57% | aberto 20% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b9 vai ate o outro
+- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 65% | aberto 12% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro, b9 aproxima-se
 - RISCOS GERAIS: 
+  - objeto heroi cannon nao aparece em nenhuma cena -> CORRECAO: por cannon em "props" de pelo menos uma cena (ou tirar de "herois")
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py zanzibar1896  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/zanzibar1896/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
+- geral: objeto heroi cannon nao aparece em nenhuma cena
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

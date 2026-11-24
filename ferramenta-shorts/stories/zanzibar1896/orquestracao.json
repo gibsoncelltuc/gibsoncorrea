@@ -1,0 +1,257 @@
+{
+ "id": "zanzibar1896",
+ "ano": 1896,
+ "cenarios_trocados": [
+  [
+   "cena 10",
+   "medieval",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SUL",
+    "GUA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "A guerra mais curta da história durou menos que um almoço.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "palace"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "SUL",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 12,
+   "cena": "b1",
+   "frase": "Era em Zanzibar, uma ilha da costa da África, controlada pela Inglaterra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "palace"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SUL",
+    "GUA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/throne"
+   ],
+   "palavras": 21,
+   "cena": "b2",
+   "frase": "O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ALM",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Os ingleses não gostaram. \"Saia do palácio até as nove da manhã\", avisaram eles.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "GUA",
+    "GUA"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "cannon",
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 16,
+   "cena": "b4",
+   "frase": "O novo sultão juntou quase três mil homens, alguns canhões velhos, e se trancou lá dentro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "SUL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b5",
+   "frase": "\"Eles não vão atirar\", disse ele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ING",
+    "GUA"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/marco_zanzibar",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 22,
+   "cena": "b6",
+   "frase": "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "palace"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "SUL",
+    "GUA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_two",
+    "kit/marco_zanzibar",
+    "nature/bench",
+    "nature/lamppost"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GUA",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "cannon",
+    "war/flagpole"
+   ],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ALM",
+    "ING",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 14,
+   "cena": "b9",
+   "frase": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ALM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b10",
+   "frase": "E ainda mandaram a conta das balas para Zanzibar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "SUL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "palace"
+  }
+ ]
+}

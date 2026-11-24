@@ -13,7 +13,7 @@ b7 | crowd | night  | batalha aberta com tiros, tropa, placa: 84,6% | (rosto) la
 b8 | two | -  | interior, placa: HOSPITAL, objeto na mao | encena: voto (reach) @5 (acao + som de efeito) | -
 b9 | two | -  | - | encena: protesto (up) @5 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
-b11 | two | -  | placa: COMENTE! | - | -
+b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 18% | medio 68% | aberto 9% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 24% | medio 61% | aberto 9% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

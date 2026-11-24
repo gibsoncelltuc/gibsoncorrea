@@ -55,9 +55,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | canhões (23.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | trancou (25.0s) | ACAO: x_abre | empurra a porta | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 8 | - | PLACA | 3.000 | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | PLACA | 3.000 | OK |
 
 ## Cena b5 - 26.6s a 28.1s - 6 palavras - plano close
 > ""Eles não vão atirar", disse ele."
@@ -90,7 +89,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | pedir (40.2s) | ACAO: fala | aponta explicando | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 42.8s a 46.3s - 13 palavras - plano crowd
+## Cena b8 - 42.8s a 46.3s - 13 palavras - plano two
 > "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -98,8 +97,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | caiu (45.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | canhões (46.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | canhões (46.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 5 | - | PLACA | 9:40 | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 9:40 | OK |
 
 ## Cena b9 - 47.6s a 52.3s - 14 palavras - plano group
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
@@ -107,7 +107,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | colocaram (51.1s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 53.4s a 55.5s - 9 palavras - plano close
