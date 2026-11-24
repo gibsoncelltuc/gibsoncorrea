@@ -11,7 +11,7 @@ b3 | harbor | two | 1 | reagir | kit/falcon9_land | - | -
 b4 | loc_pista | wide | 1 | encena | kit/falcon9_land | - | -
 b5 | loc_pista | wide | 1 | reagir | kit/falcon9_land | - | -
 b6 | loc_pista | two | 1 | reagir | kit/falcon9_land | - | -
-b7 | loc_pista | orbit | 0 | batalha | kit/falcon9_land | - | -
+b7 | loc_pista | orbit | 1 | encena, batalha | kit/falcon9_land | - | -
 b8 | hall | reveal | 8 | comemorar | - | - | -
 b9 | loc_pista | two | 1 | conversar | kit/falcon9_land | - | -
 b10 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -

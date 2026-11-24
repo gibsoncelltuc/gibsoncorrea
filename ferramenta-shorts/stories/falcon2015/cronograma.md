@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
-Gerado em 24/11 21:06 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 21:14 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | harbor | two | ENG | - | falcon9_land | - | As primeiras tentativ
 b4 | simples | loc_pista | wide | MUS | - | falcon9_land | - | Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
 b5 | simples | loc_pista | wide | ENA | - | falcon9_land | - | Depois de soltar o topo, a parte de baixo voltou para a Terra.
 b6 | simples | loc_pista | two | ENG | - | falcon9_land | - | Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued
-b7 | chave | loc_pista | orbit | sem personagem | - | falcon9_land | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E pousou inteira, abrindo as pernas no último segundo.
+b7 | chave | loc_pista | orbit | ENG | - | falcon9_land | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E pousou inteira, abrindo as pernas no último segundo.
 b8 | simples | hall | reveal | ENA, ENG | 6 | - | - | Os funcionários da SpaceX comemoraram e se abraçaram.
 b9 | simples | loc_pista | two | MUS | - | falcon9_land | - | Foi a primeira vez que o primeiro estágio de um foguete orbital voltou
 b10 | simples | harbor | two | MUS, POV | - | - | - | Hoje, pousar de ré virou rotina.
