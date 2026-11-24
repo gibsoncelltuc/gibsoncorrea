@@ -14,7 +14,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "El Salvador é um país pequeno da América Central, cheio de vulcões."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
@@ -33,7 +33,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: entregar
 - OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
@@ -41,7 +41,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o turbina (alvo z -3.6, camera a 32.9 m, altura 3.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o turbina (alvo z -2.0, camera a 20.0 m, altura 3.0 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/turbina: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.5 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/volcano: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.2 m de altura x 23.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -72,7 +72,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: BUK no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
@@ -89,7 +89,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: batalha
 - OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena

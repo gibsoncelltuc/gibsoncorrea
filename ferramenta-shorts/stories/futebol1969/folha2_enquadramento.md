@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -3.6, camera a 22.8 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: batalha
 - OBJETO vehicles/tank: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.1 m de altura x 9.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 17.1 m de altura x 17.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

@@ -130,7 +130,7 @@
     [
      "kit/booster_air",
      0.0,
-     -8.0,
+     -9.9,
      1.0,
      {
       "fixo": true
@@ -145,7 +145,7 @@
    "detalhe": false,
    "quadro": {
     "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -3.6, camera a 29.7 m, altura 2.7 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 2.7 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/booster_air",
@@ -156,10 +156,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 2.7,
-   "d0": 31.2,
-   "d1": 29.7
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -170,7 +170,7 @@
     [
      "kit/tower",
      0.0,
-     -8.0,
+     -12.8,
      1.3,
      {
       "fixo": true
@@ -194,7 +194,7 @@
    },
    "quadro": {
     "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower (alvo z -3.6, camera a 44.0 m, altura 3.9 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/tower",
@@ -205,10 +205,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 3.9,
-   "d0": 46.2,
-   "d1": 44.0
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -219,7 +219,7 @@
     [
      "kit/tower_catch",
      0.0,
-     -8.0,
+     -11.3,
      1.0,
      {
       "fixo": true
@@ -237,7 +237,7 @@
    },
    "quadro": {
     "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -3.6, camera a 36.7 m, altura 3.3 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/tower_catch",
@@ -248,10 +248,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 3.3,
-   "d0": 38.5,
-   "d1": 36.7
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -267,7 +267,7 @@
     [
      "kit/booster_air",
      0.0,
-     -8.0,
+     -11.9,
      1.3,
      {
       "fixo": true
@@ -298,7 +298,7 @@
    "fachada": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -3.6, camera a 39.3 m, altura 3.5 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/booster_air",
@@ -315,10 +315,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 3.5,
-   "d0": 41.3,
-   "d1": 39.3
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -329,7 +329,7 @@
     [
      "kit/booster_air",
      0.0,
-     -8.0,
+     -11.9,
      1.3,
      {
       "fixo": true
@@ -362,7 +362,7 @@
    },
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -3.6, camera a 39.3 m, altura 3.5 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/booster_air",
@@ -379,10 +379,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 3.5,
-   "d0": 41.3,
-   "d1": 39.3
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -393,7 +393,7 @@
     [
      "kit/tower_catch",
      0.0,
-     -8.0,
+     -16.0,
      1.6,
      {
       "fixo": true
@@ -419,7 +419,7 @@
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -3.6, camera a 60.2 m, altura 5.3 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/tower_catch",
@@ -430,10 +430,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 5.3,
-   "d0": 63.2,
-   "d1": 60.2
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -450,7 +450,7 @@
     [
      "kit/tower_catch",
      0.0,
-     -8.0,
+     -13.7,
      1.3,
      {
       "fixo": true
@@ -474,7 +474,7 @@
    "fachada": false,
    "quadro": {
     "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -3.6, camera a 48.4 m, altura 4.3 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/tower_catch",
@@ -485,10 +485,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 4.3,
-   "d0": 50.9,
-   "d1": 48.4
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -516,7 +516,7 @@
     [
      "kit/tower_catch",
      0.0,
-     -8.0,
+     -13.7,
      1.3,
      {
       "fixo": true
@@ -534,7 +534,7 @@
    },
    "quadro": {
     "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -3.6, camera a 48.4 m, altura 4.3 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/tower_catch",
@@ -545,10 +545,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 4.3,
-   "d0": 50.9,
-   "d1": 48.4
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",

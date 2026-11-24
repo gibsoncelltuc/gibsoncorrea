@@ -4,7 +4,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos."
 - LOCAL: loja / taverna; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: TRU no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
@@ -20,7 +20,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: MAD no centro, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
@@ -32,7 +32,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: batalha
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +20 da cena
@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: SOL no centro, expressao angry; sem multidao; acao: fala/gesto
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
@@ -83,7 +83,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "A operação ganhou um nome que resume tudo: Resolução Absoluta."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: comemorar
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

@@ -340,7 +340,7 @@
     [
      "vehicles/tank",
      0.0,
-     -8.0,
+     -8.6,
      1.52,
      {
       "fixo": true
@@ -367,7 +367,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -3.6, camera a 22.8 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "vehicles/tank",
@@ -384,10 +384,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 2.4,
-   "d0": 24.0,
-   "d1": 22.8
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",

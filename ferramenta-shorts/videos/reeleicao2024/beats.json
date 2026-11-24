@@ -112,7 +112,7 @@
     [
      "kit/white_house",
      0.0,
-     -8.5,
+     -10.0,
      1.4,
      {
       "fixo": true
@@ -127,7 +127,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -3.8, camera a 27.3 m, altura 2.5 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/white_house",
@@ -138,10 +138,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.8,
+   "cz": -2.0,
    "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -220,7 +220,7 @@
     [
      "kit/white_house",
      0.0,
-     -8.5,
+     -10.0,
      1.4,
      {
       "fixo": true
@@ -243,7 +243,7 @@
    "detalhe": false,
    "quadro": {
     "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -3.8, camera a 27.3 m, altura 2.5 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/white_house",
@@ -254,10 +254,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.8,
+   "cz": -2.0,
    "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -319,7 +319,7 @@
     [
      "kit/white_house",
      0.0,
-     -8.5,
+     -10.0,
      1.4,
      {
       "fixo": true
@@ -335,7 +335,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -3.8, camera a 27.3 m, altura 2.5 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/white_house",
@@ -346,10 +346,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.8,
+   "cz": -2.0,
    "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -365,7 +365,7 @@
     [
      "kit/white_house",
      0.0,
-     -8.5,
+     -10.0,
      1.4,
      {
       "fixo": true
@@ -385,7 +385,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -3.8, camera a 27.3 m, altura 2.5 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/white_house",
@@ -396,10 +396,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.8,
+   "cz": -2.0,
    "h": 2.5,
-   "d0": 28.7,
-   "d1": 27.3
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",

@@ -121,7 +121,7 @@
     [
      "kit/volcano",
      0.0,
-     -12.8,
+     -20.5,
      2.6,
      {
       "fixo": true
@@ -136,7 +136,7 @@
    },
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/volcano",
@@ -147,10 +147,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -235,7 +235,7 @@
     [
      "kit/volcano",
      0.0,
-     -12.8,
+     -20.5,
      2.6,
      {
       "fixo": true
@@ -259,7 +259,7 @@
    },
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/volcano",
@@ -270,10 +270,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -293,7 +293,7 @@
     [
      "kit/turbina",
      0.0,
-     -8.0,
+     -10.6,
      1.6,
      {
       "fixo": true
@@ -328,7 +328,7 @@
    },
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o turbina (alvo z -3.6, camera a 32.9 m, altura 3.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o turbina (alvo z -2.0, camera a 20.0 m, altura 3.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/turbina",
@@ -351,10 +351,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 3.0,
-   "d0": 34.5,
-   "d1": 32.9
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -467,7 +467,7 @@
     [
      "kit/volcano",
      0.0,
-     -12.8,
+     -20.5,
      2.6,
      {
       "fixo": true
@@ -489,7 +489,7 @@
    "fachada": false,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/volcano",
@@ -500,10 +500,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -555,7 +555,7 @@
     [
      "kit/volcano",
      0.0,
-     -12.8,
+     -20.5,
      2.6,
      {
       "fixo": true
@@ -575,7 +575,7 @@
    "fachada": false,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -5.8, camera a 58.3 m, altura 5.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/volcano",
@@ -586,10 +586,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -5.8,
-   "h": 5.4,
-   "d0": 61.2,
-   "d1": 58.3
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",

@@ -72,7 +72,7 @@
     [
      "kit/helicopter_air",
      0.0,
-     -9.7,
+     -11.1,
      3.0,
      {
       "fixo": true
@@ -94,7 +94,7 @@
    "detalhe": false,
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/helicopter_air",
@@ -105,10 +105,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -4.4,
+   "cz": -2.0,
    "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "reveal",
@@ -131,7 +131,7 @@
     [
      "kit/helicopter_air",
      0.0,
-     -9.7,
+     -11.1,
      3.0,
      {
       "fixo": true
@@ -145,7 +145,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/helicopter_air",
@@ -156,10 +156,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -4.4,
+   "cz": -2.0,
    "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -186,7 +186,7 @@
     [
      "kit/helicopter_air",
      0.0,
-     -9.7,
+     -11.1,
      3.0,
      {
       "fixo": true
@@ -208,7 +208,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/helicopter_air",
@@ -219,10 +219,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -4.4,
+   "cz": -2.0,
    "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -234,7 +234,7 @@
     [
      "kit/helicopter_air",
      0.0,
-     -9.7,
+     -11.1,
      3.0,
      {
       "fixo": true
@@ -257,7 +257,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/helicopter_air",
@@ -268,10 +268,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -4.4,
+   "cz": -2.0,
    "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -386,7 +386,7 @@
     [
      "kit/helicopter_air",
      0.0,
-     -9.7,
+     -11.1,
      3.0,
      {
       "fixo": true
@@ -402,7 +402,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/helicopter_air",
@@ -413,10 +413,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -4.4,
+   "cz": -2.0,
    "h": 2.6,
-   "d0": 28.5,
-   "d1": 27.2
+   "d0": 21.0,
+   "d1": 20.0
   }
  ],
  "fontes": [
