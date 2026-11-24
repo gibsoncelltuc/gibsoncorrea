@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 2021,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
    "interior pedra",
@@ -50,7 +50,7 @@
   "kit/bitcoin",
   "kit/coin",
   "kit/globe",
-  "kit/room_eua_stone",
+  "kit/room_colonial_stone",
   "kit/stall",
   "kit/volcano",
   "mk/Bookcase_2",
