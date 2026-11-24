@@ -199,6 +199,7 @@ function placeProps(list) {
   for (const p of list || []) { const n = p.asset; used[n] = (used[n] || 0); const i = used[n]++; propPool[n] = propPool[n] || []; if (!propPool[n][i]) { const o = libInst(n, 0, 0, 0); o.traverse((m) => { if (m.isMesh) m.userData.c0 = m.material.color.clone(); }); propPool[n][i] = o; }
     const o = propPool[n][i]; o.visible = true; o.position.set(p.x, p.y ?? DECK, p.z); o.rotation.set(p.rx || 0, p.ry || 0, p.rz || 0); o.scale.set(p.s || 1, (p.s || 1) * (p.sy ?? 1), p.s || 1);
     o.traverse((m) => { if (m.isMesh) { if (p.tint) m.material.color.set(p.tint); else if (m.userData.c0) m.material.color.copy(m.userData.c0); } });
+    /* v13 RAIO-X: o objeto fica translucido (ve-se o que tem dentro: tanque, propulsor...). Volta ao normal quando a cena acaba. */ { const xr = p.xray || 0; if (xr || o.userData.xr) { o.userData.xr = xr; o.traverse((m) => { if (!m.isMesh) return; if (xr && !m.userData.matX) { m.userData.mat0x = m.material; m.userData.matX = m.material.clone(); m.userData.matX.transparent = true; m.userData.matX.depthWrite = false; m.userData.matX.color.set('#7fc8ff'); } if (xr) { m.material = m.userData.matX; m.material.opacity = 1 - 0.62 * xr; m.castShadow = false; } else if (m.userData.mat0x) { m.material = m.userData.mat0x; m.castShadow = true; } }); } }
     const t = p.t || 0; o.traverse((c) => { const nm = c.name || '';
       if (nm.startsWith('wheelz')) c.rotation.z = -(((p.dxw || 0) * Math.cos(p.ry || 0)) - ((p.dzw || 0) * Math.sin(p.ry || 0))) / 0.42; else if (nm.startsWith('wheel')) c.rotation.x = -(p.dist || 0) / 0.45; if (nm === 'propeller' || nm === 'blades') c.rotation.z = t * 28; if (nm === 'rotor') c.rotation.y = t * 24; if (nm === 'turret') c.rotation.y = p.turret || 0; if (nm === 'barrel') { c.rotation.y = p.turret || 0; c.rotation.x = p.pitch || 0; c.position.z = (p.recoil || 0) * 0.4; } if (nm === 'body' && p.bob) c.position.y = Math.sin(t * 9) * p.bob; if (p.walk) { if (nm === 'legL') c.rotation.x = Math.sin(t * p.walk) * 0.7; if (nm === 'legR') c.rotation.x = -Math.sin(t * p.walk) * 0.7; if (nm === 'head') c.rotation.x = 0.12 * Math.sin(t * p.walk * 2); } if (p.peck && nm === 'head') c.rotation.x = 0.9 * Math.max(0, Math.sin(t * 3.2 + (p.t0 || 0)));
       // emu novo (blender/make_emu.py): joelho, pescoco que balanca/bica, corpo que sacode
@@ -262,6 +263,59 @@ SETDEF.harbor = (X) => {
   farHills(X, -150, '#7d93b8', '#8aa0c4', 12, 300);
 };
 UPD.push((W, f, t) => { world.children.forEach((m) => { if (m.userData && m.userData.wv !== undefined) { m.position.x += Math.sin(t * 0.6 + m.userData.wv) * 0.01; m.scale.x = 1 + 0.25 * Math.sin(t * 1.3 + m.userData.wv * 2); } }); });
+// ===== LOCACOES LIMPAS (v13, 24/11): cenarios SEM tema de outro video. Nada de celeiro, moinho, trigo, saco de areia, barril:
+// so' chao + horizonte + o que a pesquisa visual (DOSSIE) mandar por em "itens". Cada uma tem seu X (mkvideo SETS_X).
+// globalThis.LOCCFG = { loc_pista: { chao: '#333', itens: [[asset, dx, z, s, ry], ...], linhas: false, horizonte: 'nenhum' }, ... }  (vem do roteiro: "locacao")
+const _locCfg = (n) => (globalThis.LOCCFG && globalThis.LOCCFG[n]) || {};
+const _locItens = (n, X) => { for (const it of (_locCfg(n).itens || [])) { if (!LIBA[it[0]]) continue; libInst(it[0], X + (it[1] || 0), DECK, it[2] || -12, it[4] || 0, it[3] || 1); } };
+const _locBoxCity = (X, z0, cols, n = 16, seed = 31) => { const r = P.rng(seed); for (let i = 0; i < n; i++) { const w = 7 + r() * 9, h = 10 + r() * 34, x = X - 130 + i * (260 / n) + r() * 6; const g = new THREE.Group(); g.position.set(x, DECK, z0 - r() * 30); world.add(g);
+    add(box(w, h, w * 0.8), toon({ color: cols[i % cols.length] }), 0, h / 2, 0, g); const wm = new THREE.MeshBasicMaterial({ color: globalThis.LOC_NOITE ? '#ffe9a8' : '#cfe3f2' });
+    for (let a = 0; a < Math.floor(h / 3.2); a++) for (let b = 0; b < 3; b++) { if (globalThis.LOC_NOITE && r() < 0.45) continue; const m = add(box(w * 0.2, 1.2, 0.08), wm, (b - 1) * w * 0.3, 2.2 + a * 3.2, w * 0.4 + 0.05, g); m.castShadow = false; } } };
+SETDEF.loc_pista = (X) => {   // pista de testes / patio de evento moderno: asfalto escuro, faixas, sem nada rural
+  const c = _locCfg('loc_pista'); groundPlane(X, 0, 320, 240, toon({ color: c.chao || '#3a3d45' }), DECK, 8);
+  if (c.linhas !== false) { const wl = toon({ color: '#e9e9e2' }), yl = toon({ color: '#e8c33a' }); for (let i = -14; i <= 14; i++) { const m = add(box(3.4, 0.02, 0.22), wl, X + i * 7, DECK + 0.03, 3.2, world); m.castShadow = false; }
+    for (const z of [-7.5, 8.5]) { const m = add(box(260, 0.02, 0.2), yl, X, DECK + 0.03, z, world); m.castShadow = false; } }
+  if ((c.horizonte || 'colinas') === 'colinas') farHills(X, -150, c.cor_horizonte || '#2c3140', '#343a4c', 14, 300);
+  else if (c.horizonte === 'cidade') _locBoxCity(X, -90, ['#4b5568', '#5a6478', '#3f4858', '#667189']);
+  _locItens('loc_pista', X);
+};
+SETDEF.loc_patio = (X) => {   // patio de fabrica / area industrial moderna: concreto claro e galpoes lisos ao fundo
+  const c = _locCfg('loc_patio'); groundPlane(X, 0, 320, 240, toon({ color: c.chao || '#9a9c9f' }), DECK, 8);
+  const jm = toon({ color: '#85878b' }); for (let i = -10; i <= 10; i++) { const m = add(box(0.12, 0.02, 60), jm, X + i * 8, DECK + 0.02, -6, world); m.castShadow = false; }
+  if (c.horizonte !== 'nenhum') { const r = P.rng(57); for (let i = 0; i < 7; i++) { const w = 26 + r() * 16, h = 9 + r() * 5, g = new THREE.Group(); g.position.set(X - 120 + i * 40, DECK, -70 - r() * 14); world.add(g); add(box(w, h, 22), toon({ color: ['#c9cdd3', '#b7bcc4', '#d6d9dd'][i % 3] }), 0, h / 2, 0, g); add(box(w + 0.6, 0.7, 22.6), toon({ color: '#6d7480' }), 0, h + 0.35, 0, g); add(box(5, 5, 0.2), toon({ color: '#58606c' }), 0, 2.5, 11.05, g); } }
+  farHills(X, -190, c.cor_horizonte || '#9fb1c4', '#aebdcd', 12, 330); _locItens('loc_patio', X);
+};
+SETDEF.loc_deserto = (X) => {   // deserto limpo: areia, dunas e pedras. SEM fazenda, SEM trigo, SEM cerca
+  const c = _locCfg('loc_deserto'); groundPlane(X, 0, 320, 240, toon({ color: c.chao || '#dcbf85' }), DECK, 8);
+  const r = P.rng(71), dn = [toon({ color: '#d3b477' }), toon({ color: '#e3c992' })];
+  for (let i = 0; i < 16; i++) { const m = add(new THREE.SphereGeometry(1, 16, 8), dn[i % 2], X + (r() - 0.5) * 300, DECK - 0.5, -60 - r() * 70, world); m.scale.set(22 + r() * 26, 3 + r() * 5, 14 + r() * 12); m.castShadow = false; }
+  if (LIBA['nature/rocks']) for (let i = 0; i < 12; i++) libInst('nature/rocks', X + (r() - 0.5) * 200, DECK, -34 - r() * 40, r() * 6, 1.2 + r() * 1.6);
+  farHills(X, -150, c.cor_horizonte || '#c9a26e', '#d6b381', 14, 290); _locItens('loc_deserto', X);
+};
+SETDEF.loc_campo = (X) => {   // campo aberto limpo: grama, arvores longe e colinas. SEM casa, SEM celeiro, SEM moinho
+  const c = _locCfg('loc_campo'); groundPlane(X, 0, 320, 240, toon({ color: c.chao || '#86b35a' }), DECK, 8);
+  makeTufts(X, 0, 200, 70, 2200, ['#7fae52', '#93bf63', '#6f9f48'], () => true, 0.32);
+  const r = P.rng(93); if (LIBA['nature/tree_oak']) for (let i = 0; i < 18; i++) libInst('nature/tree_oak', X + (r() - 0.5) * 260, DECK, -42 - r() * 50, r() * 6, 1.3 + r() * 0.9);
+  farHills(X, -150, c.cor_horizonte || '#6f9a66', '#80a977', 14, 290); _locItens('loc_campo', X);
+};
+SETDEF.loc_montanha = (X) => {   // montanha limpa: chao de pedra, picos. SEM saco de areia, SEM castelo, SEM igreja
+  const c = _locCfg('loc_montanha'); groundPlane(X, 0, 320, 240, toon({ color: c.chao || '#8d8a80' }), DECK, 8);
+  const r = P.rng(41), pk = [toon({ color: '#75727a' }), toon({ color: '#8a8790' }), toon({ color: '#e9edf2' })];
+  for (let i = 0; i < 11; i++) { const h = 40 + r() * 50, x = X - 170 + i * 34 + r() * 10, z = -120 - r() * 50; const m = add(new THREE.ConeGeometry(26 + r() * 16, h, 7), pk[i % 2], x, DECK + h / 2 - 2, z, world); m.castShadow = false; const s = add(new THREE.ConeGeometry(9, h * 0.28, 7), pk[2], x, DECK + h * 0.86 - 2, z, world); s.castShadow = false; }
+  if (LIBA['nature/rocks']) for (let i = 0; i < 16; i++) libInst('nature/rocks', X + (r() - 0.5) * 180, DECK, -22 - r() * 40, r() * 6, 1.3 + r() * 2.2);
+  _locItens('loc_montanha', X);
+};
+SETDEF.loc_cidade = (X) => {   // cidade moderna (depois de 1950): asfalto, calcada, predios de vidro/concreto. SEM lampiao, SEM barril
+  const c = _locCfg('loc_cidade'); groundPlane(X, 0, 320, 240, toon({ color: c.chao || '#50535a' }), DECK, 8);
+  const cal = add(box(300, 0.16, 6), toon({ color: '#b9bcc0' }), X, DECK + 0.08, -9.5, world); cal.castShadow = false;
+  const wl = toon({ color: '#e9e9e2' }); for (let i = -14; i <= 14; i++) { const m = add(box(3.0, 0.02, 0.2), wl, X + i * 7, DECK + 0.03, 4.2, world); m.castShadow = false; }
+  _locBoxCity(X, -22, ['#8fa3b8', '#a9b7c6', '#7b8fa6', '#c4ccd6', '#6d7f96'], 18, 33); _locBoxCity(X, -70, ['#75869c', '#8b9ab0', '#63748b'], 14, 35); _locItens('loc_cidade', X);
+};
+SETDEF.loc_estudio = (X) => {   // ESTUDIO DE EXPLICACAO (cena de ciencia sem personagem): chao escuro com grade, fundo liso, nada mais
+  const c = _locCfg('loc_estudio'); groundPlane(X, 0, 400, 400, new THREE.MeshBasicMaterial({ color: c.chao || '#2a5fa8', fog: false }), DECK, 8);
+  const gm = new THREE.MeshBasicMaterial({ color: c.grade || '#6fb0f0', fog: false }); for (let i = -30; i <= 30; i++) { const a = add(box(0.05, 0.01, 140), gm, X + i * 2, DECK + 0.015, -20, world), b = add(box(140, 0.01, 0.05), gm, X, DECK + 0.015, -20 + i * 2, world); a.castShadow = b.castShadow = false; a.userData.ndSkip = b.userData.ndSkip = true; }
+  const bk = add(new THREE.PlaneGeometry(600, 240), new THREE.MeshBasicMaterial({ color: c.fundo || '#3273c4', fog: false }), X, DECK + 100, -95, world); bk.castShadow = false; bk.userData.ndSkip = true;
+};
 // More sets: arctic, palace (Zanzibar shore), jungle, medieval, street, hall, stadium.
 SETDEF.arctic = (X) => {
   groundPlane(X, 0, 300, 220, MW.snow, DECK, 8); groundPlane(X, -30, 120, 60, toon({ color: '#a9c2f2' }), DECK + 0.02, 8);
@@ -382,16 +436,25 @@ const DRESS = {
   stadium: ['nature/bench'],
   harbor: ['crate', 'barrel', 'tools/lantern', 'war/cannonballs', 'tools/bucket'],
   mountain: ['nature/rocks', 'war/sandbags', 'crate', 'barrel', 'tools/shovel', 'tools/lantern'],
+  loc_pista: ['kit/cone_transito', 'kit/barreira_jersey'], loc_patio: ['kit/cone_transito', 'kit/barreira_jersey', 'kit/palete'], loc_cidade: ['nature/bench', 'kit/cone_transito'],
+  loc_deserto: ['nature/rocks'], loc_campo: ['nature/bush', 'nature/rocks'], loc_montanha: ['nature/rocks'], loc_estudio: [],
 };
+// ===== ENFEITE POR EPOCA (v13, 24/11, Gibson: "objeto antigo em video de 2026"): cada enfeite so' existe entre o ano [de, ate]. globalThis.ERA_ANO vem do roteiro.
+// globalThis.DRESS_OFF = ['barrel', ...] (proibidos da pesquisa visual) tira o que sobrar; guerra so' com globalThis.ERA_GUERRA.
+const DRESS_ERA = { barrel: [-9999, 1945], crate: [-9999, 1965], 'tools/lantern': [-9999, 1925], 'war/drum': [-9999, 1900], 'war/shield': [-9999, 1600], 'war/cannonballs': [1300, 1880], 'tools/anvil': [-9999, 1930],
+  'tools/bucket': [-9999, 1975], 'tools/shovel': [-9999, 1990], 'tools/axe': [-9999, 1960], 'tools/ladder': [-9999, 1990], 'nature/haybale': [-9999, 1990], 'mk/Bench': [-9999, 1900], 'kit/cone_transito': [1950, 9999], 'kit/barreira_jersey': [1960, 9999], 'kit/palete': [1950, 9999] };
+const _dressOk = (n) => { const y = globalThis.ERA_ANO, e = DRESS_ERA[n]; if (y && e && (y < e[0] || y > e[1])) return false; if (n === 'war/sandbags' && (!globalThis.ERA_GUERRA || (y && (y < 1850 || y > 1975)))) return false; if ((globalThis.DRESS_OFF || []).some((k) => n.includes(k))) return false; return true; };
+for (const k of Object.keys(DRESS)) DRESS[k] = DRESS[k].filter(_dressOk);
 const SWAY = []; let _swayInit = false;
 function dressSet(name, X) {
   if (!_swayInit) { _swayInit = true; UPD.push((W, f, t) => { SWAY.forEach((o) => { const wd = windAt(o.position.x, o.position.z, t); o.rotation.z = Math.sin(t * (1.6 + 1.4 * wd) + o.userData.sw) * o.userData.swA * (0.5 + WX.wind * 1.4 + wd); o.rotation.x = Math.sin(t * 1.3 + o.userData.sw * 2) * o.userData.swA * 0.5; }); }); }
-  const list = DRESS[name]; if (!list) return;
-  if (!['hall', 'stadium', 'harbor', 'arctic'].includes(name)) { const N = 110, g = new THREE.IcosahedronGeometry(1, 0), im = new THREE.InstancedMesh(g, toon({ color: '#ffffff' }), N), rq = P.rng(5 + name.length), mx = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), v = new THREE.Vector3(), sc = new THREE.Vector3();
+  const list = DRESS[name]; if (!list || !list.length) return;
+  if (!['hall', 'stadium', 'harbor', 'arctic', 'loc_pista', 'loc_patio', 'loc_cidade', 'loc_estudio'].includes(name)) { const N = 110, g = new THREE.IcosahedronGeometry(1, 0), im = new THREE.InstancedMesh(g, toon({ color: '#ffffff' }), N), rq = P.rng(5 + name.length), mx = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), v = new THREE.Vector3(), sc = new THREE.Vector3();
     const cols = ['#8a8178', '#a39a8c', '#6f675e', '#b3a898', '#7d7468'];
     for (let i = 0; i < N; i++) { const s = 0.04 + rq() * 0.13; v.set(X + (rq() - 0.5) * 34, DECK + s * 0.3, -14 + rq() * 28); e.set(rq() * 6, rq() * 6, rq() * 6); q.setFromEuler(e); sc.set(s * (1 + rq()), s, s * (1 + rq())); mx.compose(v, q, sc); im.setMatrixAt(i, mx); im.setColorAt(i, new THREE.Color(cols[i % 5])); }
     im.castShadow = false; im.receiveShadow = true; world.add(im); } const rf = P.rng(900 + name.length * 13);
   const put = (n, x, z, s) => { if (!LIBA[n]) return; const o = libInst(n, X + x, DECK, z, rf() * 6.28, s); if (/bush|tree|lantern|haybale|scarecrow|flowerbed/.test(n)) { o.userData.sw = rf() * 6; o.userData.swA = n.includes('lantern') ? 0.09 : 0.035; SWAY.push(o); } return o; };
+  if (name.startsWith('loc_')) { for (const sd of [-1, 1]) for (let i = 0; i < 5; i++) { const n = list[Math.floor(rf() * list.length)]; put(n, sd * (8.5 + rf() * 9), -7 - rf() * 9, 0.95 + rf() * 0.25); } return; }   /* v13 locacao limpa: poucos objetos, so' nas LATERAIS e ao fundo (o centro e' do objeto/da acao) */
   const fg = list.filter((n) => !/bucket|haybale|bush|tree|palm|ladder|bench|flowerbed|sandbags/.test(n)); const fgl = fg.length ? fg : list;
   for (const k of [-1, 0, 1]) for (let i = 0; i < 5; i++) { const n = fgl[Math.floor(rf() * fgl.length)]; const side = rf() < 0.5 ? -1 : 1; const x = k * 8 + side * (2.6 + rf() * 2.8); put(n, x, 5.2 + rf() * 3.0, 0.42 + rf() * 0.3); }
   for (const k of [-1, 0, 1]) for (let i = 0; i < 4; i++) { const n = list[Math.floor(rf() * list.length)]; const side = rf() < 0.5 ? -1 : 1; const x = k * 8 + side * (3.2 + rf() * 5); put(n, x, -2.5 - rf() * 5, 0.9 + rf() * 0.6); }
@@ -456,7 +519,51 @@ function sceneryLights(L, f, C, focus) {
   const sa = L.az * Math.PI / 180, se = L.el * Math.PI / 180; sunGlow.position.set(C.pos[0] + Math.cos(se) * Math.cos(sa) * 1000, C.pos[1] + Math.sin(se) * 1000, C.pos[2] + Math.cos(se) * Math.sin(sa) * 1000); sunGlow.lookAt(C.pos[0], C.pos[1], C.pos[2]); sunGlow.scale.setScalar(L.glow ? 520 : 0.0001); sunGlow.material.opacity = L.glow || 0;
   updateMotes(f, C, !!L.shafts);
   shafts.forEach((m, i) => { m.visible = !!L.shafts; if (!L.shafts) return; const k = i / (shafts.length - 1) - 0.5; m.material.opacity = L.shafts * (0.35 + 0.25 * Math.sin(f * 0.03 + i)); m.position.set(C.look[0] + k * 9 + Math.sin(f * 0.01 + i) * 0.4, C.look[1] + 8, C.look[2] - 3 - Math.abs(k) * 4); m.rotation.set(0, Math.atan2(C.pos[0] - m.position.x, C.pos[2] - m.position.z), -0.35); });
-}// ---------- cards ----------
+}// ===== VFX 3D ANCORADO NO OBJETO (v13, 24/11, Gibson: "a fumaca, a propulsao funcionando", "voce economiza na animacao") =====
+// Particulas deterministicas (funcao pura do quadro): cada uma nasce na pose que o objeto tinha no quadro em que nasceu e segue a fisica do tipo dela.
+// Entrada: W.vfx (web/runtime.js worldAt). Tipos: jato (propulsor de gas frio: sai de baixo, bate no chao e se espalha), pneu, poeira, fogo, faisca, vapor, velocidade, onda, brilho.
+const VFXN = 900, _vh = (n) => { const x = Math.sin(n * 12.9898 + 4.1414) * 43758.5453; return x - Math.floor(x); };
+const vfxPuff = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1, 1), toon({ color: '#ffffff' }), VFXN); vfxPuff.frustumCulled = false; vfxPuff.castShadow = false; vfxPuff.receiveShadow = false; vfxPuff.instanceColor = new THREE.InstancedBufferAttribute(new Float32Array(VFXN * 3).fill(1), 3); scene.add(vfxPuff);
+const vfxGlow = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1, 1), new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.85, depthWrite: false, blending: THREE.AdditiveBlending, fog: false }), VFXN); vfxGlow.frustumCulled = false; vfxGlow.userData.ndSkip = true; vfxGlow.renderOrder = 5; vfxGlow.instanceColor = new THREE.InstancedBufferAttribute(new Float32Array(VFXN * 3).fill(1), 3); scene.add(vfxGlow);
+const vfxCone = new THREE.InstancedMesh(new THREE.ConeGeometry(1, 1, 12, 1, true), new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.8, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.DoubleSide, fog: false }), 64); vfxCone.frustumCulled = false; vfxCone.userData.ndSkip = true; vfxCone.renderOrder = 5; vfxCone.instanceColor = new THREE.InstancedBufferAttribute(new Float32Array(64 * 3).fill(1), 3); scene.add(vfxCone);
+const vfxLine = new THREE.InstancedMesh(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.75, depthWrite: false, fog: false }), 160); vfxLine.frustumCulled = false; vfxLine.userData.ndSkip = true; vfxLine.renderOrder = 5; scene.add(vfxLine);
+const vfxRing = new THREE.InstancedMesh(new THREE.TorusGeometry(1, 0.06, 6, 40), new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.8, depthWrite: false, fog: false }), 24); vfxRing.frustumCulled = false; vfxRing.userData.ndSkip = true; vfxRing.renderOrder = 5; scene.add(vfxRing);
+const vfxLight = new THREE.PointLight('#bfe6ff', 0, 14, 1.6); vfxLight.castShadow = false; scene.add(vfxLight);
+const _vD = new THREE.Object3D(), _vM = new THREE.Matrix4(), _vQ = new THREE.Quaternion(), _vS = new THREE.Vector3(), _vP = new THREE.Vector3(), _vC = new THREE.Color(), _vUp = new THREE.Vector3(0, 1, 0), _vDir = new THREE.Vector3(), _vBB = {};
+const vfxBox = (asset) => { if (_vBB[asset]) return _vBB[asset]; const o = LIBA[asset]; if (!o) return (_vBB[asset] = { min: new THREE.Vector3(-1, 0, -1), max: new THREE.Vector3(1, 1, 1) }); const s0 = o.scale.clone(), p0 = o.position.clone(), r0 = o.rotation.clone(); o.position.set(0, 0, 0); o.rotation.set(0, 0, 0); o.scale.setScalar(1); o.updateMatrixWorld(true); const b = new THREE.Box3().setFromObject(o); o.position.copy(p0); o.rotation.copy(r0); o.scale.copy(s0); o.updateMatrixWorld(true); return (_vBB[asset] = b); };
+const vfxPts = (e) => { if (Array.isArray(e.pts)) return e.pts; const b = vfxBox(e.asset), cx = (b.min.x + b.max.x) / 2, cz = (b.min.z + b.max.z) / 2, hx = (b.max.x - b.min.x) * 0.33, hz = (b.max.z - b.min.z) * 0.33, y0 = b.min.y + (b.max.y - b.min.y) * 0.12;
+  if (e.pts === 'tras2') { const fr = e.fr || 1, xr = fr > 0 ? b.min.x : b.max.x, ym = b.min.y + (b.max.y - b.min.y) * 0.35; return [[xr, ym, cz - hz * 0.8], [xr, ym, cz + hz * 0.8]]; } if (e.pts === 'centro') return [[cx, y0, cz]]; if (e.pts === 'topo') return [[cx, b.max.y, cz]]; if (e.pts === 'meio') return [[cx, (b.min.y + b.max.y) / 2, cz]];
+  return [[cx - hx, y0, cz - hz], [cx + hx, y0, cz - hz], [cx - hx, y0, cz + hz], [cx + hx, y0, cz + hz]]; };
+const vfxPose = (ps) => { _vD.position.set(ps[0], ps[1], ps[2]); _vD.rotation.set(ps[3], ps[4], ps[5]); _vD.scale.setScalar(ps[6]); _vD.updateMatrix(); return _vD.matrix; };
+function vfxUpdate(W, f) {
+  let nP = 0, nG = 0, nC = 0, nL = 0, nR = 0, lightI = 0; const lp = [0, 0, 0];
+  const puff = (x, y, z, s, col, sy = 1) => { if (nP >= VFXN || s <= 0.01) return; _vS.set(s, s * sy, s); _vP.set(x, y, z); _vQ.identity(); _vM.compose(_vP, _vQ, _vS); vfxPuff.setMatrixAt(nP, _vM); vfxPuff.setColorAt(nP, _vC.set(col)); nP++; };
+  const glow = (x, y, z, s, col) => { if (nG >= VFXN || s <= 0.01) return; _vS.set(s, s, s); _vP.set(x, y, z); _vQ.identity(); _vM.compose(_vP, _vQ, _vS); vfxGlow.setMatrixAt(nG, _vM); vfxGlow.setColorAt(nG, _vC.set(col)); nG++; };
+  for (const e of (W.vfx || [])) { const pts = vfxPts(e), pot = e.pot || 1, on = f >= e.a && f <= e.b, K = e.k;
+    if (K === 'jato' || K === 'pneu' || K === 'poeira' || K === 'fogo' || K === 'faisca' || K === 'vapor') {
+      for (let j = 0; j < e.L; j++) { const ps = e.trail[j]; if (!ps) continue; const g = f - j, u = j / e.L, m = vfxPose(ps).clone(), sc = ps[6];
+        pts.forEach((pt, pi) => { const reps = K === 'faisca' ? 3 : (K === 'jato' || K === 'pneu') ? 2 : 1; for (let r = 0; r < reps; r++) { const sd = g * 7.13 + pi * 31.7 + r * 3.3, h1 = _vh(sd), h2 = _vh(sd + 1.7), h3 = _vh(sd + 5.1);
+          _vP.set(pt[0], pt[1], pt[2]).applyMatrix4(m); let x = _vP.x, y = _vP.y, z = _vP.z; const t = j / 30;
+          if (K === 'jato') { if (e.dir === 'tras') _vDir.set(-(e.fr || 1), 0, 0).transformDirection(m); else _vDir.set(0, -1, 0).transformDirection(m); const v = 11 * pot, tr = v * t * (1 - 0.45 * u), jx = (h1 - 0.5) * 0.9 * u * 2.2, jz = (h2 - 0.5) * 0.9 * u * 2.2; x += _vDir.x * tr + jx; y += _vDir.y * tr; z += _vDir.z * tr + jz;
+            const gy = DECK + 0.18; if (e.dir === 'tras') y += 0.5 * u * (0.4 + h3); if (y < gy) { const ex = gy - y, a = h3 * 6.2832; x += Math.cos(a) * ex * 0.9; z += Math.sin(a) * ex * 0.9 * 0.6; y = gy + 0.12 * ex * h1; }   /* bate no chao e se espalha em anel (downwash) */
+            puff(x, y, z, (0.16 + 0.62 * u) * pot * sc * 0.55 * (u > 0.7 ? (1 - u) / 0.3 : 1), u < 0.25 ? '#ffffff' : u < 0.6 ? '#e6eef5' : '#cdd8e2'); if (j < 3 && r === 0) glow(x, y, z, 0.3 * pot * sc * 0.55, e.col || '#9fdcff'); }
+          else if (K === 'pneu') { x += (h1 - 0.5) * 1.6 * u; z += (h2 - 0.5) * 1.6 * u; y = DECK + 0.2 + 1.5 * u * (0.5 + h3); puff(x, y, z, (0.13 + 0.42 * u) * pot * (u > 0.65 ? (1 - u) / 0.35 : 1), u < 0.4 ? '#f2f2ee' : '#d4d4d0'); }
+          else if (K === 'poeira') { x += (h1 - 0.5) * 2.4 * u; z += (h2 - 0.5) * 1.2 * u; y = DECK + 0.15 + 0.9 * u * h3; puff(x, y, z, (0.18 + 0.6 * u) * pot * (u > 0.6 ? (1 - u) / 0.4 : 1), e.col || '#d8c39a', 0.7); }
+          else if (K === 'vapor') { x += (h1 - 0.5) * 0.8 * u; z += (h2 - 0.5) * 0.8 * u; y += 2.2 * u * (0.6 + 0.4 * h3); puff(x, y, z, (0.12 + 0.4 * u) * pot * (1 - u), '#f4f6f8'); }
+          else if (K === 'fogo') { x += (h1 - 0.5) * 0.7 * (0.3 + u); z += (h2 - 0.5) * 0.7 * (0.3 + u); y += 2.6 * u * (0.6 + 0.5 * h3) * pot; if (u < 0.6) glow(x, y, z, (0.34 - 0.3 * u) * pot * (0.7 + 0.5 * h3), u < 0.2 ? '#fff2a8' : u < 0.4 ? '#ffb02e' : '#f0531c'); else puff(x, y, z, (0.2 + 0.4 * (u - 0.6)) * pot * (1 - u) / 0.4, '#4a4744'); }
+          else if (K === 'faisca') { const a = h1 * 6.2832, v = 3 + 5 * h2; x += Math.cos(a) * v * t; z += Math.sin(a) * v * t * 0.6; y += (2 + 4 * h3) * t - 9.8 * t * t; if (y > DECK) glow(x, y, z, 0.06 * pot * (1 - u), r % 2 ? (e.col || '#ffe98a') : '#ffffff'); } } }); }
+      if (K === 'jato' && on) { const m = vfxPose(e.now).clone(), sc = e.now[6]; if (e.dir === 'tras') _vDir.set(-(e.fr || 1), 0, 0).transformDirection(m); else _vDir.set(0, -1, 0).transformDirection(m); pts.forEach((pt, pi) => { if (nC >= 64) return; const fl = 0.8 + 0.4 * _vh(f * 3.7 + pi), len = 1.5 * pot * sc * fl; _vP.set(pt[0], pt[1], pt[2]).applyMatrix4(m); lp[0] += _vP.x; lp[1] += _vP.y; lp[2] += _vP.z; _vP.addScaledVector(_vDir, len / 2); _vQ.setFromUnitVectors(_vUp, _vDir.clone().negate()); _vS.set(0.26 * pot * sc, len, 0.26 * pot * sc); _vM.compose(_vP, _vQ, _vS); vfxCone.setMatrixAt(nC, _vM); vfxCone.setColorAt(nC, _vC.set(e.col || '#bfe9ff')); nC++; }); lightI = Math.max(lightI, 6 * pot); lp[0] /= pts.length; lp[1] /= pts.length; lp[2] /= pts.length; lp[1] -= 0.6; }
+      if (K === 'fogo' && on) { lightI = Math.max(lightI, 5 * pot); const m = vfxPose(e.now); _vP.set(pts[0][0], pts[0][1], pts[0][2]).applyMatrix4(m); lp[0] = _vP.x; lp[1] = _vP.y + 1; lp[2] = _vP.z; vfxLight.color.set('#ffb060'); } else if (K === 'jato') vfxLight.color.set('#bfe6ff');
+    } else if (K === 'velocidade' && on) { const dx = e.now[0] - e.prev[0], dy = 0, dz = e.now[2] - e.prev[2], sp = Math.hypot(dx, dz);   /* riscos de velocidade sempre na horizontal, colados atras do objeto */ if (sp > 0.05) { const b = vfxBox(e.asset), sc = e.now[6], R = Math.max(b.max.x - b.min.x, b.max.z - b.min.z) * sc * 0.5; _vDir.set(dx / sp, dy / sp, dz / sp);
+        for (let i = 0; i < 14 && nL < 160; i++) { const h1 = _vh(i * 9.1 + Math.floor(f / 2) * 3.3), h2 = _vh(i * 5.7 + 2), h3 = _vh(i * 3.3 + Math.floor(f / 2)); const len = (1.2 + 2.6 * h1) * Math.min(1.6, sp * 1.5) * pot; _vP.set(e.now[0], e.now[1] + (b.max.y - b.min.y) * sc * (0.15 + 0.8 * h2), e.now[2] + (h3 - 0.5) * 1.6).addScaledVector(_vDir, -(R + 0.15 + len / 2 + h3 * 0.8)); _vQ.setFromUnitVectors(new THREE.Vector3(1, 0, 0), _vDir); _vS.set(len, 0.035, 0.035); _vM.compose(_vP, _vQ, _vS); vfxLine.setMatrixAt(nL++, _vM); } } }
+    else if (K === 'onda') { const n = e.n || 3, T = e.dur || 26; for (let i = 0; i < n && nR < 24; i++) { const u = (f - e.a - i * (e.cada || 9)) / T; if (u < 0 || u > 1) continue; const R = (0.6 + (e.raio || 6) * u) * pot; _vP.set(e.now[0], DECK + 0.12, e.now[2]); _vQ.setFromAxisAngle(new THREE.Vector3(1, 0, 0), Math.PI / 2); _vS.set(R, R, 1 + 2 * (1 - u)); _vM.compose(_vP, _vQ, _vS); vfxRing.setMatrixAt(nR++, _vM); } }
+    else if (K === 'brilho' && on) { const b = vfxBox(e.asset), sc = e.now[6], m = vfxPose(e.now); _vP.set((b.min.x + b.max.x) / 2, (b.min.y + b.max.y) / 2, (b.min.z + b.max.z) / 2).applyMatrix4(m); const pu = 0.85 + 0.15 * Math.sin(f * 0.5); glow(_vP.x, _vP.y, _vP.z, Math.max(b.max.x - b.min.x, b.max.y - b.min.y, b.max.z - b.min.z) * sc * 0.62 * pu * pot, e.col || '#7fd4ff'); lightI = Math.max(lightI, 3 * pot); lp[0] = _vP.x; lp[1] = _vP.y; lp[2] = _vP.z; vfxLight.color.set(e.col || '#7fd4ff'); } }
+  vfxPuff.count = nP; vfxGlow.count = nG; vfxCone.count = nC; vfxLine.count = nL; vfxRing.count = nR;
+  for (const im of [vfxPuff, vfxGlow, vfxCone, vfxLine, vfxRing]) { im.visible = im.count > 0; im.instanceMatrix.needsUpdate = true; if (im.instanceColor) im.instanceColor.needsUpdate = true; }
+  vfxLight.intensity = lightI; if (lightI > 0) vfxLight.position.set(lp[0], lp[1], lp[2]);
+}
+UPD.push((W, f) => vfxUpdate(W, f));
+// ---------- cards ----------
 const CW = 1200, CH = 2000, CM = 2.25; // canvas px, card height in metres (design 600x1000 -> 2.25 m)
 const cardGeo = new THREE.PlaneGeometry(CM * 0.6, CM); cardGeo.translate(0, CM / 2 - CM * 0.025, 0);
 const blobTex = P.tex(P.radial('20,14,30', 0.6));

@@ -2,8 +2,9 @@
 # SINCRONIZA A FERRAMENTA AUTOMATICAMENTE (ordem do Gibson 19/11: as sessoes recebem e aplicam as correcoes sozinhas).
 # Puxa o branch principal (claude/bold-sagan-dskrsj), faz o merge, regenera as folhas dos videos ainda nao prontos, roda a
 # verificacao de execucao e invalida storyboards que mudaram (a fila gera outro e a sessao revisa com grade + revisao escrita).
-# Uso nas sessoes: nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 600; done' > /dev/null 2>&1 &
-cd "$(dirname "$0")"; [ -f auto_aprovar.sh ] && { pgrep -f auto_aprovar.sh >/dev/null || nohup setsid bash auto_aprovar.sh >/dev/null 2>&1 & }   # auto-aprovacao de seguranca
+# Uso nas sessoes: nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 60; done' > /dev/null 2>&1 &
+cd "$(dirname "$0")"; exec 9>/tmp/sync_ferramenta.lock; flock -n 9 || exit 0   # a cada 1 min: nunca duas sincronizacoes ao mesmo tempo
+[ -f auto_aprovar.sh ] && { pgrep -f auto_aprovar.sh >/dev/null || nohup setsid bash auto_aprovar.sh >/dev/null 2>&1 & }   # auto-aprovacao de seguranca
 MAIN=claude/bold-sagan-dskrsj; cd ..
 git fetch -q origin $MAIN || exit 0
 [ -z "$(git log --oneline HEAD..FETCH_HEAD -- ferramenta-shorts ':!ferramenta-shorts/stories' ':!ferramenta-shorts/ckpt' 2>/dev/null)" ] && exit 0   # nada novo na ferramenta
