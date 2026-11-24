@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): OHI (variante 0, expressao stern); MIC (variante 0, expressao pained)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/canivete
+- Objetos/modelos: kit/canivete_aberto
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivetada
 - RISCOS: nenhum
 
@@ -117,11 +117,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/canivete | b0, b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/canivete_aberto | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mapa_antigo | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/teodolito | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/canivete | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
