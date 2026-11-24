@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Toda semana, as equipes faziam uma tarefa de negócios, como vender lim...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): CND (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/stall
@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Trump apresentou o programa por mais de dez anos, e só deixou em dois ...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/tv
@@ -104,8 +104,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Um programa de emprego que acabou ficando famoso justamente por demiti...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TRU (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/tv
@@ -134,7 +134,7 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 26% | medio 57% | aberto 11% | detalhe 6%
+- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 25% | medio 61% | aberto 11% | detalhe 3%
 - Interacoes: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 

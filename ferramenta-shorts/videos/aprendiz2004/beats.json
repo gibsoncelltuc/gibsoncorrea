@@ -57,8 +57,8 @@
    "props": [
     [
      "kit/tv",
-     0,
-     -1.2,
+     2.8,
+     -2.0,
      1.1
     ]
    ],
@@ -111,7 +111,8 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Toda semana, as equipes faziam uma tarefa de negócios, como vender limonada na rua."
+   "say": "Toda semana, as equipes faziam uma tarefa de negócios, como vender limonada na rua.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -230,7 +231,8 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Trump apresentou o programa por mais de dez anos, e só deixou em dois mil e quinze."
+   "say": "Trump apresentou o programa por mais de dez anos, e só deixou em dois mil e quinze.",
+   "detalhe": false
   },
   {
    "shot": "close",

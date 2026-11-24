@@ -15,5 +15,5 @@ b9 | two | -  | - | encena: fala (point) @1 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 26% | medio 57% | aberto 11% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 25% | medio 61% | aberto 11% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
