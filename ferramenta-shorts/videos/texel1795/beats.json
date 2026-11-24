@@ -294,11 +294,11 @@
    ],
    "animals": [
     [
-     "horse",
-     2.6,
-     1.0,
+     "horse_sela",
+     0.0,
+     -2.2,
      "stand",
-     0.7
+     0.85
     ]
    ],
    "mood": "playful",

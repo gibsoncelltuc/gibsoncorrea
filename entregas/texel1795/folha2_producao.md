@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FRA (variante 0, expressao grin); FRA (variante 1, expressao stern)
+- Personagens principais (1): FRA (variante 0, expressao grin)
 - Animacao: -
 - Objetos/modelos: ship, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, frota, navios
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GEN (variante 0, expressao grin); OFF (variante 0, expressao surprised) | multidao: 0 de GEN/OFF
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: horse
@@ -122,7 +122,7 @@ horse | b0, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b7, b8, b9 | planos abertos: 5 | mistura: close 20% | medio 43% | aberto 35% | detalhe 2%
+- Objeto heroi: - | grandes momentos: b7, b8, b9 | planos abertos: 5 | mistura: close 20% | medio 45% | aberto 35% | detalhe 0%
 - Interacoes: b4 tremem de frio, b5 aproxima-se, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
