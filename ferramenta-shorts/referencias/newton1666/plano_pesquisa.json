@@ -1,0 +1,54 @@
+{
+ "id": "newton1666",
+ "ano": 1666,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Newton e a Maçã",
+   "consultas": [
+    "Newton e a Maçã",
+    "Uma Lua Era Cambridge Um Isaac Newton 1666"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Inglaterra",
+   "consultas": [
+    "Inglaterra 1666",
+    "Inglaterra landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1666",
+   "consultas": [
+    "1666 fashion clothing",
+    "17th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "apple",
+   "consultas": [
+    "apple",
+    "Newton e a Maçã"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "fazenda da epoca",
+   "consultas": [
+    "farm 1666",
+    "farm"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "No fim, a maçã mudou a ciência e nem foi comida.",
+   "consultas": [
+    "mudou ciencia comida",
+    "diagram"
+   ]
+  }
+ ]
+}

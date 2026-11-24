@@ -8,9 +8,7 @@
   "luz_base": "day",
   "cenarios": [
    "interior galpao",
-   "loc_cidade",
    "loc_estudio",
-   "loc_patio",
    "loc_pista"
   ],
   "cenarios_trocados": []
@@ -37,10 +35,10 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/booster_air",
   "kit/cone_transito",
   "kit/cybercab",
   "kit/cybertruck",
+  "kit/marco_texas",
   "kit/palete",
   "kit/rampa_curva",
   "kit/roadster26",
@@ -48,7 +46,6 @@
   "kit/tanque_ar",
   "kit/telao_led",
   "kit/torre_luz",
-  "kit/tower",
   "mk/Crate_Metal",
   "mk/Workbench"
  ],
@@ -87,9 +84,7 @@
   "locacoes": [
    "loc_pista",
    "interior galpao",
-   "loc_estudio",
-   "loc_patio",
-   "loc_cidade"
+   "loc_estudio"
   ],
   "buscas": {
    "O Carro que Voou de Cabeça para Baixo": "Tesla Roadster second generation prototype",

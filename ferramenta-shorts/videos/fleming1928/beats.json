@@ -1,0 +1,224 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 4,
+ "title": "Fleming e a Penicilina",
+ "titulo_base": "Fleming e a Penicilina",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/petri",
+ "outfits": {
+  "FLE": {
+   "jacket": "#f4f4f0",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#c9c2b0",
+   "moustache_on": "#8a8070"
+  },
+  "COL": {
+   "jacket": "#f4f4f0",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#4a3020",
+   "glasses": true
+  },
+  "MED": {
+   "jacket": "#9ec8d8",
+   "pants": "#9ec8d8",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#f4f4f0"
+  },
+  "POV": {
+   "jacket": "#6a5a4a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.",
+   "shot": "two",
+   "who": [
+    "FLE:0:smile:book",
+    "COL:0:surprised"
+   ]
+  },
+  {
+   "say": "Era mil novecentos e vinte e oito, num hospital de Londres, e o cientista Alexander Fleming era famoso pela mesa bagunçada.",
+   "shot": "reveal",
+   "who": [
+    "MED:0:neutral",
+    "MED:1:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MED",
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "INGLATERRA",
+   "mapa_at": 2
+  },
+  {
+   "say": "Ele estudava bactérias, e deixava os pratos de cultura empilhados na bancada, sem pressa nenhuma.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FLE:0:neutral:book",
+    "COL:0:suspicious"
+   ],
+   "acao": "conversar",
+   "detalhe": false
+  },
+  {
+   "say": "Um dia, ele saiu de férias por duas semanas e não limpou nada.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FLE:0:grin:bag",
+    "COL:0:shock"
+   ],
+   "chega": true
+  },
+  {
+   "say": "Quando voltou, achou um prato com bolor verde e disse: \"Que sujeira!\"",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COL:0:smug",
+    "FLE:0:angry"
+   ],
+   "interacao": "discutir",
+   "detalhe": false,
+   "props": [
+    [
+     "kit/petri",
+     1.2,
+     -0.3,
+     1.9
+    ],
+    [
+     "kit/gosma",
+     1.0,
+     -0.05,
+     0.9
+    ]
+   ]
+  },
+  {
+   "say": "Ele ia jogar o prato fora, mas olhou melhor.",
+   "shot": "close",
+   "who": [
+    "FLE:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/petri",
+     1.2,
+     -0.3,
+     1.9
+    ],
+    [
+     "kit/gosma",
+     1.0,
+     -0.05,
+     0.9
+    ]
+   ]
+  },
+  {
+   "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
+   "shot": "orbit",
+   "set": "hall",
+   "who": [
+    "FLE:0:shock",
+    "COL:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "MED",
+     "COL"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ]
+  },
+  {
+   "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FLE:0:smile",
+    "COL:0:relief"
+   ],
+   "interacao": "cochichar"
+  },
+  {
+   "say": "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.",
+   "shot": "group",
+   "who": [
+    "MED:0:smile",
+    "MED:1:grin",
+    "POV:0:relief"
+   ],
+   "acao": "comemorar"
+  },
+  {
+   "say": "Fleming ganhou, junto com dois colegas, o prêmio Nobel em mil novecentos e quarenta e cinco.",
+   "shot": "crowd",
+   "set": "hall",
+   "who": [
+    "FLE:0:laugh",
+    "COL:0:laugh"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "MED",
+     "COL",
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "text": "NOBEL",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "acao": "comemorar"
+  },
+  {
+   "say": "No fim, a bagunça dele valeu mais que qualquer faxina.",
+   "shot": "close",
+   "who": [
+    "FLE:0:smug"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 12,
+ "title": "A Guerra da Orelha de Jenkins",
+ "titulo_base": "A Guerra da Orelha de Jenkins",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/ear_jar",
+ "outfits": {
+  "JEN": {
+   "jacket": "#2a4a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#2a4a8a"
+  },
+  "ESP": {
+   "jacket": "#d9a630",
+   "pants": "#7a2a2a",
+   "boots": "#1b1b1f",
+   "hat": "slouch",
+   "cap": "#7a2a2a",
+   "profissao": "general"
+  },
+  "ING": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "bowler"
+  },
+  "MAR": {
+   "jacket": "#e8e2d0",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#3b3f52"
+  },
+  "SOL": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  },
+  "REI": {
+   "profissao": "rei",
+   "jacket": "#7a1f2b",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "fixo": true
+  },
+  "CAP": {
+   "profissao": "general",
+   "jacket": "#8a1f1f",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "pais": "ESP",
+   "fixo": true,
+   "hat": "shako",
+   "uniforme_fixo": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "JEN:0:shock",
+    "ESP:0:smug"
+   ],
+   "props": [
+    [
+     "kit/ear_jar",
+     0.3,
+     2.2,
+     1.6
+    ]
+   ],
+   "text": "1739",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por quase dez anos."
+  },
+  {
+   "shot": "reveal",
+   "set": "harbor",
+   "who": [
+    "JEN:0:nervous",
+    "MAR:0:neutral"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MAR"
+    ],
+    "march": false
+   },
+   "mapa": "CUBA",
+   "mapa_at": 3,
+   "props": [
+    [
+     "ship",
+     -6,
+     -8,
+     1.3
+    ]
+   ],
+   "say": "Em mil setecentos e trinta e um, o capitão inglês Robert Jenkins estava num navio perto de Cuba, quando um navio espanhol o parou."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CAP:0:angry",
+    "JEN:0:scared"
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "whoosh@70"
+   ],
+   "say": "Os espanhóis suspeitaram que ele fazia contrabando, e Jenkins disse que o capitão deles arrancou sua orelha.",
+   "set": "street"
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "REI:0:smug",
+    "JEN:0:pained"
+   ],
+   "acao": "discutir",
+   "say": "\"Vá levar isso ao seu rei\", teria dito o espanhol."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PRE:0:angry:paper",
+    "JEN:0:sad"
+   ],
+   "interacao": "susto",
+   "say": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:smug",
+    "ING:0:suspicious"
+   ],
+   "interacao": "cochichar",
+   "say": "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe."
+  },
+  {
+   "shot": "crowd",
+   "set": "harbor",
+   "who": [
+    "SOL:0:angry",
+    "SOL:1:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "ship",
+     -7,
+     -9,
+     1.3
+    ]
+   ],
+   "text": "GUERRA",
+   "titulo": true,
+   "say": "Em mil setecentos e trinta e nove, declarou guerra, e navios e soldados ingleses cruzaram o oceano."
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "SOL:0:nervous",
+    "ING:0:pained"
+   ],
+   "acao": "discutir",
+   "say": "A guerra foi longa, e até se juntou a outra guerra maior, na Europa."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ESP:0:relief:paper",
+    "ING:0:relief"
+   ],
+   "interacao": "entregar",
+   "say": "Depois de quase dez anos, os dois lados fizeram a paz."
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "PRE:0:smile:book",
+    "ING:0:grin"
+   ],
+   "acao": "conversar",
+   "say": "Quem batizou de Guerra da Orelha de Jenkins foi um escritor, mais de cem anos depois."
+  },
+  {
+   "shot": "close",
+   "set": "harbor",
+   "who": [
+    "JEN:0:sad"
+   ],
+   "props": [
+    [
+     "kit/ear_jar",
+     1.0,
+     0.6,
+     1.3
+    ]
+   ],
+   "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela."
+  }
+ ],
+ "ano": 1739,
+ "regiao": "europa",
+ "exp": 1.0
+}

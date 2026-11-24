@@ -1,0 +1,60 @@
+{
+ "id": "darwin1835",
+ "ano": 1835,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Darwin e os Tentilhões",
+   "consultas": [
+    "Darwin e os Tentilhões",
+    "Um Terra Era Charles Darwin Galápagos Beagle Ele 1835"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Galápagos",
+   "consultas": [
+    "Galápagos 1835",
+    "Galápagos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1835",
+   "consultas": [
+    "1835 fashion clothing",
+    "19th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "finch",
+   "consultas": [
+    "finch",
+    "Darwin e os Tentilhões"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "finch thick",
+   "consultas": [
+    "finch thick"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "finch long",
+   "consultas": [
+    "finch long"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1835",
+    "ship"
+   ]
+  }
+ ]
+}

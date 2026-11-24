@@ -1,0 +1,38 @@
+{
+ "id": "galileu1589",
+ "ano": 1589,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Galileu e a Torre de Pisa",
+   "consultas": [
+    "Galileu e a Torre de Pisa",
+    "Uma Conta Pisa Itália Aristóteles 1589"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Itália",
+   "consultas": [
+    "Itália 1589",
+    "Itália landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1589",
+   "consultas": [
+    "1589 fashion clothing",
+    "16th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "pisa tower",
+   "consultas": [
+    "pisa tower",
+    "Galileu e a Torre de Pisa"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,246 @@
+{
+ "id": "lagosta1961",
+ "ano": 1961,
+ "cenarios_trocados": [
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 4",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BRA",
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/lobster",
+    "kit/marco_olinda"
+   ],
+   "palavras": 14,
+   "cena": "b0",
+   "frase": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "PES",
+    "PES"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "boat",
+    "kit/marco_olinda"
+   ],
+   "palavras": 21,
+   "cena": "b1",
+   "frase": "Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas na costa de Pernambuco, e os pescadores brasileiros não gostaram.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BRA",
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_olinda"
+   ],
+   "palavras": 12,
+   "cena": "b2",
+   "frase": "O Brasil dizia: \"Lagosta anda no fundo do mar, então é nossa.\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "FRA",
+    "FRA"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/marco_olinda"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "A França respondia: \"Lagosta nada, então é de todo mundo.\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FRA",
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "A discussão ficou séria, e a França mandou um navio de guerra para proteger os pescadores dela.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/marco_olinda",
+    "navios de guerra ao fundo, no tamanho real",
+    "ship",
+    "vehicles/airplane"
+   ],
+   "palavras": 17,
+   "cena": "b5",
+   "frase": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/marco_olinda"
+   ],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o primeiro tiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRA",
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "PES",
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_olinda",
+    "navio em movimento"
+   ],
+   "palavras": 18,
+   "cena": "b8",
+   "frase": "Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/lobster"
+   ],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  }
+ ]
+}

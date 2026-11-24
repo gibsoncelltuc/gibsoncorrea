@@ -1,0 +1,46 @@
+{
+ "id": "cameo1992",
+ "ano": 1992,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Cameo de Sete Segundos",
+   "consultas": [
+    "O Cameo de Sete Segundos",
+    "Em Esqueceram Mim Kevin Nova York Numa Kevin Donald Trump 1992"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Nova York",
+   "consultas": [
+    "Nova York 1992",
+    "Nova York landscape"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Canadá",
+   "consultas": [
+    "Canadá 1992",
+    "Canadá landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1992",
+   "consultas": [
+    "1992 fashion clothing",
+    "1992 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "tv",
+   "consultas": [
+    "tv",
+    "O Cameo de Sete Segundos"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "id": "mendel1856",
+ "ano": 1856,
+ "cenarios_trocados": [
+  [
+   "video",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 12",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pea_green"
+   ],
+   "palavras": 14,
+   "cena": "b0",
+   "frase": "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "FRE",
+    "FRE"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "buildings/barn",
+    "nature/flowerbed",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 19,
+   "cena": "b1",
+   "frase": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pea_green",
+    "kit/pea_yellow"
+   ],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pea_yellow"
+   ],
+   "palavras": 12,
+   "cena": "b3",
+   "frase": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRE",
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Mendel ficou curioso e disse: \"Para onde foi o verde?\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pea_green",
+    "kit/pea_yellow"
+   ],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/pea_green",
+    "kit/pea_yellow"
+   ],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b7",
+   "frase": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MEN",
+    "CIE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b8",
+   "frase": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "CIE",
+    "CIE"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/pea_green",
+    "kit/pea_yellow"
+   ],
+   "palavras": 18,
+   "cena": "b9",
+   "frase": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pea_green"
+   ],
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "No fim, a ervilha fez o monge famoso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "id": "banquinho1900",
+ "ano": 1900,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 1",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 2",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 3",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 5",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 7",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "GOV",
+    "ASH"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 13,
+   "cena": "b0",
+   "frase": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "ASH",
+    "ASH"
+   ],
+   "multidao": 30,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b1",
+   "frase": "Em mil e novecentos, os ingleses mandavam numa região da África chamada Gana, onde vivia o povo ashanti.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "ASH"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 19,
+   "cena": "b2",
+   "frase": "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOV",
+    "CHE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 16,
+   "cena": "b3",
+   "frase": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "ASH"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b4",
+   "frase": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ASH",
+    "ASH"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 18,
+   "cena": "b5",
+   "frase": "Eles se revoltaram, cercaram o forte onde ele estava, e o governador teve que se trancar lá dentro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOV",
+    "PRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "No fim, os ingleses venceram a guerra e assumiram o controle da região, que virou colônia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "ASH"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

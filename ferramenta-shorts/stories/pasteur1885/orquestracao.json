@@ -1,0 +1,245 @@
+{
+ "id": "pasteur1885",
+ "ano": 1885,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 12",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PAS",
+    "MAE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 15,
+   "cena": "b0",
+   "frase": "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MED",
+    "MED"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 20,
+   "cena": "b1",
+   "frase": "Era mil oitocentos e oitenta e cinco, na França, e o cientista Louis Pasteur já era famoso por estudar micróbios.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MED",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 20,
+   "cena": "b2",
+   "frase": "Na época, a raiva era uma doença fatal, e quem era mordido por um animal doente quase nunca se salvava.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PAS",
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PAS",
+    "MAE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 22,
+   "cena": "b4",
+   "frase": "Um dia, uma mãe chegou à porta dele, com o filho Joseph, mordido por um animal, e pediu: \"Salve o meu filho!\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b5",
+   "frase": "Pasteur não era médico, e ficou com medo, mas depois de ouvir os médicos ele decidiu tentar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "PAS",
+    "MED"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 18,
+   "cena": "b6",
+   "frase": "Acontece que, durante dez dias, ele aplicou injeções cada vez mais fortes, e o menino nunca ficou doente.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "MAE",
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Joseph sobreviveu, e a notícia correu o mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MED",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 19,
+   "cena": "b8",
+   "frase": "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "MED"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 19,
+   "cena": "b9",
+   "frase": "Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina salva vidas no mundo inteiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b10",
+   "frase": "No fim, uma picada salvou mais que mil discursos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

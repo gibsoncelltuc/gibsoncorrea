@@ -1,0 +1,262 @@
+{
+ "id": "bifes2007",
+ "ano": 2007,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 5",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 11",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 19,
+   "cena": "b0",
+   "frase": "Em dois mil e sete, Donald Trump lançou uma linha de carnes com o próprio nome: a Trump Steaks.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 13,
+   "cena": "b1",
+   "frase": "Os bifes apareceram na loja Sharper Image, a partir de oito de maio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "VEN",
+    "CLI",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 20,
+   "cena": "b2",
+   "frase": "Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove dólares, com bifes e hambúrgueres.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VEN",
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak",
+    "nature/picket_fence"
+   ],
+   "palavras": 16,
+   "cena": "b3",
+   "frase": "Acontece que a loja deixou de oferecer os bifes em julho, cerca de dois meses depois.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b4",
+   "frase": "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "A marca também apareceu na QVC, um canal de televisão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CLI",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Segundo registros, a marca registrada foi cancelada em dois mil e catorze.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU",
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Trump.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/shop",
+    "kit/stall"
+   ],
+   "palavras": 14,
+   "cena": "b8",
+   "frase": "Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "VEN"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 14,
+   "cena": "b9",
+   "frase": "Moral da história: nem todo produto com nome famoso dura mais que uma promoção.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "uisque1984",
+ "titulo": "Guerras Inusitadas EP 17 - A Guerra do Uísque",
+ "ancoras": {
+  "ano": 1984,
+  "era": "atual (1950+)",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "arctic",
+   "harbor",
+   "interior pedra",
+   "loc_montanha"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 7",
+    "mountain",
+    "loc_montanha"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/lighthouse",
+  "buildings/shop",
+  "kit/room_rosa_stone",
+  "kit/tequila_bolt",
+  "kit/whisky",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "vehicles/helicopter",
+  "war/flagpole"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

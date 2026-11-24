@@ -1,0 +1,118 @@
+# FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
+
+Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
+**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+
+
+## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
+> "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | 1856 | OK |
+
+## Cena b1 - 5.9s a 14.8s - 25 palavras - plano reveal
+> "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | cruzavam (8.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | ouro (11.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | ouro (11.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | MAPA | PANAMÁ | OK |
+
+## Cena b2 - 15.2s a 20.4s - 15 palavras - plano two
+> "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | comeu (17.0s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | embora (19.6s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | - | INTERACAO | empurrar | OK |
+| 4 | - | ATUACAO | reagir | OK |
+
+## Cena b3 - 20.7s a 25.9s - 15 palavras - plano two
+> "O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajante só riu."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | pediu (21.5s) | ACAO: fala | aponta explicando | OK |
+| 2 | gritou (23.7s) | EFEITO: ring | onda + som | OK |
+| 3 | gritou (23.7s) | ACAO: grita | grita de bracos para cima | OK |
+| 4 | riu (25.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | riu (25.9s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 6 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 7 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 8 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 9 | - | INTERACAO | discutir | OK |
+| 10 | - | ATUACAO | discutir | OK |
+
+## Cena b4 - 26.3s a 32.2s - 17 palavras - plano group
+> "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | confusão (29.3s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | INTERACAO | empurrar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+
+## Cena b5 - 32.6s a 37.0s - 13 palavras - plano crowd
+> "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | briga (35.2s) | EFEITO: puff | fumaca + som | OK |
+| 2 | briga (35.2s) | ACAO: golpe | soco + estouro | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | discutir | OK |
+| 5 | - | PLACA | BRIGA | OK |
+
+## Cena b6 - 37.4s a 42.6s - 15 palavras - plano two
+> "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | morreram (39.6s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreram (39.6s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
+
+## Cena b7 - 43.0s a 48.5s - 16 palavras - plano orbit
+> "No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | pagou (44.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagou (44.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | - | CENA | cavalaria: 4 soldados a cavalo (SOL) | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+
+## Cena b8 - 48.9s a 52.6s - 11 palavras - plano two
+> "No fim, o governo local pagou uma indenização enorme pelas mortes."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | pagou (50.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagou (50.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | - | INTERACAO | entregar | OK |
+
+## Cena b9 - 53.0s a 56.7s - 11 palavras - plano close
+> "Tudo isso por uma fatia de melancia que custava poucos centavos."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+
+## Cena b10 - 57.0s a 61.5s - 13 palavras - plano two
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
+
