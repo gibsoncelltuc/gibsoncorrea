@@ -299,8 +299,8 @@
    "props": [],
    "detalhe": false,
    "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0,
+   "d0": 9,
+   "d1": 8,
    "fachada": false,
    "fx": [
     "burst@40",
@@ -309,7 +309,12 @@
    "sfx": [
     "thump@40",
     "thump@75"
-   ]
+   ],
+   "shot_lock": true,
+   "quadro_manual": true,
+   "cx": 2.0,
+   "cz": 0.5,
+   "h": 1.8
   },
   {
    "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",

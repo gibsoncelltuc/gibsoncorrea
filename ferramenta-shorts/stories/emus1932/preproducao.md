@@ -12,13 +12,13 @@ b4 | outback | wide | 15 | encena | emus | - | -
 b5 | countryside | wide | 1 | encena | vehicles/truck, emus | - | -
 b6 | loc_campo | group | 2 | conversar, INTERAGEM: susto | emus | - | -
 b7 | countryside | track | 15 | encena, andando | - | paper | -
-b8 | loc_deserto | crowd | 2 | encena, batalha | emus | - | -
-b9 | outback | group | 2 | conversar, INTERAGEM: entregar | emus | - | -
+b8 | loc_deserto | two | 2 | conversar, INTERAGEM: aproxima-se | emus | - | -
+b9 | outback | crowd | 7 | encena, batalha | emus | - | -
 b10 | outback | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b8
-Interacoes entre personagens: b2 vai ate o outro, b6 susto, b9 entregar
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b9
+Interacoes entre personagens: b2 vai ate o outro, b6 susto, b8 aproxima-se
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

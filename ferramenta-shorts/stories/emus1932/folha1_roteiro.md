@@ -76,21 +76,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b8  (~5.9 s)
 - Narracao: O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, thump@75
 - Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@75
 - Texto na tela: 986 (CONTESTADO)
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~7.2 s)
 - Narracao: No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) @10 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: EXÉRCITO 0 - 1 EMUS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

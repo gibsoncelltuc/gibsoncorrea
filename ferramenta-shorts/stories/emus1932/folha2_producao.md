@@ -84,20 +84,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - O exército voltou, e o major disse ter abatido novecentos e oitenta e ...
 - Cenario: loc_deserto | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, major
 - RISCOS: nenhum
 
 ## Cena b9 - No fim, o governo preferiu recompensas, e em seis meses pagou por mais...
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin)
-- Animacao: conversar | interacao: entregar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin) | multidao: 5 de FARM
+- Animacao: encena | batalha encenada
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, governo
 - RISCOS: nenhum
@@ -127,8 +127,8 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b8 | planos abertos: 5 | mistura: close 11% | medio 56% | aberto 32% | detalhe 0%
-- Interacoes: b2 vai ate o outro, b6 susto, b9 entregar
+- Objeto heroi: - | grandes momentos: b3, b9 | planos abertos: 5 | mistura: close 12% | medio 55% | aberto 33% | detalhe 0%
+- Interacoes: b2 vai ate o outro, b6 susto, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

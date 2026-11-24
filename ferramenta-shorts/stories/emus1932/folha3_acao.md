@@ -87,25 +87,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | PLACA | HA HA HA | OK |
 
-## Cena b8 - 42.0s a 46.9s - 17 palavras - plano crowd
+## Cena b8 - 42.0s a 46.9s - 17 palavras - plano two
 > "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (42.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | 986 (CONTESTADO) | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 986 (CONTESTADO) | OK |
 
-## Cena b9 - 48.4s a 56.0s - 21 palavras - plano group
+## Cena b9 - 48.4s a 56.0s - 21 palavras - plano crowd
 > "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pagou (51.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | pagou (51.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | EXÉRCITO 0 - 1 EMUS | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | PLACA | EXÉRCITO 0 - 1 EMUS | OK |
 
 ## Cena b10 - 57.0s a 60.4s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

@@ -156,7 +156,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "AUS",
     "AUS"
@@ -166,6 +166,23 @@
    "palavras": 17,
    "cena": "b8",
    "frase": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "FARM",
+    "FARM"
+   ],
+   "multidao": 5,
+   "objetos": [],
+   "palavras": 21,
+   "cena": "b9",
+   "frase": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -175,23 +192,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "FARM",
-    "FARM"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 21,
-   "cena": "b9",
-   "frase": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
   },
