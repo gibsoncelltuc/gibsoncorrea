@@ -9,7 +9,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +20 da cena
 - SOM: steps@10
-- TEXTO NA TELA: "EUREKA" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Foi em Siracusa, na Sicília, há mais de dois mil anos."
 - LOCAL: vila medieval; hora: day
