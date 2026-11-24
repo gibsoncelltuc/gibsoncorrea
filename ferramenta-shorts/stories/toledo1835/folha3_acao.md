@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -40,9 +40,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | chegaram (19.1s) | EFEITO: dust | poeira + som | OK |
 | 3 | chegaram (19.1s) | ACAO: chega | entra andando pela lateral | OK |
 | 4 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
-| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 7 | - | ATUACAO | discutir | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 22.3s a 26.3s - 11 palavras - plano orbit
 > "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém."
@@ -52,10 +51,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | tiros (23.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | tiros (23.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | PLACA | PARA O ALTO | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | PLACA | PARA O ALTO | OK |
 
 ## Cena b5 - 27.5s a 31.6s - 16 palavras - plano two
 > "A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete."
