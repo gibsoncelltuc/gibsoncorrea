@@ -84,7 +84,7 @@
    "d1": 10.0
   },
   {
-   "say": "Era mil oitocentos e oitenta e cinco, na França, e o cientista Louis Pasteur já era famoso por estudar micróbios.",
+   "say": "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios.",
    "shot": "reveal",
    "who": [
     "MED:0:neutral",
@@ -102,7 +102,7 @@
    "mapa_at": 2
   },
   {
-   "say": "Na época, a raiva era uma doença fatal, e quem era mordido por um animal doente quase nunca se salvava.",
+   "say": "Na época, quem era mordido por um animal com raiva quase nunca se salvava.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -119,28 +119,46 @@
     "PAS:0:suspicious",
     "MED:0:nervous"
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/syringe",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true
   },
   {
-   "say": "Um dia, uma mãe chegou à porta dele, com o filho Joseph, mordido por um animal, e pediu: \"Salve o meu filho!\"",
+   "say": "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva.",
    "shot": "two",
    "interior": "madeira",
    "who": [
     "PAS:0:surprised",
     "MAE:0:cry"
    ],
-   "chega": true
+   "chega": true,
+   "animals": [
+    [
+     "dog",
+     1.6,
+     0.6
+    ]
+   ]
   },
   {
-   "say": "Pasteur não era médico, e ficou com medo, mas depois de ouvir os médicos ele decidiu tentar.",
+   "say": "Pasteur não era médico e tinha medo, mas decidiu tentar.",
    "shot": "close",
    "who": [
     "PAS:0:nervous"
    ]
   },
   {
-   "say": "Acontece que, durante dez dias, ele aplicou injeções cada vez mais fortes, e o menino nunca ficou doente.",
-   "shot": "orbit",
+   "say": "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente.",
    "set": "hall",
    "who": [
     "PAS:0:relief",
@@ -164,7 +182,19 @@
    "sfx": [
     "ding@40",
     "sting@60"
-   ]
+   ],
+   "props": [
+    [
+     "kit/syringe",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true
   },
   {
    "say": "Joseph sobreviveu, e a notícia correu o mundo.",
@@ -186,7 +216,7 @@
    "interacao": "cochichar"
   },
   {
-   "say": "Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina salva vidas no mundo inteiro.",
+   "say": "Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vidas no mundo inteiro.",
    "shot": "crowd",
    "set": "hall",
    "who": [
@@ -224,5 +254,38 @@
    ]
   }
  ],
- "max_wide": 3
+ "max_wide": 3,
+ "visual": {
+  "local": "Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur",
+  "quando": "julho de 1885, dia",
+  "participantes": [
+   "Louis Pasteur (barba grisalha, casaca preta, solideu)",
+   "Joseph Meister, menino alsaciano de 9 anos",
+   "a mae de Joseph",
+   "medicos Vulpian e Grancher"
+  ],
+  "roupas": {
+   "PAS": "sobrecasaca preta e barba grisalha",
+   "MED": "sobrecasaca escura e cartola",
+   "MAE": "vestido longo escuro e touca",
+   "POV": "roupas do seculo 19"
+  },
+  "cenario": "laboratorio do seculo 19 com frascos, tubos e microscopio; predio do Instituto Pasteur em Paris",
+  "objetos": [
+   "seringa de vidro do seculo 19",
+   "frascos com medula de coelho",
+   "microscopio"
+  ],
+  "explicacoes": [
+   "Em 6/7/1885 Joseph Meister, mordido por um cao raivoso, recebeu 13 inoculacoes em 10 dias da vacina de Pasteur e sobreviveu; mais tarde trabalhou como zelador do Instituto Pasteur (fonte: Wikipedia Joseph Meister, Rabies vaccine)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Joseph_Meister",
+   "https://en.wikipedia.org/wiki/Louis_Pasteur"
+  ],
+  "buscas": {
+   "lab": "Louis Pasteur laboratory 1885",
+   "instituto": "Institut Pasteur Paris 19th century"
+  }
+ }
 }
