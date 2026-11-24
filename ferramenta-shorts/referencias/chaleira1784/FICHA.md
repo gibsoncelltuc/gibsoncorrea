@@ -7,7 +7,7 @@
 - Roupas: {'IMP': 'casaca clara com faixa vermelha e coroa', 'AUS': 'farda clara, calça azul-acinzentada e shako', 'HOL': 'casaca laranja, calça azul e boina', 'COZ': 'touca e avental claros de cozinheiro'}
 - Cenario real: rio largo com margens baixas, porto de Antuérpia e navio de guerra holandês Dolfijn contra o navio mercante Le Louis, com a bandeira do imperador
 - Objetos: ['chaleira de sopa', 'canhão de bordo', 'navio mercante Le Louis', 'navio de guerra Dolfijn', 'bandeira imperial']
-- Cenarios usados no video: harbor, interior madeira, interior pedra, loc_campo, palace
+- Cenarios usados no video: harbor, interior madeira, interior pedra, loc_campo
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

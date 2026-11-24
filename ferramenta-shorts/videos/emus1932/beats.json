@@ -277,7 +277,9 @@
   {
    "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",
    "shot": "wide",
-   "who": [],
+   "who": [
+    "AUS:0:stern"
+   ],
    "emus": {
     "n": 12,
     "mode": "scatter",
@@ -290,11 +292,7 @@
    "tstyle": "red",
    "batalha": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "AUS"
-    ],
-    "march": false
+    "n": 0
    },
    "set": "loc_deserto",
    "props": [],

@@ -63,7 +63,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
 - LOCAL: loc_deserto; hora: desert
 - CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: nenhum; multidao de 10 (AUS) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: AUS no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +75 da cena

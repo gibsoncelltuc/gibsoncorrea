@@ -8,9 +8,9 @@ b0 | loc_campo | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/kettle |
 b1 | harbor | wide | 2 | encena | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
-b4 | palace | wide | 1 | encena | kit/navio_fragata, war/flagpole | - | -
+b4 | harbor | wide | 1 | encena | kit/navio_fragata, war/flagpole | - | -
 b5 | harbor | two | 2 | conversar, INTERAGEM: insiste | cannon, kit/navio_fragata | - | -
-b6 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro, batalha | kit/kettle, kit/navio_fragata | - | -
+b6 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro, batalha | kit/kettle | - | -
 b7 | harbor | wide | 1 | encena, batalha | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -
 b9 | interior madeira | two | 1 | conversar | kit/kettle | - | -

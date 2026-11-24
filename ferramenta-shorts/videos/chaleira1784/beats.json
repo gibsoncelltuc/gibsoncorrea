@@ -193,7 +193,7 @@
    "text": "3 NAVIOS",
    "titulo": true,
    "say": "O maior levava a bandeira do imperador e seguia na frente.",
-   "set": "palace",
+   "set": "harbor",
    "props": [
     [
      "kit/navio_fragata",
@@ -208,7 +208,7 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "local": "praia / palacio",
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -302,15 +302,6 @@
      {
       "fixo": true
      }
-    ],
-    [
-     "kit/navio_fragata",
-     7.0,
-     -24.2,
-     7.06,
-     {
-      "fixo": true
-     }
     ]
    ],
    "fx": [
@@ -323,7 +314,7 @@
    ],
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -331,20 +322,14 @@
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
-     },
-     {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
      }
     ]
    },
    "detalhe": false,
-   "set": "harbor",
    "impact": true,
    "batalha": false,
    "tiros": false,
+   "interior": "madeira",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,

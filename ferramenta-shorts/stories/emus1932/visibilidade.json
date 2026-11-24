@@ -1,10 +1,7 @@
 {
  "id": "emus1932",
  "falhas": [
-  "b3_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
-  "b8: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
-  "b8_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
-  "b3: objeto \"war/sandbags\" saiu com 8% da altura da tela, a ficha de cena planejou 32%"
+  "b8_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)"
  ],
  "tomadas": [
   {
@@ -171,11 +168,12 @@
      "objs": [
       {
        "a": "war/sandbags",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9,
-       "altmax": 0
+       "inq": 0.16129032258064516,
+       "vis": 1,
+       "area": 0.037192487084159113,
+       "cx": 0.7682600368224088,
+       "alt": 0.1954060338000042,
+       "altmax": 0.1954060338000042
       }
      ],
      "bloq": null,
@@ -187,11 +185,12 @@
      "objs": [
       {
        "a": "war/sandbags",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9,
-       "altmax": 0
+       "inq": 0.12903225806451613,
+       "vis": 1,
+       "area": 0.009930730561211996,
+       "cx": 0.7651082202510012,
+       "alt": 0.21841612894428383,
+       "altmax": 0.21841612894428383
       }
      ],
      "bloq": null,
@@ -203,16 +202,17 @@
      "objs": [
       {
        "a": "war/sandbags",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9,
-       "altmax": 0
+       "inq": 0.0967741935483871,
+       "vis": 1,
+       "area": 0.007349375197735535,
+       "cx": 0.9219841271664357,
+       "alt": 0.18897356676279453,
+       "altmax": 0.18897356676279453
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     }
    ]
   },
@@ -224,11 +224,12 @@
      "objs": [
       {
        "a": "war/sandbags",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9,
-       "altmax": 0
+       "inq": 0.06451612903225806,
+       "vis": 1,
+       "area": 0.002059603818145569,
+       "cx": 0.946212470583732,
+       "alt": 0.1689155961227476,
+       "altmax": 0.1689155961227476
       }
      ],
      "bloq": null,
@@ -240,27 +241,29 @@
      "objs": [
       {
        "a": "war/sandbags",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9,
-       "altmax": 0
+       "inq": 0.06451612903225806,
+       "vis": 1,
+       "area": 0.00020014200946788153,
+       "cx": 0.8644721058544054,
+       "alt": 0.15025316370862438,
+       "altmax": 0.15025316370862438
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     },
     {
      "f": 498,
      "objs": [
       {
        "a": "war/sandbags",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9,
-       "altmax": 0
+       "inq": 0.25806451612903225,
+       "vis": 1,
+       "area": 0.03897721305431471,
+       "cx": 0.7657994314878981,
+       "alt": 0.1760806887277416,
+       "altmax": 0.1760806887277416
       }
      ],
      "bloq": null,
@@ -277,11 +280,12 @@
      "objs": [
       {
        "a": "war/sandbags",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9,
-       "altmax": 0
+       "inq": 0.06451612903225806,
+       "vis": 1,
+       "area": 0.00035917830625618803,
+       "cx": -0.9565020838875904,
+       "alt": 0.11566941300505068,
+       "altmax": 0.11566941300505068
       }
      ],
      "bloq": null,
@@ -347,11 +351,11 @@
       {
        "a": "war/sandbags",
        "inq": 1,
-       "vis": 1,
-       "area": 0.023291422067659613,
-       "cx": -0.20591520178493358,
-       "alt": 0.08249979590183716,
-       "altmax": 0.08249979590183716
+       "vis": 0.9032258064516129,
+       "area": 0.05062486478825793,
+       "cx": -0.3567152280241658,
+       "alt": 0.12005263320824154,
+       "altmax": 0.12005263320824154
       }
      ],
      "bloq": null,
@@ -365,10 +369,10 @@
        "a": "war/sandbags",
        "inq": 1,
        "vis": 0.8387096774193549,
-       "area": 0.016255564659929136,
-       "cx": -0.18959367012449493,
-       "alt": 0.0731916442751969,
-       "altmax": 0.0731916442751969
+       "area": 0.038001793829358,
+       "cx": -0.35795066115688856,
+       "alt": 0.10999064778203149,
+       "altmax": 0.10999064778203149
       }
      ],
      "bloq": null,
@@ -585,7 +589,7 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     }
    ]
   },
@@ -597,21 +601,21 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 2
+     "cortado": 3
     },
     {
      "f": 1315,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 2
+     "cortado": 1
     },
     {
      "f": 1326,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 2
+     "cortado": 3
     }
    ]
   },

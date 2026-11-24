@@ -77,8 +77,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 ## Cena b8  (~5.9 s)
 - Narracao: O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: thump@40, thump@75, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
-- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; encena: chega (point) @2 -> acao + som de efeito
+- Efeitos sonoros marcados: thump@40, thump@75
+- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@75
 - Texto na tela: 986 (CONTESTADO)
 - Funcao na historia: GRANDE MOMENTO

@@ -101,7 +101,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -131,8 +131,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/kettle",
-    "kit/navio_fragata"
+    "kit/kettle"
    ],
    "palavras": 15,
    "cena": "b6",
@@ -147,7 +146,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior madeira"
   },
   {
    "camera": "wide",

@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~3.8 s)
 - Narracao: O maior levava a bandeira do imperador e seguia na frente.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito; encena: chega (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~5.2 s)
 - Narracao: A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@55, ding@58
 - Efeito + som nas palavras-chave: encena: atira @1 -> acao + som de efeito
 - Efeito visual marcado: burst@55, puff@60

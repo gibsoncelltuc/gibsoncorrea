@@ -1,5 +1,2 @@
-VISIBILIDADE: 4 FALHA(S)
-FALHA b3_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b8: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+VISIBILIDADE: 1 FALHA(S)
 FALHA b8_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b3: objeto "war/sandbags" saiu com 8% da altura da tela, a ficha de cena planejou 32%

@@ -31,3 +31,6 @@
 - b3: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b8: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b3: ja corrigida 3 vezes, objeto "war/sandbags" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 24/11 17:29 autocorrecao de visibilidade
+- b8: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho

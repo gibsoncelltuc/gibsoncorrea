@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
-Gerado em 24/11 17:29 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,9 +10,9 @@ b0 | simples | loc_campo | two | COZ, HOL | - | kettle | - | Uma guerra inteira 
 b1 | simples | harbor | wide | MAR, MAR | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Esc
 b2 | simples | interior pedra | two | IMP, GEN | - | - | - | O imperador José Segundo, da Áustria, queria o rio aberto para os navi
 b3 | simples | harbor | wide | IMP | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Convencido de que os holandeses não reagiriam, ele mandou três navios 
-b4 | simples | palace | wide | IMP | - | navio_fragata, flagpole | - | O maior levava a bandeira do imperador e seguia na frente.
+b4 | simples | harbor | wide | IMP | - | navio_fragata, flagpole | - | O maior levava a bandeira do imperador e seguia na frente.
 b5 | simples | harbor | two | MAR, MAR | - | cannon, navio_fragata | - | Acontece que o navio de guerra holandês Dolfijn estava esperando, e di
-b6 | chave | harbor | two | IMP, COZ | - | kettle, navio_fragata | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A bala acertou e destruiu uma chaleira de sopa no convés do navio do i
+b6 | chave | interior madeira | two | IMP, COZ | - | kettle | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A bala acertou e destruiu uma chaleira de sopa no convés do navio do i
 b7 | chave | harbor | wide | GEN | - | navio_fragata, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
 b8 | simples | interior pedra | two | IMP, HOL | - | - | - | Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O 
 b9 | simples | interior madeira | two | COZ | - | kettle | - | O único prejuízo do dia foi o almoço.
