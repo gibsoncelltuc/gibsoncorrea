@@ -24,7 +24,7 @@ await new Promise((r) => srv.on('listening', r));
 const br = await launch(); const pg = await br.newPage({ viewport: { width: RW, height: RH } }); pg.on('pageerror', (e) => console.log('ERR', e.message));
 await pg.addInitScript(([w, h]) => { window.RENDER_W = w; window.RENDER_H = h; }, [RW, RH]);
 await pg.goto(`http://localhost:${srv.address().port}/index.html`); await pg.waitForFunction(() => window.ready || window.err, null, { timeout: 240000 });
-const out = []; const falhas = []; const porCena = {}; const altCena = {}; const animCena = {};
+const out = []; const falhas = []; const porCena = {}; const altCena = {}; const animCena = {}; const altPCena = {};
 const ANIM_RX = /\b(cavalos?|urso|ursos|porcos?|galinhas?|emus?|gansos?|vacas?|bois?|cachorros?|caes|gatos?|ovelhas?|cabras?|bodes?|burros?|jumentos?|veados?|cervos?|raposas?|lobos?|coelhos?|leao|leoes|elefantes?|patos?|galos?|gaivotas?)\b/;
 for (const s of SPEC.shots) {
   const len = s.b - s.a; const frs = [0.2, 0.5, 0.8].map((q) => s.a + Math.round(len * q)); const res = [];
@@ -68,11 +68,11 @@ for (const s of SPEC.shots) {
       for (const [t, c] of cnt) if (c / tot >= 0.35) { let nm = ''; for (const k in pool) if (pool[k].includes(t)) nm = k; R.bloq = { obj: nm || t.name || t.type, frac: c / tot }; }
       // personagem cortado: carta de boneco grande (mais de 45% da altura da tela) atravessando a borda do quadro
       // personagem cortado: so' os PERSONAGENS DA CENA ("who"), nao figurante de multidao passando pela borda (24/11: Banquinho/Melancia/Post-it travavam por figurante)
-      R.cortado = 0; { const I = window.inspectFrame(f); for (const a of (I.actors || [])) { if (a.i >= nWho || a.behind || !a.box) continue; const [x0, y0, x1, y1] = a.box; const alt = Math.min(y1, 1) - Math.max(y0, 0); const fr_ = (Math.min(x1, 1) - Math.max(x0, 0)) / Math.max(1e-6, x1 - x0); if (alt > 0.45 && fr_ < 0.65 && x1 > 0 && x0 < 1) R.cortado++; } window.INSPECT = false; }
+      R.cortado = 0; R.altP = 0; { const I = window.inspectFrame(f); for (const a of (I.actors || [])) { if (a.i >= nWho || a.behind || !a.box) continue; R.altP = Math.max(R.altP, Math.min(a.box[3], 1) - Math.max(a.box[1], 0)); const [x0, y0, x1, y1] = a.box; const alt = Math.min(y1, 1) - Math.max(y0, 0); const fr_ = (Math.min(x1, 1) - Math.max(x0, 0)) / Math.max(1e-6, x1 - x0); if (alt > 0.45 && fr_ < 0.65 && x1 > 0 && x0 < 1) R.cortado++; } window.INSPECT = false; }
       return R;
     }, [f, need[s.id] || [], ((B.beats || [])[+String(s.id).replace(/^b(\d+).*/, '$1')] || {}).who ? ((B.beats || [])[+String(s.id).replace(/^b(\d+).*/, '$1')].who.length) : 0]));
   }
-  // ANIMAL CITADO (gansos, cavalos...): tem que aparecer GRANDE o bastante para se ler (>= 10% da altura da tela) em TODO take da cena
+  // ANIMAL CITADO (gansos, cavalos...): tem que aparecer GRANDE o bastante para se ler (media >= 13% da altura da tela) em TODO take da cena
   { const k = +String(s.id).replace(/^b(\d+).*/, '$1'); const bt = (B.beats || [])[k] || {};
     const nrm = (x) => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     if ((bt.animals || []).length && ANIM_RX.test(nrm(bt.say))) { const bk = 'b' + k;
@@ -81,6 +81,7 @@ for (const s of SPEC.shots) {
           for (const nm of nm3) for (const o of (pool[nm] || [])) { let v = true; for (let p = o; p; p = p.parent) if (!p.visible) v = false; if (!v || !THREE_) continue; const bb = new THREE_.Box3().setFromObject(o); if (bb.isEmpty()) continue; let y0 = 9, y1 = -9, zz = false; for (const x of [bb.min.x, bb.max.x]) for (const y of [bb.min.y, bb.max.y]) for (const z of [bb.min.z, bb.max.z]) { const n = new THREE_.Vector3(x, y, z).project(cam); if (n.z > 1) zz = true; y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y); } if (!zz) m = Math.max(m, (Math.min(y1, 1) - Math.max(y0, -1)) / 2); }
           return m; }, [f, ['chicken', 'emu', 'horse', 'horse_sela', 'bear', 'dog', 'cat', 'cow', 'deer', 'donkey', 'elephant', 'fox', 'goat', 'lion', 'rabbit', 'sheep', 'wolf']]);
         tk.push(h); } (animCena[bk] = animCena[bk] || []).push(tk); } }
+  { const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (altPCena[bk] = altPCena[bk] || []).push(...res.map((r) => r.altP || 0)); }
   const rep = { id: s.id, quadros: res };
   for (const a of need[s.id] || []) { const okT = (r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && (a !== String(B.heroi || '') || Math.abs(o.cx ?? 0) < 0.55) && o.area >= (/navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a) ? 0.05 : 0.004)); const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (porCena[bk + '|' + a] = porCena[bk + '|' + a] || []).push(res.filter(okT).length >= 1); (altCena[bk + '|' + a] = altCena[bk + '|' + a] || []).push(Math.max(0, ...res.map((r) => Math.max(0, ...r.objs.filter((o) => o.a === a).map((o) => o.alt || 0))))); continue;   /* 1 dos 3 quadros basta: o mapa do pais cobre a tela por 1-2 s */ const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
   const bl = res.filter((r) => r.bloq); if (bl.length >= 2) falhas.push(`${s.id}: "${bl[0].bloq.obj}" tapando a camera (${Math.round(bl[0].bloq.frac * 100)}% do quadro, colado na lente)`);
@@ -90,7 +91,8 @@ for (const s of SPEC.shots) {
   out.push(rep);
 }
 for (const [k, v] of Object.entries(porCena)) if (!v.some(Boolean)) { const [bk, a] = k.split('|'); falhas.push(`${bk}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
-for (const [bk, tks] of Object.entries(animCena)) { const ruim = tks.findIndex((v) => v.filter((h) => h >= 0.10).length < 2); if (ruim >= 0) falhas.push(`${bk}: animal citado aparece pequeno demais no take ${ruim + 1} (${Math.round(Math.max(...tks[ruim]) * 100)}% da altura da tela; precisa de 10%+ em todo take): camera mais perto ou animal maior`); }
+for (const [bk, tks] of Object.entries(animCena)) { const ruim = tks.findIndex((v) => v.reduce((a, h) => a + h, 0) / v.length < 0.13); if (ruim >= 0) falhas.push(`${bk}: animal citado aparece pequeno demais no take ${ruim + 1} (media ${Math.round(tks[ruim].reduce((a, h) => a + h, 0) / tks[ruim].length * 100)}% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior`); }
+for (const [bk, v] of Object.entries(altPCena)) { const bt = (B.beats || [])[+bk.slice(1)] || {}; if (!(bt.who || []).length || bt.explica || bt.mapa) continue; if (Math.max(...v) < 0.06) falhas.push(`${bk}: personagem PONTINHO (maior: ${Math.round(Math.max(...v) * 100)}% da altura da tela; precisa de 6%+): camera longe demais dos personagens`); }
 // OLHOS x FICHA DE CENA: o objeto apareceu do tamanho que a folha 2 planejou? (menos da metade do planejado = falha)
 for (const [k_, v] of Object.entries(altCena)) { const [bk, a] = k_.split('|'); const bt = (B.beats || [])[+bk.slice(1)]; const q = bt && bt.quadro && (bt.quadro.objetos || []).find((o) => o.objeto === a); const pl = q ? parseInt(q.tela) / 100 : 0;
   if (pl > 0 && Math.max(...v) < pl * 0.5) falhas.push(`${bk}: objeto "${a}" saiu com ${Math.round(Math.max(...v) * 100)}% da altura da tela, a ficha de cena planejou ${Math.round(pl * 100)}%`); }

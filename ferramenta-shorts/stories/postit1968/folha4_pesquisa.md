@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1968 | Lugar: laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978 | Quando: 1968 (a cola fraca), 1974 (a ideia no coral), 1977-78 (testes de venda), 1980 (lancamento)
 - HEROIS (objeto): kit/postit
 - HEROIS (personagens): SIL, CHE
-- Cenarios: countryside, interior madeira, interior pedra, loc_estudio, street
+- Cenarios: countryside, interior galpao, interior madeira, interior pedra, loc_estudio, street
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

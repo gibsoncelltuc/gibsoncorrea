@@ -83,6 +83,7 @@ for k, b in enumerate(BT):
             tela = 0.30 if eh_p else 0.18   # tela em pe (9:16): objeto comprido aparece de lado, com a ponta podendo sair do quadro; altura visivel ~30%
             if eh_p:
                 D_obj = Hv / (2 * TANF * tela) + 2.0; cz = round(z * 0.45, 1); d = max(10.0, D_obj - abs(z - cz)); h = round(min(max(H * 0.35, 2.4), 6.0), 1)
+                if n_p and d > 22.0: z = round(z - (d - 20.0) * 0.2, 1); d = 20.0; cz = -2.0; h = min(h, 4.0)   # 24/11 (Gansos b4): com personagem na cena a camera NAO vai a 80 m (viravam pontinhos); o objeto e' que vai para o fundo e cabe inteiro pela perspectiva
                 cena = {'shot': 'wide', 'cx': 0.0, 'cz': cz, 'h': h, 'd0': num(d * 1.05), 'd1': num(d), 'fachada': False}
                 _gente = re.search(r'cerc|multid|povo|revolt|tropa|exercit|soldad|marcha|invad|atac|plateia|torcida|protest|briga|policia|confus|tiroteio|batalha|todo mundo|pais inteiro|gente|compradores|padeiros|moradores', n_(b.get('say', '')))   # 24/11 (Banquinho): "cercaram o forte" precisa da gente cercando
                 if not _gente: cena['crowd'] = {'n': 0}
