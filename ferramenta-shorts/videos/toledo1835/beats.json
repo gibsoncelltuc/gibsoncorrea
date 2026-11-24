@@ -66,15 +66,15 @@
     "OHI:0:stern",
     "MIC:0:pained"
    ],
-   "text": "1835",
+   "text": "1 FERIDO: CANIVETADA",
    "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
    "set": "countryside",
    "props": [
     [
      "kit/canivete_aberto",
-     0.0,
-     1.2,
-     3.0
+     0.5,
+     1.6,
+     4.5
     ]
    ],
    "fx": [
@@ -83,7 +83,10 @@
    ],
    "sfx": [
     "sting@106"
-   ]
+   ],
+   "tat": 12,
+   "tstyle": "red",
+   "titulo": true
   },
   {
    "shot": "two",

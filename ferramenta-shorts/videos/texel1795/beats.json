@@ -50,8 +50,7 @@
    "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
    "shot": "wide",
    "who": [
-    "FRA:0:grin",
-    "FRA:1:stern"
+    "FRA:0:grin"
    ],
    "props": [
     [
@@ -173,7 +172,7 @@
   },
   {
    "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "GEN:0:grin",
     "OFF:0:surprised"
@@ -184,7 +183,8 @@
    "montado": false,
    "animals": [],
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "detalhe": false
   },
   {
    "say": "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.",
@@ -303,7 +303,8 @@
    ],
    "mood": "playful",
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "montado": false
   }
  ],
  "heroi": null,

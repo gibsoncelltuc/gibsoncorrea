@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: sting@106
 - Efeito + som nas palavras-chave: encena: espeta (punch) @9 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: burst@106, stars@110
-- Texto na tela: 1835
+- Texto na tela: 1 FERIDO: CANIVETADA
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.6 s)

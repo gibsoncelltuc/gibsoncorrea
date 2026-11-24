@@ -29,7 +29,7 @@ for falha in V.get('falhas', []):
         p = props[idx]; x, z = num(p[1]), num(p[2]); s = num(p[3]) if len(p) > 3 else 1.0
         if GRANDE.search(a):
             if n == 0: b.update({'shot': 'wide', 'cx': round(x, 1), 'cz': round(z * 0.7, 1), 'h': 2.8, 'd0': round(max(13.0, abs(z) * 0.8 + 8), 1), 'd1': round(max(11.0, abs(z) * 0.8 + 5), 1)}); b['crowd'] = {'n': 0}; acao = f'camera em plano aberto mirando o objeto (cx {b["cx"]}, cz {b["cz"]}), sem multidao na frente'
-            elif n == 1: p[1], p[2] = 0.0, round(max(min(z, -6.0), -9.0), 1); b.update({'cx': 0.0, 'cz': round(p[2] * 0.7, 1), 'd0': round(abs(p[2]) + 9, 1), 'd1': round(abs(p[2]) + 6, 1)}); b['who'] = (b.get('who') or [])[:1]; acao = 'objeto no centro do fundo, so 1 personagem na frente'
+            elif n == 1: p[1] = 0.0; b.update({'cx': 0.0, 'cz': round(z * 0.7, 1), 'd0': round(abs(z) * 0.6 + 10, 1), 'd1': round(abs(z) * 0.6 + 7, 1)})   # objeto grande NAO vem para perto (vira parede): fica no fundo, centralizado; b['who'] = (b.get('who') or [])[:1]; acao = 'objeto centralizado no fundo (sem trazer para perto), so 1 personagem na frente'
             else: b['who'] = (b.get('who') or [])[:1]; b['crowd'] = {'n': 0}; b.update({'cx': 0.0, 'cz': round(num(p[2]) * 0.7, 1), 'd0': round(abs(num(p[2])) + 7, 1), 'd1': round(abs(num(p[2])) + 5, 1)}); acao = 'camera mais perto do objeto, 1 personagem de lado'
         else:
             if n == 0: p[1], p[2] = round(max(-1.6, min(1.6, x * 0.5)), 1), round(max(z, -1.0) if z < 0.6 else min(z, 1.2), 1); acao = f'objeto trazido para perto do centro ({p[1]}, {p[2]})'

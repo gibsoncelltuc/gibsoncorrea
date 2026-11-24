@@ -246,7 +246,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "harbor"
   },
   {
    "camera": "close",
@@ -262,7 +262,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "harbor"
   }
  ]
 }
