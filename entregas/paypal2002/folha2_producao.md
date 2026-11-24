@@ -2,74 +2,114 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paypal2002/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paypal2002` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunci...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+## Cena b0 - Um serviço para pagar pela internet foi vendido por um bilhão e meio d...
+- Cenario: loc_cidade | luz: noite | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): EBY (variante 0, expressao grin); MUS (variante 0, expressao surprised)
-- Animacao: conversar | interacao: insiste
+- Personagens principais (3): EBY (variante 0, expressao grin); MUS (variante 0, expressao surprised); POV (variante 0, expressao smile)
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/coin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): compra, dois, empresa, estados, paypal
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilhao, dolares, servico
 - RISCOS: nenhum
 
-## Cena b1 - O PayPal era um serviço para pagar e receber dinheiro pela internet.
-- Cenario: street | luz: golden | clima: limpo
+## Cena b1 - Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso...
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): MUS (variante 0, expressao smile); EBY (variante 0, expressao neutral)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ebay, epoca, leiloes, paypal, site
+- RISCOS: nenhum
+
+## Cena b2 - O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem pr...
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banco, email, paypal, pessoas
+- RISCOS: nenhum
+
+## Cena b3 - O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a co...
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao smile); EBY (variante 0, expressao neutral) | multidao: 8 de EBY/POV
-- Animacao: conversar
-- Objetos/modelos: kit/coin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paypal, servico
-- RISCOS: nenhum
-
-## Cena b2 - O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.
-- Cenario: street | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): EBY (variante 0, expressao shock)
+- Personagens principais (2): EBY (variante 0, expressao shock); MUS (variante 0, expressao smile) | multidao: 6 de POV
 - Animacao: reagir
-- Objetos/modelos: kit/coin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilhao, dolares, negocio, valor
-- RISCOS: nenhum
-
-## Cena b3 - Elon Musk era o maior acionista do PayPal.
-- Cenario: street | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MUS (variante 0, expressao smug); EBY (variante 0, expressao smile) | multidao: 10 de POV
-- Animacao: - | batalha encenada
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paypal
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anuncio, compra, dois, estados
 - RISCOS: nenhum
 
-## Cena b4 - Com o dinheiro da venda, ele pôde investir em novos projetos, como a S...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao grin); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/rocket, kit/roadster
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, spacex, tesla, venda
-- RISCOS: nenhum
-
-## Cena b5 - A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.
-- Cenario: street | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao shock) | multidao: 10 de POV
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/rocket
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): spacex
-- RISCOS: nenhum
-
-## Cena b6 - Uma venda de internet que ajudou a pagar foguetes e carros elétricos.
-- Cenario: street | luz: golden | clima: limpo
+## Cena b4 - O pagamento foi em ações do eBay, não em dinheiro vivo.
+- Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (3): MUS (variante 0, expressao laugh); EBY (variante 0, expressao smile); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/coin, kit/rocket
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet, pagar, venda
+- Personagens principais (2): MUS (variante 0, expressao smug); EBY (variante 0, expressao smile)
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/coin
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ebay, pagamento
+- RISCOS: nenhum
+
+## Cena b5 - Elon Musk era o maior acionista do PayPal, então ficou muito rico de r...
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): MUS (variante 0, expressao grin); POV (variante 0, expressao smile)
+- Animacao: conversar | interacao: aproxima-se
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paypal, repente
+- RISCOS: nenhum
+
+## Cena b6 - Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 0 de 
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/falcon9_land
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, foguetes, spacex
+- RISCOS: nenhum
+
+## Cena b7 - Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétric...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: kit/roadster
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carros, conselho, fabrica, tesla
+- RISCOS: nenhum
+
+## Cena b8 - O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
+- Cenario: loc_cidade | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile)
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, internet, venda
+- RISCOS: nenhum
+
+## Cena b9 - Quem diria: um pagamento online chegou ao espaço.
+- Cenario: loc_campo | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): MUS (variante 0, expressao smug)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pagamento
+- RISCOS: nenhum
+
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_campo | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): EBY (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -77,14 +117,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/coin | b0, b1, b2, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/rocket | b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/roadster | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b0, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon9_land | b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 16% | medio 56% | aberto 15% | detalhe 13%
-- Interacoes: b0 insiste, b4 vai ate o outro, b6 entregar
+- Objeto heroi: kit/coin | grandes momentos: b6 | planos abertos: 3 | mistura: close 10% | medio 64% | aberto 21% | detalhe 4%
+- Interacoes: b0 entregar, b1 o outro se aproxima, b2 insiste, b4 vai ate o outro, b5 aproxima-se, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
