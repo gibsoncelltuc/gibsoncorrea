@@ -13,9 +13,12 @@ log = []; mudou = False
 def num(x):
     try: return float(x)
     except Exception: return 0.0
+feitos = set()
 for falha in V.get('falhas', []):
     m = re.match(r'b(\d+)\S*: (.*)', falha)
     if not m: continue
+    if (m.group(1), m.group(2)) in feitos: continue   # a mesma falha em varias tomadas da cena = um conserto por volta
+    feitos.add((m.group(1), m.group(2)))
     k = int(m.group(1)); txt = m.group(2); b = BT[k]; n = int(b.get('_auto_vis', 0))
     if n >= 3: log.append(f'b{k}: ja corrigida 3 vezes, {txt} -> fica para o olho'); continue
     props = b.setdefault('props', [])
@@ -25,8 +28,8 @@ for falha in V.get('falhas', []):
         if idx is None: props.append([a, 0.0, 0.6, 1.2]); idx = len(props) - 1
         p = props[idx]; x, z = num(p[1]), num(p[2]); s = num(p[3]) if len(p) > 3 else 1.0
         if GRANDE.search(a):
-            if n == 0: b.update({'shot': 'wide', 'cx': round(x * 0.5, 1), 'cz': round(z * 0.5, 1), 'h': 2.8, 'd0': round(max(16.0, abs(z) + 12), 1), 'd1': round(max(13.0, abs(z) + 9), 1)}); b['crowd'] = {'n': 0}; acao = f'camera em plano aberto mirando o objeto (cx {b["cx"]}, cz {b["cz"]}), sem multidao na frente'
-            elif n == 1: p[1], p[2] = 0.0, round(min(z, -8.0), 1); b.update({'cx': 0.0, 'cz': round(p[2] * 0.5, 1), 'd0': round(abs(p[2]) + 14, 1), 'd1': round(abs(p[2]) + 11, 1)}); b['who'] = (b.get('who') or [])[:1]; acao = 'objeto no centro do fundo, so 1 personagem na frente'
+            if n == 0: b.update({'shot': 'wide', 'cx': round(x, 1), 'cz': round(z * 0.7, 1), 'h': 2.8, 'd0': round(max(13.0, abs(z) * 0.8 + 8), 1), 'd1': round(max(11.0, abs(z) * 0.8 + 5), 1)}); b['crowd'] = {'n': 0}; acao = f'camera em plano aberto mirando o objeto (cx {b["cx"]}, cz {b["cz"]}), sem multidao na frente'
+            elif n == 1: p[1], p[2] = 0.0, round(max(min(z, -6.0), -9.0), 1); b.update({'cx': 0.0, 'cz': round(p[2] * 0.7, 1), 'd0': round(abs(p[2]) + 9, 1), 'd1': round(abs(p[2]) + 6, 1)}); b['who'] = (b.get('who') or [])[:1]; acao = 'objeto no centro do fundo, so 1 personagem na frente'
             else: b['who'] = []; b['crowd'] = {'n': 0}; b.update({'cx': 0.0, 'cz': round(num(p[2]) * 0.5, 1)}); acao = 'cena so do objeto (sem personagem na frente)'
         else:
             if n == 0: p[1], p[2] = round(max(-1.6, min(1.6, x * 0.5)), 1), round(max(z, -1.0) if z < 0.6 else min(z, 1.2), 1); acao = f'objeto trazido para perto do centro ({p[1]}, {p[2]})'
@@ -38,6 +41,10 @@ for falha in V.get('falhas', []):
         if idx is not None: p = props[idx]; p[1] = 4.6 if num(p[1]) >= 0 else -4.6; p[2] = min(num(p[2]), -3.0); acao = f'"{a}" foi para o lado e para tras ({p[1]}, {p[2]})'
         else:
             seq = ['two', 'wide', 'group', 'low']; cur = b.get('shot', 'two'); b['shot'] = seq[(seq.index(cur) + 1) % len(seq)] if cur in seq else 'wide'; b['detalhe'] = False; acao = f'enquadramento trocado para "{b["shot"]}" (o que tapava e cenario)'
+    elif 'CORTADO' in txt:
+        if b.get('cx') is not None or n >= 1: b['who'] = (b.get('who') or [])[:1]; b['_who_lado'] = True; acao = 'so 1 personagem na cena (o outro saia cortado na borda)'
+        else: b['shot'] = 'wide' if b.get('shot') != 'wide' else 'group'; acao = f'enquadramento mais aberto ("{b["shot"]}") para o personagem caber inteiro'
+        if n >= 2: b['who'] = []; acao = 'cena sem personagem na frente (continuava cortado)'
     elif 'DENTRO' in txt:
         if idx is not None: p = props[idx]; p[2] = round(min(num(p[2]), -8.0) - 14.0, 1)
         for c in ('cx', 'cz'): b.pop(c, None)

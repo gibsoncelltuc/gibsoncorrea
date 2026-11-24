@@ -35,7 +35,8 @@ for (const s of SPEC.shots) {
       const isCard = (o) => o.material && o.material.map && o.material.map.image && o.material.map.image.getContext && o.material.alphaTest > 0;   // personagem (carta pintada)
       const meshes = []; scene.traverse((o) => { if (o.isMesh && vis(o) && !o.userData.sky && !o.userData.ndSkip && (!(o.material && o.material.transparent) || isCard(o))) meshes.push(o); });
       const solido = (h) => { if (!isCard(h.object)) return true; if (!h.uv) return false; const im = h.object.material.map.image; const fl = h.object.material.map.flipY !== false; const px = im.getContext('2d').getImageData(Math.min(im.width - 1, Math.max(0, Math.floor(h.uv.x * im.width))), Math.min(im.height - 1, Math.max(0, Math.floor((fl ? 1 - h.uv.y : h.uv.y) * im.height))), 1, 1).data; return px[3] > 60; };   // carta so' tapa onde o boneco esta pintado
-      const first = (hs) => hs.find(solido);
+      const chao = (h) => { if (isCard(h.object) || !h.face) return false; const nw = h.face.normal.clone().transformDirection(h.object.matrixWorld); return nw.y > 0.75; };   // chao/agua/convés: a parte do objeto abaixo dele (casco submerso) nao conta como escondida
+      const first = (hs) => hs.find((h) => solido(h) && !chao(h));
       const rc = new THREE.Raycaster(); const cp = cam.position.clone();
       const top = (o) => { let p = o; while (p.parent && p.parent !== scene && p.parent.parent && p.parent.parent !== scene) p = p.parent; return p; };
       const R = { f, objs: [], bloq: null, dentro: null };
@@ -58,12 +59,17 @@ for (const s of SPEC.shots) {
       for (let i = 0; i < 6; i++) for (let j = 0; j < 10; j++) { tot++; rc.setFromCamera(new THREE.Vector2(-0.9 + i * 0.36, -0.9 + j * 0.2), cam); rc.far = 3.5; const h = first(rc.intersectObjects(meshes, false)); if (!h || isCard(h.object)) continue;
         const nw = h.face ? h.face.normal.clone().transformDirection(h.object.matrixWorld) : null; if (nw && nw.y > 0.75) continue; const t = top(h.object); cnt.set(t, (cnt.get(t) || 0) + 1); }
       for (const [t, c] of cnt) if (c / tot >= 0.35) { let nm = ''; for (const k in pool) if (pool[k].includes(t)) nm = k; R.bloq = { obj: nm || t.name || t.type, frac: c / tot }; }
+      // personagem cortado: carta de boneco grande (mais de 45% da altura da tela) atravessando a borda do quadro
+      R.cortado = 0; scene.traverse((o) => { if (!o.isMesh || !isCard(o) || !vis(o)) return; const bb = new THREE.Box3().setFromObject(o); if (bb.isEmpty() || bb.min.y > 6.7) return; /* so' boneco com os pes no chao (placa de texto e passaro flutuam) */ let x0 = 9, x1 = -9, y0 = 9, y1 = -9, atras = false;
+        for (const x of [bb.min.x, bb.max.x]) for (const y of [bb.min.y, bb.max.y]) for (const z of [bb.min.z, bb.max.z]) { const n = new THREE.Vector3(x, y, z).project(cam); if (n.z > 1) atras = true; x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x); y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y); }
+        if (atras) return; const alt = (Math.min(y1, 1) - Math.max(y0, -1)) / 2; if (alt > 0.45 && (x0 < -1.15 || x1 > 1.15) && x1 > -1 && x0 < 1) R.cortado++; });
       return R;
     }, [f, need[s.id] || []]));
   }
   const rep = { id: s.id, quadros: res };
-  for (const a of need[s.id] || []) { const ok = res.some((r) => r.objs.some((o) => o.a === a && o.vis >= 0.3 && o.area >= 0.004)); if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
+  for (const a of need[s.id] || []) { const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
   const bl = res.filter((r) => r.bloq); if (bl.length >= 2) falhas.push(`${s.id}: "${bl[0].bloq.obj}" tapando a camera (${Math.round(bl[0].bloq.frac * 100)}% do quadro, colado na lente)`);
+  if (res.filter((r) => r.cortado).length >= 2) falhas.push(`${s.id}: personagem CORTADO na borda do quadro (boneco grande saindo da tela)`);
   const dn = res.find((r) => r.dentro); if (dn) falhas.push(`${s.id}: camera DENTRO de "${dn.dentro}"`);
   out.push(rep);
 }

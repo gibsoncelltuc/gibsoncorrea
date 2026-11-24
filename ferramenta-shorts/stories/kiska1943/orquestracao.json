@@ -3,17 +3,16 @@
  "ano": 1943,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 100,
+  "acoes_encenadas": 92,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
-    "USA",
-    "CAN"
+    "USA"
    ],
    "multidao": 24,
    "objetos": [
@@ -29,13 +28,9 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "USA",
-    "CAN",
-    "USA"
-   ],
-   "multidao": 8,
+   "camera": "wide",
+   "personagens": [],
+   "multidao": 32,
    "objetos": [
     "kit/navio_vapor",
     "vehicles/airplane"
@@ -43,8 +38,8 @@
    "palavras": 19,
    "cena": "b1",
    "frase": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
-   "classe": "simples",
-   "sujeito": "personagem",
+   "classe": "transicao",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
@@ -72,11 +67,9 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
-   "personagens": [
-    "USA"
-   ],
-   "multidao": 48,
+   "camera": "group",
+   "personagens": [],
+   "multidao": 0,
    "objetos": [
     "kit/aviao_ww2",
     "kit/canhao_moderno"
@@ -84,20 +77,16 @@
    "palavras": 7,
    "cena": "b3",
    "frase": "Antes do desembarque, bombardearam Kiska durante semanas.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
+   "classe": "transicao",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [
+    "bombardearam"
+   ],
    "cenario": "arctic"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "USA",
     "CAN",
@@ -174,20 +163,26 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "USA",
     "CAN",
     "USA"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [],
    "palavras": 17,
    "cena": "b8",
    "frase": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "arctic"
   },
@@ -211,7 +206,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "prop",
+   "camera": "wide",
    "personagens": [
     "USA",
     "CAN"
