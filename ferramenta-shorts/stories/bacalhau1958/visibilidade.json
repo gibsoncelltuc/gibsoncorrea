@@ -1,25 +1,51 @@
 {
  "id": "bacalhau1958",
- "falhas": [],
+ "falhas": [
+  "b4: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b6: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b6~1: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b6~2: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
+ ],
  "tomadas": [
   {
    "id": "b0",
    "quadros": [
     {
      "f": 11,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.11857707509881422,
+       "vis": 0.3333333333333333,
+       "area": 0.5265783355488874
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 28,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.12648221343873517,
+       "vis": 0.3125,
+       "area": 0.5086973116012362
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 44,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.11857707509881422,
+       "vis": 0.2,
+       "area": 0.5166974618463108
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -30,19 +56,40 @@
    "quadros": [
     {
      "f": 67,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.10276679841897234,
+       "vis": 0.3076923076923077,
+       "area": 0.5058301506780333
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 83,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.10276679841897234,
+       "vis": 0.23076923076923078,
+       "area": 0.4701216378587935
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 99,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.11067193675889328,
+       "vis": 0.21428571428571427,
+       "area": 0.5466086958532517
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -55,10 +102,10 @@
      "f": 147,
      "objs": [
       {
-       "a": "kit/cod",
-       "inq": 1,
+       "a": "kit/navio_destroier",
+       "inq": 0.6442687747035574,
        "vis": 1,
-       "area": 0.04635752549591713
+       "area": 0.5589894962461628
       }
      ],
      "bloq": null,
@@ -68,10 +115,10 @@
      "f": 202,
      "objs": [
       {
-       "a": "kit/cod",
-       "inq": 1,
+       "a": "kit/navio_destroier",
+       "inq": 0.6363636363636364,
        "vis": 1,
-       "area": 0.06499293658721077
+       "area": 0.6398546873935493
       }
      ],
      "bloq": null,
@@ -81,10 +128,10 @@
      "f": 257,
      "objs": [
       {
-       "a": "kit/cod",
-       "inq": 0.6967741935483871,
+       "a": "kit/navio_destroier",
+       "inq": 0.4505928853754941,
        "vis": 1,
-       "area": 0.08621893123109683
+       "area": 0.6447517985312682
       }
      ],
      "bloq": null,
@@ -96,19 +143,19 @@
    "id": "b2",
    "quadros": [
     {
-     "f": 306,
+     "f": 305,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 324,
+     "f": 322,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 341,
+     "f": 338,
      "objs": [],
      "bloq": null,
      "dentro": null
@@ -116,22 +163,22 @@
    ]
   },
   {
-   "id": "b2_d",
+   "id": "b2~1",
    "quadros": [
     {
-     "f": 362,
+     "f": 361,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 374,
+     "f": 377,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 385,
+     "f": 393,
      "objs": [],
      "bloq": null,
      "dentro": null
@@ -139,22 +186,22 @@
    ]
   },
   {
-   "id": "b2_v",
+   "id": "b2~2",
    "quadros": [
     {
-     "f": 407,
+     "f": 416,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 427,
+     "f": 433,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 447,
+     "f": 449,
      "objs": [],
      "bloq": null,
      "dentro": null
@@ -166,19 +213,40 @@
    "quadros": [
     {
      "f": 495,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.6442687747035574,
+       "vis": 1,
+       "area": 0.5580031836784037
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 547,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.6363636363636364,
+       "vis": 1,
+       "area": 0.6376571346563208
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 598,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.4624505928853755,
+       "vis": 1,
+       "area": 0.6395803801993306
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -189,19 +257,40 @@
    "quadros": [
     {
      "f": 645,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.16600790513833993,
+       "vis": 0.14285714285714285,
+       "area": 0.5439607820335797
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 662,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.16205533596837945,
+       "vis": 0.12195121951219512,
+       "area": 0.5187456237011782
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 679,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.16996047430830039,
+       "vis": 0.20930232558139536,
+       "area": 0.5329827637250908
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -212,19 +301,40 @@
    "quadros": [
     {
      "f": 703,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.09090909090909091,
+       "vis": 0.13043478260869565,
+       "area": 0.3231921886605852
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 721,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.09486166007905138,
+       "vis": 0.3333333333333333,
+       "area": 0.32257377038016205
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 738,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.1067193675889328,
+       "vis": 0.2962962962962963,
+       "area": 0.3288127300214322
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -304,19 +414,40 @@
    "quadros": [
     {
      "f": 932,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 948,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 964,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -327,19 +458,40 @@
    "quadros": [
     {
      "f": 987,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 1004,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 1020,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -350,19 +502,40 @@
    "quadros": [
     {
      "f": 1043,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 1059,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     },
     {
      "f": 1075,
-     "objs": [],
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
      "bloq": null,
      "dentro": null
     }
@@ -372,19 +545,19 @@
    "id": "b7",
    "quadros": [
     {
-     "f": 1097,
+     "f": 1096,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 1112,
+     "f": 1110,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 1126,
+     "f": 1123,
      "objs": [],
      "bloq": null,
      "dentro": null
@@ -392,22 +565,22 @@
    ]
   },
   {
-   "id": "b7_d",
+   "id": "b7~1",
    "quadros": [
     {
-     "f": 1143,
+     "f": 1142,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 1153,
+     "f": 1156,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 1163,
+     "f": 1169,
      "objs": [],
      "bloq": null,
      "dentro": null
@@ -415,22 +588,22 @@
    ]
   },
   {
-   "id": "b7_v",
+   "id": "b7~2",
    "quadros": [
     {
-     "f": 1181,
+     "f": 1188,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 1197,
+     "f": 1202,
      "objs": [],
      "bloq": null,
      "dentro": null
     },
     {
-     "f": 1213,
+     "f": 1215,
      "objs": [],
      "bloq": null,
      "dentro": null
