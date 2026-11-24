@@ -285,7 +285,7 @@
    "d1": 11.5
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "countryside",
    "who": [
     "GOV:0:sad"
@@ -318,7 +318,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "ano": 1900,
