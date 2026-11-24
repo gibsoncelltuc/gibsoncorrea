@@ -1,0 +1,1136 @@
+{
+ "id": "lagosta1961",
+ "falhas": [
+  "b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b4: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
+ ],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 9,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6693548387096774,
+       "vis": 1,
+       "area": 0.17259853818691068,
+       "cx": 0.003642952034270952
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 22,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6612903225806451,
+       "vis": 1,
+       "area": 0.18488334721130342,
+       "cx": -0.014607942578691302
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 35,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6854838709677419,
+       "vis": 0.9176470588235294,
+       "area": 0.20024937276000282,
+       "cx": 0.01926301987577167
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_d",
+   "quadros": [
+    {
+     "f": 51,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6854838709677419,
+       "vis": 1,
+       "area": 0.19357555092691095,
+       "cx": -0.01061272093316995
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 60,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.7258064516129032,
+       "vis": 0.9444444444444444,
+       "area": 0.13427640235612384,
+       "cx": 0.00323306586004668
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 68,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.9758064516129032,
+       "vis": 0.9834710743801653,
+       "area": 0.10414788647121119,
+       "cx": 0.0331954496818761
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_v",
+   "quadros": [
+    {
+     "f": 85,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.9838709677419355,
+       "vis": 0.9918032786885246,
+       "area": 0.10070821960664285,
+       "cx": 0.02503959173402337
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 100,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.75,
+       "vis": 1,
+       "area": 0.15613188567731764,
+       "cx": 0.023195941772900686
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 114,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6774193548387096,
+       "vis": 0.9761904761904762,
+       "area": 0.19258254813131342,
+       "cx": 0.008489078840704989
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 135,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 0.5952380952380952,
+       "vis": 0.672,
+       "area": 0.03777059253713909,
+       "cx": -0.6092543447648225
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 0.7282608695652174,
+       "vis": 1,
+       "area": 0.13787679932706098,
+       "cx": 0.5137497696226041
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 151,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 0.5952380952380952,
+       "vis": 0.056,
+       "area": 0.054948713669539934,
+       "cx": -0.5588876926138785
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 0.7717391304347826,
+       "vis": 1,
+       "area": 0.19755087017555326,
+       "cx": 0.4114661069045905
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 167,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 0.8047619047619048,
+       "vis": 0.029585798816568046,
+       "area": 0.06739772716055156,
+       "cx": -0.5136846896272302
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 0.8043478260869565,
+       "vis": 0.44594594594594594,
+       "area": 0.26490947012195126,
+       "cx": 0.25316927416311896
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b1_1",
+   "quadros": [
+    {
+     "f": 186,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 0.30434782608695654,
+       "vis": 0.5,
+       "area": 0.0707700331094142,
+       "cx": 0.7687687276361244
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 199,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 0.6,
+       "vis": 0.15079365079365079,
+       "area": 0.03927193497601146,
+       "cx": 0.6289310811255396
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 0.4891304347826087,
+       "vis": 0.4,
+       "area": 0.08121105696847154,
+       "cx": 0.6649994565664101
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 212,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 1,
+       "vis": 0.5571428571428572,
+       "area": 0.061570245531897896,
+       "cx": 0.25999759444168435
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.1220661302078054,
+       "cx": -0.23605754483861713
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b1_2",
+   "quadros": [
+    {
+     "f": 237,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 1,
+       "vis": 0.5571428571428572,
+       "area": 0.04468773211948529,
+       "cx": 0.10844506909385268
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06430836158657852,
+       "cx": 0.38126129729440794
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 260,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 1,
+       "vis": 0.7285714285714285,
+       "area": 0.03740573535165556,
+       "cx": -0.13813972298371885
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.03018739100488168,
+       "cx": 0.35840023664679577
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 283,
+     "objs": [
+      {
+       "a": "boat",
+       "inq": 1,
+       "vis": 0.9285714285714286,
+       "area": 0.030172950750981066,
+       "cx": -0.18209151488899
+      },
+      {
+       "a": "kit/fishing_net",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.017406785072591188,
+       "cx": 0.34539257600622353
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 314,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 336,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 358,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2_x",
+   "quadros": [
+    {
+     "f": 387,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 409,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 430,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 459,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 480,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 500,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3_x",
+   "quadros": [
+    {
+     "f": 529,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 549,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 569,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 596,
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.3359683794466403,
+       "vis": 0.38823529411764707,
+       "area": 0.5451749436062744,
+       "cx": 0.06960388641039944
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 614,
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.2450592885375494,
+       "vis": 0.3870967741935484,
+       "area": 0.5822313211702284,
+       "cx": 0.003581491812936821
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 632,
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.11857707509881422,
+       "vis": 0.3,
+       "area": 0.5481426385165988,
+       "cx": -0.0703773551320237
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4~1",
+   "quadros": [
+    {
+     "f": 657,
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.1067193675889328,
+       "vis": 0.1111111111111111,
+       "area": 0.5092050768455044,
+       "cx": -0.11239775387988582
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 675,
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.14624505928853754,
+       "vis": 0.10810810810810811,
+       "area": 0.5189298641696687,
+       "cx": -0.08824196919717525
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 693,
+     "objs": [
+      {
+       "a": "kit/navio_destroier",
+       "inq": 0.16996047430830039,
+       "vis": 0.11627906976744186,
+       "area": 0.5521696074220919,
+       "cx": -0.030293999034233077
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 718,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 1,
+       "vis": 0.6367041198501873,
+       "area": 0.08996791169688863,
+       "cx": -0.02515218425745569
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 736,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 1,
+       "vis": 0.16104868913857678,
+       "area": 0.0936226177925509,
+       "cx": 0.09404852162081956
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 753,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 1,
+       "vis": 0.2883895131086142,
+       "area": 0.1015631571770081,
+       "cx": 0.23477852838646596
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b5_1",
+   "quadros": [
+    {
+     "f": 776,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.011235955056179775,
+       "vis": 1,
+       "area": 0.0000017943023654955856,
+       "cx": 0.9873767050336475
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 791,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 805,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.27715355805243447,
+       "vis": 0.7567567567567568,
+       "area": 0.032663627133198044,
+       "cx": 0.7233112873008202
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5_2",
+   "quadros": [
+    {
+     "f": 834,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.7490636704119851,
+       "vis": 0.49,
+       "area": 0.04417582017072257,
+       "cx": 0.6512441311068934
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 861,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 1,
+       "vis": 0.9400749063670412,
+       "area": 0.06201175680427585,
+       "cx": 0.44096100871255706
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 887,
+     "objs": [
+      {
+       "a": "vehicles/airplane",
+       "inq": 1,
+       "vis": 0.9925093632958801,
+       "area": 0.05032199748570873,
+       "cx": 0.2911542045043813
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 918,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 936,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 953,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6~1",
+   "quadros": [
+    {
+     "f": 978,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 995,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1012,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6~2",
+   "quadros": [
+    {
+     "f": 1037,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1055,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1072,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6~3",
+   "quadros": [
+    {
+     "f": 1097,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1114,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1131,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1156,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1174,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1192,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7~1",
+   "quadros": [
+    {
+     "f": 1217,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1235,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1253,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7~2",
+   "quadros": [
+    {
+     "f": 1278,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1296,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1314,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1361,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1413,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1465,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1509,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.7580645161290323,
+       "vis": 1,
+       "area": 0.15336994036360405,
+       "cx": 0.011175962240248305
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1523,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.7096774193548387,
+       "vis": 0.9659090909090909,
+       "area": 0.16799324648014266,
+       "cx": 0.002941991303561764
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1536,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6048387096774194,
+       "vis": 0.9466666666666667,
+       "area": 0.1756595124378373,
+       "cx": -0.004203733087315087
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9_d",
+   "quadros": [
+    {
+     "f": 1552,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6209677419354839,
+       "vis": 0.974025974025974,
+       "area": 0.16010150532642653,
+       "cx": 0.024886587561743667
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1561,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.8548387096774194,
+       "vis": 0.9905660377358491,
+       "area": 0.12366919935868961,
+       "cx": 0.00019800469117914332
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1570,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.9838709677419355,
+       "vis": 0.9836065573770492,
+       "area": 0.09634946569539031,
+       "cx": 0.03144824049381839
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9_v",
+   "quadros": [
+    {
+     "f": 1587,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.9758064516129032,
+       "vis": 0.9834710743801653,
+       "area": 0.1024308490702647,
+       "cx": 0.023729959460614514
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1602,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6774193548387096,
+       "vis": 0.9523809523809523,
+       "area": 0.17738715156574328,
+       "cx": 0.007720216980831196
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1617,
+     "objs": [
+      {
+       "a": "kit/lobster",
+       "inq": 0.6693548387096774,
+       "vis": 0.927710843373494,
+       "area": 0.21205159755935013,
+       "cx": -0.010598105841700012
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1641,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1661,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1680,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1707,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1727,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1746,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  }
+ ]
+}
