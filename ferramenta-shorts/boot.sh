@@ -9,11 +9,12 @@ cd "$(dirname "$0")"; mkdir -p logs
   command -v espeak-ng >/dev/null || (apt-get install -y -q espeak-ng >/dev/null 2>&1 || (apt-get update -q >/dev/null 2>&1 && apt-get install -y -q espeak-ng >/dev/null 2>&1))
   python3 -c "import edge_tts, PIL, numpy" 2>/dev/null || pip install -q edge-tts pillow numpy >/dev/null 2>&1
   [ -e node_modules/playwright ] || { mkdir -p node_modules; ln -sfn /usr/local/lib/node_modules_global/playwright node_modules/playwright; }
+  bash garantir_sync.sh   # 24/11: a sincronia da ferramenta (60 s) liga ANTES da trava de pausa -- sessao pausada tambem recebe as correcoes
   [ -f PAUSA ] && { echo "PAUSA: producao parada por ordem do Gibson (apague ferramenta-shorts/PAUSA para retomar)"; exit 0; }   # 24/11: reinicio do ambiente nao religa fila/watchdog/auto-aprovacao durante a pausa
   PEND=$(grep -v '^#' queue.txt 2>/dev/null | awk 'NF{print $1}' | while read -r id; do [ -f stories/$id/DONE ] || echo $id; done | head -1)
   if [ -n "$PEND" ]; then echo "pendente: $PEND -> relancando fila"; nohup bash run_queue.sh >> logs/queue.log 2>&1 & else echo "nada pendente"; fi
   BR=$(git -C .. rev-parse --abbrev-ref HEAD 2>/dev/null)   # WATCHDOG (19/11): nas sessoes A/B o sync da ferramenta volta sozinho apos reinicio
-  if [ "$BR" != "claude/bold-sagan-dskrsj" ] && ! pgrep -f "sync_ferramenta.sh" >/dev/null; then nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 60; done' > /dev/null 2>&1 & echo "sync automatico relancado"; fi
+  bash garantir_sync.sh
   if [ "$BR" = "claude/bold-sagan-dskrsj" ] && ! pgrep -f "watchdog.sh" >/dev/null; then nohup setsid bash -c 'while true; do bash watchdog.sh >> logs/watchdog.log 2>&1; sleep 60; done' > /dev/null 2>&1 & echo "watchdog relancado (principal)"; fi   # 19/11: watchdog volta sozinho apos reinicio do ambiente
   pgrep -f auto_aprovar.sh >/dev/null || nohup setsid bash auto_aprovar.sh > /dev/null 2>&1 &   # auto-aprovacao de seguranca (cota acabou)
 } >> logs/boot.log 2>&1 &
