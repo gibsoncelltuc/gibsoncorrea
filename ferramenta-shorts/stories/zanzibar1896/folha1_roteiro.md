@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 152 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Uma guerra durou menos de uma hora, e é considerada a mais curta da história.
@@ -65,11 +65,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
-- Narracao: O sultão fugiu e pediu abrigo no consulado da Alemanha.
+## Cena b7  (~3.1 s)
+- Narracao: O sultão foi pedir abrigo no consulado da Alemanha.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; fugiu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito; encena: fala (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

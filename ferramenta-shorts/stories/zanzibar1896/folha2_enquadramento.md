@@ -53,7 +53,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: cannon@20
 - SOM: thump@60
 
-## b7: "O sultão fugiu e pediu abrigo no consulado da Alemanha."
+## b7: "O sultão foi pedir abrigo no consulado da Alemanha."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SUL na esquerda, expressao shock; ALM na direita, expressao smile; sem multidao; acao: fala/gesto

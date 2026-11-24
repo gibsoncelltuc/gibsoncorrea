@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 51 acoes catalogadas, 51 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.6s - 15 palavras - plano two
@@ -130,35 +130,29 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 34.9s a 37.1s - 10 palavras - plano two
-> "O sultão fugiu e pediu abrigo no consulado da Alemanha."
+## Cena b7 - 34.9s a 36.9s - 9 palavras - plano two
+> "O sultão foi pedir abrigo no consulado da Alemanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fugiu (35.3s) | EFEITO: dust | poeira + som | OK |
-| 2 | fugiu (35.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | pediu (35.7s) | ACAO: fala | aponta explicando | OK |
-| 4 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 1 | pedir (35.5s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra fugiu (35.3s): executa: poeira + som
-- ACAO: corre na palavra fugiu (35.3s): passos rapidos com o corpo inclinado para frente; cruza o quadro de um lado ao outro
-- ACAO: fala na palavra pediu (35.7s): braco estendido apontando para o objeto/lugar citado
-- EMOCAO: pleading (a cena toda): executa: o rosto vira "pleading" na palavra
+- ACAO: fala na palavra pedir (35.5s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b8 - 38.5s a 40.2s - 9 palavras - plano orbit
+## Cena b8 - 37.1s a 40.1s - 9 palavras - plano orbit
 > "Os tiros pararam por volta das nove e quarenta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiros (38.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiros (38.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | tiros (38.5s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | tiros (38.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | CENA | cavalaria: 4 soldados a cavalo (GUA) | OK |
 | 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
@@ -166,55 +160,55 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra tiros (38.6s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ACAO: atira na palavra tiros (38.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- EFEITO: burst na palavra tiros (38.5s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra tiros (38.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - CENA (a cena toda): executa: cavalaria: 4 soldados a cavalo (GUA)
 - CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 41.5s a 45.8s - 15 palavras - plano two
+## Cena b9 - 40.2s a 45.5s - 15 palavras - plano two
 > "Os ingleses colocaram outro sultão no trono, e os aliados do primo pagaram pelas balas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | colocaram (42.1s) | ACAO: pega | levanta/segura | OK |
-| 2 | pagaram (45.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | pagaram (45.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | balas (45.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | colocaram (41.6s) | ACAO: pega | levanta/segura | OK |
+| 2 | pagaram (44.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | pagaram (44.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | balas (45.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 5 | - | INTERACAO | entregar | OK |
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | PLACA | OUTRO SULTÃO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra colocaram (42.1s): executa: levanta/segura
-- EFEITO: stars na palavra pagaram (45.1s): executa: estrelinhas + som
-- ACAO: negocio na palavra pagaram (45.1s): executa: moeda girando (compra/venda)
-- ACAO: atira na palavra balas (45.8s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ACAO: pega na palavra colocaram (41.6s): executa: levanta/segura
+- EFEITO: stars na palavra pagaram (44.8s): executa: estrelinhas + som
+- ACAO: negocio na palavra pagaram (44.8s): executa: moeda girando (compra/venda)
+- ACAO: atira na palavra balas (45.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 46.9s a 48.5s - 7 palavras - plano close
+## Cena b10 - 45.8s a 48.3s - 7 palavras - plano close
 > "E ainda mandaram a conta das balas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandaram (47.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | balas (48.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | mandaram (47.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | balas (48.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra mandaram (47.4s): braco estendido apontando para o objeto/lugar citado
-- ACAO: atira na palavra balas (48.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ACAO: fala na palavra mandaram (47.1s): braco estendido apontando para o objeto/lugar citado
+- ACAO: atira na palavra balas (48.3s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b11 - 49.7s a 53.0s - 13 palavras - plano close
+## Cena b11 - 48.5s a 52.6s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

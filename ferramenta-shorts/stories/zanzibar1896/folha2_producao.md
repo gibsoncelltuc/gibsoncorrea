@@ -156,7 +156,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (31.8-33.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b7 - O sultão fugiu e pediu abrigo no consulado da Alemanha.
+## Cena b7 - O sultão foi pedir abrigo no consulado da Alemanha.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -164,8 +164,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, consulado, sultao
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+- RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
@@ -173,7 +172,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SUL na esquerda, expressao shock; ALM na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Os tiros pararam por volta das nove e quarenta.
@@ -195,7 +194,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
 - TEXTO NA TELA: "9:40" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (37.1-38.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (38.6-40.1 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b9 - Os ingleses colocaram outro sultão no trono, e os aliados do primo pag...
@@ -215,9 +216,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: SUL na esquerda, expressao smile; ING2 na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/throne: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "OUTRO SULTÃO" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (41.5-43.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (43.6-45.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (40.2-42.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (42.0-43.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (43.7-45.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b10 - E ainda mandaram a conta das balas.
@@ -236,7 +238,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: ALM no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -263,12 +265,11 @@ kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b5, b8 | planos abertos: 5 | mistura: close 16% | medio 53% | aberto 29% | detalhe 2%
+- Objeto heroi: kit/navio_vapor | grandes momentos: b5, b8 | planos abertos: 5 | mistura: close 16% | medio 52% | aberto 29% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b7 discutir, b9 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b7: a narracao fala de FUGA/CORRERIA e ninguem corre
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).
@@ -278,8 +279,8 @@ kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (49.7-51.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (51.4-53.0 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (48.5-50.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (50.5-52.6 s): mesmo angulo
 <!-- /FICHA -->
 

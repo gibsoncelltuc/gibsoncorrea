@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Gerado em 24/11 20:48 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 20:49 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | harbor | wide | ALM | - | marco_zanzibar, navio_vapor | - | Os in
 b4 | simples | loc_campo | group | GUA, GUA | 18 | marco_zanzibar | - | O primo reuniu quase três mil homens, com fuzis e mosquetes, e se tran
 b5 | chave | harbor | crowd | ING, GUA | 48 | marco_zanzibar, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, às nove e dois, os navios ingleses abriram fogo.
 b6 | chave | harbor | crowd | SUL, GUA | 32 | cannon, fire, marco_zanzibar, flagpole | corpo: labaredas 3D; emissao: fumaca; luz: clarao do fogo; camera: plano da cena; som: fogo | O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira 
-b7 | simples | interior madeira | two | SUL, ALM | - | - | - | O sultão fugiu e pediu abrigo no consulado da Alemanha.
+b7 | simples | interior madeira | two | SUL, ALM | - | - | - | O sultão foi pedir abrigo no consulado da Alemanha.
 b8 | chave | loc_campo | orbit | GUA, ING | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os tiros pararam por volta das nove e quarenta.
 b9 | simples | interior pedra | two | SUL, ING2 | - | throne | - | Os ingleses colocaram outro sultão no trono, e os aliados do primo pag
 b10 | simples | interior loja | close | ALM | - | - | - | E ainda mandaram a conta das balas.
@@ -26,8 +26,8 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/14 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
+5 | Voz | narracao neural gerada e tempos por palavra | PENDENTE | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
@@ -38,5 +38,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local zanzibar1896 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 4. Travas do roteiro
+**Etapa atual:** 5. Voz
 
