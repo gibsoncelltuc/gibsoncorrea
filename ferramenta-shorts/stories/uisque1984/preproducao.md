@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/whisky | flag | -
 b1 | arctic | reveal | 2 | parados (so fala e pisca) | - | - | -
-b2 | interior madeira | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
+b2 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
 b3 | arctic | wide | 1 | encena, batalha | vehicles/helicopter | flag | -
 b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
 b5 | arctic | wide | 1 | encena, batalha | war/flagpole | flag | -
@@ -19,7 +19,7 @@ b11 | interior pedra | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/whisky
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
-Interacoes entre personagens: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b9 entregar
+Interacoes entre personagens: b0 discutir, b2 discutir, b4 pular, b6 entregar, b7 cochichar, b9 entregar
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

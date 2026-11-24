@@ -106,7 +106,7 @@
     "CAN:0:angry",
     "DIN:0:angry"
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "say": "Os dois países diziam que a ilha era sua, mas ninguém queria guerra de verdade.",
    "interior": "madeira"
   },
@@ -122,7 +122,7 @@
    "props": [
     [
      "vehicles/helicopter",
-     -16.0,
+     -7.0,
      -9.7,
      3.0,
      {
