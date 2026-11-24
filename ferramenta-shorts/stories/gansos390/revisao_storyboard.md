@@ -4,9 +4,9 @@ b0: CORRIGIDO - um bando de gansos barulhentos salvou Roma numa so noite: antes 
 b1: OK - em trezentos e noventa antes de Cristo os gauleses de Breno tomaram Roma e queimaram quase tudo: mapa de Roma e gauleses azuis de cabelo ruivo diante de chamas, com o texto 390 a.C.
 b2: OK - os romanos que sobraram se trancaram no Capitolio, uma colina fortificada: tres romanos de elmo diante da casa de pedra e do texto CAPITOLIO, com pedras da colina.
 b3: OK - os gauleses cercaram a colina e a fome apertou os dois lados: romano e gaules ruivo de azul lado a lado na colina de pedras, com fardos de palha.
-b4: CORRIGIDO - numa noite sem lua eles chegaram em silencio ao pe da muralha e os guardas nao ouviram nada: texto ajustado ao que se ve -> gaules azul chegando ao pe da muralha escura de noite, ninguem cortado.
+b4: CORRIGIDO - numa noite sem lua eles chegaram em silencio ao pe da muralha e os guardas nao ouviram nada: antes a camera colada na parede -> agora plano aberto com a torre inteira ao fundo, de noite, gauleses pequenos ao pe dela.
 b5: CORRIGIDO - acontece que os gansos sagrados da deusa Juno ouviram e comecaram a gritar: os gansos saiam cortados da tela -> agora tres gansos juntos diante do romano assustado e o texto JUNO, de noite.
-b6: CORRIGIDO - o barulho acordou o soldado Marco Manlio que foi ate a muralha e impediu a subida dos gauleses: camera aproximada (12 m) com Manlio e o gaules diante da muralha de noite, ninguem cortado.
-b7: CORRIGIDO - os gauleses se afastaram mas mantiveram o cerco: texto sem acao de fuga -> plano medio com o gaules tombando diante de Manlio, muralha atras, de noite.
+b6: CORRIGIDO - o barulho acordou o soldado Marco Manlio que foi ate a muralha e impediu a subida dos gauleses: antes Manlio nao aparecia -> agora Manlio de elmo e o gaules assustado juntos, de noite, com poeira do empurrao.
+b7: CORRIGIDO - os gauleses se afastaram mas mantiveram o cerco: antes a parede azul cobria a tela -> agora so os dois personagens de noite, sem torre cobrindo.
 b8: OK - no fim depois de sete meses com fome Roma pagou mil libras de ouro e os gauleses foram embora: romano de tunica clara e gaules ruivo com moeda diante da placa 1.000 LIBRAS.
-b9: CORRIGIDO - os gansos salvaram a colina mas o ouro foi embora do mesmo jeito: antes um ganso minusculo -> agora quatro gansos grandes no centro com o templo e as casas de Roma ao fundo, ninguem cortado.
+b9: CORRIGIDO - os gansos salvaram a colina mas o ouro foi embora do mesmo jeito: antes gansos minusculos -> agora tres gansos grandes na frente com moeda, templo e casas de Roma ao fundo.
