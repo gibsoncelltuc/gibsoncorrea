@@ -15,8 +15,8 @@ b7 | harbor | wide | 0 | parados (so fala e pisca) | ship, navios de guerra ao f
 b8 | arctic | group | 3 | reagir, INTERAGEM: discutir | - | - | -
 b9 | harbor | group | 7 | conversar, INTERAGEM: empurrar | kit/navio_encouracado | - | -
 b10 | harbor | prop | 2 | conversar, INTERAGEM: o outro se aproxima | kit/dog_sit, dog | - | -
-b11 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | kit/dog_sit | - | -
-b12 | interior madeira | close | 1 | conversar | - | - | -
+b11 | harbor | two | 2 | conversar, INTERAGEM: insiste | kit/dog_sit | - | -
+b12 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/dog_sit
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4

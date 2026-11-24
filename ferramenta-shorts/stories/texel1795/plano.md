@@ -11,8 +11,8 @@ b5 | two | - neve | tropa, animais, placa: A CAVALO? | atacar (ring + som de ale
 b6 | low | noite neve | animais | - | -
 b7 | two | noite neve | batalha aberta com tiros, animais | encena: chega (point) @10 (acao + som de efeito); montado: FRA galopando em cima do animal (horse_sela) atravessando a cena (acao + som de efeito) | -
 b8 | group | arctic neve | batalha aberta com tiros, tropa, placa: RENDIDOS | encena: rende (up) @11 (acao + som de efeito) | -
-b9 | crowd | - neve | batalha aberta com tiros, tropa, animais | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena (acao + som de efeito) | -
+b9 | crowd | - neve | batalha aberta com tiros, tropa, animais | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 43% | aberto 35% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 45% | aberto 35% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
