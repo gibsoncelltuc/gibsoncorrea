@@ -8,7 +8,7 @@ b0 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | 
 b1 | countryside | reveal | 8 | parados (so fala e pisca) | kit/mapa_antigo, buildings/house_two, nature/lamppost | - | -
 b2 | interior madeira | close | 1 | encena | - | paper | -
 b3 | countryside | crowd | 50 | discutir, batalha | - | - | -
-b4 | countryside | orbit | 20 | discutir, batalha | kit/teodolito | - | -
+b4 | countryside | orbit | 50 | discutir, batalha | kit/teodolito | - | -
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | kit/canivete | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: pedir | - | paper | -
 b7 | jungle | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -

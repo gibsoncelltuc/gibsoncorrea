@@ -113,7 +113,11 @@
    },
    "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
    "riscos_ok": true,
-   "sem_mortos": true
+   "sem_mortos": true,
+   "lados": [
+    "OHI",
+    "MIC"
+   ]
   },
   {
    "shot": "crowd",
@@ -143,6 +147,10 @@
      -0.4,
      1.1
     ]
+   ],
+   "lados": [
+    "OHI",
+    "MIC"
    ]
   },
   {

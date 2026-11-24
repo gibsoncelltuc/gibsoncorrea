@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): OHI (variante 2, expressao shock); MIC (variante 2, expressao shock) | multidao: 18 de OHI/MIC
+- Personagens principais (2): OHI (variante 2, expressao shock); MIC (variante 2, expressao shock) | multidao: 48 de OHI/MIC
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/teodolito
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto
