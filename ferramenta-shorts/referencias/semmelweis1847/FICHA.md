@@ -7,7 +7,7 @@
 - Roupas: {'SEM': 'sobrecasaca escura e bigode', 'DIR': 'sobrecasaca e costeletas grisalhas', 'PAR': 'vestido escuro e avental branco', 'MAE': 'camisola branca de hospital', 'KOL': 'sobrecasaca e barba'}
 - Cenario real: enfermaria longa com leitos de ferro em fileira, paredes claras, janelas altas; bacia de agua clorada na porta
 - Objetos: ['bacia com agua e cal clorada', 'bisturi', 'leitos de hospital', 'lapide']
-- Cenarios usados no video: interior hospital, loc_campo
+- Cenarios usados no video: interior hospital, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

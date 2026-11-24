@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1835,
   "era": "historica",
-  "regiao": null,
+  "regiao": "nenhuma",
   "luz_base": "day",
   "cenarios": [
    "countryside",

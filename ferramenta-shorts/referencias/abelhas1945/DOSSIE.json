@@ -10,6 +10,7 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
+   "loc_estudio",
    "loc_montanha"
   ],
   "cenarios_trocados": [
@@ -110,7 +111,10 @@
    "colegas cientistas desconfiados": "zoologist laboratory 1940s",
    "pratinhos de agua com acucar": "bees drinking sugar water dish",
    "caderno de anotacoes": "scientist field notebook"
-  }
+  },
+  "explicacoes": [
+   "Danca das abelhas (von Frisch): danca em circulo = comida perto; danca do requebrado em oito = comida longe; o angulo da corrida em relacao a vertical indica a direcao da comida em relacao ao sol; a duracao do requebrado indica a distancia (fonte: Wikipedia Waggle dance)"
+  ]
  },
  "fontes": [],
  "falta": []
