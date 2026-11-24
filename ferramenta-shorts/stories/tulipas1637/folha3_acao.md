@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -93,9 +93,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | desabaram (48.5s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 2 | trocado (49.6s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | trocado (49.6s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
 
 ## Cena b9 - 54.4s a 56.3s - 6 palavras - plano close
 > "O marinheiro, pelo menos, almoçou bem."
