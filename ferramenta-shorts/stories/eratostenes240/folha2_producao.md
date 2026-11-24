@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): ERA (variante 0, expressao surprised, segura paper); BIB (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/well, nature/tree_palm, kit/marco_alexandria, tools/bucket
+- Objetos/modelos: kit/well, nature/tree_palm, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fundo, poco, verao
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao smile); CAM (variante 0, expressao neutral)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/well, nature/tree_palm, kit/marco_alexandria
+- Objetos/modelos: kit/well, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao neutral); CAM (variante 0, expressao grin)
 - Animacao: encena
-- Objetos/modelos: kit/stick, nature/tree_palm, kit/marco_alexandria, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/stick, nature/tree_palm, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao smug)
 - Animacao: comemorar
-- Objetos/modelos: kit/stick, kit/well, nature/tree_palm, kit/marco_alexandria, tools/bucket, kit/starlink_sat
+- Objetos/modelos: kit/stick, kit/well, nature/tree_palm, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_alexandria
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -130,7 +130,7 @@ Objeto | Cenas | Situacao | O que fazer
 kit/globe | b0, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stick | b0, b4, b6, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_palm | b0, b2, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alexandria | b0, b1, b2, b3, b4, b5, b6, b7, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_alexandria | b0, b1, b4, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

@@ -1,6 +1,6 @@
 # CRONOGRAMA - A Praga da Dança
 
-Gerado em 24/11 03:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,9 +14,9 @@ b4 | simples | interior pedra | two | PRE, MED | - | - | - | O prefeito chamou o
 b5 | simples | hall | low | MUS, MUS | 30 | house_two, lamppost | - | Acontece que a cidade levou isso a sério. Montou um palco, e contratou
 b6 | chave | loc_campo | orbit | POV, POV | 18 | marco_viena | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi a pior ideia possível. Com música, mais gente entrou na dança, e m
 b7 | simples | interior loja | two | PRE, MED | - | - | - | As crônicas da época falam em mortes, mas os historiadores discutem qu
-b8 | simples | loc_montanha | track | POV, POV, TRO | - | marco_viena | - | No fim, os dançarinos foram levados para um santuário nas montanhas, e
-b9 | simples | street | close | MED | - | marco_viena | - | Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.
-b10 | simples | street | two | PRE | - | marco_viena | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b8 | simples | loc_montanha | track | POV, POV, TRO | - | - | - | No fim, os dançarinos foram levados para um santuário nas montanhas, e
+b9 | simples | street | close | MED | - | - | - | Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.
+b10 | simples | street | two | PRE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -73,8 +73,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bitcoin",
-    "kit/coin",
-    "kit/volcano"
+    "kit/coin"
    ],
    "palavras": 21,
    "cena": "b2",
@@ -171,8 +170,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/bitcoin",
-    "kit/volcano"
+    "kit/bitcoin"
    ],
    "palavras": 16,
    "cena": "b7",
@@ -284,9 +282,7 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

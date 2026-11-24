@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Gerado em 24/11 03:18 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -17,8 +17,8 @@ b7 | simples | interior madeira | two | KEK | - | snake_ring | - | Passou o rest
 b8 | simples | interior madeira | group | KEK, COL | - | snake_ring | - | Os colegas ficaram de boca aberta. O anel explicava dezenas de substân
 b9 | simples | interior pedra | group | KEK, COL, ALU | - | snake_ring | - | Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele 
 b10 | chave | street | orbit | COL, KEK | 18 | marco_viena, snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
-b11 | simples | street | close | KEK | - | marco_viena, snake_ring | - | E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordad
-b12 | simples | street | two | KEK | - | marco_viena | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | street | close | KEK | - | snake_ring | - | E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordad
+b12 | simples | street | two | KEK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

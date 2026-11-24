@@ -24,7 +24,6 @@
    "multidao": 0,
    "objetos": [
     "kit/falcon_air",
-    "kit/marco_canaveral",
     "kit/roadster"
    ],
    "palavras": 16,
@@ -49,7 +48,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/roadster"
    ],
    "palavras": 16,
@@ -69,7 +67,6 @@
    ],
    "multidao": 6,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/rocket"
    ],
    "palavras": 23,
@@ -109,8 +106,7 @@
    ],
    "multidao": 20,
    "objetos": [
-    "kit/falcon_air",
-    "kit/marco_canaveral"
+    "kit/falcon_air"
    ],
    "palavras": 6,
    "cena": "b4",
@@ -159,7 +155,6 @@
    ],
    "multidao": 5,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/roadster"
    ],
    "palavras": 8,

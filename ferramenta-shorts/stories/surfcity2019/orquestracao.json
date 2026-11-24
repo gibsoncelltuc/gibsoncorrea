@@ -100,9 +100,7 @@
     "JOR2"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 14,
    "cena": "b3",
    "frase": "Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete.",
@@ -164,9 +162,7 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 11,
    "cena": "b6",
    "frase": "Críticos dizem que o projeto na costa preocupa moradores e ambientalistas.",
@@ -204,8 +200,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/surfboard",
-    "kit/volcano"
+    "kit/surfboard"
    ],
    "palavras": 16,
    "cena": "b8",
@@ -241,9 +236,7 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

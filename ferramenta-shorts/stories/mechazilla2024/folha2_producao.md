@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ENG (variante 0, expressao worried, segura paper); MUS (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/booster_air, kit/tower
+- Objetos/modelos: kit/booster_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): baixo, foguete
 - RISCOS: nenhum
 
@@ -79,7 +79,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENA (variante 0, expressao scared); MUS (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/tower_catch, kit/tower
+- Objetos/modelos: kit/tower_catch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, foguete
 - RISCOS: nenhum
 
@@ -109,7 +109,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENA (variante 0, expressao smile, segura paper); ENG (variante 0, expressao grin)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/tower_catch, kit/tower
+- Objetos/modelos: kit/tower_catch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lixo, novo, propulsor
 - RISCOS: 
   - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
@@ -120,7 +120,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: comemorar
-- Objetos/modelos: kit/tower_catch, kit/tower_mini, kit/tower
+- Objetos/modelos: kit/tower_catch, kit/tower_mini
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pegada, robo, torre
 - RISCOS: nenhum
 
@@ -130,7 +130,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/tower
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -141,7 +141,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tower_mini | b0, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tower_catch | b0, b4, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b0, b1, b2, b3, b4, b6, b7, b8, b10, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b0, b1, b3, b4, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
@@ -150,13 +150,15 @@ kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; 
 - Interacoes: b0 entregar, b2 discutir, b3 entregar, b4 aproxima-se, b7 susto, b9 abracar, b10 avanca e o outro recua
 - RISCOS GERAIS: 
   - pouca variedade de cenario ({'loc_patio': 7, 'loc_deserto': 5, 'interior True': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+  - video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py mechazilla2024  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/mechazilla2024/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 6 risco(s) em aberto
 - b3: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
 - b10: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
 - geral: pouca variedade de cenario ({'loc_patio': 7, 'loc_deserto': 5, 'interior True': 1}): o video fica parecendo todos os outros
+- geral: video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

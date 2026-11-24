@@ -150,8 +150,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/phone",
-    "kit/volcano"
+    "kit/phone"
    ],
    "palavras": 18,
    "cena": "b5",
@@ -222,8 +221,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/phone",
-    "kit/volcano"
+    "kit/phone"
    ],
    "palavras": 15,
    "cena": "b9",
@@ -240,9 +238,7 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

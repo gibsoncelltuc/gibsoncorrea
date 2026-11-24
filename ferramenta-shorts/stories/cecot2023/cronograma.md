@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 27 - A Maior Prisão das Américas
 
-Gerado em 24/11 03:01 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,13 +11,13 @@ b1 | simples | loc_pista | reveal | POV, POV | 6 | prison, volcano | - | Ela foi
 b2 | simples | loc_cidade | orbit | REP, POV | 10 | prison, volcano | - | Por anos, El Salvador teve uma das maiores taxas de assassinato do mun
 b3 | simples | interior loja | two | BUK, GUA | - | - | - | Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado 
 b4 | chave | loc_cidade | crowd | GUA, GUA, GUA | 16 | prison, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Para guardar tanta gente, ergueram o Centro de Confinamento do Terrori
-b5 | simples | loc_patio | low | GUA | - | castle_tower, prison, volcano | - | Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
+b5 | simples | loc_patio | low | GUA | - | castle_tower, prison | - | Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
 b6 | simples | interior galpao | two | REP, BUK | - | - | - | Acontece que, nos anos seguintes, o número de assassinatos no país des
-b7 | simples | loc_campo | two | REP, POV | - | volcano | - | Organizações de direitos humanos denunciaram prisões sem julgamento, e
+b7 | simples | loc_campo | two | REP, POV | - | - | - | Organizações de direitos humanos denunciaram prisões sem julgamento, e
 b8 | simples | interior loja | two | BUK, REP | - | - | - | O governo responde que as ruas ficaram seguras, e que a maioria da pop
 b9 | chave | loc_campo | orbit | POV, POV, POV | 18 | prison, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A prisão virou símbolo do país. Para uns, de segurança. Para outros, d
-b10 | simples | loc_patio | two | BUK | - | prison, volcano | - | E o modelo passou a ser estudado, copiado e criticado em vários lugare
-b11 | simples | loc_pista | close | BUK | - | volcano | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b10 | simples | loc_patio | two | BUK | - | prison | - | E o modelo passou a ser estudado, copiado e criticado em vários lugare
+b11 | simples | loc_pista | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

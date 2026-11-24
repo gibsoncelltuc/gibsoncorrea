@@ -59,7 +59,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FLE (variante 0, expressao suspicious)
 - Animacao: conversar
-- Objetos/modelos: kit/petri, kit/gosma, kit/marco_bigben
+- Objetos/modelos: kit/petri, kit/gosma
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato
 - RISCOS: nenhum
 
@@ -90,7 +90,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): MED (variante 0, expressao smile); MED (variante 1, expressao grin); POV (variante 0, expressao relief)
 - Animacao: comemorar | interacao: pular
-- Objetos/modelos: kit/marco_bigben, kit/petri
+- Objetos/modelos: kit/petri
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolor, pessoas
 - RISCOS: nenhum
 
@@ -120,7 +120,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FLE (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_bigben
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -129,7 +129,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_bigben | b0, b1, b5, b8, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_bigben | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/petri | b0, b4, b5, b6, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/gosma | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

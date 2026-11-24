@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao sad)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_eiffel
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): radiacao, saude
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MAR (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/curie_box, kit/marco_eiffel
+- Objetos/modelos: kit/curie_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, marie
 - RISCOS: nenhum
 
@@ -128,7 +128,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PES (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_eiffel
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -138,7 +138,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/curie_box | b0, b3, b4, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_eiffel | b0, b1, b6, b7, b10, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_eiffel | b0, b1, b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

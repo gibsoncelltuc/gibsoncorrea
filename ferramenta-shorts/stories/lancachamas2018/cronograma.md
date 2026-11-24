@@ -1,21 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
-Gerado em 24/11 03:01 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | MUS, CMP | - | marco_hollywood | - | No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company,
-b1 | simples | loc_patio | reveal | MUS, CMP | 8 | flamethrower, marco_hollywood | - | O nome dele era Não é um lança-chamas.
-b2 | simples | loc_patio | two | MUS, CMP | - | flamethrower, marco_hollywood | - | O preço era de quinhentos dólares.
-b3 | chave | loc_pista | crowd | CMP, MUS | 12 | flamethrower, marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e
-b4 | simples | loc_pista | wide | MUS, CMP | 6 | extinguisher, marco_hollywood | - | Cada compra vinha com um extintor de incêndio de brinde.
+b1 | simples | loc_patio | reveal | MUS, CMP | 8 | flamethrower | - | O nome dele era Não é um lança-chamas.
+b2 | simples | loc_patio | two | MUS, CMP | - | flamethrower | - | O preço era de quinhentos dólares.
+b3 | chave | loc_pista | crowd | CMP, MUS | 12 | flamethrower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e
+b4 | simples | loc_pista | wide | MUS, CMP | 6 | extinguisher | - | Cada compra vinha com um extintor de incêndio de brinde.
 b5 | simples | interior loja | group | MUS, CMP, POV | - | - | - | Foram vinte mil unidades à venda.
 b6 | chave | loc_campo | crowd | CMP, MUS | 30 | marco_hollywood, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dóla
 b7 | simples | loc_campo | group | CMP, MUS | 6 | globe, marco_hollywood | - | A notícia se espalhou pelo mundo inteiro.
-b8 | simples | loc_pista | group | MUS, CMP | - | extinguisher, flamethrower, marco_hollywood | - | Um produto que se chamava de tudo, menos do que parecia.
-b9 | simples | loc_cidade | close | MUS | - | marco_hollywood | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b8 | simples | loc_pista | group | MUS, CMP | - | extinguisher, flamethrower | - | Um produto que se chamava de tudo, menos do que parecia.
+b9 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

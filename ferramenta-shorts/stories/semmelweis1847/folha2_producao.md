@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MAE (variante 0, expressao scared); POV (variante 0, expressao cry) | multidao: 14 de MAE/POV
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/maca, kit/marco_viena
+- Objetos/modelos: kit/maca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): joelhos, medicos, mulheres
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MAE (variante 0, expressao cry)
 - Animacao: conversar
-- Objetos/modelos: kit/lapide, kit/marco_viena
+- Objetos/modelos: kit/lapide
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PAR (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/wash_basin, kit/marco_viena
+- Objetos/modelos: kit/wash_basin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ciencia, maes, microbios, salvador
 - RISCOS: 
   - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
@@ -129,7 +129,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): SEM (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -141,7 +141,7 @@ Objeto | Cenas | Situacao | O que fazer
 kit/wash_basin | b0, b7, b8, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/maca | b1, b4 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/room_hospital | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_viena | b1, b4, b8, b10, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/lapide | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
@@ -149,11 +149,13 @@ kit/lapide | b10 | pronto | conferir na folha de contato se le bem; se parecer c
 - Objeto heroi: kit/maca | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 23% | medio 68% | aberto 4% | detalhe 5%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 discutir, b9 empurrar
 - RISCOS GERAIS: 
+  - video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py semmelweis1847  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/semmelweis1847/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - b11: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+- geral: video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

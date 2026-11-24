@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 2, expressao grin, segura paper); POV (variante 3, expressao smile, segura coin)
 - Animacao: discutir | interacao: reverencia
-- Objetos/modelos: kit/tulip_yellow, kit/tulip_purple, kit/marco_amsterdam
+- Objetos/modelos: kit/tulip_yellow, kit/tulip_purple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): flor, papel, semana
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_amsterdam
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marinheiro
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MER (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_amsterdam
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -120,7 +120,7 @@ Objeto | Cenas | Situacao | O que fazer
 kit/tulip_bed | b0, b1, b3, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/windmill | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_red | b0, b1, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_amsterdam | b1, b3, b4, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b1, b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_striped | b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_yellow | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

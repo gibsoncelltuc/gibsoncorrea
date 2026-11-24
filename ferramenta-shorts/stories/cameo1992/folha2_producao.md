@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
 - Personagens principais (3): TRU (variante 0, expressao grin); POV (variante 0, expressao shock); POV (variante 1, expressao shock) | multidao: 10 de POV
 - Animacao: conversar | interacao: susto | batalha encenada
-- Objetos/modelos: kit/marco_liberdade, nature/picket_fence
+- Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena, sete
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): DIR (variante 0, expressao worried); TRU (variante 0, expressao smug); POV (variante 0, expressao shock) | multidao: 10 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_liberdade, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, hotel, participacao, preco, trump
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TRU (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/tv, kit/marco_liberdade
+- Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cameo, sete, trinta
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): FUN (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_liberdade
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tv | b0, b3, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_liberdade | b0, b2, b5, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

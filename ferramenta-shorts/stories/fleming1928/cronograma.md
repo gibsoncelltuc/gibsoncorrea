@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Gerado em 24/11 03:10 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,13 +11,13 @@ b1 | transicao | loc_campo | reveal | MED, MED | 8 | marco_bigben | - | Era mil 
 b2 | explicativa | interior hospital | two | FLE, COL | - | - | - | Ele estudava bactérias, e deixava os pratos de cultura empilhados na b
 b3 | simples | interior hospital | group | FLE, COL | - | - | - | Um dia, ele saiu de férias por duas semanas e não limpou nada.
 b4 | simples | interior hospital | two | COL, FLE | - | gosma, petri | - | Quando voltou, achou um prato com bolor verde e disse: "Que sujeira!"
-b5 | simples | loc_montanha | close | FLE | - | gosma, marco_bigben, petri | - | Ele ia jogar o prato fora, mas olhou melhor.
+b5 | simples | loc_montanha | close | FLE | - | gosma, petri | - | Ele ia jogar o prato fora, mas olhou melhor.
 b6 | chave | hall | orbit | FLE, COL | 10 | petri | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, em volta do mofo, as bactérias tinham sumido.
 b7 | explicativa | interior hospital | two | FLE, COL | - | petri | - | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d
-b8 | simples | loc_montanha | group | MED, MED, POV | - | marco_bigben, petri | - | Anos depois, outros cientistas transformaram o bolor em remédio, e ele
+b8 | simples | loc_montanha | group | MED, MED, POV | - | petri | - | Anos depois, outros cientistas transformaram o bolor em remédio, e ele
 b9 | chave | hall | group | FLE, COL | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Fleming ganhou, junto com dois colegas, o prêmio Nobel em mil novecent
 b10 | simples | interior madeira | close | FLE | - | - | - | No fim, a bagunça dele valeu mais que qualquer faxina.
-b11 | simples | loc_campo | close | FLE | - | marco_bigben | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | loc_campo | close | FLE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -86,7 +86,6 @@
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
-    "kit/marco_hollywood",
     "kit/searchlight",
     "nature/lamppost"
    ],
@@ -133,9 +132,7 @@
     "GEN"
    ],
    "multidao": 10,
-   "objetos": [
-    "kit/marco_hollywood"
-   ],
+   "objetos": [],
    "palavras": 18,
    "cena": "b5",
    "frase": "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça.",
@@ -233,9 +230,7 @@
     "CID"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_hollywood"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

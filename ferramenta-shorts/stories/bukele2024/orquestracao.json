@@ -76,9 +76,7 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 22,
    "cena": "b2",
    "frase": "Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete anos, prometendo acabar com a violência das gangues.",
@@ -138,8 +136,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ballot_box",
-    "kit/volcano"
+    "kit/ballot_box"
    ],
    "palavras": 9,
    "cena": "b5",
@@ -208,18 +205,16 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "interior galpao"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "REP",
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 15,
    "cena": "b9",
    "frase": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
@@ -227,7 +222,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "interior galpao"
   },
   {
    "camera": "close",
@@ -237,8 +232,7 @@
    "multidao": 0,
    "objetos": [
     "kit/ballot_box",
-    "kit/globe",
-    "kit/volcano"
+    "kit/globe"
    ],
    "palavras": 16,
    "cena": "b10",
@@ -255,9 +249,7 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

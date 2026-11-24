@@ -141,7 +141,6 @@
    ],
    "multidao": 6,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/phone"
    ],
    "palavras": 11,
@@ -221,9 +220,7 @@
     "OPE"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_goldengate"
-   ],
+   "objetos": [],
    "palavras": 17,
    "cena": "b8",
    "frase": "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado.",
@@ -241,7 +238,6 @@
    "multidao": 0,
    "objetos": [
     "buildings/house_two",
-    "kit/marco_goldengate",
     "kit/phone",
     "nature/bench",
     "nature/lamppost"
@@ -261,9 +257,7 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_goldengate"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

@@ -107,7 +107,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_amsterdam",
     "kit/tulip_purple",
     "kit/tulip_yellow"
    ],
@@ -212,9 +211,7 @@
     "MAR"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_amsterdam"
-   ],
+   "objetos": [],
    "palavras": 6,
    "cena": "b9",
    "frase": "O marinheiro, pelo menos, almoçou bem.",
@@ -230,9 +227,7 @@
     "MER"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_amsterdam"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

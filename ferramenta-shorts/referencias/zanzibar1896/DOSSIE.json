@@ -36,6 +36,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/house_two",
+  "buildings/lighthouse",
   "cannon",
   "kit/marco_zanzibar",
   "kit/navio_vapor_guerra",

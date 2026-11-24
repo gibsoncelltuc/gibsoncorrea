@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Gerado em 24/11 03:18 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,12 +13,12 @@ b3 | simples | interior madeira | group | MAR, PIE | - | curie_box | - | Mexendo
 b4 | simples | interior madeira | close | MAR | - | curie_box | - | O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olha
 b5 | simples | interior madeira | two | MAR, PIE | - | - | - | Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ningu
 b6 | chave | loc_campo | crowd | MAR, PIE, JOR | 18 | marco_eiffel | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeir
-b7 | simples | loc_campo | two | MAR | - | marco_eiffel | - | Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mi
+b7 | simples | loc_campo | two | MAR | - | - | - | Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mi
 b8 | simples | interior pedra | two | PES, JOR | - | crate, curie_box | - | Mas os cadernos dela continuam radioativos até hoje, guardados em caix
 b9 | simples | interior pedra | low | PES | - | curie_box | - | Quem quer ler precisa assinar um termo de responsabilidade e usar roup
 b10 | chave | loc_montanha | orbit | POV, POV, PES | 16 | curie_box, marco_eiffel, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o rádio leva cerca de mil e seiscentos anos só para perder metade da
-b11 | simples | loc_montanha | close | MAR | - | curie_box, marco_eiffel | - | Ou seja: os cadernos de Marie Curie vão continuar radioativos por muit
-b12 | simples | loc_campo | close | PES | - | marco_eiffel | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | loc_montanha | close | MAR | - | curie_box | - | Ou seja: os cadernos de Marie Curie vão continuar radioativos por muit
+b12 | simples | loc_campo | close | PES | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

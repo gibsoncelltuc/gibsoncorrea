@@ -7,15 +7,15 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | medieval | two | 2 | discutir, INTERAGEM: discutir | kit/brass_nose, kit/marco_rostock | - | -
 b1 | street | crowd | 8 | encena, batalha | kit/marco_rostock, buildings/house_two, nature/lamppost | - | -
 b2 | interior madeira | group | 3 | discutir, INTERAGEM: avanca e o outro recua | - | mug | -
-b3 | street | two | 2 | discutir, INTERAGEM: discutir | kit/marco_rostock | sword, sword | -
+b3 | street | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | -
 b4 | street | two | 2 | encena, INTERAGEM: susto | kit/marco_rostock, kit/brass_nose | sword, sword | -
-b5 | loc_montanha | two | 1 | conversar | kit/brass_nose, kit/marco_rostock | - | -
-b6 | harbor | orbit | 8 | encena | kit/marco_rostock | - | -
+b5 | loc_montanha | two | 1 | conversar | kit/brass_nose | - | -
+b6 | harbor | orbit | 8 | encena | - | - | -
 b7 | loc_campo | group | 1 | encena | kit/marco_uraniborg, kit/tower, kit/marco_rostock | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | medieval | crowd | 19 | comemorar, batalha | kit/marco_rostock | - | -
 b10 | loc_montanha | close | 1 | conversar | kit/brass_nose, kit/marco_rostock | - | -
-b11 | street | close | 1 | conversar | kit/marco_rostock | - | -
+b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/brass_nose
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b9

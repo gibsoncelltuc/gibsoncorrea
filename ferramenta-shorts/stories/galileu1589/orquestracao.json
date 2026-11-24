@@ -180,9 +180,7 @@
     "ALU"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_pisa"
-   ],
+   "objetos": [],
    "palavras": 11,
    "cena": "b7",
    "frase": "A plateia ficou de boca aberta, e os professores ficaram bravos.",
@@ -242,9 +240,7 @@
     "GAL"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_pisa"
-   ],
+   "objetos": [],
    "palavras": 9,
    "cena": "b10",
    "frase": "No fim, até a pena deu razão ao Galileu.",
@@ -260,9 +256,7 @@
     "GAL"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_pisa"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Ditador Mais Legal do Mundo
 - Epoca: 2021 | Lugar: ? | Quando: ?
-- HEROIS (objeto): kit/phone, kit/volcano
+- HEROIS (objeto): kit/phone
 - HEROIS (personagens): BUK, JOR
 - Cenarios: interior loja, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -19,7 +19,6 @@ lugar | El Salvador | El Salvador 2021 / El Salvador landscape | SEM REFERENCIA
 lugar | Mundo | Mundo 2021 / Mundo landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | SEM REFERENCIA
 heroi | phone | phone / O Ditador Mais Legal do Mundo | SEM REFERENCIA
-heroi | volcano | volcano | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

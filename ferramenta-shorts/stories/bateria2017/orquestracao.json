@@ -73,7 +73,6 @@
    ],
    "multidao": 10,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/megapack"
    ],
    "palavras": 13,
@@ -199,7 +198,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/megapack",
     "kit/phone"
    ],
@@ -220,7 +218,6 @@
    ],
    "multidao": 30,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/megapack"
    ],
    "palavras": 13,
@@ -238,9 +235,7 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_goldengate"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

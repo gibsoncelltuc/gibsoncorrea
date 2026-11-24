@@ -239,7 +239,6 @@
    ],
    "multidao": 5,
    "objetos": [
-    "kit/marco_wurzburg",
     "kit/xray_plate"
    ],
    "palavras": 13,
@@ -257,9 +256,7 @@
     "ROE"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_wurzburg"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

@@ -144,8 +144,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/kettle",
-    "kit/marco_viena"
+    "kit/kettle"
    ],
    "palavras": 15,
    "cena": "b6",
@@ -200,8 +199,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/kettle",
-    "kit/marco_viena"
+    "kit/kettle"
    ],
    "palavras": 5,
    "cena": "b9",
@@ -218,9 +216,7 @@
     "COZ"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_viena"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

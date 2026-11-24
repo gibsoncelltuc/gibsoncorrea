@@ -10,11 +10,11 @@ b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | interior pedra | group | 2 | conversar, INTERAGEM: reverencia | - | paper | -
 b4 | harbor | group | 16 | conversar, INTERAGEM: insiste | kit/marco_viena, war/flagpole | - | -
 b5 | harbor | crowd | 18 | encena, batalha | cannon, kit/marco_viena, navios de guerra ao fundo, no tamanho real | - | -
-b6 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/kettle, kit/marco_viena | - | -
+b6 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/kettle | - | -
 b7 | interior loja | group | 3 | reagir, INTERAGEM: susto | kit/kettle | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -
-b9 | loc_campo | close | 1 | conversar | kit/kettle, kit/marco_viena | - | -
-b10 | harbor | close | 1 | conversar | kit/marco_viena | - | -
+b9 | loc_campo | close | 1 | conversar | kit/kettle | - | -
+b10 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/kettle
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b5

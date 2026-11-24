@@ -45,6 +45,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "boat",
+  "buildings/shop",
   "kit/lobster",
   "kit/marco_olinda",
   "kit/navio_destroier",

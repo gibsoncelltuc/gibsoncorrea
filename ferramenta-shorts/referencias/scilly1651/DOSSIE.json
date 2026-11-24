@@ -56,6 +56,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/lighthouse",
   "kit/coin",
   "kit/marco_amsterdam",
   "kit/navio_fragata",

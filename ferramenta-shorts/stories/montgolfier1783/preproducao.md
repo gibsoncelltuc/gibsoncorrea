@@ -9,14 +9,14 @@ b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | kit/marco_versalhes | 
 b2 | loc_campo | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/campfire, kit/marco_versalhes | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/balloon | paper | -
 b4 | interior madeira | group | 2 | discutir, INTERAGEM: discutir | - | - | -
-b5 | loc_campo | two | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
+b5 | loc_campo | two | 1 | conversar | kit/balloon, sheep, duck, rooster | - | -
 b6 | palace | crowd | 33 | encena, batalha | kit/balloon, kit/marco_versalhes | - | -
 b7 | loc_campo | group | 2 | reagir, INTERAGEM: insiste | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
-b8 | loc_campo | two | 2 | reagir, INTERAGEM: vai ate o outro, alguem chega andando | kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush | - | -
-b9 | loc_campo | group | 2 | conversar, INTERAGEM: abracar | kit/marco_versalhes, sheep, duck, rooster | - | -
+b8 | loc_campo | two | 2 | reagir, INTERAGEM: vai ate o outro, alguem chega andando | kit/balloon, nature/tree_pine, nature/tree_oak, nature/bush | - | -
+b9 | loc_campo | group | 2 | conversar, INTERAGEM: abracar | sheep, duck, rooster | - | -
 b10 | loc_campo | orbit | 21 | comemorar, batalha | kit/balloon_air, kit/marco_versalhes | - | -
-b11 | loc_campo | close | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
-b12 | loc_campo | two | 1 | conversar | kit/marco_versalhes | - | -
+b11 | loc_campo | close | 1 | conversar | kit/balloon, sheep, duck, rooster | - | -
+b12 | loc_campo | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/balloon
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b10

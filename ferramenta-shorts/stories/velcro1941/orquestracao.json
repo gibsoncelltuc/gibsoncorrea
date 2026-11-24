@@ -85,9 +85,7 @@
     "MES"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 15,
    "cena": "b2",
    "frase": "O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro.",
@@ -104,8 +102,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/burr",
-    "kit/marco_alpes"
+    "kit/burr"
    ],
    "palavras": 16,
    "cena": "b3",
@@ -249,7 +246,6 @@
    "multidao": 0,
    "objetos": [
     "kit/burr",
-    "kit/marco_alpes",
     "kit/moon",
     "kit/rocket"
    ],
@@ -269,8 +265,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/burr",
-    "kit/marco_alpes"
+    "kit/burr"
    ],
    "palavras": 17,
    "cena": "b11",
@@ -287,9 +282,7 @@
     "MES"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
