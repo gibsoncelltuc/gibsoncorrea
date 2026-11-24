@@ -65,10 +65,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "AUS",
     "AUS"
    ],
-   "multidao": 8,
+   "multidao": 6,
    "objetos": [
     "war/sandbags"
    ],
@@ -161,7 +160,7 @@
    "personagens": [
     "AUS"
    ],
-   "multidao": 14,
+   "multidao": 10,
    "objetos": [],
    "palavras": 17,
    "cena": "b8",

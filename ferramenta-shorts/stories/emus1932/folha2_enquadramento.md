@@ -25,10 +25,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "O major Meredith levou duas metralhadoras e dez mil balas."
 - LOCAL: fazenda aberta; hora: desert
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e sandbags juntos (camera a 11.5 m)
-- PERSONAGENS: AUS na esquerda, expressao stern; AUS na direita, expressao grin; multidao de 8 () marchando ATRAS dos principais; acao: fala/gesto
-- OBJETO war/sandbags: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "10.000 BALAS" flutuando no alto, na palavra 7 da frase
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o sandbags (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AUS no centro, expressao stern; multidao de 6 () marchando ATRAS dos principais; acao: fala/gesto
+- OBJETO war/sandbags: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "10.000 BALAS" numa placa atras dos personagens, na palavra 7 da frase
 
 ## b4: "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira."
 - LOCAL: fazenda aberta; hora: desert
@@ -63,7 +63,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
 - LOCAL: loc_deserto; hora: desert
 - CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: AUS no centro, expressao stern; multidao de 14 (AUS) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: nenhum; multidao de 10 (AUS) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +75 da cena

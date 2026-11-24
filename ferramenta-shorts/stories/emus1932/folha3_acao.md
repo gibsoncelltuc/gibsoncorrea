@@ -93,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (42.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 2 | - | CENA | tiros: 3 soldados caem no chao | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | 986 (CONTESTADO) | OK |
 

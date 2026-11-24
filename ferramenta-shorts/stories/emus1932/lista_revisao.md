@@ -4,9 +4,9 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b3_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b4_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b8: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 3. b8_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-4. b3: objeto "war/sandbags" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+4. b3: objeto "war/sandbags" saiu com 8% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "A Austrália declarou guerra a um bando de pássaros,": 
@@ -19,7 +19,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - f7 "Acontece que os emus se dividiram em grupos pequenos e rápid": 
 - f8 "e as balas acertavam só poeira.": 
 - f9 "Numa tentativa,": 
-- f10 "uma metralhadora foi montada num caminhão,": 
+- f10 "uma metralhadora foi instalada num caminhão,": 
 - f11 "mas ele sacudia tanto que ninguém atirava.": 
 - f12 "Depois de seis dias,": 
 - f13 "milhares de balas gastas e poucos emus abatidos.": 

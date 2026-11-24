@@ -7,12 +7,12 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | outback | two | 0 | parados (so fala e pisca) | emus | - | -
 b1 | outback | reveal | 2 | reagir | nature/haybale, buildings/barn, nature/picket_fence, nature/scarecrow, emus | pitchfork | -
 b2 | interior madeira | two | 2 | reagir, INTERAGEM: vai ate o outro | - | paper | -
-b3 | countryside | crowd | 10 | encena, batalha | war/sandbags, emus | - | -
+b3 | countryside | crowd | 7 | encena, batalha | war/sandbags, emus | - | -
 b4 | outback | wide | 15 | encena | emus | - | -
 b5 | countryside | wide | 1 | encena | vehicles/truck, emus | - | -
 b6 | loc_campo | group | 2 | conversar, INTERAGEM: susto | emus | - | -
 b7 | countryside | track | 15 | encena, andando | - | paper | -
-b8 | loc_deserto | crowd | 15 | encena, batalha | emus | - | -
+b8 | loc_deserto | crowd | 11 | encena, batalha | emus | - | -
 b9 | outback | group | 2 | conversar, INTERAGEM: entregar | emus | - | -
 b10 | outback | close | 1 | conversar | - | - | -
 
