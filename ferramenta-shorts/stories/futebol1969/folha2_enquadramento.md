@@ -27,10 +27,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "No primeiro, Honduras venceu por um a zero, em casa."
 - LOCAL: estadio; hora: day
-- CAMERA: plano de multidao; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
+- CAMERA: plano de multidao
 - PERSONAGENS: HON na esquerda, expressao laugh; SAL na direita, expressao sad; multidao de 18 (TOR, HON) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/panela: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
 - SOM: ding@30
@@ -39,8 +38,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: TOR na esquerda, expressao angry; TOR na direita, expressao shout; sem multidao; acao: discutir
+- CAMERA: plano de multidao
+- PERSONAGENS: HON na esquerda, expressao angry; SAL no centro, expressao shout; HON na direita, expressao shout; SAL no fundo, expressao angry; multidao de 10 (HON, SAL) ATRAS dos principais; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "3 x 0" flutuando no alto, na palavra 1 da frase
 
@@ -52,8 +51,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação."
 - LOCAL: estadio; hora: dia
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: SAL na esquerda, expressao laugh; SAL no centro, expressao grin; HON na direita, expressao sad; sem multidao; acao: comemorar
+- CAMERA: plano de multidao
+- PERSONAGENS: SAL na esquerda, expressao laugh; SAL no centro, expressao grin; HON na direita, expressao sad; multidao de 18 (SAL, HON) ATRAS dos principais; acao: comemorar
 - OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "PRORROGAÇÃO" flutuando no alto, na palavra 1 da frase
 

@@ -75,7 +75,7 @@
    "multidao": 18,
    "objetos": [
     "buildings/house_small",
-    "kit/panela",
+    "kit/ball",
     "nature/picket_fence",
     "nature/tree_oak"
    ],
@@ -86,15 +86,17 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "stadium"
+   "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
-    "TOR",
-    "TOR"
+    "HON",
+    "SAL",
+    "HON",
+    "SAL"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
     "kit/volcano"
    ],
@@ -131,10 +133,11 @@
     "SAL",
     "HON"
    ],
-   "multidao": 0,
+   "multidao": 18,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
+    "kit/ball",
     "nature/lamppost"
    ],
    "palavras": 17,
