@@ -1,24 +1,24 @@
 # CRONOGRAMA - Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Gerado em 24/11 03:47 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:05 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | countryside | two | FAZ, IRL | - | haybale, picket_fence | - | Dois países quase entraram em guerra por causa de um porco.
-b1 | simples | countryside | reveal | FAZ, IRL | - | - | - | Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sa
-b2 | simples | loc_campo | two | FAZ | - | barn, batatas, flowerbed, haybale, picket_fence, scarecrow, wheelbarrow | - | Um dia, um fazendeiro americano encontrou um porco comendo as batatas 
-b3 | simples | loc_campo | two | FAZ | - | house_small, haybale, picket_fence, tree_oak | - | Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
-b4 | simples | interior madeira | two | FAZ, IRL | - | haybale, picket_fence, wheelbarrow | - | O fazendeiro foi até a casa do vizinho, com as notas na mão, e oferece
-b5 | simples | loc_campo | two | IRL, FAZ | - | picket_fence | - | O dono gritou que o porco valia cem, e empurrou o dinheiro de volta. N
+b1 | simples | countryside | reveal | FAZ, IRL | - | - | - | Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sab
+b2 | simples | loc_montanha | two | FAZ | - | barn, batatas, flowerbed, haybale, picket_fence, scarecrow, wheelbarrow | - | Um dia, um fazendeiro americano encontrou um porco comendo as batatas 
+b3 | simples | loc_montanha | two | FAZ | - | house_small, haybale, picket_fence, tree_oak | - | Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
+b4 | simples | loc_campo | two | FAZ, IRL | - | barn, haybale, picket_fence, scarecrow, wheelbarrow | - | O fazendeiro ofereceu dez dólares ao vizinho pelo porco.
+b5 | simples | loc_campo | two | IRL, FAZ | - | picket_fence | - | O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém ced
 b6 | simples | harbor | group | AME, AME, FAZ | 16 | barn, haybale, picket_fence, scarecrow | - | Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos ma
-b7 | chave | harbor | crowd | ING, AME | 48 | cannon, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a Inglaterra respondeu com navios de guerra. Logo eram ce
-b8 | simples | interior madeira | two | ALM, ING | - | - | - | O almirante inglês recebeu a ordem de atacar, e se recusou: disse que 
-b9 | simples | interior pedra | group | ING, AME, ING | - | - | - | Os soldados passaram meses trocando insultos, e depois, festas. Ningué
+b7 | chave | harbor | crowd | ING, AME | 48 | cannon, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra respondeu com navios de guerra. Logo eram centenas de sol
+b8 | simples | interior madeira | two | ALM, ING | - | - | - | O almirante inglês recebeu ordem de atacar, e se recusou: não ia começ
+b9 | simples | countryside | orbit | ING, AME, ING | 48 | - | - | Os soldados passaram meses trocando insultos, e depois, festas. Ningué
 b10 | chave | countryside | crowd | ALM, AME | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Treze anos depois, um árbitro decidiu que a ilha era americana.
-b11 | simples | countryside | close | FAZ | - | cross, picket_fence | - | A única baixa da guerra foi o porco.
-b12 | simples | countryside | two | FAZ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | loc_campo | close | FAZ | - | cross, picket_fence | - | A única baixa da guerra foi o porco.
+b12 | simples | countryside | close | FAZ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

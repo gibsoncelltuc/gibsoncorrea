@@ -1,26 +1,35 @@
 # FOLHA 1 - ROTEIRO: A Invasão da Ilha Vazia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain | 10 cenas, 143 palavras (~49 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain | 13 cenas, 171 palavras (~59 s)
 
-## Cena b0  (~10.3 s)
-- Narracao: Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum. Foi em agosto de mil novecentos e quarenta e três, em Kiska, no Alasca, ocupada pelos japoneses.
+## Cena b0  (~4.5 s)
+- Narracao: Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: KISKA 1943
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.5 s)
-- Narracao: Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques.
+## Cena b1  (~6.6 s)
+- Narracao: Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 34.000 SOLDADOS | mapa: ALASCA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~2.4 s)
+## Cena b2  (~3.1 s)
+- Narracao: Americanos e canadenses chegaram com navios, aviões e tanques.
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; desembarque: navios chegando e tropa descendo na praia -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~2.4 s)
 - Narracao: Antes do desembarque, bombardearam Kiska durante semanas.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@40, cannon@70, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60
@@ -29,7 +38,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~4.8 s)
+## Cena b4  (~4.8 s)
 - Narracao: No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140
@@ -38,7 +47,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~3.4 s)
+## Cena b5  (~3.4 s)
 - Narracao: Mas teve um problema: os japoneses já tinham ido embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -47,16 +56,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: ILHA VAZIA
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.2 s)
-- Narracao: Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.
-- Som ambiente: sea
+## Cena b6  (~4.5 s)
+- Narracao: Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheiras vazias.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.9 s)
+## Cena b7  (~6.9 s)
+- Narracao: Semanas antes, navios japoneses tinham levado cerca de cinco mil homens embora, em menos de uma hora, escondidos na neblina.
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~5.9 s)
 - Narracao: Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gun@30, gun@50, gun@65
@@ -65,7 +83,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: FOGO AMIGO
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.1 s)
+## Cena b9  (~5.2 s)
+- Narracao: Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; tiros -> burst + som de tiro/explosao; bateu -> dust + som de impacto; encena: morre @4 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito; encena: x_bate (punch) @12 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~3.1 s)
 - Narracao: No fim, só acharam na ilha alguns cachorros abandonados.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
@@ -74,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: SÓ CACHORROS
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.1 s)
+## Cena b11  (~4.1 s)
 - Narracao: Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
@@ -83,7 +110,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: OPERAÇÃO ILHA VAZIA
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
+## Cena b12  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: sea
 - Efeitos sonoros marcados: -

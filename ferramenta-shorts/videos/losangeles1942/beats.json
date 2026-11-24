@@ -135,13 +135,12 @@
   },
   {
    "shot": "crowd",
-   "set": "mountain",
+   "set": "street",
    "hora": "noite",
    "who": [
     "SOL:0:shout",
     "SOL:1:angry"
    ],
-   "batalha": true,
    "tiros": true,
    "crowd": {
     "n": 20,
@@ -157,6 +156,18 @@
      -5,
      -5,
      1.2
+    ],
+    [
+     "cannon",
+     5,
+     -6,
+     1.2
+    ],
+    [
+     "kit/searchlight",
+     0,
+     -9,
+     1.0
     ]
    ],
    "fx": [
@@ -184,13 +195,12 @@
   },
   {
    "shot": "crowd",
-   "set": "street",
+   "set": "loc_cidade",
    "hora": "noite",
    "who": [
     "CID:0:scared",
     "CID:1:cry"
    ],
-   "batalha": true,
    "tiros": true,
    "crowd": {
     "n": 20,
@@ -209,7 +219,21 @@
     "cannon@40",
     "cannon@100"
    ],
-   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
+   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
+   "props": [
+    [
+     "cannon",
+     -6,
+     -7,
+     1.2
+    ],
+    [
+     "kit/searchlight",
+     5,
+     -8,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -223,13 +247,14 @@
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
-    "PRE:0:sad:paper",
-    "GEN:0:sad"
+    "CID:0:sad",
+    "CID:1:cry"
    ],
-   "interacao": "entregar",
-   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu."
+   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
+   "set": "loc_cidade",
+   "hora": "noite",
+   "encena": false
   },
   {
    "shot": "close",
