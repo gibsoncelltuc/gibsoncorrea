@@ -12,9 +12,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "1968" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- LOCAL: galpao; hora: day
 - CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
+- PERSONAGENS: POV na esquerda, expressao smile; SIL (cientista) na direita, expressao neutral, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
