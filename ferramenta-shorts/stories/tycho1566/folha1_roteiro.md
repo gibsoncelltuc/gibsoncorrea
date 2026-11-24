@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 186 palavras (~64 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 11 cenas, 166 palavras (~57 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 1566
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.6 s)
-- Narracao: Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha.
+## Cena b1  (~5.9 s)
+- Narracao: Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: examina (think) @14 -> acao + som de efeito
@@ -29,11 +29,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.9 s)
-- Narracao: A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro.
+## Cena b3  (~4.5 s)
+- Narracao: Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@36, thump@40
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @6 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.9 s)
 - Narracao: Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
-- Som ambiente: sea
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito; encena: examina (think) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.9 s)
 - Narracao: Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
@@ -83,17 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: KEPLER
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.4 s)
-- Narracao: Essa descoberta mudou a astronomia para sempre.
-- Som ambiente: birds
-- Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: examina (think) @1 -> acao + som de efeito
-- Efeito visual marcado: stars@20, ring@50
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b10  (~5.9 s)
-- Narracao: E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.
+## Cena b9  (~3.4 s)
+- Narracao: Com a cabeça nas estrelas, e o nariz de metal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -101,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
+## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

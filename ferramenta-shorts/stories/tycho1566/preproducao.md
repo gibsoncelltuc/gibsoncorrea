@@ -4,22 +4,21 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | medieval | two | 2 | discutir, INTERAGEM: discutir | kit/brass_nose, kit/marco_rostock | - | -
-b1 | street | crowd | 8 | encena, batalha | kit/marco_rostock, buildings/house_two, nature/lamppost | - | -
+b0 | medieval | two | 2 | discutir, INTERAGEM: discutir | kit/brass_nose | - | -
+b1 | loc_campo | crowd | 8 | encena, batalha | - | - | -
 b2 | interior madeira | group | 3 | discutir, INTERAGEM: avanca e o outro recua | - | mug | -
-b3 | street | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | -
-b4 | street | two | 2 | encena, INTERAGEM: susto | kit/marco_rostock, kit/brass_nose | sword, sword | -
+b3 | loc_deserto | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | -
+b4 | loc_deserto | two | 2 | encena, INTERAGEM: susto | kit/brass_nose | sword, sword | -
 b5 | loc_montanha | two | 1 | conversar | kit/brass_nose | - | -
-b6 | harbor | orbit | 8 | encena | - | - | -
-b7 | loc_campo | wide | 1 | encena | kit/marco_uraniborg, kit/tower, kit/marco_rostock | paper | -
+b6 | harbor | orbit | 8 | encena, batalha | - | - | -
+b7 | loc_campo | wide | 1 | encena | kit/marco_uraniborg, kit/tower | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b9 | medieval | crowd | 19 | comemorar, batalha | kit/marco_rostock | - | -
-b10 | loc_montanha | two | 1 | conversar | kit/brass_nose, kit/marco_rostock | - | -
-b11 | street | close | 1 | conversar | - | - | -
+b9 | loc_montanha | two | 1 | conversar | kit/brass_nose | - | -
+b10 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/brass_nose
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b9
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b6
 Interacoes entre personagens: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 susto, b8 entregar
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

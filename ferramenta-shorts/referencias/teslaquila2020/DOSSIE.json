@@ -42,11 +42,6 @@
     "cena 11",
     "street",
     "loc_cidade"
-   ],
-   [
-    "cena 13",
-    "street",
-    "loc_cidade"
    ]
   ]
  },
@@ -72,7 +67,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/marco_mexico",
+  "kit/coin",
   "kit/phone",
   "kit/roadster",
   "kit/room_eua_shop",
@@ -82,18 +77,42 @@
   "kit/veg_cacto",
   "nature/picket_fence"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria com campos de agave azul)",
+  "quando": "1 de abril de 2018; lancamento em 5 de novembro de 2020, dia",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "fas da Tesla",
+   "representante do Conselho Regulador da Tequila",
+   "compradores"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "FAN": "camiseta com logo T",
+   "INV": "terno",
+   "MEX": "camisa social e chapeu de palha",
+   "POV": "roupa casual"
+  },
+  "cenario": "campo de agave azul no Mexico, destilaria, loja online/sala, rua",
+  "objetos": [
+   "garrafa de vidro em forma de raio com suporte de metal",
+   "agave azul",
+   "placa da Tesla"
+  ],
+  "explicacoes": [
+   "Teslaquila nasceu da piada de 1/4/2018; o Conselho Regulador da Tequila contestou o nome; em 2020 saiu como Tesla Tequila, anejo de Jalisco, a US$ 250, esgotando em horas; garrafas vazias foram revendidas por mais de US$ 1.000 (fonte: Wikipedia Tesla Tequila)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tesla_Tequila"
+  ],
+  "buscas": {
+   "garrafa": "Tesla Tequila lightning bolt bottle",
+   "agave": "blue agave field Jalisco"
+  }
+ },
  "fontes": [
   "https://www.cnbc.com/make-it/2020/11/06/elon-musks-tesla-tequila.html",
   "https://www.businessinsider.com/tesla-tequila-teslaquila-resold-online-ebay-empty-bottle-2020-11"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

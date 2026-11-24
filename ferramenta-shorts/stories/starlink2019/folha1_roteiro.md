@@ -2,27 +2,27 @@
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 167 palavras (~58 s)
 
-## Cena b0  (~7.2 s)
-- Narracao: Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voa (point) @9 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
+## Cena b0  (~5.2 s)
+- Narracao: Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador.
+- Som ambiente: birds
+- Efeitos sonoros marcados: ding@40
+- Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
+- Efeito visual marcado: stars@40
+- Texto na tela: 3 MINUTOS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.2 s)
-- Narracao: O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial.
+## Cena b1  (~8.3 s)
+- Narracao: Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: FLÓRIDA
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~4.5 s)
 - Narracao: Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: tira (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b3  (~4.8 s)
 - Narracao: Ele registrou uma fila de luzes, que levava cerca de três minutos para passar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: encena: escreve (write) @1 -> acao + som de efeito; encena: pega (lift) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@40

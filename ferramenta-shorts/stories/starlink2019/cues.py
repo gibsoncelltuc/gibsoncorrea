@@ -1,9 +1,10 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [21, 39, 52, 66, 77, 93, 105, 116, 132, 154]] + [FR]
+_A = [0] + [int(_W(i) - 3) for i in [15, 39, 52, 66, 77, 93, 105, 116, 132, 154]] + [FR]
 playful(F(_A[0]), F(_A[11]), 122)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)
-gibber(F(_A[0] + int((_A[1] - _A[0]) * 0.2)), 4, 230, 0.12); gibber(F(_A[0] + int((_A[1] - _A[0]) * 0.58)), 4, 170, 0.12)
+ding(F(int(_W(0) - 2)), 0.5, 988)
+ding(F(_A[0] + 40))
 whoosh(F(_A[1]), 0.4, 0.35)
 whoosh(F(_A[2]), 0.4, 0.35)
 gibber(F(_A[2] + int((_A[3] - _A[2]) * 0.2)), 4, 260, 0.12); gibber(F(_A[2] + int((_A[3] - _A[2]) * 0.58)), 4, 185, 0.12)
@@ -23,6 +24,7 @@ gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + i
 whoosh(F(_A[10]), 0.4, 0.35)
 ding(F(int(_W(154) - 2)), 0.5, 880)
 gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.58)), 4, 290, 0.12)
-sting(F(int(_W(9))))
 tick(F(int(_W(49))))
 ding(F(int(_W(74))))
+hud(F(int(_W(106))))
+hud(F(int(_W(111))))

@@ -8,18 +8,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TYC (variante 0, expressao angry); PAR (variante 0, expressao shout)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/brass_nose, kit/marco_rostock
+- Objetos/modelos: kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maiores, matematica, nariz
 - RISCOS: nenhum
 
-## Cena b1 - Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da D...
-- Cenario: street | luz: day | clima: limpo
+## Cena b1 - Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre di...
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): TYC (variante 0, expressao smile); POV (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_rostock, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, dinamarca, jovem
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, jovem
 - RISCOS: nenhum
 
 ## Cena b2 - Numa festa, ele discutiu com um primo sobre quem era o melhor em matem...
@@ -32,10 +32,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): melhor, primo
 - RISCOS: nenhum
 
-## Cena b3 - A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo...
-- Cenario: street | luz: noite | clima: limpo
+## Cena b3 - Dias depois, os dois resolveram a briga num duelo de espadas, no escur...
+- Cenario: loc_deserto | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): TYC (variante 0, expressao angry, segura sword); PAR (variante 0, expressao shout, segura sword)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
@@ -43,12 +43,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: loc_deserto | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)
 - Animacao: encena | interacao: susto
-- Objetos/modelos: kit/marco_rostock, kit/brass_nose
+- Objetos/modelos: kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, nariz, pedaco, primo, tycho
 - RISCOS: nenhum
 
@@ -65,9 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): REI (variante 0, expressao grin); TYC (variante 0, expressao surprised) | multidao: 6 de POV
-- Animacao: encena
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinamarca, ilha
 - RISCOS: nenhum
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 0 de 
 - Animacao: encena
-- Objetos/modelos: kit/marco_uraniborg, kit/tower, kit/marco_rostock
+- Objetos/modelos: kit/marco_uraniborg, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
 - RISCOS: nenhum
 
@@ -92,28 +92,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anotacoes, descobrir, planetas
 - RISCOS: nenhum
 
-## Cena b9 - Essa descoberta mudou a astronomia para sempre.
-- Cenario: medieval | luz: dia | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): KEP (variante 0, expressao laugh); POV (variante 0, expressao grin); POV (variante 1, expressao laugh) | multidao: 16 de POV
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/marco_rostock
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronomia
-- RISCOS: nenhum
-
-## Cena b10 - E Tycho entrou para a história assim: com a cabeça nas estrelas, e o n...
+## Cena b9 - Com a cabeça nas estrelas, e o nariz de metal.
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TYC (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/brass_nose, kit/marco_rostock
+- Objetos/modelos: kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, estrelas, metal, nariz
 - RISCOS: nenhum
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: street | luz: day | clima: limpo
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): TYC (variante 0, expressao grin)
@@ -127,26 +117,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/brass_nose | b0, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_rostock | b0, b1, b4, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/brass_nose | b0, b4, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/brass_nose | grandes momentos: b1, b9 | planos abertos: 4 | mistura: close 10% | medio 63% | aberto 23% | detalhe 4%
+- Objeto heroi: kit/brass_nose | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 12% | medio 67% | aberto 17% | detalhe 4%
 - Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 susto, b8 entregar
 - RISCOS GERAIS: 
-  - video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tycho1566  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tycho1566/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh tycho1566 bN bM` (so essas cenas).

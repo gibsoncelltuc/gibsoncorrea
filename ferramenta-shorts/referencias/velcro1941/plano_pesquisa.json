@@ -7,7 +7,15 @@
    "item": "O Cachorro que Inventou o Velcro",
    "consultas": [
     "O Cachorro que Inventou o Velcro",
-    "Uma Era Suíça George Mestral 1941"
+    "Uma Em Suíça George Mestral 1941"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tec",
+   "consultas": [
+    "Alpes suicos perto de Genebra",
+    "Alpes suicos perto de Genebra trilha de montanha oficina/casa de Mestral tecelagem em Lyon"
    ]
   },
   {
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "George de Mestral (terno e chapeu de caca, bigode)",
+   "consultas": [
+    "George de Mestral terno e chapeu de caca bigode",
+    "George de Mestral terno e chapeu de caca bigode 1941"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "seu cachorro",
+   "consultas": [
+    "seu cachorro",
+    "seu cachorro 1941"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "teceloes",
+   "consultas": [
+    "teceloes",
+    "teceloes 1941"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "astronautas da Apollo",
+   "consultas": [
+    "astronautas da Apollo",
+    "astronautas da Apollo 1941"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "carrapicho de bardana",
+   "consultas": [
+    "carrapicho de bardana",
+    "carrapicho de bardana 1941"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "microscopio",
+   "consultas": [
+    "microscopio",
+    "microscopio 1941"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fita de velcro de nailon",
+   "consultas": [
+    "fita de velcro de nailon",
+    "fita de velcro de nailon 1941"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "burr",
    "consultas": [
-    "burr",
+    "carrapicho de bardana",
     "O Cachorro que Inventou o Velcro"
    ]
   }

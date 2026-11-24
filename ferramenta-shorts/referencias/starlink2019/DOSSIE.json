@@ -7,40 +7,17 @@
   "regiao": "eua",
   "luz_base": "golden",
   "cenarios": [
+   "countryside",
    "interior loja",
-   "loc_campo",
-   "loc_cidade"
+   "loc_cidade",
+   "loc_montanha",
+   "loc_pista"
   ],
   "cenarios_trocados": [
    [
     "video",
     "street",
     "loc_cidade"
-   ],
-   [
-    "cena 1",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 2",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 3",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 4",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 5",
-    "countryside",
-    "loc_campo"
    ],
    [
     "cena 6",
@@ -56,16 +33,6 @@
     "cena 9",
     "street",
     "loc_cidade"
-   ],
-   [
-    "cena 10",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "countryside",
-    "loc_campo"
    ]
   ]
  },
@@ -91,8 +58,8 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/house_small",
   "kit/falcon_air",
-  "kit/marco_canaveral",
   "kit/phone",
   "kit/rocket",
   "kit/room_eua_shop",
@@ -100,20 +67,41 @@
   "kit/starlink_train",
   "nature/picket_fence"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leiden), Europa",
+  "quando": "23 a 25 de maio de 2019, noite",
+  "participantes": [
+   "astronomo amador Marco Langbroek com camera e tripe",
+   "jornalistas"
+  ],
+  "roupas": {
+   "AST": "jaqueta de frio e gorro",
+   "JOR": "camisa social",
+   "JOR2": "blazer"
+  },
+  "cenario": "campo escuro a noite com ceu estrelado e fila de pontos brilhantes; base de lancamento com foguete; redacao",
+  "objetos": [
+   "foguete Falcon 9",
+   "fila de satelites Starlink",
+   "camera no tripe"
+  ],
+  "explicacoes": [
+   "Os 60 primeiros satelites Starlink foram lancados em 23/05/2019; Marco Langbroek filmou o \"trem\" de satelites sobre a Holanda e o site holandes de OVNIs recebeu mais de 150 relatos (fonte: Wikipedia Starlink; satobs.org Langbroek)",
+   "Logo apos o lancamento os satelites viajam juntos, em fila, antes de subir para a orbita final (fonte: Wikipedia Starlink)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Starlink"
+  ],
+  "buscas": {
+   "fila": "Starlink satellite train night sky 2019",
+   "foguete": "Falcon 9 Starlink launch May 2019"
+  }
+ },
  "fontes": [
   "https://spaceweatherarchive.com/2019/05/29/starlink-satellite-flares/",
   "https://www.cbc.ca/lite/story/1.5151266",
   "https://www.universetoday.com/142320/catching-a-ride-on-the-starlink-satellite-train-marvel-or-night-sky-menace",
   "https://skyandtelescope.org/astronomy-news/observing-news/spacex-launches-starlink-satellites/"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

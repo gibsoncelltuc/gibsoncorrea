@@ -8,19 +8,18 @@ b0 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | kit/wash_basi
 b1 | loc_campo | crowd | 8 | batalha | kit/maca, kit/room_hospital, kit/marco_viena | - | -
 b2 | interior hospital | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | interior hospital | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
-b4 | loc_campo | group | 16 | conversar, INTERAGEM: o outro se aproxima | kit/maca | - | -
-b5 | interior hospital | two | 2 | reagir, INTERAGEM: insiste | - | - | -
-b6 | interior hospital | close | 1 | conversar | - | - | -
-b7 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
-b8 | loc_campo | crowd | 33 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
-b9 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
-b10 | loc_campo | two | 1 | conversar | kit/lapide | - | -
-b11 | loc_campo | close | 1 | conversar | kit/wash_basin | - | -
-b12 | loc_campo | two | 1 | conversar | - | - | -
+b4 | interior hospital | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
+b5 | interior hospital | close | 1 | conversar | - | - | -
+b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
+b7 | loc_campo | crowd | 19 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
+b8 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
+b9 | loc_campo | two | 1 | conversar | kit/lapide | - | -
+b10 | loc_campo | close | 1 | conversar | kit/wash_basin | - | -
+b11 | loc_campo | two | 1 | conversar | - | - | -
 
-OBJETO HEROI: kit/maca
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b8
-Interacoes entre personagens: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 discutir, b9 empurrar
+OBJETO HEROI: kit/wash_basin
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b7
+Interacoes entre personagens: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 discutir, b8 empurrar
 
-Cenas com personagens parados: 0 de 13
+Cenas com personagens parados: 0 de 12
 FALTA MODELAR: nada
