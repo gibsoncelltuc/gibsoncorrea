@@ -3,7 +3,7 @@ defeitos procurados: cenario (campo e montanha da fronteira, rua de Petrich com 
 b0: CORRIGIDO - um cachorro fugiu pela fronteira e quase comecou uma guerra na Europa: o gancho era hesitante e o cachorro ficava parado fora do quadro -> agora a camera acompanha os dois soldados e o cachorro correndo pelo campo, e o segundo cachorro sentado que aparecia junto foi removido (um so cachorro no quadro).
 b1: OK - em outubro de mil novecentos e vinte e cinco a fronteira entre a Grecia e a Bulgaria estava tensa: mapa da Bulgaria com o pino e dezenas de soldados verdes e azuis na fronteira.
 b2: OK - dizem que um soldado grego correu atras do cachorro e cruzou a fronteira: soldado de azul andando ao lado do cachorro pelo campo.
-b3: CORRIGIDO - do outro lado soldados bulgaros atiraram e o soldado caiu morto: antes o grego ficava de pe e o bulgaro caia -> agora o bulgaro de verde atira com clarao e o soldado grego de azul cai; a queda eu confiro no mp4.
+b3: CORRIGIDO - do outro lado soldados bulgaros atiraram e o soldado tombou morto: a queda mostrava so um caido minusculo ao fundo -> agora o grego de azul e o bulgaro de verde frente a frente com clarao de tiro, sem multidao na frente, e a acao tomba do grego; a queda final eu confiro no mp4.
 b4: OK - a Grecia recusou e deu quarenta e oito horas para a Bulgaria: soldado grego de azul serio na montanha, em close.
 b5: CORRIGIDO - dias depois o exercito grego com vinte mil soldados invadiu a Bulgaria e ocupou Petrich: um soldado aparecia cortado na borda -> agora plano aberto com vinte e quatro soldados verdes e azuis diante das casas de Petrich e o texto INVASAO.
 b6: OK - so que a Bulgaria apelou a Liga das Nacoes: dois politicos de cartola numa sala com o texto LIGA DAS NACOES e um documento.

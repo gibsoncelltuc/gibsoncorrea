@@ -84,21 +84,125 @@
    "id": "b3",
    "quadros": [
     {
-     "f": 478,
+     "f": 437,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 554,
+     "f": 452,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 630,
+     "f": 467,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~1",
+   "quadros": [
+    {
+     "f": 488,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 504,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 519,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~2",
+   "quadros": [
+    {
+     "f": 540,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 555,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 570,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~3",
+   "quadros": [
+    {
+     "f": 591,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 607,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 622,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~4",
+   "quadros": [
+    {
+     "f": 643,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 658,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 673,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -110,21 +214,21 @@
    "id": "b4",
    "quadros": [
     {
-     "f": 694,
+     "f": 696,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 713,
+     "f": 715,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 731,
+     "f": 733,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -136,21 +240,21 @@
    "id": "b4~1",
    "quadros": [
     {
-     "f": 756,
+     "f": 758,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 774,
+     "f": 776,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 792,
+     "f": 794,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -162,21 +266,21 @@
    "id": "b4~2",
    "quadros": [
     {
-     "f": 817,
+     "f": 819,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 836,
+     "f": 838,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 854,
+     "f": 856,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -188,21 +292,21 @@
    "id": "b5",
    "quadros": [
     {
-     "f": 917,
+     "f": 919,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 991,
+     "f": 993,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1065,
+     "f": 1067,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -214,21 +318,21 @@
    "id": "b6",
    "quadros": [
     {
-     "f": 1123,
+     "f": 1125,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1135,
+     "f": 1137,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1146,
+     "f": 1148,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -240,21 +344,21 @@
    "id": "b6_1",
    "quadros": [
     {
-     "f": 1160,
+     "f": 1162,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1170,
+     "f": 1172,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1179,
+     "f": 1181,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -266,21 +370,21 @@
    "id": "b6_2",
    "quadros": [
     {
-     "f": 1197,
+     "f": 1199,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1215,
+     "f": 1217,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1232,
+     "f": 1234,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -292,21 +396,21 @@
    "id": "b7",
    "quadros": [
     {
-     "f": 1253,
+     "f": 1255,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1267,
+     "f": 1269,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1281,
+     "f": 1283,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -318,21 +422,21 @@
    "id": "b7~1",
    "quadros": [
     {
-     "f": 1300,
+     "f": 1302,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1315,
+     "f": 1317,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1329,
+     "f": 1331,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -344,21 +448,21 @@
    "id": "b7~2",
    "quadros": [
     {
-     "f": 1348,
+     "f": 1350,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1362,
+     "f": 1364,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1376,
+     "f": 1378,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -370,21 +474,21 @@
    "id": "b7~3",
    "quadros": [
     {
-     "f": 1395,
+     "f": 1397,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1409,
+     "f": 1411,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1423,
+     "f": 1425,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -396,14 +500,14 @@
    "id": "b8",
    "quadros": [
     {
-     "f": 1441,
+     "f": 1443,
      "objs": [
       {
        "a": "kit/dog_sit",
-       "inq": 1,
-       "vis": 0.07692307692307693,
-       "area": 0.019919836679258885,
-       "cx": -0.3035396745778731
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
       }
      ],
      "bloq": null,
@@ -411,14 +515,14 @@
      "cortado": 0
     },
     {
-     "f": 1454,
+     "f": 1456,
      "objs": [
       {
        "a": "kit/dog_sit",
-       "inq": 1,
-       "vis": 0.10407239819004525,
-       "area": 0.021592715040556872,
-       "cx": -0.4247594279435048
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
       }
      ],
      "bloq": null,
@@ -426,14 +530,14 @@
      "cortado": 0
     },
     {
-     "f": 1467,
+     "f": 1469,
      "objs": [
       {
        "a": "kit/dog_sit",
-       "inq": 1,
-       "vis": 0.6108597285067874,
-       "area": 0.023233105794665865,
-       "cx": -0.5690291997318699
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
       }
      ],
      "bloq": null,
@@ -446,14 +550,14 @@
    "id": "b8_d",
    "quadros": [
     {
-     "f": 1481,
+     "f": 1483,
      "objs": [
       {
        "a": "kit/dog_sit",
-       "inq": 1,
-       "vis": 0.5701357466063348,
-       "area": 0.028801304583472784,
-       "cx": -0.6261958637891955
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
       }
      ],
      "bloq": null,
@@ -461,14 +565,14 @@
      "cortado": 0
     },
     {
-     "f": 1490,
+     "f": 1492,
      "objs": [
       {
        "a": "kit/dog_sit",
-       "inq": 1,
+       "inq": 0.167420814479638,
        "vis": 1,
-       "area": 0.04457711017562755,
-       "cx": -0.5620271713669154
+       "area": 0.015915236483300035,
+       "cx": -0.9258192426720198
       }
      ],
      "bloq": null,
@@ -476,14 +580,14 @@
      "cortado": 0
     },
     {
-     "f": 1498,
+     "f": 1500,
      "objs": [
       {
        "a": "kit/dog_sit",
        "inq": 1,
        "vis": 1,
-       "area": 0.0931103009618348,
-       "cx": -0.35506187866281397
+       "area": 0.09556784705796538,
+       "cx": -0.465763827582874
       }
      ],
      "bloq": null,
@@ -496,14 +600,14 @@
    "id": "b8_v",
    "quadros": [
     {
-     "f": 1513,
+     "f": 1515,
      "objs": [
       {
        "a": "kit/dog_sit",
        "inq": 1,
        "vis": 1,
-       "area": 0.10389796613559313,
-       "cx": -0.25831578059259586
+       "area": 0.11797660321544569,
+       "cx": -0.3353167245614162
       }
      ],
      "bloq": null,
@@ -511,14 +615,14 @@
      "cortado": 0
     },
     {
-     "f": 1528,
+     "f": 1530,
      "objs": [
       {
        "a": "kit/dog_sit",
-       "inq": 1,
-       "vis": 0.9592760180995475,
-       "area": 0.030537478785889933,
-       "cx": -0.7057309668194913
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
       }
      ],
      "bloq": null,
@@ -526,14 +630,14 @@
      "cortado": 0
     },
     {
-     "f": 1542,
+     "f": 1544,
      "objs": [
       {
        "a": "kit/dog_sit",
-       "inq": 0.665158371040724,
-       "vis": 0.9523809523809523,
-       "area": 0.021700946238689504,
-       "cx": -0.858046744394886
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
       }
      ],
      "bloq": null,
@@ -546,21 +650,21 @@
    "id": "b9",
    "quadros": [
     {
-     "f": 1565,
+     "f": 1567,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1585,
+     "f": 1587,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1604,
+     "f": 1606,
      "objs": [],
      "bloq": null,
      "dentro": null,
@@ -572,21 +676,21 @@
    "id": "b9~1",
    "quadros": [
     {
-     "f": 1631,
+     "f": 1633,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1651,
+     "f": 1653,
      "objs": [],
      "bloq": null,
      "dentro": null,
      "cortado": 0
     },
     {
-     "f": 1670,
+     "f": 1672,
      "objs": [],
      "bloq": null,
      "dentro": null,
