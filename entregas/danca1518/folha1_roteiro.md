@@ -22,21 +22,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b2  (~4.5 s)
 - Narracao: Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: danca (up) @7 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~4.8 s)
 - Narracao: Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@40, thump@90
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: danca @7 -> acao + som de efeito; encena: x_chora (facepalm) @11 -> acao + som de efeito; encena: fala (point) @12 -> acao + som de efeito; encena: grita (up) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@40, dust@90
 - Texto na tela: 50 A 400
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.5 s)
 - Narracao: O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança.
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b7  (~5.2 s)
 - Narracao: Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: morre @3 -> acao + som de efeito
 - Efeito visual marcado: -
