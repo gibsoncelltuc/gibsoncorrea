@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 55 acoes catalogadas, 55 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.5s - 14 palavras - plano two
@@ -14,7 +14,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | dancar | OK |
 
-## Cena b1 - 4.7s a 10.9s - 18 palavras - plano reveal
+## Cena b1 - 4.7s a 10.9s - 18 palavras - plano two
 > "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -22,19 +22,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | dançou (8.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | dançou (8.8s) | ACAO: danca | danca de bracos para cima | OK |
 | 3 | dormir (10.9s) | ACAO: dorme | dormindo | OK |
-| 4 | - | ATUACAO | dancar | OK |
-| 5 | - | MAPA | ESTRASBURGO | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
+| 5 | - | ATUACAO | dancar | OK |
+| 6 | - | MAPA | ESTRASBURGO | OK |
 
-## Cena b2 - 12.0s a 16.2s - 13 palavras - plano group
+## Cena b2 - 12.0s a 16.2s - 13 palavras - plano crowd
 > "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dançavam (14.3s) | ACAO: danca | danca de bracos para cima | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | dancar | OK |
 
-## Cena b3 - 17.2s a 22.3s - 14 palavras - plano crowd
+## Cena b3 - 17.2s a 22.3s - 14 palavras - plano group
 > "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -45,7 +46,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | socorro (22.3s) | EFEITO: ring | onda + som | OK |
 | 5 | socorro (22.3s) | ACAO: grita | grita de bracos para cima | OK |
 | 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | INTERACAO | empurrar | OK |
 | 8 | - | ATUACAO | dancar | OK |
 | 9 | - | PLACA | 50 A 400 | OK |
 

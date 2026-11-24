@@ -206,32 +206,25 @@
    ],
    "say": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
    "acao": "nenhuma",
-   "set": "medieval",
+   "set": "loc_campo",
    "fachada": false
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "DAN:0:relief",
-    "DAN:1:smile",
-    "DAN:2:relief"
+    "DAN:0:relief"
    ],
    "say": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
    "set": "mountain",
    "fachada": false,
    "crowd": {
-    "n": 6,
-    "outfits": [
-     "DAN"
-    ],
-    "march": false,
-    "expr": "relief"
+    "n": 0
    },
    "props": [
     [
      "buildings/church",
      0.0,
-     -21.6,
+     -22.1,
      1.3,
      {
       "fixo": true
@@ -239,7 +232,24 @@
     ]
    ],
    "text": "CAPELA DO MONTE",
-   "detalhe": false
+   "detalhe": false,
+   "quadro": {
+    "local": "encosta de montanha",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/church",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",

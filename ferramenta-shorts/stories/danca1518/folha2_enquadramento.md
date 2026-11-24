@@ -16,15 +16,15 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - MAPA: ESTRASBURGO (cobre a tela 1-2 s)
 
 ## b2: "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela."
-- LOCAL: loc_campo; hora: day
+- LOCAL: vila medieval; hora: day
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: TRO na esquerda, expressao pained; POV no centro, expressao laugh; POV na direita, expressao grin; POV no fundo, expressao pained; sem multidao; acao: fala/gesto
+- PERSONAGENS: TRO na esquerda, expressao pained; POV no centro, expressao laugh; POV na direita, expressao grin; POV no fundo, expressao pained; multidao de 36 (POV, TRO) ATRAS dos principais; acao: dancar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b3: "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro."
-- LOCAL: loc_campo; hora: day
+- LOCAL: vila medieval; hora: day
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: POV na esquerda, expressao pained; TRO no centro, expressao pained; POV na direita, expressao pained; POV no fundo, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: POV na esquerda, expressao pained; TRO no centro, expressao pained; POV na direita, expressao pained; POV no fundo, expressao shock; multidao de 36 (POV, TRO) ATRAS dos principais; acao: dancar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +90 da cena
@@ -47,8 +47,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público."
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: POV na esquerda, expressao pained; MUS no centro, expressao scared; POV na direita, expressao pained; POV no fundo, expressao shock; sem multidao; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: PRE na esquerda, expressao stern, segura paper; POV na direita, expressao pained; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +50 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +110 da cena
@@ -56,7 +56,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@110
 
 ## b7: "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes."
-- LOCAL: vila medieval; hora: day
+- LOCAL: loc_campo; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRE na esquerda, expressao pained; MED na direita, expressao shock; sem multidao; acao: nenhuma
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -64,7 +64,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou."
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: POV no centro, expressao relief; sem multidao; acao: fala/gesto
+- PERSONAGENS: DAN no centro, expressao relief; sem multidao; acao: fala/gesto
 - OBJETO buildings/church: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 20.8 m de altura x 16.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "CAPELA DO MONTE" flutuando no alto, na palavra 1 da frase
 

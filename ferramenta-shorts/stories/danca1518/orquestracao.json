@@ -29,12 +29,12 @@
    "cenario": "medieval"
   },
   {
-   "camera": "reveal",
+   "camera": "two",
    "personagens": [
     "TRO",
     "POV"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/marco_viena"
    ],
@@ -48,37 +48,18 @@
    "cenario": "medieval"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "TRO",
     "POV",
     "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [],
    "palavras": 13,
    "cena": "b2",
    "frase": "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "POV",
-    "TRO",
-    "POV",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -89,7 +70,26 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "medieval"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "TRO",
+    "POV",
+    "POV"
+   ],
+   "multidao": 36,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
   },
   {
    "camera": "two",
@@ -131,9 +131,7 @@
   {
    "camera": "orbit",
    "personagens": [
-    "POV",
-    "MUS",
-    "POV",
+    "PRE",
     "POV"
    ],
    "multidao": 0,
@@ -168,12 +166,12 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "medieval"
+   "cenario": "loc_campo"
   },
   {
    "camera": "wide",
    "personagens": [
-    "POV"
+    "DAN"
    ],
    "multidao": 0,
    "objetos": [
