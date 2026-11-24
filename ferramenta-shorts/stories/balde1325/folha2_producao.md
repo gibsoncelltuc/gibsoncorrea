@@ -130,11 +130,9 @@ kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/balde_madeira | grandes momentos: b4 | planos abertos: 2 | mistura: close 15% | medio 62% | aberto 17% | detalhe 6%
 - Interacoes: b0 susto, b1 o outro se aproxima, b3 insiste, b5 aproxima-se, b6 pular, b7 vai ate o outro, b9 avanca e o outro recua
-- RISCOS GERAIS: 
-  - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh balde1325 bN bM` (so essas cenas).
