@@ -1,45 +1,90 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 149 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 184 palavras (~63 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Duas cidades italianas foram à guerra por causa de um balde de madeira.
+## Cena b0  (~5.5 s)
+- Narracao: Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um balde de madeira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: prêmio -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: 1325
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.2 s)
-- Narracao: Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar.
+## Cena b1  (~6.2 s)
+- Narracao: Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o imperador como patrono, Bolonha tinha o papa.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: brigar -> puff + som de baque
+- Efeito + som nas palavras-chave: encena: x_discute (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ITÁLIA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha.
-- Som ambiente: birds
+## Cena b2  (~7.9 s)
+- Narracao: Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @8 -> acao + som de efeito; encena: chega (point) @17 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: 30.000
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~5.5 s)
+- Narracao: Módena tinha menos de oito mil homens, entre cavaleiros e soldados a pé, e parecia perdida.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (MOD) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~6.2 s)
-- Narracao: Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
-- Efeito + som nas palavras-chave: roubaram -> stars + som de sino; ouro -> stars + som de sino; rindo -> stars + som de sino
-- Efeito visual marcado: ring@12, dust@40
-- Texto na tela: O BALDE
+## Cena b4  (~7.6 s)
+- Narracao: Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: atacaram -> ring + som de alerta; fugiu -> dust + som de impacto; encena: corre @18 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~3.4 s)
-- Narracao: "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena.
+## Cena b5  (~4.8 s)
+- Narracao: Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: Morreram -> puff + som de baque; chegaram -> dust + som de impacto; encena: morre @0 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b6  (~4.5 s)
+- Narracao: Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: chega (point) @3 -> acao + som de efeito; encena: vence (up) @6 -> acao + som de efeito; encena: x_ri (up) @10 -> acao + som de efeito; encena: perde (facepalm) @12 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~6.2 s)
+- Narracao: Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: O BALDE
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~4.8 s)
+- Narracao: O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; vitória -> stars + som de sino; encena: pega (lift) @3 -> acao + som de efeito; encena: vence (up) @13 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~5.9 s)
+- Narracao: Um poeta italiano transformou a história numa sátira famosa, escrita por volta de mil seiscentos e quinze.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,48 +92,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.5 s)
-- Narracao: Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha.
-- Som ambiente: birds
+## Cena b10  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 32.000
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~4.1 s)
-- Narracao: Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: derrota -> puff + som de baque
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~6.6 s)
-- Narracao: Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196
-- Efeito + som nas palavras-chave: atacaram -> ring + som de alerta; surpresa -> ring + som de alerta; fugiu -> dust + som de impacto
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b8  (~5.9 s)
-- Narracao: Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~4.8 s)
-- Narracao: O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: 700 ANOS
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
