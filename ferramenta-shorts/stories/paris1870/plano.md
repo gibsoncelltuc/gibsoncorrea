@@ -12,9 +12,8 @@ b6 | two | - neve | interior, placa: NATAL DE 1870 | - | -
 b7 | orbit | - neve | batalha aberta com tiros, tropa, animais, placa: BALÕES E POMBOS | animal: elephant come (acao + som de efeito); fortuna (stars + som de sino); encena: paga (reach) @7 (acao + som de efeito); encena: x_come (eat) @11 (acao + som de efeito) | -
 b8 | group | -  | tropa | - | -
 b9 | two | - neve | - | - | -
-b10 | group | - neve | - | - | -
-b11 | two | dusk neve | placa: PARIS SE RENDEU | encena: rende (up) @11 (acao + som de efeito) | -
-b12 | close | -  | placa: COMENTE! | - | -
+b10 | group | dusk neve | placa: PARIS SE RENDEU | encena: rende (up) @11 (acao + som de efeito) | -
+b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 73% | aberto 11% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 73% | aberto 11% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

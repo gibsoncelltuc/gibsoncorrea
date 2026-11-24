@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, lugar, navios
 - RISCOS: nenhum
 
-## Cena b4 - Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n...
+## Cena b4 - Os franceses tinham cavalaria, os hussardos, e nenhum navio.
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -92,11 +92,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota, holandeses
 - RISCOS: nenhum
 
-## Cena b9 - Foram mais de uma dezena de navios capturados por soldados a cavalo. C...
+## Cena b9 - Mais de uma dezena de navios, capturados a cavalo. Cavalaria um, marin...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 0 de FRA
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: ship, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, marinha, navios
@@ -123,7 +123,7 @@ kit/navio_vela | b2, b3 | pronto | conferir na folha de contato se le bem; se pa
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b7, b8 | planos abertos: 4 | mistura: close 18% | medio 49% | aberto 32% | detalhe 2%
+- Objeto heroi: - | grandes momentos: b7, b8 | planos abertos: 4 | mistura: close 19% | medio 46% | aberto 33% | detalhe 2%
 - Interacoes: b4 tremem de frio, b5 aproxima-se, b6 avanca e o outro recua, b8 discutir, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

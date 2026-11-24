@@ -12,7 +12,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar
 - RISCOS: nenhum
 
-## Cena b1 - Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entra...
+## Cena b1 - Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida ac...
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -92,37 +92,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, frio, povo
 - RISCOS: nenhum
 
-## Cena b9 - O cerco durou mais de quatro meses, em pleno inverno.
+## Cena b9 - Para mandar notícias, usavam balões e pombos-correio.
 - Cenario: arctic | luz: day | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 0, expressao sad); PAR (variante 1, expressao nervous)
-- Animacao: conversar | interacao: cochichar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco, quatro
-- RISCOS: nenhum
-
-## Cena b10 - Para mandar notícias, os parisienses usavam balões e pombos-correio, p...
-- Cenario: arctic | luz: day | clima: neve
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (0): -
 - Animacao: conversar
 - Objetos/modelos: kit/balloon_air, kit/balloon
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): parisienses, tropas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b11 - Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barri...
+## Cena b10 - Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barri...
 - Cenario: arctic | luz: dusk | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 0, expressao sad)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/panela
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barriga, paris
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -137,7 +127,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/panela | b0, b3, b6, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/panela | b0, b3, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_notredame | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -146,13 +136,13 @@ cat | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 elephant | b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 deer | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon_air | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon_air | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/panela | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 11% | medio 73% | aberto 11% | detalhe 5%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b8 vai ate o outro, b9 cochichar, b11 insiste
+- Objeto heroi: kit/panela | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 13% | medio 73% | aberto 11% | detalhe 3%
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b8 vai ate o outro, b10 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

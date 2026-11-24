@@ -100,9 +100,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
+   "frase": "Os franceses tinham cavalaria, os hussardos, e nenhum navio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -199,9 +199,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 16,
+   "palavras": 13,
    "cena": "b9",
-   "frase": "Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero.",
+   "frase": "Mais de uma dezena de navios, capturados a cavalo. Cavalaria um, marinha zero.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

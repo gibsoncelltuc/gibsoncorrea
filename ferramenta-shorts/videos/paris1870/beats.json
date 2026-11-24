@@ -61,7 +61,7 @@
    ]
   },
   {
-   "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
+   "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
    "shot": "reveal",
    "mapa": "FRANÇA",
    "who": [
@@ -239,17 +239,7 @@
    }
   },
   {
-   "say": "O cerco durou mais de quatro meses, em pleno inverno.",
-   "shot": "two",
-   "clima": "neve",
-   "acao": "conversar",
-   "who": [
-    "PAR:0:sad",
-    "PAR:1:nervous"
-   ]
-  },
-  {
-   "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas.",
+   "say": "Para mandar notícias, usavam balões e pombos-correio.",
    "shot": "wide",
    "props": [
     [

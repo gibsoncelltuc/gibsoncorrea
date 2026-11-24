@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 158 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 137 palavras (~47 s)
 
 ## Cena b0  (~2.1 s)
 - Narracao: Paris já serviu elefante no jantar.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 1870
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.2 s)
-- Narracao: Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.
+## Cena b1  (~4.8 s)
+- Narracao: Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @7 -> acao + som de efeito
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: O cerco durou mais de quatro meses, em pleno inverno.
+## Cena b9  (~2.4 s)
+- Narracao: Para mandar notícias, usavam balões e pombos-correio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -92,16 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.8 s)
-- Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b11  (~5.2 s)
+## Cena b10  (~5.2 s)
 - Narracao: Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -110,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: PARIS SE RENDEU
 - Funcao na historia: desenvolvimento
 
-## Cena b12  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

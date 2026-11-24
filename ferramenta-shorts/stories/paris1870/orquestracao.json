@@ -41,9 +41,9 @@
     "kit/marco_notredame",
     "nature/lamppost"
    ],
-   "palavras": 18,
+   "palavras": 14,
    "cena": "b1",
-   "frase": "Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
+   "frase": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -191,32 +191,15 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "PAR",
-    "PAR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b9",
-   "frase": "O cerco durou mais de quatro meses, em pleno inverno.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "group",
    "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/balloon",
     "kit/balloon_air"
    ],
-   "palavras": 14,
-   "cena": "b10",
-   "frase": "Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas.",
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Para mandar notícias, usavam balões e pombos-correio.",
    "classe": "simples",
    "sujeito": "cenario",
    "briefing": {},
@@ -224,7 +207,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PAR",
     "PAR"
@@ -234,7 +217,7 @@
     "kit/panela"
    ],
    "palavras": 15,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -250,7 +233,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

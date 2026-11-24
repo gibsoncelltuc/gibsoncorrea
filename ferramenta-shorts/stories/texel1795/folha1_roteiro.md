@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 11 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 11 cenas, 150 palavras (~52 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Uma frota de navios de guerra foi capturada por soldados a cavalo.
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.
+## Cena b4  (~3.1 s)
+- Narracao: Os franceses tinham cavalaria, os hussardos, e nenhum navio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Texto na tela: RENDIDOS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~5.5 s)
-- Narracao: Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero.
+## Cena b9  (~4.5 s)
+- Narracao: Mais de uma dezena de navios, capturados a cavalo. Cavalaria um, marinha zero.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito

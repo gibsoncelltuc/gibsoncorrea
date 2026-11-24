@@ -1,13 +1,13 @@
 # CRONOGRAMA - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Gerado em 24/11 10:23 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:27 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | PAR, PAR | - | marco_notredame, panela | - | Paris já serviu elefante no jantar.
-b1 | simples | street | reveal | PAR, PAR | 6 | house_two, marco_notredame, lamppost | - | Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entra
+b1 | simples | street | reveal | PAR, PAR | 6 | house_two, marco_notredame, lamppost | - | Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida ac
 b2 | simples | street | two | PAR, PAR | - | - | - | Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os
 b3 | simples | street | group | PAR, CHF | - | barrel, panela | - | Depois, os roedores, que viraram um prato chique.
 b4 | chave | arctic | crowd | PAR, PAR | 6 | house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Quando acabou tudo, olharam para o zoológico da cidade.
@@ -15,10 +15,9 @@ b5 | simples | arctic | two | BUT, PAR | - | - | - | O açougueiro comprou dois 
 b6 | simples | interior loja | two | CHF, PAR | - | panela | - | No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de
 b7 | chave | arctic | orbit | PAR, PAR | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que carne de elefante custava uma fortuna. Só os ricos comiam
 b8 | simples | arctic | group | PAR, PAR | 10 | - | - | Enquanto isso, o povo fazia fila no frio, com comida racionada.
-b9 | simples | arctic | two | PAR, PAR | - | - | - | O cerco durou mais de quatro meses, em pleno inverno.
-b10 | simples | arctic | group | sem personagem | - | balloon, balloon_air | - | Para mandar notícias, os parisienses usavam balões e pombos-correio, p
-b11 | simples | arctic | two | PAR, PAR | - | panela | - | Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barri
-b12 | simples | street | close | PAR | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | arctic | two | sem personagem | - | balloon, balloon_air | - | Para mandar notícias, usavam balões e pombos-correio.
+b10 | simples | arctic | group | PAR, PAR | - | panela | - | Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barri
+b11 | simples | street | close | PAR | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
