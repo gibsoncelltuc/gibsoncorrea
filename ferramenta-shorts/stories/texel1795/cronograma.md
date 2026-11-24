@@ -1,19 +1,19 @@
 # CRONOGRAMA - A Cavalaria que Capturou uma Frota
 
-Gerado em 24/11 07:58 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 08:00 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | arctic | two | sem personagem | - | ship | - | Uma frota de navios de guerra foi capturada por soldados a cavalo.
+b0 | chave | arctic | two | FRA, FRA | - | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Uma frota de navios de guerra foi capturada por soldados a cavalo.
 b1 | simples | arctic | reveal | FRA, NED | - | - | - | Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fa
 b2 | simples | harbor | orbit | NED, NED | - | navio_vela, navios de guerra ao fundo, no tamanho real | - | A frota holandesa estava ancorada perto de Den Helder, e o mar congelo
 b3 | simples | harbor | two | NED | - | ship | - | Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 b4 | simples | arctic | group | FRA, FRA, OFF | - | - | - | Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n
-b5 | simples | interior pedra | close | GEN | - | - | - | O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
+b5 | simples | interior pedra | two | GEN, OFF | - | - | - | O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 b6 | chave | arctic | crowd | FRA, FRA | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo.
-b7 | chave | harbor | reveal | NED, FRA | - | navio em movimento, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende
+b7 | chave | harbor | group | NED, FRA | 10 | navio em movimento | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende
 b8 | chave | arctic | group | FRA, FRA | - | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Foram mais de uma dezena de navios capturados por soldados a cavalo.
 b9 | simples | interior madeira | close | OFF | - | - | - | Dizem que foi a única vez na história em que uma cavalaria capturou um
 b10 | simples | interior madeira | two | FRA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

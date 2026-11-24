@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 12 palavras - plano two
@@ -9,8 +9,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | 1795 | OK |
+| 1 | capturada (1.7s) | ACAO: prende | empurra/prende | OK |
+| 2 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
+| 3 | - | INTERACAO | tremem de frio | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | 1795 | OK |
 
 ## Cena b1 - 4.3s a 8.7s - 17 palavras - plano reveal
 > "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo."
@@ -45,18 +48,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | tremem de frio | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 24.7s a 27.9s - 13 palavras - plano close
+## Cena b5 - 24.7s a 27.9s - 13 palavras - plano two
 > "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (26.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | atacar (27.0s) | EFEITO: ring | onda + som | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | A CAVALO? | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | A CAVALO? | OK |
 
 ## Cena b6 - 29.1s a 36.4s - 25 palavras - plano crowd
 > "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho."
@@ -66,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | atravessaram (31.5s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b7 - 37.7s a 41.2s - 12 palavras - plano reveal
+## Cena b7 - 37.7s a 41.2s - 12 palavras - plano group
 > "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -74,8 +78,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | viram (38.9s) | ACAO: olha | aponta/olha | OK |
 | 2 | rendeu (41.2s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | RENDIDOS | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | RENDIDOS | OK |
 
 ## Cena b8 - 42.4s a 45.4s - 12 palavras - plano group
 > "Foram mais de uma dezena de navios capturados por soldados a cavalo."
@@ -83,7 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 46.7s a 49.9s - 15 palavras - plano close

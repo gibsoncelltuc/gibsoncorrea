@@ -49,7 +49,10 @@
   {
    "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
    "shot": "wide",
-   "who": [],
+   "who": [
+    "FRA:0:grin",
+    "FRA:1:stern"
+   ],
    "props": [
     [
      "ship",
@@ -67,7 +70,6 @@
    "text": "1795",
    "tat": 0,
    "mood": "epic",
-   "acao": "conversar",
    "fx": [
     "stars@30"
    ],
@@ -159,9 +161,10 @@
   },
   {
    "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "GEN:0:grin"
+    "GEN:0:grin",
+    "OFF:0:surprised"
    ],
    "text": "A CAVALO?",
    "tat": 9,
@@ -200,7 +203,7 @@
   },
   {
    "say": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "NED:0:shock",
     "FRA:1:grin"
@@ -210,10 +213,20 @@
    "tstyle": "red",
    "light": "arctic",
    "mood": "playful",
-   "batalha": true,
    "set": "harbor",
    "clima": "neve",
-   "impact": true
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "NED"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "impact": true,
+   "shot_lock": true,
+   "tiros": false,
+   "sem_mortos": true
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",

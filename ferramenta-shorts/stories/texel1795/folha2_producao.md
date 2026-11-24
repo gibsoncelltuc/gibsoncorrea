@@ -6,8 +6,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (0): -
-- Animacao: conversar
+- Personagens principais (2): FRA (variante 0, expressao grin); FRA (variante 1, expressao stern) | multidao: 0 de FRA
+- Animacao: conversar | interacao: tremem de frio
 - Objetos/modelos: ship, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, frota, navios
 - RISCOS: nenhum
@@ -47,17 +47,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (3): FRA (variante 0, expressao stern); FRA (variante 1, expressao neutral); OFF (variante 0, expressao stern)
-- Animacao: conversar | interacao: tremem de frio
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franceses, hussardos
 - RISCOS: nenhum
 
 ## Cena b5 - O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 - Cenario: interior pedra | luz: arctic | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (1): GEN (variante 0, expressao grin)
-- Animacao: conversar
+- Personagens principais (2): GEN (variante 0, expressao grin); OFF (variante 0, expressao surprised)
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, cavalo, chefe, frota
 - RISCOS: nenhum
@@ -74,11 +74,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende...
 - Cenario: harbor | luz: arctic | clima: neve
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin)
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: navios de guerra ao fundo, no tamanho real, navio em movimento
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 10 de NED
+- Animacao: reagir | interacao: discutir | batalha encenada
+- Objetos/modelos: navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota, marinheiros
 - RISCOS: nenhum
 
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 0 de FRA
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: ship, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, navios
 - RISCOS: nenhum
@@ -123,8 +123,8 @@ kit/navio_vela | b2 | pronto (HEROI: aparece em close) | conferir na folha de co
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vela | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 22% | medio 51% | aberto 25% | detalhe 2%
-- Interacoes: b4 tremem de frio, b8 aproxima-se
+- Objeto heroi: kit/navio_vela | grandes momentos: b6, b7 | planos abertos: 3 | mistura: close 13% | medio 64% | aberto 22% | detalhe 2%
+- Interacoes: b0 tremem de frio, b4 aproxima-se, b5 avanca e o outro recua, b7 discutir, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
