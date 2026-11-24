@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ouro, resto
 - RISCOS: nenhum
 
-## Cena b4 - O rei chamou Arquimedes e disse: "Descubra, mas sem estragar a coroa."
+## Cena b4 - O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Arquimedes pensou por dias e dias, e a resposta não vinha.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ARQ (variante 0, expressao sad)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, numa tarde, ele entrou na banheira, e a água transbordou...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ARQ (variante 0, expressao shock); POV (variante 0, expressao surprised) | multidao: 10 de POV
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: prop = - + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ARQ (variante 0, expressao grin); OUR (variante 0, expressao nervous)
@@ -92,18 +92,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, ouro
 - RISCOS: nenhum
 
-## Cena b9 - "Eureca!", gritou ele, e a cidade inteira correu atrás. A coroa tinha ...
+## Cena b9 - Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coro...
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ARQ (variante 0, expressao laugh); POV (variante 0, expressao shock) | multidao: 14 de POV/OUR
-- Animacao: comemorar | interacao: pular | batalha encenada
-- Objetos/modelos: kit/crown, buildings/apartment, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, coroa
+- Animacao: comemorar | interacao: vai ate o outro | batalha encenada
+- Objetos/modelos: kit/crown
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, lenda
 - RISCOS: nenhum
 
 ## Cena b10 - No fim, dá para enganar um rei, mas não uma banheira.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): REI (variante 0, expressao smile); OUR (variante 0, expressao sad)
@@ -129,21 +129,16 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bathtub | b0, b1, b5, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/crown | b2, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 14% | medio 70% | aberto 10% | detalhe 5%
-- Interacoes: b2 discutir, b3 o outro se aproxima, b4 entregar, b7 cochichar, b8 susto, b9 pular, b10 insiste
+- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 14% | medio 71% | aberto 10% | detalhe 5%
+- Interacoes: b2 discutir, b3 o outro se aproxima, b4 entregar, b7 cochichar, b8 susto, b9 vai ate o outro, b10 insiste
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py arquimedes250  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/arquimedes250/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh arquimedes250 bN bM` (so essas cenas).

@@ -108,7 +108,7 @@
     "PES:0:stern"
    ],
    "acao": "discutir",
-   "say": "O Brasil dizia: \"Lagosta anda no fundo do mar, então é nossa.\"",
+   "say": "O Brasil dizia que a lagosta anda no fundo do mar, colada na costa, e por isso era brasileira.",
    "set": "harbor"
   },
   {
@@ -118,7 +118,7 @@
     "FRA:1:laugh"
    ],
    "interacao": "cochichar",
-   "say": "A França respondia: \"Lagosta nada, então é de todo mundo.\"",
+   "say": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
    "set": "countryside"
   },
   {
@@ -209,7 +209,7 @@
    ],
    "acao": "comemorar",
    "text": "1963",
-   "say": "Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
+   "say": "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
    "set": "harbor"
   },
   {
@@ -231,5 +231,35 @@
  ],
  "ano": 1961,
  "regiao": "franca",
- "exp": 1.0
+ "exp": 1.0,
+ "visual": {
+  "local": "litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros",
+  "quando": "1961 a 1963, de dia",
+  "participantes": [
+   "pescadores franceses em barcos lagosteiros",
+   "pescadores brasileiros",
+   "Marinha do Brasil",
+   "Marinha francesa (contratorpedeiro Tartu)",
+   "presidente Joao Goulart",
+   "presidente Charles de Gaulle"
+  ],
+  "roupas": {
+   "BRA": "marinheiro brasileiro de branco",
+   "FRA": "marinheiro frances de azul com boina de pompom vermelho",
+   "PES": "pescador de camisa simples e chapeu de palha",
+   "MAR": "oficial da Marinha de uniforme branco",
+   "PRE": "presidente de terno escuro"
+  },
+  "cenario": "mar aberto com navios de guerra cinzentos dos anos 1960, barcos de pesca, porto nordestino",
+  "objetos": [
+   "lagosta",
+   "barcos de pesca",
+   "navios de guerra",
+   "avioes de patrulha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Lobster_War",
+   "https://pt.wikipedia.org/wiki/Guerra_da_Lagosta"
+  ]
+ }
 }

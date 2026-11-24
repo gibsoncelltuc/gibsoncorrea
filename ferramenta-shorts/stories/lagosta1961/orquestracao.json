@@ -28,8 +28,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/lobster",
-    "kit/marco_olinda"
+    "kit/lobster"
    ],
    "palavras": 14,
    "cena": "b0",
@@ -48,8 +47,7 @@
    ],
    "multidao": 8,
    "objetos": [
-    "boat",
-    "kit/marco_olinda"
+    "boat"
    ],
    "palavras": 21,
    "cena": "b1",
@@ -68,9 +66,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 19,
    "cena": "b2",
-   "frase": "O Brasil dizia: \"Lagosta anda no fundo do mar, então é nossa.\"",
+   "frase": "O Brasil dizia que a lagosta anda no fundo do mar, colada na costa, e por isso era brasileira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -78,16 +76,16 @@
    "cenario": "harbor"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "FRA",
     "FRA"
    ],
-   "multidao": 30,
+   "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 14,
    "cena": "b3",
-   "frase": "A França respondia: \"Lagosta nada, então é de todo mundo.\"",
+   "frase": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -122,7 +120,6 @@
    ],
    "multidao": 20,
    "objetos": [
-    "kit/marco_olinda",
     "navios de guerra ao fundo, no tamanho real",
     "ship",
     "vehicles/airplane"
@@ -190,12 +187,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_olinda",
     "navio em movimento"
    ],
-   "palavras": 18,
+   "palavras": 12,
    "cena": "b8",
-   "frase": "Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
+   "frase": "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

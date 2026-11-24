@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 205 palavras (~71 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 181 palavras (~62 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: - | mapa: FRANÇA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.2 s)
-- Narracao: Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado.
+## Cena b2  (~4.1 s)
+- Narracao: Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,20 +47,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.5 s)
-- Narracao: Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo.
+## Cena b5  (~3.1 s)
+- Narracao: Ela carregava frascos no bolso. Ninguém sabia do perigo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @1 -> acao + som de efeito; encena: x_vigia (cross) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~6.6 s)
-- Narracao: Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso.
+## Cena b6  (~4.5 s)
+- Narracao: Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @1 -> acao + som de efeito; encena: quimico (pour) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.8 s)
-- Narracao: Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.
+## Cena b9  (~4.1 s)
+- Narracao: Para ler, é preciso assinar um termo e usar roupa de proteção.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: encena: x_le (think) @2 -> acao + som de efeito; encena: escreve (write) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: escreve (write) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -101,8 +101,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: 1.600 ANOS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b11  (~5.2 s)
-- Narracao: Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos.
+## Cena b11  (~3.1 s)
+- Narracao: Ou seja: os cadernos vão continuar radioativos por séculos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

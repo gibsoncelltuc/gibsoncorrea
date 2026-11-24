@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Os dois países achavam que ela era sua, mas ninguém queria começar uma...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): CAN (variante 0, expressao angry); DIN (variante 0, expressao angry)
@@ -32,14 +32,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
-## Cena b3 - Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá ...
+## Cena b3 - Em mil novecentos e oitenta e quatro, soldados canadenses desembarcara...
 - Cenario: arctic | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: wide = ABERTO fixo
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): CAN (variante 0, expressao laugh, segura flag); CAN (variante 1, expressao grin) | multidao: 10 de CAN
-- Animacao: encena
+- Animacao: encena | batalha encenada
 - Objetos/modelos: vehicles/helicopter
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): helicoptero
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
 
 ## Cena b4 - Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque ca...
@@ -53,23 +53,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a ...
-- Cenario: arctic | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): DIN (variante 0, expressao smug, segura flag); DIN (variante 1, expressao smug) | multidao: 10 de DIN
-- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
+- Animacao: encena | batalha encenada
 - Objetos/modelos: war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, dinamarqueses
 - RISCOS: nenhum
 
-## Cena b6 - E deixaram um bilhete: "Bem-vindos à terra dinamarquesa", ao lado de u...
-- Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): DIN (variante 0, expressao grin, segura paper); CAN (variante 0, expressao shock) | multidao: 0 de DIN/CAN
-- Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/whisky, kit/tequila_bolt
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilhete, garrafa, licor, terra
+## Cena b6 - E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado d...
+- Cenario: arctic | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): DIN (variante 0, expressao grin, segura paper); CAN (variante 0, expressao shock)
+- Animacao: reagir | interacao: entregar
+- Objetos/modelos: kit/whisky, barrel, kit/tequila_bolt
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aguardente, bilhete, garrafa, ilha
 - RISCOS: nenhum
 
 ## Cena b7 - Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa...
@@ -121,20 +121,17 @@ kit/whisky | b0, b4, b6, b9 | pronto (HEROI: aparece em close) | conferir na fol
 vehicles/helicopter | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tequila_bolt | b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+barrel | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/whisky | grandes momentos: b6 | planos abertos: 3 | mistura: close 17% | medio 62% | aberto 15% | detalhe 6%
-- Interacoes: b0 discutir, b2 empurrar, b4 pular, b5 o outro se aproxima, b7 cochichar, b8 entregar
+- Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 12% | medio 69% | aberto 13% | detalhe 6%
+- Interacoes: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b8 entregar
 - RISCOS GERAIS: 
-  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py uisque1984  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/uisque1984/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: menos de 2 grandes momentos
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh uisque1984 bN bM` (so essas cenas).

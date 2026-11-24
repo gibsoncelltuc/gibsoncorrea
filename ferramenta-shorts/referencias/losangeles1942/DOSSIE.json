@@ -9,8 +9,7 @@
   "cenarios": [
    "harbor",
    "interior madeira",
-   "interior pedra",
-   "mountain",
+   "loc_cidade",
    "street"
   ],
   "cenarios_trocados": []
@@ -39,17 +38,10 @@
   "buildings/shop",
   "kit/canhao_moderno",
   "kit/room_eua_wood",
-  "kit/room_europa_stone",
   "kit/searchlight",
-  "kit/wash_basin",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
   "mk/Bookcase_2",
-  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
-  "mk/Stool",
   "mk/Table_Large",
   "nature/lamppost"
  ],

@@ -96,7 +96,7 @@
    ],
    "mapa": "ILHA DE SAN JUAN",
    "mapa_at": 4,
-   "say": "Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia de quem ela era."
+   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era."
   },
   {
    "shot": "two",
@@ -151,12 +151,13 @@
     ]
    ],
    "detalhe": false,
-   "say": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
+   "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
+   "set": "countryside"
   },
   {
    "shot": "two",
    "who": [
-    "FAZ:0:angry"
+    "FAZ:0:angry:rifle"
    ],
    "fx": [
     "burst@24"
@@ -190,7 +191,9 @@
      -1.2,
      1.1
     ]
-   ]
+   ],
+   "set": "countryside",
+   "encena": false
   },
   {
    "shot": "two",
@@ -220,7 +223,7 @@
     ]
    ],
    "text": "$10",
-   "say": "O fazendeiro foi até a casa do vizinho, com as notas na mão, e ofereceu dez dólares pelo porco.",
+   "say": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
    "shot_lock": true,
    "impact": false,
    "detalhe": false
@@ -242,7 +245,7 @@
      1.3
     ]
    ],
-   "say": "O dono gritou que o porco valia cem, e empurrou o dinheiro de volta. Ninguém cedeu.",
+   "say": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
    "shot_lock": true,
    "impact": false,
    "detalhe": false
@@ -263,7 +266,7 @@
    },
    "text": "TROPAS",
    "titulo": true,
-   "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
+   "say": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
    "set": "harbor"
   },
   {
@@ -290,7 +293,7 @@
     "sting@10",
     "thump@40"
    ],
-   "say": "Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.",
+   "say": "A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.",
    "set": "harbor"
   },
   {
@@ -300,7 +303,7 @@
     "ING:1:nervous"
    ],
    "interior": "madeira",
-   "say": "O almirante inglês recebeu a ordem de atacar, e se recusou: disse que não ia pôr duas nações em guerra por briga de porco.",
+   "say": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
    "riscos_ok": true
   },
   {
@@ -320,10 +323,12 @@
    ],
    "text": "13 ANOS",
    "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "impact": false,
+   "shot_lock": true
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FAZ:0:sad"
    ],
@@ -332,15 +337,25 @@
    "props": [
     [
      "kit/cross",
-     1.5,
-     -0.9,
-     0.8
+     2.6,
+     -1.6,
+     1.0
     ],
     [
      "nature/picket_fence",
      -2.6,
      -2.4,
      1.2
+    ]
+   ],
+   "set": "countryside",
+   "animals": [
+    [
+     "pig",
+     1.6,
+     -0.3,
+     "fall",
+     1.1
     ]
    ]
   }
@@ -375,5 +390,7 @@
    "https://en.wikipedia.org/wiki/Pig_War_(1859)",
    "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
   ]
- }
+ },
+ "sem_mortos": true,
+ "min_momentos": 1
 }

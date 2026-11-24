@@ -72,7 +72,7 @@
   },
   {
    "shot": "reveal",
-   "set": "street",
+   "set": "harbor",
    "who": [
     "VIA:0:neutral",
     "VIA:1:nervous"
@@ -112,7 +112,7 @@
    ],
    "interacao": "empurrar",
    "say": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
-   "set": "countryside"
+   "set": "jungle"
   },
   {
    "shot": "two",
@@ -123,7 +123,7 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "O vendedor pediu o pagamento: \"Pague a fatia!\", gritou ele, e o viajante só riu."
+   "say": "O vendedor cobrou a fatia, e o viajante só riu."
   },
   {
    "shot": "two",
@@ -141,7 +141,7 @@
      2.2
     ]
    ],
-   "set": "harbor"
+   "set": "street"
   },
   {
    "shot": "crowd",
@@ -166,6 +166,20 @@
    "say": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
   },
   {
+   "say": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
+   "shot": "group",
+   "set": "street",
+   "veiculo": {
+    "asset": "locomotive",
+    "fixo": true
+   },
+   "acao": "discutir",
+   "who": [
+    "VIA:0:shock",
+    "MOR:0:angry"
+   ]
+  },
+  {
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -177,7 +191,7 @@
   },
   {
    "shot": "orbit",
-   "set": "street",
+   "set": "harbor",
    "who": [
     "SOL:0:stern",
     "SOL:1:angry"
@@ -199,17 +213,7 @@
      1.6
     ]
    ],
-   "say": "No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu."
-  },
-  {
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "PRE:0:relief:coin",
-    "PRE:1:smug:paper"
-   ],
-   "interacao": "entregar",
-   "say": "No fim, o governo local pagou uma indenização enorme pelas mortes."
+   "say": "Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabou pagando uma indenização enorme aos americanos."
   },
   {
    "shot": "close",
@@ -225,10 +229,39 @@
     ]
    ],
    "say": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
-   "set": "countryside"
+   "set": "jungle"
   }
  ],
  "ano": 1856,
  "regiao": "colonial",
- "exp": 1.0
+ "exp": 1.0,
+ "visual": {
+  "local": "Cidade do Panama, perto da estacao da ferrovia do Panama: ruas de terra, casas coloniais de madeira e pedra, barracas de frutas",
+  "quando": "15 de abril de 1856, fim de tarde",
+  "participantes": [
+   "Jack Oliver, viajante americano",
+   "Jose Manuel Luna, vendedor de frutas",
+   "moradores da cidade",
+   "viajantes a caminho da California",
+   "policia local"
+  ],
+  "roupas": {
+   "VEN": "vendedor de camisa branca e chapeu de palha",
+   "VIA": "viajante americano de 1856 com colete, paleto e chapeu de aba",
+   "MOR": "morador com camisa simples e chapeu de palha",
+   "SOL": "policial local de 1856",
+   "PRE": "autoridade de casaca escura"
+  },
+  "cenario": "rua tropical com barracas de frutas, estacao de trem de madeira, palmeiras",
+  "objetos": [
+   "melancia",
+   "barraca de frutas",
+   "trem a vapor de 1856",
+   "revolver"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Watermelon_War",
+   "https://en.wikipedia.org/wiki/Panama_Railroad"
+  ]
+ }
 }

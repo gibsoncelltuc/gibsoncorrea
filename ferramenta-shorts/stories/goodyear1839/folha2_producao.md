@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): GOO (variante 0, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/stove
+- Objetos/modelos: kit/stove, kit/borracha
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fogao, gosma
 - RISCOS: nenhum
 
@@ -78,18 +78,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): GOO (variante 0, expressao surprised)
 - Animacao: comemorar
-- Objetos/modelos: kit/stove
+- Objetos/modelos: kit/stove, kit/borracha
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
 - RISCOS: nenhum
 
-## Cena b8 - Tinha nascido a vulcanização: finalmente a borracha aguentava o calor ...
+## Cena b8 - Finalmente a borracha aguentava o calor e o frio.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): GOO (variante 0, expressao grin); CLA (variante 0, expressao surprised) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: kit/stove
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio, vulcanizacao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio
 - RISCOS: nenhum
 
 ## Cena b9 - Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Mo...
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); CLA (variante 0, expressao smile) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/tires, kit/ball, kit/stove
+- Objetos/modelos: kit/tires, kit/ball, kit/stove, kit/borracha
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
 - RISCOS: nenhum
 
@@ -138,22 +138,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/stove | b0, b2, b3, b5, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/borracha | b6, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tires | b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 18% | medio 66% | aberto 16% | detalhe 0%
+- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 19% | medio 68% | aberto 14% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 discutir
 - RISCOS GERAIS: 
-  - video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - objeto heroi kit/borracha nao aparece em nenhuma cena -> CORRECAO: por kit/borracha em "props" de pelo menos uma cena (ou tirar de "herois")
-  - FOLHA 4: 6 item(ns) sem referencia visual: credores e guardas da prisao de devedores, concorrentes que copiaram a ideia, borracha crua (gosma), fogao de ferro quente, pneus e bolas de borracha, borracha -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py goodyear1839  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/goodyear1839/moodboard.jpg
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: objeto heroi kit/borracha nao aparece em nenhuma cena
-- geral: FOLHA 4: 6 item(ns) sem referencia visual: credores e guardas da prisao de devedores, concorrentes que copiaram a ideia, borracha crua (gosma), fogao de ferro quente, pneus e bolas de borracha, borracha
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh goodyear1839 bN bM` (so essas cenas).

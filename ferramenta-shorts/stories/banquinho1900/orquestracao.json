@@ -1,53 +1,7 @@
 {
  "id": "banquinho1900",
  "ano": 1900,
- "cenarios_trocados": [
-  [
-   "video",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 1",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 2",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 3",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 5",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 6",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 7",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "street",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -72,7 +26,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "reveal",
@@ -84,12 +38,12 @@
    "objetos": [],
    "palavras": 18,
    "cena": "b1",
-   "frase": "Em mil e novecentos, os ingleses mandavam numa região da África chamada Gana, onde vivia o povo ashanti.",
+   "frase": "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
    "camera": "two",
@@ -108,7 +62,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -144,7 +98,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "crowd",
@@ -169,7 +123,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
    "camera": "orbit",
@@ -192,7 +146,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
    "camera": "two",
@@ -246,7 +200,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -262,7 +216,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   }
  ]
 }

@@ -9,7 +9,7 @@ b3 | group | -  | interior, objeto na mao | encena: sai @3 (acao + som de efeito
 b4 | two | -  | interior | encena: chega (point) @1 (acao + som de efeito); encena: olha (point) @2 (acao + som de efeito) | -
 b5 | close | -  | - | encena: olha (point) @7 (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
-b7 | two | -  | interior | encena: x_solta (up) @2 (acao + som de efeito); encena: x_entrega (reach) @10 (acao + som de efeito) | -
+b7 | two | -  | tropa, interior | - | -
 b8 | group | -  | - | (rosto) relief (expr + som de efeito); encena: vira (up) @4 (acao + som de efeito); encena: x_entrega (reach) @11 (acao + som de efeito) | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); prêmio (stars + som de sino); encena: vence (up) @1 (acao + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
 b10 | close | -  | interior | - | -

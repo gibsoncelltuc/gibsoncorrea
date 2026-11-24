@@ -22,7 +22,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria
 - RISCOS: nenhum
 
-## Cena b2 - Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou...
+## Cena b2 - Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar n...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -92,14 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): linguagem
 - RISCOS: nenhum
 
-## Cena b9 - Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As...
+## Cena b9 - Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); COL (variante 0, expressao shock); FRI (variante 0, expressao smug) | multidao: 30 de POV
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/beehive, kit/bee
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, acucar, lugar, testes
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, testes
 - RISCOS: nenhum
 
 ## Cena b10 - Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobe...
@@ -112,12 +112,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): premio
 - RISCOS: nenhum
 
-## Cena b11 - Então, da próxima vez que vir uma abelha, lembre: ela pode estar conta...
+## Cena b11 - Da próxima vez que vir uma abelha, lembre: ela pode estar contando um ...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRI (variante 0, expressao smile)
-- Animacao: dancar
+- Animacao: conversar
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, proxima, segredo
 - RISCOS: nenhum
@@ -142,15 +142,13 @@ kit/bee | b0, b2, b3, b4, b5, b6, b7, b9, b11 | pronto | conferir na folha de co
 
 
 ## Video inteiro
-- Objeto heroi: kit/beehive | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 18% | medio 67% | aberto 10% | detalhe 4%
+- Objeto heroi: kit/beehive | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 18% | medio 69% | aberto 9% | detalhe 4%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 discutir, b7 entregar, b8 empurrar, b10 pular
 - RISCOS GERAIS: 
-  - video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: 7 item(ns) sem referencia visual: As Abelhas que Dançam um Mapa, Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim, colegas cientistas desconfiados, colmeia de vid -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py abelhas1945  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/abelhas1945/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: 7 item(ns) sem referencia visual: As Abelhas que Dançam um Mapa, Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim, colegas cientistas desconfiados, colmeia de vid
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh abelhas1945 bN bM` (so essas cenas).

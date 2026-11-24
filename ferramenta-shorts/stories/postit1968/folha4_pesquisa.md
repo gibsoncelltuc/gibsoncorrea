@@ -27,8 +27,7 @@ objeto | hinario com marcadores caindo | hinario com marcadores caindo / hinario
 objeto | frascos de cola | frascos de cola / frascos de cola 1968 | Tallarines caseros con salsa de carne, papas frita (referencias/postit1968/prints/frascos_de_cola_14d6e6.jpg); Capelettis argentinos cuatro quesos con salsa en l (referencias/postit1968/prints/frascos_de_cola_8d9e27.jpg); كسكس Couscous; Cuscús (Las Siete Orillas project). (referencias/postit1968/prints/frascos_de_cola_befd33.jpg)
 objeto | amostras gratis | amostras gratis / amostras gratis 1968 | Derbys Peter Pan peanut butter sample blikje, foto (referencias/postit1968/prints/amostras_gratis_1347e7.jpg); Smithsonian Holyoke SkinnersSatins Sample.jpg (referencias/postit1968/prints/amostras_gratis_dd1333.jpg); 20 samples of Tatami in Japan.jpg (referencias/postit1968/prints/amostras_gratis_eb1609.jpg)
 heroi | postit | bloquinho amarelo de post-it / A Cola que Não Colava | SEM REFERENCIA
-epoca | laboratorio da epoca | laboratory 1968 / laboratory | Propulsion Systems Laboratory (PSL) test chamber ( (referencias/postit1968/prints/laboratorio_da_epoca_19616a.jpg); Stamp of Albania - 1968 - Colnect 347619 - Laborat (referencias/postit1968/prints/laboratorio_da_epoca_366f19.jpg); Collected reprints - Atlantic Oceanographic and Me (referencias/postit1968/prints/laboratorio_da_epoca_a109c1.jpg)
-epoca | fabrica da epoca | factory 1968 / factory | Tempo factory in Yeruham 1968.jpg (referencias/postit1968/prints/fabrica_da_epoca_7fc6e5.jpg); Robertson's Jam factory during the Great Flood of  (referencias/postit1968/prints/fabrica_da_epoca_58eb62.jpg); French workers with placard during occupation of t (referencias/postit1968/prints/fabrica_da_epoca_a3e72f.jpg)
+epoca | fabrica da epoca | factory 1968 / factory | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

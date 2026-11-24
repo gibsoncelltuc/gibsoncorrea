@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -67,16 +67,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | pular | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 39.3s a 47.0s - 22 palavras - plano group
-> "Em mil novecentos e oitenta e seis, alguém perguntou: "Será que ainda estamos em guerra?" E o embaixador holandês visitou as ilhas."
+## Cena b7 - 39.3s a 45.9s - 19 palavras - plano group
+> "Em mil novecentos e oitenta e cinco, um historiador das ilhas perguntou à Holanda se a guerra ainda valia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perguntou (42.2s) | ACAO: fala | aponta explicando | OK |
+| 1 | perguntou (43.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | reverencia | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 47.4s a 52.2s - 14 palavras - plano two
+## Cena b8 - 46.3s a 49.6s - 10 palavras - plano two
+> "No ano seguinte, o embaixador holandês foi até as ilhas."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+
+## Cena b9 - 50.0s a 54.8s - 14 palavras - plano two
 > "Os dois fizeram a paz num tratado, e a guerra de 335 anos terminou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -85,14 +93,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | apertar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 52.6s a 56.3s - 11 palavras - plano group
+## Cena b10 - 55.2s a 58.9s - 11 palavras - plano group
 > "Foi a guerra mais longa e mais calma da história, dizem."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 56.7s a 61.1s - 13 palavras - plano close
+## Cena b11 - 59.3s a 63.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

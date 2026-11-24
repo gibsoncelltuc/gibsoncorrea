@@ -121,7 +121,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.",
+   "say": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim.",
    "fx": [
     "puff@30"
    ],
@@ -417,7 +417,7 @@
    ],
    "text": "TESTE",
    "titulo": true,
-   "say": "Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam.",
+   "say": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
    "set": "mountain"
   },
   {
@@ -481,7 +481,7 @@
      }
     ]
    ],
-   "say": "Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.",
+   "say": "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.",
    "set": "countryside"
   }
  ],

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:17 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,12 +8,12 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | FLE, COL | - | marco_bigben, petri | - | Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.
 b1 | transicao | loc_campo | reveal | MED, MED | 8 | marco_bigben | - | Era mil novecentos e vinte e oito, num hospital de Londres, e o cienti
-b2 | explicativa | interior hospital | two | FLE, COL | - | - | - | Ele estudava bactérias, e deixava os pratos de cultura empilhados na b
-b3 | simples | interior hospital | group | FLE, COL | - | - | - | Um dia, ele saiu de férias por duas semanas e não limpou nada.
-b4 | simples | interior hospital | two | COL, FLE | - | gosma, petri | - | Quando voltou, achou um prato com bolor verde e disse: "Que sujeira!"
+b2 | simples | interior hospital | two | FLE, COL | - | - | - | Ele estudava bactérias, e deixava os pratos de cultura empilhados na b
+b3 | simples | interior hospital | group | FLE, COL | - | - | - | Um dia, ele saiu de férias por um mês e não limpou nada.
+b4 | simples | interior hospital | two | COL, FLE | - | gosma, petri | - | Quando voltou, achou um prato estragado, coberto de bolor verde.
 b5 | simples | loc_montanha | close | FLE | - | gosma, petri | - | Ele ia jogar o prato fora, mas olhou melhor.
 b6 | chave | hall | orbit | FLE, COL | 10 | petri | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, em volta do mofo, as bactérias tinham sumido.
-b7 | explicativa | interior hospital | two | FLE, COL | - | petri | - | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d
+b7 | explicativa | interior hospital | two | sem personagem | - | - | corpo: kit/petri (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d
 b8 | simples | loc_montanha | group | MED, MED, POV | - | petri | - | Anos depois, outros cientistas transformaram o bolor em remédio, e ele
 b9 | chave | hall | group | FLE, COL | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Fleming ganhou, junto com dois colegas, o prêmio Nobel em mil novecent
 b10 | simples | interior madeira | close | FLE | - | - | - | No fim, a bagunça dele valeu mais que qualquer faxina.
@@ -24,9 +24,9 @@ b11 | simples | loc_campo | close | FLE | - | - | - | Agora não deixe de coment
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/7 itens) | PENDENTE | python3 pesquisar.py fleming1928
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/13 itens) | PENDENTE | python3 pesquisar.py fleming1928
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

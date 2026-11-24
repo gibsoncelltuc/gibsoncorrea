@@ -1,111 +1,123 @@
 {
- "duration": 55.008,
- "frames30": 1650,
- "source": "silence-align (cost 0.71)",
+ "duration": 64.344,
+ "frames30": 1930,
+ "source": "silence-align (cost 0.91)",
  "segments": [
   [
    0.158125,
    3.72412
   ],
   [
-   4.64571,
-   6.92633
+   4.57796,
+   6.82371
   ],
   [
-   7.10117,
-   7.56425
+   7.68562,
+   8.52229
   ],
   [
-   7.814,
-   8.36808
+   8.76675,
+   9.34758
   ],
   [
-   8.58788,
-   9.99038
+   9.56921,
+   11.1698
   ],
   [
-   10.9065,
-   14.0824
+   12.0312,
+   14.2331
   ],
   [
-   14.3262,
-   14.9182
+   14.5218,
+   15.5427
   ],
   [
-   15.1999,
-   16.2375
+   16.3921,
+   17.4031
   ],
   [
-   17.0832,
-   18.0942
+   17.6517,
+   19.5067
   ],
   [
-   18.3429,
-   20.199
+   20.359,
+   21.3496
   ],
   [
-   21.0502,
-   22.0408
+   21.649,
+   23.236
   ],
   [
-   22.3401,
-   23.9271
+   23.6255,
+   25.0015
   ],
   [
-   24.3166,
-   25.6928
+   25.8418,
+   26.8837
   ],
   [
-   26.533,
-   27.5749
+   27.2045,
+   28.9273
   ],
   [
-   27.8957,
-   29.6184
+   29.7596,
+   31.5306
   ],
   [
-   30.4544,
-   31.6216
+   31.6934,
+   32.8929
   ],
   [
-   31.8789,
-   34.532
+   33.7854,
+   34.7522
   ],
   [
-   34.7418,
-   35.7375
+   34.9585,
+   38.4108
   ],
   [
-   36.625,
-   37.6776
+   38.6115,
+   39.7275
   ],
   [
-   37.9321,
-   40.1295
+   40.6133,
+   41.6617
   ],
   [
-   40.3406,
-   41.3345
+   41.9196,
+   44.1173
   ],
   [
-   42.1888,
-   42.595
+   44.3288,
+   45.3227
   ],
   [
-   42.8297,
-   45.0502
+   46.1924,
+   48.3729
   ],
   [
-   45.9072,
-   49.8816
+   48.6088,
+   50.6423
   ],
   [
-   50.7113,
-   52.1557
+   51.5063,
+   51.9125
   ],
   [
-   52.4532,
-   54.2104
+   52.1471,
+   54.3677
+  ],
+  [
+   55.2248,
+   59.1991
+  ],
+  [
+   60.029,
+   61.4713
+  ],
+  [
+   61.7662,
+   63.5277
   ]
  ],
  "phrases": [
@@ -115,129 +127,144 @@
    "e": 3.724
   },
   {
-   "text": "Foi em agosto de mil novecentos e quarenta e tr\u00eas,",
-   "s": 4.646,
-   "e": 6.926
+   "text": "Era agosto de mil novecentos e quarenta e tr\u00eas.",
+   "s": 4.578,
+   "e": 6.824
   },
   {
-   "text": "em Kiska,",
-   "s": 7.101,
-   "e": 7.564
+   "text": "A ilha de Kiska,",
+   "s": 7.686,
+   "e": 8.522
   },
   {
    "text": "no Alasca,",
-   "s": 7.814,
-   "e": 8.368
+   "s": 8.767,
+   "e": 9.348
   },
   {
-   "text": "ocupada pelos japoneses.",
-   "s": 8.588,
-   "e": 9.99
+   "text": "estava ocupada pelos japoneses.",
+   "s": 9.569,
+   "e": 11.17
   },
   {
-   "text": "Foram mais de trinta e quatro mil soldados americanos e canadenses,",
-   "s": 10.906,
-   "e": 14.082
-  },
-  {
-   "text": "com navios,",
-   "s": 14.326,
-   "e": 14.918
+   "text": "Americanos e canadenses chegaram com navios,",
+   "s": 12.031,
+   "e": 14.233
   },
   {
    "text": "avi\u00f5es e tanques.",
-   "s": 15.2,
-   "e": 16.238
+   "s": 14.522,
+   "e": 15.543
   },
   {
    "text": "Antes do desembarque,",
-   "s": 17.083,
-   "e": 18.094
+   "s": 16.392,
+   "e": 17.403
   },
   {
    "text": "bombardearam Kiska durante semanas.",
-   "s": 18.343,
-   "e": 20.199
+   "s": 17.652,
+   "e": 19.507
   },
   {
    "text": "No meio do nevoeiro,",
-   "s": 21.05,
-   "e": 22.041
+   "s": 20.359,
+   "e": 21.35
   },
   {
    "text": "os soldados desceram em sil\u00eancio,",
-   "s": 22.34,
-   "e": 23.927
+   "s": 21.649,
+   "e": 23.236
   },
   {
    "text": "prontos para um combate duro.",
-   "s": 24.317,
-   "e": 25.693
+   "s": 23.625,
+   "e": 25.002
   },
   {
    "text": "Mas teve um problema:",
-   "s": 26.533,
-   "e": 27.575
+   "s": 25.842,
+   "e": 26.884
   },
   {
    "text": "os japoneses j\u00e1 tinham ido embora.",
-   "s": 27.896,
-   "e": 29.618
+   "s": 27.204,
+   "e": 28.927
   },
   {
-   "text": "Duas semanas antes,",
-   "s": 30.454,
-   "e": 31.622
+   "text": "Eles procuraram o inimigo por dias,",
+   "s": 29.76,
+   "e": 31.531
   },
   {
-   "text": "uma frota tinha evacuado cerca de cinco mil homens,",
-   "s": 31.879,
-   "e": 34.532
+   "text": "em trincheiras vazias.",
+   "s": 31.693,
+   "e": 32.893
   },
   {
-   "text": "escondida na neblina.",
-   "s": 34.742,
-   "e": 35.737
+   "text": "Semanas antes,",
+   "s": 33.785,
+   "e": 34.752
+  },
+  {
+   "text": "navios japoneses levaram cinco mil homens embora em menos de uma hora,",
+   "s": 34.959,
+   "e": 38.411
+  },
+  {
+   "text": "escondidos na neblina.",
+   "s": 38.611,
+   "e": 39.727
   },
   {
    "text": "Sem inimigo \u00e0 vista,",
-   "s": 36.625,
-   "e": 37.678
+   "s": 40.613,
+   "e": 41.662
   },
   {
    "text": "os Aliados come\u00e7aram a atirar uns nos outros,",
-   "s": 37.932,
-   "e": 40.13
+   "s": 41.92,
+   "e": 44.117
   },
   {
    "text": "no escuro e na neblina.",
-   "s": 40.341,
-   "e": 41.334
+   "s": 44.329,
+   "e": 45.323
+  },
+  {
+   "text": "Mais de vinte soldados morreram nesses tiros,",
+   "s": 46.192,
+   "e": 48.373
+  },
+  {
+   "text": "e um navio americano ainda bateu numa mina.",
+   "s": 48.609,
+   "e": 50.642
   },
   {
    "text": "No fim,",
-   "s": 42.189,
-   "e": 42.595
+   "s": 51.506,
+   "e": 51.913
   },
   {
    "text": "s\u00f3 acharam na ilha alguns cachorros abandonados.",
-   "s": 42.83,
-   "e": 45.05
+   "s": 52.147,
+   "e": 54.368
   },
   {
    "text": "Uma das maiores invas\u00f5es do Pac\u00edfico Norte tomou uma ilha completamente vazia.",
-   "s": 45.907,
-   "e": 49.882
+   "s": 55.225,
+   "e": 59.199
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 50.711,
-   "e": 52.156
+   "s": 60.029,
+   "e": 61.471
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 52.453,
-   "e": 54.21
+   "s": 61.766,
+   "e": 63.528
   }
  ]
 }

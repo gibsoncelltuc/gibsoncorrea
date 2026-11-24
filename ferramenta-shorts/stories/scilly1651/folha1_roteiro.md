@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 173 palavras (~60 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi uma guerra sem batalhas.
@@ -65,16 +65,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~7.6 s)
-- Narracao: Em mil novecentos e oitenta e seis, alguém perguntou: "Será que ainda estamos em guerra?" E o embaixador holandês visitou as ilhas.
+## Cena b7  (~6.6 s)
+- Narracao: Em mil novecentos e oitenta e cinco, um historiador das ilhas perguntou à Holanda se a guerra ainda valia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.8 s)
+## Cena b8  (~3.4 s)
+- Narracao: No ano seguinte, o embaixador holandês foi até as ilhas.
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~4.8 s)
 - Narracao: Os dois fizeram a paz num tratado, e a guerra de 335 anos terminou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.8 s)
+## Cena b10  (~3.8 s)
 - Narracao: Foi a guerra mais longa e mais calma da história, dizem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

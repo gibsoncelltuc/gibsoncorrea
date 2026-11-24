@@ -72,7 +72,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "low",
    "personagens": [
     "SOL",
     "CID"
@@ -94,12 +94,12 @@
    "cenario": "harbor"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "SOL",
     "SOL"
    ],
-   "multidao": 48,
+   "multidao": 4,
    "objetos": [
     "cannon",
     "kit/canhao_moderno"
@@ -107,17 +107,11 @@
    "palavras": 15,
    "cena": "b4",
    "frase": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "street"
   },
   {
    "camera": "group",
@@ -137,16 +131,18 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "CID",
     "CID"
    ],
-   "multidao": 48,
+   "multidao": 20,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
     "cannon",
+    "kit/canhao_moderno",
+    "kit/searchlight",
     "nature/lamppost"
    ],
    "palavras": 17,
@@ -162,7 +158,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -184,8 +180,8 @@
   {
    "camera": "two",
    "personagens": [
-    "PRE",
-    "GEN"
+    "CID",
+    "CID"
    ],
    "multidao": 0,
    "objetos": [],
@@ -196,14 +192,14 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "orbit",
    "personagens": [
     "CID"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "kit/searchlight"
    ],
@@ -217,7 +213,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "CID"
    ],

@@ -1,6 +1,6 @@
 {
  "id": "paris1870",
- "titulo": "O Cardápio do Zoológico",
+ "titulo": "Guerras Inusitadas EP 24 - O Cardápio do Zoológico",
  "ancoras": {
   "ano": 1870,
   "era": "historica",
@@ -36,6 +36,7 @@
   "kit/balloon",
   "kit/balloon_air",
   "kit/coin",
+  "kit/kettle",
   "kit/marco_notredame",
   "kit/panela",
   "kit/room_europa_shop",

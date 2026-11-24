@@ -107,7 +107,7 @@
    "detalhe": false
   },
   {
-   "say": "O rei chamou Arquimedes e disse: \"Descubra, mas sem estragar a coroa.\"",
+   "say": "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.",
    "shot": "two",
    "interior": "pedra",
    "who": [
@@ -195,7 +195,7 @@
    ]
   },
   {
-   "say": "\"Eureca!\", gritou ele, e a cidade inteira correu atrás. A coroa tinha prata misturada.",
+   "say": "Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coroa tinha mesmo prata misturada.",
    "shot": "crowd",
    "who": [
     "ARQ:0:laugh",
@@ -239,5 +239,32 @@
     ]
    ]
   }
- ]
+ ],
+ "visual": {
+  "local": "Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra, banhos publicos, mar Mediterraneo",
+  "quando": "cerca de 250 a.C., de dia; a historia vem do escritor romano Vitruvio, que contou mais de cem anos depois",
+  "participantes": [
+   "Arquimedes, sabio de Siracusa",
+   "rei Hierao II",
+   "o ourives da coroa",
+   "moradores de Siracusa"
+  ],
+  "roupas": {
+   "ARQ": "tunica (quiton) grega clara e sandalias, barba",
+   "REI": "tunica e manto roxo com coroa de louros de ouro",
+   "OUR": "artesao de tunica simples e avental de couro",
+   "POV": "moradores gregos de tunica"
+  },
+  "cenario": "rua grega antiga com casas de pedra e colunas, sala de banho publico com banheira de pedra, palacio com colunas",
+  "objetos": [
+   "coroa de ouro (de louros)",
+   "banheira",
+   "balanca de pratos",
+   "barra de ouro"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Eureka_(word)",
+   "https://en.wikipedia.org/wiki/Archimedes"
+  ]
+ }
 }

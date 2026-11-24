@@ -12,14 +12,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivetada
 - RISCOS: nenhum
 
-## Cena b1 - De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de ...
+## Cena b1 - Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): OHI (variante 1, expressao stern); MIC (variante 1, expressao stern) | multidao: 8 de OHI/MIC
+- Personagens principais (2): OHI (variante 1, expressao stern); MIC (variante 1, expressao stern) | multidao: 6 de OHI/MIC
 - Animacao: -
 - Objetos/modelos: kit/mapa_antigo, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dois, erro, toledo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, erro, toledo
 - RISCOS: nenhum
 
 ## Cena b2 - O governador de Michigan tinha só vinte e três anos, e mandou a milíci...
@@ -42,44 +42,44 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): beira, duas, frente, propria
 - RISCOS: nenhum
 
-## Cena b4 - Houve gritos, ameaças, e tiros por cima dos topógrafos de Ohio. Todos ...
+## Cena b4 - Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): OHI (variante 2, expressao shock); MIC (variante 2, expressao shock) | multidao: 18 de OHI/MIC
+- Personagens principais (2): OHI (variante 2, expressao shock); MIC (variante 2, expressao shock) | multidao: 48 de OHI/MIC
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/teodolito
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, ohio, topografos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que a única baixa foi um xerife de Michigan, espetado numa br...
+## Cena b5 - A única baixa foi um xerife de Michigan, espetado numa briga de tavern...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): RAP (variante 0, expressao angry); XER (variante 0, expressao pained)
-- Animacao: discutir | interacao: empurrar
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/canivete
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivete, michigan, rapaz, taverna, xerife
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivete, michigan, taverna, xerife
 - RISCOS: nenhum
 
-## Cena b6 - O presidente mandou os dois pararem, e o Congresso ofereceu um acordo....
+## Cena b6 - O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GOV (variante 0, expressao nervous); OHI (variante 0, expressao grin, segura paper)
 - Animacao: reagir | interacao: pedir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, congresso, dois, presidente
 - RISCOS: nenhum
 
-## Cena b7 - Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de flo...
+## Cena b7 - Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que...
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (3): OHI (variante 1, expressao grin); MIC (variante 1, expressao pained); GOV (variante 0, expressao nervous)
 - Animacao: conversar | interacao: tremem de frio
 - Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): consolacao, floresta, pedaco, toledo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, pedaco, toledo
 - RISCOS: nenhum
 
 ## Cena b8 - Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
@@ -128,15 +128,11 @@ nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 26% | medio 56% | aberto 15% | detalhe 3%
-- Interacoes: b0 avanca e o outro recua, b5 empurrar, b6 pedir, b7 tremem de frio, b8 cochichar
-- RISCOS GERAIS: 
-  - video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py toledo1835  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/toledo1835/moodboard.jpg
+- Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh toledo1835 bN bM` (so essas cenas).

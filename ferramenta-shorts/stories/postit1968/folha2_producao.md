@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, contrario
 - RISCOS: nenhum
 
-## Cena b4 - Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém v...
+## Cena b4 - Por anos, ninguém viu utilidade nela.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): CHE (variante 0, expressao bored); SIL (variante 0, expressao nervous, segura paper)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, empresa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b5 - Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava...
@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colega, coral, igreja
 - RISCOS: nenhum
 
-## Cena b6 - Os papeizinhos que marcavam as páginas do hinário viviam caindo no chã...
+## Cena b6 - Os papeizinhos que marcavam o hinário viviam caindo.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): FRY (variante 0, expressao angry, segura paper); PAD (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/postit
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, hinario, paginas, papeizinhos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hinario, papeizinhos
 - RISCOS: nenhum
 
 ## Cena b7 - Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não ca...
@@ -82,24 +82,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, pagina, silver
 - RISCOS: nenhum
 
-## Cena b8 - Os dois se juntaram. E o papel saiu amarelo por acaso: era o único pap...
+## Cena b8 - Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de ...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FRY (variante 0, expressao grin); SIL (variante 0, expressao laugh)
 - Animacao: conversar | interacao: abracar
 - Objetos/modelos: kit/postit
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, laboratorio, papel, rascunho
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, papel, rascunho
 - RISCOS: nenhum
 
-## Cena b9 - O primeiro teste de vendas foi um fracasso. Ninguém entendia para que ...
+## Cena b9 - O primeiro teste de vendas fracassou.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): CHE (variante 0, expressao suspicious); FRY (variante 0, expressao nervous, segura paper)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/postit
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bloquinho, fracasso, vendas
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vendas
 - RISCOS: nenhum
 
 ## Cena b10 - Então distribuíram amostras de graça numa cidade inteira. Quase todo m...
@@ -137,7 +137,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/postit | b0, b6, b7, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/postit | b0, b6, b7, b8, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -145,13 +145,13 @@ nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 14% | detalhe 4%
+- Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 26% | medio 53% | aberto 16% | detalhe 5%
 - Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar, b9 susto
 - RISCOS GERAIS: 
-  - video com ~82 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py postit1968  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/postit1968/moodboard.jpg
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: video com ~82 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh postit1968 bN bM` (so essas cenas).

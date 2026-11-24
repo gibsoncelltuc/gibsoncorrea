@@ -76,10 +76,11 @@
     "COL:0:suspicious"
    ],
    "acao": "conversar",
-   "detalhe": false
+   "detalhe": false,
+   "explica": false
   },
   {
-   "say": "Um dia, ele saiu de férias por duas semanas e não limpou nada.",
+   "say": "Um dia, ele saiu de férias por um mês e não limpou nada.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -89,7 +90,7 @@
    "chega": true
   },
   {
-   "say": "Quando voltou, achou um prato com bolor verde e disse: \"Que sujeira!\"",
+   "say": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -170,7 +171,16 @@
     "FLE:0:smile",
     "COL:0:relief"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "explica": {
+    "objeto": "kit/petri",
+    "manobra": "parado",
+    "passos": [
+     "MOFO",
+     "PENICILINA",
+     "BACTÉRIA MORRE"
+    ]
+   }
   },
   {
    "say": "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.",
@@ -220,5 +230,33 @@
     "FLE:0:smug"
    ]
   }
- ]
+ ],
+ "visual": {
+  "local": "Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas",
+  "quando": "agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945",
+  "participantes": [
+   "Alexander Fleming",
+   "colegas do laboratorio",
+   "Howard Florey e Ernst Chain, que transformaram em remedio"
+  ],
+  "roupas": {
+   "FLE": "cientista de 1928 com jaleco branco sobre terno, gravata borboleta",
+   "COL": "colega de jaleco branco",
+   "MED": "medico de 1940 de jaleco",
+   "POV": "pacientes e enfermeiras de 1940"
+  },
+  "cenario": "laboratorio de 1928 com bancada de madeira, microscopio de latao, placas de Petri empilhadas, frascos de vidro",
+  "objetos": [
+   "placa de Petri com mofo",
+   "microscopio",
+   "frascos de vidro"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Alexander_Fleming",
+   "https://en.wikipedia.org/wiki/History_of_penicillin"
+  ],
+  "explicacoes": [
+   "Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929"
+  ]
+ }
 }

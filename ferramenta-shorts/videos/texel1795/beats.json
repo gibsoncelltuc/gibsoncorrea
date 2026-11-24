@@ -47,9 +47,12 @@
  },
  "beats": [
   {
-   "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo. Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
    "shot": "wide",
-   "who": [],
+   "who": [
+    "FRA:0:grin",
+    "FRA:1:stern"
+   ],
    "props": [
     [
      "ship",
@@ -67,7 +70,6 @@
    "text": "1795",
    "tat": 0,
    "mood": "epic",
-   "acao": "conversar",
    "fx": [
     "stars@30"
    ],
@@ -75,6 +77,16 @@
     "ding@30"
    ],
    "clima": "neve"
+  },
+  {
+   "say": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "shot": "reveal",
+   "set": "arctic",
+   "mapa": "HOLANDA",
+   "who": [
+    "FRA:0:stern",
+    "NED:0:nervous"
+   ]
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
@@ -149,9 +161,10 @@
   },
   {
    "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "GEN:0:grin"
+    "GEN:0:grin",
+    "OFF:0:surprised"
    ],
    "text": "A CAVALO?",
    "tat": 9,
@@ -190,7 +203,7 @@
   },
   {
    "say": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "NED:0:shock",
     "FRA:1:grin"
@@ -200,9 +213,20 @@
    "tstyle": "red",
    "light": "arctic",
    "mood": "playful",
-   "batalha": true,
    "set": "harbor",
-   "clima": "neve"
+   "clima": "neve",
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "NED"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "impact": true,
+   "shot_lock": true,
+   "tiros": false,
+   "sem_mortos": true
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
@@ -274,5 +298,9 @@
    "https://en.wikipedia.org/wiki/Capture_of_the_Dutch_fleet_at_Den_Helder",
    "https://commons.wikimedia.org/wiki/File:Prise_de_la_flotte_hollandaise_par_la_cavalerie_fran%C3%A7aise.jpg"
   ]
- }
+ },
+ "exp": 1.0,
+ "serie": "Guerras Inusitadas",
+ "ep": 22,
+ "titulo_base": "A Cavalaria que Capturou uma Frota"
 }

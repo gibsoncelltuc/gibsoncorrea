@@ -12,7 +12,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): porco
 - RISCOS: nenhum
 
-## Cena b1 - Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sa...
+## Cena b1 - Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sab...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -22,10 +22,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, estados, ilha
 - RISCOS: nenhum
 
-## Cena b2 - Um dia, um fazendeiro americano encontrou um porco comendo as batatas ...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b2 - Um fazendeiro americano pegou um porco comendo as batatas da horta.
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork)
 - Animacao: encena
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, kit/batatas, buildings/barn, nature/haybale, pig
@@ -33,26 +33,26 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): FAZ (variante 0, expressao angry)
-- Animacao: atira
+- Personagens principais (1): FAZ (variante 0, expressao angry, segura rifle)
+- Animacao: -
 - Objetos/modelos: nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espingarda, porco, vizinho
 - RISCOS: nenhum
 
-## Cena b4 - O fazendeiro foi até a casa do vizinho, com as notas na mão, e oferece...
-- Cenario: interior madeira | luz: day | clima: limpo
+## Cena b4 - O fazendeiro ofereceu dez dólares ao vizinho pelo porco.
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): FAZ (variante 0, expressao nervous, segura money); IRL (variante 0, expressao angry)
 - Animacao: reagir | interacao: entregar
-- Objetos/modelos: nature/picket_fence, nature/haybale, tools/wheelbarrow, pig
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, fazendeiro, notas, vizinho
+- Objetos/modelos: nature/picket_fence, nature/haybale, tools/wheelbarrow, buildings/barn, nature/scarecrow, pig
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro
 - RISCOS: nenhum
 
-## Cena b5 - O dono gritou que o porco valia cem, e empurrou o dinheiro de volta. N...
+## Cena b5 - O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém ced...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -62,32 +62,32 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, dono, porco
 - RISCOS: nenhum
 
-## Cena b6 - Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos ma...
+## Cena b6 - Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram s...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): AME (variante 0, expressao stern); AME (variante 1, expressao stern); FAZ (variante 0, expressao scared) | multidao: 16 de AME
 - Animacao: discutir | interacao: empurrar
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, fazendeiro, ilha, ingleses
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americanos, fazendeiro, ilha, ingleses
 - RISCOS: nenhum
 
-## Cena b7 - Acontece que a Inglaterra respondeu com navios de guerra. Logo eram ce...
+## Cena b7 - A Inglaterra respondeu com navios de guerra. Logo eram centenas de sol...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao stern); AME (variante 0, expressao stern) | multidao: 30 de ING/AME
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: cannon, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, inglaterra, navios, soldados
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, navios, soldados
 - RISCOS: nenhum
 
-## Cena b8 - O almirante inglês recebeu a ordem de atacar, e se recusou: disse que ...
+## Cena b8 - O almirante inglês recebeu ordem de atacar, e se recusou: não ia começ...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ALM (variante 0, expressao stern); ING (variante 1, expressao nervous)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: reagir | interacao: susto
 - Objetos/modelos: pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, atacar, porco
 - RISCOS: nenhum
@@ -97,24 +97,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile)
-- Animacao: discutir | interacao: cochichar
+- Animacao: discutir | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados, tiro
 - RISCOS: nenhum
 
 ## Cena b10 - Treze anos depois, um árbitro decidiu que a ilha era americana.
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): ALM (variante 0, expressao smile, segura paper); AME (variante 1, expressao smile) | multidao: 12 de AME
-- Animacao: encena | batalha encenada
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): ALM (variante 0, expressao smile, segura paper); AME (variante 1, expressao smile)
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arbitro, ilha
 - RISCOS: nenhum
 
 ## Cena b11 - A única baixa da guerra foi o porco.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao sad)
 - Animacao: conversar
@@ -124,7 +124,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao grin)
 - Animacao: conversar
@@ -141,10 +141,10 @@ nature/picket_fence | b0, b2, b3, b4, b5, b6, b11 | pronto | conferir na folha d
 nature/haybale | b0, b2, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 pig | b0, b2, b3, b4, b5, b8, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/flowerbed | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/scarecrow | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/scarecrow | b2, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/wheelbarrow | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/batatas | b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/barn | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/barn | b2, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -152,13 +152,11 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/batatas | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 7% | medio 80% | aberto 11% | detalhe 1%
-- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b9 cochichar
-- RISCOS GERAIS: 
-  - video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- Objeto heroi: kit/batatas | grandes momentos: b7 | planos abertos: 2 | mistura: close 10% | medio 79% | aberto 10% | detalhe 2%
+- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 susto, b9 vai ate o outro, b10 insiste
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).

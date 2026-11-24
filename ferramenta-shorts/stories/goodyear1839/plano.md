@@ -16,5 +16,5 @@ b10 | crowd | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
 b11 | close | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino); encena: vence (up) @6 (acao + som de efeito) | -
 b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 18% | medio 66% | aberto 16% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 19% | medio 68% | aberto 14% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

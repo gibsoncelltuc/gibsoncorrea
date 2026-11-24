@@ -110,7 +110,7 @@
    "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
   },
   {
-   "shot": "two",
+   "shot": "low",
    "set": "harbor",
    "hora": "noite",
    "who": [
@@ -120,8 +120,23 @@
    "props": [
     [
      "kit/searchlight",
-     1.8,
-     -1.2,
+     0.0,
+     -2.4,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/searchlight",
+     -3.4,
+     -4.6,
+     1.0
+    ],
+    [
+     "kit/searchlight",
+     3.6,
+     -5.2,
      1.0
     ]
    ],
@@ -131,20 +146,21 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
+   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
+   "shot_lock": true,
+   "detalhe": true
   },
   {
-   "shot": "crowd",
-   "set": "mountain",
+   "shot": "group",
+   "set": "street",
    "hora": "noite",
    "who": [
     "SOL:0:shout",
     "SOL:1:angry"
    ],
-   "batalha": true,
    "tiros": true,
    "crowd": {
-    "n": 20,
+    "n": 4,
     "outfits": [
      "SOL"
     ],
@@ -154,9 +170,15 @@
    "props": [
     [
      "cannon",
-     -5,
-     -5,
-     1.2
+     -2.6,
+     -4.5,
+     1.0
+    ],
+    [
+     "cannon",
+     3.0,
+     -5.5,
+     1.0
     ]
    ],
    "fx": [
@@ -169,7 +191,8 @@
    ],
    "text": "FOGO!",
    "titulo": true,
-   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
+   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -184,13 +207,12 @@
   },
   {
    "shot": "crowd",
-   "set": "street",
+   "set": "loc_cidade",
    "hora": "noite",
    "who": [
     "CID:0:scared",
     "CID:1:cry"
    ],
-   "batalha": true,
    "tiros": true,
    "crowd": {
     "n": 20,
@@ -209,7 +231,21 @@
     "cannon@40",
     "cannon@100"
    ],
-   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
+   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
+   "props": [
+    [
+     "cannon",
+     -3.0,
+     -2.0,
+     1.0
+    ],
+    [
+     "kit/searchlight",
+     4,
+     -6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -223,13 +259,14 @@
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
-    "PRE:0:sad:paper",
-    "GEN:0:sad"
+    "CID:0:sad",
+    "CID:1:cry"
    ],
-   "interacao": "entregar",
-   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu."
+   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
+   "set": "loc_cidade",
+   "hora": "noite",
+   "encena": false
   },
   {
    "shot": "close",
@@ -250,7 +287,7 @@
   }
  ],
  "cinf": 1.5,
- "exp": 1.572,
+ "exp": 2.209,
  "visual": {
   "local": "Los Angeles (California): ruas do centro com predios dos anos 1940, baterias antiaereas na costa e nos morros, holofotes cruzando o ceu",
   "quando": "madrugada de 24 para 25 de fevereiro de 1942 (sirenes as 2h25, tiros das 3h16 as 4h14, fim do alerta as 7h21); vespera: submarino japones I-17 atacou Ellwood no fim da tarde de 23/fev",

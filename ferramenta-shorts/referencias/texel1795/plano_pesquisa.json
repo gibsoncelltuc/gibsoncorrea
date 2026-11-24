@@ -7,7 +7,7 @@
    "item": "A Cavalaria que Capturou uma Frota",
    "consultas": [
     "A Cavalaria que Capturou uma Frota",
-    "Uma Era França Holanda Den Helder Os 1795"
+    "Uma Era França Holanda Den Helder 1795"
    ]
   },
   {
@@ -20,10 +20,10 @@
   },
   {
    "tipo": "lugar",
-   "item": "França",
+   "item": "Holanda",
    "consultas": [
-    "França 1795",
-    "França landscape"
+    "Holanda 1795",
+    "Holanda landscape"
    ]
   },
   {

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 189 palavras (~65 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 190 palavras (~66 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.2 s)
-- Narracao: De volta à Inglaterra, o especialista John Gould disse: "São todos tentilhões, de espécies diferentes!"
+## Cena b4  (~5.5 s)
+- Narracao: De volta à Inglaterra, o especialista John Gould revelou que eram todos tentilhões, de espécies diferentes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

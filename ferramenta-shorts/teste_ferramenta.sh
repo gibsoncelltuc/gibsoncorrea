@@ -99,6 +99,7 @@ raise SystemExit(0 if sys_ok else 1)
 NEG
 grep -q "('nature/lamppost', 1800, 'tools/lantern')" mkvideo.py && grep -q "int(_ano.group(1)) < 1500: REGIAO = None" mkvideo.py || f "cenario medieval com poste de rua, cerca branca ou predio europeu de 4 andares"
 grep -q 'k === "axe"' web/toonbase.js && grep -q "('axe', r'machado" mkvideo.py || f "lenhador sem machado na mao"
+grep -q "K === 'feixe'" web/vfx.js && grep -q "asset == 'kit/searchlight' and 'vfx' not in ex" mkvideo.py || f "holofote a noite sem facho de luz no ceu"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 171 palavras (~59 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.
@@ -22,18 +22,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~5.2 s)
 - Narracao: Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_come (eat) @5 -> acao + som de efeito; encena: sai @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.2 s)
-- Narracao: O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajante só riu.
+## Cena b3  (~3.4 s)
+- Narracao: O vendedor cobrou a fatia, e o viajante só riu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; (rosto) shout -> expr + som de efeito; (rosto) laugh -> expr + som de efeito; gritou -> ring + som de alerta; riu -> stars + som de sino; encena: fala (point) @2 -> acao + som de efeito; encena: grita (up) @8 -> acao + som de efeito; encena: x_ri (up) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_discute (point) @2 -> acao + som de efeito; encena: x_ri (up) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -56,7 +56,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: BRIGA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.2 s)
+## Cena b6  (~5.5 s)
+- Narracao: Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: briga -> puff + som de baque
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~5.2 s)
 - Narracao: Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -65,27 +74,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b7  (~5.5 s)
-- Narracao: No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu.
+## Cena b8  (~6.9 s)
+- Narracao: Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabou pagando uma indenização enorme aos americanos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; pagou -> stars + som de sino; encena: negocio (reach) @5 -> acao + som de efeito
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~3.8 s)
-- Narracao: No fim, o governo local pagou uma indenização enorme pelas mortes.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) @5 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
 ## Cena b9  (~3.8 s)
 - Narracao: Tudo isso por uma fatia de melancia que custava poucos centavos.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

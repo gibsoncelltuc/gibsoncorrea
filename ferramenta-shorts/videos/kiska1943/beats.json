@@ -40,9 +40,12 @@
  },
  "beats": [
   {
-   "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum. Foi em agosto de mil novecentos e quarenta e três, em Kiska, no Alasca, ocupada pelos japoneses.",
+   "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
    "shot": "wide",
-   "who": [],
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern"
+   ],
    "props": [
     [
      "ship",
@@ -62,10 +65,24 @@
    "tstyle": "white",
    "mood": "epic",
    "set": "harbor",
-   "acao": "conversar"
+   "desembarque": true,
+   "fx": [
+    "dust@25"
+   ],
+   "sfx": [
+    "thump@25"
+   ],
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
   },
   {
-   "say": "Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques.",
+   "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
    "shot": "group",
    "who": [
     "USA:0:stern",
@@ -94,7 +111,31 @@
     ]
    ],
    "mapa": "ALASCA",
-   "set": "mountain"
+   "set": "arctic"
+  },
+  {
+   "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
+   "shot": "wide",
+   "set": "harbor",
+   "desembarque": true,
+   "props": [
+    [
+     "kit/aviao_ww2",
+     -4,
+     -9,
+     1.0
+    ],
+    [
+     "kit/tanque_ww2",
+     4,
+     -6,
+     1.0
+    ]
+   ],
+   "who": [
+    "USA:0:stern",
+    "CAN:1:smile"
+   ]
   },
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
@@ -111,11 +152,15 @@
     ]
    ],
    "fx": [
-    "burst@40"
+    "burst@8",
+    "burst@24",
+    "burst@40",
+    "dust@26"
    ],
    "sfx": [
-    "cannon@40",
-    "cannon@70"
+    "cannon@8",
+    "cannon@24",
+    "cannon@40"
    ],
    "mood": "march",
    "set": "arctic"
@@ -131,7 +176,7 @@
    "move": 8,
    "light": "overcast",
    "mood": "tense",
-   "set": "mountain",
+   "set": "arctic",
    "clima": "neblina"
   },
   {
@@ -145,10 +190,28 @@
    "tat": 10,
    "tstyle": "red",
    "light": "overcast",
-   "clima": "neblina"
+   "clima": "neblina",
+   "interior": "pedra"
   },
   {
-   "say": "Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.",
+   "say": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
+   "shot": "track",
+   "set": "arctic",
+   "who": [
+    "USA:0:nervous",
+    "CAN:0:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
+  },
+  {
+   "say": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -168,7 +231,8 @@
    "light": "overcast",
    "mood": "calm",
    "set": "harbor",
-   "clima": "neblina"
+   "clima": "neblina",
+   "shot_lock": true
   },
   {
    "say": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
@@ -192,23 +256,26 @@
    "tstyle": "red",
    "light": "overcast",
    "mood": "tense",
-   "set": "mountain",
+   "set": "arctic",
    "clima": "neblina"
   },
   {
-   "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
+   "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
    "shot": "two",
+   "set": "arctic",
+   "hora": "noite",
+   "acao": "conversar",
    "who": [
-    "USA:1:laugh"
-   ],
-   "animals": [
-    [
-     "dog",
-     2.0,
-     1.4,
-     "stand",
-     1.2
-    ]
+    "USA:0:sad",
+    "CAN:0:sad"
+   ]
+  },
+  {
+   "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
+   "shot": "prop",
+   "who": [
+    "USA:1:surprised",
+    "CAN:0:surprised"
    ],
    "text": "SÓ CACHORROS",
    "tat": 6,
@@ -216,20 +283,57 @@
    "light": "arctic",
    "mood": "playful",
    "set": "harbor",
-   "clima": "neblina"
+   "clima": "neblina",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.2,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/dog_sit",
+     -1.4,
+     1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "OFF:0:pained"
+    "OFF:0:pained",
+    "USA:0:surprised"
    ],
    "text": "OPERAÇÃO ILHA VAZIA",
    "tat": 11,
    "tstyle": "white",
    "mood": "playful",
    "set": "harbor",
-   "clima": "neblina"
+   "props": [
+    [
+     "kit/dog_sit",
+     1.6,
+     -1.0,
+     1.0
+    ],
+    [
+     "kit/dog_sit",
+     -1.8,
+     -1.4,
+     1.0
+    ]
+   ],
+   "detalhe": false
   }
  ],
  "heroi": "kit/dog_sit",
@@ -258,5 +362,8 @@
    "https://en.wikipedia.org/wiki/Operation_Cottage",
    "https://en.wikipedia.org/wiki/Kiska"
   ]
- }
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 21,
+ "titulo_base": "A Invasão da Ilha Vazia"
 }

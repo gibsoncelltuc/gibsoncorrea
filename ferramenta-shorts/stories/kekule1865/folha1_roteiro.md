@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 205 palavras (~71 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 181 palavras (~62 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda de uma cobra.
@@ -29,16 +29,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.2 s)
-- Narracao: Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de anos.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito; encena: escreve (write) @2 -> acao + som de efeito; encena: empurra (push) @7 -> acao + som de efeito
-- Efeito visual marcado: puff@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b4  (~4.1 s)
+## Cena b3  (~4.1 s)
 - Narracao: Numa noite fria, ele virou a cadeira para a lareira, e cochilou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -47,7 +38,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.2 s)
+## Cena b4  (~5.2 s)
 - Narracao: No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
@@ -56,7 +47,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~6.6 s)
+## Cena b5  (~6.6 s)
 - Narracao: Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
@@ -65,7 +56,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.2 s)
+## Cena b6  (~5.2 s)
 - Narracao: Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
@@ -74,16 +65,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.2 s)
-- Narracao: Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez.
+## Cena b7  (~2.1 s)
+- Narracao: Os colegas ficaram de boca aberta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~6.9 s)
+## Cena b8  (~6.9 s)
 - Narracao: Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
@@ -92,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: FESTA
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~6.6 s)
+## Cena b9  (~6.6 s)
 - Narracao: Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
@@ -101,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b11  (~4.1 s)
+## Cena b10  (~4.1 s)
 - Narracao: E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -110,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: SONHE
 - Funcao na historia: desenvolvimento
 
-## Cena b12  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
