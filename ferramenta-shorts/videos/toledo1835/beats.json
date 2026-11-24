@@ -76,7 +76,7 @@
    ],
    "mapa": "TOLEDO",
    "mapa_at": 8,
-   "say": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
+   "say": "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
    "set": "countryside",
    "props": [
     [
@@ -131,7 +131,7 @@
    },
    "text": "PARA O ALTO",
    "titulo": true,
-   "say": "Houve gritos, ameaças, e tiros por cima dos topógrafos de Ohio. Todos para o alto. Ninguém acertou ninguém.",
+   "say": "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.",
    "set": "countryside",
    "sem_mortos": true,
    "props": [
@@ -157,7 +157,7 @@
     "sting@60",
     "thump@55"
    ],
-   "say": "Acontece que a única baixa foi um xerife de Michigan, espetado numa briga de taverna por um rapaz com um canivete.",
+   "say": "A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete.",
    "shot_lock": true,
    "interacao": "empurrar",
    "interior": "madeira",
@@ -211,7 +211,7 @@
    ],
    "interior": "pedra",
    "text": "ACORDO",
-   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder."
+   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo."
   },
   {
    "shot": "group",
@@ -220,7 +220,7 @@
     "MIC:1:pained",
     "GOV:0:nervous"
    ],
-   "say": "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria."
+   "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria."
   },
   {
    "shot": "two",
