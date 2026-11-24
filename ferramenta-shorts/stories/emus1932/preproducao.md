@@ -6,20 +6,19 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | outback | two | 0 | parados (so fala e pisca) | emus | - | -
 b1 | outback | reveal | 2 | reagir | nature/haybale, buildings/barn, nature/picket_fence, nature/scarecrow, emus | pitchfork | -
-b2 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
-b3 | outback | crowd | 17 | encena, batalha | war/sandbags, kit/canhao_moderno, emus | - | -
-b4 | outback | orbit | 26 | encena, batalha | nature/picket_fence, buildings/barn, nature/haybale, nature/scarecrow, emus | - | -
-b5 | countryside | two | 1 | conversar | vehicles/truck, emus | - | -
-b6 | outback | group | 2 | conversar, INTERAGEM: susto | emus | - | -
-b7 | countryside | track | 15 | comemorar, andando | - | paper | -
-b8 | outback | crowd | 26 | encena, batalha | emus | - | -
-b9 | outback | two | 2 | conversar, INTERAGEM: entregar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus | - | -
-b10 | outback | close | 1 | conversar | emus | - | -
-b11 | outback | two | 1 | conversar | - | - | -
+b2 | interior madeira | two | 2 | reagir, INTERAGEM: vai ate o outro | - | paper | -
+b3 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | mgun, crate | - | -
+b4 | outback | crowd | 7 | encena, batalha | emus | - | -
+b5 | countryside | wide | 1 | encena | vehicles/truck, mgun | - | -
+b6 | loc_campo | orbit | 32 | batalha | emus | - | -
+b7 | countryside | group | 7 | conversar, INTERAGEM: avanca e o outro recua | vehicles/tank | - | -
+b8 | loc_deserto | two | 2 | conversar, INTERAGEM: o outro se aproxima | emus | - | -
+b9 | outback | crowd | 7 | encena | emus | - | -
+b10 | outback | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b3, b4, b8
-Interacoes entre personagens: b2 vai ate o outro, b6 susto, b9 entregar
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
+Interacoes entre personagens: b2 vai ate o outro, b3 aproxima-se, b7 avanca e o outro recua, b8 o outro se aproxima
 
-Cenas com personagens parados: 1 de 12
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada
