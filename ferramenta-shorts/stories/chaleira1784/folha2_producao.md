@@ -130,14 +130,12 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 - RISCOS GERAIS: 
   - objeto heroi (kit/kettle) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
   - video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py chaleira1784  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/chaleira1784/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - b9: cena curta (5 palavras): nao da tempo de ler a acao
 - geral: objeto heroi (kit/kettle) sem close de camera
 - geral: video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
