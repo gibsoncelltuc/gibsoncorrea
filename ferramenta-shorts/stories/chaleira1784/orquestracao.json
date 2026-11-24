@@ -85,7 +85,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "IMP"
    ],
@@ -104,7 +104,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
     "MAR",
     "MAR"
@@ -149,13 +149,14 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "GEN"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_fragata"
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 14,
    "cena": "b7",
@@ -190,7 +191,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "COZ"
    ],
@@ -208,7 +209,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "COZ"
    ],

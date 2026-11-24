@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
-Gerado em 24/11 17:10 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:16 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,13 +10,13 @@ b0 | simples | loc_campo | two | COZ, HOL | - | kettle | - | Uma guerra inteira 
 b1 | simples | harbor | wide | MAR, MAR | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Esc
 b2 | simples | interior pedra | two | IMP, GEN | - | - | - | O imperador José Segundo, da Áustria, queria o rio aberto para os navi
 b3 | simples | harbor | wide | IMP | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Convencido de que os holandeses não reagiriam, ele mandou três navios 
-b4 | simples | harbor | group | IMP | - | navio_fragata, flagpole | - | O maior levava a bandeira do imperador e seguia na frente.
-b5 | simples | harbor | low | MAR, MAR | - | cannon, navio_fragata | - | Acontece que o navio de guerra holandês Dolfijn estava esperando, e di
+b4 | simples | harbor | wide | IMP | - | navio_fragata, flagpole | - | O maior levava a bandeira do imperador e seguia na frente.
+b5 | simples | harbor | two | MAR, MAR | - | cannon, navio_fragata | - | Acontece que o navio de guerra holandês Dolfijn estava esperando, e di
 b6 | chave | harbor | two | COZ | - | kettle, navio_fragata | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A bala acertou e destruiu uma chaleira de sopa no convés do navio do i
-b7 | chave | harbor | group | GEN | - | navio_fragata | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
+b7 | chave | harbor | wide | GEN | - | navio_fragata, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
 b8 | simples | interior pedra | two | IMP, HOL | - | - | - | Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O 
-b9 | simples | interior madeira | close | COZ | - | kettle | - | O único prejuízo do dia foi o almoço.
-b10 | simples | interior madeira | two | COZ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | interior madeira | two | COZ | - | kettle | - | O único prejuízo do dia foi o almoço.
+b10 | simples | interior madeira | close | COZ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -31,9 +31,9 @@ N | Etapa | O que confere | Estado | Proximo passo
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh chaleira1784
-10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh chaleira1784
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh chaleira1784
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local chaleira1784 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 

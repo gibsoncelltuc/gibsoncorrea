@@ -193,7 +193,7 @@
    "text": "3 NAVIOS",
    "titulo": true,
    "say": "O maior levava a bandeira do imperador e seguia na frente.",
-   "set": "harbor",
+   "set": "palace",
    "props": [
     [
      "kit/navio_fragata",
@@ -261,7 +261,7 @@
    "detalhe": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/navio_fragata",
@@ -290,13 +290,14 @@
   {
    "shot": "two",
    "who": [
+    "IMP:0:surprised",
     "COZ:0:scared"
    ],
    "props": [
     [
      "kit/kettle",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.2,
      {
       "fixo": true
@@ -304,9 +305,12 @@
     ],
     [
      "kit/navio_fragata",
-     -8,
-     -30,
-     1.0
+     7.0,
+     -24.2,
+     7.06,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -320,12 +324,18 @@
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/kettle",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -333,10 +343,10 @@
    "detalhe": false,
    "set": "harbor",
    "impact": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "wide",
@@ -347,15 +357,38 @@
    "props": [
     [
      "kit/navio_fragata",
-     10,
-     -30,
-     1.0
+     0.0,
+     -18.2,
+     7.06,
+     {
+      "fixo": true
+     }
     ]
    ],
    "detalhe": false,
-   "_auto_vis": 3,
    "set": "harbor",
-   "impact": true
+   "impact": true,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 102.3,
+   "d1": 97.4
   },
   {
    "shot": "two",
@@ -369,7 +402,7 @@
    "light": "day"
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "COZ:0:sad"
    ],
@@ -386,8 +419,8 @@
    ],
    "say": "O único prejuízo do dia foi o almoço.",
    "quadro": {
-    "local": "loc_patio",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/kettle",
@@ -397,11 +430,12 @@
      }
     ]
    },
+   "interior": "madeira",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "interior": "madeira"
+   "detalhe": true
   }
  ],
  "visual": {
@@ -465,5 +499,6 @@
    "kettle": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa"
   }
  },
- "marco": false
+ "marco": false,
+ "max_wide": 5
 }
