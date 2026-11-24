@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/pisa_tower",
+ "heroi": "kit/ball",
  "outfits": {
   "GAL": {
    "jacket": "#7a2a2a",
@@ -125,7 +125,7 @@
    "acao": "conversar"
   },
   {
-   "say": "Todo mundo achava óbvio, e ninguém tinha testado.",
+   "say": "Mas Galileu Galilei achou estranho e resolveu provar o contrário.",
    "shot": "group",
    "interior": "pedra",
    "who": [
@@ -133,17 +133,19 @@
     "ALU:1:bored",
     "PRO:0:smug"
    ],
-   "acao": "conversar"
-  },
-  {
-   "say": "Mas Galileu Galilei achou estranho e disse: \"Eu vou provar o contrário.\"",
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "ALU:1:surprised",
-    "GAL:0:shout"
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/ball",
+     0.0,
+     -1.0,
+     0.95,
+     {
+      "fixo": true
+     }
+    ]
    ],
-   "interacao": "discutir"
+   "detalhe": true
   },
   {
    "say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
@@ -297,16 +299,6 @@
    "d1": 20.0
   },
   {
-   "say": "A plateia ficou de boca aberta, e os professores ficaram bravos.",
-   "shot": "group",
-   "who": [
-    "PRO:0:angry",
-    "PRO:1:angry",
-    "ALU:0:laugh"
-   ],
-   "interacao": "susto"
-  },
-  {
    "say": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
    "shot": "two",
    "interior": "madeira",
@@ -395,5 +387,39 @@
    ]
   }
  ],
- "max_wide": 5
+ "max_wide": 5,
+ "visual": {
+  "local": "Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a catedral",
+  "quando": "cerca de 1589-1592, dia",
+  "participantes": [
+   "Galileu Galilei jovem (toga escura de professor, barba curta)",
+   "alunos de toga",
+   "professores aristotelicos"
+  ],
+  "roupas": {
+   "GAL": "toga preta de professor universitario",
+   "ALU": "gibao e calcas renascentistas",
+   "PRO": "toga e barrete",
+   "ARI": "tunica grega",
+   "AST": "traje espacial branco Apollo"
+  },
+  "cenario": "praca gramada com a torre inclinada branca, catedral romanica; sala de universidade de pedra; superficie da Lua",
+  "objetos": [
+   "bola de ferro pesada",
+   "bola leve",
+   "torre de Pisa",
+   "martelo e pena (Apollo 15)"
+  ],
+  "explicacoes": [
+   "Segundo Vincenzo Viviani, aluno de Galileu, ele soltou bolas de pesos diferentes da Torre de Pisa; historiadores duvidam; em 1971 David Scott (Apollo 15) soltou martelo e pena na Lua e caíram juntos (fonte: Wikipedia Galileo's Leaning Tower of Pisa experiment)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "https://en.wikipedia.org/wiki/Apollo_15"
+  ],
+  "buscas": {
+   "torre": "Leaning Tower of Pisa Piazza dei Miracoli",
+   "lua": "Apollo 15 hammer feather drop"
+  }
+ }
 }
