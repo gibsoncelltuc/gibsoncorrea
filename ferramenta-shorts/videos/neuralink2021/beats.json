@@ -116,7 +116,7 @@
     [
      "kit/chess_pc",
      0.0,
-     -1.2,
+     -0.8,
      0.9,
      {
       "fixo": true
@@ -124,23 +124,7 @@
     ]
    ],
    "_susp_tela": true,
-   "_susp_ok": true,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/chess_pc",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -302,7 +286,7 @@
    "titulo": true,
    "say": "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.",
    "quadro": {
-    "local": "loc_cidade",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -313,11 +297,11 @@
      }
     ]
    },
-   "set": "loc_cidade",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "set": "loc_cidade"
   },
   {
    "shot": "two",

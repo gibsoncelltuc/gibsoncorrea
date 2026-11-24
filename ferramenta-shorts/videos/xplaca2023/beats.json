@@ -94,7 +94,7 @@
    ],
    "text": "X",
    "quadro": {
-    "local": "loc_patio",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -105,11 +105,11 @@
      }
     ]
    },
-   "set": "loc_patio",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "loc_patio"
   },
   {
    "tiros": false,
@@ -272,7 +272,7 @@
     ]
    ],
    "quadro": {
-    "local": "sala de madeira",
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -283,11 +283,11 @@
      }
     ]
    },
-   "interior": "madeira",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "interior": "madeira"
   }
  ],
  "exp": 1.0,

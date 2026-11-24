@@ -164,7 +164,7 @@
    "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/ballot_box",
@@ -174,6 +174,10 @@
      }
     ]
    },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "crowd": {
     "n": 12,
     "outfits": [
@@ -181,11 +185,7 @@
      "POV"
     ],
     "march": false
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -223,7 +223,12 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 0
+    "n": 14,
+    "outfits": [
+     "REP"
+    ],
+    "march": false,
+    "expr": "laugh"
    },
    "props": [
     [
@@ -451,7 +456,7 @@
   "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
   "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
  ],
- "max_wide": 5,
+ "max_wide": 4,
  "visual": {
   "local": "Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noite da vitoria, Capitolio em Washington na posse",
   "quando": "5 e 6 de novembro de 2024 (noite e madrugada); posse em 20 de janeiro de 2025, dia frio",

@@ -65,7 +65,8 @@
   {
    "shot": "wide",
    "who": [
-    "SOL:0:stern"
+    "SOL:0:stern",
+    "MAD:0:shock"
    ],
    "props": [
     [
@@ -92,7 +93,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "loc_cidade",
+    "local": "loja / taverna",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
     "objetos": [
      {
@@ -103,13 +104,13 @@
      }
     ]
    },
-   "set": "loc_cidade",
-   "hora": "noite",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_cidade",
+   "hora": "noite"
   },
   {
    "shot": "reveal",
@@ -156,12 +157,12 @@
      }
     ]
    },
-   "hora": "noite",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "hora": "noite"
   },
   {
    "shot": "wide",
