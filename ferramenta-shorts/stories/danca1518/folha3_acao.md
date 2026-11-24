@@ -130,6 +130,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: danca na palavra dançarinos (31.9s): bracos para cima e pulinhos curtos durante a frase
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b6 - 33.7s a 39.4s - 22 palavras - plano orbit

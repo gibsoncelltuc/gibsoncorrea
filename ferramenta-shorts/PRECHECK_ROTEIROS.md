@@ -1,60 +1,42 @@
-# PRE-CHECAGEM DE TODOS OS ROTEIROS QUE FALTAM (24/11 noite, ferramenta com sentido.py + suspeitas.py)
+# PRE-CHECAGEM DOS ROTEIROS (24/11 noite, refeita pela principal depois de corrigir TODOS)
 
-Cada sessao corrige os itens do SEU roteiro ANTES do storyboard (etapa 4 do cronograma). "pesquisa de campo" some ao rodar pesquisar.py.
+A principal corrigiu o texto de todos os roteiros [A] e [B] (gancho sem data e curto, 54-66 s, virada, explica, pesquisa visual completa, cenarios variados, falas sem fonte tiradas). Resultado de mkvideo + checagem_coerencia + suspeitas em cada um:
 
-- [PRINCIPAL] abelhas1945: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [A] aprendiz2004: 3 RISCO(S) em aberto: video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] aroostook1838: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:1 cena
-- [PRINCIPAL] arquimedes250: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [A] bacalhau1958: 6 RISCO(S) em aberto: b0 objeto sem modelo 3D: peixe; b8 objeto sem modelo 3D: peixe; menos de 2 grandes momentos; GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho  | coerencia:0 | suspeitas:0 cena
-- [B] balde1325: 2 RISCO(S) em aberto: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_ | coerencia:0 | suspeitas:0 cena
-- [A] bateria2017: 6 RISCO(S) em aberto: b1 frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada; b5 frase EXPLICATIVA (ciencia/mecanismo)  | coerencia:0 | suspeitas:0 cena
-- [A] bifes2007: 5 RISCO(S) em aberto: pouca variedade de cenario ({'loc_cidade': 6, 'interior loja': 3, 'interior pedra': 2}): o video fica parecendo todos os outros; o video ABRE com a data (ganc | coerencia:0 | suspeitas:0 cena
-- [A] bitcoin2021: 7 RISCO(S) em aberto: menos de 2 grandes momentos; o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 22 palav | coerencia:0 | suspeitas:0 cena
-- [B] bolos1838: 3 RISCO(S) em aberto: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [A] bukele2024: 4 RISCO(S) em aberto: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 20 palavras (o canal fecha o gancho e | coerencia:2 | suspeitas:0 cena
-- [A] bukelebio2021: 4 RISCO(S) em aberto: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 25 palavras (o canal fecha o gancho e | coerencia:0 | suspeitas:0 cena
-- [B] cachorro1925: 3 RISCO(S) em aberto: GANCHO longo: a 1a frase tem 17 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras); roteiro sem pesqui | coerencia:0 | suspeitas:1 cena
-- [A] cameo1992: 5 RISCO(S) em aberto: pouca variedade de cenario ({'loc_cidade': 6, 'interior pedra': 2, 'interior loja': 3}): o video fica parecendo todos os outros; o video ABRE com a data (ganc | coerencia:1 | suspeitas:0 cena
-- [A] cecot2023: 4 RISCO(S) em aberto: objeto heroi (kit/prison) sem close de camera; video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); FOLHA 4: a pesquisa de campo ain | coerencia:0 | suspeitas:1 cena
-- [A] chaleira1784: 4 RISCO(S) em aberto: b9 cena curta (5 palavras): nao da tempo de ler a acao; objeto heroi (kit/kettle) sem close de camera; rotei | coerencia:1 | suspeitas:1 cena
-- [PRINCIPAL] curie1898: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [A] cybertruck2019: 7 RISCO(S) em aberto: menos de 2 grandes momentos; o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 22 palav | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] danca1518: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] darwin1835: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] emus1932: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:4 cena
-- [B] eratostenes240: 3 RISCO(S) em aberto: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] falcon2015: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] fleming1928: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [B] franklin1752: 3 RISCO(S) em aberto: video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [A] futebol1969: 3 RISCO(S) em aberto: pouca variedade de cenario ({'stadium': 6, 'street': 4, 'interior madeira': 1}): o video fica parecendo todos os outros; FOLHA 4: a pesquisa de campo ainda na | coerencia:0 | suspeitas:0 cena
-- [B] galileu1589: 3 RISCO(S) em aberto: video com ~68 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] goodyear1839: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [A] lancachamas2018: 5 RISCO(S) em aberto: menos de 2 grandes momentos; GANCHO longo: a 1a frase tem 25 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras); video com ~46 s (o padrao e' 60 s; acei | coerencia:0 | suspeitas:0 cena
-- [A] maduro2026: 4 RISCO(S) em aberto: objeto heroi (kit/helicopter_air) sem close de camera; GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras); FOLHA 4: a pe | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] martelo2025: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [A] mechazilla2024: 6 RISCO(S) em aberto: b3 frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada; b10 frase EXPLICATIVA (ciencia/mecanismo) | coerencia:0 | suspeitas:0 cena
-- [B] mendel1856: 2 RISCO(S) em aberto: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_ | coerencia:0 | suspeitas:0 cena
-- [B] microondas1945: 3 RISCO(S) em aberto: b7 ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera); roteiro sem pesquisa visual completa (f | coerencia:0 | suspeitas:0 cena
-- [B] montgolfier1783: 4 RISCO(S) em aberto: pouca variedade de cenario ({'loc_campo': 10, 'interior madeira': 2, 'palace': 1}): o video fica parecendo todos os outros; video com ~76 s (o padrao e' 60 s; | coerencia:0 | suspeitas:0 cena
-- [A] neuralink2021: 3 RISCO(S) em aberto: video com ~82 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [B] newton1666: 5 RISCO(S) em aberto: b10 frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada; video com ~68 s (o padrao e' 60 s; aceit | coerencia:0 | suspeitas:1 cena
-- [B] pasteur1885: 3 RISCO(S) em aberto: video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [B] paypal2002: 5 RISCO(S) em aberto: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 18 palavras (o canal fecha o gancho e | coerencia:0 | suspeitas:0 cena
-- [B] pia2022: 7 RISCO(S) em aberto: menos de 2 grandes momentos; o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 22 palav | coerencia:0 | suspeitas:0 cena
-- [A] reeleicao2024: 3 RISCO(S) em aberto: video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [B] roadster2018: 3 RISCO(S) em aberto: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); sem VIRADA no meio do video (a retencao cai sem um "Acontece que / | coerencia:0 | suspeitas:0 cena
-- [B] rontgen1895: 3 RISCO(S) em aberto: video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [B] selfie2019: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [B] semmelweis1847: 4 RISCO(S) em aberto: b11 frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada; video com ~80 s (o padrao e' 60 s; aceit | coerencia:0 | suspeitas:1 cena
-- [A] starlink2019: 4 RISCO(S) em aberto: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 21 palavras (o canal fecha o gancho e | coerencia:0 | suspeitas:0 cena
-- [A] surfcity2019: 3 RISCO(S) em aberto: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); roteiro sem pesq | coerencia:0 | suspeitas:0 cena
-- [A] teslaquila2020: 3 RISCO(S) em aberto: video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:1 cena
-- [A] trumpgame1989: 3 RISCO(S) em aberto: video com ~81 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] tulipas1637: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
-- [B] tycho1566: 3 RISCO(S) em aberto: video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [B] velcro1941: 3 RISCO(S) em aberto: video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final); roteiro sem pesquisa visual c | coerencia:0 | suspeitas:0 cena
-- [A] vulcao2021: 4 RISCO(S) em aberto: b5 frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada; video com ~72 s (o padrao e' 60 s; aceito | coerencia:0 | suspeitas:1 cena
-- [A] wrestlemania2007: 4 RISCO(S) em aberto: GANCHO longo: a 1a frase tem 19 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras); video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chama | coerencia:0 | suspeitas:0 cena
-- [A] xplaca2023: 5 RISCO(S) em aberto: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa); GANCHO longo: a 1a frase tem 23 palavras (o canal fecha o gancho e | coerencia:0 | suspeitas:0 cena
-- [PRINCIPAL] zanzibar1896: ok (so falta rodar a pesquisa) | coerencia:0 | suspeitas:0 cena
+- [A] bateria2017: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] bifes2007: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] bitcoin2021: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] bukele2024: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] bukelebio2021: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] cachorro1925: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] cameo1992: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] cybertruck2019: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] eratostenes240: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] franklin1752: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] galileu1589: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] lancachamas2018: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] maduro2026: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] mechazilla2024: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] mendel1856: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] microondas1945: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] montgolfier1783: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] neuralink2021: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] newton1666: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] pasteur1885: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] paypal2002: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] pia2022: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] reeleicao2024: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] roadster2018: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] rontgen1895: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] selfie2019: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] semmelweis1847: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] starlink2019: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] surfcity2019: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] teslaquila2020: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] trumpgame1989: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] tycho1566: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [B] velcro1941: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] vulcao2021: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] wrestlemania2007: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+- [A] xplaca2023: OK (0 risco, 0 suspeita; so falta a pesquisa de prints, que a fila faz)
+
+Ja entregues (fora da lista): balde1325, bolos1838, chaleira1784, bacalhau1958, aprendiz2004, cecot2023. Assumido pela principal: futebol1969.

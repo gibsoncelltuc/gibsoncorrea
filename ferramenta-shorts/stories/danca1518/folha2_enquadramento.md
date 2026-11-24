@@ -41,7 +41,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "A cidade reformou salões e contratou músicos para manter os dançarinos de pé."
 - LOCAL: salao; hora: day
 - CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: MUS na esquerda, expressao grin; MUS na direita, expressao laugh; sem multidao; acao: fala/gesto
+- PERSONAGENS: MUS na esquerda, expressao grin; MUS na direita, expressao laugh; multidao de 12 (DAN) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "SALÃO" flutuando no alto, na palavra 1 da frase
 

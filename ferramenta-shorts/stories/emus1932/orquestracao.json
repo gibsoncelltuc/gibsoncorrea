@@ -51,7 +51,7 @@
     "FARM",
     "AUS"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [],
    "palavras": 11,
    "cena": "b2",
@@ -130,7 +130,7 @@
     "SOL",
     "SOL"
    ],
-   "multidao": 30,
+   "multidao": 48,
    "objetos": [],
    "palavras": 12,
    "cena": "b6",
@@ -152,7 +152,7 @@
    "personagens": [
     "SOL"
    ],
-   "multidao": 5,
+   "multidao": 10,
    "objetos": [
     "vehicles/tank"
    ],

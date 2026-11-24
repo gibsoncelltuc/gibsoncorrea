@@ -3,25 +3,15 @@
  "ano": 2021,
  "cenarios_trocados": [
   [
-   "video",
-   "jungle",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
+   "cena 10",
    "street",
    "loc_cidade"
-  ],
-  [
-   "cena 13",
-   "jungle",
-   "loc_campo"
   ]
  ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -43,7 +33,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
    "camera": "wide",
@@ -61,25 +51,31 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "BUK",
     "ENA"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "kit/bitcoin",
     "kit/coin"
    ],
-   "palavras": 21,
+   "palavras": 18,
    "cena": "b2",
-   "frase": "Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar.",
-   "classe": "simples",
+   "frase": "Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao lado do dólar.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -119,13 +115,11 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "ENA"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/turbina",
@@ -135,10 +129,16 @@
    "cena": "b5",
    "frase": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.",
    "classe": "explicativa",
-   "sujeito": "personagem",
-   "briefing": {},
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/turbina (gira)",
+    "emissao": "vapor",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
@@ -151,9 +151,9 @@
     "kit/bitcoin",
     "kit/miners"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b6",
-   "frase": "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.",
+   "frase": "Acontece que, ao lado da usina, instalaram computadores só para minerar bitcoin.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -179,31 +179,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
-   "personagens": [
-    "BUK"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
-   "palavras": 12,
-   "cena": "b8",
-   "frase": "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "ENA",
     "ENG"
@@ -213,17 +189,17 @@
     "kit/bitcoin",
     "kit/volcano"
    ],
-   "palavras": 14,
-   "cena": "b9",
-   "frase": "Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão.",
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "POV"
    ],
@@ -236,7 +212,7 @@
     "nature/lamppost"
    ],
    "palavras": 16,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -261,13 +237,13 @@
     "kit/volcano"
    ],
    "palavras": 10,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
    "camera": "close",
@@ -277,13 +253,13 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   }
  ]
 }

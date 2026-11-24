@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa | encena: atira @1 (acao + som de efeito) | -
+b0 | two | -  | tropa | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | wide | -  | tropa, placa: FORDOW | - | -
 b3 | two | -  | tropa | - | -

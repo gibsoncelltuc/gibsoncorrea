@@ -29,9 +29,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
 - PERSONAGENS: DAR (cientista) na esquerda, expressao surprised; GOU (cientista) na direita, expressao shout; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b5: "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos."
 - LOCAL: sala de madeira; hora: day

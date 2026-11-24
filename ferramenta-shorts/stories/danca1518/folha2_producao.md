@@ -119,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 6 de POV/DAN
+- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 12 de DAN
 - Animacao: dancar
 - Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dancarinos
@@ -129,7 +129,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: day
 - CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: MUS na esquerda, expressao grin; MUS na direita, expressao laugh; sem multidao; acao: fala/gesto
+- PERSONAGENS: MUS na esquerda, expressao grin; MUS na direita, expressao laugh; multidao de 12 (DAN) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "SALÃO" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
