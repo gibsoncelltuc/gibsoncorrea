@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Não é um Lança-Chamas | O Não é um Lança-Chamas / Um Foi Estados Unidos Boring Company Elon Musk Não 2018 | SEM REFERENCIA
+tema | O Não é um Lança-Chamas | O Não é um Lança-Chamas / Um Foi Estados Unidos Boring Company Elon Musk Antes Os 2018 | SEM REFERENCIA
 lugar | Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto | Estados Unidos / Estados Unidos 2018 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2018 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2018 | 2018 fashion clothing / 2018 street photograph | SEM REFERENCIA
@@ -27,6 +27,7 @@ heroi | flamethrower | Not-A-Flamethrower / O Não é um Lança-Chamas | SEM REF
 
 ## Explicacoes (como funciona, com fonte)
 - Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)
+- Em dezembro de 2017 Musk prometeu lancar o lanca-chamas quando a Boring Company vendesse 50 mil bones; os bones esgotaram (fonte: Wikipedia The Boring Company)
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/The_Boring_Company#Not-A-Flamethrower

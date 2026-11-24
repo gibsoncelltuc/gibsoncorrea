@@ -67,6 +67,16 @@
    "interior": "pedra"
   },
   {
+   "say": "Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa, lançaria um lança-chamas. Os bonés esgotaram.",
+   "who": [
+    "MUS:0:grin",
+    "POV:0:surprised"
+   ],
+   "shot": "two",
+   "set": "loc_cidade",
+   "text": "50 MIL BONÉS"
+  },
+  {
    "say": "O nome dele era Não é um lança-chamas, e custava quinhentos dólares.",
    "who": [
     "MUS:0:grin",
@@ -255,7 +265,8 @@
    "extintor vermelho de brinde"
   ],
   "explicacoes": [
-   "Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)"
+   "Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)",
+   "Em dezembro de 2017 Musk prometeu lancar o lanca-chamas quando a Boring Company vendesse 50 mil bones; os bones esgotaram (fonte: Wikipedia The Boring Company)"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/The_Boring_Company#Not-A-Flamethrower"

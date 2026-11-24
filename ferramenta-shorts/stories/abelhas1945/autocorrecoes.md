@@ -9,3 +9,6 @@
 
 ## 24/11 23:25 autocorrecao de visibilidade
 - b2: objeto citado "kit/beehive" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 23:26 autocorrecao de visibilidade
+- b2: objeto citado "kit/beehive" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
