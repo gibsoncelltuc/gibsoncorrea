@@ -121,17 +121,13 @@ dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 - Objeto heroi: kit/dog_sit | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 10% | medio 64% | aberto 21% | detalhe 5%
 - Interacoes: b4 susto, b6 aproxima-se
 - RISCOS GERAIS: 
-  - video com ~49 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - objeto heroi kit/dog_sit nao aparece em nenhuma cena -> CORRECAO: por kit/dog_sit em "props" de pelo menos uma cena (ou tirar de "herois")
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py kiska1943  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/kiska1943/moodboard.jpg
   - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 6 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
 - b0: cena longa (30 palavras, ~10 s no mesmo lugar)
-- geral: video com ~49 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: objeto heroi kit/dog_sit nao aparece em nenhuma cena
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render

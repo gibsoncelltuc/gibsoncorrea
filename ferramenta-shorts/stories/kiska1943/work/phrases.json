@@ -1,0 +1,243 @@
+{
+ "duration": 55.008,
+ "frames30": 1650,
+ "source": "silence-align (cost 0.71)",
+ "segments": [
+  [
+   0.158125,
+   3.72412
+  ],
+  [
+   4.64571,
+   6.92633
+  ],
+  [
+   7.10117,
+   7.56425
+  ],
+  [
+   7.814,
+   8.36808
+  ],
+  [
+   8.58788,
+   9.99038
+  ],
+  [
+   10.9065,
+   14.0813
+  ],
+  [
+   14.3262,
+   14.9182
+  ],
+  [
+   15.1999,
+   16.2375
+  ],
+  [
+   17.0832,
+   18.0942
+  ],
+  [
+   18.3429,
+   20.199
+  ],
+  [
+   21.0502,
+   22.0408
+  ],
+  [
+   22.3401,
+   23.9271
+  ],
+  [
+   24.3166,
+   25.6928
+  ],
+  [
+   26.533,
+   27.5749
+  ],
+  [
+   27.8957,
+   29.6291
+  ],
+  [
+   30.4544,
+   31.6216
+  ],
+  [
+   31.8789,
+   34.532
+  ],
+  [
+   34.7418,
+   35.7375
+  ],
+  [
+   36.625,
+   37.6775
+  ],
+  [
+   37.9321,
+   40.1295
+  ],
+  [
+   40.3406,
+   41.3345
+  ],
+  [
+   42.1888,
+   42.595
+  ],
+  [
+   42.8297,
+   45.0502
+  ],
+  [
+   45.9072,
+   49.8817
+  ],
+  [
+   50.7113,
+   52.1557
+  ],
+  [
+   52.4532,
+   54.2104
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Trinta e quatro mil soldados invadiram uma ilha onde n\u00e3o havia inimigo nenhum.",
+   "s": 0.158,
+   "e": 3.724
+  },
+  {
+   "text": "Foi em agosto de mil novecentos e quarenta e tr\u00eas,",
+   "s": 4.646,
+   "e": 6.926
+  },
+  {
+   "text": "em Kiska,",
+   "s": 7.101,
+   "e": 7.564
+  },
+  {
+   "text": "no Alasca,",
+   "s": 7.814,
+   "e": 8.368
+  },
+  {
+   "text": "ocupada pelos japoneses.",
+   "s": 8.588,
+   "e": 9.99
+  },
+  {
+   "text": "Foram mais de trinta e quatro mil soldados americanos e canadenses,",
+   "s": 10.906,
+   "e": 14.081
+  },
+  {
+   "text": "com navios,",
+   "s": 14.326,
+   "e": 14.918
+  },
+  {
+   "text": "avi\u00f5es e tanques.",
+   "s": 15.2,
+   "e": 16.238
+  },
+  {
+   "text": "Antes do desembarque,",
+   "s": 17.083,
+   "e": 18.094
+  },
+  {
+   "text": "bombardearam Kiska durante semanas.",
+   "s": 18.343,
+   "e": 20.199
+  },
+  {
+   "text": "No meio do nevoeiro,",
+   "s": 21.05,
+   "e": 22.041
+  },
+  {
+   "text": "os soldados desceram em sil\u00eancio,",
+   "s": 22.34,
+   "e": 23.927
+  },
+  {
+   "text": "prontos para um combate duro.",
+   "s": 24.317,
+   "e": 25.693
+  },
+  {
+   "text": "Mas teve um problema:",
+   "s": 26.533,
+   "e": 27.575
+  },
+  {
+   "text": "os japoneses j\u00e1 tinham ido embora.",
+   "s": 27.896,
+   "e": 29.629
+  },
+  {
+   "text": "Duas semanas antes,",
+   "s": 30.454,
+   "e": 31.622
+  },
+  {
+   "text": "uma frota tinha evacuado cerca de cinco mil homens,",
+   "s": 31.879,
+   "e": 34.532
+  },
+  {
+   "text": "escondida na neblina.",
+   "s": 34.742,
+   "e": 35.737
+  },
+  {
+   "text": "Sem inimigo \u00e0 vista,",
+   "s": 36.625,
+   "e": 37.678
+  },
+  {
+   "text": "os Aliados come\u00e7aram a atirar uns nos outros,",
+   "s": 37.932,
+   "e": 40.13
+  },
+  {
+   "text": "no escuro e na neblina.",
+   "s": 40.341,
+   "e": 41.334
+  },
+  {
+   "text": "No fim,",
+   "s": 42.189,
+   "e": 42.595
+  },
+  {
+   "text": "s\u00f3 acharam na ilha alguns cachorros abandonados.",
+   "s": 42.83,
+   "e": 45.05
+  },
+  {
+   "text": "Uma das maiores invas\u00f5es do Pac\u00edfico Norte tomou uma ilha completamente vazia.",
+   "s": 45.907,
+   "e": 49.882
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 50.711,
+   "e": 52.156
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 52.453,
+   "e": 54.21
+  }
+ ]
+}
