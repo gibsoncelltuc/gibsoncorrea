@@ -20,9 +20,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: HON na esquerda, expressao grin; SAL na direita, expressao stern; multidao de 6 (HON, SAL) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "3 JOGOS" flutuando no alto, na palavra 1 da frase
 
 ## b3: "No primeiro, Honduras venceu por um a zero, em casa."
@@ -52,9 +52,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação."
 - LOCAL: estadio; hora: dia
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
+- CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: SAL na esquerda, expressao laugh; SAL no centro, expressao grin; HON na direita, expressao sad; sem multidao; acao: comemorar
-- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/trave: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.3 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "PRORROGAÇÃO" flutuando no alto, na palavra 1 da frase
 

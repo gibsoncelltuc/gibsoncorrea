@@ -48,8 +48,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): HON (variante 0, expressao grin); SAL (variante 0, expressao stern) | multidao: 6 de HON/SAL
 - Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/ball
@@ -59,9 +59,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: HON na esquerda, expressao grin; SAL na direita, expressao stern; multidao de 6 (HON, SAL) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "3 JOGOS" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
   - take 1 (9.9-11.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -141,8 +141,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - O jogo foi na Cidade do México, e El Salvador venceu por três a dois, ...
 - Cenario: stadium | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (3): SAL (variante 0, expressao laugh); SAL (variante 1, expressao grin); HON (variante 0, expressao sad)
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/ball, kit/trave, buildings/apartment, buildings/house_two, nature/lamppost
@@ -152,9 +152,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: dia
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
+- CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: SAL na esquerda, expressao laugh; SAL no centro, expressao grin; HON na direita, expressao sad; sem multidao; acao: comemorar
-- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/trave: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.3 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "PRORROGAÇÃO" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
@@ -206,8 +206,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): SAL (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/ball, kit/trave
@@ -255,7 +255,7 @@ nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b7, b8 | planos abertos: 3 | mistura: close 10% | medio 67% | aberto 16% | detalhe 7%
+- Objeto heroi: kit/ball | grandes momentos: b7, b8 | planos abertos: 3 | mistura: close 10% | medio 71% | aberto 16% | detalhe 4%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 empurrar, b5 susto, b6 pular, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
