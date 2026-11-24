@@ -39,12 +39,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.4 s)
-- Narracao: A Inglaterra mandou fragatas para proteger os barcos de pesca.
+- Narracao: A marinha mandou fragatas para proteger os barcos de pesca.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: INGLATERRA
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~5.5 s)
@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: empurra (push) @3 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: OTAN
+- Texto na tela: OTAN | mapa: INGLATERRA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~6.9 s)

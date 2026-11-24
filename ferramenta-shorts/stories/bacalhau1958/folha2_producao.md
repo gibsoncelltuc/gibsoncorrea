@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): limites
 - RISCOS: nenhum
 
-## Cena b4 - A Inglaterra mandou fragatas para proteger os barcos de pesca.
+## Cena b4 - A marinha mandou fragatas para proteger os barcos de pesca.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): -
 - Animacao: - | batalha encenada
 - Objetos/modelos: kit/navio_destroier
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, pesca
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, marinha, pesca
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que a Islândia só tinha barquinhos da guarda costeira, mas el...
