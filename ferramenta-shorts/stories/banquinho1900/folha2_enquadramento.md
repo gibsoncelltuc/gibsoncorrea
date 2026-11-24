@@ -63,7 +63,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "O governador ganhou a guerra, mas o banquinho nunca foi dele."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
 - PERSONAGENS: GOV no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
