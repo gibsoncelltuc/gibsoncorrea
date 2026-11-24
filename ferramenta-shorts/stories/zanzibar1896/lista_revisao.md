@@ -25,11 +25,12 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - f16 "a artilharia do sultão foi calada,": 
 - f17 "e a bandeira dele caiu.": 
 - f18 "O sultão foi pedir abrigo no consulado da Alemanha.": 
-- f19 "Os tiros pararam por volta das nove e quarenta.": 
-- f20 "Os ingleses colocaram outro sultão no trono,": 
-- f21 "e os aliados do primo pagaram pelas balas.": 
-- f22 "E ainda mandaram a conta das balas.": 
-- f23 "Agora não deixe de comentar:": 
-- f24 "qual deve ser o tema do próximo vídeo?": 
+- f19 "Por volta das nove e quarenta,": 
+- f20 "a bandeira do palácio caiu.": 
+- f21 "Os ingleses colocaram outro sultão no trono,": 
+- f22 "e os aliados do primo pagaram pelas balas.": 
+- f23 "E ainda mandaram a conta das balas.": 
+- f24 "Agora não deixe de comentar:": 
+- f25 "qual deve ser o tema do próximo vídeo?": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

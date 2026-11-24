@@ -1,11 +1,11 @@
 {
- "duration": 54.048,
- "frames30": 1621,
- "source": "silence-align (cost 0.86)",
+ "duration": 54.528,
+ "frames30": 1636,
+ "source": "silence-align (cost 0.88)",
  "segments": [
   [
    0.149792,
-   1.741
+   1.73879
   ],
   [
    2.00133,
@@ -13,7 +13,7 @@
   ],
   [
    4.78096,
-   6.49842
+   6.49729
   ],
   [
    6.7395,
@@ -21,7 +21,7 @@
   ],
   [
    7.57354,
-   9.591
+   9.59096
   ],
   [
    10.4302,
@@ -29,7 +29,7 @@
   ],
   [
    11.4851,
-   13.8687
+   13.8688
   ],
   [
    14.7248,
@@ -41,7 +41,7 @@
   ],
   [
    19.2762,
-   21.4017
+   21.4012
   ],
   [
    21.6378,
@@ -77,38 +77,42 @@
   ],
   [
    34.8798,
-   37.3347
+   37.3344
   ],
   [
-   38.2002,
-   40.7578
+   38.228,
+   39.7008
   ],
   [
-   41.5954,
-   43.7394
+   39.901,
+   41.2167
   ],
   [
-   44.0149,
-   46.156
+   42.0725,
+   44.2167
   ],
   [
-   47.0213,
-   48.8953
+   44.4922,
+   46.6341
   ],
   [
-   49.7476,
-   51.192
+   47.4985,
+   49.3727
   ],
   [
-   51.4849,
-   53.2463
+   50.2248,
+   51.6695
+  ],
+  [
+   51.9621,
+   53.7238
   ]
  ],
  "phrases": [
   {
    "text": "Uma guerra durou menos de uma hora,",
    "s": 0.15,
-   "e": 1.741
+   "e": 1.739
   },
   {
    "text": "e \u00e9 considerada a mais curta da hist\u00f3ria.",
@@ -118,7 +122,7 @@
   {
    "text": "Foi em mil oitocentos e noventa e seis,",
    "s": 4.781,
-   "e": 6.498
+   "e": 6.497
   },
   {
    "text": "em Zanzibar,",
@@ -153,7 +157,7 @@
   {
    "text": "O primo reuniu quase tr\u00eas mil homens,",
    "s": 19.276,
-   "e": 21.402
+   "e": 21.401
   },
   {
    "text": "com fuzis e mosquetes,",
@@ -198,37 +202,42 @@
   {
    "text": "O sult\u00e3o foi pedir abrigo no consulado da Alemanha.",
    "s": 34.88,
-   "e": 37.335
+   "e": 37.334
   },
   {
-   "text": "O bombardeio terminou por volta das nove e quarenta.",
-   "s": 38.2,
-   "e": 40.758
+   "text": "Por volta das nove e quarenta,",
+   "s": 38.228,
+   "e": 39.701
+  },
+  {
+   "text": "a bandeira do pal\u00e1cio caiu.",
+   "s": 39.901,
+   "e": 41.217
   },
   {
    "text": "Os ingleses colocaram outro sult\u00e3o no trono,",
-   "s": 41.595,
-   "e": 43.739
+   "s": 42.072,
+   "e": 44.217
   },
   {
    "text": "e os aliados do primo pagaram pelas balas.",
-   "s": 44.015,
-   "e": 46.156
+   "s": 44.492,
+   "e": 46.634
   },
   {
    "text": "E ainda mandaram a conta das balas.",
-   "s": 47.021,
-   "e": 48.895
+   "s": 47.498,
+   "e": 49.373
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 49.748,
-   "e": 51.192
+   "s": 50.225,
+   "e": 51.669
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 51.485,
-   "e": 53.246
+   "s": 51.962,
+   "e": 53.724
   }
  ]
 }
