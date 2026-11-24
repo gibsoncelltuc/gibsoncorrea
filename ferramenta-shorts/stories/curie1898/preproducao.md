@@ -4,15 +4,15 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/curie_box, kit/marco_eiffel | - | -
-b1 | loc_campo | wide | 7 | batalha | kit/marco_eiffel | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/curie_box, kit/marco_eiffel | - | -
+b1 | street | wide | 7 | batalha | kit/marco_eiffel | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | - | paper | -
 b3 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/curie_box | - | -
 b5 | interior madeira | close | 1 | conversar | kit/curie_box | - | -
 b6 | interior madeira | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
-b7 | loc_campo | orbit | 19 | comemorar, batalha | kit/marco_eiffel | - | -
-b8 | loc_campo | two | 1 | conversar | - | - | -
+b7 | street | orbit | 19 | comemorar, batalha | kit/marco_eiffel | - | -
+b8 | street | two | 1 | conversar | - | - | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/curie_box, crate | - | -
 b10 | interior pedra | close | 1 | encena | kit/curie_box | paper | -
 b11 | interior pedra | two | 1 | conversar | kit/curie_box | - | -

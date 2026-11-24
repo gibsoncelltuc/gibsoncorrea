@@ -1,13 +1,7 @@
 {
  "id": "curie1898",
  "ano": 1898,
- "cenarios_trocados": [
-  [
-   "video",
-   "street",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -33,7 +27,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "wide",
@@ -57,7 +51,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -169,7 +163,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -185,7 +179,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",

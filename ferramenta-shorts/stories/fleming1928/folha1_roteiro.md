@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 160 palavras (~55 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 160 palavras (~55 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.
@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b3  (~4.5 s)
 - Narracao: Um dia, ele saiu de férias por um mês e não limpou nada.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: sai @3 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~3.4 s)
 - Narracao: Quando voltou, achou um prato estragado, coberto de bolor verde.
@@ -49,12 +49,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b5  (~3.1 s)
 - Narracao: Ele ia jogar o prato fora, mas olhou melhor.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: olha (point) @7 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~3.4 s)
 - Narracao: Acontece que, em volta do mofo, as bactérias tinham sumido.

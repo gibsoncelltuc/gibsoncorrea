@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1928 | Lugar: Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas | Quando: agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945
 - HEROIS (objeto): kit/petri, kit/gosma
 - HEROIS (personagens): FLE, COL
-- Cenarios: hall, interior madeira, interior pedra, loc_campo, loc_montanha
+- Cenarios: hall, interior madeira, interior pedra, loc_campo, loc_cidade
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

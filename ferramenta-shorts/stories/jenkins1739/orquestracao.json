@@ -1,28 +1,7 @@
 {
  "id": "jenkins1739",
  "ano": 1739,
- "cenarios_trocados": [
-  [
-   "cena 3",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 9",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "street",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -92,7 +71,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -206,7 +185,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "group",
@@ -225,7 +204,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "close",
@@ -241,7 +220,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   }
  ]
 }

@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na ...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - As mortes despencaram quase dez vezes.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): SEM (variante 0, expressao laugh); MAE (variante 0, expressao laugh); PAR (variante 0, expressao grin) | multidao: 0 de 
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MAE (variante 0, expressao cry)
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): PAR (variante 0, expressao smile)
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): SEM (variante 0, expressao grin)

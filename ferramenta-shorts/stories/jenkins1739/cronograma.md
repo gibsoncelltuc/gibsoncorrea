@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
-Gerado em 24/11 23:43 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,15 +8,15 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | harbor | two | JEN, ESP | - | ear_jar | - | Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por q
 b1 | simples | harbor | reveal | JEN, MAR | 8 | navios de guerra ao fundo, no tamanho real, ship | - | Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol paro
-b2 | chave | loc_campo | two | CAP, JEN | - | ear_jar | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha del
+b2 | chave | street | two | CAP, JEN | - | ear_jar | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha del
 b3 | simples | harbor | two | CAP, JEN | - | - | - | "Vá levar isso ao seu rei", teria dito o espanhol.
 b4 | simples | interior pedra | group | PRE, JEN, ING, PRE | - | - | - | Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e o
 b5 | simples | interior pedra | two | PRE, ING | - | - | - | Acontece que a Inglaterra queria uma desculpa para brigar com a Espanh
 b6 | chave | harbor | wide | SOL | 48 | navios de guerra ao fundo, no tamanho real, ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil setecentos e trinta e nove, a guerra começou, com navios ingles
 b7 | simples | interior pedra | two | ESP, ING | - | - | - | Depois de quase dez anos, os dois lados fizeram a paz.
-b8 | simples | loc_campo | two | PRE, ING | - | ear_jar | - | Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um séc
-b9 | simples | loc_campo | group | JEN, ESP | - | ear_jar | - | A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
-b10 | simples | loc_campo | close | JEN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b8 | simples | street | two | PRE, ING | - | ear_jar | - | Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um séc
+b9 | simples | street | group | JEN, ESP | - | ear_jar | - | A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
+b10 | simples | street | close | JEN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

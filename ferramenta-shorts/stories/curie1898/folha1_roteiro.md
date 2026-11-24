@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 169 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 169 palavras (~58 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção.

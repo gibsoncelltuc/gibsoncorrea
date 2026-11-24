@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1847 | Lugar: Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto com leitos em fileira, sala de autopsia | Quando: 1846-1849, dia
 - HEROIS (objeto): kit/wash_basin
 - HEROIS (personagens): SEM, PAR
-- Cenarios: interior hospital, loc_campo
+- Cenarios: interior hospital, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

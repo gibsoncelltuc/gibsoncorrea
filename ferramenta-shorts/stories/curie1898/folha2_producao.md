@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/curie1898/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py curie1898` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Existem cadernos tão perigosos que só podem ser lidos com roupa de pro...
-- Cenario: loc_campo | luz: dia | clima: limpo
+- Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PES (variante 0, expressao scared); JOR (variante 0, expressao surprised)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil oitocentos e noventa e oito, em Paris, na França.
-- Cenario: loc_campo | luz: dia | clima: limpo
+- Cenario: street | luz: dia | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): POV (variante 0, expressao smile) | multidao: 6 de POV
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu...
-- Cenario: loc_campo | luz: dia | clima: limpo
+- Cenario: street | luz: dia | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MAR (variante 0, expressao laugh) | multidao: 18 de POV/JOR
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos...
-- Cenario: loc_campo | luz: dia | clima: limpo
+- Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): MAR (variante 0, expressao sad)
