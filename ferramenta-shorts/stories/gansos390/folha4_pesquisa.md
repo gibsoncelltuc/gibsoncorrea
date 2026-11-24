@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Os Gansos que Salvaram Roma
 - Epoca: ? | Lugar: Roma, colina do Capitólio | Quando: 390 a.C., verão; cerco de sete meses
 - HEROIS (objeto): -
-- HEROIS (personagens): ROM, GAU, MAN
+- HEROIS (personagens): ROM, GAU
 - Cenarios: interior madeira, loc_campo, medieval, mountain
 - Proibido pela epoca: -
 - Tamanho real aplicado: nenhum objeto precisou de ajuste

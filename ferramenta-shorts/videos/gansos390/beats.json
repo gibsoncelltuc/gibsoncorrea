@@ -100,24 +100,43 @@
    "shot_lock": true
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "ROM:0:nervous",
-    "ROM:1:pained",
-    "MAN:0:stern"
+    "ROM:1:pained"
    ],
    "props": [
     [
      "buildings/castle_tower",
-     0,
-     -12,
-     2.0
+     0.0,
+     -8.7,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fachada": false,
    "text": "CAPITÓLIO",
    "say": "Os romanos que sobraram se trancaram no Capitólio, uma colina fortificada.",
-   "set": "mountain"
+   "set": "mountain",
+   "cx": 0.0,
+   "cz": -3.9,
+   "h": 6.0,
+   "d0": 73.2,
+   "d1": 69.7,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "objeto": "buildings/castle_tower",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~24.6 m de altura e 13.4 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~3% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.9, distancia 69.7 m), sem multidao na frente"
+   }
   },
   {
    "shot": "wide",
@@ -201,7 +220,7 @@
    "shot_lock": true
   },
   {
-   "shot": "track",
+   "shot": "wide",
    "who": [
     "GAU:0:scared",
     "MAN:0:angry"
@@ -209,13 +228,16 @@
    "props": [
     [
      "buildings/castle_tower",
-     -4.0,
-     -16.0,
-     1.6
+     0.0,
+     -8.0,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fachada": false,
-   "say": "O barulho acordou o soldado Marco Mânlio, que correu até a muralha e impediu a subida dos gauleses.",
+   "say": "O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses.",
    "fx": [
     "dust@70",
     "puff@80"
@@ -226,7 +248,24 @@
    ],
    "set": "loc_campo",
    "acao": "tomba",
-   "shot_lock": true
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 6.0,
+   "d0": 58.4,
+   "d1": 55.6,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "objeto": "buildings/castle_tower",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~19.7 m de altura e 10.7 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~4% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 55.6 m), sem multidao na frente"
+   }
   },
   {
    "shot": "reveal",

@@ -57,10 +57,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Funcao na historia: VIRADA
 
 ## Cena b6  (~6.2 s)
-- Narracao: O barulho acordou o soldado Marco Mânlio, que correu até a muralha e impediu a subida dos gauleses.
+- Narracao: O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@66, whoosh@60
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: x_acorda (up) @2 -> acao + som de efeito; encena: corre @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_acorda (up) @2 -> acao + som de efeito
 - Efeito visual marcado: dust@70, puff@80
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -50,11 +50,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "ROM",
-    "ROM",
-    "MAN"
+    "ROM"
    ],
    "multidao": 0,
    "objetos": [
@@ -125,7 +124,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "track",
+   "camera": "wide",
    "personagens": [
     "GAU",
     "MAN"
@@ -136,7 +135,7 @@
    ],
    "palavras": 18,
    "cena": "b6",
-   "frase": "O barulho acordou o soldado Marco Mânlio, que correu até a muralha e impediu a subida dos gauleses.",
+   "frase": "O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
