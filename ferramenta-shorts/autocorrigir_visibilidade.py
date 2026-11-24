@@ -51,6 +51,12 @@ for falha in V.get('falhas', []):
     elif 'cobrindo a tela' in txt:
         if idx is not None: p = props[idx]; p[2] = round(min(num(p[2]), -6.0) - 12.0, 1); b.update({'cx': round(num(p[1]) * 0.5, 1), 'cz': round(num(p[2]) * 0.5, 1), 'd0': round(abs(num(p[2])) * 0.6 + 10, 1), 'd1': round(abs(num(p[2])) * 0.6 + 7, 1)}); acao = f'"{a}" afastado para o fundo ({p[2]}) com a camera aberta (nao vira parede)'
         else: b['shot'] = 'wide'; b['fachada'] = False; acao = 'plano aberto sem fachada (o que cobria a tela era cenario)'
+    elif 'PONTINHO' in txt:   # personagem minusculo (camera longe por causa de objeto grande): camera perto dos personagens, objeto grande mais para o fundo
+        d0, d1 = num(b.get('d0', 20)), num(b.get('d1', 18)); nd0, nd1 = min(20.0, max(9.0, d0 * 0.45)), min(18.0, max(8.0, d1 * 0.45))
+        for p in props:
+            if GRANDE.search(str(p[0])) and len(p) > 2: p[2] = round(num(p[2]) - (d0 - nd0), 1)
+        b['d0'], b['d1'] = round(nd0, 1), round(nd1, 1); b['cz'] = 0.0; b['h'] = min(num(b.get('h', 3)), 3.5)
+        acao = f'camera perto dos personagens (d {b["d0"]}) e objeto grande empurrado para o fundo (continua inteiro pela perspectiva)'
     elif 'animal citado' in txt:   # bicho citado pequeno demais: camera mais perto e bicho maior/na frente
         an = b.get('animals') or []
         for a_ in an:
