@@ -233,8 +233,8 @@
    "props": [
     [
      "war/pistol",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      6.0,
      {
       "fixo": true
@@ -248,21 +248,20 @@
    "tstyle": "red",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pistol juntos (camera a 11.5 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "war/pistol",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 15.1,
-   "d1": 14.5,
-   "_auto_vis": 3
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "group",
@@ -345,7 +344,7 @@
    "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "harbor",
    "who": [
     "SOL:0:stern"
@@ -383,9 +382,8 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 3.3,
-   "d0": 44.0,
-   "d1": 42.2,
-   "_auto_vis": 3
+   "d0": 38.0,
+   "d1": 36.2
   },
   {
    "shot": "group",
@@ -407,7 +405,7 @@
    "set": "jungle",
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/melon",
@@ -420,9 +418,8 @@
    "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "ano": 1856,

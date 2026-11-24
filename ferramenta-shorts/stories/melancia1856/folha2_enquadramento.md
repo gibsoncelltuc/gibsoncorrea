@@ -63,7 +63,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o locomotive (alvo z -3.6, camera a 36.2 m, altura 3.3 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 36.2 m, altura 3.3 m), sem multidao na frente
 - PERSONAGENS: SOL (soldado) no centro, expressao stern; sem multidao; acao: batalha
 - OBJETO vehicles/locomotive: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.4 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
