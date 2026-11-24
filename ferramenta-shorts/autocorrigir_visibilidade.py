@@ -47,6 +47,9 @@ for falha in V.get('falhas', []):
             w = b.get('who') or []
             if len(w) > 1: b['who'] = w[:max(1, len(w) - 1)]; acao = 'um personagem a menos na cena (o da borda saia cortado)'
             else: b['d0'] = round(num(b.get('d0', 9)) + 3, 1); b['d1'] = round(num(b.get('d1', 8)) + 3, 1); acao = 'camera mais afastada para o personagem caber inteiro'
+    elif 'cobrindo a tela' in txt:
+        if idx is not None: p = props[idx]; p[2] = round(min(num(p[2]), -6.0) - 12.0, 1); b.update({'cx': round(num(p[1]) * 0.5, 1), 'cz': round(num(p[2]) * 0.5, 1), 'd0': round(abs(num(p[2])) * 0.6 + 10, 1), 'd1': round(abs(num(p[2])) * 0.6 + 7, 1)}); acao = f'"{a}" afastado para o fundo ({p[2]}) com a camera aberta (nao vira parede)'
+        else: b['shot'] = 'wide'; b['fachada'] = False; acao = 'plano aberto sem fachada (o que cobria a tela era cenario)'
     elif 'DENTRO' in txt:
         if idx is not None: p = props[idx]; p[2] = round(min(num(p[2]), -8.0) - 14.0, 1)
         for c in ('cx', 'cz'): b.pop(c, None)

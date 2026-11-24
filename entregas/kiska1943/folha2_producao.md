@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: A Invasão da Ilha Vazia
+# FOLHA 2 - PRODUCAO: Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/kiska1943/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py kiska1943` de novo ate esta folha sair sem risco.
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): USA (variante 2, expressao grin) | multidao: 18 de USA
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/canhao_moderno
+- Objetos/modelos: kit/aviao_ww2, kit/canhao_moderno
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque
 - RISCOS: nenhum
 
@@ -93,12 +93,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Mais de vinte soldados morreram nesses tiros, e um navio americano ain...
-- Cenario: arctic | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: harbor | luz: overcast | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): USA (variante 0, expressao sad); CAN (variante 0, expressao sad) | multidao: 5 de USA/CAN
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: kit/navio_encouracado
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, vinte
 - RISCOS: nenhum
 
@@ -114,8 +114,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Uma das maiores invasões do Pacífico Norte tomou uma ilha completament...
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/dog_sit
@@ -140,16 +140,17 @@ Objeto | Cenas | Situacao | O que fazer
 ship | b0, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vapor | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/aviao_ww2 | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/aviao_ww2 | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tanque_ww2 | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/canhao_moderno | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/sandbags | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_encouracado | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/dog_sit | b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 18% | detalhe 5%
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 65% | aberto 18% | detalhe 6%
 - Interacoes: b0 aproxima-se, b1 avanca e o outro recua, b5 susto, b8 discutir, b9 empurrar, b10 o outro se aproxima, b11 insiste
 - RISCOS GERAIS: nenhum
 

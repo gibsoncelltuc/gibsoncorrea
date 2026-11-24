@@ -1,12 +1,13 @@
-b0: OK - dois estados foram a guerra e o unico ferido levou uma canivetada: miliciano de Ohio (azul) e de Michigan (verde) com placa 1835
-b1: CORRIGIDO - mapa aparecia rapido e nao entrava nos quadros -> plano de revelacao com o mapa de Toledo; Ohio e Michigan juravam que Toledo era deles
-b2: OK - governador de Michigan de cartola com placa 23 ANOS, mandou a milicia ocupar Toledo
-b3: CORRIGIDO - as duas milicias tinham a mesma farda azul -> Ohio azul e Michigan verde chegando a beira do rio frente a frente
-b4: OK - gritos, ameacas e tiros para o alto: clarão para cima, placa PARA O ALTO, topografos com o teodolito, ninguem cai
-b5: OK - a unica baixa foi um xerife espetado numa briga de taverna com um canivete: xerife tonto com estrelas na taverna
-b6: OK - o presidente mandou parar e o Congresso ofereceu um acordo: placa ACORDO com os dois lados
-b7: OK - Ohio ficou com Toledo e Michigan levou a floresta gelada: floresta com neve caindo
-b8: OK - debaixo da floresta havia cobre e ferro, uma fortuna: susto e moeda dourada na mao
-b9: OK - Michigan perdeu a guerra e ficou rico: homem de cartola rindo com a moeda
-pesquisa: o quadro de referencias mostra milicias de 1835 com casacas civis e mosquetes, o mapa da Faixa de Toledo entre Ohio e Michigan, o governador Stevens Mason jovem de casaca e cartola, e a peninsula norte de Michigan com floresta e neve; comparei roupas, mapa e floresta
-defeitos procurados: cenario de campo e vila de 1835 sem predio moderno; epoca 1835 sem objeto fora; tamanho de cavalos e teodolito certo; ninguem cortado; multidao sem clone e com as duas milicias; legenda livre; acao de cada frase visivel (tiro para o alto, canivetada, acordo, fortuna); objeto heroi canivete e mapa aparecem
+# Revisao do storyboard - toledo1835 (v4, 24/11, apos conferencia frase a frase)
+pesquisa: Guerra de Toledo 1835-36, Ohio x Michigan pela faixa de Toledo (erro do mapa de Mitchell), governador Stevens T. Mason com 23 anos, milicias no rio Maumee, tiros para o alto, unica baixa o xerife Joseph Wood esfaqueado por Two Stickney; acordo de 1836: Michigan fica com a Peninsula Superior (cobre e ferro)
+b0: CORRIGIDO - canivete ilegivel no gancho -> "o unico ferido levou uma canivetada": canivete aberto grande entre os dois estados, titulo 1 FERIDO: CANIVETADA
+b1: OK - "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa" mapa TOLEDO e placa MAPA ERRADO
+b2: OK - "O governador de Michigan tinha so vinte e tres anos" governador com placa 23 ANOS
+b3: OK - "as duas tropas chegaram a beira do rio" milicias frente a frente
+b4: OK - "gritos, ameacas e tiros para o alto" multidao com clarao, PARA O ALTO
+b5: CORRIGIDO - close cortava o xerife -> "espetado numa briga de taverna com um canivete": briga na taverna com o canivete aberto e estrelas do ferido
+b6: OK - "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo" placa ACORDO com o papel
+b7: OK - "Michigan levou um pedaco de floresta gelada" floresta com neve
+b8: CORRIGIDO - placa cortada -> "debaixo daquela floresta havia cobre e ferro": minerio no chao com titulo COBRE E FERRO
+b9: OK - "Michigan perdeu a guerra, e ficou rico" governador rindo com moeda; chamada final COMENTE
+defeitos procurados: cenario (Ohio/Michigan 1835), epoca (sem objeto moderno), tamanho (canivete heroi ampliado de proposito), cortado (ninguem cortado), multidao (milicias por farda), legenda (texto em cima), acao (cada frase com a acao), objeto (canivete heroi no gancho e na taverna)
