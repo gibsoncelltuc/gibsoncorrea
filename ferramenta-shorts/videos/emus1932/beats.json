@@ -225,8 +225,8 @@
    "d1": 10.0
   },
   {
-   "say": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
-   "shot": "group",
+   "say": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
+   "shot": "two",
    "who": [
     "AUS:0:pained",
     "AUS:1:pained"
@@ -241,9 +241,7 @@
     "cols": 3
    },
    "set": "loc_campo",
-   "fachada": false,
-   "batalha": false,
-   "tiros": false
+   "fachada": false
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",

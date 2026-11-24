@@ -118,18 +118,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- /FISICA -->
 
 ## Cena b6 - 31.5s a 34.8s - 12 palavras - plano orbit
-> "Depois de seis dias, milhares de balas gastas e poucos emus abatidos."
+> "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | balas (33.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | - | CENA | tiros: 1 soldados caem no chao | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | 6 DIAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: atira na palavra balas (33.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

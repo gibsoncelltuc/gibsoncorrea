@@ -137,20 +137,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (28.5-30.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b6 - Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
+## Cena b6 - Depois de seis dias, milhares de cartuchos gastos e poucos emus abatid...
 - Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao pained) | multidao: 5 de AUS/FARM
-- Animacao: encena | batalha encenada
+- Animacao: - | batalha encenada
 - Objetos/modelos: emus
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, seis
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cartuchos, seis
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: desert
-- CAMERA: plano de grupo (3+ pessoas)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: AUS na esquerda, expressao pained; AUS na direita, expressao pained; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "6 DIAS" numa placa atras dos personagens, na palavra 1 da frase
