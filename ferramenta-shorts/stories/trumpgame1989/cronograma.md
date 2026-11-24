@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
-Gerado em 24/11 02:52 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 0%
+Gerado em 24/11 03:01 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 0%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
