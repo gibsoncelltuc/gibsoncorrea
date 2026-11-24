@@ -156,11 +156,9 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 - Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b9 cochichar
 - RISCOS GERAIS: 
   - video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py porco1859  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/porco1859/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).
