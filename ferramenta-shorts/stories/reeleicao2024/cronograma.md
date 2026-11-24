@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 21 - A Volta de Trump
 
-Gerado em 24/11 23:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:04 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,14 +8,14 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior pedra | two | TRU, REP | - | ballot_box, white_house | - | Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois,
 b1 | transicao | loc_cidade | wide | POV | - | marco_casabranca, white_house | - | Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.
-b2 | simples | loc_pista | two | ELE, POV | - | ballot_box | - | Milhões de americanos foram às urnas escolher entre Trump e a vice-pre
+b2 | simples | loc_pista | crowd | ELE, POV | 30 | ballot_box, marco_casabranca | - | Milhões de americanos foram às urnas escolher entre Trump e a vice-pre
 b3 | simples | interior loja | two | REP, TRU | - | - | - | A contagem entrou pela madrugada. Os estados indecisos iam decidir tud
 b4 | simples | interior loja | close | REP | - | - | - | Acontece que Trump venceu em todos os estados decisivos, e somou treze
-b5 | chave | hall | crowd | TRU | - | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl
+b5 | chave | hall | crowd | TRU | 14 | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl
 b6 | simples | interior galpao | two | REP, POV | - | - | - | Foi um feito raro: ele virou só o segundo presidente da história com d
 b7 | simples | interior madeira | two | REP, POV | - | scroll | - | O primeiro foi Grover Cleveland, há mais de cento e trinta anos.
 b8 | chave | loc_pista | orbit | TRU | - | marco_casabranca, white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no
-b9 | transicao | loc_pista | wide | TRU | - | marco_casabranca, white_house | - | Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare
+b9 | simples | loc_pista | group | TRU | - | marco_casabranca, white_house | - | Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare
 b10 | simples | loc_cidade | two | TRU | - | ballot_box | - | Perdeu, voltou e ganhou. Uma das maiores viradas da política americana
 b11 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

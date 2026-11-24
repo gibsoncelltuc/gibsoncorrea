@@ -95,7 +95,20 @@
     "march": false
    },
    "mapa": "GALÁPAGOS",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "set": "harbor",
+   "props": [
+    [
+     "kit/navio_vela",
+     0.0,
+     -30.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tela": false
   },
   {
    "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
@@ -231,7 +244,7 @@
   },
   {
    "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "DAR:0:shock",
     "GOU:0:surprised"
@@ -239,13 +252,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "MAR",
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [

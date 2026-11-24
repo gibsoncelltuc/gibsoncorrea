@@ -65,9 +65,9 @@
   {
    "shot": "wide",
    "who": [
-    "TRU:0:stern"
+    "SOL:0:stern",
+    "MAD:0:shock"
    ],
-   "interior": "loja",
    "props": [
     [
      "kit/helicopter_air",
@@ -108,7 +108,9 @@
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_cidade",
+   "hora": "noite"
   },
   {
    "shot": "reveal",
@@ -159,7 +161,8 @@
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "hora": "noite"
   },
   {
    "shot": "wide",

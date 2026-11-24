@@ -10,6 +10,7 @@
    "interior loja",
    "loc_cidade",
    "loc_estudio",
+   "loc_patio",
    "loc_pista"
   ],
   "cenarios_trocados": [
@@ -47,10 +48,12 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
   "kit/helicopter_air",
   "kit/room_colonial_shop",
-  "kit/room_europa_shop",
   "kit/scroll",
+  "nature/lamppost",
   "vehicles/airplane"
  ],
  "pesquisa_visual": {

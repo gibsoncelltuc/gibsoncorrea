@@ -60,14 +60,15 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "ELE",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 30,
    "objetos": [
-    "kit/ballot_box"
+    "kit/ballot_box",
+    "kit/marco_casabranca"
    ],
    "palavras": 14,
    "cena": "b2",
@@ -116,7 +117,7 @@
    "personagens": [
     "TRU"
    ],
-   "multidao": 0,
+   "multidao": 14,
    "objetos": [
     "kit/white_house"
    ],
@@ -197,7 +198,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "TRU"
    ],
@@ -209,7 +210,7 @@
    "palavras": 15,
    "cena": "b9",
    "frase": "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

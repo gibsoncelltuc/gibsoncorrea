@@ -212,15 +212,13 @@
    "batalha": false,
    "impact": true,
    "say": "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares.",
-   "shot": "crowd",
+   "shot": "two",
    "who": [
-    "TRU:0:shock"
+    "TRU:0:sad",
+    "JOR:0:smug:paper"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "text": "$ 50 MIL",
    "fx": [

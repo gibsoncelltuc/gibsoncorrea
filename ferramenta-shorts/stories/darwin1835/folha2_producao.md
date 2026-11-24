@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MAR (variante 0, expressao neutral); MAR (variante 1, expressao smile) | multidao: 8 de MAR/POV
 - Animacao: encena
-- Objetos/modelos: navios de guerra ao fundo, no tamanho real, navio em movimento
+- Objetos/modelos: kit/navio_vela, navios de guerra ao fundo, no tamanho real, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas, navio
 - RISCOS: nenhum
 
@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: palace | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): DAR (variante 0, expressao shock); GOU (variante 0, expressao surprised) | multidao: 10 de MAR/POV
+- Personagens principais (2): DAR (variante 0, expressao shock); GOU (variante 0, expressao surprised) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/finch_thick, kit/finch_long, kit/finch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, bico, comida
@@ -118,6 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/finch | b0, b2, b3, b4, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vela | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/finch_thick | b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

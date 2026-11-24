@@ -7,7 +7,7 @@
 - Roupas: {'TRU': 'terno azul e gravata vermelha', 'MAD': 'jaqueta escura e bigode', 'SOL': 'uniforme camuflado e capacete', 'AGE': 'terno escuro', 'GEN': 'farda verde'}
 - Cenario real: cidade de Caracas a noite com morros, complexo cercado; sala com telas; aviao para Nova York
 - Objetos: ['helicopteros militares', 'aviao', 'mandado judicial']
-- Cenarios usados no video: interior loja, loc_cidade, loc_estudio, loc_pista
+- Cenarios usados no video: interior loja, loc_cidade, loc_estudio, loc_patio, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

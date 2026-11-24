@@ -9,7 +9,7 @@ b3 | wide | dia  | batalha aberta com tiros, tropa | encena: quebra (throw) @4 (
 b4 | wide | dia  | batalha aberta com tiros, tropa | encena: quebra (throw) @10 (acao + som de efeito); encena: x_ri (up) @12 (acao + som de efeito) | -
 b5 | two | dia  | - | encena: fala (point) @2 (acao + som de efeito) | -
 b6 | orbit | dia  | tropa | (rosto) laugh (expr + som de efeito); riu (stars + som de sino); encena: x_ri (up) @2 (acao + som de efeito); encena: x_entrega (reach) @9 (acao + som de efeito) | -
-b7 | group | dia  | tropa | encena: fala (point) @6 (acao + som de efeito) | -
+b7 | group | dia  | tropa, placa: 146 MIL RESERVAS | encena: fala (point) @6 (acao + som de efeito) | -
 b8 | two | dia  | tropa | - | -
 b9 | close | dia  | placa: COMENTE! | - | -
 

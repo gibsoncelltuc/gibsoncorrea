@@ -23,11 +23,15 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU"
+    "SOL",
+    "MAD"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/helicopter_air"
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/helicopter_air",
+    "nature/lamppost"
    ],
    "palavras": 15,
    "cena": "b0",
@@ -36,7 +40,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "reveal",
@@ -195,7 +199,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_patio"
   },
   {
    "camera": "two",
@@ -213,12 +217,12 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_patio"
   },
   {
    "camera": "close",
    "personagens": [
-    "TRU"
+    "MAD"
    ],
    "multidao": 0,
    "objetos": [],

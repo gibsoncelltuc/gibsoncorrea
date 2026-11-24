@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 170 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 168 palavras (~58 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar.
@@ -40,12 +40,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~4.1 s)
 - Narracao: Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: MECHAZILLA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~4.8 s)
 - Narracao: No dia do teste, o propulsor gigante decolou com trinta e três motores acesos.
@@ -54,7 +54,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeito + som nas palavras-chave: encena: voa (point) @7 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.1 s)
 - Narracao: Minutos depois, ele voltou descendo de ré, direto na direção da torre.
@@ -67,21 +67,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~5.2 s)
 - Narracao: Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: encena: x_abre (push) @8 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
-- Texto na tela: -
-- Funcao na historia: VIRADA
-
-## Cena b8  (~3.8 s)
-- Narracao: Os engenheiros comemoraram aos gritos: era a primeira vez na história.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
-- Efeito visual marcado: stars@20, stars@60
 - Texto na tela: PEGOU!
 - Funcao na historia: GRANDE MOMENTO
+
+## Cena b8  (~3.1 s)
+- Narracao: Os engenheiros comemoraram: era a primeira vez na história.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@20, ding@60
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram: -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
+- Efeito visual marcado: stars@20, stars@60
+- Texto na tela: PRIMEIRA VEZ
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.2 s)
 - Narracao: Assim, o propulsor que antes ia para o lixo pode voar de novo, várias vezes.

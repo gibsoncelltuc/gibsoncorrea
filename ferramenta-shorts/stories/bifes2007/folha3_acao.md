@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
@@ -49,8 +49,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | vendas (28.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | $ 50 MIL | OK |
+| 3 | - | PLACA | $ 50 MIL | OK |
 
 ## Cena b5 - 31.5s a 34.8s - 10 palavras - plano two
 > "A marca também apareceu na QVC, um canal de televisão."

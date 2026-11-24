@@ -41,7 +41,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "MED",
     "MED"
@@ -53,9 +53,15 @@
    "palavras": 17,
    "cena": "b1",
    "frase": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
-   "classe": "transicao",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -133,29 +139,24 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "orbit",
+   "camera": "close",
    "personagens": [
     "FLE",
     "COL"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
+    "kit/gosma",
     "kit/petri"
    ],
    "palavras": 10,
    "cena": "b6",
    "frase": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -198,7 +199,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "FLE",
     "COL"

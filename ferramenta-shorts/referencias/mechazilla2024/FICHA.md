@@ -7,7 +7,7 @@
 - Roupas: {'MUS': 'camiseta preta', 'ENG': 'camisa polo azul e fone', 'ENA': 'camisa polo e cracha', 'POV': 'roupa casual'}
 - Cenario real: torre metalica alta com dois bracos gigantes (chopsticks), plataforma de concreto, campo plano e mar ao fundo
 - Objetos: ['torre Mechazilla', 'propulsor Super Heavy com 33 motores Raptor', 'foguete Starship']
-- Cenarios usados no video: interior pedra, loc_campo, loc_deserto, loc_patio
+- Cenarios usados no video: loc_campo, loc_deserto, loc_patio
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

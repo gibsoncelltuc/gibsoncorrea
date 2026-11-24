@@ -9,10 +9,10 @@ b1 | loc_campo | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/volca
 b2 | loc_cidade | crowd | 14 | conversar, batalha | - | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
 b4 | loc_patio | two | 2 | reagir, INTERAGEM: susto | - | paper | -
-b5 | loc_campo | wide | 8 | encena | kit/ballot_box | - | -
-b6 | loc_pista | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
+b5 | loc_campo | wide | 14 | encena | kit/ballot_box, kit/volcano | - | -
+b6 | loc_cidade | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
 b7 | loc_cidade | orbit | 17 | comemorar, batalha | - | - | -
-b8 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
+b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
 b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/prison | - | -
 b10 | loc_pista | orbit | 7 | comemorar | kit/ballot_box, kit/globe | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -

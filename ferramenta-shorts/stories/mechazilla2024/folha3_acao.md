@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -37,21 +37,22 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 25.9s a 30.0s - 12 palavras - plano two
+## Cena b4 - 25.9s a 30.0s - 12 palavras - plano crowd
 > "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chamaram (26.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | MECHAZILLA | OK |
 
-## Cena b5 - 30.4s a 35.2s - 14 palavras - plano crowd
+## Cena b5 - 30.4s a 35.2s - 14 palavras - plano wide
 > "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | decolou (33.0s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 ## Cena b6 - 35.6s a 39.6s - 12 palavras - plano wide
 > "Minutos depois, ele voltou descendo de ré, direto na direção da torre."
@@ -69,34 +70,35 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | fecharam (43.0s) | ACAO: x_abre | empurra a porta | OK |
 | 2 | seguraram (43.7s) | ACAO: pega | levanta/segura | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | PLACA | PEGOU! | OK |
 
-## Cena b8 - 45.6s a 49.3s - 11 palavras - plano orbit
-> "Os engenheiros comemoraram aos gritos: era a primeira vez na história."
+## Cena b8 - 45.6s a 48.5s - 9 palavras - plano wide
+> "Os engenheiros comemoraram: era a primeira vez na história."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comemoraram (46.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | comemoraram: (46.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | comemoraram (46.3s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | PEGOU! | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | PRIMEIRA VEZ | OK |
 
-## Cena b9 - 49.6s a 54.8s - 15 palavras - plano two
+## Cena b9 - 48.9s a 54.1s - 15 palavras - plano two
 > "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias vezes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b10 - 55.2s a 57.8s - 8 palavras - plano close
+## Cena b10 - 54.4s a 57.0s - 8 palavras - plano close
 > "Parece filme de robô gigante, mas é engenharia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b11 - 58.1s a 62.6s - 13 palavras - plano two
+## Cena b11 - 57.4s a 61.9s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

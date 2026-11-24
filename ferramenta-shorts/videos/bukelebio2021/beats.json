@@ -96,7 +96,8 @@
    "say": "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.",
    "shot": "crowd",
    "who": [
-    "BUK:0:worried"
+    "POV:0:shout",
+    "POV:1:angry"
    ],
    "crowd": {
     "n": 16,

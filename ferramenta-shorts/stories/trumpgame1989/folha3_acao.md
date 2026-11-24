@@ -47,7 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 28.9s a 33.0s - 12 palavras - plano crowd
+## Cena b5 - 28.9s a 33.0s - 12 palavras - plano two
 > "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -57,15 +57,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | vender (30.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | vendeu (32.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 5 | vendeu (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 6 | - | PLACA | 800 MIL | OK |
+| 6 | - | INTERACAO | susto | OK |
+| 7 | - | ATUACAO | conversar | OK |
+| 8 | - | PLACA | 800 MIL | OK |
 
-## Cena b6 - 33.3s a 37.4s - 12 palavras - plano two
+## Cena b6 - 33.3s a 37.4s - 12 palavras - plano orbit
 > "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b7 - 37.8s a 44.1s - 18 palavras - plano crowd
 > "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."

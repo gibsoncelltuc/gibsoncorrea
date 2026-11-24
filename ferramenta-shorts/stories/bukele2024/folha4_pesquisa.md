@@ -4,9 +4,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Presidente dos 85 por Cento
 - Epoca: 2024 | Lugar: San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao | Quando: 4/fev/2024; apuracao e comemoracao de noite
-- HEROIS (objeto): kit/ballot_box
+- HEROIS (objeto): kit/ballot_box, kit/volcano
 - HEROIS (personagens): BUK, REP
-- Cenarios: interior loja, interior madeira, loc_campo, loc_cidade, loc_patio, loc_pista
+- Cenarios: interior galpao, interior madeira, loc_campo, loc_cidade, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/prison: 11.0 m reais -> escala 2.65 (estava 1.0: pequeno demais)
 
@@ -26,6 +26,7 @@ objeto | urnas | El Salvador election ballot box voting 2024 / urnas / urnas 202
 objeto | bandeira de El Salvador (azul e branca) | bandeira de El Salvador / bandeira de El Salvador 2024 | SEM REFERENCIA
 objeto | cartaz com rosto de Bukele | Nayib Bukele campaign poster Nuevas Ideas / cartaz com rosto de Bukele / cartaz com rosto de Bukele 2024 | SEM REFERENCIA
 heroi | ballot box | ballot box election voting booth / urnas / O Presidente dos 85 por Cento | SEM REFERENCIA
+heroi | volcano | volcano | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

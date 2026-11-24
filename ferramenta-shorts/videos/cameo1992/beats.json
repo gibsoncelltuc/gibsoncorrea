@@ -108,7 +108,7 @@
   {
    "tiros": false,
    "batalha": false,
-   "impact": false,
+   "impact": true,
    "say": "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.",
    "shot": "two",
    "who": [
@@ -116,24 +116,21 @@
     "TRU:0:smug"
    ],
    "riscos_ok": true,
-   "interior": "pedra"
+   "interior": "pedra",
+   "text": "O HOMEM É TRUMP"
   },
   {
    "tiros": false,
    "batalha": false,
-   "impact": true,
+   "impact": false,
    "say": "A cena dura cerca de sete segundos.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "TRU:0:grin",
-    "POV:0:shock",
-    "POV:1:shock"
+    "FUN:0:surprised",
+    "TRU:0:smug"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "fx": [
     "burst@30"
@@ -141,7 +138,8 @@
    "sfx": [
     "sting@30"
    ],
-   "set": "loc_cidade"
+   "interior": "pedra",
+   "text": "7 SEGUNDOS"
   },
   {
    "tiros": false,
@@ -198,19 +196,15 @@
   {
    "tiros": false,
    "batalha": false,
-   "impact": true,
+   "impact": false,
    "say": "Segundo o diretor, a participação de Trump foi o preço para usar o hotel.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "DIR:0:worried",
-    "TRU:0:smug",
-    "POV:0:shock"
+    "DIR:0:smug",
+    "TRU:0:stern"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "fx": [
     "burst@30"
@@ -218,7 +212,8 @@
    "sfx": [
     "sting@30"
    ],
-   "set": "street"
+   "set": "street",
+   "text": "O PREÇO DO HOTEL"
   },
   {
    "tiros": false,
@@ -276,7 +271,7 @@
   {
    "tiros": false,
    "batalha": false,
-   "impact": false,
+   "impact": true,
    "say": "O corte virou assunto por lá, e a discussão ainda dura até hoje.",
    "shot": "reveal",
    "who": [

@@ -2,9 +2,9 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa, interior, placa: 2026 | encena: prende (push) @3 (acao + som de efeito) | -
+b0 | two | noite  | tropa, placa: 2026 | encena: prende (push) @3 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | group | -  | tropa | encena: x_discute (point) @6 (acao + som de efeito) | -
+b2 | group | noite  | tropa | encena: x_discute (point) @6 (acao + som de efeito) | -
 b3 | crowd | noite  | batalha aberta com tiros, tropa, placa: DELTA | encena: pega (lift) @5 (acao + som de efeito) | -
 b4 | two | noite  | tropa | - | -
 b5 | low | noite  | - | encena: prende (push) @9 (acao + som de efeito) | -

@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 146 MIL RESERVAS
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~5.2 s)

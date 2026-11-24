@@ -127,16 +127,13 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "EXE",
-    "POV",
-    "POV"
+    "EXE"
    ],
-   "multidao": 30,
-   "objetos": [
-    "kit/marco_liberdade"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 12,
    "cena": "b5",
    "frase": "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil.",
@@ -144,22 +141,22 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "TRU",
     "EXE"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/boardgame"
    ],
    "palavras": 12,
    "cena": "b6",
    "frase": "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

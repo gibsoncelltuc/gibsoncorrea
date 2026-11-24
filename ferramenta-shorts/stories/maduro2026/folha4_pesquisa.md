@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Operação da Madrugada
 - Epoca: 2026 | Lugar: Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sala de acompanhamento); depois Nova York | Quando: madrugada de 3 de janeiro de 2026, noite
 - HEROIS (objeto): kit/helicopter_air
-- HEROIS (personagens): TRU, MAD
-- Cenarios: interior loja, loc_cidade, loc_estudio, loc_pista
+- HEROIS (personagens): MAD, SOL
+- Cenarios: interior loja, loc_cidade, loc_estudio, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

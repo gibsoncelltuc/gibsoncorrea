@@ -100,9 +100,10 @@
   {
    "camera": "wide",
    "personagens": [
-    "TRU"
+    "TRU",
+    "JOR"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [],
    "palavras": 13,
    "cena": "b4",

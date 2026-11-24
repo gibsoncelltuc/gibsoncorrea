@@ -135,7 +135,7 @@
    "interior": false
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "POV:0:grin",
     "POV:1:smile"
@@ -150,7 +150,14 @@
    ],
    "interacao": "entregar",
    "say": "No dia da eleição, os salvadorenhos foram às urnas.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
    "shot": "two",
@@ -171,7 +178,7 @@
    "verbos_ok": [
     "impre"
    ],
-   "set": "loc_pista",
+   "set": "loc_cidade",
    "text": "84,6%",
    "titulo": true
   },
@@ -226,7 +233,8 @@
       ""
      ]
     ]
-   }
+   },
+   "text": "106 → 2,4"
   },
   {
    "shot": "two",

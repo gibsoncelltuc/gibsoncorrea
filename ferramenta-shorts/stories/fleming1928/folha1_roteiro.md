@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b1  (~5.9 s)
 - Narracao: Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: INGLATERRA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~7.9 s)
 - Narracao: Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.
@@ -62,8 +62,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: ding@40, sting@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40, stars@60
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Texto na tela: BACTÉRIAS SUMIRAM
+- Funcao na historia: VIRADA
 
 ## Cena b7  (~5.9 s)
 - Narracao: O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.

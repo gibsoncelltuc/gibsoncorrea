@@ -1,20 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
-Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:04 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | FUN | - | marco_liberdade, tv | - | Um filme de Natal ainda briga por causa de sete segundos com Donald Tr
-b1 | simples | interior pedra | two | FUN, TRU | - | - | - | Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevi
-b2 | chave | loc_cidade | group | TRU, POV, POV | 10 | picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A cena dura cerca de sete segundos.
+b1 | chave | interior pedra | two | FUN, TRU | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevi
+b2 | simples | interior pedra | group | FUN, TRU | - | picket_fence | - | A cena dura cerca de sete segundos.
 b3 | simples | interior madeira | two | TRU | - | tv | - | Acontece que aquele hotel, o Plaza, pertencia a Trump na época.
 b4 | simples | interior loja | two | DIR, TRU | - | - | - | O diretor Chris Columbus disse, anos depois, que a equipe queria o sag
-b5 | chave | loc_cidade | wide | DIR, TRU, POV | 10 | apartment, house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Segundo o diretor, a participação de Trump foi o preço para usar o hot
+b5 | transicao | loc_cidade | wide | DIR, TRU | - | apartment, house_two, lamppost | - | Segundo o diretor, a participação de Trump foi o preço para usar o hot
 b6 | simples | interior loja | two | TRU, DIR | - | - | - | Trump nega isso: diz que a equipe é que pediu, e que ele nem queria ap
 b7 | simples | interior pedra | two | JOR, JOR2 | - | tv | - | Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esse
-b8 | simples | loc_cidade | reveal | JOR | 10 | marco_liberdade | - | O corte virou assunto por lá, e a discussão ainda dura até hoje.
+b8 | chave | loc_cidade | reveal | JOR | 10 | marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O corte virou assunto por lá, e a discussão ainda dura até hoje.
 b9 | simples | interior madeira | two | TRU | - | tv | - | Moral da história: um cameo de sete segundos gera conversa por mais de
 b10 | simples | interior madeira | close | FUN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

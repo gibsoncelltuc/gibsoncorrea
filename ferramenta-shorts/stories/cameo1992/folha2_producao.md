@@ -17,17 +17,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): FUN (variante 0, expressao grin); TRU (variante 0, expressao smug)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: aproxima-se | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): filme, homem, hotel, saguao
 - RISCOS: nenhum
 
 ## Cena b2 - A cena dura cerca de sete segundos.
-- Cenario: loc_cidade | luz: golden | clima: limpo
+- Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
-- Personagens principais (3): TRU (variante 0, expressao grin); POV (variante 0, expressao shock); POV (variante 1, expressao shock) | multidao: 10 de POV
-- Animacao: conversar | interacao: susto | grande momento (efeito + som, sem tiro)
+- Personagens principais (2): FUN (variante 0, expressao surprised); TRU (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena, sete
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): DIR (variante 0, expressao suspicious); TRU (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, equipe, saguao
 - RISCOS: nenhum
@@ -56,8 +56,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): DIR (variante 0, expressao worried); TRU (variante 0, expressao smug); POV (variante 0, expressao shock) | multidao: 10 de POV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Personagens principais (2): DIR (variante 0, expressao smug); TRU (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, hotel, participacao, preco, trump
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao suspicious); DIR (variante 0, expressao shock)
-- Animacao: conversar | interacao: discutir
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious)
-- Animacao: reagir | interacao: o outro se aproxima
+- Animacao: reagir | interacao: insiste
 - Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emissora, filme
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JOR (variante 0, expressao suspicious) | multidao: 10 de POV
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corte, discussao
 - RISCOS: nenhum
@@ -126,8 +126,8 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 10% | medio 81% | aberto 8% | detalhe 2%
-- Interacoes: b1 aproxima-se, b2 susto, b4 avanca e o outro recua, b6 discutir, b7 o outro se aproxima
+- Objeto heroi: kit/tv | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 9% | medio 77% | aberto 11% | detalhe 2%
+- Interacoes: b1 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b6 susto, b7 insiste
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py cameo1992  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/cameo1992/moodboard.jpg
 

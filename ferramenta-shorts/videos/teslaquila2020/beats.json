@@ -97,12 +97,23 @@
   {
    "shot": "reveal",
    "who": [
-    "POV:0:smile",
-    "POV:1:grin"
+    "MUS:0:grin"
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido."
+   "say": "Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido.",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "TESLA FALIU?"
   },
   {
    "shot": "two",

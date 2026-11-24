@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: insiste | kit/tequila_bolt | - | -
-b1 | loc_cidade | reveal | 8 | encena | kit/roadster | - | -
+b1 | loc_cidade | reveal | 7 | encena | kit/phone, kit/roadster | - | -
 b2 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | kit/tequila_bolt, nature/picket_fence | - | -
 b3 | interior loja | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
 b4 | loc_pista | crowd | 14 | discutir, batalha | kit/veg_cacto, kit/tequila_bolt | - | -

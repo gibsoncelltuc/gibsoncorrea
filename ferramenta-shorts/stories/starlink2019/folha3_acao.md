@@ -12,7 +12,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | cruzou (1.5s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 3 MINUTOS | OK |
+| 4 | - | PLACA | OVNI? | OK |
 
 ## Cena b1 - 5.6s a 14.1s - 24 palavras - plano reveal
 > "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial."
