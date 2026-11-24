@@ -11,15 +11,14 @@ b3 | interior madeira | close | 1 | conversar | kit/fireplace, mk/Chair_1 | - | 
 b4 | interior madeira | two | 1 | conversar | kit/snake_ring, mk/Chair_1 | - | -
 b5 | interior madeira | low | 1 | reagir | kit/snake_ring | - | -
 b6 | interior madeira | two | 1 | encena | kit/snake_ring | paper | -
-b7 | interior madeira | group | 2 | conversar, INTERAGEM: entregar | - | - | -
-b8 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | kit/snake_ring | - | -
-b9 | street | orbit | 20 | batalha | kit/marco_viena, kit/snake_ring | - | -
-b10 | street | close | 1 | conversar | kit/snake_ring | - | -
-b11 | street | two | 1 | conversar | - | - | -
+b7 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | kit/snake_ring | - | -
+b8 | street | orbit | 20 | batalha | kit/marco_viena, kit/snake_ring | - | -
+b9 | street | close | 1 | conversar | kit/snake_ring | - | -
+b10 | street | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/snake_ring
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b9
-Interacoes entre personagens: b0 cochichar, b2 discutir, b7 entregar, b8 pular
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b8
+Interacoes entre personagens: b0 cochichar, b2 discutir, b7 pular
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

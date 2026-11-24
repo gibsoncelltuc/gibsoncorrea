@@ -66,10 +66,10 @@
    "objetos": [
     "kit/snake_ring"
    ],
-   "palavras": 20,
+   "palavras": 16,
    "cena": "b2",
-   "frase": "O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos de carbono que ninguém sabia arrumar.",
-   "classe": "explicativa",
+   "frase": "O professor August Kekulé tinha um problema: o benzeno, com seis carbonos que ninguém sabia arrumar.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -122,9 +122,9 @@
    "objetos": [
     "kit/snake_ring"
    ],
-   "palavras": 19,
+   "palavras": 13,
    "cena": "b5",
-   "frase": "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!",
+   "frase": "Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -153,23 +153,6 @@
    "camera": "group",
    "personagens": [
     "KEK",
-    "COL"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 6,
-   "cena": "b7",
-   "frase": "Os colegas ficaram de boca aberta.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "KEK",
     "COL",
     "ALU"
    ],
@@ -177,9 +160,9 @@
    "objetos": [
     "kit/snake_ring"
    ],
-   "palavras": 20,
-   "cena": "b8",
-   "frase": "Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez.",
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pela primeira vez.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -198,7 +181,7 @@
     "kit/snake_ring"
    ],
    "palavras": 19,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -222,7 +205,7 @@
     "kit/snake_ring"
    ],
    "palavras": 12,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -238,7 +221,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
