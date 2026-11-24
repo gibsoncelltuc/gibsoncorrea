@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Gerado em 24/11 08:56 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:20 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,11 +12,11 @@ b2 | simples | harbor | orbit | NED, NED | - | navio_vela, navios de guerra ao f
 b3 | simples | harbor | wide | NED | - | navio_vela, navios de guerra ao fundo, no tamanho real, ship | - | Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 b4 | simples | arctic | group | FRA, FRA, OFF | - | - | - | Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n
 b5 | simples | arctic | two | GEN, OFF | - | - | - | O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
-b6 | chave | arctic | two | FRA, FRA | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo.
-b7 | chave | harbor | group | NED, FRA | 10 | navio em movimento | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende
-b8 | chave | arctic | group | FRA, FRA | - | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Foram mais de uma dezena de navios capturados por soldados a cavalo.
-b9 | simples | interior madeira | close | OFF | - | - | - | Dizem que foi a única vez na história em que uma cavalaria capturou um
-b10 | simples | interior madeira | two | FRA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b6 | simples | arctic | low | OFF, FRA | - | - | - | Só que ninguém sabia se o gelo ia aguentar o peso de centenas de caval
+b7 | chave | arctic | two | FRA, FRA | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo,
+b8 | chave | harbor | group | NED, FRA | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os holandeses nem tentaram lutar. A frota inteira se rend
+b9 | chave | arctic | group | FRA, FRA | - | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Foram mais de uma dezena de navios capturados por soldados a cavalo. C
+b10 | simples | arctic | close | FRA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -30,12 +30,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | PENDENTE | ./conferir.sh texel1795
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local texel1795 <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh texel1795
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh texel1795
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local texel1795 <mp4>
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
 
-**Etapa atual:** 12. Conferencia
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

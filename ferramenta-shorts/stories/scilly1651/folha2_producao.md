@@ -135,9 +135,11 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 - Objeto heroi: kit/scroll | grandes momentos: b2, b3, b4 | planos abertos: 2 | mistura: close 11% | medio 80% | aberto 5% | detalhe 4%
 - Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 reverencia, b8 vai ate o outro, b9 apertar
 - RISCOS GERAIS: 
+  - GANCHO longo: a 1a frase tem 18 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py scilly1651  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/scilly1651/moodboard.jpg
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- geral: GANCHO longo: a 1a frase tem 18 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

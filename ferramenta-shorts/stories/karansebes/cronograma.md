@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Gerado em 24/11 04:57 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:18 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -34,9 +34,9 @@ N | Etapa | O que confere | Estado | Proximo passo
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
 10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | PENDENTE | ./conferir.sh karansebes
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local karansebes <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | FEITO | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | FEITO | 
 
-**Etapa atual:** 12. Conferencia
+**Etapa atual:** tudo concluido
 

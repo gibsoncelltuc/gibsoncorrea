@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 1.7s - 6 palavras - plano two
@@ -73,26 +73,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | NATAL DE 1870 | OK |
 
-## Cena b7 - 36.5s a 39.4s - 9 palavras - plano group
-> "Para mandar notícias, os parisienses usavam balões e pombos-correio."
+## Cena b7 - 36.5s a 41.5s - 12 palavras - plano orbit
+> "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandar (36.8s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | BALÕES E POMBOS | OK |
+| 1 | fortuna (39.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | fortuna (39.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | comiam (41.5s) | ACAO: x_come | leva a comida a boca | OK |
+| 4 | - | CENA | animal: elephant come | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | PLACA | BALÕES E POMBOS | OK |
 
-## Cena b8 - 40.9s a 44.4s - 14 palavras - plano crowd
-> "Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas."
+## Cena b8 - 41.8s a 44.4s - 11 palavras - plano group
+> "Enquanto isso, o povo fazia fila no frio, com comida racionada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (41.5s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (41.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | fugir (42.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 45.9s a 48.4s - 10 palavras - plano two
 > "O cerco durou mais de quatro meses, em pleno inverno."
@@ -102,17 +101,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 49.7s a 54.6s - 19 palavras - plano group
-> "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia."
+## Cena b10 - 49.7s a 52.9s - 14 palavras - plano group
+> "Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendeu (53.4s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 1 | - | ATUACAO | conversar | OK |
+
+## Cena b11 - 53.2s a 58.2s - 15 palavras - plano two
+> "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | rendeu (57.6s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | PARIS SE RENDEU | OK |
 
-## Cena b11 - 55.7s a 59.0s - 13 palavras - plano close
+## Cena b12 - 58.5s a 59.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

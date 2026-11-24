@@ -130,9 +130,11 @@ nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia) -> CORRECAO: por uma frase de virada no meio: "Acontece que...", "So que...", "Mas..."
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh toledo1835 bN bM` (so essas cenas).

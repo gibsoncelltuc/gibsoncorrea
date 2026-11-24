@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
-Gerado em 24/11 07:38 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:18 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -35,7 +35,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | FEITO | 
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | PENDENTE | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | FEITO | 
 
-**Etapa atual:** 14. Entrega
+**Etapa atual:** tudo concluido
 

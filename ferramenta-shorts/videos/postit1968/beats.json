@@ -65,7 +65,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta."
+   "say": "Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro."
   },
   {
    "shot": "reveal",
@@ -132,7 +132,7 @@
     ],
     "march": false
    },
-   "say": "Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja.",
+   "say": "Em mil novecentos e setenta e quatro, o colega Art Fry cantava no coral da igreja.",
    "interior": "pedra",
    "moveis": [
     [
@@ -235,7 +235,7 @@
     "ding@20",
     "sting@40"
    ],
-   "say": "Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página."
+   "say": "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar."
   },
   {
    "shot": "two",
@@ -306,7 +306,7 @@
    ],
    "text": "POST-IT",
    "titulo": true,
-   "say": "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.",
+   "say": "Então distribuíram amostras de graça numa cidade, e quase todos quiseram comprar mais.",
    "impact": true
   },
   {
@@ -323,7 +323,7 @@
     ]
    ],
    "text": "1980",
-   "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado."
+   "say": "Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma cola que deu errado."
   }
  ],
  "visual": {

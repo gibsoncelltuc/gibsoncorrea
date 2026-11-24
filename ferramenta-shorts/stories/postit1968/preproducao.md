@@ -14,7 +14,7 @@ b6 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/
 b7 | countryside | orbit | 7 | encena | kit/postit | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/postit | - | -
 b9 | interior loja | two | 2 | conversar, INTERAGEM: susto | - | paper | -
-b10 | street | crowd | 33 | comemorar, batalha | kit/postit, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b10 | street | crowd | 21 | comemorar, batalha | kit/postit, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b11 | countryside | close | 1 | conversar | kit/postit | - | -
 b12 | street | close | 1 | conversar | - | - | -
 

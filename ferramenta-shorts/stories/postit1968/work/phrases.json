@@ -1,7 +1,7 @@
 {
- "duration": 81.672,
- "frames30": 2450,
- "source": "silence-align (cost 1.79)",
+ "duration": 69.648,
+ "frames30": 2089,
+ "source": "silence-align (cost 1.55)",
  "segments": [
   [
    0.152125,
@@ -28,7 +28,7 @@
    16.1889
   ],
   [
-   17.0155,
+   17.0157,
    18.5644
   ],
   [
@@ -40,108 +40,96 @@
    21.144
   ],
   [
-   21.411,
+   21.4099,
    22.3075
   ],
   [
-   23.1575,
-   23.918
+   23.1815,
+   23.6575
   ],
   [
-   24.1772,
-   26.3053
+   23.7917,
+   25.3237
   ],
   [
-   27.1585,
-   28.4494
+   26.1739,
+   26.7015
   ],
   [
-   29.31,
-   29.8376
+   26.8915,
+   28.396
   ],
   [
-   30.0276,
-   31.5321
+   28.7171,
+   31.304
   ],
   [
-   31.8532,
-   34.4401
+   32.1762,
+   34.6498
   ],
   [
-   35.3019,
-   38.773
+   35.5063,
+   36.487
   ],
   [
-   39.6306,
-   40.7419
+   36.7615,
+   38.7499
   ],
   [
-   41.6081,
-   42.5888
+   39.548,
+   39.9519
   ],
   [
-   42.8633,
-   44.8567
+   40.1477,
+   40.7025
   ],
   [
-   45.6498,
-   46.0537
+   41.008,
+   42.4332
   ],
   [
-   46.2495,
-   46.8042
+   43.3083,
+   44.3646
   ],
   [
-   47.1097,
-   48.535
+   44.6944,
+   46.3814
   ],
   [
-   49.408,
-   50.5121
+   46.6777,
+   47.9712
   ],
   [
-   51.3776,
-   53.1531
+   48.8357,
+   50.6586
   ],
   [
-   53.4286,
-   56.1602
+   51.5127,
+   54.4871
   ],
   [
-   57.0245,
-   58.9755
+   55.3432,
+   57.7656
   ],
   [
-   59.8219,
-   62.6657
+   58.6234,
+   59.8919
   ],
   [
-   63.5345,
-   66.5083
+   60.1582,
+   61.8082
   ],
   [
-   67.365,
-   69.7897
+   62.6703,
+   64.5026
   ],
   [
-   70.6453,
-   71.9136
+   65.3395,
+   66.7837
   ],
   [
-   72.18,
-   73.8299
-  ],
-  [
-   74.692,
-   76.5243
-  ],
-  [
-   77.3614,
-   78.8037
-  ],
-  [
-   79.0985,
-   80.8603
+   67.077,
+   68.8385
   ]
  ],
  "phrases": [
@@ -177,7 +165,7 @@
   },
   {
    "text": "Acontece que saiu o contr\u00e1rio:",
-   "s": 17.015,
+   "s": 17.016,
    "e": 18.564
   },
   {
@@ -192,133 +180,118 @@
   },
   {
    "text": "sem deixar marca.",
-   "s": 21.411,
+   "s": 21.41,
    "e": 22.308
   },
   {
-   "text": "Durante anos,",
-   "s": 23.157,
-   "e": 23.918
+   "text": "Por anos,",
+   "s": 23.181,
+   "e": 23.657
   },
   {
-   "text": "ele mostrou a cola para todo mundo na empresa.",
-   "s": 24.177,
-   "e": 26.305
-  },
-  {
-   "text": "Ningu\u00e9m via utilidade.",
-   "s": 27.159,
-   "e": 28.449
+   "text": "ningu\u00e9m viu utilidade nela.",
+   "s": 23.792,
+   "e": 25.324
   },
   {
    "text": "At\u00e9 que,",
-   "s": 29.31,
-   "e": 29.838
+   "s": 26.174,
+   "e": 26.701
   },
   {
    "text": "em mil novecentos e setenta e quatro,",
-   "s": 30.028,
-   "e": 31.532
+   "s": 26.892,
+   "e": 28.396
   },
   {
    "text": "o colega Art Fry estava cantando no coral da igreja.",
-   "s": 31.853,
-   "e": 34.44
+   "s": 28.717,
+   "e": 31.304
   },
   {
-   "text": "Os papeizinhos que marcavam as p\u00e1ginas do hin\u00e1rio viviam caindo no ch\u00e3o.",
-   "s": 35.302,
-   "e": 38.773
-  },
-  {
-   "text": "E ele ficava perdido.",
-   "s": 39.631,
-   "e": 40.742
+   "text": "Os papeizinhos que marcavam o hin\u00e1rio viviam caindo.",
+   "s": 32.176,
+   "e": 34.65
   },
   {
    "text": "A\u00ed veio a ideia:",
-   "s": 41.608,
-   "e": 42.589
+   "s": 35.506,
+   "e": 36.487
   },
   {
    "text": "marcadores com a cola fraca do Silver.",
-   "s": 42.863,
-   "e": 44.857
+   "s": 36.761,
+   "e": 38.75
   },
   {
    "text": "Grudam,",
-   "s": 45.65,
-   "e": 46.054
+   "s": 39.548,
+   "e": 39.952
   },
   {
    "text": "n\u00e3o caem,",
-   "s": 46.249,
-   "e": 46.804
+   "s": 40.148,
+   "e": 40.703
   },
   {
    "text": "e saem sem rasgar a p\u00e1gina.",
-   "s": 47.11,
-   "e": 48.535
+   "s": 41.008,
+   "e": 42.433
   },
   {
-   "text": "Os dois se juntaram.",
-   "s": 49.408,
-   "e": 50.512
+   "text": "Os dois se juntaram,",
+   "s": 43.308,
+   "e": 44.365
   },
   {
-   "text": "E o papel saiu amarelo por acaso:",
-   "s": 51.378,
-   "e": 53.153
+   "text": "e o papel saiu amarelo por acaso:",
+   "s": 44.694,
+   "e": 46.381
   },
   {
-   "text": "era o \u00fanico papel de rascunho que tinha no laborat\u00f3rio vizinho.",
-   "s": 53.429,
-   "e": 56.16
+   "text": "era o \u00fanico de rascunho \u00e0 m\u00e3o.",
+   "s": 46.678,
+   "e": 47.971
   },
   {
-   "text": "O primeiro teste de vendas foi um fracasso.",
-   "s": 57.025,
-   "e": 58.975
-  },
-  {
-   "text": "Ningu\u00e9m entendia para que servia um bloquinho que descolava.",
-   "s": 59.822,
-   "e": 62.666
+   "text": "O primeiro teste de vendas fracassou.",
+   "s": 48.836,
+   "e": 50.659
   },
   {
    "text": "Ent\u00e3o distribu\u00edram amostras de gra\u00e7a numa cidade inteira.",
-   "s": 63.535,
-   "e": 66.508
+   "s": 51.513,
+   "e": 54.487
   },
   {
    "text": "Quase todo mundo que testou quis comprar mais.",
-   "s": 67.365,
-   "e": 69.79
+   "s": 55.343,
+   "e": 57.766
   },
   {
    "text": "Em mil novecentos e oitenta,",
-   "s": 70.645,
-   "e": 71.914
+   "s": 58.623,
+   "e": 59.892
   },
   {
    "text": "o post-it chegou \u00e0s lojas.",
-   "s": 72.18,
-   "e": 73.83
+   "s": 60.158,
+   "e": 61.808
   },
   {
    "text": "Tudo gra\u00e7as a uma cola que deu errado.",
-   "s": 74.692,
-   "e": 76.524
+   "s": 62.67,
+   "e": 64.503
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 77.361,
-   "e": 78.804
+   "s": 65.34,
+   "e": 66.784
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 79.099,
-   "e": 80.86
+   "s": 67.077,
+   "e": 68.838
   }
  ]
 }

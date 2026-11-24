@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 161 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 160 palavras (~55 s)
 
-## Cena b0  (~5.9 s)
-- Narracao: Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda de uma cobra.
+## Cena b0  (~5.5 s)
+- Narracao: Um dos maiores segredos da química foi resolvido num cochilo, com a ajuda de uma cobra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: pensa (think) @3 -> acao + som de efeito; encena: quimico (pour) @5 -> acao + som de efeito
