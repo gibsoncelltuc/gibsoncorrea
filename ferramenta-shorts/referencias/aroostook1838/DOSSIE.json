@@ -7,10 +7,11 @@
   "regiao": "europa",
   "luz_base": "day",
   "cenarios": [
+   "interior loja",
    "interior madeira",
    "interior pedra",
    "loc_campo",
-   "loc_montanha"
+   "loc_estudio"
   ],
   "cenarios_trocados": [
    [
@@ -34,12 +35,7 @@
     "loc_campo"
    ],
    [
-    "cena 10",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
+    "cena 5",
     "countryside",
     "loc_campo"
    ]
@@ -66,9 +62,9 @@
   "kit/prison",
   "kit/room_azul_stone",
   "kit/room_europa_stone",
+  "kit/room_rosa_shop",
   "kit/room_verde_wood",
   "kit/scroll",
-  "mk/Axe_Bronze",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",
@@ -85,7 +81,8 @@
   "mk/Workbench_Drawers",
   "nature/bush",
   "nature/tree_oak",
-  "nature/tree_pine"
+  "nature/tree_pine",
+  "tools/axe"
  ],
  "pesquisa_visual": {
   "local": "Maine",

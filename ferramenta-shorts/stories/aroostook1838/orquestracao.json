@@ -23,12 +23,7 @@
    "loc_campo"
   ],
   [
-   "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
+   "cena 5",
    "countryside",
    "loc_campo"
   ]
@@ -41,28 +36,22 @@
  },
  "cenas": [
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "AME",
     "CAN"
    ],
-   "multidao": 40,
+   "multidao": 0,
    "objetos": [
     "kit/logs",
     "nature/tree_pine"
    ],
-   "palavras": 20,
+   "palavras": 21,
    "cena": "b0",
-   "frase": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém morreu em combate.",
-   "classe": "chave",
+   "frase": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém foi morto pelo inimigo.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -81,7 +70,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
@@ -92,10 +81,10 @@
    "multidao": 0,
    "objetos": [
     "kit/logs",
-    "mk/Axe_Bronze",
     "nature/bush",
     "nature/tree_oak",
-    "nature/tree_pine"
+    "nature/tree_pine",
+    "tools/axe"
    ],
    "palavras": 18,
    "cena": "b2",
@@ -107,7 +96,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "reveal",
    "personagens": [
     "AME",
     "CAN"
@@ -119,14 +108,20 @@
    "palavras": 25,
    "cena": "b3",
    "frase": "Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agente de terras com voluntários para prender os lenhadores de New Brunswick.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "MIL",
     "ING"
@@ -146,7 +141,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -221,7 +216,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "AME",
     "AME"
@@ -238,7 +233,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior loja"
   },
   {
    "camera": "close",
@@ -254,7 +249,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior loja"
   }
  ]
 }

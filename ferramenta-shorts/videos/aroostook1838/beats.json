@@ -47,7 +47,7 @@
    "jacket": "#1f3a8a",
    "pants": "#f1efe6",
    "boots": "#1b1b1f",
-   "hat": "tophat",
+   "hat": "bicorne",
    "cap": "#1f3a8a"
   },
   "PRE": {
@@ -55,7 +55,7 @@
    "jacket": "#2a2a30",
    "pants": "#2a2a30",
    "boots": "#1b1b1f",
-   "hat": "bowler",
+   "hat": "tophat",
    "tie": "#b0282f"
   }
  },
@@ -95,14 +95,20 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém morreu em combate.",
+   "say": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém foi morto pelo inimigo.",
    "fachada": false,
    "batalha": false,
-   "tiros": false
+   "tiros": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "impact": false
   },
   {
    "shot": "reveal",
-   "set": "loc_montanha",
+   "set": "loc_estudio",
    "who": [
     "AME:0:neutral",
     "CAN:0:neutral"
@@ -137,7 +143,7 @@
      1.3
     ],
     [
-     "mk/Axe_Bronze",
+     "tools/axe",
      0.2,
      0.7,
      2.2
@@ -197,11 +203,12 @@
     ],
     "march": true,
     "expr": "angry"
-   }
+   },
+   "impact": true
   },
   {
    "shot": "crowd",
-   "set": "loc_montanha",
+   "set": "countryside",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -219,12 +226,13 @@
    },
    "text": "MILÍCIA",
    "titulo": true,
-   "say": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus."
+   "say": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.",
+   "impact": true
   },
   {
    "shot": "two",
    "who": [
-    "AME:0:scared",
+    "AME:0:shock",
     "CAN:0:smug"
    ],
    "interacao": "empurrar",
@@ -273,7 +281,6 @@
   },
   {
    "shot": "two",
-   "set": "countryside",
    "who": [
     "AME:0:smile",
     "AME:1:grin"
@@ -308,7 +315,8 @@
      1.2
     ]
    ],
-   "fachada": false
+   "fachada": false,
+   "interior": "loja"
   }
  ],
  "regiao": "europa",
