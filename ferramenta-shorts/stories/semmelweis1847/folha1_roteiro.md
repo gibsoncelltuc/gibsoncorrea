@@ -72,7 +72,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeito + som nas palavras-chave: encena: tomba @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VIDAS SALVAS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.4 s)
 - Narracao: Mas os médicos se ofenderam, e Semmelweis foi mandado embora.
@@ -94,12 +94,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b10  (~5.5 s)
 - Narracao: Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LAVE AS MÃOS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

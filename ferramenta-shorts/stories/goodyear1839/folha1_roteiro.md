@@ -76,12 +76,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~3.8 s)
 - Narracao: Mas outros copiaram a ideia, e ele morreu cheio de dívidas.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: escreve (write) @2 -> acao + som de efeito; encena: pensa (think) @4 -> acao + som de efeito; encena: morre @7 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~4.8 s)
 - Narracao: Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro.
@@ -90,7 +90,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: PNEUS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b10  (~3.8 s)
 - Narracao: Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.

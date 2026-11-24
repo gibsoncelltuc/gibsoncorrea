@@ -11,14 +11,14 @@ b3 | interior hospital | group | 2 | conversar, INTERAGEM: avanca e o outro recu
 b4 | interior hospital | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
 b5 | interior hospital | close | 1 | conversar | - | - | -
 b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
-b7 | loc_campo | orbit | 3 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
+b7 | loc_campo | orbit | 3 | comemorar | kit/wash_basin, kit/marco_viena | - | -
 b8 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
 b9 | loc_campo | two | 1 | conversar | kit/lapide | - | -
-b10 | loc_campo | close | 1 | conversar | kit/wash_basin | - | -
-b11 | loc_campo | two | 1 | conversar | - | - | -
+b10 | loc_campo | orbit | 13 | encena, batalha | kit/wash_basin | - | -
+b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/wash_basin
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b7
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b10
 Interacoes entre personagens: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 discutir, b8 empurrar
 
 Cenas com personagens parados: 0 de 12

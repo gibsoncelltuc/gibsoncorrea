@@ -135,7 +135,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "PRE",
     "POV"
@@ -145,23 +145,6 @@
    "palavras": 22,
    "cena": "b6",
    "frase": "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "medieval"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "PRE",
-    "MED"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b7",
-   "frase": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -171,6 +154,23 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },

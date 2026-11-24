@@ -183,10 +183,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op...
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); POV (variante 2, expressao nervous) | multidao: 18 de POV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
@@ -208,10 +208,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - A operação ganhou um nome que resume tudo: Resolução Absoluta.
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: comemorar
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): operacao
 - RISCOS: nenhum
@@ -251,9 +251,10 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/helicopter_air | grandes momentos: b3, b8 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 14% | detalhe 2%
-- Interacoes: b5 empurrar, b6 aproxima-se, b7 entregar
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/helicopter_air | grandes momentos: b3, b9 | planos abertos: 4 | mistura: close 22% | medio 55% | aberto 22% | detalhe 2%
+- Interacoes: b0 susto, b5 empurrar, b6 aproxima-se, b7 entregar
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py maduro2026  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/maduro2026/moodboard.jpg
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 

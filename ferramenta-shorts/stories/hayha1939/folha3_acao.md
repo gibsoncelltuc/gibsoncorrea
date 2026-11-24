@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 23 - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 12 palavras - plano wide
@@ -57,24 +57,22 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | NEVE NA BOCA | OK |
 
-## Cena b6 - 31.2s a 37.3s - 22 palavras - plano two
+## Cena b6 - 31.2s a 37.3s - 22 palavras - plano crowd
 > "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | tremem de frio | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 100 DIAS | OK |
 
-## Cena b7 - 38.6s a 40.8s - 8 palavras - plano crowd
+## Cena b7 - 38.6s a 40.8s - 8 palavras - plano group
 > "Os soviéticos passaram a chamá-lo de Morte Branca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | MORTE BRANCA | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | MORTE BRANCA | OK |
 
 ## Cena b8 - 41.9s a 49.1s - 24 palavras - plano two
 > "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou."

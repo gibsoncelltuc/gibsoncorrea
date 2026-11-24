@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -74,10 +74,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ganhou (34.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (34.4s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | NOBEL | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
-## Cena b8 - 38.6s a 44.1s - 18 palavras - plano orbit
+## Cena b8 - 38.6s a 44.1s - 18 palavras - plano two
 > "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -85,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | morreu (44.1s) | EFEITO: puff | fumaca + som | OK |
 | 2 | morreu (44.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 45.2s a 49.3s - 13 palavras - plano two
 > "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris."

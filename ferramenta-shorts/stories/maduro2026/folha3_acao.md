@@ -110,39 +110,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b8 - 46.5s a 51.6s - 14 palavras - plano crowd
+## Cena b8 - 45.2s a 50.0s - 14 palavras - plano wide
 > "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dividiu (50.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | MUNDO | OK |
-<!-- FISICA -->
+| 1 | dividiu (48.9s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | MUNDO | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra dividiu (50.5s): executa: estende a mao entregando
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 18: parada, reagindo (surprised), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b9 - 52.8s a 55.7s - 10 palavras - plano two
+## Cena b9 - 50.4s a 53.7s - 10 palavras - plano crowd
 > "A operação ganhou um nome que resume tudo: Resolução Absoluta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (53.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (53.5s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
+| 1 | ganhou (51.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (51.1s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | comemorar | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra ganhou (53.5s): executa: estrelinhas + som

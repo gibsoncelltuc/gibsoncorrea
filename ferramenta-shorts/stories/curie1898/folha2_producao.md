@@ -77,17 +77,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MAR (variante 0, expressao laugh) | multidao: 18 de POV/JOR
-- Animacao: comemorar
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_eiffel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conseguir, primeira
 - RISCOS: nenhum
 
 ## Cena b8 - Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos...
 - Cenario: loc_campo | luz: dia | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MAR (variante 0, expressao sad) | multidao: 12 de POV
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (1): MAR (variante 0, expressao sad)
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): radiacao, saude
 - RISCOS: nenhum
@@ -143,7 +143,7 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 26% | medio 59% | aberto 14% | detalhe 2%
+- Objeto heroi: kit/curie_box | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 25% | medio 68% | aberto 5% | detalhe 2%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 insiste, b9 susto
 - RISCOS GERAIS: nenhum
 

@@ -167,15 +167,9 @@
    "palavras": 6,
    "cena": "b7",
    "frase": "As mortes despencaram quase dez vezes.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -215,25 +209,31 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "orbit",
    "personagens": [
     "PAR"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "kit/wash_basin"
    ],
    "palavras": 16,
    "cena": "b10",
    "frase": "Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "SEM"
    ],

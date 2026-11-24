@@ -177,7 +177,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV",
@@ -188,20 +188,14 @@
    "palavras": 14,
    "cena": "b8",
    "frase": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "TRU"
    ],
@@ -212,9 +206,15 @@
    "palavras": 10,
    "cena": "b9",
    "frase": "A operação ganhou um nome que resume tudo: Resolução Absoluta.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },

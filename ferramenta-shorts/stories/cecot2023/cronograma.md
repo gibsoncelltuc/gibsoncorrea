@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 27 - A Maior Prisão das Américas
 
-Gerado em 24/11 23:26 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:36 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,12 +10,12 @@ b0 | simples | loc_campo | two | GUA, BUK | 26 | prison | - | El Salvador tem um
 b1 | simples | loc_campo | reveal | POV, POV | 6 | prison | - | Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolad
 b2 | simples | interior galpao | two | REP, POV | - | - | - | Por anos, El Salvador teve uma das maiores taxas de assassinato do mun
 b3 | simples | loc_campo | orbit | BUK, GUA, GUA | 30 | prison | - | Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado 
-b4 | chave | loc_pista | crowd | GUA, GUA, GUA | 16 | prison | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Para guardar tanta gente, ergueram o Centro de Confinamento do Terrori
+b4 | simples | loc_pista | group | GUA, GUA, GUA | 16 | prison | - | Para guardar tanta gente, ergueram o Centro de Confinamento do Terrori
 b5 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/prison (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
-b6 | simples | loc_campo | low | REP, BUK | - | - | - | Acontece que os assassinatos despencaram: de cento e seis para dois ví
-b7 | chave | loc_campo | orbit | REP, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Organizações de direitos humanos denunciaram prisões sem julgamento e 
-b8 | simples | loc_patio | group | BUK, REP | - | - | - | O governo responde que as ruas ficaram seguras.
-b9 | simples | loc_patio | two | POV, POV, POV | - | prison | - | A prisão virou símbolo: de segurança para uns, de excesso para outros.
+b6 | chave | loc_campo | crowd | REP, BUK | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os assassinatos despencaram: de cento e seis para dois ví
+b7 | simples | loc_campo | two | REP, POV | - | - | - | Organizações de direitos humanos denunciaram prisões sem julgamento e 
+b8 | chave | loc_patio | orbit | BUK, REP | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O governo responde que as ruas ficaram seguras.
+b9 | simples | loc_patio | group | POV, POV, POV | - | prison | - | A prisão virou símbolo: de segurança para uns, de excesso para outros.
 b10 | simples | loc_pista | group | BUK, POV | - | globe | - | E o modelo passou a ser copiado e criticado pelo mundo.
 b11 | simples | loc_campo | close | GUA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

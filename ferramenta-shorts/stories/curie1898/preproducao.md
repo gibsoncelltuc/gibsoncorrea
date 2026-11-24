@@ -11,15 +11,15 @@ b3 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/curie_box | - | -
 b5 | interior madeira | close | 1 | conversar | kit/curie_box | - | -
 b6 | interior madeira | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
-b7 | loc_campo | orbit | 19 | comemorar | kit/marco_eiffel | - | -
-b8 | loc_campo | orbit | 13 | encena, batalha | - | - | -
+b7 | loc_campo | orbit | 19 | comemorar, batalha | kit/marco_eiffel | - | -
+b8 | loc_campo | two | 1 | conversar | - | - | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/curie_box, crate | - | -
 b10 | interior pedra | close | 1 | encena | kit/curie_box | paper | -
 b11 | interior pedra | two | 1 | conversar | kit/curie_box | - | -
 b12 | interior pedra | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/curie_box
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b8
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b7
 Interacoes entre personagens: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 insiste, b9 susto
 
 Cenas com personagens parados: 0 de 13

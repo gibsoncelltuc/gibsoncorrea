@@ -81,16 +81,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: MUNDO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.4 s)
 - Narracao: A operação ganhou um nome que resume tudo: Resolução Absoluta.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

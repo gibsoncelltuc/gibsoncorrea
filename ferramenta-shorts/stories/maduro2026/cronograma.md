@@ -14,8 +14,8 @@ b4 | explicativa | loc_estudio | two | sem personagem | - | helicopter_air | cor
 b5 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos de três horas, Maduro foi capturado e levado pa
 b6 | simples | interior loja | two | TRU, GEN | - | - | - | Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA 
 b7 | simples | loc_pista | two | AGE, MAD | - | scroll, airplane | - | Maduro foi levado de avião para Nova York, onde responde a um processo
-b8 | chave | loc_patio | crowd | POV, POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op
-b9 | simples | loc_patio | two | TRU | - | helicopter_air | - | A operação ganhou um nome que resume tudo: Resolução Absoluta.
+b8 | simples | loc_patio | wide | POV, POV, POV | 18 | - | - | Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op
+b9 | chave | loc_patio | crowd | TRU | - | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A operação ganhou um nome que resume tudo: Resolução Absoluta.
 b10 | simples | loc_cidade | close | MAD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
