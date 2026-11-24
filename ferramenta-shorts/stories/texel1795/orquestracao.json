@@ -190,7 +190,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "FRA",
     "FRA"
@@ -199,17 +199,17 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 16,
+   "palavras": 17,
    "cena": "b9",
-   "frase": "Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero.",
+   "frase": "Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
-    "corpo": "cavaleiro galopando",
-    "emissao": "poeira/clarao do tiro",
-    "luz": "cena",
-    "camera": "camera acompanha",
-    "som": "galope"
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
    },
    "acoes_faltando": [],
    "cenario": "arctic"

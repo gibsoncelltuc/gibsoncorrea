@@ -1,7 +1,7 @@
 {
- "duration": 55.368,
- "frames30": 1661,
- "source": "silence-align (cost 0.38)",
+ "duration": 57.072,
+ "frames30": 1712,
+ "source": "silence-align (cost 0.49)",
  "segments": [
   [
    0.160542,
@@ -9,7 +9,7 @@
   ],
   [
    4.30379,
-   6.07033
+   6.07037
   ],
   [
    6.30808,
@@ -32,7 +32,7 @@
    16.9186
   ],
   [
-   17.2168,
+   17.2209,
    18.6839
   ],
   [
@@ -60,40 +60,52 @@
    28.2854
   ],
   [
-   29.1474,
-   30.6821
+   29.1625,
+   32.9045
   ],
   [
-   30.9729,
-   32.5493
+   33.7448,
+   35.2795
   ],
   [
-   33.3976,
-   36.824
+   35.6015,
+   37.0929
   ],
   [
-   37.6674,
-   40.1726
+   37.4048,
+   39.1976
   ],
   [
-   40.4369,
-   41.526
+   40.0731,
+   42.4705
   ],
   [
-   42.4324,
-   45.8352
+   43.2708,
+   44.653
   ],
   [
-   46.6828,
-   50.2136
+   45.5276,
+   47.3393
   ],
   [
-   51.0595,
-   52.5037
+   47.566,
+   49.4111
   ],
   [
-   52.797,
-   54.5585
+   50.2515,
+   50.9498
+  ],
+  [
+   51.1932,
+   51.935
+  ],
+  [
+   52.7681,
+   54.2126
+  ],
+  [
+   54.5054,
+   56.267
   ]
  ],
  "phrases": [
@@ -134,7 +146,7 @@
   },
   {
    "text": "sem conseguir sair do lugar.",
-   "s": 17.217,
+   "s": 17.221,
    "e": 18.684
   },
   {
@@ -168,49 +180,64 @@
    "e": 28.285
   },
   {
+   "text": "S\u00f3 que ningu\u00e9m sabia se o gelo ia aguentar o peso de centenas de cavalos.",
+   "s": 29.163,
+   "e": 32.904
+  },
+  {
    "text": "Na noite de vinte e tr\u00eas de janeiro,",
-   "s": 29.147,
-   "e": 30.682
+   "s": 33.745,
+   "e": 35.279
   },
   {
-   "text": "os hussardos atravessaram o gelo.",
-   "s": 30.973,
-   "e": 32.549
+   "text": "os hussardos atravessaram o gelo,",
+   "s": 35.602,
+   "e": 37.093
   },
   {
-   "text": "Contam que puseram panos nos cascos dos cavalos para n\u00e3o fazer barulho.",
-   "s": 33.398,
-   "e": 36.824
+   "text": "com panos nos cascos dos cavalos.",
+   "s": 37.405,
+   "e": 39.198
   },
   {
-   "text": "Os marinheiros holandeses viram a cavalaria chegar,",
-   "s": 37.667,
-   "e": 40.173
+   "text": "Acontece que os holandeses nem tentaram lutar.",
+   "s": 40.073,
+   "e": 42.471
   },
   {
-   "text": "e a frota se rendeu.",
-   "s": 40.437,
-   "e": 41.526
+   "text": "A frota inteira se rendeu.",
+   "s": 43.271,
+   "e": 44.653
   },
   {
-   "text": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
-   "s": 42.432,
-   "e": 45.835
+   "text": "Mais de uma dezena de navios de guerra,",
+   "s": 45.528,
+   "e": 47.339
   },
   {
-   "text": "Dizem que foi a \u00fanica vez na hist\u00f3ria em que uma cavalaria capturou uma frota.",
-   "s": 46.683,
-   "e": 50.214
+   "text": "capturados por soldados a cavalo.",
+   "s": 47.566,
+   "e": 49.411
+  },
+  {
+   "text": "Cavalaria um,",
+   "s": 50.252,
+   "e": 50.95
+  },
+  {
+   "text": "marinha zero.",
+   "s": 51.193,
+   "e": 51.935
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 51.059,
-   "e": 52.504
+   "s": 52.768,
+   "e": 54.213
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 52.797,
-   "e": 54.559
+   "s": 54.505,
+   "e": 56.267
   }
  ]
 }

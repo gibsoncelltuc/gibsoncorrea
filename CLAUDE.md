@@ -70,31 +70,44 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- ac6633d2 ckpt(roadsterpulo2026): etapa gate
-- a7e7b326 ckpt(roadsterpulo2026): etapa fit
-- c83f48f0 ckpt(roadsterpulo2026): etapa style
-- 7b4c1cf9 ckpt(roadsterpulo2026): etapa fit
-- 9d42c634 ckpt(roadsterpulo2026): etapa style
+- 5f9a3592 progresso da fila
+- 75664b6b Texel: ajuste fino de duracao
+- ef3a296d Paris e Texel: cortes finais para 60 s reais
+- 1136d475 Kekule: storyboard (gancho novo) aprovado
+- 39e9b41a progresso da fila
 
-**In-progress files (13):**
-- ferramenta-shorts/mkvideo.py
-- ferramenta-shorts/stories/roadsterpulo2026/cronograma.md
-- ferramenta-shorts/stories/roadsterpulo2026/grade_acoes.jpg
-- ferramenta-shorts/stories/roadsterpulo2026/precheck.jpg
-- ferramenta-shorts/web/main.js
-- ferramenta-shorts/web/sets/loc.js
-- ferramenta-shorts/web/story.js
-- ferramenta-shorts/referencias/_teste_18112/DOSSIE.json
-- ferramenta-shorts/referencias/_teste_18112/FICHA.md
-- ferramenta-shorts/referencias/_teste_18112/plano_pesquisa.json
-- ferramenta-shorts/stories/roadsterpulo2026/AGUARDA_STORYBOARD
-- ferramenta-shorts/stories/roadsterpulo2026/storyboard.hash
-- ferramenta-shorts/stories/roadsterpulo2026/storyboard.jpg
+**In-progress files (35):**
+- ferramenta-shorts/stories/kekule1865/caps.ass
+- ferramenta-shorts/stories/kekule1865/cronograma.md
+- ferramenta-shorts/stories/paris1870/cronograma.md
+- ferramenta-shorts/stories/paris1870/grade_acoes.jpg
+- ferramenta-shorts/stories/paris1870/precheck.jpg
+- ferramenta-shorts/stories/paris1870/storyboard.hash
+- ferramenta-shorts/stories/paris1870/storyboard.jpg
+- ferramenta-shorts/stories/texel1795/cronograma.md
+- ferramenta-shorts/stories/texel1795/cues.py
+- ferramenta-shorts/stories/texel1795/folha1_roteiro.md
+- ferramenta-shorts/stories/texel1795/folha2_producao.md
+- ferramenta-shorts/stories/texel1795/folha3_acao.md
+- ferramenta-shorts/stories/texel1795/folhas.json
+- ferramenta-shorts/stories/texel1795/orquestracao.json
+- ferramenta-shorts/stories/texel1795/plano.md
+- ferramenta-shorts/stories/texel1795/preproducao.md
+- ferramenta-shorts/stories/texel1795/script.txt
+- ferramenta-shorts/stories/texel1795/script_one.txt
+- ferramenta-shorts/stories/texel1795/spec.js
+- ferramenta-shorts/stories/texel1795/stages/voice
+- ferramenta-shorts/stories/texel1795/stages/voice.hash
+- ferramenta-shorts/stories/texel1795/timing.js
+- ferramenta-shorts/stories/texel1795/voice.mp3
+- ferramenta-shorts/stories/texel1795/work/phrases.json
+- ferramenta-shorts/stories/texel1795/work/words.json
+- [truncated — 10 more files]
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-24 03:41:53 UTC
+**Hook generated:** 2026-11-24 10:33:26 UTC
 <!-- post-compact-recovery-end -->

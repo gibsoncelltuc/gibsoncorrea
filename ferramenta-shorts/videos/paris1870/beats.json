@@ -61,7 +61,7 @@
    ]
   },
   {
-   "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
+   "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
    "shot": "reveal",
    "mapa": "FRANÇA",
    "who": [
@@ -215,14 +215,24 @@
    "say": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
    "shot": "wide",
    "who": [
-    "PAR:0:smile",
-    "PAR:1:smile"
+    "CHF:0:grin",
+    "PAR:0:sad"
    ],
-   "text": "BALÕES E POMBOS",
+   "text": "SÓ PARA OS RICOS",
    "tat": 6,
-   "tstyle": "blue",
-   "mood": "calm",
-   "clima": "neve"
+   "tstyle": "gold",
+   "mood": "playful",
+   "clima": "neve",
+   "set": "street",
+   "animais": false,
+   "props": [
+    [
+     "kit/panela",
+     0.9,
+     -0.4,
+     1.0
+    ]
+   ]
   },
   {
    "say": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
@@ -236,20 +246,12 @@
     "n": 10,
     "march": false,
     "expr": "sad"
-   }
+   },
+   "set": "street",
+   "animais": false
   },
   {
-   "say": "O cerco durou mais de quatro meses, em pleno inverno.",
-   "shot": "two",
-   "clima": "neve",
-   "acao": "conversar",
-   "who": [
-    "PAR:0:sad",
-    "PAR:1:nervous"
-   ]
-  },
-  {
-   "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas.",
+   "say": "Para mandar notícias, soltavam balões por cima do cerco.",
    "shot": "wide",
    "props": [
     [
@@ -260,7 +262,16 @@
     ]
    ],
    "clima": "neve",
-   "acao": "conversar"
+   "acao": "conversar",
+   "set": "street",
+   "animais": false,
+   "text": "BALÕES",
+   "tat": 2,
+   "tstyle": "blue",
+   "who": [
+    "PAR:1:surprised",
+    "PAR:3:smile"
+   ]
   },
   {
    "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
@@ -283,7 +294,9 @@
      1.0
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "set": "street",
+   "animais": false
   }
  ],
  "heroi": "kit/panela",
