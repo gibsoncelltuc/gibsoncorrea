@@ -157,6 +157,13 @@ grep -q "sem tropa/multidao a grua termina a 34 m" mkvideo.py || f "sequencia de
 grep -q "no maximo 1,6x mais longe" fit_fast.mjs || f "ajuste de camera afasta sem limite (Tulipas gancho a 2,47x)"
 grep -q "etiqueta|papel|papeis|carta|nome|ficha" mkvideo.py || f "'misturou as etiquetas' vira panela de cozinha (Darwin gancho)"
 grep -q "NAVIO NO CAIS = navio em cima do concreto" mkvideo.py || f "navio posto em cima do cais de concreto no harbor (Zanzibar)"
+python3 -c "
+import sentido as S
+ok = ('tiro' in S.explicar('Mas o tiro nunca veio.')[0] and S.cena('Agricultores pediram metralhadoras.').get('sem_violencia') and S.cena('Um cientista misturou as etiquetas.').get('nao_cozinha') and S.cena('Uma flor custou o preco de uma casa inteira.').get('nao_interior') and S.cena('quase entraram em guerra').get('sem_violencia') and not S.cena('os navios abriram fogo e bombardearam o palacio').get('sem_violencia') and not S.cena('catorze bombas cairam sobre Fordow').get('sem_violencia'))
+raise SystemExit(0 if ok else 1)" || f "sentido.py nao entende negacao/figurado/hipotese/valor (o tiro nunca veio, pediram metralhadoras, misturou etiquetas, preco de uma casa)"
+grep -q "_neg_idx_base(say) | _SENT.figurado(say)" mkvideo.py && grep -q "_SENT.cena(_b.get('say', ''))" mkvideo.py || f "mkvideo nao usa o sentido da frase"
+grep -q "suspeitas.py \$ID --corrigir" make_video.sh && grep -q "suspeitas.py" lista_revisao.py || f "fila sem a conferencia automatica frase x cena (suspeitas.py)"
+grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

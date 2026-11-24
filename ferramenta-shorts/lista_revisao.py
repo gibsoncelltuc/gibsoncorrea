@@ -14,6 +14,8 @@ c = subprocess.run([sys.executable, 'checagem_coerencia.py', i], capture_output=
 itens += [l.strip(' -') for l in c.splitlines()[1:] if l.strip().startswith('-')]
 if os.path.exists(f'{D}/visibilidade.json'):
     itens += json.load(open(f'{D}/visibilidade.json')).get('falhas', [])
+_sp = subprocess.run([sys.executable, 'suspeitas.py', i], capture_output=True, text=True).stdout
+itens += ['SUSPEITA ' + l.strip() for l in _sp.splitlines()[1:] if l.strip().startswith('b')]   # 24/11: frase x cena (suspeitas.py)
 n_ref = int(open(f'{D}/refacoes.txt').read().split()[0]) if os.path.exists(f'{D}/refacoes.txt') else 0
 ph = json.load(open(f'{D}/work/phrases.json'))['phrases'] if os.path.exists(f'{D}/work/phrases.json') else []
 L = [f'# LISTA UNICA DE REVISAO - {i}  (refacoes ate agora: {n_ref}; limite: 1)', '',
