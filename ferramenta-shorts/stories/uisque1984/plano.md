@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | - | -
 b3 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @9 (acao + som de efeito); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
 b4 | two | -  | objeto na mao | - | -
-b5 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @6 (acao + som de efeito) | -
+b5 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @6 (acao + som de efeito) | -
 b6 | two | -  | objeto na mao | - | -
 b7 | two | -  | - | encena: chega (point) @5 (acao + som de efeito); encena: x_entrega (reach) @8 (acao + som de efeito) | -
 b8 | group | -  | - | - | -

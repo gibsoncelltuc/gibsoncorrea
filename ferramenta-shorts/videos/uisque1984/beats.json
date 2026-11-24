@@ -90,11 +90,10 @@
    "interior": "madeira"
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "arctic",
    "who": [
-    "CAN:0:laugh:flag",
-    "CAN:1:grin"
+    "CAN:0:laugh:flag"
    ],
    "crowd": {
     "n": 10,
@@ -120,7 +119,11 @@
    ],
    "say": "Em mil novecentos e oitenta e quatro, soldados canadenses desembarcaram na ilha.",
    "impact": true,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "two",
@@ -147,11 +150,10 @@
    "say": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense."
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "harbor",
    "who": [
-    "DIN:0:smug:flag",
-    "DIN:1:smug"
+    "DIN:0:smug:flag"
    ],
    "crowd": {
     "n": 10,
@@ -176,7 +178,11 @@
     "ding@30"
    ],
    "say": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
-   "impact": true
+   "impact": true,
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "two",
