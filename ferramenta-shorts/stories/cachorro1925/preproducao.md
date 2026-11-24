@@ -9,7 +9,7 @@ b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | loc_campo | track | 2 | encena, andando | dog | - | -
 b3 | loc_montanha | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
 b4 | loc_montanha | two | 2 | conversar, INTERAGEM: susto | - | - | -
-b5 | mountain | orbit | 22 | encena, batalha | buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b5 | mountain | orbit | 21 | encena, batalha | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b6 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b8 | loc_campo | close | 1 | reagir | kit/dog_sit, dog | - | -

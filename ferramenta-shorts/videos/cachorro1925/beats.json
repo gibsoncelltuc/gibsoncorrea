@@ -132,11 +132,10 @@
    "props": []
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "mountain",
    "who": [
-    "GRE:0:angry",
-    "BUL:0:shout"
+    "GRE:0:angry"
    ],
    "batalha": true,
    "tiros": false,
@@ -152,7 +151,11 @@
    "text": "INVASÃO",
    "titulo": true,
    "say": "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.",
-   "props": []
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "two",
