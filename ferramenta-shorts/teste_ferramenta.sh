@@ -54,9 +54,12 @@ import json, sys, re, subprocess
 v = sys.argv[1]; p = f'videos/{v}/beats.json'; B = json.load(open(p, encoding='utf-8'))
 B['beats'][1] = {"say": "Segundo a empresa, o carro vai de zero a cem em menos de um segundo.", "explica": {"medidor": {"de": 0, "para": 100, "un": "km/h", "na": "zero"}}}
 B['beats'][3] = {"who": ["ENG:0:angry", "MUS:0:surprised"], "say": "O engenheiro empurrou o chefe e ele caiu no chão diante de todos."}
+B['beats'][0] = {"who": ["MUS:0:grin", "ENG:0:surprised"], "say": "Diante de convidados, o carro dele saiu do chão.", "obj_acao": False}
 json.dump(B, open(p, 'w', encoding='utf-8'), ensure_ascii=False)
 subprocess.run([sys.executable, 'mkvideo.py', v], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 s = open(f'stories/{v}/spec.js', encoding='utf-8').read()
+pl = [l for l in open(f'stories/{v}/plano.md', encoding='utf-8') if l.startswith('b0 ')]
+if not pl or 'sai @' in pl[0] or 'tomba @' in pl[0]: sys.exit(1)   # "saiu do chao" = decolou: ninguem sai andando nem cai
 ok = "dir: \"tras\"" in s and "k: \"velocidade\"" in s and 'camFollow' in s and "'fall'" in s
 sys.exit(0 if ok else 1)
 V13B
