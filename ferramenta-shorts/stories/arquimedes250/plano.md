@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | track | -  | placa: EUREKA | encena: pula @2 (acao + som de efeito); encena: sai @6 (acao + som de efeito); encena: corre @7 (acao + som de efeito); encena: grita (up) @10 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | (rosto) distrust (expr + som de efeito); ouro (stars + som de sino); encena: fala (point) @3 (acao + som de efeito); encena: paga (reach) @8 (acao + som de efeito); encena: pensa (think) @11 (acao + som de efeito) | -
-b3 | group | -  | interior | ouro (stars + som de sino); encena: x_entrega (reach) @2 (acao + som de efeito); encena: paga (reach) @5 (acao + som de efeito) | -
+b3 | group | -  | interior | encena: x_entrega (reach) @2 (acao + som de efeito) | -
 b4 | two | -  | interior, objeto na mao | (rosto) pleading (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito) | -
 b5 | two | -  | batalha aberta com tiros, tropa, interior | encena: chega (point) @5 (acao + som de efeito) | -
 b6 | two | -  | tropa, interior | - | -

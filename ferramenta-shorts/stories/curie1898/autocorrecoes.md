@@ -22,3 +22,11 @@
 ## 24/11 19:49 autocorrecao de visibilidade
 - b4: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b9: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 24/11 22:26 autocorrecao de visibilidade
+- b0: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 24/11 22:27 autocorrecao de visibilidade
+- b0: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b5: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

@@ -1,0 +1,1474 @@
+{
+ "id": "curie1898",
+ "falhas": [],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 9,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.03755459391104232,
+       "cx": 0.3441766361245951,
+       "alt": 0.15863011863379178,
+       "altmax": 0.15863011863379178
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.259
+    },
+    {
+     "f": 24,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.042543424631495415,
+       "cx": 0.23634009921834787,
+       "alt": 0.17250049576119214,
+       "altmax": 0.17250049576119214
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.28400000000000003
+    },
+    {
+     "f": 38,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.04824377340076094,
+       "cx": 0.11261454692376088,
+       "alt": 0.18610768971650662,
+       "altmax": 0.18610768971650662
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.30900000000000005
+    }
+   ]
+  },
+  {
+   "id": "b0~1",
+   "quadros": [
+    {
+     "f": 57,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06072107980862861,
+       "cx": 0.0803600918188974,
+       "alt": 0.20408862648980777,
+       "altmax": 0.20408862648980777
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35900000000000004
+    },
+    {
+     "f": 71,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06910827574130346,
+       "cx": 0.19467338987840324,
+       "alt": 0.2136283283258515,
+       "altmax": 0.2136283283258515
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42699999999999994
+    },
+    {
+     "f": 85,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.059158587908359414,
+       "cx": 0.30892213637730476,
+       "alt": 0.19734163782626482,
+       "altmax": 0.19734163782626482
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37500000000000006
+    }
+   ]
+  },
+  {
+   "id": "b0~2",
+   "quadros": [
+    {
+     "f": 104,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9661971830985916,
+       "area": 0.059999576120005955,
+       "cx": 0.45664462963459457,
+       "alt": 0.18659307340282086,
+       "altmax": 0.18659307340282086
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36400000000000005
+    },
+    {
+     "f": 119,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9887323943661972,
+       "area": 0.07887401135884005,
+       "cx": 0.4423570694108271,
+       "alt": 0.2083879896073813,
+       "altmax": 0.2083879896073813
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.412
+    },
+    {
+     "f": 133,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9887323943661972,
+       "area": 0.09994648166262453,
+       "cx": 0.32268541034685055,
+       "alt": 0.24112995467080944,
+       "altmax": 0.24112995467080944
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.473
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 150,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.321
+    },
+    {
+     "f": 161,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.373
+    },
+    {
+     "f": 172,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.373
+    }
+   ]
+  },
+  {
+   "id": "b1_1",
+   "quadros": [
+    {
+     "f": 186,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.381
+    },
+    {
+     "f": 195,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.30300000000000005
+    },
+    {
+     "f": 204,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.264
+    }
+   ]
+  },
+  {
+   "id": "b1_2",
+   "quadros": [
+    {
+     "f": 222,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.236
+    },
+    {
+     "f": 239,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.13799999999999996
+    },
+    {
+     "f": 255,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.10099999999999998
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 280,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.31
+    },
+    {
+     "f": 299,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34700000000000003
+    },
+    {
+     "f": 317,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.376
+    }
+   ]
+  },
+  {
+   "id": "b2~1",
+   "quadros": [
+    {
+     "f": 344,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.46099999999999997
+    },
+    {
+     "f": 363,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.46099999999999997
+    },
+    {
+     "f": 381,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43899999999999995
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 406,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.337
+    },
+    {
+     "f": 423,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37100000000000005
+    },
+    {
+     "f": 440,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.415
+    }
+   ]
+  },
+  {
+   "id": "b3~1",
+   "quadros": [
+    {
+     "f": 463,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.342
+    },
+    {
+     "f": 481,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.27499999999999997
+    },
+    {
+     "f": 498,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.25999999999999995
+    }
+   ]
+  },
+  {
+   "id": "b3~2",
+   "quadros": [
+    {
+     "f": 521,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.306
+    },
+    {
+     "f": 538,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37100000000000005
+    },
+    {
+     "f": 555,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40099999999999997
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 579,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9070422535211268,
+       "area": 0.030786131005063992,
+       "cx": 0.09956020980280836,
+       "alt": 0.13722188803830476,
+       "altmax": 0.13722188803830476
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35200000000000004
+    },
+    {
+     "f": 597,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9774647887323944,
+       "area": 0.0349718842403041,
+       "cx": -0.010470378829560076,
+       "alt": 0.1496058757536748,
+       "altmax": 0.1496058757536748
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.394
+    },
+    {
+     "f": 614,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9605633802816902,
+       "area": 0.04117991423696531,
+       "cx": -0.14157518295877883,
+       "alt": 0.16262058058538248,
+       "altmax": 0.16262058058538248
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44099999999999995
+    }
+   ]
+  },
+  {
+   "id": "b4~1",
+   "quadros": [
+    {
+     "f": 639,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.7971830985915493,
+       "area": 0.04366955265750112,
+       "cx": -0.10386474234354018,
+       "alt": 0.16194796068344236,
+       "altmax": 0.16194796068344236
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44999999999999996
+    },
+    {
+     "f": 656,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.7577464788732394,
+       "area": 0.03922799331346874,
+       "cx": 0.05863934075482455,
+       "alt": 0.15084490706150727,
+       "altmax": 0.15084490706150727
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40700000000000003
+    },
+    {
+     "f": 673,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.7605633802816901,
+       "area": 0.0351390794687463,
+       "cx": 0.17790931415467742,
+       "alt": 0.14273259685131234,
+       "altmax": 0.14273259685131234
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.377
+    }
+   ]
+  },
+  {
+   "id": "b4~2",
+   "quadros": [
+    {
+     "f": 698,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.7408450704225352,
+       "area": 0.031681881461118194,
+       "cx": 0.08855541011806081,
+       "alt": 0.1416849390304458,
+       "altmax": 0.1416849390304458
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35500000000000004
+    },
+    {
+     "f": 716,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.6985915492957746,
+       "area": 0.03581541785000878,
+       "cx": -0.059682014505517134,
+       "alt": 0.15129841810348968,
+       "altmax": 0.15129841810348968
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36700000000000005
+    },
+    {
+     "f": 733,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.6647887323943662,
+       "area": 0.04069112637518432,
+       "cx": -0.1755695985103912,
+       "alt": 0.16360740172546961,
+       "altmax": 0.16360740172546961
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.407
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 759,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.04012518603239442,
+       "cx": -0.1798629677884487,
+       "alt": 0.14809854089938956,
+       "altmax": 0.14809854089938956
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.27999999999999997
+    },
+    {
+     "f": 779,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.04932917681158177,
+       "cx": -0.28579848796683927,
+       "alt": 0.16470075121463051,
+       "altmax": 0.16470075121463051
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.311
+    },
+    {
+     "f": 799,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.061994137711706976,
+       "cx": -0.4141003324132424,
+       "alt": 0.18515187311582781,
+       "altmax": 0.18515187311582781
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34800000000000003
+    }
+   ]
+  },
+  {
+   "id": "b5~1",
+   "quadros": [
+    {
+     "f": 826,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.03361075077709771,
+       "cx": -0.20287833315929507,
+       "alt": 0.1544350898754565,
+       "altmax": 0.1544350898754565
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.27699999999999997
+    },
+    {
+     "f": 846,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02872045397988494,
+       "cx": -0.08531463417167323,
+       "alt": 0.13811044019250263,
+       "altmax": 0.13811044019250263
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.237
+    },
+    {
+     "f": 866,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9774647887323944,
+       "area": 0.026472393605234363,
+       "cx": -0.015610441713019355,
+       "alt": 0.13104657778683126,
+       "altmax": 0.13104657778683126
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.22399999999999998
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 889,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.363
+    },
+    {
+     "f": 903,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.398
+    },
+    {
+     "f": 916,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43499999999999994
+    }
+   ]
+  },
+  {
+   "id": "b6~1",
+   "quadros": [
+    {
+     "f": 935,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44799999999999995
+    },
+    {
+     "f": 949,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.404
+    },
+    {
+     "f": 962,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.383
+    }
+   ]
+  },
+  {
+   "id": "b6~2",
+   "quadros": [
+    {
+     "f": 981,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.392
+    },
+    {
+     "f": 995,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42799999999999994
+    },
+    {
+     "f": 1008,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.47
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1026,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.32699999999999996
+    },
+    {
+     "f": 1038,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38199999999999995
+    },
+    {
+     "f": 1050,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.389
+    }
+   ]
+  },
+  {
+   "id": "b7_1",
+   "quadros": [
+    {
+     "f": 1066,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.383
+    },
+    {
+     "f": 1076,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.301
+    },
+    {
+     "f": 1085,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.27
+    }
+   ]
+  },
+  {
+   "id": "b7_2",
+   "quadros": [
+    {
+     "f": 1105,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.235
+    },
+    {
+     "f": 1124,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.14199999999999996
+    },
+    {
+     "f": 1142,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.10399999999999993
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1165,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.396
+    },
+    {
+     "f": 1180,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43199999999999994
+    },
+    {
+     "f": 1194,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.474
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1215,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.393
+    },
+    {
+     "f": 1229,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.307
+    },
+    {
+     "f": 1243,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.29
+    }
+   ]
+  },
+  {
+   "id": "b8~2",
+   "quadros": [
+    {
+     "f": 1264,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34
+    },
+    {
+     "f": 1279,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44000000000000006
+    },
+    {
+     "f": 1293,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.473
+    }
+   ]
+  },
+  {
+   "id": "b8~3",
+   "quadros": [
+    {
+     "f": 1314,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.393
+    },
+    {
+     "f": 1328,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.388
+    },
+    {
+     "f": 1342,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.33999999999999997
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1364,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.8225352112676056,
+       "area": 0.03636368560343849,
+       "cx": -0.02888421447800052,
+       "alt": 0.14924828495399606,
+       "altmax": 0.14924828495399606
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37400000000000005
+    },
+    {
+     "f": 1381,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.7746478873239436,
+       "area": 0.03750325112788132,
+       "cx": -0.019757872626382927,
+       "alt": 0.1531047246920096,
+       "altmax": 0.1531047246920096
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38599999999999995
+    },
+    {
+     "f": 1398,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.7859154929577464,
+       "area": 0.03846718750763371,
+       "cx": -0.009605468673188067,
+       "alt": 0.15679003952917278,
+       "altmax": 0.15679003952917278
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.39599999999999996
+    }
+   ]
+  },
+  {
+   "id": "b9_d",
+   "quadros": [
+    {
+     "f": 1417,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9323943661971831,
+       "area": 0.04391301865518271,
+       "cx": -0.00769907349933302,
+       "alt": 0.16763976893505672,
+       "altmax": 0.16763976893505672
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.439
+    },
+    {
+     "f": 1429,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.1330390968047725,
+       "cx": 0.012514291543319706,
+       "alt": 0.29116417824209795,
+       "altmax": 0.29116417824209795
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1440,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 0.9887323943661972,
+       "vis": 1,
+       "area": 0.5629406327334044,
+       "cx": 0.037683386299081356,
+       "alt": 0.5914485286650929,
+       "altmax": 0.5914485286650929
+      }
+     ],
+     "bloq": {
+      "obj": "kit/curie_box",
+      "frac": 0.43333333333333335
+     },
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b9_v",
+   "quadros": [
+    {
+     "f": 1460,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.18513680078253886,
+       "cx": 0.01909094986381088,
+       "alt": 0.34208671148371017,
+       "altmax": 0.34208671148371017
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1479,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.8535211267605634,
+       "area": 0.03794419357967511,
+       "cx": -0.01968388089736603,
+       "alt": 0.1540068302540028,
+       "altmax": 0.1540068302540028
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38899999999999996
+    },
+    {
+     "f": 1498,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9605633802816902,
+       "area": 0.03866560422369179,
+       "cx": -0.009581289733478049,
+       "alt": 0.157200621700226,
+       "altmax": 0.157200621700226
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40199999999999997
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1523,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9774647887323944,
+       "area": 0.04362431790196674,
+       "cx": 0.47189141662656026,
+       "alt": 0.1636480096962767,
+       "altmax": 0.1636480096962767
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.325
+    },
+    {
+     "f": 1541,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9774647887323944,
+       "area": 0.051575853002044855,
+       "cx": 0.4205301462473964,
+       "alt": 0.180135013868976,
+       "altmax": 0.180135013868976
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35999999999999993
+    },
+    {
+     "f": 1558,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0610189721210991,
+       "cx": 0.3622817978681102,
+       "alt": 0.1993434217493884,
+       "altmax": 0.1993434217493884
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.39799999999999996
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1583,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.05584964391055057,
+       "cx": 0.34095896536984716,
+       "alt": 0.19366793104837474,
+       "altmax": 0.19366793104837474
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36600000000000005
+    },
+    {
+     "f": 1601,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.058435340777484454,
+       "cx": 0.4448567118774064,
+       "alt": 0.18995439614910825,
+       "altmax": 0.18995439614910825
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35100000000000003
+    },
+    {
+     "f": 1618,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.05306207311095778,
+       "cx": 0.5139164523588636,
+       "alt": 0.17987907195015967,
+       "altmax": 0.17987907195015967
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.331
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "quadros": [
+    {
+     "f": 1644,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9605633802816902,
+       "area": 0.03980699619839295,
+       "cx": 0.4451345204343892,
+       "alt": 0.1573499629362686,
+       "altmax": 0.1573499629362686
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37699999999999995
+    },
+    {
+     "f": 1663,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 0.9774647887323944,
+       "area": 0.04762228425046984,
+       "cx": 0.40156665287418436,
+       "alt": 0.172963913544411,
+       "altmax": 0.172963913544411
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.426
+    },
+    {
+     "f": 1682,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.057341131176301484,
+       "cx": 0.3479946308190066,
+       "alt": 0.19097266708918945,
+       "altmax": 0.19097266708918945
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.47200000000000003
+    }
+   ]
+  },
+  {
+   "id": "b11~1",
+   "quadros": [
+    {
+     "f": 1709,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.04822769508555122,
+       "cx": 0.37239825199665183,
+       "alt": 0.16463563394779873,
+       "altmax": 0.16463563394779873
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.5
+    },
+    {
+     "f": 1728,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.04262186632200743,
+       "cx": 0.4623271944310474,
+       "alt": 0.15134118532127375,
+       "altmax": 0.15134118532127375
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.46399999999999997
+    },
+    {
+     "f": 1747,
+     "objs": [
+      {
+       "a": "kit/curie_box",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0380025036023585,
+       "cx": 0.5312244129687631,
+       "alt": 0.14235906366924939,
+       "altmax": 0.14235906366924939
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43300000000000005
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "quadros": [
+    {
+     "f": 1774,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1794,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1813,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b12~1",
+   "quadros": [
+    {
+     "f": 1840,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1860,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1879,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  }
+ ]
+}
