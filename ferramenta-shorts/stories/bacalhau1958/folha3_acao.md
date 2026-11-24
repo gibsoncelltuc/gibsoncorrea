@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
@@ -42,9 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (21.8s) | ACAO: fala | aponta explicando | OK |
-| 2 | proteger (22.8s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b5 - 24.9s a 29.6s - 16 palavras - plano low
 > "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede."

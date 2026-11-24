@@ -46,16 +46,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): ICE (variante 2, expressao stern)
-- Animacao: conversar
+- Personagens principais (0): -
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/navio_leander
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, marinha, pesca
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que a Islândia só tinha barquinhos da guarda costeira, mas el...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ICE (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/barco_guarda
@@ -127,7 +127,7 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b7 | planos abertos: 3 | mistura: close 12% | medio 53% | aberto 31% | detalhe 4%
+- Objeto heroi: kit/cod | grandes momentos: b0, b4, b7 | planos abertos: 3 | mistura: close 14% | medio 53% | aberto 31% | detalhe 1%
 - Interacoes: b2 o outro se aproxima, b7 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 

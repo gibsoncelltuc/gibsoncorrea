@@ -177,9 +177,7 @@
   {
    "say": "A marinha mandou fragatas para proteger os barcos de pesca.",
    "shot": "wide",
-   "who": [
-    "ICE:2:stern"
-   ],
+   "who": [],
    "props": [
     [
      "kit/navio_leander",
@@ -200,7 +198,8 @@
    "h": 9.0,
    "d0": 50,
    "d1": 44,
-   "detalhe": false
+   "detalhe": false,
+   "impact": true
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
@@ -215,7 +214,8 @@
      -6,
      1.0
     ]
-   ]
+   ],
+   "detalhe": false
   },
   {
    "shot": "wide",
