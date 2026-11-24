@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: war/pistol
@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): VEN (variante 0, expressao shout); VIA (variante 0, expressao angry) | multidao: 20 de MOR/VIA
-- Animacao: discutir | batalha encenada
+- Personagens principais (1): VEN (variante 0, expressao shout) | multidao: 20 de MOR/VIA
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga
 - RISCOS: nenhum
@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): VIA (variante 0, expressao shock); MOR (variante 0, expressao angry)
+- Personagens principais (3): VIA (variante 0, expressao shock); VIA (variante 1, expressao nervous); MOR (variante 0, expressao angry)
 - Animacao: discutir | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: vehicles/locomotive, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry) | multidao: 20 de SOL
+- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 20 de SOL
 - Animacao: - | batalha encenada
 - Objetos/modelos: vehicles/locomotive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colombia, indenizacao, panama
@@ -104,8 +104,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Tudo isso por uma fatia de melancia que custava poucos centavos.
 - Cenario: jungle | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): VEN (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/melon
@@ -137,7 +137,7 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 8% | medio 65% | aberto 20% | detalhe 6%
+- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 10% | medio 64% | aberto 20% | detalhe 6%
 - Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b7 insiste, b8 susto
 - RISCOS GERAIS: nenhum
 

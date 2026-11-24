@@ -15,5 +15,5 @@ b9 | orbit | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no ch
 b10 | close | -  | - | - | -
 b11 | two | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 8% | medio 65% | aberto 20% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 64% | aberto 20% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal
