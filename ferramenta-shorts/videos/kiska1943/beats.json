@@ -242,9 +242,10 @@
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
-   "shot": "two",
+   "shot": "group",
    "who": [
-    "USA:1:laugh"
+    "USA:1:laugh",
+    "CAN:0:surprised"
    ],
    "animals": [
     [
@@ -275,7 +276,8 @@
      -1.4,
      1.0
     ]
-   ]
+   ],
+   "shot_lock": true
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
