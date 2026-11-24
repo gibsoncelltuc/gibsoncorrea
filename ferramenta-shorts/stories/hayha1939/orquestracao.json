@@ -10,14 +10,12 @@
  },
  "cenas": [
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "SOV",
-    "SOV",
-    "SOV",
+    "FIN",
     "SOV"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [
     "buildings/barn",
     "nature/haybale",
@@ -40,12 +38,12 @@
    "cenario": "arctic"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "FIN",
     "FIN"
    ],
-   "multidao": 10,
+   "multidao": 48,
    "objetos": [],
    "palavras": 17,
    "cena": "b1",
@@ -114,7 +112,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "arctic"
   },
   {
    "camera": "close",
@@ -130,7 +128,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
@@ -140,7 +138,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/campfire",
     "nature/picket_fence"
    ],
    "palavras": 22,
@@ -153,20 +150,26 @@
    "cenario": "arctic"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "SOV"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [],
    "palavras": 8,
    "cena": "b7",
    "frase": "Os soviéticos passaram a chamá-lo de Morte Branca.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
@@ -204,7 +207,7 @@
   {
    "camera": "two",
    "personagens": [
-    "SOV"
+    "FIN"
    ],
    "multidao": 0,
    "objetos": [],

@@ -82,7 +82,7 @@
     "ALU:0:suspicious:paper"
    ],
    "acao": "discutir",
-   "say": "O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos de carbono que ninguém sabia arrumar.",
+   "say": "O professor August Kekulé tinha um problema: o benzeno, com seis carbonos que ninguém sabia arrumar.",
    "hud": {
     "contador": {
      "de": 0,
@@ -120,28 +120,7 @@
   },
   {
    "shot": "close",
-   "interior": "madeira",
    "hora": "noite",
-   "who": [
-    "KEK:0:surprised"
-   ],
-   "props": [
-    [
-     "kit/snake_ring",
-     1.2,
-     -0.4,
-     1.9
-    ],
-    [
-     "mk/Chair_1",
-     0.0,
-     0.95,
-     1.3,
-     {
-      "drop": false
-     }
-    ]
-   ],
    "fx": [
     "stars@20",
     "ring@50"
@@ -151,7 +130,15 @@
     "sting@50"
    ],
    "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.",
-   "explica": false
+   "explica": {
+    "objeto": "kit/snake_ring",
+    "manobra": "gira",
+    "passos": [
+     "ÁTOMOS",
+     "COBRA",
+     "ANEL"
+    ]
+   }
   },
   {
    "shot": "low",
@@ -174,7 +161,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!"
+   "say": "Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!"
   },
   {
    "shot": "two",
@@ -198,16 +185,6 @@
     "ding@40"
    ],
    "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "KEK:0:smug",
-    "COL:0:shock"
-   ],
-   "interacao": "entregar",
-   "say": "Os colegas ficaram de boca aberta."
   },
   {
    "shot": "group",
@@ -236,7 +213,7 @@
    ],
    "text": "FESTA",
    "titulo": true,
-   "say": "Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez.",
+   "say": "Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pela primeira vez.",
    "interior": "pedra"
   },
   {
@@ -267,7 +244,7 @@
  ],
  "variar_cenario": false,
  "cinf": 1.5,
- "exp": 1.761,
+ "exp": 1.972,
  "regiao": "europa",
  "visual": {
   "local": "Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laboratorio; Berlim: salao de festa da Sociedade Alema de Quimica",
@@ -295,6 +272,9 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
    "https://en.wikipedia.org/wiki/Benzene#History"
+  ],
+  "explicacoes": [
+   "Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim"
   ]
  }
 }

@@ -9,6 +9,7 @@
   "cenarios": [
    "interior madeira",
    "interior pedra",
+   "loc_estudio",
    "street"
   ],
   "cenarios_trocados": []
@@ -34,8 +35,9 @@
   "kit/fireplace",
   "kit/frasco",
   "kit/marco_viena",
+  "kit/room_azul_stone",
   "kit/room_europa_wood",
-  "kit/room_verde_stone",
+  "kit/room_verde_wood",
   "kit/snake_ring",
   "kit/tubos",
   "mk/Barrel",
@@ -45,8 +47,13 @@
   "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
+  "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
   "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers",
   "nature/lamppost"
  ],
  "pesquisa_visual": {
@@ -75,6 +82,9 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
    "https://en.wikipedia.org/wiki/Benzene#History"
+  ],
+  "explicacoes": [
+   "Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim"
   ]
  },
  "fontes": [],
