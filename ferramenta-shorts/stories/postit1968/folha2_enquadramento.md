@@ -29,7 +29,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b3: "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SIL (cientista) no centro, expressao shock, segura paper; sem multidao; acao: fala/gesto
+- PERSONAGENS: SIL (cientista) na esquerda, expressao shock, segura paper; CHE (empresario) na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
@@ -65,10 +65,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@40
 
 ## b8: "O papel saiu amarelo por acaso: era o único de rascunho à mão."
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
-- PERSONAGENS: FRY na esquerda, expressao grin; SIL (cientista) na direita, expressao laugh; sem multidao; acao: abracar
-- OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/postit no centro, manobra "gira"
+- PASSOS NA TELA: PAPEL DE RASCUNHO -> AMARELO -> POR ACASO
 
 ## b9: "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -83,8 +82,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
-- PERSONAGENS: SIL (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/postit: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
+- PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
 

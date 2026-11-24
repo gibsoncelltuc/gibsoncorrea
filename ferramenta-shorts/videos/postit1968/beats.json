@@ -116,7 +116,8 @@
    "shot": "two",
    "interior": "madeira",
    "who": [
-    "SIL:0:shock:paper"
+    "SIL:0:shock:paper",
+    "CHE:0:suspicious"
    ],
    "fx": [
     "ring@30"
@@ -278,41 +279,16 @@
    "d1": 8.0
   },
   {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "FRY:0:grin",
-    "SIL:0:laugh"
-   ],
-   "interacao": "abracar",
-   "props": [
-    [
-     "kit/postit",
-     0.0,
-     -1.2,
-     1.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
    "say": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/postit",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
+   "explica": {
+    "objeto": "kit/postit",
+    "manobra": "gira",
+    "passos": [
+     "PAPEL DE RASCUNHO",
+     "AMARELO",
+     "POR ACASO"
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "crowd",
@@ -375,13 +351,14 @@
   {
    "shot": "two",
    "who": [
-    "SIL:0:smile"
+    "SIL:0:smile",
+    "CHE:0:grin"
    ],
    "props": [
     [
      "kit/postit",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -392,21 +369,21 @@
    "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/postit",
-      "lugar": "MEIO, direita (objeto principal da cena)",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "visual": {
@@ -435,6 +412,9 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Post-it_Note",
    "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/"
+  ],
+  "explicacoes": [
+   "O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia \"Post-it Note\")."
   ]
  }
 }

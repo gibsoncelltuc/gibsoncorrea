@@ -69,9 +69,10 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
-    "SIL"
+    "SIL",
+    "CHE"
    ],
    "multidao": 0,
    "objetos": [],
@@ -158,22 +159,23 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "FRY",
-    "SIL"
-   ],
+   "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/postit"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b8",
    "frase": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/postit (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "crowd",
@@ -204,7 +206,8 @@
   {
    "camera": "two",
    "personagens": [
-    "SIL"
+    "SIL",
+    "CHE"
    ],
    "multidao": 0,
    "objetos": [

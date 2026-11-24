@@ -1,41 +1,6 @@
 {
  "fails": [
   {
-   "f": 94,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 96,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 100,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 104,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 108,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
    "f": 448,
    "shot": "b3",
    "why": [
@@ -375,91 +340,42 @@
    "f": 1650,
    "shot": "b10_v",
    "why": [
-    "sil: head/torso cropped (box -0.987, -0.274, -0.081, 0.64)"
+    "sil: head/torso cropped (box -0.735, -0.14, -0.002, 0.617)"
    ]
   },
   {
    "f": 1652,
    "shot": "b10_v",
    "why": [
-    "sil: head/torso cropped (box -0.992, -0.271, -0.077, 0.644)"
+    "sil: head/torso cropped (box -0.738, -0.137, 0.002, 0.619)"
    ]
   },
   {
    "f": 1656,
    "shot": "b10_v",
    "why": [
-    "sil: head/torso cropped (box -0.93, -0.227, -0.033, 0.673)"
+    "sil: head/torso cropped (box -0.687, -0.102, 0.041, 0.642)"
    ]
   },
   {
    "f": 1660,
    "shot": "b10_v",
    "why": [
-    "sil: head/torso cropped (box -0.748, -0.118, 0.072, 0.734)"
+    "sil: head/torso cropped (box -0.539, -0.017, 0.132, 0.692)"
    ]
   },
   {
    "f": 1664,
    "shot": "b10_v",
    "why": [
-    "empty take: no character in the take"
+    "sil: head/torso cropped (box -0.349, 0.101, 0.262, 0.757)"
    ]
   },
   {
    "f": 1668,
    "shot": "b10_v",
    "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1672,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1676,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1712,
-   "shot": "b10_v",
-   "why": [
-    "sil: head/torso cropped (box -0.025, 0.406, 0.386, 0.996)"
-   ]
-  },
-  {
-   "f": 1716,
-   "shot": "b10_v",
-   "why": [
-    "sil: head/torso cropped (box -0.029, 0.406, 0.393, 0.997)"
-   ]
-  },
-  {
-   "f": 1720,
-   "shot": "b10_v",
-   "why": [
-    "sil: head/torso cropped (box -0.038, 0.406, 0.397, 0.998)"
-   ]
-  },
-  {
-   "f": 1724,
-   "shot": "b10_v",
-   "why": [
-    "sil: head/torso cropped (box -0.039, 0.405, 0.391, 0.999)"
-   ]
-  },
-  {
-   "f": 1725,
-   "shot": "b10_v",
-   "why": [
-    "sil: head/torso cropped (box -0.039, 0.405, 0.402, 1)"
+    "sil: head/torso cropped (box -0.15, 0.221, 0.393, 0.815)"
    ]
   }
  ],

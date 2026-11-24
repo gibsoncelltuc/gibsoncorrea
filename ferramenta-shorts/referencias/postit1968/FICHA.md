@@ -7,12 +7,12 @@
 - Roupas: {'SIL': 'jaleco branco de laboratorio e oculos (anos 60)', 'FRY': 'camisa, gravata e oculos (anos 70)', 'CHE': 'executivo de terno', 'PAD': 'pastor de batina escura', 'POV': 'moradores dos anos 70'}
 - Cenario real: laboratorio com bancadas e frascos, igreja com bancos e hinarios, loja com prateleiras, rua de cidade americana
 - Objetos: ['bloquinho amarelo de post-it', 'hinario com marcadores caindo', 'frascos de cola', 'amostras gratis']
-- Cenarios usados no video: countryside, interior madeira, interior pedra, street
+- Cenarios usados no video: countryside, interior madeira, interior pedra, loc_estudio, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)
-- -
+- O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia "Post-it Note").
 
 ## Fontes visuais
 - https://en.wikipedia.org/wiki/Post-it_Note

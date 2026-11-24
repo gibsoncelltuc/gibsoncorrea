@@ -113,6 +113,14 @@
     "factory 1968",
     "factory"
    ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
+   "consultas": [
+    "papel amarelo acaso rascunho",
+    "postit diagram"
+   ]
   }
  ]
 }

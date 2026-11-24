@@ -43,19 +43,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b3 - 13.2s a 18.1s - 15 palavras - plano close
+## Cena b3 - 13.2s a 18.1s - 15 palavras - plano group
 > "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (13.9s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | soltava (16.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: sai na palavra saiu (13.9s): executa: sai andando pela lateral
 - ACAO: x_solta na palavra soltava (16.5s): executa: solta/liberta + brilho
+- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
@@ -81,13 +83,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cantava (28.8s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_canta na palavra cantava (28.8s): executa: canta de bracos abertos + onda de som
-- INTERACAO (a cena toda): executa: avanca e o outro recua
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 - multidao de 4: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -98,13 +100,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | caindo (33.4s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: desaba na palavra caindo (33.4s): executa: desaba: nuvem de poeira + tremor
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -125,16 +127,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (41.8s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | abracar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: sai na palavra saiu (41.8s): executa: sai andando pela lateral
-- INTERACAO (a cena toda): executa: abracar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b9 - 45.6s a 50.1s - 13 palavras - plano crowd
 > "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar."
@@ -165,15 +158,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (53.4s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (53.4s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | falhou (56.5s) | ACAO: perde | mao na testa | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1980 | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
+| 7 | - | PLACA | 1980 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegou (53.4s): executa: poeira + som
 - ACAO: chega na palavra chegou (53.4s): executa: entra andando pela lateral
 - ACAO: perde na palavra falhou (56.5s): executa: mao na testa
+- INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
+- CHEGADA (a cena toda): executa: alguem entra andando
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
