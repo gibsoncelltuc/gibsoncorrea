@@ -125,10 +125,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "track",
    "personagens": [
-    "MAN",
-    "GAU"
+    "GAU",
+    "MAN"
    ],
    "multidao": 0,
    "objetos": [

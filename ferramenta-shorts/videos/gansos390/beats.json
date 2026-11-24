@@ -201,17 +201,17 @@
    "shot_lock": true
   },
   {
-   "shot": "two",
+   "shot": "track",
    "who": [
-    "MAN:0:angry",
-    "GAU:0:scared"
+    "GAU:0:scared",
+    "MAN:0:angry"
    ],
    "props": [
     [
      "buildings/castle_tower",
-     0.0,
-     -10.0,
-     2.4
+     -4.0,
+     -16.0,
+     1.6
     ]
    ],
    "fachada": false,

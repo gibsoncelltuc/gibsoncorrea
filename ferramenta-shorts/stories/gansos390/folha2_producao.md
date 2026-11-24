@@ -64,14 +64,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - O barulho acordou o soldado Marco Mânlio, que correu até a muralha e i...
 - Cenario: loc_campo | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared)
-- Animacao: tomba | interacao: cochichar
+- Personagens principais (2): GAU (variante 0, expressao scared); MAN (variante 0, expressao angry)
+- Animacao: tomba
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, gauleses, muralha, soldado, subida
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+- RISCOS: nenhum
 
 ## Cena b7 - A subida fracassou, mas os gauleses mantiveram o cerco.
 - Cenario: loc_campo | luz: noite | clima: limpo
@@ -125,11 +124,10 @@ buildings/castle_tower | b2, b6 | pronto | conferir na folha de contato se le be
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b3 | planos abertos: 6 | mistura: close 10% | medio 46% | aberto 42% | detalhe 2%
-- Interacoes: b2 susto, b6 cochichar, b8 entregar
+- Interacoes: b2 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b6: a narracao fala de FUGA/CORRERIA e ninguem corre
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh gansos390 bN bM` (so essas cenas).
