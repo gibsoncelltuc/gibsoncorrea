@@ -125,13 +125,13 @@ kit/balloon | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 - Interacoes: b0 susto, b1 avanca e o outro recua, b2 discutir, b5 tremem de frio
 - RISCOS GERAIS: 
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - video com ~43 s (o canal fica entre 55 e 75 s) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar entre 55 e 75 s
+  - video com ~43 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - objeto heroi kit/panela nao aparece em nenhuma cena -> CORRECAO: por kit/panela em "props" de pelo menos uma cena (ou tirar de "herois")
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paris1870  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paris1870/moodboard.jpg
 
 ## RESUMO: 4 risco(s) em aberto
 - geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: video com ~43 s (o canal fica entre 55 e 75 s)
+- geral: video com ~43 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: objeto heroi kit/panela nao aparece em nenhuma cena
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
