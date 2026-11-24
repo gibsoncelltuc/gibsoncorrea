@@ -34,6 +34,10 @@ if [ "$(cat stories/$ID/STORYBOARD_OK 2>/dev/null)" != "$H3" ]; then
 fi
 rm -f stories/$ID/AGUARDA_STORYBOARD
 # trechos ja renderizados de OUTRA versao das folhas nao servem: apaga e renderiza de novo (nunca juntar quadro antigo no video novo)
+# VERSAO DA FERRAMENTA (24/11, Gibson: "uma parte do video nao pode sair do jeito antigo e o resto do jeito novo"): o selo dos trechos junta a versao das folhas
+# com a versao do motor. Se a ferramenta foi atualizada, os trechos ja renderizados sao descartados e o video e' renderizado INTEIRO na versao nova.
+tv() { cat web/head.js web/core.js web/tail.js web/runtime.js web/acting.js web/vfx.js web/weather.js web/toonbase.js web/sets/*.js mkvideo.py audio_story.py 2>/dev/null | md5sum | cut -c1-10; }
+TV0=$(tv); H3="$H3-$TV0"
 if [ "$(cat ckpt/$ID/folha3.hash 2>/dev/null)" != "$H3" ]; then rm -rf ckpt/$ID out/$ID/frames; mkdir -p ckpt/$ID; echo "$H3" > ckpt/$ID/folha3.hash; log "trechos antigos descartados (versao nova das folhas)"; fi
 ./build3.sh $ID >/dev/null 2>&1; python3 verificar_folhas.py $ID --render >> $L 2>&1 || { log "BLOQUEADO: o render nao carrega a folha 3"; exit 1; }; N=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'))['frames30'])")
 ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
@@ -41,5 +45,6 @@ log "render $N quadros (trechos de 150, retomavel)"
 set +e; node render_pool.mjs $ID $N >> $L 2>&1; RC=$?; set -e; tail -3 $L
 [ $RC -eq 75 ] && { log "PAUSADO pela trava de seguranca; relance run_queue.sh para continuar"; exit 75; }
 [ $RC -ne 0 ] && { log "render incompleto (codigo $RC)"; exit 1; }
+if [ "$(tv)" != "$TV0" ]; then log "a ferramenta foi atualizada DURANTE o render: descartando e refazendo o video inteiro na versao nova"; rm -rf ckpt/$ID out/$ID/frames stories/$ID/stages/fit stories/$ID/stages/gate stories/$ID/stages/style; exit 75; fi
 ./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tee -a $L
 touch stories/$ID/DONE; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "pronto" >/dev/null 2>&1 || true; log "PRONTO out/$ID/$T.mp4 (+ out/$ID/review_sheet.jpg)"
