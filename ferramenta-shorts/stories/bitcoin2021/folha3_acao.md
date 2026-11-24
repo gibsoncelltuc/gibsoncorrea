@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ideia (8.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | MAPA | EL SALVADOR | OK |
 
-## Cena b2 - 10.7s a 17.8s - 20 palavras - plano two
+## Cena b2 - 10.7s a 17.8s - 20 palavras - plano group
 > "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -31,13 +31,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | anunciou (11.1s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | LEI APROVADA | OK |
 
 ## Cena b3 - 18.1s a 25.2s - 20 palavras - plano reveal
 > "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | 7 DE SETEMBRO | OK |
 
 ## Cena b4 - 25.6s a 31.9s - 18 palavras - plano two
@@ -51,16 +52,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | US$ 30 | OK |
 
-## Cena b5 - 32.2s a 36.7s - 13 palavras - plano close
+## Cena b5 - 32.2s a 36.7s - 13 palavras - plano two
 > "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | CARTEIRA CHIVO | OK |
+| 3 | - | PLACA | FORA DO AR | OK |
 
-## Cena b6 - 37.0s a 42.2s - 15 palavras - plano two
+## Cena b6 - 37.0s a 42.2s - 15 palavras - plano group
 > "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

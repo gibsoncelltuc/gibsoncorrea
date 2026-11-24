@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Gerado em 24/11 22:53 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -17,7 +17,7 @@ b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/mount
 b8 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/submarino_moderno (parado); emissao: fogo, vapor; luz: estudio; camera: 2 enquadramentos sem corte seco; som: | Um submarino ainda lançou mísseis contra uma terceira usina.
 b9 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/b2_air (parado); emissao: velocidade; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada | Depois, os aviões voltaram para casa em segurança.
 b10 | simples | interior pedra | two | GEN, POV | - | - | - | Os Estados Unidos disseram que as usinas foram destruídas.
-b11 | chave | hall | crowd | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas até hoje ninguém concorda sobre o tamanho do estrago.
+b11 | chave | hall | orbit | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas até hoje ninguém concorda sobre o tamanho do estrago.
 b12 | simples | hall | close | GEN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

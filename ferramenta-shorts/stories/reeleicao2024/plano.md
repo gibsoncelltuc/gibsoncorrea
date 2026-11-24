@@ -10,10 +10,10 @@ b4 | close | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito)
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 312 VOTOS | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); vitória (stars + som de sino); encena: vence (up) @2 (acao + som de efeito); encena: escala (lift) @7 (acao + som de efeito); encena: fala (point) @11 (acao + som de efeito); encena: vence (up) @12 (acao + som de efeito) | -
 b6 | two | -  | interior, objeto na mao | - | -
 b7 | two | -  | interior, objeto na mao | - | -
-b8 | group | noite  | tropa | - | -
-b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: 47º | - | -
+b8 | orbit | noite  | batalha aberta com tiros, tropa | - | -
+b9 | wide | noite  | tropa, placa: 47º | - | -
 b10 | two | noite  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino); encena: perde (facepalm) @0 (acao + som de efeito); encena: chega (point) @1 (acao + som de efeito); encena: vence (up) @3 (acao + som de efeito) | -
 b11 | close | noite  | placa: COMENTE! | - | -
 
-Mistura de planos: close 22% | medio 62% | aberto 13% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 22% | medio 53% | aberto 22% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal

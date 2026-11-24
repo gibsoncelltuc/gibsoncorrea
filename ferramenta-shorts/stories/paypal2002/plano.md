@@ -8,11 +8,11 @@ b2 | group | -  | interior, placa: E-MAIL = DINHEIRO | dinheiro (stars + som de 
 b3 | two | -  | mapa | encena: sai @2 (acao + som de efeito); encena: negocio (reach) @15 (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
 b5 | two | -  | interior | - | -
-b6 | orbit | -  | batalha aberta com tiros, tropa, placa: SPACEX | - | -
-b7 | wide | -  | tropa, placa: TESLA | - | -
+b6 | wide | -  | tropa, placa: SPACEX | - | -
+b7 | orbit | -  | batalha aberta com tiros, tropa, placa: TESLA | - | -
 b8 | two | -  | - | dinheiro (stars + som de sino); encena: paga (reach) @1 (acao + som de efeito); encena: negocio (reach) @4 (acao + som de efeito); encena: x_entrega (reach) @7 (acao + som de efeito) | -
 b9 | wide | -  | tropa | chegou (dust + som de impacto); encena: chega (point) @5 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 10% | medio 66% | aberto 19% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 67% | aberto 18% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

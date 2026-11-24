@@ -58,21 +58,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b6  (~4.8 s)
 - Narracao: Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@3
-- Texto na tela: SPACEX
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b7  (~5.9 s)
-- Narracao: Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@3
+- Texto na tela: SPACEX
+- Funcao na historia: VIRADA
+
+## Cena b7  (~5.9 s)
+- Narracao: Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: ding@3
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@3
 - Texto na tela: TESLA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.5 s)
 - Narracao: O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.

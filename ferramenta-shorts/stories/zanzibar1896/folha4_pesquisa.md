@@ -28,7 +28,7 @@ objeto | bandeira do sultao | bandeira do sultao / bandeira do sultao 1896 | Tor
 objeto | palacio de madeira em chamas | palacio de madeira em chamas / palacio de madeira em chamas 1896 | Palácio dos Biscainhos - Braga - Portugal (3658419 (referencias/zanzibar1896/prints/palacio_de_madeira_em_chamas_9a1057.jpg); Palácio dos Biscainhos - Braga - Portugal (3658419 (referencias/zanzibar1896/prints/palacio_de_madeira_em_chamas_9a1057.jpg)
 heroi | navio vapor | navio de guerra britanico / A Guerra de 38 Minutos | SEM REFERENCIA
 epoca | navio da epoca | ship 1896 / ship | Viper (ship, 1896) - Cassier's 1897-08.png (referencias/zanzibar1896/prints/navio_da_epoca_72cc04.jpg); SS Pennsylvania (1896).jpg (referencias/zanzibar1896/prints/navio_da_epoca_4fa3d0.jpg); Lifeboat at Grindal Island, South Australia (ca. 1 (referencias/zanzibar1896/prints/navio_da_epoca_73ecf1.jpg)
-mecanismo | O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira | palacio pegou artilharia sultao calada bandeira / forte colonial diagram | SEM REFERENCIA
+mecanismo | O palácio pegou fogo, e a artilharia do sultão foi calada. | palacio pegou artilharia sultao calada / forte colonial diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)

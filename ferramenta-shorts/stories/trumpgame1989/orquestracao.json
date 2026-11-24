@@ -46,7 +46,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV"
@@ -58,9 +58,15 @@
    "palavras": 16,
    "cena": "b1",
    "frase": "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York.",
-   "classe": "transicao",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -134,15 +140,9 @@
    "palavras": 12,
    "cena": "b5",
    "frase": "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },

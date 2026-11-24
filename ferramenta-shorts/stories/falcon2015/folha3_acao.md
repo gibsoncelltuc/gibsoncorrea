@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 17 palavras - plano two
@@ -30,22 +30,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 17.5s a 21.2s - 13 palavras - plano two
+## Cena b3 - 17.5s a 21.2s - 13 palavras - plano wide
 > "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deram (19.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | tombaram (20.7s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | TOMBOU | OK |
 
-## Cena b4 - 22.1s a 25.2s - 13 palavras - plano wide
+## Cena b4 - 22.1s a 25.2s - 13 palavras - plano two
 > "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | decolou (24.2s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | PLACA | 11 SATÉLITES | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 11 SATÉLITES | OK |
 
 ## Cena b5 - 26.6s a 29.7s - 13 palavras - plano wide
 > "Depois de soltar o topo, a parte de baixo voltou para a Terra."
@@ -56,7 +59,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | voltou (28.9s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 30.8s a 34.6s - 15 palavras - plano two
+## Cena b6 - 30.8s a 34.6s - 15 palavras - plano wide
 > "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -64,15 +67,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | desceu (31.7s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 35.7s a 38.2s - 9 palavras - plano orbit
+## Cena b7 - 35.7s a 38.2s - 9 palavras - plano two
 > "E pousou inteira, abrindo as pernas no último segundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pousou (35.9s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
 | 2 | abrindo (36.8s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | POUSOU! | OK |
+| 3 | - | PLACA | POUSOU! | OK |
 
 ## Cena b8 - 39.5s a 41.8s - 8 palavras - plano reveal
 > "Os funcionários da SpaceX comemoraram e se abraçaram."
@@ -85,15 +87,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 43.2s a 46.7s - 16 palavras - plano two
+## Cena b9 - 43.2s a 46.7s - 16 palavras - plano wide
 > "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (46.0s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | pousou (46.4s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | PRIMEIRA VEZ | OK |
+| 3 | - | PLACA | PRIMEIRA VEZ | OK |
 
 ## Cena b10 - 47.9s a 49.4s - 6 palavras - plano two
 > "Hoje, pousar de ré virou rotina."

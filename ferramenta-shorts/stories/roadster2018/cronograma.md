@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Gerado em 24/11 22:55 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,12 +10,12 @@ b0 | simples | harbor | two | MUS | - | roadster, rocket | - | Um carro de verda
 b1 | transicao | harbor | wide | MUS | - | roadster | - | É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoi
 b2 | transicao | harbor | wide | MUS | - | rocket | - | Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em C
 b3 | simples | interior loja | two | ENG | - | roadster | - | Acontece que era só um teste, e em vez de um peso de concreto, Musk re
-b4 | chave | harbor | crowd | ENG | - | falcon_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O foguete decolou com um estrondo!
+b4 | chave | harbor | wide | ENG | - | falcon_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O foguete decolou com um estrondo!
 b5 | simples | interior loja | two | STA | - | roadster | - | No banco do motorista foi sentado um boneco de astronauta, chamado Sta
 b6 | simples | loc_campo | orbit | STA | - | roadster | - | No painel, estava escrito: Não entre em pânico.
 b7 | simples | arctic | wide | ENG | - | globe, roadster | - | O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,
-b8 | simples | arctic | two | MUS | - | roadster | - | E ele continua lá em cima, dando voltas, até hoje.
-b9 | chave | arctic | orbit | MUS | - | roadster, rocket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras
+b8 | chave | arctic | crowd | MUS | - | roadster | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele continua lá em cima, dando voltas, até hoje.
+b9 | simples | arctic | wide | MUS | - | roadster, rocket | - | Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras
 b10 | simples | arctic | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

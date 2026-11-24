@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | pagou (50.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | pagou (50.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 ## Cena b8 - 52.2s a 55.9s - 11 palavras - plano close
 > "Até hoje, não há acordo nem sobre a existência do cachorro."

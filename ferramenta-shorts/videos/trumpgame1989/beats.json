@@ -238,7 +238,7 @@
     "POV:0:bored",
     "POV:1:suspicious"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 16,

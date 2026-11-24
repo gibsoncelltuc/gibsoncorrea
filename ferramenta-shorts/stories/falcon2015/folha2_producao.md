@@ -34,20 +34,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - As primeiras tentativas de pouso deram errado, e os foguetes tombaram ...
 - Cenario: harbor | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguetes, pouso, primeiras
 - RISCOS: nenhum
 
 ## Cena b4 - Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): MUS (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: encena
+- Animacao: conversar
 - Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dezembro, falcon, onze
 - RISCOS: nenhum
@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: kit/falcon9_land
@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - E pousou inteira, abrindo as pernas no último segundo.
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): ENG (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Animacao: encena
 - Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pernas
 - RISCOS: nenhum
@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Foi a primeira vez que o primeiro estágio de um foguete orbital voltou...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, primeira
 - RISCOS: nenhum
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): MUS (variante 0, expressao smile); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -127,11 +127,11 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/falcon9_land | b0, b2, b3, b4, b5, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon9_land | b0, b2, b3, b4, b5, b6, b7, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/falcon9_land | grandes momentos: b7 | planos abertos: 6 | mistura: close 10% | medio 53% | aberto 37% | detalhe 0%
+- Objeto heroi: kit/falcon9_land | grandes momentos: b3 | planos abertos: 7 | mistura: close 10% | medio 40% | aberto 50% | detalhe 0%
 - Interacoes: b10 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

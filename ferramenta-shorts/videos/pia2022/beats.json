@@ -104,10 +104,21 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interior": "pedra",
-   "detalhe": true
+   "detalhe": true,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "say": "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.",
@@ -179,9 +190,21 @@
     "MUS:0:grin"
    ],
    "shot": "two",
-   "props": [],
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
    "interior": "loja",
-   "text": "CHIEF TWIT"
+   "text": "CHIEF TWIT",
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "say": "O vídeo da pia virou piada no mundo inteiro.",

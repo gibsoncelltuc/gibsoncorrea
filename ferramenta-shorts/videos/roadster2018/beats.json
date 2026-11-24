@@ -263,7 +263,7 @@
     "sting@50"
    ],
    "impact": true,
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 0
@@ -516,7 +516,7 @@
    "sfx": [
     "ding@20"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {

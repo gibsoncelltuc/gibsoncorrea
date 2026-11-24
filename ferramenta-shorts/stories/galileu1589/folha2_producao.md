@@ -55,9 +55,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b5 - Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo ...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): GAL (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir | batalha encenada
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, duas
 - RISCOS: nenhum
@@ -75,9 +75,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b7 - Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um ...
 - Cenario: arctic | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AST (variante 0, expressao laugh); AST (variante 1, expressao shock) | multidao: 8 de AST
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: tools/hammer, kit/feather
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronauta, dois, martelo, pena
 - RISCOS: nenhum

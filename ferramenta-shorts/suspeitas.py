@@ -6,11 +6,12 @@ import json, re, sys, unicodedata, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import sentido
 ID = sys.argv[1]; B = json.load(open(f'videos/{ID}/beats.json')); BT = B['beats']
 n = lambda t: unicodedata.normalize('NFKD', str(t).lower()).encode('ascii', 'ignore').decode()
-MUITA = r'\b(multidao|milhares|centenas|todo mundo|pais inteiro|cidade inteira|povo|exercito|tropas?|soldados|batalhao|plateia|torcida|torcedores|moradores|funcionarios|manifestantes|dancarinos|pessoas)\b'
+MUITA = r'\b(multidao|milhares|centenas|todo mundo|pais inteiro|cidade inteira|povo|exercito|tropas?|soldados|batalhao|plateia|torcida|torcedores|moradores|funcionarios|manifestantes|dancarinos|pessoas|congresso|assembleia|parlamento|senado|deputados|vereadores|eleitores|plateia|convidados)\b'
 ANIM = r'\b(cavalos?|ursos?|porcos?|galinhas?|emus?|gansos?|vacas?|bois?|cachorros?|caes|gatos?|ovelhas?|cabras?|burros?|veados?|raposas?|lobos?|coelhos?|leao|leoes|elefantes?|patos?|galos?|gaivotas?|passaros|passarinhos|tentilhoes|abelhas?)\b'
 NOITE = r'\b(noite|madrugada|meia-noite|escuro|de noite)\b'
 EXTERNO = r'\b(no mar|na praia|no campo|na rua|nas ruas|na floresta|na mata|no monte|na montanha|no deserto|no ceu|no cais|no porto|na ilha)\b'
 out = []
+_am = re.search(r'(\d{3,4})$', ID); _ANO = int(B.get('ano') or (_am.group(1) if _am else 2000)) if str(B.get('ano') or (_am.group(1) if _am else 2000)).isdigit() else 2000   # celular so' depois de 2007, TV de 1950 em diante
 for k, b in enumerate(BT):
     if b.get('explica') or b.get('mapa') and len((b.get('say') or '').split()) < 8: continue
     s = n(b.get('say', '')); who = b.get('who') or []; cr = (b.get('crowd') or {}).get('n') or 0; fx = ' '.join(b.get('fx') or [])
@@ -18,9 +19,15 @@ for k, b in enumerate(BT):
     _mm = re.search(MUITA, s); _negm = bool(_mm and re.match(r'\s+(nunca|nao|jamais)\b', s[_mm.end():])) or bool(_mm and re.match(r'(milhares|centenas)$', _mm.group(1)) and not re.match(r'\s+de\s+(pessoas|soldados|homens|mulheres|moradores|torcedores|manifestantes|fas|trabalhadores|operarios|criancas)', s[_mm.end():])) or bool(_mm and re.search(r'\b(nao|nunca|nem|sem|ninguem)\b(\s+\w+){0,3}\s*$', s[:_mm.start()]))
     if _mm and not _negm and not cr and len(who) < 3 and not b.get('batalha') and not b.get('emus'):
         out.append((k, 'a frase fala de MUITA GENTE e a cena tem ' + str(len(who)) + ' pessoa(s) e nenhuma multidao'))
+    TELA = r'\b(aplicativo|app|site|internet|e-?mail|tweet\w*|postou|postava|perfil|redes sociais|celular|online|computador|videogame|transmissao|ao vivo na tv|televisao)\b'
+    _tem_tela = any(re.search(r'phone|tv|telao|computer|pc|laptop|monitor|screen|pong|chess_pc|tablet', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))
+    if re.search(TELA, s) and not _tem_tela and b.get('tela') is not False and not b.get('explica') and not b.get('mapa') and not b.get('_cta'):
+        out.append((k, 'a frase fala de CELULAR/INTERNET/TELA e a cena nao tem celular nem tela'))
     _bich = any(re.search(r'bee|abelha|finch|bird|passar|emu|gans|goose|chicken|galinh|horse|cavalo|pig|porco|dog|cow|fish|peixe|lagosta|lobster', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))
     if re.search(ANIM, s) and not (b.get('animals') or b.get('emus') or b.get('montado') or _bich) and not re.search(r'cavalaria', s):
         out.append((k, 'a frase cita ANIMAL e a cena nao tem animal'))
+    if b.get('batalha') is True and not re.search(r'guerra|batalha|lut|atac|invad|tiro|atir|dispar|bomb|explo|soldad|tropa|exercito|combat|canh|fogo|arma|metralh|espada|duelo|briga|captur|ofensiv', s):
+        out.append((k, 'cena com BATALHA e a frase nao fala de luta nenhuma'))
     if sc.get('sem_violencia') and (b.get('batalha') is True or 'burst' in fx or b.get('impact')):
         out.append((k, 'frase SEM violencia de verdade (' + '; '.join(sentido.explicar(b.get('say', ''))) + ') e a cena tem batalha/explosao'))
     if re.search(sentido.DISPARO.replace(r'acert\w*|ating\w*|', ''), s) and not sc.get('sem_violencia') and b.get('tiros') is False and 'burst' not in fx and not b.get('acoes'):
@@ -40,6 +47,10 @@ if '--corrigir' in sys.argv and out:
         b = BT[k]
         if m.startswith('a frase cita ANIMAL') and _bichos and not b.get('_susp_ok'):
             b.setdefault('props', []).append([_bichos[0][0], 0.9, 1.0, _bichos[0][3] if len(_bichos[0]) > 3 and not isinstance(_bichos[0][3], dict) else 1.2, {'fixo': True}]); b['_susp_ok'] = True; feito.append(f'b{k}: {_bichos[0][0]} posto na cena')
+        elif m.startswith('cena com BATALHA e a frase nao fala'):
+            b['batalha'] = False; b['tiros'] = False; feito.append(f'b{k}: batalha desligada (frase sem luta)')
+        elif m.startswith('a frase fala de CELULAR') and not b.get('_susp_tela') and _ANO >= 1950:
+            b.setdefault('props', []).append(['kit/tv' if (_ANO < 2007 or re.search(r'televis|transmiss|ao vivo', n(b.get('say', '')))) else 'kit/phone', 0.0, -0.8, 0.9, {'fixo': True}]); b['_susp_tela'] = True; b['_susp_ok'] = True; feito.append(f'b{k}: celular/tela posto na cena')
         elif m.startswith('a frase fala de MUITA GENTE') and not b.get('interior') and not b.get('_susp_ok'):
             ofs = sorted({str(w).split(':')[0] for w in (b.get('who') or [])}) or ['POV']; b['crowd'] = {'n': 12, 'outfits': ofs, 'march': False}; b['_susp_ok'] = True; feito.append(f'b{k}: multidao de 12 ({", ".join(ofs)})')
     if feito:

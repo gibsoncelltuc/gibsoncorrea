@@ -67,12 +67,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b7  (~5.5 s)
 - Narracao: Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.1 s)
 - Narracao: Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.
@@ -90,7 +90,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito; encena: constroi (hammer) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: CIDADE BITCOIN
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b10  (~3.4 s)
 - Narracao: Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.

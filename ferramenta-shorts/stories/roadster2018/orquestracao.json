@@ -89,7 +89,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "ENG"
    ],
@@ -168,7 +168,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "MUS"
    ],
@@ -179,14 +179,20 @@
    "palavras": 10,
    "cena": "b8",
    "frase": "E ele continua lá em cima, dando voltas, até hoje.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "arctic"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -198,15 +204,9 @@
    "palavras": 17,
    "cena": "b9",
    "frase": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },

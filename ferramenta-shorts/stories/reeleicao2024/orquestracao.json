@@ -172,7 +172,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "TRU"
    ],
@@ -184,14 +184,20 @@
    "palavras": 16,
    "cena": "b8",
    "frase": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "TRU"
    ],
@@ -203,15 +209,9 @@
    "palavras": 15,
    "cena": "b9",
    "frase": "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },

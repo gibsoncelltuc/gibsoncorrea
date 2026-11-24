@@ -66,20 +66,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.7s a 38.5s - 14 palavras - plano orbit
+## Cena b6 - 33.7s a 38.5s - 14 palavras - plano wide
 > "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | SPACEX | OK |
+| 1 | - | PLACA | SPACEX | OK |
 
-## Cena b7 - 38.9s a 44.8s - 17 palavras - plano wide
+## Cena b7 - 38.9s a 44.8s - 17 palavras - plano orbit
 > "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | TESLA | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | TESLA | OK |
 
 ## Cena b8 - 45.2s a 49.6s - 13 palavras - plano two
 > "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros."

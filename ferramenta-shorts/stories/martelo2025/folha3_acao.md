@@ -86,12 +86,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DESTRUÍDAS? | OK |
 
-## Cena b11 - 53.0s a 55.3s - 10 palavras - plano crowd
+## Cena b11 - 53.0s a 55.3s - 10 palavras - plano orbit
 > "Mas até hoje ninguém concorda sobre o tamanho do estrago."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 ## Cena b12 - 56.6s a 60.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

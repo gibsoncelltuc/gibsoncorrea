@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): EBY (variante 0, expressao grin); MUS (variante 0, expressao surprised); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/coin
+- Objetos/modelos: kit/coin, kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilhao, dolares, servico
 - RISCOS: nenhum
 
@@ -64,20 +64,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: - | batalha encenada
+- Animacao: -
 - Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, foguetes, spacex
 - RISCOS: nenhum
 
 ## Cena b7 - Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétric...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carros, conselho, fabrica, tesla
 - RISCOS: nenhum
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land
+- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, internet, venda
 - RISCOS: nenhum
 
@@ -118,15 +118,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/coin | b0, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tv | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b2, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon9_land | b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon_air | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b6 | planos abertos: 3 | mistura: close 10% | medio 66% | aberto 19% | detalhe 4%
+- Objeto heroi: kit/coin | grandes momentos: b7 | planos abertos: 3 | mistura: close 11% | medio 67% | aberto 18% | detalhe 4%
 - Interacoes: b0 entregar, b1 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b5 avanca e o outro recua, b8 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paypal2002  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paypal2002/moodboard.jpg

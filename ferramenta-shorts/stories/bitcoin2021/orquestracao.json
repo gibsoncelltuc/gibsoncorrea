@@ -59,12 +59,13 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
+    "DEP",
     "DEP",
     "BUK"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
     "kit/bitcoin"
    ],
@@ -75,7 +76,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "reveal",
@@ -123,12 +124,14 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "CLI"
    ],
    "multidao": 10,
-   "objetos": [],
+   "objetos": [
+    "kit/phone"
+   ],
    "palavras": 13,
    "cena": "b5",
    "frase": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
@@ -145,7 +148,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "CLI",
     "POV"

@@ -351,6 +351,15 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -380,7 +389,9 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -395,6 +406,15 @@
      0.0,
      -1.2,
      1.1,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
      {
       "fixo": true
      }
@@ -429,7 +449,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "say": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Gerado em 24/11 22:53 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | loc_montanha | two | FRI, COL | - | bee, beehive | - | Comida per
 b5 | simples | loc_montanha | low | FRI | - | bee, beehive | - | E o mais incrível: o ângulo da rebolada mostrava a direção, comparada 
 b6 | simples | loc_montanha | two | FRI, ASS | - | bee, beehive | - | Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
 b7 | simples | interior madeira | two | COL, FRI | - | - | - | Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada
-b8 | chave | loc_montanha | crowd | POV, COL, FRI | 30 | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
+b8 | chave | loc_montanha | orbit | POV, COL, FRI | 30 | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 b9 | simples | interior pedra | group | FRI, ASS, COL | 4 | - | - | Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobe
 b10 | simples | loc_campo | two | FRI | - | bee, beehive | - | Da próxima vez que vir uma abelha, lembre: ela pode estar contando um 
 b11 | simples | loc_campo | close | FRI | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 21 - A Volta de Trump
 
-Gerado em 24/11 22:55 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,8 +14,8 @@ b4 | simples | interior loja | close | REP | - | - | - | Acontece que Trump venc
 b5 | chave | hall | crowd | TRU | - | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl
 b6 | simples | interior galpao | two | REP, POV | - | - | - | Foi um feito raro: ele virou só o segundo presidente da história com d
 b7 | simples | interior madeira | two | REP, POV | - | scroll | - | O primeiro foi Grover Cleveland, há mais de cento e trinta anos.
-b8 | simples | loc_pista | group | TRU | - | marco_casabranca, white_house | - | Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no
-b9 | chave | loc_pista | orbit | TRU | - | marco_casabranca, white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare
+b8 | chave | loc_pista | orbit | TRU | - | marco_casabranca, white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no
+b9 | transicao | loc_pista | wide | TRU | - | marco_casabranca, white_house | - | Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare
 b10 | simples | loc_cidade | two | TRU | - | ballot_box | - | Perdeu, voltou e ganhou. Uma das maiores viradas da política americana
 b11 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

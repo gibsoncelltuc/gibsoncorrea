@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b1  (~5.5 s)
 - Narracao: Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: ESTADOS UNIDOS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~5.9 s)
 - Narracao: Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hotéis até ficar o mais rico.
@@ -54,7 +54,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: vender -> stars + som de sino; vendeu -> stars + som de sino; encena: x_espera (cross) @2 -> acao + som de efeito; encena: negocio (reach) @3 -> acao + som de efeito; encena: negocio (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: 800 MIL
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.1 s)
 - Narracao: Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.

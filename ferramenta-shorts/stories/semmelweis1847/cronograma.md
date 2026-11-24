@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Gerado em 24/11 22:55 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | interior hospital | group | MAE, SEM | - | - | - | Acontece que, 
 b4 | simples | interior hospital | two | KOL, SEM | - | - | - | Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e 
 b5 | simples | interior hospital | close | SEM | - | - | - | Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, 
 b6 | simples | interior hospital | two | SEM, KOL | - | wash_basin | - | Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a la
-b7 | chave | loc_campo | crowd | SEM, MAE, PAR | 16 | marco_viena, wash_basin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | As mortes despencaram quase dez vezes.
+b7 | chave | loc_campo | orbit | SEM, MAE, PAR | 16 | marco_viena, wash_basin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | As mortes despencaram quase dez vezes.
 b8 | simples | interior hospital | two | DIR, SEM | - | - | - | Mas os médicos se ofenderam, e Semmelweis foi mandado embora.
 b9 | simples | loc_campo | two | MAE | - | lapide | - | Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.
 b10 | simples | loc_campo | close | PAR | - | wash_basin | - | Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de

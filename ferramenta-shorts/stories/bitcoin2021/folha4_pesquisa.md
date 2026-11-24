@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2021 | Lugar: Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021 | Quando: junho a setembro de 2021, dia
 - HEROIS (objeto): kit/bitcoin, kit/volcano
 - HEROIS (personagens): BUK, CLI
-- Cenarios: interior pedra, loc_cidade, loc_patio, loc_pista
+- Cenarios: loc_cidade, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

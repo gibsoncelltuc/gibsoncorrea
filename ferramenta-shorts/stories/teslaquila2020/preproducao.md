@@ -11,8 +11,8 @@ b3 | interior loja | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
 b4 | loc_pista | crowd | 14 | discutir, batalha | kit/veg_cacto, kit/tequila_bolt | - | -
 b5 | loc_pista | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt, kit/veg_cacto, kit/roadster | - | -
 b6 | interior loja | two | 1 | comemorar | kit/tequila_bolt | - | -
-b7 | loc_cidade | crowd | 23 | comemorar, batalha | kit/tequila_bolt | - | -
-b8 | interior loja | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt | paper | -
+b7 | loc_cidade | orbit | 23 | comemorar, batalha | kit/tequila_bolt | - | -
+b8 | interior loja | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt, kit/phone | paper | -
 b9 | loc_patio | two | 1 | comemorar | kit/tequila_bolt | - | -
 b10 | loc_cidade | close | 1 | conversar | - | - | -
 

@@ -54,6 +54,15 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/tv",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "US$ 1,5 BILHÃO",
@@ -81,7 +90,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -319,6 +330,15 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.",
@@ -349,7 +369,9 @@
     ]
    },
    "objetos": false,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "shot": "wide",
@@ -369,7 +391,8 @@
       "fixo": true
      }
     ]
-   ]
+   ],
+   "tela": false
   }
  ],
  "fontes": [

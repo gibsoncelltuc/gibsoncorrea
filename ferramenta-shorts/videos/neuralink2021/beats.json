@@ -111,7 +111,20 @@
     "MUS:0:suspicious"
    ],
    "acao": "conversar",
-   "say": "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador."
+   "say": "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador.",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -242,7 +255,7 @@
     "POV:1:surprised",
     "MUS:0:grin"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 14,

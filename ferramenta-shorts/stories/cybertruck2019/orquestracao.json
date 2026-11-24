@@ -121,6 +121,7 @@
    "multidao": 0,
    "objetos": [
     "kit/cybertruck",
+    "kit/phone",
     "kit/steel_ball"
    ],
    "palavras": 19,
@@ -140,7 +141,8 @@
    ],
    "multidao": 30,
    "objetos": [
-    "kit/globe"
+    "kit/globe",
+    "kit/phone"
    ],
    "palavras": 16,
    "cena": "b6",

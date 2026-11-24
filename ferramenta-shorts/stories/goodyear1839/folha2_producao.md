@@ -25,9 +25,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b2 - A borracha estava na moda, mas derretia no calor e rachava no frio. Bo...
 - Cenario: street | luz: desert | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): GOO (variante 0, expressao sad); POV (variante 0, expressao angry) | multidao: 12 de POV
-- Animacao: discutir | batalha encenada
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio, meleca, moda, verao
 - RISCOS: nenhum
@@ -84,20 +84,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Mas outros copiaram a ideia, e ele morreu cheio de dívidas.
 - Cenario: hall | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): COB (variante 0, expressao smug); GOO (variante 0, expressao angry) | multidao: 6 de POV
-- Animacao: discutir | interacao: discutir
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dividas
 - RISCOS: nenhum
 
 ## Cena b9 - Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu...
 - Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); CLA (variante 0, expressao smile) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/tires, kit/ball, kit/stove, kit/borracha
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
 - RISCOS: nenhum
@@ -134,8 +134,8 @@ kit/ball | b9 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 12% | medio 77% | aberto 11% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 discutir
+- Objeto heroi: kit/borracha | grandes momentos: b2, b8 | planos abertos: 3 | mistura: close 12% | medio 76% | aberto 10% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

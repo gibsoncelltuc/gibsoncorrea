@@ -42,10 +42,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Contam que teve gente que trocou terras e casas por um único bulbo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: entrega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Texto na tela: 1 CASA = 1 BULBO
+- Funcao na historia: desenvolvimento
 
 ## Cena b5  (~3.8 s)
 - Narracao: Ninguém queria a flor. Queriam revender mais caro na semana seguinte.

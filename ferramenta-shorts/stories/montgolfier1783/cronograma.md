@@ -1,21 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Gerado em 24/11 22:55 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | JOS | - | balloon, marco_versalhes | - | Os primeiros passageiros de um balão não foram pessoas. Foram uma ovel
-b1 | transicao | street | reveal | POV, POV | 6 | marco_versalhes | - | Era mil setecentos e oitenta e três, na França.
+b1 | chave | street | crowd | POV, POV | 6 | marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil setecentos e oitenta e três, na França.
 b2 | simples | interior madeira | two | JOS, ETI | - | campfire | - | Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fuma
 b3 | simples | interior madeira | two | ETI | - | balloon | - | Então fizeram um balão gigante de pano e papel, cheio de ar quente.
 b4 | simples | interior madeira | two | NOB, ETI | - | - | - | Só que ninguém sabia se dava para respirar lá em cima.
-b5 | simples | loc_campo | group | JOS | - | balloon, marco_versalhes | - | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
-b6 | chave | street | crowd | REI | 30 | balloon, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me
-b7 | simples | loc_campo | wide | POV | - | balloon, balloon_air, marco_versalhes | - | Acontece que o balão levantou voo de verdade, com os bichos dentro.
+b5 | simples | loc_campo | wide | JOS | - | balloon, marco_versalhes | - | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
+b6 | simples | street | crowd | REI | 30 | balloon, marco_versalhes | - | Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me
+b7 | chave | loc_campo | orbit | POV | - | balloon, balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão levantou voo de verdade, com os bichos dentro.
 b8 | chave | loc_campo | wide | ETI | - | balloon, marco_versalhes, bush, tree_oak, tree_pine | corpo: desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira; emissao: VFX 3D preso no objeto (jato/p | Oito minutos depois, ele desceu num bosque a três quilômetros dali, e 
-b9 | chave | street | orbit | POV | - | balloon, balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dois meses depois, outro balão levou dois homens por cima de Paris.
+b9 | simples | street | wide | POV | - | balloon, balloon_air, marco_versalhes | - | Dois meses depois, outro balão levou dois homens por cima de Paris.
 b10 | simples | loc_montanha | two | ETI | - | balloon, marco_versalhes | - | Tudo graças a três bichos corajosos.
 b11 | simples | loc_montanha | close | JOS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

@@ -189,9 +189,20 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "loc_deserto"
+   "set": "loc_deserto",
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "say": "Um produto que se chamava de tudo, menos do que parecia.",

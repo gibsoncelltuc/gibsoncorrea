@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Gerado em 24/11 22:55 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,8 +12,8 @@ b2 | simples | interior madeira | group | TYC, PAR, POV | - | - | - | Numa festa
 b3 | simples | loc_deserto | two | TYC, PAR | - | - | - | Dias depois, os dois resolveram a briga num duelo de espadas, no escur
 b4 | simples | loc_deserto | two | PAR, TYC | - | brass_nose | - | Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç
 b5 | simples | loc_montanha | two | TYC | - | brass_nose | - | Para esconder o buraco, ele passou a usar um nariz de metal, colado no
-b6 | chave | harbor | orbit | REI, TYC | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es
-b7 | simples | loc_campo | wide | TYC | - | marco_uraniborg, tower | - | Lá, ele construiu um castelo observatório, e anotou a posição de mais 
+b6 | simples | harbor | orbit | REI, TYC | 6 | - | - | Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es
+b7 | chave | loc_campo | orbit | TYC | - | marco_uraniborg, tower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Lá, ele construiu um castelo observatório, e anotou a posição de mais 
 b8 | simples | interior pedra | two | TYC, KEP | - | - | - | As anotações eram tão precisas, que ajudaram Kepler a descobrir como o
 b9 | simples | loc_montanha | two | TYC | - | brass_nose | - | Com a cabeça nas estrelas, e o nariz de metal.
 b10 | simples | loc_campo | close | TYC | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

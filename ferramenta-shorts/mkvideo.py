@@ -892,7 +892,8 @@ KWSFX = []
 _crowd_roteiro = {id(b_) for b_ in beats if isinstance(b_.get('crowd'), dict)}   # multidao que o ROTEIRO pediu fica como esta
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
-    _b = beats[int(len(beats) * 0.6)]
+    _okm = [i_ for i_, b_ in enumerate(beats) if 0 < i_ < len(beats) - 1 and not b_.get('interior') and not b_.get('explica') and not b_.get('_cta') and not b_.get('shot_lock')]   # 24/11 (Goodyear/Abelhas): momento automatico nunca dentro de sala nem em cena de explicacao
+    _b = beats[min(_okm, key=lambda i_: abs(i_ - len(beats) * 0.6))] if _okm else {'shot_lock': True}
     if not _b.get('shot_lock'): _b['impact'] = True; _b['shot'] = 'orbit'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False})
 # DOIS GRANDES MOMENTOS (ordem do Gibson): todo video tem 2 pontos de impacto encenados em plano aberto com multidao, efeito e som. Se o roteiro so' rendeu 1, a virada ("Acontece que") ou a cena a 1/3 do video vira o segundo.
 if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if b.get('impact')) < int(B.get('min_momentos', 2)):
@@ -901,6 +902,7 @@ if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if
     _vir = [i for i in _cand if re.match(r'acontece que|na verdade|so que|o problema', re.sub(r'[^a-z ]', '', unicodedata.normalize('NFKD', beats[i]['say'].lower()).encode('ascii', 'ignore').decode()))]
     # v13: o "grande momento" automatico so' nasce numa cena que TEM tropa ou povo (fuzil, POV/POVO/SOL/TRO, "hats"/"multidao"); cena de 2 personagens da historia nao vira batalha de mentira
     _OFa = B.get('outfits', {}); _ma = lambda o_: str(o_).startswith(('POV', 'SOL', 'TRO')) or bool(_OFa.get(o_, {}).get('rifle') or _OFa.get(o_, {}).get('hats') or _OFa.get(o_, {}).get('multidao'))
+    _cand = [i for i in _cand if not beats[i].get('interior') and not beats[i].get('explica')]   # 24/11: nada de multidao/batalha automatica dentro de sala
     _cand = [i for i in _cand if any(_ma(w_.split(':')[0]) for w_ in beats[i].get('who', [])) or any(str(k_).startswith(('POV', 'POVO')) for k_ in _OFa)]
     _vir = [i for i in _vir if i in _cand]
     _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
@@ -1911,7 +1913,7 @@ def build_beat(k, b):
     call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"; _multi = False
     if wide and not (shot == 'track' or mv):
         call = f"{{ ...{call}, nocut: true }}"
-    if b.get('impact') and wide and not (shot == 'track' or mv) and b.get('grua') is not False and (b.get('batalha') or (b.get('crowd') or {}).get('n') or b.get('emus') or b.get('caminhoes')):   # 24/11 (Emus/Danca): sem tropa/multidao a grua termina a 34 m com 2 bonecos minusculos
+    if b.get('impact') and wide and not (shot == 'track' or mv) and b.get('grua') is not False and (b.get('batalha') or b.get('emus') or b.get('caminhoes') or ((b.get('crowd') or {}).get('n') and re.search(r'guerra|batalha|lut|atac|invad|tiro|atir|dispar|bomb|soldad|tropa|exercito|combat|canh|metralh', nrm(b['say'])))):   # 24/11 (Goodyear): tropa/armas so' em cena de luta de verdade   # 24/11 (Emus/Danca): sem tropa/multidao a grua termina a 34 m com 2 bonecos minusculos
         # SEQUENCIA DE ACAO (cobertura de batalha, varias cameras na MESMA encenacao):
         #   1) plano medio baixo na tropa se preparando (subindo nos caminhoes)  2) close de baixo nos fuzis atirando
         #   3) travelling lateral acompanhando quem foge pela fazenda            4) grua: sobe e recua ate a vista de cima do campo inteiro
@@ -2237,15 +2239,15 @@ for k, b in enumerate(beats):
     R = [] if b.get('riscos_ok') else _riscos(k, b); _tot_r += len(R); _allr += [(k, r) for r in R]
     _f2 += [f'## Cena b{k} - {b["say"][:70]}{"..." if len(b["say"]) > 70 else ""}', f'- Cenario: {cen} | luz: {b.get("hora") or b.get("light") or B.get("light", "day")} | clima: {b.get("clima") or "limpo"}',
             f'- Camera: {b.get("shot")} = {_CAM.get(b.get("shot"), "-")}' + (' + CLOSE NO OBJETO no meio da cena (vai e volta)' if b.get('_detalhe') else '') + (' [momento criado pela ferramenta]' if b.get('_momento_auto') else ''),
-            '- Takes: ' + ('4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som' if b.get('impact') and b.get('shot') in WIDE else '1 tomada continua, sem corte (camera abre/gira devagar)' if b.get('shot') in WIDE else f'{max(1, round(len(b["say"].split()) / 2.9 * 30 / 54))} take(s) de ~1,8 s, deslizando de um para o outro: ' + ' -> '.join(_VARN[(sum(ord(c) for c in ID) % 6 + j) % 6] for j in range(max(1, round(len(b['say'].split()) / 2.9 * 30 / 54))))) + (' | no meio: desliza ate o objeto (close), segura ~1,5 s e volta' if b.get('_detalhe') else ''),
+            '- Takes: ' + ('4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som' if b.get('impact') and b.get('shot') in WIDE and (b.get('batalha') or b.get('tiros')) else '1 tomada continua, sem corte (camera abre/gira devagar)' if b.get('shot') in WIDE else f'{max(1, round(len(b["say"].split()) / 2.9 * 30 / 54))} take(s) de ~1,8 s, deslizando de um para o outro: ' + ' -> '.join(_VARN[(sum(ord(c) for c in ID) % 6 + j) % 6] for j in range(max(1, round(len(b['say'].split()) / 2.9 * 30 / 54))))) + (' | no meio: desliza ate o objeto (close), segura ~1,5 s e volta' if b.get('_detalhe') else ''),
             f'- Personagens principais ({len(b.get("who", []))}): {"; ".join(pers) or "-"}' + (f' | multidao: {b["crowd"].get("n")} de {"/".join(b["crowd"].get("outfits", []))}' if b.get('crowd') else ''),
-            f'- Animacao: {b.get("_acao") or "-"}' + (f' | interacao: {b["_inter"]}' if b.get('_inter') else '') + (' | o ultimo personagem ENTRA andando' if b.get('_chega') else '') + (' | batalha encenada' if b.get('impact') else ''),
+            f'- Animacao: {b.get("_acao") or "-"}' + (f' | interacao: {b["_inter"]}' if b.get('_inter') else '') + (' | o ultimo personagem ENTRA andando' if b.get('_chega') else '') + (' | batalha encenada' if b.get('impact') and (b.get('batalha') or b.get('tiros')) else ' | grande momento (efeito + som, sem tiro)' if b.get('impact') else ''),
             f'- Objetos/modelos: {", ".join(o + ("" if _lib(o) or "/" not in o else " (FALTA MODELAR)") for o in objs) or "-"}',
             '- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ' + (', '.join(sorted({w_ for a_, w_ in re.findall(r'\b(um|uma|o|a|os|as|do|da|dos|das|no|na|nos|nas|de|com) ([a-z]{4,})\b', _nz(b['say'])) if w_ not in _STOPW})[:10]) or '-'),
             '- RISCOS: ' + ('nenhum' if not R else ''), *[f'  - {r} -> CORRECAO: {c}' for r, c in R], '']
 _glob = []
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))
-if sum(1 for b in beats if b.get('impact') or b.get('_veic_anim') or b.get('explica')) < int(B.get('min_momentos', 2)): _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
+if sum(1 for b in beats if b.get('impact') or b.get('_veic_anim') or b.get('explica')) < int(B.get('min_momentos', 2)): _glob.append(('menos de 2 grandes momentos', '"impact": true em duas cenas de acao ("batalha": true SO\' se a frase for de luta de verdade)'))
 if HEROI and not any(b.get('_det_heroi') or b.get('explica') or b.get('_voo_cam') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
 _b0 = beats[0] if beats else {}
 if beats and not B.get('gancho_ok') and not any(_b0.get(k_) for k_ in ('text', 'fx', 'impact', 'batalha', 'explica', 'montado', 'veiculo', 'animals', 'hud', 'mapa')) and not _b0.get('props'):   # ordem do Gibson 24/11: IMPACTO nos 5 primeiros segundos
@@ -2418,7 +2420,8 @@ for k, b in enumerate(beats):
         elif kd_ in ('acao', 'shot'): _rows.append((None, '-', 'CENA', w_))
         else:
             j_ = next((j__ for j__, ww__ in enumerate(_ws3) if nrm(ww__) == nrm(w_)), None); _rows.append((j_, w_, 'EFEITO: ' + kd_, _KIND_DESC.get(kd_, kd_)))
-    if b.get('impact'): _rows.append((None, '-', 'BATALHA', 'tropa em combate: tiros piscando pela tropa, soldados caindo' + (', os dois exercitos um contra o outro' if b.get('lados') else '')))
+    if b.get('impact') and (b.get('batalha') or b.get('tiros')): _rows.append((None, '-', 'BATALHA', 'tropa em combate: tiros piscando pela tropa, soldados caindo' + (', os dois exercitos um contra o outro' if b.get('lados') else '')))
+    elif b.get('impact'): _rows.append((None, '-', 'GRANDE MOMENTO', 'plano de impacto: efeito + som na palavra-chave (sem tiro)'))
     if b.get('_inter'): _rows.append((None, '-', 'INTERACAO', b['_inter']))
     if b.get('_acao') and b['_acao'] not in ('encena',): _rows.append((None, '-', 'ATUACAO', b['_acao']))
     if b.get('_chega'): _rows.append((None, '-', 'CHEGADA', 'alguem entra andando'))

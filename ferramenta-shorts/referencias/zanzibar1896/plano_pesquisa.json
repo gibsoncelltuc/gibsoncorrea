@@ -118,9 +118,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira",
+   "item": "O palácio pegou fogo, e a artilharia do sultão foi calada.",
    "consultas": [
-    "palacio pegou artilharia sultao calada bandeira",
+    "palacio pegou artilharia sultao calada",
     "forte colonial diagram"
    ]
   }

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Gerado em 24/11 22:54 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a not
 b5 | simples | loc_cidade | two | JOR, JOR2 | - | phone | - | Um jornal de cada país publicou a frase, e muita gente ficou discutind
 b6 | simples | interior loja | two | JOR, BUK | - | - | - | Vários comentaristas leram aquilo como uma ironia, feita para os críti
 b7 | simples | interior pedra | two | BUK | - | ballot_box, phone | - | Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil 
-b8 | simples | interior loja | two | BUK, JOR2 | - | - | - | Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a des
+b8 | simples | interior loja | two | BUK, JOR2 | - | phone | - | Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a des
 b9 | simples | loc_cidade | group | BUK | - | phone | - | Conclusão: se a sua biografia estiver chata, lembre que dá para trocar
 b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

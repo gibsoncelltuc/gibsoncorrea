@@ -34,7 +34,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rachou (20.0s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 23.3s a 30.0s - 19 palavras - plano wide
@@ -44,7 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | rachou (27.0s) | ACAO: quebra | quebra + estouro + tremor | OK |
 | 2 | brincou (27.8s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 30.4s a 37.0s - 19 palavras - plano two

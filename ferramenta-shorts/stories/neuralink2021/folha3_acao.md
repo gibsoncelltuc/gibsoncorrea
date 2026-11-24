@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
@@ -18,7 +18,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 9.6s a 15.9s - 18 palavras - plano two
@@ -60,18 +60,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | abriu (35.2s) | ACAO: x_abre | empurra a porta | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | MENTE | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | MENTE | OK |
 
-## Cena b7 - 38.5s a 44.1s - 16 palavras - plano two
+## Cena b7 - 38.5s a 44.1s - 16 palavras - plano orbit
 > "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ajudar (40.7s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | pensando (44.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 3 | - | INTERACAO | discutir | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 44.4s a 52.6s - 23 palavras - plano two

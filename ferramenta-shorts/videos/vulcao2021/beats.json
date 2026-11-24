@@ -518,7 +518,7 @@
    "who": [
     "POV:0:surprised"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 0

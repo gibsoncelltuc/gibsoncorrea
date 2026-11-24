@@ -11,7 +11,7 @@ b3 | interior hospital | group | 2 | conversar, INTERAGEM: avanca e o outro recu
 b4 | interior hospital | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
 b5 | interior hospital | close | 1 | conversar | - | - | -
 b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
-b7 | loc_campo | crowd | 19 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
+b7 | loc_campo | orbit | 19 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
 b8 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
 b9 | loc_campo | two | 1 | conversar | kit/lapide | - | -
 b10 | loc_campo | close | 1 | conversar | kit/wash_basin | - | -

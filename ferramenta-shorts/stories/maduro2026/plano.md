@@ -10,7 +10,7 @@ b4 | two | noite  | tropa | - | -
 b5 | low | noite  | - | encena: prende (push) @9 (acao + som de efeito) | -
 b6 | two | -  | interior | - | -
 b7 | two | -  | - | - | -
-b8 | orbit | -  | batalha aberta com tiros, tropa, placa: MUNDO | encena: x_entrega (reach) @10 (acao + som de efeito) | -
+b8 | crowd | -  | batalha aberta com tiros, tropa, placa: MUNDO | encena: x_entrega (reach) @10 (acao + som de efeito) | -
 b9 | two | -  | tropa | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 

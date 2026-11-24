@@ -12,7 +12,7 @@ b4 | loc_cidade | reveal | 11 | encena | kit/volcano | - | -
 b5 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | kit/phone | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b7 | interior pedra | two | 1 | conversar | kit/phone, kit/ballot_box | - | -
-b8 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
+b8 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/phone | - | -
 b9 | loc_cidade | group | 1 | conversar | kit/phone | - | -
 b10 | loc_cidade | close | 1 | conversar | - | - | -
 

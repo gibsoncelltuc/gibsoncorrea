@@ -39,7 +39,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | soltava (18.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | fogo (18.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 ## Cena b4 - 21.9s a 26.3s - 13 palavras - plano two
 > "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas."
@@ -68,7 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | venda (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 34.8s a 38.5s - 11 palavras - plano two

@@ -142,7 +142,9 @@
     "JOR"
    ],
    "multidao": 10,
-   "objetos": [],
+   "objetos": [
+    "kit/phone"
+   ],
    "palavras": 16,
    "cena": "b5",
    "frase": "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.",
@@ -205,7 +207,9 @@
     "JOR"
    ],
    "multidao": 10,
-   "objetos": [],
+   "objetos": [
+    "kit/phone"
+   ],
    "palavras": 16,
    "cena": "b8",
    "frase": "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet.",

@@ -317,7 +317,20 @@
     "BUK:0:laugh",
     "JOR2:0:suspicious"
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "tiros": false,

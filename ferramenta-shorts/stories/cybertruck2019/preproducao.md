@@ -9,8 +9,8 @@ b1 | hall | wide | 1 | encena | kit/cybertruck | - | -
 b2 | hall | wide | 1 | encena | kit/cybertruck, kit/steel_ball | ball | -
 b3 | hall | wide | 31 | reagir, batalha | kit/cybertruck | - | -
 b4 | hall | wide | 1 | reagir, batalha | kit/cybertruck, kit/ball | - | -
-b5 | hall | two | 1 | conversar | kit/steel_ball, kit/cybertruck | - | -
-b6 | hall | orbit | 32 | comemorar | kit/globe | - | -
+b5 | hall | two | 1 | conversar | kit/steel_ball, kit/cybertruck, kit/phone | - | -
+b6 | hall | orbit | 32 | comemorar | kit/globe, kit/phone | - | -
 b7 | hall | group | 10 | conversar, INTERAGEM: aproxima-se | kit/globe, kit/cybertruck | - | -
 b8 | hall | two | 12 | comemorar, INTERAGEM: pular | kit/cybertruck, kit/steel_ball | - | -
 b9 | hall | close | 1 | conversar | - | - | -

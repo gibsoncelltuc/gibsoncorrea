@@ -136,7 +136,8 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "set": "loc_pista"
+   "set": "loc_pista",
+   "tela": false
   },
   {
    "tiros": false,
@@ -296,7 +297,20 @@
    "sfx": [
     "sting@40"
    ],
-   "set": "street"
+   "set": "street",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "tiros": false,
@@ -385,7 +399,20 @@
      "POV"
     ]
    },
-   "set": "street"
+   "set": "street",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "tiros": false,

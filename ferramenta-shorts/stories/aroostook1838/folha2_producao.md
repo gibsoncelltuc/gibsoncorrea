@@ -54,27 +54,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Nessa confusão, lenhadores de New Brunswick prenderam o agente do Main...
 - Cenario: arctic | luz: day | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CAN (variante 0, expressao angry); AME (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir | interacao: empurrar
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, clima, maine
 - RISCOS: nenhum
 
 ## Cena b6 - Mas ninguém queria uma guerra de verdade, então o presidente americano...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PRE (variante 0, expressao stern, segura paper); GEN (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: conversar | batalha encenada
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, presidente
 - RISCOS: nenhum
 
 ## Cena b7 - Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao smile, segura paper); PRE (variante 0, expressao relief)
 - Animacao: discutir | interacao: entregar | o ultimo personagem ENTRA andando
@@ -126,8 +126,8 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b6 | planos abertos: 3 | mistura: close 9% | medio 63% | aberto 24% | detalhe 4%
-- Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b7 entregar, b8 entregar, b9 aproxima-se
+- Objeto heroi: kit/logs | grandes momentos: b5 | planos abertos: 3 | mistura: close 9% | medio 64% | aberto 24% | detalhe 4%
+- Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

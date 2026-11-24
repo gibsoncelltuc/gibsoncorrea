@@ -34,13 +34,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 25.9s a 27.8s - 6 palavras - plano crowd
+## Cena b4 - 25.9s a 27.8s - 6 palavras - plano wide
 > "O foguete decolou com um estrondo!"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | decolou (26.7s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 28.1s a 32.2s - 12 palavras - plano two
@@ -67,21 +67,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | saiu (36.3s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | seguiu (38.5s) | ACAO: chega | entra andando pela lateral | OK |
 
-## Cena b8 - 41.9s a 45.2s - 10 palavras - plano two
+## Cena b8 - 41.9s a 45.2s - 10 palavras - plano crowd
 > "E ele continua lá em cima, dando voltas, até hoje."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 45.6s a 51.5s - 17 palavras - plano orbit
+## Cena b9 - 45.6s a 51.5s - 17 palavras - plano wide
 > "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | STARMAN | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | STARMAN | OK |
 
 ## Cena b10 - 51.9s a 56.3s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

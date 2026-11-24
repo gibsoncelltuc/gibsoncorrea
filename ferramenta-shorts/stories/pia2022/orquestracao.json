@@ -61,6 +61,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/phone",
     "kit/sink"
    ],
    "palavras": 16,
@@ -156,7 +157,9 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/phone"
+   ],
    "palavras": 12,
    "cena": "b7",
    "frase": "Ele também mudou o perfil, e escreveu que era o Chefe Twit.",

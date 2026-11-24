@@ -30,7 +30,7 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV"
@@ -44,9 +44,15 @@
    "palavras": 11,
    "cena": "b1",
    "frase": "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.",
-   "classe": "transicao",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -161,7 +167,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "JOR",
     "MED",
@@ -207,7 +213,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "ROE",
     "MED",
@@ -220,15 +226,9 @@
    "palavras": 17,
    "cena": "b10",
    "frase": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },

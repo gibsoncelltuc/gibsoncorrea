@@ -61,7 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | fechou (28.5s) | ACAO: x_abre | empurra a porta | OK |
 | 2 | compra (29.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
@@ -87,7 +87,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 ## Cena b9 - 45.2s a 48.9s - 11 palavras - plano orbit
 > "Uma pia, um trocadilho e quarenta e quatro bilhões de dólares."

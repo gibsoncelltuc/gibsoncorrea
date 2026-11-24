@@ -411,7 +411,7 @@
     "POV:0:surprised",
     "POV:1:grin"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
@@ -478,6 +478,15 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "interacao": "entregar",
@@ -498,7 +507,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "shot": "two",

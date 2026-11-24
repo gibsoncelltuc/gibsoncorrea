@@ -15,12 +15,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1989 | OK |
 
-## Cena b1 - 4.8s a 10.4s - 16 palavras - plano reveal
+## Cena b1 - 4.8s a 10.4s - 16 palavras - plano crowd
 > "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 10.7s a 16.7s - 17 palavras - plano two
 > "Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hotéis até ficar o mais rico."
@@ -56,8 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | vender (30.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | vendeu (32.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 5 | vendeu (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | PLACA | 800 MIL | OK |
+| 6 | - | PLACA | 800 MIL | OK |
 
 ## Cena b6 - 33.3s a 37.4s - 12 palavras - plano two
 > "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
@@ -73,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (38.9s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOLTOU | OK |
 

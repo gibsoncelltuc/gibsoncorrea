@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (9.3s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (9.3s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | prometendo (10.4s) | ACAO: fala | aponta explicando | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 13.0s a 20.0s - 20 palavras - plano two
@@ -79,7 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | lotaram (35.2s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | comemorou (37.0s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 
 ## Cena b8 - 38.1s a 44.1s - 17 palavras - plano two

@@ -13,7 +13,7 @@ b7 | two | -  | tropa | - | -
 b8 | two | noite  | tropa | - | -
 b9 | two | noite  | tropa | - | -
 b10 | two | -  | interior, placa: DESTRUÍDAS? | - | -
-b11 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b11 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b12 | close | -  | placa: COMENTE! | - | -
 
 Mistura de planos: close 10% | medio 72% | aberto 18% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

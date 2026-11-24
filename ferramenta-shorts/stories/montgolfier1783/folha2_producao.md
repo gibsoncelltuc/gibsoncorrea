@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil setecentos e oitenta e três, na França.
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JOS (variante 0, expressao smile) | multidao: 0 de 
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cesta, frente, galo, ovelha, pato, solucao
 - RISCOS: nenhum
@@ -65,19 +65,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me...
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): REI (variante 0, expressao smile) | multidao: 30 de POV/NOB
-- Animacao: encena | batalha encenada
+- Animacao: encena
 - Objetos/modelos: kit/balloon, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): multidao
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que o balão levantou voo de verdade, com os bichos dentro.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): POV (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, bichos
 - RISCOS: nenhum
@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Dois meses depois, outro balão levou dois homens por cima de Paris.
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): POV (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paris
 - RISCOS: nenhum
@@ -140,7 +140,7 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/balloon | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 11% | medio 60% | aberto 29% | detalhe 0%
+- Objeto heroi: kit/balloon | grandes momentos: b1, b7 | planos abertos: 6 | mistura: close 10% | medio 46% | aberto 43% | detalhe 0%
 - Interacoes: b2 avanca e o outro recua, b4 discutir
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py montgolfier1783  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/montgolfier1783/moodboard.jpg

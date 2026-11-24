@@ -207,7 +207,9 @@
     "JOR2"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/phone"
+   ],
    "palavras": 13,
    "cena": "b8",
    "frase": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",

@@ -283,7 +283,7 @@
    "text": "VIDAS SALVAS",
    "titulo": true,
    "say": "As mortes despencaram quase dez vezes.",
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",

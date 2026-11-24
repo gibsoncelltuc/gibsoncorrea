@@ -65,9 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca...
 - Cenario: hall | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAS (variante 0, expressao relief); MED (variante 0, expressao surprised) | multidao: 10 de MED/POV
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino
 - RISCOS: nenhum
@@ -95,9 +95,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b9 - Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vida...
 - Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao laugh); MED (variante 0, expressao grin) | multidao: 14 de POV/MED/MAE
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): instituto, vacina
 - RISCOS: nenhum

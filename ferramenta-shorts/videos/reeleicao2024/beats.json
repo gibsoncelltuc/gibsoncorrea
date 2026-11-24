@@ -210,7 +210,7 @@
    "who": [
     "TRU:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
@@ -356,7 +356,7 @@
    "who": [
     "TRU:0:smug"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 0

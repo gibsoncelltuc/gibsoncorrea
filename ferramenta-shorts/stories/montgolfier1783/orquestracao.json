@@ -55,7 +55,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV"
@@ -67,9 +67,15 @@
    "palavras": 9,
    "cena": "b1",
    "frase": "Era mil setecentos e oitenta e três, na França.",
-   "classe": "transicao",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -128,7 +134,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "JOS"
    ],
@@ -159,20 +165,14 @@
    "palavras": 15,
    "cena": "b6",
    "frase": "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "POV"
    ],
@@ -185,9 +185,15 @@
    "palavras": 12,
    "cena": "b7",
    "frase": "Acontece que o balão levantou voo de verdade, com os bichos dentro.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -220,7 +226,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "POV"
    ],
@@ -233,15 +239,9 @@
    "palavras": 12,
    "cena": "b9",
    "frase": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },

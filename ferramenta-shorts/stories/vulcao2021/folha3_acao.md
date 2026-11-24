@@ -30,7 +30,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | moeda (14.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 16.7s a 22.2s - 16 palavras - plano two
@@ -64,15 +64,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 38.1s a 43.7s - 16 palavras - plano two
+## Cena b7 - 38.1s a 43.7s - 16 palavras - plano orbit
 > "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (38.9s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | ATUACAO | comemorar | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | comemorar | OK |
 
-## Cena b8 - 44.1s a 48.1s - 12 palavras - plano group
+## Cena b8 - 44.1s a 48.1s - 12 palavras - plano two
 > "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -81,15 +82,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 48.5s a 54.1s - 16 palavras - plano crowd
+## Cena b9 - 48.5s a 54.1s - 16 palavras - plano wide
 > "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | anunciou (49.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | construída (52.2s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | CIDADE BITCOIN | OK |
+| 3 | - | PLACA | CIDADE BITCOIN | OK |
 
 ## Cena b10 - 54.4s a 57.8s - 10 palavras - plano two
 > "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."

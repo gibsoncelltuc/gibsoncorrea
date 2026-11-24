@@ -217,7 +217,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV"
