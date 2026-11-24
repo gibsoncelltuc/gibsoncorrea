@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
@@ -62,6 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | confusão (27.1s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | INTERACAO | empurrar | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | ARMA! | OK |
 
 ## Cena b6 - 29.2s a 32.8s - 13 palavras - plano crowd
 > "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
@@ -85,6 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | insiste | OK |
 | 6 | - | ATUACAO | discutir | OK |
 | 7 | - | CHEGADA | alguem entra andando | OK |
+| 8 | - | PLACA | ESTAÇÃO DE TREM | OK |
 
 ## Cena b8 - 39.1s a 43.4s - 15 palavras - plano two
 > "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."

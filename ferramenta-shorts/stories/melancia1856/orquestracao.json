@@ -1,7 +1,13 @@
 {
  "id": "melancia1856",
  "ano": 1856,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 8",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -168,7 +174,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
