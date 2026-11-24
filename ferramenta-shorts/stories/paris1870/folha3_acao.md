@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 1.7s - 6 palavras - plano two
@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | MAPA | FRANÇA | OK |
 
-## Cena b2 - 10.6s a 15.7s - 12 palavras - plano group
+## Cena b2 - 10.6s a 15.7s - 12 palavras - plano two
 > "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -33,7 +33,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
 
-## Cena b3 - 16.9s a 19.8s - 8 palavras - plano two
+## Cena b3 - 16.9s a 19.8s - 8 palavras - plano group
 > "Depois, os roedores, que viraram um prato chique."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 24.4s a 28.9s - 14 palavras - plano close
+## Cena b5 - 24.4s a 28.9s - 14 palavras - plano two
 > "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -60,15 +60,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | comprou (25.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | vendeu (27.9s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | vendeu (27.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | PLACA | CASTOR E PÓLUX | OK |
+| 5 | - | INTERACAO | discutir | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | PLACA | CASTOR E PÓLUX | OK |
 
 ## Cena b6 - 30.1s a 35.3s - 16 palavras - plano two
 > "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | NATAL DE 1870 | OK |
 
@@ -78,7 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandar (36.8s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | BALÕES E POMBOS | OK |
 
@@ -98,16 +99,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 49.7s a 54.6s - 19 palavras - plano close
+## Cena b10 - 49.7s a 54.6s - 19 palavras - plano group
 > "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rendeu (53.4s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 2 | - | PLACA | PARIS SE RENDEU | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | PARIS SE RENDEU | OK |
 
 ## Cena b11 - 55.7s a 59.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
