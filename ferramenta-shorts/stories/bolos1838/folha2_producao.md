@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): GEN (variante 0, expressao pained)
 - Animacao: encena
-- Objetos/modelos: kit/grave
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): honras, perna
 - RISCOS: nenhum
 
@@ -96,8 +96,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): CON (variante 0, expressao stern)
-- Animacao: conversar
+- Personagens principais (2): CON (variante 0, expressao stern); FRA (variante 0, expressao grin)
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
@@ -123,17 +123,14 @@ buildings/shop | b1 | pronto | conferir na folha de contato se le bem; se parece
 kit/stall | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 mk/Table_Large | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/grave | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
 - Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 2 | mistura: close 30% | medio 60% | aberto 8% | detalhe 2%
-- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 avanca e o outro recua, b8 cochichar
-- RISCOS GERAIS: 
-  - video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 avanca e o outro recua, b8 cochichar, b9 susto
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).

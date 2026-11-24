@@ -196,7 +196,8 @@
    "verbos_ok": [
     "enterr"
    ],
-   "text": "PERNA ENTERRADA COM HONRAS"
+   "text": "PERNA ENTERRADA COM HONRAS",
+   "objetos": false
   },
   {
    "shot": "two",
@@ -211,7 +212,8 @@
   {
    "shot": "close",
    "who": [
-    "CON:0:stern"
+    "CON:0:stern",
+    "FRA:0:grin"
    ],
    "say": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um."
   }

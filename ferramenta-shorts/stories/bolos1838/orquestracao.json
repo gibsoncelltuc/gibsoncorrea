@@ -157,9 +157,7 @@
     "GEN"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/grave"
-   ],
+   "objetos": [],
    "palavras": 16,
    "cena": "b7",
    "frase": "Santa Anna foi ferido na perna por metralha, e a perna foi enterrada com honras militares.",
@@ -189,7 +187,8 @@
   {
    "camera": "close",
    "personagens": [
-    "CON"
+    "CON",
+    "FRA"
    ],
    "multidao": 0,
    "objetos": [],
