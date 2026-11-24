@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: paga (reach) @7 -> acao + som de efeito; encena: x_come (eat) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_come (eat) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SÓ PARA OS RICOS
 - Funcao na historia: GRANDE MOMENTO

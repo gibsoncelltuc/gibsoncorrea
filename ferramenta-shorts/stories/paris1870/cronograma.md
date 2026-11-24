@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Gerado em 24/11 12:24 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:16 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | street | two | PAR, PAR | - | marco_notredame, panela | - | Paris já serviu elefante no jantar.
 b1 | simples | street | reveal | PAR, PAR | 6 | house_two, marco_notredame, lamppost | - | Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida ac
 b2 | simples | street | two | PAR, PAR | - | - | - | Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os
-b3 | simples | street | group | PAR, CHF | - | barrel, panela | - | Depois, os roedores, que viraram um prato chique.
+b3 | simples | street | group | PAR, CHF | - | barrel, panela, rato | - | Depois, os roedores, que viraram um prato chique.
 b4 | chave | arctic | crowd | PAR, PAR | 6 | house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Quando acabou tudo, olharam para o zoológico da cidade.
 b5 | simples | arctic | two | BUT, PAR | - | - | - | O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne 
 b6 | simples | interior loja | two | CHF, PAR | - | panela | - | No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de
@@ -31,12 +31,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | FEITO | 
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh paris1870
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh paris1870
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local paris1870 <mp4>
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
 
-**Etapa atual:** 14. Entrega
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

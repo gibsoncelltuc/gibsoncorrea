@@ -32,7 +32,7 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "CID",
     "CID"
@@ -42,25 +42,6 @@
    "palavras": 20,
    "cena": "b1",
    "frase": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "CID",
-    "SOL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/submarino_ww2"
-   ],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -70,6 +51,25 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "CID",
+    "SOL"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/submarino_ww2"
+   ],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -121,7 +121,7 @@
     "SOL",
     "GEN"
    ],
-   "multidao": 10,
+   "multidao": 5,
    "objetos": [],
    "palavras": 18,
    "cena": "b5",
@@ -133,12 +133,12 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "CID",
     "CID"
    ],
-   "multidao": 20,
+   "multidao": 48,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
@@ -197,11 +197,11 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "orbit",
+   "camera": "close",
    "personagens": [
     "CID"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/searchlight"
    ],
@@ -215,7 +215,7 @@
    "cenario": "street"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "CID"
    ],
