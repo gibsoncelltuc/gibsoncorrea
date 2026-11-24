@@ -129,7 +129,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
@@ -153,7 +153,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "CAN",
     "DIN"
@@ -170,10 +170,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "CAN",
     "DIN"
@@ -189,7 +189,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
    "camera": "two",

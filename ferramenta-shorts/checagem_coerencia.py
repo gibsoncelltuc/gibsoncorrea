@@ -29,6 +29,19 @@ for k, b in enumerate(BT):
     if b.get('batalha') and 'R3' not in ok:
         for cor, xs in lados.items():
             if len(xs) >= 2 and cor: erros.append(f'R3 b{k}: {", ".join(xs)} se enfrentam com a mesma farda ({cor}): de a cada lado uma cor')
+# R5: farda FINAL (depois da farda automatica da epoca, lida do spec.js): dois exercitos diferentes na mesma cena com a mesma cor (Uisque: canadenses e dinamarqueses camuflados iguais)
+import os
+if os.path.exists(f'stories/{i}/spec.js') and 'R5' not in ok:
+    sp = open(f'stories/{i}/spec.js', encoding='utf-8').read()
+    FJ = {k: (j, 'rifle: true' in body) for k, j, body in re.findall(r'(\w+): \(v = 0, e = \{\}\) => \(\{ _id: "\w+", jacket: "(#[0-9a-fA-F]+)"([^)]{0,400})', sp)}
+    vistos = set()
+    for k, b in enumerate(BT):
+        ks = {str(w).split(':')[0] for w in (b.get('who') or [])} | set((b.get('crowd') or {}).get('outfits') or [])
+        ms = [x for x in ks if x in FJ and FJ[x][1]]
+        for a_ in ms:
+            for b_ in ms:
+                if a_ < b_ and FJ[a_][0].lower() == FJ[b_][0].lower() and (a_, b_) not in vistos and not any(a_ in g_ and b_ in g_ for g_ in B.get('aliados', [])):   # aliados do mesmo lado ("aliados": [["USA", "CAN"]]) podem ter a mesma farda
+                    vistos.add((a_, b_)); erros.append(f'R5 b{k}: {a_} e {b_} saem com a MESMA farda ({FJ[a_][0]}) depois da farda automatica da epoca: ponha "uniforme_fixo": true com cor propria em cada lado')
 # gancho
 s0 = n(BT[0]['say']) if BT else ''
 if re.match(r'(segundo|dizem|conta-se|contam|reza a lenda|era (mil|o ano)|em (mil|\d{3,4})|no ano de)', s0) and 'R4' not in ok:

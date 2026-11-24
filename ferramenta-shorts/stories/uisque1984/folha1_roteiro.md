@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b5  (~4.8 s)
 - Narracao: Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: encena: chega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@30
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b7  (~5.2 s)
 - Narracao: Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito; encena: x_entrega (reach) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b8  (~5.5 s)
 - Narracao: A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

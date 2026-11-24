@@ -63,7 +63,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 34.9s a 39.4s - 15 palavras - plano two
+## Cena b7 - 34.9s a 39.4s - 15 palavras - plano group
 > "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -73,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 41.0s a 45.2s - 16 palavras - plano group
+## Cena b8 - 41.0s a 45.2s - 16 palavras - plano two
 > "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

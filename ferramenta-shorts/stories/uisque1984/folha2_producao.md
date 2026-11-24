@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a ...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): DIN (variante 0, expressao smug, segura flag) | multidao: 10 de DIN
@@ -73,8 +73,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: arctic | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): CAN (variante 0, expressao smug); DIN (variante 0, expressao smug)
 - Animacao: conversar | interacao: cochichar
@@ -83,8 +83,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entr...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: arctic | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): CAN (variante 0, expressao smug); DIN (variante 0, expressao smug)
 - Animacao: conversar | interacao: cochichar

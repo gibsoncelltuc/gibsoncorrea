@@ -9,10 +9,10 @@ b1 | arctic | reveal | 2 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b3 | arctic | wide | 11 | encena, batalha | vehicles/helicopter | flag | -
 b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
-b5 | harbor | wide | 11 | encena, batalha | war/flagpole | flag | -
+b5 | arctic | wide | 11 | encena, batalha | war/flagpole | flag | -
 b6 | arctic | two | 2 | reagir, INTERAGEM: entregar | kit/whisky, barrel, kit/tequila_bolt | paper | -
-b7 | harbor | two | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
-b8 | harbor | group | 2 | conversar, INTERAGEM: cochichar | kit/whisky | - | -
+b7 | arctic | group | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
+b8 | arctic | two | 2 | conversar, INTERAGEM: cochichar | kit/whisky | - | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b10 | interior pedra | close | 1 | comemorar | kit/whisky | - | -
 b11 | interior pedra | two | 1 | conversar | - | - | -

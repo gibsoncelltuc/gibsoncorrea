@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1984 | Lugar: Ilha Hans, rochedo de 1,3 km2 sem moradores no estreito de Nares, entre a ilha canadense de Ellesmere e a Groenlandia: rocha cinza, neve, gelo flutuando no mar | Quando: 1984 (bandeiras e garrafas) ate o acordo de 14 de junho de 2022; verao artico, de dia
 - HEROIS (objeto): kit/whisky
 - HEROIS (personagens): CAN, DIN
-- Cenarios: arctic, harbor, interior madeira, interior pedra
+- Cenarios: arctic, interior madeira, interior pedra
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: vehicles/helicopter: 12.0 m reais -> escala 3.0 (estava 1.2: pequeno demais)
 
