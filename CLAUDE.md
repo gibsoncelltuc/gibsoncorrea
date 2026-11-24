@@ -70,16 +70,31 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 93ddb6b6 Trava PAUSA: reinicio do ambiente nao religa fila/watchdog/auto-aprovacao (producao parada para o pente fino v13)
-- 173d98f0 ckpt(karansebes): pronto
-- ee3fa7c8 ckpt(karansebes): trecho 11
-- fd9a517b ckpt(karansebes): trecho 13
-- 7dc6e03e ckpt(karansebes): trecho 12
+- ac6633d2 ckpt(roadsterpulo2026): etapa gate
+- a7e7b326 ckpt(roadsterpulo2026): etapa fit
+- c83f48f0 ckpt(roadsterpulo2026): etapa style
+- 7b4c1cf9 ckpt(roadsterpulo2026): etapa fit
+- 9d42c634 ckpt(roadsterpulo2026): etapa style
+
+**In-progress files (13):**
+- ferramenta-shorts/mkvideo.py
+- ferramenta-shorts/stories/roadsterpulo2026/cronograma.md
+- ferramenta-shorts/stories/roadsterpulo2026/grade_acoes.jpg
+- ferramenta-shorts/stories/roadsterpulo2026/precheck.jpg
+- ferramenta-shorts/web/main.js
+- ferramenta-shorts/web/sets/loc.js
+- ferramenta-shorts/web/story.js
+- ferramenta-shorts/referencias/_teste_18112/DOSSIE.json
+- ferramenta-shorts/referencias/_teste_18112/FICHA.md
+- ferramenta-shorts/referencias/_teste_18112/plano_pesquisa.json
+- ferramenta-shorts/stories/roadsterpulo2026/AGUARDA_STORYBOARD
+- ferramenta-shorts/stories/roadsterpulo2026/storyboard.hash
+- ferramenta-shorts/stories/roadsterpulo2026/storyboard.jpg
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-23 23:36:45 UTC
+**Hook generated:** 2026-11-24 03:41:53 UTC
 <!-- post-compact-recovery-end -->
