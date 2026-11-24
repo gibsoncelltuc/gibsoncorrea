@@ -8,7 +8,7 @@ b0 | loc_campo | track | 2 | encena, andando | dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | loc_campo | track | 2 | encena, andando | dog | - | -
 b3 | mountain | two | 14 | conversar, INTERAGEM: insiste | - | - | -
-b4 | mountain | group | 2 | conversar, INTERAGEM: susto | - | - | -
+b4 | loc_montanha | two | 2 | conversar, INTERAGEM: susto | - | - | -
 b5 | mountain | wide | 25 | encena | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b6 | interior madeira | two | 1 | encena | - | paper | -
 b7 | mountain | crowd | 14 | encena, batalha | - | paper | -

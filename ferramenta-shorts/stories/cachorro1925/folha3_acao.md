@@ -76,7 +76,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b4 - 22.9s a 28.0s - 19 palavras - plano group
+## Cena b4 - 22.9s a 28.0s - 19 palavras - plano two
 > "A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -233,11 +233,9 @@ kit/feather | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 - Interacoes: b2 vai ate o outro, b3 aproxima-se, b6 cochichar
 - RISCOS GERAIS: 
   - video com ~53 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: 10 item(ns) sem referencia visual: Galileu e a Torre de Pisa, Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a cat, Galileu Galilei jovem (toga escura de professor, ba -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: video com ~53 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: 10 item(ns) sem referencia visual: Galileu e a Torre de Pisa, Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a cat, Galileu Galilei jovem (toga escura de professor, ba
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh galileu1589 bN bM` (so essas cenas).

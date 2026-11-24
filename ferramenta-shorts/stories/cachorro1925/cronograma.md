@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Gerado em 24/11 23:23 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:25 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | loc_campo | track | GRE, BUL | - | - | - | Um cachorro fugiu pela
 b1 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc
 b2 | simples | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronte
 b3 | simples | mountain | two | BUL, GRE | 12 | - | - | Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A
-b4 | simples | mountain | group | GRE, GRE | - | - | - | A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os
+b4 | simples | loc_montanha | two | GRE, GRE | - | - | - | A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os
 b5 | chave | mountain | wide | GRE | 48 | apartment, house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dias depois, em vinte e dois de outubro, o exército grego, com vinte m
 b6 | simples | interior madeira | two | DIP | - | - | - | Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.
 b7 | chave | mountain | crowd | PRE, DIP | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas

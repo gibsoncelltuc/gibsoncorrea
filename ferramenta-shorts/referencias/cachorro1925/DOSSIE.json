@@ -9,6 +9,7 @@
   "cenarios": [
    "interior madeira",
    "loc_campo",
+   "loc_montanha",
    "mountain"
   ],
   "cenarios_trocados": [
@@ -21,6 +22,11 @@
     "cena 3",
     "countryside",
     "loc_campo"
+   ],
+   [
+    "cena 5",
+    "mountain",
+    "loc_montanha"
    ],
    [
     "cena 9",

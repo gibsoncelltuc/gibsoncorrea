@@ -18,7 +18,7 @@ if reg and reg not in VALIDAS and 'R2' not in ok: erros.append(f'R2 regiao "{reg
 # lugar da historia: o mapa do roteiro manda; senao a 1a cena que cita lugar
 lugar = (next((n(b['mapa']) for b in BT if b.get('mapa')), None) or n(' '.join(b['say'] for b in BT[:3]))).replace('sao francisco', 'california')
 det = next((r for r, rx in REG if re.search(rx, lugar)), None)
-if reg and reg not in ('nenhuma', 'generica') and det and reg != det and not (det == 'europa' and reg in ('franca', 'holanda')) and not ({det, reg} == {'oriente', 'classico'}) and 'R1' not in ok:
+if reg and reg not in ('nenhuma', 'generica') and det and reg != det and not (det == 'europa' and reg in ('franca', 'holanda')) and not ({det, reg} == {'oriente', 'classico'}) and not (det == 'eua' and reg == 'europa' and re.search(r'1[0-7][0-9]{2}|18[0-4][0-9]', id)) and 'R1' not in ok:   # EUA antes de 1850 = casas de tijolo europeias
     erros.append(f'R1 a historia se passa em "{lugar[:40]}" (regiao {det}) mas o roteiro pede predios "{reg}": troque "regiao" para "{det}"')
 # lados que se enfrentam
 O = B.get('outfits', {})
