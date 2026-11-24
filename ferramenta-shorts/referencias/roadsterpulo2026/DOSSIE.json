@@ -9,55 +9,11 @@
   "cenarios": [
    "interior galpao",
    "loc_cidade",
-   "loc_deserto"
+   "loc_estudio",
+   "loc_patio",
+   "loc_pista"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "outback",
-    "loc_pista"
-   ],
-   [
-    "cena 1",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 2",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 5",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 6",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 7",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 8",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 9",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 10",
-    "street",
-    "loc_cidade"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -81,11 +37,16 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "kit/booster_air",
   "kit/cone_transito",
+  "kit/cybercab",
+  "kit/cybertruck",
   "kit/palete",
   "kit/rampa_curva",
   "kit/roadster26",
   "kit/room_galpao",
+  "kit/tanque_ar",
+  "kit/telao_led",
   "kit/torre_luz",
   "kit/tower",
   "mk/Crate_Metal",
@@ -126,8 +87,20 @@
   "locacoes": [
    "loc_pista",
    "interior galpao",
-   "loc_estudio"
-  ]
+   "loc_estudio",
+   "loc_patio",
+   "loc_cidade"
+  ],
+  "buscas": {
+   "O Carro que Voou de Cabeça para Baixo": "Tesla Roadster second generation prototype",
+   "Base de testes da SpaceX em McGregor (Texas, EUA): area aberta, chao de terra e concreto; galpoes da SpaceX": "SpaceX McGregor Texas test facility",
+   "grupo de fas, imprensa e investidores convidados": "Tesla Cybertruck unveiling event crowd",
+   "ventiladores sob o carro (succao)": "fan car ground effect Brabham BT46",
+   "propulsores SpaceX soltando fumaca branca": "cold gas thruster",
+   "roupas e ruas de 2026": "Elon Musk Tesla event stage",
+   "carro da epoca": "Tesla Cybercab",
+   "Estados Unidos": "McGregor Texas"
+  }
  },
  "fontes": [
   "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",

@@ -6,8 +6,9 @@
    "tipo": "tema",
    "item": "O Carro que Voou de Cabeça para Baixo",
    "consultas": [
+    "Tesla Roadster second generation prototype",
     "O Carro que Voou de Cabeça para Baixo",
-    "Elon Musk Em Foi SpaceX McGregor Texas Roadster Tesla Foram 2026"
+    "Elon Musk Foi SpaceX McGregor Texas Roadster Tesla Foram 2026"
    ]
   },
   {
@@ -22,6 +23,7 @@
    "tipo": "lugar",
    "item": "Estados Unidos",
    "consultas": [
+    "McGregor Texas",
     "Estados Unidos 2026",
     "Estados Unidos landscape"
    ]
@@ -30,6 +32,7 @@
    "tipo": "epoca",
    "item": "roupas e ruas de 2026",
    "consultas": [
+    "Elon Musk Tesla event stage",
     "2026 fashion clothing",
     "2026 street photograph"
    ]
@@ -54,6 +57,7 @@
    "tipo": "pessoas",
    "item": "grupo de fas, imprensa e investidores convidados",
    "consultas": [
+    "Tesla Cybertruck unveiling event crowd",
     "grupo de fas imprensa e investidores convidados",
     "grupo de fas imprensa e investidores convidados 2026"
    ]
@@ -70,6 +74,7 @@
    "tipo": "objeto",
    "item": "propulsores SpaceX soltando fumaca branca",
    "consultas": [
+    "cold gas thruster",
     "propulsores SpaceX soltando fumaca branca",
     "propulsores SpaceX soltando fumaca branca 2026"
    ]
@@ -78,15 +83,16 @@
    "tipo": "objeto",
    "item": "ventiladores sob o carro (succao)",
    "consultas": [
+    "fan car ground effect Brabham BT46",
     "ventiladores sob o carro",
     "ventiladores sob o carro 2026"
    ]
   },
   {
    "tipo": "heroi",
-   "item": "roadster26",
+   "item": "Tesla Roadster prototype",
    "consultas": [
-    "Tesla Roadster branco em cunha",
+    "Tesla Roadster prototype",
     "O Carro que Voou de Cabeça para Baixo"
    ]
   },
@@ -94,24 +100,33 @@
    "tipo": "epoca",
    "item": "carro da epoca",
    "consultas": [
+    "Tesla Cybercab",
     "car 2026",
     "car"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "O segredo eram propulsores da SpaceX escondidos no carro, e ventilador",
+   "item": "O segredo são propulsores da SpaceX escondidos no carro: dez bocais qu",
    "consultas": [
-    "segredo propulsores spacex escondidos carro ventiladores emb",
-    "diagram"
+    "segredo propulsores spacex escondidos carro bocais sopram co",
+    "roadster26 diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
+   "item": "E um sistema de sucção gruda o carro na pista, como uma ventosa, até d",
+   "consultas": [
+    "sistema succao gruda carro pista ventosa cabeca baixo",
+    "roadster26 diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um s",
    "consultas": [
     "tesla",
-    "diagram"
+    "roadster26 diagram"
    ]
   }
  ]
