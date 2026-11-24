@@ -23,7 +23,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
 - PERSONAGENS: FRI (cientista) na esquerda, expressao suspicious; ASS (agricultor) na direita, expressao smile; sem multidao; acao: conversar
-- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena

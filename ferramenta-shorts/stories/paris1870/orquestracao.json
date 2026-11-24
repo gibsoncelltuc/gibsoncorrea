@@ -17,8 +17,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_notredame",
-    "kit/panela"
+    "kit/bife_elefante",
+    "kit/marco_notredame"
    ],
    "palavras": 6,
    "cena": "b0",
@@ -139,7 +139,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/panela"
+    "kit/bife_elefante"
    ],
    "palavras": 16,
    "cena": "b6",
@@ -158,8 +158,8 @@
    ],
    "multidao": 12,
    "objetos": [
-    "kit/marco_notredame",
-    "kit/panela"
+    "kit/bife_elefante",
+    "kit/marco_notredame"
    ],
    "palavras": 12,
    "cena": "b7",

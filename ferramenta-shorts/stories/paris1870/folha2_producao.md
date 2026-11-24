@@ -8,16 +8,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/panela, kit/marco_notredame, elephant
+- Objetos/modelos: kit/bife_elefante, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao pained; sem multidao; acao: fala/gesto
-- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1870" flutuando no alto, na palavra 1 da frase
 - TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
@@ -81,11 +81,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: neve
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PAR na esquerda, expressao shock; CHF na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/rato: FRENTE, centro (objeto principal da cena); tamanho na tela: 3% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.2 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/panela: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/rato: FRENTE, esquerda; tamanho na tela: 3% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.2 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- OBJETO kit/rato: FRENTE, direita; tamanho na tela: 3% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.2 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - TEXTO NA TELA: "RATOS" numa placa atras dos personagens, na palavra 4 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
   - take 1 (14.9-16.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -139,16 +139,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/panela
+- Objetos/modelos: kit/bife_elefante
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, lobo, natal, restaurante
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loja / taverna; hora: day; clima: neve
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "NATAL DE 1870" numa placa atras dos personagens, na palavra 4 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (28.1-29.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -162,16 +162,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad) | multidao: 12 de PAR
 - Animacao: encena | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/panela, kit/marco_notredame
+- Objetos/modelos: kit/bife_elefante, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, fortuna, ricos
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: neve
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "SÓ PARA OS RICOS" flutuando no alto, na palavra 7 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
   - take 1 (34.5-36.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -259,22 +259,23 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/panela | b0, b3, b6, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bife_elefante | b0, b6, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_notredame | b0, b1, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-elephant | b0, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cat | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/panela | b3, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rato | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+elephant | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 deer | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/panela | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 12% | medio 74% | aberto 11% | detalhe 3%
+- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 12% | medio 74% | aberto 11% | detalhe 3%
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b8 vai ate o outro, b9 cochichar, b10 insiste
 - RISCOS GERAIS: nenhum
 
