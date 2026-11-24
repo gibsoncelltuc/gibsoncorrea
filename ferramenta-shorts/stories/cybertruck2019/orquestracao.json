@@ -130,7 +130,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "MUS",
     "DSG"
@@ -142,15 +142,9 @@
    "palavras": 16,
    "cena": "b6",
    "frase": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "hall"
   },

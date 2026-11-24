@@ -1,4 +1,4 @@
-# FOLHA 4 - PESQUISA: As Guerras do Bacalhau
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py bacalhau1958` busca cada item na internet, baixa os prints (referencias/bacalhau1958/prints/) e monta o quadro referencias/bacalhau1958/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 

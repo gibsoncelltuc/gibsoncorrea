@@ -59,11 +59,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 9
 ## Cena b6  (~5.5 s)
 - Narracao: A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: x_entrega (reach) @9 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.2 s)
 - Narracao: Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.

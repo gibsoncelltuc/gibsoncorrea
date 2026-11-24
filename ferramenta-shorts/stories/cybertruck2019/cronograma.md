@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 11 - A Janela do Cybertruck
 
-Gerado em 24/11 03:30 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 08:27 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | hall | group | DSG, MUS | 14 | cybertruck, steel_ball | - | Para 
 b3 | chave | hall | crowd | MUS, DSG | 30 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o vidro rachou, ao vivo, na frente de todo mundo.
 b4 | simples | hall | group | DSG, MUS | 14 | cybertruck | - | Ele tentou de novo, em outra janela, e ela também rachou.
 b5 | simples | hall | close | MUS | - | cybertruck, steel_ball | - | Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin
-b6 | chave | hall | crowd | MUS, DSG | 30 | globe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A plateia riu, a internet também, e a cena deu o que falar no mundo in
+b6 | simples | hall | orbit | MUS, DSG | 30 | globe | - | A plateia riu, a internet também, e a cena deu o que falar no mundo in
 b7 | simples | hall | group | MUS, DSG | 10 | cybertruck, steel_ball | - | Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam
 b8 | simples | hall | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -23,7 +23,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py cybertruck2019
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 5) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

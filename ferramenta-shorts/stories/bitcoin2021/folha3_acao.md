@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -30,13 +30,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.8s a 23.0s - 15 palavras - plano crowd
+## Cena b3 - 17.8s a 23.0s - 15 palavras - plano reveal
 > "E passou a valer em sete de setembro de dois mil e vinte e um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | 7 DE SETEMBRO DE 2021 | OK |
+| 1 | - | PLACA | 7 DE SETEMBRO DE 2021 | OK |
 
 ## Cena b4 - 23.3s a 26.3s - 9 palavras - plano two
 > "Com isso, dava para pagar as compras com bitcoin."

@@ -10,12 +10,12 @@ b2 | hall | group | 16 | conversar, INTERAGEM: avanca e o outro recua | kit/cybe
 b3 | hall | crowd | 32 | reagir, batalha | kit/cybertruck | - | -
 b4 | hall | group | 16 | reagir, INTERAGEM: o outro se aproxima | kit/cybertruck | - | -
 b5 | hall | close | 1 | conversar | kit/steel_ball, kit/cybertruck | - | -
-b6 | hall | crowd | 32 | comemorar, batalha | kit/globe | - | -
+b6 | hall | orbit | 32 | comemorar | kit/globe | - | -
 b7 | hall | group | 12 | comemorar, INTERAGEM: pular | kit/cybertruck, kit/steel_ball | - | -
 b8 | hall | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/steel_ball
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b3
 Interacoes entre personagens: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 pular
 
 Cenas com personagens parados: 1 de 9

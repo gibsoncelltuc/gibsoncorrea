@@ -1,4 +1,4 @@
-# Plano de acao - As Guerras do Bacalhau
+# Plano de acao - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---

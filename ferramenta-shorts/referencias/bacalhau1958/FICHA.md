@@ -1,4 +1,4 @@
-# FICHA DE REFERENCIA - As Guerras do Bacalhau
+# FICHA DE REFERENCIA - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 - Ano/epoca: 1958 (atual (1950+))
 - Onde: -

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
-Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 08:27 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | loc_cidade | two | MUS, CMP | - | marco_hollywood | - | No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company,
 b1 | simples | loc_patio | reveal | MUS, CMP | 8 | flamethrower | - | O nome dele era Não é um lança-chamas.
 b2 | simples | loc_patio | two | MUS, CMP | - | flamethrower | - | O preço era de quinhentos dólares.
-b3 | chave | loc_pista | crowd | CMP, MUS | 12 | flamethrower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e
+b3 | simples | loc_pista | two | CMP, MUS | - | flamethrower | - | O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e
 b4 | simples | loc_pista | wide | MUS, CMP | 6 | extinguisher | - | Cada compra vinha com um extintor de incêndio de brinde.
 b5 | simples | interior loja | group | MUS, CMP, POV | - | - | - | Foram vinte mil unidades à venda.
 b6 | chave | loc_campo | crowd | CMP, MUS | 30 | marco_hollywood, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dóla
@@ -24,7 +24,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/4 itens) | PENDENTE | python3 pesquisar.py lancachamas2018
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

@@ -32,11 +32,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 ## Cena b3  (~5.2 s)
 - Narracao: E passou a valer em sete de setembro de dois mil e vinte e um.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: 7 DE SETEMBRO DE 2021
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.1 s)
 - Narracao: Com isso, dava para pagar as compras com bitcoin.

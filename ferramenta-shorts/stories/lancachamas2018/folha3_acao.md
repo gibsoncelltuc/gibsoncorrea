@@ -31,12 +31,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | US$ 500 | OK |
 
-## Cena b3 - 14.4s a 20.7s - 18 palavras - plano crowd
+## Cena b3 - 14.4s a 20.7s - 18 palavras - plano two
 > "O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 21.1s a 24.4s - 10 palavras - plano wide
@@ -55,7 +55,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | venda (26.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 27.0s a 31.5s - 13 palavras - plano crowd
@@ -73,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | espalhou (33.0s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | insiste | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 34.4s a 38.1s - 11 palavras - plano group
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chamava (35.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 38.5s a 43.0s - 13 palavras - plano close

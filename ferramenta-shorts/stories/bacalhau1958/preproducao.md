@@ -1,4 +1,4 @@
-# Pre-producao - As Guerras do Bacalhau
+# Pre-producao - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 

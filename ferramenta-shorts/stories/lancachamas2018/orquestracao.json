@@ -78,27 +78,21 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "CMP",
     "MUS"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/flamethrower"
    ],
    "palavras": 18,
    "cena": "b3",
    "frase": "O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },

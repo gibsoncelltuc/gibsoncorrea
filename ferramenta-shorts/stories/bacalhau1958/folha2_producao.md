@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: As Guerras do Bacalhau
+# FOLHA 2 - PRODUCAO: Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bacalhau1958/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bacalhau1958` de novo ate esta folha sair sem risco.
 

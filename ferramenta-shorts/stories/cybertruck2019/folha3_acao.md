@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 11 - A Janela do Cybertruck
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -56,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | explicou (27.4s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.7s a 39.3s - 16 palavras - plano crowd
+## Cena b6 - 33.7s a 39.3s - 16 palavras - plano orbit
 > "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,8 +65,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | riu (34.4s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | deu (37.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | comemorar | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
 ## Cena b7 - 39.6s a 44.8s - 15 palavras - plano group
 > "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível."

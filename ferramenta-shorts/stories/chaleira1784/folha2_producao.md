@@ -80,8 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa
-- RISCOS: 
-  - a narracao cita "capitao" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b8 - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização...
 - Cenario: interior pedra | luz: noite | clima: limpo
@@ -134,8 +133,7 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py chaleira1784  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/chaleira1784/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 6 risco(s) em aberto
-- b7: a narracao cita "capitao" e ninguem em cena esta vestido a carater
+## RESUMO: 5 risco(s) em aberto
 - b9: cena curta (5 palavras): nao da tempo de ler a acao
 - geral: objeto heroi (kit/kettle) sem close de camera
 - geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)

@@ -79,7 +79,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "reveal",
    "personagens": [
     "BUK",
     "POV"
@@ -91,15 +91,9 @@
    "palavras": 15,
    "cena": "b3",
    "frase": "E passou a valer em sete de setembro de dois mil e vinte e um.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
