@@ -8,7 +8,7 @@
  "set": "stadium",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/clipper",
+ "heroi": null,
  "outfits": {
   "TRU": {
    "jacket": "#1f2f5c",
@@ -88,7 +88,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TRU:0:smug",
     "VIN:0:shock"
@@ -96,9 +96,9 @@
    "props": [
     [
      "kit/clipper",
-     0,
-     -1.4,
-     1.0
+     1.8,
+     -0.4,
+     1.8
     ]
    ],
    "text": "2007",
@@ -109,7 +109,8 @@
     "ding@30"
    ],
    "say": "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "reveal",
@@ -133,7 +134,7 @@
    "interior": "loja"
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "VIN:0:smug",
     "TRU:0:suspicious"
@@ -143,10 +144,10 @@
      "kit/clipper",
      1.6,
      -0.8,
-     1.1
+     1.6
     ]
    ],
-   "interacao": "entregar",
+   "interacao": "cochichar",
    "fx": [
     "ring@40"
    ],
@@ -186,7 +187,7 @@
    "say": "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "LAS:0:angry",
     "UMA:0:shout"
@@ -199,7 +200,7 @@
      1.0
     ]
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "fx": [
     "puff@30"
    ],
@@ -207,7 +208,8 @@
     "thump@30"
    ],
    "say": "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "low",
@@ -230,7 +232,8 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça."
+   "say": "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça.",
+   "detalhe": false
   },
   {
    "shot": "crowd",
@@ -271,7 +274,7 @@
    "say": "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TRU:0:laugh",
     "VIN:0:scared"
@@ -290,20 +293,22 @@
      1.1
     ]
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "fx": [
     "puff@40"
    ],
    "sfx": [
     "whoosh@40"
    ],
-   "say": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
+   "say": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.",
+   "detalhe": false
   },
   {
    "shot": "two",
    "who": [
     "VIB:0:cry",
-    "TRU:0:laugh"
+    "TRU:0:laugh",
+    "LAS:0:smile"
    ],
    "props": [
     [
@@ -321,10 +326,11 @@
    ],
    "say": "O dono da luta livre saiu do ringue completamente careca.",
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "perto": 0.8
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "JUI:0:smug",
     "TRU:0:shock"
@@ -337,29 +343,23 @@
      1.0
     ]
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "fx": [
     "puff@30"
    ],
    "sfx": [
     "thump@30"
    ],
-   "say": "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
+   "say": "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.",
+   "detalhe": false
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "TRU:0:smile"
+    "TRU:0:smile",
+    "JUI:0:smile"
    ],
-   "props": [
-    [
-     "kit/clipper",
-     -1.4,
-     -0.8,
-     1.0
-    ]
-   ],
-   "text": "HALL DA FAMA",
+   "props": [],
    "say": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.",
    "acao": "comemorar",
    "interior": "madeira"

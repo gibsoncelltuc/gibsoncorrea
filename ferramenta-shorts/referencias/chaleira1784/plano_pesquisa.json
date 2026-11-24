@@ -1,0 +1,62 @@
+{
+ "id": "chaleira1784",
+ "ano": 1784,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra da Chaleira",
+   "consultas": [
+    "A Guerra da Chaleira",
+    "Uma Era Holanda Ele 1784"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Holanda",
+   "consultas": [
+    "Holanda 1784",
+    "Holanda landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1784",
+   "consultas": [
+    "1784 fashion clothing",
+    "18th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "kettle",
+   "consultas": [
+    "kettle",
+    "A Guerra da Chaleira"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1784",
+    "ship"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "canhao da epoca",
+   "consultas": [
+    "cannon 1784",
+    "cannon"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1784",
+    "soldier uniform"
+   ]
+  }
+ ]
+}

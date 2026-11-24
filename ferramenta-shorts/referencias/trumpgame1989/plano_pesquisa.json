@@ -1,0 +1,46 @@
+{
+ "id": "trumpgame1989",
+ "ano": 1989,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Jogo de Tabuleiro do Trump",
+   "consultas": [
+    "O Jogo de Tabuleiro do Trump",
+    "Muito Donald Trump Era Estados Unidos Trump Nova York Uma 1989"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 1989",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1989",
+   "consultas": [
+    "1989 fashion clothing",
+    "1989 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "boardgame",
+   "consultas": [
+    "boardgame",
+    "O Jogo de Tabuleiro do Trump"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "fabrica da epoca",
+   "consultas": [
+    "factory 1989",
+    "factory"
+   ]
+  }
+ ]
+}

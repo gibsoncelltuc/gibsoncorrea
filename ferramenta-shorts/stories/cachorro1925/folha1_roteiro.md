@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 10 cenas, 157 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_montanha | 11 cenas, 170 palavras (~59 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre @2 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; animal: dog foge correndo -> acao + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre @2 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1925
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito; encena: chega (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @4 -> acao + som de efeito; encena: x_entrega (reach) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; (rosto) angry -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @4 -> acao + som de efeito; encena: x_entrega (reach) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; invadiu -> dust + som de impacto; morreram -> puff + som de baque; encena: chega (point) @6 -> acao + som de efeito; encena: morre @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; invadiu -> dust + som de impacto; morreram -> puff + som de baque; encena: chega (point) @6 -> acao + som de efeito; encena: chega (point) @10 -> acao + som de efeito; encena: morre @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: INVASÃO
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: fala (point) @2 -> acao + som de efeito; encena: paga (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: fala (point) @2 -> acao + som de efeito; encena: sai @6 -> acao + som de efeito; encena: paga (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,8 +87,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_saluda (salute) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

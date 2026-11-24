@@ -1,0 +1,61 @@
+{
+ "id": "semmelweis1847",
+ "titulo": "Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos",
+ "ancoras": {
+  "ano": 1847,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "interior hospital",
+   "loc_campo"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_campo"
+   ],
+   [
+    "cena 13",
+    "street",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/lapide",
+  "kit/lupa",
+  "kit/maca",
+  "kit/marco_viena",
+  "kit/room_hospital",
+  "kit/wash_basin"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

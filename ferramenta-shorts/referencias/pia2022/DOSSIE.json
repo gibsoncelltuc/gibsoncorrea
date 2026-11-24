@@ -1,0 +1,69 @@
+{
+ "id": "pia2022",
+ "titulo": "Poder e Fama EP 10 - A Pia no Twitter",
+ "ancoras": {
+  "ano": 2022,
+  "era": "atual (1950+)",
+  "regiao": "eua",
+  "luz_base": "golden",
+  "cenarios": [
+   "interior loja",
+   "loc_campo",
+   "loc_cidade",
+   "loc_patio",
+   "loc_pista"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 9",
+    "street",
+    "loc_cidade"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/coin",
+  "kit/globe",
+  "kit/marco_goldengate",
+  "kit/phone",
+  "kit/room_eua_shop",
+  "kit/sink"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

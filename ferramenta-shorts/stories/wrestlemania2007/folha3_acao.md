@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 5.4s - 19 palavras - plano two
+## Cena b0 - 0.1s a 5.4s - 19 palavras - plano group
 > "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 18.7s a 23.6s - 19 palavras - plano two
+## Cena b3 - 18.7s a 23.6s - 19 palavras - plano group
 > "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -39,7 +39,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | escolheu (20.4s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | perdesse (22.5s) | ACAO: perde | mao na testa | OK |
 | 3 | raspada (23.6s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 4 | - | INTERACAO | entregar | OK |
+| 4 | - | INTERACAO | cochichar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.9s a 28.6s - 14 palavras - plano crowd
@@ -52,13 +52,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | 80 MIL | OK |
 
-## Cena b5 - 29.9s a 35.1s - 16 palavras - plano two
+## Cena b5 - 29.9s a 35.1s - 16 palavras - plano group
 > "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | enfrentou (32.7s) | ACAO: golpe | soco + estouro | OK |
-| 2 | - | INTERACAO | empurrar | OK |
+| 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 36.4s a 42.1s - 17 palavras - plano low
@@ -83,14 +83,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | VITÓRIA | OK |
 
-## Cena b8 - 48.6s a 52.6s - 14 palavras - plano two
+## Cena b8 - 48.6s a 52.6s - 14 palavras - plano group
 > "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | seguraram (49.3s) | ACAO: pega | levanta/segura | OK |
 | 2 | raspar (51.8s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 3 | - | INTERACAO | empurrar | OK |
+| 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 53.7s a 56.2s - 10 palavras - plano two
@@ -111,15 +111,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | aplicou (59.5s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | golpe (60.2s) | ACAO: golpe | soco + estouro | OK |
 | 3 | chão (61.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 4 | - | INTERACAO | empurrar | OK |
+| 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 62.9s a 68.5s - 21 palavras - plano close
+## Cena b11 - 62.9s a 68.5s - 21 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | entrou (64.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | HALL DA FAMA | OK |
+| 2 | - | INTERACAO | pular | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+
+## Cena b12 - 68.5s a 68.5s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

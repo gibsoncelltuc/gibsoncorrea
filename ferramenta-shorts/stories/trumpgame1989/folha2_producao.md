@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/trumpgame1989/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py trumpgame1989` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Muito antes da política, Donald Trump lançou um jogo de tabuleiro com ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); EXE (variante 0, expressao grin)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -54,7 +54,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Muita gente comprou só de presente, ou de curiosidade, e nunca tirou a...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FIL (variante 0, expressao angry); PAI (variante 0, expressao nervous)
 - Animacao: conversar | interacao: empurrar
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): EXE (variante 0, expressao sad); POV (variante 0, expressao bored); POV (variante 1, expressao suspicious) | multidao: 30 de POV
@@ -73,17 +73,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O jogo saiu das lojas, e ficou esquecido por anos.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): EXE (variante 0, expressao sad); TRU (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/marco_liberdade
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogo, lojas
 - RISCOS: nenhum
 
 ## Cena b8 - Até que, em dois mil e quatro, Trump virou estrela de um programa de T...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_pista | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao grin); EXE (variante 0, expressao surprised)
@@ -93,33 +93,43 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - E o jogo voltou às lojas, com regras mais simples, e com a frase famos...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TRU (variante 0, expressao smug)
-- Animacao: conversar
+- Cenario: loc_cidade | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 18 de POV
+- Animacao: comemorar | interacao: pular | batalha encenada
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras
 - RISCOS: nenhum
 
 ## Cena b10 - Hoje, as caixas originais de mil novecentos e oitenta e nove viraram i...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao laugh); PAI (variante 0, expressao laugh); FIL (variante 0, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/boardgame, kit/marco_liberdade, crate
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): PAI (variante 0, expressao surprised); FIL (variante 0, expressao grin)
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/boardgame, crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixas, colecionador
 - RISCOS: nenhum
 
 ## Cena b11 - Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade ...
-- Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): curiosidade, jogo
+- RISCOS: nenhum
+
+## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_cidade | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): TRU (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: kit/marco_liberdade
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -128,17 +138,23 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/boardgame | b0, b2, b3, b4, b5, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_liberdade | b0, b1, b6, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b1, b6, b8, b9, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tv | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/boardgame | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 26% | medio 56% | aberto 10% | detalhe 7%
-- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/boardgame | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 70% | aberto 7% | detalhe 6%
+- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar, b9 pular, b10 vai ate o outro
+- RISCOS GERAIS: 
+  - OBJETO FORA DE EPOCA para 1989: crate (caixote de madeira, ...-1965) -> CORRECAO: tirar o objeto de "props"/"moveis" ou trocar por um da epoca; se a historia mostra mesmo esse objeto (museu, lembranca), liste em "epoca_ok": ["<asset>"]
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py trumpgame1989  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/trumpgame1989/moodboard.jpg
+  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- geral: OBJETO FORA DE EPOCA para 1989: crate (caixote de madeira, ...-1965)
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh trumpgame1989 bN bM` (so essas cenas).

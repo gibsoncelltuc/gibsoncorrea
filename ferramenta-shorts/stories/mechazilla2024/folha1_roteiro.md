@@ -1,19 +1,19 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 199 palavras (~69 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_patio | 13 cenas, 212 palavras (~73 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: constroi (hammer) @3 -> acao + som de efeito; encena: x_entrega (reach) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: constroi (hammer) @3 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito; encena: x_entrega (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2024
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
 - Narracao: Foi em outubro de dois mil e vinte e quatro, na base de foguetes da SpaceX, no Texas.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito; encena: tira (lift) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito; encena: tira (lift) @4 -> acao + som de efeito; encena: pega (lift) @16 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~6.2 s)
 - Narracao: No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: encena: voa (point) @7 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
@@ -58,25 +58,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~4.8 s)
 - Narracao: Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito; encena: x_desce (point) @6 -> acao + som de efeito
 - Efeito visual marcado: whoosh@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.2 s)
 - Narracao: Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: encena: x_abre (push) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_abre (push) @8 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b8  (~5.2 s)
 - Narracao: Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito; encena: pega (lift) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -103,11 +103,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b11  (~5.9 s)
 - Narracao: E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @6 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

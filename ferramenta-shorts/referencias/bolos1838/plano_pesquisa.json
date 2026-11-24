@@ -1,0 +1,70 @@
+{
+ "id": "bolos1838",
+ "ano": 1838,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra dos Bolos",
+   "consultas": [
+    "A Guerra dos Bolos",
+    "França México Um Cidade México Um 1838"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "México",
+   "consultas": [
+    "México 1838",
+    "México landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1838",
+   "consultas": [
+    "1838 fashion clothing",
+    "19th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "cake table",
+   "consultas": [
+    "cake table",
+    "A Guerra dos Bolos"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1838",
+    "ship"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "canhao da epoca",
+   "consultas": [
+    "cannon 1838",
+    "cannon"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1838",
+    "soldier uniform"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "porto da epoca",
+   "consultas": [
+    "harbor 1838",
+    "harbor"
+   ]
+  }
+ ]
+}

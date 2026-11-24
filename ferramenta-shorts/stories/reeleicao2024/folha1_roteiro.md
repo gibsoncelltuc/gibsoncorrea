@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 21 - A Volta de Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 160 palavras (~55 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 173 palavras (~60 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @2 -> acao + som de efeito; encena: voto (reach) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @2 -> acao + som de efeito; encena: voto (reach) @4 -> acao + som de efeito; encena: chega (point) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2024
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito; encena: x_entrega (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,14 +51,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito; encena: escala (lift) @7 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito; encena: escala (lift) @7 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito; encena: vence (up) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: 312 VOTOS
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.5 s)
 - Narracao: Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~5.5 s)
 - Narracao: Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -96,9 +96,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: Perdeu -> puff + som de baque; ganhou -> stars + som de sino; encena: perde (facepalm) @0 -> acao + som de efeito; encena: vence (up) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: Perdeu -> puff + som de baque; ganhou -> stars + som de sino; encena: perde (facepalm) @0 -> acao + som de efeito; encena: chega (point) @1 -> acao + som de efeito; encena: vence (up) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

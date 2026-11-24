@@ -57,6 +57,15 @@
      6,
      -8,
      1.3
+    ],
+    [
+     "kit/cod",
+     1.6,
+     1.8,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "3 GUERRAS",
@@ -81,7 +90,8 @@
    ],
    "text": "BACALHAU",
    "tat": 14,
-   "tstyle": "brown"
+   "tstyle": "brown",
+   "set": "harbor"
   },
   {
    "say": "Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.",
@@ -105,7 +115,8 @@
    ],
    "text": "200 MILHAS",
    "tat": 14,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "set": "harbor"
   },
   {
    "say": "A Inglaterra mandou a marinha para proteger os barcos de pesca.",
@@ -123,7 +134,8 @@
      1.4
     ]
    ],
-   "mood": "march"
+   "mood": "march",
+   "set": "harbor"
   },
   {
    "say": "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.",
@@ -209,11 +221,22 @@
      -1.8,
      0.7,
      1.0
+    ],
+    [
+     "kit/cod",
+     1.6,
+     1.8,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "TUDO POR UM PEIXE",
    "tat": 13,
-   "tstyle": "brown"
+   "tstyle": "brown",
+   "set": "harbor"
   }
- ]
+ ],
+ "variar_cenario": false
 }

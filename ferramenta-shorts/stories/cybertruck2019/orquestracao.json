@@ -1,0 +1,194 @@
+{
+ "id": "cybertruck2019",
+ "ano": 2019,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "DSG"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/cybertruck"
+   ],
+   "palavras": 22,
+   "cena": "b0",
+   "frase": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/cybertruck"
+   ],
+   "palavras": 14,
+   "cena": "b1",
+   "frase": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "DSG",
+    "MUS"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/cybertruck",
+    "kit/steel_ball"
+   ],
+   "palavras": 14,
+   "cena": "b2",
+   "frase": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MUS",
+    "DSG"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/cybertruck"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "E o vidro rachou, ao vivo, na frente de todo mundo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "DSG",
+    "MUS"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/cybertruck"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Ele tentou de novo, em outra janela, e ela também rachou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cybertruck",
+    "kit/steel_ball"
+   ],
+   "palavras": 19,
+   "cena": "b5",
+   "frase": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MUS",
+    "DSG"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS",
+    "DSG"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/cybertruck",
+    "kit/steel_ball"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  }
+ ]
+}

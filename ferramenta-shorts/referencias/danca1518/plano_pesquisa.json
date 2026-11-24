@@ -1,0 +1,30 @@
+{
+ "id": "danca1518",
+ "ano": 1518,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Praga da Dança",
+   "consultas": [
+    "A Praga da Dança",
+    "Uma Era Estrasburgo Ela Em Ninguém 1518"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estrasburgo",
+   "consultas": [
+    "Estrasburgo 1518",
+    "Estrasburgo landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1518",
+   "consultas": [
+    "1518 fashion clothing",
+    "16th century clothing painting"
+   ]
+  }
+ ]
+}

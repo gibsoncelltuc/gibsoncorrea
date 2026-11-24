@@ -1,0 +1,46 @@
+{
+ "id": "bacalhau1958",
+ "ano": 1958,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "As Guerras do Bacalhau",
+   "consultas": [
+    "As Guerras do Bacalhau",
+    "Entre Islândia Inglaterra Por Islândia Mas Então Islândia 1958"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Inglaterra",
+   "consultas": [
+    "Inglaterra 1958",
+    "Inglaterra landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1958",
+   "consultas": [
+    "1958 fashion clothing",
+    "1958 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "cod",
+   "consultas": [
+    "cod",
+    "As Guerras do Bacalhau"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1958",
+    "ship"
+   ]
+  }
+ ]
+}

@@ -69,7 +69,10 @@
      -0.8,
      1.0
     ]
-   ]
+   ],
+   "set": "harbor",
+   "objetos": false,
+   "fachada": false
   },
   {
    "say": "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.",
@@ -85,7 +88,10 @@
      1.5
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "set": "harbor",
+   "objetos": false,
+   "fachada": false
   },
   {
    "say": "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos.",
@@ -111,7 +117,10 @@
      "MUS"
     ],
     "march": false
-   }
+   },
+   "set": "harbor",
+   "objetos": false,
+   "fachada": false
   },
   {
    "say": "Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.",
@@ -128,7 +137,10 @@
      0.3,
      1.2
     ]
-   ]
+   ],
+   "objetos": false,
+   "fachada": false,
+   "interior": "loja"
   },
   {
    "say": "O foguete decolou com um estrondo!",
@@ -167,7 +179,10 @@
     ],
     "march": false,
     "expr": "shock"
-   }
+   },
+   "set": "harbor",
+   "objetos": false,
+   "fachada": false
   },
   {
    "say": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
@@ -185,7 +200,10 @@
     ]
    ],
    "detalhe": false,
-   "veiculo": false
+   "veiculo": false,
+   "objetos": false,
+   "fachada": false,
+   "interior": "loja"
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
@@ -202,11 +220,14 @@
      1.4
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "set": "countryside",
+   "objetos": false,
+   "fachada": false
   },
   {
    "say": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "ENG:0:surprised",
     "MUS:0:smile"
@@ -214,15 +235,15 @@
    "hora": "noite",
    "props": [
     [
-     "kit/globe",
-     1.5,
-     -0.5,
-     1.2
+     "kit/roadster",
+     0,
+     -2.0,
+     1.7
     ],
     [
-     "kit/roadster",
-     -1.5,
-     0.3,
+     "kit/globe",
+     2.0,
+     -2.0,
      1.0
     ]
    ],
@@ -231,11 +252,12 @@
    ],
    "sfx": [
     "ding@20"
-   ]
+   ],
+   "set": "arctic"
   },
   {
    "say": "E ele continua lá em cima, dando voltas, até hoje.",
-   "shot": "orbit",
+   "shot": "low",
    "who": [
     "MUS:0:smile",
     "STA:0:grin"
@@ -254,7 +276,9 @@
    ],
    "sfx": [
     "ding@20"
-   ]
+   ],
+   "set": "arctic",
+   "acao": "reagir"
   },
   {
    "say": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
@@ -297,9 +321,36 @@
     "expr": "laugh"
    },
    "text": "STARMAN",
-   "titulo": true
+   "titulo": true,
+   "set": "arctic"
   }
  ],
  "cinf": 4.5,
- "exp": 1.12
+ "exp": 1.12,
+ "visual": {
+  "local": "Cabo Canaveral, Complexo de Lançamento 39A do Centro Espacial Kennedy, Flórida, e o espaço",
+  "quando": "6 de fevereiro de 2018, tarde (15h45)",
+  "participantes": [
+   "Elon Musk (camiseta escura)",
+   "engenheiros da SpaceX",
+   "boneco Starman"
+  ],
+  "roupas": {
+   "MUS": "camiseta escura e jeans",
+   "ENG": "camisa azul/preta da equipe SpaceX",
+   "STA": "traje espacial branco e preto da SpaceX com capacete"
+  },
+  "cenario": "plataforma de lançamento aberta à beira-mar, torre de serviço, gramado; depois o vazio do espaço com a Terra",
+  "objetos": [
+   "Tesla Roadster vermelho",
+   "foguete Falcon Heavy (3 propulsores)",
+   "painel com a frase DON'T PANIC",
+   "globo terrestre"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster",
+   "https://en.wikipedia.org/wiki/Falcon_Heavy_test_flight",
+   "https://www.spacex.com/vehicles/falcon-heavy/"
+  ]
+ }
 }

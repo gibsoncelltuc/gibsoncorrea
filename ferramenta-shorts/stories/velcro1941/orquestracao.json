@@ -1,0 +1,303 @@
+{
+ "id": "velcro1941",
+ "ano": 1941,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 3",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 4",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "arctic",
+   "loc_campo"
+  ],
+  [
+   "cena 13",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MES",
+    "TEC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr",
+    "kit/marco_alpes"
+   ],
+   "palavras": 14,
+   "cena": "b0",
+   "frase": "Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "Era mil novecentos e quarenta e um, na Suíça.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr",
+    "kit/marco_alpes"
+   ],
+   "palavras": 16,
+   "cena": "b3",
+   "frase": "O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr",
+    "kit/microscopio"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Curioso, ele levou um carrapicho para casa e olhou no microscópio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr"
+   ],
+   "palavras": 15,
+   "cena": "b5",
+   "frase": "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr"
+   ],
+   "palavras": 20,
+   "cena": "b6",
+   "frase": "Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "TEC",
+    "MES"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MES",
+    "TEC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr"
+   ],
+   "palavras": 17,
+   "cena": "b8",
+   "frase": "O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "TEC",
+    "POV"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/burr",
+    "kit/marco_alpes"
+   ],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "No começo, muita gente achou o velcro feio, e as vendas foram fracas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AST"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr",
+    "kit/marco_alpes",
+    "kit/moon",
+    "kit/rocket"
+   ],
+   "palavras": 18,
+   "cena": "b10",
+   "frase": "Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr",
+    "kit/marco_alpes"
+   ],
+   "palavras": 17,
+   "cena": "b11",
+   "frase": "Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 13,
+   "cena": "b12",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

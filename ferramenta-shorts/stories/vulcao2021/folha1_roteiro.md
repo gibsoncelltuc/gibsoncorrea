@@ -1,19 +1,19 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle | 12 cenas, 176 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 189 palavras (~65 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; dinheiro -> stars + som de sino; encena: paga (reach) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; dinheiro -> stars + som de sino; encena: constroi (hammer) @6 -> acao + som de efeito; encena: paga (reach) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2021
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.1 s)
 - Narracao: El Salvador é um país pequeno da América Central, cheio de vulcões.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b4  (~5.2 s)
 - Narracao: Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@40
@@ -50,9 +50,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 ## Cena b5  (~5.2 s)
 - Narracao: O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: whoosh@20, whoosh@50
+- Efeitos sonoros marcados: whoosh@10, whoosh@35
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: puff@20, puff@50
+- Efeito visual marcado: puff@5, puff@25, puff@45, puff@65
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -60,14 +60,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b7  (~5.5 s)
 - Narracao: Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b8  (~4.1 s)
 - Narracao: Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b9  (~4.8 s)
 - Narracao: Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -103,11 +103,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b11  (~3.4 s)
 - Narracao: Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: Dinheiro -> stars + som de sino; encena: paga (reach) @0 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

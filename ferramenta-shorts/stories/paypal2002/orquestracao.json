@@ -1,0 +1,207 @@
+{
+ "id": "paypal2002",
+ "ano": 2002,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 5",
+   "outback",
+   "loc_pista"
+  ],
+  [
+   "cena 6",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 7",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "group",
+   "personagens": [
+    "EBY",
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin"
+   ],
+   "palavras": 18,
+   "cena": "b0",
+   "frase": "Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunciou a compra do PayPal.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "EBY"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin"
+   ],
+   "palavras": 12,
+   "cena": "b1",
+   "frase": "O PayPal era um serviço para pagar e receber dinheiro pela internet.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EBY"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin"
+   ],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "EBY"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Elon Musk era o maior acionista do PayPal.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/roadster",
+    "kit/rocket"
+   ],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/rocket"
+   ],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS",
+    "EBY",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin",
+    "kit/roadster",
+    "kit/rocket"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Uma venda de internet que ajudou a pagar foguetes e carros elétricos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "EBY"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b7",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "aroostook1838",
+ "ano": 1838,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra de Aroostook",
+   "consultas": [
+    "A Guerra de Aroostook",
+    "Uma Estados Unidos Inglaterra Em Maine Na Aroostook 1838"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Maine",
+   "consultas": [
+    "Maine 1838",
+    "Maine landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1838",
+   "consultas": [
+    "1838 fashion clothing",
+    "19th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "logs",
+   "consultas": [
+    "logs",
+    "A Guerra de Aroostook"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1838",
+    "soldier uniform"
+   ]
+  }
+ ]
+}

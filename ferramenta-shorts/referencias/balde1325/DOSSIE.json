@@ -1,0 +1,78 @@
+{
+ "id": "balde1325",
+ "titulo": "Guerras Inusitadas EP 04 - A Guerra do Balde",
+ "ancoras": {
+  "ano": 1325,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "interior pedra",
+   "loc_campo",
+   "loc_deserto",
+   "loc_montanha",
+   "street"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 11",
+    "medieval",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "fragata a vela",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_small",
+  "buildings/house_two",
+  "kit/marco_ghirlandina",
+  "kit/room_europa_stone",
+  "kit/room_verde_wood",
+  "kit/well",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "nature/lamppost",
+  "nature/picket_fence",
+  "nature/tree_oak",
+  "tools/bucket"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "martelo2025",
+ "ano": 2025,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Martelo da Meia-Noite",
+   "consultas": [
+    "O Martelo da Meia-Noite",
+    "Para Estados Unidos Foi Irã Fordow 2025"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Irã",
+   "consultas": [
+    "Irã 2025",
+    "Irã landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2025",
+   "consultas": [
+    "2025 fashion clothing",
+    "2025 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bunker bomb",
+   "consultas": [
+    "bunker bomb",
+    "O Martelo da Meia-Noite"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "b2 air",
+   "consultas": [
+    "b2 air"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "mountain bunker",
+   "consultas": [
+    "mountain bunker"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "aviao da epoca",
+   "consultas": [
+    "airplane 2025",
+    "airplane"
+   ]
+  }
+ ]
+}

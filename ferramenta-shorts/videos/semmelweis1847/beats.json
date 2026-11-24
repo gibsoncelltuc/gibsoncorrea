@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/wash_basin",
+ "heroi": "kit/maca",
  "outfits": {
   "SEM": {
    "profissao": "medico",
@@ -80,7 +80,8 @@
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "interior": "hospital"
   },
   {
    "shot": "reveal",
@@ -90,7 +91,23 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria."
+   "say": "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria.",
+   "text": "HOSPITAL DE VIENA",
+   "titulo": true,
+   "props": [
+    [
+     "kit/maca",
+     1.5,
+     1.5,
+     1.2
+    ],
+    [
+     "kit/room_hospital",
+     0,
+     -6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -135,7 +152,15 @@
    "batalha": false,
    "tiros": false,
    "shot_lock": true,
-   "impact": false
+   "impact": false,
+   "props": [
+    [
+     "kit/maca",
+     1.8,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -244,16 +269,27 @@
    ],
    "sfx": [
     "sting@50"
+   ],
+   "verbos_ok": [
+    "brigo"
    ]
   },
   {
-   "shot": "two",
+   "shot": "close",
    "who": [
     "MAE:0:cry"
    ],
-   "props": [],
+   "props": [
+    [
+     "kit/lapide",
+     1.4,
+     -0.5,
+     1.2
+    ]
+   ],
    "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.",
-   "detalhe": true
+   "detalhe": true,
+   "shot_lock": true
   },
   {
    "shot": "close",

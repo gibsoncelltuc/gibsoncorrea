@@ -1,0 +1,261 @@
+{
+ "id": "tycho1566",
+ "ano": 1566,
+ "cenarios_trocados": [
+  [
+   "cena 8",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TYC",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/brass_nose",
+    "kit/marco_rostock"
+   ],
+   "palavras": 15,
+   "cena": "b0",
+   "frase": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "TYC",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "buildings/house_two",
+    "kit/marco_rostock",
+    "nature/lamppost"
+   ],
+   "palavras": 19,
+   "cena": "b1",
+   "frase": "Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TYC",
+    "PAR",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b2",
+   "frase": "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TYC",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_rostock"
+   ],
+   "palavras": 17,
+   "cena": "b3",
+   "frase": "A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PAR",
+    "TYC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/brass_nose",
+    "kit/marco_rostock"
+   ],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TYC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/brass_nose",
+    "kit/marco_rostock"
+   ],
+   "palavras": 15,
+   "cena": "b5",
+   "frase": "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "REI",
+    "TYC"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_rostock"
+   ],
+   "palavras": 17,
+   "cena": "b6",
+   "frase": "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TYC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_rostock",
+    "kit/marco_uraniborg",
+    "kit/tower"
+   ],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TYC",
+    "KEP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b8",
+   "frase": "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "KEP",
+    "POV",
+    "POV"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/marco_rostock"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Essa descoberta mudou a astronomia para sempre.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TYC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/brass_nose",
+    "kit/marco_rostock"
+   ],
+   "palavras": 17,
+   "cena": "b10",
+   "frase": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TYC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_rostock"
+   ],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

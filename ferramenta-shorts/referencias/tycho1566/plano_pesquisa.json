@@ -1,0 +1,46 @@
+{
+ "id": "tycho1566",
+ "ano": 1566,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Astrônomo do Nariz de Metal",
+   "consultas": [
+    "O Astrônomo do Nariz de Metal",
+    "Um Era Tycho Brahe Dinamarca Alemanha Numa 1566"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Dinamarca",
+   "consultas": [
+    "Dinamarca 1566",
+    "Dinamarca landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1566",
+   "consultas": [
+    "1566 fashion clothing",
+    "16th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "brass nose",
+   "consultas": [
+    "brass nose",
+    "O Astrônomo do Nariz de Metal"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "castelo da epoca",
+   "consultas": [
+    "castle 1566",
+    "castle"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 20 - A Piada que Virou Tequila
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 194 palavras (~67 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 13 cenas, 207 palavras (~71 s)
 
 ## Cena b0  (~6.9 s)
 - Narracao: Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade.
@@ -33,23 +33,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: pensa (think) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; (rosto) determined -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: pensa (think) @8 -> acao + som de efeito; encena: escreve (write) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~8.3 s)
 - Narracao: Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) annoyed -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) annoyed -> expr + som de efeito; encena: x_discute (point) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b5  (~5.5 s)
 - Narracao: Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: sai @5 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -108,6 +108,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

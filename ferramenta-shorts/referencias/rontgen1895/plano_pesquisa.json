@@ -1,0 +1,46 @@
+{
+ "id": "rontgen1895",
+ "ano": 1895,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Raio X de Röntgen",
+   "consultas": [
+    "O Raio X de Röntgen",
+    "Um Era Alemanha Wilhelm Röntgen 1895"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Alemanha",
+   "consultas": [
+    "Alemanha 1895",
+    "Alemanha landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1895",
+   "consultas": [
+    "1895 fashion clothing",
+    "1895 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "xray plate",
+   "consultas": [
+    "xray plate",
+    "O Raio X de Röntgen"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "laboratorio da epoca",
+   "consultas": [
+    "laboratory 1895",
+    "laboratory"
+   ]
+  }
+ ]
+}

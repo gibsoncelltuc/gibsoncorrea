@@ -1,0 +1,231 @@
+{
+ "id": "bitcoin2021",
+ "ano": 2021,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/volcano"
+   ],
+   "palavras": 22,
+   "cena": "b0",
+   "frase": "Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 16,
+   "cena": "b1",
+   "frase": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "DEP",
+    "BUK",
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "A lei foi aprovada pelo congresso em junho daquele ano.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "E passou a valer em sete de setembro de dois mil e vinte e um.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CLI",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/stall",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Com isso, dava para pagar as compras com bitcoin.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "O governo lançou até uma carteira digital, chamada Chivo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "CLI",
+    "POV"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "BUK",
+    "DEP"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/globe",
+    "kit/volcano"
+   ],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "POV",
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/coin",
+    "kit/volcano"
+   ],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

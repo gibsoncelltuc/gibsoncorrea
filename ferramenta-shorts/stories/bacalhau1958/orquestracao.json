@@ -1,0 +1,201 @@
+{
+ "id": "bacalhau1958",
+ "ano": 1958,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "ICE",
+    "BRI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cod",
+    "ship"
+   ],
+   "palavras": 26,
+   "cena": "b0",
+   "frase": "Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ICE",
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/cod"
+   ],
+   "palavras": 18,
+   "cena": "b1",
+   "frase": "A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ICE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BRI",
+    "BRI",
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "A Inglaterra mandou a marinha para proteger os barcos de pesca.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ICE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b4",
+   "frase": "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "X"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ICE",
+    "BRI"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "A Islândia ainda ameaçou fechar a base da Otan no país.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BRI",
+    "ICE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 23,
+   "cena": "b7",
+   "frase": "Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/cod"
+   ],
+   "palavras": 17,
+   "cena": "b8",
+   "frase": "Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ICE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

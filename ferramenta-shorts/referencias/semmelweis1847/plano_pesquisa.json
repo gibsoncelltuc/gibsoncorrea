@@ -1,0 +1,61 @@
+{
+ "id": "semmelweis1847",
+ "ano": 1847,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Médico que Mandou Lavar as Mãos",
+   "consultas": [
+    "O Médico que Mandou Lavar as Mãos",
+    "Um Era Viena Numa Na 1847"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Áustria",
+   "consultas": [
+    "Áustria 1847",
+    "Áustria landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1847",
+   "consultas": [
+    "1847 fashion clothing",
+    "1847 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "maca",
+   "consultas": [
+    "maca",
+    "O Médico que Mandou Lavar as Mãos"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "wash basin",
+   "consultas": [
+    "wash basin"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "hospital da epoca",
+   "consultas": [
+    "hospital 1847",
+    "hospital"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de sal",
+   "consultas": [
+    "ciencia provou microbios chamado salvador",
+    "diagram"
+   ]
+  }
+ ]
+}

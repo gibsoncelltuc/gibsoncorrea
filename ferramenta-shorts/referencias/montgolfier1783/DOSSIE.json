@@ -1,0 +1,109 @@
+{
+ "id": "montgolfier1783",
+ "titulo": "Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu",
+ "ancoras": {
+  "ano": 1783,
+  "era": "historica",
+  "regiao": "franca",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "loc_campo",
+   "palace"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 1",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 3",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 6",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 8",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 9",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 10",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 11",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 12",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 13",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/balloon",
+  "kit/balloon_air",
+  "kit/campfire",
+  "kit/marco_versalhes",
+  "kit/room_franca_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/bush",
+  "nature/tree_oak",
+  "nature/tree_pine"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

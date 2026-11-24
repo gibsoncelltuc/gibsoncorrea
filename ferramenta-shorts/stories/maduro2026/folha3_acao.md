@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -26,8 +26,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | acusado (13.7s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 15.9s a 19.6s - 11 palavras - plano two
 > "Durante meses, a inteligência americana estudou cada passo dele, em segredo."
@@ -45,8 +46,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | DELTA | OK |
+| 1 | levaram (21.9s) | ACAO: pega | levanta/segura | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | PLACA | DELTA | OK |
 
 ## Cena b5 - 26.7s a 30.4s - 11 palavras - plano low
 > "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
@@ -54,9 +56,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ataques (27.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | desligaram (28.5s) | ACAO: empurra | empurra/puxa | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 30.7s a 36.3s - 16 palavras - plano low
+## Cena b6 - 30.7s a 36.3s - 16 palavras - plano two
 > "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -86,7 +89,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 1 | dividiu (52.6s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | MUNDO | OK |
@@ -99,4 +102,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ganhou (54.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (54.8s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | ATUACAO | comemorar | OK |
+
+## Cena b11 - 57.8s a 62.2s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

@@ -1,0 +1,70 @@
+{
+ "id": "emus1932",
+ "ano": 1932,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra dos Emus",
+   "consultas": [
+    "A Guerra dos Emus",
+    "Austrália Vinte Mande 1932"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Austrália",
+   "consultas": [
+    "Austrália 1932",
+    "Austrália landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1932",
+   "consultas": [
+    "1932 fashion clothing",
+    "1932 street photograph"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "caminhao da epoca",
+   "consultas": [
+    "truck 1932",
+    "truck"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "tanque da epoca",
+   "consultas": [
+    "tank 1932",
+    "tank"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1932",
+    "soldier uniform"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "exercito da epoca",
+   "consultas": [
+    "army 1932",
+    "army"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "fazenda da epoca",
+   "consultas": [
+    "farm 1932",
+    "farm"
+   ]
+  }
+ ]
+}

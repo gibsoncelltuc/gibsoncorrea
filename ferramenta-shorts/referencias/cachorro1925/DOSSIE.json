@@ -1,0 +1,111 @@
+{
+ "id": "cachorro1925",
+ "titulo": "Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo",
+ "ancoras": {
+  "ano": 1925,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "golden",
+  "cenarios": [
+   "interior madeira",
+   "interior pedra",
+   "loc_campo",
+   "loc_montanha"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 1",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 2",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 3",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 4",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 5",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 6",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 7",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 10",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 11",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "caravela",
+  "carro dos anos 50",
+  "castical",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "tambor de guerra",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/coin",
+  "kit/dog_sit",
+  "kit/room_europa_wood",
+  "kit/room_verde_stone",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Stool",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

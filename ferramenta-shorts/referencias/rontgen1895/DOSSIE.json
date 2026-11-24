@@ -1,0 +1,61 @@
+{
+ "id": "rontgen1895",
+ "titulo": "Curiosidade e Ciência EP 11 - O Raio X de Röntgen",
+ "ancoras": {
+  "ano": 1895,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro dos anos 50",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "kit/crookes_tube",
+  "kit/frasco",
+  "kit/lupa",
+  "kit/marco_wurzburg",
+  "kit/phone",
+  "kit/room_europa_wood",
+  "kit/room_verde_wood",
+  "kit/tubos",
+  "kit/xray_plate",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "nature/lamppost"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

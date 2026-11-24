@@ -1,0 +1,259 @@
+{
+ "id": "selfie2019",
+ "ano": 2019,
+ "cenarios_trocados": [
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/marco_onu",
+    "kit/phone",
+    "mk/BookStand"
+   ],
+   "palavras": 16,
+   "cena": "b0",
+   "frase": "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b1",
+   "frase": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DIP",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b2",
+   "frase": "Ali, os líderes de quase todos os países fazem discursos longos e sérios.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone",
+    "mk/BookStand"
+   ],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/marco_onu",
+    "kit/phone",
+    "mk/BookStand"
+   ],
+   "palavras": 13,
+   "cena": "b5",
+   "frase": "Virou de costas para o plenário, e tirou uma selfie com todos atrás.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "REP"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/globe",
+    "kit/marco_onu"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "E ele tinha razão. A foto rodou o planeta em poucas horas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REP",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Alguns acharam falta de respeito com a ONU. Outros acharam genial.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b9",
+   "frase": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  }
+ ]
+}

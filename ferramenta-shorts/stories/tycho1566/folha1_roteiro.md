@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 173 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 186 palavras (~64 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @1 -> acao + som de efeito; encena: x_discute (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@26, thump@30
-- Efeito + som nas palavras-chave: encena: golpe (punch) @6 -> acao + som de efeito; encena: corta (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: golpe (punch) @4 -> acao + som de efeito; encena: corta (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@36
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,14 +60,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito; encena: examina (think) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.9 s)
 - Narracao: Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: encena: constroi (hammer) @2 -> acao + som de efeito; encena: escreve (write) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@50
-- Efeito + som nas palavras-chave: encena: examina (think) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito; encena: examina (think) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@50
 - Texto na tela: KEPLER
 - Funcao na historia: desenvolvimento
@@ -99,5 +99,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

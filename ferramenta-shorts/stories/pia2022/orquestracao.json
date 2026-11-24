@@ -1,0 +1,207 @@
+{
+ "id": "pia2022",
+ "ano": 2022,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/sink"
+   ],
+   "palavras": 22,
+   "cena": "b0",
+   "frase": "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, com uma pia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "Ele filmou a própria entrada e postou o vídeo na internet.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/sink"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/sink"
+   ],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS",
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate"
+   ],
+   "palavras": 18,
+   "cena": "b4",
+   "frase": "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN2"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Ele também mudou o perfil, e escreveu que era o Chefe Twit.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "FUN",
+    "FUN2"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/globe",
+    "kit/marco_goldengate"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "A cena deu o que falar no mundo inteiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS",
+    "FUN",
+    "FUN2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/sink"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Uma pia, uma legenda e uma piada que ninguém esqueceu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate"
+   ],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

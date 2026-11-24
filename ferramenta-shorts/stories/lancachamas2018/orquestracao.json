@@ -1,0 +1,232 @@
+{
+ "id": "lancachamas2018",
+ "ano": 2018,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_hollywood"
+   ],
+   "palavras": 25,
+   "cena": "b0",
+   "frase": "No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/flamethrower",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "O nome dele era Não é um lança-chamas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/flamethrower",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 6,
+   "cena": "b2",
+   "frase": "O preço era de quinhentos dólares.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "CMP",
+    "MUS"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/flamethrower",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 18,
+   "cena": "b3",
+   "frase": "O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/extinguisher",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Cada compra vinha com um extintor de incêndio de brinde.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS",
+    "CMP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b5",
+   "frase": "Foram vinte mil unidades à venda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "CMP",
+    "MUS"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/marco_hollywood",
+    "nature/picket_fence"
+   ],
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "CMP",
+    "MUS"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/globe",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "A notícia se espalhou pelo mundo inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/extinguisher",
+    "kit/flamethrower",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Um produto que se chamava de tudo, menos do que parecia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_hollywood"
+   ],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

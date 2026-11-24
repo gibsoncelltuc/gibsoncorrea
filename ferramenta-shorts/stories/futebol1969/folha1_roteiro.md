@@ -1,14 +1,14 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 09 - A Guerra do Futebol
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Dois países entraram em guerra depois de um jogo de futebol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: bola (throw) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: bola (throw) @8 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: 1969
+- Texto na tela: HONDURAS x EL SALVADOR
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~7.2 s)
@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 3 JOGOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.6 s)
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: brigaram -> puff + som de baque; encena: x_entrega (reach) @4 -> acao + som de efeito; encena: golpe (punch) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: brigaram -> puff + som de baque; encena: x_entrega (reach) @4 -> acao + som de efeito; encena: golpe (punch) @8 -> acao + som de efeito; encena: x_entrega (reach) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -62,14 +62,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: PRORROGAÇÃO
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.5 s)
 - Narracao: Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: chega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: GUERRA
 - Funcao na historia: GRANDE MOMENTO
@@ -89,6 +89,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 0 GOLS
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

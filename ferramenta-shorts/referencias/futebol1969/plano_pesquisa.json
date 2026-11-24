@@ -1,0 +1,53 @@
+{
+ "id": "futebol1969",
+ "ano": 1969,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra do Futebol",
+   "consultas": [
+    "A Guerra do Futebol",
+    "Dois Era Honduras El Salvador Aí Copa Mundo Três 1969"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "América Central",
+   "consultas": [
+    "América Central 1969",
+    "América Central landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1969",
+   "consultas": [
+    "1969 fashion clothing",
+    "1969 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "ball",
+   "consultas": [
+    "ball",
+    "A Guerra do Futebol"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "volcano",
+   "consultas": [
+    "volcano"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "tanque da epoca",
+   "consultas": [
+    "tank 1969",
+    "tank"
+   ]
+  }
+ ]
+}

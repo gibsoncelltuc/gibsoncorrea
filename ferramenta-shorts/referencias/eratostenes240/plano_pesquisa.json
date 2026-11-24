@@ -1,0 +1,44 @@
+{
+ "id": "eratostenes240",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Eratóstenes Mede a Terra",
+   "consultas": [
+    "Eratóstenes Mede a Terra",
+    "Um Era Cristo Eratóstenes Alexandria Egito Ele Siena"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Egito",
+   "consultas": [
+    "Egito",
+    "Egito landscape"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "globe",
+   "consultas": [
+    "globe",
+    "Eratóstenes Mede a Terra"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "stick",
+   "consultas": [
+    "stick"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "well",
+   "consultas": [
+    "well"
+   ]
+  }
+ ]
+}

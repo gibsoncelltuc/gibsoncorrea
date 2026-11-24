@@ -1,0 +1,263 @@
+{
+ "id": "roadster2018",
+ "ano": 2018,
+ "cenarios_trocados": [
+  [
+   "cena 7",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon_air",
+    "kit/marco_canaveral",
+    "kit/roadster"
+   ],
+   "palavras": 16,
+   "cena": "b0",
+   "frase": "Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "flutua no espaco girando",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_canaveral",
+    "kit/roadster"
+   ],
+   "palavras": 16,
+   "cena": "b1",
+   "frase": "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_canaveral",
+    "kit/rocket"
+   ],
+   "palavras": 23,
+   "cena": "b2",
+   "frase": "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 17,
+   "cena": "b3",
+   "frase": "Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ENG",
+    "MUS",
+    "POV"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/falcon_air",
+    "kit/marco_canaveral"
+   ],
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "O foguete decolou com um estrondo!",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "STA",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "flutua no espaco girando",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "STA"
+   ],
+   "multidao": 5,
+   "objetos": [
+    "kit/marco_canaveral",
+    "kit/roadster"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "No painel, estava escrito: Não entre em pânico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe",
+    "kit/roadster"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "flutua no espaco girando",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "MUS",
+    "STA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "E ele continua lá em cima, dando voltas, até hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS",
+    "ENG",
+    "STA"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/roadster",
+    "kit/rocket"
+   ],
+   "palavras": 17,
+   "cena": "b9",
+   "frase": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "flutua no espaco girando",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  }
+ ]
+}

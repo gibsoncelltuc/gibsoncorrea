@@ -1,0 +1,45 @@
+{
+ "id": "neuralink2021",
+ "ano": 2021,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Macaco que Jogou Videogame com a Mente",
+   "consultas": [
+    "O Macaco que Jogou Videogame com a Mente",
+    "Uma Elon Musk Sem Foi Estados Unidos Neuralink 2021"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2021",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2021",
+   "consultas": [
+    "2021 fashion clothing",
+    "2021 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "monkey pong",
+   "consultas": [
+    "monkey pong",
+    "O Macaco que Jogou Videogame com a Mente"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "chess pc",
+   "consultas": [
+    "chess pc"
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/aroostook1838/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py aroostook1838` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenh...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AME (variante 0, expressao neutral); CAN (variante 0, expressao neutral) | multidao: 8 de AME/CAN
@@ -22,29 +22,29 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colonia, estado, fronteira, maine
 - RISCOS: nenhum
 
-## Cena b2 - Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug) | multidao: 12 de AME/CAN
-- Animacao: discutir | batalha encenada
-- Objetos/modelos: nature/tree_pine, kit/logs, nature/tree_oak, nature/bush
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, floresta, madeira, mesmas
+## Cena b2 - Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mes...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
+- Animacao: discutir | interacao: vai ate o outro
+- Objetos/modelos: kit/logs, mk/Axe_Bronze, nature/tree_pine, nature/tree_oak, nature/bush
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, madeira, mata, mesmas
 - RISCOS: nenhum
 
 ## Cena b3 - "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começ...
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry)
-- Animacao: discutir | interacao: empurrar
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry) | multidao: 16 de AME/CAN
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, lenhador
 - RISCOS: nenhum
 
 ## Cena b4 - O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
-- Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Cenario: loc_montanha | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 30 de MIL/ING
 - Animacao: encena | batalha encenada
@@ -58,12 +58,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): AME (variante 0, expressao scared); ING (variante 0, expressao smug)
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, clima, maine
 - RISCOS: nenhum
 
 ## Cena b6 - Mas ninguém queria uma guerra de verdade, então o governo mandou um ge...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous)
@@ -72,34 +72,44 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, governo
 - RISCOS: nenhum
 
-## Cena b7 - Ele convenceu os dois lados a parar, e ninguém atirou um único tiro.
+## Cena b7 - Ele convenceu os dois lados a parar, e a história terminou sem um únic...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao smile, segura paper); PRE (variante 0, expressao relief)
-- Animacao: conversar | interacao: entregar
+- Animacao: discutir | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, parar
 - RISCOS: nenhum
 
-## Cena b8 - Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou...
+## Cena b8 - Alguns anos depois, as duas nações assinaram um tratado que dividiu o ...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PRE (variante 0, expressao smug, segura paper); PRE (variante 1, expressao smile)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, fronteira, tratado
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, fronteira, territorio, tratado
 - RISCOS: nenhum
 
 ## Cena b9 - Chamaram de Guerra do Porco com Feijão, porque era só isso que as trop...
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de AME
-- Animacao: conversar
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin) | multidao: 0 de AME
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
+- RISCOS: nenhum
+
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): AME (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -109,18 +119,26 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Axe_Bronze | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/prison | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 24% | medio 59% | aberto 15% | detalhe 3%
-- Interacoes: b0 discutir, b3 empurrar, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 11% | medio 70% | aberto 13% | detalhe 7%
+- Interacoes: b0 discutir, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'loc_campo': 6, 'loc_montanha': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py aroostook1838  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/aroostook1838/moodboard.jpg
+  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- geral: pouca variedade de cenario ({'loc_campo': 6, 'loc_montanha': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).

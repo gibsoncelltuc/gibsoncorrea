@@ -113,9 +113,9 @@
   },
   {
    "shot": "close",
-   "interior": "loja",
+   "interior": "madeira",
    "who": [
-    "CIE:0:grin"
+    "CIE:0:grin:mug"
    ],
    "props": [
     [
@@ -135,7 +135,7 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "pedra",
    "who": [
     "CIM:0:suspicious",
     "CIE:0:nervous"
@@ -219,11 +219,25 @@
     "CIM:0:grin"
    ],
    "acao": "discutir",
-   "say": "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento."
+   "say": "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.",
+   "props": [
+    [
+     "kit/chess_pc",
+     1.9,
+     -1.2,
+     1.0
+    ],
+    [
+     "kit/phone",
+     -1.9,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "madeira",
    "who": [
     "NOL:0:grin",
     "CIE:0:surprised"
@@ -245,37 +259,38 @@
     ]
    ],
    "detalhe": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "verbos_ok": [
+    "jogo",
+    "jogo"
+   ]
   },
   {
-   "shot": "crowd",
+   "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.",
+   "shot": "two",
+   "interior": "loja",
    "who": [
-    "NOL:0:laugh",
-    "CIE:0:laugh",
-    "CIM:0:grin"
+    "NOL:0:smile",
+    "CIE:0:happy"
    ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
+   "acao": "reagir",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -1.6,
+     1.7
+    ]
+   ],
    "fx": [
-    "stars@20",
-    "stars@60"
+    "stars@40"
    ],
    "sfx": [
-    "ding@20",
-    "ding@60"
+    "ding@40"
    ],
-   "text": "XADREZ",
-   "titulo": true,
-   "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar."
+   "detalhe": false,
+   "shot_lock": true,
+   "impact": false
   },
   {
    "shot": "close",

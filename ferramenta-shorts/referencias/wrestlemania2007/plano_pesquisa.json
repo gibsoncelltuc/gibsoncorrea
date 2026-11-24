@@ -1,0 +1,45 @@
+{
+ "id": "wrestlemania2007",
+ "ano": 2007,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Trump na Batalha dos Bilionários",
+   "consultas": [
+    "Trump na Batalha dos Bilionários",
+    "Antes Donald Trump Foi Detroit Como Trump Vince McMahon 2007"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2007",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2007",
+   "consultas": [
+    "2007 fashion clothing",
+    "2007 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "ring",
+   "consultas": [
+    "ring",
+    "Trump na Batalha dos Bilionários"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "clipper",
+   "consultas": [
+    "clipper"
+   ]
+  }
+ ]
+}

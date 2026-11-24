@@ -1,0 +1,29 @@
+{
+ "id": "gansos390",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Os Gansos que Salvaram Roma",
+   "consultas": [
+    "Os Gansos que Salvaram Roma",
+    "Roma Os Quem Os Capitólio"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Roma",
+   "consultas": [
+    "Roma",
+    "Roma landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform"
+   ]
+  }
+ ]
+}

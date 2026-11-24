@@ -1,0 +1,234 @@
+{
+ "id": "chaleira1784",
+ "ano": 1784,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "COZ",
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle",
+    "kit/marco_viena"
+   ],
+   "palavras": 14,
+   "cena": "b0",
+   "frase": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "HOL",
+    "HOL"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/marco_viena",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 20,
+   "cena": "b1",
+   "frase": "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "IMP",
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "IMP",
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b3",
+   "frase": "\"Mandem três navios\", ordenou ele. \"Os holandeses não vão ter coragem de atirar.\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "AUS",
+    "AUS"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/marco_viena",
+    "war/flagpole"
+   ],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "HOL",
+    "HOL"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "cannon",
+    "kit/marco_viena",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "COZ",
+    "AUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle",
+    "kit/marco_viena"
+   ],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "GEN",
+    "AUS",
+    "COZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle"
+   ],
+   "palavras": 14,
+   "cena": "b7",
+   "frase": "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "IMP",
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b8",
+   "frase": "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "COZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle",
+    "kit/marco_viena"
+   ],
+   "palavras": 5,
+   "cena": "b9",
+   "frase": "Ninguém morreu. Só o almoço.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "COZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

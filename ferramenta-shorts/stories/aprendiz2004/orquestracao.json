@@ -1,0 +1,265 @@
+{
+ "id": "aprendiz2004",
+ "ano": 2004,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 4",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 12",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "CND"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower",
+    "kit/tv"
+   ],
+   "palavras": 16,
+   "cena": "b0",
+   "frase": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_trumptower"
+   ],
+   "palavras": 15,
+   "cena": "b1",
+   "frase": "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "CND"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CND",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower",
+    "kit/stall"
+   ],
+   "palavras": 18,
+   "cena": "b3",
+   "frase": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "CND"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 20,
+   "cena": "b5",
+   "frase": "Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "CND"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/marco_trumptower",
+    "kit/tv",
+    "nature/picket_fence"
+   ],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "RAN",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/marco_trumptower"
+   ],
+   "palavras": 17,
+   "cena": "b8",
+   "frase": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower",
+    "kit/tv"
+   ],
+   "palavras": 21,
+   "cena": "b9",
+   "frase": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower",
+    "kit/tv"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower"
+   ],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

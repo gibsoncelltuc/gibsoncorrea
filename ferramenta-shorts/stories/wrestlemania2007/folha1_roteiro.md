@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 12 cenas, 196 palavras (~68 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 13 cenas, 209 palavras (~72 s)
 
 ## Cena b0  (~6.6 s)
 - Narracao: Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.
@@ -107,7 +107,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: HALL DA FAMA
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

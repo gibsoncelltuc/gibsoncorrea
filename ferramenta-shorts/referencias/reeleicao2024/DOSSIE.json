@@ -1,0 +1,89 @@
+{
+ "id": "reeleicao2024",
+ "titulo": "Poder e Fama EP 21 - A Volta de Trump",
+ "ancoras": {
+  "ano": 2024,
+  "era": "atual (1950+)",
+  "regiao": "eua",
+  "luz_base": "day",
+  "cenarios": [
+   "hall",
+   "interior galpao",
+   "interior loja",
+   "interior madeira",
+   "interior pedra",
+   "loc_cidade",
+   "loc_pista"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 12",
+    "street",
+    "loc_cidade"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/ballot_box",
+  "kit/cone_transito",
+  "kit/marco_casabranca",
+  "kit/palete",
+  "kit/room_azul_wood",
+  "kit/room_eua_stone",
+  "kit/room_europa_shop",
+  "kit/room_galpao",
+  "kit/scroll",
+  "kit/white_house",
+  "mk/Bench",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Metal",
+  "mk/Shelf_Arch",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [
+  "https://ballotpedia.org/Presidential_election,_2024",
+  "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
+  "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
+ ],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

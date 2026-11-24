@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -12,10 +12,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | perdeu (0.7s) | EFEITO: puff | fumaca + som | OK |
 | 2 | perdeu (0.7s) | ACAO: perde | mao na testa | OK |
 | 3 | eleição (1.5s) | ACAO: voto | poe o voto na urna | OK |
-| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | INTERACAO | o outro se aproxima | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | 2024 | OK |
+| 4 | voltou (4.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 6 | - | INTERACAO | o outro se aproxima | OK |
+| 7 | - | ATUACAO | conversar | OK |
+| 8 | - | PLACA | 2024 | OK |
 
 ## Cena b1 - 6.7s a 11.9s - 15 palavras - plano reveal
 > "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."
@@ -30,8 +31,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | urnas (14.1s) | ACAO: voto | poe o voto na urna | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | escolher (14.4s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 17.4s a 21.1s - 11 palavras - plano two
 > "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
@@ -63,10 +65,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | subiu (30.7s) | ACAO: escala | escala (bracos para cima) | OK |
 | 4 | declarou (32.2s) | ACAO: fala | aponta explicando | OK |
 | 5 | vitória (32.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | comemorar | OK |
-| 9 | - | PLACA | 312 VOTOS | OK |
+| 6 | vitória (32.6s) | ACAO: vence | bracos para cima + brilho | OK |
+| 7 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 9 | - | ATUACAO | comemorar | OK |
+| 10 | - | PLACA | 312 VOTOS | OK |
 
 ## Cena b6 - 33.0s a 38.5s - 16 palavras - plano two
 > "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
@@ -107,7 +110,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | Perdeu (55.2s) | EFEITO: puff | fumaca + som | OK |
 | 2 | Perdeu (55.2s) | ACAO: perde | mao na testa | OK |
-| 3 | ganhou (56.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | ganhou (56.3s) | ACAO: vence | bracos para cima + brilho | OK |
-| 5 | - | ATUACAO | comemorar | OK |
+| 3 | voltou (55.6s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | ganhou (56.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | ganhou (56.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 6 | - | ATUACAO | comemorar | OK |
+
+## Cena b11 - 59.3s a 63.7s - 13 palavras - plano two
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

@@ -1,0 +1,338 @@
+{
+ "id": "montgolfier1783",
+ "ano": 1783,
+ "cenarios_trocados": [
+  [
+   "video",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 1",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 3",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 6",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 8",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 9",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 12",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 13",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "JOS",
+    "ETI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 17,
+   "cena": "b0",
+   "frase": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_versalhes"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "Era mil setecentos e oitenta e três, na França.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOS",
+    "ETI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/campfire",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 19,
+   "cena": "b2",
+   "frase": "Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ETI",
+    "JOS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon"
+   ],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Então costuraram um balão gigante de pano e papel, e encheram de ar quente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "NOB",
+    "ETI"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b4",
+   "frase": "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "REI",
+    "RAI",
+    "NOB"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/balloon",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 18,
+   "cena": "b6",
+   "frase": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "palace"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/balloon_air",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ETI",
+    "JOS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/marco_versalhes",
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 17,
+   "cena": "b8",
+   "frase": "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "JOS",
+    "ETI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_versalhes"
+   ],
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "Os três bichos estavam vivos e bem! Dava para respirar no céu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "JOS",
+    "ETI"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/balloon_air",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 18,
+   "cena": "b10",
+   "frase": "Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ETI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 12,
+   "cena": "b11",
+   "frase": "E tudo graças a uma ovelha, um pato e um galo corajosos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_versalhes"
+   ],
+   "palavras": 13,
+   "cena": "b12",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

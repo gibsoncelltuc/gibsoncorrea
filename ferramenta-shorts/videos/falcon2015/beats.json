@@ -8,7 +8,7 @@
  "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/falcon9_land",
+ "heroi": "kit/rocket",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -69,7 +69,9 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré."
+   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.",
+   "fachada": false,
+   "set": "harbor"
   },
   {
    "shot": "reveal",
@@ -79,7 +81,9 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida."
+   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
+   "fachada": false,
+   "set": "outback"
   },
   {
    "shot": "two",
@@ -95,8 +99,16 @@
      2.4,
      -8.0,
      1.1
+    ],
+    [
+     "kit/falcon9_land",
+     1.8,
+     -0.6,
+     1.0
     ]
-   ]
+   ],
+   "fachada": false,
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -120,7 +132,9 @@
      -9.0,
      1.0
     ]
-   ]
+   ],
+   "set": "harbor",
+   "fachada": false
   },
   {
    "shot": "two",
@@ -129,7 +143,10 @@
     "ENG:0:grin:paper"
    ],
    "interacao": "entregar",
-   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."
+   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.",
+   "fachada": false,
+   "set": "countryside",
+   "interior": false
   },
   {
    "shot": "crowd",
@@ -164,7 +181,9 @@
     "whoosh@20",
     "thump@40"
    ],
-   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra."
+   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
+   "fachada": false,
+   "set": "harbor"
   },
   {
    "shot": "low",
@@ -174,10 +193,10 @@
    ],
    "props": [
     [
-     "kit/falcon9_land",
-     0,
-     -9.0,
-     1.1
+     "kit/falcon_air",
+     0.3,
+     -7.0,
+     1.5
     ]
    ],
    "fx": [
@@ -186,7 +205,9 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
+   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
+   "fachada": false,
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -198,9 +219,9 @@
    "props": [
     [
      "kit/falcon9_land",
-     1.8,
-     -8.0,
-     1.0
+     1.6,
+     -6.0,
+     1.1
     ]
    ],
    "fx": [
@@ -211,7 +232,9 @@
     "ding@30",
     "thump@50"
    ],
-   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
+   "say": "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.",
+   "fachada": false,
+   "set": "countryside"
   },
   {
    "shot": "crowd",
@@ -249,7 +272,9 @@
    ],
    "text": "POUSOU!",
    "titulo": true,
-   "say": "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."
+   "say": "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.",
+   "fachada": false,
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -258,7 +283,18 @@
     "ENG:0:grin"
    ],
    "interacao": "abracar",
-   "say": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra."
+   "say": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra.",
+   "fachada": false,
+   "props": [
+    [
+     "kit/rocket",
+     1.2,
+     0.2,
+     0.5
+    ]
+   ],
+   "detalhe": true,
+   "interior": "loja"
   },
   {
    "shot": "close",
@@ -274,11 +310,14 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata."
+   "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.",
+   "fachada": false,
+   "set": "harbor"
   }
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
   "https://www.spacex.com/launches/"
- ]
+ ],
+ "heroi_sem_close_ok": true
 }

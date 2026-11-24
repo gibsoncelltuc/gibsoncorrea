@@ -1,0 +1,257 @@
+{
+ "id": "emus1932",
+ "ano": 1932,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "A Austrália declarou guerra a um bando de pássaros. E perdeu.",
+   "classe": "simples",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "FARM",
+    "FARM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/barn",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 21,
+   "cena": "b1",
+   "frase": "Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FARM",
+    "AUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "\"Mande o exército\", pediram eles. E o ministro mandou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "AUS",
+    "AUS",
+    "AUS"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/canhao_moderno",
+    "war/sandbags"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Soldados, duas metralhadoras, e dez mil balas. Contra emus.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "AUS",
+    "AUS"
+   ],
+   "multidao": 24,
+   "objetos": [
+    "buildings/barn",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 22,
+   "cena": "b4",
+   "frase": "Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "vehicles/truck"
+   ],
+   "palavras": 17,
+   "cena": "b5",
+   "frase": "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "canta pneu, pula em arco inclinando o nariz e cai do outro lado com poeira",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "AUS",
+    "AUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "AUS",
+    "PRESS",
+    "PRESS"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "AUS",
+    "AUS"
+   ],
+   "multidao": 24,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FARM",
+    "FARM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/barn",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 18,
+   "cena": "b9",
+   "frase": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "AUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 4,
+   "cena": "b10",
+   "frase": "Humanos, zero. Emus, um.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FARM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  }
+ ]
+}

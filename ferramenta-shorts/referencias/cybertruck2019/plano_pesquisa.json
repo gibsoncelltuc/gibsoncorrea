@@ -1,0 +1,45 @@
+{
+ "id": "cybertruck2019",
+ "ano": 2019,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Janela do Cybertruck",
+   "consultas": [
+    "A Janela do Cybertruck",
+    "Em Califórnia Elon Musk Cybertruck Na Musk Para Franz Holzhausen 2019"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Califórnia",
+   "consultas": [
+    "Califórnia 2019",
+    "Califórnia landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2019",
+   "consultas": [
+    "2019 fashion clothing",
+    "2019 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "steel ball",
+   "consultas": [
+    "steel ball",
+    "A Janela do Cybertruck"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "cybertruck",
+   "consultas": [
+    "cybertruck"
+   ]
+  }
+ ]
+}

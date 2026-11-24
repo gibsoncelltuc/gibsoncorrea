@@ -1,0 +1,54 @@
+{
+ "id": "balde1325",
+ "ano": 1325,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra do Balde",
+   "consultas": [
+    "A Guerra do Balde",
+    "Duas Módena Bolonha Uma Numa Módena Bolonha 1325"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Itália",
+   "consultas": [
+    "Itália 1325",
+    "Itália landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1325",
+   "consultas": [
+    "1325 fashion clothing",
+    "14th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bucket",
+   "consultas": [
+    "bucket",
+    "A Guerra do Balde"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1325",
+    "soldier uniform"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "exercito da epoca",
+   "consultas": [
+    "army 1325",
+    "army"
+   ]
+  }
+ ]
+}

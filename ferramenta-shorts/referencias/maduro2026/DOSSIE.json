@@ -1,0 +1,77 @@
+{
+ "id": "maduro2026",
+ "titulo": "Poder e Fama EP 22 - A Operação da Madrugada",
+ "ancoras": {
+  "ano": 2026,
+  "era": "atual (1950+)",
+  "regiao": "colonial",
+  "luz_base": "day",
+  "cenarios": [
+   "interior loja",
+   "loc_cidade",
+   "loc_patio",
+   "loc_pista"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 12",
+    "street",
+    "loc_cidade"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
+  "kit/helicopter_air",
+  "kit/lupa",
+  "kit/room_colonial_shop",
+  "kit/room_europa_shop",
+  "kit/room_verde_shop",
+  "kit/scroll",
+  "nature/lamppost",
+  "vehicles/airplane"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela",
+  "https://www.nytimes.com/2026/01/03/us/politics/trump-capture-maduro-venezuela.html",
+  "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+  "https://www.cnn.com/2026/01/03/politics/nicolas-maduro-capture-venezuela"
+ ],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

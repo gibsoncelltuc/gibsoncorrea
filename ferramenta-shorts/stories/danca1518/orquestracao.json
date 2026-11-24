@@ -1,0 +1,237 @@
+{
+ "id": "danca1518",
+ "ano": 1518,
+ "cenarios_trocados": [
+  [
+   "cena 9",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 14,
+   "cena": "b0",
+   "frase": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "TRO",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 17,
+   "cena": "b1",
+   "frase": "Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e continuou no dia seguinte.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRO",
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b2",
+   "frase": "Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "TRO"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 14,
+   "cena": "b3",
+   "frase": "Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b4",
+   "frase": "O prefeito chamou os médicos. \"É sangue quente\", disseram eles. \"O remédio é dançar mais.\"",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "MUS",
+    "MUS"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
+   "palavras": 18,
+   "cena": "b5",
+   "frase": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 17,
+   "cena": "b6",
+   "frase": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "POV",
+    "POV",
+    "TRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 15,
+   "cena": "b8",
+   "frase": "No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

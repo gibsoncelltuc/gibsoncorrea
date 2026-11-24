@@ -1,0 +1,45 @@
+{
+ "id": "teslaquila2020",
+ "ano": 2020,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Piada que Virou Tequila",
+   "consultas": [
+    "A Piada que Virou Tequila",
+    "Elon Musk Dois Era Estados Unidos De Musk Tesla Teslaquila 2020"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2020",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2020",
+   "consultas": [
+    "2020 fashion clothing",
+    "2020 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "tequila bolt",
+   "consultas": [
+    "tequila bolt",
+    "A Piada que Virou Tequila"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "veg cacto",
+   "consultas": [
+    "veg cacto"
+   ]
+  }
+ ]
+}

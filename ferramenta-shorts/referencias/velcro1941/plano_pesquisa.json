@@ -1,0 +1,38 @@
+{
+ "id": "velcro1941",
+ "ano": 1941,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Cachorro que Inventou o Velcro",
+   "consultas": [
+    "O Cachorro que Inventou o Velcro",
+    "Uma Era Suíça George Mestral 1941"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Suíça",
+   "consultas": [
+    "Suíça 1941",
+    "Suíça landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1941",
+   "consultas": [
+    "1941 fashion clothing",
+    "1941 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "burr",
+   "consultas": [
+    "burr",
+    "O Cachorro que Inventou o Velcro"
+   ]
+  }
+ ]
+}

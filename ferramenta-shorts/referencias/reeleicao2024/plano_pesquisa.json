@@ -1,0 +1,45 @@
+{
+ "id": "reeleicao2024",
+ "ano": 2024,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Volta de Trump",
+   "consultas": [
+    "A Volta de Trump",
+    "Donald Trump Quatro Casa Branca Foi Estados Unidos Milhões Trump Kamala Harris 2024"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2024",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2024",
+   "consultas": [
+    "2024 fashion clothing",
+    "2024 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "ballot box",
+   "consultas": [
+    "ballot box",
+    "A Volta de Trump"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "white house",
+   "consultas": [
+    "white house"
+   ]
+  }
+ ]
+}

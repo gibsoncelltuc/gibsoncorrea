@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 09 - O País do Bitcoin
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 124 palavras (~43 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 137 palavras (~47 s)
 
 ## Cena b0  (~7.6 s)
 - Narracao: Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~5.2 s)
 - Narracao: E passou a valer em sete de setembro de dois mil e vinte e um.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~3.1 s)
 - Narracao: Com isso, dava para pagar as compras com bitcoin.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: paga (reach) @4 -> acao + som de efeito; encena: negocio (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@3
@@ -51,10 +51,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O governo lançou até uma carteira digital, chamada Chivo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@2
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@2
 - Texto na tela: CARTEIRA CHIVO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.5 s)
 - Narracao: Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.
@@ -63,7 +63,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@3
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.9 s)
 - Narracao: Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.
@@ -81,5 +81,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: encena: paga (reach) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

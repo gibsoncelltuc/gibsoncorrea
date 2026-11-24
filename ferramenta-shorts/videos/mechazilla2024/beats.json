@@ -107,7 +107,7 @@
      1.0
     ]
    ],
-   "interior": "loja"
+   "set": "outback"
   },
   {
    "shot": "two",
@@ -133,7 +133,7 @@
    "say": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.",
    "objetos": false,
    "detalhe": false,
-   "interior": "loja"
+   "set": "outback"
   },
   {
    "shot": "two",
@@ -143,17 +143,18 @@
    ],
    "props": [
     [
-     "kit/tower",
-     3.4,
-     -15.0,
-     1.3
+     "kit/tower_catch",
+     2.6,
+     -9.0,
+     1.0
     ]
    ],
    "acao": "conversar",
    "say": "Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.",
    "objetos": false,
    "detalhe": false,
-   "interior": "loja"
+   "set": "outback",
+   "fachada": false
   },
   {
    "shot": "crowd",
@@ -333,7 +334,7 @@
    "say": "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.",
    "objetos": false,
    "detalhe": false,
-   "set": "street"
+   "set": "outback"
   },
   {
    "shot": "close",

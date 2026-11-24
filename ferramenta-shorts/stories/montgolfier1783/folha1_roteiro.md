@@ -1,10 +1,10 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval | 12 cenas, 187 palavras (~64 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 200 palavras (~69 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b1  (~3.1 s)
 - Narracao: Era mil setecentos e oitenta e três, na França.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -22,9 +22,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b2  (~6.6 s)
 - Narracao: Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
-- Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @9 -> acao + som de efeito; encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Então costuraram um balão gigante de pano e papel, e encheram de ar quente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_costura (write) @1 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito; encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,9 +49,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b5  (~5.5 s)
 - Narracao: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: chega (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,14 +60,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) @14 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.9 s)
 - Narracao: Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, ding@50
 - Efeito + som nas palavras-chave: encena: pega (lift) @4 -> acao + som de efeito; encena: sai @10 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, stars@50
@@ -76,16 +76,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b8  (~5.9 s)
 - Narracao: Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correram -> dust + som de impacto; encena: corre @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_desce (point) @4 -> acao + som de efeito; encena: corre @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~4.1 s)
 - Narracao: Os três bichos estavam vivos e bem! Dava para respirar no céu.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b10  (~6.2 s)
 - Narracao: Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: encena: voa (point) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -103,10 +103,19 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b11  (~4.1 s)
 - Narracao: E tudo graças a uma ovelha, um pato e um galo corajosos.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

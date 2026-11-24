@@ -1,0 +1,51 @@
+{
+ "id": "gansos390",
+ "titulo": "Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": "classico",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "loc_campo",
+   "medieval",
+   "mountain",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/castle_tower",
+  "buildings/house_small",
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/fire",
+  "kit/room_classico_wood",
+  "kit/room_europa_wood",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "nature/lamppost"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

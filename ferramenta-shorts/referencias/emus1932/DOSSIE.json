@@ -1,0 +1,62 @@
+{
+ "id": "emus1932",
+ "titulo": "Guerras Inusitadas EP 02 - A Guerra dos Emus",
+ "ancoras": {
+  "ano": 1932,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "desert",
+  "cenarios": [
+   "countryside",
+   "interior madeira",
+   "outback"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "caravela",
+  "carro dos anos 50",
+  "castical",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "tambor de guerra",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/barn",
+  "buildings/house_small",
+  "buildings/house_two",
+  "buildings/windmill",
+  "kit/canhao_moderno",
+  "kit/coin",
+  "kit/room_colonial_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/haybale",
+  "nature/picket_fence",
+  "nature/scarecrow",
+  "vehicles/truck",
+  "war/sandbags"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

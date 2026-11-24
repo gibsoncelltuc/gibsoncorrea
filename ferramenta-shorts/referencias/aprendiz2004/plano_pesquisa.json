@@ -1,0 +1,46 @@
+{
+ "id": "aprendiz2004",
+ "ano": 2004,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Você Está Demitido",
+   "consultas": [
+    "Você Está Demitido",
+    "Duas Nova York Em Estados Unidos Aprendiz Dezesseis Donald Trump 2004"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2004",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Brasil",
+   "consultas": [
+    "Brasil 2004",
+    "Brasil landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2004",
+   "consultas": [
+    "2004 fashion clothing",
+    "2004 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "tv",
+   "consultas": [
+    "tv",
+    "Você Está Demitido"
+   ]
+  }
+ ]
+}

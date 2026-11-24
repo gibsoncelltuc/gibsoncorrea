@@ -1,0 +1,50 @@
+{
+ "id": "bacalhau1958",
+ "titulo": "As Guerras do Bacalhau",
+ "ancoras": {
+  "ano": 1958,
+  "era": "atual (1950+)",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "harbor"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/lighthouse",
+  "buildings/shop",
+  "crate",
+  "kit/cod",
+  "kit/logs",
+  "kit/navio_encouracado",
+  "ship"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

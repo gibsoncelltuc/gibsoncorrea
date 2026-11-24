@@ -54,7 +54,10 @@
     "z": 1.0,
     "cols": 5
    },
-   "riscos_ok": true
+   "riscos_ok": true,
+   "verbos_ok": [
+    "decla"
+   ]
   },
   {
    "say": "Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.",
@@ -74,7 +77,8 @@
     "cols": 3
    },
    "mapa": "AUSTRÁLIA",
-   "mapa_at": 3
+   "mapa_at": 3,
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -124,7 +128,7 @@
   },
   {
    "say": "Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira.",
-   "shot": "group",
+   "shot": "crowd",
    "who": [
     "AUS:0:stern",
     "AUS:1:stern"
@@ -194,7 +198,7 @@
   },
   {
    "say": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
-   "shot": "group",
+   "shot": "track",
    "who": [
     "AUS:0:pained",
     "PRESS:0:grin:paper",
@@ -207,7 +211,8 @@
     "n": 12,
     "outfit": "AUS",
     "march": false
-   }
+   },
+   "riscos_ok": true
   },
   {
    "say": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",
@@ -251,7 +256,8 @@
     "x": 4.5,
     "z": 0.5,
     "cols": 3
-   }
+   },
+   "riscos_ok": true
   },
   {
    "say": "Humanos, zero. Emus, um.",

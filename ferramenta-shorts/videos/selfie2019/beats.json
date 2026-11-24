@@ -5,7 +5,7 @@
  "ep": 28,
  "title": "A Selfie na ONU",
  "titulo_base": "A Selfie na ONU",
- "set": "street",
+ "set": "palace",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/phone",
@@ -40,17 +40,17 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
     "BUK:0:grin",
     "DIP:0:surprised"
    ],
    "props": [
     [
-     "kit/phone",
+     "mk/BookStand",
      0,
-     -1.2,
-     1.3
+     -1.5,
+     2.0
     ]
    ],
    "text": "2019",
@@ -60,17 +60,38 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie."
+   "say": "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.",
+   "shot_lock": true,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "neutral"
+   },
+   "impact": false,
+   "batalha": false,
+   "tiros": false,
+   "objetos": true,
+   "fachada": true,
+   "set": "street"
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "POV:0:smile",
     "POV:1:grin"
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York."
+   "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
+   "acao": "conversar",
+   "text": "ONU - NOVA YORK",
+   "objetos": true,
+   "fachada": true,
+   "impact": false,
+   "interior": "madeira"
   },
   {
    "shot": "two",
@@ -78,39 +99,48 @@
     "DIP:0:bored",
     "REP:0:suspicious:paper"
    ],
-   "acao": "conversar",
-   "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
+   "acao": "discutir",
+   "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios.",
+   "objetos": false,
+   "fachada": false,
+   "impact": false,
+   "interior": "pedra"
   },
   {
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "BUK:0:smug",
     "DIP:0:suspicious"
    ],
-   "props": [
-    [
-     "kit/phone",
-     1.6,
-     -0.8,
-     1.1
-    ]
-   ],
+   "props": [],
    "interacao": "cochichar",
-   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos."
+   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
+   "acao": "comemorar",
+   "objetos": false,
+   "fachada": false,
+   "impact": false,
+   "interior": "loja"
   },
   {
    "shot": "close",
-   "interior": "madeira",
    "who": [
     "BUK:0:grin"
    ],
    "props": [
     [
      "kit/phone",
-     1.6,
-     -0.8,
-     1.2
+     1.2,
+     -0.4,
+     1.4,
+     {
+      "y": 1.5
+     }
+    ],
+    [
+     "mk/BookStand",
+     -1.0,
+     -1.5,
+     2.0
     ]
    ],
    "fx": [
@@ -121,39 +151,64 @@
     "ding@20",
     "sting@40"
    ],
-   "say": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso."
+   "say": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.",
+   "detalhe": true,
+   "objetos": false,
+   "fachada": false,
+   "impact": false,
+   "interior": "madeira"
   },
   {
-   "shot": "low",
-   "interior": "madeira",
+   "shot": "crowd",
    "who": [
-    "DIP:0:shock"
+    "BUK:0:grin",
+    "POV:1:surprised"
    ],
    "props": [
     [
-     "kit/phone",
-     -1.6,
-     -0.8,
-     1.2
+     "mk/BookStand",
+     0,
+     -1.5,
+     2.0
     ]
    ],
    "fx": [
-    "ring@20"
+    "burst@20",
+    "stars@30"
    ],
    "sfx": [
-    "sting@20"
+    "ding@20"
    ],
-   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
+   "say": "Virou de costas para o plenário, e tirou uma selfie com todos atrás.",
+   "batalha": true,
+   "tiros": false,
+   "acao": "tirar",
+   "shot_lock": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "impact": true,
+   "objetos": true,
+   "fachada": true,
+   "set": "street"
   },
   {
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "BUK:0:laugh",
     "DIP:0:surprised"
    ],
    "acao": "comemorar",
-   "say": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso."
+   "say": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.",
+   "objetos": false,
+   "fachada": false,
+   "impact": false,
+   "interior": "pedra"
   },
   {
    "shot": "crowd",
@@ -173,14 +228,7 @@
     "march": false,
     "expr": "laugh"
    },
-   "props": [
-    [
-     "kit/phone",
-     0,
-     -3.0,
-     1.6
-    ]
-   ],
+   "props": [],
    "fx": [
     "stars@20",
     "stars@60"
@@ -191,7 +239,11 @@
    ],
    "text": "SELFIE",
    "titulo": true,
-   "say": "E ele tinha razão. A foto rodou o planeta em poucas horas."
+   "say": "E ele tinha razão. A foto rodou o planeta em poucas horas.",
+   "impact": true,
+   "objetos": true,
+   "fachada": true,
+   "set": "street"
   },
   {
    "shot": "two",
@@ -200,7 +252,11 @@
     "DIP:0:bored"
    ],
    "acao": "discutir",
-   "say": "Alguns acharam falta de respeito com a ONU. Outros acharam genial."
+   "say": "Alguns acharam falta de respeito com a ONU. Outros acharam genial.",
+   "objetos": false,
+   "fachada": false,
+   "impact": false,
+   "interior": "loja"
   },
   {
    "shot": "two",
@@ -209,7 +265,11 @@
     "REP:0:surprised"
    ],
    "acao": "conversar",
-   "say": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet."
+   "say": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.",
+   "objetos": false,
+   "fachada": false,
+   "impact": false,
+   "interior": "madeira"
   },
   {
    "shot": "close",
@@ -219,16 +279,49 @@
    "props": [
     [
      "kit/phone",
-     -1.4,
-     -0.8,
-     1.1
+     -1.2,
+     -0.6,
+     1.2,
+     {
+      "y": 1.3
+     }
     ]
    ],
    "acao": "comemorar",
-   "say": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros."
+   "say": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.",
+   "objetos": false,
+   "fachada": false,
+   "impact": false,
+   "interior": "pedra"
   }
  ],
  "fontes": [
   "https://www.reuters.com/article/world/just-a-second-please-el-salvador-presidents-un-selfie-eclipses-speech-idUSKBN1WB31O/"
- ]
+ ],
+ "exp": 1.0,
+ "visual": {
+  "local": "Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de mármore verde e fundo dourado, edifício da ONU à beira do East River",
+  "quando": "24 de setembro de 2019, de dia",
+  "participantes": [
+   "Nayib Bukele (terno escuro, gravata)",
+   "delegados de vários países",
+   "repórteres"
+  ],
+  "roupas": {
+   "BUK": "terno escuro, camisa branca, boné preto virado para trás (marca pessoal)",
+   "DIP": "ternos e gravatas escuros",
+   "REP": "roupa social com crachá"
+  },
+  "cenario": "plenário em anfiteatro com mesa do púlpito de mármore, painel dourado e delegados sentados; fachada de vidro da ONU e ruas de Manhattan",
+  "objetos": [
+   "celular",
+   "púlpito",
+   "crachás de delegado"
+  ],
+  "fontes_visuais": [
+   "https://www.reuters.com/article/world/just-a-second-please-el-salvador-presidents-un-selfie-eclipses-speech-idUSKBN1WB31O/",
+   "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Hall",
+   "https://en.wikipedia.org/wiki/Nayib_Bukele"
+  ]
+ }
 }

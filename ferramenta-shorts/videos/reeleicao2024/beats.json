@@ -170,7 +170,8 @@
    ],
    "text": "312 VOTOS",
    "titulo": true,
-   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória."
+   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
+   "set": "hall"
   },
   {
    "shot": "two",

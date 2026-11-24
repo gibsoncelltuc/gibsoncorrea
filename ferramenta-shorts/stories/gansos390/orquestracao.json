@@ -1,0 +1,224 @@
+{
+ "id": "gansos390",
+ "ano": null,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "ROM",
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Roma inteira foi salva por um bando de gansos barulhentos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "GAU",
+    "GAU",
+    "GAU"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/fire",
+    "nature/lamppost"
+   ],
+   "palavras": 14,
+   "cena": "b1",
+   "frase": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não escapou, tombou.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ROM",
+    "ROM",
+    "MAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 18,
+   "cena": "b2",
+   "frase": "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROM",
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b3",
+   "frase": "Lá em cima, a fome apertava. \"Vamos comer os gansos\", pediu um soldado. \"São sagrados\", respondeu o sacerdote.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ROM",
+    "GAU"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "Acontece que os gansos acordaram, e começaram a gritar e a bater as asas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAN",
+    "GAU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 21,
+   "cena": "b6",
+   "frase": "Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor muralha abaixo. O gaulês tombou, levando os outros junto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ROM",
+    "MAN",
+    "GAU"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROM",
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b8",
+   "frase": "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ROM",
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "E os guardas, que dormiram a noite inteira, levaram um castigo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "futebol1969",
+ "titulo": "Guerras Inusitadas EP 09 - A Guerra do Futebol",
+ "ancoras": {
+  "ano": 1969,
+  "era": "atual (1950+)",
+  "regiao": "eua",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "stadium",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_small",
+  "buildings/shop",
+  "kit/ball",
+  "kit/kettle",
+  "kit/logs",
+  "kit/panela",
+  "kit/room_eua_wood",
+  "kit/trave",
+  "kit/volcano",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/picket_fence",
+  "nature/tree_oak",
+  "vehicles/airplane",
+  "vehicles/tank"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

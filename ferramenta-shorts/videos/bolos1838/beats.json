@@ -24,7 +24,8 @@
    "hat": "shako",
    "belt": "#f1efe6",
    "buttons": "#e8c45a",
-   "rifle": true
+   "rifle": true,
+   "uniforme_fixo": true
   },
   "FRA": {
    "jacket": "#27408b",
@@ -49,7 +50,8 @@
    "hat": "shako_tall",
    "buttons": "#e8c45a",
    "sash": "#c0262d",
-   "moustache_on": "#2a1c12"
+   "moustache_on": "#2a1c12",
+   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -60,7 +62,8 @@
     "OFI:0:laugh"
    ],
    "text": "1838",
-   "say": "A França invadiu o México por causa de uma conta de confeitaria."
+   "say": "A França invadiu o México por causa de uma conta de confeitaria.",
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -86,7 +89,23 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar."
+   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.",
+   "props": [
+    [
+     "mk/Table_Large",
+     0,
+     2.6,
+     1.8
+    ],
+    [
+     "kit/cake_table",
+     0.6,
+     2.6,
+     1.2
+    ]
+   ],
+   "acao": "comer",
+   "humanos_comem": true
   },
   {
    "shot": "two",
@@ -111,7 +130,7 @@
     "GEN:0:laugh",
     "OFI:0:grin"
    ],
-   "say": "O México riu da cobrança, e não pagou um centavo."
+   "say": "O México riu do pedido, e não deu um centavo."
   },
   {
    "shot": "reveal",
@@ -128,7 +147,10 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
+   "say": "Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país.",
+   "batalha": false,
+   "tiros": false,
+   "impact": false
   },
   {
    "shot": "crowd",
@@ -146,13 +168,13 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
+   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.",
+   "set": "harbor"
   },
   {
    "shot": "two",
    "who": [
-    "GEN:0:pained",
-    "OFI:1:shock"
+    "GEN:0:pained"
    ],
    "fx": [
     "burst@30"
@@ -160,7 +182,7 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão."
+   "say": "Um general mexicano correu para o combate, e tombou, atingido por um tiro de canhão. Ele perdeu uma perna."
   },
   {
    "shot": "two",
@@ -176,8 +198,13 @@
    "who": [
     "CON:0:grin:coin"
    ],
-   "say": "Nunca um doce custou tão caro."
+   "say": "Nunca um doce custou tão caro, e o confeiteiro contou as moedas.",
+   "verbos_ok": [
+    "custo"
+   ],
+   "acao": "comemorar"
   }
  ],
- "marco": "kit/marco_ulua"
+ "marco": "kit/marco_ulua",
+ "regiao": "colonial"
 }

@@ -1,0 +1,255 @@
+{
+ "id": "balde1325",
+ "ano": 1325,
+ "cenarios_trocados": [
+  [
+   "video",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "medieval",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD",
+    "BOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_two",
+    "kit/marco_ghirlandina",
+    "nature/lamppost",
+    "tools/bucket"
+   ],
+   "palavras": 13,
+   "cena": "b0",
+   "frase": "Duas cidades italianas foram à guerra por causa de um balde de madeira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "NOB",
+    "BOL"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "buildings/house_small",
+    "kit/marco_ghirlandina",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 24,
+   "cena": "b1",
+   "frase": "Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para implicar com o vizinho.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_ghirlandina"
+   ],
+   "palavras": 12,
+   "cena": "b2",
+   "frase": "Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_small",
+    "kit/marco_ghirlandina",
+    "kit/well",
+    "nature/picket_fence",
+    "nature/tree_oak",
+    "tools/bucket"
+   ],
+   "palavras": 18,
+   "cena": "b3",
+   "frase": "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "NOB"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "tools/bucket"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BOL",
+    "BOL"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_ghirlandina"
+   ],
+   "palavras": 13,
+   "cena": "b5",
+   "frase": "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MOD",
+    "BOL"
+   ],
+   "multidao": 24,
+   "objetos": [
+    "kit/marco_ghirlandina"
+   ],
+   "palavras": 19,
+   "cena": "b7",
+   "frase": "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "buildings/house_two",
+    "kit/marco_ghirlandina",
+    "nature/lamppost"
+   ],
+   "palavras": 19,
+   "cena": "b8",
+   "frase": "Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_ghirlandina",
+    "tools/bucket"
+   ],
+   "palavras": 14,
+   "cena": "b9",
+   "frase": "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_ghirlandina"
+   ],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

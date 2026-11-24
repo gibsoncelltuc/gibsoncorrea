@@ -6,34 +6,36 @@
  "mood": "march",
  "outfits": {
   "ROM": {
-   "jacket": "#c0262d",
-   "pants": "#e8e0c8",
+   "jacket": "#d8c8a0",
+   "pants": "#c9a878",
    "boots": "#6a4a2a",
    "hat": "helmet",
-   "cap": "#c9a23a",
-   "belt": "#b88a3a",
-   "buttons": "#e8c45a",
+   "cap": "#b08a3a",
    "moustache_on": "#3a2a1f"
   },
   "GAU": {
-   "jacket": "#3a6aa0",
-   "pants": "#8a6a3a",
+   "jacket": "#8a6a3a",
+   "pants": "#6a4a2a",
    "boots": "#3a2a1a",
    "hat": "hair",
    "hair": "#c07a2a",
-   "belt": "#2a2218",
    "moustache_on": "#c07a2a"
   },
   "MAN": {
-   "jacket": "#c0262d",
-   "pants": "#e8e0c8",
+   "jacket": "#d8c8a0",
+   "pants": "#c9a878",
    "boots": "#6a4a2a",
    "hat": "helmet",
-   "cap": "#c9a23a",
-   "belt": "#b88a3a",
-   "buttons": "#e8c45a",
-   "build": "stout",
-   "moustache_on": "#3a2a1f"
+   "cap": "#b08a3a",
+   "moustache_on": "#3a2a1f",
+   "build": "stout"
+  },
+  "POV": {
+   "jacket": "#d8c8a0",
+   "pants": "#c9a878",
+   "boots": "#6a4a2a",
+   "hat": "helmet",
+   "cap": "#b08a3a"
   }
  },
  "serie": "Guerras Inusitadas",
@@ -67,7 +69,7 @@
     "GAU:2:grin:torch"
    ],
    "mapa": "ROMA",
-   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.",
+   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não escapou, tombou.",
    "fx": [
     "dust@20",
     "burst@55"
@@ -99,13 +101,14 @@
     [
      "buildings/castle_tower",
      0,
-     -9,
-     1.4
+     -12,
+     2.0
     ]
    ],
    "fachada": false,
    "text": "CAPITÓLIO",
-   "say": "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."
+   "say": "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída.",
+   "set": "mountain"
   },
   {
    "shot": "two",
@@ -132,16 +135,25 @@
    "say": "Lá em cima, a fome apertava. \"Vamos comer os gansos\", pediu um soldado. \"São sagrados\", respondeu o sacerdote."
   },
   {
-   "shot": "group",
+   "shot": "crowd",
    "who": [
-    "GAU:0:stern",
-    "GAU:1:nervous",
-    "GAU:2:stern"
+    "ROM:0:neutral",
+    "GAU:0:stern"
    ],
    "hora": "noite",
    "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.",
-   "shot_lock": true,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "GAU"
+    ],
+    "march": true
+   },
+   "batalha": false,
+   "verbos_ok": [
+    "escal"
+   ]
   },
   {
    "shot": "two",
@@ -194,7 +206,7 @@
     ]
    ],
    "fachada": false,
-   "say": "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.",
+   "say": "Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor muralha abaixo. O gaulês tombou, levando os outros junto.",
    "interacao": "empurrar",
    "fx": [
     "dust@70",
@@ -244,10 +256,10 @@
    "animals": [
     [
      "goose",
-     2.6,
      1.0,
+     1.4,
      "walk",
-     1.3
+     1.4
     ]
    ],
    "hora": "dia",
@@ -257,13 +269,17 @@
   {
    "shot": "close",
    "who": [
-    "ROM:2:grin"
+    "ROM:2:sad",
+    "ROM:0:sad"
    ],
-   "say": "E os guardas, que dormiram a noite inteira, ganharam um castigo.",
-   "hora": "dia"
+   "say": "E os guardas, que dormiram a noite inteira, levaram um castigo.",
+   "hora": "dia",
+   "acao": "discutir"
   }
  ],
  "cinf": 4.5,
  "exp": 1.12,
- "heroi": null
+ "heroi": null,
+ "marco": false,
+ "regiao": "classico"
 }

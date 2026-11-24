@@ -160,7 +160,7 @@
    "fachada": false
   },
   {
-   "say": "Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena.",
+   "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
    "shot": "two",
    "who": [
     "ERA:0:suspicious",
@@ -169,9 +169,9 @@
    "props": [
     [
      "kit/stick",
-     1.4,
-     0.2,
-     1.3
+     0.0,
+     -0.6,
+     2.2
     ],
     [
      "nature/tree_palm",
@@ -187,7 +187,9 @@
     ]
    ],
    "clima": "calor",
-   "fachada": false
+   "fachada": false,
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "say": "Eratóstenes pensou: \"Se a Terra fosse plana, as duas sombras seriam iguais.\"",
@@ -302,7 +304,7 @@
    "fachada": false
   },
   {
-   "say": "Com uma conta simples, chegou a um número muito perto do tamanho real da Terra.",
+   "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
    "shot": "two",
    "interior": "pedra",
    "who": [
@@ -395,8 +397,11 @@
     ]
    ],
    "detalhe": false,
-   "fachada": false
+   "fachada": false,
+   "acao": "comemorar"
   }
  ],
- "exp": 0.9
+ "exp": 0.9,
+ "regiao": "classico",
+ "marco": "kit/marco_alexandria"
 }

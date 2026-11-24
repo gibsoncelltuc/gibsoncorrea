@@ -1,0 +1,73 @@
+{
+ "id": "tycho1566",
+ "titulo": "Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal",
+ "ancoras": {
+  "ano": 1566,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "interior madeira",
+   "interior pedra",
+   "loc_campo",
+   "loc_montanha",
+   "medieval",
+   "street"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 8",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "fragata a vela",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "kit/brass_nose",
+  "kit/lupa",
+  "kit/marco_rostock",
+  "kit/marco_uraniborg",
+  "kit/room_europa_wood",
+  "kit/room_verde_stone",
+  "kit/tower",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "nature/lamppost"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

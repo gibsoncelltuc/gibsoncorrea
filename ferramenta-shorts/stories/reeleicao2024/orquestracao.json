@@ -1,0 +1,263 @@
+{
+ "id": "reeleicao2024",
+ "ano": 2024,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 12",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/white_house"
+   ],
+   "palavras": 18,
+   "cena": "b0",
+   "frase": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_casabranca",
+    "kit/white_house"
+   ],
+   "palavras": 15,
+   "cena": "b1",
+   "frase": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ELE",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/marco_casabranca"
+   ],
+   "palavras": 14,
+   "cena": "b2",
+   "frase": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REP",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b4",
+   "frase": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "TRU",
+    "ELE",
+    "POV"
+   ],
+   "multidao": 22,
+   "objetos": [
+    "kit/white_house"
+   ],
+   "palavras": 13,
+   "cena": "b5",
+   "frase": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_casabranca",
+    "kit/white_house"
+   ],
+   "palavras": 16,
+   "cena": "b8",
+   "frase": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "TRU",
+    "POV",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_casabranca",
+    "kit/white_house"
+   ],
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/marco_casabranca"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_casabranca"
+   ],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

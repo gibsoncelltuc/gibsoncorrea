@@ -1,0 +1,60 @@
+{
+ "id": "eratostenes240",
+ "titulo": "Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": "classico",
+  "luz_base": "desert",
+  "cenarios": [
+   "interior pedra",
+   "loc_campo",
+   "loc_deserto",
+   "loc_montanha"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "palace",
+    "loc_campo"
+   ],
+   [
+    "cena 12",
+    "palace",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
+  "kit/globe",
+  "kit/lupa",
+  "kit/marco_alexandria",
+  "kit/room_classico_stone",
+  "kit/scroll",
+  "kit/starlink_sat",
+  "kit/stick",
+  "kit/well",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/lamppost",
+  "nature/tree_palm",
+  "tools/bucket"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

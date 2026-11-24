@@ -8,7 +8,7 @@
  "set": "street",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/coin",
+ "heroi": "kit/roadster",
  "outfits": {
   "MUS": {
    "jacket": "#3a3d45",
@@ -40,10 +40,11 @@
  "beats": [
   {
    "say": "Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunciou a compra do PayPal.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "EBY:0:grin",
-    "MUS:0:surprised"
+    "MUS:0:surprised",
+    "POV:0:smile"
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
@@ -52,7 +53,7 @@
      "kit/coin",
      1.5,
      0.2,
-     1.0
+     0.35
     ]
    ],
    "tiros": false,
@@ -63,7 +64,8 @@
    ],
    "sfx": [
     "ding@6"
-   ]
+   ],
+   "set": "street"
   },
   {
    "say": "O PayPal era um serviço para pagar e receber dinheiro pela internet.",
@@ -78,16 +80,18 @@
      "kit/coin",
      -1.5,
      0.3,
-     1.0
+     0.35
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "hora": "dia",
+   "interior": "madeira"
   },
   {
    "say": "O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "EBY:0:shock"
    ],
@@ -96,7 +100,7 @@
      "kit/coin",
      1.3,
      0.2,
-     1.0
+     0.35
     ]
    ],
    "text": "US$ 1,5 BILHÃO",
@@ -108,35 +112,39 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "interior": "loja"
   },
   {
    "say": "Elon Musk era o maior acionista do PayPal.",
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "MUS:0:smug",
     "EBY:0:smile"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ],
-    "march": false
+    "n": 0
    },
    "tiros": false,
    "batalha": false,
-   "impact": true
+   "impact": false,
+   "interior": "pedra"
   },
   {
    "say": "Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.",
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "MUS:0:grin",
     "POV:0:surprised"
    ],
    "acao": "conversar",
    "props": [
+    [
+     "kit/roadster",
+     1.6,
+     -3.2,
+     2.6
+    ],
     [
      "kit/rocket",
      3.0,
@@ -146,13 +154,15 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
+   "impact": true,
    "fx": [
     "stars@3"
    ],
    "sfx": [
     "ding@3"
-   ]
+   ],
+   "detalhe": true,
+   "set": "outback"
   },
   {
    "say": "A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.",
@@ -185,7 +195,8 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": true
+   "impact": true,
+   "set": "countryside"
   },
   {
    "say": "Uma venda de internet que ajudou a pagar foguetes e carros elétricos.",
@@ -197,14 +208,20 @@
    ],
    "props": [
     [
+     "kit/roadster",
+     2.0,
+     -3.5,
+     2.6
+    ],
+    [
      "kit/coin",
      1.8,
      -0.3,
-     1.0
+     0.35
     ],
     [
      "kit/rocket",
-     3.0,
+     -3.0,
      -10.0,
      1.1
     ]
@@ -217,12 +234,40 @@
    ],
    "sfx": [
     "ding@3"
-   ]
+   ],
+   "hora": "dia",
+   "set": "street"
   }
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/PayPal",
   "https://en.wikipedia.org/wiki/SpaceX"
  ],
- "exp": 1.0
+ "exp": 1.12,
+ "cinf": 4.5,
+ "visual": {
+  "local": "Escritórios do PayPal em Palo Alto/Mountain View (Califórnia) e sede do eBay em San Jose: salas de escritório de tecnologia com mesas e computadores",
+  "quando": "julho de 2002 (anúncio da compra em 8/jul), de dia",
+  "participantes": [
+   "Elon Musk (maior acionista do PayPal)",
+   "Meg Whitman (CEO do eBay)",
+   "equipe do PayPal"
+  ],
+  "roupas": {
+   "MUS": "camisa social azul sem gravata, calça escura",
+   "EBY": "terninho e camisa social",
+   "POV": "camiseta e jeans de startup"
+  },
+  "cenario": "escritório de startup da virada dos anos 2000: mesas, monitores CRT, quadro branco; rua comercial do Vale do Silício",
+  "objetos": [
+   "monitor de computador",
+   "moedas/dólares",
+   "foguete (SpaceX, fundada em 2002)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/PayPal",
+   "https://en.wikipedia.org/wiki/Elon_Musk",
+   "https://en.wikipedia.org/wiki/SpaceX"
+  ]
+ }
 }
