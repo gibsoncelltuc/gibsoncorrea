@@ -143,6 +143,7 @@ grep -q "v.length < 0.13)" visivel.mjs || f "animal citado pequeno passa com 10%
 grep -q "_hit_fx" mkvideo.py && grep -q "_can_fx" mkvideo.py || f "clarao do tiro sai nos personagens e nao no canhao/objeto atingido (Chaleira b5/b6)"
 grep -q 'stories/$v/ENTREGUE" ] && rm -rf "$d"' make_video.sh || f "disco enche com checkpoints de videos ja entregues (Lagosta falhou na montagem 24/11)"
 grep -q 'videos_prontos/_a_conferir/"' receber_das_sessoes.sh && [ -x aprovar_entrega.sh ] || f "video de sessao entra direto na pasta da serie sem conferencia (mistura de versoes 24/11)"
+[ -x limpar_disco.sh ] && grep -q "limpar_disco.sh" vigia.sh || f "disco cheio para a fila sem limpeza automatica"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

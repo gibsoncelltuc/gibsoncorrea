@@ -8,6 +8,7 @@
 #          NOVO <branch> <id> ... -> video de sessao chegou em videos_prontos/_a_conferir: frase_a_frase.sh + olhar + aprovar_entrega.sh ou devolver com lista unica
 cd "$(dirname "$0")"; S=logs/vigia; mkdir -p $S
 while true; do
+  [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 3000 ] && bash limpar_disco.sh >> $S/limpeza.log 2>&1
   for d in stories/*/DONE; do id=$(basename $(dirname $d)); grep -q "^motor v13" $d || continue; [ -f stories/$id/ENTREGUE ] && [ ! $d -nt stories/$id/ENTREGUE ] && continue; [ -f stories/$id/VISTO_VIGIA ] && [ ! $d -nt stories/$id/VISTO_VIGIA ] && continue; { touch stories/$id/VISTO_VIGIA; echo "PRONTO_PRINCIPAL $id"; exit 0; }; done
   for id in $(grep -v '^#' queue.txt | awk 'NF{print $1}'); do
     [ -f stories/$id/AGUARDA_STORYBOARD ] && [ ! -f stories/$id/VISTO_SB ] && { touch stories/$id/VISTO_SB; echo "STORYBOARD $id"; exit 0; }
