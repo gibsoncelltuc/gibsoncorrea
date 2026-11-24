@@ -53,8 +53,8 @@
    "props": [
     [
      "kit/postit",
-     0.6,
-     1.0,
+     0.0,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -86,7 +86,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 1
   },
   {
    "shot": "wide",
@@ -249,8 +249,8 @@
    "props": [
     [
      "kit/postit",
-     0.6,
-     1.0,
+     1.2,
+     0.2,
      1.65,
      {
       "fixo": true
@@ -280,9 +280,9 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 3
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
   },
   {
    "say": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
@@ -297,7 +297,7 @@
    }
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "FRY:0:laugh",
     "SIL:0:grin"
@@ -338,7 +338,7 @@
    "impact": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/postit",
@@ -348,12 +348,12 @@
      }
     ]
    },
+   "detalhe": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "detalhe": false,
-   "_auto_vis": 3
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -364,8 +364,8 @@
    "props": [
     [
      "kit/postit",
-     0.6,
-     1.0,
+     0.0,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -391,7 +391,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 1
   }
  ],
  "visual": {

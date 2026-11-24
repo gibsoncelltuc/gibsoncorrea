@@ -178,7 +178,12 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 0
+    "n": 10,
+    "outfits": [
+     "ASH"
+    ],
+    "march": false,
+    "expr": "angry"
    },
    "props": [
     [
@@ -216,7 +221,7 @@
    "d1": 31.0
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "jungle",
    "who": [
     "SOL:0:stern"
@@ -233,9 +238,9 @@
    "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
    "props": [],
    "detalhe": false,
-   "d0": 18.0,
-   "d1": 17.0,
-   "_auto_vis": 3
+   "d0": 24.0,
+   "d1": 21.0,
+   "_auto_vis": 0
   },
   {
    "shot": "two",
@@ -317,9 +322,9 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d0": 11.4,
+   "d1": 11.0,
+   "_auto_vis": 2
   }
  ],
  "ano": 1900,

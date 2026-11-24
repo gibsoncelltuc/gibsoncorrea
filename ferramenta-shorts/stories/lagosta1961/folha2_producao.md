@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - A França e o Brasil quase entraram em guerra por causa de uma lagosta.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BRA (variante 0, expressao angry) | multidao: 0 de 
 - Animacao: discutir
@@ -15,10 +15,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/lobster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "1961" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "1961" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
   - take 1 (0.2-1.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (1.6-3.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): MAR (variante 0, expressao stern) | multidao: 0 de 
+- Personagens principais (1): MFR (variante 0, expressao stern) | multidao: 0 de 
 - Animacao: conversar
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, navio, pescadores
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -8.2, camera a 54.6 m, altura 6.0 m), sem multidao na frente
-- PERSONAGENS: MAR no centro, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: MFR no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_destroier: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 25.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (19.6-21.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -130,7 +130,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao nervous)
+- Personagens principais (2): MAR (variante 0, expressao angry); MFR (variante 0, expressao stern)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caso, dois, jornais, lagosta
@@ -140,7 +140,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MAR na esquerda, expressao stern; MAR na direita, expressao nervous; sem multidao; acao: discutir
+- PERSONAGENS: MAR na esquerda, expressao angry; MFR na direita, expressao stern; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: tick@40

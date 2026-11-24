@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
 - PERSONAGENS: FRY na esquerda, expressao laugh; SIL (cientista) na direita, expressao grin; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena

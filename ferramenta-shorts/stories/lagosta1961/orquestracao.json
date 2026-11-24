@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "BRA"
    ],
@@ -95,7 +95,7 @@
   {
    "camera": "group",
    "personagens": [
-    "MAR"
+    "MFR"
    ],
    "multidao": 0,
    "objetos": [
@@ -140,7 +140,7 @@
    "camera": "two",
    "personagens": [
     "MAR",
-    "MAR"
+    "MFR"
    ],
    "multidao": 0,
    "objetos": [],

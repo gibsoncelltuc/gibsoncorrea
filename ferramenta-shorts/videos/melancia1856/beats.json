@@ -224,7 +224,7 @@
    "say": "O vendedor cobrou a fatia, e o viajante só riu."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "VIA:0:angry"
    ],
@@ -248,7 +248,7 @@
    "tstyle": "red",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "war/pistol",
@@ -388,7 +388,7 @@
    "_auto_vis": 3
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "VEN:0:sad"
    ],
@@ -407,7 +407,7 @@
    "set": "jungle",
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/melon",
