@@ -68,9 +68,7 @@
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "vendesse"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {

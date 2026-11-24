@@ -1,2 +1,0 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b2: objeto citado "kit/beehive" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
