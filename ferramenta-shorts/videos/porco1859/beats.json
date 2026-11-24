@@ -151,7 +151,7 @@
     ]
    ],
    "detalhe": false,
-   "say": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
+   "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta."
   },
   {
    "shot": "two",
@@ -263,7 +263,7 @@
    },
    "text": "TROPAS",
    "titulo": true,
-   "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
+   "say": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
    "set": "harbor"
   },
   {
