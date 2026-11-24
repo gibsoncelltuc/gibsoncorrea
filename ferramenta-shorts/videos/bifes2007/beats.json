@@ -90,7 +90,7 @@
     ]
    ],
    "quadro": {
-    "local": "loc_cidade",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -101,11 +101,11 @@
      }
     ]
    },
-   "set": "loc_cidade",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "set": "loc_cidade"
   },
   {
    "tiros": false,
@@ -142,11 +142,11 @@
      }
     ]
    },
-   "interior": "loja",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -201,11 +201,11 @@
      }
     ]
    },
-   "interior": "loja",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -246,29 +246,13 @@
     [
      "kit/tv",
      0.0,
-     -1.2,
+     -1.5,
      1.2,
      {
       "fixo": true
      }
     ]
-   ],
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   ]
   },
   {
    "tiros": false,
@@ -304,7 +288,7 @@
     ]
    ],
    "quadro": {
-    "local": "sala de madeira",
+    "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -315,11 +299,11 @@
      }
     ]
    },
-   "interior": "madeira",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "interior": "madeira"
   },
   {
    "tiros": false,
@@ -354,7 +338,7 @@
     ]
    ],
    "quadro": {
-    "local": "sala de madeira",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -365,11 +349,11 @@
      }
     ]
    },
-   "interior": "madeira",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "interior": "madeira"
   }
  ],
  "exp": 1.0,

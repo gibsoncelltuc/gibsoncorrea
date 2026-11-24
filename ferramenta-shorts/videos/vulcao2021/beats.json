@@ -170,7 +170,7 @@
      }
     ]
    ],
-   "say": "Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar.",
+   "say": "Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao lado do dólar.",
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -277,9 +277,7 @@
   },
   {
    "shot": "wide",
-   "who": [
-    "ENA:0:grin"
-   ],
+   "who": [],
    "props": [
     [
      "kit/volcano",
@@ -354,7 +352,34 @@
    "cz": -2.0,
    "h": 3.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "explica": {
+    "objeto": "kit/turbina",
+    "manobra": "gira",
+    "vfx": [
+     {
+      "k": "vapor",
+      "na": "vapor"
+     }
+    ],
+    "rotulos": [
+     [
+      "VAPOR DO VULCÃO",
+      "baixo",
+      "vapor"
+     ],
+     [
+      "TURBINA",
+      "topo",
+      "turbinas"
+     ],
+     [
+      "ELETRICIDADE",
+      "meio",
+      "eletricidade"
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
@@ -384,7 +409,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.",
+   "say": "Acontece que, ao lado da usina, instalaram computadores só para minerar bitcoin.",
    "detalhe": false,
    "quadro": {
     "local": "loja / taverna",
@@ -453,59 +478,6 @@
    "d1": 8.0
   },
   {
-   "shot": "wide",
-   "who": [
-    "BUK:0:laugh"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 0
-   },
-   "props": [
-    [
-     "kit/volcano",
-     0.0,
-     -20.5,
-     2.6,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "VULCÃO",
-   "titulo": true,
-   "say": "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.",
-   "detalhe": false,
-   "fachada": false,
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/volcano",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
-  },
-  {
    "shot": "two",
    "who": [
     "ENA:0:smile:paper",
@@ -523,7 +495,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão.",
+   "say": "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -637,5 +609,37 @@
  "objetos_do_video": {
   "\\bcomputadores\\b": "kit/miners"
  },
- "max_wide": 5
+ "max_wide": 5,
+ "visual": {
+  "local": "Usina geotermica de Berlin, no vulcao Tecapa (Usulutan, El Salvador): usina com canos e vapor no meio da mata verde, containers de mineracao",
+  "quando": "setembro a outubro de 2021, dia",
+  "participantes": [
+   "Nayib Bukele (jaqueta escura, bone)",
+   "engenheiros da LaGeo de capacete e colete"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura e barba",
+   "ENG": "capacete branco e colete laranja",
+   "ENA": "capacete amarelo e camisa azul",
+   "POV": "roupa casual"
+  },
+  "cenario": "vulcao coberto de mata com nuvens de vapor, usina com canos prateados e torres, container com fileiras de computadores de mineracao",
+  "objetos": [
+   "moeda de bitcoin",
+   "computadores de mineracao (ASIC)",
+   "turbina",
+   "vulcao"
+  ],
+  "explicacoes": [
+   "Usina geotermica: o vapor quente do subsolo gira turbinas que geram eletricidade; em 2021 a LaGeo minerou o primeiro bitcoin \"vulcanico\" (0,00599 BTC, cerca de US$ 269) no vulcao Tecapa; ate 2024 foram cerca de 474 BTC (fonte: Wikipedia Bitcoin in El Salvador; Geothermal power)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+   "https://en.wikipedia.org/wiki/Geothermal_power"
+  ],
+  "buscas": {
+   "usina": "Berlin geothermal plant El Salvador Tecapa",
+   "mineracao": "bitcoin mining container rows"
+  }
+ }
 }

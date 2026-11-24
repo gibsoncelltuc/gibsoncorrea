@@ -47,6 +47,8 @@ def figurado(say):
         if re.match(HIPOTESE, w): out.update(k for k in range(j + 1, min(len(nw), j + 6)) if re.match(VIOLENTO, nw[k]) or re.match(ARMA, nw[k]))   # "quase entraram em guerra", "ameacou atacar"
         if re.match(VALOR, w): out.update(k for k in range(j + 1, min(len(nw), j + 6)) if re.match(BEM, nw[k]))   # "o preco de uma casa"
         if re.match(MISTURA, w) and any(re.match(PAPEL, nw[k]) for k in range(j + 1, min(len(nw), j + 4))): out.add(j)   # "misturou as etiquetas"
+    _vb = [j for j, w in enumerate(nw) if re.match(r'^(atir|dispar|explod|bombarde|metralh(ou|aram|ava))', w)]
+    if _vb and all(j in out for j in _vb): out.update(j for j, w in enumerate(nw) if re.match(ARMA, w))   # 'ninguem atirava': o disparo foi negado, a arma so' aparece
     if re.search(EXPLODE_FIG, frase): out.update(j for j, w in enumerate(nw) if re.match(r'^(explodiu|explodiram|explodir|bomba)$', w))
     for rx, rxw in FIG:
         if re.search(rx, frase): out.update(j for j, w in enumerate(nw) if re.match(rxw, w))

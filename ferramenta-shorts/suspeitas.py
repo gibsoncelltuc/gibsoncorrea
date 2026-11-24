@@ -15,7 +15,7 @@ for k, b in enumerate(BT):
     if b.get('explica') or b.get('mapa') and len((b.get('say') or '').split()) < 8: continue
     s = n(b.get('say', '')); who = b.get('who') or []; cr = (b.get('crowd') or {}).get('n') or 0; fx = ' '.join(b.get('fx') or [])
     sc = sentido.cena(b.get('say', ''))
-    _mm = re.search(MUITA, s); _negm = bool(_mm and re.search(r'\b(nao|nunca|nem|sem|ninguem)\b(\s+\w+){0,3}\s*$', s[:_mm.start()]))
+    _mm = re.search(MUITA, s); _negm = bool(_mm and re.match(r'\s+(nunca|nao|jamais)\b', s[_mm.end():])) or bool(_mm and re.match(r'(milhares|centenas)$', _mm.group(1)) and not re.match(r'\s+de\s+(pessoas|soldados|homens|mulheres|moradores|torcedores|manifestantes|fas|trabalhadores|operarios|criancas)', s[_mm.end():])) or bool(_mm and re.search(r'\b(nao|nunca|nem|sem|ninguem)\b(\s+\w+){0,3}\s*$', s[:_mm.start()]))
     if _mm and not _negm and not cr and len(who) < 3 and not b.get('batalha') and not b.get('emus'):
         out.append((k, 'a frase fala de MUITA GENTE e a cena tem ' + str(len(who)) + ' pessoa(s) e nenhuma multidao'))
     _bich = any(re.search(r'bee|abelha|finch|bird|passar|emu|gans|goose|chicken|galinh|horse|cavalo|pig|porco|dog|cow|fish|peixe|lagosta|lobster', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))
