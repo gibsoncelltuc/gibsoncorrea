@@ -1125,7 +1125,7 @@ def build_beat(k, b):
         elif cl == 'neve' and light not in ('night', 'dusk', 'dawn'): light = 'arctic'
         elif cl == 'neblina' and light not in ('night',): light = 'overcast'
         elif cl == 'calor' and light not in ('night', 'dusk', 'dawn'): light = 'desert'
-    if not b.get('interior'):
+    if not b.get('interior') or re.search(r'chov\w* dentro|goteira|teto furado|telhado furado|chuva dentro|chovia na sala|chovia no galp', nrm0x(b['say'])):   # 24/11 (Curie): "o galpao tinha o teto furado, chovia dentro" = chuva caindo DENTRO da sala
         cl = AMB.get('clima')
         wx = {'chuva': {'rain': 0.8, 'wind': 0.8}, 'tempestade': {'rain': 1.0, 'wind': 1.4}, 'neve': {'snow': 0.85, 'wind': 0.5}, 'neblina': {'fog': 0.7, 'wind': 0.3}, 'vento': {'wind': 1.4, 'leaves': 0.7}}.get(cl, {})
     if 'wind' in b: wx['wind'] = b['wind']
