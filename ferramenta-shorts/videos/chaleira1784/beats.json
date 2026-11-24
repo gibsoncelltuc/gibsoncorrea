@@ -91,12 +91,16 @@
    },
    "detalhe": false,
    "quadro": {
-    "objeto": "kit/navio_fragata",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "cx": 6,
    "cz": -14,
@@ -154,19 +158,34 @@
    "d1": 27,
    "quadro_manual": true,
    "quadro": {
-    "objeto": "kit/navio_fragata",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
    "shot": "wide",
    "who": [
-    "IMP:0:smug",
-    "AUS:0:grin"
+    "IMP:0:smug"
    ],
    "crowd": {
     "n": 0
@@ -189,18 +208,22 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "objeto": "kit/navio_fragata",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "cx": 0.0,
    "cz": -8.2,
    "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5
+   "d0": 102.3,
+   "d1": 97.4
   },
   {
    "shot": "two",
@@ -236,12 +259,22 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "objeto": "kit/navio_fragata",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~42.6 m de altura e 40.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~2% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -8.2, distancia 117.5 m), sem multidao na frente"
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "tiros": false,
    "cx": 0.0,
@@ -278,12 +311,16 @@
    ],
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
    "quadro": {
-    "objeto": "kit/kettle",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.5 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kettle",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "detalhe": false,
    "set": "harbor",
@@ -332,12 +369,16 @@
    ],
    "say": "O único prejuízo do dia foi o almoço.",
    "quadro": {
-    "objeto": "kit/kettle",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.5 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+    "local": "loc_patio",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kettle",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    },
    "set": "loc_patio",
    "cx": 1.2,

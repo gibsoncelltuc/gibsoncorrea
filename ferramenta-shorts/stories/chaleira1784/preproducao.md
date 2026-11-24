@@ -8,8 +8,8 @@ b0 | loc_campo | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/kettle |
 b1 | harbor | wide | 2 | encena | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
-b4 | harbor | crowd | 2 | encena, batalha | kit/navio_fragata, war/flagpole | - | -
-b5 | harbor | two | 2 | conversar, INTERAGEM: insiste | cannon, kit/navio_fragata | - | -
+b4 | harbor | group | 1 | encena | kit/navio_fragata, war/flagpole | - | -
+b5 | harbor | low | 2 | conversar, INTERAGEM: insiste | cannon, kit/navio_fragata | - | -
 b6 | harbor | orbit | 2 | encena, batalha | kit/kettle, navios de guerra ao fundo, no tamanho real | - | -
 b7 | loc_patio | group | 1 | encena | - | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -
@@ -17,7 +17,7 @@ b9 | loc_patio | group | 1 | conversar | kit/kettle | - | -
 b10 | loc_patio | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/kettle
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b6
 Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b5 insiste, b8 entregar
 
 Cenas com personagens parados: 1 de 11

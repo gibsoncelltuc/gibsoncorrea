@@ -85,10 +85,9 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
-    "IMP",
-    "AUS"
+    "IMP"
    ],
    "multidao": 0,
    "objetos": [
@@ -98,20 +97,14 @@
    "palavras": 11,
    "cena": "b4",
    "frase": "O maior levava a bandeira do imperador e seguia na frente.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "low",
    "personagens": [
     "MAR",
     "MAR"

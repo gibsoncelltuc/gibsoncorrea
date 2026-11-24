@@ -44,17 +44,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - O maior levava a bandeira do imperador e seguia na frente.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): IMP (variante 0, expressao smug); AUS (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): IMP (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: encena
 - Objetos/modelos: kit/navio_fragata, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, frente, imperador
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que o navio de guerra holandês Dolfijn estava esperando, e di...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao angry) | multidao: 0 de 
 - Animacao: conversar | interacao: insiste
@@ -124,11 +124,13 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 26% | detalhe 1%
+- Objeto heroi: kit/kettle | grandes momentos: b6 | planos abertos: 3 | mistura: close 19% | medio 56% | aberto 23% | detalhe 1%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: menos de 2 grandes momentos
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).

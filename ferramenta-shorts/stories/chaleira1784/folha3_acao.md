@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 14 palavras - plano two
@@ -38,17 +38,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 22.2s a 24.8s - 11 palavras - plano crowd
+## Cena b4 - 22.2s a 24.8s - 11 palavras - plano group
 > "O maior levava a bandeira do imperador e seguia na frente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | levava (22.5s) | ACAO: pega | levanta/segura | OK |
 | 2 | seguia (24.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | 3 NAVIOS | OK |
+| 3 | - | PLACA | 3 NAVIOS | OK |
 
-## Cena b5 - 25.8s a 30.1s - 15 palavras - plano two
+## Cena b5 - 25.8s a 30.1s - 15 palavras - plano low
 > "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

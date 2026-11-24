@@ -40,12 +40,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~3.8 s)
 - Narracao: O maior levava a bandeira do imperador e seguia na frente.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito; encena: chega (point) @8 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: 3 NAVIOS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b5  (~5.2 s)
 - Narracao: Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.
