@@ -127,10 +127,10 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 - Objeto heroi: kit/lobster | grandes momentos: b2, b5 | planos abertos: 4 | mistura: close 13% | medio 66% | aberto 19% | detalhe 2%
 - Interacoes: b0 discutir, b3 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py lagosta1961  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/lagosta1961/moodboard.jpg
+  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lagosta1961 bN bM` (so essas cenas).

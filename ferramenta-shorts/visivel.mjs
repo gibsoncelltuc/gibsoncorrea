@@ -41,14 +41,14 @@ for (const s of SPEC.shots) {
       const top = (o) => { let p = o; while (p.parent && p.parent !== scene && p.parent.parent && p.parent.parent !== scene) p = p.parent; return p; };
       const R = { f, objs: [], bloq: null, dentro: null };
       for (const a of want) {
-        const objs = (pool[a] || []).filter(vis); let best = { a, inq: 0, vis: 0, area: 0 };
+        const objs = (pool[a] || []).filter(vis); let best = { a, inq: 0, vis: 0, area: 0, cx: 9 };
         for (const o of objs) {
           const pts = []; o.updateMatrixWorld(true); o.traverse((m) => { if (!m.isMesh) return; const ps = m.geometry.attributes.position; const st = Math.max(1, Math.floor(ps.count / 30)); for (let i = 0; i < ps.count; i += st) pts.push(new THREE.Vector3().fromBufferAttribute(ps, i).applyMatrix4(m.matrixWorld)); });
           let inq = 0, ok = 0, x0 = 1, x1 = -1, y0 = 1, y1 = -1;
           for (const p of pts) { const n = p.clone().project(cam); if (n.z > 1 || Math.abs(n.x) > 1 || Math.abs(n.y) > 1) continue; inq++; x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x); y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y);
             const d = p.clone().sub(cp); const dist = d.length(); rc.set(cp, d.normalize()); rc.far = dist + 0.05; const h = first(rc.intersectObjects(meshes, false));
             if (!h || h.distance >= dist - Math.max(0.15, dist * 0.04)) { ok++; continue; } let q = h.object; while (q && q !== o) q = q.parent; if (q === o) ok++; }
-          const area = inq ? Math.max(0, x1 - x0) * Math.max(0, y1 - y0) / 4 : 0; const r = { a, inq: pts.length ? inq / pts.length : 0, vis: inq ? ok / inq : 0, area };
+          const area = inq ? Math.max(0, x1 - x0) * Math.max(0, y1 - y0) / 4 : 0; const r = { a, inq: pts.length ? inq / pts.length : 0, vis: inq ? ok / inq : 0, area, cx: inq ? (x0 + x1) / 2 : 9 };
           if (r.vis * r.area > best.vis * best.area) best = r;
           const bb = new THREE.Box3().setFromObject(o); if (bb.containsPoint(cp) && bb.getSize(new THREE.Vector3()).length() > 4) R.dentro = a;
         }
@@ -67,7 +67,7 @@ for (const s of SPEC.shots) {
     }, [f, need[s.id] || []]));
   }
   const rep = { id: s.id, quadros: res };
-  for (const a of need[s.id] || []) { const okT = (r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (/navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a) ? 0.05 : 0.004)); const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (porCena[bk + '|' + a] = porCena[bk + '|' + a] || []).push(res.filter(okT).length >= 2); continue; const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
+  for (const a of need[s.id] || []) { const okT = (r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && (a !== String(B.heroi || '') || Math.abs(o.cx ?? 0) < 0.55) && o.area >= (/navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a) ? 0.05 : 0.004)); const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (porCena[bk + '|' + a] = porCena[bk + '|' + a] || []).push(res.filter(okT).length >= 2); continue; const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
   const bl = res.filter((r) => r.bloq); if (bl.length >= 2) falhas.push(`${s.id}: "${bl[0].bloq.obj}" tapando a camera (${Math.round(bl[0].bloq.frac * 100)}% do quadro, colado na lente)`);
   if (!/_d$|_v$/.test(s.id) && res.filter((r) => r.cortado).length >= 2) falhas.push(`${s.id}: personagem CORTADO na borda do quadro (boneco grande saindo da tela)`);
   const dn = res.find((r) => r.dentro); if (dn) falhas.push(`${s.id}: camera DENTRO de "${dn.dentro}"`);
