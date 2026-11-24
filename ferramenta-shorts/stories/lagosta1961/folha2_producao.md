@@ -14,20 +14,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil novecentos e sessenta e um, e barcos franceses pescavam lagost...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PES (variante 0, expressao stern); PES (variante 1, expressao angry) | multidao: 8 de PES
-- Animacao: encena
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): PES (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: encena | batalha encenada
 - Objetos/modelos: boat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, pernambuco
 - RISCOS: nenhum
 
 ## Cena b2 - O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): BRA (variante 0, expressao angry); PES (variante 0, expressao stern) | multidao: 12 de PES
-- Animacao: discutir | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): BRA (variante 0, expressao angry) | multidao: 0 de BRA/PES
+- Animacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, fundo, lagosta
 - RISCOS: nenhum
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MAR (variante 0, expressao angry); MAR (variante 1, expressao shout) | multidao: 20 de MAR/BRA
+- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 20 de MAR/BRA
 - Animacao: encena | batalha encenada
 - Objetos/modelos: ship, vehicles/airplane, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, tensao
@@ -124,13 +124,11 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b2, b5 | planos abertos: 4 | mistura: close 12% | medio 69% | aberto 17% | detalhe 2%
+- Objeto heroi: kit/lobster | grandes momentos: b1, b5 | planos abertos: 4 | mistura: close 12% | medio 65% | aberto 21% | detalhe 2%
 - Interacoes: b0 discutir, b3 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
-- RISCOS GERAIS: 
-  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lagosta1961 bN bM` (so essas cenas).
