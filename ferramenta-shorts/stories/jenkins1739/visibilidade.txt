@@ -1,0 +1,2 @@
+VISIBILIDADE: 1 FALHA(S)
+FALHA b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)

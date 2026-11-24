@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -11,9 +11,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ferido (2.9s) | ACAO: espeta | espeta + estouro | OK |
 | 2 | levou (3.2s) | ACAO: pega | levanta/segura | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1 FERIDO: CANIVETADA | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 1 FERIDO: CANIVETADA | OK |
 
 ## Cena b1 - 5.1s a 9.6s - 19 palavras - plano reveal
 > "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo."

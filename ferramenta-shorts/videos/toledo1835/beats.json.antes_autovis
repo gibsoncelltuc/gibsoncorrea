@@ -61,7 +61,7 @@
  "titulo_base": "A Guerra de Toledo",
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "OHI:0:stern",
     "MIC:0:pained"
@@ -86,7 +86,9 @@
    ],
    "tat": 12,
    "tstyle": "red",
-   "titulo": true
+   "titulo": true,
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -121,8 +123,7 @@
   {
    "shot": "wide",
    "who": [
-    "OHI:0:stern",
-    "OHI:1:nervous"
+    "OHI:0:stern"
    ],
    "crowd": {
     "n": 18,
@@ -140,13 +141,12 @@
    "impact": false,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
    "who": [
-    "OHI:2:shock",
-    "MIC:2:shock"
+    "OHI:2:shock"
    ],
    "batalha": true,
    "crowd": {
@@ -176,7 +176,7 @@
     "MIC"
    ],
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -230,13 +230,10 @@
    "detalhe": true,
    "props": [
     [
-     "kit/canivete",
+     "kit/canivete_aberto",
      0.0,
-     0.2,
-     1.4,
-     {
-      "fixo": true
-     }
+     0.6,
+     2.2
     ]
    ],
    "acao": "discutir"
@@ -296,7 +293,7 @@
    "interior": "madeira"
   }
  ],
- "heroi": "kit/canivete",
+ "heroi": "kit/canivete_aberto",
  "regiao": "generica",
  "visual": {
   "local": "Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna",

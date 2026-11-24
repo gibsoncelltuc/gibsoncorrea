@@ -61,10 +61,9 @@
  "titulo_base": "A Guerra de Toledo",
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "OHI:0:stern",
-    "MIC:0:pained"
+    "OHI:0:stern"
    ],
    "text": "1 FERIDO: CANIVETADA",
    "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
@@ -86,7 +85,9 @@
    ],
    "tat": 12,
    "tstyle": "red",
-   "titulo": true
+   "titulo": true,
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",

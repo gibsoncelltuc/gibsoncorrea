@@ -146,12 +146,17 @@
    "say": "A França mandou um navio de guerra para proteger os pescadores dela.",
    "set": "harbor",
    "cx": 0.0,
-   "cz": -10.0,
-   "d0": 20.0,
-   "d1": 17.0
+   "cz": -11.2,
+   "d0": 23.0,
+   "d1": 21.0,
+   "h": 2.8,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 3
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "harbor",
    "who": [
     "MAR:0:angry"
@@ -184,7 +189,10 @@
    "text": "NAVIOS E AVIÕES",
    "titulo": true,
    "say": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
-   "detalhe": false
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 15.0,
+   "d1": 14.0
   },
   {
    "shot": "two",

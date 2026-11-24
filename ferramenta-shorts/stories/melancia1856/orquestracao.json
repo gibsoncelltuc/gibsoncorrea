@@ -158,7 +158,8 @@
    "multidao": 0,
    "objetos": [
     "buildings/house_two",
-    "nature/lamppost"
+    "nature/lamppost",
+    "vehicles/locomotive"
    ],
    "palavras": 16,
    "cena": "b7",
