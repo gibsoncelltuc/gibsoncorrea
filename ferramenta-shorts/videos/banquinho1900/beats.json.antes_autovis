@@ -269,7 +269,7 @@
    "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "set": "countryside",
    "who": [
     "GOV:0:sad"
@@ -286,7 +286,7 @@
     ]
    ],
    "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
-   "detalhe": true,
+   "detalhe": false,
    "quadro": {
     "objeto": "kit/golden_stool",
     "classe": "medio",
