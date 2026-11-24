@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
-Gerado em 24/11 17:16 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:17 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,7 +15,7 @@ b5 | simples | loc_campo | wide | ROM | - | - | - | Acontece que os gansos sagra
 b6 | simples | loc_campo | wide | GAU | - | castle_tower | - | O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impe
 b7 | simples | loc_campo | two | GAU, MAN | - | castle_tower | - | Os gauleses se afastaram, mas mantiveram o cerco.
 b8 | simples | interior madeira | two | ROM, GAU | - | - | - | No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, 
-b9 | simples | medieval | group | ROM | - | - | - | Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
+b9 | simples | medieval | wide | ROM | - | - | - | Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
 b10 | simples | medieval | close | ROM | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

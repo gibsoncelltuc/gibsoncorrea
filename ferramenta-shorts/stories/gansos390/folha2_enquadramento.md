@@ -80,7 +80,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito."
 - LOCAL: vila medieval; hora: dia
-- CAMERA: plano de grupo (3+ pessoas)
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: ROM no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 

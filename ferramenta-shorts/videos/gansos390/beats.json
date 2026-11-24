@@ -216,10 +216,10 @@
    ],
    "fachada": false,
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 6.0,
-   "d0": 82.7,
-   "d1": 78.8,
+   "cz": 0.0,
+   "h": 3.0,
+   "d0": 12.0,
+   "d1": 11.0,
    "quadro": {
     "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
@@ -231,7 +231,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "quadro_manual": true
   },
   {
    "shot": "wide",
@@ -311,10 +312,10 @@
     ]
    ],
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 6.0,
-   "d0": 82.7,
-   "d1": 78.8,
+   "cz": 0.0,
+   "h": 3.0,
+   "d0": 12.0,
+   "d1": 11.0,
    "quadro": {
     "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente",
@@ -326,7 +327,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "quadro_manual": true
   },
   {
    "shot": "two",
@@ -356,9 +358,9 @@
    "quadro_manual": true,
    "cx": 0.0,
    "cz": 0.0,
-   "h": 1.6,
-   "d0": 8.0,
-   "d1": 8.0,
+   "h": 2.2,
+   "d0": 11.0,
+   "d1": 11.0,
    "fx": [
     "dust@50"
    ],
@@ -389,7 +391,7 @@
    "say": "No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "ROM:0:smile"
    ],
@@ -431,7 +433,13 @@
    "detalhe": false,
    "_auto_vis": 3,
    "shot_lock": true,
-   "objetos": false
+   "objetos": false,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 1.0,
+   "h": 1.5,
+   "d0": 9.5,
+   "d1": 9.0
   }
  ],
  "cinf": 4.5,
