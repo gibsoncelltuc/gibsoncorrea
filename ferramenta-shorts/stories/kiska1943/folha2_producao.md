@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: A Invasão da Ilha Vazia
+# FOLHA 2 - PRODUCAO: Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/kiska1943/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py kiska1943` de novo ate esta folha sair sem risco.
 

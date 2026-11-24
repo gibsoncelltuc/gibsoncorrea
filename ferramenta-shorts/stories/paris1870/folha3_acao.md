@@ -1,4 +1,4 @@
-# FOLHA 3 - ACOES - O Cardápio do Zoológico
+# FOLHA 3 - ACOES - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
 **Resumo:** 14 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar

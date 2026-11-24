@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: A Cavalaria que Capturou uma Frota
+# FOLHA 2 - PRODUCAO: Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/texel1795/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py texel1795` de novo ate esta folha sair sem risco.
 

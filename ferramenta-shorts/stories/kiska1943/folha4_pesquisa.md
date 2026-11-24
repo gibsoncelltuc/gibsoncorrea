@@ -1,4 +1,4 @@
-# FOLHA 4 - PESQUISA: A Invasão da Ilha Vazia
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py kiska1943` busca cada item na internet, baixa os prints (referencias/kiska1943/prints/) e monta o quadro referencias/kiska1943/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 

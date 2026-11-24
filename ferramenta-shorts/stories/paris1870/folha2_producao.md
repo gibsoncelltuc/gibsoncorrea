@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: O Cardápio do Zoológico
+# FOLHA 2 - PRODUCAO: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paris1870/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paris1870` de novo ate esta folha sair sem risco.
 

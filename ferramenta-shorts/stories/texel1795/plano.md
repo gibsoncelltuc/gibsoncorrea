@@ -1,4 +1,4 @@
-# Plano de acao - A Cavalaria que Capturou uma Frota
+# Plano de acao - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---

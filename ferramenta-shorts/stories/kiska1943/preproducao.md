@@ -1,4 +1,4 @@
-# Pre-producao - A Invasão da Ilha Vazia
+# Pre-producao - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 

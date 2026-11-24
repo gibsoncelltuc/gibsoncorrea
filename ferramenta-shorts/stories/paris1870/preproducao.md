@@ -1,4 +1,4 @@
-# Pre-producao - O Cardápio do Zoológico
+# Pre-producao - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 

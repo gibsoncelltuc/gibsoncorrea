@@ -1,4 +1,4 @@
-# FICHA DE REFERENCIA - A Cavalaria que Capturou uma Frota
+# FICHA DE REFERENCIA - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 - Ano/epoca: 1795 (historica)
 - Onde: Den Helder e o canal de Marsdiep, norte da Holanda: mar congelado, navios de guerra presos no gelo, costa plana coberta de neve

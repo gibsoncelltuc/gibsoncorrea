@@ -1,4 +1,4 @@
-# FICHA DE REFERENCIA - O Cardápio do Zoológico
+# FICHA DE REFERENCIA - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 - Ano/epoca: 1870 (historica)
 - Onde: Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante)

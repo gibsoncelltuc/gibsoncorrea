@@ -1,4 +1,4 @@
-// A Invasão da Ilha Vazia -- GERADO por mkvideo.py a partir de videos/kiska1943/beats.json (edite o beats.json, nao este arquivo)
+// Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia -- GERADO por mkvideo.py a partir de videos/kiska1943/beats.json (edite o beats.json, nao este arquivo)
 globalThis.REGMAP = {"nature/tree_oak": ["nature/tree_pine", "nature/tree_birch"], "nature/flowerbed": ["nature/bush"], "vehicles/tank": ["kit/tanque_ww2"], "vehicles/airplane": ["kit/aviao_ww2"], "vehicles/truck": ["kit/caminhao_antigo"], "ship": ["kit/navio_encouracado"], "kit/navio_vapor": ["kit/navio_encouracado"], "kit/navio_vela": ["kit/navio_encouracado"], "kit/navio_moderno": ["kit/navio_encouracado"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false; globalThis.ERA_ANO = 1943; globalThis.ERA_GUERRA = true; globalThis.DRESS_OFF = []; globalThis.LOCCFG = {}; globalThis.LOC_NOITE = false;
 const X = 3000, DK = 6; const X_arctic = 7000; const X_hall = 8000; const X_harbor = 5000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;

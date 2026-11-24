@@ -1,4 +1,4 @@
-# Pre-producao - A Cavalaria que Capturou uma Frota
+# Pre-producao - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 

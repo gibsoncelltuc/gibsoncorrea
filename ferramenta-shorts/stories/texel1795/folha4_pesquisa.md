@@ -1,11 +1,11 @@
-# FOLHA 4 - PESQUISA: A Cavalaria que Capturou uma Frota
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py texel1795` busca cada item na internet, baixa os prints (referencias/texel1795/prints/) e monta o quadro referencias/texel1795/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
 - Historia: A Cavalaria que Capturou uma Frota
 - Epoca: 1795 | Lugar: Den Helder e o canal de Marsdiep, norte da Holanda: mar congelado, navios de guerra presos no gelo, costa plana coberta de neve | Quando: 23 de janeiro de 1795, inverno rigoroso (travessia na noite/madrugada)
 - HEROIS (objeto): kit/navio_vela
-- HEROIS (personagens): FRA, NED
+- HEROIS (personagens): FRA, NED, OFF
 - Cenarios: arctic, harbor, interior madeira, interior pedra
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_vela: 30.0 m reais -> escala 7.65 (estava 1.0: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
