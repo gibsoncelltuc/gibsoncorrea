@@ -36,16 +36,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 10.000 BALAS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.
-- Som ambiente: birds
-- Efeitos sonoros marcados: thump@40, thump@75
-- Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: thump@40, thump@75, gun@46, gun@54, gun@58, gun@62, gun@66, gun@74, gun@78, gun@82, gun@86, gun@94, gun@98, gun@102, gun@106, gun@114, gun@118, gun@122, gun@126, gun@134, gun@138, gun@142, gun@146, gun@154, gun@158, gun@162, gun@166, gun@174
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; balas -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@75
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~5.2 s)
 - Narracao: Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.
@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b6  (~4.1 s)
 - Narracao: Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao; encena: atira @6 -> acao + som de efeito
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
+- Efeito + som nas palavras-chave: tiros: 1 soldados caem no chao -> acao + som de efeito; balas -> burst + som de tiro/explosao; encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 6 DIAS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.5 s)
 - Narracao: O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.
@@ -85,12 +85,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b9  (~7.2 s)
 - Narracao: No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) @10 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: EXÉRCITO 0 - 1 EMUS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

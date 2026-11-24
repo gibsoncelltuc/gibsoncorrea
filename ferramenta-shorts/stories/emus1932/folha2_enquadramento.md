@@ -25,8 +25,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "O major Meredith levou duas metralhadoras e dez mil balas."
 - LOCAL: fazenda aberta; hora: desert
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o sandbags (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: AUS no centro, expressao stern; multidao de 6 () marchando ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o sandbags (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AUS na esquerda, expressao stern; AUS na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO war/sandbags: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "10.000 BALAS" numa placa atras dos personagens, na palavra 7 da frase
 

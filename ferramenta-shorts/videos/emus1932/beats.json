@@ -94,9 +94,10 @@
   },
   {
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "AUS:0:stern"
+    "AUS:0:stern",
+    "AUS:1:grin"
    ],
    "props": [
     [
@@ -112,9 +113,7 @@
    "text": "10.000 BALAS",
    "tat": 6,
    "crowd": {
-    "n": 6,
-    "outfit": "AUS",
-    "march": true
+    "n": 0
    },
    "emus": {
     "n": 4,
@@ -122,18 +121,6 @@
     "x": 4.5,
     "z": 0.5,
     "cols": 2
-   },
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o sandbags (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "war/sandbags",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    },
    "batalha": false,
    "tiros": false,

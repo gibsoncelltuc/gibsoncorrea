@@ -63,17 +63,34 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
+    "AUS",
     "AUS"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "war/sandbags"
    ],
    "palavras": 10,
    "cena": "b3",
    "frase": "O major Meredith levou duas metralhadoras e dez mil balas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "AUS"
+   ],
+   "multidao": 14,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -83,22 +100,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "AUS"
-   ],
-   "multidao": 14,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
   },
@@ -121,19 +122,25 @@
    "cenario": "countryside"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "AUS",
     "AUS"
    ],
-   "multidao": 0,
+   "multidao": 5,
    "objetos": [],
    "palavras": 12,
    "cena": "b6",
    "frase": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -173,25 +180,19 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "FARM",
     "FARM"
    ],
-   "multidao": 5,
+   "multidao": 0,
    "objetos": [],
    "palavras": 21,
    "cena": "b9",
    "frase": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
   },

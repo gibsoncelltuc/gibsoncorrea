@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
@@ -62,7 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b3 - 15.2s a 18.2s - 10 palavras - plano crowd
+## Cena b3 - 15.2s a 18.2s - 10 palavras - plano two
 > "O major Meredith levou duas metralhadoras e dez mil balas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -70,20 +70,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | levou (16.3s) | ACAO: pega | levanta/segura | OK |
 | 2 | metralhadoras (16.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | balas (18.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | 10.000 BALAS | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 10.000 BALAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: pega na palavra levou (16.3s): executa: levanta/segura
 - ACAO: atira na palavra metralhadoras (16.8s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ACAO: atira na palavra balas (18.2s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 6: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b4 - 19.4s a 24.0s - 17 palavras - plano wide
+## Cena b4 - 19.4s a 24.0s - 17 palavras - plano crowd
 > "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -91,12 +92,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | dividiram (20.5s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | balas (23.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | balas (23.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_entrega na palavra dividiram (20.5s): executa: estende a mao entregando
 - EFEITO: burst na palavra balas (23.0s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - ACAO: atira na palavra balas (23.0s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - multidao de 14: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
@@ -116,23 +121,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: pega na palavra instalada (27.3s): executa: levanta/segura
 <!-- /FISICA -->
 
-## Cena b6 - 31.5s a 34.8s - 12 palavras - plano group
+## Cena b6 - 31.5s a 34.8s - 12 palavras - plano orbit
 > "Depois de seis dias, milhares de balas gastas e poucos emus abatidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | balas (33.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | balas (33.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | CENA | tiros: 1 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | PLACA | 6 DIAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: burst na palavra balas (33.5s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - ACAO: atira na palavra balas (33.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: conversar
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -163,33 +168,35 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (42.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 986 (CONTESTADO) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra voltou (42.7s): executa: entra andando pela lateral
-- INTERACAO (a cena toda): executa: aproxima-se
+- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 48.4s a 56.0s - 21 palavras - plano crowd
+## Cena b9 - 48.4s a 56.0s - 21 palavras - plano group
 > "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pagou (51.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | pagou (51.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | EXÉRCITO 0 - 1 EMUS | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | EXÉRCITO 0 - 1 EMUS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra pagou (51.8s): executa: estrelinhas + som
 - ACAO: negocio na palavra pagou (51.8s): executa: moeda girando (compra/venda)
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

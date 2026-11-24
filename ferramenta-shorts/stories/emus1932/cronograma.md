@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Gerado em 24/11 18:38 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 18:39 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,13 +9,13 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | outback | two | sem personagem | - | - | - | A Austrália declarou guerra a um bando de pássaros, e perdeu.
 b1 | simples | outback | reveal | FARM, FARM | - | barn, haybale, picket_fence, scarecrow | - | Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantaç
 b2 | simples | interior madeira | two | FARM, AUS | - | - | - | Fazendeiros veteranos pediram metralhadoras, e o ministro da Defesa ma
-b3 | chave | countryside | crowd | AUS | 6 | sandbags | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O major Meredith levou duas metralhadoras e dez mil balas.
-b4 | simples | outback | wide | AUS | 14 | - | - | Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b
+b3 | simples | countryside | two | AUS, AUS | - | sandbags | - | O major Meredith levou duas metralhadoras e dez mil balas.
+b4 | chave | outback | crowd | AUS | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b
 b5 | simples | countryside | wide | AUS | - | truck | - | Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele s
-b6 | simples | loc_campo | group | AUS, AUS | - | - | - | Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
+b6 | chave | loc_campo | orbit | AUS, AUS | 5 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
 b7 | simples | countryside | track | AUS, PRESS, PRESS | 12 | - | - | O major comparou os pássaros a tanques, a imprensa riu, e o governo re
 b8 | simples | loc_deserto | two | AUS, AUS | - | - | - | O exército voltou, e o major disse ter abatido novecentos e oitenta e 
-b9 | chave | outback | crowd | FARM, FARM | 5 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No fim, o governo preferiu recompensas, e em seis meses pagou por mais
+b9 | simples | outback | group | FARM, FARM | - | - | - | No fim, o governo preferiu recompensas, e em seis meses pagou por mais
 b10 | simples | outback | close | FARM | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

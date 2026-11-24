@@ -69,10 +69,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - O major Meredith levou duas metralhadoras e dez mil balas.
 - Cenario: countryside | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): AUS (variante 0, expressao stern) | multidao: 6 de 
-- Animacao: encena | batalha encenada
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin) | multidao: 0 de 
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: war/sandbags, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): major
 - RISCOS: nenhum
@@ -80,8 +80,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: fazenda aberta; hora: desert
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o sandbags (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: AUS no centro, expressao stern; multidao de 6 () marchando ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o sandbags (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AUS na esquerda, expressao stern; AUS na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO war/sandbags: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "10.000 BALAS" numa placa atras dos personagens, na palavra 7 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
@@ -91,10 +91,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b...
 - Cenario: outback | luz: desert | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): AUS (variante 0, expressao stern) | multidao: 14 de AUS
-- Animacao: encena
+- Animacao: encena | batalha encenada
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, emus
 - RISCOS: nenhum
@@ -139,10 +139,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
 - Cenario: loc_campo | luz: desert | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao pained)
-- Animacao: conversar | interacao: susto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao pained) | multidao: 5 de AUS/FARM
+- Animacao: encena | batalha encenada
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, seis
 - RISCOS: nenhum
@@ -187,7 +187,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin) | multidao: 0 de 
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, major
 - RISCOS: nenhum
@@ -211,10 +211,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - No fim, o governo preferiu recompensas, e em seis meses pagou por mais...
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin) | multidao: 5 de FARM
-- Animacao: encena | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin)
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, governo
 - RISCOS: nenhum
@@ -258,8 +258,8 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b9 | planos abertos: 5 | mistura: close 12% | medio 55% | aberto 33% | detalhe 0%
-- Interacoes: b2 vai ate o outro, b6 susto, b8 aproxima-se
+- Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 12% | medio 66% | aberto 22% | detalhe 0%
+- Interacoes: b2 vai ate o outro, b3 aproxima-se, b8 avanca e o outro recua, b9 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
