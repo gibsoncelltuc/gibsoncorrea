@@ -51,11 +51,8 @@
  },
  "beats": [
   {
-   "shot": "wide",
-   "who": [
-    "BUK:0:stern",
-    "REP:0:surprised:paper"
-   ],
+   "shot": "crowd",
+   "who": [],
    "props": [
     [
      "kit/prison",
@@ -64,18 +61,21 @@
      1.0
     ]
    ],
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
+   "fx": [],
+   "sfx": [],
    "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
-   "h": 9.0,
-   "d0": 34,
-   "d1": 28,
    "cx": 0,
-   "cz": -14.5
+   "cz": -14.5,
+   "crowd": {
+    "n": 26,
+    "outfits": [
+     "PRE"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "text": "40 MIL PRESOS",
+   "titulo": true
   },
   {
    "shot": "reveal",
@@ -273,20 +273,22 @@
    "set": "loc_patio"
   },
   {
-   "shot": "low",
+   "shot": "medium",
    "who": [
-    "BUK:0:stern"
+    "BUK:0:stern:paper",
+    "POV:0:grin:paper"
    ],
    "props": [
     [
-     "kit/prison",
-     0,
-     -14.5,
+     "kit/globe",
+     3,
+     -3,
      1.0
     ]
    ],
-   "acao": "conversar",
-   "say": "E o modelo passou a ser copiado e criticado pelo mundo."
+   "say": "E o modelo passou a ser copiado e criticado pelo mundo.",
+   "text": "COPIADO E CRITICADO",
+   "titulo": true
   }
  ],
  "fontes": [
