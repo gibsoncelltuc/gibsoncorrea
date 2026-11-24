@@ -2,119 +2,133 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bolos1838/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bolos1838` de novo ate esta folha sair sem risco.
 
-## Cena b0 - A França invadiu o México por causa de uma conta de confeitaria.
+## Cena b0 - A França foi à guerra contra o México por causa de uma conta de confei...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 5 de CON/OFI
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: reagir | interacao: entregar
-- Objetos/modelos: kit/cake_table
+- Objetos/modelos: kit/marco_ulua, kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeitaria, franca, mexico
 - RISCOS: nenhum
 
-## Cena b1 - Um confeiteiro francês tinha uma loja perto da Cidade do México, famos...
+## Cena b1 - Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 8 de CON/OFI
-- Animacao: -
-- Objetos/modelos: kit/cake_table, buildings/shop, kit/stall
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 12 de OFI
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, confeiteiro, loja, mexico
 - RISCOS: nenhum
 
-## Cena b2 - Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebrar...
+## Cena b2 - Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): OFI (variante 0, expressao laugh); OFI (variante 1, expressao grin); CON (variante 0, expressao shock)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja
+- Animacao: comer | interacao: vai ate o outro
+- Objetos/modelos: mk/Table_Large, kit/cake_table
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja, mexicanos
 - RISCOS: nenhum
 
-## Cena b3 - O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", p...
+## Cena b3 - O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CON (variante 0, expressao stern, segura paper); REI (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/cake_table
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeiteiro, franca, loja
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeiteiro, loja
 - RISCOS: nenhum
 
-## Cena b4 - O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil....
+## Cena b4 - O governo francês juntou outras queixas de franceses e exigiu seiscent...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): REI (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, marinha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franceses, governo, presidente
 - RISCOS: nenhum
 
-## Cena b5 - O México riu da cobrança, e não pagou um centavo.
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): GEN (variante 0, expressao laugh); OFI (variante 0, expressao grin)
-- Animacao: comemorar | interacao: cochichar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
+## Cena b5 - Então a França mandou a esquadra, e navios de guerra fecharam os porto...
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao stern) | multidao: 18 de FRA
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: kit/marco_ulua
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): esquadra, franca, golfo, mexico, portos
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que a França mandou mesmo. Navios de guerra fecharam todos os...
+## Cena b6 - Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e o...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao stern) | multidao: 18 de FRA
-- Animacao: - | batalha encenada
-- Objetos/modelos: navios ao fundo
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, portos
-- RISCOS: nenhum
-
-## Cena b7 - Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldad...
-- Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FRA (variante 0, expressao stern); OFI (variante 0, expressao shock) | multidao: 20 de FRA/OFI
+- Personagens principais (2): FRA (variante 0, expressao stern); OFI (variante 0, expressao shock) | multidao: 48 de FRA/OFI
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: cannon, buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, cidade, fortaleza, soldados, veracruz
+- Objetos/modelos: kit/marco_ulua, cannon
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, fortaleza, soldados, ulua
 - RISCOS: nenhum
 
-## Cena b8 - Um general mexicano correu para o combate, e perdeu uma perna para um ...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock)
-- Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
-- Objetos/modelos: cannon
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, combate, general, perna, tiro
-- RISCOS: nenhum
-
-## Cena b9 - Meses depois, o México pagou os seiscentos mil pesos, e a França foi e...
-- Cenario: street | luz: day | clima: limpo
+## Cena b7 - Santa Anna foi ferido na perna por metralha francesa, e a perna foi en...
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): GEN (variante 0, expressao pained, segura paper); FRA (variante 0, expressao grin, segura coin)
-- Animacao: - | interacao: insiste
+- Personagens principais (1): GEN (variante 0, expressao pained)
+- Animacao: conversar
+- Objetos/modelos: kit/grave
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): honras, perna
+- RISCOS: nenhum
+
+## Cena b8 - Em março de mil oitocentos e trinta e nove, o México prometeu pagar os...
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): GEN (variante 0, expressao neutral, segura paper); FRA (variante 0, expressao neutral, segura coin)
+- Animacao: encena | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, mexico, seiscentos
 - RISCOS: nenhum
 
-## Cena b10 - Nunca um doce custou tão caro.
+## Cena b9 - A conta nunca foi paga, e a França voltou ao México em mil oitocentos ...
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
-- Personagens principais (1): CON (variante 0, expressao grin, segura coin)
-- Animacao: -
-- Objetos/modelos: kit/cake_table
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): doce
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): CON (variante 0, expressao stern)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): CON (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- RISCOS: nenhum
+
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/marco_ulua | b0, b1, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cake_table | b0, b1, b2, b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/shop | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stall | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Table_Large | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cannon | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/grave | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
+
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b6, b7 | planos abertos: 3 | mistura: close 20% | medio 61% | aberto 12% | detalhe 7%
-- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 cochichar, b8 susto, b9 insiste
+- Objeto heroi: kit/cake_table | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 23% | medio 70% | aberto 5% | detalhe 2%
+- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 avanca e o outro recua, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
