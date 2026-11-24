@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: A Febre das Tulipas
+# FOLHA 2 - PRODUCAO: Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/tulipas1637/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py tulipas1637` de novo ate esta folha sair sem risco.
 

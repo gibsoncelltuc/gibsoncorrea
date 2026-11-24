@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
-- Cenario: palace | luz: night | clima: limpo
+- Cenario: palace | luz: dusk | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh); POV (variante 1, expressao shout) | multidao: 30 de POV

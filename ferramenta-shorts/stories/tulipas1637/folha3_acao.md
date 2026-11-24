@@ -1,4 +1,4 @@
-# FOLHA 3 - ACOES - A Febre das Tulipas
+# FOLHA 3 - ACOES - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
 **Resumo:** 11 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
@@ -93,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | trocado (49.6s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | trocado (53.5s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 
 ## Cena b9 - 57.8s a 59.8s - 6 palavras - plano close

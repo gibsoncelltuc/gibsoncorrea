@@ -147,10 +147,12 @@ kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 19% | medio 68% | aberto 14% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 discutir
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py goodyear1839  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/goodyear1839/moodboard.jpg
+  - video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - FOLHA 4: 6 item(ns) sem referencia visual: credores e guardas da prisao de devedores, concorrentes que copiaram a ideia, borracha crua (gosma), fogao de ferro quente, pneus e bolas de borracha, borracha -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 2 risco(s) em aberto
+- geral: video com ~75 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: FOLHA 4: 6 item(ns) sem referencia visual: credores e guardas da prisao de devedores, concorrentes que copiaram a ideia, borracha crua (gosma), fogao de ferro quente, pneus e bolas de borracha, borracha
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh goodyear1839 bN bM` (so essas cenas).

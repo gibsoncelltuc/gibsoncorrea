@@ -77,28 +77,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | elástica (43.7s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
-## Cena b8 - 43.3s a 46.3s - 9 palavras - plano orbit
+## Cena b8 - 48.5s a 51.7s - 9 palavras - plano orbit
 > "Finalmente a borracha aguentava o calor e o frio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 46.7s a 52.2s - 16 palavras - plano two
+## Cena b9 - 51.9s a 56.7s - 16 palavras - plano two
 > "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | copiaram (47.4s) | ACAO: escreve | escreve/assina | OK |
-| 2 | ideia (48.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 3 | brigando (50.0s) | ACAO: golpe | soco + estouro | OK |
-| 4 | Morreu (51.1s) | EFEITO: puff | fumaca + som | OK |
-| 5 | Morreu (51.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 1 | copiaram (52.2s) | ACAO: escreve | escreve/assina | OK |
+| 2 | ideia (53.4s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 3 | brigando (55.1s) | ACAO: golpe | soco + estouro | OK |
+| 4 | Morreu (55.9s) | EFEITO: puff | fumaca + som | OK |
+| 5 | Morreu (55.9s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 7 | - | INTERACAO | discutir | OK |
 | 8 | - | ATUACAO | discutir | OK |
 
-## Cena b10 - 52.6s a 57.4s - 14 palavras - plano crowd
+## Cena b10 - 57.9s a 63.1s - 14 palavras - plano crowd
 > "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -107,17 +107,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | PNEUS | OK |
 
-## Cena b11 - 57.8s a 63.0s - 15 palavras - plano close
+## Cena b11 - 63.3s a 67.7s - 15 palavras - plano close
 > "E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (60.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (60.0s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganhou (65.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (65.8s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | GOODYEAR | OK |
 
-## Cena b12 - 63.3s a 67.8s - 13 palavras - plano close
+## Cena b12 - 67.8s a 73.4s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

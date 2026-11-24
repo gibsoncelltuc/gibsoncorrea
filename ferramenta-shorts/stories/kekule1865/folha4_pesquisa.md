@@ -22,13 +22,13 @@ pessoas | August Kekule, professor de quimica de barba cheia | August Kekule pro
 pessoas | colegas quimicos | colegas quimicos / colegas quimicos 1865 | SEM REFERENCIA
 pessoas | alunos | alunos / alunos 1865 | Fachada - Sociedade Filarmónica Alunos Apolo, Camp (referencias/kekule1865/prints/alunos_fd83e8.jpg); Sociedade Filarmónica Alunos de Apolo, Campo de Ou (referencias/kekule1865/prints/alunos_ddb0c2.jpg); Sociedade Filarmónica Alunos de Apolo, Campo de Ou (referencias/kekule1865/prints/alunos_712ab2.jpg)
 pessoas | convidados da Benzolfest | convidados da Benzolfest / convidados da Benzolfest 1865 | SEM REFERENCIA
-objeto | anel do benzeno (cobra mordendo o rabo) | anel do benzeno / anel do benzeno 1865 | SEM REFERENCIA
-objeto | lareira | lareira / lareira 1865 | SEM REFERENCIA
-objeto | poltrona | poltrona / poltrona 1865 | SEM REFERENCIA
-objeto | papel com desenhos de moleculas | papel com desenhos de moleculas / papel com desenhos de moleculas 1865 | SEM REFERENCIA
-objeto | frascos de quimica | frascos de quimica / frascos de quimica 1865 | SEM REFERENCIA
-heroi | snake ring | anel do benzeno / O Químico que Sonhou com uma Cobra | SEM REFERENCIA
-mecanismo | O professor August Kekulé tinha um problema: o benzeno, um líquido com | professor august kekule tinha problema benzeno liquido atomo / diagram | SEM REFERENCIA
+objeto | anel do benzeno (cobra mordendo o rabo) | anel do benzeno / anel do benzeno 1865 | AnelAIM.jpg (referencias/kekule1865/prints/anel_do_benzeno_cobra_mordendo_o_rabo__a059a0.jpg); AnelAIM.jpg (referencias/kekule1865/prints/anel_do_benzeno_cobra_mordendo_o_rabo__a059a0.jpg)
+objeto | lareira | lareira / lareira 1865 | Pé de Lareira (1-06-03-000-01356-00-00-03).jpg (referencias/kekule1865/prints/lareira_631daf.jpg); Pé de Lareira (1-06-03-000-01356-00-00-02).jpg (referencias/kekule1865/prints/lareira_cebe06.jpg); Pé de Lareira (1-06-03-000-01357-00-00-02).jpg (referencias/kekule1865/prints/lareira_3ad30b.jpg)
+objeto | poltrona | poltrona / poltrona 1865 | Poltrona (1-05-02-000-05865-00-00-01), Acervo do M (referencias/kekule1865/prints/poltrona_d9b0dc.jpg); Poltrona (1-05-02-000-05887-00-00-01), Acervo do M (referencias/kekule1865/prints/poltrona_235ab4.jpg); Poltrona (1-05-02-000-05912-00-00-01), Acervo do M (referencias/kekule1865/prints/poltrona_767f48.jpg)
+objeto | papel com desenhos de moleculas | papel com desenhos de moleculas / papel com desenhos de moleculas 1865 | Desenho de peças de vidro em papel, no Museu do Vi (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_e811db.jpg); D. Filipe Souza e Holstein, 1.º Marquês de Monfali (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_30d57e.jpg); Lapis e Papel 213050.jpg (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_9b63eb.jpg)
+objeto | frascos de quimica | frascos de quimica / frascos de quimica 1865 | Conjunto de frascos de reactivos químicos - (M.A.B (referencias/kekule1865/prints/frascos_de_quimica_55ee48.jpg); Cistac-Tristan-1865-07-21-prodigios-de-la-quimica. (referencias/kekule1865/prints/frascos_de_quimica_8d9195.jpg); Tiosulfato de sodio muestra y ficha de seguridad.j (referencias/kekule1865/prints/frascos_de_quimica_ae2d28.jpg)
+heroi | snake ring | anel do benzeno / O Químico que Sonhou com uma Cobra | AnelAIM.jpg (referencias/kekule1865/prints/snake_ring_a059a0.jpg)
+mecanismo | O professor August Kekulé tinha um problema: o benzeno, um líquido com | professor august kekule tinha problema benzeno liquido atomo / diagram | CMB Timeline300 no WMAP.jpg (referencias/kekule1865/prints/o_professor_august_kekul_tinha_um_proble_53683d.jpg); The violent youth of solar proxies.jpg (referencias/kekule1865/prints/o_professor_august_kekul_tinha_um_proble_751e49.jpg); Littleboy inner1 info.png (referencias/kekule1865/prints/o_professor_august_kekul_tinha_um_proble_fa1ed7.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

@@ -1,4 +1,4 @@
-# FOLHA 4 - PESQUISA: A Febre das Tulipas
+# FOLHA 4 - PESQUISA: Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py tulipas1637` busca cada item na internet, baixa os prints (referencias/tulipas1637/prints/) e monta o quadro referencias/tulipas1637/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 

@@ -167,10 +167,10 @@ kit/balloon | b9, b10 | pronto | conferir na folha de contato se le bem; se pare
 - Objeto heroi: kit/panela | grandes momentos: b4, b10 | planos abertos: 3 | mistura: close 32% | medio 52% | aberto 11% | detalhe 5%
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 discutir, b6 o outro se aproxima, b7 tremem de frio, b9 vai ate o outro, b11 cochichar
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paris1870  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paris1870/moodboard.jpg
+  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).

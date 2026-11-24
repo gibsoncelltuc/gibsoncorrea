@@ -9,7 +9,7 @@ b3 | two | -  | interior, objeto na mao | encena: chega (point) @5 (acao + som d
 b4 | two | -  | objeto na mao | ilegal (ring + som de alerta); encena: duvida (shrug) @8 (acao + som de efeito); encena: x_defende (cross) @11 (acao + som de efeito) | -
 b5 | two | -  | - | encena: voto (reach) @3 (acao + som de efeito); encena: voto (reach) @8 (acao + som de efeito) | -
 b6 | close | -  | interior, objeto na mao | - | -
-b7 | orbit | night  | batalha aberta com tiros, tropa, placa: 84,6% | (rosto) laugh (expr + som de efeito); encena: chega (point) @2 (acao + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
+b7 | orbit | dusk  | batalha aberta com tiros, tropa, placa: 84,6% | (rosto) laugh (expr + som de efeito); encena: chega (point) @2 (acao + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | encena: voto (reach) @1 (acao + som de efeito) | -
 b9 | two | -  | - | encena: protesto (up) @5 (acao + som de efeito) | -
 b10 | close | -  | - | - | -

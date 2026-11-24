@@ -147,10 +147,10 @@ nature/picket_fence | b10 | pronto | conferir na folha de contato se le bem; se 
 - Objeto heroi: kit/curie_box | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 23% | medio 64% | aberto 9% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py curie1898  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/curie1898/moodboard.jpg
+  - video com ~77 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~77 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh curie1898 bN bM` (so essas cenas).
