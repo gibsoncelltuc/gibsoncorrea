@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -34,11 +34,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pegou (13.1s) | ACAO: pega | levanta/segura | OK |
-| 2 | atirou (14.4s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | atirou (14.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | CENA | animal: pig leva o tiro e cai | OK |
-| 5 | - | ATUACAO | atira | OK |
+| 1 | atirou (14.4s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | - | CENA | animal: pig leva o tiro e cai | OK |
 
 ## Cena b4 - 18.0s a 20.6s - 9 palavras - plano two
 > "O fazendeiro ofereceu dez dólares ao vizinho pelo porco."
