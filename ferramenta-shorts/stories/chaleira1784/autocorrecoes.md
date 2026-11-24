@@ -61,3 +61,6 @@
 
 ## 24/11 16:48 autocorrecao de visibilidade
 - b5: objeto "cannon" saiu com 5% da altura da tela, a ficha de cena planejou 18% -> close no objeto
+
+## 24/11 17:26 autocorrecao de visibilidade
+- b5: ja corrigida 3 vezes, objeto "cannon" saiu com 8% da altura da tela, a ficha de cena planejou 18% -> fica para o olho
