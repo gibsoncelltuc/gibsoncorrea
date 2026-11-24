@@ -11,8 +11,8 @@ b5 | two | -  | interior | encena: quebra (throw) @8 (acao + som de efeito); enc
 b6 | wide | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | interior | - | -
 b8 | group | -  | interior, objeto na mao | encena: pensa (think) @1 (acao + som de efeito); encena: vira (up) @2 (acao + som de efeito) | -
-b9 | close | -  | - | - | -
-b10 | two | -  | placa: COMENTE! | - | -
+b9 | two | -  | - | - | -
+b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 9% | medio 72% | aberto 12% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 69% | aberto 12% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

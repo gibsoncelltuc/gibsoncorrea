@@ -346,7 +346,7 @@
   },
   {
    "say": "No fim, o erro das etiquetas virou um acerto de bico.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "DAR:0:smug"
    ],
@@ -364,7 +364,7 @@
    "set": "countryside",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/finch",

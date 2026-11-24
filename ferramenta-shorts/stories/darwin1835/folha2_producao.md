@@ -213,7 +213,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - No fim, o erro das etiquetas virou um acerto de bico.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): DAR (variante 0, expressao smug)
 - Animacao: conversar
@@ -224,7 +224,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 8.0 m)
 - PERSONAGENS: DAR (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
@@ -234,7 +234,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): DAR (variante 0, expressao grin)
 - Animacao: conversar
@@ -253,7 +253,7 @@ kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 
 
 ## Video inteiro
-- Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 9% | medio 72% | aberto 12% | detalhe 7%
+- Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 11% | medio 69% | aberto 12% | detalhe 7%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 cochichar, b8 pular
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py darwin1835  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/darwin1835/moodboard.jpg

@@ -12,13 +12,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | jogado (2.1s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
 | 2 | desceu (5.0s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: cai na palavra jogado (2.1s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
-- ACAO: x_desce na palavra desceu (5.0s): executa: desce/pousa + poeira no chao
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b1 - 6.6s a 9.6s - 13 palavras - plano reveal
 > "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida."
@@ -26,11 +19,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b2 - 10.8s a 16.1s - 13 palavras - plano wide
 > "Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível."
@@ -41,14 +29,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | impossível (16.1s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
 | 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
 | 4 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: ring na palavra impossível (16.1s): executa: onda + som
-- ACAO: duvida na palavra impossível (16.1s): executa: ombros para cima (nao acredita)
-- EMOCAO: shock (a cena toda): executa: o rosto vira "shock" na palavra
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
 
 ## Cena b3 - 17.5s a 21.2s - 13 palavras - plano two
 > "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar."
@@ -58,13 +38,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | deram (19.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | tombaram (20.7s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 3 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra deram (19.0s): executa: estende a mao entregando
-- ACAO: tomba na palavra tombaram (20.7s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b4 - 22.1s a 25.2s - 13 palavras - plano wide
 > "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites."
@@ -73,12 +46,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | decolou (24.2s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
 | 2 | - | PLACA | 11 SATÉLITES | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: voa na palavra decolou (24.2s): executa: decola: poeira no chao, olha para cima
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b5 - 26.6s a 29.7s - 13 palavras - plano wide
 > "Depois de soltar o topo, a parte de baixo voltou para a Terra."
@@ -88,13 +55,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | soltar (27.1s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | voltou (28.9s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_solta na palavra soltar (27.1s): executa: solta/liberta + brilho
-- ACAO: chega na palavra voltou (28.9s): executa: entra andando pela lateral
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b6 - 30.8s a 34.6s - 15 palavras - plano two
 > "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
@@ -103,12 +63,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | desceu (31.7s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_desce na palavra desceu (31.7s): executa: desce/pousa + poeira no chao
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b7 - 35.7s a 38.2s - 9 palavras - plano orbit
 > "E pousou inteira, abrindo as pernas no último segundo."
@@ -117,12 +71,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | POUSOU! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b8 - 39.5s a 41.8s - 8 palavras - plano reveal
 > "Os funcionários da SpaceX comemoraram e se abraçaram."
@@ -134,16 +82,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | abraçaram (41.8s) | ACAO: x_abraca | abraco | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra comemoraram (40.6s): executa: estrelinhas + som
-- ACAO: vence na palavra comemoraram (40.6s): executa: bracos para cima + brilho
-- ACAO: x_abraca na palavra abraçaram (41.8s): executa: abraco
-- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- multidao de 6: parada, reagindo (laugh), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b9 - 43.2s a 46.7s - 16 palavras - plano two
 > "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro."
@@ -154,14 +92,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | pousou (46.4s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | PRIMEIRA VEZ | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (46.0s): executa: entra andando pela lateral
-- ACAO: x_desce na palavra pousou (46.4s): executa: desce/pousa + poeira no chao
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b10 - 47.9s a 49.4s - 6 palavras - plano two
 > "Hoje, pousar de ré virou rotina."
@@ -171,13 +101,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | virou (49.1s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: vira na palavra virou (49.1s): executa: o material vira o produto, que surge girando em destaque
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b11 - 50.8s a 54.1s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -186,10 +109,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 

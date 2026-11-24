@@ -1886,7 +1886,7 @@ def build_beat(k, b):
     call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"; _multi = False
     if wide and not (shot == 'track' or mv):
         call = f"{{ ...{call}, nocut: true }}"
-    if b.get('impact') and wide and not (shot == 'track' or mv) and b.get('grua') is not False:
+    if b.get('impact') and wide and not (shot == 'track' or mv) and b.get('grua') is not False and (b.get('batalha') or (b.get('crowd') or {}).get('n') or b.get('emus') or b.get('caminhoes')):   # 24/11 (Emus/Danca): sem tropa/multidao a grua termina a 34 m com 2 bonecos minusculos
         # SEQUENCIA DE ACAO (cobertura de batalha, varias cameras na MESMA encenacao):
         #   1) plano medio baixo na tropa se preparando (subindo nos caminhoes)  2) close de baixo nos fuzis atirando
         #   3) travelling lateral acompanhando quem foge pela fazenda            4) grua: sobe e recua ate a vista de cima do campo inteiro
