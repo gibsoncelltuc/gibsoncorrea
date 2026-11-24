@@ -95,9 +95,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: outback | luz: desert | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SOL (variante 0, expressao angry); SOL (variante 1, expressao stern) | multidao: 5 de SOL/FARM
+- Personagens principais (2): SOL (variante 0, expressao angry); SOL (variante 1, expressao stern) | multidao: 6 de SOL/FARM
 - Animacao: encena | batalha encenada
-- Objetos/modelos: emus
+- Objetos/modelos: emu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, emus
 - RISCOS: nenhum
 <!-- FICHA -->

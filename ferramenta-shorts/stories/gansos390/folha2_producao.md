@@ -217,8 +217,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 0, expressao smile)
-- Animacao: encena
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gansos, ouro
 - RISCOS: nenhum
@@ -227,7 +227,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila medieval; hora: dia
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: ROM no centro, expressao smile; sem multidao; acao: fala/gesto
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
   - take 1 (46.1-47.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo

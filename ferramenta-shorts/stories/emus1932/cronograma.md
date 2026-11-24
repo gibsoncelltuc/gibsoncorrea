@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Gerado em 24/11 20:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 20:27 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | outback | two | sem personagem | - | - | - | A Austrália declaro
 b1 | simples | outback | reveal | FARM, FARM | - | barn, haybale, picket_fence, scarecrow | - | Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavoura
 b2 | simples | interior madeira | two | FARM, AUS | - | - | - | Agricultores veteranos pediram metralhadoras, e o ministro da Defesa m
 b3 | simples | countryside | two | SOL, SOL | - | crate, mgun | - | O major Meredith levou duas metralhadoras e dez mil balas.
-b4 | chave | outback | crowd | SOL, SOL | 5 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b
+b4 | chave | outback | crowd | SOL, SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b
 b5 | simples | countryside | wide | SOL | - | mgun, truck | - | Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele s
 b6 | chave | loc_campo | orbit | SOL, SOL | 30 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois de seis dias, milhares de cartuchos gastos e poucos emus abatid
 b7 | simples | countryside | group | SOL | 5 | tank | - | O major comparou os pássaros a tanques, a imprensa riu, e o governo re
@@ -29,7 +29,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | PENDENTE | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh emus1932
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 

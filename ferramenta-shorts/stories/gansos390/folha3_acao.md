@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 10 palavras - plano group
@@ -155,17 +155,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | salvaram (46.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | ouro (48.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | ouro (48.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | embora (48.4s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | ouro (48.0s) | EFEITO: stars | estrelinhas + som | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra salvaram (46.5s): executa: estende a mao entregando
 - EFEITO: stars na palavra ouro (48.0s): executa: estrelinhas + som
-- ACAO: paga na palavra ouro (48.0s): executa: estende a mao com moedas + brilho
-- ACAO: sai na palavra embora (48.4s): executa: sai andando pela lateral
 <!-- /FISICA -->
 
 ## Cena b10 - 50.5s a 53.8s - 13 palavras - plano close
