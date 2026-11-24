@@ -10,7 +10,7 @@ b2 | street | two | 8 | conversar, INTERAGEM: avanca e o outro recua, alguem che
 b3 | stadium | crowd | 20 | comemorar | kit/panela, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
-b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | street | crowd | 7 | batalha | kit/volcano | - | -
 b8 | street | group | 12 | reagir, INTERAGEM: o outro se aproxima, batalha | - | paper | -
 b9 | stadium | two | 1 | conversar | kit/ball | - | -
