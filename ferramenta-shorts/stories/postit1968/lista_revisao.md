@@ -3,11 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b1_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-3. b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-4. b9_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-5. b7: objeto "kit/postit" saiu com 12% da altura da tela, a ficha de cena planejou 32%
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um químico inventou a cola mais fraca do mundo,": 
