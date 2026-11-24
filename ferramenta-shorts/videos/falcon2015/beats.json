@@ -76,7 +76,6 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente",
@@ -89,6 +88,7 @@
      }
     ]
    },
+   "detalhe": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.6,
@@ -137,7 +137,6 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
    "props": [
     [
      "kit/falcon9_land",
@@ -162,6 +161,7 @@
     ]
    },
    "acao": "tomba",
+   "detalhe": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.6,
@@ -241,7 +241,6 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente",
@@ -254,6 +253,7 @@
      }
     ]
    },
+   "detalhe": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.8,
@@ -291,7 +291,6 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
@@ -304,6 +303,7 @@
      }
     ]
    },
+   "detalhe": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.9,
@@ -343,7 +343,6 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -356,6 +355,7 @@
      }
     ]
    },
+   "detalhe": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -471,6 +471,6 @@
   }
  },
  "max_wide": 9,
- "cinf": 4.5,
- "exp": 1.12
+ "cinf": 3.0,
+ "exp": 1.254
 }
