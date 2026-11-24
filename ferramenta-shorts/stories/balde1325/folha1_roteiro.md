@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 184 palavras (~63 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 185 palavras (~64 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~7.6 s)
-- Narracao: Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.
+## Cena b4  (~7.9 s)
+- Narracao: Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacaram -> ring + som de alerta; fugiu -> dust + som de impacto; encena: corre @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: atacaram -> ring + som de alerta; fugiu -> dust + som de impacto; encena: corre @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

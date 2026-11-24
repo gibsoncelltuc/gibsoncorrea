@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oito
 - RISCOS: nenhum
 
-## Cena b4 - Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o e...
+## Cena b4 - Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacar...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -130,9 +130,11 @@ kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/balde_madeira | grandes momentos: b4 | planos abertos: 2 | mistura: close 15% | medio 62% | aberto 17% | detalhe 6%
 - Interacoes: b0 susto, b1 o outro se aproxima, b3 insiste, b5 aproxima-se, b6 pular, b7 vai ate o outro, b9 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh balde1325 bN bM` (so essas cenas).
