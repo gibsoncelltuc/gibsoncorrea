@@ -65,3 +65,12 @@
 
 ## 24/11 13:43 autocorrecao de visibilidade
 - b6: objeto citado "kit/barco_guarda" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 24/11 13:45 autocorrecao de visibilidade
+- b0: objeto citado "vehicles/motorboat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 17.0, cz -12.6), sem multidao na frente
+
+## 24/11 13:46 autocorrecao de visibilidade
+- b0: objeto citado "kit/barco_guarda" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 24/11 13:46 autocorrecao de visibilidade
+- b0: objeto citado "kit/barco_guarda" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
