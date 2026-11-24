@@ -115,6 +115,14 @@
     "ship 1896",
     "ship"
    ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira",
+   "consultas": [
+    "palacio pegou artilharia sultao calada bandeira",
+    "forte colonial diagram"
+   ]
   }
  ]
 }

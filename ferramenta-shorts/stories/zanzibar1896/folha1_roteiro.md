@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 
 ## Cena b3  (~4.5 s)
 - Narracao: Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.5 s)
 - Narracao: O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.
@@ -50,19 +50,19 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 ## Cena b5  (~3.8 s)
 - Narracao: Acontece que, às nove e dois, os navios ingleses abriram fogo.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; fogo -> burst + som de tiro/explosao; encena: x_abre (push) @9 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: cannon@30, cannon@50
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao
+- Efeito visual marcado: burst@25, puff@30, burst@45, puff@50
 - Texto na tela: 9:02
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)
 - Narracao: O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.
-- Som ambiente: sea
-- Efeitos sonoros marcados: cannon@20, thump@60, whoosh@18
-- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; caiu -> dust + som de impacto; encena: pega (lift) @2 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito
-- Efeito visual marcado: burst@20, puff@30, burst@60, puff@20, puff@60
-- Texto na tela: -
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: cannon@20, thump@60
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: 2.800
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~3.1 s)
@@ -72,7 +72,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~3.8 s)
 - Narracao: Por volta das nove e quarenta, a bandeira do palácio caiu.

@@ -184,46 +184,102 @@
    },
    "text": "2.800",
    "titulo": true,
-   "say": "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro."
+   "say": "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.",
+   "batalha": false,
+   "tiros": false
   },
   {
-   "shot": "crowd",
-   "who": [
-    "ING:0:stern",
-    "GUA:0:shock"
-   ],
-   "batalha": true,
-   "crowd": {
-    "n": 20,
-    "outfits": [
-     "ING",
-     "GUA"
-    ],
-    "march": false,
-    "expr": "shock"
-   },
    "text": "9:02",
    "titulo": true,
    "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
-   "set": "harbor"
+   "sfx": [
+    "cannon@30",
+    "cannon@50"
+   ],
+   "fx": [
+    "burst@25",
+    "puff@30",
+    "burst@45",
+    "puff@50"
+   ],
+   "props": [
+    [
+     "kit/navio_vapor_guerra",
+     -3.0,
+     -34.0,
+     0.55,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     -2.5,
+     -2.0,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     2.5,
+     -2.0,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "harbor",
+   "shot": "wide",
+   "who": [],
+   "crowd": {
+    "n": 0
+   },
+   "fachada": false,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -12.0,
+   "h": 5.0,
+   "d0": 30.0,
+   "d1": 28.0,
+   "riscos_ok": true,
+   "tiros": true
   },
   {
    "say": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.",
-   "shot": "wide",
-   "who": [
-    "SUL:0:shock",
-    "GUA:0:shock"
-   ],
-   "fx": [
-    "burst@20",
-    "puff@30",
-    "burst@60"
-   ],
    "sfx": [
     "cannon@20",
     "thump@60"
    ],
-   "set": "harbor"
+   "explica": {
+    "objeto": "kit/forte_colonial",
+    "rotulos": [
+     [
+      "PALACIO EM CHAMAS",
+      "cima",
+      "palácio"
+     ],
+     [
+      "BANDEIRA CAIU",
+      "baixo",
+      "bandeira"
+     ]
+    ],
+    "vfx": [
+     {
+      "k": "fogo",
+      "na": "fogo",
+      "pts": "topo",
+      "pot": 2
+     },
+     {
+      "k": "onda",
+      "na": "calada"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -232,7 +288,12 @@
     "ALM:0:smile"
    ],
    "say": "O sultão foi pedir abrigo no consulado da Alemanha.",
-   "interior": "madeira"
+   "interior": "madeira",
+   "crowd": {
+    "n": 0
+   },
+   "batalha": false,
+   "tiros": false
   },
   {
    "shot": "two",
@@ -335,7 +396,8 @@
   ],
   "explicacoes": [
    "O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)",
-   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)"
+   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Guerra Anglo-Zanzibar (27/8/1896): navios da Royal Navy bombardearam o palacio do sultao Khalid a partir das 9h02; o palacio pegou fogo, a artilharia foi silenciada e a bandeira derrubada; cessar-fogo por volta das 9h40 (fonte: Wikipedia, Anglo-Zanzibar War)."
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",

@@ -67,7 +67,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "ALM"
    ],
@@ -79,25 +79,18 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "reveal",
    "personagens": [
-    "GUA",
-    "GUA"
+    "ALM"
    ],
-   "multidao": 18,
+   "multidao": 32,
    "objetos": [
     "kit/marco_zanzibar"
    ],
@@ -112,20 +105,19 @@
   },
   {
    "camera": "crowd",
-   "personagens": [
-    "ING",
-    "GUA"
-   ],
-   "multidao": 48,
+   "personagens": [],
+   "multidao": 0,
    "objetos": [
+    "cannon",
     "kit/marco_zanzibar",
+    "kit/navio_vapor_guerra",
     "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 11,
    "cena": "b5",
    "frase": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
    "classe": "chave",
-   "sujeito": "personagem",
+   "sujeito": "cenario",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",
@@ -137,35 +129,27 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
-   "personagens": [
-    "SUL",
-    "GUA"
-   ],
-   "multidao": 32,
-   "objetos": [
-    "cannon",
-    "kit/fire",
-    "kit/marco_zanzibar",
-    "war/flagpole"
-   ],
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 15,
    "cena": "b6",
    "frase": "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu.",
-   "classe": "chave",
-   "sujeito": "personagem",
+   "classe": "explicativa",
+   "sujeito": "objeto",
    "briefing": {
-    "corpo": "labaredas 3D",
-    "emissao": "fumaca",
-    "luz": "clarao do fogo",
-    "camera": "plano da cena",
-    "som": "fogo"
+    "corpo": "kit/forte_colonial (parado)",
+    "emissao": "fogo, onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "SUL",
     "ALM"
@@ -175,14 +159,20 @@
    "palavras": 9,
    "cena": "b7",
    "frase": "O sultão foi pedir abrigo no consulado da Alemanha.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "GUA",
     "ING2"

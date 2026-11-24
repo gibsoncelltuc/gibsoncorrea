@@ -37,21 +37,23 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Acontece que, às nove e dois, os navios ingleses abriram fogo."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano de multidao
-- PERSONAGENS: ING na esquerda, expressao stern; GUA na direita, expressao shock; multidao de 20 (ING, GUA) ATRAS dos principais; acao: batalha
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_vapor_guerra (alvo z -8.2, camera a 78.6 m, altura 6.0 m), sem multidao na frente
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
+- OBJETO kit/navio_vapor_guerra: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 35.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 6.6 m de altura x 9.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO cannon: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 6.6 m de altura x 9.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +25 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +45 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
+- SOM: cannon@30
+- SOM: cannon@50
 - TEXTO NA TELA: "9:02" flutuando no alto, na palavra 1 da frase
 
 ## b6: "O palácio pegou fogo, a artilharia do sultão foi calada, e a bandeira dele caiu."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: SUL na esquerda, expressao shock; GUA na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +20 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
-- SOM: cannon@20
-- SOM: thump@60
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/forte_colonial no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b7: "O sultão foi pedir abrigo no consulado da Alemanha."
 - LOCAL: sala de madeira; hora: day

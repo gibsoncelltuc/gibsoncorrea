@@ -11,7 +11,8 @@
    "interior loja",
    "interior madeira",
    "interior pedra",
-   "loc_campo"
+   "loc_campo",
+   "loc_estudio"
   ],
   "cenarios_trocados": []
  },
@@ -32,7 +33,7 @@
   "buildings/shop",
   "cannon",
   "kit/coin",
-  "kit/fire",
+  "kit/forte_colonial",
   "kit/marco_zanzibar",
   "kit/navio_vapor",
   "kit/navio_vapor_guerra",
@@ -81,7 +82,8 @@
   ],
   "explicacoes": [
    "O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)",
-   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)"
+   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Guerra Anglo-Zanzibar (27/8/1896): navios da Royal Navy bombardearam o palacio do sultao Khalid a partir das 9h02; o palacio pegou fogo, a artilharia foi silenciada e a bandeira derrubada; cessar-fogo por volta das 9h40 (fonte: Wikipedia, Anglo-Zanzibar War)."
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
