@@ -157,12 +157,11 @@
     "ENG:0:shock"
    ],
    "fx": [
-    "burst@40",
-    "dust@70",
-    "puff@50"
+    "splash@30",
+    "puff@40"
    ],
    "sfx": [
-    "thump@40"
+    "splash@30"
    ],
    "say": "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.",
    "fachada": false,
@@ -174,33 +173,16 @@
     [
      "kit/falcon9_land",
      0.0,
-     -11.9,
+     -9.0,
      1.0,
      {
-      "fixo": true
+      "fixo": true,
+      "rz": 1.45
      }
     ]
    ],
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/falcon9_land",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "acao": "tomba",
    "detalhe": false,
-   "objetos": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.6,
-   "d0": 21.0,
-   "d1": 20.0
+   "objetos": false
   },
   {
    "shot": "wide",
@@ -306,7 +288,7 @@
     [
      "kit/falcon9_land",
      0.0,
-     -12.8,
+     -10.0,
      1.1,
      {
       "fixo": true
@@ -314,8 +296,8 @@
     ]
    ],
    "fx": [
-    "stars@30",
-    "puff@50"
+    "whoosh@10",
+    "puff@40"
    ],
    "sfx": [
     "ding@30",
@@ -327,46 +309,35 @@
    "crowd": {
     "n": 0
    },
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/falcon9_land",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
    "objetos": false,
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.9,
-   "d0": 21.0,
-   "d1": 20.0
+   "cz": -10.0,
+   "h": 4.5,
+   "d0": 14.0,
+   "d1": 12.0,
+   "quadro_manual": true
   },
   {
    "shot": "wide",
    "hora": "noite",
    "who": [
-    "MUS:0:laugh"
+    "ENG:0:laugh"
    ],
    "props": [
     [
      "kit/falcon9_land",
      0.0,
-     -13.6,
-     1.2,
+     -13.0,
+     1.1,
      {
       "fixo": true
      }
     ]
    ],
    "fx": [
-    "stars@20",
-    "puff@60"
+    "puff@60",
+    "dust@60"
    ],
    "sfx": [
     "ding@20",
@@ -380,25 +351,14 @@
    "crowd": {
     "n": 0
    },
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/falcon9_land",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
    "objetos": false,
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   "cz": -13.0,
+   "h": 4.5,
+   "d0": 14.0,
+   "d1": 12.0,
+   "quadro_manual": true
   },
   {
    "shot": "reveal",
