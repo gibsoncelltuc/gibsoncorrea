@@ -27,7 +27,7 @@ objeto | torre de vigia | torre de vigia / torre de vigia 2023 | Santa Maria de 
 objeto | portao de ferro | portao de ferro / portao de ferro 2023 | Entrada original da Fabrica de Ferro de São João d (referencias/cecot2023/prints/portao_de_ferro_93741c.jpg); Detalhe da entrada original da Fabrica de Ferro de (referencias/cecot2023/prints/portao_de_ferro_8f64d5.jpg); Entrada original da Fabrica de Ferro de São João d (referencias/cecot2023/prints/portao_de_ferro_1a8509.jpg)
 objeto | cerca eletrica | cerca eletrica / cerca eletrica 2023 | SBB Ce 6-8 II 14253 Wassen - Gurtnellen.jpg (referencias/cecot2023/prints/cerca_eletrica_264ca2.jpg); Expedição Guarani Kaiowa - Dourados (MS) (81374996 (referencias/cecot2023/prints/cerca_eletrica_2265ac.jpg); Colégio Ipiranga, em Três Passos.jpg (referencias/cecot2023/prints/cerca_eletrica_173452.jpg)
 heroi | prison | muralha de concreto / A Maior Prisão das Américas | Coimbra, Rua da Couraça Lisboa.jpg (referencias/cecot2023/prints/prison_7df54c.jpg); Escalinata de la Coracha 01.JPG (referencias/cecot2023/prints/prison_e2478f.jpg); La Coracha (Málaga).png (referencias/cecot2023/prints/prison_05fa9f.jpg)
-mecanismo | Muralhas altas, cercas elétricas e torres de vigia por todos os lados. | muralhas altas cercas eletricas torres vigia lados / prison mini diagram | SEM REFERENCIA
+mecanismo | Muralhas altas, cercas elétricas e torres de vigia por todos os lados. | muralhas altas cercas eletricas torres vigia lados / prison diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - CECOT: complexo de concreto com muralhas, cercas e torres de vigia, previsto para 40 mil presos (fonte: governo de El Salvador / Wikipedia "Terrorism Confinement Center")
