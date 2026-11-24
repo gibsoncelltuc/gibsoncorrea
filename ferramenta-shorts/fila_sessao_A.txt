@@ -1,26 +1,26 @@
 # REFACAO COM PESQUISA VISUAL (ordem do Gibson 23/11): cada roteiro ganha "visual" (onde, quando, quem, roupas da epoca, cenario, objetos, fontes visuais) e e' refeito do zero com a ferramenta nova.
-#PAUSADO ese_buraco
-#PAUSADO ese_titanic
-# acrescentados em 24/11 (roteiros que estavam so nos branches antigos das sessoes)
-bacalhau1958
-chaleira1784
-emus1932
-futebol1969
-zanzibar1896
 bukele2024
 cecot2023
 aprendiz2004
+bacalhau1958
 bitcoin2021
+chaleira1784
 cybertruck2019
+emus1932
+futebol1969
 lancachamas2018
 maduro2026
 reeleicao2024
+zanzibar1896
 mechazilla2024
 vulcao2021
 trumpgame1989
 neuralink2021
 teslaquila2020
 wrestlemania2007
+#PAUSADO ese_buraco
+#PAUSADO ese_titanic
+# acrescentados em 24/11 (roteiros que estavam so nos branches antigos das sessoes)
 bateria2017
 bifes2007
 bukelebio2021
