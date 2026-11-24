@@ -51,7 +51,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça."
 - LOCAL: estadio; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: JUI no centro, expressao smug; sem multidao; acao: susto
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena

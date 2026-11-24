@@ -234,7 +234,7 @@
    "detalhe": false,
    "quadro": {
     "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/cybertruck",
