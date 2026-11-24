@@ -172,6 +172,7 @@ for i_, _b in enumerate(B['beats']):
     for rx_, k_, v_ in _LUGAR:
         if re.search(rx_, _t):
             _b['_lug_ok'] = True   # a narracao CITOU o lugar: a variedade nunca tira a cena dele (estadio lotado continua no estadio)
+            if v_ == 'madeira' and re.search(r'(preco|valor|custo|custava|custou|valia|trocou|trocaram|troca|vendeu|venderam|comprou|compraram|pagou|pagaram)\D{0,25}\bcasas?\b|\bcasas? inteiras?\b', _t): continue   # 24/11 (Tulipas): 'o preco de uma casa inteira' / 'trocou casas por um bulbo' e' VALOR, nao a cena dentro de casa
             if k_ == 'interior' and (_b.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or _b.get('batalha') or _b.get('veiculo') or _b.get('crowd')): continue
             if k_ == 'set' and v_ == SET: break
             if _b.get(k_) is False: break   # o roteiro proibiu (interior: false): o lugar citado nao manda a cena para dentro
@@ -535,6 +536,7 @@ def _neg_idx(say):   # NEGACAO (19/11): "ninguem deu um tiro", "sem dar um unico
     ws_ = [re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', w_.lower()).encode('ascii', 'ignore').decode()) for w_ in say.split()]; out_ = set()
     for i_, w_ in enumerate(ws_):
         if w_ in _NEGW: out_.update(range(i_ + 1, min(len(ws_), i_ + 5)))
+        if w_ in ('nunca', 'jamais') and i_ + 1 < len(ws_) and ws_[i_ + 1] in ('veio', 'vieram', 'chegou', 'chegaram', 'aconteceu', 'aconteceram', 'houve', 'saiu', 'foi', 'foram', 'apareceu', 'existiu'): out_.update(range(max(0, i_ - 3), i_))   # 24/11 (Lagosta): "o tiro NUNCA VEIO" nega o que vem ANTES
     return out_
 def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a noticia correu o mundo", "o preco caiu" -> nao sao beber/correr/cair
     ws_ = say.split(); out_ = set(); n_ = lambda t: re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())

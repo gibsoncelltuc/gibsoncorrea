@@ -6,11 +6,6 @@
    "video",
    "street",
    "loc_campo"
-  ],
-  [
-   "cena 13",
-   "street",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -215,7 +210,7 @@
   {
    "camera": "close",
    "personagens": [
-    "PES"
+    "PRO"
    ],
    "multidao": 0,
    "objetos": [
@@ -246,7 +241,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "interior pedra"
   },
   {
    "camera": "close",
@@ -262,7 +257,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior pedra"
   }
  ]
 }

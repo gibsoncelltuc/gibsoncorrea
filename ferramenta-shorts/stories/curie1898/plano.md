@@ -12,9 +12,9 @@ b6 | two | dia limpo | interior, objeto na mao | encena: pega (lift) @1 (acao + 
 b7 | crowd | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
 b8 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @17 (acao + som de efeito) | -
 b9 | two | dia limpo | interior | encena: pega (lift) @6 (acao + som de efeito) | -
-b10 | close | dia limpo | interior | encena: x_le (think) @1 (acao + som de efeito); encena: escreve (write) @4 (acao + som de efeito) | -
-b11 | two | dia limpo | - | - | -
-b12 | close | dia  | placa: COMENTE! | - | -
+b10 | close | dia limpo | interior, objeto na mao | encena: x_le (think) @1 (acao + som de efeito); encena: escreve (write) @4 (acao + som de efeito) | -
+b11 | two | dia limpo | interior | - | -
+b12 | close | dia  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 25% | medio 67% | aberto 5% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 25% | medio 68% | aberto 5% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

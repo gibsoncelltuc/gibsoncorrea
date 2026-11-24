@@ -9,17 +9,11 @@
   "cenarios": [
    "interior madeira",
    "interior pedra",
-   "loc_campo",
-   "loc_montanha"
+   "loc_campo"
   ],
   "cenarios_trocados": [
    [
     "video",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 13",
     "street",
     "loc_campo"
    ]

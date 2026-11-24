@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b5  (~3.8 s)
 - Narracao: Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b8  (~5.2 s)
 - Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
 - Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: dust@40, puff@90

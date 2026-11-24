@@ -74,3 +74,6 @@
 
 ## 24/11 19:45 autocorrecao de visibilidade
 - b9: ja corrigida 3 vezes, animal citado aparece pequeno demais no take 2 (media 12% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior -> fica para o olho
+
+## 24/11 19:47 autocorrecao de visibilidade
+- b9: ja corrigida 3 vezes, animal citado aparece pequeno demais no take 2 (media 12% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior -> fica para o olho

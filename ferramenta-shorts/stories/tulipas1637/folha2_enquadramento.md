@@ -3,10 +3,10 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Uma única flor já custou o preço de uma casa inteira."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
 - PERSONAGENS: MER na esquerda, expressao grin, segura tulip; RIC na direita, expressao shock, segura coin; sem multidao; acao: fala/gesto
-- OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1637" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
