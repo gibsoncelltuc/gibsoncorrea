@@ -7,8 +7,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/canivete_aberto | - | -
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | kit/mapa_antigo, buildings/house_two, nature/lamppost | - | -
 b2 | interior madeira | close | 1 | encena | - | paper | -
-b3 | countryside | crowd | 50 | discutir, batalha | - | - | -
-b4 | countryside | orbit | 50 | discutir, batalha | kit/teodolito | - | -
+b3 | countryside | crowd | 49 | encena, batalha | - | - | -
+b4 | countryside | orbit | 49 | reagir, batalha | kit/teodolito | - | -
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/canivete | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: pedir | - | paper | -
 b7 | jungle | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -
