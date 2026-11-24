@@ -40,6 +40,43 @@
   },
   {
    "tipo": "lugar",
+   "item": "Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio",
+   "consultas": [
+    "Instituto de Fisica da Universidade de Wurzburg Baviera",
+    "Instituto de Fisica da Universidade de Wurzburg Baviera Alemanha 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "Instituto de Física (1), UFG Samambaia, maio de 2016.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Instituto_de_F%C3%ADsica_%281%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg/500px-Instituto_de_F%C3%ADsica_%281%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AInstituto_de_F%C3%ADsica_%281%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/rontgen1895/prints/instituto_de_fisica_da_universidade_de_w_6aa402.jpg",
+     "consulta": "Instituto Fisica Universidade"
+    },
+    {
+     "titulo": "Instituto de Física (4), UFG Samambaia, maio de 2016.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Instituto_de_F%C3%ADsica_%284%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg/500px-Instituto_de_F%C3%ADsica_%284%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AInstituto_de_F%C3%ADsica_%284%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/rontgen1895/prints/instituto_de_fisica_da_universidade_de_w_f955c9.jpg",
+     "consulta": "Instituto Fisica Universidade"
+    },
+    {
+     "titulo": "Instituto de Física (2), UFG Samambaia, maio de 2016.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Instituto_de_F%C3%ADsica_%282%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg/500px-Instituto_de_F%C3%ADsica_%282%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AInstituto_de_F%C3%ADsica_%282%29%2C_UFG_Samambaia%2C_maio_de_2016.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/rontgen1895/prints/instituto_de_fisica_da_universidade_de_w_5456be.jpg",
+     "consulta": "Instituto Fisica Universidade"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Alemanha",
    "consultas": [
     "Alemanha 1895",
@@ -84,6 +121,15 @@
    ],
    "achados": [
     {
+     "titulo": "Santa Claus LCCN95504975.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Santa_Claus_LCCN95504975.jpg/500px-Santa_Claus_LCCN95504975.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASanta_Claus_LCCN95504975.jpg",
+     "descricao": "English: Title: Santa Claus Abstract/medium: 1 photographic print. Date c. \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/rontgen1895/prints/roupas_e_ruas_de_1895_74966d.jpg",
+     "consulta": "1895 fashion clothing"
+    },
+    {
      "titulo": "1896 - Lion Clothing Hall Ad Allentown PA.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/1896_-_Lion_Clothing_Hall_Ad_Allentown_PA.jpg/500px-1896_-_Lion_Clothing_Hall_Ad_Allentown_PA.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3A1896_-_Lion_Clothing_Hall_Ad_Allentown_PA.jpg",
@@ -93,22 +139,263 @@
      "consulta": "1895 fashion clothing"
     },
     {
-     "titulo": "Bicycle suit punch 1895.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bicycle_suit_punch_1895.jpg/500px-Bicycle_suit_punch_1895.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABicycle_suit_punch_1895.jpg",
-     "descricao": "DescriptionBicycle suit punch \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/rontgen1895/prints/roupas_e_ruas_de_1895_ae29c9.jpg",
+     "titulo": "1895 mantelet.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/1895_mantelet.jpg/500px-1895_mantelet.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A1895_mantelet.jpg",
+     "descricao": "cropped from a larger image scanned from a 1890s French \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/rontgen1895/prints/roupas_e_ruas_de_1895_7a635e.jpg",
      "consulta": "1895 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Wilhelm Rontgen (barba cheia escura, sobrecasaca)",
+   "consultas": [
+    "Wilhelm Rontgen barba cheia escura sobrecasaca",
+    "Wilhelm Rontgen barba cheia escura sobrecasaca 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "Wilhelm Conrad Röntgen (1888-1900), 88374 p.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg/500px-Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/rontgen1895/prints/wilhelm_rontgen_barba_cheia_escura_sobre_d9d3b5.jpg",
+     "consulta": "Wilhelm Rontgen"
     },
     {
-     "titulo": "Mug shot of Lenin 1895 crop.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Mug_shot_of_Lenin_1895_crop.jpg/500px-Mug_shot_of_Lenin_1895_crop.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMug_shot_of_Lenin_1895_crop.jpg",
-     "descricao": "DescriptionMug shot of Lenin \\u003Cspan class=\\",
+     "titulo": "Roentgen2.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Roentgen2.jpg/500px-Roentgen2.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoentgen2.jpg",
+     "descricao": "English Photograph of \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/rontgen1895/prints/wilhelm_rontgen_barba_cheia_escura_sobre_88b970.jpg",
+     "consulta": "Wilhelm Rontgen"
+    },
+    {
+     "titulo": "Wilhelm Röntgen.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Wilhelm_R%C3%B6ntgen.jpg/500px-Wilhelm_R%C3%B6ntgen.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWilhelm_R%C3%B6ntgen.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/rontgen1895/prints/wilhelm_rontgen_barba_cheia_escura_sobre_090eab.jpg",
+     "consulta": "Wilhelm Rontgen"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Anna Bertha Rontgen (vestido longo, cabelo preso)",
+   "consultas": [
+    "Anna Bertha Rontgen vestido longo cabelo preso",
+    "Anna Bertha Rontgen vestido longo cabelo preso 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg/500px-First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFirst_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg",
+     "descricao": "bức ảnh chụp X-quang đầu tiên của Wilhelm Röntgen (1845–1923) về bàn tay trái của vợ ông là \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/rontgen1895/prints/anna_bertha_rontgen_vestido_longo_cabelo_3cf065.jpg",
+     "consulta": "Anna Bertha"
+    },
+    {
+     "titulo": "Stolperstein für Anna Bertha Königsegg (Salzburg).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Stolperstein_f%C3%BCr_Anna_Bertha_K%C3%B6nigsegg_%28Salzburg%29.jpg/500px-Stolperstein_f%C3%BCr_Anna_Bertha_K%C3%B6nigsegg_%28Salzburg%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AStolperstein_f%C3%BCr_Anna_Bertha_K%C3%B6nigsegg_%28Salzburg%29.jpg",
+     "descricao": "DescriptionStolperstein für \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/rontgen1895/prints/anna_bertha_rontgen_vestido_longo_cabelo_84c573.jpg",
+     "consulta": "Anna Bertha"
+    },
+    {
+     "titulo": "Grabstein Anna und Bertha Gerresheim.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Grabstein_Anna_und_Bertha_Gerresheim.jpg/500px-Grabstein_Anna_und_Bertha_Gerresheim.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGrabstein_Anna_und_Bertha_Gerresheim.jpg",
+     "descricao": "DescriptionGrabstein \\u003Cspan class=\\",
      "ordem": 6,
-     "print": "referencias/rontgen1895/prints/roupas_e_ruas_de_1895_4457be.jpg",
-     "consulta": "1895 fashion clothing"
+     "print": "referencias/rontgen1895/prints/anna_bertha_rontgen_vestido_longo_cabelo_235325.jpg",
+     "consulta": "Anna Bertha"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas e medicos",
+   "consultas": [
+    "jornalistas e medicos",
+    "jornalistas e medicos 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "Renaudot (Théophraste) CIPB0301.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Renaudot_%28Th%C3%A9ophraste%29_CIPB0301.jpg/500px-Renaudot_%28Th%C3%A9ophraste%29_CIPB0301.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARenaudot_%28Th%C3%A9ophraste%29_CIPB0301.jpg",
+     "descricao": "Français : \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/rontgen1895/prints/jornalistas_e_medicos_441f37.jpg",
+     "consulta": "jornalistas e medicos"
+    },
+    {
+     "titulo": "Théophraste Renaudot photo by A. Londe.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Th%C3%A9ophraste_Renaudot_photo_by_A._Londe.jpg/500px-Th%C3%A9ophraste_Renaudot_photo_by_A._Londe.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATh%C3%A9ophraste_Renaudot_photo_by_A._Londe.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/rontgen1895/prints/jornalistas_e_medicos_afa44f.jpg",
+     "consulta": "jornalistas e medicos"
+    },
+    {
+     "titulo": "Statue de Théophraste Renaudot à Loudun (86) - 03.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Statue_de_Th%C3%A9ophraste_Renaudot_%C3%A0_Loudun_%2886%29_-_03.jpg/500px-Statue_de_Th%C3%A9ophraste_Renaudot_%C3%A0_Loudun_%2886%29_-_03.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AStatue_de_Th%C3%A9ophraste_Renaudot_%C3%A0_Loudun_%2886%29_-_03.jpg",
+     "descricao": "DescriptionStatue de \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/rontgen1895/prints/jornalistas_e_medicos_2b0be1.jpg",
+     "consulta": "jornalistas e medicos"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "tubo de Crookes",
+   "consultas": [
+    "tubo de Crookes",
+    "tubo de Crookes 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "Crookes tube two views.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Crookes_tube_two_views.jpg/500px-Crookes_tube_two_views.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACrookes_tube_two_views.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/rontgen1895/prints/tubo_de_crookes_3d85fa.jpg",
+     "consulta": "tubo de Crookes"
+    },
+    {
+     "titulo": "Crookes tube-not in use-lateral view prPNr°02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Crookes_tube-not_in_use-lateral_view_prPNr%C2%B002.jpg/500px-Crookes_tube-not_in_use-lateral_view_prPNr%C2%B002.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACrookes_tube-not_in_use-lateral_view_prPNr%C2%B002.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/rontgen1895/prints/tubo_de_crookes_cbb504.jpg",
+     "consulta": "tubo de Crookes"
+    },
+    {
+     "titulo": "Crookes tubo escuro.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Crookes_tubo_escuro.png/500px-Crookes_tubo_escuro.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACrookes_tubo_escuro.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/rontgen1895/prints/tubo_de_crookes_2bcbec.jpg",
+     "consulta": "tubo de Crookes"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "tela de platinocianeto de bario",
+   "consultas": [
+    "tela de platinocianeto de bario",
+    "tela de platinocianeto de bario 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "Train wreck at Montparnasse 1895.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Train_wreck_at_Montparnasse_1895.jpg/500px-Train_wreck_at_Montparnasse_1895.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATrain_wreck_at_Montparnasse_1895.jpg",
+     "descricao": "https://creativecommons.org/publicdomain/mark/\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/rontgen1895/prints/tela_de_platinocianeto_de_bario_a737ba.jpg",
+     "consulta": "1895"
+    },
+    {
+     "titulo": "First Benz Velo in Budapest - Hatschek Béla in 1895.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/First_Benz_Velo_in_Budapest_-_Hatschek_B%C3%A9la_in_1895.png/500px-First_Benz_Velo_in_Budapest_-_Hatschek_B%C3%A9la_in_1895.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFirst_Benz_Velo_in_Budapest_-_Hatschek_B%C3%A9la_in_1895.png",
+     "descricao": "org/publicdomain/mark/\\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/rontgen1895/prints/tela_de_platinocianeto_de_bario_aa605f.jpg",
+     "consulta": "1895"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "chapa fotografica da mao com anel",
+   "consultas": [
+    "chapa fotografica da mao com anel",
+    "chapa fotografica da mao com anel 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "Saint-Bruno Lac-Saint-Jean 1906.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Saint-Bruno_Lac-Saint-Jean_1906.jpg/500px-Saint-Bruno_Lac-Saint-Jean_1906.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASaint-Bruno_Lac-Saint-Jean_1906.jpg",
+     "descricao": "John, QC, about 1906, Wm. Notman \\u0026amp; Son. Silver salts on glass - Gelatin \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/rontgen1895/prints/chapa_fotografica_da_mao_com_anel_e2547a.jpg",
+     "consulta": "chapa fotografica"
+    },
+    {
+     "titulo": "Chapas fotográficas.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Chapas_fotogr%C3%A1ficas.png/500px-Chapas_fotogr%C3%A1ficas.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AChapas_fotogr%C3%A1ficas.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/rontgen1895/prints/chapa_fotografica_da_mao_com_anel_6f1e86.jpg",
+     "consulta": "chapa fotografica"
+    },
+    {
+     "titulo": "Promenade de la Société photographique de Rennes.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Promenade_de_la_Soci%C3%A9t%C3%A9_photographique_de_Rennes.jpg/500px-Promenade_de_la_Soci%C3%A9t%C3%A9_photographique_de_Rennes.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APromenade_de_la_Soci%C3%A9t%C3%A9_photographique_de_Rennes.jpg",
+     "descricao": "English French Négatif sur verre représentant une promenade de la Société photographique de Rennes.",
+     "ordem": 6,
+     "print": "referencias/rontgen1895/prints/chapa_fotografica_da_mao_com_anel_9666cd.jpg",
+     "consulta": "chapa fotografica"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "papelao preto",
+   "consultas": [
+    "papelao preto",
+    "papelao preto 1895"
+   ],
+   "achados": [
+    {
+     "titulo": "Eulogy to a Ruler WDL2421.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Eulogy_to_a_Ruler_WDL2421.png/500px-Eulogy_to_a_Ruler_WDL2421.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEulogy_to_a_Ruler_WDL2421.png",
+     "descricao": "colada a um grande papel bege decorado com pingos de ouro e montada em \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/rontgen1895/prints/papelao_preto_abde44.jpg",
+     "consulta": "papelao preto"
+    },
+    {
+     "titulo": "Train wreck at Montparnasse 1895.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Train_wreck_at_Montparnasse_1895.jpg/500px-Train_wreck_at_Montparnasse_1895.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATrain_wreck_at_Montparnasse_1895.jpg",
+     "descricao": "https://creativecommons.org/publicdomain/mark/\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/rontgen1895/prints/papelao_preto_a737ba.jpg",
+     "consulta": "1895"
+    },
+    {
+     "titulo": "MN State Capitol design-Wendell and Humphreys 1895.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/MN_State_Capitol_design-Wendell_and_Humphreys_1895.jpg/500px-MN_State_Capitol_design-Wendell_and_Humphreys_1895.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMN_State_Capitol_design-Wendell_and_Humphreys_1895.jpg",
+     "descricao": "English Minnesota State Capitol design by Wendell and Humphreys \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/rontgen1895/prints/papelao_preto_60eba1.jpg",
+     "consulta": "1895"
     }
    ]
   },
@@ -116,36 +403,36 @@
    "tipo": "heroi",
    "item": "xray plate",
    "consultas": [
-    "xray plate",
+    "tubo de Crookes",
     "O Raio X de Röntgen"
    ],
    "achados": [
     {
-     "titulo": "Glaskugel -- 2022 -- 9846.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Glaskugel_--_2022_--_9846.jpg/500px-Glaskugel_--_2022_--_9846.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlaskugel_--_2022_--_9846.jpg",
-     "descricao": "Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "titulo": "Crookes tube two views.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Crookes_tube_two_views.jpg/500px-Crookes_tube_two_views.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACrookes_tube_two_views.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/rontgen1895/prints/xray_plate_c26f82.jpg",
-     "consulta": "xray plate"
+     "print": "referencias/rontgen1895/prints/xray_plate_3d85fa.jpg",
+     "consulta": "tubo de Crookes"
     },
     {
-     "titulo": "Dülmen, Kirchspiel, Börnste, BMW Mini -- 2019 -- 7207-13.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/D%C3%BClmen%2C_Kirchspiel%2C_B%C3%B6rnste%2C_BMW_Mini_--_2019_--_7207-13.jpg/500px-D%C3%BClmen%2C_Kirchspiel%2C_B%C3%B6rnste%2C_BMW_Mini_--_2019_--_7207-13.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C_Kirchspiel%2C_B%C3%B6rnste%2C_BMW_Mini_--_2019_--_7207-13.jpg",
-     "descricao": "with features: advertisement shown with features: vehicle registration \\u003Cspan class=\\",
+     "titulo": "Crookes tube-in use-lateral view-2 prPNr°09.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Crookes_tube-in_use-lateral_view-2_prPNr%C2%B009.jpg/500px-Crookes_tube-in_use-lateral_view-2_prPNr%C2%B009.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACrookes_tube-in_use-lateral_view-2_prPNr%C2%B009.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
      "ordem": 3,
-     "print": "referencias/rontgen1895/prints/xray_plate_8fedde.jpg",
-     "consulta": "xray plate"
+     "print": "referencias/rontgen1895/prints/xray_plate_a724ea.jpg",
+     "consulta": "tubo de Crookes"
     },
     {
-     "titulo": "Dülmen, Kirchspiel, BMW Mini -- 2016 -- 5129-35.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/D%C3%BClmen%2C_Kirchspiel%2C_BMW_Mini_--_2016_--_5129-35.jpg/500px-D%C3%BClmen%2C_Kirchspiel%2C_BMW_Mini_--_2016_--_5129-35.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C_Kirchspiel%2C_BMW_Mini_--_2016_--_5129-35.jpg",
-     "descricao": "with features: advertisement shown with features: vehicle registration \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/rontgen1895/prints/xray_plate_e02fb3.jpg",
-     "consulta": "xray plate"
+     "titulo": "Crookes tube-in use-lateral view-standing cross prPNr°11.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Crookes_tube-in_use-lateral_view-standing_cross_prPNr%C2%B011.jpg/500px-Crookes_tube-in_use-lateral_view-standing_cross_prPNr%C2%B011.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACrookes_tube-in_use-lateral_view-standing_cross_prPNr%C2%B011.jpg",
+     "descricao": " Thomson\\u0026#039;s Electron, CRC Press, pp. 72 ISBN: 0750304537. English French \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/rontgen1895/prints/xray_plate_fe4453.jpg",
+     "consulta": "tubo de Crookes"
     }
    ]
   },
