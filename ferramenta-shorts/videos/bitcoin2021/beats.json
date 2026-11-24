@@ -6,7 +6,7 @@
  "title": "O País do Bitcoin",
  "titulo_base": "O País do Bitcoin",
  "set": "street",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/bitcoin",
  "outfits": {
@@ -404,5 +404,7 @@
    "bitcoin": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
    "volcano": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)"
   }
- }
+ },
+ "cinf": 3.0,
+ "exp": 1.254
 }

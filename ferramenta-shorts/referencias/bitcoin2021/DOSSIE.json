@@ -5,7 +5,7 @@
   "ano": 2021,
   "era": "atual (1950+)",
   "regiao": "colonial",
-  "luz_base": "day",
+  "luz_base": "golden",
   "cenarios": [
    "interior pedra",
    "loc_cidade",

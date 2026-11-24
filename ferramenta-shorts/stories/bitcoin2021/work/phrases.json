@@ -1,7 +1,7 @@
 {
- "duration": 8.4,
- "frames30": 252,
- "source": "silence-align (cost 1000000000.00)",
+ "duration": 52.296,
+ "frames30": 1569,
+ "source": "silence-align (cost 0.47)",
  "segments": [
   [
    0.160083,
@@ -12,13 +12,187 @@
    4.38746
   ],
   [
-   5.31671,
+   5.32108,
    6.22442
   ],
   [
    6.45287,
-   8.4
+   7.3885
+  ],
+  [
+   7.71779,
+   9.83929
+  ],
+  [
+   10.7032,
+   13.1432
+  ],
+  [
+   13.496,
+   15.5599
+  ],
+  [
+   16.4157,
+   18.3242
+  ],
+  [
+   18.6369,
+   20.6445
+  ],
+  [
+   21.5304,
+   22.5853
+  ],
+  [
+   22.8584,
+   27.0559
+  ],
+  [
+   27.9144,
+   28.7745
+  ],
+  [
+   28.9875,
+   29.7234
+  ],
+  [
+   30.0326,
+   32.633
+  ],
+  [
+   33.4726,
+   38.6144
+  ],
+  [
+   39.4597,
+   40.1015
+  ],
+  [
+   40.3416,
+   42.5176
+  ],
+  [
+   43.3671,
+   44.363
+  ],
+  [
+   44.6611,
+   47.1434
+  ],
+  [
+   47.9937,
+   49.4383
+  ],
+  [
+   49.7353,
+   51.4925
   ]
  ],
- "phrases": []
+ "phrases": [
+  {
+   "text": "Um pa\u00eds aceitou o bitcoin como dinheiro,",
+   "s": 0.16,
+   "e": 2.062
+  },
+  {
+   "text": "e nove em dez moradores n\u00e3o entendiam.",
+   "s": 2.327,
+   "e": 4.387
+  },
+  {
+   "text": "Foi em El Salvador,",
+   "s": 5.321,
+   "e": 6.224
+  },
+  {
+   "text": "na Am\u00e9rica Central,",
+   "s": 6.453,
+   "e": 7.388
+  },
+  {
+   "text": "e a ideia foi do presidente Nayib Bukele.",
+   "s": 7.718,
+   "e": 9.839
+  },
+  {
+   "text": "Ele anunciou o projeto em junho de dois mil e vinte e um,",
+   "s": 10.703,
+   "e": 13.143
+  },
+  {
+   "text": "e o congresso aprovou poucos dias depois.",
+   "s": 13.496,
+   "e": 15.56
+  },
+  {
+   "text": "A lei passou a valer em sete de setembro,",
+   "s": 16.416,
+   "e": 18.324
+  },
+  {
+   "text": "e o pa\u00eds foi o primeiro do mundo a fazer isso.",
+   "s": 18.637,
+   "e": 20.645
+  },
+  {
+   "text": "Para convencer o povo,",
+   "s": 21.53,
+   "e": 22.585
+  },
+  {
+   "text": "o governo prometeu trinta d\u00f3lares em bitcoin a quem baixasse a carteira digital Chivo.",
+   "s": 22.858,
+   "e": 27.056
+  },
+  {
+   "text": "Acontece que,",
+   "s": 27.914,
+   "e": 28.774
+  },
+  {
+   "text": "no lan\u00e7amento,",
+   "s": 28.988,
+   "e": 29.723
+  },
+  {
+   "text": "o aplicativo ficou fora do ar por algumas horas.",
+   "s": 30.033,
+   "e": 32.633
+  },
+  {
+   "text": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decis\u00e3o.",
+   "s": 33.473,
+   "e": 38.614
+  },
+  {
+   "text": "Mesmo assim,",
+   "s": 39.46,
+   "e": 40.102
+  },
+  {
+   "text": "a moeda digital virou assunto no mundo inteiro.",
+   "s": 40.342,
+   "e": 42.518
+  },
+  {
+   "text": "Uma moeda digital,",
+   "s": 43.367,
+   "e": 44.363
+  },
+  {
+   "text": "uma lei nova e um pa\u00eds no centro das aten\u00e7\u00f5es.",
+   "s": 44.661,
+   "e": 47.143
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 47.994,
+   "e": 49.438
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 49.735,
+   "e": 51.492
+  }
+ ]
 }

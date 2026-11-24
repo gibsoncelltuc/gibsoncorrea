@@ -1,4 +1,146 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 94,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 96,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 100,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 104,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 108,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 112,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 116,
+   "shot": "b0_v",
+   "why": [
+    "pov: head/torso cropped (box 0.69, 0.427, 1.129, 0.834)"
+   ]
+  },
+  {
+   "f": 758,
+   "shot": "b4_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 760,
+   "shot": "b4_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 764,
+   "shot": "b4_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 768,
+   "shot": "b4_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 772,
+   "shot": "b4_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 776,
+   "shot": "b4_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1364,
+   "shot": "b8_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1368,
+   "shot": "b8_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1381,
+   "shot": "b8_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1384,
+   "shot": "b8_v",
+   "why": [
+    "camera inside geometry (red_coin_2@0.31)",
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1388,
+   "shot": "b8_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1392,
+   "shot": "b8_v",
+   "why": [
+    "cli: head/torso cropped (box 1.543, -0.201, 3.593, 1.181)"
+   ]
+  },
+  {
+   "f": 1396,
+   "shot": "b8_v",
+   "why": [
+    "cli: head/torso cropped (box 1.248, 0.203, 2.244, 0.956)"
+   ]
+  }
+ ],
  "tiny": []
 }
