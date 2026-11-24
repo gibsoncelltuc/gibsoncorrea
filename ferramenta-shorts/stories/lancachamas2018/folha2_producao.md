@@ -230,11 +230,9 @@ kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/flamethrower | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 13% | medio 75% | aberto 6% | detalhe 6%
 - Interacoes: b0 entregar, b1 aproxima-se, b2 avanca e o outro recua, b4 susto, b5 brindar, b7 o outro se aproxima, b9 insiste
-- RISCOS GERAIS: 
-  - video com ~49 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~49 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lancachamas2018 bN bM` (so essas cenas).

@@ -253,11 +253,9 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 ## Video inteiro
 - Objeto heroi: kit/helicopter_air | grandes momentos: b3, b8 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 14% | detalhe 2%
 - Interacoes: b5 empurrar, b6 aproxima-se, b7 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sal, Donald Trump (terno azul, gravata vermelha), Nicolas Maduro (bigode, jaqueta), -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sal, Donald Trump (terno azul, gravata vermelha), Nicolas Maduro (bigode, jaqueta),
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh maduro2026 bN bM` (so essas cenas).
