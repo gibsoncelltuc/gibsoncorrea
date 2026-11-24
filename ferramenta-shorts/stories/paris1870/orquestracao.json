@@ -152,11 +152,14 @@
   {
    "camera": "orbit",
    "personagens": [
-    "PAR",
+    "CHF",
     "PAR"
    ],
    "multidao": 12,
-   "objetos": [],
+   "objetos": [
+    "kit/marco_notredame",
+    "kit/panela"
+   ],
    "palavras": 12,
    "cena": "b7",
    "frase": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
@@ -170,7 +173,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "street"
   },
   {
    "camera": "group",
@@ -179,7 +182,9 @@
     "PAR"
    ],
    "multidao": 10,
-   "objetos": [],
+   "objetos": [
+    "kit/marco_notredame"
+   ],
    "palavras": 11,
    "cena": "b8",
    "frase": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
@@ -187,24 +192,28 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "street"
   },
   {
    "camera": "two",
-   "personagens": [],
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/balloon",
-    "kit/balloon_air"
+    "kit/balloon_air",
+    "kit/marco_notredame"
    ],
-   "palavras": 7,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Para mandar notícias, usavam balões e pombos-correio.",
+   "frase": "Para mandar notícias, soltavam balões por cima do cerco.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "street"
   },
   {
    "camera": "group",
@@ -214,6 +223,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/marco_notredame",
     "kit/panela"
    ],
    "palavras": 15,
@@ -223,7 +233,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "street"
   },
   {
    "camera": "close",

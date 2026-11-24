@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 137 palavras (~47 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 139 palavras (~48 s)
 
 ## Cena b0  (~2.1 s)
 - Narracao: Paris já serviu elefante no jantar.
@@ -69,9 +69,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: elephant come -> acao + som de efeito; fortuna -> stars + som de sino; encena: paga (reach) @7 -> acao + som de efeito; encena: x_come (eat) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: paga (reach) @7 -> acao + som de efeito; encena: x_come (eat) @11 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: BALÕES E POMBOS
+- Texto na tela: SÓ PARA OS RICOS
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~3.8 s)
@@ -83,13 +83,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.4 s)
-- Narracao: Para mandar notícias, usavam balões e pombos-correio.
+## Cena b9  (~3.1 s)
+- Narracao: Para mandar notícias, soltavam balões por cima do cerco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito; encena: x_solta (up) @3 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: BALÕES
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~5.2 s)
