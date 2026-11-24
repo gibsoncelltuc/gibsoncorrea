@@ -4,10 +4,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "A França e o Brasil quase entraram em guerra por causa de uma lagosta."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/lobster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.2 m de altura x 7.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "1961" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "1961" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

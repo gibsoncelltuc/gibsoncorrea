@@ -157,7 +157,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b10 - 51.3s a 56.5s - 16 palavras - plano close
+## Cena b10 - 51.3s a 56.5s - 16 palavras - plano two
 > "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

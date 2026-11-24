@@ -35,7 +35,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smile, segura flag; CAN (soldado) na direita, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/whisky: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO war/flagpole: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 6.5 m de altura x 2.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO war/flagpole: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 8.1 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b5: "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "A guerra mais educada da história acabou sem um tiro e com muito uísque."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)
 - PERSONAGENS: CAN (soldado) no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/whisky: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

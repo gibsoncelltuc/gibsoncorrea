@@ -50,15 +50,15 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "BRA:0:angry"
    ],
    "props": [
     [
      "kit/lobster",
-     0.0,
-     -8.0,
+     0.6,
+     1.0,
      2.2,
      {
       "fixo": true
@@ -90,8 +90,9 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "d0": 13.5,
+   "d1": 13.0,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -142,13 +143,13 @@
      }
     ]
    },
+   "batalha": false,
+   "tiros": false,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.2,
-   "d1": 10.7,
-   "batalha": false,
-   "tiros": false
+   "d1": 10.7
   },
   {
    "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
@@ -321,7 +322,7 @@
     [
      "kit/lobster",
      0.0,
-     -8.0,
+     -1.0,
      2.2,
      {
       "fixo": true
@@ -350,8 +351,9 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "d0": 13.5,
+   "d1": 13.0,
+   "_auto_vis": 2
   }
  ],
  "ano": 1961,

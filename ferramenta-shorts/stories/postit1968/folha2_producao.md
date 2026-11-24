@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): SIL (variante 0, expressao sad); CHE (variante 0, expressao angry)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/postit, kit/globe
@@ -80,7 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: close (rosto e ombros)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SIL (cientista) no centro, expressao shock, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
@@ -168,7 +168,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
 - PERSONAGENS: FRY no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
@@ -228,8 +228,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma c...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): SIL (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/postit
@@ -239,7 +239,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
 - PERSONAGENS: SIL (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
@@ -269,11 +269,13 @@ kit/globe | b0 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 28% | medio 52% | aberto 15% | detalhe 5%
+- Objeto heroi: kit/postit | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 20% | medio 64% | aberto 15% | detalhe 0%
 - Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/postit) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/postit) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh postit1968 bN bM` (so essas cenas).

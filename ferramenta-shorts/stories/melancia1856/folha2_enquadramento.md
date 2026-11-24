@@ -36,10 +36,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e pistol juntos (camera a 11.5 m)
-- PERSONAGENS: VIA (jornalista) na esquerda, expressao angry; VEN (comerciante) na direita, expressao scared; sem multidao; acao: empurrar
-- OBJETO war/pistol: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "ARMA!" flutuando no alto, na palavra 6 da frase
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)
+- PERSONAGENS: VIA (jornalista) no centro, expressao angry; sem multidao; acao: empurrar
+- OBJETO war/pistol: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "ARMA!" numa placa atras dos personagens, na palavra 6 da frase
 
 ## b6: "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -63,13 +63,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 36.2 m, altura 3.3 m), sem multidao na frente
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o locomotive (alvo z -3.6, camera a 36.2 m, altura 3.3 m), sem multidao na frente
 - PERSONAGENS: SOL (soldado) no centro, expressao stern; sem multidao; acao: batalha
 - OBJETO vehicles/locomotive: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.4 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b10: "Tudo isso por uma fatia de melancia que custava poucos centavos."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)
 - PERSONAGENS: VEN (comerciante) no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/melon: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

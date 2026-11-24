@@ -173,9 +173,9 @@
    "props": [
     [
      "war/flagpole",
-     7.0,
-     -14.0,
-     1.2,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -213,7 +213,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
@@ -332,7 +333,7 @@
    "say": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio."
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "CAN:0:smile"
    ],
@@ -364,8 +365,10 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "d0": 11.4,
+   "d1": 11.0,
+   "detalhe": false,
+   "_auto_vis": 2
   }
  ],
  "ano": 1984,
