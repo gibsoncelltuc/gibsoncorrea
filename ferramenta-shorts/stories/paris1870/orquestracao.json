@@ -16,26 +16,26 @@
     "PAR"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_notredame"
-   ],
-   "palavras": 17,
+   "objetos": [],
+   "palavras": 24,
    "cena": "b0",
-   "frase": "Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.",
+   "frase": "Paris já serviu elefante no jantar. Era mil oitocentos e setenta, a Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "reveal",
    "personagens": [
     "PAR",
     "PAR"
    ],
-   "multidao": 0,
-   "objetos": [],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_notredame"
+   ],
    "palavras": 12,
    "cena": "b1",
    "frase": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
@@ -43,7 +43,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -62,7 +62,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "crowd",

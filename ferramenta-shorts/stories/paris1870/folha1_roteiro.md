@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: O Cardápio do Zoológico
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 125 palavras (~43 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 132 palavras (~46 s)
 
-## Cena b0  (~5.9 s)
-- Narracao: Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.
+## Cena b0  (~8.3 s)
+- Narracao: Paris já serviu elefante no jantar. Era mil oitocentos e setenta, a Prússia cercou a cidade, ninguém entrava, ninguém saía, e a comida acabou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_come (eat) @5 -> acao + som de efeito; encena: chega (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1870 | mapa: PARIS
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (PAR) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CAVALOS, CÃES, GATOS
 - Funcao na historia: desenvolvimento

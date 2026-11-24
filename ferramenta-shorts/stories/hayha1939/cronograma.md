@@ -6,7 +6,7 @@ Gerado em 24/11 03:47 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | chave | arctic | crowd | SOV, SOV, SOV, SOV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a
+b0 | chave | arctic | crowd | SOV, SOV, SOV, SOV | 48 | barn, haybale, picket_fence, scarecrow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um fazendeiro baixinho virou o soldado mais temido de uma guerra intei
 b1 | explicativa | arctic | orbit | FIN, FIN, FIN | 32 | bush, tree_oak, tree_pine | - | Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve 
 b2 | simples | arctic | close | FIN | - | - | - | Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 b3 | simples | mountain | low | FIN | - | - | - | Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
@@ -22,9 +22,9 @@ b9 | simples | interior madeira | two | SOV | - | - | - | Agora não deixe de co
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py hayha1939
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py hayha1939
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

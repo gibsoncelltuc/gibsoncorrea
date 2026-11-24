@@ -6,7 +6,7 @@ Gerado em 24/11 03:47 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | sem personagem | - | ship | - | Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma 
+b0 | simples | harbor | two | sem personagem | - | ship | - | Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo
 b1 | transicao | mountain | reveal | USA, CAN, USA | 32 | navio_vapor, airplane | - | Foram mais de trinta e quatro mil soldados americanos e canadenses, co
 b2 | chave | arctic | group | USA | 40 | canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
 b3 | chave | mountain | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No meio do nevoeiro, os soldados desceram em silêncio, prontos para um
@@ -24,7 +24,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/16 itens) | PENDENTE | python3 pesquisar.py kiska1943
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 7) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

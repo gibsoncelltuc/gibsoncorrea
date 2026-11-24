@@ -2,32 +2,32 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paris1870/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paris1870` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ...
-- Cenario: street | luz: pordosol | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+## Cena b0 - Paris já serviu elefante no jantar. Era mil oitocentos e setenta, a Pr...
+- Cenario: interior madeira | luz: pordosol | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/marco_notredame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, prussia
+- Objetos/modelos: elephant
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, comida, jantar, prussia
 - RISCOS: nenhum
 
 ## Cena b1 - Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: dog, cat
+- Cenario: street | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous) | multidao: 8 de PAR
+- Animacao: reagir
+- Objetos/modelos: kit/marco_notredame, dog, cat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, cavalos, gatos, parisienses
 - RISCOS: nenhum
 
 ## Cena b2 - Depois, os roedores, que viraram um prato chique.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 0, expressao shock); CHF (variante 0, expressao grin)
-- Animacao: reagir | interacao: discutir
+- Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: barrel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato, roedores
 - RISCOS: nenhum
@@ -107,13 +107,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_notredame | b0, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+elephant | b0, b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_notredame | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cat | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-elephant | b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 deer | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 wolf | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -121,17 +121,17 @@ kit/balloon | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/panela | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 37% | medio 45% | aberto 12% | detalhe 6%
-- Interacoes: b0 susto, b1 avanca e o outro recua, b2 discutir, b5 tremem de frio
+- Objeto heroi: kit/panela | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 35% | medio 46% | aberto 17% | detalhe 3%
+- Interacoes: b0 susto, b2 avanca e o outro recua, b5 tremem de frio
 - RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - video com ~43 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - objeto heroi (kit/panela) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - video com ~46 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - objeto heroi kit/panela nao aparece em nenhuma cena -> CORRECAO: por kit/panela em "props" de pelo menos uma cena (ou tirar de "herois")
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paris1870  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paris1870/moodboard.jpg
 
 ## RESUMO: 4 risco(s) em aberto
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: video com ~43 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: objeto heroi (kit/panela) sem close de camera
+- geral: video com ~46 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: objeto heroi kit/panela nao aparece em nenhuma cena
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 

@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Cavalaria que Capturou uma Frota | A Cavalaria que Capturou uma Frota / Em França Holanda Den Helder Os 1795 | SEM REFERENCIA
+tema | A Cavalaria que Capturou uma Frota | A Cavalaria que Capturou uma Frota / Uma Era França Holanda Den Helder Os 1795 | SEM REFERENCIA
 lugar | Den Helder e o canal de Marsdiep, norte da Holanda: mar congelado, navios de gue | Den Helder e o canal de Marsdiep norte da Holanda / Den Helder e o canal de Marsdiep norte da Holanda 1795 | SEM REFERENCIA
 lugar | França | França 1795 / França landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1795 | 1795 fashion clothing / 18th century clothing painting | SEM REFERENCIA

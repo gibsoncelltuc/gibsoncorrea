@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Morte Branca | A Morte Branca / Inverno União Soviética Finlândia Os Um Simo Häyhä 1939 | SEM REFERENCIA
+tema | A Morte Branca | A Morte Branca / Um Era União Soviética Finlândia Os Um Simo Häyhä 1939 | SEM REFERENCIA
 lugar | Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, ter | Front de Kollaa Carelia / Front de Kollaa Carelia Finlandia 1939 | SEM REFERENCIA
 lugar | Finlândia | Finlândia 1939 / Finlândia landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1939 | 1939 fashion clothing / 1939 street photograph | SEM REFERENCIA
@@ -27,7 +27,6 @@ objeto | fogueira | fogueira / fogueira 1939 | SEM REFERENCIA
 objeto | neve na boca | neve na boca / neve na boca 1939 | SEM REFERENCIA
 heroi | campfire | fuzil de mira de ferro / A Morte Branca | SEM REFERENCIA
 epoca | soldado da epoca | soldier uniform 1939 / soldier uniform | SEM REFERENCIA
-epoca | exercito da epoca | army 1939 / army | SEM REFERENCIA
 mecanismo | Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve | soldados finlandeses poucos conheciam floresta chegava quare / diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

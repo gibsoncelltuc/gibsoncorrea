@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: A Cavalaria que Capturou uma Frota
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 10 cenas, 146 palavras (~50 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 10 cenas, 158 palavras (~54 s)
 
-## Cena b0  (~5.9 s)
-- Narracao: Em mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
+## Cena b0  (~10.0 s)
+- Narracao: Uma frota de navios de guerra foi capturada por soldados a cavalo. Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: absurdo -> ring + som de alerta
