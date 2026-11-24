@@ -80,6 +80,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smug, segura paper; FAN na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/tequila_bolt: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b9: "Uma piada do dia da mentira que terminou numa prateleira de verdade."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

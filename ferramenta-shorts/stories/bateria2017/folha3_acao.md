@@ -32,9 +32,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | calcularam (13.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | perder (14.4s) | EFEITO: dust | poeira + som | OK |
-| 3 | perder (14.4s) | ACAO: perde | mao na testa | OK |
+| 1 | calcularam (11.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | perder (14.1s) | EFEITO: dust | poeira + som | OK |
+| 3 | perder (14.1s) | ACAO: perde | mao na testa | OK |
 | 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | PLACA | 50 MILHÕES | OK |
 <!-- FISICA -->
@@ -43,7 +43,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: pensa na palavra calcularam (11.9s): executa: mao no queixo + brilho de ideia
 - EFEITO: dust na palavra perder (14.1s): executa: poeira + som
 - ACAO: perde na palavra perder (14.1s): executa: mao na testa
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -73,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

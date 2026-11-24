@@ -42,9 +42,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano de multidao
+- CAMERA: plano de multidao; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: JOR no centro, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: sting@40
 
@@ -62,9 +62,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: revelacao (camera sobe e abre)
+- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: JOR no centro, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b9: "Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas."
 - LOCAL: loc_montanha; hora: noite

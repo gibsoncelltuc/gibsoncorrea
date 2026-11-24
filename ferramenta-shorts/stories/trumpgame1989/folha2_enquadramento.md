@@ -45,7 +45,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
-- PERSONAGENS: EXE (empresario) na esquerda, expressao sad; POV no centro, expressao bored; POV na direita, expressao suspicious; multidao de 16 (POV) ATRAS dos principais; acao: batalha
+- PERSONAGENS: EXE (empresario) na esquerda, expressao sad; POV no centro, expressao bored; POV na direita, expressao suspicious; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30

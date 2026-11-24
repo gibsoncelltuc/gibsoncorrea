@@ -20,9 +20,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador."
 - LOCAL: loja / taverna; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)
 - PERSONAGENS: CIM (cientista) na esquerda, expressao stern, segura paper; MUS na direita, expressao suspicious; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/chess_pc: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b3: "O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar Pong com um joystick."
 - LOCAL: loja / taverna; hora: day
@@ -51,7 +51,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b6: "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa."
 - LOCAL: loc_cidade; hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao shock; POV no centro, expressao surprised; MUS na direita, expressao grin; multidao de 14 (POV) ATRAS dos principais; acao: batalha
+- PERSONAGENS: POV na esquerda, expressao shock; POV no centro, expressao surprised; MUS na direita, expressao grin; multidao de 14 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/monkey_pong: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30

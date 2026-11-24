@@ -46,14 +46,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rachou (20.0s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 1 | rachou (18.6s) | ACAO: quebra | quebra + estouro + tremor | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: quebra na palavra rachou (18.6s): executa: quebra + estouro + tremor
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 - multidao de 14: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -63,8 +63,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rachou (27.0s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 2 | brincou (27.8s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 1 | rachou (26.3s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 2 | brincou (27.0s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
@@ -72,7 +72,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: quebra na palavra rachou (26.3s): executa: quebra + estouro + tremor
 - ACAO: x_ri na palavra brincou (27.0s): executa: ri de bracos para cima + brilho
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 

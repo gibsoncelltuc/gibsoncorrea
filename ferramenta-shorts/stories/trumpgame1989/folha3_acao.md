@@ -16,15 +16,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | PLACA | 1989 | OK |
 <!-- FISICA -->
 
-## Cena b1 - 4.8s a 10.4s - 16 palavras - plano crowd
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dinheiro (4.0s): executa: estrelinhas + som
+- ACAO: paga na palavra dinheiro (4.0s): executa: estende a mao com moedas + brilho
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.2s a 9.5s - 16 palavras - plano crowd
 > "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
@@ -75,12 +85,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperava (29.6s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | vender (30.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vender (30.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | vendeu (32.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | vendeu (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | esperava (29.1s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | vender (29.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | vender (29.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | vendeu (31.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | vendeu (31.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 6 | - | PLACA | 800 MIL | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_espera na palavra esperava (29.1s): executa: espera de bracos cruzados
@@ -88,7 +99,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: negocio na palavra vender (29.3s): executa: moeda girando (compra/venda)
 - EFEITO: stars na palavra vendeu (31.8s): executa: estrelinhas + som
 - ACAO: negocio na palavra vendeu (31.8s): executa: moeda girando (compra/venda)
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 16: parada, reagindo (bored), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -112,7 +122,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (38.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (38.3s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOLTOU | OK |
@@ -120,7 +130,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra voltou (38.3s): executa: entra andando pela lateral
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais

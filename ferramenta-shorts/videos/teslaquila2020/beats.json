@@ -481,8 +481,8 @@
     ],
     [
      "kit/phone",
-     0.0,
-     -0.8,
+     3.6,
+     -2.0,
      0.9,
      {
       "fixo": true
@@ -501,15 +501,21 @@
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
+   "_susp_tela": true,
+   "_susp_ok": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_susp_tela": true,
-   "_susp_ok": true
+   "d1": 11.5
   },
   {
    "shot": "two",

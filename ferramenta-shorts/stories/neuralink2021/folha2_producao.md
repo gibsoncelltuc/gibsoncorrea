@@ -61,9 +61,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loja / taverna; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)
 - PERSONAGENS: CIM (cientista) na esquerda, expressao stern, segura paper; MUS na direita, expressao suspicious; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/chess_pc: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (8.3-10.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
   - take 2 (10.0-11.7 s): mesmo angulo
@@ -156,12 +156,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao shock; POV no centro, expressao surprised; MUS na direita, expressao grin; multidao de 14 (POV) ATRAS dos principais; acao: batalha
+- PERSONAGENS: POV na esquerda, expressao shock; POV no centro, expressao surprised; MUS na direita, expressao grin; multidao de 14 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/monkey_pong: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TEXTO NA TELA: "MENTE" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (5.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (30.5-32.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (32.4-34.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (34.3-36.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b7 - Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o comp...

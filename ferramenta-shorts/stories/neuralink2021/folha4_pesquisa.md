@@ -27,8 +27,8 @@ objeto | joystick | joystick / joystick 2021 | SEM REFERENCIA
 objeto | canudo de metal com vitamina de banana | canudo de metal com vitamina de banana / canudo de metal com vitamina de banana 2021 | SEM REFERENCIA
 objeto | chip N1 (moeda pequena) | chip N1 / chip N1 2021 | SEM REFERENCIA
 objeto | computador com xadrez | computador com xadrez / computador com xadrez 2021 | SEM REFERENCIA
-heroi | monkey pong | tela com Pong / O Macaco que Jogou Videogame com a Mente | SEM REFERENCIA
-heroi | chess pc | chess pc | SEM REFERENCIA
+heroi | monkey pong | tela com Pong / O Macaco que Jogou Videogame com a Mente | Mae Sai Tham Pla P1110520.JPG (referencias/neuralink2021/prints/monkey_pong_cb323c.jpg)
+heroi | chess pc | chess pc | DGT Pi 3000.jpg (referencias/neuralink2021/prints/chess_pc_6e0cdb.jpg); PCjr.twinSCSI.jpg (referencias/neuralink2021/prints/chess_pc_313489.jpg); Scidvspc1.png (referencias/neuralink2021/prints/chess_pc_83099c.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)

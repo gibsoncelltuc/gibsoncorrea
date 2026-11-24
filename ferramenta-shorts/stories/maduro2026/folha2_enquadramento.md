@@ -64,7 +64,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
-- PERSONAGENS: POV na esquerda, expressao shock; POV no centro, expressao surprised; POV na direita, expressao nervous; multidao de 18 (POV) ATRAS dos principais; acao: batalha
+- PERSONAGENS: POV na esquerda, expressao shock; POV no centro, expressao surprised; POV na direita, expressao nervous; multidao de 18 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30

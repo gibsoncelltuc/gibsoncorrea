@@ -30,7 +30,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
@@ -97,17 +97,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | abriu (35.2s) | ACAO: x_abre | empurra a porta | OK |
+| 1 | abriu (32.5s) | ACAO: x_abre | empurra a porta | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | MENTE | OK |
+<!-- FISICA -->
 
-## Cena b7 - 38.5s a 44.1s - 16 palavras - plano orbit
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_abre na palavra abriu (32.5s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 14: parada, reagindo (surprised), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b7 - 36.4s a 42.5s - 16 palavras - plano orbit
 > "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ajudar (40.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | pensando (44.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | ajudar (39.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | pensando (42.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
@@ -115,7 +123,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_entrega na palavra ajudar (39.2s): executa: estende a mao entregando
 - ACAO: pensa na palavra pensando (42.5s): executa: mao no queixo + brilho de ideia
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
