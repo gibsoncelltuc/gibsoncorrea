@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 11 palavras - plano two
@@ -153,7 +153,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | caíram (38.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 4 | - | PLACA | 106 → 2,4 | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra caíram (38.1s): executa: poeira + som

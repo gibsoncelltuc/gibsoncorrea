@@ -62,11 +62,11 @@
   {
    "camera": "reveal",
    "personagens": [
-    "POV",
-    "POV"
+    "MUS"
    ],
    "multidao": 6,
    "objetos": [
+    "kit/phone",
     "kit/roadster"
    ],
    "palavras": 17,

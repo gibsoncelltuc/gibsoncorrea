@@ -144,7 +144,7 @@
    "d1": 20.0
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "ELE:0:grin",
     "POV:0:suspicious"
@@ -177,7 +177,15 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ELE",
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
    "shot": "two",
@@ -203,7 +211,8 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral."
+   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.",
+   "text": "312 VOTOS"
   },
   {
    "shot": "wide",
@@ -214,7 +223,12 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 0
+    "n": 14,
+    "outfits": [
+     "REP"
+    ],
+    "march": false,
+    "expr": "laugh"
    },
    "props": [
     [
@@ -235,7 +249,7 @@
     "ding@20",
     "ding@60"
    ],
-   "text": "312 VOTOS",
+   "text": "VITÓRIA",
    "titulo": true,
    "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
    "set": "hall",

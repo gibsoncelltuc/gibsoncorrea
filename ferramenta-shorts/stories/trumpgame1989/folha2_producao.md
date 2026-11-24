@@ -123,12 +123,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos m...
-- Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): EXE (variante 0, expressao sad); POV (variante 0, expressao bored); POV (variante 1, expressao suspicious) | multidao: 30 de POV
-- Animacao: encena
-- Objetos/modelos: kit/marco_liberdade
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): EXE (variante 0, expressao sad); EXE (variante 1, expressao nervous) | multidao: 0 de 
+- Animacao: conversar | interacao: susto
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, jogos
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -148,10 +148,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): TRU (variante 0, expressao grin); EXE (variante 0, expressao surprised)
-- Animacao: conversar | interacao: entregar
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): TRU (variante 0, expressao grin); EXE (variante 0, expressao surprised) | multidao: 6 de POV
+- Animacao: -
 - Objetos/modelos: kit/boardgame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, programa
 - RISCOS: nenhum
@@ -173,7 +173,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 18 de POV
+- Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras
@@ -230,12 +230,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/boardgame | b0, b2, b3, b4, b6, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_liberdade | b0, b1, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/boardgame | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 25% | medio 52% | aberto 17% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b6 entregar
+- Objeto heroi: kit/boardgame | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 25% | medio 54% | aberto 17% | detalhe 4%
+- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 susto
 - RISCOS GERAIS: 
   - FOLHA 4: 8 item(ns) sem referencia visual: O Jogo de Tabuleiro do Trump, Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas, Donald Trump (terno azul, gravata vermelha, anos -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 

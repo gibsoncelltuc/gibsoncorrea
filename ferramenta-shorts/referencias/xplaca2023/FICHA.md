@@ -7,7 +7,7 @@
 - Roupas: {'MUS': 'camiseta preta', 'OPE': 'capacete amarelo e colete laranja', 'OPE2': 'capacete branco e colete', 'FIS': 'camisa social com cracha da prefeitura'}
 - Cenario real: fachada de predio antigo de Sao Francisco com letras TWITTER e passaro azul, guindaste, depois um X luminoso branco piscando no telhado a noite
 - Objetos: ['placa com letras', 'passaro azul', 'X luminoso', 'guindaste']
-- Cenarios usados no video: interior loja, interior pedra, loc_cidade, loc_patio
+- Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_cidade, loc_patio
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

@@ -151,12 +151,11 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
-    "AST",
     "AST"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/feather",
     "tools/hammer"

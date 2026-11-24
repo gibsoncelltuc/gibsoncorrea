@@ -8,7 +8,7 @@ b2 | two | -  | - | encena: chega (point) @1 (acao + som de efeito); encena: x_e
 b3 | group | -  | - | encena: sai @4 (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
 b5 | two | -  | objeto na mao | encena: x_planta (hammer) @1 (acao + som de efeito); encena: fala (point) @7 (acao + som de efeito) | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | encena: chega (point) @4 (acao + som de efeito) | -
+b6 | orbit | -  | batalha aberta com tiros, tropa, placa: 3 : 1 | encena: chega (point) @4 (acao + som de efeito) | -
 b7 | two | -  | interior | descobriu (ring + som de alerta); encena: examina (think) @1 (acao + som de efeito) | -
 b8 | group | -  | interior, objeto na mao | encena: x_fone (lift) @0 (acao + som de efeito) | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: GENÉTICA | encena: olha (point) @13 (acao + som de efeito) | -

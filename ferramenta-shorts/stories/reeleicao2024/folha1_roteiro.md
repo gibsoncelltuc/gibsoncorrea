@@ -44,7 +44,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino; encena: vence (up) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
-- Texto na tela: -
+- Texto na tela: 312 VOTOS
 - Funcao na historia: VIRADA
 
 ## Cena b5  (~4.5 s)
@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito; encena: escala (lift) @7 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito; encena: vence (up) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
-- Texto na tela: 312 VOTOS
+- Texto na tela: VITÓRIA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.5 s)

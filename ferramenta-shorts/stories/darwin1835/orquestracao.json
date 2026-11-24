@@ -36,6 +36,7 @@
    ],
    "multidao": 8,
    "objetos": [
+    "kit/navio_vela",
     "navio em movimento",
     "navios de guerra ao fundo, no tamanho real"
    ],
@@ -137,7 +138,7 @@
     "DAR",
     "GOU"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/finch",
     "kit/finch_long",

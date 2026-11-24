@@ -7,7 +7,7 @@
 - Roupas: {'TRU': 'terno azul dos anos 80 e gravata vermelha', 'EXE': 'terno cinza com ombreiras', 'PAI': 'sueter dos anos 80', 'FIL': 'camiseta colorida', 'POV': 'roupa casual'}
 - Cenario real: escritorio luxuoso com vista de Nova York, loja de brinquedos com prateleiras, sala de casa com mesa e o tabuleiro
 - Objetos: ['caixa do jogo Trump: The Game', 'notas de dinheiro com o rosto de Trump', 'tabuleiro']
-- Cenarios usados no video: interior loja, interior madeira, loc_cidade, loc_pista
+- Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_cidade, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

@@ -10,10 +10,10 @@ b2 | loc_montanha | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/pe
 b3 | loc_montanha | group | 2 | conversar, INTERAGEM: susto | kit/pea_yellow | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
 b5 | loc_montanha | two | 2 | encena, INTERAGEM: insiste | kit/pea_yellow, kit/pea_green | paper, shovel | -
-b6 | loc_montanha | orbit | 12 | reagir, batalha | kit/pea_yellow, kit/pea_green | - | -
+b6 | loc_montanha | orbit | 2 | reagir, batalha | kit/pea_yellow, kit/pea_green | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b8 | interior madeira | group | 2 | conversar, INTERAGEM: vai ate o outro | - | book | -
-b9 | loc_deserto | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/pea_green, kit/pea_yellow | - | -
+b9 | loc_deserto | group | 3 | comemorar, INTERAGEM: pular, batalha | kit/pea_green, kit/pea_yellow | - | -
 b10 | loc_deserto | two | 1 | conversar | kit/pea_green | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 

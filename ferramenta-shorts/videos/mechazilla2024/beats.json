@@ -274,7 +274,9 @@
    "cz": -2.0,
    "h": 3.3,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_patio",
+   "text": "MECHAZILLA"
   },
   {
    "shot": "wide",
@@ -341,7 +343,9 @@
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_patio",
+   "explica": false
   },
   {
    "shot": "wide",
@@ -456,7 +460,10 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "set": "loc_patio",
+   "impact": true,
+   "text": "PEGOU!"
   },
   {
    "shot": "wide",
@@ -488,9 +495,9 @@
     "ding@20",
     "ding@60"
    ],
-   "text": "PEGOU!",
+   "text": "PRIMEIRA VEZ",
    "titulo": true,
-   "say": "Os engenheiros comemoraram aos gritos: era a primeira vez na história.",
+   "say": "Os engenheiros comemoraram: era a primeira vez na história.",
    "objetos": false,
    "detalhe": false,
    "fachada": false,

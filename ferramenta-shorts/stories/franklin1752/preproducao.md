@@ -10,7 +10,7 @@ b2 | interior madeira | group | 3 | conversar, INTERAGEM: aproxima-se | - | - | 
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
 b4 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/kite, kit/key | - | -
 b5 | countryside | close | 1 | reagir | kit/kite, kit/key | - | -
-b6 | countryside | orbit | 10 | reagir, batalha | kit/key, kit/kite | - | -
+b6 | countryside | orbit | 2 | reagir, batalha | kit/key, kit/kite | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: cochichar | kit/kite | - | -
 b8 | street | group | 1 | comemorar, batalha | kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b9 | interior loja | close | 1 | conversar | kit/key | - | -

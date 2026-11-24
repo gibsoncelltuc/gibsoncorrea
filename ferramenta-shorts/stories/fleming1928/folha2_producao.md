@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MED (variante 0, expressao neutral); MED (variante 1, expressao smile) | multidao: 8 de MED/POV
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_bigben
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -63,12 +63,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, em volta do mofo, as bactérias tinham sumido.
-- Cenario: hall | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FLE (variante 0, expressao shock); COL (variante 0, expressao surprised) | multidao: 10 de MED/COL
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/petri
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): FLE (variante 0, expressao shock); COL (variante 0, expressao surprised) | multidao: 0 de 
+- Animacao: reagir | interacao: o outro se aproxima
+- Objetos/modelos: kit/petri, kit/gosma
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bacterias, mofo
 - RISCOS: nenhum
 
@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.
 - Cenario: hall | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FLE (variante 0, expressao laugh); COL (variante 0, expressao laugh) | multidao: 14 de MED/COL/POV
-- Animacao: comemorar | interacao: o outro se aproxima | grande momento (efeito + som, sem tiro)
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nobel
 - RISCOS: nenhum
@@ -129,12 +129,12 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/marco_bigben | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/petri | b0, b4, b5, b6, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/gosma | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/gosma | b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 20% | medio 68% | aberto 8% | detalhe 3%
-- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b8 pular, b9 o outro se aproxima
+- Objeto heroi: kit/petri | grandes momentos: b1, b9 | planos abertos: 2 | mistura: close 27% | medio 62% | aberto 6% | detalhe 5%
+- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b6 o outro se aproxima, b8 pular
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py fleming1928  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/fleming1928/moodboard.jpg
 

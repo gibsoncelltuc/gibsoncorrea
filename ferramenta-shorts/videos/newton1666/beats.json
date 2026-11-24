@@ -111,13 +111,7 @@
    ],
    "impact": true,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "LAV",
-     "AMI"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [
@@ -143,7 +137,8 @@
    "sfx": [
     "thump@40",
     "ding@60"
-   ]
+   ],
+   "_susp_ok": true
   },
   {
    "say": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",

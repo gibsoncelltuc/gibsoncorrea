@@ -310,21 +310,15 @@
   },
   {
    "say": "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.",
-   "shot": "crowd",
+   "shot": "two",
    "set": "arctic",
    "who": [
-    "AST:0:laugh",
-    "AST:1:shock"
+    "AST:0:smile"
    ],
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "AST"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [

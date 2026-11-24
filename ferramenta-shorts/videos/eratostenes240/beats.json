@@ -336,14 +336,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "BIB",
-     "POV",
-     "CAM"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [

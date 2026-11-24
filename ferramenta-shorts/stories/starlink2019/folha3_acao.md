@@ -12,8 +12,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | cruzou (0.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 3 MINUTOS | OK |
-<!-- FISICA -->
+| 4 | - | PLACA | OVNI? | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra cruzou (0.7s): executa: entra andando pela lateral

@@ -10,7 +10,7 @@ b2 | loc_deserto | two | 2 | conversar, INTERAGEM: insiste | kit/well, nature/tr
 b3 | loc_deserto | crowd | 14 | batalha | kit/well, nature/tree_palm | - | -
 b4 | loc_montanha | wide | 1 | parados (so fala e pisca) | kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
 b5 | loc_montanha | two | 1 | conversar | kit/globe, nature/tree_palm | - | -
-b6 | loc_campo | orbit | 12 | reagir, batalha | kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
+b6 | loc_campo | orbit | 2 | reagir, batalha | kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
 b7 | loc_campo | track | 2 | encena, andando | kit/stick, nature/tree_palm, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b9 | loc_montanha | two | 1 | comemorar | kit/stick, kit/well, nature/tree_palm, tools/bucket, kit/starlink_sat | - | -

@@ -1,13 +1,13 @@
 # CRONOGRAMA - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Gerado em 24/11 23:03 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior pedra | two | BUK | - | phone | - | Um presidente escreveu no próprio perfil que era um ditador.
-b1 | chave | loc_cidade | crowd | BUK | 30 | apartment, house_two, volcano, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes
+b1 | chave | loc_cidade | crowd | POV, POV | 30 | apartment, house_two, volcano, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes
 b2 | simples | interior pedra | two | BUK | - | phone | - | Primeiro, ele escreveu só uma palavra no perfil: ditador.
 b3 | chave | interior loja | group | BUK, POV, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguns dias depois, trocou por uma frase mais longa: o ditador mais le
 b4 | simples | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a notícia se espalhou pelo mundo.

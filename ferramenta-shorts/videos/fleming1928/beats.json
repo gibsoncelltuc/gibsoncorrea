@@ -193,22 +193,15 @@
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
-   "shot": "orbit",
-   "set": "hall",
+   "shot": "close",
    "who": [
     "FLE:0:shock",
     "COL:0:surprised"
    ],
-   "impact": true,
+   "impact": false,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "MED",
-     "COL"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "fx": [
     "ring@40",
@@ -217,7 +210,31 @@
    "sfx": [
     "ding@40",
     "sting@60"
-   ]
+   ],
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/petri",
+     0.0,
+     -0.6,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     0.0,
+     -0.6,
+     0.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "text": "BACTÉRIAS SUMIRAM",
+   "explica": false
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",

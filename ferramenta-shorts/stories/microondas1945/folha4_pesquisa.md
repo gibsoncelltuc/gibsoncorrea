@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1945 | Lugar: Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magnetrons | Quando: cerca de 1945, dia
 - HEROIS (objeto): kit/microwave
 - HEROIS (personagens): SPE, ENG
-- Cenarios: hall, interior loja, interior madeira, interior pedra, loc_campo, street
+- Cenarios: interior loja, interior madeira, interior pedra, loc_campo, street
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

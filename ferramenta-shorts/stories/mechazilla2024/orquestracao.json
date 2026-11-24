@@ -102,25 +102,32 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "ENA"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/tower",
     "kit/tower_catch"
    ],
    "palavras": 12,
    "cena": "b4",
    "frase": "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_patio"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "ENG"
    ],
@@ -131,15 +138,9 @@
    "palavras": 14,
    "cena": "b5",
    "frase": "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },
@@ -175,25 +176,6 @@
    "palavras": 15,
    "cena": "b7",
    "frase": "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_patio"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "ENG"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tower",
-    "kit/tower_catch"
-   ],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "Os engenheiros comemoraram aos gritos: era a primeira vez na história.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -203,6 +185,26 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENG",
+    "ENG"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/tower",
+    "kit/tower_catch"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Os engenheiros comemoraram: era a primeira vez na história.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },

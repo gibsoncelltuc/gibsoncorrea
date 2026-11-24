@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Gerado em 24/11 23:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | interior madeira | two | MED, POV | - | - | - | Na época, quem e
 b3 | simples | interior madeira | group | PAS, MED | - | syringe | - | Pasteur tinha criado uma vacina e testado só em animais, nunca em uma 
 b4 | simples | interior madeira | close | PAS | - | - | - | Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um
 b5 | simples | interior loja | close | PAS | - | - | - | Pasteur não era médico e tinha medo, mas decidiu tentar.
-b6 | chave | hall | orbit | PAS, MED | 10 | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca
+b6 | chave | hall | orbit | PAS, MED | - | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca
 b7 | simples | interior madeira | track | MAE, PAS | - | - | - | Joseph sobreviveu, e a notícia correu o mundo.
 b8 | simples | interior loja | two | MED, POV | - | - | - | Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do l
 b9 | chave | hall | crowd | POV, MED | 14 | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vida

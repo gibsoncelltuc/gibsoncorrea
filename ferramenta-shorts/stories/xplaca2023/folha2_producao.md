@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/xplaca2023/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py xplaca2023` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma empresa trocou de nome, e a placa nova acabou investigada pela pre...
-- Cenario: loc_cidade | luz: golden | clima: limpo
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao smug)
@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): OPE2 (variante 0, expressao laugh) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: kit/phone
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fachada, letras
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -111,10 +111,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que depois instalaram um X gigante piscando no alto do prédio...
-- Cenario: loc_cidade | luz: golden | clima: limpo
+- Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 10 de POV
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_goldengate, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, predio
@@ -197,12 +197,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b9 - Moral da história: até trocar de nome precisa de licença da prefeitura...
-- Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/phone, buildings/house_two, nature/lamppost, nature/bench
+- Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): licenca, prefeitura
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -218,7 +218,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_patio | luz: golden | clima: limpo
+- Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao grin)
@@ -232,17 +232,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/phone | b0, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_goldengate | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bench | b0, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/bench | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/finch | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 10% | medio 76% | aberto 10% | detalhe 4%
+- Objeto heroi: kit/phone | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 10% | medio 78% | aberto 10% | detalhe 2%
 - Interacoes: b1 entregar, b2 o outro se aproxima, b3 insiste, b6 vai ate o outro, b7 aproxima-se, b8 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: 9 item(ns) sem referencia visual: Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco co, Elon Musk (camiseta preta), operarios com guindaste e capacete, fiscais da pre -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}

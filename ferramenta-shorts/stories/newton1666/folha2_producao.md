@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): NEW (variante 0, expressao surprised); AMI (variante 0, expressao shock) | multidao: 10 de LAV/AMI
+- Personagens principais (2): NEW (variante 0, expressao surprised); AMI (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: nature/tree_oak, kit/apple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, galho, maca

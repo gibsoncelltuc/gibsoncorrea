@@ -64,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b7 - 41.1s a 49.3s - 23 palavras - plano crowd
+## Cena b7 - 41.1s a 49.3s - 23 palavras - plano two
 > "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

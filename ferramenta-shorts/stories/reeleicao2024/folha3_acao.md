@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -38,20 +38,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
-
-## Cena b2 - 9.3s a 14.1s - 14 palavras - plano two
+## Cena b2 - 11.5s a 16.3s - 14 palavras - plano crowd
 > "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | urnas (12.3s) | ACAO: voto | poe o voto na urna | OK |
-| 2 | escolher (12.6s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | urnas (13.3s) | ACAO: voto | poe o voto na urna | OK |
+| 2 | escolher (13.7s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: voto na palavra urnas (12.3s): executa: poe o voto na urna
@@ -87,7 +81,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | venceu (22.3s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
+| 5 | - | PLACA | 312 VOTOS | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra venceu (22.3s): executa: estrelinhas + som
@@ -110,8 +104,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 8 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 9 | - | ATUACAO | comemorar | OK |
-| 10 | - | PLACA | 312 VOTOS | OK |
-<!-- FISICA -->
+| 10 | - | PLACA | VITÓRIA | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra comemoraram (28.8s): executa: estrelinhas + som
@@ -131,7 +124,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
@@ -145,7 +138,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
@@ -162,17 +155,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
-
-## Cena b9 - 47.2s a 52.3s - 15 palavras - plano wide
+## Cena b9 - 48.5s a 53.7s - 15 palavras - plano group
 > "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 47º | OK |
-<!-- FISICA -->
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | 47º | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena

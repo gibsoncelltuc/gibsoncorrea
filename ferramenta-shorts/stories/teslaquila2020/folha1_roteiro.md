@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_fone (lift) @11 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Texto na tela: TESLA FALIU? | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~4.1 s)

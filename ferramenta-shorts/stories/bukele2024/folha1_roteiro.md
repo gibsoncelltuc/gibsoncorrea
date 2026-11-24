@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: caíram -> dust + som de impacto
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 106 → 2,4
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.2 s)

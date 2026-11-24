@@ -81,7 +81,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/rocket",
     "kit/starlink_sat"
    ],
    "palavras": 13,
@@ -141,7 +140,7 @@
    "personagens": [
     "JOR"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/phone"
    ],

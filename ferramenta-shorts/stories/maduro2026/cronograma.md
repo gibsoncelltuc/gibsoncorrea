@@ -1,12 +1,12 @@
 # CRONOGRAMA - Poder e Fama EP 22 - A Operação da Madrugada
 
-Gerado em 24/11 23:03 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior loja | two | TRU | - | helicopter_air | - | Um presidente foi capturado de madrugada, dentro da própria capital, e
+b0 | simples | loc_cidade | two | SOL, MAD | - | apartment, house_two, helicopter_air, lamppost | - | Um presidente foi capturado de madrugada, dentro da própria capital, e
 b1 | simples | loc_cidade | reveal | POV, POV | 6 | - | - | Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, n
 b2 | simples | loc_pista | group | MAD | - | helicopter_air | - | Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer
 b3 | chave | loc_pista | crowd | SOL | 48 | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às duas da manhã, helicópteros levaram soldados da Força Delta direto 
@@ -14,9 +14,9 @@ b4 | explicativa | loc_estudio | two | sem personagem | - | helicopter_air | cor
 b5 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos de três horas, Maduro foi capturado e levado pa
 b6 | simples | interior loja | two | TRU, GEN | - | - | - | Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA 
 b7 | simples | loc_pista | two | AGE, MAD | - | scroll, airplane | - | Maduro foi levado de avião para Nova York, onde responde a um processo
-b8 | chave | loc_cidade | crowd | POV, POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op
-b9 | simples | loc_cidade | two | TRU | - | helicopter_air | - | A operação ganhou um nome que resume tudo: Resolução Absoluta.
-b10 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b8 | chave | loc_patio | crowd | POV, POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op
+b9 | simples | loc_patio | two | TRU | - | helicopter_air | - | A operação ganhou um nome que resume tudo: Resolução Absoluta.
+b10 | simples | loc_cidade | close | MAD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

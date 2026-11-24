@@ -119,9 +119,10 @@
     "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 12,
    "objetos": [
-    "kit/ballot_box"
+    "kit/ballot_box",
+    "kit/volcano"
    ],
    "palavras": 9,
    "cena": "b5",
@@ -147,7 +148,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "orbit",
@@ -186,7 +187,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior galpao"
   },
   {
    "camera": "wide",

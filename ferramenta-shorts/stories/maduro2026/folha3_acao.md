@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 15 palavras - plano two
@@ -10,9 +10,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | capturado (1.1s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 2026 | OK |
-<!-- FISICA -->
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 2026 | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: prende na palavra capturado (1.1s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras

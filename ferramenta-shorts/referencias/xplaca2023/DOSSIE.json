@@ -8,6 +8,7 @@
   "luz_base": "golden",
   "cenarios": [
    "interior loja",
+   "interior madeira",
    "interior pedra",
    "loc_cidade",
    "loc_patio"
@@ -15,11 +16,6 @@
   "cenarios_trocados": [
    [
     "video",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 1",
     "street",
     "loc_cidade"
    ],
@@ -42,16 +38,6 @@
     "cena 9",
     "street",
     "loc_cidade"
-   ],
-   [
-    "cena 10",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 11",
-    "harbor",
-    "loc_patio"
    ]
   ]
  },
@@ -86,6 +72,7 @@
   "kit/room_azul_shop",
   "kit/room_eua_stone",
   "kit/room_europa_shop",
+  "kit/room_rosa_wood",
   "kit/room_verde_stone",
   "mk/Bookcase_2",
   "mk/Chair_1",

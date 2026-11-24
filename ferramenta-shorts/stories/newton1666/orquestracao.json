@@ -90,7 +90,7 @@
     "NEW",
     "AMI"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/apple",
     "nature/tree_oak"

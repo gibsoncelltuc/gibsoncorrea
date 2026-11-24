@@ -122,9 +122,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao grin); POV (variante 1, expressao smile) | multidao: 6 de POV
+- Personagens principais (2): POV (variante 0, expressao grin); POV (variante 1, expressao smile) | multidao: 12 de POV
 - Animacao: encena
-- Objetos/modelos: kit/ballot_box
+- Objetos/modelos: kit/ballot_box, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eleicao, salvadorenhos, urnas
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -140,7 +140,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que o resultado impressionou: Bukele teve quase oitenta e cin...
-- Cenario: loc_pista | luz: golden | clima: limpo
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao shock, segura paper); BUK (variante 0, expressao smug)
@@ -193,7 +193,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - O motivo: os assassinatos caíram de cento e seis para dois vírgula qua...
-- Cenario: interior loja | luz: golden | clima: limpo
+- Cenario: interior galpao | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
@@ -275,7 +275,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ballot_box | b0, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/prison | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

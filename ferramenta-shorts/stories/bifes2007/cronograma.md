@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
-Gerado em 24/11 23:03 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | loc_cidade | two | TRU, VEN | - | steak | - | Um bilionário colo
 b1 | simples | interior loja | two | TRU, VEN | - | steak | - | Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loj
 b2 | chave | interior pedra | group | VEN, CLI, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os pacotes custavam de cento e noventa e nove a novecentos e noventa e
 b3 | simples | interior loja | two | VEN, CLI | - | steak, picket_fence | - | Acontece que a loja deixou de oferecer os bifes em julho, cerca de doi
-b4 | chave | loc_cidade | wide | TRU | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Uma reportagem estimou que as vendas totais nunca passaram de cinquent
+b4 | chave | loc_cidade | wide | TRU, JOR | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Uma reportagem estimou que as vendas totais nunca passaram de cinquent
 b5 | simples | interior madeira | two | TRU, VEN | - | tv | - | A marca também apareceu na QVC, um canal de televisão.
 b6 | simples | interior pedra | two | CLI, VEN | - | - | - | Segundo registros, a marca registrada foi cancelada em dois mil e cato
 b7 | simples | interior madeira | two | TRU, CLI | - | steak | - | Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Tr

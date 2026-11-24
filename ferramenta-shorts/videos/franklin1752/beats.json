@@ -166,7 +166,7 @@
   },
   {
    "say": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.",
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "FRA:0:shock",
     "FIL:0:scared"
@@ -175,13 +175,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "COM",
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "fx": [
     "ring@36",

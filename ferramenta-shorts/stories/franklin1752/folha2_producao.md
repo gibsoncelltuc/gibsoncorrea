@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: tempestade
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FRA (variante 0, expressao shock); FIL (variante 0, expressao scared) | multidao: 8 de COM/POV
+- Personagens principais (2): FRA (variante 0, expressao shock); FIL (variante 0, expressao scared) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/key, kit/kite
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chave, faisca, linha, nuvem

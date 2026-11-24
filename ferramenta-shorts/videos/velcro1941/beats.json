@@ -309,13 +309,9 @@
    "set": "street",
    "impact": true,
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   }
+    "n": 0
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",

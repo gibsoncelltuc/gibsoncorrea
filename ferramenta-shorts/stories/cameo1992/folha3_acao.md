@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 14 palavras - plano two
@@ -27,9 +27,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | O HOMEM É TRUMP | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: aproxima-se
@@ -41,10 +42,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 7 SEGUNDOS | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
@@ -70,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
@@ -84,9 +84,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
+| 1 | - | PLACA | O PREÇO DO HOTEL | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
@@ -101,7 +99,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | pediu (33.8s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 3 | - | INTERACAO | discutir | OK |
+| 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
@@ -117,8 +115,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | exibiu (39.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | exibiu (43.3s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | MAPA | CANADÁ | OK |
 <!-- FISICA -->
@@ -135,8 +133,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | discussão (43.8s) | EFEITO: puff | fumaca + som | OK |
-<!-- FISICA -->
+| 1 | discussão (48.9s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: puff na palavra discussão (43.8s): executa: fumaca + som

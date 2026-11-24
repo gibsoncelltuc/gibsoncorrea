@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MEN (variante 0, expressao shock); FRE (variante 0, expressao surprised) | multidao: 10 de FRE/POV
+- Personagens principais (2): MEN (variante 0, expressao shock); FRE (variante 0, expressao surprised) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): verde
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): CIE (variante 0, expressao laugh); CIE (variante 1, expressao grin) | multidao: 14 de CIE/POV/FRE
+- Personagens principais (3): CIE (variante 0, expressao surprised); CIE (variante 1, expressao grin); CIE (variante 2, expressao smile) | multidao: 0 de 
 - Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_green, kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientistas, morte

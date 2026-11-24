@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@40
-- Texto na tela: 3 MINUTOS
+- Texto na tela: OVNI?
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~8.3 s)

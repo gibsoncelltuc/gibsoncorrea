@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | interior pedra | two | 1 | conversar | kit/phone | - | -
-b1 | loc_cidade | crowd | 31 | encena, batalha | kit/volcano, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b1 | loc_cidade | crowd | 32 | encena, batalha | kit/volcano, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b2 | interior pedra | two | 1 | conversar | kit/phone | - | -
 b3 | interior loja | group | 3 | conversar, INTERAGEM: entregar, batalha | - | - | -
 b4 | loc_cidade | reveal | 11 | encena | kit/volcano | - | -

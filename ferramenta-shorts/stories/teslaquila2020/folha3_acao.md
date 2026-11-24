@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 20 - A Piada que Virou Tequila
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.6s - 14 palavras - plano two
@@ -27,12 +27,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | postou (8.7s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_fone na palavra postou (8.7s): executa: celular na mao + toque
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
+| 3 | - | PLACA | TESLA FALIU? | OK |
 
 ## Cena b2 - 10.0s a 14.4s - 12 palavras - plano two
 > "Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila."

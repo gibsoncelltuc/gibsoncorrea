@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): BUK (variante 0, expressao worried) | multidao: 30 de POV
+- Personagens principais (2): POV (variante 0, expressao shout); POV (variante 1, expressao angry) | multidao: 30 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/volcano, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capital, ruas

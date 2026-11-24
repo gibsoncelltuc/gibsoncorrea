@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.0s - 13 palavras - plano group
@@ -68,13 +68,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 20.9s a 25.2s - 14 palavras - plano crowd
+## Cena b4 - 20.9s a 25.2s - 14 palavras - plano orbit
 > "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | lotaram (22.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | 80 MIL | OK |
 <!-- FISICA -->
@@ -99,21 +99,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: golpe na palavra enfrentou (28.0s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
 <!-- /FISICA -->
 
-## Cena b6 - 31.4s a 36.8s - 13 palavras - plano group
+## Cena b6 - 31.4s a 36.8s - 13 palavras - plano wide
 > "Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | convidado (33.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra convidado (33.1s): braco estendido apontando para o objeto/lugar citado
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b7 - 37.0s a 41.4s - 12 palavras - plano orbit
+## Cena b7 - 37.0s a 41.4s - 12 palavras - plano wide
 > "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -121,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | venceu (39.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | venceu (39.0s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | VITÓRIA | OK |
 <!-- FISICA -->
@@ -135,7 +128,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 41.5s a 46.7s - 13 palavras - plano wide
+## Cena b8 - 41.5s a 46.7s - 13 palavras - plano two
 > "Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar careca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -143,27 +136,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | seguraram (43.4s) | ACAO: pega | levanta/segura | OK |
 | 2 | rasparam (44.3s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
 | 3 | careca (46.7s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-<!-- FISICA -->
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra seguraram (43.4s): executa: levanta/segura
-- ACAO: raspa na palavra rasparam (44.3s): executa: maquina na cabeca + cabelo voando
-- ACAO: raspa na palavra careca (46.7s): executa: maquina na cabeca + cabelo voando
-<!-- /FISICA -->
-
-## Cena b9 - 47.2s a 50.8s - 9 palavras - plano two
+## Cena b9 - 47.2s a 50.8s - 9 palavras - plano wide
 > "E sobrou para Trump: o juiz derrubou ele também."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | derrubou (50.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra derrubou (50.0s): executa: poeira + som
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b10 - 51.2s a 54.9s - 13 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre."

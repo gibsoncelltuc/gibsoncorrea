@@ -8,7 +8,7 @@ b0 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/stea
 b1 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/steak | - | -
 b2 | interior pedra | group | 3 | reagir, INTERAGEM: susto, batalha | - | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: pedir | kit/steak, nature/picket_fence | - | -
-b4 | loc_cidade | wide | 11 | reagir, batalha | - | - | -
+b4 | loc_cidade | wide | 2 | encena, batalha | - | paper | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/tv | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steak | - | -

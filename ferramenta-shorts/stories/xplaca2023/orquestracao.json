@@ -8,11 +8,6 @@
    "loc_cidade"
   ],
   [
-   "cena 1",
-   "street",
-   "loc_cidade"
-  ],
-  [
    "cena 3",
    "street",
    "loc_cidade"
@@ -31,16 +26,6 @@
    "cena 9",
    "street",
    "loc_cidade"
-  ],
-  [
-   "cena 10",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 11",
-   "harbor",
-   "loc_patio"
   ]
  ],
  "metricas": {
@@ -70,7 +55,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_patio"
   },
   {
    "camera": "two",
@@ -138,9 +123,7 @@
     "OPE2"
    ],
    "multidao": 6,
-   "objetos": [
-    "kit/phone"
-   ],
+   "objetos": [],
    "palavras": 11,
    "cena": "b4",
    "frase": "Sobraram só as letras E e R, em cinza, na fachada.",
@@ -155,7 +138,7 @@
    "personagens": [
     "MUS"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
@@ -235,10 +218,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/house_two",
-    "kit/phone",
-    "nature/bench",
-    "nature/lamppost"
+    "kit/phone"
    ],
    "palavras": 12,
    "cena": "b9",
@@ -247,7 +227,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -263,7 +243,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "interior madeira"
   }
  ]
 }

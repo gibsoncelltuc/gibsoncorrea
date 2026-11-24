@@ -232,21 +232,15 @@
    "d1": 11.5
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "who": [
     "EXE:0:sad",
-    "POV:0:bored",
-    "POV:1:suspicious"
+    "EXE:1:nervous"
    ],
    "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 16,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "bored"
+    "n": 0
    },
    "fx": [
     "ring@30"
@@ -256,7 +250,8 @@
    ],
    "text": "800 MIL",
    "titulo": true,
-   "say": "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
+   "say": "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil.",
+   "interior": "pedra"
   },
   {
    "shot": "two",
@@ -313,12 +308,7 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [
@@ -357,7 +347,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_susp_ok": true
   },
   {
    "shot": "two",

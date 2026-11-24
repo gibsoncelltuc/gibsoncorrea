@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PAS (variante 0, expressao relief); MED (variante 0, expressao surprised) | multidao: 10 de MED/POV
+- Personagens principais (2): PAS (variante 0, expressao relief); MED (variante 0, expressao surprised) | multidao: 0 de 
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino

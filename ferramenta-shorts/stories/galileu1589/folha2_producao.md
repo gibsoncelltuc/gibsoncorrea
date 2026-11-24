@@ -74,9 +74,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um ...
 - Cenario: arctic | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): AST (variante 0, expressao laugh); AST (variante 1, expressao shock) | multidao: 8 de AST
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): AST (variante 0, expressao smile) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: tools/hammer, kit/feather
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronauta, dois, martelo, pena
@@ -116,7 +116,7 @@ kit/feather | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b5, b7 | planos abertos: 4 | mistura: close 19% | medio 53% | aberto 27% | detalhe 2%
+- Objeto heroi: kit/ball | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 16% | medio 61% | aberto 22% | detalhe 2%
 - Interacoes: b2 vai ate o outro, b3 aproxima-se, b6 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py galileu1589  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/galileu1589/moodboard.jpg

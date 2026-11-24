@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
@@ -13,12 +13,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b1 - 4.4s a 10.4s - 17 palavras - plano reveal
+## Cena b1 - 4.4s a 10.4s - 17 palavras - plano crowd
 > "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | INGLATERRA | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | MAPA | INGLATERRA | OK |
 
 ## Cena b2 - 10.7s a 18.9s - 23 palavras - plano two
 > "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam."
@@ -58,13 +59,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | olhou (30.4s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 31.1s a 34.4s - 10 palavras - plano orbit
+## Cena b6 - 31.1s a 34.4s - 10 palavras - plano close
 > "Acontece que, em volta do mofo, as bactérias tinham sumido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | BACTÉRIAS SUMIRAM | OK |
 
 ## Cena b7 - 34.8s a 40.7s - 17 palavras - plano two
 > "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina."
@@ -84,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | pular | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 46.7s a 50.4s - 11 palavras - plano group
+## Cena b9 - 46.7s a 50.4s - 11 palavras - plano orbit
 > "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -92,9 +94,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ganhou (49.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (49.6s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | INTERACAO | o outro se aproxima | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
 ## Cena b10 - 50.7s a 54.1s - 10 palavras - plano close
 > "No fim, a bagunça dele valeu mais que qualquer faxina."
