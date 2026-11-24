@@ -44,3 +44,13 @@ cil((0, 0.35, 0), 0.34, 0.5, '#55653f'); caixa((0, 0.85, 0), (0.7, 0.6, 0.9), '#
 cil((0, 1.25, 0.9), 0.075, 2.6, '#3c4631', rot=(math.pi / 2 - 0.7, 0, 0)); cil((0, 1.86, 1.62), 0.1, 0.3, '#2f3827', rot=(math.pi / 2 - 0.7, 0, 0))
 caixa((0, 1.0, 0.42), (1.1, 0.8, 0.06), '#55653f', rot=(-0.25, 0, 0)); cil((0.5, 0.9, -0.2), 0.16, 0.06, '#2f3827', rot=(0, math.pi / 2, 0))
 fim(0.012)
+# ---- Cybercab (taxi-robo da Tesla, 2024+): cupe dourado de 2 lugares, rodas cobertas por calotas lisas; pesquisa do Roadster (fileira de veiculos parados) ----
+novo('cybercab')
+bola((0, 0.62, 0), 1.0, '#c9b07a', esc=(2.15, 0.5, 0.92), seg=20)                 # corpo baixo e liso, dourado fosco
+bola((-0.15, 1.02, 0), 1.0, '#1c2530', esc=(1.25, 0.42, 0.8), seg=18)             # cabine/vidro escuro em gota
+caixa((0, 0.3, 0), (3.9, 0.22, 1.7), '#8a7a52')                                   # saia
+for x in (-1.3, 1.3):
+    for sd in (-1, 1):
+        cil((x, 0.36, sd * 0.86), 0.36, 0.22, '#1b1b1f', rot=(math.pi / 2, 0, 0)); cil((x, 0.36, sd * 0.98), 0.3, 0.04, '#d9c48f', rot=(math.pi / 2, 0, 0))   # pneu + calota lisa dourada
+luz(True); caixa((2.1, 0.66, 0), (0.06, 0.05, 1.3), '#ffffff'); caixa((-2.12, 0.7, 0), (0.06, 0.05, 1.4), '#ff3b30'); luz(False)   # barra de luz dianteira e traseira
+fim(0.02)

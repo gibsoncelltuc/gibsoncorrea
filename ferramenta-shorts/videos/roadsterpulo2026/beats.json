@@ -5,7 +5,7 @@
  "ep": 25,
  "title": "O Carro que Voou de Cabeça para Baixo",
  "titulo_base": "O Carro que Voou de Cabeça para Baixo",
- "set": "outback",
+ "set": "loc_pista",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/roadster26",
@@ -54,7 +54,7 @@
     "MUS:0:grin",
     "ENA:0:surprised"
    ],
-   "say": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
+   "say": "Elon Musk prometeu um carro que voa. E, diante de convidados, o carro dele saiu do chão.",
    "props": [
     [
      "kit/roadster26",
@@ -75,7 +75,7 @@
      1.2
     ]
    ],
-   "set": "outback",
+   "set": "loc_pista",
    "hora": "noite",
    "fachada": false
   },
@@ -85,14 +85,21 @@
     "POV:1:grin"
    ],
    "shot": "reveal",
-   "say": "Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, diante de convidados.",
+   "say": "Foi em outubro de dois mil e vinte e seis, à noite, numa base de testes da SpaceX em McGregor, no Texas.",
    "mapa": "ESTADOS UNIDOS",
+   "text": "2026",
    "props": [
     [
      "kit/rampa_curva",
      6,
      -16,
      1.0
+    ],
+    [
+     "kit/telao_led",
+     -9,
+     -18,
+     1.3
     ],
     [
      "kit/torre_luz",
@@ -107,7 +114,7 @@
      1.2
     ]
    ],
-   "set": "outback",
+   "set": "loc_pista",
    "hora": "noite",
    "fachada": false
   },
@@ -128,20 +135,88 @@
    ]
   },
   {
-   "who": [
-    "ENA:0:grin:paper",
-    "ENG:0:surprised"
-   ],
-   "say": "O segredo eram propulsores da SpaceX escondidos no carro, e ventiladores embaixo que grudavam ele na pista.",
-   "interior": "galpao",
-   "props": [
-    [
-     "kit/roadster26",
-     1.6,
-     -0.8,
-     1.0
+   "say": "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo.",
+   "explica": {
+    "raiox": "escondidos",
+    "pecas": [
+     [
+      "kit/tanque_ar",
+      -0.9,
+      0.42,
+      0,
+      0.55,
+      {
+       "rz": 1.5708
+      }
+     ],
+     [
+      "kit/tanque_ar",
+      0.9,
+      0.42,
+      0,
+      0.55,
+      {
+       "rz": 1.5708
+      }
+     ]
+    ],
+    "vfx": [
+     {
+      "k": "jato",
+      "na": "sopram"
+     }
+    ],
+    "rotulos": [
+     [
+      "DEZ BOCAIS",
+      "baixo",
+      "bocais"
+     ],
+     [
+      "AR COMPRIMIDO",
+      "topo",
+      "comprimido"
+     ]
+    ],
+    "setas": [
+     [
+      "cima",
+      "EMPUXO",
+      "",
+      "baixo",
+      "capo"
+     ]
     ]
-   ]
+   }
+  },
+  {
+   "say": "E um sistema de sucção gruda o carro na pista, como uma ventosa, até de cabeça para baixo.",
+   "explica": {
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "SUCÇÃO",
+      "baixo",
+      "sucção"
+     ]
+    ],
+    "setas": [
+     [
+      "baixo",
+      "GRUDA NA PISTA",
+      "#ffc93a",
+      "gruda",
+      "topo"
+     ]
+    ],
+    "vfx": [
+     {
+      "k": "onda",
+      "na": "gruda"
+     }
+    ],
+    "angulo": "lado"
+   }
   },
   {
    "who": [
@@ -151,7 +226,7 @@
    "h": 6.0,
    "d0": 20,
    "d1": 18,
-   "say": "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "say": "Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "props": [
     [
      "kit/roadster26",
@@ -172,7 +247,7 @@
      1.2
     ]
    ],
-   "set": "outback",
+   "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
    "cx": -1.5,
@@ -214,7 +289,7 @@
      1.2
     ]
    ],
-   "set": "outback",
+   "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
    "cx": -1.5,
@@ -229,11 +304,44 @@
   },
   {
    "who": [
-    "MUS:0:laugh",
-    "ENG:0:surprised"
+    "MUS:0:laugh"
    ],
-   "say": "Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.",
+   "say": "Depois decolou de outra rampa e voou, nos propulsores, por cima de uma fileira de veículos parados.",
    "props": [
+    [
+     "kit/roadster26",
+     -4,
+     -5.0,
+     1.0
+    ],
+    [
+     "kit/cybercab",
+     3.5,
+     -9.5,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/cybercab",
+     9.0,
+     -9.5,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/cybertruck",
+     14.5,
+     -9.5,
+     1.25,
+     {
+      "fixo": true,
+      "ry": 1.5708
+     }
+    ],
     [
      "kit/torre_luz",
      -10,
@@ -243,13 +351,25 @@
     [
      "kit/torre_luz",
      11,
-     -10,
+     -12,
      1.2
     ]
    ],
-   "set": "outback",
-   "hora": "noite",
-   "fachada": false
+   "set": "loc_pista",
+   "hora": "noite"
+  },
+  {
+   "say": "Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
+   "explica": {
+    "medidor": {
+     "de": 0,
+     "para": 97,
+     "un": "km/h",
+     "titulo": "MENOS DE 1 SEGUNDO",
+     "na": "zero",
+     "dur": 0.9
+    }
+   }
   },
   {
    "who": [
@@ -257,25 +377,15 @@
     "ENA:0:bored"
    ],
    "say": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
-   "set": "street"
-  },
-  {
-   "who": [
-    "ENG:0:grin:paper",
-    "POV:0:surprised"
-   ],
-   "say": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
-   "set": "street",
+   "set": "loc_patio",
    "props": [
     [
      "kit/roadster26",
-     1.6,
-     -0.8,
+     3,
+     -5.0,
      1.0
     ]
-   ],
-   "shot": "group",
-   "detalhe": false
+   ]
   },
   {
    "who": [
@@ -285,7 +395,15 @@
    ],
    "shot": "crowd",
    "say": "O vídeo correu o mundo. Metade ficou impressionada, a outra metade desconfiada.",
-   "set": "street"
+   "set": "loc_cidade",
+   "props": [
+    [
+     "kit/telao_led",
+     0,
+     -14,
+     1.3
+    ]
+   ]
   },
   {
    "who": [
@@ -346,11 +464,27 @@
   "locacoes": [
    "loc_pista",
    "interior galpao",
-   "loc_estudio"
-  ]
+   "loc_estudio",
+   "loc_patio",
+   "loc_cidade"
+  ],
+  "buscas": {
+   "O Carro que Voou de Cabeça para Baixo": "Tesla Roadster second generation prototype",
+   "Base de testes da SpaceX em McGregor (Texas, EUA): area aberta, chao de terra e concreto; galpoes da SpaceX": "SpaceX McGregor Texas test facility",
+   "grupo de fas, imprensa e investidores convidados": "Tesla Cybertruck unveiling event crowd",
+   "ventiladores sob o carro (succao)": "fan car ground effect Brabham BT46",
+   "propulsores SpaceX soltando fumaca branca": "cold gas thruster",
+   "roupas e ruas de 2026": "Elon Musk Tesla event stage",
+   "carro da epoca": "Tesla Cybercab",
+   "Estados Unidos": "McGregor Texas"
+  }
  },
  "cinf": 1.5,
  "exp": 1.404,
  "min_momentos": 0,
- "regiao": "nenhuma"
+ "regiao": "nenhuma",
+ "ano": 2026,
+ "herois_nomes": {
+  "kit/roadster26": "Tesla Roadster prototype"
+ }
 }
