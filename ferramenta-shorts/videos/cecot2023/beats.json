@@ -110,6 +110,7 @@
    "interior": false,
    "who": [
     "GUA:0:stern",
+    "GUA:1:stern",
     "PRE:0:scared",
     "PRE:1:scared"
    ],
@@ -125,11 +126,11 @@
     ]
    ],
    "crowd": {
-    "n": 10,
+    "n": 16,
     "outfits": [
      "PRE"
     ],
-    "march": false,
+    "march": true,
     "expr": "scared"
    }
   },

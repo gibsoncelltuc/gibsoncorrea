@@ -67,11 +67,15 @@
   {
    "camera": "orbit",
    "personagens": [
-    "BUK",
-    "GUA"
+    "GUA",
+    "GUA",
+    "PRE",
+    "PRE"
    ],
    "multidao": 30,
-   "objetos": [],
+   "objetos": [
+    "kit/prison"
+   ],
    "palavras": 21,
    "cena": "b3",
    "frase": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
@@ -79,7 +83,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "crowd",

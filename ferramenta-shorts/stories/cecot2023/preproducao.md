@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_campo | two | 2 | conversar, INTERAGEM: aproxima-se | kit/prison | paper | -
 b1 | loc_campo | reveal | 8 | reagir | kit/prison | - | -
 b2 | interior galpao | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
-b3 | loc_montanha | orbit | 32 | encena | - | - | -
+b3 | loc_campo | orbit | 34 | prender | kit/prison | - | -
 b4 | loc_pista | crowd | 19 | encena, batalha | kit/prison | - | -
 b5 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b6 | loc_campo | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
