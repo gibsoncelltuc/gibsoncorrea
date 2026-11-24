@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~5.5 s)
 - Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea
 - Efeitos sonoros marcados: thump@60, creak@62
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: splash@50, burst@60
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.8 s)
 - Narracao: A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.

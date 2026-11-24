@@ -10,14 +10,14 @@ b2 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | crate, kit/cod 
 b3 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_destroier | - | -
 b4 | harbor | group | 0 | batalha | kit/navio_destroier | - | -
 b5 | harbor | low | 1 | conversar | - | - | -
-b6 | harbor | group | 0 | batalha | kit/navio_destroier | - | -
+b6 | harbor | group | 0 | comemorar | kit/navio_destroier | - | -
 b7 | harbor | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b8 | harbor | group | 2 | conversar, INTERAGEM: insiste | - | - | -
 b9 | harbor | two | 1 | conversar | crate, kit/cod | - | -
 b10 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/cod
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b4, b6
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b0, b4
 Interacoes entre personagens: b0 pular, b2 o outro se aproxima, b7 discutir, b8 insiste
 
 Cenas com personagens parados: 1 de 11

@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (0): -
-- Animacao: - | batalha encenada
+- Animacao: comemorar
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
@@ -123,7 +123,7 @@ crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b4, b6 | planos abertos: 2 | mistura: close 19% | medio 59% | aberto 21% | detalhe 1%
+- Objeto heroi: kit/cod | grandes momentos: b0, b4 | planos abertos: 2 | mistura: close 19% | medio 59% | aberto 21% | detalhe 1%
 - Interacoes: b0 pular, b2 o outro se aproxima, b7 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 

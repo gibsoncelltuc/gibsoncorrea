@@ -140,15 +140,9 @@
    "palavras": 16,
    "cena": "b6",
    "frase": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "cenario",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },

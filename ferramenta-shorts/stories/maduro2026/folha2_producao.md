@@ -141,15 +141,11 @@ vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se par
 - RISCOS GERAIS: 
   - objeto heroi (kit/helicopter_air) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
   - GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
-  - video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py maduro2026  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/maduro2026/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
 - geral: objeto heroi (kit/helicopter_air) sem close de camera
 - geral: GANCHO longo: a 1a frase tem 22 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
-- geral: video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

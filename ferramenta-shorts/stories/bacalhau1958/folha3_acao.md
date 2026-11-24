@@ -59,7 +59,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | ATUACAO | comemorar | OK |
 
 ## Cena b7 - 36.3s a 39.4s - 14 palavras - plano two
 > "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra."

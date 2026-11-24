@@ -14,12 +14,12 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Operação da Madrugada | A Operação da Madrugada / Numa Trump Caracas Venezuela Era Nicolás Maduro 2026 | SEM REFERENCIA
-lugar | Venezuela | Venezuela 2026 / Venezuela landscape | SEM REFERENCIA
-epoca | roupas e ruas de 2026 | 2026 fashion clothing / 2026 street photograph | SEM REFERENCIA
-heroi | helicopter air | helicopter air / A Operação da Madrugada | SEM REFERENCIA
-epoca | soldado da epoca | soldier uniform 2026 / soldier uniform | SEM REFERENCIA
-epoca | aviao da epoca | airplane 2026 / airplane | SEM REFERENCIA
+tema | A Operação da Madrugada | A Operação da Madrugada / Numa Trump Caracas Venezuela Era Nicolás Maduro 2026 | FRENTE DO ANTONOV AN-124 POUSADO NO SBNT.jpg (referencias/maduro2026/prints/a_opera_o_da_madrugada_f18e90.jpg); ANTONOV AN-124 POUSO NO SBNT PARADO PARA INSPEÇÃO. (referencias/maduro2026/prints/a_opera_o_da_madrugada_84ac38.jpg); ANTONOV AN-124 POUSO NO SBNT.jpg (referencias/maduro2026/prints/a_opera_o_da_madrugada_146dbc.jpg)
+lugar | Venezuela | Venezuela 2026 / Venezuela landscape | Reactions to the 2026 United States intervention i (referencias/maduro2026/prints/venezuela_158792.jpg); International reactions to the 2026 US strikes in  (referencias/maduro2026/prints/venezuela_b3ddd2.jpg); International Reaction to Venezuela Attack 5 Jan 2 (referencias/maduro2026/prints/venezuela_2d31df.jpg)
+epoca | roupas e ruas de 2026 | 2026 fashion clothing / 2026 street photograph | Fur fashion in Düsseldorf stores, October 2026 (2) (referencias/maduro2026/prints/roupas_e_ruas_de_2026_213594.jpg); Fur fashion in Düsseldorf stores, October 2026 (1a (referencias/maduro2026/prints/roupas_e_ruas_de_2026_b54bdb.jpg); Fur fashion in Düsseldorf stores, October 2026 (1c (referencias/maduro2026/prints/roupas_e_ruas_de_2026_4ad7c4.jpg)
+heroi | helicopter air | helicopter air / A Operação da Madrugada | Royal Air Force Chinook helicopter firing flares o (referencias/maduro2026/prints/helicopter_air_78efb8.jpg); RAF Search and Rescue Helicopter in the Cairngorms (referencias/maduro2026/prints/helicopter_air_cf48be.jpg); Pararescueman fast ropes out of a U.S. Air Force H (referencias/maduro2026/prints/helicopter_air_367a28.jpg)
+epoca | soldado da epoca | soldier uniform 2026 / soldier uniform | Home Again- Mongolian-Born Soldier Returns in U S  (referencias/maduro2026/prints/soldado_da_epoca_a0d52b.jpg); The American Soldier - Continental Army.jpg (referencias/maduro2026/prints/soldado_da_epoca_b99543.jpg); Yudh Abhyas 2026- U S , Indian Soldiers exchange w (referencias/maduro2026/prints/soldado_da_epoca_22dfc1.jpg)
+epoca | aviao da epoca | airplane 2026 / airplane | Red Arrows aerobatic display team of the RAF at NA (referencias/maduro2026/prints/aviao_da_epoca_5c143b.jpg); Old Place Airplane Observation Deck end April 2026 (referencias/maduro2026/prints/aviao_da_epoca_b1ce5a.jpg); Taipei Skyline from Old Place Airplane Observation (referencias/maduro2026/prints/aviao_da_epoca_a5fbd0.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

@@ -1,10 +1,6 @@
 {
  "id": "bacalhau1958",
- "falhas": [
-  "b6: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
-  "b6~1: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
-  "b6~2: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
- ],
+ "falhas": [],
  "tomadas": [
   {
    "id": "b0",
@@ -416,9 +412,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.41106719367588934,
+       "vis": 0.7211538461538461,
+       "area": 0.6633785136025225
       }
      ],
      "bloq": null,
@@ -429,9 +425,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.3557312252964427,
+       "vis": 0.7777777777777778,
+       "area": 0.6898018676461026
       }
      ],
      "bloq": null,
@@ -442,9 +438,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.16996047430830039,
+       "vis": 0.813953488372093,
+       "area": 0.7359742144297936
       }
      ],
      "bloq": null,
@@ -460,9 +456,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.16205533596837945,
+       "vis": 0.7804878048780488,
+       "area": 0.7142699326580088
       }
      ],
      "bloq": null,
@@ -473,9 +469,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.22924901185770752,
+       "vis": 0.10344827586206896,
+       "area": 0.6884353635132439
       }
      ],
      "bloq": null,
@@ -486,9 +482,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.24110671936758893,
+       "vis": 0.04918032786885246,
+       "area": 0.664518075076093
       }
      ],
      "bloq": null,
@@ -504,9 +500,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.14624505928853754,
+       "vis": 0.6756756756756757,
+       "area": 0.701647460886252
       }
      ],
      "bloq": null,
@@ -517,9 +513,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.11067193675889328,
+       "vis": 0.7142857142857143,
+       "area": 0.8116044608411701
       }
      ],
      "bloq": null,
@@ -530,9 +526,9 @@
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0,
-       "vis": 0,
-       "area": 0
+       "inq": 0.09486166007905138,
+       "vis": 0.7916666666666666,
+       "area": 0.8345510353683384
       }
      ],
      "bloq": null,
