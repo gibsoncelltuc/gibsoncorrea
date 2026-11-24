@@ -92,18 +92,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinho...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Cenario: loc_patio | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENA (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: conversar
-- Objetos/modelos: kit/tower_catch
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, engenheiros, mechazilla, pauzinhos, torre
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
+- LOCAL: loc_patio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao laugh; sem multidao; acao: conversar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.5 m de altura x 3.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -116,10 +116,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - No dia do teste, o propulsor gigante decolou com trinta e três motores...
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de 
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Animacao: encena
 - Objetos/modelos: kit/booster_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): propulsor, teste, trinta
 - RISCOS: nenhum
@@ -270,12 +270,12 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tower_mini | b0, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tower_catch | b0, b4, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b0, b1, b2, b3, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b0, b1, b2, b3, b4, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tower_mini | grandes momentos: b5, b7 | planos abertos: 6 | mistura: close 7% | medio 54% | aberto 36% | detalhe 3%
+- Objeto heroi: kit/tower_mini | grandes momentos: b4, b7 | planos abertos: 7 | mistura: close 7% | medio 46% | aberto 43% | detalhe 3%
 - Interacoes: b0 aproxima-se
 - RISCOS GERAIS: 
   - FOLHA 4: 10 item(ns) sem referencia visual: A Torre que Pegou um Foguete no Ar, Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo, Elon Musk (camiseta preta), engenheiros da  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}

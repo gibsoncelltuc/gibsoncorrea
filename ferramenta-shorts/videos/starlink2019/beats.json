@@ -83,7 +83,24 @@
    ],
    "set": "countryside",
    "fachada": false,
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/starlink_train",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -115,7 +132,7 @@
     ]
    ],
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "loc_pista",
     "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e rocket juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -132,12 +149,12 @@
      }
     ]
    },
+   "set": "loc_pista",
+   "tela": false,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "set": "loc_pista",
-   "tela": false
+   "d1": 8.0
   },
   {
    "tiros": false,
@@ -249,7 +266,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_montanha",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -260,12 +277,12 @@
      }
     ]
    },
+   "set": "loc_montanha",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_montanha"
+   "d1": 20.0
   },
   {
    "tiros": false,
@@ -289,8 +306,8 @@
    "props": [
     [
      "kit/phone",
-     0.0,
-     -0.8,
+     2.4,
+     0.2,
      0.9,
      {
       "fixo": true
@@ -298,7 +315,23 @@
     ]
    ],
    "_susp_tela": true,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -391,8 +424,8 @@
    "props": [
     [
      "kit/phone",
-     0.0,
-     -0.8,
+     2.4,
+     0.2,
      0.9,
      {
       "fixo": true
@@ -400,7 +433,23 @@
     ]
    ],
    "_susp_tela": true,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -424,7 +473,7 @@
     ]
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_montanha",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -435,12 +484,12 @@
      }
     ]
    },
+   "set": "loc_montanha",
+   "hora": "noite",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "set": "loc_montanha",
-   "hora": "noite"
+   "d1": 11.5
   }
  ],
  "exp": 1.0,

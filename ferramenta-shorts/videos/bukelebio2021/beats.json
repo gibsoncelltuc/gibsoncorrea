@@ -323,7 +323,7 @@
     [
      "kit/phone",
      0.0,
-     -0.8,
+     -1.2,
      0.9,
      {
       "fixo": true
@@ -331,7 +331,23 @@
     ]
    ],
    "_susp_tela": true,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,

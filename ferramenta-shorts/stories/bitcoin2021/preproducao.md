@@ -17,7 +17,7 @@ b9 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/bitcoin
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
-Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b5 susto, b6 discutir, b8 vai ate o outro
+Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
 
 Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

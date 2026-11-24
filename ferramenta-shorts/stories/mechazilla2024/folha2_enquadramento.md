@@ -31,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PASSOS NA TELA: -
 
 ## b4: "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos."
-- LOCAL: sala de pedra (governo/castelo); hora: day
+- LOCAL: loc_patio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao laugh; sem multidao; acao: conversar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.5 m de altura x 3.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

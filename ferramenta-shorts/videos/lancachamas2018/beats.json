@@ -54,7 +54,23 @@
      }
     ]
    ],
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a empresa de túneis de Elon Musk, lançou o produto.",
@@ -84,7 +100,23 @@
      }
     ]
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que o aparelho soltava fogo de verdade, e essa era a piada.",
@@ -95,8 +127,8 @@
    "props": [
     [
      "kit/flamethrower",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.3,
      {
       "fixo": true
@@ -104,7 +136,23 @@
     ]
    ],
    "set": "loc_deserto",
-   "impact": true
+   "impact": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "loc_deserto",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.",
@@ -134,7 +182,23 @@
      }
     ]
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/extinguisher",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.",
@@ -183,8 +247,8 @@
    "props": [
     [
      "kit/flamethrower",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.3,
      {
       "fixo": true
@@ -192,8 +256,8 @@
     ],
     [
      "kit/phone",
-     0.0,
-     -0.8,
+     3.6,
+     -2.0,
      0.9,
      {
       "fixo": true
@@ -202,7 +266,29 @@
    ],
    "set": "loc_deserto",
    "_susp_tela": true,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "loc_deserto",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Um produto que se chamava de tudo, menos do que parecia.",
@@ -223,15 +309,37 @@
     ],
     [
      "kit/extinguisher",
-     0.0,
-     -1.2,
+     3.6,
+     -2.0,
      1.2,
      {
       "fixo": true
      }
     ]
    ],
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/extinguisher",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,

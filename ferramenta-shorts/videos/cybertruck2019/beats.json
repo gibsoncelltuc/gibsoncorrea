@@ -354,8 +354,8 @@
     ],
     [
      "kit/phone",
-     0.0,
-     -0.8,
+     3.6,
+     -2.0,
      0.9,
      {
       "fixo": true
@@ -383,15 +383,21 @@
       "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
+   "_susp_tela": true,
+   "_susp_ok": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_susp_tela": true,
-   "_susp_ok": true
+   "d1": 8.0
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -412,8 +418,8 @@
     ],
     [
      "kit/phone",
-     0.0,
-     -0.8,
+     3.6,
+     -2.0,
      0.9,
      {
       "fixo": true
@@ -443,15 +449,21 @@
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
+   "_susp_tela": true,
+   "_susp_ok": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_susp_tela": true,
-   "_susp_ok": true
+   "d1": 11.5
   },
   {
    "say": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",
@@ -491,12 +503,12 @@
      }
     ]
    },
+   "text": "146 MIL RESERVAS",
+   "_susp_ok": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "text": "146 MIL RESERVAS",
-   "_susp_ok": true
+   "d1": 11.5
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -556,11 +568,11 @@
      }
     ]
    },
+   "_susp_ok": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_susp_ok": true
+   "d1": 11.5
   }
  ],
  "exp": 0.9,

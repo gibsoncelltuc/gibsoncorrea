@@ -81,10 +81,6 @@
     "march": false
    },
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -96,7 +92,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
@@ -124,8 +124,8 @@
    "props": [
     [
      "kit/bitcoin",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -136,7 +136,7 @@
    "batalha": false,
    "impact": false,
    "quadro": {
-    "local": "sala de pedra (governo/castelo)",
+    "local": "loc_cidade",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -147,12 +147,7 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "detalhe": false,
-   "_auto_vis": 3,
    "crowd": {
     "n": 10,
     "outfits": [
@@ -162,7 +157,11 @@
     "expr": "smile"
    },
    "text": "LEI APROVADA",
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
@@ -205,8 +204,8 @@
     ],
     [
      "kit/bitcoin",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -235,10 +234,6 @@
     "march": false
    },
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -257,7 +252,10 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
@@ -282,8 +280,8 @@
    "props": [
     [
      "kit/phone",
-     0.0,
-     -0.8,
+     2.4,
+     0.2,
      0.9,
      {
       "fixo": true
@@ -291,7 +289,23 @@
     ]
    ],
    "_susp_tela": true,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
@@ -383,10 +397,6 @@
    "impact": false,
    "detalhe": false,
    "vary": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -398,7 +408,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "duracao_ok": true,
