@@ -30,13 +30,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.6 s)
-- Narracao: Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A Bulgária pediu desculpas e propôs investigar juntos.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@60, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; tiros: 3 soldados caem no chao -> acao + som de efeito; atiraram -> burst + som de tiro/explosao; encena: atira @5 -> acao + som de efeito; encena: fala (point) @13 -> acao + som de efeito; encena: examina (think) @17 -> acao + som de efeito
+- Narracao: Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A Bulgária pediu desculpas e propôs investigar juntos.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: gun@60
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; atiraram -> burst + som de tiro/explosao; encena: atira @5 -> acao + som de efeito; encena: tomba @9 -> acao + som de efeito; encena: fala (point) @13 -> acao + som de efeito; encena: examina (think) @17 -> acao + som de efeito
 - Efeito visual marcado: burst@60
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~6.6 s)
 - Narracao: A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.
@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b6  (~4.5 s)
 - Narracao: Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: LIGA DAS NAÇÕES
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~7.6 s)
 - Narracao: A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.
