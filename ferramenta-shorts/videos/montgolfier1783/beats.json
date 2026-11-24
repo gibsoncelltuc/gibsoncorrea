@@ -315,7 +315,7 @@
    "detalhe": false,
    "quadro": {
     "local": "praia / palacio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/balloon",

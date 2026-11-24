@@ -46,7 +46,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão."
 - LOCAL: praia / palacio; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: REI (rei) no centro, expressao smile; sem multidao; acao: batalha
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
