@@ -34,11 +34,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sa...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao pained); TRO (variante 0, expressao pained) | multidao: 12 de POV/TRO
+- Personagens principais (4): POV (variante 0, expressao pained); TRO (variante 0, expressao pained); POV (variante 2, expressao pained); POV (variante 3, expressao shock) | multidao: 0 de 
 - Animacao: dancar | batalha encenada
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, quatrocentas
 - RISCOS: nenhum
 
@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - A cidade reformou salões e contratou músicos para manter os dançarinos...
 - Cenario: hall | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 6 de POV
-- Animacao: dancar | interacao: discutir
+- Animacao: dancar
 - Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dancarinos
 - RISCOS: nenhum
@@ -66,9 +66,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): POV (variante 2, expressao pained); POV (variante 3, expressao pained) | multidao: 30 de POV/MUS
+- Personagens principais (4): POV (variante 0, expressao pained); MUS (variante 0, expressao scared); POV (variante 2, expressao pained); POV (variante 3, expressao shock) | multidao: 0 de 
 - Animacao: dancar | batalha encenada
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, conselho, danca, medo
 - RISCOS: nenhum
 
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock)
-- Animacao: reagir | interacao: o outro se aproxima
+- Animacao: reagir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): documentos, epoca
 - RISCOS: nenhum
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao nervous); TRO (variante 0, expressao pained) | multidao: 14 de POV/TRO
+- Personagens principais (1): POV (variante 0, expressao relief) | multidao: 0 de 
 - Animacao: dancar
 - Objetos/modelos: buildings/church, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, capela, danca, dancarinos, monte, sapatos
@@ -117,15 +117,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_viena | b0, b1, b3, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b0, b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/church | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 20% | medio 54% | aberto 26% | detalhe 0%
-- Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
+- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 5 | mistura: close 20% | medio 47% | aberto 33% | detalhe 0%
+- Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b7 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

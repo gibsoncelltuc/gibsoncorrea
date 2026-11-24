@@ -3,10 +3,10 @@ defeitos procurados: cenario (casas baixas com igreja e torre do set medieval, c
 b0: OK - uma mulher comecou a dancar no meio da rua e nao conseguiu parar: a mulher de vestido rosa dancando de bracos erguidos ao lado de um homem na praca de pedras com igreja ao fundo.
 b1: OK - em julho de mil quinhentos e dezoito em Estrasburgo ela dancou uma semana: mapa com o pino de Estrasburgo e a mulher de rosto cansado na praca.
 b2: OK - em poucos dias mais de trinta pessoas dancavam incluindo o marido: grupo de dancarinos de colete em campo aberto, expressoes variadas.
-b3: OK - em agosto de cinquenta a quatrocentas pessoas dancavam com os pes sangrando: multidao grande de dancarinos com o texto 50 A 400 em campo aberto.
+b3: CORRIGIDO - em agosto de cinquenta a quatrocentas pessoas dancavam com os pes sangrando pedindo socorro: antes a multidao saia cortada na borda -> agora quatro dancarinos inteiros no campo com o texto 50 A 400.
 b4: OK - o conselho da cidade chamou os medicos que culparam o sangue quente: conselheiro de cartola e medico de chapeu escuro numa sala de pedra.
 b5: OK - a cidade reformou saloes e contratou musicos para manter os dancarinos de pe: musicos de gibao amarelo em plano aberto com a placa SALAO.
-b6: OK - deu errado, mais gente entrou na danca por medo de um castigo de Sao Vito e o conselho proibiu dancar: multidao de dancarinos na praca, expressao de dor, sem tiros.
+b6: CORRIGIDO - deu errado mais gente entrou na danca com medo de Sao Vito e o conselho proibiu dancar em publico: antes pessoas cortadas na borda -> agora quatro dancarinos inteiros na praca medieval.
 b7: OK - alguns dizem que morriam quinze por dia mas os documentos nao citam mortes: o conselheiro de cartola caido de exaustao ao lado do medico de chapeu escuro na praca.
-b8: OK - no fim os dancarinos foram levados a uma capela no alto de um monte e a danca parou: grupo de dancarinos andando em campo aberto com sapatos vermelhos nao visiveis (limite do motor).
+b8: CORRIGIDO - no fim os dancarinos foram levados a uma capela no alto de um monte e a danca parou: antes so a capela vazia -> agora a capela do monte com o texto CAPELA DO MONTE e um dancarino aliviado na frente.
 b9: OK - hoje se suspeita de histeria coletiva mas ninguem sabe ao certo: medico de oculos serio em close numa sala de madeira, sem personagens em estudio.

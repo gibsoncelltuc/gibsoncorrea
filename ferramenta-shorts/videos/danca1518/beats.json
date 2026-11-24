@@ -87,22 +87,17 @@
    "fachada": false
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "who": [
     "POV:0:pained",
-    "POV:1:pained",
-    "TRO:0:pained"
+    "TRO:0:pained",
+    "POV:2:pained",
+    "POV:3:shock"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 12,
-    "outfits": [
-     "POV",
-     "TRO"
-    ],
-    "march": false,
-    "expr": "pained"
+    "n": 0
    },
    "fx": [
     "stars@40",
@@ -116,7 +111,9 @@
    "titulo": true,
    "say": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
    "set": "loc_campo",
-   "fachada": false
+   "fachada": false,
+   "props": [],
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -141,21 +138,17 @@
    "detalhe": false
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "who": [
+    "POV:0:pained",
+    "MUS:0:scared",
     "POV:2:pained",
-    "POV:3:pained"
+    "POV:3:shock"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 12,
-    "outfits": [
-     "POV",
-     "MUS"
-    ],
-    "march": false,
-    "expr": "pained"
+    "n": 0
    },
    "fx": [
     "dust@50",
@@ -167,7 +160,9 @@
    ],
    "say": "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público.",
    "set": "medieval",
-   "fachada": false
+   "fachada": false,
+   "props": [],
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -183,32 +178,47 @@
   {
    "shot": "wide",
    "who": [
-    "POV:0:pained",
-    "POV:1:nervous",
-    "TRO:0:pained"
+    "POV:0:relief"
    ],
    "say": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
    "set": "mountain",
    "fachada": false,
-   "shot_lock": true,
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV",
-     "TRO"
-    ],
-    "march": true,
-    "expr": "pained"
+    "n": 0
    },
    "props": [
     [
      "buildings/church",
-     3,
-     -14,
-     1.3
+     0.0,
+     -21.6,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "text": "CAPELA DO MONTE"
+   "text": "CAPELA DO MONTE",
+   "detalhe": false,
+   "quadro": {
+    "local": "encosta de montanha",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -4.3, camera a 82.5 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/church",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -10.8,
+   "h": 2.5,
+   "d0": 23.0,
+   "d1": 20.0,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -256,5 +266,6 @@
    "música de gaitas e tambores": "16th century musicians bagpipe drum woodcut"
   }
  },
- "set_tematico_ok": true
+ "set_tematico_ok": true,
+ "max_wide": 4
 }

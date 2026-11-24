@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 55 acoes catalogadas, 55 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.5s - 14 palavras - plano two
@@ -60,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | avanca e o outro recua | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 28.9s a 32.7s - 13 palavras - plano group
+## Cena b5 - 28.9s a 32.7s - 13 palavras - plano wide
 > "A cidade reformou salões e contratou músicos para manter os dançarinos de pé."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -69,9 +69,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | músicos (30.8s) | ACAO: danca | danca de bracos para cima | OK |
 | 3 | dançarinos (31.9s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | dançarinos (31.9s) | ACAO: danca | danca de bracos para cima | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | dancar | OK |
-| 7 | - | PLACA | SALÃO | OK |
+| 5 | - | ATUACAO | dancar | OK |
+| 6 | - | PLACA | SALÃO | OK |
 
 ## Cena b6 - 33.7s a 39.4s - 22 palavras - plano orbit
 > "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público."
@@ -94,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morriam (41.6s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 46.0s a 52.2s - 22 palavras - plano wide
