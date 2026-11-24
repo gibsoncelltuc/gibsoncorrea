@@ -103,6 +103,9 @@ grep -q "K === 'feixe'" web/vfx.js && grep -q "asset == 'kit/searchlight' and 'v
 grep -q "fila_sessao_B.txt" boot.sh && grep -q "grep -qx \"\$id\" fila_sessao_B.txt" run_queue.sh || f "sessao pode pegar a fila de outra sessao (video duplicado)"
 grep -q "b.get('animais') is False or (b.get('montado')" mkvideo.py && grep -q "ERA_ANO < 1800" web/sets/mountain.js && grep -q "persons_out\[:1\] or list(B.get('outfits'" mkvideo.py && grep -q 'o video sairia sem EP no titulo' mkvideo.py || f "lote 24/11: animal servido como comida, castelo no morro moderno, ator X, serie sem EP"
 grep -q "sem VIRADA no meio do video" mkvideo.py && grep -q "GANCHO longo" mkvideo.py || f "roteiro sem checagem de estrutura de retencao (gancho, virada, final)"
+# ---- cena de batalha em 3 cameras + "a cavalo": codigo da cena tem que sair valido ----
+node -e "const vm=require('vm');const s=require('fs').readFileSync('stories/texel1795/spec.js','utf8').replace(/^export /mg,'').replace(/^import .*\$/mg,'');new vm.Script('(function(){'+s+'\\n})')" 2>/dev/null || f "cena de batalha a cavalo gera codigo invalido (Texel b9)"
+grep -q "and not _multi:" mkvideo.py || f "montado embrulha sequencia de cameras (erro de sintaxe)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
