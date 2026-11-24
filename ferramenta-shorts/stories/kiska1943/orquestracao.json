@@ -192,7 +192,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "USA",
     "CAN"
@@ -208,7 +208,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "harbor"
   },
   {
    "camera": "prop",
@@ -230,11 +230,10 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "OFF",
-    "USA",
-    "CAN"
+    "USA"
    ],
    "multidao": 0,
    "objetos": [
@@ -247,7 +246,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -263,7 +262,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior madeira"
   }
  ]
 }

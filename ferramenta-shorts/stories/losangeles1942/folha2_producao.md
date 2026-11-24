@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: pordosol | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 10 de SOL/POV
+- Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: conversar | interacao: cochichar | batalha encenada
 - Objetos/modelos: kit/submarino_ww2
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, submarino, vespera

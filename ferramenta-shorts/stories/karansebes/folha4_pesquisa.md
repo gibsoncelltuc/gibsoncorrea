@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Batalha de Karánsebes
 - Epoca: 1788 | Lugar: Acampamento do exercito austriaco perto de Karansebes (Caransebes), as margens do rio Timis, no Banat (hoje Romenia): campo aberto com barracas, carrocas e fogueiras | Quando: noite de 21 para 22 de setembro de 1788
-- HEROIS (objeto): kit/barrel_r, barrel
+- HEROIS (objeto): kit/barrel_r
 - HEROIS (personagens): AUT, HUS, TUR, OFF
 - Cenarios: countryside
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
@@ -30,7 +30,6 @@ objeto | lanternas | lanternas / lanternas 1788 | Caixa para Lanternas, Acervo d
 objeto | mosquetes de pederneira | mosquetes de pederneira / mosquetes de pederneira 1788 | Acciarino pietra simplified.jpg (referencias/karansebes/prints/mosquetes_de_pederneira_8f3202.jpg); Acciarino pietra simplified.jpg (referencias/karansebes/prints/mosquetes_de_pederneira_8f3202.jpg)
 objeto | canhoes de campanha | canhoes de campanha / canhoes de campanha 1788 | Brigada de cavalaria mecanizada brasileira 1972.pn (referencias/karansebes/prints/canhoes_de_campanha_3e4c3b.jpg); Solenidades. Homenagens (16243370657).jpg (referencias/karansebes/prints/canhoes_de_campanha_9efef7.jpg); Solenidades. Homenagens (16428557011).jpg (referencias/karansebes/prints/canhoes_de_campanha_ea916c.jpg)
 heroi | barrel r | barril de schnapps / A Batalha de Karánsebes | Picture showing Ottoman Forces advance to Caranseb (referencias/karansebes/prints/barrel_r_fde167.jpg); Picture showing Ottoman Forces advance to Caranseb (referencias/karansebes/prints/barrel_r_fde167.jpg)
-heroi | barrel | barrel | Rutherford Hill Wine Cave-1369.jpg (referencias/karansebes/prints/barrel_090298.jpg); Yerevan, Brandy barrels, Armenia.jpg (referencias/karansebes/prints/barrel_405e85.jpg); Barrel Rifling Borescope Keppeler 7.5x55 Swiss 200 (referencias/karansebes/prints/barrel_8a7bfc.jpg)
 epoca | soldado da epoca | soldier uniform 1788 / soldier uniform | Jean Thurel 1788 (1804), par Antoine Vestier.jpg (referencias/karansebes/prints/soldado_da_epoca_05651e.jpg); UNDEROFFISER 1761 (Danish-Norw. Army NCO) Bergenhu (referencias/karansebes/prints/soldado_da_epoca_4f71ac.jpg); UNDEROFFISER 1761 (Danish-Norw. Army NCO) Bergenhu (referencias/karansebes/prints/soldado_da_epoca_fdaf24.jpg)
 epoca | exercito da epoca | army 1788 / army | Edward Sabine Maull&Fox BNF Gallica.jpg (referencias/karansebes/prints/exercito_da_epoca_e679f7.jpg); Sir Edward Sabine, 1788–1883.png (referencias/karansebes/prints/exercito_da_epoca_f16d31.jpg); Sir Edward Sabine, 1788–1883 (cropped).png (referencias/karansebes/prints/exercito_da_epoca_cd44a9.jpg)
 

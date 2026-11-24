@@ -327,25 +327,13 @@
     "TUR:0:shock:spyglass",
     "TUR:1:neutral"
    ],
-   "props": [
-    [
-     "crate",
-     -3.6,
-     -2.2,
-     1.0
-    ],
-    [
-     "barrel",
-     3.4,
-     -1.8,
-     1.0
-    ]
-   ],
+   "props": [],
    "text": "ABANDONADO",
    "tat": 15,
    "tstyle": "gold",
    "light": "dawn",
-   "mood": "calm"
+   "mood": "calm",
+   "detalhe": false
   },
   {
    "say": "Os turcos venceram sem dar um único tiro.",

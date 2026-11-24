@@ -88,7 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | FOGO AMIGO | OK |
 
-## Cena b9 - 46.2s a 50.4s - 15 palavras - plano two
+## Cena b9 - 46.2s a 50.4s - 15 palavras - plano group
 > "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -115,7 +115,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | SÓ CACHORROS | OK |
 
-## Cena b11 - 55.2s a 58.9s - 12 palavras - plano group
+## Cena b11 - 55.2s a 58.9s - 12 palavras - plano two
 > "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

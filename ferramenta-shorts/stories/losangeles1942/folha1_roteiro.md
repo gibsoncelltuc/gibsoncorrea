@@ -23,7 +23,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b2  (~5.5 s)
 - Narracao: Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@68, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
+- Efeitos sonoros marcados: cannon@68
 - Efeito + som nas palavras-chave: encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: burst@68
 - Texto na tela: SUBMARINO JAPONÊS

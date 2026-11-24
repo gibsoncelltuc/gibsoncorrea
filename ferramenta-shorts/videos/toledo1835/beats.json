@@ -64,18 +64,25 @@
    "shot": "two",
    "who": [
     "OHI:0:stern",
-    "MIC:0:stern"
+    "MIC:0:pained"
    ],
    "text": "1835",
    "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
    "set": "countryside",
    "props": [
     [
-     "kit/canivete",
+     "kit/canivete_aberto",
      0.0,
-     1.4,
-     1.2
+     1.2,
+     3.0
     ]
+   ],
+   "fx": [
+    "burst@106",
+    "stars@110"
+   ],
+   "sfx": [
+    "sting@106"
    ]
   },
   {
@@ -266,7 +273,8 @@
    ],
    "text": "COBRE E FERRO",
    "tat": 6,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "titulo": true
   },
   {
    "shot": "close",

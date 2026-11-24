@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b1 | street | reveal | 10 | reagir | - | - | -
-b2 | harbor | group | 12 | conversar, INTERAGEM: cochichar, batalha | kit/submarino_ww2 | - | -
+b2 | harbor | group | 2 | conversar, INTERAGEM: cochichar, batalha | kit/submarino_ww2 | - | -
 b3 | harbor | low | 2 | conversar, INTERAGEM: entregar | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b4 | street | group | 6 | conversar, INTERAGEM: o outro se aproxima | kit/canhao_moderno, cannon | - | -
 b5 | harbor | group | 12 | discutir, INTERAGEM: discutir | - | - | -
