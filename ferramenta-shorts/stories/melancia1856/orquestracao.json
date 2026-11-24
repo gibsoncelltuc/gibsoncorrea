@@ -152,11 +152,11 @@
    "cenario": "street"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "VIA"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [
     "buildings/house_two",
     "nature/lamppost",
@@ -165,9 +165,15 @@
    "palavras": 16,
    "cena": "b7",
    "frase": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -189,28 +195,21 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
-    "SOL"
+    "PRE",
+    "VIA"
    ],
-   "multidao": 48,
-   "objetos": [
-    "vehicles/locomotive"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 14,
    "cena": "b9",
    "frase": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior pedra"
   },
   {
    "camera": "group",

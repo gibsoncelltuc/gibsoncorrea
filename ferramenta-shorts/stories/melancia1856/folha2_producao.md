@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): VIA (variante 0, expressao angry)
+- Personagens principais (1): VIA (variante 0, expressao angry) | multidao: 0 de VIA
 - Animacao: encena
 - Objetos/modelos: war/pistol
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, confusao, viajante
@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Os viajantes se trancaram na estação de trem, e a polícia da cidade en...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): VIA (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: discutir
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): VIA (variante 0, expressao shock) | multidao: 16 de SOL/VIA
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: vehicles/locomotive, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
 - RISCOS: nenhum
@@ -93,12 +93,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização ...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: - | batalha encenada
-- Objetos/modelos: vehicles/locomotive
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): PRE (variante 0, expressao sad, segura coin); VIA (variante 0, expressao smug)
+- Animacao: conversar | interacao: entregar
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colombia, indenizacao, panama
 - RISCOS: nenhum
 
@@ -128,7 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/melon | b0, b3, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/locomotive | b1, b2, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/locomotive | b1, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/pistol | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -137,8 +137,8 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 11% | medio 53% | aberto 34% | detalhe 2%
-- Interacoes: b0 discutir, b3 empurrar, b4 discutir, b8 susto
+- Objeto heroi: kit/melon | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 25% | detalhe 2%
+- Interacoes: b0 discutir, b3 empurrar, b4 discutir, b8 susto, b9 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

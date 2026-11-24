@@ -224,7 +224,7 @@
    "say": "O vendedor cobrou a fatia, e o viajante só riu."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "VIA:0:angry"
    ],
@@ -248,7 +248,7 @@
    "tstyle": "red",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "war/pistol",
@@ -260,9 +260,9 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 14.4,
-   "d1": 14.0,
-   "_auto_vis": 3
+   "d0": 11.4,
+   "d1": 11.0,
+   "_auto_vis": 2
   },
   {
    "shot": "group",
@@ -314,11 +314,15 @@
    "titulo": true,
    "detalhe": false,
    "crowd": {
-    "n": 0
+    "n": 16,
+    "outfits": [
+     "SOL",
+     "VIA"
+    ]
    },
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 31.4 m, altura 2.9 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 31.4 m, altura 2.9 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "vehicles/locomotive",
@@ -328,6 +332,9 @@
      }
     ]
    },
+   "batalha": true,
+   "tiros": true,
+   "impact": true,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.9,
@@ -345,47 +352,18 @@
    "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
   },
   {
-   "shot": "group",
-   "set": "harbor",
+   "shot": "two",
    "who": [
-    "SOL:0:stern"
+    "PRE:0:sad:coin",
+    "VIA:0:smug"
    ],
-   "batalha": true,
-   "crowd": {
-    "n": 0
-   },
-   "props": [
-    [
-     "vehicles/locomotive",
-     0.0,
-     -8.0,
-     1.6,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "batalha": false,
    "say": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
    "detalhe": false,
-   "fachada": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 36.2 m, altura 3.3 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/locomotive",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 3.3,
-   "d0": 44.0,
-   "d1": 42.2,
-   "_auto_vis": 3
+   "_auto_vis": 0,
+   "interior": "pedra",
+   "interacao": "entregar",
+   "tiros": false
   },
   {
    "shot": "group",
@@ -407,7 +385,7 @@
    "set": "jungle",
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/melon",
@@ -420,9 +398,8 @@
    "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "ano": 1856,

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
@@ -70,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | BRIGA | OK |
 
-## Cena b7 - 34.1s a 38.0s - 16 palavras - plano wide
+## Cena b7 - 34.1s a 38.0s - 16 palavras - plano orbit
 > "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -79,8 +79,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | entrou (37.6s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | briga (38.0s) | EFEITO: puff | fumaca + som | OK |
 | 4 | briga (38.0s) | ACAO: golpe | soco + estouro | OK |
-| 5 | - | ATUACAO | discutir | OK |
-| 6 | - | PLACA | ESTAÇÃO DE TREM | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | ATUACAO | discutir | OK |
+| 8 | - | PLACA | ESTAÇÃO DE TREM | OK |
 
 ## Cena b8 - 39.1s a 43.4s - 15 palavras - plano two
 > "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
@@ -93,13 +95,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | susto | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 44.4s a 48.1s - 14 palavras - plano orbit
+## Cena b9 - 44.4s a 48.1s - 14 palavras - plano two
 > "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 49.6s a 52.4s - 11 palavras - plano group
 > "Tudo isso por uma fatia de melancia que custava poucos centavos."

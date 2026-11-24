@@ -122,7 +122,15 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Karl_von_Frisch",
    "https://en.wikipedia.org/wiki/Waggle_dance"
-  ]
+  ],
+  "buscas": {
+   "As Abelhas que Dançam um Mapa": "waggle dance honey bee",
+   "Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim": "Wolfgangsee lake Austria",
+   "assistentes": "beekeeper bee research 1940s",
+   "colegas cientistas desconfiados": "zoologist laboratory 1940s",
+   "pratinhos de agua com acucar": "bees drinking sugar water dish",
+   "caderno de anotacoes": "scientist field notebook"
+  }
  },
  "fontes": [],
  "falta": []
