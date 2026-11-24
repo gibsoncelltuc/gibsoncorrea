@@ -173,9 +173,9 @@
    "tat": 3,
    "tstyle": "red",
    "detalhe": false,
-   "_auto_vis": 2,
-   "d0": 12.0,
-   "d1": 11.0
+   "_auto_vis": 3,
+   "d0": 15.0,
+   "d1": 14.0
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -349,13 +349,14 @@
    "props": [
     [
      "kit/dog_sit",
-     1.0,
+     0.5,
      1.0,
      1.2
     ]
    ],
    "detalhe": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "_auto_vis": 1
   }
  ],
  "heroi": "kit/dog_sit",

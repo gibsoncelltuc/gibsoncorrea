@@ -36,6 +36,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/lighthouse",
+  "buildings/shop",
   "kit/room_europa_stone",
   "kit/room_rosa_wood",
   "kit/tequila_bolt",

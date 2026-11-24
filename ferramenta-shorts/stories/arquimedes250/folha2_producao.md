@@ -72,7 +72,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, corpo, tanto
 - RISCOS: nenhum
 
-## Cena b7 - Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur...
+## Cena b7 - Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e...
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): ARQ (variante 0, expressao smile); POV (variante 0, expressao smile)
+- Animacao: conversar | interacao: cochichar
+- Objetos/modelos: kit/crown
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, ouro
+- RISCOS: nenhum
+
+## Cena b8 - Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: prop = - + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -82,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, ouro
 - RISCOS: nenhum
 
-## Cena b8 - Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr...
+## Cena b9 - Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr...
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
@@ -92,9 +102,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, lenda
 - RISCOS: nenhum
 
-## Cena b9 - No fim, dá para enganar um rei, mas não uma banheira.
+## Cena b10 - No fim, dá para enganar um rei, mas não uma banheira.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): REI (variante 0, expressao smile); OUR (variante 0, expressao sad)
 - Animacao: conversar | interacao: insiste
@@ -102,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banheira
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -117,13 +127,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bathtub | b0, b1, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/crown | b2, b4, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bathtub | b0, b1, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/crown | b2, b4, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bathtub | grandes momentos: b5, b8 | planos abertos: 2 | mistura: close 11% | medio 77% | aberto 8% | detalhe 4%
-- Interacoes: b2 discutir, b3 o outro se aproxima, b4 entregar, b6 cochichar, b7 susto, b8 vai ate o outro, b9 insiste
+- Objeto heroi: kit/bathtub | grandes momentos: b5, b9 | planos abertos: 2 | mistura: close 10% | medio 80% | aberto 7% | detalhe 4%
+- Interacoes: b2 discutir, b3 o outro se aproxima, b4 entregar, b6 cochichar, b7 cochichar, b8 susto, b9 vai ate o outro, b10 insiste
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py arquimedes250  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/arquimedes250/moodboard.jpg
 

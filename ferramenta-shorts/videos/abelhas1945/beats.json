@@ -121,7 +121,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim.",
+   "say": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia.",
    "fx": [
     "puff@30"
    ],
@@ -406,7 +406,7 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Já idoso, ele ganhou o Prêmio Nobel.",
+   "say": "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.",
    "interior": "pedra"
   },
   {

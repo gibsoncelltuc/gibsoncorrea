@@ -97,6 +97,31 @@
    "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
   },
   {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "VIA:0:neutral",
+    "VIA:1:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "VIA"
+    ],
+    "march": false
+   },
+   "mapa_at": 3,
+   "props": [
+    [
+     "vehicles/locomotive",
+     -2.5,
+     -6.5,
+     1.5
+    ]
+   ],
+   "say": "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico."
+  },
+  {
    "shot": "two",
    "who": [
     "VIA:0:grin",

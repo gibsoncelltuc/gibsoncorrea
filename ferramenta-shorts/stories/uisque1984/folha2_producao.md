@@ -82,7 +82,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
-## Cena b8 - Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
+## Cena b8 - A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entr...
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): CAN (variante 0, expressao smug); DIN (variante 0, expressao smug)
+- Animacao: conversar | interacao: cochichar
+- Objetos/modelos: kit/whisky
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brincadeira, dois, uisque
+- RISCOS: nenhum
+
+## Cena b9 - Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -92,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
 
-## Cena b9 - A guerra mais educada da história acabou sem um tiro e com muito uísqu...
+## Cena b10 - A guerra mais educada da história acabou sem um tiro e com muito uísqu...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -102,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tiro
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -117,7 +127,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/whisky | b0, b4, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/whisky | b0, b4, b6, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/helicopter | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tequila_bolt | b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -125,8 +135,8 @@ barrel | b6 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 13% | medio 69% | aberto 12% | detalhe 6%
-- Interacoes: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b8 entregar
+- Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 11% | medio 72% | aberto 11% | detalhe 6%
+- Interacoes: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b8 cochichar, b9 entregar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py uisque1984  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/uisque1984/moodboard.jpg
 

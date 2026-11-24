@@ -175,6 +175,25 @@
    "cenario": "harbor"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "CAN",
+    "DIN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/whisky"
+   ],
+   "palavras": 16,
+   "cena": "b8",
+   "frase": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
    "camera": "two",
    "personagens": [
     "PRE",
@@ -183,7 +202,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -201,7 +220,7 @@
     "kit/whisky"
    ],
    "palavras": 14,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -217,7 +236,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

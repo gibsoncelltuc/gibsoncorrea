@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a ca...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 8 de VIA
@@ -22,7 +22,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, caminho, ouro, panama
 - RISCOS: nenhum
 
-## Cena b2 - Um deles parou numa barraca, comeu uma fatia de melancia e foi embora ...
+## Cena b2 - Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacíf...
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 8 de VIA
+- Animacao: reagir
+- Objetos/modelos: vehicles/locomotive, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): istmo, navio, trem
+- RISCOS: nenhum
+
+## Cena b3 - Um deles parou numa barraca, comeu uma fatia de melancia e foi embora ...
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -32,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fatia, melancia
 - RISCOS: nenhum
 
-## Cena b3 - O vendedor cobrou a fatia, e o viajante só riu.
+## Cena b4 - O vendedor cobrou a fatia, e o viajante só riu.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -42,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fatia, vendedor, viajante
 - RISCOS: nenhum
 
-## Cena b4 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
+## Cena b5 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -52,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, confusao, viajante
 - RISCOS: nenhum
 
-## Cena b5 - Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj...
+## Cena b6 - Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj...
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -62,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga
 - RISCOS: nenhum
 
-## Cena b6 - Os viajantes se trancaram na estação de trem, e a polícia da cidade en...
+## Cena b7 - Os viajantes se trancaram na estação de trem, e a polícia da cidade en...
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -72,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
 - RISCOS: nenhum
 
-## Cena b7 - Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f...
+## Cena b8 - Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -82,8 +92,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, quinze
 - RISCOS: nenhum
 
-## Cena b8 - O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização ...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b9 - O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização ...
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry) | multidao: 20 de SOL
@@ -92,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colombia, indenizacao, panama
 - RISCOS: nenhum
 
-## Cena b9 - Tudo isso por uma fatia de melancia que custava poucos centavos.
+## Cena b10 - Tudo isso por uma fatia de melancia que custava poucos centavos.
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -102,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fatia, melancia
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -117,19 +127,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/melon | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/locomotive | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/stall | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/shop | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-war/pistol | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-locomotive | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/melon | b0, b3, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/locomotive | b1, b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stall | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/shop | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/pistol | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+locomotive | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 11% | medio 70% | aberto 13% | detalhe 7%
-- Interacoes: b0 discutir, b2 empurrar, b3 discutir, b4 empurrar, b7 susto
+- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 10% | medio 64% | aberto 20% | detalhe 6%
+- Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b8 susto
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py melancia1856  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/melancia1856/moodboard.jpg
 

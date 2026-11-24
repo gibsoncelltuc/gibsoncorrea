@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Fleming e a Penicilina | Fleming e a Penicilina / Um Era Londres Alexander Fleming Ele 1928 | SEM REFERENCIA
+tema | Fleming e a Penicilina | Fleming e a Penicilina / Um Era Londres Alexander Fleming Ele Eram 1928 | SEM REFERENCIA
 lugar | Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microsc | Hospital St Mary's Londres / Hospital St Mary's Londres 1928 | SEM REFERENCIA
 lugar | Inglaterra | Inglaterra 1928 / Inglaterra landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1928 | 1928 fashion clothing / 1928 street photograph | SEM REFERENCIA

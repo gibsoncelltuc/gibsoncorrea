@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 11 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 12 cenas, 167 palavras (~58 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.
@@ -74,7 +74,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.5 s)
+## Cena b8  (~5.5 s)
+- Narracao: A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países.
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~4.5 s)
 - Narracao: Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.8 s)
+## Cena b10  (~4.8 s)
 - Narracao: A guerra mais educada da história acabou sem um tiro e com muito uísque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

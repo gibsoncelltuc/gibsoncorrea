@@ -92,10 +92,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, testes
 - RISCOS: nenhum
 
-## Cena b9 - Já idoso, ele ganhou o Prêmio Nobel.
+## Cena b9 - Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobe...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): FRI (variante 0, expressao laugh); ASS (variante 0, expressao laugh); COL (variante 0, expressao grin) | multidao: 4 de POV
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: -
@@ -132,7 +132,7 @@ kit/bee | b0, b2, b3, b4, b5, b6, b8, b10 | pronto | conferir na folha de contat
 
 
 ## Video inteiro
-- Objeto heroi: kit/beehive | grandes momentos: b2, b8 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 10% | detalhe 5%
+- Objeto heroi: kit/beehive | grandes momentos: b2, b8 | planos abertos: 3 | mistura: close 20% | medio 66% | aberto 10% | detalhe 4%
 - Interacoes: b0 avanca e o outro recua, b4 discutir, b6 entregar, b7 o outro se aproxima, b9 pular
 - RISCOS GERAIS: 
   - video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)

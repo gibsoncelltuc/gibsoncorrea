@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -29,82 +29,91 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 13.3s a 18.5s - 15 palavras - plano group
+## Cena b3 - 13.3s a 19.6s - 18 palavras - plano group
+> "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | mexia (17.0s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
+
+## Cena b4 - 20.0s a 25.2s - 15 palavras - plano two
 > "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Mexendo (13.3s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
-| 2 | descobriram (15.6s) | EFEITO: ring | onda + som | OK |
-| 3 | descobriram (15.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | Mexendo (20.0s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
+| 2 | descobriram (22.2s) | EFEITO: ring | onda + som | OK |
+| 3 | descobriram (22.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 18.9s a 23.3s - 13 palavras - plano close
+## Cena b5 - 25.6s a 30.0s - 13 palavras - plano close
 > "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | brilhava (19.6s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 2 | olhar (21.9s) | ACAO: olha | aponta/olha | OK |
+| 1 | brilhava (26.3s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 2 | olhar (28.5s) | ACAO: olha | aponta/olha | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 23.7s a 26.7s - 9 palavras - plano two
+## Cena b6 - 30.4s a 33.3s - 9 palavras - plano two
 > "Ela carregava frascos no bolso. Ninguém sabia do perigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | carregava (24.1s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | carregava (30.7s) | ACAO: pega | levanta/segura | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 27.0s a 31.5s - 13 palavras - plano crowd
+## Cena b7 - 33.7s a 38.1s - 13 palavras - plano crowd
 > "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (27.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (27.4s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganhou (34.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (34.1s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | NOBEL | OK |
 
-## Cena b7 - 31.9s a 38.1s - 18 palavras - plano two
+## Cena b8 - 38.5s a 44.8s - 18 palavras - plano two
 > "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (38.1s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (38.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 1 | morreu (44.8s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreu (44.8s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 38.5s a 43.0s - 13 palavras - plano two
+## Cena b9 - 45.2s a 49.6s - 13 palavras - plano two
 > "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | guardados (40.7s) | ACAO: pega | levanta/segura | OK |
+| 1 | guardados (47.4s) | ACAO: pega | levanta/segura | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 43.3s a 47.4s - 12 palavras - plano low
+## Cena b10 - 50.0s a 54.1s - 12 palavras - plano low
 > "Para ler, é preciso assinar um termo e usar roupa de proteção."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ler (43.7s) | ACAO: x_le | le o papel | OK |
-| 2 | assinar (44.8s) | ACAO: escreve | escreve/assina | OK |
+| 1 | ler (50.4s) | ACAO: x_le | le o papel | OK |
+| 2 | assinar (51.5s) | ACAO: escreve | escreve/assina | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 47.8s a 50.7s - 9 palavras - plano close
+## Cena b11 - 54.4s a 57.4s - 9 palavras - plano close
 > "Ou seja: os cadernos vão continuar radioativos por séculos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 51.1s a 55.6s - 13 palavras - plano close
+## Cena b12 - 57.8s a 62.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

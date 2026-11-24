@@ -8,6 +8,7 @@
   "luz_base": "day",
   "cenarios": [
    "countryside",
+   "harbor",
    "interior loja",
    "interior madeira",
    "street"
@@ -59,7 +60,9 @@
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Workbench_Drawers"
+  "mk/Workbench_Drawers",
+  "nature/haybale",
+  "nature/tree_oak"
  ],
  "pesquisa_visual": {
   "local": "Republica Holandesa (Haarlem, Amsterda): canais, casas de tijolo com fachada escalonada, moinhos, campos de tulipas; tabernas onde se negociavam bulbos",

@@ -92,9 +92,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 6,
+   "palavras": 18,
    "cena": "b4",
-   "frase": "Por anos, ninguém viu utilidade nela.",
+   "frase": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -186,9 +186,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 10,
+   "palavras": 13,
    "cena": "b9",
-   "frase": "Então distribuíram amostras de graça, e quase todos quiseram comprar.",
+   "frase": "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -199,7 +199,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "street"
   },
   {
    "camera": "close",

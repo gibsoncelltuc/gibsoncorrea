@@ -110,9 +110,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 15,
+   "palavras": 19,
    "cena": "b2",
-   "frase": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim.",
+   "frase": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -256,9 +256,9 @@
    ],
    "multidao": 4,
    "objetos": [],
-   "palavras": 7,
+   "palavras": 19,
    "cena": "b9",
-   "frase": "Já idoso, ele ganhou o Prêmio Nobel.",
+   "frase": "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

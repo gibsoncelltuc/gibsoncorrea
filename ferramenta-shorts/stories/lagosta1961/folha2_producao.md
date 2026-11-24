@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, tensao
 - RISCOS: nenhum
 
-## Cena b6 - Marinheiros dos dois lados se encararam no mar.
+## Cena b6 - Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o ...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao nervous)
 - Animacao: discutir | interacao: susto
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caso, dois, jornais, lagosta
 - RISCOS: nenhum
 
 ## Cena b7 - Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em ...
@@ -124,13 +124,13 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b2, b5 | planos abertos: 4 | mistura: close 13% | medio 66% | aberto 19% | detalhe 2%
+- Objeto heroi: kit/lobster | grandes momentos: b2, b5 | planos abertos: 4 | mistura: close 12% | medio 69% | aberto 17% | detalhe 2%
 - Interacoes: b0 discutir, b3 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py lagosta1961  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/lagosta1961/moodboard.jpg
+  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lagosta1961 bN bM` (so essas cenas).

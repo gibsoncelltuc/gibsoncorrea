@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -42,7 +42,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | TODO MUNDO | OK |
 
-## Cena b4 - 20.7s a 24.4s - 11 palavras - plano two
+## Cena b4 - 20.7s a 25.2s - 13 palavras - plano orbit
+> "Contam que teve gente que trocou terras e casas por um único bulbo."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | trocou (22.6s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+
+## Cena b5 - 25.6s a 29.3s - 11 palavras - plano two
 > "Ninguém queria a flor. Queriam revender mais caro na semana seguinte."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -50,56 +58,56 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | reverencia | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 24.8s a 29.6s - 14 palavras - plano two
+## Cena b6 - 29.6s a 34.4s - 14 palavras - plano two
 > "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comeu (26.3s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | fortuna (29.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | fortuna (29.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | comeu (31.1s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | fortuna (34.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | fortuna (34.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 4 | - | INTERACAO | aproxima-se | OK |
 | 5 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 30.0s a 35.6s - 16 palavras - plano group
+## Cena b7 - 34.8s a 40.4s - 16 palavras - plano group
 > "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | leilão (31.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | abriu (33.0s) | ACAO: x_abre | empurra a porta | OK |
+| 1 | leilão (35.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 2 | abriu (37.8s) | ACAO: x_abre | empurra a porta | OK |
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | LEILÃO | OK |
 
-## Cena b7 - 35.9s a 41.1s - 15 palavras - plano orbit
+## Cena b8 - 40.7s a 45.9s - 15 palavras - plano crowd
 > "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vender (39.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | vender (39.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | vender (44.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | vender (44.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | discutir | OK |
 | 5 | - | PLACA | PÂNICO | OK |
 
-## Cena b8 - 41.5s a 47.8s - 18 palavras - plano two
+## Cena b9 - 46.3s a 52.6s - 18 palavras - plano two
 > "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | trocado (43.3s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | trocado (48.1s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 
-## Cena b9 - 48.1s a 50.0s - 6 palavras - plano close
+## Cena b10 - 53.0s a 54.8s - 6 palavras - plano close
 > "O marinheiro, pelo menos, almoçou bem."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | almoçou (49.6s) | ACAO: x_come | leva a comida a boca | OK |
+| 1 | almoçou (54.4s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 50.4s a 54.8s - 13 palavras - plano close
+## Cena b11 - 55.2s a 59.6s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -5,15 +5,16 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | dia limpo | placa: PERIGO | - | -
 b1 | crowd | dia limpo | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | dia limpo | interior, objeto na mao | - | -
-b3 | group | dia limpo | interior | descobriram (ring + som de alerta); encena: mistura (stir) @0 (acao + som de efeito); encena: examina (think) @6 (acao + som de efeito) | -
-b4 | close | noite  | interior | encena: brilha (point) @2 (acao + som de efeito); encena: olha (point) @8 (acao + som de efeito) | -
-b5 | two | dia limpo | interior, objeto na mao | encena: pega (lift) @1 (acao + som de efeito) | -
-b6 | crowd | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
-b7 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @17 (acao + som de efeito) | -
-b8 | two | dia limpo | interior | encena: pega (lift) @6 (acao + som de efeito) | -
-b9 | low | dia limpo | interior | encena: x_le (think) @1 (acao + som de efeito); encena: escreve (write) @4 (acao + som de efeito) | -
-b10 | close | dia limpo | - | - | -
-b11 | close | dia  | placa: COMENTE! | - | -
+b3 | group | dia limpo | interior, objeto na mao | encena: mistura (stir) @10 (acao + som de efeito) | -
+b4 | two | dia limpo | interior | descobriram (ring + som de alerta); encena: mistura (stir) @0 (acao + som de efeito); encena: examina (think) @6 (acao + som de efeito) | -
+b5 | close | noite  | interior | encena: brilha (point) @2 (acao + som de efeito); encena: olha (point) @8 (acao + som de efeito) | -
+b6 | two | dia limpo | interior, objeto na mao | encena: pega (lift) @1 (acao + som de efeito) | -
+b7 | crowd | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
+b8 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @17 (acao + som de efeito) | -
+b9 | two | dia limpo | interior | encena: pega (lift) @6 (acao + som de efeito) | -
+b10 | low | dia limpo | interior | encena: x_le (think) @1 (acao + som de efeito); encena: escreve (write) @4 (acao + som de efeito) | -
+b11 | close | dia limpo | - | - | -
+b12 | close | dia  | placa: COMENTE! | - | -
 
-Mistura de planos: close 25% | medio 66% | aberto 5% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 22% | medio 70% | aberto 5% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

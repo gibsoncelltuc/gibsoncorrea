@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 149 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 12 cenas, 162 palavras (~56 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma única flor já custou o preço de uma casa inteira.
@@ -31,23 +31,32 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~4.8 s)
 - Narracao: Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@30, ding@80
 - Efeito + som nas palavras-chave: comprando -> stars + som de sino; encena: paga (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@30, stars@80
 - Texto na tela: TODO MUNDO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~3.8 s)
+## Cena b4  (~4.5 s)
+- Narracao: Contam que teve gente que trocou terras e casas por um único bulbo.
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b5  (~3.8 s)
 - Narracao: Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.8 s)
+## Cena b6  (~4.8 s)
 - Narracao: Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -56,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.5 s)
+## Cena b7  (~5.5 s)
 - Narracao: Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -65,7 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: LEILÃO
 - Funcao na historia: VIRADA
 
-## Cena b7  (~5.2 s)
+## Cena b8  (~5.2 s)
 - Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
@@ -74,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~6.2 s)
+## Cena b9  (~6.2 s)
 - Narracao: Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,16 +92,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.1 s)
+## Cena b10  (~2.1 s)
 - Narracao: O marinheiro, pelo menos, almoçou bem.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_come (eat) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: birds
 - Efeitos sonoros marcados: -

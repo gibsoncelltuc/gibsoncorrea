@@ -2215,7 +2215,7 @@ if B.get('serie') != 'Teste':
         if len(_fim.split()) > 14: _glob.append((f'FINAL longo: a ultima frase tem {len(_fim.split())} palavras (o canal fecha com uma frase curta e ironica, ate ~12)', 'reescrever a ultima frase: curta, com a ironia/consequencia da historia'))
         if sum(1 for t_ in _sx[1:4] if re.search(r'\b(1[0-9]{3}|20[0-9]{2}|mil |dois mil)', _sn(t_))) > 2: _glob.append(('contexto arrastado: datas em 3 frases seguidas no comeco (o espectador sai antes da historia andar)', 'deixar so uma frase de contexto (data + lugar) logo depois do gancho'))
     try: _dur = json.load(open(f'stories/{ID}/work/phrases.json'))['frames30'] / 30
-    except Exception: _dur = (sum(len(b_['say'].split()) for b_ in beats) + 13) / 2.5   # 24/11: medido nos videos prontos (voz Antonio +10% ~2,5 palavras/s; +13 da chamada final). Antes /2.9 subestimava ~10 s
+    except Exception: _dur = (sum(len(b_['say'].split()) for b_ in beats) + 13) / 2.8   # 24/11: velocidade REAL medida nas vozes (2,6-2,9 palavras/s); 2,5 deixava video com 53 s   # 24/11: medido nos videos prontos (voz Antonio +10% ~2,5 palavras/s; +13 da chamada final). Antes /2.9 subestimava ~10 s
     if not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)
         _glob.append((f'video com ~{round(_dur)} s (o padrao e\' 60 s; aceito de 54 a 66, ja com a chamada final)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 54 else 'cortar frases que nao mudam a imagem') + ' ate ficar em ~60 s (com esta voz, ~150 palavras no total)'))
 # ===== v13 OBJETO FORA DE EPOCA: nada do que esta em cena pode ser de outra epoca (bloqueia o render) =====

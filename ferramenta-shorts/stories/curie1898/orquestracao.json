@@ -8,7 +8,7 @@
    "loc_campo"
   ],
   [
-   "cena 12",
+   "cena 13",
    "street",
    "loc_campo"
   ]
@@ -89,11 +89,28 @@
     "PIE"
    ],
    "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b3",
+   "frase": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
    "objetos": [
     "kit/curie_box"
    ],
    "palavras": 15,
-   "cena": "b3",
+   "cena": "b4",
    "frase": "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -111,7 +128,7 @@
     "kit/curie_box"
    ],
    "palavras": 13,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -128,7 +145,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 9,
-   "cena": "b5",
+   "cena": "b6",
    "frase": "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -148,7 +165,7 @@
     "kit/marco_eiffel"
    ],
    "palavras": 13,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -160,7 +177,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -170,13 +187,13 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 18,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -190,7 +207,7 @@
     "kit/curie_box"
    ],
    "palavras": 13,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -208,7 +225,7 @@
     "kit/curie_box"
    ],
    "palavras": 12,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -226,7 +243,7 @@
     "kit/curie_box"
    ],
    "palavras": 9,
-   "cena": "b10",
+   "cena": "b11",
    "frase": "Ou seja: os cadernos vão continuar radioativos por séculos.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -242,7 +259,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

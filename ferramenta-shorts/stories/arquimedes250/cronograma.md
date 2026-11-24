@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Gerado em 24/11 10:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 13:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,10 +13,11 @@ b3 | simples | interior pedra | group | REI, OUR | - | - | - | Será que trocou 
 b4 | simples | interior pedra | two | REI, ARQ | - | crown | - | O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.
 b5 | chave | harbor | orbit | ARQ, POV | 10 | bathtub | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, ele entrou na banheira, e a água transbordou
 b6 | simples | interior madeira | two | ARQ, POV | - | - | - | Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo q
-b7 | simples | harbor | prop | ARQ, OUR | - | crown | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
-b8 | chave | street | group | ARQ, POV | 14 | crown | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr
-b9 | simples | harbor | two | REI, OUR | - | bathtub | - | No fim, dá para enganar um rei, mas não uma banheira.
-b10 | simples | street | close | ARQ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b7 | simples | interior madeira | group | ARQ, POV | - | crown | - | Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e
+b8 | simples | harbor | prop | ARQ, OUR | - | crown | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
+b9 | chave | street | group | ARQ, POV | 14 | crown | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr
+b10 | simples | harbor | group | REI, OUR | - | bathtub | - | No fim, dá para enganar um rei, mas não uma banheira.
+b11 | simples | street | close | ARQ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

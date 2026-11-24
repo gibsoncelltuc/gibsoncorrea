@@ -1,29 +1,30 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 24/11 10:56 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 13:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | VIA, VEN | - | melon | - | Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os 
-b1 | simples | loc_campo | reveal | VIA, VIA | 8 | locomotive | - | Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a ca
-b2 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou numa barraca, comeu uma fatia de melancia e foi embora 
-b3 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
-b4 | simples | street | group | VIA, VEN | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
-b5 | chave | street | crowd | VEN, VIA | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj
-b6 | simples | street | group | VIA, MOR | - | house_two, lamppost | - | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
-b7 | simples | interior madeira | two | PRE, MOR | - | - | - | Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f
-b8 | chave | loc_campo | orbit | SOL, SOL | 48 | locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização 
-b9 | simples | jungle | close | VEN | - | melon | - | Tudo isso por uma fatia de melancia que custava poucos centavos.
-b10 | simples | jungle | two | VIA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b1 | simples | harbor | reveal | VIA, VIA | 8 | locomotive | - | Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a ca
+b2 | simples | harbor | wide | VIA, VIA | 8 | navios de guerra ao fundo, no tamanho real, locomotive | - | Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacíf
+b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou numa barraca, comeu uma fatia de melancia e foi embora 
+b4 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
+b5 | simples | street | group | VIA, VEN | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
+b6 | chave | street | crowd | VEN, VIA | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj
+b7 | simples | street | group | VIA, MOR | - | house_two, lamppost | - | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
+b8 | simples | interior madeira | two | PRE, MOR | - | - | - | Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f
+b9 | chave | harbor | orbit | SOL, SOL | 48 | locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização 
+b10 | simples | jungle | close | VEN | - | melon | - | Tudo isso por uma fatia de melancia que custava poucos centavos.
+b11 | simples | jungle | two | VIA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py melancia1856
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/17 itens) | PENDENTE | python3 pesquisar.py melancia1856
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
