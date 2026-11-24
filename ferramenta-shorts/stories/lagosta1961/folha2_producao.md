@@ -6,8 +6,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): BRA (variante 0, expressao angry); FRA (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
+- Personagens principais (1): BRA (variante 0, expressao angry) | multidao: 0 de 
+- Animacao: discutir
 - Objetos/modelos: kit/lobster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, franca, lagosta
 - RISCOS: nenhum
@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): MAR (variante 0, expressao stern); FRA (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: conversar | interacao: avanca e o outro recua
+- Personagens principais (1): MAR (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, navio, pescadores
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao nervous)
-- Animacao: discutir | interacao: cochichar
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caso, dois, jornais, lagosta
 - RISCOS: nenhum
@@ -96,8 +96,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): BRA (variante 0, expressao nervous); FRA (variante 0, expressao nervous) | multidao: 0 de 
-- Animacao: reagir | interacao: susto
+- Personagens principais (1): BRA (variante 0, expressao nervous) | multidao: 0 de 
+- Animacao: reagir
 - Objetos/modelos: kit/lobster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lagosta
 - RISCOS: nenhum
@@ -127,7 +127,7 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 
 ## Video inteiro
 - Objeto heroi: kit/lobster | grandes momentos: b1, b5 | planos abertos: 3 | mistura: close 12% | medio 77% | aberto 11% | detalhe 0%
-- Interacoes: b0 discutir, b4 avanca e o outro recua, b6 cochichar, b7 entregar, b9 susto
+- Interacoes: b6 discutir, b7 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

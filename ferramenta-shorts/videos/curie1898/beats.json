@@ -75,12 +75,16 @@
    "hora": "dia",
    "clima": "limpo",
    "quadro": {
-    "objeto": "kit/curie_box",
-    "classe": "pequeno",
-    "lugar": "frente",
-    "tela": "12% da altura da tela",
-    "relacao": "objeto pequeno ampliado para ~0.9 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
-    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "12% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -146,12 +150,16 @@
    "hora": "dia",
    "clima": "limpo",
    "quadro": {
-    "objeto": "kit/curie_box",
-    "classe": "pequeno",
-    "lugar": "frente",
-    "tela": "12% da altura da tela",
-    "relacao": "objeto pequeno ampliado para ~0.9 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
-    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "12% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -181,18 +189,22 @@
     "sting@50"
    ],
    "say": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "quadro": {
-    "objeto": "kit/curie_box",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.1 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
-   }
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -275,12 +287,16 @@
    "hora": "dia",
    "clima": "limpo",
    "quadro": {
-    "objeto": "kit/curie_box",
-    "classe": "pequeno",
-    "lugar": "frente",
-    "tela": "14% da altura da tela",
-    "relacao": "objeto pequeno ampliado para ~1.0 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
-    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "14% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -309,18 +325,22 @@
    "say": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
    "hora": "dia",
    "clima": "limpo",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "quadro": {
-    "objeto": "kit/curie_box",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.1 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
-   }
+   "d1": 8.0
   },
   {
    "shot": "close",
@@ -342,12 +362,16 @@
    "hora": "dia",
    "clima": "limpo",
    "quadro": {
-    "objeto": "kit/curie_box",
-    "classe": "pequeno",
-    "lugar": "frente",
-    "tela": "12% da altura da tela",
-    "relacao": "objeto pequeno ampliado para ~0.9 m (le de longe): fica NA FRENTE, entre os personagens, sem tapar o rosto de ninguem",
-    "camera": "plano medio dos personagens com o objeto no centro de baixo do quadro"
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "close (rosto e ombros)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "12% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   }
  ],

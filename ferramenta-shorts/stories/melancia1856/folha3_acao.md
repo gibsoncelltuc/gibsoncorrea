@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
@@ -21,8 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | cruzavam (7.6s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | ouro (9.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | ouro (9.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | MAPA | PANAMÁ | OK |
+| 4 | - | MAPA | PANAMÁ | OK |
 
 ## Cena b2 - 11.0s a 14.5s - 14 palavras - plano wide
 > "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico."
@@ -30,7 +29,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cruzavam (12.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 15.8s a 19.7s - 15 palavras - plano two
 > "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar."
@@ -105,14 +103,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b10 - 49.6s a 52.4s - 11 palavras - plano close
+## Cena b10 - 49.6s a 52.4s - 11 palavras - plano two
 > "Tudo isso por uma fatia de melancia que custava poucos centavos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 53.6s a 57.0s - 13 palavras - plano two
+## Cena b11 - 53.6s a 57.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

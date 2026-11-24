@@ -16,8 +16,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 0 de 
-- Animacao: reagir
+- Personagens principais (1): VIA (variante 0, expressao neutral) | multidao: 0 de 
+- Animacao: encena
 - Objetos/modelos: vehicles/locomotive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, caminho, ouro, panama
 - RISCOS: nenhum
@@ -26,8 +26,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 0 de 
-- Animacao: reagir
+- Personagens principais (1): VIA (variante 0, expressao neutral) | multidao: 0 de 
+- Animacao: encena
 - Objetos/modelos: vehicles/locomotive, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): istmo, navio, trem
 - RISCOS: nenhum
@@ -104,8 +104,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Tudo isso por uma fatia de melancia que custava poucos centavos.
 - Cenario: jungle | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): VEN (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/melon
@@ -114,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: jungle | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): VIA (variante 0, expressao grin)
 - Animacao: conversar
@@ -137,7 +137,7 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 8% | medio 64% | aberto 24% | detalhe 4%
+- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 24% | detalhe 2%
 - Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b8 susto
 - RISCOS GERAIS: nenhum
 

@@ -12,8 +12,8 @@ b6 | crowd | -  | batalha aberta com tiros, tropa, placa: BRIGA | briga (puff + 
 b7 | group | -  | tropa, placa: ESTAÇÃO DE TREM | briga (puff + som de baque); encena: empurra (push) @3 (acao + som de efeito); encena: chega (point) @13 (acao + som de efeito); encena: golpe (punch) @15 (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); morreram (puff + som de baque); encena: morre @6 (acao + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito) | -
-b10 | close | -  | - | - | -
-b11 | two | -  | placa: COMENTE! | - | -
+b10 | two | -  | - | - | -
+b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 8% | medio 64% | aberto 24% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 62% | aberto 24% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal
