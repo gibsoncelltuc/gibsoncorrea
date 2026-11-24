@@ -114,8 +114,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Uma das maiores invasões do Pacífico Norte tomou uma ilha completament...
 - Cenario: interior madeira | luz: overcast | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/dog_sit
@@ -150,7 +150,7 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 18% | detalhe 5%
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 65% | aberto 18% | detalhe 6%
 - Interacoes: b0 aproxima-se, b1 avanca e o outro recua, b5 susto, b8 discutir, b9 empurrar, b10 o outro se aproxima, b11 insiste
 - RISCOS GERAIS: nenhum
 
