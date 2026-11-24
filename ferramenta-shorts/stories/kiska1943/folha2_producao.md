@@ -62,8 +62,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): japoneses, problema
 - RISCOS: nenhum
 
-## Cena b6 - Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheir...
-- Cenario: mountain | luz: dia | clima: limpo
+## Cena b6 - Eles procuraram o inimigo por dias, em trincheiras vazias.
+- Cenario: mountain | luz: overcast | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (0): -
@@ -72,14 +72,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inimigo
 - RISCOS: nenhum
 
-## Cena b7 - Semanas antes, navios japoneses tinham levado cerca de cinco mil homen...
+## Cena b7 - Semanas antes, navios japoneses levaram cinco mil homens embora em men...
 - Cenario: harbor | luz: overcast | clima: neblina
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (0): -
 - Animacao: -
-- Objetos/modelos: ship, nature/picket_fence, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinco, neblina
+- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): neblina
 - RISCOS: nenhum
 
 ## Cena b8 - Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no ...
@@ -144,19 +144,16 @@ kit/aviao_ww2 | b2 | pronto | conferir na folha de contato se le bem; se parecer
 kit/tanque_ww2 | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/canhao_moderno | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/sandbags | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/dog_sit | b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 9% | medio 66% | aberto 19% | detalhe 6%
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 66% | aberto 18% | detalhe 6%
 - Interacoes: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar
-- RISCOS GERAIS: 
-  - video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).

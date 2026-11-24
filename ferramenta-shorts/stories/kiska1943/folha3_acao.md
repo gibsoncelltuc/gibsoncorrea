@@ -58,57 +58,57 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | ILHA VAZIA | OK |
 
-## Cena b6 - 29.8s a 33.7s - 13 palavras - plano track
-> "Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheiras vazias."
+## Cena b6 - 29.8s a 32.5s - 9 palavras - plano track
+> "Eles procuraram o inimigo por dias, em trincheiras vazias."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 35.0s a 41.6s - 20 palavras - plano wide
-> "Semanas antes, navios japoneses tinham levado cerca de cinco mil homens embora, em menos de uma hora, escondidos na neblina."
+## Cena b7 - 33.8s a 39.3s - 17 palavras - plano wide
+> "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 42.9s a 47.3s - 17 palavras - plano group
+## Cena b8 - 40.6s a 45.0s - 17 palavras - plano group
 > "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atirar (45.4s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | atirar (45.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | atirar (43.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | atirar (43.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | FOGO AMIGO | OK |
 
-## Cena b9 - 48.5s a 52.7s - 15 palavras - plano group
+## Cena b9 - 46.2s a 50.4s - 15 palavras - plano group
 > "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreram (49.5s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreram (49.5s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | tiros (50.4s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | tiros (50.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | bateu (52.3s) | EFEITO: dust | poeira + som | OK |
-| 6 | bateu (52.3s) | ACAO: x_bate | bate + estouro | OK |
+| 1 | morreram (47.2s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreram (47.2s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | tiros (48.0s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | tiros (48.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 5 | bateu (49.9s) | EFEITO: dust | poeira + som | OK |
+| 6 | bateu (49.9s) | ACAO: x_bate | bate + estouro | OK |
 | 7 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 8 | - | INTERACAO | empurrar | OK |
 | 9 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 53.8s a 56.0s - 9 palavras - plano two
+## Cena b10 - 51.5s a 53.7s - 9 palavras - plano two
 > "No fim, só acharam na ilha alguns cachorros abandonados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (54.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | abandonados (56.0s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | acharam (52.3s) | ACAO: olha | aponta/olha | OK |
+| 2 | abandonados (53.7s) | ACAO: sai | sai andando pela lateral | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | SÓ CACHORROS | OK |
 
-## Cena b11 - 57.6s a 61.2s - 12 palavras - plano close
+## Cena b11 - 55.2s a 58.9s - 12 palavras - plano close
 > "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -116,7 +116,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | OPERAÇÃO ILHA VAZIA | OK |
 
-## Cena b12 - 62.4s a 65.7s - 13 palavras - plano two
+## Cena b12 - 60.0s a 63.4s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -137,9 +137,9 @@
    "objetos": [
     "war/sandbags"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheiras vazias.",
+   "frase": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
    "classe": "transicao",
    "sujeito": "cenario",
    "briefing": {},
@@ -151,13 +151,12 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [
-    "nature/picket_fence",
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 20,
+   "palavras": 17,
    "cena": "b7",
-   "frase": "Semanas antes, navios japoneses tinham levado cerca de cinco mil homens embora, em menos de uma hora, escondidos na neblina.",
+   "frase": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
    "classe": "transicao",
    "sujeito": "cenario",
    "briefing": {},

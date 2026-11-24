@@ -11,7 +11,7 @@ b3 | arctic | crowd | 19 | encena, batalha | kit/canhao_moderno | - | -
 b4 | mountain | orbit | 51 | encena, andando, batalha | - | - | -
 b5 | interior pedra | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b6 | mountain | track | 0 | andando | war/sandbags | - | -
-b7 | harbor | wide | 0 | parados (so fala e pisca) | ship, nature/picket_fence, navios de guerra ao fundo, no tamanho real | - | -
+b7 | harbor | wide | 0 | parados (so fala e pisca) | ship, navios de guerra ao fundo, no tamanho real | - | -
 b8 | mountain | group | 3 | reagir, INTERAGEM: avanca e o outro recua | - | - | -
 b9 | arctic | group | 7 | conversar, INTERAGEM: empurrar | - | - | -
 b10 | harbor | two | 1 | conversar | kit/dog_sit, dog | - | -

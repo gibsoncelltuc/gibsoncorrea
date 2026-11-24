@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: A Invasão da Ilha Vazia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain | 13 cenas, 171 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain | 13 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: ILHA VAZIA
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~4.5 s)
-- Narracao: Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheiras vazias.
+## Cena b6  (~3.1 s)
+- Narracao: Eles procuraram o inimigo por dias, em trincheiras vazias.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~6.9 s)
-- Narracao: Semanas antes, navios japoneses tinham levado cerca de cinco mil homens embora, em menos de uma hora, escondidos na neblina.
+## Cena b7  (~5.9 s)
+- Narracao: Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
