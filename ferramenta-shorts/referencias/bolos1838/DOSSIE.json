@@ -33,14 +33,13 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "boat",
   "buildings/house_two",
   "buildings/shop",
   "cannon",
   "kit/cake_table",
   "kit/coin",
+  "kit/grave",
   "kit/marco_ulua",
-  "kit/navio_fragata",
   "kit/room_colonial_shop",
   "kit/room_europa_stone",
   "kit/room_verde_wood",
@@ -55,18 +54,46 @@
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Workbench_Drawers",
-  "ship"
+  "mk/Workbench_Drawers"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Tacubaya e Cidade do México; porto e fortaleza de San Juan de Ulúa em Veracruz; palácio do rei Luís Filipe em Paris",
+  "quando": "1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)",
+  "participantes": [
+   "confeiteiro Remontel",
+   "rei Luís Filipe",
+   "Santa Anna",
+   "almirante Baudin",
+   "oficiais mexicanos"
+  ],
+  "roupas": {
+   "CON": "avental e gorro brancos de confeiteiro",
+   "OFI": "oficial mexicano de casaca verde",
+   "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
+   "REI": "rei de coroa e manto roxo",
+   "GEN": "general mexicano de uniforme verde"
+  },
+  "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
+  "objetos": [
+   "bolos e doces",
+   "papel de queixa",
+   "moedas",
+   "canhão do século 19"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Pastry_War",
+   "referencias/bolos1838/moodboard.jpg"
+  ],
+  "buscas": {
+   "Tacubaya": "Tacubaya 19th century Mexico lithograph",
+   "San Juan de Ulúa": "San Juan de Ulua fortress Veracruz 1838 French bombardment",
+   "Santa Anna": "Antonio Lopez de Santa Anna portrait 1830s",
+   "Luís Filipe": "Louis-Philippe king of France portrait",
+   "Baudin": "Charles Baudin admiral 1838",
+   "confeiteiro": "19th century pastry chef shop engraving",
+   "soldado da epoca": "Mexican army officer 1830s uniform"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

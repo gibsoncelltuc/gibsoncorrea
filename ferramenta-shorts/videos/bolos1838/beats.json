@@ -61,8 +61,7 @@
     "CON:0:shock",
     "OFI:0:laugh"
    ],
-   "text": "1838",
-   "say": "A França invadiu o México por causa de uma conta de confeitaria.",
+   "say": "A França atacou o México por causa de uma conta de confeitaria.",
    "riscos_ok": true
   },
   {
@@ -73,7 +72,7 @@
    ],
    "mapa": "MÉXICO",
    "mapa_at": 6,
-   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces."
+   "say": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México."
   },
   {
    "shot": "group",
@@ -89,7 +88,7 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.",
+   "say": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou, segundo os mexicanos, comeram e não pagaram.",
    "props": [
     [
      "mk/Table_Large",
@@ -114,7 +113,7 @@
     "REI:0:neutral"
    ],
    "interior": "pedra",
-   "say": "O confeiteiro escreveu ao rei da França. \"Quero sessenta mil pesos\", pediu ele. A loja inteira valia mil."
+   "say": "O confeiteiro reclamou ao rei da França e pediu sessenta mil pesos. A loja valia menos de mil."
   },
   {
    "shot": "close",
@@ -122,15 +121,15 @@
     "REI:0:stern"
    ],
    "interior": "pedra",
-   "say": "O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. \"Paguem, ou mandamos a marinha\", avisou a França."
+   "say": "O governo francês juntou outras queixas de franceses, e exigiu seiscentos mil pesos do México."
   },
   {
    "shot": "two",
    "who": [
-    "GEN:0:laugh",
-    "OFI:0:grin"
+    "GEN:0:stern",
+    "OFI:0:neutral"
    ],
-   "say": "O México riu do pedido, e não deu um centavo."
+   "say": "O presidente mexicano não pagou."
   },
   {
    "shot": "reveal",
@@ -147,7 +146,7 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país.",
+   "say": "Então a França mandou a esquadra, e navios de guerra fecharam os portos do golfo do México.",
    "batalha": false,
    "tiros": false,
    "impact": false
@@ -168,7 +167,7 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.",
+   "say": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
    "set": "harbor"
   },
   {
@@ -182,29 +181,63 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Um general mexicano correu para o combate, e tombou, atingido por um tiro de canhão. Ele perdeu uma perna."
+   "say": "O general Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares."
   },
   {
    "shot": "two",
    "who": [
-    "GEN:0:pained:paper",
-    "FRA:0:grin:coin"
+    "GEN:0:neutral:paper",
+    "FRA:0:neutral:coin"
    ],
    "text": "600.000",
-   "say": "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora."
+   "say": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar os seiscentos mil pesos, e a França foi embora."
   },
   {
    "shot": "close",
    "who": [
-    "CON:0:grin:coin"
+    "CON:0:stern"
    ],
-   "say": "Nunca um doce custou tão caro, e o confeiteiro contou as moedas.",
-   "verbos_ok": [
-    "custo"
-   ],
-   "acao": "comemorar"
+   "say": "A conta nunca foi paga, e a França voltou ao México em mil oitocentos e sessenta e um."
   }
  ],
  "marco": "kit/marco_ulua",
- "regiao": "colonial"
+ "regiao": "colonial",
+ "visual": {
+  "local": "Tacubaya e Cidade do México; porto e fortaleza de San Juan de Ulúa em Veracruz; palácio do rei Luís Filipe em Paris",
+  "quando": "1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)",
+  "participantes": [
+   "confeiteiro Remontel",
+   "rei Luís Filipe",
+   "Santa Anna",
+   "almirante Baudin",
+   "oficiais mexicanos"
+  ],
+  "roupas": {
+   "CON": "avental e gorro brancos de confeiteiro",
+   "OFI": "oficial mexicano de casaca verde",
+   "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
+   "REI": "rei de coroa e manto roxo",
+   "GEN": "general mexicano de uniforme verde"
+  },
+  "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
+  "objetos": [
+   "bolos e doces",
+   "papel de queixa",
+   "moedas",
+   "canhão do século 19"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Pastry_War",
+   "referencias/bolos1838/moodboard.jpg"
+  ],
+  "buscas": {
+   "Tacubaya": "Tacubaya 19th century Mexico lithograph",
+   "San Juan de Ulúa": "San Juan de Ulua fortress Veracruz 1838 French bombardment",
+   "Santa Anna": "Antonio Lopez de Santa Anna portrait 1830s",
+   "Luís Filipe": "Louis-Philippe king of France portrait",
+   "Baudin": "Charles Baudin admiral 1838",
+   "confeiteiro": "19th century pastry chef shop engraving",
+   "soldado da epoca": "Mexican army officer 1830s uniform"
+  }
+ }
 }

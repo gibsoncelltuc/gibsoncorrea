@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - A cena deu o que falar no mundo inteiro.
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao shock) | multidao: 6 de POV
-- Animacao: reagir | batalha encenada
+- Animacao: reagir
 - Objetos/modelos: kit/globe, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena
 - RISCOS: nenhum
@@ -103,15 +103,17 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 31% | medio 41% | aberto 21% | detalhe 7%
+- Objeto heroi: kit/sink | grandes momentos: b4 | planos abertos: 2 | mistura: close 29% | medio 38% | aberto 26% | detalhe 7%
 - Interacoes: b2 o outro se aproxima, b4 insiste, b5 vai ate o outro, b7 pular
 - RISCOS GERAIS: 
+  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
   - video com ~42 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py pia2022  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/pia2022/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
+## RESUMO: 5 risco(s) em aberto
+- geral: menos de 2 grandes momentos
 - geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
 - geral: video com ~42 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita

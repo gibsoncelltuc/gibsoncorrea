@@ -1,4 +1,4 @@
-# FOLHA 4 - PESQUISA: A Praga da Dança
+# FOLHA 4 - PESQUISA: Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py danca1518` busca cada item na internet, baixa os prints (referencias/danca1518/prints/) e monta o quadro referencias/danca1518/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 

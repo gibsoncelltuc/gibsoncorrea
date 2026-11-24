@@ -1,4 +1,4 @@
-# Pre-producao - A Praga da Dança
+# Pre-producao - Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 

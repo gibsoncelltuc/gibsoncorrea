@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: A Praga da Dança
+# FOLHA 2 - PRODUCAO: Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/danca1518/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py danca1518` de novo ate esta folha sair sem risco.
 

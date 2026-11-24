@@ -1,4 +1,4 @@
-# Plano de acao - A Praga da Dança
+# Plano de acao - Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---

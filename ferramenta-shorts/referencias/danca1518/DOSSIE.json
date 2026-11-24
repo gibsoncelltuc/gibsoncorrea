@@ -1,6 +1,6 @@
 {
  "id": "danca1518",
- "titulo": "A Praga da Dança",
+ "titulo": "Curiosidade e Ciência EP 22 - A Praga da Dança",
  "ancoras": {
   "ano": 1518,
   "era": "historica",
@@ -40,8 +40,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
-  "buildings/shop",
+  "buildings/house_small",
   "kit/marco_viena",
   "kit/room_azul_wood",
   "kit/room_europa_stone",
@@ -55,7 +54,7 @@
   "mk/Chest_Wood",
   "mk/Nightstand_Shelf",
   "mk/Table_Large",
-  "nature/lamppost"
+  "tools/lantern"
  ],
  "pesquisa_visual": {},
  "fontes": [],
