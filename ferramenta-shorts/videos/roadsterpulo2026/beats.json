@@ -308,7 +308,8 @@
   "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/",
   "https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster",
   "https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/",
-  "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10"
+  "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10",
+  "https://www.statesman.com/business/article/tesla-roadster-event-live-texas-mcgregor-22433111.php"
  ],
  "visual": {
   "local": "Base de testes da SpaceX em McGregor (Texas, EUA): area aberta, chao de terra e concreto; galpoes da SpaceX",
@@ -333,7 +334,19 @@
   "fontes_visuais": [
    "https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/",
    "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10",
-   "https://www.youtube.com/watch?v=qt5p-_tE8d0"
+   "https://www.youtube.com/watch?v=qt5p-_tE8d0",
+   "https://www.youtube.com/watch?v=qt5p-_tE8d0 (video oficial do evento: Ramp Demo e Kickflip Demo)"
+  ],
+  "explicacoes": [
+   "Propulsores: tecnologia da SpaceX, cerca de 250 kg de ar soprados por 10 bocais (jato de gas frio, sem fogo) - Austin American-Statesman, 15/10/2026",
+   "De cabeca para baixo: um sistema de succao (ventiladores) segura o carro na rampa - Statesman",
+   "Demonstracoes: (1) rampa de cabeca para baixo; (2) saiu da rampa, flutuou nos propulsores por cima de uma fileira de veiculos parados (entre eles o Cybercab e o Semi; o numero de veiculos nao e' informado) e pousou; (3) 'kickflip': levantou do chao, girou e pousou nas rodas - Statesman e video oficial 'Roadster Event' (Ramp Demo 06:03, Kickflip Demo 10:56)",
+   "Aceleracao anunciada: zero a 60 milhas por hora (cerca de 97 km/h) em menos de um segundo - Statesman"
+  ],
+  "locacoes": [
+   "loc_pista",
+   "interior galpao",
+   "loc_estudio"
   ]
  },
  "cinf": 1.5,

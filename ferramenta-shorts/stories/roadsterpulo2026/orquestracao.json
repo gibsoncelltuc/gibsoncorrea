@@ -1,0 +1,197 @@
+{
+ "id": "roadsterpulo2026",
+ "ano": 2026,
+ "cenarios_trocados": [
+  [
+   "video",
+   "outback",
+   "loc_pista"
+  ],
+  [
+   "cena 1",
+   "outback",
+   "loc_deserto"
+  ],
+  [
+   "cena 2",
+   "outback",
+   "loc_deserto"
+  ],
+  [
+   "cena 5",
+   "outback",
+   "loc_deserto"
+  ],
+  [
+   "cena 6",
+   "outback",
+   "loc_deserto"
+  ],
+  [
+   "cena 7",
+   "outback",
+   "loc_deserto"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 0,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "cena": "b0",
+   "frase": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a camera acompanha",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "cena": "b1",
+   "frase": "Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, diante de convidados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "cena": "b2",
+   "frase": "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "cena": "b3",
+   "frase": "O segredo eram propulsores da SpaceX escondidos no carro, e ventiladores embaixo que grudavam ele na pista.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "cena": "b4",
+   "frase": "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "acelera e sobe a rampa curva gigante ate ficar de cabeca para baixo",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "cena": "b5",
+   "frase": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "se solta do topo, voa girando com o jato dos propulsores saindo de baixo e pousa numa nuvem branca (onda de ar no chao)",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "cena": "b6",
+   "frase": "Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "cena": "b7",
+   "frase": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "cena": "b8",
+   "frase": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "cena": "b9",
+   "frase": "O vídeo correu o mundo. Metade ficou impressionada, a outra metade desconfiada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "cena": "b10",
+   "frase": "Carro voador ou carro que pula? Você decide.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "canta pneu, pula em arco inclinando o nariz e cai do outro lado com poeira",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  }
+ ]
+}

@@ -542,12 +542,12 @@ function vfxUpdate(W, f) {
   for (const e of (W.vfx || [])) { const pts = vfxPts(e), pot = e.pot || 1, on = f >= e.a && f <= e.b, K = e.k;
     if (K === 'jato' || K === 'pneu' || K === 'poeira' || K === 'fogo' || K === 'faisca' || K === 'vapor') {
       for (let j = 0; j < e.L; j++) { const ps = e.trail[j]; if (!ps) continue; const g = f - j, u = j / e.L, m = vfxPose(ps).clone(), sc = ps[6];
-        pts.forEach((pt, pi) => { const reps = K === 'faisca' ? 3 : K === 'jato' ? 2 : 1; for (let r = 0; r < reps; r++) { const sd = g * 7.13 + pi * 31.7 + r * 3.3, h1 = _vh(sd), h2 = _vh(sd + 1.7), h3 = _vh(sd + 5.1);
+        pts.forEach((pt, pi) => { const reps = K === 'faisca' ? 3 : (K === 'jato' || K === 'pneu') ? 2 : 1; for (let r = 0; r < reps; r++) { const sd = g * 7.13 + pi * 31.7 + r * 3.3, h1 = _vh(sd), h2 = _vh(sd + 1.7), h3 = _vh(sd + 5.1);
           _vP.set(pt[0], pt[1], pt[2]).applyMatrix4(m); let x = _vP.x, y = _vP.y, z = _vP.z; const t = j / 30;
           if (K === 'jato') { _vDir.set(0, -1, 0).transformDirection(m); const v = 11 * pot, tr = v * t * (1 - 0.45 * u), jx = (h1 - 0.5) * 0.9 * u * 2.2, jz = (h2 - 0.5) * 0.9 * u * 2.2; x += _vDir.x * tr + jx; y += _vDir.y * tr; z += _vDir.z * tr + jz;
             const gy = DECK + 0.18; if (y < gy) { const ex = gy - y, a = h3 * 6.2832; x += Math.cos(a) * ex * 0.9; z += Math.sin(a) * ex * 0.9 * 0.6; y = gy + 0.12 * ex * h1; }   /* bate no chao e se espalha em anel (downwash) */
             puff(x, y, z, (0.16 + 0.62 * u) * pot * sc * 0.55 * (u > 0.7 ? (1 - u) / 0.3 : 1), u < 0.25 ? '#ffffff' : u < 0.6 ? '#e6eef5' : '#cdd8e2'); if (j < 3 && r === 0) glow(x, y, z, 0.3 * pot * sc * 0.55, e.col || '#9fdcff'); }
-          else if (K === 'pneu') { x += (h1 - 0.5) * 1.6 * u; z += (h2 - 0.5) * 1.6 * u; y = DECK + 0.2 + 1.5 * u * (0.5 + h3); puff(x, y, z, (0.2 + 0.75 * u) * pot * (u > 0.65 ? (1 - u) / 0.35 : 1), u < 0.4 ? '#f2f2ee' : '#d4d4d0'); }
+          else if (K === 'pneu') { x += (h1 - 0.5) * 1.6 * u; z += (h2 - 0.5) * 1.6 * u; y = DECK + 0.2 + 1.5 * u * (0.5 + h3); puff(x, y, z, (0.13 + 0.42 * u) * pot * (u > 0.65 ? (1 - u) / 0.35 : 1), u < 0.4 ? '#f2f2ee' : '#d4d4d0'); }
           else if (K === 'poeira') { x += (h1 - 0.5) * 2.4 * u; z += (h2 - 0.5) * 1.2 * u; y = DECK + 0.15 + 0.9 * u * h3; puff(x, y, z, (0.18 + 0.6 * u) * pot * (u > 0.6 ? (1 - u) / 0.4 : 1), e.col || '#d8c39a', 0.7); }
           else if (K === 'vapor') { x += (h1 - 0.5) * 0.8 * u; z += (h2 - 0.5) * 0.8 * u; y += 2.2 * u * (0.6 + 0.4 * h3); puff(x, y, z, (0.12 + 0.4 * u) * pot * (1 - u), '#f4f6f8'); }
           else if (K === 'fogo') { x += (h1 - 0.5) * 0.7 * (0.3 + u); z += (h2 - 0.5) * 0.7 * (0.3 + u); y += 2.6 * u * (0.6 + 0.5 * h3) * pot; if (u < 0.6) glow(x, y, z, (0.34 - 0.3 * u) * pot * (0.7 + 0.5 * h3), u < 0.2 ? '#fff2a8' : u < 0.4 ? '#ffb02e' : '#f0531c'); else puff(x, y, z, (0.2 + 0.4 * (u - 0.6)) * pot * (1 - u) / 0.4, '#4a4744'); }

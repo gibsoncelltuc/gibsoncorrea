@@ -1,10 +1,10 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 12 cenas, 178 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 12 cenas, 178 palavras (~61 s)
 
 ## Cena b0  (~7.2 s)
 - Narracao: Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito; encena: fala (point) @17 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b1  (~5.5 s)
 - Narracao: Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, diante de convidados.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @15 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b4  (~6.6 s)
 - Narracao: Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito; encena: x_dirige (point) @7 -> acao + som de efeito; encena: escala (lift) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b5  (~4.8 s)
 - Narracao: Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: voa (point) @3 -> acao + som de efeito; encena: x_desce (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b6  (~4.5 s)
 - Narracao: Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Carro voador ou carro que pula? Você decide.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -117,3 +117,4 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster
 - https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/
 - https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10
+- https://www.statesman.com/business/article/tesla-roadster-event-live-texas-mcgregor-22433111.php

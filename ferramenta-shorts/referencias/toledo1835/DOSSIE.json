@@ -1,0 +1,98 @@
+{
+ "id": "toledo1835",
+ "titulo": "Guerras Inusitadas EP 03 - A Guerra de Toledo",
+ "ancoras": {
+  "ano": 1835,
+  "era": "historica",
+  "regiao": "generica",
+  "luz_base": "day",
+  "cenarios": [
+   "arctic",
+   "countryside",
+   "interior madeira",
+   "interior pedra",
+   "jungle"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "escudo",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_small",
+  "buildings/house_two",
+  "kit/canivete",
+  "kit/coin",
+  "kit/mapa_antigo",
+  "kit/room_azul_stone",
+  "kit/room_europa_wood",
+  "kit/room_rosa_wood",
+  "kit/room_verde_wood",
+  "kit/teodolito",
+  "mk/Barrel",
+  "mk/Barrel_Apples",
+  "mk/Bench",
+  "mk/Bookcase_2",
+  "mk/CandleStick_Triple",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Wooden",
+  "mk/Mug",
+  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench_Drawers",
+  "nature/bush",
+  "nature/lamppost",
+  "nature/tree_oak",
+  "nature/tree_pine"
+ ],
+ "pesquisa_visual": {
+  "local": "Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna",
+  "quando": "abril a setembro de 1835 (Phillips Corners: domingo, 26/abr/1835, de dia; facada na taverna: julho de 1835)",
+  "participantes": [
+   "milicia de Ohio (600)",
+   "milicia de Michigan (1000)",
+   "topografos de Ohio",
+   "Stevens T. Mason, governador de Michigan com 23 anos",
+   "xerife Joseph Wood",
+   "Two Stickney, rapaz de Ohio"
+  ],
+  "roupas": {
+   "OHI": "milicia civil de 1835: casaca, cartola, mosquete de pederneira (sem uniforme de guerra civil)",
+   "MIC": "milicia civil: casaca, chapeu de aba larga/palha/cartola, mosquete",
+   "GOV": "casaca escura de civil, gravata branca, cartola",
+   "XER": "casaca marrom, chapeu de aba",
+   "RAP": "rapaz de casaca simples e chapeu de aba"
+  },
+  "cenario": "campo com mata (Phillips Corners), margem do rio Maumee, taverna de madeira em Toledo, sala do Congresso, floresta gelada da Peninsula Superior",
+  "objetos": [
+   "mosquetes de pederneira",
+   "canivete de bolso",
+   "instrumento de agrimensor em tripe",
+   "mapa antigo com a linha da fronteira"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Toledo_War",
+   "https://commons.wikimedia.org/wiki/File:Phillips_Corners_Battlefield.jpg",
+   "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war",
+   "https://www.history.com/articles/the-toledo-war-when-michigan-and-ohio-nearly-came-to-blows"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Toledo_War",
+  "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war"
+ ],
+ "falta": []
+}

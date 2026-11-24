@@ -932,13 +932,13 @@ def _hud_fx(k, b, a, bb, E):   # graficos colados na parte de cima da tela (vale
         m_ = E.get(kind)
         if m_:
             t0 = _wf(m_.get('na'), -3, f"Math.round({a} + ({bb} - ({a})) * 0.35)")
-            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get('up', 0.5))} }}")
+            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get("up", 0.6))} }}")
             KWSFX.append((starts[k] + (_wj(m_.get('na')) if _wj(m_.get('na')) is not None else len(ws) // 3), 'hud'))
     if E.get('passos'):
-        t0 = _wf(E.get('passos_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'passos', a: {t0}, b: {bb}, itens: {json.dumps([str(x_).upper() for x_ in E['passos']][:4], ensure_ascii=False)}, up: {num(E.get('passos_up', 0.46))} }}")
+        t0 = _wf(E.get('passos_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'passos', a: {t0}, b: {bb}, itens: {json.dumps([str(x_).upper() for x_ in E['passos']][:4], ensure_ascii=False)}, up: {num(E.get("passos_up", 0.58))} }}")
         for i_ in range(min(4, len(E['passos']))): KWSFX.append((starts[k] + min(len(ws) - 1, 1 + i_ * max(1, len(ws) // (len(E['passos']) + 1))), 'hud'))
     if E.get('comparar'):
-        t0 = _wf(E.get('comparar_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'comparar', a: {t0}, b: {bb}, itens: {json.dumps([[str(c_[0]).upper()] + list(c_[1:]) for c_ in E['comparar']][:3], ensure_ascii=False)}, up: {num(E.get('comparar_up', 0.46))} }}")
+        t0 = _wf(E.get('comparar_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'comparar', a: {t0}, b: {bb}, itens: {json.dumps([[str(c_[0]).upper()] + list(c_[1:]) for c_ in E['comparar']][:3], ensure_ascii=False)}, up: {num(E.get("comparar_up", 0.58))} }}")
         KWSFX.append((starts[k] + min(len(ws) - 1, 2), 'hud'))
     return fx
 def _explica(k, b, light, a, bb):
@@ -984,7 +984,9 @@ def _explica(k, b, light, a, bb):
     for i_, r_ in enumerate(E.get('rotulos') or []):
         tx = str(r_[0]).upper(); pt_ = r_[1] if len(r_) > 1 else 'topo'; t0 = _wf(r_[2] if len(r_) > 2 else None, -3, f"Math.round({a} + ({bb} - ({a})) * {num(0.12 + 0.2 * i_)})")
         lado = int(r_[3]) if len(r_) > 3 and r_[3] else (1 if i_ % 2 == 0 else -1); inv = pt_ == 'baixo'
-        fx.append(f"{{ k: 'rotulo', a: {t0}, b: {bb}, prop: 0, off: {json.dumps([round(v_, 3) for v_ in _pt(pt_)])}, text: {json.dumps(tx)}, lado: {lado}{', inv: true' if inv else ''}, s: {num(max(1.5, min(2.6, Ls * 0.5)))} }}"); nrot += 1
+        _ptv = _pt(pt_)
+        if any((s_[4] if len(s_) > 4 else {'cima': 'topo', 'baixo': 'baixo'}.get(s_[0])) == pt_ for s_ in (E.get('setas') or [])): _ptv = [_ptv[0] - 0.24 * dx * sgF, _ptv[1] * (0.82 if pt_ == 'topo' else 1), _ptv[2]]; lado = -1   # seta no mesmo ponto: o rotulo ancora mais para tras e abre para a esquerda (a seta e o texto dela ficam livres)
+        fx.append(f"{{ k: 'rotulo', a: {t0}, b: {bb}, prop: 0, off: {json.dumps([round(v_, 3) for v_ in _ptv])}, text: {json.dumps(tx)}, lado: {lado}{', inv: true' if inv else ''}, s: {num(max(2.0, min(3.2, Ls * 0.62)))} }}"); nrot += 1
         KWSFX.append((starts[k] + (_wj(r_[2]) if len(r_) > 2 and _wj(r_[2]) is not None else min(len(ws) - 1, 2 + 3 * i_)), 'hud'))
     for i_, s_ in enumerate(E.get('setas') or []):
         d_ = s_[0]; tx = str(s_[1]).upper() if len(s_) > 1 and s_[1] else ''; col = s_[2] if len(s_) > 2 and s_[2] else {'cima': '#3ad17a', 'baixo': '#ff5a3a', 'esq': '#ffc93a', 'dir': '#ffc93a'}.get(d_, '#3ad17a')
@@ -995,10 +997,12 @@ def _explica(k, b, light, a, bb):
     if b.get('text'): fx.append(f"txt(X, {a} + 6, {bb}, {json.dumps(b['text'])}, '#fff6e0', '#17305c', 4.4)")
     # camera: sem corte seco; 2 enquadramentos (3/4 de frente -> o angulo que mostra o mecanismo). HUD colado em cima ocupa a parte alta: o objeto fica um pouco abaixo do centro.
     hud_on = any(E.get(x_) for x_ in ('medidor', 'contador', 'passos', 'comparar'))
-    cy = (1.5 if man in ('paira', 'sobe') else 0.0) + Hs * 0.5 + (1.5 if hud_on else 0.25)
+    cy = (1.5 if man in ('paira', 'sobe') else 0.0) + Hs * 0.5 + (0.2 if hud_on else -0.9)
     d0 = round(Ls * (2.55 if hud_on else 2.4) + 2.0, 2); ang = E.get('angulo') or ('baixo' if any(v_.get('k') == 'jato' for v_ in vfx_in) else 'lado')
     k0 = (0.0, cy, z0, d0, 26, 10, 44); k1 = (0.0, cy, z0, round(d0 * 0.9, 2), 12, 8, 44)
-    k2, k3 = {'baixo': ((0.0, cy - 0.5, z0, round(d0 * 0.86, 2), -24, 1.5, 44), (0.0, cy - 0.5, z0, round(d0 * 0.78, 2), -10, 2.5, 44)),
+    if nrot or E.get('setas'): d0 = round(d0 * 1.12, 2); k0 = k0[:3] + (d0,) + k0[4:]; k1 = k1[:3] + (round(d0 * 0.96, 2),) + k1[4:]   # com rotulo/seta a camera fica mais aberta: nada sai do quadro
+    _c2 = 1.16 if (nrot or E.get('setas')) else 1.0
+    k2, k3 = {'baixo': ((0.0, cy - 0.5, z0, round(d0 * 0.86 * _c2, 2), -24, 1.5, 44), (0.0, cy - 0.5, z0, round(d0 * 0.78 * _c2 * 1.05, 2), -10, 2.5, 44)),
               'cima': ((0.0, cy - 0.2, z0, round(d0 * 0.95, 2), -22, 34, 44), (0.0, cy - 0.2, z0, round(d0 * 0.86, 2), -8, 30, 44)),
               'lado': ((0.0, cy, z0, round(d0 * 0.88, 2), -20, 6, 44), (0.0, cy, z0, round(d0 * 0.8, 2), -6, 5, 44))}[ang if ang in ('baixo', 'cima', 'lado') else 'lado']
     Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"

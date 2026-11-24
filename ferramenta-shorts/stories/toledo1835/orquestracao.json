@@ -1,0 +1,124 @@
+{
+ "id": "toledo1835",
+ "ano": 1835,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "cena": "b0",
+   "frase": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b1",
+   "frase": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b2",
+   "frase": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b3",
+   "frase": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b4",
+   "frase": "Houve gritos, ameaças, e tiros por cima dos topógrafos de Ohio. Todos para o alto. Ninguém acertou ninguém.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b5",
+   "frase": "Acontece que a única baixa foi um xerife de Michigan, espetado numa briga de taverna por um rapaz com um canivete.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b6",
+   "frase": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "cena": "b7",
+   "frase": "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "cena": "b8",
+   "frase": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "cena": "b9",
+   "frase": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  }
+ ]
+}

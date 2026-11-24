@@ -3,17 +3,17 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/roadsterpulo2026/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py roadsterpulo2026` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e ...
-- Cenario: outback | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised)
+- Cenario: loc_deserto | luz: noite | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised) | multidao: 0 de MUS/ENA
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/roadster26, kit/torre_luz, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, dois
 - RISCOS: nenhum
 
 ## Cena b1 - Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, dian...
-- Cenario: outback | luz: noite | clima: limpo
+- Cenario: loc_deserto | luz: noite | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -40,10 +40,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: cochichar | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/roadster26
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, pista, segredo, spacex
-- RISCOS: nenhum
+- RISCOS: 
+  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
 
 ## Cena b4 - Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa...
-- Cenario: outback | luz: noite | clima: limpo
+- Cenario: loc_deserto | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
@@ -53,7 +54,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Então se soltou, voou girando no ar e pousou numa nuvem de fumaça bran...
-- Cenario: outback | luz: noite | clima: limpo
+- Cenario: loc_deserto | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ENA (variante 0, expressao shock) | multidao: 0 de POV
@@ -63,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.
-- Cenario: outback | luz: noite | clima: limpo
+- Cenario: loc_deserto | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MUS (variante 0, expressao laugh); ENG (variante 0, expressao surprised)
@@ -73,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Mas especialistas lembraram: aquilo durou poucos segundos, não foi um ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ENG (variante 0, expressao suspicious); ENA (variante 0, expressao bored) | multidao: 12 de POV
@@ -83,17 +84,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Segundo a Tesla, ele vai de zero a cem em menos de um segundo.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ENG (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/roadster26, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tesla, zero
-- RISCOS: nenhum
+- RISCOS: 
+  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
 
 ## Cena b9 - O vídeo correu o mundo. Metade ficou impressionada, a outra metade des...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): POV (variante 0, expressao laugh)
@@ -106,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior galpao | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MUS (variante 0, expressao smile)
+- Personagens principais (1): MUS (variante 0, expressao smile) | multidao: 0 de MUS
 - Animacao: conversar
 - Objetos/modelos: kit/roadster26
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -134,11 +136,13 @@ kit/rampa_curva | b1 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 16% | medio 63% | aberto 19% | detalhe 3%
+- Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 16% | medio 66% | aberto 19% | detalhe 0%
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b3: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+- b8: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).

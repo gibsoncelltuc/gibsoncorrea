@@ -1,0 +1,78 @@
+{
+ "id": "curie1898",
+ "titulo": "Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha",
+ "ancoras": {
+  "ano": 1898,
+  "era": "historica",
+  "regiao": "franca",
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "interior madeira",
+   "interior pedra",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "carro dos anos 50",
+  "escudo",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "crate",
+  "kit/curie_box",
+  "kit/frasco",
+  "kit/lupa",
+  "kit/marco_eiffel",
+  "kit/panela",
+  "kit/room_europa_stone",
+  "kit/room_franca_wood",
+  "kit/scroll",
+  "kit/tubos",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "nature/picket_fence"
+ ],
+ "pesquisa_visual": {
+  "local": "Paris: galpao velho de madeira e vidro da Escola de Fisica e Quimica (rue Lhomond), frio e com goteiras; Biblioteca Nacional da Franca hoje",
+  "quando": "1898 (descoberta do polonio e do radio); Nobel de 1903 e 1911; morte em 1934; hoje",
+  "participantes": [
+   "Marie Curie",
+   "Pierre Curie",
+   "pesquisadores de hoje com roupa de protecao",
+   "jornalistas"
+  ],
+  "roupas": {
+   "MAR": "vestido longo escuro de trabalho, cabelo preso em coque (1898)",
+   "PIE": "sobrecasaca escura e barba",
+   "PES": "macacao branco de protecao e oculos",
+   "JOR": "jornalista",
+   "POV": "parisienses de 1900 com chapeu-coco e boina"
+  },
+  "cenario": "galpao de laboratorio com bancadas, caldeirao de minerio, frascos que brilham verde no escuro; sala de leitura com caixas de chumbo",
+  "objetos": [
+   "cadernos de laboratorio",
+   "frascos de radio brilhando",
+   "caixas de chumbo",
+   "minerio (pechblenda)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Marie_Curie",
+   "https://www.bnf.fr/"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

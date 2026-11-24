@@ -1,5 +1,5 @@
 // Guerras Inusitadas EP 03 - A Guerra de Toledo -- GERADO por mkvideo.py a partir de videos/toledo1835/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"vehicles/tank": ["kit/tanque_ww1"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false;
+globalThis.REGMAP = {"vehicles/tank": ["kit/tanque_ww1"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false; globalThis.ERA_ANO = 1835; globalThis.ERA_GUERRA = true; globalThis.DRESS_OFF = []; globalThis.LOCCFG = {}; globalThis.LOC_NOITE = false;
 const X = 1000, DK = 6; const X_arctic = 7000; const X_hall = 8000; const X_jungle = 6000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;
 const _MA = (a, b) => { const r = Object.assign({}, a, b); if (a.over && b.over) r.over = Object.assign({}, a.over, b.over); for (const k of ['gests', 'poses', 'moves', 'inters', 'yFns']) if (a[k] && b[k]) r[k] = a[k].concat(b[k]); return r; };   // frame em que a palavra de indice i comeca
