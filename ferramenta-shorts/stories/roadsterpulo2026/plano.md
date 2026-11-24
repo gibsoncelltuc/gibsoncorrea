@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | noite  | - | encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito); encena: sai @14 (acao + som de efeito); encena: tomba @16 (acao + som de efeito) | -
+b0 | two | noite  | - | encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito) | -
 b1 | reveal | noite  | tropa, mapa | - | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | tropa | - | -

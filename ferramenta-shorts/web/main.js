@@ -275,6 +275,8 @@ SETDEF.loc_pista = (X) => {   // pista de testes / patio de evento moderno: asfa
   const c = _locCfg('loc_pista'); groundPlane(X, 0, 320, 240, toon({ color: c.chao || '#3a3d45' }), DECK, 8);
   if (c.linhas !== false) { const wl = toon({ color: '#e9e9e2' }), yl = toon({ color: '#e8c33a' }); for (let i = -14; i <= 14; i++) { const m = add(box(3.4, 0.02, 0.22), wl, X + i * 7, DECK + 0.03, 3.2, world); m.castShadow = false; }
     for (const z of [-7.5, 8.5]) { const m = add(box(260, 0.02, 0.2), yl, X, DECK + 0.03, z, world); m.castShadow = false; } }
+  if (globalThis.LOC_NOITE && c.refletores !== false) {   /* evento/pista a NOITE e' iluminado por refletores: mancha de luz no asfalto (senao a cena fica um breu e o estilo reprova) */
+    for (const [r, col, y] of [[30, '#59607c', 0.012], [19, '#737c9c', 0.016], [10, '#8d97b6', 0.02]]) { const m = add(new THREE.CircleGeometry(r, 48), new THREE.MeshBasicMaterial({ color: col, fog: false }), X, DECK + y, -5, world); m.rotation.x = -Math.PI / 2; m.scale.set(1.5, 1, 1); m.castShadow = false; m.userData.ndSkip = true; } }
   if ((c.horizonte || 'colinas') === 'colinas') farHills(X, -150, c.cor_horizonte || '#2c3140', '#343a4c', 14, 300);
   else if (c.horizonte === 'cidade') _locBoxCity(X, -90, ['#4b5568', '#5a6478', '#3f4858', '#667189']);
   _locItens('loc_pista', X);
