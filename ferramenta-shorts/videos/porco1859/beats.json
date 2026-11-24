@@ -157,7 +157,7 @@
   {
    "shot": "two",
    "who": [
-    "FAZ:0:angry"
+    "FAZ:0:angry:rifle"
    ],
    "fx": [
     "burst@24"
