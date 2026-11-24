@@ -69,7 +69,8 @@
     "expr": "neutral"
    },
    "say": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
-   "fachada": false
+   "fachada": false,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -82,8 +83,15 @@
    "acao": "conversar",
    "text": "ONU - NOVA YORK",
    "say": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
-   "interior": "madeira",
-   "fachada": true
+   "fachada": true,
+   "set": "hall",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
    "shot": "two",
@@ -142,10 +150,9 @@
    ],
    "objetos": false,
    "say": "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.",
-   "interior": "madeira",
    "fachada": false,
    "quadro": {
-    "local": "sala de madeira",
+    "local": "salao",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -157,6 +164,7 @@
     ]
    },
    "detalhe": true,
+   "set": "hall",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -171,8 +179,8 @@
    "props": [
     [
      "mk/BookStand",
-     0.0,
-     -1.0,
+     0,
+     -1.5,
      2.0
     ]
    ],
@@ -196,7 +204,7 @@
    "say": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
    "fachada": false,
    "tiros": false,
-   "_auto_vis": 1
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -207,8 +215,37 @@
    "acao": "conversar",
    "objetos": false,
    "say": "Depois explicou: o mundo novo está onde essa foto vai parar, na internet.",
-   "interior": "pedra",
-   "fachada": false
+   "fachada": false,
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -1.2,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "set": "hall",
+   "quadro": {
+    "local": "salao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -218,7 +255,6 @@
    ],
    "objetos": false,
    "say": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
-   "interior": "madeira",
    "fachada": false,
    "text": "KODAK?",
    "batalha": false,
@@ -226,7 +262,8 @@
     "n": 0
    },
    "impact": false,
-   "tiros": false
+   "tiros": false,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -277,7 +314,7 @@
    "props": [
     [
      "kit/phone",
-     1.2,
+     2.4,
      0.2,
      1.2,
      {
@@ -306,8 +343,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   }
  ],
  "fontes": [

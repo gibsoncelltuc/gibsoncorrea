@@ -31,6 +31,34 @@
   },
   {
    "tipo": "lugar",
+   "item": "Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tij",
+   "consultas": [
+    "Filadelfia colonia da Pensilvania",
+    "Filadelfia colonia da Pensilvania 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "Map of New Jersey and Pennsylvania WDL9594.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Map_of_New_Jersey_and_Pennsylvania_WDL9594.png/500px-Map_of_New_Jersey_and_Pennsylvania_WDL9594.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMap_of_New_Jersey_and_Pennsylvania_WDL9594.png",
+     "descricao": "de Nova Jersey e \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/filadelfia_colonia_da_pensilvania_campo__86d615.jpg",
+     "consulta": "Filadelfia colonia da Pensilvania"
+    },
+    {
+     "titulo": "A Map of the Country round Philadelphia Including Part of New Jersey and New York, 1776 WDL9577.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/A_Map_of_the_Country_round_Philadelphia_Including_Part_of_New_Jersey_and_New_York%2C_1776_WDL9577.png/500px-A_Map_of_the_Country_round_Philadelphia_Including_Part_of_New_Jersey_and_New_York%2C_1776_WDL9577.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_Map_of_the_Country_round_Philadelphia_Including_Part_of_New_Jersey_and_New_York%2C_1776_WDL9577.png",
+     "descricao": "中文：​费城周边郡县地图，包括新泽西州和纽约部分地区，1776 年 Português: Um mapa do território ao redor \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/franklin1752/prints/filadelfia_colonia_da_pensilvania_campo__c3a3e2.jpg",
+     "consulta": "Filadelfia colonia da Pensilvania"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Estados Unidos",
    "consultas": [
     "Estados Unidos 1752",
@@ -47,21 +75,21 @@
      "consulta": "Estados Unidos 1752"
     },
     {
-     "titulo": "Road to Lassen Volcanic National Park - HCP - October 10, 2022 - 002.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Road_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_002.jpg/500px-Road_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_002.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoad_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_002.jpg",
+     "titulo": "Road to Lassen Volcanic National Park - HCP - October 10, 2022 - 007.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Road_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_007.jpg/500px-Road_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_007.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoad_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_007.jpg",
      "descricao": "it under the following license: English A view of the area leading up to \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/franklin1752/prints/estados_unidos_e289f0.jpg",
+     "ordem": 4,
+     "print": "referencias/franklin1752/prints/estados_unidos_560c43.jpg",
      "consulta": "Estados Unidos 1752"
     },
     {
-     "titulo": "Far Northeast Lassen County, California (1290759974).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Far_Northeast_Lassen_County%2C_California_%281290759974%29.jpg/500px-Far_Northeast_Lassen_County%2C_California_%281290759974%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AFar_Northeast_Lassen_County%2C_California_%281290759974%29.jpg",
-     "descricao": "DescriptionFar Northeast \\u003Cspan class=\\",
-     "ordem": 17,
-     "print": "referencias/franklin1752/prints/estados_unidos_76ffae.jpg",
+     "titulo": "Road to Lassen Volcanic National Park - HCP - October 10, 2022 - 005.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Road_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_005.jpg/500px-Road_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_005.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoad_to_Lassen_Volcanic_National_Park_-_HCP_-_October_10%2C_2022_-_005.jpg",
+     "descricao": "it under the following license: English A view of the area leading up to \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/franklin1752/prints/estados_unidos_214fe8.jpg",
      "consulta": "Estados Unidos 1752"
     }
    ]
@@ -93,13 +121,272 @@
      "consulta": "1752 fashion clothing"
     },
     {
-     "titulo": "Barthélémy Le Couteulx de La Noraye (1752-1799).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Barth%C3%A9l%C3%A9my_Le_Couteulx_de_La_Noraye_%281752-1799%29.jpg/500px-Barth%C3%A9l%C3%A9my_Le_Couteulx_de_La_Noraye_%281752-1799%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABarth%C3%A9l%C3%A9my_Le_Couteulx_de_La_Noraye_%281752-1799%29.jpg",
-     "descricao": "DescriptionBarthélémy Le Couteulx de La Noraye (\\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/franklin1752/prints/roupas_e_ruas_de_1752_f34360.jpg",
+     "titulo": "Pompeo batoni, ritratto di ralph howard, primo visconte di wicklow, 1752.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pompeo_batoni%2C_ritratto_di_ralph_howard%2C_primo_visconte_di_wicklow%2C_1752.jpg/500px-Pompeo_batoni%2C_ritratto_di_ralph_howard%2C_primo_visconte_di_wicklow%2C_1752.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APompeo_batoni%2C_ritratto_di_ralph_howard%2C_primo_visconte_di_wicklow%2C_1752.jpg",
+     "descricao": "English",
+     "ordem": 3,
+     "print": "referencias/franklin1752/prints/roupas_e_ruas_de_1752_baad2b.jpg",
      "consulta": "1752 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho com",
+   "consultas": [
+    "Benjamin Franklin casaca marrom colete culotes cabelo grisalho comprido",
+    "Benjamin Franklin casaca marrom colete culotes cabelo grisalho comprido 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "Benjamin Franklin 1767.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Benjamin_Franklin_1767.jpg/500px-Benjamin_Franklin_1767.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABenjamin_Franklin_1767.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/benjamin_franklin_casaca_marrom_colete_c_b21975.jpg",
+     "consulta": "Benjamin Franklin"
+    },
+    {
+     "titulo": "Joseph Siffrein Duplessis - Benjamin Franklin - Google Art Project.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg/500px-Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJoseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+     "descricao": "English A portrait of \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/benjamin_franklin_casaca_marrom_colete_c_c84161.jpg",
+     "consulta": "Benjamin Franklin"
+    },
+    {
+     "titulo": "Benjamin Franklin Tilley - NH 67313.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Benjamin_Franklin_Tilley_-_NH_67313.jpg/500px-Benjamin_Franklin_Tilley_-_NH_67313.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABenjamin_Franklin_Tilley_-_NH_67313.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/franklin1752/prints/benjamin_franklin_casaca_marrom_colete_c_35db16.jpg",
+     "consulta": "Benjamin Franklin"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "filho William",
+   "consultas": [
+    "filho William",
+    "filho William 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "Pai Guilherme e filho (1).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Pai_Guilherme_e_filho_%281%29.jpg/500px-Pai_Guilherme_e_filho_%281%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APai_Guilherme_e_filho_%281%29.jpg",
+     "descricao": "DescriptionPai Guilherme e \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/filho_william_03cbdc.jpg",
+     "consulta": "filho William"
+    },
+    {
+     "titulo": "Pai Guilherme e filho (2).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pai_Guilherme_e_filho_%282%29.jpg/500px-Pai_Guilherme_e_filho_%282%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APai_Guilherme_e_filho_%282%29.jpg",
+     "descricao": "DescriptionPai Guilherme e \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/filho_william_e2322e.jpg",
+     "consulta": "filho William"
+    },
+    {
+     "titulo": "Pai Guilherme e filho (3).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pai_Guilherme_e_filho_%283%29.jpg/500px-Pai_Guilherme_e_filho_%283%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APai_Guilherme_e_filho_%283%29.jpg",
+     "descricao": "DescriptionPai Guilherme e \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/franklin1752/prints/filho_william_d3712d.jpg",
+     "consulta": "filho William"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores coloniais",
+   "consultas": [
+    "moradores coloniais",
+    "moradores coloniais 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "Schützenscheibe 1752 Mallem nescisse futura.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sch%C3%BCtzenscheibe_1752_Mallem_nescisse_futura.jpg/500px-Sch%C3%BCtzenscheibe_1752_Mallem_nescisse_futura.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASch%C3%BCtzenscheibe_1752_Mallem_nescisse_futura.jpg",
+     "descricao": "English quantity: \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/moradores_coloniais_f61ced.jpg",
+     "consulta": "1752"
+    },
+    {
+     "titulo": "Francisco Javier de Santiago Palomares (1752) retrato de Juan de Mariana.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Francisco_Javier_de_Santiago_Palomares_%281752%29_retrato_de_Juan_de_Mariana.png/500px-Francisco_Javier_de_Santiago_Palomares_%281752%29_retrato_de_Juan_de_Mariana.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrancisco_Javier_de_Santiago_Palomares_%281752%29_retrato_de_Juan_de_Mariana.png",
+     "descricao": "org/publicdomain/mark/\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/moradores_coloniais_14346a.jpg",
+     "consulta": "1752"
+    },
+    {
+     "titulo": "Giambattista Tiepolo - La morte di Giacinto (1752-53) - Museo Nacional Thyssen-Bornemisza Madrid.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Giambattista_Tiepolo_-_La_morte_di_Giacinto_%281752-53%29_-_Museo_Nacional_Thyssen-Bornemisza_Madrid.jpg/500px-Giambattista_Tiepolo_-_La_morte_di_Giacinto_%281752-53%29_-_Museo_Nacional_Thyssen-Bornemisza_Madrid.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGiambattista_Tiepolo_-_La_morte_di_Giacinto_%281752-53%29_-_Museo_Nacional_Thyssen-Bornemisza_Madrid.jpg",
+     "descricao": "of Hyacinth (\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/franklin1752/prints/moradores_coloniais_6c4a20.jpg",
+     "consulta": "1752"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pipa de seda",
+   "consultas": [
+    "pipa de seda",
+    "pipa de seda 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "Mafra's Convent - Palace (50202803868).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mafra%27s_Convent_-_Palace_%2850202803868%29.jpg/500px-Mafra%27s_Convent_-_Palace_%2850202803868%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMafra%27s_Convent_-_Palace_%2850202803868%29.jpg",
+     "descricao": "Obras \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/pipa_de_seda_04302f.jpg",
+     "consulta": "pipa de seda"
+    },
+    {
+     "titulo": "Mafra's Convent - Basilique - One of the Domes (50230326197).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mafra%27s_Convent_-_Basilique_-_One_of_the_Domes_%2850230326197%29.jpg/500px-Mafra%27s_Convent_-_Basilique_-_One_of_the_Domes_%2850230326197%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMafra%27s_Convent_-_Basilique_-_One_of_the_Domes_%2850230326197%29.jpg",
+     "descricao": "Obras \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/pipa_de_seda_0bf8e0.jpg",
+     "consulta": "pipa de seda"
+    },
+    {
+     "titulo": "Mafra's Convent - Basilique - One of the several chapels (50202833723).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mafra%27s_Convent_-_Basilique_-_One_of_the_several_chapels_%2850202833723%29.jpg/500px-Mafra%27s_Convent_-_Basilique_-_One_of_the_several_chapels_%2850202833723%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMafra%27s_Convent_-_Basilique_-_One_of_the_several_chapels_%2850202833723%29.jpg",
+     "descricao": "Obras \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/franklin1752/prints/pipa_de_seda_35aee2.jpg",
+     "consulta": "pipa de seda"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "chave de metal",
+   "consultas": [
+    "chave de metal",
+    "chave de metal 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "Kreuzschlüssel.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kreuzschl%C3%BCssel.jpg/500px-Kreuzschl%C3%BCssel.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKreuzschl%C3%BCssel.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following licenses: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/chave_de_metal_880808.jpg",
+     "consulta": "chave de metal"
+    },
+    {
+     "titulo": "Kreuzschlüssel,Lug wrenches.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kreuzschl%C3%BCssel%2CLug_wrenches.jpg/500px-Kreuzschl%C3%BCssel%2CLug_wrenches.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKreuzschl%C3%BCssel%2CLug_wrenches.jpg",
+     "descricao": "https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English French Deux clés en croix \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/chave_de_metal_b5700e.jpg",
+     "consulta": "chave de metal"
+    },
+    {
+     "titulo": "Kreuzschlüssel GDR,DDR.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kreuzschl%C3%BCssel_GDR%2CDDR.jpg/500px-Kreuzschl%C3%BCssel_GDR%2CDDR.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKreuzschl%C3%BCssel_GDR%2CDDR.jpg",
+     "descricao": "DescriptionKreuzschlüssel GDR,DDR.jpg Kreuzschlüssel, Hergestellt im VVB Werkzeugmaschinen und Werkzeuge[1] Date 25 February 2016 Source Own work Author M_H.\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/franklin1752/prints/chave_de_metal_c43982.jpg",
+     "consulta": "chave de metal"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "garrafa de Leyden",
+   "consultas": [
+    "garrafa de Leyden",
+    "garrafa de Leyden 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "Garrafa de leyden.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Garrafa_de_leyden.jpg/500px-Garrafa_de_leyden.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGarrafa_de_leyden.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/garrafa_de_leyden_d2f8c7.jpg",
+     "consulta": "garrafa de Leyden"
+    },
+    {
+     "titulo": "Wimshurst machine Leyden jar Katowice 2020.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Wimshurst_machine_Leyden_jar_Katowice_2020.jpg/500px-Wimshurst_machine_Leyden_jar_Katowice_2020.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWimshurst_machine_Leyden_jar_Katowice_2020.jpg",
+     "descricao": "4.0 Creative Commons Attribution 4.0 truetrue English charging of an \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/garrafa_de_leyden_87465d.jpg",
+     "consulta": "garrafa de Leyden"
+    },
+    {
+     "titulo": "Leyden jar engraving.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Leyden_jar_engraving.png/500px-Leyden_jar_engraving.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALeyden_jar_engraving.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/franklin1752/prints/garrafa_de_leyden_d34665.jpg",
+     "consulta": "garrafa de Leyden"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "para-raios",
+   "consultas": [
+    "para-raios",
+    "para-raios 1752"
+   ],
+   "achados": [
+    {
+     "titulo": "EB1911 - Lightning Conductor - Fig. 3.—Aigrette.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/EB1911_-_Lightning_Conductor_-_Fig._3.%E2%80%94Aigrette.jpg/500px-EB1911_-_Lightning_Conductor_-_Fig._3.%E2%80%94Aigrette.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEB1911_-_Lightning_Conductor_-_Fig._3.%E2%80%94Aigrette.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/para_raios_bd1efa.jpg",
+     "consulta": "para-raios"
+    },
+    {
+     "titulo": "EB1911 - Lightning Conductor - Fig. 2—Holdfast mounting.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/EB1911_-_Lightning_Conductor_-_Fig._2%E2%80%94Holdfast_mounting.jpg/500px-EB1911_-_Lightning_Conductor_-_Fig._2%E2%80%94Holdfast_mounting.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEB1911_-_Lightning_Conductor_-_Fig._2%E2%80%94Holdfast_mounting.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/para_raios_a5c3ea.jpg",
+     "consulta": "para-raios"
+    },
+    {
+     "titulo": "EB1911 - Lightning Conductor - Fig. 4.—Holdfast on Roof.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/EB1911_-_Lightning_Conductor_-_Fig._4.%E2%80%94Holdfast_on_Roof.jpg/500px-EB1911_-_Lightning_Conductor_-_Fig._4.%E2%80%94Holdfast_on_Roof.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEB1911_-_Lightning_Conductor_-_Fig._4.%E2%80%94Holdfast_on_Roof.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/franklin1752/prints/para_raios_01facb.jpg",
+     "consulta": "para-raios"
     }
    ]
   },
@@ -107,36 +394,36 @@
    "tipo": "heroi",
    "item": "kite",
    "consultas": [
-    "kite",
+    "pipa de seda",
     "Franklin a Pipa e o Raio"
    ],
    "achados": [
     {
-     "titulo": "Kite flying over Pasing 04.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kite_flying_over_Pasing_04.jpg/500px-Kite_flying_over_Pasing_04.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKite_flying_over_Pasing_04.jpg",
-     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "titulo": "Mafra's Convent - Palace (50202803868).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mafra%27s_Convent_-_Palace_%2850202803868%29.jpg/500px-Mafra%27s_Convent_-_Palace_%2850202803868%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMafra%27s_Convent_-_Palace_%2850202803868%29.jpg",
+     "descricao": "Obras \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/franklin1752/prints/kite_04302f.jpg",
+     "consulta": "pipa de seda"
+    },
+    {
+     "titulo": "Mafra's Convent - Basilique - One of the Domes (50230326197).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mafra%27s_Convent_-_Basilique_-_One_of_the_Domes_%2850230326197%29.jpg/500px-Mafra%27s_Convent_-_Basilique_-_One_of_the_Domes_%2850230326197%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMafra%27s_Convent_-_Basilique_-_One_of_the_Domes_%2850230326197%29.jpg",
+     "descricao": "Obras \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/franklin1752/prints/kite_0bf8e0.jpg",
+     "consulta": "pipa de seda"
+    },
+    {
+     "titulo": "Mafra's Convent - Basilique - One of the several chapels (50202833723).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mafra%27s_Convent_-_Basilique_-_One_of_the_several_chapels_%2850202833723%29.jpg/500px-Mafra%27s_Convent_-_Basilique_-_One_of_the_several_chapels_%2850202833723%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMafra%27s_Convent_-_Basilique_-_One_of_the_several_chapels_%2850202833723%29.jpg",
+     "descricao": "Obras \\u003Cspan class=\\",
      "ordem": 3,
-     "print": "referencias/franklin1752/prints/kite_8b77b7.jpg",
-     "consulta": "kite"
-    },
-    {
-     "titulo": "20191215 Kite playing in Pushkar 1228 8785.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/20191215_Kite_playing_in_Pushkar_1228_8785.jpg/500px-20191215_Kite_playing_in_Pushkar_1228_8785.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A20191215_Kite_playing_in_Pushkar_1228_8785.jpg",
-     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Boys playing with \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/franklin1752/prints/kite_b8ceff.jpg",
-     "consulta": "kite"
-    },
-    {
-     "titulo": "Jules and Gabriel flying a kite at Alameda Afonso Henriques, Lisbon, Portugal (PPL1-Corrected) julesvernex2-2.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jules_and_Gabriel_flying_a_kite_at_Alameda_Afonso_Henriques%2C_Lisbon%2C_Portugal_%28PPL1-Corrected%29_julesvernex2-2.jpg/500px-Jules_and_Gabriel_flying_a_kite_at_Alameda_Afonso_Henriques%2C_Lisbon%2C_Portugal_%28PPL1-Corrected%29_julesvernex2-2.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AJules_and_Gabriel_flying_a_kite_at_Alameda_Afonso_Henriques%2C_Lisbon%2C_Portugal_%28PPL1-Corrected%29_julesvernex2-2.jpg",
-     "descricao": "Attribution-Share Alike 4.0 truetrue English Jules and Gabriel flying a \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/franklin1752/prints/kite_4b7108.jpg",
-     "consulta": "kite"
+     "print": "referencias/franklin1752/prints/kite_35aee2.jpg",
+     "consulta": "pipa de seda"
     }
    ]
   }

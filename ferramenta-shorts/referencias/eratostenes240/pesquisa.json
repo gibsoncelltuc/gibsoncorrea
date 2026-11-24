@@ -12,6 +12,43 @@
   },
   {
    "tipo": "lugar",
+   "item": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese",
+   "consultas": [
+    "Alexandria",
+    "Alexandria Egito"
+   ],
+   "achados": [
+    {
+     "titulo": "AlexandriaOleTowne.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/AlexandriaOleTowne.jpg/500px-AlexandriaOleTowne.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAlexandriaOleTowne.jpg",
+     "descricao": "English Ole Towne, \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/eratostenes240/prints/alexandria_egito_biblioteca_e_patio_com__67331c.jpg",
+     "consulta": "Alexandria"
+    },
+    {
+     "titulo": "Alexandria Arlington Virginia Map.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Alexandria_Arlington_Virginia_Map.png/500px-Alexandria_Arlington_Virginia_Map.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAlexandria_Arlington_Virginia_Map.png",
+     "descricao": "I, \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/eratostenes240/prints/alexandria_egito_biblioteca_e_patio_com__1a8c0b.jpg",
+     "consulta": "Alexandria"
+    },
+    {
+     "titulo": "City of Alexandria Courthouse (September 2023) 03.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/City_of_Alexandria_Courthouse_%28September_2023%29_03.jpg/500px-City_of_Alexandria_Courthouse_%28September_2023%29_03.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACity_of_Alexandria_Courthouse_%28September_2023%29_03.jpg",
+     "descricao": "I, \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/eratostenes240/prints/alexandria_egito_biblioteca_e_patio_com__c70db6.jpg",
+     "consulta": "Alexandria"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Egito",
    "consultas": [
     "Egito",
@@ -37,13 +74,247 @@
      "consulta": "Egito"
     },
     {
-     "titulo": "Vera Egito als Cinemes Girona 2.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Vera_Egito_als_Cinemes_Girona_2.jpg/500px-Vera_Egito_als_Cinemes_Girona_2.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AVera_Egito_als_Cinemes_Girona_2.jpg",
+     "titulo": "Vera Egito als Cinemes Girona 4.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Vera_Egito_als_Cinemes_Girona_4.jpg/500px-Vera_Egito_als_Cinemes_Girona_4.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVera_Egito_als_Cinemes_Girona_4.jpg",
      "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Catalan Vera \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/eratostenes240/prints/egito_4d60cd.jpg",
+     "ordem": 3,
+     "print": "referencias/eratostenes240/prints/egito_dc1061.jpg",
      "consulta": "Egito"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Eratostenes (tunica grega branca e manto, barba)",
+   "consultas": [
+    "Eratostenes tunica grega branca e manto barba"
+   ],
+   "achados": [
+    {
+     "titulo": "Bathy Eratosthene.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bathy_Eratosthene.jpg/500px-Bathy_Eratosthene.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABathy_Eratosthene.jpg",
+     "descricao": "I, the copyright holder \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/eratostenes240/prints/eratostenes_tunica_grega_branca_e_manto__61e043.jpg",
+     "consulta": "Eratostenes"
+    },
+    {
+     "titulo": "Eratosthenes.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Eratosthenes.jpg/500px-Eratosthenes.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEratosthenes.jpg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/eratostenes240/prints/eratostenes_tunica_grega_branca_e_manto__ce3207.jpg",
+     "consulta": "Eratostenes"
+    },
+    {
+     "titulo": "Eratosthenes (LRO).png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Eratosthenes_%28LRO%29.png/500px-Eratosthenes_%28LRO%29.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEratosthenes_%28LRO%29.png",
+     "descricao": "jurisdiction: United States determination method or standard: work \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/eratostenes240/prints/eratostenes_tunica_grega_branca_e_manto__362004.jpg",
+     "consulta": "Eratostenes"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "bibliotecario assistente",
+   "consultas": [
+    "bibliotecario assistente"
+   ],
+   "achados": [
+    {
+     "titulo": "Library Technician - 1992 - BLS.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Library_Technician_-_1992_-_BLS.png/500px-Library_Technician_-_1992_-_BLS.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALibrary_Technician_-_1992_-_BLS.png",
+     "descricao": "English A \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/eratostenes240/prints/bibliotecario_assistente_0b279d.jpg",
+     "consulta": "bibliotecario assistente"
+    },
+    {
+     "titulo": "Brian Storm.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Brian_Storm.jpg/500px-Brian_Storm.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrian_Storm.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 2,
+     "print": "referencias/eratostenes240/prints/bibliotecario_assistente_449e1f.jpg",
+     "consulta": "bibliotecario assistente"
+    },
+    {
+     "titulo": "Fedlink Library Technician of the Year Award (7200563).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fedlink_Library_Technician_of_the_Year_Award_%287200563%29.jpg/500px-Fedlink_Library_Technician_of_the_Year_Award_%287200563%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFedlink_Library_Technician_of_the_Year_Award_%287200563%29.jpg",
+     "descricao": "the course of their career. Reginald Stewart (middle), working as \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/eratostenes240/prints/bibliotecario_assistente_b2b452.jpg",
+     "consulta": "bibliotecario assistente"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "camelos e caravana para medir a distancia",
+   "consultas": [
+    "camelos e caravana para medir a distancia"
+   ],
+   "achados": [
+    {
+     "titulo": "Syr Darya Oblast. Caravan WDL10966.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Syr_Darya_Oblast._Caravan_WDL10966.png/500px-Syr_Darya_Oblast._Caravan_WDL10966.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASyr_Darya_Oblast._Caravan_WDL10966.png",
+     "descricao": "cidades, comerciantes de rua e atividades comerciais (Placas 92–163). \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/eratostenes240/prints/camelos_e_caravana_para_medir_a_distanci_5d0186.jpg",
+     "consulta": "camelos caravana"
+    },
+    {
+     "titulo": "Turkestan Krai. Night Lodging Site for Caravans WDL11115.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Turkestan_Krai._Night_Lodging_Site_for_Caravans_WDL11115.png/500px-Turkestan_Krai._Night_Lodging_Site_for_Caravans_WDL11115.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATurkestan_Krai._Night_Lodging_Site_for_Caravans_WDL11115.png",
+     "descricao": "cidades, comerciantes de rua e atividades comerciais (Placas 92–163). \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/eratostenes240/prints/camelos_e_caravana_para_medir_a_distanci_c166af.jpg",
+     "consulta": "camelos caravana"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "vara (gnomon)",
+   "consultas": [
+    "vara"
+   ],
+   "achados": [
+    {
+     "titulo": "VARA logo 1925.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/VARA_logo_1925.jpg/500px-VARA_logo_1925.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVARA_logo_1925.jpg",
+     "descricao": "https://creativecommons.org/publicdomain/mark/1.0/PDMCreative Commons Public Domain Mark 1.0falsefalse English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/eratostenes240/prints/vara_gnomon__7918dc.jpg",
+     "consulta": "vara"
+    },
+    {
+     "titulo": "VARA-radio van bouwpakket.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/VARA-radio_van_bouwpakket.jpg/500px-VARA-radio_van_bouwpakket.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVARA-radio_van_bouwpakket.jpg",
+     "descricao": "English Dutch Radio uit begin 20ste eeuw op basis van een bouwpakket van de \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/eratostenes240/prints/vara_gnomon__b84a9c.jpg",
+     "consulta": "vara"
+    },
+    {
+     "titulo": "Vara konserthus 2004.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vara_konserthus_2004.jpg/500px-Vara_konserthus_2004.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVara_konserthus_2004.jpg",
+     "descricao": "Concert hall at \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/eratostenes240/prints/vara_gnomon__eb2f4d.jpg",
+     "consulta": "vara"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "poco de pedra",
+   "consultas": [
+    "poco de pedra"
+   ],
+   "achados": [
+    {
+     "titulo": "Roca de la Ley, Parque Nacional de Þingvellir, Suðurland, Islandia, 2014-08-16, DD 019.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Roca_de_la_Ley%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_019.jpg/500px-Roca_de_la_Ley%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_019.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoca_de_la_Ley%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_019.jpg",
+     "descricao": "Lögberg ou \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/eratostenes240/prints/poco_de_pedra_0b982d.jpg",
+     "consulta": "poco de pedra"
+    },
+    {
+     "titulo": "Iglesia de Cristo, Windhoek, Namibia, 2018-08-04, DD 02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Iglesia_de_Cristo%2C_Windhoek%2C_Namibia%2C_2018-08-04%2C_DD_02.jpg/500px-Iglesia_de_Cristo%2C_Windhoek%2C_Namibia%2C_2018-08-04%2C_DD_02.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIglesia_de_Cristo%2C_Windhoek%2C_Namibia%2C_2018-08-04%2C_DD_02.jpg",
+     "descricao": " hereros e ovambos. Foi construída \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/eratostenes240/prints/poco_de_pedra_b42b81.jpg",
+     "consulta": "poco de pedra"
+    },
+    {
+     "titulo": "Sinfonía de las Piedras, valle de Garni, Armenia, 2016-10-02, DD 33.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sinfon%C3%ADa_de_las_Piedras%2C_valle_de_Garni%2C_Armenia%2C_2016-10-02%2C_DD_33.jpg/500px-Sinfon%C3%ADa_de_las_Piedras%2C_valle_de_Garni%2C_Armenia%2C_2016-10-02%2C_DD_33.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASinfon%C3%ADa_de_las_Piedras%2C_valle_de_Garni%2C_Armenia%2C_2016-10-02%2C_DD_33.jpg",
+     "descricao": "colunas \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/eratostenes240/prints/poco_de_pedra_c059c2.jpg",
+     "consulta": "poco de pedra"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "rolos de papiro",
+   "consultas": [
+    "rolos de papiro"
+   ],
+   "achados": [
+    {
+     "titulo": "GM 1091.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/GM_1091.jpg/500px-GM_1091.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGM_1091.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 1,
+     "print": "referencias/eratostenes240/prints/rolos_de_papiro_c85cb1.jpg",
+     "consulta": "rolos de papiro"
+    },
+    {
+     "titulo": "Entire Tanakh scroll set.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Entire_Tanakh_scroll_set.png/500px-Entire_Tanakh_scroll_set.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEntire_Tanakh_scroll_set.png",
+     "descricao": "DescriptionEntire Tanakh \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/eratostenes240/prints/rolos_de_papiro_841341.jpg",
+     "consulta": "rolos de papiro"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "globo",
+   "consultas": [
+    "globo"
+   ],
+   "achados": [
+    {
+     "titulo": "TV Globo hq 2.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TV_Globo_hq_2.jpg/500px-TV_Globo_hq_2.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATV_Globo_hq_2.jpg",
+     "descricao": "truetrue English \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/eratostenes240/prints/globo_861c50.jpg",
+     "consulta": "globo"
+    },
+    {
+     "titulo": "Grupo Globo headquarters.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Grupo_Globo_headquarters.jpg/500px-Grupo_Globo_headquarters.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGrupo_Globo_headquarters.jpg",
+     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/eratostenes240/prints/globo_c57251.jpg",
+     "consulta": "globo"
+    },
+    {
+     "titulo": "Globo Brasília Logo.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Globo_Bras%C3%ADlia_Logo.png/500px-Globo_Bras%C3%ADlia_Logo.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlobo_Bras%C3%ADlia_Logo.png",
+     "descricao": "org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English Portuguese \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/eratostenes240/prints/globo_efe615.jpg",
+     "consulta": "globo"
     }
    ]
   },
@@ -51,36 +322,36 @@
    "tipo": "heroi",
    "item": "globe",
    "consultas": [
-    "globe",
+    "vara",
     "Eratóstenes Mede a Terra"
    ],
    "achados": [
     {
-     "titulo": "Globe with yellow background 1.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Globe_with_yellow_background_1.jpg/500px-Globe_with_yellow_background_1.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlobe_with_yellow_background_1.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/eratostenes240/prints/globe_5aa9cf.jpg",
-     "consulta": "globe"
+     "titulo": "VARA-radio van bouwpakket.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/VARA-radio_van_bouwpakket.jpg/500px-VARA-radio_van_bouwpakket.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVARA-radio_van_bouwpakket.jpg",
+     "descricao": "English Dutch Radio uit begin 20ste eeuw op basis van een bouwpakket van de \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/eratostenes240/prints/globe_b84a9c.jpg",
+     "consulta": "vara"
     },
     {
-     "titulo": "Globe with yellow background 2.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Globe_with_yellow_background_2.jpg/500px-Globe_with_yellow_background_2.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlobe_with_yellow_background_2.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/eratostenes240/prints/globe_8168f4.jpg",
-     "consulta": "globe"
-    },
-    {
-     "titulo": "Line of Globes.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Line_of_Globes.jpg/500px-Line_of_Globes.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALine_of_Globes.jpg",
-     "descricao": "Commons Attribution-Share Alike 2.0 truetrue 20 March 2024 English Line of \\u003Cspan class=\\",
+     "titulo": "Vara konserthus 2004.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vara_konserthus_2004.jpg/500px-Vara_konserthus_2004.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVara_konserthus_2004.jpg",
+     "descricao": "Concert hall at \\u003Cspan class=\\",
      "ordem": 5,
-     "print": "referencias/eratostenes240/prints/globe_22d383.jpg",
-     "consulta": "globe"
+     "print": "referencias/eratostenes240/prints/globe_eb2f4d.jpg",
+     "consulta": "vara"
+    },
+    {
+     "titulo": "La Vara medida española.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/La_Vara_medida_espa%C3%B1ola.jpg/500px-La_Vara_medida_espa%C3%B1ola.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALa_Vara_medida_espa%C3%B1ola.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Spanish La \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/eratostenes240/prints/globe_39ad21.jpg",
+     "consulta": "vara"
     }
    ]
   },
@@ -91,6 +362,15 @@
     "stick"
    ],
    "achados": [
+    {
+     "titulo": "The Photographer.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/The_Photographer.jpg/500px-The_Photographer.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Photographer.jpg",
+     "descricao": "bewegt, oder von ihm fort. English: Old black and white photo of an man \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/eratostenes240/prints/stick_63fa1b.jpg",
+     "consulta": "stick"
+    },
     {
      "titulo": "Dalmatian fetching a stick.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Dalmatian_fetching_a_stick.jpg/500px-Dalmatian_fetching_a_stick.jpg",
@@ -107,15 +387,6 @@
      "descricao": "Attribution-Share Alike 4.0 truetrue English Experiment with lens ball and light \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/eratostenes240/prints/stick_56cde7.jpg",
-     "consulta": "stick"
-    },
-    {
-     "titulo": "Glaskugel -- 2022 -- 9846.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Glaskugel_--_2022_--_9846.jpg/500px-Glaskugel_--_2022_--_9846.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlaskugel_--_2022_--_9846.jpg",
-     "descricao": "ball is placed on a glass plate in front of a black background. The light \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/eratostenes240/prints/stick_c26f82.jpg",
      "consulta": "stick"
     }
    ]
