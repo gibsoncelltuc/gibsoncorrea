@@ -12,121 +12,81 @@
   },
   {
    "tipo": "lugar",
-   "item": "Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunsw",
-   "consultas": [
-    "Floresta de pinheiros do norte do Maine rio Aroostook fronteira com New Brunswick",
-    "Floresta de pinheiros do norte do Maine rio Aroostook fronteira com New Brunswick Fort Fai"
-   ]
-  },
-  {
-   "tipo": "lugar",
    "item": "Maine",
    "consultas": [
-    "Maine 1838",
-    "Maine landscape"
+    "Aroostook County Maine 1840s lithograph forest",
+    "Maine",
+    "Maine 1838"
    ]
   },
   {
    "tipo": "epoca",
    "item": "roupas e ruas de 1838",
    "consultas": [
+    "1838 American clothing fashion plate men",
     "1838 fashion clothing",
     "19th century clothing painting"
    ]
   },
   {
    "tipo": "pessoas",
-   "item": "lenhadores americanos do Maine",
+   "item": "Winfield Scott",
    "consultas": [
-    "lenhadores americanos do Maine",
-    "lenhadores americanos do Maine 1838"
+    "Winfield Scott 1840 portrait",
+    "Winfield Scott",
+    "Winfield Scott 1838"
    ]
   },
   {
    "tipo": "pessoas",
-   "item": "lenhadores de New Brunswick",
+   "item": "Daniel Webster e Lord Ashburton",
    "consultas": [
-    "lenhadores de New Brunswick",
-    "lenhadores de New Brunswick 1838"
+    "Webster Ashburton Treaty 1842",
+    "Daniel Webster e Lord Ashburton",
+    "Daniel Webster e Lord Ashburton 1838"
    ]
   },
   {
    "tipo": "pessoas",
-   "item": "Rufus McIntire, agente de terras do Maine",
+   "item": "lenhador de 1838",
    "consultas": [
-    "Rufus McIntire agente de terras do Maine",
-    "Rufus McIntire agente de terras do Maine 1838"
-   ]
-  },
-  {
-   "tipo": "pessoas",
-   "item": "milicianos do Maine",
-   "consultas": [
-    "milicianos do Maine",
-    "milicianos do Maine 1838"
-   ]
-  },
-  {
-   "tipo": "pessoas",
-   "item": "soldados britanicos",
-   "consultas": [
-    "soldados britanicos",
-    "soldados britanicos 1838"
-   ]
-  },
-  {
-   "tipo": "pessoas",
-   "item": "general Winfield Scott",
-   "consultas": [
-    "general Winfield Scott",
-    "general Winfield Scott 1838"
-   ]
-  },
-  {
-   "tipo": "pessoas",
-   "item": "Daniel Webster e Lord Ashburton (tratado 1842)",
-   "consultas": [
-    "Daniel Webster e Lord Ashburton tratado 1842",
-    "Daniel Webster e Lord Ashburton tratado 1842 1838"
+    "lumberjack Maine 19th century engraving",
+    "lenhador de 1838",
+    "lenhador de 1838 1838"
    ]
   },
   {
    "tipo": "objeto",
-   "item": "pilhas de toras",
+   "item": "toras de pinheiro",
    "consultas": [
-    "pilhas de toras",
-    "pilhas de toras 1838"
+    "log drive Maine 19th century",
+    "toras de pinheiro",
+    "toras de pinheiro 1838"
    ]
   },
   {
    "tipo": "objeto",
-   "item": "machado",
+   "item": "machado de lenhador",
    "consultas": [
-    "machado",
-    "machado 1838"
+    "felling axe 19th century",
+    "machado de lenhador",
+    "machado de lenhador 1838"
    ]
   },
   {
    "tipo": "objeto",
-   "item": "cavalos e bois de arraste (equipamento de lenhadores)",
+   "item": "bois de arraste",
    "consultas": [
-    "cavalos e bois de arraste",
-    "cavalos e bois de arraste 1838"
-   ]
-  },
-  {
-   "tipo": "objeto",
-   "item": "documento do tratado",
-   "consultas": [
-    "documento do tratado",
-    "documento do tratado 1838"
+    "oxen hauling logs 19th century Maine",
+    "bois de arraste",
+    "bois de arraste 1838"
    ]
   },
   {
    "tipo": "heroi",
    "item": "logs",
    "consultas": [
-    "pilhas de toras",
+    "toras de pinheiro",
     "A Guerra de Aroostook"
    ]
   },
@@ -134,6 +94,7 @@
    "tipo": "epoca",
    "item": "soldado da epoca",
    "consultas": [
+    "Maine militia 1839 uniform",
     "soldier uniform 1838",
     "soldier uniform"
    ]

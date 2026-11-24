@@ -96,11 +96,13 @@
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém morreu em combate.",
-   "fachada": false
+   "fachada": false,
+   "batalha": false,
+   "tiros": false
   },
   {
    "shot": "reveal",
-   "set": "countryside",
+   "set": "loc_montanha",
    "who": [
     "AME:0:neutral",
     "CAN:0:neutral"
@@ -199,7 +201,7 @@
   },
   {
    "shot": "crowd",
-   "set": "mountain",
+   "set": "loc_montanha",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -240,13 +242,13 @@
   },
   {
    "shot": "two",
-   "set": "mountain",
    "who": [
     "GEN:0:stern",
     "MIL:0:nervous"
    ],
    "interacao": "cochichar",
-   "say": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar."
+   "say": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.",
+   "interior": "madeira"
   },
   {
    "shot": "two",
@@ -311,16 +313,12 @@
  ],
  "regiao": "europa",
  "visual": {
-  "local": "Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunswick (Fort Fairfield/Masardis)",
+  "local": "Maine",
   "quando": "inverno de 1838-1839 (fevereiro de 1839: neve e frio); tratado em 1842",
   "participantes": [
-   "lenhadores americanos do Maine",
-   "lenhadores de New Brunswick",
-   "Rufus McIntire, agente de terras do Maine",
-   "milicianos do Maine",
-   "soldados britanicos",
-   "general Winfield Scott",
-   "Daniel Webster e Lord Ashburton (tratado 1842)"
+   "Winfield Scott",
+   "Daniel Webster e Lord Ashburton",
+   "lenhador de 1838"
   ],
   "roupas": {
    "AME": "casaco de la azul, gorro de la, botas (lenhador americano, gravura de lenhador de Maine ~1830)",
@@ -332,10 +330,9 @@
   },
   "cenario": "mata de pinheiros e rio, acampamento de toras; fortes de madeira (Fort Fairfield, Fort Kent); sala de tratado em madeira/pedra",
   "objetos": [
-   "pilhas de toras",
-   "machado",
-   "cavalos e bois de arraste (equipamento de lenhadores)",
-   "documento do tratado"
+   "toras de pinheiro",
+   "machado de lenhador",
+   "bois de arraste"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Aroostook_War",
@@ -346,6 +343,17 @@
    "loc_montanha",
    "interior pedra",
    "interior madeira"
-  ]
+  ],
+  "buscas": {
+   "Maine": "Aroostook County Maine 1840s lithograph forest",
+   "Winfield Scott": "Winfield Scott 1840 portrait",
+   "Daniel Webster e Lord Ashburton": "Webster Ashburton Treaty 1842",
+   "lenhador de 1838": "lumberjack Maine 19th century engraving",
+   "toras de pinheiro": "log drive Maine 19th century",
+   "machado de lenhador": "felling axe 19th century",
+   "bois de arraste": "oxen hauling logs 19th century Maine",
+   "soldado da epoca": "Maine militia 1839 uniform",
+   "roupas e ruas de 1838": "1838 American clothing fashion plate men"
+  }
  }
 }

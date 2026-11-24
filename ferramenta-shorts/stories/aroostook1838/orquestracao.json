@@ -13,11 +13,6 @@
    "loc_campo"
   ],
   [
-   "cena 2",
-   "countryside",
-   "loc_campo"
-  ],
-  [
    "cena 3",
    "countryside",
    "loc_campo"
@@ -86,7 +81,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
@@ -151,7 +146,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
@@ -187,10 +182,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GEN",
     "PRE"

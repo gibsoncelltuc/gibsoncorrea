@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AME (variante 0, expressao neutral); CAN (variante 0, expressao neutral) | multidao: 8 de AME/CAN
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - O Maine chamou milhares de soldados da milícia, e a colônia inglesa ma...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 30 de MIL/ING
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Mas ninguém queria uma guerra de verdade, então o presidente americano...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous)
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegar...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao smile, segura paper); PRE (variante 0, expressao relief)
 - Animacao: discutir | interacao: entregar | o ultimo personagem ENTRA andando
@@ -130,13 +130,9 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 ## Video inteiro
 - Objeto heroi: kit/logs | grandes momentos: b0, b4 | planos abertos: 3 | mistura: close 10% | medio 73% | aberto 13% | detalhe 3%
 - Interacoes: b2 discutir, b3 aproxima-se, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 avanca e o outro recua
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'loc_campo': 6, 'mountain': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
-  - FOLHA 4: 12 item(ns) sem referencia visual: Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunsw, lenhadores americanos do Maine, lenhadores de New Brunswick, Rufus McIntire, a -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: pouca variedade de cenario ({'loc_campo': 6, 'mountain': 2, 'interior pedra': 2, 'interior madeira': 1}): o video fica parecendo todos os outros
-- geral: FOLHA 4: 12 item(ns) sem referencia visual: Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunsw, lenhadores americanos do Maine, lenhadores de New Brunswick, Rufus McIntire, a
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).

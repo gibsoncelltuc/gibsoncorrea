@@ -1,0 +1,225 @@
+{
+ "duration": 65.256,
+ "frames30": 1958,
+ "source": "silence-align (cost 0.57)",
+ "segments": [
+  [
+   0.160125,
+   4.29871
+  ],
+  [
+   4.53892,
+   5.75817
+  ],
+  [
+   6.62542,
+   8.10008
+  ],
+  [
+   8.33708,
+   12.5805
+  ],
+  [
+   13.4251,
+   14.5733
+  ],
+  [
+   14.8237,
+   17.7481
+  ],
+  [
+   18.0294,
+   19.4164
+  ],
+  [
+   20.2473,
+   22.2757
+  ],
+  [
+   22.5624,
+   26.831
+  ],
+  [
+   27.7028,
+   29.9346
+  ],
+  [
+   30.2427,
+   31.9702
+  ],
+  [
+   32.8221,
+   33.6739
+  ],
+  [
+   33.936,
+   36.4547
+  ],
+  [
+   36.6946,
+   37.9485
+  ],
+  [
+   38.8154,
+   40.7228
+  ],
+  [
+   40.9819,
+   44.545
+  ],
+  [
+   45.3522,
+   47.4458
+  ],
+  [
+   47.7573,
+   49.49
+  ],
+  [
+   50.2921,
+   51.909
+  ],
+  [
+   52.1686,
+   54.5035
+  ],
+  [
+   54.8248,
+   56.6874
+  ],
+  [
+   57.6182,
+   60.1098
+  ],
+  [
+   60.9629,
+   62.4058
+  ],
+  [
+   62.7019,
+   64.4618
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores,",
+   "s": 0.16,
+   "e": 4.299
+  },
+  {
+   "text": "e ningu\u00e9m morreu em combate.",
+   "s": 4.539,
+   "e": 5.758
+  },
+  {
+   "text": "Em mil oitocentos e trinta e oito,",
+   "s": 6.625,
+   "e": 8.1
+  },
+  {
+   "text": "a fronteira entre o estado do Maine e a col\u00f4nia inglesa de New Brunswick ainda era disputada.",
+   "s": 8.337,
+   "e": 12.581
+  },
+  {
+   "text": "Na mata de Aroostook,",
+   "s": 13.425,
+   "e": 14.573
+  },
+  {
+   "text": "lenhadores dos dois lados cortavam as mesmas \u00e1rvores,",
+   "s": 14.824,
+   "e": 17.748
+  },
+  {
+   "text": "e cada lado queria a madeira.",
+   "s": 18.029,
+   "e": 19.416
+  },
+  {
+   "text": "Em fevereiro de mil oitocentos e trinta e nove,",
+   "s": 20.247,
+   "e": 22.276
+  },
+  {
+   "text": "o Maine mandou o agente de terras com volunt\u00e1rios para prender os lenhadores de New Brunswick.",
+   "s": 22.562,
+   "e": 26.831
+  },
+  {
+   "text": "O Maine chamou milhares de soldados da mil\u00edcia,",
+   "s": 27.703,
+   "e": 29.935
+  },
+  {
+   "text": "e a col\u00f4nia inglesa mandou os seus.",
+   "s": 30.243,
+   "e": 31.97
+  },
+  {
+   "text": "Nessa confus\u00e3o,",
+   "s": 32.822,
+   "e": 33.674
+  },
+  {
+   "text": "lenhadores de New Brunswick prenderam o agente do Maine,",
+   "s": 33.936,
+   "e": 36.455
+  },
+  {
+   "text": "e o clima ficou perigoso.",
+   "s": 36.695,
+   "e": 37.949
+  },
+  {
+   "text": "Mas ningu\u00e9m queria uma guerra de verdade,",
+   "s": 38.815,
+   "e": 40.723
+  },
+  {
+   "text": "ent\u00e3o o presidente americano mandou o general Winfield Scott conversar.",
+   "s": 40.982,
+   "e": 44.545
+  },
+  {
+   "text": "Ele ajudou os dois lados a firmar uma tr\u00e9gua,",
+   "s": 45.352,
+   "e": 47.446
+  },
+  {
+   "text": "e as tropas nunca chegaram a lutar.",
+   "s": 47.757,
+   "e": 49.49
+  },
+  {
+   "text": "Em mil oitocentos e quarenta e dois,",
+   "s": 50.292,
+   "e": 51.909
+  },
+  {
+   "text": "o Tratado Webster-Ashburton definiu a fronteira,",
+   "s": 52.169,
+   "e": 54.504
+  },
+  {
+   "text": "e a maior parte da \u00e1rea ficou com o Maine.",
+   "s": 54.825,
+   "e": 56.687
+  },
+  {
+   "text": "Ficou conhecida at\u00e9 como a Guerra do Porco com Feij\u00e3o.",
+   "s": 57.618,
+   "e": 60.11
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 60.963,
+   "e": 62.406
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 62.702,
+   "e": 64.462
+  }
+ ]
+}

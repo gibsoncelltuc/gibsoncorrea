@@ -10,7 +10,7 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
-   "mountain"
+   "loc_montanha"
   ],
   "cenarios_trocados": [
    [
@@ -20,11 +20,6 @@
    ],
    [
     "cena 1",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 2",
     "countryside",
     "loc_campo"
    ],
@@ -93,16 +88,12 @@
   "nature/tree_pine"
  ],
  "pesquisa_visual": {
-  "local": "Floresta de pinheiros do norte do Maine, rio Aroostook, fronteira com New Brunswick (Fort Fairfield/Masardis)",
+  "local": "Maine",
   "quando": "inverno de 1838-1839 (fevereiro de 1839: neve e frio); tratado em 1842",
   "participantes": [
-   "lenhadores americanos do Maine",
-   "lenhadores de New Brunswick",
-   "Rufus McIntire, agente de terras do Maine",
-   "milicianos do Maine",
-   "soldados britanicos",
-   "general Winfield Scott",
-   "Daniel Webster e Lord Ashburton (tratado 1842)"
+   "Winfield Scott",
+   "Daniel Webster e Lord Ashburton",
+   "lenhador de 1838"
   ],
   "roupas": {
    "AME": "casaco de la azul, gorro de la, botas (lenhador americano, gravura de lenhador de Maine ~1830)",
@@ -114,10 +105,9 @@
   },
   "cenario": "mata de pinheiros e rio, acampamento de toras; fortes de madeira (Fort Fairfield, Fort Kent); sala de tratado em madeira/pedra",
   "objetos": [
-   "pilhas de toras",
-   "machado",
-   "cavalos e bois de arraste (equipamento de lenhadores)",
-   "documento do tratado"
+   "toras de pinheiro",
+   "machado de lenhador",
+   "bois de arraste"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Aroostook_War",
@@ -128,7 +118,18 @@
    "loc_montanha",
    "interior pedra",
    "interior madeira"
-  ]
+  ],
+  "buscas": {
+   "Maine": "Aroostook County Maine 1840s lithograph forest",
+   "Winfield Scott": "Winfield Scott 1840 portrait",
+   "Daniel Webster e Lord Ashburton": "Webster Ashburton Treaty 1842",
+   "lenhador de 1838": "lumberjack Maine 19th century engraving",
+   "toras de pinheiro": "log drive Maine 19th century",
+   "machado de lenhador": "felling axe 19th century",
+   "bois de arraste": "oxen hauling logs 19th century Maine",
+   "soldado da epoca": "Maine militia 1839 uniform",
+   "roupas e ruas de 1838": "1838 American clothing fashion plate men"
+  }
  },
  "fontes": [],
  "falta": []
