@@ -59,7 +59,7 @@
     "HUS",
     "HUS"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "tools/lantern"
    ],
@@ -78,7 +78,7 @@
     "HUS",
     "LOC"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "barrel",
     "kit/barrel_r"
@@ -98,7 +98,7 @@
     "HUS",
     "HUS"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "barrel",
     "tools/lantern"
@@ -119,7 +119,7 @@
     "HUS",
     "AUT"
    ],
-   "multidao": 5,
+   "multidao": 6,
    "objetos": [],
    "palavras": 17,
    "cena": "b5",
@@ -135,7 +135,7 @@
    "personagens": [
     "HUS"
    ],
-   "multidao": 18,
+   "multidao": 48,
    "objetos": [
     "kit/campfire",
     "kit/tent"
@@ -189,7 +189,7 @@
     "OFF",
     "AUT"
    ],
-   "multidao": 5,
+   "multidao": 6,
    "objetos": [
     "cannon"
    ],

@@ -59,8 +59,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 ## Cena b6  (~4.1 s)
 - Narracao: No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; (rosto) scared -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) @3 -> acao + som de efeito; encena: grita (up) @8 -> acao + som de efeito
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; (rosto) scared -> expr + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) @3 -> acao + som de efeito; encena: grita (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TURCOS!
 - Funcao na historia: GRANDE MOMENTO
@@ -89,7 +89,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) @5 -> acao + som de efeito; encena: olha (point) @7 -> acao + som de efeito; encena: sai @10 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: 10.000?
+- Texto na tela: ABANDONADO
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~2.8 s)

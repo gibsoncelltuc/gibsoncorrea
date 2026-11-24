@@ -71,7 +71,20 @@
    "tat": 4,
    "light": "golden",
    "mood": "march",
-   "batalha": true
+   "batalha": true,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "lados": [
+    "AUT",
+    "HUS"
+   ]
   },
   {
    "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
@@ -86,7 +99,15 @@
    "tat": 6,
    "light": "golden",
    "mapa": "KARÁNSEBES",
-   "mapa_at": 3
+   "mapa_at": 3,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": true
+   }
   },
   {
    "say": "Numa noite, os hussardos foram na frente procurar o inimigo.",
@@ -104,7 +125,15 @@
     ]
    ],
    "move": 7,
-   "hora": "noite"
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   }
   },
   {
    "say": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
@@ -127,7 +156,15 @@
      1.0
     ]
    ],
-   "hora": "noite"
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   }
   },
   {
    "say": "Compraram tudo, beberam, e a festa começou.",
@@ -153,7 +190,15 @@
    "text": "AGUARDENTE",
    "tat": 4,
    "mood": "playful",
-   "hora": "noite"
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   }
   },
   {
    "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
@@ -168,7 +213,15 @@
    "mood": "tense",
    "tiros": false,
    "impact": false,
-   "hora": "noite"
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   }
   },
   {
    "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
@@ -180,7 +233,16 @@
    "tat": 2,
    "tstyle": "red",
    "mood": "tense",
-   "hora": "noite"
+   "hora": "noite",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
+    "expr": "shock"
+   }
   },
   {
    "say": "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",
@@ -191,12 +253,21 @@
     "HUS:0:shock"
    ],
    "crowd": {
-    "n": 8,
+    "n": 24,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
     "expr": "shock"
    },
    "mood": "tense",
    "batalha": true,
-   "hora": "noite"
+   "hora": "noite",
+   "lados": [
+    "AUT",
+    "HUS"
+   ]
   },
   {
    "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
@@ -220,7 +291,15 @@
     ]
    ],
    "mood": "tense",
-   "hora": "noite"
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   }
   },
   {
    "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
@@ -243,7 +322,7 @@
      1.0
     ]
    ],
-   "text": "10.000?",
+   "text": "ABANDONADO",
    "tat": 15,
    "tstyle": "gold",
    "light": "dawn",

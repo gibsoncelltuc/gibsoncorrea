@@ -4,15 +4,15 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | countryside | crowd | 22 | encena, batalha | - | - | -
-b1 | countryside | orbit | 14 | reagir | - | - | -
-b2 | countryside | track | 2 | encena, andando | tools/lantern | lantern | -
-b3 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | barrel, kit/barrel_r | bottle | -
-b4 | countryside | group | 2 | comemorar, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
-b5 | countryside | two | 8 | conversar, INTERAGEM: entregar, alguem chega andando | - | - | -
-b6 | countryside | orbit | 19 | conversar, batalha | kit/campfire, kit/tent | - | -
-b7 | countryside | crowd | 33 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
-b8 | countryside | group | 7 | reagir, INTERAGEM: susto | cannon | - | -
+b0 | countryside | crowd | 52 | encena, batalha | - | - | -
+b1 | countryside | orbit | 20 | reagir | - | - | -
+b2 | countryside | track | 8 | encena, andando | tools/lantern | lantern | -
+b3 | countryside | two | 8 | reagir, INTERAGEM: aproxima-se | barrel, kit/barrel_r | bottle | -
+b4 | countryside | group | 8 | comemorar, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
+b5 | countryside | two | 9 | conversar, INTERAGEM: entregar, alguem chega andando | - | - | -
+b6 | countryside | orbit | 13 | conversar, batalha | kit/campfire, kit/tent | - | -
+b7 | countryside | crowd | 51 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b8 | countryside | group | 8 | reagir, INTERAGEM: susto | cannon | - | -
 b9 | countryside | two | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
 b10 | countryside | close | 2 | comemorar, INTERAGEM: pular | - | - | -
 b11 | countryside | two | 1 | conversar | - | - | -

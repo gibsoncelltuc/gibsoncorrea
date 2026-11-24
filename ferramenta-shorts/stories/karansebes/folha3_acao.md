@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 71 acoes catalogadas, 71 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 72 acoes catalogadas, 72 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -14,7 +14,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | CENA | cavalaria: 4 soldados a cavalo (AUT) | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 7 | - | PLACA | 1788 | OK |
 
 ## Cena b1 - 4.1s a 9.3s - 17 palavras - plano orbit
@@ -83,9 +83,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | pânico (34.4s) | ACAO: grita | grita de bracos para cima | OK |
 | 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
 | 6 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | conversar | OK |
-| 9 | - | PLACA | TURCOS! | OK |
+| 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 9 | - | ATUACAO | conversar | OK |
+| 10 | - | PLACA | TURCOS! | OK |
 
 ## Cena b7 - 36.6s a 42.6s - 19 palavras - plano crowd
 > "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos."
@@ -95,7 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | atirava (40.3s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | atirava (40.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 43.7s a 47.8s - 14 palavras - plano group
@@ -125,7 +126,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | avanca e o outro recua | OK |
 | 6 | - | ATUACAO | reagir | OK |
 | 7 | - | CHEGADA | alguem entra andando | OK |
-| 8 | - | PLACA | 10.000? | OK |
+| 8 | - | PLACA | ABANDONADO | OK |
 
 ## Cena b10 - 53.7s a 55.5s - 8 palavras - plano close
 > "Os turcos venceram sem dar um único tiro."
