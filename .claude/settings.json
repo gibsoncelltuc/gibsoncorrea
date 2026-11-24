@@ -30,7 +30,22 @@
       "Glob",
       "Grep",
       "mcp__claude-code-remote__send_message",
-      "mcp__claude-code-remote__send_later"
+      "mcp__claude-code-remote__send_later",
+      "WebFetch",
+      "WebSearch",
+      "SendUserFile",
+      "Skill",
+      "NotebookEdit",
+      "ToolSearch",
+      "TaskCreate",
+      "TaskUpdate",
+      "TaskStop",
+      "Monitor",
+      "mcp__Firecrawl",
+      "mcp__claude-code-remote__read_documentation",
+      "mcp__claude-code-remote__get_session",
+      "mcp__claude-code-remote__list_events",
+      "mcp__claude-code-remote__list_sessions"
     ]
   }
 }
