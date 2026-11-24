@@ -1,7 +1,7 @@
 {
- "duration": 63.816,
- "frames30": 1914,
- "source": "silence-align (cost 0.61)",
+ "duration": 63.552,
+ "frames30": 1907,
+ "source": "silence-align (cost 0.52)",
  "segments": [
   [
    0.162333,
@@ -16,92 +16,96 @@
    5.985
   ],
   [
-   6.88375,
-   9.01346
+   6.89804,
+   8.62462
   ],
   [
-   9.17171,
-   10.2635
+   8.77187,
+   9.82296
   ],
   [
-   11.1185,
-   15.5377
+   10.6867,
+   15.105
   ],
   [
-   16.3911,
-   18.0442
+   15.958,
+   17.6124
   ],
   [
-   18.8807,
-   20.9505
+   18.449,
+   20.5188
   ],
   [
-   21.8075,
-   24.9316
+   21.3757,
+   24.4992
   ],
   [
-   25.1807,
-   27.9191
+   24.7489,
+   27.4873
   ],
   [
-   28.7867,
-   30.9475
+   28.3549,
+   30.5158
   ],
   [
-   31.8182,
-   33.8351
+   31.3864,
+   33.4033
   ],
   [
-   34.7521,
-   35.5879
+   34.3203,
+   35.1561
   ],
   [
-   35.8605,
-   39.4075
+   35.4287,
+   38.974
   ],
   [
-   40.2649,
-   41.7765
+   39.8331,
+   41.3471
   ],
   [
-   41.9688,
-   43.4882
+   41.537,
+   43.057
   ],
   [
-   44.3421,
-   46.3049
+   43.9102,
+   45.8731
   ],
   [
-   46.5222,
-   47.6296
+   46.0905,
+   47.1977
   ],
   [
-   48.506,
-   50.7155
+   48.0637,
+   50.4737
   ],
   [
-   51.5668,
-   53.2252
+   51.3233,
+   51.7709
   ],
   [
-   54.0976,
-   54.5167
+   51.9659,
+   52.9731
   ],
   [
-   54.7695,
-   55.5717
+   53.8477,
+   54.2668
   ],
   [
-   56.4291,
-   58.6593
+   54.5196,
+   55.3217
   ],
   [
-   59.5,
-   60.9446
+   56.1792,
+   58.4093
   ],
   [
-   61.2372,
-   62.9988
+   59.2501,
+   60.6947
+  ],
+  [
+   60.9874,
+   62.7488
   ]
  ],
  "phrases": [
@@ -121,114 +125,119 @@
    "e": 5.985
   },
   {
-   "text": "Foi em cinco de novembro de dois mil e vinte e quatro,",
-   "s": 6.884,
-   "e": 9.013
+   "text": "Foi em novembro de dois mil e vinte e quatro,",
+   "s": 6.898,
+   "e": 8.625
   },
   {
    "text": "nos Estados Unidos.",
-   "s": 9.172,
-   "e": 10.264
+   "s": 8.772,
+   "e": 9.823
   },
   {
    "text": "Milh\u00f5es de americanos foram \u00e0s urnas escolher entre Trump e a vice-presidente Kamala Harris.",
-   "s": 11.118,
-   "e": 15.538
+   "s": 10.687,
+   "e": 15.105
   },
   {
    "text": "A contagem entrou pela madrugada.",
-   "s": 16.391,
-   "e": 18.044
+   "s": 15.958,
+   "e": 17.612
   },
   {
    "text": "Os estados indecisos iam decidir tudo.",
-   "s": 18.881,
-   "e": 20.951
+   "s": 18.449,
+   "e": 20.519
   },
   {
    "text": "Acontece que Trump venceu em todos os estados decisivos,",
-   "s": 21.808,
-   "e": 24.932
+   "s": 21.376,
+   "e": 24.499
   },
   {
    "text": "e somou trezentos e doze votos no col\u00e9gio eleitoral.",
-   "s": 25.181,
-   "e": 27.919
+   "s": 24.749,
+   "e": 27.487
   },
   {
    "text": "Os apoiadores comemoraram a noite inteira.",
-   "s": 28.787,
-   "e": 30.948
+   "s": 28.355,
+   "e": 30.516
   },
   {
    "text": "Trump subiu ao palco e declarou vit\u00f3ria.",
-   "s": 31.818,
-   "e": 33.835
+   "s": 31.386,
+   "e": 33.403
   },
   {
    "text": "Foi um feito raro:",
-   "s": 34.752,
-   "e": 35.588
+   "s": 34.32,
+   "e": 35.156
   },
   {
    "text": "ele virou s\u00f3 o segundo presidente da hist\u00f3ria com dois mandatos separados.",
-   "s": 35.861,
-   "e": 39.407
+   "s": 35.429,
+   "e": 38.974
   },
   {
    "text": "O primeiro foi Grover Cleveland,",
-   "s": 40.265,
-   "e": 41.776
+   "s": 39.833,
+   "e": 41.347
   },
   {
    "text": "h\u00e1 mais de cento e trinta anos.",
-   "s": 41.969,
-   "e": 43.488
+   "s": 41.537,
+   "e": 43.057
   },
   {
    "text": "Em vinte de janeiro de dois mil e vinte e cinco,",
-   "s": 44.342,
-   "e": 46.305
+   "s": 43.91,
+   "e": 45.873
   },
   {
    "text": "ele tomou posse de novo.",
-   "s": 46.522,
-   "e": 47.63
+   "s": 46.09,
+   "e": 47.198
   },
   {
-   "text": "Ele tinha sido o presidente n\u00famero quarenta e cinco.",
-   "s": 48.506,
-   "e": 50.715
+   "text": "Antes ele tinha sido o presidente quarenta e cinco.",
+   "s": 48.064,
+   "e": 50.474
   },
   {
-   "text": "Agora era o n\u00famero quarenta e sete.",
-   "s": 51.567,
-   "e": 53.225
+   "text": "Agora,",
+   "s": 51.323,
+   "e": 51.771
+  },
+  {
+   "text": "era o quarenta e sete.",
+   "s": 51.966,
+   "e": 52.973
   },
   {
    "text": "Perdeu,",
-   "s": 54.098,
-   "e": 54.517
+   "s": 53.848,
+   "e": 54.267
   },
   {
    "text": "voltou e ganhou.",
-   "s": 54.77,
-   "e": 55.572
+   "s": 54.52,
+   "e": 55.322
   },
   {
    "text": "Uma das maiores viradas da pol\u00edtica americana.",
-   "s": 56.429,
-   "e": 58.659
+   "s": 56.179,
+   "e": 58.409
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 59.5,
-   "e": 60.945
+   "s": 59.25,
+   "e": 60.695
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 61.237,
-   "e": 62.999
+   "s": 60.987,
+   "e": 62.749
   }
  ]
 }

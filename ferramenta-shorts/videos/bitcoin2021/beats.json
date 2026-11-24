@@ -100,7 +100,7 @@
   },
   {
    "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "BUK:0:smug"
    ],
@@ -115,7 +115,10 @@
    "shot_lock": true,
    "h": 1.7,
    "cx": 0,
-   "cz": 0
+   "cz": 0,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
@@ -263,7 +266,7 @@
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
-   "shot": "wide",
+   "shot": "close",
    "who": [
     "CLI:0:surprised"
    ],
@@ -284,9 +287,9 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
-     2.0,
+     0.55,
+     0.3,
+     1.8,
      {
       "fixo": true
      }
@@ -294,9 +297,17 @@
    ],
    "_susp_tela": true,
    "_susp_ok": true,
+   "detalhe": false,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0.25,
+   "cz": 0.1,
+   "h": 1.5,
+   "d0": 4.2,
+   "d1": 3.8,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/phone",
@@ -305,12 +316,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
@@ -477,5 +483,6 @@
   }
  },
  "cinf": 3.0,
- "exp": 1.254
+ "exp": 1.254,
+ "max_wide": 3
 }
