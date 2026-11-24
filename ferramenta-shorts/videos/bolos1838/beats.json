@@ -102,7 +102,7 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram, dizem os mexicanos.",
+   "say": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram.",
    "props": [
     [
      "mk/Table_Large",
@@ -135,7 +135,7 @@
     "REI:0:stern"
    ],
    "interior": "pedra",
-   "say": "O governo francês juntou outras queixas de franceses e exigiu seiscentos mil pesos. O presidente mexicano não pagou."
+   "say": "O governo francês juntou outras queixas e exigiu seiscentos mil pesos, mas o México não pagou."
   },
   {
    "shot": "reveal",
@@ -152,7 +152,7 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Então a França mandou a esquadra, e navios de guerra fecharam os portos do golfo do México.",
+   "say": "Acontece que a França mandou a esquadra, e navios de guerra fecharam os portos do México.",
    "batalha": false,
    "tiros": false,
    "impact": false
@@ -172,7 +172,7 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
+   "say": "Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
    "set": "harbor",
    "fx": [],
    "sfx": [
@@ -188,7 +188,7 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.",
+   "say": "Santa Anna foi ferido na perna por metralha, e a perna foi enterrada com honras militares.",
    "set": "harbor",
    "interior": false,
    "impact": false,
@@ -205,7 +205,7 @@
     "FRA:0:neutral:coin"
    ],
    "text": "600.000",
-   "say": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar os seiscentos mil pesos, e a França foi embora.",
+   "say": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e a França foi embora.",
    "interior": "pedra"
   },
   {
@@ -213,7 +213,7 @@
    "who": [
     "CON:0:stern"
    ],
-   "say": "A conta nunca foi paga, e a França voltou ao México em mil oitocentos e sessenta e um."
+   "say": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um."
   }
  ],
  "marco": "kit/marco_ulua",

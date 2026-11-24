@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 24/11 09:59 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,12 +10,12 @@ b0 | simples | street | two | CON, OFI | - | cake_table, marco_ulua | - | A Fran
 b1 | transicao | street | reveal | CON, OFI | - | shop, cake_table, marco_ulua, stall | - | Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do 
 b2 | simples | interior loja | group | OFI, OFI, CON | - | cake_table, Table_Large | - | Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja
 b3 | simples | interior pedra | two | CON, REI | - | cake_table | - | O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia
-b4 | simples | interior pedra | close | REI | - | - | - | O governo francês juntou outras queixas de franceses e exigiu seiscent
-b5 | simples | harbor | group | FRA, FRA | 18 | marco_ulua | - | Então a França mandou a esquadra, e navios de guerra fecharam os porto
-b6 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e o
-b7 | simples | harbor | two | GEN | - | grave | - | Santa Anna foi ferido na perna por metralha francesa, e a perna foi en
-b8 | simples | interior pedra | two | GEN, FRA | - | - | - | Em março de mil oitocentos e trinta e nove, o México prometeu pagar os
-b9 | simples | street | close | CON | - | - | - | A conta nunca foi paga, e a França voltou ao México em mil oitocentos 
+b4 | simples | interior pedra | close | REI | - | - | - | O governo francês juntou outras queixas e exigiu seiscentos mil pesos,
+b5 | simples | harbor | low | FRA, FRA | 18 | marco_ulua | - | Acontece que a França mandou a esquadra, e navios de guerra fecharam o
+b6 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os s
+b7 | simples | harbor | two | GEN | - | grave | - | Santa Anna foi ferido na perna por metralha, e a perna foi enterrada c
+b8 | simples | interior pedra | two | GEN, FRA | - | - | - | Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e
+b9 | simples | street | close | CON | - | - | - | A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta
 b10 | simples | street | two | CON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

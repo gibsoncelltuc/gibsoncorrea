@@ -9,7 +9,7 @@ b1 | street | reveal | 2 | parados (so fala e pisca) | kit/marco_ulua, kit/cake_
 b2 | interior loja | group | 3 | comer, INTERAGEM: vai ate o outro | mk/Table_Large, kit/cake_table | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cake_table | paper | -
 b4 | interior pedra | close | 1 | encena | - | - | -
-b5 | harbor | group | 20 | conversar, INTERAGEM: avanca e o outro recua | kit/marco_ulua | - | -
+b5 | harbor | low | 20 | conversar, INTERAGEM: avanca e o outro recua | kit/marco_ulua | - | -
 b6 | harbor | crowd | 49 | encena, batalha | kit/marco_ulua, cannon | - | -
 b7 | harbor | two | 1 | encena | kit/grave | - | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: cochichar | - | paper, coin | -
