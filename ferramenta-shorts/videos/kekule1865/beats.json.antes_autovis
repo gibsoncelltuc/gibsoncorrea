@@ -1,0 +1,301 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 14,
+ "title": "O Químico que Sonhou com uma Cobra",
+ "titulo_base": "O Químico que Sonhou com uma Cobra",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/snake_ring",
+ "outfits": {
+  "KEK": {
+   "profissao": "cientista",
+   "beard": "#4a3422",
+   "moustache": "#4a3422",
+   "hair": "#4a3422"
+  },
+  "ALU": {
+   "jacket": "#2a4a6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a4a2a"
+  },
+  "COL": {
+   "profissao": "cientista",
+   "beard": "#9a9a9a",
+   "hair": "#9a9a9a"
+  },
+  "POV": {
+   "jacket": "#7a3a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "tophat",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "KEK:0:grin",
+    "COL:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     0.6,
+     1.0,
+     1.5
+    ]
+   ],
+   "text": "1865",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um dos maiores segredos da química foi resolvido num cochilo, com a ajuda de uma cobra.",
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:smile"
+   ],
+   "mapa": "BÉLGICA",
+   "mapa_at": 3,
+   "say": "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.",
+   "impact": true,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "KEK:0:worried",
+    "ALU:0:suspicious:paper"
+   ],
+   "acao": "discutir",
+   "say": "O professor August Kekulé tinha um problema: o benzeno, com seis carbonos que ninguém sabia arrumar.",
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 6,
+     "un": "CARBONOS",
+     "na": "seis"
+    }
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:bored"
+   ],
+   "props": [
+    [
+     "kit/fireplace",
+     1.6,
+     -1.4,
+     1.3
+    ],
+    [
+     "mk/Chair_1",
+     0.0,
+     0.95,
+     1.3,
+     {
+      "drop": false
+     }
+    ]
+   ],
+   "say": "Numa noite fria, ele virou a cadeira para a lareira, e cochilou."
+  },
+  {
+   "shot": "close",
+   "hora": "noite",
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.",
+   "explica": {
+    "objeto": "kit/snake_ring",
+    "manobra": "gira",
+    "passos": [
+     "ÁTOMOS",
+     "COBRA",
+     "ANEL"
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:shock"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     -1.8,
+     -1.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:grin:paper"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     0.6,
+     1.0,
+     1.5
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou.",
+   "_auto_vis": 2
+  },
+  {
+   "shot": "group",
+   "who": [
+    "KEK:0:laugh",
+    "COL:0:grin",
+    "ALU:0:laugh"
+   ],
+   "tiros": false,
+   "acao": "comemorar",
+   "props": [
+    [
+     "kit/snake_ring",
+     0.6,
+     1.0,
+     1.5
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "FESTA",
+   "titulo": true,
+   "say": "Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pela primeira vez.",
+   "interior": "pedra",
+   "_auto_vis": 2
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "COL:0:suspicious"
+   ],
+   "say": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.",
+   "text": "REMÉDIOS, TINTAS, PLÁSTICOS",
+   "tat": 15,
+   "tstyle": "gold",
+   "props": [
+    [
+     "kit/snake_ring",
+     0.6,
+     1.0,
+     1.5
+    ]
+   ],
+   "detalhe": false,
+   "_auto_vis": 3
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "KEK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     0.6,
+     1.0,
+     1.5
+    ]
+   ],
+   "text": "SONHE",
+   "say": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.",
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
+  }
+ ],
+ "variar_cenario": false,
+ "cinf": 1.5,
+ "exp": 1.972,
+ "regiao": "europa",
+ "visual": {
+  "local": "Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laboratorio; Berlim: salao de festa da Sociedade Alema de Quimica",
+  "quando": "1865 (a descoberta, numa noite fria); 1890 (a Benzolfest em Berlim, quando ele contou o sonho)",
+  "participantes": [
+   "August Kekule, professor de quimica de barba cheia",
+   "colegas quimicos",
+   "alunos",
+   "convidados da Benzolfest"
+  ],
+  "roupas": {
+   "KEK": "sobrecasaca escura dos anos 1860, colete, barba e bigode castanhos",
+   "COL": "quimico mais velho de sobrecasaca e barba grisalha",
+   "ALU": "aluno de paleto escuro",
+   "POV": "publico de 1865 com chapeu-coco e cartola"
+  },
+  "cenario": "gabinete com lareira acesa e poltrona, quadro com formulas, frascos de laboratorio; salao de banquete em Berlim",
+  "objetos": [
+   "anel do benzeno (cobra mordendo o rabo)",
+   "lareira",
+   "poltrona",
+   "papel com desenhos de moleculas",
+   "frascos de quimica"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
+   "https://en.wikipedia.org/wiki/Benzene#History"
+  ],
+  "explicacoes": [
+   "Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim"
+  ]
+ }
+}
