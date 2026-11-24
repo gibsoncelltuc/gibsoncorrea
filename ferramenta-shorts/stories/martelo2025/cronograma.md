@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Gerado em 24/11 18:42 | 14 cenas | metricas: acoes_encenadas 93%, acoes_chave_com_efeito 60%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 18:47 | 14 cenas | metricas: acoes_encenadas 93%, acoes_chave_com_efeito 60%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
