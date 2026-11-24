@@ -152,7 +152,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b9 - 51.9s a 55.6s - 11 palavras - plano close
+## Cena b9 - 51.9s a 55.6s - 11 palavras - plano two
 > "No fim, o erro das etiquetas virou um acerto de bico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -164,7 +164,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 55.9s a 60.4s - 13 palavras - plano two
+## Cena b10 - 55.9s a 60.4s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

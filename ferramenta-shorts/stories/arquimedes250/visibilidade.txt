@@ -1,1 +1,1 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (29 tomadas)
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (25 tomadas)

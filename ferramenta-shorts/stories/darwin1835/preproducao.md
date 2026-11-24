@@ -13,8 +13,8 @@ b5 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua |
 b6 | harbor | wide | 12 | reagir, batalha | kit/finch_thick, kit/finch_long, kit/finch | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | kit/finch_thick | - | -
 b8 | interior madeira | group | 2 | comemorar, INTERAGEM: pular | - | book | -
-b9 | loc_campo | close | 1 | conversar | kit/finch | - | -
-b10 | loc_campo | two | 1 | conversar | - | - | -
+b9 | loc_campo | two | 1 | conversar | kit/finch | - | -
+b10 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/finch
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6

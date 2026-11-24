@@ -70,10 +70,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - O major Meredith levou duas metralhadoras e dez mil balas.
 - Cenario: countryside | luz: desert | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao grin)
-- Animacao: conversar | interacao: aproxima-se
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao grin) | multidao: 12 de FARM/SOL
+- Animacao: encena | batalha encenada
 - Objetos/modelos: mgun, crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): major
 - RISCOS: nenhum
@@ -93,10 +93,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b...
 - Cenario: outback | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SOL (variante 0, expressao angry); SOL (variante 1, expressao stern) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Animacao: encena
 - Objetos/modelos: emu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, emus
 - RISCOS: nenhum
@@ -193,7 +193,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin) | multidao: 0 de 
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, major
 - RISCOS: nenhum
@@ -266,8 +266,8 @@ vehicles/tank | b7 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 5 | mistura: close 12% | medio 53% | aberto 35% | detalhe 0%
-- Interacoes: b2 vai ate o outro, b3 aproxima-se, b8 avanca e o outro recua
+- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 6 | mistura: close 11% | medio 45% | aberto 44% | detalhe 0%
+- Interacoes: b2 vai ate o outro, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

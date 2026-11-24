@@ -5,45 +5,14 @@
   "ano": 2015,
   "era": "atual (1950+)",
   "regiao": "eua",
-  "luz_base": "day",
+  "luz_base": "golden",
   "cenarios": [
+   "hall",
    "harbor",
-   "interior loja",
    "loc_campo",
    "loc_pista"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 2",
-    "outback",
-    "loc_pista"
-   ],
-   [
-    "cena 3",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 5",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 7",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 8",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 9",
-    "countryside",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -67,28 +36,49 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/lighthouse",
+  "buildings/shop",
   "kit/falcon9_land",
-  "kit/falcon_air",
-  "kit/gosma",
-  "kit/marco_canaveral",
-  "kit/rocket",
-  "kit/room_eua_shop",
-  "kit/starlink_sat",
-  "vehicles/airplane"
+  "kit/gosma"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de lançamento)",
+  "quando": "21 de dezembro de 2015, noite (20h29 local)",
+  "participantes": [
+   "Elon Musk",
+   "engenheiros da SpaceX"
+  ],
+  "roupas": {
+   "MUS": "camisa preta e calça escura",
+   "ENG": "engenheiros de camisa azul e boné",
+   "ENA": "engenheira de camisa azul e coque"
+  },
+  "cenario": "pista de concreto com foguete Falcon 9, costa da Flórida ao fundo",
+  "objetos": [
+   "foguete Falcon 9 com pernas de pouso",
+   "primeiro estágio descendo de ré",
+   "satélites Orbcomm"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+   "referencias/falcon2015/moodboard.jpg"
+  ],
+  "buscas": {
+   "Falcon 9 pouso": "SpaceX Falcon 9 first stage landing Landing Zone 1 December 2015",
+   "Cabo Canaveral": "Cape Canaveral Space Launch Complex 40 aerial",
+   "Elon Musk": "Elon Musk SpaceX 2015",
+   "engenheiros SpaceX": "SpaceX mission control employees cheering landing",
+   "satélites Orbcomm": "Orbcomm OG2 satellite",
+   "Estados Unidos": "map of Florida Cape Canaveral",
+   "roupas e ruas de 2015": "SpaceX employees 2015 hawthorne factory photo",
+   "primeiro estágio descendo de ré": "Falcon 9 first stage landing Cape Canaveral December 2015 photo",
+   "foguete da época": "Falcon 9 rocket landing legs deployed",
+   "O Foguete que Voltou de Ré": "SpaceX Falcon 9 Orbcomm OG2 landing Landing Zone 1",
+   "foguete da epoca": "Falcon 9 rocket standing on launch pad Cape Canaveral"
+  }
+ },
  "fontes": [
   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
   "https://www.spacex.com/launches/"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

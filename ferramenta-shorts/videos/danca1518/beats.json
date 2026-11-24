@@ -1,8 +1,11 @@
 {
+ "serie": "Curiosidade e Ciência",
+ "ep": 22,
+ "titulo_base": "A Praga da Dança",
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
  "title": "A Praga da Dança",
- "set": "street",
+ "set": "medieval",
  "light": "day",
  "mood": "playful",
  "outfits": {
@@ -45,6 +48,18 @@
    "boots": "#2a2218",
    "hat": "beret",
    "cap": "#8a2b2b"
+  },
+  "DAN": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#c0282f",
+   "hats": [
+    "cap",
+    "straw",
+    "bonnet",
+    "beret"
+   ],
+   "cap": "#8a5a3a"
   }
  },
  "beats": [
@@ -54,8 +69,9 @@
     "TRO:0:laugh",
     "POV:1:shock"
    ],
-   "text": "1518",
-   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar."
+   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.",
+   "set": "medieval",
+   "fachada": false
   },
   {
    "shot": "two",
@@ -65,8 +81,10 @@
    ],
    "mapa": "ESTRASBURGO",
    "mapa_at": 3,
-   "say": "Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e continuou no dia seguinte.",
-   "hora": "dia"
+   "say": "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir.",
+   "hora": "dia",
+   "set": "medieval",
+   "fachada": false
   },
   {
    "shot": "group",
@@ -76,19 +94,32 @@
     "POV:2:grin",
     "POV:3:pained"
    ],
-   "say": "Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê."
+   "say": "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela.",
+   "set": "medieval",
+   "fachada": false,
+   "acao": "dancar",
+   "crowd": {
+    "n": 36,
+    "outfits": [
+     "POV",
+     "TRO"
+    ],
+    "march": false,
+    "expr": "pained"
+   }
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "who": [
     "POV:0:pained",
-    "POV:1:pained",
-    "TRO:0:pained"
+    "TRO:0:pained",
+    "POV:2:pained",
+    "POV:3:shock"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 18,
+    "n": 36,
     "outfits": [
      "POV",
      "TRO"
@@ -104,9 +135,21 @@
     "ding@40",
     "thump@90"
    ],
-   "text": "400",
+   "text": "50 A 400",
    "titulo": true,
-   "say": "Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar."
+   "say": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
+   "set": "medieval",
+   "fachada": false,
+   "props": [],
+   "detalhe": false,
+   "acao": "dancar",
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.0,
+   "h": 2.5,
+   "d0": 13.0,
+   "d1": 12.0,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -115,7 +158,7 @@
     "MED:0:nervous:book"
    ],
    "interior": "pedra",
-   "say": "O prefeito chamou os médicos. \"É sangue quente\", disseram eles. \"O remédio é dançar mais.\"",
+   "say": "O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança.",
    "acao": "nenhuma"
   },
   {
@@ -124,27 +167,22 @@
     "MUS:0:grin",
     "MUS:1:laugh"
    ],
-   "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "text": "SALÃO",
+   "say": "A cidade reformou salões e contratou músicos para manter os dançarinos de pé.",
    "set": "hall",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "detalhe": false
   },
   {
-   "shot": "orbit",
+   "shot": "two",
    "who": [
-    "POV:2:pained",
-    "POV:3:pained"
+    "PRE:0:stern:paper",
+    "POV:0:pained"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV",
-     "MUS"
-    ],
-    "march": false,
-    "expr": "pained"
+    "n": 0
    },
    "fx": [
     "dust@50",
@@ -154,7 +192,18 @@
     "thump@50",
     "sting@110"
    ],
-   "say": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
+   "say": "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público.",
+   "set": "medieval",
+   "fachada": false,
+   "props": [],
+   "detalhe": false,
+   "vary": false,
+   "quadro_manual": true,
+   "d0": 9.0,
+   "d1": 8.5,
+   "cx": 0.0,
+   "cz": 0.0,
+   "_auto_vis": 0
   },
   {
    "shot": "two",
@@ -162,29 +211,106 @@
     "PRE:0:pained",
     "MED:0:shock"
    ],
-   "say": "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade.",
-   "acao": "nenhuma"
+   "say": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
+   "acao": "nenhuma",
+   "set": "loc_campo",
+   "fachada": false
   },
   {
-   "shot": "track",
+   "shot": "wide",
    "who": [
-    "POV:0:pained",
-    "POV:1:nervous",
-    "TRO:0:pained"
+    "DAN:0:relief"
    ],
-   "say": "No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou."
+   "say": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
+   "set": "mountain",
+   "fachada": false,
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "DAN"
+    ],
+    "march": false,
+    "expr": "relief"
+   },
+   "props": [
+    [
+     "buildings/church",
+     0.0,
+     -14.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "CAPELA DO MONTE",
+   "detalhe": false,
+   "quadro": {
+    "local": "encosta de montanha",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/church",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": 0.0,
+   "h": 2.2,
+   "d0": 14.0,
+   "d1": 13.0,
+   "quadro_manual": true,
+   "shot_lock": true
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "MED:0:nervous"
+    "MED:0:nervous",
+    "POV:0:neutral"
    ],
-   "say": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
-   "acao": "nenhuma"
+   "say": "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu.",
+   "acao": "nenhuma",
+   "fachada": false,
+   "interior": "madeira"
   }
  ],
  "heroi": null,
- "serie": "Curiosidade e Ciência",
- "ep": 22,
- "titulo_base": "A Praga da Dança"
+ "visual": {
+  "local": "Estrasburgo",
+  "quando": "julho a setembro de 1518 (verão); 14 de julho, começo da dança",
+  "participantes": [
+   "Frau Troffea",
+   "médicos de 1518",
+   "conselho de Estrasburgo"
+  ],
+  "roupas": {
+   "TRO": "vestido e touca de camponesa do século 16",
+   "POV": "povo de Estrasburgo de 1518: colete, touca ou chapéu",
+   "PRE": "conselheiro de capa escura e chapéu",
+   "MED": "médico de túnica escura e chapéu",
+   "MUS": "músicos de gibão colorido"
+  },
+  "cenario": "rua estreita de pedras com casas de enxaimel, salão de corporação, capela no alto de um monte, catedral de Estrasburgo",
+  "objetos": [
+   "sapatos vermelhos",
+   "música de gaitas e tambores"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+   "referencias/danca1518/moodboard.jpg (gravura alemã de 1600 da epidemia)"
+  ],
+  "buscas": {
+   "Estrasburgo": "Strasbourg half-timbered houses medieval street",
+   "Frau Troffea": "dancing plague 1518 engraving Hendrick Hondius",
+   "médicos de 1518": "16th century physician engraving",
+   "conselho de Estrasburgo": "16th century town council Strasbourg",
+   "sapatos vermelhos": "red shoes 16th century",
+   "música de gaitas e tambores": "16th century musicians bagpipe drum woodcut"
+  }
+ },
+ "set_tematico_ok": true,
+ "max_wide": 4
 }

@@ -55,7 +55,7 @@
     [
      "kit/tulip_striped",
      0.0,
-     1.1,
+     -1.0,
      1.6,
      {
       "fixo": true
@@ -66,7 +66,7 @@
    "say": "Uma única flor já custou o preço de uma casa inteira.",
    "detalhe": false,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -77,12 +77,12 @@
      }
     ]
    },
+   "set": "street",
    "cx": 0.0,
-   "cz": 0.3,
-   "d0": 9.0,
-   "d1": 8.5,
-   "_auto_vis": 0,
-   "set": "street"
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 1
   },
   {
    "shot": "wide",

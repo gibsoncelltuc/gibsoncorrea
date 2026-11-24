@@ -1,41 +1,10 @@
 {
  "id": "falcon2015",
  "ano": 2015,
- "cenarios_trocados": [
-  [
-   "cena 2",
-   "outback",
-   "loc_pista"
-  ],
-  [
-   "cena 3",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 5",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 7",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 8",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 9",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
-  "acoes_chave_com_efeito": 67,
+  "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
@@ -43,23 +12,20 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS",
-    "ENG"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land",
-    "kit/marco_canaveral",
-    "kit/rocket"
+    "kit/falcon9_land"
    ],
-   "palavras": 21,
+   "palavras": 17,
    "cena": "b0",
-   "frase": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.",
+   "frase": "Durante décadas, todo foguete era jogado fora depois de um voo. Até que um desceu de ré.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_pista"
   },
   {
    "camera": "reveal",
@@ -68,13 +34,83 @@
     "POV"
    ],
    "multidao": 6,
-   "objetos": [
-    "kit/marco_canaveral"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b1",
    "frase": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
    "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 13,
+   "cena": "b2",
+   "frase": "Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 13,
+   "cena": "b3",
+   "frase": "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 13,
+   "cena": "b4",
+   "frase": "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 13,
+   "cena": "b5",
+   "frase": "Depois de soltar o topo, a parte de baixo voltou para a Terra.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -83,99 +119,11 @@
   {
    "camera": "two",
    "personagens": [
-    "ENG",
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/falcon9_land",
-    "kit/rocket",
-    "vehicles/airplane"
-   ],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "ENA",
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/rocket"
-   ],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MUS",
     "ENG"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_canaveral",
-    "kit/rocket",
-    "kit/starlink_sat"
-   ],
-   "palavras": 16,
-   "cena": "b4",
-   "frase": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "ENG",
-    "ENA",
-    "MUS"
-   ],
-   "multidao": 18,
-   "objetos": [
-    "kit/falcon_air",
-    "kit/marco_canaveral"
-   ],
-   "palavras": 21,
-   "cena": "b5",
-   "frase": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "low",
-   "personagens": [
-    "ENA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/falcon_air"
+    "kit/falcon9_land"
    ],
    "palavras": 15,
    "cena": "b6",
@@ -184,44 +132,20 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_pista"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "ENG",
-    "ENA"
-   ],
+   "camera": "orbit",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "MUS",
-    "ENG",
-    "ENA"
-   ],
-   "multidao": 20,
-   "objetos": [
-    "kit/falcon9_land",
-    "kit/marco_canaveral"
-   ],
-   "palavras": 12,
-   "cena": "b8",
-   "frase": "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.",
+   "frase": "E pousou inteira, abrindo as pernas no último segundo.",
    "classe": "chave",
-   "sujeito": "personagem",
+   "sujeito": "cenario",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",
@@ -230,40 +154,54 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "reveal",
    "personagens": [
-    "MUS",
+    "ENA",
     "ENG"
    ],
-   "multidao": 0,
-   "objetos": [
-    "kit/rocket"
-   ],
-   "palavras": 17,
-   "cena": "b9",
-   "frase": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra.",
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Os funcionários da SpaceX comemoraram e se abraçaram.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "hall"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land",
-    "kit/rocket"
+    "kit/falcon9_land"
    ],
-   "palavras": 18,
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
    "cena": "b10",
-   "frase": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.",
+   "frase": "Hoje, pousar de ré virou rotina.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -271,7 +209,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],

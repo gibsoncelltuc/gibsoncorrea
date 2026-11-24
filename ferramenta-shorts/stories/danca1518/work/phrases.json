@@ -1,0 +1,279 @@
+{
+ "duration": 62.448,
+ "frames30": 1873,
+ "source": "silence-align (cost 0.74)",
+ "segments": [
+  [
+   0.147833,
+   2.28887
+  ],
+  [
+   2.54446,
+   3.86017
+  ],
+  [
+   4.65708,
+   6.63858
+  ],
+  [
+   6.88563,
+   7.672
+  ],
+  [
+   8.51721,
+   9.85062
+  ],
+  [
+   10.0948,
+   11.2271
+  ],
+  [
+   12.038,
+   12.9562
+  ],
+  [
+   13.1552,
+   15.0774
+  ],
+  [
+   15.2974,
+   16.407
+  ],
+  [
+   17.2452,
+   17.8786
+  ],
+  [
+   18.1112,
+   20.3276
+  ],
+  [
+   20.6506,
+   21.6328
+  ],
+  [
+   21.8634,
+   22.6921
+  ],
+  [
+   23.5473,
+   25.4868
+  ],
+  [
+   25.7678,
+   28.0775
+  ],
+  [
+   28.9314,
+   32.83
+  ],
+  [
+   33.6663,
+   34.2768
+  ],
+  [
+   34.5142,
+   35.741
+  ],
+  [
+   36.036,
+   37.6024
+  ],
+  [
+   37.9516,
+   39.7453
+  ],
+  [
+   40.6007,
+   42.592
+  ],
+  [
+   42.8585,
+   45.1451
+  ],
+  [
+   45.9879,
+   46.4056
+  ],
+  [
+   46.66,
+   49.4815
+  ],
+  [
+   49.7891,
+   51.475
+  ],
+  [
+   51.6537,
+   52.4602
+  ],
+  [
+   53.3232,
+   55.1266
+  ],
+  [
+   55.3828,
+   57.289
+  ],
+  [
+   58.1315,
+   59.575
+  ],
+  [
+   59.8688,
+   61.6305
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma mulher come\u00e7ou a dan\u00e7ar no meio da rua,",
+   "s": 0.148,
+   "e": 2.289
+  },
+  {
+   "text": "e n\u00e3o conseguiu mais parar.",
+   "s": 2.544,
+   "e": 3.86
+  },
+  {
+   "text": "Era julho de mil quinhentos e dezoito,",
+   "s": 4.657,
+   "e": 6.639
+  },
+  {
+   "text": "em Estrasburgo.",
+   "s": 6.886,
+   "e": 7.672
+  },
+  {
+   "text": "Ela dan\u00e7ou por uma semana,",
+   "s": 8.517,
+   "e": 9.851
+  },
+  {
+   "text": "parando s\u00f3 para dormir.",
+   "s": 10.095,
+   "e": 11.227
+  },
+  {
+   "text": "Em poucos dias,",
+   "s": 12.038,
+   "e": 12.956
+  },
+  {
+   "text": "mais de trinta pessoas dan\u00e7avam tamb\u00e9m,",
+   "s": 13.155,
+   "e": 15.077
+  },
+  {
+   "text": "incluindo o marido dela.",
+   "s": 15.297,
+   "e": 16.407
+  },
+  {
+   "text": "Em agosto,",
+   "s": 17.245,
+   "e": 17.879
+  },
+  {
+   "text": "de cinquenta a quatrocentas pessoas dan\u00e7avam,",
+   "s": 18.111,
+   "e": 20.328
+  },
+  {
+   "text": "com os p\u00e9s sangrando,",
+   "s": 20.651,
+   "e": 21.633
+  },
+  {
+   "text": "pedindo socorro.",
+   "s": 21.863,
+   "e": 22.692
+  },
+  {
+   "text": "O conselho da cidade chamou os m\u00e9dicos,",
+   "s": 23.547,
+   "e": 25.487
+  },
+  {
+   "text": "que culparam o sangue quente e receitaram mais dan\u00e7a.",
+   "s": 25.768,
+   "e": 28.078
+  },
+  {
+   "text": "A cidade reformou sal\u00f5es e contratou m\u00fasicos para manter os dan\u00e7arinos de p\u00e9.",
+   "s": 28.931,
+   "e": 32.83
+  },
+  {
+   "text": "Deu errado:",
+   "s": 33.666,
+   "e": 34.277
+  },
+  {
+   "text": "mais gente entrou na dan\u00e7a,",
+   "s": 34.514,
+   "e": 35.741
+  },
+  {
+   "text": "com medo de um castigo de S\u00e3o Vito,",
+   "s": 36.036,
+   "e": 37.602
+  },
+  {
+   "text": "e o conselho proibiu dan\u00e7ar em p\u00fablico.",
+   "s": 37.952,
+   "e": 39.745
+  },
+  {
+   "text": "Alguns dizem que morriam quinze por dia,",
+   "s": 40.601,
+   "e": 42.592
+  },
+  {
+   "text": "mas os documentos da \u00e9poca n\u00e3o citam mortes.",
+   "s": 42.858,
+   "e": 45.145
+  },
+  {
+   "text": "No fim,",
+   "s": 45.988,
+   "e": 46.406
+  },
+  {
+   "text": "os dan\u00e7arinos foram levados a uma capela no alto de um monte,",
+   "s": 46.66,
+   "e": 49.481
+  },
+  {
+   "text": "com sapatos vermelhos benzidos,",
+   "s": 49.789,
+   "e": 51.475
+  },
+  {
+   "text": "e a dan\u00e7a parou.",
+   "s": 51.654,
+   "e": 52.46
+  },
+  {
+   "text": "Hoje se suspeita de histeria coletiva,",
+   "s": 53.323,
+   "e": 55.127
+  },
+  {
+   "text": "mas ningu\u00e9m sabe ao certo o que aconteceu.",
+   "s": 55.383,
+   "e": 57.289
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 58.132,
+   "e": 59.575
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 59.869,
+   "e": 61.63
+  }
+ ]
+}

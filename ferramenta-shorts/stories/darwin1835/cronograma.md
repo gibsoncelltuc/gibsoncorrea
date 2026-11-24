@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Gerado em 24/11 16:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 21:12 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,8 +15,8 @@ b5 | simples | interior madeira | two | GOU, DAR | - | finch_long, finch_thick |
 b6 | chave | harbor | wide | DAR, GOU | 10 | finch, finch_long, finch_thick | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida
 b7 | simples | interior madeira | two | DAR, GOU | - | finch_thick | - | Os bichos com o bico certo sobreviviam melhor, e passavam isso para os
 b8 | simples | interior madeira | group | DAR, GOU | - | - | - | Essa ideia virou a seleção natural, publicada em mil oitocentos e cinq
-b9 | simples | loc_campo | close | DAR | - | finch | - | No fim, o erro das etiquetas virou um acerto de bico.
-b10 | simples | loc_campo | two | DAR | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | loc_campo | two | DAR | - | finch | - | No fim, o erro das etiquetas virou um acerto de bico.
+b10 | simples | loc_campo | close | DAR | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

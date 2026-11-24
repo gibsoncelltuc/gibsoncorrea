@@ -46,3 +46,6 @@
 
 ## 24/11 20:45 autocorrecao de visibilidade
 - b4: animal citado aparece pequeno demais no take 3 (media 10% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior -> camera mais perto (d 6.0->5.1) e animais maiores
+
+## 24/11 21:03 autocorrecao de visibilidade
+- b4: animal citado aparece pequeno demais no take 3 (media 10% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior -> camera mais perto (d 6.0->5.1) e animais maiores

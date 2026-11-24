@@ -63,12 +63,12 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "SOL",
     "SOL"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [
     "crate",
     "mgun"
@@ -76,23 +76,6 @@
    "palavras": 10,
    "cena": "b3",
    "frase": "O major Meredith levou duas metralhadoras e dez mil balas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "SOL",
-    "SOL"
-   ],
-   "multidao": 48,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -102,6 +85,23 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 32,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
   },

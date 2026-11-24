@@ -206,7 +206,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "DAR"
    ],
@@ -224,7 +224,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "DAR"
    ],
