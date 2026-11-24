@@ -11,17 +11,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/microwave, kit/chocolate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barra, bolso, chocolate, forno, microondas
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao smile; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (0.2-1.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.8-3.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b1 - Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos...
 - Cenario: street | luz: day | clima: limpo
@@ -32,20 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): engenheiro, estados, radares
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: ENG na esquerda, expressao neutral; ENG na direita, expressao smile; multidao de 8 (ENG, COL) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (4.8-6.4 s): mesmo angulo
-  - take 2 (6.4-8.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (8.1-9.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (9.7-11.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b2 - Esses radares tinham uma peça potente, que mandava ondas invisíveis o ...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -56,17 +31,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): peca
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SPE na esquerda, expressao neutral; ENG na direita, expressao suspicious; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (12.6-14.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (14.5-16.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b3 - Um dia, ele chegou perto dessa peça com uma barra de chocolate no bols...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -77,17 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/chocolate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barra, bolso, chocolate
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: ENG na esquerda, expressao neutral; SPE na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (17.7-19.4 s): mesmo angulo
-  - take 2 (19.4-21.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b4 - Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -98,17 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/chocolate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, chocolate
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: ENG na esquerda, expressao surprised; SPE na direita, expressao shock; sem multidao; acao: susto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (22.3-23.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (23.9-25.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b5 - Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -119,17 +61,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: SPE no centro, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (26.9-28.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (28.4-29.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b6 - Acontece que ele testou milho de pipoca, e os grãos começaram a estour...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -140,19 +71,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/popcorn
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estourar, graos, pipoca
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e popcorn juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao laugh; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/popcorn: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
-- SOM: sting@40
-- SOM: thump@60
-- TAKES: sequencia de acao em 3 cameras (4.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b7 - Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -163,18 +81,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/egg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, colega
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao grin; COL na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/egg: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
-- SOM: squeal@50
-- TAKES: sequencia de acao em 3 cameras (3.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b8 - Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co...
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -185,18 +91,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/microwave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa, trezentos
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao smile; COL no centro, expressao surprised; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (40.6-42.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (42.3-43.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (43.9-45.6 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b9 - Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um ...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -207,20 +101,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/microwave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar, minuto, sobra
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: comemorar
-- OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
-- SOM: ding@30
-- SOM: sting@70
-- TEXTO NA TELA: "1 MINUTO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b10 - No fim, o chocolate perdeu, mas a pipoca agradece.
 - Cenario: interior loja | luz: day | clima: limpo
@@ -231,17 +111,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/chocolate, kit/popcorn
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chocolate, pipoca
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: SPE no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (51.4-52.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (52.8-54.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
@@ -277,12 +146,3 @@ kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixo
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh microondas1945 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh microondas1945` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (55.4-57.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (57.0-58.7 s): mesmo angulo
-<!-- /FICHA -->
-
