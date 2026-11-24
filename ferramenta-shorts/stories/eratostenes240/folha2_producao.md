@@ -250,11 +250,9 @@ kit/starlink_sat | b9 | pronto | conferir na folha de contato se le bem; se pare
 ## Video inteiro
 - Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 22% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b8 cochichar
-- RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: Eratóstenes Mede a Terra, Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese, Eratostenes (tunica grega branca e manto, barba), bi -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: Eratóstenes Mede a Terra, Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese, Eratostenes (tunica grega branca e manto, barba), bi
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh eratostenes240 bN bM` (so essas cenas).
