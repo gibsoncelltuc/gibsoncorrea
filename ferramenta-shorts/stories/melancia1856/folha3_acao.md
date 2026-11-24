@@ -62,6 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | confusão (27.1s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | INTERACAO | empurrar | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | ARMA! | OK |
 
 ## Cena b6 - 29.2s a 32.8s - 13 palavras - plano crowd
 > "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
@@ -82,9 +83,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | entrou (37.6s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | briga (38.0s) | EFEITO: puff | fumaca + som | OK |
 | 4 | briga (38.0s) | ACAO: golpe | soco + estouro | OK |
-| 5 | - | INTERACAO | insiste | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | PLACA | ESTAÇÃO DE TREM | OK |
 
 ## Cena b8 - 39.1s a 43.4s - 15 palavras - plano two
 > "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."

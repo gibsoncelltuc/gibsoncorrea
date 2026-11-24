@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: confusão -> puff + som de baque
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: ARMA!
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.5 s)
@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: empurra (push) @3 -> acao + som de efeito; encena: chega (point) @13 -> acao + som de efeito; encena: golpe (punch) @15 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: ESTAÇÃO DE TREM
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~5.2 s)

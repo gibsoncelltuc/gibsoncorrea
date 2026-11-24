@@ -6,9 +6,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): OHI (variante 0, expressao stern); MIC (variante 0, expressao stern)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: -
+- Personagens principais (1): OHI (variante 0, expressao stern)
+- Animacao: conversar
+- Objetos/modelos: kit/canivete_aberto
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivetada
 - RISCOS: nenhum
 
@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): OHI (variante 1, expressao stern); MIC (variante 1, expressao stern) | multidao: 6 de OHI/MIC
+- Personagens principais (2): OHI (variante 1, expressao stern); MIC (variante 1, expressao stern) | multidao: 8 de OHI/MIC
 - Animacao: -
 - Objetos/modelos: kit/mapa_antigo, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, erro, toledo
@@ -36,8 +36,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): OHI (variante 0, expressao stern); OHI (variante 1, expressao nervous) | multidao: 48 de OHI/MIC
-- Animacao: discutir | batalha encenada
+- Personagens principais (1): OHI (variante 0, expressao stern) | multidao: 48 de OHI/MIC
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): beira, duas, frente, propria
 - RISCOS: nenhum
@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): OHI (variante 2, expressao shock); MIC (variante 2, expressao shock) | multidao: 48 de OHI/MIC
-- Animacao: discutir | batalha encenada
+- Personagens principais (1): OHI (variante 2, expressao shock) | multidao: 48 de OHI/MIC
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/teodolito
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto
 - RISCOS: nenhum
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): RAP (variante 0, expressao angry); XER (variante 0, expressao pained)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/canivete
+- Objetos/modelos: kit/canivete_aberto
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivete, michigan, taverna, xerife
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GOV (variante 0, expressao shock, segura coin); MIC (variante 0, expressao grin)
 - Animacao: reagir | interacao: cochichar
-- Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
+- Objetos/modelos: kit/minerio, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fortuna
 - RISCOS: nenhum
 
@@ -117,19 +117,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+kit/canivete_aberto | b0, b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mapa_antigo | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/teodolito | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/canivete | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/minerio | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
+- Objeto heroi: kit/canivete_aberto | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
+- Interacoes: b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

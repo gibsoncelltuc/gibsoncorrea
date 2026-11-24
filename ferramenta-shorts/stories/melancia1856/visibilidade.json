@@ -2,8 +2,9 @@
  "id": "melancia1856",
  "falhas": [
   "b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
-  "b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
-  "b7: objeto citado \"vehicles/locomotive\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
+  "b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b7~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)"
  ],
  "tomadas": [
   {
@@ -462,14 +463,14 @@
    "id": "b5",
    "quadros": [
     {
-     "f": 739,
+     "f": 738,
      "objs": [
       {
        "a": "war/pistol",
        "inq": 1,
        "vis": 1,
-       "area": 0.002802690813442365,
-       "cx": 0.014506068297644871
+       "area": 0.013122189904234001,
+       "cx": 0.11831084576991041
       }
      ],
      "bloq": null,
@@ -477,14 +478,14 @@
      "cortado": 0
     },
     {
-     "f": 755,
+     "f": 753,
      "objs": [
       {
        "a": "war/pistol",
        "inq": 1,
        "vis": 1,
-       "area": 0.0036528835380279295,
-       "cx": 0.03286824900897573
+       "area": 0.01730320009805427,
+       "cx": -0.058747676455406406
       }
      ],
      "bloq": null,
@@ -492,14 +493,64 @@
      "cortado": 0
     },
     {
-     "f": 770,
+     "f": 767,
      "objs": [
       {
        "a": "war/pistol",
        "inq": 1,
        "vis": 1,
-       "area": 0.004593462587786691,
-       "cx": 0.05244480889677027
+       "area": 0.021612734173282192,
+       "cx": -0.2026856113416719
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b5~1",
+   "quadros": [
+    {
+     "f": 787,
+     "objs": [
+      {
+       "a": "war/pistol",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.014828466517991506,
+       "cx": -0.18492352055316064
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 801,
+     "objs": [
+      {
+       "a": "war/pistol",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.01477907455850649,
+       "cx": 0.0024531759416363333
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 815,
+     "objs": [
+      {
+       "a": "war/pistol",
+       "inq": 1,
+       "vis": 0.984375,
+       "area": 0.01346330805803194,
+       "cx": 0.11882910180817821
       }
      ],
      "bloq": null,
@@ -509,82 +560,17 @@
    ]
   },
   {
-   "id": "b5_d",
+   "id": "b5~2",
    "quadros": [
     {
-     "f": 788,
+     "f": 835,
      "objs": [
       {
        "a": "war/pistol",
        "inq": 1,
        "vis": 1,
-       "area": 0.005328952662014456,
-       "cx": 0.05239364340816794
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 1
-    },
-    {
-     "f": 798,
-     "objs": [
-      {
-       "a": "war/pistol",
-       "inq": 1,
-       "vis": 1,
-       "area": 0.011101747025458025,
-       "cx": 0.029725046650328373
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 2
-    },
-    {
-     "f": 808,
-     "objs": [
-      {
-       "a": "war/pistol",
-       "inq": 1,
-       "vis": 1,
-       "area": 0.022262230194056157,
-       "cx": 0.002053785061014217
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    }
-   ]
-  },
-  {
-   "id": "b5_v",
-   "quadros": [
-    {
-     "f": 827,
-     "objs": [
-      {
-       "a": "war/pistol",
-       "inq": 1,
-       "vis": 1,
-       "area": 0.023371768623467584,
-       "cx": -0.026847180494438752
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 1
-    },
-    {
-     "f": 845,
-     "objs": [
-      {
-       "a": "war/pistol",
-       "inq": 1,
-       "vis": 1,
-       "area": 0.004963752343594838,
-       "cx": -0.06093209179270992
+       "area": 0.0138597227702093,
+       "cx": 0.1465817388616561
       }
      ],
      "bloq": null,
@@ -592,14 +578,29 @@
      "cortado": 0
     },
     {
-     "f": 862,
+     "f": 850,
      "objs": [
       {
        "a": "war/pistol",
        "inq": 1,
        "vis": 1,
-       "area": 0.004609793548991857,
-       "cx": -0.04562680058283121
+       "area": 0.016896608514329663,
+       "cx": 0.040635177300300425
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 864,
+     "objs": [
+      {
+       "a": "war/pistol",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02000862549891049,
+       "cx": -0.09768089381570735
       }
      ],
      "bloq": null,
@@ -690,14 +691,14 @@
    "id": "b7",
    "quadros": [
     {
-     "f": 1031,
+     "f": 1030,
      "objs": [
       {
        "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
+       "inq": 0.9959514170040485,
+       "vis": 0.7154471544715447,
+       "area": 0.24150986060369675,
+       "cx": 0.351875393041863
       }
      ],
      "bloq": null,
@@ -705,14 +706,49 @@
      "cortado": 0
     },
     {
-     "f": 1047,
+     "f": 1045,
      "objs": [
       {
        "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
+       "inq": 1,
+       "vis": 0.7125506072874493,
+       "area": 0.2992472467422626,
+       "cx": 0.2391707565991118
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1059,
+     "objs": [
+      {
+       "a": "vehicles/locomotive",
+       "inq": 1,
+       "vis": 0.7125506072874493,
+       "area": 0.364049968238294,
+       "cx": 0.08983325766135902
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b7~1",
+   "quadros": [
+    {
+     "f": 1080,
+     "objs": [
+      {
+       "a": "vehicles/locomotive",
+       "inq": 1,
+       "vis": 0.6882591093117408,
+       "area": 0.19969911812514926,
+       "cx": -0.06578278974886673
       }
      ],
      "bloq": null,
@@ -720,14 +756,29 @@
      "cortado": 0
     },
     {
-     "f": 1062,
+     "f": 1095,
      "objs": [
       {
        "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
+       "inq": 1,
+       "vis": 0.902834008097166,
+       "area": 0.1013535333830653,
+       "cx": 0.011318460174269074
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1110,
+     "objs": [
+      {
+       "a": "vehicles/locomotive",
+       "inq": 1,
+       "vis": 0.8785425101214575,
+       "area": 0.10245681241029599,
+       "cx": 0.09897717089891128
       }
      ],
      "bloq": null,
@@ -737,17 +788,17 @@
    ]
   },
   {
-   "id": "b7_d",
+   "id": "b7~2",
    "quadros": [
     {
-     "f": 1081,
+     "f": 1131,
      "objs": [
       {
        "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
+       "inq": 1,
+       "vis": 0.4898785425101215,
+       "area": 0.14982055549828407,
+       "cx": 0.15468865356524808
       }
      ],
      "bloq": null,
@@ -755,84 +806,34 @@
      "cortado": 0
     },
     {
-     "f": 1092,
+     "f": 1146,
      "objs": [
       {
        "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
+       "inq": 1,
+       "vis": 0.728744939271255,
+       "area": 0.2786560701594829,
+       "cx": 0.15221379248771283
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
+     "cortado": 1
     },
     {
-     "f": 1103,
+     "f": 1160,
      "objs": [
       {
        "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
+       "inq": 1,
+       "vis": 0.7246963562753036,
+       "area": 0.3424717730940905,
+       "cx": 0.012236185741813066
       }
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 0
-    }
-   ]
-  },
-  {
-   "id": "b7_v",
-   "quadros": [
-    {
-     "f": 1123,
-     "objs": [
-      {
-       "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 1141,
-     "objs": [
-      {
-       "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 1158,
-     "objs": [
-      {
-       "a": "vehicles/locomotive",
-       "inq": 0,
-       "vis": 0,
-       "area": 0,
-       "cx": 9
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
+     "cortado": 1
     }
    ]
   },
@@ -1068,14 +1069,14 @@
    "id": "b10",
    "quadros": [
     {
-     "f": 1498,
+     "f": 1494,
      "objs": [
       {
        "a": "kit/melon",
        "inq": 1,
-       "vis": 0.7421383647798742,
-       "area": 0.050124692166000066,
-       "cx": 0.3855442434188497
+       "vis": 0.949685534591195,
+       "area": 0.08178178993387317,
+       "cx": 0.4975054571560106
       }
      ],
      "bloq": null,
@@ -1083,14 +1084,14 @@
      "cortado": 0
     },
     {
-     "f": 1516,
+     "f": 1507,
      "objs": [
       {
        "a": "kit/melon",
        "inq": 1,
-       "vis": 0.8427672955974843,
-       "area": 0.058481803793220793,
-       "cx": 0.3572660857503922
+       "vis": 0.9748427672955975,
+       "area": 0.0968779499544794,
+       "cx": 0.5857596397970983
       }
      ],
      "bloq": null,
@@ -1098,14 +1099,14 @@
      "cortado": 0
     },
     {
-     "f": 1533,
+     "f": 1520,
      "objs": [
       {
        "a": "kit/melon",
-       "inq": 1,
-       "vis": 0.8490566037735849,
-       "area": 0.06763076369952922,
-       "cx": 0.330010198942289
+       "inq": 0.89937106918239,
+       "vis": 1,
+       "area": 0.10459412999441992,
+       "cx": 0.6142398097711591
       }
      ],
      "bloq": null,
@@ -1115,17 +1116,32 @@
    ]
   },
   {
-   "id": "b10~1",
+   "id": "b10_d",
    "quadros": [
     {
-     "f": 1558,
+     "f": 1535,
+     "objs": [
+      {
+       "a": "kit/melon",
+       "inq": 0.9056603773584906,
+       "vis": 1,
+       "area": 0.1126541587107447,
+       "cx": 0.5972537762453978
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1543,
      "objs": [
       {
        "a": "kit/melon",
        "inq": 1,
        "vis": 1,
-       "area": 0.10911805824367739,
-       "cx": 0.5771771627987795
+       "area": 0.16643718110022512,
+       "cx": 0.4756859055292255
       }
      ],
      "bloq": null,
@@ -1133,14 +1149,34 @@
      "cortado": 0
     },
     {
-     "f": 1576,
+     "f": 1551,
      "objs": [
       {
        "a": "kit/melon",
-       "inq": 0.7547169811320755,
+       "inq": 1,
        "vis": 1,
-       "area": 0.0934771087332348,
-       "cx": 0.6621108097394817
+       "area": 0.3146702337225641,
+       "cx": 0.19657066823563357
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10_v",
+   "quadros": [
+    {
+     "f": 1567,
+     "objs": [
+      {
+       "a": "kit/melon",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.34247037288392,
+       "cx": 0.11082262159186573
       }
      ],
      "bloq": null,
@@ -1148,14 +1184,29 @@
      "cortado": 0
     },
     {
-     "f": 1593,
+     "f": 1582,
      "objs": [
       {
        "a": "kit/melon",
-       "inq": 0.6666666666666666,
-       "vis": 1,
-       "area": 0.07733254551740341,
-       "cx": 0.719121450904223
+       "inq": 1,
+       "vis": 0.8679245283018868,
+       "area": 0.11590259596578079,
+       "cx": 0.49402002195054767
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1596,
+     "objs": [
+      {
+       "a": "kit/melon",
+       "inq": 0.9559748427672956,
+       "vis": 0.9342105263157895,
+       "area": 0.10052933510560254,
+       "cx": 0.5972787512575621
       }
      ],
      "bloq": null,

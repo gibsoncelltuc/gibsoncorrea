@@ -138,8 +138,7 @@
    "interacao": "empurrar",
    "say": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
    "set": "jungle",
-   "detalhe": false,
-   "_auto_vis": 1
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -164,19 +163,21 @@
     [
      "war/pistol",
      0.0,
-     0.8,
-     3.0,
+     1.2,
+     6.0,
      {
       "fixo": true
      }
     ]
    ],
    "set": "street",
-   "detalhe": true,
-   "_auto_vis": 3
+   "detalhe": false,
+   "text": "ARMA!",
+   "tat": 5,
+   "tstyle": "red"
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "street",
    "who": [
     "VEN:0:shout"
@@ -197,30 +198,36 @@
    "say": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "d0": 15.0,
+   "d1": 14.0,
+   "_auto_vis": 2
   },
   {
    "say": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
    "shot": "group",
-   "set": "street",
+   "set": "countryside",
    "acao": "discutir",
    "who": [
     "VIA:0:shock",
-    "VIA:1:nervous",
-    "MOR:0:angry"
+    "VIA:1:nervous"
    ],
    "props": [
     [
      "vehicles/locomotive",
-     0.6,
-     1.0,
-     1.5
+     0.0,
+     -6.0,
+     1.4
     ]
    ],
-   "_auto_vis": 2,
-   "fachada": false
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -3.0,
+   "d0": 16.0,
+   "d1": 13.0,
+   "text": "ESTAÇÃO DE TREM",
+   "titulo": true,
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -233,7 +240,7 @@
    "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "harbor",
    "who": [
     "SOL:0:stern"
@@ -257,9 +264,9 @@
    ],
    "say": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
    "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "d0": 15.0,
+   "d1": 14.0,
+   "_auto_vis": 2
   },
   {
    "shot": "close",

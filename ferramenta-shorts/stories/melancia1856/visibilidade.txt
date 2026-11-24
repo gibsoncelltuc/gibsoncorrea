@@ -1,4 +1,5 @@
-VISIBILIDADE: 3 FALHA(S)
+VISIBILIDADE: 4 FALHA(S)
 FALHA b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b7~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 FALHA b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b7: objeto citado "vehicles/locomotive" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

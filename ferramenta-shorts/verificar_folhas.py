@@ -29,6 +29,8 @@ if J:
 import subprocess as _sp   # EXECUCAO (19/11): cada acao da folha 3 programada na palavra certa + cenario/hora/interior do roteiro aplicados
 _r = _sp.run([sys.executable, 'verificar_execucao.py', ID], capture_output=True, text=True)
 if _r.returncode != 0: erros.append('EXECUCAO: ' + ' '.join(l.strip() for l in _r.stdout.splitlines() if '<-' in l)[:400])
+_c = _sp.run([sys.executable, 'checagem_coerencia.py', ID], capture_output=True, text=True)   # 24/11: lugar x predios, fardas dos lados, gancho
+if _c.returncode != 0: erros.append('COERENCIA: ' + ' | '.join(l.strip(' -') for l in _c.stdout.splitlines()[1:])[:500])
 if erros:
     print('BLOQUEADO - 3 FOLHAS:'); [print(' -', e) for e in erros]; sys.exit(1)
 print(f"3 FOLHAS OK: lidas e seguidas (folha 3: {J['acoes']} acoes com animacao, assinatura {J['hash_folha3']})")
