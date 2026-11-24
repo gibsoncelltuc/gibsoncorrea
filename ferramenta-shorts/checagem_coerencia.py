@@ -55,6 +55,18 @@ if os.path.exists(f'stories/{i}/folha3_acao.md') and 'R6' not in ok:
 for k, b in enumerate(BT):
     if b.get('set') == 'palace' and not b.get('interior') and 'R7' not in ok and not re.search(r'praia|areia|litoral|palacio|costa', n(b.get('say', ''))):
         erros.append(f'R7 b{k}: cenario "palace" desenha uma PRAIA de areia; a frase nao fala de praia: use harbor (cais), countryside ou interior')
+# R8: personagem CITADO PELO NOME ("o soldado Marco Manlio acordou") tem que estar na cena. Liga o nome ao figurino pelas 3 primeiras
+#     letras (MAN = Manlio, BRE = Breno): figurino que bate com o nome e nao esta no "who" da cena = a tela mostra outra pessoa.
+_COD = {c: c.lower() for c in (B.get('outfits') or {}) if re.match(r'^[A-Za-z]{3}$', c)}
+for k, b in enumerate(BT):
+    if 'R8' in ok or b.get('explica') or b.get('mapa'): continue
+    say = b.get('say', ''); quem = {str(w).split(':')[0] for w in (b.get('who') or [])}
+    for nm in re.findall(r'\b(?:soldado|general|rei|rainha|capitao|capitão|almirante|imperador|imperatriz|presidente|cientista|inventor|professor|doutor|fazendeiro|marinheiro|piloto|cabo|sargento|tenente|coronel|major|chefe|consul|cônsul|senador|guarda|comandante|engenheiro|dono|padre|monge)\s+((?:[A-ZÁÉÍÓÚÂÊÔÃÕ][\wáéíóúâêôãõç]+\s?){1,3})', say):
+        for pal in nm.split():
+            c3 = n(pal)[:3]
+            cods = [c for c, v in _COD.items() if v == c3]
+            if cods and not any(c in quem for c in cods):
+                erros.append(f'R8 b{k}: a frase cita "{nm.strip()}" mas o figurino dele ({cods[0]}) nao esta na cena: ponha "{cods[0]}" no "who" (e a acao dele na frase)'); break
 # gancho
 s0 = n(BT[0]['say']) if BT else ''
 if re.match(r'(segundo|dizem|conta-se|contam|reza a lenda|era (mil|o ano)|em (mil|\d{3,4})|no ano de)', s0) and 'R4' not in ok:
