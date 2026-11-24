@@ -126,7 +126,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FRI"
    ],
@@ -266,7 +266,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FRI"
    ],
@@ -285,7 +285,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "FRI"
    ],

@@ -127,7 +127,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: ASH no centro, expressao angry; multidao de 10 (ASH) ATRAS dos principais; acao: batalha
 - OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "FORTE CERCADO" flutuando no alto, na palavra 1 da frase
@@ -197,10 +197,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O governador ganhou a guerra, mas o banquinho nunca foi dele.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): GOV (variante 0, expressao sad)
-- Animacao: conversar
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): GOV (variante 0, expressao sad) | multidao: 0 de GOV
+- Animacao: encena
 - Objetos/modelos: kit/golden_stool
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banquinho, governador
 - RISCOS: nenhum
@@ -208,7 +208,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
 - PERSONAGENS: GOV no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
@@ -236,7 +236,7 @@ kit/forte_colonial | b5 | pronto | conferir na folha de contato se le bem; se pa
 
 
 ## Video inteiro
-- Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 12% | medio 70% | aberto 13% | detalhe 5%
+- Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 12% | medio 63% | aberto 20% | detalhe 5%
 - Interacoes: b0 discutir, b2 o outro se aproxima, b3 empurrar, b4 susto, b7 entregar, b8 cochichar
 - RISCOS GERAIS: nenhum
 

@@ -134,6 +134,8 @@ grep -q "want.includes(nm))) R.parede" visivel.mjs || f "predio citado colado na
 grep -q "animal citado aparece pequeno demais" visivel.mjs && grep -q "'animal citado' in txt" autocorrigir_visibilidade.py || f "animal citado minusculo no fundo passa sem checagem (Gansos b9)"
 T_=videos/_teste_r3b; mkdir -p $T_; printf '{"outfits":{"MAR":{"jacket":"#123"}},"beats":[{"say":"Marinheiros dos dois lados se encararam no mar.","who":["MAR:0:stern","MAR:1:angry"]}]}' > $T_/beats.json
 python3 checagem_coerencia.py _teste_r3b 2>&1 | grep -q "R3 b0" || f "dois lados com o mesmo figurino passa sem checagem (Lagosta b6)"; rm -rf $T_
+grep -q "a.i >= nWho" visivel.mjs || f "figurante de multidao na borda trava o storyboard como personagem cortado"
+grep -q "if not _gente: cena\['crowd'\]" enquadrar.py || f "ficha de cena tira a multidao de 'cercaram o forte' (Banquinho b5)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

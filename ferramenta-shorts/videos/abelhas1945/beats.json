@@ -198,7 +198,7 @@
    "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FRI:0:surprised"
    ],
@@ -247,7 +247,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/beehive",
@@ -625,7 +625,7 @@
    "interior": "pedra"
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FRI:0:smile"
    ],
@@ -664,7 +664,7 @@
    "set": "countryside",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/beehive",

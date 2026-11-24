@@ -94,7 +94,21 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Charles_Goodyear",
    "https://en.wikipedia.org/wiki/Vulcanization"
-  ]
+  ],
+  "buscas": {
+   "A Borracha que Caiu no Fogão": "Charles Goodyear vulcanization",
+   "credores e guardas da prisao de devedores": "debtors prison interior engraving",
+   "concorrentes que copiaram a ideia": "Goodyear India rubber patent",
+   "borracha crua (gosma)": "natural rubber latex raw",
+   "fogao de ferro quente": "antique cast iron cook stove",
+   "pneus e bolas de borracha": "vulcanized rubber ball antique",
+   "borracha": "natural rubber",
+   "panelas": "19th century iron cooking pot",
+   "Clarissa, a esposa": "1830s woman dress portrait",
+   "Estados Unidos": "New England village 1830s",
+   "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois": "Woburn Massachusetts 19th century",
+   "stove": "antique cast iron cook stove"
+  }
  },
  "fontes": [],
  "falta": []

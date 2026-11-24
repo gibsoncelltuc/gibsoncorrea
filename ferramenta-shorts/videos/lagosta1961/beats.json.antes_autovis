@@ -46,6 +46,14 @@
    "boots": "#1b1b1f",
    "hat": "bowler",
    "build": "stout"
+  },
+  "MFR": {
+   "jacket": "#f1efe6",
+   "pants": "#1e3a6e",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#1e3a6e",
+   "stripes": true
   }
  },
  "beats": [
@@ -178,7 +186,7 @@
   {
    "shot": "wide",
    "who": [
-    "MAR:0:stern"
+    "MFR:0:stern"
    ],
    "props": [
     [
@@ -280,8 +288,8 @@
    "shot": "two",
    "set": "harbor",
    "who": [
-    "MAR:0:stern",
-    "MAR:1:nervous"
+    "MAR:0:angry",
+    "MFR:0:stern"
    ],
    "acao": "discutir",
    "fx": [

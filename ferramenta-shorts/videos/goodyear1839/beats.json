@@ -172,7 +172,7 @@
    "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "GOO:0:shock"
@@ -208,7 +208,7 @@
    "say": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse.",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/borracha",
@@ -405,7 +405,7 @@
    "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "GOO:0:smile"
    ],
@@ -433,7 +433,7 @@
    "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e stove juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/stove",
@@ -482,6 +482,20 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Charles_Goodyear",
    "https://en.wikipedia.org/wiki/Vulcanization"
-  ]
+  ],
+  "buscas": {
+   "A Borracha que Caiu no Fogão": "Charles Goodyear vulcanization",
+   "credores e guardas da prisao de devedores": "debtors prison interior engraving",
+   "concorrentes que copiaram a ideia": "Goodyear India rubber patent",
+   "borracha crua (gosma)": "natural rubber latex raw",
+   "fogao de ferro quente": "antique cast iron cook stove",
+   "pneus e bolas de borracha": "vulcanized rubber ball antique",
+   "borracha": "natural rubber",
+   "panelas": "19th century iron cooking pot",
+   "Clarissa, a esposa": "1830s woman dress portrait",
+   "Estados Unidos": "New England village 1830s",
+   "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois": "Woburn Massachusetts 19th century",
+   "stove": "antique cast iron cook stove"
+  }
  }
 }

@@ -13,7 +13,7 @@ b5 | countryside | crowd | 11 | encena, batalha | kit/forte_colonial | - | -
 b6 | jungle | orbit | 21 | encena, batalha | - | - | -
 b7 | interior pedra | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool | - | -
-b9 | countryside | group | 1 | conversar | kit/golden_stool | - | -
+b9 | countryside | wide | 1 | encena | kit/golden_stool | - | -
 b10 | countryside | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/golden_stool

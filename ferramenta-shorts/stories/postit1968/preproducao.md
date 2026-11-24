@@ -13,7 +13,7 @@ b5 | interior pedra | group | 7 | conversar, INTERAGEM: o outro se aproxima | - 
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | kit/postit | paper | -
 b7 | countryside | orbit | 7 | encena | kit/postit | - | -
 b8 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b9 | street | crowd | 20 | comemorar, batalha | kit/postit | - | -
+b9 | street | crowd | 19 | comemorar, batalha | kit/postit | - | -
 b10 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/postit | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
