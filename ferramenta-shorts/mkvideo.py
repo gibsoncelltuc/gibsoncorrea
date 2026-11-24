@@ -84,7 +84,7 @@ for _b in B['beats']:   # DIRIGIR: "dirigiu/dirigindo/foi de carro/pilotou" -> o
         _b['veiculo'] = {'asset': _as, 'motorista': _b['who'][0], 'de': -11, 'para': 11}; _b.setdefault('shot', 'two')
 for _b in B['beats']:   # MONTADO (23/11, Gibson: "o soldado correu em cima de um cavalo e atirou"): o personagem da frase vai EM CIMA do cavalo, galopando pela cena
     _t = ' ' + re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()) + ' '
-    if _b.get('montado') is None and _b.get('who') and not _b.get('interior') and not _b.get('veiculo') and re.search(r'em cima d[eo]s? (um |uma |o |a |seu |sua )?(cavalo|egua|camelo|mula|burro|jumento|elefante|ponei)|a cavalo|montad[oa]s? (n|em)|\bcavalg\w*|\bgalop\w*|no lombo|sobre (um |o |seu )?cavalo', _t):
+    if _b.get('montado') is None and _b.get('who') and not _b.get('interior') and not _b.get('veiculo') and re.search(r'em cima d[eo]s? (um |uma |o |a |seu |sua )?(cavalo|egua|camelo|mula|burro|jumento|elefante|ponei)|a cavalo|montad[oa]s? (n|em) (?!(um |uma |o |a |seu |sua )?(caminh|carro|jip|veicul|trem|navio|barco|tanque|trip))|\bcavalg\w*|\bgalop\w*|no lombo|sobre (um |o |seu )?cavalo', _t):
         _an = 'camel' if 'camelo' in _t else 'elephant' if 'elefante' in _t else 'donkey' if re.search(r'mula|burro|jumento', _t) else 'horse_sela'
         _b['montado'] = {'animal': _an}; _b['correr'] = False; _b.setdefault('shot', 'two')
 for _b in B['beats']:   # CORREU/FUGIU (seguir o roteiro): a cena vira plano em movimento e os personagens CORREM
@@ -469,7 +469,8 @@ def _navio_epoca(ano_):
 NAVIO = _navio_epoca(ANO or _ANO0)
 if B.get('navio_livre') is not True:
     for _nk in ('ship', 'kit/navio_vapor', 'kit/navio_vela', 'kit/navio_moderno'): _regmap[_nk] = [NAVIO]
-_REG_JS = f"globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_CHAO)}; globalThis.ASFALTO = {json.dumps(_ASF)}; globalThis.PRAIA = {json.dumps(bool(_PRAIA))}; globalThis.SEM_NAVIO = {json.dumps(B.get('navio') is False or bool(ANO and ANO >= 1990 and not re.search(r'navio|marinha|frota|porto|barco', ' '.join(b_['say'].lower() for b_ in B['beats']))))}; globalThis.ERA_ANO = {json.dumps(ANO or _ANO0)}; globalThis.ERA_GUERRA = {json.dumps(bool(re.search(r'guerra|batalha|trincheir|soldad|exercit|tropa|front', _TXT0)))}; globalThis.DRESS_OFF = {json.dumps([_nrm0(x_) for x_ in (_VIS0.get('proibidos') or []) if isinstance(x_, str)] + (B.get('sem_enfeite') or []))}; globalThis.LOCCFG = {json.dumps(B.get('locacao') or {})}; globalThis.LOC_NOITE = {json.dumps((lambda ext_: bool(ext_) and sum(1 for b_ in ext_ if b_.get('hora') == 'noite') * 2 >= len(ext_))([b_ for b_ in B['beats'] if not b_.get('interior') and not b_.get('explica') and str(b_.get('set', SET)).startswith('loc_')]))};\n"
+_FAZ = bool(re.search(r"fazend|celeiro|moinho|sitio|granja|rancho|curral", _nrm0(" ".join(b_["say"] for b_ in beats))))
+_REG_JS = f"globalThis.FAZENDA = {json.dumps(_FAZ)}; globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_CHAO)}; globalThis.ASFALTO = {json.dumps(_ASF)}; globalThis.PRAIA = {json.dumps(bool(_PRAIA))}; globalThis.SEM_NAVIO = {json.dumps(B.get('navio') is False or bool(ANO and ANO >= 1990 and not re.search(r'navio|marinha|frota|porto|barco', ' '.join(b_['say'].lower() for b_ in B['beats']))))}; globalThis.ERA_ANO = {json.dumps(ANO or _ANO0)}; globalThis.ERA_GUERRA = {json.dumps(bool(re.search(r'guerra|batalha|trincheir|soldad|exercit|tropa|front', _TXT0)))}; globalThis.DRESS_OFF = {json.dumps([_nrm0(x_) for x_ in (_VIS0.get('proibidos') or []) if isinstance(x_, str)] + (B.get('sem_enfeite') or []))}; globalThis.LOCCFG = {json.dumps(B.get('locacao') or {})}; globalThis.LOC_NOITE = {json.dumps((lambda ext_: bool(ext_) and sum(1 for b_ in ext_ if b_.get('hora') == 'noite') * 2 >= len(ext_))([b_ for b_ in B['beats'] if not b_.get('interior') and not b_.get('explica') and str(b_.get('set', SET)).startswith('loc_')]))};\n"
 _FAMHAIR = {str(o_.get('hair', '')).lower() for o_ in B.get('outfits', {}).values() if o_.get('pele')} - {''}
 for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em video com famoso, ninguem mais usa a cor de cabelo dele (loiro do Trump so no Trump)
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
@@ -790,7 +791,8 @@ def direct(beats):
         elif run >= 4 and not CLOSE_OK.search(say): shot = 'orbit' if wide_n % 2 else 'wide'
         if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
-        _tropa = mass or any(B.get('outfits', {}).get(w_.split(':')[0], {}).get('rifle') for w_ in b.get('who', []))   # batalha automatica so' com tropa em cena (um civil que da' um tiro nao vira multidao de clones)
+        _tropa = mass or any(B.get('outfits', {}).get(w_.split(':')[0], {}).get('rifle') for w_ in b.get('who', []))
+        if (b.get('crowd') or {}).get('n') == 0 and not b.get('batalha'): _tropa = False   # 24/11 (Chaleira/Emus): roteiro pediu SEM multidao -> soldado com fuzil nao vira batalha automatica com cavalos e caidos   # batalha automatica so' com tropa em cena (um civil que da' um tiro nao vira multidao de clones)
         if b.get('batalha') or (not (first or last) and _tropa and any(IMPACT.match(w_) for w_ in words) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False):
             impact_n += 1; b['impact'] = True; shot = ('crowd' if impact_n % 2 else 'orbit') if (b.get('batalha') or wrun < 1) else 'group'   # batalha marcada SEMPRE abre; impacto logo depois de outro aberto fica em plano medio com a tropa atras
             if wrun >= 1 and k > 0 and not beats[k - 1].get('impact') and not beats[k - 1].get('shot_lock') and k - 1 > 0: beats[k - 1]['shot'] = 'group'; wide_n -= 1; wrun = 0   # o aberto anterior (sem batalha) cede a vez   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
@@ -925,7 +927,7 @@ if B.get('director') is not False and B.get('variar_camera') is not False:
         if _b.get('shot', 'two') not in WIDE and not _b.get('veiculo') and 'az0' not in _b and 'az1' not in _b:
             _k_ = 0.4 if _b.get('interior') else 1.0; _b['az0'], _b['az1'] = (round(_AZ[_na % len(_AZ)][0] * _k_), round(_AZ[_na % len(_AZ)][1] * _k_)); _na += 1   # sala: angulo menor (nao mostrar o vazio atras da parede)
 # CAVALARIA AUTOMATICA (ordem do Gibson 19/11): ate 1918 tropa chegando/atacando vem com soldados a cavalo; a narracao citar cavalo/cavalaria sempre poe.
-_CAVW = re.compile(r'cavalari|a cavalo|montad|galop|cavaleiros|hussard|lanceiro|dragoes|cossaco|cavalos')
+_CAVW = re.compile(r'cavalari|a cavalo|montad(?![oa]s? (n|em|sobre) (um |uma |o |a |seu |sua )?(caminh|carro|jip|veicul|trem|navio|barco|tanque|trip))|galop|cavaleiros|hussard|lanceiro|dragoes|cossaco|cavalos')   # 24/11 (Emus): 'metralhadora montada em caminhao' nao e' cavalaria
 if B.get('cavalaria') is not False and ANO and ANO <= 1918:
     _ncav = 0
     for _k, _b in enumerate(beats):
