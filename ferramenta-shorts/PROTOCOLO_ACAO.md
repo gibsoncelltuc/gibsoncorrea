@@ -160,3 +160,7 @@ Ordem do Gibson: tudo o que aparecer de defeito num vídeo é corrigido NA FERRA
 - `_set_ok('street')` exige tema de cidade; `_RURAL` desliga o kit de cidade da região; `mountain` exige montanha.
 - `tiros: false` não gera `voando` nem clarão por palavra.
 - `_TXT0` ignora `buscas`/`referencias`/`fontes_visuais` (texto de pesquisa não muda cenário).
+
+## §23 — Sincronia automática por script (24/11)
+
+`garantir_sync.sh` mantém, em cada sessão de produção, um laço que roda `sync_ferramenta.sh` a cada 60 s. Liga sozinho: no início da sessão (`boot.sh`, antes da trava de pausa), a cada mensagem recebida (hook `UserPromptSubmit`) e antes de cada vídeo (`run_queue.sh`). O `sync_ferramenta.sh` compara pelo CONTEÚDO e força cada arquivo do motor a ficar igual ao da principal (edição feita na sessão é sobrescrita). O `make_video.sh` carimba os trechos com a versão do motor: atualização no meio do vídeo = vídeo inteiro refeito na versão nova. Limite: sessão cujo ambiente está dormindo não roda nada; ela sincroniza no instante em que acorda, antes de qualquer vídeo.
