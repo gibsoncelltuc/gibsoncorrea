@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 159 palavras (~55 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por quase dez anos.
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b6  (~3.4 s)
-- Narracao: Em mil setecentos e trinta e nove, a guerra começou.
+## Cena b6  (~6.2 s)
+- Narracao: Em mil setecentos e trinta e nove, a guerra começou, com navios ingleses atacando portos espanhóis no Caribe.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
