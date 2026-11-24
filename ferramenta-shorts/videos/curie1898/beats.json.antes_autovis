@@ -1,0 +1,417 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 19,
+ "title": "O Caderno que Ainda Brilha",
+ "titulo_base": "O Caderno que Ainda Brilha",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/curie_box",
+ "outfits": {
+  "MAR": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#7a5a3a",
+   "hairStyle": "bun"
+  },
+  "PIE": {
+   "profissao": "cientista",
+   "beard": "#4a3422",
+   "hair": "#4a3422"
+  },
+  "PES": {
+   "jacket": "#e8e8e8",
+   "pants": "#e8e8e8",
+   "boots": "#9a9aa0",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "glasses": true
+  },
+  "JOR": {
+   "profissao": "jornalista"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "beret",
+    "straw",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "PES:0:scared",
+    "JOR:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/curie_box",
+     0.0,
+     1.0,
+     1.22,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "PERIGO",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção.",
+   "hora": "dia",
+   "clima": "limpo",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:smile"
+   ],
+   "mapa": "FRANÇA",
+   "mapa_at": 3,
+   "say": "Era mil oitocentos e noventa e oito, em Paris, na França.",
+   "hora": "dia",
+   "clima": "limpo",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MAR:0:stern:paper",
+    "PIE:0:grin"
+   ],
+   "acao": "conversar",
+   "say": "Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.",
+   "hora": "dia",
+   "clima": "limpo"
+  },
+  {
+   "shot": "wide",
+   "interior": "madeira",
+   "who": [
+    "MAR:0:stern:paper",
+    "PIE:0:grin"
+   ],
+   "hora": "dia",
+   "clima": "limpo",
+   "say": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MAR:0:grin",
+    "PIE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/curie_box",
+     0.0,
+     1.0,
+     1.22,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.",
+   "hora": "dia",
+   "clima": "limpo",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "MAR:0:smile"
+   ],
+   "props": [
+    [
+     "kit/curie_box",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MAR:0:nervous:paper",
+    "PIE:0:worried"
+   ],
+   "say": "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
+   "hora": "dia",
+   "clima": "limpo"
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MAR:0:laugh",
+    "PIE:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "JOR"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "NOBEL",
+   "titulo": true,
+   "say": "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso.",
+   "hora": "dia",
+   "clima": "limpo",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAR:0:sad"
+   ],
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "say": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
+   "hora": "dia",
+   "clima": "limpo"
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PES:0:suspicious",
+    "JOR:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/curie_box",
+     0.0,
+     1.0,
+     1.22,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris.",
+   "hora": "dia",
+   "clima": "limpo",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "interior": "pedra",
+   "who": [
+    "PES:0:scared"
+   ],
+   "props": [
+    [
+     "kit/curie_box",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
+   "hora": "dia",
+   "clima": "limpo",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAR:0:smile"
+   ],
+   "props": [
+    [
+     "kit/curie_box",
+     1.0,
+     1.0,
+     1.22,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Ou seja: os cadernos vão continuar radioativos por séculos.",
+   "hora": "dia",
+   "clima": "limpo",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  }
+ ],
+ "objetos_do_video": {
+  "\\bradio\\b": "kit/curie_box"
+ },
+ "regiao": "franca",
+ "visual": {
+  "local": "Paris: galpao velho de madeira e vidro da Escola de Fisica e Quimica (rue Lhomond), frio e com goteiras; Biblioteca Nacional da Franca hoje",
+  "quando": "1898 (descoberta do polonio e do radio); Nobel de 1903 e 1911; morte em 1934; hoje",
+  "participantes": [
+   "Marie Curie",
+   "Pierre Curie",
+   "pesquisadores de hoje com roupa de protecao",
+   "jornalistas"
+  ],
+  "roupas": {
+   "MAR": "vestido longo escuro de trabalho, cabelo preso em coque (1898)",
+   "PIE": "sobrecasaca escura e barba",
+   "PES": "macacao branco de protecao e oculos",
+   "JOR": "jornalista",
+   "POV": "parisienses de 1900 com chapeu-coco e boina"
+  },
+  "cenario": "galpao de laboratorio com bancadas, caldeirao de minerio, frascos que brilham verde no escuro; sala de leitura com caixas de chumbo",
+  "objetos": [
+   "cadernos de laboratorio",
+   "frascos de radio brilhando",
+   "caixas de chumbo",
+   "minerio (pechblenda)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Marie_Curie",
+   "https://www.bnf.fr/"
+  ]
+ },
+ "max_wide": 3
+}

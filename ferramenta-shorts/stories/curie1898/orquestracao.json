@@ -43,7 +43,6 @@
   {
    "camera": "crowd",
    "personagens": [
-    "POV",
     "POV"
    ],
    "multidao": 6,
@@ -156,9 +155,7 @@
   {
    "camera": "crowd",
    "personagens": [
-    "MAR",
-    "PIE",
-    "JOR"
+    "MAR"
    ],
    "multidao": 18,
    "objetos": [
@@ -234,7 +231,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MAR"
    ],

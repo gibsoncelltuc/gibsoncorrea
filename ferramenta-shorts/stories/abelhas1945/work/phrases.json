@@ -1,0 +1,324 @@
+{
+ "duration": 65.904,
+ "frames30": 1977,
+ "source": "silence-align (cost 1.18)",
+ "segments": [
+  [
+   0.169167,
+   1.72937
+  ],
+  [
+   2.5835,
+   5.30008
+  ],
+  [
+   6.16662,
+   6.94354
+  ],
+  [
+   7.11487,
+   7.63987
+  ],
+  [
+   7.93933,
+   9.47067
+  ],
+  [
+   10.3234,
+   14.1903
+  ],
+  [
+   14.4725,
+   15.5872
+  ],
+  [
+   16.4356,
+   17.2592
+  ],
+  [
+   17.5167,
+   18.8991
+  ],
+  [
+   19.1524,
+   21.1956
+  ],
+  [
+   22.0412,
+   22.7542
+  ],
+  [
+   23.0153,
+   23.6717
+  ],
+  [
+   24.5409,
+   25.2705
+  ],
+  [
+   25.5029,
+   25.978
+  ],
+  [
+   26.264,
+   27.1352
+  ],
+  [
+   28.0053,
+   28.8975
+  ],
+  [
+   29.1899,
+   31.1928
+  ],
+  [
+   31.4617,
+   32.5139
+  ],
+  [
+   33.3684,
+   34.4335
+  ],
+  [
+   34.5812,
+   35.6429
+  ],
+  [
+   36.4902,
+   37.6361
+  ],
+  [
+   38.4946,
+   40.2542
+  ],
+  [
+   41.119,
+   42.3043
+  ],
+  [
+   43.1839,
+   44.0302
+  ],
+  [
+   44.8589,
+   46.994
+  ],
+  [
+   47.8764,
+   49.2886
+  ],
+  [
+   50.1597,
+   50.7102
+  ],
+  [
+   50.9757,
+   52.4697
+  ],
+  [
+   52.7472,
+   53.8384
+  ],
+  [
+   54.0759,
+   55.9818
+  ],
+  [
+   56.8397,
+   58.4062
+  ],
+  [
+   58.6072,
+   58.9629
+  ],
+  [
+   59.1829,
+   60.7783
+  ],
+  [
+   61.6041,
+   63.0487
+  ],
+  [
+   63.3414,
+   65.103
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "As abelhas conversam dan\u00e7ando.",
+   "s": 0.169,
+   "e": 1.729
+  },
+  {
+   "text": "E foi um cientista teimoso que descobriu o que elas dizem.",
+   "s": 2.583,
+   "e": 5.3
+  },
+  {
+   "text": "Karl von Frisch,",
+   "s": 6.167,
+   "e": 6.944
+  },
+  {
+   "text": "da \u00c1ustria,",
+   "s": 7.115,
+   "e": 7.64
+  },
+  {
+   "text": "passou a vida estudando abelhas.",
+   "s": 7.939,
+   "e": 9.471
+  },
+  {
+   "text": "Ele construiu uma colmeia de vidro e p\u00f4s pratinhos com \u00e1gua e a\u00e7\u00facar no jardim,",
+   "s": 10.323,
+   "e": 14.19
+  },
+  {
+   "text": "bem longe da colmeia.",
+   "s": 14.473,
+   "e": 15.587
+  },
+  {
+   "text": "Acontece que,",
+   "s": 16.436,
+   "e": 17.259
+  },
+  {
+   "text": "quando uma abelha achava o a\u00e7\u00facar,",
+   "s": 17.517,
+   "e": 18.899
+  },
+  {
+   "text": "ela voltava e dan\u00e7ava em cima do favo.",
+   "s": 19.152,
+   "e": 21.196
+  },
+  {
+   "text": "Comida perto:",
+   "s": 22.041,
+   "e": 22.754
+  },
+  {
+   "text": "voltinhas.",
+   "s": 23.015,
+   "e": 23.672
+  },
+  {
+   "text": "Comida longe:",
+   "s": 24.541,
+   "e": 25.27
+  },
+  {
+   "text": "um oito,",
+   "s": 25.503,
+   "e": 25.978
+  },
+  {
+   "text": "rebolando no meio.",
+   "s": 26.264,
+   "e": 27.135
+  },
+  {
+   "text": "E o mais incr\u00edvel:",
+   "s": 28.005,
+   "e": 28.898
+  },
+  {
+   "text": "o \u00e2ngulo da rebolada mostrava a dire\u00e7\u00e3o,",
+   "s": 29.19,
+   "e": 31.193
+  },
+  {
+   "text": "comparada com o sol.",
+   "s": 31.462,
+   "e": 32.514
+  },
+  {
+   "text": "Quanto mais rebolava,",
+   "s": 33.368,
+   "e": 34.434
+  },
+  {
+   "text": "mais longe a comida.",
+   "s": 34.581,
+   "e": 35.643
+  },
+  {
+   "text": "Era um mapa de dan\u00e7a!",
+   "s": 36.49,
+   "e": 37.636
+  },
+  {
+   "text": "Muitos cientistas n\u00e3o acreditaram.",
+   "s": 38.495,
+   "e": 40.254
+  },
+  {
+   "text": "Inseto com linguagem?",
+   "s": 41.119,
+   "e": 42.304
+  },
+  {
+   "text": "Parecia piada.",
+   "s": 43.184,
+   "e": 44.03
+  },
+  {
+   "text": "Ele repetiu os testes centenas de vezes.",
+   "s": 44.859,
+   "e": 46.994
+  },
+  {
+   "text": "As abelhas sempre acertavam.",
+   "s": 47.876,
+   "e": 49.289
+  },
+  {
+   "text": "J\u00e1 idoso,",
+   "s": 50.16,
+   "e": 50.71
+  },
+  {
+   "text": "em mil novecentos e setenta e tr\u00eas,",
+   "s": 50.976,
+   "e": 52.47
+  },
+  {
+   "text": "ele ganhou o Pr\u00eamio Nobel,",
+   "s": 52.747,
+   "e": 53.838
+  },
+  {
+   "text": "dividido com outros dois cientistas.",
+   "s": 54.076,
+   "e": 55.982
+  },
+  {
+   "text": "Da pr\u00f3xima vez que vir uma abelha,",
+   "s": 56.84,
+   "e": 58.406
+  },
+  {
+   "text": "lembre:",
+   "s": 58.607,
+   "e": 58.963
+  },
+  {
+   "text": "ela pode estar contando um segredo.",
+   "s": 59.183,
+   "e": 60.778
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 61.604,
+   "e": 63.049
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 63.341,
+   "e": 65.103
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "duration": 63.096,
+ "frames30": 1893,
+ "source": "silence-align (cost 0.76)",
+ "segments": [
+  [
+   0.158,
+   3.98425
+  ],
+  [
+   4.85663,
+   6.56583
+  ],
+  [
+   6.86667,
+   7.42762
+  ],
+  [
+   7.565,
+   8.13967
+  ],
+  [
+   9.01279,
+   12.4245
+  ],
+  [
+   13.2725,
+   14.7133
+  ],
+  [
+   14.9592,
+   15.703
+  ],
+  [
+   16.0105,
+   18.1515
+  ],
+  [
+   19.0094,
+   20.5435
+  ],
+  [
+   20.822,
+   22.7856
+  ],
+  [
+   23.0387,
+   24.0992
+  ],
+  [
+   24.9654,
+   26.2541
+  ],
+  [
+   26.5855,
+   28.5589
+  ],
+  [
+   29.4202,
+   31.0566
+  ],
+  [
+   31.929,
+   33.2002
+  ],
+  [
+   34.0464,
+   35.5365
+  ],
+  [
+   35.7658,
+   37.7194
+  ],
+  [
+   38.586,
+   41.2965
+  ],
+  [
+   42.1283,
+   43.6751
+  ],
+  [
+   43.8325,
+   44.3604
+  ],
+  [
+   45.216,
+   47.4457
+  ],
+  [
+   47.648,
+   49.6108
+  ],
+  [
+   50.482,
+   50.8909
+  ],
+  [
+   51.1002,
+   53.588
+  ],
+  [
+   54.458,
+   54.99
+  ],
+  [
+   55.2443,
+   57.9338
+  ],
+  [
+   58.7864,
+   60.2308
+  ],
+  [
+   60.5237,
+   62.2852
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Existem cadernos t\u00e3o perigosos que s\u00f3 podem ser lidos com roupa de prote\u00e7\u00e3o.",
+   "s": 0.158,
+   "e": 3.984
+  },
+  {
+   "text": "Era mil oitocentos e noventa e oito,",
+   "s": 4.857,
+   "e": 6.566
+  },
+  {
+   "text": "em Paris,",
+   "s": 6.867,
+   "e": 7.428
+  },
+  {
+   "text": "na Fran\u00e7a.",
+   "s": 7.565,
+   "e": 8.14
+  },
+  {
+   "text": "Marie Curie trabalhava com o marido Pierre num galp\u00e3o velho e gelado.",
+   "s": 9.013,
+   "e": 12.425
+  },
+  {
+   "text": "O galp\u00e3o tinha o teto furado,",
+   "s": 13.273,
+   "e": 14.713
+  },
+  {
+   "text": "chovia dentro,",
+   "s": 14.959,
+   "e": 15.703
+  },
+  {
+   "text": "e ela mexia a mistura com uma barra de ferro.",
+   "s": 16.011,
+   "e": 18.151
+  },
+  {
+   "text": "Mexendo em toneladas de min\u00e9rio,",
+   "s": 19.009,
+   "e": 20.544
+  },
+  {
+   "text": "eles descobriram dois elementos novos:",
+   "s": 20.822,
+   "e": 22.786
+  },
+  {
+   "text": "o pol\u00f4nio e o r\u00e1dio.",
+   "s": 23.039,
+   "e": 24.099
+  },
+  {
+   "text": "O r\u00e1dio brilhava no escuro,",
+   "s": 24.965,
+   "e": 26.254
+  },
+  {
+   "text": "e Marie adorava olhar os frascos \u00e0 noite.",
+   "s": 26.585,
+   "e": 28.559
+  },
+  {
+   "text": "Ela carregava frascos no bolso.",
+   "s": 29.42,
+   "e": 31.057
+  },
+  {
+   "text": "Ningu\u00e9m sabia do perigo.",
+   "s": 31.929,
+   "e": 33.2
+  },
+  {
+   "text": "Ela ganhou dois pr\u00eamios Nobel,",
+   "s": 34.046,
+   "e": 35.536
+  },
+  {
+   "text": "a primeira pessoa da hist\u00f3ria a conseguir isso.",
+   "s": 35.766,
+   "e": 37.719
+  },
+  {
+   "text": "Acontece que a radia\u00e7\u00e3o foi destruindo a sa\u00fade dela.",
+   "s": 38.586,
+   "e": 41.297
+  },
+  {
+   "text": "Em mil novecentos e trinta e quatro,",
+   "s": 42.128,
+   "e": 43.675
+  },
+  {
+   "text": "ela morreu.",
+   "s": 43.833,
+   "e": 44.36
+  },
+  {
+   "text": "Mas os cadernos dela continuam radioativos,",
+   "s": 45.216,
+   "e": 47.446
+  },
+  {
+   "text": "guardados em caixas de chumbo em Paris.",
+   "s": 47.648,
+   "e": 49.611
+  },
+  {
+   "text": "Para ler,",
+   "s": 50.482,
+   "e": 50.891
+  },
+  {
+   "text": "\u00e9 preciso assinar um termo e usar roupa de prote\u00e7\u00e3o.",
+   "s": 51.1,
+   "e": 53.588
+  },
+  {
+   "text": "Ou seja:",
+   "s": 54.458,
+   "e": 54.99
+  },
+  {
+   "text": "os cadernos v\u00e3o continuar radioativos por s\u00e9culos.",
+   "s": 55.244,
+   "e": 57.934
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 58.786,
+   "e": 60.231
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 60.524,
+   "e": 62.285
+  }
+ ]
+}

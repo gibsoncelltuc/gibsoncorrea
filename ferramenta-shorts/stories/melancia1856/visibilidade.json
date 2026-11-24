@@ -1,9 +1,6 @@
 {
  "id": "melancia1856",
- "falhas": [
-  "b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
-  "b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)"
- ],
+ "falhas": [],
  "tomadas": [
   {
    "id": "b0",
@@ -79,7 +76,7 @@
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     },
     {
      "f": 72,
@@ -113,7 +110,7 @@
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     }
    ]
   },
@@ -680,21 +677,21 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     },
     {
      "f": 896,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 2
+     "cortado": 0
     },
     {
      "f": 908,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 2
+     "cortado": 0
     }
    ]
   },
@@ -706,7 +703,7 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 3
+     "cortado": 0
     },
     {
      "f": 936,
@@ -902,7 +899,7 @@
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 3
+     "cortado": 0
     },
     {
      "f": 1353,
@@ -919,7 +916,7 @@
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 3
+     "cortado": 0
     },
     {
      "f": 1367,
@@ -936,7 +933,7 @@
      ],
      "bloq": null,
      "dentro": null,
-     "cortado": 3
+     "cortado": 0
     }
    ]
   },

@@ -33,3 +33,8 @@
 - b0: objeto "kit/postit" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b7: objeto "kit/postit" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b10: objeto "kit/postit" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 24/11 17:46 autocorrecao de visibilidade
+- b1: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b9: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho

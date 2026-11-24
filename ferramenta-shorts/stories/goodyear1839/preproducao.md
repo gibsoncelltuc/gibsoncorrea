@@ -14,7 +14,7 @@ b6 | interior madeira | two | 1 | reagir | kit/stove, kit/borracha | - | -
 b7 | interior madeira | low | 1 | comemorar | kit/stove, kit/borracha | - | -
 b8 | hall | group | 8 | discutir, INTERAGEM: discutir | - | - | -
 b9 | street | crowd | 21 | comemorar, batalha | kit/tires, kit/ball, kit/stove, kit/borracha | - | -
-b10 | interior loja | close | 1 | conversar | kit/stove, kit/tires | - | -
+b10 | interior loja | two | 1 | conversar | kit/stove, kit/tires | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/borracha

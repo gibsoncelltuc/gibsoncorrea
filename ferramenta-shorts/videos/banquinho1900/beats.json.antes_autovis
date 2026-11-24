@@ -233,9 +233,9 @@
    "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
    "props": [],
    "detalhe": false,
-   "d0": 18.0,
-   "d1": 17.0,
-   "_auto_vis": 3
+   "d0": 27.0,
+   "d1": 24.0,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -285,7 +285,7 @@
    "d1": 11.5
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "countryside",
    "who": [
     "GOV:0:sad"
@@ -305,7 +305,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/golden_stool",
@@ -317,9 +317,9 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d0": 11.4,
+   "d1": 11.0,
+   "_auto_vis": 2
   }
  ],
  "ano": 1900,

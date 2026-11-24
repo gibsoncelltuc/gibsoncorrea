@@ -1,0 +1,261 @@
+{
+ "duration": 64.44,
+ "frames30": 1933,
+ "source": "silence-align (cost 0.89)",
+ "segments": [
+  [
+   0.149792,
+   3.20058
+  ],
+  [
+   4.04675,
+   5.50687
+  ],
+  [
+   6.38071,
+   7.96446
+  ],
+  [
+   8.20075,
+   9.28142
+  ],
+  [
+   10.1435,
+   11.3439
+  ],
+  [
+   11.5992,
+   13.5766
+  ],
+  [
+   14.4436,
+   17.1233
+  ],
+  [
+   18.0053,
+   21.9933
+  ],
+  [
+   22.2952,
+   24.2867
+  ],
+  [
+   25.1886,
+   27.2576
+  ],
+  [
+   28.102,
+   28.9202
+  ],
+  [
+   29.1032,
+   31.2248
+  ],
+  [
+   31.4353,
+   32.143
+  ],
+  [
+   33.0117,
+   35.044
+  ],
+  [
+   35.9057,
+   37.2452
+  ],
+  [
+   38.0955,
+   39.5051
+  ],
+  [
+   40.4105,
+   41.6281
+  ],
+  [
+   41.8777,
+   42.4316
+  ],
+  [
+   43.2875,
+   45.1127
+  ],
+  [
+   45.9443,
+   47.4582
+  ],
+  [
+   47.7728,
+   49.2782
+  ],
+  [
+   50.1279,
+   51.0204
+  ],
+  [
+   51.209,
+   52.7428
+  ],
+  [
+   52.9279,
+   54.5842
+  ],
+  [
+   55.4403,
+   57.4784
+  ],
+  [
+   58.3285,
+   59.2642
+  ],
+  [
+   60.1311,
+   61.5755
+  ],
+  [
+   61.8685,
+   63.6301
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um inventor falido deixou cair uma gosma no fog\u00e3o da cozinha.",
+   "s": 0.15,
+   "e": 3.201
+  },
+  {
+   "text": "E mudou o mundo para sempre.",
+   "s": 4.047,
+   "e": 5.507
+  },
+  {
+   "text": "Era mil oitocentos e trinta e nove,",
+   "s": 6.381,
+   "e": 7.964
+  },
+  {
+   "text": "nos Estados Unidos.",
+   "s": 8.201,
+   "e": 9.281
+  },
+  {
+   "text": "A borracha estava na moda,",
+   "s": 10.143,
+   "e": 11.344
+  },
+  {
+   "text": "mas derretia no calor e rachava no frio.",
+   "s": 11.599,
+   "e": 13.577
+  },
+  {
+   "text": "Botas e capas de borracha viravam uma meleca no ver\u00e3o.",
+   "s": 14.444,
+   "e": 17.123
+  },
+  {
+   "text": "Charles Goodyear ficou obcecado e gastou todo o dinheiro da fam\u00edlia em experi\u00eancias,",
+   "s": 18.005,
+   "e": 21.993
+  },
+  {
+   "text": "fazendo testes at\u00e9 na cozinha de casa.",
+   "s": 22.295,
+   "e": 24.287
+  },
+  {
+   "text": "Fez tantas d\u00edvidas que foi parar na pris\u00e3o.",
+   "s": 25.189,
+   "e": 27.258
+  },
+  {
+   "text": "At\u00e9 que um dia,",
+   "s": 28.102,
+   "e": 28.92
+  },
+  {
+   "text": "mexendo numa mistura de borracha com enxofre,",
+   "s": 29.103,
+   "e": 31.225
+  },
+  {
+   "text": "ele se atrapalhou.",
+   "s": 31.435,
+   "e": 32.143
+  },
+  {
+   "text": "A gosma caiu em cima do fog\u00e3o quente.",
+   "s": 33.012,
+   "e": 35.044
+  },
+  {
+   "text": "Ele esperava que derretesse.",
+   "s": 35.906,
+   "e": 37.245
+  },
+  {
+   "text": "Acontece que n\u00e3o derreteu.",
+   "s": 38.096,
+   "e": 39.505
+  },
+  {
+   "text": "Ficou firme e el\u00e1stica,",
+   "s": 40.41,
+   "e": 41.628
+  },
+  {
+   "text": "como couro.",
+   "s": 41.878,
+   "e": 42.432
+  },
+  {
+   "text": "Tinha nascido a borracha vulcanizada.",
+   "s": 43.288,
+   "e": 45.113
+  },
+  {
+   "text": "Mas outros copiaram a ideia,",
+   "s": 45.944,
+   "e": 47.458
+  },
+  {
+   "text": "e ele morreu cheio de d\u00edvidas.",
+   "s": 47.773,
+   "e": 49.278
+  },
+  {
+   "text": "D\u00e9cadas depois,",
+   "s": 50.128,
+   "e": 51.02
+  },
+  {
+   "text": "a borracha dele estava em pneus,",
+   "s": 51.209,
+   "e": 52.743
+  },
+  {
+   "text": "bolas e sapatos do mundo inteiro.",
+   "s": 52.928,
+   "e": 54.584
+  },
+  {
+   "text": "Uma f\u00e1brica de pneus ganhou o nome dele.",
+   "s": 55.44,
+   "e": 57.478
+  },
+  {
+   "text": "Ele nunca soube.",
+   "s": 58.328,
+   "e": 59.264
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 60.131,
+   "e": 61.575
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 61.868,
+   "e": 63.63
+  }
+ ]
+}

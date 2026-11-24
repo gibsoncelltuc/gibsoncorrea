@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -165,20 +165,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.6s a 49.4s - 11 palavras - plano group
+## Cena b9 - 46.6s a 49.4s - 11 palavras - plano wide
 > "O governador ganhou a guerra, mas o banquinho nunca foi dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (47.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (47.3s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra ganhou (47.3s): executa: estrelinhas + som
 - ACAO: vence na palavra ganhou (47.3s): executa: bracos para cima + brilho
-- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b10 - 50.6s a 53.9s - 13 palavras - plano close
