@@ -87,18 +87,18 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- a4e0c5a1 progresso da fila
-- 9b3890c8 storyboards regenerados com o motor corrigido
-- eaa6b51e motor: 'montada em caminhao' nao vira cavalaria; soldado com fuzil sem batalha automatica com crowd n 0; outback sem celeiro/moinho holandes fora de fazenda; coerencia R7 (palace = praia) + testes (defeitos achados pela sessao A)
-- 712e2c4f forte colonial modelado (muralha com ameias, torres, portao, bandeira); Banquinho com o forte cercado
-- 0a44b07c Post-it: cenas de 1 personagem com 2 (gate cortava), close do papel amarelo como explicacao
+- fada924e progresso da fila
+- 9b35e916 Tulipas storyboard aprovado; limpeza de disco tambem apaga copias de entrega duplicadas e quick-storyboards de entregues
+- a0cae3e4 ckpt(curie1898): etapa gate
+- e423c88d ckpt(curie1898): etapa fit
+- 2e8b3579 progresso da fila
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-24 17:38:19 UTC
+**Hook generated:** 2026-11-24 22:29:53 UTC
 <!-- post-compact-recovery-end -->
 
 ## PASTA DE ENTREGA SEM MISTURA (ordem do Gibson 24/11)
