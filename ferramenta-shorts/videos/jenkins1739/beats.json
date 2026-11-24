@@ -240,7 +240,7 @@
    "say": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um século depois."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "set": "street",
    "who": [
     "JEN:0:sad"
@@ -248,13 +248,16 @@
    "props": [
     [
      "kit/ear_jar",
-     0.0,
-     1.4,
-     2.0
+     0.9,
+     0.4,
+     1.8,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
-   "detalhe": true,
+   "detalhe": false,
    "_auto_vis": 3
   }
  ],
