@@ -1,7 +1,7 @@
 {
- "duration": 53.952,
- "frames30": 1619,
- "source": "silence-align (cost 0.86)",
+ "duration": 53.712,
+ "frames30": 1611,
+ "source": "silence-align (cost 0.85)",
  "segments": [
   [
    0.149792,
@@ -21,7 +21,7 @@
   ],
   [
    7.57354,
-   9.59104
+   9.59096
   ],
   [
    10.4302,
@@ -29,7 +29,7 @@
   ],
   [
    11.4851,
-   13.8687
+   13.869
   ],
   [
    14.7248,
@@ -41,7 +41,7 @@
   ],
   [
    19.2762,
-   21.4005
+   21.4028
   ],
   [
    21.6378,
@@ -76,32 +76,32 @@
    34.0335
   ],
   [
-   34.8822,
-   37.5854
+   34.8798,
+   37.3344
   ],
   [
-   38.4507,
-   40.6755
+   38.2007,
+   40.4255
   ],
   [
-   41.5043,
-   43.6485
+   41.2543,
+   43.3985
   ],
   [
-   43.924,
-   46.0659
+   43.674,
+   45.8155
   ],
   [
-   46.9304,
-   48.8044
+   46.6804,
+   48.5527
   ],
   [
-   49.6568,
-   51.1011
+   49.4067,
+   50.8511
   ],
   [
-   51.3941,
-   53.1557
+   51.1484,
+   52.9057
   ]
  ],
  "phrases": [
@@ -153,7 +153,7 @@
   {
    "text": "O primo reuniu quase tr\u00eas mil homens,",
    "s": 19.276,
-   "e": 21.401
+   "e": 21.403
   },
   {
    "text": "com fuzis e mosquetes,",
@@ -196,39 +196,39 @@
    "e": 34.033
   },
   {
-   "text": "O sult\u00e3o fugiu e pediu abrigo no consulado da Alemanha.",
-   "s": 34.882,
-   "e": 37.585
+   "text": "O sult\u00e3o foi pedir abrigo no consulado da Alemanha.",
+   "s": 34.88,
+   "e": 37.334
   },
   {
    "text": "Os tiros pararam por volta das nove e quarenta.",
-   "s": 38.451,
-   "e": 40.675
+   "s": 38.201,
+   "e": 40.425
   },
   {
    "text": "Os ingleses colocaram outro sult\u00e3o no trono,",
-   "s": 41.504,
-   "e": 43.648
+   "s": 41.254,
+   "e": 43.398
   },
   {
    "text": "e os aliados do primo pagaram pelas balas.",
-   "s": 43.924,
-   "e": 46.066
+   "s": 43.674,
+   "e": 45.816
   },
   {
    "text": "E ainda mandaram a conta das balas.",
-   "s": 46.93,
-   "e": 48.804
+   "s": 46.68,
+   "e": 48.553
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 49.657,
-   "e": 51.101
+   "s": 49.407,
+   "e": 50.851
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 51.394,
-   "e": 53.156
+   "s": 51.148,
+   "e": 52.906
   }
  ]
 }
