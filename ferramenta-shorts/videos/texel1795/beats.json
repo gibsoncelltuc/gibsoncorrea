@@ -146,7 +146,7 @@
    "shot_lock": true
   },
   {
-   "say": "Os franceses tinham cavalaria, os hussardos, e nenhum navio.",
+   "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
    "shot": "group",
    "who": [
     "FRA:0:stern",
@@ -249,7 +249,7 @@
    "sem_mortos": true
   },
   {
-   "say": "Mais de uma dezena de navios, capturados a cavalo. Cavalaria um, marinha zero.",
+   "say": "Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero.",
    "shot": "wide",
    "who": [
     "FRA:0:laugh",
