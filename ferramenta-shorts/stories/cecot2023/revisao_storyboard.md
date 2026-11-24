@@ -6,7 +6,7 @@ b2: OK - por anos El Salvador teve taxas de assassinato por causa das gangues: g
 b3: OK - o presidente Bukele decretou estado de excecao e suspeitos foram presos: Bukele ao lado de soldado preso por mao, montanhas e muralha atras.
 b4: OK - centro de confinamento com vagas para quarenta mil presos: batalhao de soldados em blocos com texto 40 MIL e muralha ao fundo.
 b5: OK - muralhas altas, cercas eletricas e torres de vigia: cena de explicacao com o presidio girando e rotulos MURALHAS, CERCAS e TORRES legiveis, nenhum cortado.
-b6: OK - os assassinatos despencaram: grafico 106,3 em 2015 caindo para 2,4 em 2023, e o reporter tomba ao lado de Bukele.
+b6: CORRIGIDO - na frase os assassinatos despencaram o reporter tombava sem ninguem cair na historia -> motor novo tirou a queda; agora so o grafico 106,3 em 2015 caindo para 2,4 em 2023, dois personagens em pe.
 b7: OK - organizacoes de direitos humanos denunciaram prisoes sem julgamento e mortes sob custodia: grupo de civis em protesto em campo aberto, sem tiro, sem batalha.
 b8: OK - o governo responde que as ruas ficaram seguras e que a maioria apoia: Bukele e reporter conversando em patio de concreto com muralha ao longe.
 b9: OK - a prisao virou simbolo de seguranca para uns e de excesso para outros: grupo de civis com placa DEBATE e muralha ao fundo, expressoes variadas.
