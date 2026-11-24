@@ -241,11 +241,9 @@ nature/tree_oak | b3, b4 | pronto | conferir na folha de contato se le bem; se p
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b6 susto, b7 pular, b8 cochichar
 - RISCOS GERAIS: 
   - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: 8 item(ns) sem referencia visual: Newton e a Maçã, Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar co, Isaac Newton jovem (23 anos, cabelo comprido, casaca simples) -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: Newton e a Maçã, Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar co, Isaac Newton jovem (23 anos, cabelo comprido, casaca simples)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh newton1666 bN bM` (so essas cenas).
