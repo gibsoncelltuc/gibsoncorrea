@@ -1,6 +1,8 @@
 {
  "id": "bacalhau1958",
- "falhas": [],
+ "falhas": [
+  "b6: objeto citado \"kit/navio_destroier\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
+ ],
  "tomadas": [
   {
    "id": "b0",
@@ -444,60 +446,13 @@
    "id": "b6",
    "quadros": [
     {
-     "f": 925,
+     "f": 946,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.8063241106719368,
-       "vis": 1,
-       "area": 0.509313130081241
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 940,
-     "objs": [
-      {
-       "a": "kit/navio_destroier",
-       "inq": 0.782608695652174,
-       "vis": 1,
-       "area": 0.5663225193537592
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 955,
-     "objs": [
-      {
-       "a": "kit/navio_destroier",
-       "inq": 0.7272727272727273,
-       "vis": 1,
-       "area": 0.6235032999298131
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    }
-   ]
-  },
-  {
-   "id": "b6~1",
-   "quadros": [
-    {
-     "f": 976,
-     "objs": [
-      {
-       "a": "kit/navio_destroier",
-       "inq": 0.7628458498023716,
-       "vis": 0.8601036269430051,
-       "area": 0.48504608419074746
+       "inq": 0,
+       "vis": 0,
+       "area": 0
       }
      ],
      "bloq": null,
@@ -519,60 +474,13 @@
      "cortado": 0
     },
     {
-     "f": 1007,
+     "f": 1037,
      "objs": [
       {
        "a": "kit/navio_destroier",
-       "inq": 0.8181818181818182,
-       "vis": 0.25120772946859904,
-       "area": 0.4294389577662966
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    }
-   ]
-  },
-  {
-   "id": "b6~2",
-   "quadros": [
-    {
-     "f": 1028,
-     "objs": [
-      {
-       "a": "kit/navio_destroier",
-       "inq": 0.6284584980237155,
-       "vis": 1,
-       "area": 0.5757048849677179
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 1043,
-     "objs": [
-      {
-       "a": "kit/navio_destroier",
-       "inq": 0.6482213438735178,
-       "vis": 1,
-       "area": 0.6155327146085388
-      }
-     ],
-     "bloq": null,
-     "dentro": null,
-     "cortado": 0
-    },
-    {
-     "f": 1058,
-     "objs": [
-      {
-       "a": "kit/navio_destroier",
-       "inq": 0.6442687747035574,
-       "vis": 1,
-       "area": 0.706663222234045
+       "inq": 0,
+       "vis": 0,
+       "area": 0
       }
      ],
      "bloq": null,
@@ -771,9 +679,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 1,
+       "inq": 0.24516129032258063,
        "vis": 1,
-       "area": 0.07125889163433324
+       "area": 0.1545506649678893
       }
      ],
      "bloq": null,
@@ -785,9 +693,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 1,
+       "inq": 0.2129032258064516,
        "vis": 1,
-       "area": 0.0911391355686107
+       "area": 0.14218661321158882
       }
      ],
      "bloq": null,
@@ -799,9 +707,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 0.6967741935483871,
+       "inq": 0.1935483870967742,
        "vis": 1,
-       "area": 0.09968412546313449
+       "area": 0.14070167661449845
       }
      ],
      "bloq": null,
@@ -818,9 +726,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 0.6387096774193548,
+       "inq": 0.1935483870967742,
        "vis": 1,
-       "area": 0.10314016888314712
+       "area": 0.1378611424254038
       }
      ],
      "bloq": null,
@@ -832,9 +740,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 0.7419354838709677,
+       "inq": 0.3548387096774194,
        "vis": 1,
-       "area": 0.12444116026905239
+       "area": 0.22374137741657435
       }
      ],
      "bloq": null,
@@ -846,9 +754,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 0.9935483870967742,
+       "inq": 0.4967741935483871,
        "vis": 1,
-       "area": 0.16160556424640576
+       "area": 0.2171931157860316
       }
      ],
      "bloq": null,
@@ -865,9 +773,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 1,
+       "inq": 0.9870967741935484,
        "vis": 1,
-       "area": 0.1680632567330325
+       "area": 0.17590178239314813
       }
      ],
      "bloq": null,
@@ -879,9 +787,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 0.6709677419354839,
+       "inq": 0.49032258064516127,
        "vis": 1,
-       "area": 0.14397448666607496
+       "area": 0.19624104947976298
       }
      ],
      "bloq": null,
@@ -893,9 +801,9 @@
      "objs": [
       {
        "a": "kit/cod",
-       "inq": 0.432258064516129,
+       "inq": 0.2129032258064516,
        "vis": 1,
-       "area": 0.12727438279585443
+       "area": 0.14256759667736477
       }
      ],
      "bloq": null,
