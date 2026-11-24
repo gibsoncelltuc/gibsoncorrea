@@ -163,14 +163,17 @@
    "props": [
     [
      "war/pistol",
-     0.6,
-     1.0,
-     2.2
+     0.0,
+     0.8,
+     3.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "set": "street",
-   "detalhe": false,
-   "_auto_vis": 2
+   "detalhe": true,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -194,26 +197,30 @@
    "say": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "say": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
-   "shot": "wide",
+   "shot": "group",
    "set": "street",
    "acao": "discutir",
    "who": [
     "VIA:0:shock",
+    "VIA:1:nervous",
     "MOR:0:angry"
    ],
    "props": [
     [
      "vehicles/locomotive",
-     0.0,
-     -1.0,
-     1.4
+     0.6,
+     1.0,
+     1.5
     ]
    ],
-   "_auto_vis": 1
+   "_auto_vis": 2,
+   "fachada": false
   },
   {
    "shot": "two",
@@ -250,7 +257,9 @@
    ],
    "say": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "close",

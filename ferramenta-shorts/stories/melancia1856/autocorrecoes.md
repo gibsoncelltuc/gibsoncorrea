@@ -15,3 +15,18 @@
 - b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b5: objeto citado "war/pistol" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 24/11 15:01 autocorrecao de visibilidade
+- b6: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: objeto citado "vehicles/locomotive" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 24/11 15:01 autocorrecao de visibilidade
+- b6: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: camera DENTRO de "vehicles/locomotive" -> "vehicles/locomotive" afastado para o fundo e mira da camera fora dele
+- b9: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 24/11 15:02 autocorrecao de visibilidade
+- b6: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: ja corrigida 3 vezes, objeto citado "vehicles/locomotive" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
