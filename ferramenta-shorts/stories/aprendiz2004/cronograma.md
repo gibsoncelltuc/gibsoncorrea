@@ -1,12 +1,12 @@
 # CRONOGRAMA - Poder e Fama EP 13 - Você Está Demitido
 
-Gerado em 24/11 09:59 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:02 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | TRU, CND | - | marco_trumptower, tv | - | Duas palavras transformaram um empresário de Nova York numa estrela da
+b0 | simples | loc_cidade | two | TRU, CND | - | marco_trumptower | - | Duas palavras transformaram um empresário de Nova York numa estrela da
 b1 | transicao | loc_cidade | reveal | POV, POV | 6 | marco_trumptower | - | Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa
 b2 | simples | interior loja | two | TRU, CND | - | - | - | Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade 
 b3 | simples | loc_cidade | two | CND, POV | - | stall | - | Toda semana, as equipes faziam uma tarefa de negócios, como vender lim

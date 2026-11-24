@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | kit/tv, kit/marco_trumptower | - | -
+b0 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | kit/marco_trumptower | - | -
 b1 | loc_cidade | reveal | 8 | parados (so fala e pisca) | kit/marco_trumptower | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | loc_cidade | two | 2 | conversar, INTERAGEM: entregar | kit/stall | - | -

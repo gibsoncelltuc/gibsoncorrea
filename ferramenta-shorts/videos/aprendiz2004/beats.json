@@ -54,14 +54,6 @@
     "TRU:0:smug",
     "CND:0:shock"
    ],
-   "props": [
-    [
-     "kit/tv",
-     2.8,
-     -2.0,
-     1.1
-    ]
-   ],
    "text": "2004",
    "fx": [
     "stars@30"
@@ -69,7 +61,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido."
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.",
+   "objetos": false
   },
   {
    "shot": "reveal",
@@ -170,7 +163,7 @@
      "kit/tv",
      0,
      -3.0,
-     1.4
+     1.3
     ]
    ],
    "fx": [
@@ -248,7 +241,8 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir."
+   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
+   "detalhe": false
   }
  ],
  "heroi": "kit/tv",
