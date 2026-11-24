@@ -12,12 +12,13 @@ git fetch -q origin $MAIN || exit 0
 FERR=(ferramenta-shorts ':!ferramenta-shorts/stories' ':!ferramenta-shorts/videos' ':!ferramenta-shorts/ckpt' ':!ferramenta-shorts/referencias' ':!ferramenta-shorts/queue.txt' ':!ferramenta-shorts/web/story.js' ':!ferramenta-shorts/web/main.js' ':!ferramenta-shorts/web/toon.js' ':!ferramenta-shorts/PAUSA')
 [ -z "$(git diff --diff-filter=MD --name-only FETCH_HEAD HEAD -- "${FERR[@]}" CLAUDE.md .claude)" ] && exit 0   # ferramenta ja identica a da principal (arquivos que so' a sessao tem nao contam)
 # scripts bash que a fila esta EXECUTANDO nao podem mudar no meio: se mudaram, espera a fila ficar entre videos
+SEGURA=()   # 24/11: com video rodando, so' os scripts que a fila esta EXECUTANDO esperam; o resto da ferramenta (ficha de cena, checagens, olhos) entra JA
 if git diff --name-only HEAD FETCH_HEAD | grep -qE 'ferramenta-shorts/(make_video|run_queue|assemble|render)\.sh$' && pgrep -f make_video.sh >/dev/null; then
-  echo "$(date +%T) atualizacao com scripts da fila: espera o video atual terminar"; exit 0; fi
+  SEGURA=(':!ferramenta-shorts/make_video.sh' ':!ferramenta-shorts/run_queue.sh' ':!ferramenta-shorts/assemble.sh' ':!ferramenta-shorts/render.sh'); echo "$(date +%T) scripts da fila seguram ate o video atual terminar; resto da ferramenta atualizado agora"; fi
 git add -A >/dev/null 2>&1; git commit -qm "ckpt antes do sync automatico da ferramenta" >/dev/null 2>&1
 git merge --no-edit -X theirs FETCH_HEAD >/dev/null 2>&1 || { git merge --abort 2>/dev/null; echo "$(date +%T) merge nao aplicou (historicos diferentes): copiando a ferramenta direto da principal"; }
 # FORCA: depois do merge (ou sem ele), cada arquivo da ferramenta fica IGUAL ao da principal -- nenhuma edicao antiga da sessao sobrevive no motor
-git checkout FETCH_HEAD -- "${FERR[@]}" CLAUDE.md .claude 2>/dev/null
+git checkout FETCH_HEAD -- "${FERR[@]}" "${SEGURA[@]}" CLAUDE.md .claude 2>/dev/null
 git show FETCH_HEAD:ferramenta-shorts/PAUSA > /dev/null 2>&1 && git checkout FETCH_HEAD -- ferramenta-shorts/PAUSA 2>/dev/null   # a pausa da principal vale para as sessoes
 [ -z "$(git diff --diff-filter=MD --name-only FETCH_HEAD -- "${FERR[@]}")" ] || echo "$(date +%T) AVISO: ainda ha arquivo do motor diferente da principal (git diff --diff-filter=MD FETCH_HEAD -- ferramenta-shorts)"   # arquivo que so a sessao tem (objeto que ela modelou) nao conta
 cd ferramenta-shorts; cat web/toonbase.js web/roman.js web/pig2d.js web/animals2d.js > web/toon.js
