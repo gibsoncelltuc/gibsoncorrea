@@ -188,10 +188,9 @@
   },
   {
    "say": "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "OFF:0:nervous",
-    "FRA:0:shock"
+    "OFF:0:nervous"
    ],
    "set": "arctic",
    "clima": "neve",
@@ -204,7 +203,12 @@
      "stand",
      0.7
     ]
-   ]
+   ],
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "say": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos.",

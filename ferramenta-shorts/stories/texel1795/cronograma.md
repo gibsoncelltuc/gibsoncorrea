@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Gerado em 24/11 12:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 12:49 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | arctic | orbit | NED, NED | - | ship | - | A frota holandesa esta
 b3 | simples | arctic | wide | NED | - | ship | - | Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 b4 | simples | arctic | group | FRA, FRA, OFF | - | - | - | Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n
 b5 | simples | arctic | two | GEN, OFF | - | - | - | O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
-b6 | simples | arctic | low | OFF, FRA | - | - | - | Só que ninguém sabia se o gelo ia aguentar o peso de centenas de caval
+b6 | simples | arctic | low | OFF | - | - | - | Só que ninguém sabia se o gelo ia aguentar o peso de centenas de caval
 b7 | chave | arctic | two | FRA, FRA | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo,
 b8 | chave | arctic | group | NED, FRA | 10 | ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os holandeses nem tentaram lutar. A frota inteira se rend
 b9 | chave | arctic | crowd | FRA, FRA | - | ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mais de uma dezena de navios de guerra, capturados por soldados a cava

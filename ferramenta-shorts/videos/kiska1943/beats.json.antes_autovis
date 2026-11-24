@@ -1,0 +1,391 @@
+{
+ "title": "A Invasão da Ilha Vazia",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "mountain",
+ "light": "overcast",
+ "mood": "march",
+ "assets": [
+  "ship"
+ ],
+ "outfits": {
+  "USA": {
+   "jacket": "#6a7440",
+   "pants": "#5a6334",
+   "boots": "#2a2218",
+   "hat": "m1",
+   "cap": "#5a6334",
+   "belt": "#8a7a50",
+   "rifle": true
+  },
+  "CAN": {
+   "jacket": "#8a7a50",
+   "pants": "#6a5a38",
+   "boots": "#2a2218",
+   "hat": "brodie",
+   "cap": "#8a7a50",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "OFF": {
+   "jacket": "#6a7440",
+   "pants": "#8a7a50",
+   "boots": "#2a2218",
+   "hat": "quepe",
+   "cap": "#5a6334",
+   "buttons": "#e8c45a",
+   "moustache_on": "#4a3020",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
+   "shot": "wide",
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern"
+   ],
+   "props": [
+    [
+     "ship",
+     -5,
+     -7,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -9,
+     1.3
+    ]
+   ],
+   "text": "KISKA 1943",
+   "tat": 2,
+   "tstyle": "white",
+   "mood": "epic",
+   "set": "harbor",
+   "desembarque": true,
+   "fx": [
+    "dust@25"
+   ],
+   "sfx": [
+    "thump@25"
+   ],
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
+  },
+  {
+   "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
+   "shot": "group",
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern",
+    "USA:1:grin"
+   ],
+   "crowd": {
+    "n": 8,
+    "expr": "stern"
+   },
+   "text": "34.000 SOLDADOS",
+   "tat": 5,
+   "tstyle": "gold",
+   "props": [
+    [
+     "vehicles/airplane",
+     1.6,
+     -1.6,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     -1.8,
+     -3.0,
+     1.0
+    ]
+   ],
+   "mapa": "ALASCA",
+   "set": "arctic"
+  },
+  {
+   "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
+   "shot": "wide",
+   "set": "harbor",
+   "desembarque": true,
+   "props": [
+    [
+     "kit/aviao_ww2",
+     -4,
+     -9,
+     1.0
+    ],
+    [
+     "kit/tanque_ww2",
+     4,
+     -6,
+     1.0
+    ]
+   ],
+   "who": [
+    "USA:0:stern",
+    "CAN:1:smile"
+   ]
+  },
+  {
+   "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
+   "shot": "group",
+   "who": [
+    "USA:2:grin"
+   ],
+   "props": [
+    [
+     "kit/aviao_ww2",
+     -3.0,
+     -8.0,
+     1.0
+    ],
+    [
+     "cannon",
+     2.4,
+     0.6,
+     1.2
+    ]
+   ],
+   "fx": [
+    "burst@38",
+    "burst@60",
+    "burst@82"
+   ],
+   "sfx": [
+    "cannon@38",
+    "cannon@60",
+    "cannon@82"
+   ],
+   "mood": "march",
+   "set": "arctic",
+   "text": "BOMBARDEIO",
+   "tat": 3,
+   "tstyle": "red",
+   "detalhe": false,
+   "_auto_vis": 2,
+   "d0": 12.0,
+   "d1": 11.0
+  },
+  {
+   "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
+   "shot": "track",
+   "who": [
+    "USA:0:stern",
+    "CAN:1:stern",
+    "USA:3:nervous"
+   ],
+   "move": 8,
+   "light": "overcast",
+   "mood": "tense",
+   "set": "arctic",
+   "clima": "neblina"
+  },
+  {
+   "say": "Mas teve um problema: os japoneses já tinham ido embora.",
+   "shot": "two",
+   "who": [
+    "USA:1:shock",
+    "CAN:0:shock"
+   ],
+   "text": "ILHA VAZIA",
+   "tat": 10,
+   "tstyle": "red",
+   "light": "overcast",
+   "clima": "neblina",
+   "interior": "pedra"
+  },
+  {
+   "say": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
+   "shot": "track",
+   "set": "arctic",
+   "who": [
+    "USA:0:nervous",
+    "CAN:0:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   }
+  },
+  {
+   "say": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "ship",
+     -2,
+     -6,
+     1.3
+    ],
+    [
+     "ship",
+     6,
+     -9,
+     1.1
+    ]
+   ],
+   "light": "overcast",
+   "mood": "calm",
+   "set": "harbor",
+   "clima": "neblina",
+   "shot_lock": true
+  },
+  {
+   "say": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
+   "shot": "group",
+   "who": [
+    "USA:0:shock",
+    "CAN:0:shock",
+    "USA:2:pained"
+   ],
+   "fx": [
+    "burst@30",
+    "burst@60"
+   ],
+   "sfx": [
+    "gun@30",
+    "gun@50",
+    "gun@65"
+   ],
+   "text": "FOGO AMIGO",
+   "tat": 14,
+   "tstyle": "red",
+   "light": "overcast",
+   "mood": "tense",
+   "set": "arctic",
+   "clima": "neblina"
+  },
+  {
+   "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "USA:0:sad",
+    "CAN:0:sad"
+   ],
+   "props": [
+    [
+     "kit/navio_encouracado",
+     -3.0,
+     -24.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "burst@126"
+   ],
+   "sfx": [
+    "cannon@126"
+   ],
+   "text": "MINA",
+   "tat": 14,
+   "tstyle": "red",
+   "animais": false
+  },
+  {
+   "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
+   "shot": "prop",
+   "who": [
+    "USA:1:surprised",
+    "CAN:0:surprised"
+   ],
+   "text": "SÓ CACHORROS",
+   "tat": 6,
+   "tstyle": "brown",
+   "light": "arctic",
+   "mood": "playful",
+   "set": "harbor",
+   "clima": "neblina",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.2,
+     1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/dog_sit",
+     -1.4,
+     1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": false
+  },
+  {
+   "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
+   "shot": "two",
+   "who": [
+    "OFF:0:pained",
+    "USA:0:surprised"
+   ],
+   "text": "OPERAÇÃO ILHA VAZIA",
+   "tat": 11,
+   "tstyle": "white",
+   "mood": "playful",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.0,
+     1.0,
+     1.2
+    ]
+   ],
+   "detalhe": false,
+   "interior": "madeira"
+  }
+ ],
+ "heroi": "kit/dog_sit",
+ "visual": {
+  "local": "Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim e pedras, praias de cascalho, mar frio, neblina constante",
+  "quando": "desembarque em 15 de agosto de 1943 (os japoneses tinham saido em 28 de julho, escondidos na neblina)",
+  "participantes": [
+   "cerca de 34 mil soldados americanos e canadenses",
+   "marinha americana",
+   "guarnicao japonesa (ja evacuada)",
+   "cachorros deixados na ilha"
+  ],
+  "roupas": {
+   "USA": "soldado americano de 1943: uniforme verde-oliva, capacete M1, fuzil",
+   "CAN": "soldado canadense: uniforme caqui, capacete Brodie",
+   "OFF": "oficial americano com quepe"
+  },
+  "cenario": "praia de cascalho cinza com navios de desembarque, encostas de tundra sem arvores, neblina densa, vulcao ao fundo",
+  "objetos": [
+   "navios de guerra e de desembarque",
+   "avioes",
+   "canhoes",
+   "cachorros abandonados"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Operation_Cottage",
+   "https://en.wikipedia.org/wiki/Kiska"
+  ]
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 21,
+ "titulo_base": "A Invasão da Ilha Vazia"
+}

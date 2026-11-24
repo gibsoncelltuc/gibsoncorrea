@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe, comercio, desculpa, espanha, inglaterra
 - RISCOS: nenhum
 
-## Cena b6 - Em mil setecentos e trinta e nove, a guerra começou.
+## Cena b6 - Em mil setecentos e trinta e nove, a guerra começou, com navios ingles...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SOL (variante 0, expressao angry); SOL (variante 1, expressao shout) | multidao: 20 de SOL
+- Personagens principais (1): SOL (variante 0, expressao angry) | multidao: 20 de SOL
 - Animacao: - | batalha encenada
-- Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe, navios
 - RISCOS: nenhum
 
 ## Cena b7 - Depois de quase dez anos, os dois lados fizeram a paz.
@@ -122,13 +122,11 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 14% | medio 69% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 15% | medio 68% | aberto 11% | detalhe 7%
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py jenkins1739  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/jenkins1739/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).

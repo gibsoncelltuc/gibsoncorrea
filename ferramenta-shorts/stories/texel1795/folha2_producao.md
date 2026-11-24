@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: noite | clima: neve
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): OFF (variante 0, expressao nervous); FRA (variante 0, expressao shock)
-- Animacao: reagir | interacao: avanca e o outro recua
+- Personagens principais (1): OFF (variante 0, expressao nervous)
+- Animacao: reagir
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalos, centenas, gelo, peso
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 10 de NED
-- Animacao: reagir | interacao: discutir | batalha encenada
+- Animacao: reagir | interacao: avanca e o outro recua | batalha encenada
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota, holandeses
 - RISCOS: nenhum
@@ -123,7 +123,7 @@ horse | b0, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b7, b8, b9 | planos abertos: 5 | mistura: close 20% | medio 43% | aberto 35% | detalhe 2%
-- Interacoes: b4 tremem de frio, b5 aproxima-se, b6 avanca e o outro recua, b8 discutir
+- Interacoes: b4 tremem de frio, b5 aproxima-se, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

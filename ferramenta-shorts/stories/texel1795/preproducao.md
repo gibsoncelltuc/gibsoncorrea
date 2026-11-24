@@ -10,15 +10,15 @@ b2 | arctic | orbit | 2 | reagir | ship | - | -
 b3 | arctic | wide | 1 | encena | ship | - | -
 b4 | arctic | group | 3 | conversar, INTERAGEM: tremem de frio | horse | - | -
 b5 | arctic | two | 2 | conversar, INTERAGEM: aproxima-se | horse | - | -
-b6 | arctic | low | 2 | reagir, INTERAGEM: avanca e o outro recua | horse | - | -
+b6 | arctic | low | 1 | reagir | horse | - | -
 b7 | arctic | two | 2 | encena, andando, batalha | horse | - | -
-b8 | arctic | group | 12 | reagir, INTERAGEM: discutir, batalha | ship | - | -
+b8 | arctic | group | 12 | reagir, INTERAGEM: avanca e o outro recua, batalha | ship | - | -
 b9 | arctic | crowd | 2 | batalha | ship, horse | - | -
 b10 | arctic | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b7, b8, b9
-Interacoes entre personagens: b4 tremem de frio, b5 aproxima-se, b6 avanca e o outro recua, b8 discutir
+Interacoes entre personagens: b4 tremem de frio, b5 aproxima-se, b8 avanca e o outro recua
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1865 | (rosto) pleading (expr + som de efeito); encena: pensa (think) @3 (acao + som de efeito); encena: quimico (pour) @5 (acao + som de efeito) | -
-b1 | reveal | -  | batalha aberta com tiros, tropa, mapa | - | -
+b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
 b3 | close | noite  | interior | encena: dorme @11 (acao + som de efeito) | -
 b4 | two | noite  | tropa | - | -

@@ -1,20 +1,20 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Gerado em 24/11 12:27 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 13:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | KEK, COL | - | marco_viena, snake_ring | - | Um dos maiores segredos da química foi resolvido num cochilo, com a aj
-b1 | chave | street | reveal | POV, POV | 18 | house_two, marco_viena, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.
+b1 | chave | street | wide | POV | 18 | house_two, marco_viena, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.
 b2 | simples | interior madeira | two | KEK, ALU | - | snake_ring | - | O professor August Kekulé tinha um problema: o benzeno, com seis carbo
 b3 | simples | interior madeira | close | KEK | - | fireplace, Chair_1 | - | Numa noite fria, ele virou a cadeira para a lareira, e cochilou.
 b4 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/snake_ring (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som | No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o p
 b5 | simples | interior madeira | low | KEK | - | snake_ring | - | Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!
 b6 | simples | interior madeira | two | KEK | - | snake_ring | - | Passou o resto da noite desenhando o anel de seis carbonos. E a conta 
 b7 | simples | interior pedra | group | KEK, COL, ALU | - | snake_ring | - | Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pe
-b8 | chave | street | crowd | COL, KEK | 6 | snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
+b8 | chave | street | crowd | COL | 6 | marco_viena, snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
 b9 | simples | street | close | KEK | - | snake_ring | - | E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordad
 b10 | simples | street | two | KEK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

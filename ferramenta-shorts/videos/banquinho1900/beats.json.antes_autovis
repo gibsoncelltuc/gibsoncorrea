@@ -1,0 +1,254 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 13,
+ "title": "A Guerra do Banquinho Dourado",
+ "titulo_base": "A Guerra do Banquinho Dourado",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/golden_stool",
+ "outfits": {
+  "GOV": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "helmet",
+   "cap": "#f1efe6",
+   "uniforme_fixo": true
+  },
+  "ASH": {
+   "jacket": "#d9a630",
+   "pants": "#2a7a3a",
+   "boots": "#2a2218",
+   "hat": "hair"
+  },
+  "CHE": {
+   "jacket": "#2a7a3a",
+   "pants": "#d9a630",
+   "boots": "#2a2218",
+   "hat": "turban",
+   "cap": "#d9a630"
+  },
+  "SOL": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "GOV:0:smug",
+    "ASH:0:shock"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     0.6,
+     1.0,
+     1.5
+    ]
+   ],
+   "text": "1900",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
+   "set": "countryside",
+   "_auto_vis": 2
+  },
+  {
+   "shot": "reveal",
+   "set": "jungle",
+   "who": [
+    "ASH:0:stern",
+    "ASH:1:neutral"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "ASH"
+    ],
+    "march": false
+   },
+   "mapa": "GANA",
+   "mapa_at": 3,
+   "say": "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.",
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "thump@70"
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CHE:0:stern",
+    "ASH:0:smile"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     0.3,
+     2.2,
+     1.3
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
+   "set": "countryside"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOV:0:angry:paper",
+    "CHE:0:scared"
+   ],
+   "interacao": "empurrar",
+   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\""
+  },
+  {
+   "shot": "two",
+   "set": "countryside",
+   "who": [
+    "CHE:0:shock",
+    "ASH:0:angry"
+   ],
+   "interacao": "susto",
+   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
+  },
+  {
+   "shot": "wide",
+   "set": "jungle",
+   "who": [
+    "ASH:0:angry"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "ASH"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "buildings/castle_tower",
+     0.0,
+     -9.0,
+     1.2
+    ]
+   ],
+   "text": "REVOLTA",
+   "titulo": true,
+   "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
+   "detalhe": false,
+   "_auto_vis": 3,
+   "cx": 0.0,
+   "cz": -6.3,
+   "d0": 21.0,
+   "d1": 18.0
+  },
+  {
+   "shot": "wide",
+   "set": "jungle",
+   "who": [
+    "SOL:0:stern"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "stern"
+   },
+   "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "GOV:0:relief",
+    "PRE:0:smug:paper"
+   ],
+   "interacao": "entregar",
+   "say": "No fim, os ingleses venceram e a região virou colônia."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CHE:0:smug",
+    "ASH:0:grin"
+   ],
+   "interacao": "cochichar",
+   "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
+   "interior": "loja"
+  },
+  {
+   "shot": "close",
+   "set": "countryside",
+   "who": [
+    "GOV:0:sad"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     1.0,
+     0.6,
+     1.3
+    ]
+   ],
+   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele."
+  }
+ ],
+ "ano": 1900,
+ "regiao": "africa",
+ "exp": 1.0,
+ "visual": {
+  "local": "Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias de casas de barro com telhado de palha, floresta tropical, forte britanico de pedra",
+  "quando": "marco a setembro de 1900; de dia, estacao chuvosa",
+  "participantes": [
+   "governador Frederic Hodgson",
+   "lideres ashanti",
+   "rainha-mae Yaa Asantewaa, que liderou a revolta",
+   "soldados britanicos e africanos da forca colonial"
+  ],
+  "roupas": {
+   "GOV": "uniforme colonial branco com capacete branco",
+   "ASH": "pano kente colorido amarrado no ombro",
+   "CHE": "chefe ashanti com pano kente e adornos dourados",
+   "SOL": "soldado colonial de 1900: farda caqui e capacete",
+   "PRE": "funcionario britanico de terno escuro"
+  },
+  "cenario": "aldeia ashanti com casas de barro e palha, floresta tropical, forte de pedra em Kumasi",
+  "objetos": [
+   "banquinho dourado (Sika Dwa Kofi)",
+   "forte britanico",
+   "fuzis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
+   "https://en.wikipedia.org/wiki/Golden_Stool"
+  ]
+ }
+}

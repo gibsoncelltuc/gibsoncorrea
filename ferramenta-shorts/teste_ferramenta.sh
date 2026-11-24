@@ -110,7 +110,7 @@ grep -q "cen == 'arctic' and re.search(r'congel|gelo', t)" mkvideo.py || f "mar 
 grep -q 'GANCHO sem impacto visual nos 5 primeiros segundos' mkvideo.py || f "cena 1 sem checagem de impacto visual (5 primeiros segundos)"
 grep -q 'revisao_final.sh \$ID ||' enviar_para_principal.sh || f "sessao pode enviar video sem revisao final frase a frase"
 grep -q 'node visivel.mjs' make_video.sh && grep -q 'VISIBILIDADE REPROVADA' aprovar_storyboard.sh && grep -q '__propPool' build3.sh || f "storyboard pode ser aprovado sem medir se o objeto citado aparece (causa raiz do retrabalho de 24/11)"
-grep -q "X - 90, DECK - 0.3, -70" web/sets/harbor.js || f "farol do cais perto da camera (dominava o quadro no Kiska e no Bolos)"
+grep -q "if (globalThis.FAROL) libInst(.buildings/lighthouse" web/sets/harbor.js || f "farol do cais perto da camera (dominava o quadro no Kiska e no Bolos)"
 grep -q 'conserto DESFEITO' autocorrigir_visibilidade.py && grep -q 'um personagem a menos' autocorrigir_visibilidade.py || f "autocorrecao pode esvaziar cena de acao ou criar risco novo"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
