@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# 24/11: conta a refacao (limite 1 por video; acima disso o status alerta)
+[ -n "$1" ] && { n_=$(cut -d" " -f1 stories/$1/refacoes.txt 2>/dev/null || echo 0); echo "$((n_ + 1)) $(date +%F_%T)" > stories/$1/refacoes.txt; }
 # REFAZ SO' ALGUMAS CENAS de um video ja renderizado (2-5 min em vez de 20):  ./refazer.sh <id> b4 b8
 #  - edite a cena no videos/<id>/beats.json (camera, personagens, objetos, batalha, texto na imagem...) e rode.
 #  - so' vale se a NARRACAO nao mudou (mesmo texto = mesmos tempos). Se mudou o texto falado, o video inteiro precisa ser refeito (run_queue.sh).

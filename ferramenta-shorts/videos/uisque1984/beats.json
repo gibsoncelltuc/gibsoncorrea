@@ -72,18 +72,22 @@
    "interacao": "discutir",
    "acao": "discutir",
    "say": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "quadro": {
-    "objeto": "kit/whisky",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.5 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
-   }
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -118,10 +122,14 @@
    "props": [
     [
      "vehicles/helicopter",
-     0.0,
+     -16.0,
      -9.7,
      3.0,
      {
+      "mover": [
+       0.0,
+       -9.7
+      ],
       "fixo": true
      }
     ]
@@ -136,20 +144,24 @@
    "impact": true,
    "riscos_ok": true,
    "detalhe": false,
+   "fachada": false,
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "vehicles/helicopter",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -4.4,
    "h": 2.6,
-   "d0": 20.1,
-   "d1": 19.1,
-   "fachada": false,
-   "quadro": {
-    "objeto": "vehicles/helicopter",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~7.4 m de altura e 16.2 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~17% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -4.4, distancia 19.1 m), sem multidao na frente"
-   }
+   "d0": 28.5,
+   "d1": 27.2
   },
   {
    "shot": "two",
@@ -161,9 +173,12 @@
    "props": [
     [
      "war/flagpole",
-     3,
-     -3,
-     1.2
+     7.0,
+     -14.0,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/whisky",
@@ -177,18 +192,28 @@
    ],
    "acao": "comemorar",
    "say": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense.",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "war/flagpole",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "quadro": {
-    "objeto": "kit/whisky",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.5 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
-   }
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -219,20 +244,24 @@
    "say": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
    "impact": true,
    "detalhe": false,
+   "fachada": false,
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o flagpole (alvo z -3.6, camera a 24.3 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "war/flagpole",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 17.5,
-   "d1": 16.7,
-   "fachada": false,
-   "quadro": {
-    "objeto": "war/flagpole",
-    "classe": "grande",
-    "lugar": "fundo",
-    "tela": "42% da altura da tela",
-    "relacao": "objeto com ~6.5 m de altura e 2.8 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~19% da tela)",
-    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 16.7 m), sem multidao na frente"
-   }
+   "d0": 25.5,
+   "d1": 24.3
   },
   {
    "shot": "two",
@@ -255,18 +284,22 @@
    "say": "E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.",
    "set": "arctic",
    "riscos_ok": true,
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "quadro": {
-    "objeto": "kit/whisky",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.5 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
-   }
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -317,18 +350,22 @@
    "say": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
    "acao": "comemorar",
    "interior": "pedra",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "quadro": {
-    "objeto": "kit/whisky",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~1.6 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
-   }
+   "d1": 8.0
   }
  ],
  "ano": 1984,
@@ -361,5 +398,6 @@
    "https://en.wikipedia.org/wiki/Whisky_War"
   ]
  },
- "variar_cenario": false
+ "variar_cenario": false,
+ "max_wide": 4
 }

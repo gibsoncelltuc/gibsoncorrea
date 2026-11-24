@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra da Lagosta
 - Epoca: 1961 | Lugar: litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros | Quando: 1961 a 1963, de dia
 - HEROIS (objeto): kit/lobster
-- HEROIS (personagens): FRA, BRA, MAR, PES
+- HEROIS (personagens): BRA, MAR, PES, FRA
 - Cenarios: harbor, interior pedra, loc_estudio
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)

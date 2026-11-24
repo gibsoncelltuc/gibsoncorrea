@@ -57,8 +57,11 @@
     [
      "kit/golden_stool",
      0.0,
-     1.4,
-     2.6
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1900",
@@ -67,7 +70,22 @@
    "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
    "set": "countryside",
    "detalhe": true,
-   "_auto_vis": 3
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -103,15 +121,33 @@
     [
      "kit/golden_stool",
      0.0,
-     1.4,
-     2.2
+     -1.2,
+     2.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "conversar",
    "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
    "set": "countryside",
-   "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -134,27 +170,25 @@
    "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
-   "shot": "group",
-   "set": "jungle",
+   "shot": "wide",
+   "set": "countryside",
    "who": [
     "ASH:0:angry"
    ],
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "ASH"
-    ],
-    "march": true,
-    "expr": "angry"
+    "n": 0
    },
    "props": [
     [
      "buildings/castle_tower",
      0.0,
-     -7.0,
-     1.3
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "FORTE CERCADO",
@@ -162,9 +196,24 @@
    "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "detalhe": false,
    "fachada": false,
-   "_auto_vis": 2,
-   "d0": 12.0,
-   "d1": 11.0
+   "objetos": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 48.3 m, altura 4.3 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 4.3,
+   "d0": 50.8,
+   "d1": 48.3
   },
   {
    "shot": "group",
@@ -210,14 +259,33 @@
    "props": [
     [
      "kit/golden_stool",
-     0.6,
-     0.4,
-     1.6
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "group",
    "set": "countryside",
    "who": [
     "GOV:0:sad"
@@ -225,14 +293,33 @@
    "props": [
     [
      "kit/golden_stool",
-     0.0,
-     1.4,
-     2.0
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
-   "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "ano": 1900,
@@ -264,5 +351,7 @@
    "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
    "https://en.wikipedia.org/wiki/Golden_Stool"
   ]
- }
+ },
+ "variar_cenario": false,
+ "max_wide": 3
 }

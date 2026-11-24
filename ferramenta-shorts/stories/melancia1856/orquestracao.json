@@ -37,7 +37,6 @@
   {
    "camera": "wide",
    "personagens": [
-    "VIA",
     "VIA"
    ],
    "multidao": 0,
@@ -56,7 +55,6 @@
   {
    "camera": "wide",
    "personagens": [
-    "VIA",
     "VIA"
    ],
    "multidao": 0,
@@ -155,7 +153,7 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "VIA"
    ],
@@ -216,7 +214,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "VEN"
    ],
@@ -234,7 +232,7 @@
    "cenario": "jungle"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "VIA"
    ],

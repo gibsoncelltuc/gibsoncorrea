@@ -69,18 +69,22 @@
     "ding@30"
    ],
    "say": "Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "quadro": {
-    "objeto": "kit/postit",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~0.6 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
-   }
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -254,18 +258,22 @@
     "sting@40"
    ],
    "say": "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "quadro": {
-    "objeto": "kit/postit",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~0.7 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
-   }
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -287,18 +295,22 @@
     ]
    ],
    "say": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "quadro": {
-    "objeto": "kit/postit",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~0.6 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
-   }
+   "d1": 11.5
   },
   {
    "shot": "crowd",
@@ -341,18 +353,22 @@
    "titulo": true,
    "say": "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.",
    "impact": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "quadro": {
-    "objeto": "kit/postit",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~0.9 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
-   }
+   "d1": 11.5
   },
   {
    "shot": "close",
@@ -372,18 +388,22 @@
    ],
    "text": "1980",
    "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "quadro": {
-    "objeto": "kit/postit",
-    "classe": "medio",
-    "lugar": "meio",
-    "tela": "32% da altura da tela",
-    "relacao": "objeto com ~0.6 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
-    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
-   }
+   "d1": 8.0
   }
  ],
  "visual": {

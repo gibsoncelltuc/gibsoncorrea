@@ -11,10 +11,10 @@ if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 4000 ]; then for d in out/*/frame
 log() { echo "$(date +%T) $*" | tee -a $L; }
 st() { [ -f stories/$ID/stages/$1 ]; }; mark() { mkdir -p stories/$ID/stages; date +%s > stories/$ID/stages/$1; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }
-[ -f stories/$ID/STORYBOARD_OK ] || python3 enquadrar.py $ID >> $L 2>&1 || true   # 24/11 ENQUADRAMENTO NA FONTE: a folha 2 descreve lugar/tamanho/camera de cada objeto e a cena e' montada com isso (storyboard ja aprovado nao e' mexido)
-python3 mkvideo.py $ID >> $L 2>&1
+[ -f stories/$ID/STORYBOARD_OK ] || [ "${AUTOVIS:-0}" -gt 0 ] || python3 enquadrar.py $ID >> $L 2>&1 || true   # 24/11 ENQUADRAMENTO NA FONTE: a folha 2 descreve lugar/tamanho/camera de cada objeto e a cena e' montada com isso (storyboard ja aprovado nao e' mexido)
+python3 mkvideo.py $ID >> $L 2>&1; python3 ficha_nas_folhas.py $ID >> $L 2>&1 || true
 # FOLHA 4 (v13): pesquisa de campo automatica antes de tudo (busca cada item do roteiro na internet, baixa os prints e monta o quadro de referencias)
-if [ ! -f referencias/$ID/pesquisa.json ]; then log "pesquisa de campo (folha 4)"; python3 pesquisar.py $ID >> $L 2>&1 || true; python3 mkvideo.py $ID >> $L 2>&1; fi
+if [ ! -f referencias/$ID/pesquisa.json ]; then log "pesquisa de campo (folha 4)"; python3 pesquisar.py $ID >> $L 2>&1 || true; python3 mkvideo.py $ID >> $L 2>&1; python3 ficha_nas_folhas.py $ID >> $L 2>&1 || true; fi
 VOICE=$(j voice); RATE=$(j rate); T=$(j file)
 VH=$(python3 -c "import json,hashlib;B=json.load(open('videos/$ID/beats.json'));print(hashlib.md5(' '.join(b['say'] for b in B['beats']).encode()).hexdigest()[:12])")   # texto narrado mudou = voz nova (pendencia da sessao B: a voz antiga ia para o video)
 if st voice && [ -f stories/$ID/stages/voice.hash ] && [ "$(cat stories/$ID/stages/voice.hash)" != "$VH" ]; then log "o texto do roteiro mudou: refazendo a voz"; rm -rf stories/$ID/stages/voice stories/$ID/voice.mp3 stories/$ID/work; fi
@@ -25,7 +25,7 @@ st voice && [ ! -f stories/$ID/stages/voice.hash ] && echo "$VH" > stories/$ID/s
 if st voice && [ -f stories/$ID/voice.mp3 ] && [ ! -f stories/$ID/work/phrases.json ]; then log "refazendo so a temporizacao (work/ ausente)"; (cd stories/$ID && python3 ../../timing.py voice.mp3 script.txt --out work >> ../../$L 2>&1); fi
 if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; echo "$VH" > stories/$ID/stages/voice.hash; fi
 if [ -f stories/$ID/VOICE_PLACEHOLDER ] && [ "${ALLOW_TEST_VOICE:-0}" != "1" ]; then log "PARADO: voz de TESTE (espeak, robotica). NAO se entrega video assim. Conserte a rede/certificado do edge-tts (veja OPERACAO.md) e apague stories/$ID/stages/voice e stories/$ID/voice.mp3"; rm -f stories/$ID/stages/voice; exit 3; fi
-python3 mkvideo.py $ID >> $L 2>&1   # de novo, com a voz pronta: a folha 3 sai com o instante exato de cada acao
+python3 mkvideo.py $ID >> $L 2>&1; python3 ficha_nas_folhas.py $ID >> $L 2>&1 || true   # de novo, com a voz pronta: a folha 3 sai com o instante exato de cada acao
 if ! python3 verificar_folhas.py $ID >> $L 2>&1; then log "BLOQUEADO: as 3 folhas nao foram lidas/seguidas (veja $L)"; tail -6 $L; exit 1; fi; log "3 folhas lidas e seguidas"
 if ! st style; then log "estilo (autoajuste)"; python3 autostyle.py $ID >> $L 2>&1 || log "AVISO: estilo nao convergiu"; mark style; fi
 if ! st fit; then log "enquadramento"; ./fit.sh $ID >> $L 2>&1; mark fit; fi
@@ -44,6 +44,7 @@ if [ "$(cat stories/$ID/STORYBOARD_OK 2>/dev/null)" != "$H3" ]; then
     if [ "${AUTOVIS:-0}" -lt 3 ] && python3 autocorrigir_visibilidade.py $ID >> $L 2>&1; then log "VISIBILIDADE: $(grep -c '^FALHA' stories/$ID/visibilidade.txt) falha(s) CORRIGIDA(S) SOZINHA(S) (stories/$ID/autocorrecoes.md) -> storyboard de novo"; rm -f stories/$ID/storyboard.jpg stories/$ID/storyboard.hash stories/$ID/visibilidade.json stories/$ID/visibilidade.txt; AUTOVIS=$(( ${AUTOVIS:-0} + 1 )) exec bash make_video.sh $ID; fi
     log "VISIBILIDADE: $(grep -c '^FALHA' stories/$ID/visibilidade.txt) falha(s) que a autocorrecao nao resolveu (stories/$ID/visibilidade.txt)"
   fi
+  python3 lista_revisao.py $ID >> $L 2>&1 || true   # 24/11: lista UNICA com tudo o que a ferramenta achou + uma linha por frase (revisar tudo de uma vez)
   touch stories/$ID/AGUARDA_STORYBOARD; log "AGUARDANDO APROVACAO DO STORYBOARD: abra stories/$ID/storyboard.jpg, confira com a folha 3 e rode ./aprovar_storyboard.sh $ID"; exit 76
 fi
 rm -f stories/$ID/AGUARDA_STORYBOARD

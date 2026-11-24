@@ -42,6 +42,15 @@ if os.path.exists(f'stories/{i}/spec.js') and 'R5' not in ok:
             for b_ in ms:
                 if a_ < b_ and FJ[a_][0].lower() == FJ[b_][0].lower() and (a_, b_) not in vistos and not any(a_ in g_ and b_ in g_ for g_ in B.get('aliados', [])):   # aliados do mesmo lado ("aliados": [["USA", "CAN"]]) podem ter a mesma farda
                     vistos.add((a_, b_)); erros.append(f'R5 b{k}: {a_} e {b_} saem com a MESMA farda ({FJ[a_][0]}) depois da farda automatica da epoca: ponha "uniforme_fixo": true com cor propria em cada lado')
+# R6: a folha 3 catalogou BATALHA numa frase sem luta (Lagosta: "barcos franceses pescavam" virou tropa atirando)
+if os.path.exists(f'stories/{i}/folha3_acao.md') and 'R6' not in ok:
+    f3 = open(f'stories/{i}/folha3_acao.md', encoding='utf-8').read()
+    for m in re.finditer(r'^## Cena b(\d+) .*?\n> "(.*?)"(.*?)(?=^## Cena|\Z)', f3, re.S | re.M):
+        if int(m.group(1)) >= len(BT): continue   # cena da chamada final (nao esta no roteiro)
+        _b6 = BT[int(m.group(1))]; _arm = any(O.get(str(w).split(':')[0], {}).get('rifle') for w in (_b6.get('who') or []) + ((_b6.get('crowd') or {}).get('outfits') or []))
+        _tiro = _b6.get('tiros') is not False and (_arm or re.search(r'atir|tiro|dispar|fuzil|bala', n(m.group(2))))   # so' vira tiroteio de verdade com arma em cena ou palavra de tiro
+        if '| BATALHA |' in m.group(3) and _tiro and not _b6.get('batalha') and not re.search(r'guerra|batalh|lut|atac|atir|tiro|bomb|combat|invad|cerc|ataque|canh|soldad|tropa|exercit|confront|briga|brigar', n(m.group(2))):
+            erros.append(f'R6 b{m.group(1)}: a ferramenta pos BATALHA (tropa atirando) numa frase sem luta: ponha "batalha": false, "tiros": false na cena')
 # gancho
 s0 = n(BT[0]['say']) if BT else ''
 if re.match(r'(segundo|dizem|conta-se|contam|reza a lenda|era (mil|o ano)|em (mil|\d{3,4})|no ano de)', s0) and 'R4' not in ok:
