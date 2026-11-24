@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1925 | Lugar: Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich | Quando: 18 a 29 de outubro de 1925, outono
 - HEROIS (objeto): kit/dog_sit
 - HEROIS (personagens): GRE, BUL, DIP, PRE
-- Cenarios: interior madeira, interior pedra, loc_campo, mountain
+- Cenarios: interior madeira, interior pedra, loc_campo, loc_montanha, mountain
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra do Cão Fugitivo | A Guerra do Cão Fugitivo / Segundo Em Grécia Bulgária Dizem 1925 | SEM REFERENCIA
+tema | A Guerra do Cão Fugitivo | A Guerra do Cão Fugitivo / Um Europa Em Grécia Bulgária Dizem 1925 | SEM REFERENCIA
 lugar | Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich | Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich / Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich 1925 | Bulgaria-Greece border.png (referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__c7f475.jpg); Map of Graeco-Bulgarian Frontier including Demir H (referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__1d66f8.jpg); Grenzverlauf BG-GR.png (referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__60705e.jpg)
 lugar | Bulgária | Bulgária 1925 / Bulgária landscape | Burgas Aleksandrowska vor 1925.jpg (referencias/cachorro1925/prints/bulg_ria_ea76bc.jpg); BASA 25K-1-135-4-Zmey Goryanin-1925.jpg (referencias/cachorro1925/prints/bulg_ria_ab9334.jpg); Bulgarian refugees from Demir Hisar.jpg (referencias/cachorro1925/prints/bulg_ria_068b6a.jpg)
 epoca | roupas e ruas de 1925 | Bulgaria 1920s street photograph / 1925 fashion clothing / 1925 street photograph | Haltern am See, Sythen, Quarzwerke, Werkzeughalle  (referencias/cachorro1925/prints/roupas_e_ruas_de_1925_f4131e.jpg); TampaFranklinStreetNorth.jpg (referencias/cachorro1925/prints/roupas_e_ruas_de_1925_e231e0.jpg); Jean Béraud La Rue de la Paix.jpg (referencias/cachorro1925/prints/roupas_e_ruas_de_1925_48e24e.jpg)

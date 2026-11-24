@@ -31,18 +31,16 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "track",
    "personagens": [
     "GRE",
     "BUL"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/dog_sit"
-   ],
-   "palavras": 13,
+   "objetos": [],
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Segundo uma versão, um cachorro sumiu e provocou uma invasão entre dois países.",
+   "frase": "Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -91,9 +89,9 @@
    ],
    "multidao": 10,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 19,
    "cena": "b3",
-   "frase": "Do outro lado, soldados búlgaros atiraram, e ele morreu. A Bulgária pediu desculpas e propôs investigar juntos.",
+   "frase": "Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A Bulgária pediu desculpas e propôs investigar juntos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -104,7 +102,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
@@ -121,7 +119,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "orbit",

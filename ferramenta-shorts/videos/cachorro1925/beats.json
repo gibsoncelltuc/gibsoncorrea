@@ -48,30 +48,23 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "track",
    "set": "countryside",
    "who": [
-    "GRE:0:shock",
-    "BUL:0:neutral"
+    "GRE:0:shout",
+    "BUL:0:shout"
    ],
-   "interacao": "discutir",
-   "acao": "discutir",
-   "say": "Segundo uma versão, um cachorro sumiu e provocou uma invasão entre dois países.",
-   "props": [
+   "say": "Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa.",
+   "props": [],
+   "animals": [
     [
-     "kit/dog_sit",
-     0.2,
-     1.2,
-     1.6
+     "dog",
+     2.0,
+     1.0,
+     "run"
     ]
    ],
-   "animals": [],
-   "detalhe": false,
-   "shot_lock": true,
-   "verbos_ok": [
-    "fug",
-    "sum"
-   ]
+   "shot_lock": true
   },
   {
    "shot": "reveal",
@@ -112,7 +105,7 @@
   },
   {
    "shot": "two",
-   "set": "mountain",
+   "set": "loc_montanha",
    "who": [
     "GRE:0:scared",
     "BUL:0:angry"
@@ -124,12 +117,12 @@
    "sfx": [
     "gun@60"
    ],
-   "say": "Do outro lado, soldados búlgaros atiraram, e ele morreu. A Bulgária pediu desculpas e propôs investigar juntos.",
+   "say": "Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A Bulgária pediu desculpas e propôs investigar juntos.",
    "props": []
   },
   {
    "shot": "two",
-   "set": "mountain",
+   "set": "loc_montanha",
    "who": [
     "GRE:0:sad",
     "GRE:1:angry"
