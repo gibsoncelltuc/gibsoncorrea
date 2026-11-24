@@ -68,16 +68,17 @@
    "props": [
     [
      "kit/scroll",
-     0.3,
-     2.2,
-     1.2
+     0.0,
+     0.8,
+     2.0
     ]
    ],
    "text": "335 ANOS",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém deu um tiro.",
-   "set": "harbor"
+   "set": "harbor",
+   "fachada": false
   },
   {
    "shot": "reveal",
@@ -95,14 +96,14 @@
    },
    "mapa": "ILHAS SCILLY",
    "mapa_at": 3,
-   "say": "Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra."
+   "say": "Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
+   "fachada": false
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "harbor",
    "who": [
-    "ILH:0:grin",
-    "HOL:0:angry"
+    "ILH:0:grin"
    ],
    "batalha": true,
    "tiros": false,
@@ -129,7 +130,9 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa."
+   "say": "Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa.",
+   "detalhe": false,
+   "fachada": false
   },
   {
    "shot": "group",
@@ -147,14 +150,14 @@
     ]
    ],
    "say": "A Holanda mandou navios de guerra e exigiu o dinheiro de volta.",
-   "set": "harbor"
+   "set": "harbor",
+   "fachada": false
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "set": "harbor",
    "who": [
-    "MAR:0:angry",
-    "MAR:1:shout"
+    "MAR:0:angry"
    ],
    "batalha": true,
    "tiros": false,
@@ -176,7 +179,9 @@
    ],
    "text": "GUERRA",
    "titulo": true,
-   "say": "Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas."
+   "say": "Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas.",
+   "detalhe": false,
+   "fachada": false
   },
   {
    "shot": "crowd",
@@ -208,12 +213,11 @@
   {
    "shot": "two",
    "who": [
-    "EMB:0:smile",
-    "PRE:0:nervous"
+    "PRE:0:surprised:book",
+    "EMB:0:smile"
    ],
-   "interacao": "reverencia",
    "say": "Em mil novecentos e oitenta e cinco, um historiador perguntou se a guerra ainda valia.",
-   "set": "countryside"
+   "interior": "madeira"
   },
   {
    "say": "No ano seguinte, o embaixador holandês foi até as ilhas.",
@@ -222,7 +226,8 @@
    "who": [
     "EMB:0:smile",
     "PRE:0:nervous"
-   ]
+   ],
+   "fachada": false
   },
   {
    "shot": "two",
@@ -243,20 +248,24 @@
    "say": "Os dois assinaram a paz, e a guerra de 335 anos acabou."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "ILH:0:smile"
    ],
    "props": [
     [
      "kit/scroll",
-     1.0,
-     0.5,
-     1.2
+     0.0,
+     0.6,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "A guerra mais longa e mais calma da história.",
-   "set": "street"
+   "set": "harbor",
+   "fachada": false
   }
  ],
  "ano": 1651,
@@ -290,5 +299,6 @@
    "https://en.wikipedia.org/wiki/Three_Hundred_and_Thirty_Five_Years%27_War",
    "https://en.wikipedia.org/wiki/Isles_of_Scilly"
   ]
- }
+ },
+ "variar_cenario": false
 }

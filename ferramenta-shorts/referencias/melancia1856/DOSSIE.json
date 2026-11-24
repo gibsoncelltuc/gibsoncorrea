@@ -10,9 +10,16 @@
    "harbor",
    "interior madeira",
    "jungle",
+   "loc_campo",
    "street"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 8",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "caravela",

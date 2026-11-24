@@ -1,0 +1,234 @@
+{
+ "duration": 58.752,
+ "frames30": 1763,
+ "source": "silence-align (cost 0.68)",
+ "segments": [
+  [
+   0.150292,
+   3.34775
+  ],
+  [
+   3.54821,
+   4.53121
+  ],
+  [
+   5.40996,
+   9.03271
+  ],
+  [
+   9.89108,
+   12.0063
+  ],
+  [
+   12.2773,
+   13.9492
+  ],
+  [
+   14.8166,
+   16.343
+  ],
+  [
+   16.5971,
+   18.7572
+  ],
+  [
+   19.5922,
+   23.34
+  ],
+  [
+   24.2302,
+   25.1075
+  ],
+  [
+   25.3913,
+   26.0873
+  ],
+  [
+   26.3371,
+   27.6514
+  ],
+  [
+   27.8961,
+   29.853
+  ],
+  [
+   30.696,
+   32.4141
+  ],
+  [
+   32.6958,
+   34.0376
+  ],
+  [
+   34.8867,
+   35.6309
+  ],
+  [
+   35.8899,
+   38.6697
+  ],
+  [
+   38.8862,
+   40.1447
+  ],
+  [
+   40.9921,
+   43.4385
+  ],
+  [
+   43.7487,
+   45.5198
+  ],
+  [
+   46.3789,
+   47.3735
+  ],
+  [
+   47.5726,
+   47.9592
+  ],
+  [
+   48.2106,
+   49.4157
+  ],
+  [
+   50.2752,
+   53.5927
+  ],
+  [
+   54.4426,
+   55.887
+  ],
+  [
+   56.1799,
+   57.9416
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "O Canad\u00e1 e a Dinamarca brigaram por gelo por quase quarenta anos,",
+   "s": 0.15,
+   "e": 3.348
+  },
+  {
+   "text": "usando s\u00f3 u\u00edsque.",
+   "s": 3.548,
+   "e": 4.531
+  },
+  {
+   "text": "A ilha Hans \u00e9 uma rocha gelada e sem gente entre o Canad\u00e1 e a Groenl\u00e2ndia.",
+   "s": 5.41,
+   "e": 9.033
+  },
+  {
+   "text": "Os dois pa\u00edses diziam que a ilha era sua,",
+   "s": 9.891,
+   "e": 12.006
+  },
+  {
+   "text": "mas ningu\u00e9m queria guerra de verdade.",
+   "s": 12.277,
+   "e": 13.949
+  },
+  {
+   "text": "Em mil novecentos e oitenta e quatro,",
+   "s": 14.817,
+   "e": 16.343
+  },
+  {
+   "text": "soldados canadenses desembarcaram na ilha.",
+   "s": 16.597,
+   "e": 18.757
+  },
+  {
+   "text": "Eles fincaram a bandeira do Canad\u00e1 e deixaram uma garrafa de u\u00edsque canadense.",
+   "s": 19.592,
+   "e": 23.34
+  },
+  {
+   "text": "Acontece que,",
+   "s": 24.23,
+   "e": 25.108
+  },
+  {
+   "text": "pouco depois,",
+   "s": 25.391,
+   "e": 26.087
+  },
+  {
+   "text": "os dinamarqueses apareceram,",
+   "s": 26.337,
+   "e": 27.651
+  },
+  {
+   "text": "arrancaram a bandeira e puseram a deles.",
+   "s": 27.896,
+   "e": 29.853
+  },
+  {
+   "text": "E deixaram um bilhete de boas-vindas,",
+   "s": 30.696,
+   "e": 32.414
+  },
+  {
+   "text": "com uma garrafa de aguardente.",
+   "s": 32.696,
+   "e": 34.038
+  },
+  {
+   "text": "Durante anos,",
+   "s": 34.887,
+   "e": 35.631
+  },
+  {
+   "text": "os dois lados voltaram l\u00e1 para trocar bandeira e garrafa,",
+   "s": 35.89,
+   "e": 38.67
+  },
+  {
+   "text": "sempre muito educados.",
+   "s": 38.886,
+   "e": 40.145
+  },
+  {
+   "text": "A brincadeira ficou famosa como a Guerra do U\u00edsque,",
+   "s": 40.992,
+   "e": 43.438
+  },
+  {
+   "text": "e virou piada entre os dois pa\u00edses.",
+   "s": 43.749,
+   "e": 45.52
+  },
+  {
+   "text": "Em dois mil e vinte e dois,",
+   "s": 46.379,
+   "e": 47.373
+  },
+  {
+   "text": "enfim,",
+   "s": 47.573,
+   "e": 47.959
+  },
+  {
+   "text": "dividiram a ilha ao meio.",
+   "s": 48.211,
+   "e": 49.416
+  },
+  {
+   "text": "A guerra mais educada da hist\u00f3ria acabou sem um tiro e com muito u\u00edsque.",
+   "s": 50.275,
+   "e": 53.593
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 54.443,
+   "e": 55.887
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 56.18,
+   "e": 57.942
+  }
+ ]
+}

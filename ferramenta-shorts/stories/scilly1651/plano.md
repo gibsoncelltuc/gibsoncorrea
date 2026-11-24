@@ -9,7 +9,7 @@ b3 | group | -  | - | dinheiro (stars + som de sino); encena: fala (point) @2 (a
 b4 | orbit | -  | batalha aberta com tiros, tropa, placa: GUERRA | encena: fala (point) @8 (acao + som de efeito) | -
 b5 | group | -  | tropa, objeto na mao | - | -
 b6 | two | -  | tropa | encena: chega (point) @2 (acao + som de efeito); encena: chega (point) @11 (acao + som de efeito) | -
-b7 | group | -  | - | encena: fala (point) @9 (acao + som de efeito) | -
+b7 | two | -  | interior, objeto na mao | encena: fala (point) @9 (acao + som de efeito) | -
 b8 | two | -  | - | - | -
 b9 | two | -  | interior, objeto na mao | encena: escreve (write) @2 (acao + som de efeito); aperto de mao (acao + som de efeito) | -
 b10 | group | -  | - | - | -

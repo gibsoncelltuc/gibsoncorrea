@@ -11,7 +11,7 @@ b3 | jungle | two | 2 | reagir, INTERAGEM: empurrar | kit/stall, kit/melon | - |
 b4 | street | two | 2 | discutir, INTERAGEM: discutir | kit/stall, buildings/shop | - | -
 b5 | street | group | 2 | conversar, INTERAGEM: empurrar | war/pistol | - | -
 b6 | street | crowd | 21 | encena, batalha | - | - | -
-b7 | street | group | 3 | discutir, INTERAGEM: insiste, alguem chega andando | vehicles/locomotive, buildings/house_two, nature/lamppost | - | -
+b7 | loc_campo | group | 3 | discutir, INTERAGEM: insiste, alguem chega andando | vehicles/locomotive, buildings/house_two, nature/lamppost | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b9 | harbor | orbit | 21 | batalha | vehicles/locomotive | - | -
 b10 | jungle | close | 1 | conversar | kit/melon | - | -

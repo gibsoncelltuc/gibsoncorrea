@@ -83,14 +83,14 @@
    "props": [
     [
      "boat",
-     0.0,
-     -7.0,
-     2.0
+     0.5,
+     -5.0,
+     2.4
     ],
     [
      "kit/fishing_net",
-     1.6,
-     0.6,
+     1.8,
+     0.8,
      1.2
     ]
    ],
@@ -102,9 +102,9 @@
     "thump@70"
    ],
    "cx": 0.0,
-   "cz": -6.0,
-   "d0": 16.0,
-   "d1": 13.0,
+   "cz": -3.0,
+   "d0": 13.0,
+   "d1": 11.0,
    "fachada": false
   },
   {
@@ -134,22 +134,23 @@
   {
    "shot": "wide",
    "who": [
-    "MAR:0:stern"
+    "MAR:0:stern",
+    "FRA:0:smug"
    ],
    "props": [
     [
      "kit/navio_destroier",
      0.0,
-     -18.0,
+     -34.0,
      1.0
     ]
    ],
    "say": "A França mandou um navio de guerra para proteger os pescadores dela.",
    "set": "harbor",
    "cx": 0.0,
-   "cz": -11.2,
-   "d0": 23.0,
-   "d1": 21.0,
+   "cz": -16.0,
+   "d0": 30.0,
+   "d1": 26.0,
    "h": 2.8,
    "crowd": {
     "n": 0
