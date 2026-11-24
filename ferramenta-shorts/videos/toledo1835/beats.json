@@ -14,7 +14,8 @@
    "belt": "#2a2218",
    "buttons": "#e8c45a",
    "rifle": true,
-   "moustache_on": "#3a2a1f"
+   "moustache_on": "#3a2a1f",
+   "uniforme_fixo": true
   },
   "MIC": {
    "jacket": "#4a7a3a",
@@ -26,7 +27,8 @@
     "slouch",
     "straw",
     "tophat"
-   ]
+   ],
+   "uniforme_fixo": true
   },
   "GOV": {
    "jacket": "#2a2f3a",
@@ -75,7 +77,6 @@
     "MIC:1:stern"
    ],
    "mapa": "TOLEDO",
-   "mapa_at": 8,
    "say": "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
    "set": "countryside",
    "props": [
