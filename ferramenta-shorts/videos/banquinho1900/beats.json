@@ -178,7 +178,12 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 0
+    "n": 10,
+    "outfits": [
+     "ASH"
+    ],
+    "march": false,
+    "expr": "angry"
    },
    "props": [
     [
@@ -199,7 +204,7 @@
    "objetos": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/forte_colonial",
@@ -216,7 +221,7 @@
    "d1": 31.0
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "jungle",
    "who": [
     "SOL:0:stern"
@@ -233,9 +238,9 @@
    "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
    "props": [],
    "detalhe": false,
-   "d0": 30.0,
-   "d1": 27.0,
-   "_auto_vis": 3
+   "d0": 24.0,
+   "d1": 21.0,
+   "_auto_vis": 0
   },
   {
    "shot": "two",
@@ -305,7 +310,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/golden_stool",
@@ -317,9 +322,8 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "ano": 1900,
@@ -353,5 +357,5 @@
   ]
  },
  "variar_cenario": false,
- "max_wide": 3
+ "max_wide": 4
 }

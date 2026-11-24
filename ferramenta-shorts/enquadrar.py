@@ -83,8 +83,10 @@ for k, b in enumerate(BT):
             tela = 0.30 if eh_p else 0.18   # tela em pe (9:16): objeto comprido aparece de lado, com a ponta podendo sair do quadro; altura visivel ~30%
             if eh_p:
                 D_obj = Hv / (2 * TANF * tela) + 2.0; cz = round(z * 0.45, 1); d = max(10.0, D_obj - abs(z - cz)); h = round(min(max(H * 0.35, 2.4), 6.0), 1)
-                cena = {'shot': 'wide', 'cx': 0.0, 'cz': cz, 'h': h, 'd0': num(d * 1.05), 'd1': num(d), 'fachada': False, 'crowd': {'n': 0}}
-                plano_extra = f'plano aberto mirando o {a.split("/")[-1]} (alvo z {cz}, camera a {num(d)} m, altura {h} m), sem multidao na frente'
+                cena = {'shot': 'wide', 'cx': 0.0, 'cz': cz, 'h': h, 'd0': num(d * 1.05), 'd1': num(d), 'fachada': False}
+                _gente = re.search(r'cerc|multid|povo|revolt|tropa|exercit|soldad|marcha|invad|atac|plateia|torcida|protest', n_(b.get('say', '')))   # 24/11 (Banquinho): "cercaram o forte" precisa da gente cercando
+                if not _gente: cena['crowd'] = {'n': 0}
+                plano_extra = f'plano aberto mirando o {a.split("/")[-1]} (alvo z {cz}, camera a {num(d)} m, altura {h} m), ' + ('multidao ATRAS dos personagens, na frente do objeto' if _gente else 'sem multidao na frente')
             rel = f'{num(H)} m de altura x {num(L)} m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores'
         elif medio:
             lugar = 'MEIO'; x = (2.4 if n_p <= 1 else 0.0) if eh_p else (3.6 if 3.6 not in usados_x else -3.6); z = (-1.2 if n_p > 1 else 0.2) if eh_p else -2.0

@@ -1,5 +1,1 @@
-VISIBILIDADE: 4 FALHA(S)
-FALHA b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b1_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b7_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+VISIBILIDADE OK (recalculada 24/11 com a checagem de cortado so' nos personagens da cena)

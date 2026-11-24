@@ -105,7 +105,7 @@
    "personagens": [
     "ASH"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
     "kit/forte_colonial"
    ],
@@ -183,7 +183,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "GOV"
    ],

@@ -29,7 +29,7 @@ const ANIM_RX = /\b(cavalos?|urso|ursos|porcos?|galinhas?|emus?|gansos?|vacas?|b
 for (const s of SPEC.shots) {
   const len = s.b - s.a; const frs = [0.2, 0.5, 0.8].map((q) => s.a + Math.round(len * q)); const res = [];
   for (const f of frs) {
-    res.push(await pg.evaluate(async ([f, want]) => {
+    res.push(await pg.evaluate(async ([f, want, nWho]) => {
       const THREE = await import('./lib/three.module.js'); window.renderFrame(f);
       const cam = window.__cam, scene = window.__scene, pool = window.__propPool || {};
       const vis = (o) => { for (let p = o; p; p = p.parent) if (!p.visible) return false; return true; };
@@ -67,11 +67,10 @@ for (const s of SPEC.shots) {
       for (const [nm, c] of cnt2) if (c / tot2 >= 0.6 && !/^kit\/(room|porch|hospital|prison|rg_|marco_)/.test(nm) && (!/^buildings\//.test(nm) || want.includes(nm))) R.parede = { obj: nm, frac: c / tot2 };
       for (const [t, c] of cnt) if (c / tot >= 0.35) { let nm = ''; for (const k in pool) if (pool[k].includes(t)) nm = k; R.bloq = { obj: nm || t.name || t.type, frac: c / tot }; }
       // personagem cortado: carta de boneco grande (mais de 45% da altura da tela) atravessando a borda do quadro
-      R.cortado = 0; scene.traverse((o) => { if (!o.isMesh || !isCard(o) || !vis(o)) return; const bb = new THREE.Box3().setFromObject(o); if (bb.isEmpty() || bb.min.y > 6.7) return; /* so' boneco com os pes no chao (placa de texto e passaro flutuam) */ let x0 = 9, x1 = -9, y0 = 9, y1 = -9, atras = false;
-        for (const x of [bb.min.x, bb.max.x]) for (const y of [bb.min.y, bb.max.y]) for (const z of [bb.min.z, bb.max.z]) { const n = new THREE.Vector3(x, y, z).project(cam); if (n.z > 1) atras = true; x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x); y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y); }
-        if (atras) return; const alt = (Math.min(y1, 1) - Math.max(y0, -1)) / 2; const fr_ = (Math.min(x1, 1) - Math.max(x0, -1)) / Math.max(1e-6, x1 - x0); if (alt > 0.45 && fr_ < 0.65 && x1 > -1 && x0 < 1) R.cortado++;   /* mais de 1/3 do boneco fora da tela */ });
+      // personagem cortado: so' os PERSONAGENS DA CENA ("who"), nao figurante de multidao passando pela borda (24/11: Banquinho/Melancia/Post-it travavam por figurante)
+      R.cortado = 0; { const I = window.inspectFrame(f); for (const a of (I.actors || [])) { if (a.i >= nWho || a.behind || !a.box) continue; const [x0, y0, x1, y1] = a.box; const alt = Math.min(y1, 1) - Math.max(y0, 0); const fr_ = (Math.min(x1, 1) - Math.max(x0, 0)) / Math.max(1e-6, x1 - x0); if (alt > 0.45 && fr_ < 0.65 && x1 > 0 && x0 < 1) R.cortado++; } window.INSPECT = false; }
       return R;
-    }, [f, need[s.id] || []]));
+    }, [f, need[s.id] || [], ((B.beats || [])[+String(s.id).replace(/^b(\d+).*/, '$1')] || {}).who ? ((B.beats || [])[+String(s.id).replace(/^b(\d+).*/, '$1')].who.length) : 0]));
   }
   // ANIMAL CITADO (gansos, cavalos...): tem que aparecer GRANDE o bastante para se ler (>= 10% da altura da tela) em TODO take da cena
   { const k = +String(s.id).replace(/^b(\d+).*/, '$1'); const bt = (B.beats || [])[k] || {};
