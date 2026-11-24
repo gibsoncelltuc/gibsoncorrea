@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
-Gerado em 24/11 19:23 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 19:31 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
