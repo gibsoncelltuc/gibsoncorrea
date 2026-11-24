@@ -3,14 +3,15 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/gansos390/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py gansos390` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um bando de gansos barulhentos salvou Roma numa só noite.
-- Cenario: medieval | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: loc_campo | luz: noite | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 0, expressao nervous)
-- Animacao: reagir
-- Objetos/modelos: goose
+- Personagens principais (0): -
+- Animacao: -
+- Objetos/modelos: buildings/castle_tower, goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bando, gansos
-- RISCOS: nenhum
+- RISCOS: 
+  - personagens parados (so falam e piscam) -> CORRECAO: "acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true
 
 ## Cena b1 - Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram R...
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -46,9 +47,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): GAU (variante 0, expressao stern) | multidao: 6 de GAU
-- Animacao: -
-- Objetos/modelos: -
+- Personagens principais (2): GAU (variante 0, expressao stern); ROM (variante 0, expressao tired) | multidao: 5 de GAU
+- Animacao: escala
+- Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guardas
 - RISCOS: nenhum
 
@@ -94,8 +95,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 0, expressao smile)
 - Animacao: encena
 - Objetos/modelos: goose
@@ -106,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 0, expressao grin)
+- Personagens principais (1): GAU (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
@@ -117,17 +118,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+buildings/castle_tower | b0, b2, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 goose | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3 | planos abertos: 8 | mistura: close 10% | medio 29% | aberto 61% | detalhe 0%
+- Objeto heroi: - | grandes momentos: b3 | planos abertos: 7 | mistura: close 10% | medio 37% | aberto 53% | detalhe 0%
 - Interacoes: b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'loc_campo': 6, 'mountain': 2, 'interior madeira': 1, 'medieval': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b0: personagens parados (so falam e piscam)
+- geral: pouca variedade de cenario ({'loc_campo': 6, 'mountain': 2, 'interior madeira': 1, 'medieval': 2}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh gansos390 bN bM` (so essas cenas).

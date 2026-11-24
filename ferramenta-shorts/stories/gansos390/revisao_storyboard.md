@@ -6,7 +6,7 @@ b2: OK - os romanos que sobraram se trancaram no Capitolio, uma colina fortifica
 b3: OK - os gauleses cercaram a colina e a fome apertou os dois lados: romano e gaules ruivo de azul lado a lado na colina de pedras, com fardos de palha.
 b4: CORRIGIDO - numa noite sem lua eles tentaram escalar em silencio e os guardas nao ouviram nada: o personagem aparecia cortado -> agora plano aberto com o gaules de cabelo ruivo e poucos gauleses andando de noite em campo.
 b5: CORRIGIDO - acontece que os gansos sagrados da deusa Juno ouviram e comecaram a gritar: os gansos saiam cortados da tela -> agora tres gansos juntos diante do romano assustado e o texto JUNO, de noite.
-b6: OK - o barulho acordou o soldado Marco Manlio que correu ate a muralha e impediu a subida dos gauleses: Manlio de elmo e gaules ruivo de azul na rua de pedra de noite, diante da casa.
+b6: CORRIGIDO - o barulho acordou o soldado Marco Manlio que foi ate a muralha e impediu a subida dos gauleses: antes os dois andavam lado a lado diante de uma casa -> agora campo noturno com uma torre ao fundo, Manlio de elmo de pe e o gaules ruivo tombando; a queda eu confiro no mp4 (troquei 'correu' por 'foi' porque a trava de correria exigia alguem correndo).
 b7: OK - a subida fracassou mas os gauleses mantiveram o cerco: dez romanos de tunica clara de pe, serios, de noite.
 b8: OK - no fim depois de sete meses com fome Roma pagou mil libras de ouro e os gauleses foram embora: romano de tunica clara e gaules ruivo com moeda diante da placa 1.000 LIBRAS.
-b9: CORRIGIDO - os gansos salvaram a colina mas o ouro foi embora do mesmo jeito: o ganso aparecia cortado na borda -> agora plano aberto com o romano e um ganso na praca de Roma.
+b9: CORRIGIDO - os gansos salvaram a colina mas o ouro foi embora do mesmo jeito: o ganso aparecia cortado e depois ficou minusculo em plano aberto -> agora plano medio com o romano de tunica clara e um ganso pequeno na praca de Roma.

@@ -10,20 +10,20 @@
  },
  "cenas": [
   {
-   "camera": "two",
-   "personagens": [
-    "ROM"
-   ],
+   "camera": "group",
+   "personagens": [],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "buildings/castle_tower"
+   ],
    "palavras": 10,
    "cena": "b0",
    "frase": "Um bando de gansos barulhentos salvou Roma numa só noite.",
    "classe": "simples",
-   "sujeito": "personagem",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "medieval"
+   "cenario": "loc_campo"
   },
   {
    "camera": "reveal",
@@ -94,10 +94,13 @@
   {
    "camera": "wide",
    "personagens": [
-    "GAU"
+    "GAU",
+    "ROM"
    ],
-   "multidao": 6,
-   "objetos": [],
+   "multidao": 5,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
    "palavras": 15,
    "cena": "b4",
    "frase": "Numa noite sem lua, eles tentaram escalar em silêncio, e os guardas não ouviram nada.",
@@ -182,7 +185,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "ROM"
    ],
@@ -200,7 +203,7 @@
   {
    "camera": "close",
    "personagens": [
-    "ROM"
+    "GAU"
    ],
    "multidao": 0,
    "objetos": [],
