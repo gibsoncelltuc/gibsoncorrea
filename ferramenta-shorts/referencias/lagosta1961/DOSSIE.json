@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1961,
   "era": "atual (1950+)",
-  "regiao": "franca",
+  "regiao": "brasil",
   "luz_base": "day",
   "cenarios": [
    "harbor",
@@ -36,7 +36,7 @@
   "kit/fishing_net",
   "kit/lobster",
   "kit/navio_destroier",
-  "kit/room_franca_stone",
+  "kit/room_verde_stone",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
