@@ -40,7 +40,7 @@
  "beats": [
   {
    "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
-   "shot": "wide",
+   "shot": "reveal",
    "who": [
     "ICE:0:stern",
     "BRI:0:stern"
@@ -48,25 +48,20 @@
    "props": [
     [
      "kit/navio_destroier",
-     -14,
-     -42,
+     -12,
+     -26,
      1.0
     ],
     [
      "kit/navio_destroier",
-     12,
-     -46,
+     13,
+     -30,
      1.0
     ]
    ],
    "text": "ISLÂNDIA VENCEU",
    "tat": 16,
    "tstyle": "blue",
-   "cx": 0,
-   "cz": -40,
-   "h": 9.0,
-   "d0": 50,
-   "d1": 44,
    "mood": "march"
   },
   {
@@ -153,30 +148,25 @@
   },
   {
    "say": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
-   "shot": "wide",
+   "shot": "reveal",
    "who": [
     "ICE:2:stern"
    ],
    "props": [
     [
      "kit/navio_destroier",
-     -14,
-     -42,
+     -12,
+     -26,
      1.0
     ],
     [
      "kit/navio_destroier",
-     12,
-     -46,
+     13,
+     -30,
      1.0
     ]
    ],
    "set": "harbor",
-   "cx": 0,
-   "cz": -40,
-   "h": 9.0,
-   "d0": 50,
-   "d1": 44,
    "text": "FRAGATAS",
    "tat": 10,
    "tstyle": "blue"
