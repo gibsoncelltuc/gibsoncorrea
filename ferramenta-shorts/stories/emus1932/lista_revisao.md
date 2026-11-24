@@ -19,7 +19,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - f10 "uma metralhadora foi instalada num caminhão,": 
 - f11 "mas ele sacudia tanto que ninguém atirava.": 
 - f12 "Depois de seis dias,": 
-- f13 "milhares de balas gastas e poucos emus abatidos.": 
+- f13 "milhares de cartuchos gastos e poucos emus abatidos.": 
 - f14 "O major comparou os pássaros a tanques,": 
 - f15 "a imprensa riu,": 
 - f16 "e o governo retirou as tropas.": 

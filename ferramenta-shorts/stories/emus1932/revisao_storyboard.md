@@ -3,10 +3,11 @@ defeitos procurados: cenario terra vermelha e pasto sem cidade, mas o fundo do c
 b0: CORRIGIDO - a Australia declarou guerra a um bando de passaros e perdeu: antes data 1932 na primeira cena; agora emus em terra vermelha com o texto EXERCITO x EMUS e um celeiro vermelho ao fundo.
 b1: OK - em mil novecentos e trinta e dois vinte mil emus invadiram as plantacoes de trigo no oeste do pais: mapa da AUSTRALIA e os fazendeiros pequenos diante dos emus com o texto 20.000 EMUS.
 b2: OK - fazendeiros veteranos pediram metralhadoras e o ministro da Defesa mandou soldados: fazendeiro com papel e soldado de farda caqui numa sala de madeira.
-b3: CORRIGIDO - o major Meredith levou duas metralhadoras e dez mil balas: antes personagens cortados e sacos de areia minusculos; agora soldado atras dos sacos de areia grandes com o texto 10.000 BALAS.
+b3: CORRIGIDO - o major Meredith levou duas metralhadoras e dez mil balas: antes personagens cortados e sacos de areia minusculos; agora soldados atras dos sacos de areia com a placa 10.000 BALAS e emus ao lado.
 b4: CORRIGIDO - os emus se dividiram em grupos pequenos e rapidos e as balas acertavam so poeira: antes soldado caido no chao; agora bloco de soldados em pe diante dos emus espalhados na terra vermelha.
 b5: CORRIGIDO - uma metralhadora foi instalada num caminhao mas ele sacudia tanto que ninguem atirava: antes um cavalo no lugar do caminhao; agora soldado rindo diante do caminhao verde.
-b6: OK - depois de seis dias milhares de balas gastas e poucos emus abatidos: dois soldados cansados diante da placa 6 DIAS.
+b6: CORRIGIDO - depois de seis dias milhares de cartuchos gastos e poucos emus abatidos: antes quadros sem ninguem; agora soldados cansados com fazendeiro ao lado e o texto 6 DIAS, depois emus correndo no pasto.
 b7: OK - o major comparou os passaros a tanques a imprensa riu e o governo retirou as tropas: soldados e jornalistas de terno roxo diante da placa HA HA HA.
 b8: CORRIGIDO - o exercito voltou e o major disse ter abatido novecentos e oitenta e seis numero contestado: antes quadros de deserto vazio e soldado caido; agora dois soldados no deserto com os emus passando e o texto 986 CONTESTADO.
 b9: OK - no fim o governo preferiu recompensas e em seis meses pagou por mais de cinquenta mil emus e exercito zero emus um: fazendeiro sorrindo com emus levantando poeira, depois o texto COMENTE.
+
