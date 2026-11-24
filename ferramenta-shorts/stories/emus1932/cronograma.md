@@ -1,13 +1,13 @@
 # CRONOGRAMA - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Gerado em 24/11 19:24 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 19:26 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | outback | two | sem personagem | - | - | - | A Austrália declarou guerra a um bando de pássaros, e perdeu.
-b1 | simples | outback | reveal | FARM, FARM | - | barn, haybale, picket_fence, scarecrow | - | Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantaç
+b1 | simples | outback | reveal | FARM, FARM | - | barn, haybale, picket_fence, scarecrow | - | Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavoura
 b2 | simples | interior madeira | two | FARM, AUS | - | - | - | Agricultores veteranos pediram metralhadoras, e o ministro da Defesa m
 b3 | simples | countryside | two | SOL, SOL | - | crate, mgun | - | O major Meredith levou duas metralhadoras e dez mil balas.
 b4 | chave | outback | crowd | SOL | 5 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b

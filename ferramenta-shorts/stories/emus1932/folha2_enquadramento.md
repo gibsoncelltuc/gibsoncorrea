@@ -9,7 +9,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "EXÉRCITO × EMUS" flutuando no alto, na palavra 7 da frase
 
-## b1: "Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantações de trigo no oeste do país."
+## b1: "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país."
 - LOCAL: fazenda aberta; hora: desert
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: FARM na esquerda, expressao shock, segura pitchfork; FARM na direita, expressao nervous; sem multidao; acao: fala/gesto

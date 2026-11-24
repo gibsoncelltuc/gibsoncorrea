@@ -22,14 +22,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b1 - Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantaç...
+## Cena b1 - Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavoura...
 - Cenario: outback | luz: desert | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FARM (variante 0, expressao shock, segura pitchfork); FARM (variante 1, expressao nervous)
 - Animacao: reagir
 - Objetos/modelos: nature/haybale, buildings/barn, nature/picket_fence, nature/scarecrow, emus
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oeste, plantacoes, trigo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lavouras, oeste, trigo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -86,8 +86,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO mgun: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "10.000 BALAS" numa placa atras dos personagens, na palavra 7 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (15.2-16.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (16.7-18.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (15.3-16.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (16.8-18.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b...
@@ -113,10 +113,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: thump@20
 - SOM: thump@40
 - SOM: thump@60
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (19.4-20.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (20.9-22.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (22.5-24.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (19.4-21.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (21.0-22.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (22.5-24.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b5 - Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele s...
@@ -182,9 +182,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO vehicles/tank: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: INDO EMBORA; 6.1 m de altura x 9.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "HA HA HA" numa placa atras dos personagens, na palavra 9 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (36.4-37.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (37.9-39.5 s): mesmo angulo
-  - take 3 (39.5-41.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (36.5-38.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (38.0-39.6 s): mesmo angulo
+  - take 3 (39.6-41.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b8 - O exército voltou, e o major disse ter abatido novecentos e oitenta e ...
@@ -234,8 +234,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 4 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (48.6-50.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
   - take 2 (50.5-52.4 s): mesmo angulo
-  - take 3 (52.4-54.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (54.2-56.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (52.4-54.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (54.3-56.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

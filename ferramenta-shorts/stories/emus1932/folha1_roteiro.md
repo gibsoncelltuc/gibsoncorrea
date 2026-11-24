@@ -12,7 +12,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.6 s)
-- Narracao: Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantações de trigo no oeste do país.
+- Narracao: Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @10 -> acao + som de efeito

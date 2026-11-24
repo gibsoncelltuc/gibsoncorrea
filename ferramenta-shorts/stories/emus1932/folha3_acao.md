@@ -21,7 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- /FISICA -->
 
 ## Cena b1 - 4.0s a 8.9s - 19 palavras - plano reveal
-> "Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantações de trigo no oeste do país."
+> "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -43,9 +43,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pediram (11.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | metralhadoras (11.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | metralhadoras (11.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | pediram (11.2s) | ACAO: fala | aponta explicando | OK |
+| 2 | metralhadoras (11.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | metralhadoras (11.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | mandou (13.7s) | ACAO: fala | aponta explicando | OK |
 | 5 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 6 | - | INTERACAO | vai ate o outro | OK |
@@ -53,16 +53,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra pediram (11.1s): braco estendido apontando para o objeto/lugar citado
-- EFEITO: burst na palavra metralhadoras (11.5s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ACAO: atira na palavra metralhadoras (11.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ACAO: fala na palavra pediram (11.2s): braco estendido apontando para o objeto/lugar citado
+- EFEITO: burst na palavra metralhadoras (11.6s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra metralhadoras (11.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ACAO: fala na palavra mandou (13.7s): braco estendido apontando para o objeto/lugar citado
 - EMOCAO: pleading (a cena toda): executa: o rosto vira "pleading" na palavra
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b3 - 15.2s a 18.2s - 10 palavras - plano two
+## Cena b3 - 15.3s a 18.2s - 10 palavras - plano two
 > "O major Meredith levou duas metralhadoras e dez mil balas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -84,18 +84,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 19.4s a 24.0s - 17 palavras - plano crowd
+## Cena b4 - 19.4s a 24.1s - 17 palavras - plano crowd
 > "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dividiram (20.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | dividiram (20.6s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | balas (23.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra dividiram (20.5s): executa: estende a mao entregando
+- ACAO: x_entrega na palavra dividiram (20.6s): executa: estende a mao entregando
 - ACAO: atira na palavra balas (23.0s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 <!-- /FISICA -->
@@ -106,12 +106,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | metralhadora (26.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | instalada (27.3s) | ACAO: pega | levanta/segura | OK |
+| 2 | instalada (27.4s) | ACAO: pega | levanta/segura | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: atira na palavra metralhadora (26.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ACAO: pega na palavra instalada (27.3s): executa: levanta/segura
+- ACAO: pega na palavra instalada (27.4s): executa: levanta/segura
 <!-- /FISICA -->
 
 ## Cena b6 - 31.5s a 35.0s - 12 palavras - plano orbit
@@ -128,13 +128,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 36.4s a 41.0s - 16 palavras - plano group
+## Cena b7 - 36.5s a 41.1s - 16 palavras - plano group
 > "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | riu (39.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | riu (39.2s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 1 | riu (39.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | riu (39.3s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | retirou (40.5s) | ACAO: sai | sai andando pela lateral | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | INTERACAO | avanca e o outro recua | OK |
@@ -143,8 +143,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra riu (39.2s): executa: estrelinhas + som
-- ACAO: x_ri na palavra riu (39.2s): executa: ri de bracos para cima + brilho
+- EFEITO: stars na palavra riu (39.3s): executa: estrelinhas + som
+- ACAO: x_ri na palavra riu (39.3s): executa: ri de bracos para cima + brilho
 - ACAO: sai na palavra retirou (40.5s): executa: sai andando pela lateral
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
 - INTERACAO (a cena toda): executa: avanca e o outro recua
@@ -157,32 +157,32 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (42.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (42.9s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 986 (CONTESTADO) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (42.8s): executa: entra andando pela lateral
+- ACAO: chega na palavra voltou (42.9s): executa: entra andando pela lateral
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 48.6s a 56.1s - 21 palavras - plano crowd
+## Cena b9 - 48.6s a 56.2s - 21 palavras - plano crowd
 > "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagou (51.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | pagou (51.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | pagou (52.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagou (52.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | - | PLACA | EXÉRCITO 0 - 1 EMUS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra pagou (51.9s): executa: estrelinhas + som
-- ACAO: negocio na palavra pagou (51.9s): executa: moeda girando (compra/venda)
+- EFEITO: stars na palavra pagou (52.0s): executa: estrelinhas + som
+- ACAO: negocio na palavra pagou (52.0s): executa: moeda girando (compra/venda)
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

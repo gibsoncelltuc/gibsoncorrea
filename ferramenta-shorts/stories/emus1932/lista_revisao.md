@@ -10,7 +10,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - f1 "e perdeu.": 
 - f2 "Em mil novecentos e trinta e dois,": 
 - f3 "vinte mil emus invadiram as plantações de trigo no oeste do ": 
-- f4 "Fazendeiros veteranos pediram metralhadoras,": 
+- f4 "Agricultores veteranos pediram metralhadoras,": 
 - f5 "e o ministro da Defesa mandou soldados.": 
 - f6 "O major Meredith levou duas metralhadoras e dez mil balas.": 
 - f7 "Acontece que os emus se dividiram em grupos pequenos e rápid": 
