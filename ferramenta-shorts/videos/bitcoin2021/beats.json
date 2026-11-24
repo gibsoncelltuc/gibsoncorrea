@@ -70,6 +70,21 @@
    ],
    "text": "9 EM 10 NÃO ENTENDIAM",
    "titulo": true,
+   "detalhe": false,
+   "vary": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "BUK",
+     "POV"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -81,11 +96,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
@@ -199,6 +210,21 @@
    "impact": false,
    "text": "US$ 30",
    "titulo": true,
+   "detalhe": false,
+   "vary": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CLI",
+     "POV"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -216,11 +242,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
@@ -331,6 +353,12 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
+   "detalhe": false,
+   "vary": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -342,11 +370,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   }
  ],
  "duracao_ok": true,
