@@ -252,9 +252,8 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 ## Video inteiro
 - Objeto heroi: kit/helicopter_air | grandes momentos: b3, b9 | planos abertos: 4 | mistura: close 22% | medio 55% | aberto 22% | detalhe 2%
-- Interacoes: b0 susto, b5 empurrar, b6 aproxima-se, b7 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py maduro2026  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/maduro2026/moodboard.jpg
+- Interacoes: b5 empurrar, b6 aproxima-se, b7 entregar
+- RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 

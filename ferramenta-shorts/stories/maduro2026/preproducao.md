@@ -18,7 +18,7 @@ b10 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/helicopter_air
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b9
-Interacoes entre personagens: b0 susto, b5 empurrar, b6 aproxima-se, b7 entregar
+Interacoes entre personagens: b5 empurrar, b6 aproxima-se, b7 entregar
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada
