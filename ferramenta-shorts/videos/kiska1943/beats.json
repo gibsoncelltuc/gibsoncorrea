@@ -41,9 +41,10 @@
  "beats": [
   {
    "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "USA:0:stern"
+    "USA:0:stern",
+    "CAN:0:stern"
    ],
    "props": [
     [
@@ -78,16 +79,19 @@
      "CAN"
     ],
     "march": true
-   },
-   "_auto_vis": 2,
-   "_who_lado": true
+   }
   },
   {
    "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
-   "shot": "wide",
-   "who": [],
+   "shot": "group",
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern",
+    "USA:1:grin"
+   ],
    "crowd": {
-    "n": 0
+    "n": 8,
+    "expr": "stern"
    },
    "text": "34.000 SOLDADOS",
    "tat": 5,
@@ -101,19 +105,13 @@
     ],
     [
      "kit/navio_vapor",
-     0.0,
-     -6.0,
+     -1.8,
+     -3.0,
      1.0
     ]
    ],
    "mapa": "ALASCA",
-   "set": "arctic",
-   "cx": 0.0,
-   "cz": -0.8,
-   "h": 2.8,
-   "d0": 15.0,
-   "d1": 12.0,
-   "_auto_vis": 3
+   "set": "arctic"
   },
   {
    "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
@@ -142,7 +140,9 @@
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
    "shot": "wide",
-   "who": [],
+   "who": [
+    "USA:2:grin"
+   ],
    "props": [
     [
      "kit/aviao_ww2",
@@ -171,17 +171,7 @@
    "set": "arctic",
    "text": "BOMBARDEIO",
    "tat": 3,
-   "tstyle": "red",
-   "cx": -3.0,
-   "cz": -5.6,
-   "h": 2.8,
-   "d0": 14.4,
-   "d1": 11.4,
-   "crowd": {
-    "n": 0
-   },
-   "_auto_vis": 3,
-   "_who_lado": true
+   "tstyle": "red"
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -306,7 +296,7 @@
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
-   "shot": "wide",
+   "shot": "prop",
    "who": [
     "USA:1:surprised",
     "CAN:0:surprised"
@@ -339,8 +329,7 @@
     ]
    ],
    "shot_lock": true,
-   "detalhe": false,
-   "_auto_vis": 1
+   "detalhe": false
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
@@ -356,14 +345,13 @@
    "props": [
     [
      "kit/dog_sit",
-     0.6,
      1.0,
-     1.5
+     1.0,
+     1.2
     ]
    ],
    "detalhe": false,
-   "interior": "madeira",
-   "_auto_vis": 2
+   "interior": "madeira"
   }
  ],
  "heroi": "kit/dog_sit",
