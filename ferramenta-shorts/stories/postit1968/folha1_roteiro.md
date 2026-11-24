@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 184 palavras (~63 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 170 palavras (~59 s)
 
-## Cena b0  (~6.6 s)
-- Narracao: Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.
+## Cena b0  (~5.5 s)
+- Narracao: Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito; encena: negocio (reach) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1968
 - Funcao na historia: GANCHO
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~6.6 s)
-- Narracao: Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja.
+## Cena b5  (~5.5 s)
+- Narracao: Em mil novecentos e setenta e quatro, o colega Art Fry cantava no coral da igreja.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_canta (up) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_canta (up) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~6.9 s)
-- Narracao: Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página.
+## Cena b7  (~5.5 s)
+- Narracao: Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, sting@40
 - Efeito + som nas palavras-chave: encena: pensa (think) @3 -> acao + som de efeito
@@ -92,20 +92,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~5.5 s)
-- Narracao: Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.
+## Cena b10  (~4.5 s)
+- Narracao: Então distribuíram amostras de graça numa cidade, e quase todos quiseram comprar mais.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito; encena: examina (think) @12 -> acao + som de efeito; encena: negocio (reach) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito; encena: negocio (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POST-IT
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b11  (~6.2 s)
-- Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado.
+## Cena b11  (~5.9 s)
+- Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma cola que deu errado.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: x_entrega (reach) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: x_entrega (reach) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1980
 - Funcao na historia: desenvolvimento

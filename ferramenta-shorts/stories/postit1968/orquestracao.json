@@ -20,9 +20,9 @@
     "kit/globe",
     "kit/postit"
    ],
-   "palavras": 19,
+   "palavras": 16,
    "cena": "b0",
-   "frase": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.",
+   "frase": "Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -110,9 +110,9 @@
    ],
    "multidao": 4,
    "objetos": [],
-   "palavras": 19,
+   "palavras": 16,
    "cena": "b5",
-   "frase": "Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja.",
+   "frase": "Em mil novecentos e setenta e quatro, o colega Art Fry cantava no coral da igreja.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -147,9 +147,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 20,
+   "palavras": 16,
    "cena": "b7",
-   "frase": "Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página.",
+   "frase": "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -199,16 +199,16 @@
     "SIL",
     "CHE"
    ],
-   "multidao": 30,
+   "multidao": 18,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
     "kit/postit",
     "nature/lamppost"
    ],
-   "palavras": 16,
+   "palavras": 13,
    "cena": "b10",
-   "frase": "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.",
+   "frase": "Então distribuíram amostras de graça numa cidade, e quase todos quiseram comprar mais.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -230,9 +230,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 18,
+   "palavras": 17,
    "cena": "b11",
-   "frase": "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado.",
+   "frase": "Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma cola que deu errado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

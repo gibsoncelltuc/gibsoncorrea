@@ -182,7 +182,27 @@
    "clima": "neve"
   },
   {
-   "say": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho.",
+   "say": "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.",
+   "shot": "two",
+   "who": [
+    "OFF:0:nervous",
+    "FRA:0:shock"
+   ],
+   "set": "arctic",
+   "clima": "neve",
+   "hora": "noite",
+   "animals": [
+    [
+     "horse",
+     2.4,
+     0.8,
+     "stand",
+     0.7
+    ]
+   ]
+  },
+  {
+   "say": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos.",
    "shot": "two",
    "who": [
     "FRA:0:stern",
@@ -202,7 +222,7 @@
    "shot_lock": true
   },
   {
-   "say": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
+   "say": "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.",
    "shot": "group",
    "who": [
     "NED:0:shock",
@@ -229,7 +249,7 @@
    "sem_mortos": true
   },
   {
-   "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
+   "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero.",
    "shot": "wide",
    "who": [
     "FRA:0:laugh",
@@ -261,17 +281,6 @@
    "mood": "playful",
    "set": "arctic",
    "clima": "neve"
-  },
-  {
-   "say": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
-   "shot": "close",
-   "who": [
-    "OFF:0:laugh"
-   ],
-   "text": "CAVALARIA 1 X 0 MARINHA",
-   "tat": 12,
-   "tstyle": "gold",
-   "interior": "madeira"
   }
  ],
  "heroi": null,
@@ -302,5 +311,6 @@
  "exp": 1.0,
  "serie": "Guerras Inusitadas",
  "ep": 22,
- "titulo_base": "A Cavalaria que Capturou uma Frota"
+ "titulo_base": "A Cavalaria que Capturou uma Frota",
+ "variar_cenario": false
 }

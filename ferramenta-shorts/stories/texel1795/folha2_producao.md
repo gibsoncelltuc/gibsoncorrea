@@ -62,49 +62,49 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, cavalo, chefe, frota
 - RISCOS: nenhum
 
-## Cena b6 - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo....
+## Cena b6 - Só que ninguém sabia se o gelo ia aguentar o peso de centenas de caval...
+- Cenario: arctic | luz: noite | clima: neve
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): OFF (variante 0, expressao nervous); FRA (variante 0, expressao shock)
+- Animacao: reagir | interacao: avanca e o outro recua
+- Objetos/modelos: horse
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalos, centenas, gelo, peso
+- RISCOS: nenhum
+
+## Cena b7 - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo,...
 - Cenario: arctic | luz: noite | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral)
 - Animacao: encena | batalha encenada
 - Objetos/modelos: horse
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cascos, cavalos, gelo, hussardos, janeiro, vinte
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cascos, cavalos, gelo, hussardos, janeiro, panos, vinte
 - RISCOS: nenhum
 
-## Cena b7 - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende...
+## Cena b8 - Acontece que os holandeses nem tentaram lutar. A frota inteira se rend...
 - Cenario: harbor | luz: arctic | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 10 de NED
-- Animacao: reagir | interacao: avanca e o outro recua | batalha encenada
-- Objetos/modelos: navio em movimento
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota, marinheiros
+- Animacao: reagir | interacao: discutir | batalha encenada
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota, holandeses
 - RISCOS: nenhum
 
-## Cena b8 - Foram mais de uma dezena de navios capturados por soldados a cavalo.
+## Cena b9 - Foram mais de uma dezena de navios capturados por soldados a cavalo. C...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 0 de FRA
-- Animacao: conversar | interacao: discutir
-- Objetos/modelos: ship, horse
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, navios
-- RISCOS: nenhum
-
-## Cena b9 - Dizem que foi a única vez na história em que uma cavalaria capturou um...
-- Cenario: interior madeira | luz: arctic | clima: limpo
-- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (1): OFF (variante 0, expressao laugh)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota
+- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 0 de FRA
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: ship, horse
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, marinha, navios
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: interior madeira | luz: arctic | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: arctic | luz: arctic | clima: limpo
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): FRA (variante 0, expressao grin)
 - Animacao: conversar
@@ -117,14 +117,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-ship | b0, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-horse | b0, b4, b5, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b0, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+horse | b0, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vela | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 9% | medio 57% | aberto 31% | detalhe 2%
-- Interacoes: b4 tremem de frio, b5 aproxima-se, b7 avanca e o outro recua, b8 discutir
+- Objeto heroi: - | grandes momentos: b7, b8 | planos abertos: 4 | mistura: close 18% | medio 49% | aberto 32% | detalhe 2%
+- Interacoes: b4 tremem de frio, b5 aproxima-se, b6 avanca e o outro recua, b8 discutir, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

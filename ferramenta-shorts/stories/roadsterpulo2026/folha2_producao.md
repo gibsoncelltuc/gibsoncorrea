@@ -128,9 +128,11 @@ kit/cybertruck | b6 | pronto | conferir na folha de contato se le bem; se parece
 ## Video inteiro
 - Objeto heroi: kit/roadster26 | grandes momentos: - | planos abertos: 2 | mistura: close 5% | medio 79% | aberto 17% | detalhe 0%
 - Interacoes: b0 insiste, b8 vai ate o outro
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia) -> CORRECAO: por uma frase de virada no meio: "Acontece que...", "So que...", "Mas..."
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).

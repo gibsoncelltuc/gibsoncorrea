@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/postit1968/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py postit1968` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um químico inventou a cola mais fraca do mundo. E ela virou um dos pro...
+## Cena b0 - Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): SIL (variante 0, expressao sad); CHE (variante 0, expressao angry)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/postit, kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, planeta, produtos, quimico
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, planeta, quimico
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados ...
@@ -52,10 +52,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b5 - Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava...
+## Cena b5 - Em mil novecentos e setenta e quatro, o colega Art Fry cantava no cora...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): FRY (variante 0, expressao sad); PAD (variante 0, expressao smile); POV (variante 0, expressao smile) | multidao: 4 de POV
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
@@ -72,14 +72,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hinario, papeizinhos
 - RISCOS: nenhum
 
-## Cena b7 - Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não ca...
+## Cena b7 - Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): FRY (variante 0, expressao surprised) | multidao: 6 de POV
 - Animacao: encena
 - Objetos/modelos: kit/postit
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, pagina, silver
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola
 - RISCOS: nenhum
 
 ## Cena b8 - Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de ...
@@ -102,17 +102,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vendas
 - RISCOS: nenhum
 
-## Cena b10 - Então distribuíram amostras de graça numa cidade inteira. Quase todo m...
+## Cena b10 - Então distribuíram amostras de graça numa cidade, e quase todos quiser...
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): FRY (variante 0, expressao laugh); SIL (variante 0, expressao grin); CHE (variante 0, expressao laugh) | multidao: 30 de POV
+- Personagens principais (3): FRY (variante 0, expressao laugh); SIL (variante 0, expressao grin); CHE (variante 0, expressao laugh) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/postit, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): graca
 - RISCOS: nenhum
 
-## Cena b11 - Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a ...
+## Cena b11 - Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma c...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -145,7 +145,7 @@ nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 26% | medio 53% | aberto 16% | detalhe 5%
+- Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 27% | medio 54% | aberto 15% | detalhe 5%
 - Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar, b9 susto
 - RISCOS GERAIS: 
   - video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)

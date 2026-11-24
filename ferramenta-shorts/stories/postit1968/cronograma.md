@@ -1,23 +1,23 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Gerado em 24/11 10:15 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:18 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | SIL, CHE | - | globe, postit | - | Um químico inventou a cola mais fraca do mundo. E ela virou um dos pro
+b0 | simples | street | two | SIL, CHE | - | globe, postit | - | Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no
 b1 | chave | street | reveal | POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados 
 b2 | simples | interior madeira | two | SIL | - | - | - | Spencer Silver tentava criar uma super cola, tão forte que nada conseg
 b3 | simples | interior madeira | close | SIL | - | - | - | Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil
 b4 | simples | interior madeira | two | CHE, SIL | - | - | - | Por anos, ninguém viu utilidade nela.
-b5 | simples | interior pedra | group | FRY, PAD, POV | 4 | - | - | Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava
+b5 | simples | interior pedra | group | FRY, PAD, POV | 4 | - | - | Em mil novecentos e setenta e quatro, o colega Art Fry cantava no cora
 b6 | simples | interior pedra | two | FRY, PAD | - | postit | - | Os papeizinhos que marcavam o hinário viviam caindo.
-b7 | simples | countryside | orbit | FRY | 6 | postit | - | Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não ca
+b7 | simples | countryside | orbit | FRY | 6 | postit | - | Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem
 b8 | simples | interior madeira | two | FRY, SIL | - | postit | - | Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de 
 b9 | simples | interior loja | two | CHE, FRY | - | - | - | O primeiro teste de vendas fracassou.
-b10 | chave | street | crowd | FRY, SIL, CHE | 30 | apartment, house_two, postit, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Então distribuíram amostras de graça numa cidade inteira. Quase todo m
-b11 | simples | countryside | close | SIL | - | postit | - | Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a 
+b10 | chave | street | crowd | FRY, SIL, CHE | 18 | apartment, house_two, postit, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Então distribuíram amostras de graça numa cidade, e quase todos quiser
+b11 | simples | countryside | close | SIL | - | postit | - | Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma c
 b12 | simples | street | close | SIL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 148 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 158 palavras (~54 s)
 
 ## Cena b0  (~2.1 s)
 - Narracao: Paris já serviu elefante no jantar.
@@ -65,23 +65,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: NATAL DE 1870
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.1 s)
-- Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: BALÕES E POMBOS
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~4.8 s)
-- Narracao: Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas.
+## Cena b7  (~4.1 s)
+- Narracao: Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: corre @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: elephant come -> acao + som de efeito; fortuna -> stars + som de sino; encena: paga (reach) @7 -> acao + som de efeito; encena: x_come (eat) @11 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: BALÕES E POMBOS
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b8  (~3.8 s)
+- Narracao: Enquanto isso, o povo fazia fila no frio, com comida racionada.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.4 s)
 - Narracao: O cerco durou mais de quatro meses, em pleno inverno.
@@ -92,16 +92,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~6.6 s)
-- Narracao: O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.
+## Cena b10  (~4.8 s)
+- Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio, por cima das tropas inimigas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: rende (up) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~5.2 s)
+- Narracao: Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: rende (up) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: PARIS SE RENDEU
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
+## Cena b12  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

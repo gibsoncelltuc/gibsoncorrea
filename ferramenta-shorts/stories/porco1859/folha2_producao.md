@@ -154,9 +154,11 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/batatas | grandes momentos: b7 | planos abertos: 2 | mistura: close 10% | medio 79% | aberto 10% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 susto, b9 vai ate o outro, b10 insiste
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia) -> CORRECAO: por uma frase de virada no meio: "Acontece que...", "So que...", "Mas..."
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).
