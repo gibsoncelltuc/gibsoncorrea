@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 51 acoes catalogadas, 51 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano track
@@ -48,69 +48,70 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | o outro se aproxima | OK |
 | 6 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 24.1s a 28.1s - 12 palavras - plano two
-> "O rei chamou Arquimedes e disse: "Descubra, mas sem estragar a coroa.""
+## Cena b4 - 24.1s a 28.5s - 13 palavras - plano two
+> "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chamou (24.8s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 28.5s a 32.2s - 11 palavras - plano close
+## Cena b5 - 28.9s a 32.6s - 11 palavras - plano close
 > "Arquimedes pensou por dias e dias, e a resposta não vinha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pensou (28.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | pensou (29.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 32.6s a 37.4s - 14 palavras - plano orbit
+## Cena b6 - 33.0s a 37.8s - 14 palavras - plano orbit
 > "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entrou (34.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | entrou (34.8s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 37.8s a 43.7s - 17 palavras - plano two
+## Cena b7 - 38.1s a 44.1s - 17 palavras - plano two
 > "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | percebeu (38.1s) | EFEITO: ring | onda + som | OK |
-| 2 | percebeu (38.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | percebeu (38.5s) | EFEITO: ring | onda + som | OK |
+| 2 | percebeu (38.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 44.1s a 49.3s - 15 palavras - plano prop
+## Cena b8 - 44.4s a 49.6s - 15 palavras - plano prop
 > "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | medir (45.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | ouro (48.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | ouro (48.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | medir (45.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | ouro (49.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | ouro (49.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 4 | - | INTERACAO | susto | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 49.6s a 54.4s - 14 palavras - plano group
-> ""Eureca!", gritou ele, e a cidade inteira correu atrás. A coroa tinha prata misturada."
+## Cena b9 - 50.0s a 56.7s - 19 palavras - plano group
+> "Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coroa tinha mesmo prata misturada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | gritou (50.0s) | EFEITO: ring | onda + som | OK |
-| 2 | gritou (50.0s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | correu (52.2s) | EFEITO: dust | poeira + som | OK |
-| 4 | correu (52.2s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 1 | gritou (51.9s) | EFEITO: ring | onda + som | OK |
+| 2 | gritou (51.9s) | ACAO: grita | grita de bracos para cima | OK |
+| 3 | saiu (53.0s) | ACAO: sai | sai andando pela lateral | OK |
+| 4 | correndo (53.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
 | 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | INTERACAO | pular | OK |
+| 7 | - | INTERACAO | vai ate o outro | OK |
 | 8 | - | ATUACAO | comemorar | OK |
 | 9 | - | PLACA | EUREKA | OK |
 
-## Cena b10 - 54.8s a 58.5s - 11 palavras - plano two
+## Cena b10 - 57.0s a 60.7s - 11 palavras - plano two
 > "No fim, dá para enganar um rei, mas não uma banheira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -118,7 +119,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 58.9s a 63.3s - 13 palavras - plano close
+## Cena b11 - 61.1s a 65.6s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

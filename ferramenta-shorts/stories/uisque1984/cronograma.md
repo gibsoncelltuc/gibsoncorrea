@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:18 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,11 +8,11 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | arctic | two | CAN, DIN | - | whisky | - | O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usan
 b1 | simples | arctic | reveal | CAN, DIN | - | - | - | A ilha Hans é um pedaço de rocha gelada e sem gente, no mar entre o Ca
-b2 | simples | harbor | two | CAN, DIN | - | - | - | Os dois países achavam que ela era sua, mas ninguém queria começar uma
-b3 | simples | arctic | reveal | CAN, CAN | 10 | helicopter | - | Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá 
+b2 | simples | interior madeira | two | CAN, DIN | - | - | - | Os dois países achavam que ela era sua, mas ninguém queria começar uma
+b3 | chave | arctic | wide | CAN, CAN | 10 | helicopter | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e oitenta e quatro, soldados canadenses desembarcara
 b4 | simples | arctic | two | CAN, CAN | - | tequila_bolt, whisky, flagpole | - | Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque ca
-b5 | simples | arctic | low | DIN, DIN | 10 | flagpole | - | Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a 
-b6 | chave | loc_montanha | orbit | DIN, CAN | - | tequila_bolt, whisky | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E deixaram um bilhete: "Bem-vindos à terra dinamarquesa", ao lado de u
+b5 | chave | harbor | crowd | DIN, DIN | 10 | flagpole | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a 
+b6 | simples | arctic | two | DIN, CAN | - | barrel, tequila_bolt, whisky | - | E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado d
 b7 | simples | harbor | two | CAN, DIN | - | tequila_bolt, flagpole | - | Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa
 b8 | simples | interior pedra | two | PRE, MIN | - | - | - | Em dois mil e vinte e dois, os países enfim dividiram a ilha quase ao 
 b9 | simples | interior pedra | close | CAN | - | whisky | - | A guerra mais educada da história acabou sem um tiro e com muito uísqu
@@ -23,9 +23,9 @@ b10 | simples | interior pedra | two | CAN | - | - | - | Agora não deixe de com
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py uisque1984
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py uisque1984
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

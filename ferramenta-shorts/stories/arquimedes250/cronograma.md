@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:16 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,13 +10,13 @@ b0 | simples | street | track | ARQ, POV | - | bathtub | - | Um homem pulou da b
 b1 | simples | street | reveal | POV, POV | 8 | bathtub | - | Conta a história que, em Siracusa, na Sicília, por volta de duzentos e
 b2 | simples | interior pedra | two | REI, OUR | - | crown | - | O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ou
 b3 | simples | interior pedra | group | REI, OUR | - | - | - | Será que ele trocou parte do ouro por prata e guardou o resto para si?
-b4 | simples | interior pedra | two | REI, ARQ | - | crown | - | O rei chamou Arquimedes e disse: "Descubra, mas sem estragar a coroa."
-b5 | simples | loc_campo | close | ARQ | - | bathtub | - | Arquimedes pensou por dias e dias, e a resposta não vinha.
-b6 | chave | loc_campo | orbit | ARQ, POV | 10 | bathtub | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, ele entrou na banheira, e a água transbordou
+b4 | simples | interior pedra | two | REI, ARQ | - | crown | - | O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.
+b5 | simples | harbor | close | ARQ | - | bathtub | - | Arquimedes pensou por dias e dias, e a resposta não vinha.
+b6 | chave | harbor | orbit | ARQ, POV | 10 | bathtub | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, ele entrou na banheira, e a água transbordou
 b7 | simples | interior madeira | two | ARQ, POV | - | - | - | Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo q
-b8 | simples | loc_campo | prop | ARQ, OUR | - | crown | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
-b9 | chave | street | group | ARQ, POV | 14 | apartment, house_two, crown, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | "Eureca!", gritou ele, e a cidade inteira correu atrás. A coroa tinha 
-b10 | simples | loc_campo | two | REI, OUR | - | bathtub | - | No fim, dá para enganar um rei, mas não uma banheira.
+b8 | simples | harbor | prop | ARQ, OUR | - | crown | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
+b9 | chave | street | group | ARQ, POV | 14 | crown | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coro
+b10 | simples | harbor | two | REI, OUR | - | bathtub | - | No fim, dá para enganar um rei, mas não uma banheira.
 b11 | simples | street | close | ARQ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
@@ -24,9 +24,9 @@ b11 | simples | street | close | ARQ | - | - | - | Agora não deixe de comentar:
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/3 itens) | PENDENTE | python3 pesquisar.py arquimedes250
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/12 itens) | PENDENTE | python3 pesquisar.py arquimedes250
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

@@ -12,6 +12,13 @@
   },
   {
    "tipo": "lugar",
+   "item": "Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra,",
+   "consultas": [
+    "Siracusa cidade grega na Sicilia"
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Sicília",
    "consultas": [
     "Sicília",
@@ -19,10 +26,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Arquimedes, sabio de Siracusa",
+   "consultas": [
+    "Arquimedes sabio de Siracusa"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "rei Hierao II",
+   "consultas": [
+    "rei Hierao II"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "o ourives da coroa",
+   "consultas": [
+    "o ourives da coroa"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores de Siracusa",
+   "consultas": [
+    "moradores de Siracusa"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "coroa de ouro (de louros)",
+   "consultas": [
+    "coroa de ouro"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "banheira",
+   "consultas": [
+    "banheira"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "balanca de pratos",
+   "consultas": [
+    "balanca de pratos"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "barra de ouro",
+   "consultas": [
+    "barra de ouro"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "bathtub",
    "consultas": [
-    "bathtub",
+    "coroa de ouro",
     "Arquimedes e o Eureca"
    ]
   }

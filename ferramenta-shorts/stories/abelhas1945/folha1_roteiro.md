@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 193 palavras (~67 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 181 palavras (~62 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
@@ -20,11 +20,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: - | mapa: ÁUSTRIA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~6.9 s)
-- Narracao: Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.
+## Cena b2  (~5.2 s)
+- Narracao: Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: constroi (hammer) @1 -> acao + som de efeito; encena: pega (lift) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @1 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: DANÇA
 - Funcao na historia: GRANDE MOMENTO
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.5 s)
-- Narracao: Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam.
+## Cena b9  (~3.8 s)
+- Narracao: Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
@@ -101,11 +101,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: NOBEL
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~5.5 s)
-- Narracao: Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.
+## Cena b11  (~4.8 s)
+- Narracao: Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; dançando -> stars + som de sino; encena: pensa (think) @14 -> acao + som de efeito; encena: danca (up) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

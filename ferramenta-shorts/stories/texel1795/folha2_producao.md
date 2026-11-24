@@ -2,20 +2,29 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/texel1795/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py texel1795` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma frota de navios de guerra foi capturada por soldados a cavalo. Era...
+## Cena b0 - Uma frota de navios de guerra foi capturada por soldados a cavalo.
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 6 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (0): -
 - Animacao: conversar
 - Objetos/modelos: ship, horse
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, franca, frio, frota, holanda, navios
-- RISCOS: 
-  - cena longa (29 palavras, ~10 s no mesmo lugar) -> CORRECAO: dividir em duas cenas com planos diferentes
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, frota, navios
+- RISCOS: nenhum
 
-## Cena b1 - A frota holandesa estava ancorada perto de Den Helder, e o mar congelo...
+## Cena b1 - Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fa...
+- Cenario: arctic | luz: arctic | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): X (variante 0, expressao neutral) | multidao: 0 de X
+- Animacao: encena
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, frio, holanda
+- RISCOS: nenhum
+
+## Cena b2 - A frota holandesa estava ancorada perto de Den Helder, e o mar congelo...
 - Cenario: harbor | luz: arctic | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NED (variante 0, expressao nervous); NED (variante 1, expressao shock) | multidao: 0 de NED
 - Animacao: reagir
@@ -23,17 +32,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota
 - RISCOS: nenhum
 
-## Cena b2 - Os navios ficaram presos no gelo, sem conseguir sair do lugar.
+## Cena b3 - Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 - Cenario: harbor | luz: arctic | clima: neve
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): NED (variante 2, expressao pained) | multidao: 0 de NED
-- Animacao: encena
-- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Personagens principais (1): NED (variante 2, expressao pained)
+- Animacao: conversar
+- Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, lugar, navios
 - RISCOS: nenhum
 
-## Cena b3 - Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n...
+## Cena b4 - Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -43,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franceses, hussardos
 - RISCOS: nenhum
 
-## Cena b4 - O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
+## Cena b5 - O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 - Cenario: interior pedra | luz: arctic | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -53,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, cavalo, chefe, frota
 - RISCOS: nenhum
 
-## Cena b5 - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo....
+## Cena b6 - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo....
 - Cenario: arctic | luz: noite | clima: neve
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -63,17 +72,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cascos, cavalos, gelo, hussardos, janeiro, vinte
 - RISCOS: nenhum
 
-## Cena b6 - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende...
+## Cena b7 - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende...
 - Cenario: harbor | luz: arctic | clima: neve
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin)
-- Animacao: reagir
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: navios de guerra ao fundo, no tamanho real, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota, marinheiros
 - RISCOS: nenhum
 
-## Cena b7 - Foram mais de uma dezena de navios capturados por soldados a cavalo.
+## Cena b8 - Foram mais de uma dezena de navios capturados por soldados a cavalo.
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -83,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, navios
 - RISCOS: nenhum
 
-## Cena b8 - Dizem que foi a única vez na história em que uma cavalaria capturou um...
+## Cena b9 - Dizem que foi a única vez na história em que uma cavalaria capturou um...
 - Cenario: interior madeira | luz: arctic | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
@@ -93,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota
 - RISCOS: nenhum
 
-## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: arctic | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -108,22 +117,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-ship | b0, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-horse | b0, b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/navio_vela | b1 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b0, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+horse | b0, b4, b5, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vela | b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vela | grandes momentos: b5 | planos abertos: 4 | mistura: close 21% | medio 48% | aberto 27% | detalhe 4%
-- Interacoes: b3 tremem de frio, b7 aproxima-se
-- RISCOS GERAIS: 
-  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py texel1795  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/texel1795/moodboard.jpg
+- Objeto heroi: kit/navio_vela | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 22% | medio 51% | aberto 25% | detalhe 2%
+- Interacoes: b4 tremem de frio, b8 aproxima-se
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
-- b0: cena longa (29 palavras, ~10 s no mesmo lugar)
-- geral: menos de 2 grandes momentos
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh texel1795 bN bM` (so essas cenas).

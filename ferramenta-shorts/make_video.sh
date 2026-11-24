@@ -4,11 +4,12 @@
 # Apos cada etapa o progresso e' salvo no git (ckpt.sh). O render e' feito em trechos de 150 quadros (render_pool.mjs) que tambem sao pontos de retomada.
 # Codigos de saida: 0 pronto | 1 erro/gate reprovou | 75 pausado pela trava de seguranca (relance para continuar de onde parou)
 set -e; cd "$(dirname "$0")"; ID="$1"; mkdir -p logs out/$ID stories/$ID/stages; L=logs/make_$ID.log
+if [ -f stories/$ID/DONE ] && ! grep -q "^motor v13" stories/$ID/DONE; then rm -rf stories/$ID/DONE stories/$ID/stages stories/$ID/fit.js stories/$ID/STORYBOARD_OK stories/$ID/AGUARDA_STORYBOARD stories/$ID/ENTREGUE stories/$ID/AUTO_APROVADO stories/$ID/revisao_storyboard.md stories/$ID/storyboard.jpg stories/$ID/storyboard.hash stories/$ID/grade_acoes.jpg stories/$ID/SKIP ckpt/$ID; echo "$ID: marca de pronto de versao ANTIGA da ferramenta -> refazendo com a v13"; fi   # todo video e' refeito na v13 (ordem do Gibson)
 [ -f stories/$ID/DONE ] && { echo "$ID ja pronto"; exit 0; }
 # DISCO: com menos de 4 GB livres, apaga os quadros soltos dos videos JA PRONTOS (o mp4 e os trechos ficam; so' o refazer.sh por cena deixa de valer para eles -> use refazer_tudo.sh). Disco cheio derruba o render com "erro de pagina".
 if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 4000 ]; then for d in out/*/frames; do [ -d "$d" ] || continue; v=$(basename "$(dirname "$d")"); if [ "$v" != "$ID" ] && [ -f "stories/$v/DONE" ]; then rm -rf "$d"; fi; done; rm -rf /root/.cache/pip; echo "$(date +%T) disco baixo: quadros de videos prontos apagados ($(df -Ph . | awk 'NR==2{print $4}') livres)"; fi
 log() { echo "$(date +%T) $*" | tee -a $L; }
-st() { [ -f stories/$ID/stages/$1 ]; }; mark() { date +%s > stories/$ID/stages/$1; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
+st() { [ -f stories/$ID/stages/$1 ]; }; mark() { mkdir -p stories/$ID/stages; date +%s > stories/$ID/stages/$1; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }
 python3 mkvideo.py $ID >> $L 2>&1
 # FOLHA 4 (v13): pesquisa de campo automatica antes de tudo (busca cada item do roteiro na internet, baixa os prints e monta o quadro de referencias)
@@ -47,4 +48,4 @@ set +e; node render_pool.mjs $ID $N >> $L 2>&1; RC=$?; set -e; tail -3 $L
 [ $RC -ne 0 ] && { log "render incompleto (codigo $RC)"; exit 1; }
 if [ "$(tv)" != "$TV0" ]; then log "a ferramenta foi atualizada DURANTE o render: descartando e refazendo o video inteiro na versao nova"; rm -rf ckpt/$ID out/$ID/frames stories/$ID/stages/fit stories/$ID/stages/gate stories/$ID/stages/style; exit 75; fi
 ./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tee -a $L
-touch stories/$ID/DONE; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "pronto" >/dev/null 2>&1 || true; log "PRONTO out/$ID/$T.mp4 (+ out/$ID/review_sheet.jpg)"
+echo "motor v13 $(date +%F_%T)" > stories/$ID/DONE; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "pronto" >/dev/null 2>&1 || true; log "PRONTO out/$ID/$T.mp4 (+ out/$ID/review_sheet.jpg)"

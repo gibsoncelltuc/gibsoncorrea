@@ -1,13 +1,7 @@
 {
  "id": "uisque1984",
  "ano": 1984,
- "cenarios_trocados": [
-  [
-   "cena 7",
-   "mountain",
-   "loc_montanha"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -66,10 +60,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "CAN",
     "CAN"
@@ -78,12 +72,18 @@
    "objetos": [
     "vehicles/helicopter"
    ],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b3",
-   "frase": "Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá de helicóptero.",
-   "classe": "simples",
+   "frase": "Em mil novecentos e oitenta e quatro, soldados canadenses desembarcaram na ilha.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "arctic"
   },
@@ -109,7 +109,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "low",
+   "camera": "crowd",
    "personagens": [
     "DIN",
     "DIN"
@@ -121,26 +121,6 @@
    "palavras": 14,
    "cena": "b5",
    "frase": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "DIN",
-    "CAN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tequila_bolt",
-    "kit/whisky"
-   ],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "E deixaram um bilhete: \"Bem-vindos à terra dinamarquesa\", ao lado de uma garrafa de licor.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -151,7 +131,28 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DIN",
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "barrel",
+    "kit/tequila_bolt",
+    "kit/whisky"
+   ],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado de uma garrafa de aguardente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
   },
   {
    "camera": "two",

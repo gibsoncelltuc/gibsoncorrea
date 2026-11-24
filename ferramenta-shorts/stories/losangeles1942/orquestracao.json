@@ -19,7 +19,6 @@
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
-    "kit/marco_hollywood",
     "kit/searchlight",
     "nature/lamppost"
    ],
@@ -39,9 +38,7 @@
     "CID"
    ],
    "multidao": 8,
-   "objetos": [
-    "kit/marco_hollywood"
-   ],
+   "objetos": [],
    "palavras": 20,
    "cena": "b1",
    "frase": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.",
@@ -58,9 +55,7 @@
     "SOL"
    ],
    "multidao": 10,
-   "objetos": [
-    "kit/marco_hollywood"
-   ],
+   "objetos": [],
    "palavras": 16,
    "cena": "b2",
    "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
@@ -108,7 +103,7 @@
    "objetos": [
     "cannon",
     "kit/canhao_moderno",
-    "kit/marco_hollywood"
+    "kit/searchlight"
    ],
    "palavras": 15,
    "cena": "b4",
@@ -123,15 +118,15 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "SOL",
     "GEN"
    ],
-   "multidao": 10,
+   "multidao": 32,
    "objetos": [],
    "palavras": 18,
    "cena": "b5",
@@ -143,33 +138,28 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "CID",
     "CID"
    ],
-   "multidao": 48,
+   "multidao": 20,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
     "cannon",
-    "kit/marco_hollywood",
+    "kit/canhao_moderno",
+    "kit/searchlight",
     "nature/lamppost"
    ],
    "palavras": 17,
    "cena": "b6",
    "frase": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -191,8 +181,8 @@
   {
    "camera": "two",
    "personagens": [
-    "PRE",
-    "GEN"
+    "CID",
+    "CID"
    ],
    "multidao": 0,
    "objetos": [],
@@ -203,7 +193,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "close",
@@ -212,7 +202,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_hollywood",
     "kit/searchlight"
    ],
    "palavras": 12,

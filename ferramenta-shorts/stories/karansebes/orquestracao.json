@@ -59,7 +59,7 @@
     "HUS",
     "HUS"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "tools/lantern"
    ],
@@ -78,7 +78,7 @@
     "HUS",
     "LOC"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "barrel",
     "kit/barrel_r"
@@ -98,7 +98,7 @@
     "HUS",
     "HUS"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "barrel",
     "tools/lantern"
@@ -119,11 +119,11 @@
     "HUS",
     "AUT"
    ],
-   "multidao": 5,
+   "multidao": 6,
    "objetos": [],
-   "palavras": 22,
+   "palavras": 17,
    "cena": "b5",
-   "frase": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro.",
+   "frase": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -135,7 +135,7 @@
    "personagens": [
     "HUS"
    ],
-   "multidao": 18,
+   "multidao": 48,
    "objetos": [
     "kit/campfire",
     "kit/tent"
@@ -189,7 +189,7 @@
     "OFF",
     "AUT"
    ],
-   "multidao": 5,
+   "multidao": 6,
    "objetos": [
     "cannon"
    ],
@@ -215,9 +215,9 @@
     "kit/campfire",
     "kit/tent"
    ],
-   "palavras": 26,
+   "palavras": 11,
    "cena": "b9",
-   "frase": "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.",
+   "frase": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

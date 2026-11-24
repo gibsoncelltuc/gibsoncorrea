@@ -27,7 +27,6 @@ objeto | hinario com marcadores caindo | hinario com marcadores caindo / hinario
 objeto | frascos de cola | frascos de cola / frascos de cola 1968 | SEM REFERENCIA
 objeto | amostras gratis | amostras gratis / amostras gratis 1968 | SEM REFERENCIA
 heroi | postit | bloquinho amarelo de post-it / A Cola que Não Colava | SEM REFERENCIA
-epoca | laboratorio da epoca | laboratory 1968 / laboratory | SEM REFERENCIA
 epoca | fabrica da epoca | factory 1968 / factory | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

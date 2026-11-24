@@ -9,10 +9,11 @@ b3 | group | -  | batalha aberta com tiros, tropa | dinheiro (stars + som de sin
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: GUERRA | encena: fala (point) @8 (acao + som de efeito) | -
 b5 | group | -  | tropa, objeto na mao | - | -
 b6 | two | -  | - | encena: chega (point) @2 (acao + som de efeito) | -
-b7 | group | -  | - | encena: fala (point) @8 (acao + som de efeito) | -
-b8 | two | -  | interior, objeto na mao | aperto de mao (acao + som de efeito) | -
-b9 | group | -  | - | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b7 | group | -  | - | encena: fala (point) @11 (acao + som de efeito) | -
+b8 | two | -  | - | - | -
+b9 | two | -  | interior, objeto na mao | aperto de mao (acao + som de efeito) | -
+b10 | group | -  | - | - | -
+b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 24% | medio 66% | aberto 6% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 80% | aberto 5% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

@@ -29,7 +29,6 @@ objeto | papel com desenhos de moleculas | papel com desenhos de moleculas / pap
 objeto | frascos de quimica | frascos de quimica / frascos de quimica 1865 | SEM REFERENCIA
 heroi | snake ring | anel do benzeno / O Químico que Sonhou com uma Cobra | SEM REFERENCIA
 mecanismo | O professor August Kekulé tinha um problema: o benzeno, um líquido com | professor august kekule tinha problema benzeno liquido atomo / diagram | SEM REFERENCIA
-mecanismo | No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o p | sonho atomos dancavam cobras mordeu proprio / diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

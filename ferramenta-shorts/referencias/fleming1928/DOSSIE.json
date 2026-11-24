@@ -50,23 +50,42 @@
   "kit/marco_bigben",
   "kit/microscopio",
   "kit/petri",
-  "kit/room_azul_wood",
   "kit/room_hospital",
-  "mk/Crate_Wooden",
-  "mk/Shelf_Small_Bottles",
-  "mk/Stool",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers"
+  "kit/room_verde_wood",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Cabinet",
+  "mk/Nightstand_Shelf",
+  "mk/Stool"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas",
+  "quando": "agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945",
+  "participantes": [
+   "Alexander Fleming",
+   "colegas do laboratorio",
+   "Howard Florey e Ernst Chain, que transformaram em remedio"
+  ],
+  "roupas": {
+   "FLE": "cientista de 1928 com jaleco branco sobre terno, gravata borboleta",
+   "COL": "colega de jaleco branco",
+   "MED": "medico de 1940 de jaleco",
+   "POV": "pacientes e enfermeiras de 1940"
+  },
+  "cenario": "laboratorio de 1928 com bancada de madeira, microscopio de latao, placas de Petri empilhadas, frascos de vidro",
+  "objetos": [
+   "placa de Petri com mofo",
+   "microscopio",
+   "frascos de vidro"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Alexander_Fleming",
+   "https://en.wikipedia.org/wiki/History_of_penicillin"
+  ],
+  "explicacoes": [
+   "Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929"
+  ]
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

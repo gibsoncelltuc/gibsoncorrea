@@ -40,7 +40,7 @@
  },
  "beats": [
   {
-   "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum. Foi em agosto de mil novecentos e quarenta e três, em Kiska, no Alasca, ocupada pelos japoneses.",
+   "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -62,10 +62,17 @@
    "tstyle": "white",
    "mood": "epic",
    "set": "harbor",
-   "acao": "conversar"
+   "acao": "conversar",
+   "desembarque": true,
+   "fx": [
+    "dust@25"
+   ],
+   "sfx": [
+    "thump@25"
+   ]
   },
   {
-   "say": "Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques.",
+   "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
    "shot": "group",
    "who": [
     "USA:0:stern",
@@ -94,7 +101,27 @@
     ]
    ],
    "mapa": "ALASCA",
-   "set": "mountain"
+   "set": "arctic"
+  },
+  {
+   "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
+   "shot": "wide",
+   "set": "harbor",
+   "desembarque": true,
+   "props": [
+    [
+     "kit/aviao_ww2",
+     -4,
+     -9,
+     1.0
+    ],
+    [
+     "kit/tanque_ww2",
+     4,
+     -6,
+     1.0
+    ]
+   ]
   },
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
@@ -145,10 +172,17 @@
    "tat": 10,
    "tstyle": "red",
    "light": "overcast",
-   "clima": "neblina"
+   "clima": "neblina",
+   "interior": "pedra"
   },
   {
-   "say": "Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.",
+   "say": "Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheiras vazias.",
+   "shot": "track",
+   "set": "mountain",
+   "hora": "dia"
+  },
+  {
+   "say": "Semanas antes, navios japoneses tinham levado cerca de cinco mil homens embora, em menos de uma hora, escondidos na neblina.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -168,7 +202,8 @@
    "light": "overcast",
    "mood": "calm",
    "set": "harbor",
-   "clima": "neblina"
+   "clima": "neblina",
+   "shot_lock": true
   },
   {
    "say": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
@@ -196,6 +231,17 @@
    "clima": "neblina"
   },
   {
+   "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
+   "shot": "two",
+   "set": "arctic",
+   "hora": "noite",
+   "acao": "conversar",
+   "who": [
+    "USA:0:sad",
+    "CAN:0:sad"
+   ]
+  },
+  {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
    "shot": "two",
    "who": [
@@ -216,7 +262,21 @@
    "light": "arctic",
    "mood": "playful",
    "set": "harbor",
-   "clima": "neblina"
+   "clima": "neblina",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.6,
+     -1.0,
+     1.0
+    ],
+    [
+     "kit/dog_sit",
+     -1.8,
+     -1.4,
+     1.0
+    ]
+   ]
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
@@ -229,7 +289,21 @@
    "tstyle": "white",
    "mood": "playful",
    "set": "harbor",
-   "clima": "neblina"
+   "clima": "neblina",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.6,
+     -1.0,
+     1.0
+    ],
+    [
+     "kit/dog_sit",
+     -1.8,
+     -1.4,
+     1.0
+    ]
+   ]
   }
  ],
  "heroi": "kit/dog_sit",

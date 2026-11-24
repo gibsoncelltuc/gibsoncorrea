@@ -16,7 +16,7 @@
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -70,7 +70,7 @@
    "palavras": 15,
    "cena": "b2",
    "frase": "Ele estudava bactérias, e deixava os pratos de cultura empilhados na bancada, sem pressa nenhuma.",
-   "classe": "explicativa",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -86,7 +86,7 @@
    "objetos": [],
    "palavras": 13,
    "cena": "b3",
-   "frase": "Um dia, ele saiu de férias por duas semanas e não limpou nada.",
+   "frase": "Um dia, ele saiu de férias por um mês e não limpou nada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -104,9 +104,9 @@
     "kit/gosma",
     "kit/petri"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "Quando voltou, achou um prato com bolor verde e disse: \"Que sujeira!\"",
+   "frase": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -159,20 +159,21 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "FLE",
-    "COL"
-   ],
+   "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/petri"
-   ],
+   "objetos": [],
    "palavras": 17,
    "cena": "b7",
    "frase": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
    "classe": "explicativa",
-   "sujeito": "personagem",
-   "briefing": {},
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/petri (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "interior hospital"
   },

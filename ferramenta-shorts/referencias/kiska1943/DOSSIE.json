@@ -9,6 +9,7 @@
   "cenarios": [
    "arctic",
    "harbor",
+   "interior pedra",
    "mountain"
   ],
   "cenarios_trocados": []
@@ -31,15 +32,24 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "boat",
   "buildings/lighthouse",
   "buildings/shop",
+  "kit/aviao_ww2",
   "kit/canhao_moderno",
   "kit/dog_sit",
   "kit/navio_encouracado",
   "kit/navio_vapor",
+  "kit/room_azul_stone",
+  "kit/tanque_ww2",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
   "nature/picket_fence",
   "ship",
-  "vehicles/airplane"
+  "vehicles/airplane",
+  "war/sandbags"
  ],
  "pesquisa_visual": {
   "local": "Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim e pedras, praias de cascalho, mar frio, neblina constante",

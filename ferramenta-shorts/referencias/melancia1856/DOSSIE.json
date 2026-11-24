@@ -8,29 +8,19 @@
   "luz_base": "day",
   "cenarios": [
    "interior madeira",
-   "interior pedra",
+   "jungle",
    "loc_campo",
    "street"
   ],
   "cenarios_trocados": [
    [
-    "cena 3",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 5",
+    "cena 2",
     "harbor",
     "loc_campo"
    ],
    [
-    "cena 10",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "countryside",
+    "cena 9",
+    "harbor",
     "loc_campo"
    ]
   ]
@@ -56,30 +46,45 @@
   "kit/coin",
   "kit/melon",
   "kit/room_colonial_wood",
-  "kit/room_europa_stone",
   "kit/stall",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
+  "locomotive",
   "mk/Bookcase_2",
-  "mk/Cabinet",
-  "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
   "mk/Table_Large",
   "nature/lamppost",
   "vehicles/locomotive",
   "war/pistol"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Cidade do Panama, perto da estacao da ferrovia do Panama: ruas de terra, casas coloniais de madeira e pedra, barracas de frutas",
+  "quando": "15 de abril de 1856, fim de tarde",
+  "participantes": [
+   "Jack Oliver, viajante americano",
+   "Jose Manuel Luna, vendedor de frutas",
+   "moradores da cidade",
+   "viajantes a caminho da California",
+   "policia local"
+  ],
+  "roupas": {
+   "VEN": "vendedor de camisa branca e chapeu de palha",
+   "VIA": "viajante americano de 1856 com colete, paleto e chapeu de aba",
+   "MOR": "morador com camisa simples e chapeu de palha",
+   "SOL": "policial local de 1856",
+   "PRE": "autoridade de casaca escura"
+  },
+  "cenario": "rua tropical com barracas de frutas, estacao de trem de madeira, palmeiras",
+  "objetos": [
+   "melancia",
+   "barraca de frutas",
+   "trem a vapor de 1856",
+   "revolver"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Watermelon_War",
+   "https://en.wikipedia.org/wiki/Panama_Railroad"
+  ]
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

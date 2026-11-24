@@ -4,17 +4,17 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_campo | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | - | -
-b1 | loc_campo | reveal | 32 | encena | - | - | -
-b2 | loc_campo | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
+b0 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | - | -
+b1 | jungle | reveal | 32 | encena | - | - | -
+b2 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | kit/golden_stool | paper | -
-b4 | loc_campo | two | 2 | reagir, INTERAGEM: susto | - | - | -
-b5 | loc_campo | crowd | 22 | encena, batalha | buildings/castle_tower | - | -
-b6 | loc_campo | orbit | 22 | encena, batalha | - | - | -
+b4 | countryside | two | 2 | reagir, INTERAGEM: susto | - | - | -
+b5 | jungle | crowd | 22 | encena, batalha | buildings/castle_tower | - | -
+b6 | jungle | orbit | 22 | encena, batalha | - | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool | - | -
-b9 | loc_campo | close | 1 | conversar | kit/golden_stool | - | -
-b10 | loc_campo | two | 1 | conversar | - | - | -
+b9 | countryside | close | 1 | conversar | kit/golden_stool | - | -
+b10 | countryside | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/golden_stool
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b6

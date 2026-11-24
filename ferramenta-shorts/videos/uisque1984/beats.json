@@ -87,7 +87,7 @@
    ],
    "interacao": "empurrar",
    "say": "Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade.",
-   "set": "harbor"
+   "interior": "madeira"
   },
   {
    "shot": "crowd",
@@ -118,7 +118,9 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá de helicóptero."
+   "say": "Em mil novecentos e oitenta e quatro, soldados canadenses desembarcaram na ilha.",
+   "impact": true,
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -146,7 +148,7 @@
   },
   {
    "shot": "crowd",
-   "set": "arctic",
+   "set": "harbor",
    "who": [
     "DIN:0:smug:flag",
     "DIN:1:smug"
@@ -173,7 +175,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles."
+   "say": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
+   "impact": true
   },
   {
    "shot": "two",
@@ -190,8 +193,9 @@
      1.2
     ]
    ],
-   "say": "E deixaram um bilhete: \"Bem-vindos à terra dinamarquesa\", ao lado de uma garrafa de licor.",
-   "set": "mountain"
+   "say": "E deixaram um bilhete dando boas-vindas à ilha dinamarquesa, ao lado de uma garrafa de aguardente.",
+   "set": "arctic",
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -232,5 +236,33 @@
   }
  ],
  "ano": 1984,
- "exp": 1.0
+ "exp": 1.0,
+ "visual": {
+  "local": "Ilha Hans, rochedo de 1,3 km2 sem moradores no estreito de Nares, entre a ilha canadense de Ellesmere e a Groenlandia: rocha cinza, neve, gelo flutuando no mar",
+  "quando": "1984 (bandeiras e garrafas) ate o acordo de 14 de junho de 2022; verao artico, de dia",
+  "participantes": [
+   "soldados canadenses",
+   "ministro dinamarques da Groenlandia Tom Hoegh",
+   "militares dinamarqueses",
+   "ministros das Relacoes Exteriores do Canada e da Dinamarca em 2022"
+  ],
+  "roupas": {
+   "CAN": "soldado canadense com parka vermelha de inverno",
+   "DIN": "dinamarques com parka azul de inverno",
+   "PRE": "ministra canadense de terno em 2022",
+   "MIN": "ministro dinamarques de terno em 2022"
+  },
+  "cenario": "rochedo artico com neve, mar com blocos de gelo, sem arvores e sem casas",
+  "objetos": [
+   "bandeira do Canada",
+   "bandeira da Dinamarca",
+   "garrafa de uisque canadense",
+   "garrafa de aguardente dinamarquesa",
+   "bilhete"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Hans_Island",
+   "https://en.wikipedia.org/wiki/Whisky_War"
+  ]
+ }
 }

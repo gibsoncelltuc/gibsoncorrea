@@ -5,19 +5,22 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 0 | conversar | ship | - | -
-b1 | mountain | reveal | 11 | parados (so fala e pisca) | vehicles/airplane, kit/navio_vapor | - | -
-b2 | arctic | group | 41 | conversar, batalha | kit/canhao_moderno | - | -
-b3 | mountain | orbit | 51 | encena, andando, batalha | - | - | -
-b4 | mountain | two | 2 | reagir, INTERAGEM: susto | - | - | -
-b5 | harbor | orbit | 11 | encena | ship, nature/picket_fence, navios de guerra ao fundo, no tamanho real | - | -
-b6 | mountain | group | 3 | reagir, INTERAGEM: aproxima-se | - | - | -
-b7 | harbor | two | 1 | conversar | dog | - | -
-b8 | harbor | close | 1 | conversar | - | - | -
-b9 | harbor | two | 1 | conversar | - | - | -
+b1 | arctic | group | 11 | conversar, INTERAGEM: aproxima-se | vehicles/airplane, kit/navio_vapor | - | -
+b2 | harbor | reveal | 0 | parados (so fala e pisca) | kit/aviao_ww2, kit/tanque_ww2, navios de guerra ao fundo, no tamanho real, navio em movimento | - | -
+b3 | arctic | crowd | 19 | encena, batalha | kit/canhao_moderno | - | -
+b4 | mountain | orbit | 51 | encena, andando, batalha | - | - | -
+b5 | interior pedra | two | 2 | reagir, INTERAGEM: susto | - | - | -
+b6 | mountain | track | 0 | andando | war/sandbags | - | -
+b7 | harbor | wide | 0 | parados (so fala e pisca) | ship, nature/picket_fence, navios de guerra ao fundo, no tamanho real | - | -
+b8 | mountain | group | 3 | reagir, INTERAGEM: avanca e o outro recua | - | - | -
+b9 | arctic | group | 7 | conversar, INTERAGEM: empurrar | - | - | -
+b10 | harbor | two | 1 | conversar | kit/dog_sit, dog | - | -
+b11 | harbor | close | 1 | conversar | kit/dog_sit | - | -
+b12 | harbor | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/dog_sit
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b3
-Interacoes entre personagens: b4 susto, b6 aproxima-se
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4
+Interacoes entre personagens: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar
 
-Cenas com personagens parados: 1 de 10
+Cenas com personagens parados: 2 de 13
 FALTA MODELAR: nada

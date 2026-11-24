@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Morte Branca | A Morte Branca / Um Era União Soviética Finlândia Os Um Simo Häyhä 1939 | SEM REFERENCIA
+tema | A Morte Branca | A Morte Branca / Um Era União Soviética Finlândia Os 1939 | SEM REFERENCIA
 lugar | Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, ter | Front de Kollaa Carelia / Front de Kollaa Carelia Finlandia 1939 | SEM REFERENCIA
 lugar | Finlândia | Finlândia 1939 / Finlândia landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1939 | 1939 fashion clothing / 1939 street photograph | SEM REFERENCIA

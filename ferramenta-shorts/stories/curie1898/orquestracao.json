@@ -67,9 +67,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 12,
    "cena": "b2",
-   "frase": "Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado.",
+   "frase": "Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -121,9 +121,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo.",
+   "frase": "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -141,9 +141,9 @@
    "objetos": [
     "kit/marco_eiffel"
    ],
-   "palavras": 19,
+   "palavras": 13,
    "cena": "b6",
-   "frase": "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso.",
+   "frase": "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -201,9 +201,9 @@
    "objetos": [
     "kit/curie_box"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b9",
-   "frase": "Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.",
+   "frase": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -247,9 +247,9 @@
    "objetos": [
     "kit/curie_box"
    ],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b11",
-   "frase": "Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos.",
+   "frase": "Ou seja: os cadernos vão continuar radioativos por séculos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

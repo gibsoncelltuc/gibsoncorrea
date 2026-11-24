@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -55,19 +55,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | atirar (27.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | PLACA | FOGO! | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | PLACA | FOGO! | OK |
 
-## Cena b5 - 29.7s a 35.5s - 18 palavras - plano group
+## Cena b5 - 29.7s a 35.5s - 18 palavras - plano orbit
 > "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 36.8s a 41.2s - 17 palavras - plano crowd
+## Cena b6 - 36.8s a 41.2s - 17 palavras - plano group
 > "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -79,8 +77,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | pânico (41.2s) | EFEITO: dust | poeira + som | OK |
 | 6 | pânico (41.2s) | ACAO: grita | grita de bracos para cima | OK |
 | 7 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 8 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | INTERACAO | o outro se aproxima | OK |
+| 9 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 42.3s a 46.5s - 14 palavras - plano two
 > "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."
@@ -97,11 +95,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreram (48.5s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreram (48.5s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | CHEGADA | alguem entra andando | OK |
+| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 52.8s a 55.6s - 12 palavras - plano close
 > "O único alvo derrotado naquela noite foi o sono de Los Angeles."

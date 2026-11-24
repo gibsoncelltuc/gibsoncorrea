@@ -7,7 +7,15 @@
    "item": "A Guerra do Banquinho Dourado",
    "consultas": [
     "A Guerra do Banquinho Dourado",
-    "Um Em Gana Os Nem 1900"
+    "Um Era Costa Ouro Gana Os Nem 1900"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias",
+   "consultas": [
+    "Kumasi capital do povo ashanti na Costa do Ouro britanica",
+    "Kumasi capital do povo ashanti na Costa do Ouro britanica hoje Gana 1900"
    ]
   },
   {
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "governador Frederic Hodgson",
+   "consultas": [
+    "governador Frederic Hodgson",
+    "governador Frederic Hodgson 1900"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "lideres ashanti",
+   "consultas": [
+    "lideres ashanti",
+    "lideres ashanti 1900"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "rainha-mae Yaa Asantewaa, que liderou a revolta",
+   "consultas": [
+    "rainha-mae Yaa Asantewaa que liderou a revolta",
+    "rainha-mae Yaa Asantewaa que liderou a revolta 1900"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados britanicos e africanos da forca colonial",
+   "consultas": [
+    "soldados britanicos e africanos da forca colonial",
+    "soldados britanicos e africanos da forca colonial 1900"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "banquinho dourado (Sika Dwa Kofi)",
+   "consultas": [
+    "banquinho dourado",
+    "banquinho dourado 1900"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "forte britanico",
+   "consultas": [
+    "forte britanico",
+    "forte britanico 1900"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fuzis",
+   "consultas": [
+    "fuzis",
+    "fuzis 1900"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "golden stool",
    "consultas": [
-    "golden stool",
+    "banquinho dourado",
     "A Guerra do Banquinho Dourado"
    ]
   },

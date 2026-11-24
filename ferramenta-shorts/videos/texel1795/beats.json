@@ -47,7 +47,7 @@
  },
  "beats": [
   {
-   "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo. Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -75,6 +75,12 @@
     "ding@30"
    ],
    "clima": "neve"
+  },
+  {
+   "say": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "shot": "reveal",
+   "set": "arctic",
+   "mapa": "HOLANDA"
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
@@ -202,7 +208,8 @@
    "mood": "playful",
    "batalha": true,
    "set": "harbor",
-   "clima": "neve"
+   "clima": "neve",
+   "impact": true
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 215 palavras (~74 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 184 palavras (~63 s)
 
 ## Cena b0  (~6.6 s)
 - Narracao: Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b4  (~4.8 s)
-- Narracao: Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade.
+## Cena b4  (~2.1 s)
+- Narracao: Por anos, ninguém viu utilidade nela.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -56,11 +56,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.5 s)
-- Narracao: Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.
+## Cena b6  (~2.8 s)
+- Narracao: Os papeizinhos que marcavam o hinário viviam caindo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: encena: desaba @9 -> acao + som de efeito; encena: tomba @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: desaba @7 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -74,20 +74,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~7.6 s)
-- Narracao: Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho.
+## Cena b8  (~6.2 s)
+- Narracao: Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de rascunho à mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: sai @7 -> acao + som de efeito; encena: quimico (pour) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: sai @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.9 s)
-- Narracao: O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.
+## Cena b9  (~2.1 s)
+- Narracao: O primeiro teste de vendas fracassou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @5 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

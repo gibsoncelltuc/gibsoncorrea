@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -16,13 +16,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | PLACA | 1900 | OK |
 
 ## Cena b1 - 4.8s a 11.1s - 18 palavras - plano reveal
-> "Em mil e novecentos, os ingleses mandavam numa região da África chamada Gana, onde vivia o povo ashanti."
+> "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandavam (7.0s) | ACAO: fala | aponta explicando | OK |
-| 2 | chamada (8.9s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | MAPA | GANA | OK |
+| 1 | mandavam (7.4s) | ACAO: fala | aponta explicando | OK |
+| 2 | Ouro (8.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | Ouro (8.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | MAPA | GANA | OK |
 
 ## Cena b2 - 11.5s a 18.1s - 19 palavras - plano two
 > "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele."

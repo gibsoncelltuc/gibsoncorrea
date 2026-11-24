@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -20,103 +20,101 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | FRANÇA | OK |
 
-## Cena b2 - 10.7s a 15.9s - 15 palavras - plano two
-> "Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado."
+## Cena b2 - 10.7s a 14.8s - 12 palavras - plano two
+> "Marie Curie trabalhava com o marido Pierre num galpão velho e gelado."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 16.3s a 21.5s - 15 palavras - plano group
+## Cena b3 - 15.2s a 20.4s - 15 palavras - plano group
 > "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Mexendo (16.3s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
-| 2 | descobriram (18.5s) | EFEITO: ring | onda + som | OK |
-| 3 | descobriram (18.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | Mexendo (15.2s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
+| 2 | descobriram (17.4s) | EFEITO: ring | onda + som | OK |
+| 3 | descobriram (17.4s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 4 | - | INTERACAO | avanca e o outro recua | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 21.9s a 27.4s - 16 palavras - plano close
+## Cena b4 - 20.7s a 26.3s - 16 palavras - plano close
 > "O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olhar os frascos à noite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | brilhava (22.6s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 2 | olhar (25.9s) | ACAO: olha | aponta/olha | OK |
+| 1 | brilhava (21.5s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 2 | olhar (24.8s) | ACAO: olha | aponta/olha | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 27.8s a 33.3s - 16 palavras - plano two
-> "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo."
+## Cena b5 - 26.7s a 29.6s - 9 palavras - plano two
+> "Ela carregava frascos no bolso. Ninguém sabia do perigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | carregava (28.1s) | ACAO: pega | levanta/segura | OK |
-| 2 | guardava (30.4s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | carregava (27.0s) | ACAO: pega | levanta/segura | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 33.7s a 40.4s - 19 palavras - plano crowd
-> "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso."
+## Cena b6 - 30.0s a 34.4s - 13 palavras - plano crowd
+> "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (34.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (34.1s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | química (37.0s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
+| 1 | ganhou (30.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (30.4s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
-## Cena b7 - 40.7s a 47.8s - 20 palavras - plano two
+## Cena b7 - 34.8s a 41.9s - 20 palavras - plano two
 > "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (47.8s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (47.8s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 1 | morreu (41.9s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreu (41.9s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 48.1s a 54.1s - 17 palavras - plano two
+## Cena b8 - 42.2s a 48.1s - 17 palavras - plano two
 > "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | guardados (51.1s) | ACAO: pega | levanta/segura | OK |
+| 1 | guardados (45.2s) | ACAO: pega | levanta/segura | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 54.4s a 59.3s - 14 palavras - plano low
-> "Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção."
+## Cena b9 - 48.5s a 52.6s - 12 palavras - plano low
+> "Para ler, é preciso assinar um termo e usar roupa de proteção."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ler (55.2s) | ACAO: x_le | le o papel | OK |
-| 2 | assinar (55.9s) | ACAO: escreve | escreve/assina | OK |
+| 1 | ler (48.9s) | ACAO: x_le | le o papel | OK |
+| 2 | assinar (50.0s) | ACAO: escreve | escreve/assina | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 59.6s a 65.2s - 16 palavras - plano orbit
+## Cena b10 - 53.0s a 58.5s - 16 palavras - plano orbit
 > "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perder (64.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | perder (64.1s) | ACAO: perde | mao na testa | OK |
+| 1 | perder (57.4s) | EFEITO: dust | poeira + som | OK |
+| 2 | perder (57.4s) | ACAO: perde | mao na testa | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | 1.600 ANOS | OK |
 
-## Cena b11 - 65.6s a 70.7s - 15 palavras - plano close
-> "Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos."
+## Cena b11 - 58.9s a 61.9s - 9 palavras - plano close
+> "Ou seja: os cadernos vão continuar radioativos por séculos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b12 - 71.1s a 75.6s - 13 palavras - plano close
+## Cena b12 - 62.2s a 66.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

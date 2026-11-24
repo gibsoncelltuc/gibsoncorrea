@@ -3,23 +3,13 @@
  "ano": 1856,
  "cenarios_trocados": [
   [
-   "cena 3",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 5",
+   "cena 2",
    "harbor",
    "loc_campo"
   ],
   [
-   "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "countryside",
+   "cena 9",
+   "harbor",
    "loc_campo"
   ]
  ],
@@ -66,7 +56,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -86,7 +76,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
    "camera": "two",
@@ -99,9 +89,9 @@
     "buildings/shop",
     "kit/stall"
    ],
-   "palavras": 15,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "O vendedor pediu o pagamento: \"Pague a fatia!\", gritou ele, e o viajante só riu.",
+   "frase": "O vendedor cobrou a fatia, e o viajante só riu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -125,7 +115,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "crowd",
@@ -151,6 +141,23 @@
    "cenario": "street"
   },
   {
+   "camera": "group",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
+   "classe": "simples",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
    "camera": "two",
    "personagens": [
     "PRE",
@@ -159,7 +166,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 15,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -175,13 +182,11 @@
    ],
    "multidao": 48,
    "objetos": [
-    "buildings/house_two",
-    "nature/lamppost",
     "vehicles/locomotive"
    ],
-   "palavras": 16,
-   "cena": "b7",
-   "frase": "No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu.",
+   "palavras": 20,
+   "cena": "b8",
+   "frase": "Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabou pagando uma indenização enorme aos americanos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -192,24 +197,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "PRE",
-    "PRE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "No fim, o governo local pagou uma indenização enorme pelas mortes.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",
@@ -227,7 +215,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   },
   {
    "camera": "two",
@@ -243,7 +231,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "jungle"
   }
  ]
 }

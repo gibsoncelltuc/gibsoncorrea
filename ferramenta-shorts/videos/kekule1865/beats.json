@@ -82,22 +82,15 @@
     "ALU:0:suspicious:paper"
    ],
    "acao": "discutir",
-   "say": "O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos de carbono que ninguém sabia arrumar."
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "COL:0:bored",
-    "KEK:0:sad:paper"
-   ],
-   "fx": [
-    "puff@40"
-   ],
-   "sfx": [
-    "thump@40"
-   ],
-   "say": "Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de anos."
+   "say": "O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos de carbono que ninguém sabia arrumar.",
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 6,
+     "un": "CARBONOS",
+     "na": "seis"
+    }
+   }
   },
   {
    "shot": "two",
@@ -157,7 +150,8 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo."
+   "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.",
+   "explica": false
   },
   {
    "shot": "low",
@@ -213,7 +207,7 @@
     "COL:0:shock"
    ],
    "interacao": "entregar",
-   "say": "Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez."
+   "say": "Os colegas ficaram de boca aberta."
   },
   {
    "shot": "group",

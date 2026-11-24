@@ -37,9 +37,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 17,
    "cena": "b1",
-   "frase": "Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia de quem ela era.",
+   "frase": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -68,7 +68,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
@@ -89,7 +89,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
@@ -99,18 +99,20 @@
    ],
    "multidao": 0,
    "objetos": [
+    "buildings/barn",
     "nature/haybale",
     "nature/picket_fence",
+    "nature/scarecrow",
     "tools/wheelbarrow"
    ],
-   "palavras": 19,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "O fazendeiro foi até a casa do vizinho, com as notas na mão, e ofereceu dez dólares pelo porco.",
+   "frase": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -122,9 +124,9 @@
    "objetos": [
     "nature/picket_fence"
    ],
-   "palavras": 16,
+   "palavras": 14,
    "cena": "b5",
-   "frase": "O dono gritou que o porco valia cem, e empurrou o dinheiro de volta. Ninguém cedeu.",
+   "frase": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -165,9 +167,9 @@
     "cannon",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 23,
+   "palavras": 19,
    "cena": "b7",
-   "frase": "Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.",
+   "frase": "A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -188,9 +190,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 24,
+   "palavras": 18,
    "cena": "b8",
-   "frase": "O almirante inglês recebeu a ordem de atacar, e se recusou: disse que não ia pôr duas nações em guerra por briga de porco.",
+   "frase": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -198,13 +200,13 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "ING",
     "AME",
     "ING"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [],
    "palavras": 13,
    "cena": "b9",
@@ -213,7 +215,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "countryside"
   },
   {
    "camera": "crowd",
@@ -255,10 +257,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "FAZ"
    ],

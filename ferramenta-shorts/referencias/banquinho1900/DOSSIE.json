@@ -7,58 +7,13 @@
   "regiao": "africa",
   "luz_base": "day",
   "cenarios": [
+   "countryside",
    "interior loja",
    "interior madeira",
    "interior pedra",
-   "loc_campo"
+   "jungle"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 1",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 2",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 3",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 5",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 6",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 7",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 10",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "street",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -74,6 +29,9 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/castle_tower",
+  "buildings/house_small",
+  "buildings/house_two",
+  "kit/coin",
   "kit/golden_stool",
   "kit/room_africa_wood",
   "kit/room_europa_stone",
@@ -88,15 +46,33 @@
   "mk/Nightstand_Shelf",
   "mk/Table_Large"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias de casas de barro com telhado de palha, floresta tropical, forte britanico de pedra",
+  "quando": "marco a setembro de 1900; de dia, estacao chuvosa",
+  "participantes": [
+   "governador Frederic Hodgson",
+   "lideres ashanti",
+   "rainha-mae Yaa Asantewaa, que liderou a revolta",
+   "soldados britanicos e africanos da forca colonial"
+  ],
+  "roupas": {
+   "GOV": "uniforme colonial branco com capacete branco",
+   "ASH": "pano kente colorido amarrado no ombro",
+   "CHE": "chefe ashanti com pano kente e adornos dourados",
+   "SOL": "soldado colonial de 1900: farda caqui e capacete",
+   "PRE": "funcionario britanico de terno escuro"
+  },
+  "cenario": "aldeia ashanti com casas de barro e palha, floresta tropical, forte de pedra em Kumasi",
+  "objetos": [
+   "banquinho dourado (Sika Dwa Kofi)",
+   "forte britanico",
+   "fuzis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
+   "https://en.wikipedia.org/wiki/Golden_Stool"
+  ]
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

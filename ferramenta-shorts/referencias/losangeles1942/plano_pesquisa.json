@@ -99,6 +99,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "canhao moderno",
+   "consultas": [
+    "canhao moderno"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "canhao da epoca",
    "consultas": [

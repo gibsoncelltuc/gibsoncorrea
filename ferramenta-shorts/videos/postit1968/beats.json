@@ -114,7 +114,7 @@
     "SIL:0:nervous:paper"
    ],
    "interacao": "entregar",
-   "say": "Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade."
+   "say": "Por anos, ninguém viu utilidade nela."
   },
   {
    "shot": "group",
@@ -179,7 +179,7 @@
    "sfx": [
     "whoosh@30"
    ],
-   "say": "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.",
+   "say": "Os papeizinhos que marcavam o hinário viviam caindo.",
    "interior": "pedra",
    "moveis": [
     [
@@ -253,7 +253,7 @@
      1.5
     ]
    ],
-   "say": "Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho."
+   "say": "Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de rascunho à mão."
   },
   {
    "shot": "two",
@@ -267,7 +267,7 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.",
+   "say": "O primeiro teste de vendas fracassou.",
    "interior": "loja"
   },
   {

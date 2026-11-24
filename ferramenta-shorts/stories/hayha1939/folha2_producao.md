@@ -7,13 +7,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (4): SOV (variante 0, expressao stern); SOV (variante 1, expressao stern); SOV (variante 2, expressao neutral); SOV (variante 3, expressao stern) | multidao: 18 de SOV
-- Animacao: encena | batalha encenada
+- Animacao: - | batalha encenada
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro, finlandia, inverno, soldado, uniao
-- RISCOS: 
-  - cena longa (29 palavras, ~10 s no mesmo lugar) -> CORRECAO: dividir em duas cenas com planos diferentes
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro, soldado
+- RISCOS: nenhum
 
-## Cena b1 - Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve ...
+## Cena b1 - Era o inverno de mil novecentos e trinta e nove, e a União Soviética i...
+- Cenario: arctic | luz: arctic | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (0): -
+- Animacao: - | batalha encenada
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): finlandia, inverno, uniao
+- RISCOS: nenhum
+
+## Cena b2 - Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve ...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -21,10 +30,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir
 - Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, frio, neve, quarenta, soldados, zero
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
+- RISCOS: nenhum
 
-## Cena b2 - Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
+## Cena b3 - Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -34,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): campo, homem
 - RISCOS: nenhum
 
-## Cena b3 - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
+## Cena b4 - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
 - Cenario: mountain | luz: arctic | clima: neve
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -44,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): branco, neve
 - RISCOS: nenhum
 
-## Cena b4 - Dizem que ele mantinha neve na boca, para o vapor da respiração não en...
+## Cena b5 - Dizem que ele mantinha neve na boca, para o vapor da respiração não en...
 - Cenario: mountain | luz: arctic | clima: neve
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -54,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): boca, respiracao, vapor
 - RISCOS: nenhum
 
-## Cena b5 - Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ...
+## Cena b6 - Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -64,17 +72,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ferro, fuzil, mira, quinhentos
 - RISCOS: nenhum
 
-## Cena b6 - Os soviéticos passaram a chamá-lo de Morte Branca.
+## Cena b7 - Os soviéticos passaram a chamá-lo de Morte Branca.
 - Cenario: mountain | luz: arctic | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 12 de SOV
-- Animacao: reagir | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): SOV (variante 1, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chamalo, morte, sovieticos
 - RISCOS: nenhum
 
-## Cena b7 - Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. ...
+## Cena b8 - Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. ...
 - Cenario: interior hospital | luz: arctic | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -84,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, rosto
 - RISCOS: nenhum
 
-## Cena b8 - Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só...
+## Cena b9 - Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só...
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -94,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noventa
 - RISCOS: nenhum
 
-## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: arctic | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -110,24 +118,22 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 buildings/barn | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/haybale | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/scarecrow | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_pine | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bush | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/campfire | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_pine | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/campfire | b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/campfire | grandes momentos: b0, b6 | planos abertos: 3 | mistura: close 27% | medio 47% | aberto 19% | detalhe 7%
-- Interacoes: b5 tremem de frio, b7 cochichar
+- Objeto heroi: kit/campfire | grandes momentos: b0, b1 | planos abertos: 2 | mistura: close 24% | medio 54% | aberto 15% | detalhe 7%
+- Interacoes: b6 tremem de frio, b8 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py hayha1939  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/hayha1939/moodboard.jpg
 
-## RESUMO: 3 risco(s) em aberto
-- b0: cena longa (29 palavras, ~10 s no mesmo lugar)
-- b1: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

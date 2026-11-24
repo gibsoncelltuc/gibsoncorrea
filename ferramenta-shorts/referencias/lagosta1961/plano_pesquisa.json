@@ -7,7 +7,15 @@
    "item": "A Guerra da Lagosta",
    "consultas": [
     "A Guerra da Lagosta",
-    "França Brasil Era Barcos Pernambuco Brasil Lagosta 1961"
+    "França Brasil Era Barcos Pernambuco Brasil 1961"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa",
+   "consultas": [
+    "litoral de Pernambuco e do Nordeste do Brasil",
+    "litoral de Pernambuco e do Nordeste do Brasil 1961"
    ]
   },
   {
@@ -27,10 +35,90 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "pescadores franceses em barcos lagosteiros",
+   "consultas": [
+    "pescadores franceses em barcos lagosteiros",
+    "pescadores franceses em barcos lagosteiros 1961"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "pescadores brasileiros",
+   "consultas": [
+    "pescadores brasileiros",
+    "pescadores brasileiros 1961"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Marinha do Brasil",
+   "consultas": [
+    "Marinha do Brasil",
+    "Marinha do Brasil 1961"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Marinha francesa (contratorpedeiro Tartu)",
+   "consultas": [
+    "Marinha francesa contratorpedeiro Tartu",
+    "Marinha francesa contratorpedeiro Tartu 1961"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "presidente Joao Goulart",
+   "consultas": [
+    "presidente Joao Goulart",
+    "presidente Joao Goulart 1961"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "presidente Charles de Gaulle",
+   "consultas": [
+    "presidente Charles de Gaulle",
+    "presidente Charles de Gaulle 1961"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "lagosta",
+   "consultas": [
+    "lagosta",
+    "lagosta 1961"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "barcos de pesca",
+   "consultas": [
+    "barcos de pesca",
+    "barcos de pesca 1961"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navios de guerra",
+   "consultas": [
+    "navios de guerra",
+    "navios de guerra 1961"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "avioes de patrulha",
+   "consultas": [
+    "avioes de patrulha",
+    "avioes de patrulha 1961"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "lobster",
    "consultas": [
-    "lobster",
+    "lagosta",
     "A Guerra da Lagosta"
    ]
   },

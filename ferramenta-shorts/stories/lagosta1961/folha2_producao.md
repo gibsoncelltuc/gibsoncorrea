@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BRA (variante 0, expressao angry); FRA (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/lobster, kit/marco_olinda
+- Objetos/modelos: kit/lobster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, franca, lagosta
 - RISCOS: nenhum
 
@@ -18,28 +18,28 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PES (variante 0, expressao stern); PES (variante 1, expressao angry) | multidao: 8 de PES
 - Animacao: encena
-- Objetos/modelos: boat, kit/marco_olinda
+- Objetos/modelos: boat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, costa, pernambuco, pescadores
 - RISCOS: nenhum
 
-## Cena b2 - O Brasil dizia: "Lagosta anda no fundo do mar, então é nossa."
+## Cena b2 - O Brasil dizia que a lagosta anda no fundo do mar, colada na costa, e ...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): BRA (variante 0, expressao angry); PES (variante 0, expressao stern)
 - Animacao: discutir | interacao: cochichar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, fundo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, fundo, lagosta
 - RISCOS: nenhum
 
-## Cena b3 - A França respondia: "Lagosta nada, então é de todo mundo."
+## Cena b3 - A França respondia que a lagosta nada, e por isso era de quem pescasse...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FRA (variante 0, expressao smug); FRA (variante 1, expressao laugh) | multidao: 30 de PES
-- Animacao: conversar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): FRA (variante 0, expressao smug); FRA (variante 1, expressao laugh)
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, lagosta
 - RISCOS: nenhum
 
 ## Cena b4 - A discussão ficou séria, e a França mandou um navio de guerra para pro...
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MAR (variante 0, expressao angry); MAR (variante 1, expressao shout) | multidao: 20 de MAR/BRA
 - Animacao: encena | batalha encenada
-- Objetos/modelos: ship, vehicles/airplane, kit/marco_olinda, navios de guerra ao fundo, no tamanho real
+- Objetos/modelos: ship, vehicles/airplane, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, tensao
 - RISCOS: nenhum
 
@@ -82,13 +82,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, tiro
 - RISCOS: nenhum
 
-## Cena b8 - Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barc...
+## Cena b8 - Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, c...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PES (variante 0, expressao laugh); FRA (variante 0, expressao relief)
 - Animacao: comemorar
-- Objetos/modelos: kit/marco_olinda, navio em movimento
+- Objetos/modelos: navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, limite
 - RISCOS: nenhum
 
@@ -118,22 +118,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/lobster | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_olinda | b0, b1, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 boat | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 17% | medio 57% | aberto 24% | detalhe 2%
-- Interacoes: b0 discutir, b2 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
+- Objeto heroi: kit/lobster | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 10% | medio 73% | aberto 15% | detalhe 2%
+- Interacoes: b0 discutir, b2 cochichar, b3 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py lagosta1961  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/lagosta1961/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lagosta1961 bN bM` (so essas cenas).

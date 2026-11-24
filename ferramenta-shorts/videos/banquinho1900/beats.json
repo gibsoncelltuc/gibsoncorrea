@@ -5,17 +5,18 @@
  "ep": 13,
  "title": "A Guerra do Banquinho Dourado",
  "titulo_base": "A Guerra do Banquinho Dourado",
- "set": "street",
+ "set": "countryside",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/golden_stool",
  "outfits": {
   "GOV": {
-   "jacket": "#b02a2a",
+   "jacket": "#f1efe6",
    "pants": "#f1efe6",
    "boots": "#1b1b1f",
    "hat": "helmet",
-   "cap": "#e8e2d0"
+   "cap": "#f1efe6",
+   "uniforme_fixo": true
   },
   "ASH": {
    "jacket": "#d9a630",
@@ -68,7 +69,7 @@
   },
   {
    "shot": "reveal",
-   "set": "street",
+   "set": "jungle",
    "who": [
     "ASH:0:stern",
     "ASH:1:neutral"
@@ -82,7 +83,7 @@
    },
    "mapa": "GANA",
    "mapa_at": 3,
-   "say": "Em mil e novecentos, os ingleses mandavam numa região da África chamada Gana, onde vivia o povo ashanti.",
+   "say": "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.",
    "fx": [
     "puff@70"
    ],
@@ -120,7 +121,7 @@
   },
   {
    "shot": "two",
-   "set": "street",
+   "set": "countryside",
    "who": [
     "CHE:0:shock",
     "ASH:0:angry"
@@ -130,7 +131,7 @@
   },
   {
    "shot": "crowd",
-   "set": "street",
+   "set": "jungle",
    "who": [
     "ASH:0:angry",
     "ASH:1:shout"
@@ -159,7 +160,7 @@
   },
   {
    "shot": "orbit",
-   "set": "street",
+   "set": "jungle",
    "who": [
     "SOL:0:stern",
     "SOL:1:angry"
@@ -197,7 +198,7 @@
   },
   {
    "shot": "close",
-   "set": "street",
+   "set": "countryside",
    "who": [
     "GOV:0:sad"
    ],
@@ -214,5 +215,32 @@
  ],
  "ano": 1900,
  "regiao": "africa",
- "exp": 1.0
+ "exp": 1.0,
+ "visual": {
+  "local": "Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias de casas de barro com telhado de palha, floresta tropical, forte britanico de pedra",
+  "quando": "marco a setembro de 1900; de dia, estacao chuvosa",
+  "participantes": [
+   "governador Frederic Hodgson",
+   "lideres ashanti",
+   "rainha-mae Yaa Asantewaa, que liderou a revolta",
+   "soldados britanicos e africanos da forca colonial"
+  ],
+  "roupas": {
+   "GOV": "uniforme colonial branco com capacete branco",
+   "ASH": "pano kente colorido amarrado no ombro",
+   "CHE": "chefe ashanti com pano kente e adornos dourados",
+   "SOL": "soldado colonial de 1900: farda caqui e capacete",
+   "PRE": "funcionario britanico de terno escuro"
+  },
+  "cenario": "aldeia ashanti com casas de barro e palha, floresta tropical, forte de pedra em Kumasi",
+  "objetos": [
+   "banquinho dourado (Sika Dwa Kofi)",
+   "forte britanico",
+   "fuzis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
+   "https://en.wikipedia.org/wiki/Golden_Stool"
+  ]
+ }
 }

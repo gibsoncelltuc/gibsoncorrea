@@ -93,9 +93,9 @@
    "objetos": [
     "kit/crown"
    ],
-   "palavras": 12,
+   "palavras": 13,
    "cena": "b4",
-   "frase": "O rei chamou Arquimedes e disse: \"Descubra, mas sem estragar a coroa.\"",
+   "frase": "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -118,7 +118,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "orbit",
@@ -143,7 +143,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -179,7 +179,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "group",
@@ -189,14 +189,11 @@
    ],
    "multidao": 14,
    "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "kit/crown",
-    "nature/lamppost"
+    "kit/crown"
    ],
-   "palavras": 14,
+   "palavras": 19,
    "cena": "b9",
-   "frase": "\"Eureca!\", gritou ele, e a cidade inteira correu atrás. A coroa tinha prata misturada.",
+   "frase": "Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coroa tinha mesmo prata misturada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -226,7 +223,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "close",

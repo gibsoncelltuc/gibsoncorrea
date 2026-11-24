@@ -30,10 +30,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancada, cultura, pratos
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
+- RISCOS: nenhum
 
-## Cena b3 - Um dia, ele saiu de férias por duas semanas e não limpou nada.
+## Cena b3 - Um dia, ele saiu de férias por um mês e não limpou nada.
 - Cenario: interior hospital | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -43,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ferias
 - RISCOS: nenhum
 
-## Cena b4 - Quando voltou, achou um prato com bolor verde e disse: "Que sujeira!"
+## Cena b4 - Quando voltou, achou um prato estragado, coberto de bolor verde.
 - Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -77,12 +76,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): FLE (variante 0, expressao smile); COL (variante 0, expressao relief)
-- Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/petri
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bacterias, isso, mofo, penicilina
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
+- RISCOS: nenhum
 
 ## Cena b8 - Anos depois, outros cientistas transformaram o bolor em remédio, e ele...
 - Cenario: loc_montanha | luz: day | clima: limpo
@@ -130,22 +128,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/marco_bigben | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/petri | b0, b4, b5, b6, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/petri | b0, b4, b5, b6, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/gosma | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
 - Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 20% | medio 65% | aberto 10% | detalhe 5%
-- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b7 cochichar, b8 pular, b9 o outro se aproxima
+- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b8 pular, b9 o outro se aproxima
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py fleming1928  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/fleming1928/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
-- b2: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- b7: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh fleming1928 bN bM` (so essas cenas).

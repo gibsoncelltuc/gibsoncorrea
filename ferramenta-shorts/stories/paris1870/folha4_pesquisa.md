@@ -14,9 +14,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Cardápio do Zoológico | O Cardápio do Zoológico / Paris Era Prússia Primeiro Depois Depois 1870 | SEM REFERENCIA
+tema | O Cardápio do Zoológico | O Cardápio do Zoológico / Paris Era Prússia Primeiro Depois 1870 | SEM REFERENCIA
 lugar | Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas | Paris sitiada / Paris sitiada 1870 | SEM REFERENCIA
-lugar | Paris | Paris 1870 / Paris landscape | SEM REFERENCIA
+lugar | França | França 1870 / França landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1870 | 1870 fashion clothing / 1870 street photograph | SEM REFERENCIA
 pessoas | parisienses famintos | parisienses famintos / parisienses famintos 1870 | SEM REFERENCIA
 pessoas | Guarda Nacional de quepe | Guarda Nacional de quepe / Guarda Nacional de quepe 1870 | SEM REFERENCIA
@@ -28,6 +28,7 @@ objeto | carne de elefante no acougue | carne de elefante no acougue / carne de 
 objeto | baloes de gas | baloes de gas / baloes de gas 1870 | SEM REFERENCIA
 objeto | pombos-correio | pombos-correio / pombos-correio 1870 | SEM REFERENCIA
 heroi | panela | panelas e o cardapio do Natal / O Cardápio do Zoológico | SEM REFERENCIA
+epoca | balao da epoca | hot air balloon 1870 / hot air balloon | SEM REFERENCIA
 epoca | cavalo da epoca | horse cavalry 1870 / horse cavalry | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

@@ -92,9 +92,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 6,
    "cena": "b4",
-   "frase": "Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade.",
+   "frase": "Por anos, ninguém viu utilidade nela.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -129,9 +129,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 16,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.",
+   "frase": "Os papeizinhos que marcavam o hinário viviam caindo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -166,9 +166,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 22,
+   "palavras": 18,
    "cena": "b8",
-   "frase": "Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho.",
+   "frase": "Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de rascunho à mão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -182,12 +182,10 @@
     "FRY"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/postit"
-   ],
-   "palavras": 17,
+   "objetos": [],
+   "palavras": 6,
    "cena": "b9",
-   "frase": "O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.",
+   "frase": "O primeiro teste de vendas fracassou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -14,16 +14,16 @@
    "jacket": "#2a4a8a",
    "pants": "#3b3f52",
    "boots": "#2a2218",
-   "hat": "cap",
-   "cap": "#2a4a8a"
+   "hat": "tricorn",
+   "cap": "#1b1b1f",
+   "epaulets": "#e8c45a"
   },
   "ESP": {
    "jacket": "#d9a630",
    "pants": "#7a2a2a",
    "boots": "#1b1b1f",
-   "hat": "slouch",
-   "cap": "#7a2a2a",
-   "profissao": "general"
+   "hat": "tricorn",
+   "cap": "#1b1b1f"
   },
   "ING": {
    "jacket": "#b02a2a",
@@ -60,14 +60,16 @@
    "fixo": true
   },
   "CAP": {
-   "profissao": "general",
+   "profissao": "capitao",
    "jacket": "#8a1f1f",
    "pants": "#2a2d33",
    "boots": "#1b1b1f",
    "pais": "ESP",
    "fixo": true,
-   "hat": "shako",
-   "uniforme_fixo": true
+   "hat": "tricorn",
+   "uniforme_fixo": true,
+   "cap": "#1b1b1f",
+   "epaulets": "#e8c45a"
   }
  },
  "beats": [
@@ -137,11 +139,12 @@
    "shot": "two",
    "set": "harbor",
    "who": [
-    "REI:0:smug",
+    "CAP:0:smug",
     "JEN:0:pained"
    ],
    "acao": "discutir",
-   "say": "\"Vá levar isso ao seu rei\", teria dito o espanhol."
+   "say": "\"Vá levar isso ao seu rei\", teria dito o espanhol.",
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -241,5 +244,37 @@
  ],
  "ano": 1739,
  "regiao": "europa",
- "exp": 1.0
+ "exp": 1.0,
+ "visual": {
+  "local": "mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda costeira espanhola); depois Londres, Parlamento",
+  "quando": "abril de 1731 (a orelha), 1738 (Parlamento), outubro de 1739 (declaracao de guerra); de dia",
+  "participantes": [
+   "capitao Robert Jenkins",
+   "capitao Julio Leon Fandino, da guarda costeira espanhola",
+   "deputados do Parlamento britanico",
+   "rei Jorge II",
+   "marinheiros e soldados britanicos"
+  ],
+  "roupas": {
+   "JEN": "capitao mercante ingles de 1731: casaca longa azul, colete, chapeu tricornio",
+   "CAP": "oficial espanhol de 1731: casaca, chapeu tricornio",
+   "ESP": "marinheiro espanhol de 1731",
+   "ING": "cavalheiro ingles de casaca e peruca",
+   "PRE": "deputado com casaca e peruca branca",
+   "SOL": "soldado britanico de 1739: casaca vermelha e tricornio",
+   "REI": "rei Jorge II com manto e coroa",
+   "MAR": "marinheiro de 1731 com camisa e lenco"
+  },
+  "cenario": "navios a vela de madeira no mar do Caribe, porto colonial, salao do Parlamento de Londres",
+  "objetos": [
+   "navios a vela",
+   "orelha num frasco",
+   "espadas",
+   "canhoes de navio"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear",
+   "https://en.wikipedia.org/wiki/Robert_Jenkins_(master_mariner)"
+  ]
+ }
 }

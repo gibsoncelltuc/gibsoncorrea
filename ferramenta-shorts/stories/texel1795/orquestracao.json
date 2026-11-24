@@ -16,9 +16,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 29,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Uma frota de navios de guerra foi capturada por soldados a cavalo. Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "frase": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
    "classe": "simples",
    "sujeito": "cenario",
    "briefing": {},
@@ -26,7 +26,23 @@
    "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "reveal",
+   "personagens": [
+    "X"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b1",
+   "frase": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "orbit",
    "personagens": [
     "NED",
     "NED"
@@ -37,7 +53,7 @@
     "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 16,
-   "cena": "b1",
+   "cena": "b2",
    "frase": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -46,17 +62,16 @@
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "NED"
    ],
    "multidao": 0,
    "objetos": [
-    "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
    "palavras": 11,
-   "cena": "b2",
+   "cena": "b3",
    "frase": "Os navios ficaram presos no gelo, sem conseguir sair do lugar.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -74,7 +89,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 12,
-   "cena": "b3",
+   "cena": "b4",
    "frase": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -90,7 +105,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -107,7 +122,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 25,
-   "cena": "b5",
+   "cena": "b6",
    "frase": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo. Contam que puseram panos nos cascos dos cavalos para não fazer barulho.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -133,7 +148,7 @@
     "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 12,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -158,7 +173,7 @@
     "ship"
    ],
    "palavras": 12,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -180,7 +195,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 15,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -196,7 +211,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
