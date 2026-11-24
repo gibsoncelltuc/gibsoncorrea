@@ -169,7 +169,8 @@
    "sfx": [
     "thump@40",
     "thump@75"
-   ]
+   ],
+   "tiros": false
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
@@ -240,7 +241,9 @@
     "cols": 3
    },
    "set": "loc_campo",
-   "fachada": false
+   "fachada": false,
+   "batalha": false,
+   "tiros": false
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
@@ -301,7 +304,8 @@
    "quadro_manual": true,
    "cx": 3.0,
    "cz": 0.8,
-   "h": 2.4
+   "h": 2.4,
+   "tiros": false
   },
   {
    "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",

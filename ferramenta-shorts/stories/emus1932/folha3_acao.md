@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
@@ -90,18 +90,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dividiram (20.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | balas (23.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | balas (23.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | balas (23.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_entrega na palavra dividiram (20.5s): executa: estende a mao entregando
-- EFEITO: burst na palavra balas (23.0s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - ACAO: atira na palavra balas (23.0s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - multidao de 14: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
@@ -126,18 +122,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | balas (33.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | balas (33.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | CENA | tiros: 1 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | 6 DIAS | OK |
+| 1 | balas (33.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | PLACA | 6 DIAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra balas (33.5s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - ACAO: atira na palavra balas (33.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
