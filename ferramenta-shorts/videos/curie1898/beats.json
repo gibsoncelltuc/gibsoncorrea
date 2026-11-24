@@ -123,7 +123,7 @@
     "PIE:0:grin"
    ],
    "hora": "dia",
-   "clima": "limpo",
+   "clima": "chuva",
    "say": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
   },
   {
@@ -306,7 +306,7 @@
    }
   },
   {
-   "shot": "low",
+   "shot": "two",
    "interior": "pedra",
    "who": [
     "PES:0:scared"
@@ -347,7 +347,7 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "_auto_vis": 2
+   "_auto_vis": 0
   },
   {
    "shot": "two",

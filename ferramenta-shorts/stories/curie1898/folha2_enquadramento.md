@@ -25,7 +25,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b3: "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
-- LOCAL: sala de madeira; hora: dia; clima: limpo
+- LOCAL: sala de madeira; hora: dia; clima: chuva
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MAR na esquerda, expressao stern, segura paper; PIE (cientista) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -81,7 +81,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "Para ler, é preciso assinar um termo e usar roupa de proteção."
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
-- CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
 - PERSONAGENS: PES no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
