@@ -15,11 +15,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | Os Primeiros Passageiros do Céu | Os Primeiros Passageiros do Céu / Os Foram Era França Os Montgolfier 1783 | SEM REFERENCIA
-lugar | França | França 1783 / França landscape | SEM REFERENCIA
-epoca | roupas e ruas de 1783 | 1783 fashion clothing / 18th century clothing painting | SEM REFERENCIA
-heroi | balloon | balloon / Os Primeiros Passageiros do Céu | SEM REFERENCIA
-epoca | balao da epoca | hot air balloon 1783 / hot air balloon | SEM REFERENCIA
-epoca | fabrica da epoca | factory 1783 / factory | SEM REFERENCIA
+lugar | França | França 1783 / França landscape | Experience Aérostatique faite à Versailles le dix- (referencias/montgolfier1783/prints/fran_a_59d5be.jpg); Expérience aërostatique faite à Versailles le 19 s (referencias/montgolfier1783/prints/fran_a_08759d.jpg); Elévation du ballon libre le 21 nov. 1783 à droite (referencias/montgolfier1783/prints/fran_a_d575dc.jpg)
+epoca | roupas e ruas de 1783 | 1783 fashion clothing / 18th century clothing painting | Heinrich VI., Graf von Reuß-Köstritz (1707-1783).j (referencias/montgolfier1783/prints/roupas_e_ruas_de_1783_0b19e6.jpg); Collection consacrée aux modes d'hommes et de femm (referencias/montgolfier1783/prints/roupas_e_ruas_de_1783_616a3c.jpg)
+heroi | balloon | balloon / Os Primeiros Passageiros do Céu | 2006 Ojiya balloon festival night 004.jpg (referencias/montgolfier1783/prints/balloon_25cd6e.jpg); Cappadocia Balloon Inflating Wikimedia Commons.JPG (referencias/montgolfier1783/prints/balloon_53280b.jpg); Inside of a hot air balloon.jpg (referencias/montgolfier1783/prints/balloon_7ba965.jpg)
+epoca | balao da epoca | hot air balloon 1783 / hot air balloon | The Air Balloon Which was Launched in the Artiller (referencias/montgolfier1783/prints/balao_da_epoca_29f40c.jpg); Original Air Balloon - estampe - btv1b8509674g.jpg (referencias/montgolfier1783/prints/balao_da_epoca_8f8b2a.jpg)
+epoca | fabrica da epoca | factory 1783 / factory | Tureen Paul Charvel.jpg (referencias/montgolfier1783/prints/fabrica_da_epoca_c5c646.jpg); Kändler Tureen from the swan service.jpg (referencias/montgolfier1783/prints/fabrica_da_epoca_d3b78d.jpg); Tureen MET DP804078.jpg (referencias/montgolfier1783/prints/fabrica_da_epoca_06e982.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

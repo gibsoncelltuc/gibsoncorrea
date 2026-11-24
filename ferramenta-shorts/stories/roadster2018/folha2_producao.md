@@ -128,13 +128,9 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 insiste, b7 vai ate o outro, b8 aproxima-se
 - RISCOS GERAIS: 
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - video com ~53 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py roadster2018  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/roadster2018/moodboard.jpg
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: video com ~53 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadster2018 bN bM` (so essas cenas).

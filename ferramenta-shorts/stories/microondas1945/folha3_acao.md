@@ -4,114 +4,114 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
+## Cena b0 - 0.2s a 3.5s - 12 palavras - plano two
 > "Uma barra de chocolate derretida no bolso inventou o forno de micro-ondas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | inventou (2.6s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
-| 2 | forno (3.3s) | ACAO: calor | vapor/calor saindo | OK |
+| 1 | inventou (2.4s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 2 | forno (3.0s) | ACAO: calor | vapor/calor saindo | OK |
 | 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b1 - 4.4s a 12.6s - 23 palavras - plano reveal
+## Cena b1 - 4.8s a 11.3s - 23 palavras - plano reveal
 > "Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos, e o engenheiro Percy Spencer trabalhava numa fábrica de radares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 13.0s a 17.4s - 13 palavras - plano two
+## Cena b2 - 12.6s a 16.4s - 13 palavras - plano two
 > "Esses radares tinham uma peça potente, que mandava ondas invisíveis o dia inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandava (15.6s) | ACAO: fala | aponta explicando | OK |
+| 1 | mandava (15.0s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.8s a 22.6s - 14 palavras - plano group
+## Cena b3 - 17.7s a 21.1s - 14 palavras - plano group
 > "Um dia, ele chegou perto dessa peça com uma barra de chocolate no bolso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (18.9s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (18.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | chegou (18.7s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegou (18.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b4 - 23.0s a 27.0s - 12 palavras - plano two
+## Cena b4 - 22.3s a 25.8s - 12 palavras - plano two
 > "Pouco depois, sentiu o bolso quente e disse: "O meu chocolate derreteu!""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | quente (24.8s) | ACAO: calor | vapor/calor saindo | OK |
-| 2 | derreteu (27.0s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | quente (24.2s) | ACAO: calor | vapor/calor saindo | OK |
+| 2 | derreteu (25.8s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 27.4s a 31.1s - 11 palavras - plano close
+## Cena b5 - 27.2s a 30.2s - 11 palavras - plano close
 > "Spencer ficou curioso e perguntou o que mais aquelas ondas fariam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perguntou (28.9s) | ACAO: fala | aponta explicando | OK |
+| 1 | perguntou (28.4s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 31.5s a 36.7s - 15 palavras - plano orbit
+## Cena b6 - 31.4s a 35.5s - 15 palavras - plano orbit
 > "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | testou (32.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | estourar (35.9s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 1 | testou (32.3s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | estourar (34.7s) | ACAO: quebra | quebra + estouro + tremor | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 37.0s a 41.9s - 14 palavras - plano two
+## Cena b7 - 36.7s a 39.7s - 14 palavras - plano two
 > "Depois testou um ovo, e o ovo explodiu bem na cara de um colega."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | testou (37.4s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | explodiu (39.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | explodiu (39.6s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
+| 1 | testou (37.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | explodiu (38.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | explodiu (38.6s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 42.2s a 48.5s - 18 palavras - plano group
+## Cena b8 - 40.9s a 45.9s - 18 palavras - plano group
 > "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (43.3s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | forno (44.4s) | ACAO: calor | vapor/calor saindo | OK |
+| 1 | saiu (42.2s) | ACAO: sai | sai andando pela lateral | OK |
+| 2 | forno (43.0s) | ACAO: calor | vapor/calor saindo | OK |
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 48.9s a 54.1s - 15 palavras - plano group
+## Cena b9 - 47.0s a 50.4s - 15 palavras - plano group
 > "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | jantar (53.0s) | ACAO: x_come | leva a comida a boca | OK |
+| 1 | jantar (49.9s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | 1 MINUTO | OK |
 
-## Cena b10 - 54.4s a 57.4s - 9 palavras - plano close
+## Cena b10 - 51.7s a 54.4s - 9 palavras - plano close
 > "No fim, o chocolate perdeu, mas a pipoca agradece."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (55.9s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (55.9s) | ACAO: perde | mao na testa | OK |
+| 1 | perdeu (53.0s) | EFEITO: puff | fumaca + som | OK |
+| 2 | perdeu (53.0s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 57.8s a 62.2s - 13 palavras - plano close
+## Cena b11 - 55.7s a 59.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -149,14 +149,12 @@ kit/lapide | b10 | pronto | conferir na folha de contato se le bem; se parecer c
 - Objeto heroi: kit/maca | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 23% | medio 68% | aberto 4% | detalhe 5%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 discutir, b9 empurrar
 - RISCOS GERAIS: 
-  - video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py semmelweis1847  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/semmelweis1847/moodboard.jpg
+  - video com ~82 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
 - b11: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- geral: video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~82 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

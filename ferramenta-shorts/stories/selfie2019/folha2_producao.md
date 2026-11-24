@@ -136,11 +136,9 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/phone | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 18% | medio 69% | aberto 11% | detalhe 2%
 - Interacoes: b1 avanca e o outro recua, b2 discutir, b3 cochichar, b6 pular, b8 susto, b9 o outro se aproxima
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py selfie2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/selfie2019/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh selfie2019 bN bM` (so essas cenas).

@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
+## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
 > "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -13,15 +13,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b1 - 5.6s a 12.6s - 20 palavras - plano reveal
+## Cena b1 - 4.2s a 9.9s - 20 palavras - plano reveal
 > "Era mil oitocentos e oitenta e cinco, na França, e o cientista Louis Pasteur já era famoso por estudar micróbios."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | estudar (12.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | estudar (9.4s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | MAPA | FRANÇA | OK |
 
-## Cena b2 - 13.0s a 20.0s - 20 palavras - plano two
+## Cena b2 - 11.1s a 16.2s - 20 palavras - plano two
 > "Na época, a raiva era uma doença fatal, e quem era mordido por um animal doente quase nunca se salvava."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -30,29 +30,29 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 20.4s a 25.2s - 14 palavras - plano group
+## Cena b3 - 17.5s a 21.1s - 14 palavras - plano group
 > "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | testado (22.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | testado (19.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 25.6s a 33.3s - 22 palavras - plano two
+## Cena b4 - 22.3s a 28.5s - 22 palavras - plano two
 > "Um dia, uma mãe chegou à porta dele, com o filho Joseph, mordido por um animal, e pediu: "Salve o meu filho!""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (27.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (27.0s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | pediu (31.9s) | ACAO: fala | aponta explicando | OK |
+| 1 | chegou (23.4s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegou (23.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | pediu (27.4s) | ACAO: fala | aponta explicando | OK |
 | 4 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 5 | - | INTERACAO | o outro se aproxima | OK |
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b5 - 33.7s a 39.6s - 17 palavras - plano close
+## Cena b5 - 29.8s a 34.2s - 17 palavras - plano close
 > "Pasteur não era médico, e ficou com medo, mas depois de ouvir os médicos ele decidiu tentar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -61,22 +61,22 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 40.0s a 46.3s - 18 palavras - plano orbit
+## Cena b6 - 35.3s a 41.2s - 18 palavras - plano orbit
 > "Acontece que, durante dez dias, ele aplicou injeções cada vez mais fortes, e o menino nunca ficou doente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | aplicou (42.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | aplicou (37.9s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b7 - 46.7s a 49.3s - 8 palavras - plano track
+## Cena b7 - 42.2s a 44.5s - 8 palavras - plano track
 > "Joseph sobreviveu, e a notícia correu o mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 49.6s a 56.3s - 19 palavras - plano two
+## Cena b8 - 45.6s a 50.3s - 19 palavras - plano two
 > "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -84,7 +84,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 56.7s a 63.3s - 19 palavras - plano group
+## Cena b9 - 51.5s a 56.5s - 19 palavras - plano group
 > "Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina salva vidas no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -94,16 +94,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VACINA | OK |
 
-## Cena b10 - 63.7s a 66.7s - 9 palavras - plano close
+## Cena b10 - 57.8s a 60.2s - 9 palavras - plano close
 > "No fim, uma picada salvou mais que mil discursos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | salvou (65.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | salvou (59.3s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 67.0s a 71.5s - 13 palavras - plano close
+## Cena b11 - 61.6s a 64.9s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

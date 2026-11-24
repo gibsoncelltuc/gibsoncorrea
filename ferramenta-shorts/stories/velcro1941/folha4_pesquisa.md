@@ -15,9 +15,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | O Cachorro que Inventou o Velcro | O Cachorro que Inventou o Velcro / Uma Era Suíça George Mestral 1941 | SEM REFERENCIA
-lugar | Suíça | Suíça 1941 / Suíça landscape | SEM REFERENCIA
-epoca | roupas e ruas de 1941 | 1941 fashion clothing / 1941 street photograph | SEM REFERENCIA
-heroi | burr | burr / O Cachorro que Inventou o Velcro | SEM REFERENCIA
+lugar | Suíça | Suíça 1941 / Suíça landscape | Martha Argerich NYWTS.jpg (referencias/velcro1941/prints/su_a_682064.jpg); Martha Argerich & Ivry Gitlis 01.jpg (referencias/velcro1941/prints/su_a_132dc6.jpg); Martha Argerich en el Centro Cultural Kirchner - 1 (referencias/velcro1941/prints/su_a_4c051d.jpg)
+epoca | roupas e ruas de 1941 | 1941 fashion clothing / 1941 street photograph | Irene Hervey-Allan Jones (1941 still).jpg (referencias/velcro1941/prints/roupas_e_ruas_de_1941_0c95c1.jpg); Férfi portré 1941-ben. Fortepan 8874.jpg (referencias/velcro1941/prints/roupas_e_ruas_de_1941_d252ac.jpg); Zomerjurken, mei 1941 Abgeändert, Verändert, RP-P- (referencias/velcro1941/prints/roupas_e_ruas_de_1941_92a5d2.jpg)
+heroi | burr | burr / O Cachorro que Inventou o Velcro | Albert G. Burr.jpg (referencias/velcro1941/prints/burr_723ad2.jpg); Bill Burr by Gage Skidmore.jpg (referencias/velcro1941/prints/burr_9086d7.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

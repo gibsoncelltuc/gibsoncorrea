@@ -1,0 +1,288 @@
+{
+ "duration": 60.936,
+ "frames30": 1828,
+ "source": "silence-align (cost 0.55)",
+ "segments": [
+  [
+   0.163333,
+   4.29183
+  ],
+  [
+   5.14863,
+   6.02942
+  ],
+  [
+   6.22617,
+   6.72433
+  ],
+  [
+   6.89217,
+   7.39529
+  ],
+  [
+   7.68433,
+   9.42033
+  ],
+  [
+   9.67837,
+   11.9156
+  ],
+  [
+   12.7737,
+   14.0262
+  ],
+  [
+   14.2665,
+   16.2697
+  ],
+  [
+   16.4598,
+   17.4201
+  ],
+  [
+   18.2969,
+   19.4929
+  ],
+  [
+   19.7489,
+   20.9275
+  ],
+  [
+   21.768,
+   23.7573
+  ],
+  [
+   24.0186,
+   25.1484
+  ],
+  [
+   26.0037,
+   28.2613
+  ],
+  [
+   28.5561,
+   30.4767
+  ],
+  [
+   31.3502,
+   32.1742
+  ],
+  [
+   32.4502,
+   33.6097
+  ],
+  [
+   33.758,
+   35.4457
+  ],
+  [
+   36.262,
+   37.9047
+  ],
+  [
+   38.1668,
+   39.7056
+  ],
+  [
+   40.5576,
+   42.6457
+  ],
+  [
+   42.9654,
+   44.501
+  ],
+  [
+   44.6974,
+   45.447
+  ],
+  [
+   46.306,
+   47.9221
+  ],
+  [
+   48.204,
+   48.6505
+  ],
+  [
+   48.9543,
+   51.1193
+  ],
+  [
+   51.3317,
+   52.6856
+  ],
+  [
+   53.5449,
+   53.9715
+  ],
+  [
+   54.204,
+   55.7849
+  ],
+  [
+   56.6429,
+   58.0872
+  ],
+  [
+   58.3804,
+   60.1419
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma bola pesada e outra leve foram soltas juntas e ca\u00edram no ch\u00e3o ao mesmo tempo.",
+   "s": 0.163,
+   "e": 4.292
+  },
+  {
+   "text": "Conta a hist\u00f3ria que,",
+   "s": 5.149,
+   "e": 6.029
+  },
+  {
+   "text": "em Pisa,",
+   "s": 6.226,
+   "e": 6.724
+  },
+  {
+   "text": "na It\u00e1lia,",
+   "s": 6.892,
+   "e": 7.395
+  },
+  {
+   "text": "por volta de mil quinhentos e noventa,",
+   "s": 7.684,
+   "e": 9.42
+  },
+  {
+   "text": "um jovem professor desafiou um s\u00e1bio famoso.",
+   "s": 9.678,
+   "e": 11.916
+  },
+  {
+   "text": "O s\u00e1bio era Arist\u00f3teles,",
+   "s": 12.774,
+   "e": 14.026
+  },
+  {
+   "text": "que dizia que quanto mais pesado o objeto,",
+   "s": 14.267,
+   "e": 16.27
+  },
+  {
+   "text": "mais r\u00e1pido ele cai.",
+   "s": 16.46,
+   "e": 17.42
+  },
+  {
+   "text": "Todo mundo achava \u00f3bvio,",
+   "s": 18.297,
+   "e": 19.493
+  },
+  {
+   "text": "e ningu\u00e9m tinha testado.",
+   "s": 19.749,
+   "e": 20.927
+  },
+  {
+   "text": "Mas Galileu Galilei achou estranho e disse:",
+   "s": 21.768,
+   "e": 23.757
+  },
+  {
+   "text": "\"Eu vou provar o contr\u00e1rio.\"",
+   "s": 24.019,
+   "e": 25.148
+  },
+  {
+   "text": "Dizem que ele foi at\u00e9 a torre inclinada de Pisa,",
+   "s": 26.004,
+   "e": 28.261
+  },
+  {
+   "text": "com duas bolas de pesos diferentes.",
+   "s": 28.556,
+   "e": 30.477
+  },
+  {
+   "text": "Acontece que,",
+   "s": 31.35,
+   "e": 32.174
+  },
+  {
+   "text": "quando ele soltou as duas,",
+   "s": 32.45,
+   "e": 33.61
+  },
+  {
+   "text": "elas ca\u00edram no ch\u00e3o ao mesmo tempo.",
+   "s": 33.758,
+   "e": 35.446
+  },
+  {
+   "text": "A plateia ficou de boca aberta,",
+   "s": 36.262,
+   "e": 37.905
+  },
+  {
+   "text": "e os professores ficaram bravos.",
+   "s": 38.167,
+   "e": 39.706
+  },
+  {
+   "text": "Hoje se discute se isso aconteceu mesmo,",
+   "s": 40.558,
+   "e": 42.646
+  },
+  {
+   "text": "porque a hist\u00f3ria vem de um aluno dele,",
+   "s": 42.965,
+   "e": 44.501
+  },
+  {
+   "text": "anos depois.",
+   "s": 44.697,
+   "e": 45.447
+  },
+  {
+   "text": "Mas em mil novecentos e setenta e um,",
+   "s": 46.306,
+   "e": 47.922
+  },
+  {
+   "text": "na Lua,",
+   "s": 48.204,
+   "e": 48.651
+  },
+  {
+   "text": "um astronauta soltou um martelo e uma pena,",
+   "s": 48.954,
+   "e": 51.119
+  },
+  {
+   "text": "e os dois ca\u00edram juntos.",
+   "s": 51.332,
+   "e": 52.686
+  },
+  {
+   "text": "No fim,",
+   "s": 53.545,
+   "e": 53.971
+  },
+  {
+   "text": "at\u00e9 a pena deu raz\u00e3o ao Galileu.",
+   "s": 54.204,
+   "e": 55.785
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 56.643,
+   "e": 58.087
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 58.38,
+   "e": 60.142
+  }
+ ]
+}

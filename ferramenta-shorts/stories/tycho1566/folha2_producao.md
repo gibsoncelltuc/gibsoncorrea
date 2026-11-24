@@ -139,11 +139,9 @@ kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Objeto heroi: kit/brass_nose | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 17% | medio 65% | aberto 14% | detalhe 4%
 - Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 susto, b8 entregar
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tycho1566  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tycho1566/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 1 risco(s) em aberto
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

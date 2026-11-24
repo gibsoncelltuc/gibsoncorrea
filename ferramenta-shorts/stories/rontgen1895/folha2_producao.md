@@ -148,11 +148,9 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 - Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 25% | medio 63% | aberto 9% | detalhe 4%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py rontgen1895  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/rontgen1895/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 1 risco(s) em aberto
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

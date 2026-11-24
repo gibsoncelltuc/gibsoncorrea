@@ -134,13 +134,9 @@ kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na fo
 - Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 22% | medio 67% | aberto 9% | detalhe 2%
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 cochichar, b4 o outro se aproxima, b8 cochichar, b9 pular
 - RISCOS GERAIS: 
-  - video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py pasteur1885  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/pasteur1885/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 1 risco(s) em aberto
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

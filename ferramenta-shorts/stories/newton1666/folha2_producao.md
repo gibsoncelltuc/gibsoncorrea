@@ -138,13 +138,11 @@ nature/tree_oak | b3, b5 | pronto | conferir na folha de contato se le bem; se p
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b4 avanca e o outro recua, b7 susto, b8 pular, b9 cochichar
 - RISCOS GERAIS: 
   - objeto heroi kit/apple nao aparece em nenhuma cena -> CORRECAO: por kit/apple em "props" de pelo menos uma cena (ou tirar de "herois")
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py newton1666  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/newton1666/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
 - b10: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
 - geral: objeto heroi kit/apple nao aparece em nenhuma cena
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

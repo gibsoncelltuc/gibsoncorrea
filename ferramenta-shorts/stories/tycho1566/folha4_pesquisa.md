@@ -15,10 +15,10 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | O Astrônomo do Nariz de Metal | O Astrônomo do Nariz de Metal / Um Era Tycho Brahe Dinamarca Alemanha Numa 1566 | SEM REFERENCIA
-lugar | Dinamarca | Dinamarca 1566 / Dinamarca landscape | SEM REFERENCIA
-epoca | roupas e ruas de 1566 | 1566 fashion clothing / 16th century clothing painting | SEM REFERENCIA
-heroi | brass nose | brass nose / O Astrônomo do Nariz de Metal | SEM REFERENCIA
-epoca | castelo da epoca | castle 1566 / castle | SEM REFERENCIA
+lugar | Dinamarca | Dinamarca 1566 / Dinamarca landscape | Ana de Dinamarca, reina de Inglaterra (Liria Palac (referencias/tycho1566/prints/dinamarca_fb4bf2.jpg); Hvannhagi 9.jpg (referencias/tycho1566/prints/dinamarca_a505f5.jpg); Tinghøj Hammershøj Kvorning 2010-01-08 edit filter (referencias/tycho1566/prints/dinamarca_41fa03.jpg)
+epoca | roupas e ruas de 1566 | 1566 fashion clothing / 16th century clothing painting | Thomas Percy Earl of Northumberland 1566.jpg (referencias/tycho1566/prints/roupas_e_ruas_de_1566_929c2e.jpg); Sir John Mason (1503–1566).jpg (referencias/tycho1566/prints/roupas_e_ruas_de_1566_4a0a2f.jpg); Jacobite broadside - Coloured portrait of James VI (referencias/tycho1566/prints/roupas_e_ruas_de_1566_948838.jpg)
+heroi | brass nose | brass nose / O Astrônomo do Nariz de Metal | Medieval monumental brass (FindID 525578).jpg (referencias/tycho1566/prints/brass_nose_bdeac1.jpg); Aerobee 150 rocket and the nose cone I have at wor (referencias/tycho1566/prints/brass_nose_d39aaa.jpg); Fragment of 16th century monumental brass showing  (referencias/tycho1566/prints/brass_nose_148e9d.jpg)
+epoca | castelo da epoca | castle 1566 / castle | Neuschwanstein Castle 2024-02.jpg (referencias/tycho1566/prints/castelo_da_epoca_e1c4e7.jpg); Himeji Castle 0804 1.jpg (referencias/tycho1566/prints/castelo_da_epoca_588cf9.jpg); Carisbrooke Castle gatehouse.jpg (referencias/tycho1566/prints/castelo_da_epoca_cfd56e.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

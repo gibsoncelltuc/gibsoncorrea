@@ -139,11 +139,9 @@ nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parec
 - Objeto heroi: kit/kite | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 23% | medio 64% | aberto 10% | detalhe 4%
 - Interacoes: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar, b8 o outro se aproxima, b9 pular
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py franklin1752  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/franklin1752/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 1 risco(s) em aberto
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
