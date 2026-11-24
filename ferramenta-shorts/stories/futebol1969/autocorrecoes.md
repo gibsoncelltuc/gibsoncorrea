@@ -30,3 +30,11 @@
 
 ## 24/11 20:11 autocorrecao de visibilidade
 - b9: objeto "kit/ball" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 24/11 20:13 autocorrecao de visibilidade
+- b6: objeto citado "kit/trave" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/trave" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> objeto na frente dos personagens e maior
+- b9: objeto "kit/ball" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 24/11 20:13 autocorrecao de visibilidade
+- b9: objeto "kit/ball" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
