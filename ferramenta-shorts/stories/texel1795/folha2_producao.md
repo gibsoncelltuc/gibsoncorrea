@@ -118,12 +118,10 @@ kit/navio_vela | b1 | pronto (HEROI: aparece em close) | conferir na folha de co
 - Interacoes: b3 tremem de frio, b7 aproxima-se
 - RISCOS GERAIS: 
   - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py texel1795  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/texel1795/moodboard.jpg
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - b0: cena longa (29 palavras, ~10 s no mesmo lugar)
 - geral: menos de 2 grandes momentos
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh texel1795 bN bM` (so essas cenas).
