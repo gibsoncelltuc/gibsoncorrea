@@ -14,5 +14,5 @@ b8 | two | -  | interior, placa: HOSPITAL | bala (burst + som de tiro/explosao);
 b9 | close | golden  | interior, placa: SÓ FEZ O SEU TRABALHO | - | -
 b10 | two | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 26% | medio 44% | aberto 24% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 30% | medio 44% | aberto 24% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

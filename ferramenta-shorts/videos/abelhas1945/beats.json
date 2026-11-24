@@ -123,9 +123,9 @@
    "props": [
     [
      "kit/beehive",
-     0.0,
-     -1.0,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -148,7 +148,7 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "two",
