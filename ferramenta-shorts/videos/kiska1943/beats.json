@@ -270,8 +270,8 @@
   {
    "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
    "shot": "wide",
-   "set": "arctic",
-   "hora": "noite",
+   "set": "harbor",
+   "hora": "dia",
    "who": [
     "USA:0:sad",
     "CAN:0:sad"
@@ -293,7 +293,13 @@
    "text": "MINA",
    "tat": 14,
    "tstyle": "red",
-   "animais": false
+   "animais": false,
+   "light": "arctic",
+   "cx": -1.5,
+   "cz": -5.0,
+   "h": 3.0,
+   "d0": 20.0,
+   "d1": 17.0
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -334,32 +340,25 @@
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
-   "shot": "group",
+   "shot": "two",
    "who": [
     "OFF:0:pained",
-    "USA:0:surprised",
-    "CAN:0:shock"
+    "USA:0:surprised"
    ],
    "text": "OPERAÇÃO ILHA VAZIA",
    "tat": 11,
    "tstyle": "white",
    "mood": "playful",
-   "set": "harbor",
    "props": [
     [
      "kit/dog_sit",
      1.6,
-     -1.0,
-     1.0
-    ],
-    [
-     "kit/dog_sit",
-     -1.8,
-     -1.4,
+     -0.6,
      1.0
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "interior": "madeira"
   }
  ],
  "heroi": "kit/dog_sit",
