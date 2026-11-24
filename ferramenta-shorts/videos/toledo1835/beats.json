@@ -72,9 +72,9 @@
    "props": [
     [
      "kit/canivete",
-     0.0,
-     1.0,
-     2.6
+     0.4,
+     1.6,
+     5.0
     ]
    ],
    "fx": [
@@ -253,7 +253,7 @@
    "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria."
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "GOV:0:shock:coin",
     "MIC:0:grin"
@@ -273,8 +273,7 @@
    ],
    "text": "COBRE E FERRO",
    "tat": 6,
-   "tstyle": "gold",
-   "placa": false
+   "tstyle": "gold"
   },
   {
    "shot": "close",
