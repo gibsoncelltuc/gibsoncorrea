@@ -145,20 +145,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impe...
 - Cenario: loc_campo | luz: noite | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): GAU (variante 0, expressao scared) | multidao: 0 de 
-- Animacao: tomba
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared) | multidao: 0 de 
+- Animacao: tomba | interacao: empurrar
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, gauleses, muralha, soldado, subida
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: dia
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente
-- PERSONAGENS: GAU no centro, expressao scared; sem multidao; acao: tomba
-- OBJETO buildings/castle_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 19.7 m de altura x 10.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- LOCAL: loc_campo; hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MAN na esquerda, expressao angry; GAU na direita, expressao scared; sem multidao; acao: tomba
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +70 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +80 da cena
 - SOM: thump@66
@@ -175,16 +175,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GAU (variante 0, expressao scared); MAN (variante 0, expressao angry)
 - Animacao: tomba | interacao: o outro se aproxima
-- Objetos/modelos: buildings/castle_tower
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco, gauleses
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: noite
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o castle_tower (alvo z -3.6, camera a 78.8 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GAU na esquerda, expressao scared; MAN na direita, expressao angry; sem multidao; acao: tomba
-- OBJETO buildings/castle_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 19.7 m de altura x 10.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: thump@50
 - TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
@@ -251,12 +251,12 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 goose | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b2, b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b2, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3 | planos abertos: 6 | mistura: close 10% | medio 40% | aberto 50% | detalhe 0%
-- Interacoes: b7 o outro se aproxima, b8 entregar
+- Objeto heroi: - | grandes momentos: b3 | planos abertos: 5 | mistura: close 10% | medio 51% | aberto 39% | detalhe 0%
+- Interacoes: b6 empurrar, b7 o outro se aproxima, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
