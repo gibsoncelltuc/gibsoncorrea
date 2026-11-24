@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): CAN (variante 0, expressao laugh, segura flag); CAN (variante 1, expressao grin) | multidao: 10 de CAN
+- Personagens principais (1): CAN (variante 0, expressao laugh, segura flag) | multidao: 10 de CAN
 - Animacao: encena | batalha encenada
 - Objetos/modelos: vehicles/helicopter
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
@@ -54,9 +54,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a ...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): DIN (variante 0, expressao smug, segura flag); DIN (variante 1, expressao smug) | multidao: 10 de DIN
+- Personagens principais (1): DIN (variante 0, expressao smug, segura flag) | multidao: 10 de DIN
 - Animacao: encena | batalha encenada
 - Objetos/modelos: war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, dinamarqueses

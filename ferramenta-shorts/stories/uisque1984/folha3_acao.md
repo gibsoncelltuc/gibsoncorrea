@@ -47,7 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | pular | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
-## Cena b5 - 24.2s a 29.6s - 14 palavras - plano crowd
+## Cena b5 - 24.2s a 29.6s - 14 palavras - plano wide
 > "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

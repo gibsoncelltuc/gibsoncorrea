@@ -1,0 +1,1286 @@
+{
+ "id": "uisque1984",
+ "falhas": [
+  "b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)"
+ ],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 11,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9918032786885246,
+       "area": 0.02075663758675478,
+       "cx": -0.017106775408112694
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 28,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.7950819672131147,
+       "area": 0.0233826805793764,
+       "cx": 0.0021272914254589353
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 45,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9918032786885246,
+       "area": 0.025631378550489848,
+       "cx": 0.025655862743081168
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_d",
+   "quadros": [
+    {
+     "f": 64,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.027849855566806414,
+       "cx": 0.02038371852110881
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 76,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.04812127343693218,
+       "cx": -0.11652713893276524
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 87,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.08545792552404638,
+       "cx": -0.4041930856411933
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b0_v",
+   "quadros": [
+    {
+     "f": 108,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9918032786885246,
+       "area": 0.0498974249509556,
+       "cx": -0.20857229928885848
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 127,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9918032786885246,
+       "area": 0.023588145260337284,
+       "cx": 0.002628913671341826
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 145,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9918032786885246,
+       "area": 0.025737332987211387,
+       "cx": 0.025284753520618576
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 186,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 226,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 266,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 304,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 318,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 332,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2~1",
+   "quadros": [
+    {
+     "f": 353,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 368,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 382,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2~2",
+   "quadros": [
+    {
+     "f": 403,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 417,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 431,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 450,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.8222222222222222,
+       "vis": 0.8513513513513513,
+       "area": 0.31257247120487663,
+       "cx": 0.14685852374563807
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 463,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.7722222222222223,
+       "vis": 0.7697841726618705,
+       "area": 0.2697083219431361,
+       "cx": 0.3095609772558215
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 476,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.7888888888888889,
+       "vis": 0.8943661971830986,
+       "area": 0.37332423953473054,
+       "cx": 0.08925843887889884
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3_1",
+   "quadros": [
+    {
+     "f": 492,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.22777777777777777,
+       "vis": 0.7317073170731707,
+       "area": 0.19987279180221007,
+       "cx": 0.4281331498667302
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 503,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.06666666666666667,
+       "vis": 1,
+       "area": 0.00016436332902630853,
+       "cx": 0.10689234500599246
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 513,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.35555555555555557,
+       "vis": 0.9375,
+       "area": 0.3036074936986459,
+       "cx": 0.24256721696049138
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3_2",
+   "quadros": [
+    {
+     "f": 534,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.6388888888888888,
+       "vis": 0.8782608695652174,
+       "area": 0.27624414747323156,
+       "cx": 0.2422154959565269
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 553,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.9333333333333333,
+       "vis": 1,
+       "area": 0.2276939229118606,
+       "cx": 0.27304131390221303
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 571,
+     "objs": [
+      {
+       "a": "vehicles/helicopter",
+       "inq": 0.9333333333333333,
+       "vis": 1,
+       "area": 0.19731981463747403,
+       "cx": 0.11503219618633481
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 595,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.021299769164024217,
+       "cx": 0.10887922495983558
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 610,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9918032786885246,
+       "area": 0.02413662925082034,
+       "cx": 0.13230970813329196
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 624,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.8770491803278688,
+       "area": 0.026536158042173023,
+       "cx": 0.15434227894682567
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4_d",
+   "quadros": [
+    {
+     "f": 641,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9344262295081968,
+       "area": 0.029260087864589567,
+       "cx": 0.1937616722498754
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 651,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.055911413445588795,
+       "cx": 0.5510799317187527
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 661,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 0.22131147540983606,
+       "vis": 1,
+       "area": 0.027129829408833014,
+       "cx": 0.886699943102197
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4_v",
+   "quadros": [
+    {
+     "f": 679,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.9836065573770492,
+       "area": 0.06776852628581652,
+       "cx": 0.583692779467261
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 696,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0.6318681318681318,
+       "vis": 0.6434782608695652,
+       "area": 0.05292659950666429,
+       "cx": 0.8923370741877077
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.025380409444137168,
+       "cx": 0.020511893978905876
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 712,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0.06593406593406594,
+       "vis": 0.25,
+       "area": 0.0003698721233457988,
+       "cx": 0.9705706951441521
+      },
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.026608094316596703,
+       "cx": 0.0259453002256888
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 735,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.15015516221495767,
+       "cx": 0.5157092794709496
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 753,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 1,
+       "vis": 0.8241758241758241,
+       "area": 0.1845731071510463,
+       "cx": 0.5626159619403988
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 770,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0.9835164835164835,
+       "vis": 1,
+       "area": 0.22176644243910493,
+       "cx": 0.6107299310705441
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5_1",
+   "quadros": [
+    {
+     "f": 792,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 806,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 820,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0.8461538461538461,
+       "vis": 1,
+       "area": 0.13894610286541564,
+       "cx": 0.7286282737492646
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5_2",
+   "quadros": [
+    {
+     "f": 848,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 0.8021978021978022,
+       "vis": 0.678082191780822,
+       "area": 0.08339045367132039,
+       "cx": 0.7811276423822142
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 874,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.07625012094136788,
+       "cx": 0.6209814557520831
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 900,
+     "objs": [
+      {
+       "a": "war/flagpole",
+       "inq": 1,
+       "vis": 0.9615384615384616,
+       "area": 0.042433235346507336,
+       "cx": 0.48873200718282805
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 927,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.019259245764395524,
+       "cx": 0.02881392671222842
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 940,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02145878206101607,
+       "cx": 0.05394913679073655
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 953,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.023385011797009157,
+       "cx": 0.08604893518702605
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6_d",
+   "quadros": [
+    {
+     "f": 969,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.025145028053561305,
+       "cx": 0.11692359188150485
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 978,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.039160123192431145,
+       "cx": 0.33236626635108946
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 987,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 0.8934426229508197,
+       "vis": 1,
+       "area": 0.073731305932494,
+       "cx": 0.7818795922752027
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b6_v",
+   "quadros": [
+    {
+     "f": 1004,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.07290357503511456,
+       "cx": 0.5841830531783019
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1019,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.027199479982635364,
+       "cx": 0.03603662463185021
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1033,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02616118008319923,
+       "cx": 0.021801146153428326
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1056,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1074,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1092,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7~1",
+   "quadros": [
+    {
+     "f": 1117,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1135,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1153,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7~2",
+   "quadros": [
+    {
+     "f": 1178,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1196,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1214,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1238,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1254,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1269,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1291,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1307,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1323,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8~2",
+   "quadros": [
+    {
+     "f": 1345,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1361,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1376,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1400,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1417,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1434,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9~1",
+   "quadros": [
+    {
+     "f": 1458,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1476,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1493,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1517,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.47540983606557374,
+       "area": 0.020316302468448198,
+       "cx": 0.2825610393999757
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1536,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.5901639344262295,
+       "area": 0.024094709533691413,
+       "cx": 0.23557505739762225
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1555,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.6311475409836066,
+       "area": 0.028867971163715745,
+       "cx": 0.18073513682634584
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1580,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 0.7868852459016393,
+       "area": 0.054504910422933726,
+       "cx": 0.3885637995146555
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1599,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06284915990306165,
+       "cx": 0.5745333265428787
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1617,
+     "objs": [
+      {
+       "a": "kit/whisky",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06007195573873961,
+       "cx": 0.6765196146379515
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "quadros": [
+    {
+     "f": 1643,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1663,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1683,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b11~1",
+   "quadros": [
+    {
+     "f": 1710,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1730,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1749,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  }
+ ]
+}

@@ -135,7 +135,7 @@
   },
   {
    "shot": "group",
-   "set": "jungle",
+   "set": "countryside",
    "who": [
     "ASH:0:angry"
    ],
@@ -153,8 +153,8 @@
     [
      "buildings/castle_tower",
      0.0,
-     -7.0,
-     1.3
+     -5.0,
+     1.0
     ]
    ],
    "text": "FORTE CERCADO",
@@ -164,7 +164,10 @@
    "fachada": false,
    "_auto_vis": 3,
    "d0": 15.0,
-   "d1": 14.0
+   "d1": 12.0,
+   "cx": 0.0,
+   "cz": -3.0,
+   "objetos": false
   },
   {
    "shot": "group",
