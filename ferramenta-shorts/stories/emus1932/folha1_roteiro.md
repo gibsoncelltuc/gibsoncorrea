@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 12 cenas, 162 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 11 cenas, 162 palavras (~56 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Austrália declarou guerra a um bando de pássaros, e perdeu.
@@ -31,9 +31,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b3  (~3.4 s)
 - Narracao: O major Meredith levou duas metralhadoras e dez mil balas.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96
-- Efeito + som nas palavras-chave: tiros: 4 soldados caem no chao -> acao + som de efeito; metralhadoras -> burst + som de tiro/explosao; balas -> burst + som de tiro/explosao; encena: pega (lift) @3 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 10.000 BALAS
 - Funcao na historia: GRANDE MOMENTO
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b6  (~4.1 s)
 - Narracao: Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao; encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -76,32 +76,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b8  (~5.9 s)
 - Narracao: O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
 - Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 986 (CONTESTADO)
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~5.9 s)
-- Narracao: No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus.
+## Cena b9  (~7.2 s)
+- Narracao: No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: RECOMPENSA
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~1.4 s)
-- Narracao: Exército zero, emus um.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
 - Texto na tela: EXÉRCITO 0 - 1 EMUS
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
+## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: birds
 - Efeitos sonoros marcados: -

@@ -44,7 +44,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO vehicles/truck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.9 m de altura x 10.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b6: "Depois de seis dias, milhares de balas gastas e poucos emus abatidos."
-- LOCAL: fazenda aberta; hora: desert
+- LOCAL: loc_campo; hora: desert
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: AUS na esquerda, expressao pained; AUS na direita, expressao pained; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -58,23 +58,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "HA HA HA" numa placa atras dos personagens, na palavra 9 da frase
 
 ## b8: "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
-- LOCAL: fazenda aberta; hora: desert
+- LOCAL: loc_deserto; hora: desert
 - CAMERA: plano de multidao
 - PERSONAGENS: AUS na esquerda, expressao stern; AUS na direita, expressao stern; multidao de 24 (AUS) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "986 (CONTESTADO)" flutuando no alto, na palavra 7 da frase
 
-## b9: "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus."
+## b9: "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um."
 - LOCAL: fazenda aberta; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FARM na esquerda, expressao smile; FARM na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "RECOMPENSA" numa placa atras dos personagens, na palavra 10 da frase
-
-## b10: "Exército zero, emus um."
-- LOCAL: fazenda aberta; hora: golden
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: AUS no centro, expressao pained; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "EXÉRCITO 0 - 1 EMUS" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "EXÉRCITO 0 - 1 EMUS" flutuando no alto, na palavra 41 da frase
 

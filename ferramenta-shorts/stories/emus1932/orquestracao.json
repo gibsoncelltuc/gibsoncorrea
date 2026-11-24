@@ -151,7 +151,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "outback"
+   "cenario": "loc_campo"
   },
   {
    "camera": "track",
@@ -192,36 +192,20 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "loc_deserto"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "FARM",
     "FARM"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 21,
    "cena": "b9",
-   "frase": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus.",
+   "frase": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
    "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "outback"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "AUS"
-   ],
-   "multidao": 5,
-   "objetos": [],
-   "palavras": 4,
-   "cena": "b10",
-   "frase": "Exército zero, emus um.",
-   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -235,7 +219,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

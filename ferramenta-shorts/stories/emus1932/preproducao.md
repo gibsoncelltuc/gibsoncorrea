@@ -10,16 +10,15 @@ b2 | interior madeira | two | 2 | reagir, INTERAGEM: vai ate o outro | - | paper
 b3 | countryside | crowd | 17 | encena, batalha | war/sandbags, kit/canhao_moderno, emus | - | -
 b4 | outback | orbit | 26 | encena, batalha | emus | - | -
 b5 | countryside | wide | 1 | encena | vehicles/truck, emus | - | -
-b6 | outback | group | 2 | conversar, INTERAGEM: susto | emus | - | -
+b6 | loc_campo | group | 2 | conversar, INTERAGEM: susto | emus | - | -
 b7 | countryside | track | 15 | encena, andando | - | paper | -
-b8 | countryside | crowd | 26 | encena, batalha | emus | - | -
-b9 | outback | two | 2 | conversar, INTERAGEM: entregar | emus | - | -
-b10 | outback | orbit | 6 | parados (so fala e pisca) | emus | - | -
-b11 | outback | close | 1 | conversar | - | - | -
+b8 | loc_deserto | crowd | 26 | encena, batalha | emus | - | -
+b9 | outback | group | 2 | conversar, INTERAGEM: entregar | emus | - | -
+b10 | outback | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b3, b4, b8
 Interacoes entre personagens: b2 vai ate o outro, b6 susto, b9 entregar
 
-Cenas com personagens parados: 2 de 12
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

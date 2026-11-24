@@ -5,27 +5,19 @@
    "tipo": "tema",
    "item": "A Guerra dos Emus",
    "consultas": [
+    "Emu War 1932 Western Australia Lewis gun soldiers",
     "A Guerra dos Emus",
-    "Austrália Vinte Mande 1932"
+    "Austrália Em Fazendeiros Defesa 1932"
    ],
    "achados": [
-    {
-     "titulo": "TheGreatEmuWarcolage.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/TheGreatEmuWarcolage.png/500px-TheGreatEmuWarcolage.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATheGreatEmuWarcolage.png",
-     "descricao": "Object Photograph I, \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/emus1932/prints/a_guerra_dos_emus_e5b84b.jpg",
-     "consulta": "Guerra Emus"
-    },
     {
      "titulo": "Deceased emu during Emu War.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deceased_emu_during_Emu_War.jpg/500px-Deceased_emu_during_Emu_War.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ADeceased_emu_during_Emu_War.jpg",
-     "descricao": "an \\u003Cspan class=\\",
+     "descricao": "English \\u003Cspan class=\\",
      "ordem": 2,
      "print": "referencias/emus1932/prints/a_guerra_dos_emus_5aff82.jpg",
-     "consulta": "Guerra Emus"
+     "consulta": "A Guerra dos Emus"
     },
     {
      "titulo": "Emus coming to drink Emu War.jpg",
@@ -34,7 +26,45 @@
      "descricao": "Description\\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/emus1932/prints/a_guerra_dos_emus_d9ba9e.jpg",
-     "consulta": "Guerra Emus"
+     "consulta": "A Guerra dos Emus"
+    },
+    {
+     "titulo": "Ray Owen during Emu War.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ray_Owen_during_Emu_War.jpg/500px-Ray_Owen_during_Emu_War.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARay_Owen_during_Emu_War.jpg",
+     "descricao": "DescriptionRay Owen during \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/a_guerra_dos_emus_ddcf42.jpg",
+     "consulta": "A Guerra dos Emus"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia)",
+   "consultas": [
+    "Campion Western Australia wheatbelt 1930s farm",
+    "Distrito de Campion cinturão de trigo do oeste da Austrália",
+    "Distrito de Campion cinturão de trigo do oeste da Austrália Western Australia 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "Brasserie-malterie Campion sept 2023 (1).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Brasserie-malterie_Campion_sept_2023_%281%29.jpg/500px-Brasserie-malterie_Campion_sept_2023_%281%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrasserie-malterie_Campion_sept_2023_%281%29.jpg",
+     "descricao": "truetrue 1086 96 631 1048 2762 2295 Clocher de l\\u0026#039;église St Nicolas English French Brasserie-malterie \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/distrito_de_campion_cintur_o_de_trigo_do_c729be.jpg",
+     "consulta": "Campion Western Australia"
+    },
+    {
+     "titulo": "Wierdly beautiful - A Mantisfly (4108130071).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Wierdly_beautiful_-_A_Mantisfly_%284108130071%29.jpg/500px-Wierdly_beautiful_-_A_Mantisfly_%284108130071%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWierdly_beautiful_-_A_Mantisfly_%284108130071%29.jpg",
+     "descricao": "jpg Order Neuroptera: Family: Mantispidae Subfamily Mantispinae Genera: \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/emus1932/prints/distrito_de_campion_cintur_o_de_trigo_do_f5224a.jpg",
+     "consulta": "Campion Western Australia"
     }
    ]
   },
@@ -47,30 +77,30 @@
    ],
    "achados": [
     {
-     "titulo": "Clare Dennis 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Clare_Dennis_1932.jpg/500px-Clare_Dennis_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AClare_Dennis_1932.jpg",
-     "descricao": "Dennis \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/emus1932/prints/austr_lia_ad0d28.jpg",
-     "consulta": "Austrália 1932"
-    },
-    {
-     "titulo": "Poster for Arts and Crafts Society of Victoria, Annual Exhibition 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Poster_for_Arts_and_Crafts_Society_of_Victoria%2C_Annual_Exhibition_1932.jpg/500px-Poster_for_Arts_and_Crafts_Society_of_Victoria%2C_Annual_Exhibition_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APoster_for_Arts_and_Crafts_Society_of_Victoria%2C_Annual_Exhibition_1932.jpg",
-     "descricao": "English Poster for Arts and Crafts Society of Victoria, Annual Exhibition \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/emus1932/prints/austr_lia_2f2852.jpg",
-     "consulta": "Austrália 1932"
-    },
-    {
      "titulo": "Afghan trader at Yadlamalka Station 1932.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Afghan_trader_at_Yadlamalka_Station_1932.jpg/500px-Afghan_trader_at_Yadlamalka_Station_1932.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AAfghan_trader_at_Yadlamalka_Station_1932.jpg",
      "descricao": "DescriptionAfghan trader at Yadlamalka Station \\u003Cspan class=\\",
      "ordem": 4,
      "print": "referencias/emus1932/prints/austr_lia_aaf8eb.jpg",
+     "consulta": "Austrália 1932"
+    },
+    {
+     "titulo": "Gordon Ogden 1932.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Gordon_Ogden_1932.jpg/500px-Gordon_Ogden_1932.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGordon_Ogden_1932.jpg",
+     "descricao": "DescriptionGordon Ogden \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/emus1932/prints/austr_lia_f9f2e3.jpg",
+     "consulta": "Austrália 1932"
+    },
+    {
+     "titulo": "Tom Byrne 1932.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Byrne_1932.jpg/500px-Tom_Byrne_1932.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATom_Byrne_1932.jpg",
+     "descricao": "DescriptionTom Byrne \\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/emus1932/prints/austr_lia_000363.jpg",
      "consulta": "Austrália 1932"
     }
    ]
@@ -84,31 +114,327 @@
    ],
    "achados": [
     {
-     "titulo": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion rom antiquity to c 1640 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_rom_antiquity_to_c_1640_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/500px-Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_rom_antiquity_to_c_1640_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACostumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_rom_antiquity_to_c_1640_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "descricao": "DescriptionCostumes civils HISTORICAL \\u003Cspan class=\\",
+     "titulo": "César Chabrun-1932.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/C%C3%A9sar_Chabrun-1932.jpg/500px-C%C3%A9sar_Chabrun-1932.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AC%C3%A9sar_Chabrun-1932.jpg",
+     "descricao": "DescriptionCésar Chabrun-\\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/emus1932/prints/roupas_e_ruas_de_1932_4aebdc.jpg",
+     "consulta": "1932 fashion clothing"
+    },
+    {
+     "titulo": "Delineator 1932-10.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Delineator_1932-10.jpg/500px-Delineator_1932-10.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADelineator_1932-10.jpg",
+     "descricao": "DescriptionDelineator \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/emus1932/prints/roupas_e_ruas_de_1932_81ed2e.jpg",
+     "consulta": "1932 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "major Meredith e dois soldados da artilharia real australiana com duas",
+   "consultas": [
+    "major Meredith e dois soldados da artilharia real australiana com duas metralhadoras Lewis"
+   ],
+   "achados": [
+    {
+     "titulo": "Wedding at Llanfyllin of Hugh Peter Meredith Lewis and Barbara Margaret Dugdale of Llanfyllin (1482998).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Wedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482998%29.jpg/500px-Wedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482998%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482998%29.jpg",
+     "descricao": "Llanfyllin of Hugh Peter \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/emus1932/prints/major_meredith_e_dois_soldados_da_artilh_fdc066.jpg",
+     "consulta": "Meredith Lewis"
+    },
+    {
+     "titulo": "Wedding at Llanfyllin of Hugh Peter Meredith Lewis and Barbara Margaret Dugdale of Llanfyllin (1482999).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482999%29.jpg/500px-Wedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482999%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482999%29.jpg",
+     "descricao": "Llanfyllin of Hugh Peter \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/emus1932/prints/roupas_e_ruas_de_1932_d811c2.jpg",
-     "consulta": "1932 fashion clothing"
+     "print": "referencias/emus1932/prints/major_meredith_e_dois_soldados_da_artilh_991f92.jpg",
+     "consulta": "Meredith Lewis"
     },
     {
-     "titulo": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/500px-Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACostumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "descricao": "HISTORICAL \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/emus1932/prints/roupas_e_ruas_de_1932_d6d125.jpg",
-     "consulta": "1932 fashion clothing"
+     "titulo": "Wedding at Llanfyllin of Hugh Peter Meredith Lewis and Barbara Margaret Dugdale of Llanfyllin (1482996).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482996%29.jpg/500px-Wedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482996%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWedding_at_Llanfyllin_of_Hugh_Peter_Meredith_Lewis_and_Barbara_Margaret_Dugdale_of_Llanfyllin_%281482996%29.jpg",
+     "descricao": "Llanfyllin of Hugh Peter \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/major_meredith_e_dois_soldados_da_artilh_7e8f41.jpg",
+     "consulta": "Meredith Lewis"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "fazendeiros veteranos da Primeira Guerra",
+   "consultas": [
+    "fazendeiros veteranos da Primeira Guerra",
+    "fazendeiros veteranos da Primeira Guerra 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "First Balkan War Photobox.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/First_Balkan_War_Photobox.png/500px-First_Balkan_War_Photobox.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFirst_Balkan_War_Photobox.png",
+     "descricao": "File:Schneider 75mm \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/emus1932/prints/fazendeiros_veteranos_da_primeira_guerra_ba50d3.jpg",
+     "consulta": "Primeira Guerra"
     },
     {
-     "titulo": "!Irinka 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/%21Irinka_1932.jpg/500px-%21Irinka_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A%21Irinka_1932.jpg",
-     "descricao": "it under the following license: English Bulgarian Ирина Чобанова в София \\u003Cspan class=\\",
+     "titulo": "BASA-3K-7-411-57-First Balkan War.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BASA-3K-7-411-57-First_Balkan_War.jpg/500px-BASA-3K-7-411-57-First_Balkan_War.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABASA-3K-7-411-57-First_Balkan_War.jpg",
+     "descricao": "снимки с военно исторически характер от Балканската война. English: \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/emus1932/prints/fazendeiros_veteranos_da_primeira_guerra_0d22fb.jpg",
+     "consulta": "Primeira Guerra"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "ministro da Defesa George Pearce",
+   "consultas": [
+    "ministro da Defesa George Pearce",
+    "ministro da Defesa George Pearce 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "George Hilton 2015 (cropped).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/George_Hilton_2015_%28cropped%29.jpg/500px-George_Hilton_2015_%28cropped%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGeorge_Hilton_2015_%28cropped%29.jpg",
+     "descricao": "Attribution 2.0 truetrue 19 June 2015 English author name string: Ministério da \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/ministro_da_defesa_george_pearce_9fc25f.jpg",
+     "consulta": "ministro Defesa George"
+    },
+    {
+     "titulo": "Congressos. Seminários. Palestras (16678856768).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Congressos._Semin%C3%A1rios._Palestras_%2816678856768%29.jpg/500px-Congressos._Semin%C3%A1rios._Palestras_%2816678856768%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACongressos._Semin%C3%A1rios._Palestras_%2816678856768%29.jpg",
+     "descricao": "pessoas com deficiência, no auditório Petrônio Portela. À mesa: \\u003Cspan class=\\",
      "ordem": 5,
-     "print": "referencias/emus1932/prints/roupas_e_ruas_de_1932_b01340.jpg",
-     "consulta": "1932 fashion clothing"
+     "print": "referencias/emus1932/prints/ministro_da_defesa_george_pearce_39726d.jpg",
+     "consulta": "ministro Defesa George"
+    },
+    {
+     "titulo": "Solenidades. Homenagens (15987686190).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Solenidades._Homenagens_%2815987686190%29.jpg/500px-Solenidades._Homenagens_%2815987686190%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASolenidades._Homenagens_%2815987686190%29.jpg",
+     "descricao": "Padilha (PMDB) 14. Esporte - \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/emus1932/prints/ministro_da_defesa_george_pearce_06ee79.jpg",
+     "consulta": "ministro Defesa George"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "cerca de 20 mil emus",
+   "consultas": [
+    "cerca de 20 mil emus",
+    "cerca de 20 mil emus 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "Barragán y Rivadavia estación Liniers.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Barrag%C3%A1n_y_Rivadavia_estaci%C3%B3n_Liniers.jpg/500px-Barrag%C3%A1n_y_Rivadavia_estaci%C3%B3n_Liniers.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABarrag%C3%A1n_y_Rivadavia_estaci%C3%B3n_Liniers.jpg",
+     "descricao": "estación Liniers.jpg Español: Accidente de tren (descarrilamiento, sin choque) \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/emus1932/prints/cerca_de_20_mil_emus_8a56c8.jpg",
+     "consulta": "cerca emus"
+    },
+    {
+     "titulo": "The Lute WDL7108.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Lute_WDL7108.jpg/500px-The_Lute_WDL7108.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Lute_WDL7108.jpg",
+     "descricao": "l\\u0026#039;empereur dans laquelle il fait l\\u0026#039;éloge de toute la famille de Cai. Profondément \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/emus1932/prints/cerca_de_20_mil_emus_045a5c.jpg",
+     "consulta": "cerca emus"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "imprensa",
+   "consultas": [
+    "imprensa",
+    "imprensa 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "Moyne Statement Haaretz 8 Nov 1944 page1.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Moyne_Statement_Haaretz_8_Nov_1944_page1.png/500px-Moyne_Statement_Haaretz_8_Nov_1944_page1.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMoyne_Statement_Haaretz_8_Nov_1944_page1.png",
+     "descricao": "DescriptionMoyne Statement \\u003Cspan class=\\",
+     "ordem": 9,
+     "print": "referencias/emus1932/prints/imprensa_9e1f4d.jpg",
+     "consulta": "imprensa"
+    },
+    {
+     "titulo": "HADASHOT HAARETZ (NATIONAL NEWS) DAILY OF THE EARLY 20S.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/HADASHOT_HAARETZ_%28NATIONAL_NEWS%29_DAILY_OF_THE_EARLY_20S.jpg/500px-HADASHOT_HAARETZ_%28NATIONAL_NEWS%29_DAILY_OF_THE_EARLY_20S.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHADASHOT_HAARETZ_%28NATIONAL_NEWS%29_DAILY_OF_THE_EARLY_20S.jpg",
+     "descricao": "DescriptionHADASHOT \\u003Cspan class=\\",
+     "ordem": 10,
+     "print": "referencias/emus1932/prints/imprensa_f45794.jpg",
+     "consulta": "imprensa"
+    },
+    {
+     "titulo": "Haaretz newsroom IMG 4215.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Haaretz_newsroom_IMG_4215.JPG/500px-Haaretz_newsroom_IMG_4215.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHaaretz_newsroom_IMG_4215.JPG",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 11,
+     "print": "referencias/emus1932/prints/imprensa_10e99e.jpg",
+     "consulta": "imprensa"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "metralhadora Lewis",
+   "consultas": [
+    "metralhadora Lewis",
+    "metralhadora Lewis 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "Lewis LMG.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Lewis_LMG.png/500px-Lewis_LMG.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALewis_LMG.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/emus1932/prints/metralhadora_lewis_142dc6.jpg",
+     "consulta": "metralhadora Lewis"
+    },
+    {
+     "titulo": "Lewis MG ( tanyacameron).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Lewis_MG_%28_tanyacameron%29.jpg/500px-Lewis_MG_%28_tanyacameron%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALewis_MG_%28_tanyacameron%29.jpg",
+     "descricao": "Attribution-Share Alike 2.0 truetrue 29 September 2007 English German \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/emus1932/prints/metralhadora_lewis_7fe9b7.jpg",
+     "consulta": "metralhadora Lewis"
+    },
+    {
+     "titulo": "Denver Police Department with machine guns, 1921.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Denver_Police_Department_with_machine_guns%2C_1921.png/500px-Denver_Police_Department_with_machine_guns%2C_1921.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADenver_Police_Department_with_machine_guns%2C_1921.png",
+     "descricao": "English Expert demonstrating machine \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/metralhadora_lewis_389ea3.jpg",
+     "consulta": "metralhadora Lewis"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "caminhão da época",
+   "consultas": [
+    "caminhão da época",
+    "caminhão da época 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "Parte Superior do Catetinho.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Parte_Superior_do_Catetinho.JPG/500px-Parte_Superior_do_Catetinho.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AParte_Superior_do_Catetinho.JPG",
+     "descricao": " Hoje o museu do Catetinho preserva a ambientação e objetos originais \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/emus1932/prints/caminh_o_da_poca_cbbdf1.jpg",
+     "consulta": "caminhão da época"
+    },
+    {
+     "titulo": "Parte Superior do Catetinho.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Parte_Superior_do_Catetinho.JPG/500px-Parte_Superior_do_Catetinho.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AParte_Superior_do_Catetinho.JPG",
+     "descricao": "conversar com o engenheiro Juca Chaves, no Rio, que lhe perguntou se chegava \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/emus1932/prints/caminh_o_da_poca_cbbdf1.jpg",
+     "consulta": "caminhão época"
+    },
+    {
+     "titulo": "Palácio do Catetinho.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pal%C3%A1cio_do_Catetinho.JPG/500px-Pal%C3%A1cio_do_Catetinho.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APal%C3%A1cio_do_Catetinho.JPG",
+     "descricao": "conversar com o engenheiro Juca Chaves, no Rio, que lhe perguntou se chegava \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/emus1932/prints/caminh_o_da_poca_a408a4.jpg",
+     "consulta": "caminhão época"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "emus",
+   "consultas": [
+    "emus",
+    "emus 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "Emu 1 - Tidbinbilla.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/500px-Emu_1_-_Tidbinbilla.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEmu_1_-_Tidbinbilla.jpg",
+     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/emus1932/prints/emus_e2789e.jpg",
+     "consulta": "emus"
+    },
+    {
+     "titulo": "Dromaius novaehollandiae, Port Campbell National Park 1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Dromaius_novaehollandiae%2C_Port_Campbell_National_Park_1.jpg/500px-Dromaius_novaehollandiae%2C_Port_Campbell_National_Park_1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADromaius_novaehollandiae%2C_Port_Campbell_National_Park_1.jpg",
+     "descricao": "to remix – to adapt \\u003Cspan class=\\",
+     "ordem": 10,
+     "print": "referencias/emus1932/prints/emus_f31fea.jpg",
+     "consulta": "emus"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "sacos de trigo",
+   "consultas": [
+    "sacos de trigo",
+    "sacos de trigo 1932"
+   ],
+   "achados": [
+    {
+     "titulo": "Aegilops triuncialis sl7.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Aegilops_triuncialis_sl7.jpg/500px-Aegilops_triuncialis_sl7.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAegilops_triuncialis_sl7.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/emus1932/prints/sacos_de_trigo_585fa6.jpg",
+     "consulta": "sacos de trigo"
+    },
+    {
+     "titulo": "Aegilops triuncialis - Distribuzione.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Aegilops_triuncialis_-_Distribuzione.png/500px-Aegilops_triuncialis_-_Distribuzione.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAegilops_triuncialis_-_Distribuzione.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/sacos_de_trigo_71c948.jpg",
+     "consulta": "sacos de trigo"
+    },
+    {
+     "titulo": "Aegilops triuncialis kz03.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Aegilops_triuncialis_kz03.jpg/500px-Aegilops_triuncialis_kz03.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAegilops_triuncialis_kz03.jpg",
+     "descricao": "0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/emus1932/prints/sacos_de_trigo_fd720a.jpg",
+     "consulta": "sacos de trigo"
     }
    ]
   },
@@ -130,21 +456,12 @@
      "consulta": "truck 1932"
     },
     {
-     "titulo": "Truck Clinic (from a book published in 1932).png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Truck_Clinic_%28from_a_book_published_in_1932%29.png/500px-Truck_Clinic_%28from_a_book_published_in_1932%29.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATruck_Clinic_%28from_a_book_published_in_1932%29.png",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/emus1932/prints/caminhao_da_epoca_6e6070.jpg",
-     "consulta": "truck 1932"
-    },
-    {
-     "titulo": "Volvo LV60 Truck 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Volvo_LV60_Truck_1932.jpg/500px-Volvo_LV60_Truck_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AVolvo_LV60_Truck_1932.jpg",
-     "descricao": "Attribution-Share Alike 2.5 Generic, 2.0 Generic \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/emus1932/prints/caminhao_da_epoca_7ced7e.jpg",
+     "titulo": "1932 International A2 Truck (29577800867).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/1932_International_A2_Truck_%2829577800867%29.jpg/500px-1932_International_A2_Truck_%2829577800867%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A1932_International_A2_Truck_%2829577800867%29.jpg",
+     "descricao": "Attribution 2.0 Generic license. You are free: to share – to copy, distribute \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/caminhao_da_epoca_dda08d.jpg",
      "consulta": "truck 1932"
     }
    ]
@@ -158,30 +475,30 @@
    ],
    "achados": [
     {
-     "titulo": "Tank en mouvement au camp de Satory, janvier 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tank_en_mouvement_au_camp_de_Satory%2C_janvier_1932.jpg/500px-Tank_en_mouvement_au_camp_de_Satory%2C_janvier_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATank_en_mouvement_au_camp_de_Satory%2C_janvier_1932.jpg",
+     "titulo": "BT - 5.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BT_-_5.jpg/500px-BT_-_5.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABT_-_5.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/emus1932/prints/tanque_da_epoca_5e95dc.jpg",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/tanque_da_epoca_4d75de.jpg",
      "consulta": "tank 1932"
     },
     {
-     "titulo": "Tank en mouvement au camp de Satory, en janvier 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tank_en_mouvement_au_camp_de_Satory%2C_en_janvier_1932.jpg/500px-Tank_en_mouvement_au_camp_de_Satory%2C_en_janvier_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATank_en_mouvement_au_camp_de_Satory%2C_en_janvier_1932.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/emus1932/prints/tanque_da_epoca_9362de.jpg",
+     "titulo": "Seagull III on HMAS Australia 1932 AWM 305424.jpeg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Seagull_III_on_HMAS_Australia_1932_AWM_305424.jpeg/500px-Seagull_III_on_HMAS_Australia_1932_AWM_305424.jpeg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASeagull_III_on_HMAS_Australia_1932_AWM_305424.jpeg",
+     "descricao": " NOTE THE FUEL \\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/emus1932/prints/tanque_da_epoca_bbae8c.jpg",
      "consulta": "tank 1932"
     },
     {
-     "titulo": "Jaŭhien Skurko (Maksim Tank). Яўген Скурко (Максім Танк) (1932).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ja%C5%ADhien_Skurko_%28Maksim_Tank%29._%D0%AF%D1%9E%D0%B3%D0%B5%D0%BD_%D0%A1%D0%BA%D1%83%D1%80%D0%BA%D0%BE_%28%D0%9C%D0%B0%D0%BA%D1%81%D1%96%D0%BC_%D0%A2%D0%B0%D0%BD%D0%BA%29_%281932%29.jpg/500px-Ja%C5%ADhien_Skurko_%28Maksim_Tank%29._%D0%AF%D1%9E%D0%B3%D0%B5%D0%BD_%D0%A1%D0%BA%D1%83%D1%80%D0%BA%D0%BE_%28%D0%9C%D0%B0%D0%BA%D1%81%D1%96%D0%BC_%D0%A2%D0%B0%D0%BD%D0%BA%29_%281932%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AJa%C5%ADhien_Skurko_%28Maksim_Tank%29._%D0%AF%D1%9E%D0%B3%D0%B5%D0%BD_%D0%A1%D0%BA%D1%83%D1%80%D0%BA%D0%BE_%28%D0%9C%D0%B0%D0%BA%D1%81%D1%96%D0%BC_%D0%A2%D0%B0%D0%BD%D0%BA%29_%281932%29.jpg",
-     "descricao": "DescriptionJaŭhien Skurko (Maksim \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/emus1932/prints/tanque_da_epoca_256226.jpg",
+     "titulo": "Visite de l'émir Fayçal au camp de Satory 1932 - 08.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Visite_de_l%27%C3%A9mir_Fay%C3%A7al_au_camp_de_Satory_1932_-_08.jpg/500px-Visite_de_l%27%C3%A9mir_Fay%C3%A7al_au_camp_de_Satory_1932_-_08.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVisite_de_l%27%C3%A9mir_Fay%C3%A7al_au_camp_de_Satory_1932_-_08.jpg",
+     "descricao": "DescriptionVisite de l\\u0026#039;émir Fayçal au camp de Satory \\u003Cspan class=\\",
+     "ordem": 9,
+     "print": "referencias/emus1932/prints/tanque_da_epoca_a859aa.jpg",
      "consulta": "tank 1932"
     }
    ]
@@ -195,30 +512,21 @@
    ],
    "achados": [
     {
-     "titulo": "Soldier, uniform, tableau, sword Fortepan 10858.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Soldier%2C_uniform%2C_tableau%2C_sword_Fortepan_10858.jpg/500px-Soldier%2C_uniform%2C_tableau%2C_sword_Fortepan_10858.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoldier%2C_uniform%2C_tableau%2C_sword_Fortepan_10858.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/emus1932/prints/soldado_da_epoca_4c2abf.jpg",
+     "titulo": "Infanterie. FRENCH INFANTRY UNIFORMS Warriors soldiers from antiquity (Gauls) to 1918. Public domain illustration Larousse du XXème siècle 1932.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Infanterie._FRENCH_INFANTRY_UNIFORMS_Warriors_soldiers_from_antiquity_%28Gauls%29_to_1918._Public_domain_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/500px-Infanterie._FRENCH_INFANTRY_UNIFORMS_Warriors_soldiers_from_antiquity_%28Gauls%29_to_1918._Public_domain_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AInfanterie._FRENCH_INFANTRY_UNIFORMS_Warriors_soldiers_from_antiquity_%28Gauls%29_to_1918._Public_domain_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+     "descricao": "FRENCH INFANTRY \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/emus1932/prints/soldado_da_epoca_5ff803.jpg",
      "consulta": "soldier uniform 1932"
     },
     {
-     "titulo": "Marine FRENCH NAVY UNIFORMS naval soldiers sailors officers etc c 1690-1930. Public domain illustration Larousse du XXème siècle 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Marine_FRENCH_NAVY_UNIFORMS_naval_soldiers_sailors_officers_etc_c_1690-1930._Public_domain_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/500px-Marine_FRENCH_NAVY_UNIFORMS_naval_soldiers_sailors_officers_etc_c_1690-1930._Public_domain_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMarine_FRENCH_NAVY_UNIFORMS_naval_soldiers_sailors_officers_etc_c_1690-1930._Public_domain_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
-     "descricao": "DescriptionMarine FRENCH NAVY \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/emus1932/prints/soldado_da_epoca_8e8358.jpg",
-     "consulta": "soldier uniform 1932"
-    },
-    {
-     "titulo": "Soldado de infantería española destacado en Tetuán 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Soldado_de_infanter%C3%ADa_espa%C3%B1ola_destacado_en_Tetu%C3%A1n_1932.jpg/500px-Soldado_de_infanter%C3%ADa_espa%C3%B1ola_destacado_en_Tetu%C3%A1n_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoldado_de_infanter%C3%ADa_espa%C3%B1ola_destacado_en_Tetu%C3%A1n_1932.jpg",
-     "descricao": "UnknownUnknown or Anonymous 20th-century photographer. Description Español: Soldado de infantería española destacado en Tetuán \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/emus1932/prints/soldado_da_epoca_2ffee3.jpg",
+     "titulo": "Artillerie couleurs ARTILLERY Cannons guns French artillerymen gunners soldiers uniforms regiments etc c 1340-1900 PD illustration Larousse du XXème siècle 1932.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Artillerie_couleurs_ARTILLERY_Cannons_guns_French_artillerymen_gunners_soldiers_uniforms_regiments_etc_c_1340-1900_PD_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/500px-Artillerie_couleurs_ARTILLERY_Cannons_guns_French_artillerymen_gunners_soldiers_uniforms_regiments_etc_c_1340-1900_PD_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AArtillerie_couleurs_ARTILLERY_Cannons_guns_French_artillerymen_gunners_soldiers_uniforms_regiments_etc_c_1340-1900_PD_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+     "descricao": "guns French artillerymen gunners \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/emus1932/prints/soldado_da_epoca_38a8c2.jpg",
      "consulta": "soldier uniform 1932"
     }
    ]
@@ -232,68 +540,13 @@
    ],
    "achados": [
     {
-     "titulo": "October 15, 1932 Army versus Pittsburgh Football Game Ticket.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/October_15%2C_1932_Army_versus_Pittsburgh_Football_Game_Ticket.jpg/500px-October_15%2C_1932_Army_versus_Pittsburgh_Football_Game_Ticket.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AOctober_15%2C_1932_Army_versus_Pittsburgh_Football_Game_Ticket.jpg",
-     "descricao": "Attribution-Share Alike 4.0 truetrue English Ticket for October 15 game vs. \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/emus1932/prints/exercito_da_epoca_3c94c0.jpg",
+     "titulo": "Sweden. Salvation Army Band, 1932.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sweden._Salvation_Army_Band%2C_1932.jpg/500px-Sweden._Salvation_Army_Band%2C_1932.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASweden._Salvation_Army_Band%2C_1932.jpg",
+     "descricao": "DescriptionSweden. Salvation \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/emus1932/prints/exercito_da_epoca_aaf743.jpg",
      "consulta": "army 1932"
-    },
-    {
-     "titulo": "William L. Tierney Bonus Army 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/William_L._Tierney_Bonus_Army_1932.jpg/500px-William_L._Tierney_Bonus_Army_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AWilliam_L._Tierney_Bonus_Army_1932.jpg",
-     "descricao": "English Mid-Week Pictorial 25 June \\u003Cspan class=\\",
-     "ordem": 8,
-     "print": "referencias/emus1932/prints/exercito_da_epoca_096a70.jpg",
-     "consulta": "army 1932"
-    },
-    {
-     "titulo": "A FIGHTING MARINE ADDS TO THE FIGHTING SPIRIT OF THE BONUS ARMY MAJOR GEN. SMEDLEY D. BUTLER 1932.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/A_FIGHTING_MARINE_ADDS_TO_THE_FIGHTING_SPIRIT_OF_THE_BONUS_ARMY_MAJOR_GEN._SMEDLEY_D._BUTLER_1932.jpg/500px-A_FIGHTING_MARINE_ADDS_TO_THE_FIGHTING_SPIRIT_OF_THE_BONUS_ARMY_MAJOR_GEN._SMEDLEY_D._BUTLER_1932.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_FIGHTING_MARINE_ADDS_TO_THE_FIGHTING_SPIRIT_OF_THE_BONUS_ARMY_MAJOR_GEN._SMEDLEY_D._BUTLER_1932.jpg",
-     "descricao": "English Midweek Pictorial 30 July \\u003Cspan class=\\",
-     "ordem": 9,
-     "print": "referencias/emus1932/prints/exercito_da_epoca_8f2865.jpg",
-     "consulta": "army 1932"
-    }
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "fazenda da epoca",
-   "consultas": [
-    "farm 1932",
-    "farm"
-   ],
-   "achados": [
-    {
-     "titulo": "Rebecca of Sunnybrook Farm 001.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rebecca_of_Sunnybrook_Farm_001.png/500px-Rebecca_of_Sunnybrook_Farm_001.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARebecca_of_Sunnybrook_Farm_001.png",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/emus1932/prints/fazenda_da_epoca_da5205.jpg",
-     "consulta": "farm 1932"
-    },
-    {
-     "titulo": "Rebecca of Sunnybrook Farm.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Rebecca_of_Sunnybrook_Farm.jpg/500px-Rebecca_of_Sunnybrook_Farm.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARebecca_of_Sunnybrook_Farm.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/emus1932/prints/fazenda_da_epoca_91c5a5.jpg",
-     "consulta": "farm 1932"
-    },
-    {
-     "titulo": "Rebecca of Sunnybrook Farm 1911.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Rebecca_of_Sunnybrook_Farm_1911.jpg/500px-Rebecca_of_Sunnybrook_Farm_1911.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARebecca_of_Sunnybrook_Farm_1911.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/emus1932/prints/fazenda_da_epoca_27eb0a.jpg",
-     "consulta": "farm 1932"
     }
    ]
   }

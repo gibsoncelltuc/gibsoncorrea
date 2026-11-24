@@ -149,12 +149,12 @@
      }
     ]
    },
+   "batalha": false,
+   "tiros": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "batalha": false,
-   "tiros": false
+   "d1": 11.5
   },
   {
    "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
