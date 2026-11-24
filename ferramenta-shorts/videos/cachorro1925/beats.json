@@ -59,8 +59,8 @@
    "animals": [
     [
      "dog",
-     2.0,
-     1.0,
+     0.6,
+     0.4,
      "run"
     ]
    ],
@@ -105,7 +105,7 @@
   },
   {
    "shot": "two",
-   "set": "loc_montanha",
+   "set": "mountain",
    "who": [
     "GRE:0:scared",
     "BUL:0:angry"
@@ -122,7 +122,7 @@
   },
   {
    "shot": "two",
-   "set": "loc_montanha",
+   "set": "mountain",
    "who": [
     "GRE:0:sad",
     "GRE:1:angry"
@@ -140,12 +140,12 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 20,
+    "n": 24,
     "outfits": [
      "GRE",
      "BUL"
     ],
-    "march": true,
+    "march": false,
     "expr": "angry"
    },
    "text": "INVASÃO",
@@ -153,9 +153,9 @@
    "say": "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "d0": 17.0,
+   "d1": 16.0,
+   "shot_lock": true
   },
   {
    "shot": "two",

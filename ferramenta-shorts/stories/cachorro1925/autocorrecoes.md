@@ -7,3 +7,6 @@
 
 ## 24/11 13:52 autocorrecao de visibilidade
 - b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 24/11 13:53 autocorrecao de visibilidade
+- b5: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho

@@ -102,7 +102,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "mountain"
   },
   {
    "camera": "two",
@@ -119,10 +119,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "mountain"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "GRE"
    ],

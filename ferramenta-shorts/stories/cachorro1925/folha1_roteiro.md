@@ -54,7 +54,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Efeito + som nas palavras-chave: invadiu -> dust + som de impacto; encena: chega (point) @15 -> acao + som de efeito; encena: chega (point) @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: INVASÃO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.5 s)
 - Narracao: Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.

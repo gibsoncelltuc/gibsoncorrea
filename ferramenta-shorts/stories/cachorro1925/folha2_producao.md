@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A B...
-- Cenario: loc_montanha | luz: golden | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GRE (variante 0, expressao scared); BUL (variante 0, expressao angry) | multidao: 10 de GRE/BUL
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os...
-- Cenario: loc_montanha | luz: golden | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)
@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Dias depois, em vinte e dois de outubro, o exército grego, com vinte m...
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): GRE (variante 0, expressao angry) | multidao: 20 de GRE/BUL
-- Animacao: encena | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): GRE (variante 0, expressao angry) | multidao: 24 de GRE/BUL
+- Animacao: encena
 - Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, cidade, exercito, outubro, petrich, vinte
 - RISCOS: nenhum
@@ -115,7 +115,7 @@ kit/dog_sit | b8 | pronto (HEROI: aparece em close) | conferir na folha de conta
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 8% | medio 79% | aberto 12% | detalhe 2%
+- Objeto heroi: kit/dog_sit | grandes momentos: b3 | planos abertos: 2 | mistura: close 5% | medio 72% | aberto 21% | detalhe 2%
 - Interacoes: b3 empurrar, b4 susto, b6 susto, b7 entregar
 - RISCOS GERAIS: nenhum
 

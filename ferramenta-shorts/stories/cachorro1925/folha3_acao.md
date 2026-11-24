@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.9s - 12 palavras - plano track
@@ -56,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | susto | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 29.0s a 36.1s - 24 palavras - plano orbit
+## Cena b5 - 29.0s a 36.1s - 24 palavras - plano wide
 > "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -64,8 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | invadiu (34.0s) | EFEITO: dust | poeira + som | OK |
 | 2 | invadiu (34.0s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | ocupou (35.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | INVASÃO | OK |
+| 4 | - | PLACA | INVASÃO | OK |
 
 ## Cena b6 - 37.3s a 40.4s - 13 palavras - plano two
 > "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU."
