@@ -99,7 +99,13 @@
    ],
    "interior": "madeira",
    "say": "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
-   "fachada": false
+   "fachada": false,
+   "kw": false,
+   "encena": false,
+   "sfx": [
+    "ding@20"
+   ],
+   "riscos_ok": true
   },
   {
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
@@ -176,8 +182,8 @@
    "emus": {
     "n": 8,
     "mode": "run",
-    "x": 3.2,
-    "z": -1.2,
+    "x": 5.0,
+    "z": -4.5,
     "dir": -1
    },
    "batalha": false,
@@ -209,9 +215,11 @@
      "quem": 1
     }
    ],
-   "d0": 9.5,
-   "d1": 8.5,
-   "quadro_manual": true
+   "d0": 10.5,
+   "d1": 9.5,
+   "quadro_manual": true,
+   "cx": 0.8,
+   "cz": -1.0
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",

@@ -22,6 +22,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FARM na esquerda, expressao nervous, segura paper; AUS na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- SOM: ding@20
 
 ## b3: "O major Meredith levou duas metralhadoras e dez mil balas."
 - LOCAL: fazenda aberta; hora: desert
