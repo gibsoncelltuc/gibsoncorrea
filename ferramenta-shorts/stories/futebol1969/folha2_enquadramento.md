@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o airplane (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: SOL no centro, expressao stern; multidao de 6 (SOL) marchando ATRAS dos principais; acao: batalha
-- OBJETO vehicles/airplane: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 31.4 m de altura x 31.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO vehicles/airplane: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 28.6 m de altura x 28.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
 
 ## b8: "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo."
