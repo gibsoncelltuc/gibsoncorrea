@@ -141,7 +141,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SOL (variante 0, expressao pained); SOL (variante 1, expressao pained) | multidao: 5 de SOL/FARM
+- Personagens principais (2): SOL (variante 0, expressao pained); SOL (variante 1, expressao pained) | multidao: 30 de SOL/FARM
 - Animacao: - | batalha encenada
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cartuchos, seis

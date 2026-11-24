@@ -10,7 +10,7 @@ b2 | interior madeira | two | 2 | reagir, INTERAGEM: vai ate o outro | - | paper
 b3 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | war/sandbags, emus | - | -
 b4 | outback | crowd | 15 | encena, batalha | emus | - | -
 b5 | countryside | wide | 1 | encena | vehicles/truck, emus | - | -
-b6 | loc_campo | orbit | 7 | batalha | emus | - | -
+b6 | loc_campo | orbit | 32 | batalha | emus | - | -
 b7 | countryside | track | 15 | encena, andando | - | paper | -
 b8 | loc_deserto | two | 2 | conversar, INTERAGEM: avanca e o outro recua | emus | - | -
 b9 | outback | group | 2 | conversar, INTERAGEM: entregar | emus | - | -

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Gerado em 24/11 18:46 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 18:48 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | interior madeira | two | FARM, AUS | - | - | - | Fazendeiros vete
 b3 | simples | countryside | two | AUS, AUS | - | sandbags | - | O major Meredith levou duas metralhadoras e dez mil balas.
 b4 | chave | outback | crowd | AUS | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b
 b5 | simples | countryside | wide | AUS | - | truck | - | Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele s
-b6 | chave | loc_campo | orbit | SOL, SOL | 5 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois de seis dias, milhares de cartuchos gastos e poucos emus abatid
+b6 | chave | loc_campo | orbit | SOL, SOL | 30 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois de seis dias, milhares de cartuchos gastos e poucos emus abatid
 b7 | simples | countryside | track | AUS, PRESS, PRESS | 12 | - | - | O major comparou os pássaros a tanques, a imprensa riu, e o governo re
 b8 | simples | loc_deserto | two | AUS, AUS | - | - | - | O exército voltou, e o major disse ter abatido novecentos e oitenta e 
 b9 | simples | outback | group | FARM, FARM | - | - | - | No fim, o governo preferiu recompensas, e em seis meses pagou por mais

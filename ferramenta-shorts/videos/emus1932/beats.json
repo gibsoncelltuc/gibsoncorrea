@@ -242,13 +242,6 @@
    ],
    "text": "6 DIAS",
    "tat": 0,
-   "emus": {
-    "n": 6,
-    "mode": "stand",
-    "x": 5.0,
-    "z": 0.5,
-    "cols": 3
-   },
    "set": "loc_campo",
    "fachada": false
   },
