@@ -3,16 +3,16 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paris1870/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paris1870` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Paris já serviu elefante no jantar.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/panela
+- Objetos/modelos: kit/panela, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar
 - RISCOS: nenhum
 
-## Cena b1 - Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entra...
+## Cena b1 - Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida ac...
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -72,44 +72,44 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, lobo, natal, restaurante
 - RISCOS: nenhum
 
-## Cena b7 - Para mandar notícias, os parisienses usavam balões e pombos-correio.
-- Cenario: arctic | luz: day | clima: neve
+## Cena b7 - Acontece que carne de elefante custava uma fortuna. Só os ricos comiam...
+- Cenario: street | luz: day | clima: neve
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad) | multidao: 12 de PAR
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/panela, kit/marco_notredame
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, fortuna, ricos
+- RISCOS: nenhum
+
+## Cena b8 - Enquanto isso, o povo fazia fila no frio, com comida racionada.
+- Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 0, expressao smile); PAR (variante 1, expressao smile)
+- Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 10 de 
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/balloon_air, kit/balloon
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): parisienses
+- Objetos/modelos: kit/marco_notredame
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, frio, povo
 - RISCOS: nenhum
 
-## Cena b8 - Um ministro chegou a fugir da cidade num balão, por cima das tropas in...
-- Cenario: arctic | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 18 de PAR
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/balloon_air, kit/balloon, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, fugir, ministro, tropas
-- RISCOS: nenhum
-
-## Cena b9 - O cerco durou mais de quatro meses, em pleno inverno.
-- Cenario: arctic | luz: day | clima: neve
+## Cena b9 - Para mandar notícias, soltavam balões por cima do cerco.
+- Cenario: street | luz: day | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 0, expressao sad); PAR (variante 1, expressao nervous)
+- Personagens principais (2): PAR (variante 1, expressao surprised); PAR (variante 3, expressao smile)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco, quatro
+- Objetos/modelos: kit/balloon_air, kit/marco_notredame, kit/balloon
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco
 - RISCOS: nenhum
 
-## Cena b10 - O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se...
-- Cenario: arctic | luz: dusk | clima: neve
+## Cena b10 - Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barri...
+- Cenario: street | luz: dusk | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 0, expressao sad)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/panela
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barriga, cerco
+- Objetos/modelos: kit/panela, kit/marco_notredame
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barriga, paris
 - RISCOS: nenhum
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -127,22 +127,22 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/panela | b0, b3, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_notredame | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/panela | b0, b3, b6, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_notredame | b0, b1, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cat | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 elephant | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 deer | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon_air | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon_air | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/panela | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 12% | medio 73% | aberto 13% | detalhe 3%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b7 vai ate o outro, b9 cochichar, b10 insiste
+- Objeto heroi: kit/panela | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 12% | medio 74% | aberto 11% | detalhe 3%
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b8 vai ate o outro, b9 cochichar, b10 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
