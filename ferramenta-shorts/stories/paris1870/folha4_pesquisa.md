@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Cardápio do Zoológico
 - Epoca: 1870 | Lugar: Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante) | Quando: 19 de setembro de 1870 a 28 de janeiro de 1871 (Natal de 1870 com neve e frio forte)
-- HEROIS (objeto): kit/panela
+- HEROIS (objeto): kit/bife_elefante
 - HEROIS (personagens): PAR, CHF
 - Cenarios: arctic, interior loja, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
@@ -27,7 +27,7 @@ objeto | panelas e o cardapio do Natal | panelas e o cardapio do Natal / panelas
 objeto | carne de elefante no acougue | carne de elefante no acougue / carne de elefante no acougue 1870 | CBP Catches Elephant Meat, Dead Primate, Exotic An (referencias/paris1870/prints/carne_de_elefante_no_acougue_aa523a.jpg); Jalal al-Din Rumi, Maulana - A Mother Elephant Cru (referencias/paris1870/prints/carne_de_elefante_no_acougue_f43f2a.jpg); Castororpollux.jpg (referencias/paris1870/prints/carne_de_elefante_no_acougue_add9fa.jpg)
 objeto | baloes de gas | baloes de gas / baloes de gas 1870 | Balloon and Moon over Speyer.jpg (referencias/paris1870/prints/baloes_de_gas_da4ca5.jpg); Cappadocia Balloon Inflating Wikimedia Commons.JPG (referencias/paris1870/prints/baloes_de_gas_53280b.jpg); Meyer Fire - Weather balloon 01.jpg (referencias/paris1870/prints/baloes_de_gas_5de1ca.jpg)
 objeto | pombos-correio | pombos-correio / pombos-correio 1870 | A homing pigeon.jpg (referencias/paris1870/prints/pombos_correio_be3b7c.jpg); Carrier Pigeon (PSF).jpg (referencias/paris1870/prints/pombos_correio_f9f528.jpg); Homing Pigeon (PSF).png (referencias/paris1870/prints/pombos_correio_be2ba4.jpg)
-heroi | panela | panelas e o cardapio do Natal / O Cardápio do Zoológico | Natal, capital do Rio Grande do Norte, Brasil.jpg (referencias/paris1870/prints/panela_ef7374.jpg); Apr2024. Praia do Meio, Natal, Brazil 06.jpg (referencias/paris1870/prints/panela_0cf052.jpg); Apr2024. Praia do Meio, Natal, Brazil 02.jpg (referencias/paris1870/prints/panela_df9e5c.jpg)
+heroi | bife elefante | panelas e o cardapio do Natal / O Cardápio do Zoológico | SEM REFERENCIA
 epoca | cavalo da epoca | horse cavalry 1870 / horse cavalry | A French Cavalry Officer, c.1875.jpg (referencias/paris1870/prints/cavalo_da_epoca_88e593.jpg); Württ. Ulanen Nr. 20 1870.jpg (referencias/paris1870/prints/cavalo_da_epoca_8c8aaf.jpg); Several horses fighting, one horse to right kickin (referencias/paris1870/prints/cavalo_da_epoca_64864e.jpg)
 
 ## Explicacoes (como funciona, com fonte)
