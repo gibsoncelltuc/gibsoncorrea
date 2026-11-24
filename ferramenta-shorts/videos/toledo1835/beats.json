@@ -228,13 +228,10 @@
    "detalhe": true,
    "props": [
     [
-     "kit/canivete",
+     "kit/canivete_aberto",
      0.0,
-     0.2,
-     1.4,
-     {
-      "fixo": true
-     }
+     0.6,
+     2.2
     ]
    ],
    "acao": "discutir"
@@ -294,7 +291,7 @@
    "interior": "madeira"
   }
  ],
- "heroi": "kit/canivete",
+ "heroi": "kit/canivete_aberto",
  "regiao": "generica",
  "visual": {
   "local": "Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna",

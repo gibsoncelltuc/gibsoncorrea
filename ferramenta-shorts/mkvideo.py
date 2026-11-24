@@ -300,6 +300,17 @@ _REG_JS = f"globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {jso
 
 if B.get('serie') and B.get('ep'): B['titulo_base'] = B.get('titulo_base') or B.get('title', ID); B['title'] = f"{B['serie']} EP {int(B['ep']):02d} - {B['titulo_base']}"   # serie com episodio numerado no titulo e no nome do arquivo
 beats = B['beats']
+# 24/11: nome de objeto/veiculo sem pasta ("locomotive") que nao existe em web/assets/ mas existe na biblioteca -> ganha a pasta certa (antes o video travava sem carregar)
+def _fixa_nome(a):
+    a = str(a)
+    if '/' in a or os.path.exists(f'web/assets/{a}.glb'): return a
+    for d_ in ('vehicles', 'kit', 'buildings', 'nature', 'tools', 'war'):
+        if os.path.exists(f'web/assets/library/{d_}/{a}.glb'): return f'{d_}/{a}'
+    return a
+for _b in beats:
+    if isinstance(_b.get('veiculo'), dict) and _b['veiculo'].get('asset'): _b['veiculo']['asset'] = _fixa_nome(_b['veiculo']['asset'])
+    for _p in _b.get('props') or []:
+        if isinstance(_p, list) and _p: _p[0] = _fixa_nome(_p[0])
 for _b0 in beats: _b0['_crowd_roteiro'] = 'crowd' in _b0   # multidao escrita no roteiro; as outras sao do diretor
 
 # ---------- script.txt (uma frase por linha) ----------

@@ -129,6 +129,22 @@
     "ship 1961",
     "ship"
    ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras",
+   "consultas": [
+    "brasil dizia lagosta fundo brasileira",
+    "lobster diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "A França respondia que a lagosta nada, e por isso era de quem pescasse",
+   "consultas": [
+    "franca respondia lagosta pescasse",
+    "lobster diagram"
+   ]
   }
  ]
 }

@@ -7,12 +7,12 @@
 - Roupas: {'BRA': 'marinheiro brasileiro de branco', 'FRA': 'marinheiro frances de azul com boina de pompom vermelho', 'PES': 'pescador de camisa simples e chapeu de palha', 'MAR': 'oficial da Marinha de uniforme branco', 'PRE': 'presidente de terno escuro'}
 - Cenario real: mar aberto com navios de guerra cinzentos dos anos 1960, barcos de pesca, porto nordestino
 - Objetos: ['lagosta', 'barcos de pesca', 'navios de guerra', 'avioes de patrulha']
-- Cenarios usados no video: harbor, interior madeira, interior pedra, loc_campo, loc_cidade
+- Cenarios usados no video: harbor, interior pedra, loc_estudio
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)
-- -
+- Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004).
 
 ## Fontes visuais
 - https://en.wikipedia.org/wiki/Lobster_War

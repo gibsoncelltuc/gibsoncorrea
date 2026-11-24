@@ -115,6 +115,7 @@ grep -q 'conserto DESFEITO' autocorrigir_visibilidade.py && grep -q 'um personag
 grep -q "for b_ in beats) + 13) / 2.8" mkvideo.py || f "estimativa de duracao otimista (video saia com 53 s)"
 grep -q "'harbor': \['buildings/shop', 'buildings/lighthouse'\]" mkvideo.py && f "farol entra como fachada no cais (tapava o quadro)"
 grep -q 'OBJETO HEROI: no vao ENTRE os personagens' mkvideo.py || f "objeto heroi empurrado para fora do quadro pela regra nada-na-frente"
+grep -q '_fixa_nome' mkvideo.py || f "veiculo sem pasta (locomotive) trava o carregamento do video"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
