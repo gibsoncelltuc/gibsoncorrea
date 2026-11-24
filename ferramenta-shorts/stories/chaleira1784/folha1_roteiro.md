@@ -58,9 +58,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~5.2 s)
 - Narracao: A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea
 - Efeitos sonoros marcados: thump@55, ding@58
-- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @1 -> acao + som de efeito
 - Efeito visual marcado: burst@55, puff@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

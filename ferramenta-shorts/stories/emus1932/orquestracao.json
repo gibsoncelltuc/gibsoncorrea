@@ -66,12 +66,10 @@
    "camera": "crowd",
    "personagens": [
     "AUS",
-    "AUS",
     "AUS"
    ],
-   "multidao": 14,
+   "multidao": 8,
    "objetos": [
-    "kit/canhao_moderno",
     "war/sandbags"
    ],
    "palavras": 10,
@@ -90,25 +88,18 @@
    "cenario": "countryside"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
-    "AUS",
     "AUS"
    ],
-   "multidao": 24,
+   "multidao": 14,
    "objetos": [],
    "palavras": 17,
    "cena": "b4",
    "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
   },
@@ -123,16 +114,10 @@
    ],
    "palavras": 15,
    "cena": "b5",
-   "frase": "Numa tentativa, uma metralhadora foi montada num caminhão, mas ele sacudia tanto que ninguém atirava.",
-   "classe": "chave",
+   "frase": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "cavaleiro galopando",
-    "emissao": "poeira/clarao do tiro",
-    "luz": "cena",
-    "camera": "camera acompanha",
-    "som": "galope"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "countryside"
   },
@@ -174,10 +159,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "AUS",
     "AUS"
    ],
-   "multidao": 24,
+   "multidao": 14,
    "objetos": [],
    "palavras": 17,
    "cena": "b8",

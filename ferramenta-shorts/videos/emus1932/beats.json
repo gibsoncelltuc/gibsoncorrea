@@ -57,7 +57,8 @@
    "riscos_ok": true,
    "verbos_ok": [
     "decla"
-   ]
+   ],
+   "fachada": false
   },
   {
    "say": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantações de trigo no oeste do país.",
@@ -78,7 +79,8 @@
    },
    "mapa": "AUSTRÁLIA",
    "mapa_at": 3,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "fachada": false
   },
   {
    "shot": "two",
@@ -87,31 +89,22 @@
     "AUS:0:stern"
    ],
    "interior": "madeira",
-   "say": "Fazendeiros veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados."
+   "say": "Fazendeiros veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
+   "fachada": false
   },
   {
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "AUS:0:stern",
-    "AUS:1:grin",
-    "AUS:2:neutral"
+    "AUS:1:grin"
    ],
    "props": [
     [
      "war/sandbags",
      0.0,
-     -1.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "cannon",
-     7.0,
-     -14.0,
-     1.0,
+     -2.5,
+     2.4,
      {
       "fixo": true
      }
@@ -120,7 +113,7 @@
    "text": "10.000 BALAS",
    "tat": 6,
    "crowd": {
-    "n": 14,
+    "n": 8,
     "outfit": "AUS",
     "march": true
    },
@@ -133,35 +126,32 @@
    },
    "quadro": {
     "local": "fazenda aberta",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sandbags juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e sandbags juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "war/sandbags",
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
-     },
-     {
-      "objeto": "cannon",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
      }
     ]
    },
    "batalha": false,
    "tiros": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "detalhe": false,
+   "cx": 0,
+   "cz": -3,
+   "d0": 9,
+   "d1": 8,
+   "fachada": false,
+   "quadro_manual": true,
+   "h": 1.8
   },
   {
    "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "AUS:0:stern",
-    "AUS:1:stern"
+    "AUS:0:stern"
    ],
    "emus": {
     "n": 14,
@@ -170,18 +160,32 @@
     "z": 1.5,
     "cols": 4
    },
-   "batalha": true,
+   "batalha": false,
    "caminhoes": 2,
    "crowd": {
-    "n": 24,
+    "n": 14,
     "outfits": [
      "AUS"
     ],
     "march": false
-   }
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0,
+   "fachada": false,
+   "fx": [
+    "burst@40",
+    "burst@75"
+   ],
+   "sfx": [
+    "thump@40",
+    "thump@75"
+   ]
   },
   {
-   "say": "Numa tentativa, uma metralhadora foi montada num caminhão, mas ele sacudia tanto que ninguém atirava.",
+   "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
    "shot": "wide",
    "who": [
     "AUS:2:grin"
@@ -248,7 +252,8 @@
     "z": 0.5,
     "cols": 3
    },
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "fachada": false
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
@@ -266,13 +271,13 @@
     "outfit": "AUS",
     "march": false
    },
-   "riscos_ok": true
+   "riscos_ok": true,
+   "fachada": false
   },
   {
    "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "AUS:1:stern",
     "AUS:0:stern"
    ],
    "emus": {
@@ -285,15 +290,29 @@
    "text": "986 (CONTESTADO)",
    "tat": 6,
    "tstyle": "red",
-   "batalha": true,
+   "batalha": false,
    "crowd": {
-    "n": 24,
+    "n": 14,
     "outfits": [
      "AUS"
     ],
     "march": false
    },
-   "set": "loc_deserto"
+   "set": "loc_deserto",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0,
+   "fachada": false,
+   "fx": [
+    "burst@40",
+    "burst@75"
+   ],
+   "sfx": [
+    "thump@40",
+    "thump@75"
+   ]
   },
   {
    "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
@@ -313,11 +332,12 @@
     "cols": 3
    },
    "riscos_ok": true,
-   "titulo": true
+   "titulo": true,
+   "fachada": false
   }
  ],
  "heroi": null,
- "max_wide": 4,
+ "max_wide": 5,
  "duracao_ok": true,
  "fontes": [
   "https://en.wikipedia.org/wiki/Emu_War"

@@ -343,6 +343,8 @@
    "detalhe": false,
    "set": "harbor",
    "impact": true,
+   "batalha": false,
+   "tiros": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,

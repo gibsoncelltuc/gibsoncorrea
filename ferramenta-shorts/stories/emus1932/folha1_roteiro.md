@@ -40,18 +40,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@46, gun@54, gun@58, gun@62, gun@66, gun@74, gun@78, gun@82, gun@86, gun@94, gun@98, gun@102, gun@106, gun@114, gun@118, gun@122, gun@126, gun@134, gun@138, gun@142, gun@146, gun@154, gun@158, gun@162, gun@166, gun@174
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; balas -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito
-- Efeito visual marcado: -
+- Som ambiente: birds
+- Efeitos sonoros marcados: thump@40, thump@75
+- Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito
+- Efeito visual marcado: burst@40, burst@75
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b5  (~5.2 s)
-- Narracao: Numa tentativa, uma metralhadora foi montada num caminhão, mas ele sacudia tanto que ninguém atirava.
+- Narracao: Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: metralhadora -> burst + som de tiro/explosao; encena: atira @3 -> acao + som de efeito; encena: constroi (hammer) @5 -> acao + som de efeito; montado: AUS galopando em cima do animal (horse_sela) atravessando a cena com a arma na mao -> acao + som de efeito
+- Efeito + som nas palavras-chave: metralhadora -> burst + som de tiro/explosao; encena: atira @3 -> acao + som de efeito; encena: pega (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -77,9 +77,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 ## Cena b8  (~5.9 s)
 - Narracao: O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: chega (point) @2 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: thump@40, thump@75, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
+- Efeito + som nas palavras-chave: tiros: 4 soldados caem no chao -> acao + som de efeito; encena: chega (point) @2 -> acao + som de efeito
+- Efeito visual marcado: burst@40, burst@75
 - Texto na tela: 986 (CONTESTADO)
 - Funcao na historia: GRANDE MOMENTO
 
