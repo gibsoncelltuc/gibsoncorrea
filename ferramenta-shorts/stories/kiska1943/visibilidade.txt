@@ -1,0 +1,4 @@
+VISIBILIDADE: 3 FALHA(S)
+FALHA b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b3_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b11: objeto citado "kit/dog_sit" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
