@@ -23,21 +23,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Por anos, El Salvador teve uma das maiores taxas de assassinato do mun...
-- Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao scared) | multidao: 10 de POV
-- Animacao: discutir
-- Objetos/modelos: kit/prison
+- Cenario: interior galpao | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao scared)
+- Animacao: discutir | interacao: discutir
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinato, gangues, maiores
 - RISCOS: nenhum
 
 ## Cena b3 - Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado ...
 - Cenario: loc_montanha | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern) | multidao: 5 de POV
-- Animacao: conversar | interacao: entregar
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern) | multidao: 30 de POV
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, presidente, suspeitos
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper)
-- Animacao: discutir | interacao: discutir
+- Animacao: discutir | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, maioria, ruas
 - RISCOS: nenhum
@@ -127,12 +127,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/prison | b0, b1, b2, b4, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/prison | b0, b1, b4, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 11% | medio 68% | aberto 21% | detalhe 0%
-- Interacoes: b0 aproxima-se, b3 entregar, b6 avanca e o outro recua, b8 discutir, b9 o outro se aproxima
+- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 11% | medio 66% | aberto 23% | detalhe 0%
+- Interacoes: b0 aproxima-se, b2 discutir, b6 avanca e o outro recua, b8 vai ate o outro, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

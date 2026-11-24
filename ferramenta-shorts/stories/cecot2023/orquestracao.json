@@ -48,15 +48,13 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
    ],
-   "multidao": 10,
-   "objetos": [
-    "kit/prison"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 17,
    "cena": "b2",
    "frase": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
@@ -64,15 +62,15 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "interior galpao"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "BUK",
     "GUA"
    ],
-   "multidao": 5,
+   "multidao": 30,
    "objetos": [],
    "palavras": 21,
    "cena": "b3",

@@ -4,16 +4,16 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/searchlight, kit/marco_hollywood, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b1 | street | reveal | 10 | reagir | kit/marco_hollywood | - | -
-b2 | harbor | group | 12 | conversar, INTERAGEM: cochichar, batalha | kit/marco_hollywood | - | -
+b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b1 | street | reveal | 10 | reagir | - | - | -
+b2 | harbor | group | 12 | conversar, INTERAGEM: cochichar, batalha | - | - | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b4 | mountain | orbit | 22 | encena, batalha | kit/canhao_moderno, kit/marco_hollywood, cannon | - | -
+b4 | mountain | orbit | 22 | encena, batalha | kit/canhao_moderno, cannon | - | -
 b5 | harbor | group | 12 | discutir, INTERAGEM: discutir | - | - | -
-b6 | street | crowd | 22 | encena, batalha | kit/marco_hollywood, cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b6 | street | crowd | 22 | encena, batalha | cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
-b9 | street | close | 1 | conversar | kit/searchlight, kit/marco_hollywood | - | -
+b9 | street | close | 1 | conversar | kit/searchlight | - | -
 b10 | street | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/searchlight

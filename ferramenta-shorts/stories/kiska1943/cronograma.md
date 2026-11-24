@@ -1,6 +1,6 @@
 # CRONOGRAMA - A Invasão da Ilha Vazia
 
-Gerado em 24/11 03:57 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:21 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | harbor | two | sem personagem | - | ship | - | Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo
 b1 | transicao | mountain | reveal | USA, CAN, USA | 32 | navio_vapor, airplane | - | Foram mais de trinta e quatro mil soldados americanos e canadenses, co
-b2 | chave | arctic | group | USA | 40 | canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
+b2 | chave | arctic | group | USA | 10 | canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
 b3 | chave | mountain | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No meio do nevoeiro, os soldados desceram em silêncio, prontos para um
 b4 | simples | mountain | two | USA, CAN | - | - | - | Mas teve um problema: os japoneses já tinham ido embora.
 b5 | simples | harbor | orbit | USA | 32 | picket_fence, navios de guerra ao fundo, no tamanho real, ship | - | Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens

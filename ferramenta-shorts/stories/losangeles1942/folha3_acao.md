@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -55,9 +55,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | atirar (27.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | PLACA | FOGO! | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | PLACA | FOGO! | OK |
 
 ## Cena b5 - 29.7s a 35.5s - 18 palavras - plano group
 > "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 9.4s - 30 palavras - plano two
@@ -26,10 +26,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | bombardearam (18.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 2 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 21.1s a 25.4s - 14 palavras - plano orbit
 > "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro."

@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: overcast | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 40 de USA
+- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 10 de USA
 - Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/canhao_moderno
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque

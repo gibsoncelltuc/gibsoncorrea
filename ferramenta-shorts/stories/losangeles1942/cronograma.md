@@ -1,21 +1,21 @@
 # CRONOGRAMA - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
-Gerado em 24/11 03:55 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:21 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | SOL, CID | - | apartment, house_two, marco_hollywood, searchlight, lamppost | - | Uma cidade inteira passou a noite atirando no céu, e não havia inimigo
-b1 | simples | street | reveal | CID, CID | 8 | marco_hollywood | - | Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear
-b2 | chave | harbor | group | CID, SOL | 10 | marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m
+b0 | simples | street | two | SOL, CID | - | apartment, house_two, searchlight, lamppost | - | Uma cidade inteira passou a noite atirando no céu, e não havia inimigo
+b1 | simples | street | reveal | CID, CID | 8 | - | - | Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear
+b2 | chave | harbor | group | CID, SOL | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m
 b3 | simples | harbor | two | SOL, CID | - | apartment, house_two, searchlight, lamppost | - | Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e ho
-b4 | chave | mountain | orbit | SOL, SOL | 48 | cannon, canhao_moderno, marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguém viu um objeto no céu, e os soldados começaram a atirar com canh
+b4 | chave | mountain | orbit | SOL, SOL | 48 | cannon, canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguém viu um objeto no céu, e os soldados começaram a atirar com canh
 b5 | simples | harbor | group | SOL, GEN | 10 | - | - | Os soldados juravam que havia inimigos no céu. Acontece que não havia 
-b6 | chave | street | crowd | CID, CID | 48 | apartment, house_two, cannon, marco_hollywood, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, q
+b6 | chave | street | crowd | CID, CID | 48 | apartment, house_two, cannon, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, q
 b7 | simples | interior madeira | two | GEN, PRE | - | - | - | No dia seguinte, os militares discutiram o que tinha acontecido, e nin
 b8 | simples | interior pedra | two | PRE, GEN | - | - | - | Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo
-b9 | simples | street | close | CID | - | marco_hollywood, searchlight | - | O único alvo derrotado naquela noite foi o sono de Los Angeles.
+b9 | simples | street | close | CID | - | searchlight | - | O único alvo derrotado naquela noite foi o sono de Los Angeles.
 b10 | simples | street | two | CID | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

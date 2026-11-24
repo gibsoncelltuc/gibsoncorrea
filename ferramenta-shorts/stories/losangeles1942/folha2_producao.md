@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): SOL (variante 0, expressao shock); CID (variante 0, expressao scared)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/searchlight, kit/marco_hollywood, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CID (variante 0, expressao nervous); CID (variante 1, expressao scared) | multidao: 8 de POV
 - Animacao: reagir
-- Objetos/modelos: kit/marco_hollywood
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medo, pearl
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 10 de SOL/POV
 - Animacao: conversar | interacao: cochichar | batalha encenada
-- Objetos/modelos: kit/marco_hollywood
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, submarino, vespera
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao shout); SOL (variante 1, expressao angry) | multidao: 20 de SOL
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/canhao_moderno, kit/marco_hollywood, cannon
+- Objetos/modelos: kit/canhao_moderno, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirar, canhoes, objeto, soldados
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): CID (variante 0, expressao scared); CID (variante 1, expressao cry) | multidao: 20 de SOL/POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_hollywood, cannon, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: cannon, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, cidade, estilhacos
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): CID (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/searchlight, kit/marco_hollywood
+- Objetos/modelos: kit/searchlight
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sono
 - RISCOS: nenhum
 
@@ -118,7 +118,6 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/searchlight | b0, b3, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_hollywood | b0, b1, b2, b4, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b0, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

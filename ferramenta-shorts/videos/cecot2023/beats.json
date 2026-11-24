@@ -44,7 +44,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "BUK:0:stern",
     "REP:0:surprised:paper"
@@ -53,7 +53,7 @@
     [
      "kit/prison",
      0,
-     -12.0,
+     -16.0,
      1.0
     ]
    ],
@@ -63,7 +63,12 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro."
+   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
+   "h": 9.0,
+   "d0": 34,
+   "d1": 28,
+   "cx": 0,
+   "cz": -16.0
   },
   {
    "shot": "reveal",
@@ -77,8 +82,8 @@
     [
      "kit/prison",
      0,
-     -14.0,
-     1.2
+     -16.0,
+     1.0
     ]
    ],
    "say": "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada.",
@@ -91,15 +96,7 @@
     "POV:0:scared"
    ],
    "acao": "discutir",
-   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
-   "props": [
-    [
-     "kit/prison",
-     1.8,
-     -0.6,
-     1.0
-    ]
-   ]
+   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
   },
   {
    "shot": "two",
@@ -113,7 +110,7 @@
    "set": "loc_montanha"
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
     "GUA:0:stern",
     "GUA:1:stern",
@@ -133,13 +130,18 @@
     [
      "kit/prison",
      0,
-     -13.0,
-     1.2
+     -18.0,
+     1.0
     ]
    ],
    "text": "40 MIL",
    "titulo": true,
-   "say": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
+   "say": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.",
+   "h": 8.0,
+   "d0": 32,
+   "d1": 26,
+   "cx": 0,
+   "cz": -16.0
   },
   {
    "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
@@ -216,7 +218,8 @@
    "set": "loc_campo",
    "batalha": false,
    "impact": false,
-   "tiros": false
+   "tiros": false,
+   "text": "SEM JULGAMENTO"
   },
   {
    "shot": "two",
@@ -250,8 +253,8 @@
     [
      "kit/prison",
      0,
-     -14.0,
-     1.2
+     -16.0,
+     1.0
     ]
    ],
    "text": "DEBATE",
@@ -260,16 +263,16 @@
    "set": "loc_patio"
   },
   {
-   "shot": "close",
+   "shot": "low",
    "who": [
     "BUK:0:stern"
    ],
    "props": [
     [
      "kit/prison",
-     -1.0,
-     -12.0,
-     0.9
+     0,
+     -14.0,
+     1.0
     ]
    ],
    "acao": "conversar",
