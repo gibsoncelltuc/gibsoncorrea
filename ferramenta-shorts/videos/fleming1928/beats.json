@@ -47,6 +47,36 @@
    "who": [
     "FLE:0:smile:book",
     "COL:0:surprised"
+   ],
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/petri",
+     0.0,
+     -0.6,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     0.0,
+     -0.6,
+     0.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bancada",
+     1.8,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
    ]
   },
   {
@@ -65,7 +95,8 @@
     "march": false
    },
    "mapa": "INGLATERRA",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "set": "loc_cidade"
   },
   {
    "say": "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.",
@@ -82,17 +113,17 @@
   {
    "say": "Um dia, ele saiu de férias por um mês e não limpou nada.",
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "FLE:0:grin:bag",
     "COL:0:shock"
    ],
-   "chega": true
+   "chega": true,
+   "set": "loc_campo"
   },
   {
    "say": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
    "shot": "two",
-   "interior": "madeira",
+   "interior": "pedra",
    "who": [
     "COL:0:smug",
     "FLE:0:angry"
@@ -191,7 +222,8 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "interior": "pedra"
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
@@ -213,7 +245,7 @@
     "ding@40",
     "sting@60"
    ],
-   "interior": "madeira",
+   "interior": "pedra",
    "props": [
     [
      "kit/petri",
@@ -287,7 +319,8 @@
     "MED:1:grin",
     "POV:0:relief"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "interior": "pedra"
   },
   {
    "say": "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.",
@@ -325,7 +358,8 @@
    "shot": "close",
    "who": [
     "FLE:0:smug"
-   ]
+   ],
+   "interior": "madeira"
   }
  ],
  "visual": {

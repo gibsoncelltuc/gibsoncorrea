@@ -6,11 +6,6 @@
    "video",
    "street",
    "loc_campo"
-  ],
-  [
-   "cena 12",
-   "street",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -28,7 +23,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_bigben",
+    "kit/bancada",
+    "kit/gosma",
     "kit/petri"
    ],
    "palavras": 12,
@@ -38,7 +34,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior madeira"
   },
   {
    "camera": "reveal",
@@ -57,7 +53,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -77,7 +73,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
@@ -87,11 +83,17 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "Um dia, ele saiu de férias por um mês e não limpou nada.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -111,10 +113,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "close",
    "personagens": [
     "FLE"
    ],
@@ -126,17 +128,11 @@
    "palavras": 9,
    "cena": "b5",
    "frase": "Ele ia jogar o prato fora, mas olhou melhor.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -156,7 +152,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -235,10 +231,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FLE"
    ],
@@ -251,7 +247,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior madeira"
   }
  ]
 }
