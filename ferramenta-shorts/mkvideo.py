@@ -221,6 +221,13 @@ if _N >= 6 and B.get('variar_cenario') is not False:
 _limpa_sets()
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
+# 24/11 (Gibson, Zanzibar): NAVIO NO CAIS = navio em cima do concreto. No cenario harbor o cais vai ate z -21,4; daqui para tras e' mar.
+# Embarcacao (navio, barco, fragata, submarino...) posta no cais e' empurrada para a agua (z -27 ou mais longe), mantendo x e escala.
+for _b in B['beats']:
+    if (_b.get('set') or SET) != 'harbor' or _b.get('interior') or _b.get('explica'): continue
+    for _p in (_b.get('props') or []):
+        if isinstance(_p, list) and len(_p) > 2 and re.search(r'navio|ship|boat|barco|fragata|submarin|caravela|galera|vapor|encouracado|destroier', str(_p[0])) and not isinstance(_p[2], str) and float(_p[2]) > -26.0:
+            _p[2] = -27.0
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
 # ===== CIDADE DA REGIAO (ordem do Gibson 19/11): os predios de fundo seguem o pais/epoca da historia =====
 # "regiao" no topo do roteiro (europa, franca, holanda, eua, oriente, colonial, japao, russia, africa, classico) ou deduzida do "mapa"/titulo/narracao.

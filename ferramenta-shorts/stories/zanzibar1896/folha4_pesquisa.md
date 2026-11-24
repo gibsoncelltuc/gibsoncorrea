@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): SUL, GUA, ALM, ING2
 - Cenarios: harbor, interior loja, interior madeira, interior pedra, loc_campo, loc_estudio
 - Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
-- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 1.0: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.8: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.55: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.8: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 

@@ -205,27 +205,27 @@
    "props": [
     [
      "kit/navio_vapor_guerra",
-     0.0,
-     -30.0,
-     1.0,
+     -3.0,
+     -34.0,
+     0.55,
      {
       "fixo": true
      }
     ],
     [
      "cannon",
+     -2.5,
      -2.0,
-     -3.5,
-     1.4,
+     1.6,
      {
       "fixo": true
      }
     ],
     [
      "cannon",
-     2.0,
-     -3.5,
-     1.4,
+     2.5,
+     -2.0,
+     1.6,
      {
       "fixo": true
      }
@@ -240,10 +240,10 @@
    "fachada": false,
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": -10.0,
-   "h": 4.0,
-   "d0": 22.0,
-   "d1": 20.0,
+   "cz": -12.0,
+   "h": 5.0,
+   "d0": 30.0,
+   "d1": 28.0,
    "riscos_ok": true,
    "tiros": true
   },
