@@ -11,7 +11,8 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
-   "medieval"
+   "medieval",
+   "mountain"
   ],
   "cenarios_trocados": []
  },
@@ -32,6 +33,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/church",
   "buildings/house_small",
   "kit/marco_viena",
   "kit/room_azul_stone",
