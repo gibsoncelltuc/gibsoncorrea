@@ -141,16 +141,12 @@ war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer 
 - Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 65% | aberto 12% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro, b9 aproxima-se
 - RISCOS GERAIS: 
-  - video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - objeto heroi cannon nao aparece em nenhuma cena -> CORRECAO: por cannon em "props" de pelo menos uma cena (ou tirar de "herois")
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py zanzibar1896  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/zanzibar1896/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
 - b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
-- geral: video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: objeto heroi cannon nao aparece em nenhuma cena
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
