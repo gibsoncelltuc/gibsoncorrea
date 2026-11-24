@@ -43,8 +43,7 @@
    "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
    "shot": "group",
    "who": [
-    "USA:0:stern",
-    "CAN:0:stern"
+    "USA:0:stern"
    ],
    "props": [
     [
@@ -80,14 +79,13 @@
     ],
     "march": true
    },
-   "_auto_vis": 1
+   "_auto_vis": 2,
+   "_who_lado": true
   },
   {
    "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
    "shot": "wide",
-   "who": [
-    "USA:0:stern"
-   ],
+   "who": [],
    "crowd": {
     "n": 0
    },
@@ -111,11 +109,11 @@
    "mapa": "ALASCA",
    "set": "arctic",
    "cx": 0.0,
-   "cz": -4.2,
+   "cz": -0.8,
    "h": 2.8,
    "d0": 15.0,
    "d1": 12.0,
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
@@ -144,9 +142,7 @@
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
    "shot": "wide",
-   "who": [
-    "USA:2:grin"
-   ],
+   "who": [],
    "props": [
     [
      "kit/aviao_ww2",
@@ -184,7 +180,7 @@
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 2,
+   "_auto_vis": 3,
    "_who_lado": true
   },
   {
@@ -360,14 +356,14 @@
    "props": [
     [
      "kit/dog_sit",
-     0.5,
+     0.6,
      1.0,
-     1.2
+     1.5
     ]
    ],
    "detalhe": false,
    "interior": "madeira",
-   "_auto_vis": 1
+   "_auto_vis": 2
   }
  ],
  "heroi": "kit/dog_sit",
