@@ -4,13 +4,13 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior madeira | two | 2 | reagir, INTERAGEM: susto | elephant | - | -
+b0 | interior madeira | two | 2 | reagir, INTERAGEM: susto | kit/panela | - | -
 b1 | street | reveal | 8 | reagir | kit/marco_notredame, buildings/house_two, nature/lamppost | - | -
 b2 | interior pedra | group | 2 | conversar, INTERAGEM: avanca e o outro recua | dog, cat | - | -
 b3 | loc_campo | two | 2 | reagir, INTERAGEM: discutir | barrel, kit/panela | - | -
 b4 | street | crowd | 8 | reagir, batalha | kit/marco_notredame, buildings/house_two, nature/lamppost, elephant, deer | - | -
 b5 | arctic | close | 1 | conversar | elephant | - | -
-b6 | interior loja | two | 2 | conversar, INTERAGEM: tremem de frio | kit/panela, elephant, wolf | - | -
+b6 | interior loja | two | 2 | conversar, INTERAGEM: tremem de frio | kit/panela | - | -
 b7 | arctic | group | 2 | conversar, INTERAGEM: o outro se aproxima | kit/balloon_air, kit/balloon | - | -
 b8 | arctic | crowd | 20 | reagir, batalha | kit/balloon_air, kit/balloon, buildings/house_two, nature/lamppost | - | -
 b9 | arctic | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -

@@ -1,12 +1,12 @@
 # CRONOGRAMA - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Gerado em 24/11 08:26 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 08:31 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior madeira | two | PAR, PAR | - | - | - | Paris já serviu elefante no jantar.
+b0 | simples | interior madeira | two | PAR, PAR | - | panela | - | Paris já serviu elefante no jantar.
 b1 | simples | street | reveal | PAR, PAR | 6 | house_two, marco_notredame, lamppost | - | Era mil oitocentos e setenta. A Prússia cercou a cidade, ninguém entra
 b2 | simples | interior pedra | group | PAR, PAR | - | - | - | Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os
 b3 | simples | loc_campo | two | PAR, CHF | - | barrel, panela | - | Depois, os roedores, que viraram um prato chique.
@@ -30,7 +30,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | PENDENTE | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh paris1870
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 

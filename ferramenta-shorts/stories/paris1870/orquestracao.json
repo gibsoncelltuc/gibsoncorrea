@@ -16,7 +16,9 @@
     "PAR"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/panela"
+   ],
    "palavras": 6,
    "cena": "b0",
    "frase": "Paris já serviu elefante no jantar.",
