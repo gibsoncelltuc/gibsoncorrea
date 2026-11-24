@@ -25,7 +25,7 @@ E = [
  ('9', 'Revisao escrita e aprovacao', 'uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa', ex(f'{S}/STORYBOARD_OK') and open(f'{S}/STORYBOARD_OK').read().strip() == str(fol.get('hash_producao')), f'./aprovar_storyboard.sh {ID}'),
  ('10', 'Render', 'todos os quadros renderizados nesta versao das folhas', ex(f'{S}/DONE') or bool(mp4) and ex(f'{S}/DONE'), ''),
  ('11', 'Montagem e som', 'trechos + voz + musica + efeitos; volume normalizado', bool(mp4) and ex(f'{S}/DONE'), ''),
- ('12', 'Conferencia', 'conferir.sh sem falha e folha de contato olhada', ex(f'entregas/{ID}') and ex(f'{S}/DONE'), f'./conferir.sh {ID}'),
+ ('12', 'Conferencia', 'conferir.sh sem falha e folha de contato olhada', (ex(f'entregas/{ID}') or ex(f'../entregas/{ID}')) and ex(f'{S}/DONE'), f'./conferir.sh {ID}'),
  ('13', 'Auditoria das acoes', '1 quadro do mp4 em cada palavra de acao', ex(f'/tmp/claude-0/aud/{ID}.jpg') or ex(f'{S}/auditoria_ok'), f'bash auditar_acoes.sh local {ID} <mp4>'),
  ('14', 'Entrega', 'mp4 original 1080x1920 enviado; commit e push', ex(f'{S}/ENTREGUE'), ''),
 ]
