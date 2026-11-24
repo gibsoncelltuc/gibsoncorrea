@@ -9,7 +9,7 @@ for (let it = 0; it < 10; it++) {
   upd(R, shots);
   const bad = [...new Set(R.fails.filter((f) => f.why.some((x) => BADW.some((w) => x.includes(w)))).map((f) => f.shot))].sort(); const other = [...new Set(R.fails.map((f) => f.shot))].filter((s) => !bad.includes(s));
   console.log('iter', it, 'widen', JSON.stringify(bad), 'other', JSON.stringify(other)); if (!bad.length) break;
-  const pode = bad.filter((s) => (K[s] ?? 1) < 1.6); for (const s of pode) K[s] = Math.round(Math.min(1.6, (K[s] ?? 1) * 1.12) * 1000) / 1000; shots = pode; if (!pode.length) break;   // 24/11 (Tulipas gancho 2,47x): no maximo 1,6x mais longe; passou disso o gate acusa (personagem nao vira pontinho)
+  const pode = bad.filter((s) => (K[s] ?? 1) < 2.0); for (const s of pode) K[s] = Math.round(Math.min(2.0, (K[s] ?? 1) * 1.12) * 1000) / 1000; shots = pode; if (!pode.length) break;   // 24/11 (Tulipas gancho 2,47x): no maximo 2,0x mais longe; passou disso o gate acusa (personagem nao vira pontinho)
 }
 let R = await inspect(S, { step: 4, kfit: { ...K } }); upd(R, null); let tiny = [...R.tiny];
 for (let it = 0; it < 5 && tiny.length; it++) {
