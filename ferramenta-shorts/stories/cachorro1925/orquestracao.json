@@ -3,19 +3,9 @@
  "ano": 1925,
  "cenarios_trocados": [
   [
-   "video",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
    "cena 1",
    "countryside",
    "loc_campo"
-  ],
-  [
-   "cena 2",
-   "mountain",
-   "loc_montanha"
   ],
   [
    "cena 3",
@@ -23,32 +13,12 @@
    "loc_campo"
   ],
   [
-   "cena 4",
+   "cena 9",
    "countryside",
    "loc_campo"
-  ],
-  [
-   "cena 5",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 6",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
-   "cena 7",
-   "mountain",
-   "loc_montanha"
   ],
   [
    "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
    "countryside",
    "loc_campo"
   ]
@@ -70,9 +40,9 @@
    "objetos": [
     "kit/dog_sit"
    ],
-   "palavras": 17,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.",
+   "frase": "Segundo uma versão, um cachorro fugiu e provocou uma invasão entre dois países.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -87,14 +57,14 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 23,
+   "palavras": 19,
    "cena": "b1",
-   "frase": "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados.",
+   "frase": "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "mountain"
   },
   {
    "camera": "track",
@@ -104,26 +74,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
+   "palavras": 13,
    "cena": "b2",
-   "frase": "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "track",
-   "personagens": [
-    "GRE",
-    "GRE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b3",
-   "frase": "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.",
+   "frase": "Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronteira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -140,9 +93,9 @@
    "objetos": [
     "kit/dog_sit"
    ],
-   "palavras": 12,
-   "cena": "b4",
-   "frase": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Do outro lado, soldados búlgaros atiraram, e ele morreu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -153,24 +106,24 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "mountain"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
     "GRE",
     "GRE"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "A Grécia deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "mountain"
   },
   {
    "camera": "orbit",
@@ -179,10 +132,14 @@
     "BUL"
    ],
    "multidao": 48,
-   "objetos": [],
-   "palavras": 22,
-   "cena": "b6",
-   "frase": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.",
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de Petrich.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -193,7 +150,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "mountain"
   },
   {
    "camera": "two",
@@ -203,9 +160,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.",
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -220,9 +177,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b8",
-   "frase": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.",
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "A Liga mandou parar, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -238,9 +195,9 @@
    "objetos": [
     "kit/dog_sit"
    ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Até hoje, não há acordo nem sobre a existência do cachorro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -255,7 +212,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

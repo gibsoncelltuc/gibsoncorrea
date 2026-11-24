@@ -54,10 +54,9 @@
     "GRE:0:shock",
     "BUL:0:neutral"
    ],
-   "text": "1925",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.",
+   "say": "Segundo uma versão, um cachorro fugiu e provocou uma invasão entre dois países.",
    "props": [
     [
      "kit/dog_sit",
@@ -93,7 +92,7 @@
    },
    "mapa": "BULGÁRIA",
    "mapa_at": 3,
-   "say": "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados.",
+   "say": "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa.",
    "props": []
   },
   {
@@ -103,24 +102,7 @@
     "GRE:0:nervous",
     "GRE:1:scared"
    ],
-   "say": "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.",
-   "props": [],
-   "animals": [
-    [
-     "dog",
-     2.2,
-     0.8
-    ]
-   ]
-  },
-  {
-   "shot": "track",
-   "set": "countryside",
-   "who": [
-    "GRE:0:shout",
-    "GRE:1:angry"
-   ],
-   "say": "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.",
+   "say": "Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronteira.",
    "props": [],
    "animals": [
     [
@@ -144,7 +126,7 @@
    "sfx": [
     "gun@60"
    ],
-   "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.",
+   "say": "Do outro lado, soldados búlgaros atiraram, e ele morreu.",
    "props": [
     [
      "kit/dog_sit",
@@ -162,7 +144,7 @@
     "GRE:1:angry"
    ],
    "interacao": "susto",
-   "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
+   "say": "A Grécia deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
    "props": []
   },
   {
@@ -185,7 +167,7 @@
    },
    "text": "INVASÃO",
    "titulo": true,
-   "say": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.",
+   "say": "Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de Petrich.",
    "props": []
   },
   {
@@ -196,8 +178,9 @@
     "PRE:0:nervous"
    ],
    "interacao": "susto",
-   "say": "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.",
-   "props": []
+   "say": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
+   "props": [],
+   "text": "LIGA DAS NAÇÕES"
   },
   {
    "shot": "two",
@@ -207,7 +190,7 @@
     "DIP:0:relief"
    ],
    "interacao": "entregar",
-   "say": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.",
+   "say": "A Liga mandou parar, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
    "props": []
   },
   {
@@ -216,7 +199,7 @@
    "who": [
     "GRE:0:sad"
    ],
-   "say": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
+   "say": "Até hoje, não há acordo nem sobre a existência do cachorro.",
    "props": [
     [
      "kit/dog_sit",
@@ -237,5 +220,39 @@
  ],
  "exp": 1.0,
  "variar_cenario": false,
- "heroi_sem_close_ok": true
+ "heroi_sem_close_ok": true,
+ "min_momentos": 1,
+ "visual": {
+  "local": "Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich",
+  "quando": "18 a 29 de outubro de 1925, outono",
+  "participantes": [
+   "soldado grego",
+   "soldados búlgaros",
+   "general Pangalos",
+   "Liga das Nações"
+  ],
+  "roupas": {
+   "GRE": "soldado grego de 1925: farda cáqui-azulada e capacete",
+   "BUL": "soldado búlgaro de 1925: farda cáqui verde e quepe",
+   "PRE": "político de terno escuro e chapéu",
+   "DIP": "diplomata de terno cinza"
+  },
+  "cenario": "posto de fronteira nas montanhas, cidade de Petrich, sala da Liga das Nações em Genebra",
+  "objetos": [
+   "fuzil de 1925",
+   "cachorro",
+   "documento do acordo"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Incident_at_Petrich",
+   "referencias/cachorro1925/moodboard.jpg"
+  ],
+  "buscas": {
+   "Petrich": "Petrich Bulgaria 1920s",
+   "soldado grego": "Greek soldier 1925 uniform",
+   "soldado búlgaro": "Bulgarian soldier 1925 uniform",
+   "Liga das Nações": "League of Nations Council 1925 Geneva",
+   "Pangalos": "Theodoros Pangalos 1925 portrait"
+  }
+ }
 }

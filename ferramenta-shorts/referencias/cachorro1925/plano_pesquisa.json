@@ -7,7 +7,15 @@
    "item": "A Guerra do Cão Fugitivo",
    "consultas": [
     "A Guerra do Cão Fugitivo",
-    "Um Em Grécia Bulgária Um 1925"
+    "Segundo Em Grécia Bulgária Dizem 1925"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich",
+   "consultas": [
+    "Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich",
+    "Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich 1925"
    ]
   },
   {
@@ -27,10 +35,68 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "soldado grego",
+   "consultas": [
+    "Greek soldier 1925 uniform",
+    "soldado grego",
+    "soldado grego 1925"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados búlgaros",
+   "consultas": [
+    "soldados búlgaros",
+    "soldados búlgaros 1925"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "general Pangalos",
+   "consultas": [
+    "general Pangalos",
+    "general Pangalos 1925"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Liga das Nações",
+   "consultas": [
+    "League of Nations Council 1925 Geneva",
+    "Liga das Nações",
+    "Liga das Nações 1925"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fuzil de 1925",
+   "consultas": [
+    "fuzil de 1925",
+    "fuzil de 1925 1925"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cachorro",
+   "consultas": [
+    "cachorro",
+    "cachorro 1925"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "documento do acordo",
+   "consultas": [
+    "documento do acordo",
+    "documento do acordo 1925"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "dog sit",
    "consultas": [
-    "dog sit",
+    "fuzil de 1925",
     "A Guerra do Cão Fugitivo"
    ]
   },

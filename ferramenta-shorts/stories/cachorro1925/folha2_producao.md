@@ -2,77 +2,68 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cachorro1925/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cachorro1925` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e ...
+## Cena b0 - Segundo uma versão, um cachorro fugiu e provocou uma invasão entre doi...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral)
-- Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/dog_sit, dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, pessoas
-- RISCOS: nenhum
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, invasao, versao
+- RISCOS: 
+  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
 
-## Cena b1 - Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulg...
-- Cenario: loc_montanha | luz: golden | clima: limpo
+## Cena b1 - Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc...
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): GRE (variante 0, expressao stern); BUL (variante 0, expressao stern) | multidao: 8 de GRE/BUL
 - Animacao: -
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, dois, fronteira, grecia
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, fronteira, grecia
 - RISCOS: nenhum
 
-## Cena b2 - Um soldado grego estava de guarda quando o cachorro dele fugiu para o ...
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
-- Animacao: encena
-- Objetos/modelos: dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, guarda, soldado
-- RISCOS: nenhum
-
-## Cena b3 - O soldado correu atrás do cachorro, e atravessou a fronteira sem pensa...
+## Cena b2 - Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronte...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): GRE (variante 0, expressao shout); GRE (variante 1, expressao angry)
+- Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
 - Animacao: encena
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, soldado
 - RISCOS: nenhum
 
-## Cena b4 - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
-- Cenario: loc_montanha | luz: golden | clima: limpo
+## Cena b3 - Do outro lado, soldados búlgaros atiraram, e ele morreu.
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUL (variante 0, expressao angry); GRE (variante 0, expressao scared) | multidao: 10 de BUL/GRE
 - Animacao: conversar | interacao: empurrar | batalha encenada
 - Objetos/modelos: kit/dog_sit
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estranho, sentinela
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bu...
-- Cenario: loc_montanha | luz: golden | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+## Cena b4 - A Grécia deu quarenta e oito horas para a Bulgária punir os culpados, ...
+- Cenario: mountain | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, grecia, soldado, ultimato
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, culpados, grecia
 - RISCOS: nenhum
 
-## Cena b6 - Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a reg...
-- Cenario: loc_montanha | luz: golden | clima: limpo
+## Cena b5 - Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de ...
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GRE (variante 0, expressao angry); BUL (variante 0, expressao shout) | multidao: 48 de GRE/BUL
+- Personagens principais (2): GRE (variante 0, expressao angry); BUL (variante 0, expressao shout) | multidao: 20 de GRE/BUL
 - Animacao: encena | batalha encenada
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, combates, exercito, pessoas, petrich, regiao
+- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, cidade, exercito, petrich
 - RISCOS: nenhum
 
-## Cena b7 - A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.
+## Cena b6 - Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -82,27 +73,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): antecessora, bulgaria, liga, nacoes
 - RISCOS: nenhum
 
-## Cena b8 - A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenizaçã...
+## Cena b7 - A Liga mandou parar, e a Grécia retirou as tropas e pagou quarenta e c...
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PRE (variante 0, expressao stern, segura paper); DIP (variante 0, expressao relief)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): grecia, indenizacao, liga, tropas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): grecia, liga, tropas
 - RISCOS: nenhum
 
-## Cena b9 - A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
+## Cena b8 - Até hoje, não há acordo nem sobre a existência do cachorro.
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GRE (variante 0, expressao sad)
 - Animacao: reagir
 - Objetos/modelos: kit/dog_sit, dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, grecia
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, existencia
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -117,20 +108,22 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/dog_sit | b0, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/dog_sit | b0, b3, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+dog | b0, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 16% | medio 67% | aberto 13% | detalhe 4%
-- Interacoes: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 8% | medio 76% | aberto 12% | detalhe 4%
+- Interacoes: b0 discutir, b3 empurrar, b4 susto, b6 susto, b7 entregar
 - RISCOS GERAIS: 
-  - GANCHO longo: a 1a frase tem 17 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: 9 item(ns) sem referencia visual: A Guerra do Cão Fugitivo, Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich, soldado grego, soldados búlgaros, general Pangalos, Liga das -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 2 risco(s) em aberto
-- geral: GANCHO longo: a 1a frase tem 17 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+- b0: a narracao fala de FUGA/CORRERIA e ninguem corre
+- geral: FOLHA 4: 9 item(ns) sem referencia visual: A Guerra do Cão Fugitivo, Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich, soldado grego, soldados búlgaros, general Pangalos, Liga das
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cachorro1925 bN bM` (so essas cenas).
