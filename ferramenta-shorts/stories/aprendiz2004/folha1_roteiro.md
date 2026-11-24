@@ -5,9 +5,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 ## Cena b0  (~4.8 s)
 - Narracao: Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@60, ding@75
+- Efeitos sonoros marcados: sting@60
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@60, stars@75
+- Efeito visual marcado: puff@60
 - Texto na tela: VOCÊ ESTÁ DEMITIDO!
 - Funcao na historia: GANCHO
 

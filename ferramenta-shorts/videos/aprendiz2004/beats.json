@@ -54,12 +54,10 @@
     "TRU:0:smug"
    ],
    "fx": [
-    "ring@60",
-    "stars@75"
+    "puff@60"
    ],
    "sfx": [
-    "sting@60",
-    "ding@75"
+    "sting@60"
    ],
    "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.",
    "text": "VOCÊ ESTÁ DEMITIDO!",
