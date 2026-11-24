@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa, placa: 1961 | - | -
+b0 | group | -  | tropa, placa: 1961 | - | -
 b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | encena: x_pesca (lift) @10 (acao + som de efeito) | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | tropa | - | -

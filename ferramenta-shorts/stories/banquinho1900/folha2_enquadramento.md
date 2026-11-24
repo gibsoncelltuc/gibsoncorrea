@@ -39,13 +39,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Eles se revoltaram e cercaram o forte onde o governador estava."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), sem multidao na frente
-- PERSONAGENS: ASH no centro, expressao angry; sem multidao; acao: batalha
+- PERSONAGENS: ASH no centro, expressao angry; multidao de 10 (ASH) ATRAS dos principais; acao: batalha
 - OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "FORTE CERCADO" flutuando no alto, na palavra 1 da frase
 
 ## b6: "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano de grupo (3+ pessoas)
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: SOL no centro, expressao stern; multidao de 20 (SOL) marchando ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
