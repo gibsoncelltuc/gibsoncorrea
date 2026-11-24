@@ -15,7 +15,7 @@ b7 | loc_montanha | two | 2 | dancar, INTERAGEM: entregar | kit/beehive, kit/bee
 b8 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | - | paper | -
 b9 | loc_montanha | crowd | 33 | reagir, batalha | kit/beehive, kit/bee | - | -
 b10 | interior pedra | group | 7 | comemorar, INTERAGEM: pular | - | - | -
-b11 | loc_campo | close | 1 | dancar | kit/beehive, kit/bee | - | -
+b11 | loc_campo | close | 1 | conversar | kit/beehive, kit/bee | - | -
 b12 | loc_campo | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/beehive

@@ -92,7 +92,7 @@
     "PIE:0:grin"
    ],
    "acao": "conversar",
-   "say": "Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado.",
+   "say": "Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.",
    "hora": "dia",
    "clima": "limpo"
   },
@@ -153,7 +153,7 @@
     "MAR:0:nervous:paper",
     "PIE:0:worried"
    ],
-   "say": "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo.",
+   "say": "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
    "hora": "dia",
    "clima": "limpo"
   },
@@ -186,7 +186,7 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso.",
+   "say": "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso.",
    "hora": "dia",
    "clima": "limpo"
   },
@@ -244,7 +244,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.",
+   "say": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
    "hora": "dia",
    "clima": "limpo"
   },
@@ -298,7 +298,7 @@
      1.0
     ]
    ],
-   "say": "Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos.",
+   "say": "Ou seja: os cadernos vão continuar radioativos por séculos.",
    "hora": "dia",
    "clima": "limpo"
   }

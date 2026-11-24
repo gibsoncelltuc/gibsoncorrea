@@ -1,0 +1,234 @@
+{
+ "duration": 56.976,
+ "frames30": 1709,
+ "source": "silence-align (cost 0.89)",
+ "segments": [
+  [
+   0.16125,
+   2.1385
+  ],
+  [
+   2.40292,
+   4.29833
+  ],
+  [
+   5.13533,
+   7.97046
+  ],
+  [
+   8.26112,
+   9.98604
+  ],
+  [
+   10.8452,
+   13.2615
+  ],
+  [
+   13.5452,
+   15.1013
+  ],
+  [
+   15.9474,
+   17.9608
+  ],
+  [
+   18.3131,
+   20.3507
+  ],
+  [
+   20.7091,
+   21.4123
+  ],
+  [
+   22.2622,
+   22.957
+  ],
+  [
+   23.0971,
+   24.53
+  ],
+  [
+   25.3853,
+   26.6194
+  ],
+  [
+   27.4986,
+   29.4821
+  ],
+  [
+   29.7133,
+   31.9938
+  ],
+  [
+   32.8705,
+   34.6166
+  ],
+  [
+   34.9102,
+   36.4588
+  ],
+  [
+   37.3217,
+   38.6636
+  ],
+  [
+   39.5138,
+   42.5546
+  ],
+  [
+   43.4259,
+   45.9393
+  ],
+  [
+   46.8049,
+   47.5407
+  ],
+  [
+   48.3917,
+   49.4398
+  ],
+  [
+   49.6585,
+   50.9047
+  ],
+  [
+   51.1653,
+   51.8262
+  ],
+  [
+   52.6813,
+   54.126
+  ],
+  [
+   54.4186,
+   56.1805
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois estados americanos foram \u00e0 guerra,",
+   "s": 0.161,
+   "e": 2.139
+  },
+  {
+   "text": "e o \u00fanico ferido levou uma canivetada.",
+   "s": 2.403,
+   "e": 4.298
+  },
+  {
+   "text": "Ohio e Michigan juravam que a cidade de Toledo era deles,",
+   "s": 5.135,
+   "e": 7.97
+  },
+  {
+   "text": "por causa de um erro num mapa antigo.",
+   "s": 8.261,
+   "e": 9.986
+  },
+  {
+   "text": "O governador de Michigan tinha s\u00f3 vinte e tr\u00eas anos,",
+   "s": 10.845,
+   "e": 13.261
+  },
+  {
+   "text": "e mandou a mil\u00edcia ocupar Toledo.",
+   "s": 13.545,
+   "e": 15.101
+  },
+  {
+   "text": "Ohio respondeu com a pr\u00f3pria mil\u00edcia,",
+   "s": 15.947,
+   "e": 17.961
+  },
+  {
+   "text": "e as duas tropas chegaram \u00e0 beira do rio,",
+   "s": 18.313,
+   "e": 20.351
+  },
+  {
+   "text": "frente a frente.",
+   "s": 20.709,
+   "e": 21.412
+  },
+  {
+   "text": "Houve gritos,",
+   "s": 22.262,
+   "e": 22.957
+  },
+  {
+   "text": "amea\u00e7as e tiros para o alto.",
+   "s": 23.097,
+   "e": 24.53
+  },
+  {
+   "text": "Ningu\u00e9m acertou ningu\u00e9m.",
+   "s": 25.385,
+   "e": 26.619
+  },
+  {
+   "text": "A \u00fanica baixa foi um xerife de Michigan,",
+   "s": 27.499,
+   "e": 29.482
+  },
+  {
+   "text": "espetado numa briga de taverna com um canivete.",
+   "s": 29.713,
+   "e": 31.994
+  },
+  {
+   "text": "O presidente mandou os dois pararem,",
+   "s": 32.87,
+   "e": 34.617
+  },
+  {
+   "text": "e o Congresso ofereceu um acordo.",
+   "s": 34.91,
+   "e": 36.459
+  },
+  {
+   "text": "Ohio ficou com Toledo.",
+   "s": 37.322,
+   "e": 38.664
+  },
+  {
+   "text": "Michigan levou um peda\u00e7o de floresta gelada que ningu\u00e9m queria.",
+   "s": 39.514,
+   "e": 42.555
+  },
+  {
+   "text": "S\u00f3 que debaixo daquela floresta havia cobre e ferro.",
+   "s": 43.426,
+   "e": 45.939
+  },
+  {
+   "text": "Uma fortuna.",
+   "s": 46.805,
+   "e": 47.541
+  },
+  {
+   "text": "No fim das contas,",
+   "s": 48.392,
+   "e": 49.44
+  },
+  {
+   "text": "Michigan perdeu a guerra,",
+   "s": 49.658,
+   "e": 50.905
+  },
+  {
+   "text": "e ficou rico.",
+   "s": 51.165,
+   "e": 51.826
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 52.681,
+   "e": 54.126
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 54.419,
+   "e": 56.181
+  }
+ ]
+}

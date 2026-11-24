@@ -22,14 +22,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
-## Cena b2 - Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num g...
+## Cena b2 - Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.
 - Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao stern, segura paper); PIE (variante 0, expressao grin)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido, polonesa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido
 - RISCOS: nenhum
 
 ## Cena b3 - Mexendo em toneladas de minério, eles descobriram dois elementos novos...
@@ -52,17 +52,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, frascos, radio
 - RISCOS: nenhum
 
-## Cena b5 - Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ningu...
+## Cena b5 - Ela carregava frascos no bolso. Ninguém sabia do perigo.
 - Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao nervous, segura paper); PIE (variante 0, expressao worried)
 - Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, frascos, gaveta, mesa, perigo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, perigo
 - RISCOS: nenhum
 
-## Cena b6 - Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeir...
+## Cena b6 - Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu...
 - Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -92,14 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, chumbo, paris
 - RISCOS: nenhum
 
-## Cena b9 - Quem quer ler precisa assinar um termo de responsabilidade e usar roup...
+## Cena b9 - Para ler, é preciso assinar um termo e usar roupa de proteção.
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PES (variante 0, expressao scared)
 - Animacao: conversar
 - Objetos/modelos: kit/curie_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): protecao, responsabilidade, termo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): protecao, termo
 - RISCOS: nenhum
 
 ## Cena b10 - E o rádio leva cerca de mil e seiscentos anos só para perder metade da...
@@ -112,14 +112,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, radio
 - RISCOS: nenhum
 
-## Cena b11 - Ou seja: os cadernos de Marie Curie vão continuar radioativos por muit...
+## Cena b11 - Ou seja: os cadernos vão continuar radioativos por séculos.
 - Cenario: loc_montanha | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MAR (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/curie_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, marie
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos
 - RISCOS: nenhum
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -147,11 +147,9 @@ nature/picket_fence | b10 | pronto | conferir na folha de contato se le bem; se 
 - Objeto heroi: kit/curie_box | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 23% | medio 64% | aberto 9% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto
 - RISCOS GERAIS: 
-  - video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py curie1898  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/curie1898/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

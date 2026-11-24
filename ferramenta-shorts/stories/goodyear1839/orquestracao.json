@@ -132,6 +132,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/borracha",
     "kit/stove"
    ],
    "palavras": 12,
@@ -150,6 +151,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/borracha",
     "kit/stove"
    ],
    "palavras": 15,
@@ -171,9 +173,9 @@
    "objetos": [
     "kit/stove"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Tinha nascido a vulcanização: finalmente a borracha aguentava o calor e o frio.",
+   "frase": "Finalmente a borracha aguentava o calor e o frio.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -207,6 +209,7 @@
    "multidao": 18,
    "objetos": [
     "kit/ball",
+    "kit/borracha",
     "kit/stove",
     "kit/tires"
    ],

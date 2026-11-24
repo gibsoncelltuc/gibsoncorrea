@@ -10,11 +10,11 @@ b2 | street | crowd | 14 | discutir, batalha | kit/stove | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/stove | paper | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | kit/stove | - | -
-b6 | interior madeira | two | 1 | reagir | kit/stove | - | -
-b7 | interior madeira | low | 1 | comemorar | kit/stove | - | -
+b6 | interior madeira | two | 1 | reagir | kit/stove, kit/borracha | - | -
+b7 | interior madeira | low | 1 | comemorar | kit/stove, kit/borracha | - | -
 b8 | countryside | orbit | 8 | parados (so fala e pisca) | kit/stove | - | -
 b9 | hall | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b10 | street | crowd | 21 | comemorar, batalha | kit/tires, kit/ball, kit/stove | - | -
+b10 | street | crowd | 21 | comemorar, batalha | kit/tires, kit/ball, kit/stove, kit/borracha | - | -
 b11 | interior loja | close | 1 | conversar | kit/stove, kit/tires | - | -
 b12 | street | close | 1 | conversar | - | - | -
 

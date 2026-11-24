@@ -9,7 +9,7 @@ if [ -f stories/$ID/DONE ] && ! grep -q "^motor v13" stories/$ID/DONE; then rm -
 # DISCO: com menos de 4 GB livres, apaga os quadros soltos dos videos JA PRONTOS (o mp4 e os trechos ficam; so' o refazer.sh por cena deixa de valer para eles -> use refazer_tudo.sh). Disco cheio derruba o render com "erro de pagina".
 if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 4000 ]; then for d in out/*/frames; do [ -d "$d" ] || continue; v=$(basename "$(dirname "$d")"); if [ "$v" != "$ID" ] && [ -f "stories/$v/DONE" ]; then rm -rf "$d"; fi; done; rm -rf /root/.cache/pip; echo "$(date +%T) disco baixo: quadros de videos prontos apagados ($(df -Ph . | awk 'NR==2{print $4}') livres)"; fi
 log() { echo "$(date +%T) $*" | tee -a $L; }
-st() { [ -f stories/$ID/stages/$1 ]; }; mark() { date +%s > stories/$ID/stages/$1; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
+st() { [ -f stories/$ID/stages/$1 ]; }; mark() { mkdir -p stories/$ID/stages; date +%s > stories/$ID/stages/$1; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }
 python3 mkvideo.py $ID >> $L 2>&1
 # FOLHA 4 (v13): pesquisa de campo automatica antes de tudo (busca cada item do roteiro na internet, baixa os prints e monta o quadro de referencias)
