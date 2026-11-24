@@ -1,4 +1,4 @@
-# Plano de acao - A Morte Branca
+# Plano de acao - Guerras Inusitadas EP 23 - A Morte Branca
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---

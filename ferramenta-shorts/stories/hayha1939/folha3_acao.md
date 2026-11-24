@@ -1,4 +1,4 @@
-# FOLHA 3 - ACOES - A Morte Branca
+# FOLHA 3 - ACOES - Guerras Inusitadas EP 23 - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
 **Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar

@@ -1,4 +1,4 @@
-# FICHA DE REFERENCIA - A Morte Branca
+# FICHA DE REFERENCIA - Guerras Inusitadas EP 23 - A Morte Branca
 
 - Ano/epoca: 1939 (historica)
 - Onde: Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos

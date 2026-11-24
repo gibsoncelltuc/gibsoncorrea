@@ -1,6 +1,6 @@
-# CRONOGRAMA - A Morte Branca
+# CRONOGRAMA - Guerras Inusitadas EP 23 - A Morte Branca
 
-Gerado em 24/11 07:54 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 09:09 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 

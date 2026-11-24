@@ -1,4 +1,4 @@
-# Pre-producao - A Morte Branca
+# Pre-producao - Guerras Inusitadas EP 23 - A Morte Branca
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 
