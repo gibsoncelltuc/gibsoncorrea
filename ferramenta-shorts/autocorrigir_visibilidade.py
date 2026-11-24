@@ -5,6 +5,7 @@
 #                                       2a vez: objeto na frente dos personagens e maior; 3a vez: cena do objeto (camera so' nele).
 #   - objeto tapando a camera        -> se e' um "props" da cena: vai para o lado e para tras; se nao: troca o enquadramento.
 #   - camera dentro de objeto        -> o objeto vai para longe (fica inteiro no fundo) e a mira da camera sai dele.
+#   - animal citado pequeno          -> camera mais perto e animais maiores (2a vez: animais na frente, plano de grupo).
 # Cada conserto fica anotado em stories/<id>/autocorrecoes.md. Saida 0 = mudou algo (refazer as folhas/storyboard); 1 = nada a fazer.
 import json, re, sys, os, datetime
 i = sys.argv[1]; V = json.load(open(f'stories/{i}/visibilidade.json')); P = f'videos/{i}/beats.json'; D = json.load(open(P)); BT = D['beats']
@@ -50,6 +51,15 @@ for falha in V.get('falhas', []):
     elif 'cobrindo a tela' in txt:
         if idx is not None: p = props[idx]; p[2] = round(min(num(p[2]), -6.0) - 12.0, 1); b.update({'cx': round(num(p[1]) * 0.5, 1), 'cz': round(num(p[2]) * 0.5, 1), 'd0': round(abs(num(p[2])) * 0.6 + 10, 1), 'd1': round(abs(num(p[2])) * 0.6 + 7, 1)}); acao = f'"{a}" afastado para o fundo ({p[2]}) com a camera aberta (nao vira parede)'
         else: b['shot'] = 'wide'; b['fachada'] = False; acao = 'plano aberto sem fachada (o que cobria a tela era cenario)'
+    elif 'animal citado' in txt:   # bicho citado pequeno demais: camera mais perto e bicho maior/na frente
+        an = b.get('animals') or []
+        for a_ in an:
+            while len(a_) < 5: a_.append([0.0, 0.6, 'stand', 1.0][len(a_) - 1])
+            a_[4] = round(min(2.6, num(a_[4]) * 1.35), 2)
+            if n >= 1: a_[2] = round(max(num(a_[2]), 1.2), 1)
+        b['d0'] = round(max(6.0, num(b.get('d0', 11)) * 0.6), 1); b['d1'] = round(max(5.0, num(b.get('d1', 10)) * 0.6), 1)
+        if n >= 1 and b.get('shot') == 'wide': b['shot'] = 'group'
+        acao = f'camera mais perto (d {b["d0"]}->{b["d1"]}) e animais maiores' + (' e na frente dos personagens' if n >= 1 else '')
     elif 'DENTRO' in txt:
         if idx is not None: p = props[idx]; p[2] = round(min(num(p[2]), -8.0) - 14.0, 1)
         for c in ('cx', 'cz'): b.pop(c, None)
