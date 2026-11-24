@@ -137,3 +137,14 @@ Origem (Gibson, piloto do Roadster "50%"): faltou a propulsão embaixo do carro,
 - **Modo único:** o "Modo 2" (Blender costurado) foi aposentado (`legado/`); Blender só modela.
 - **Som:** `jato`, `motor_ev`, `pouso`, `hud`, `faisca`, `espanto`, `pneu` (`audio_story.py`); volume final -14 LUFS.
 - **Teste de aceitação:** `videos/teste_v13/beats.json` (explicação com raio-X, voo, medidor, salto, pouso, passos, comparação) e `bash teste_ferramenta.sh`.
+
+## §21 — v13b (24/11): pesquisa automática, heróis, tamanho real, queda
+
+Ordem do Gibson: a ferramenta é universal — para QUALQUER roteiro ela faz o raio-X, pesquisa, e executa o que a narração diz, sem conserto por vídeo.
+
+- **4 folhas:** roteiro, produção, ação e PESQUISA (`folha4_pesquisa.md`; `pesquisar.py`; prints e `moodboard.jpg` em `referencias/<id>/`). A fila roda a pesquisa sozinha; trava sem ela.
+- **Heróis:** `HEROIS_OBJ` / `HEROIS_PER` (um ou vários; guerra = os dois lados).
+- **Tamanho real:** `_TAM_REAL` + `_tam_real()` em `mkvideo.py` (props, veículo dirigido e objeto da explicação).
+- **Queda:** `web/runtime.js` (corpo deitado sobe 0,3·s e recua para ficar inteiro no quadro); câmera abre em queda e pulo.
+- **Carro correndo:** `_explica`, manobra `corre` (jato com `dir: 'tras'` em `web/vfx.js`).
+- Rede: a API do Wikimedia é bloqueada por excesso de pedidos nesta rede; `pesquisar.py` usa a página de busca e o servidor `upload.wikimedia.org`.

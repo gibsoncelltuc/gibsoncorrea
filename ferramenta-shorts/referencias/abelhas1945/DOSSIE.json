@@ -1,0 +1,126 @@
+{
+ "id": "abelhas1945",
+ "titulo": "Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa",
+ "ancoras": {
+  "ano": 1945,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "interior pedra",
+   "loc_campo",
+   "loc_montanha",
+   "street"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 1",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 3",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 5",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 6",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 7",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 8",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 10",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 12",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 13",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "escudo",
+  "lampiao",
+  "navio a vela",
+  "objeto moderno",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/bee",
+  "kit/beehive",
+  "kit/lupa",
+  "kit/marco_viena",
+  "kit/room_azul_stone",
+  "kit/room_europa_wood",
+  "kit/room_verde_wood",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Metal",
+  "mk/Crate_Wooden",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers"
+ ],
+ "pesquisa_visual": {
+  "local": "Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim com colmeias e pratinhos de agua com acucar; laboratorio em Munique; cerimonia do Nobel em Estocolmo",
+  "quando": "verao de 1944-1945 (decifrou a danca), Nobel em dezembro de 1973",
+  "participantes": [
+   "Karl von Frisch, zoologo austriaco de oculos",
+   "assistentes",
+   "colegas cientistas desconfiados"
+  ],
+  "roupas": {
+   "FRI": "terno claro dos anos 40, oculos redondos, cabelo grisalho",
+   "ASS": "assistente de camisa e chapeu de palha",
+   "COL": "cientista de terno e barba",
+   "POV": "publico dos anos 40/70"
+  },
+  "cenario": "jardim com montanhas e lago ao fundo, colmeia de observacao com vidro, mesa com pratinhos de acucar; salao do Nobel",
+  "objetos": [
+   "colmeia de vidro",
+   "abelhas marcadas com pontinhos de tinta",
+   "pratinhos de agua com acucar",
+   "caderno de anotacoes"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Karl_von_Frisch",
+   "https://en.wikipedia.org/wiki/Waggle_dance"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

@@ -99,6 +99,28 @@ for _b in B['beats']:   # MONTANHA: cena que fala de colina/montanha/morro acont
 _VEIC_RX = re.compile(r'(^|/)(carro|car|roadster|cybertruck|truck|taxi|jeep|caminhao|onibus|bus|motorcycle|moto|carro_[a-z0-9]+)')
 _EH_VEIC = lambda a_: bool(_VEIC_RX.search(str(a_))) and not re.search(r'carroca|wagon|cart|carrinho|falcon|rocket', str(a_))
 _GLEN = {}
+# ===== v13 TAMANHO REAL (24/11, Gibson: "carro tem tamanho de carro, tanque de tanque, balao de gente e' gigante, balao de festa e' pequeno") =====
+# metros reais da MAIOR medida (L = comprimento, H = altura). O boneco tem ~3 unidades de altura => 1 metro real = _KM unidades no cenario.
+_KM = 1.35
+_TAM_REAL = ((r'balao_festa|party_balloon|bexiga', 0.4, 'H', 'max'), (r'cybertruck', 5.7, 'L', 'min'), (r'roadster|carro_redondo|carro_50|vehicles/car$|taxi|police', 4.5, 'L', 'min'), (r'carro_antigo', 3.9, 'L', 'min'), (r'jeep|jipe', 3.7, 'L', 'min'),
+             (r'truck|caminh', 7.5, 'L', 'min'), (r'onibus|\bbus', 11.0, 'L', 'min'), (r'tank|tanque(?!_ar)|blindado', 7.0, 'L', 'min'), (r'motorcycle|moto\b', 2.2, 'L', 'min'), (r'bicycle|bicicleta', 1.8, 'L', 'min'),
+             (r'wagon|carroca|charrete|diligencia', 3.6, 'L', 'min'), (r'helicopter|helicoptero', 12.0, 'L', 'min'), (r'b2_|aviao|plane|biplano', 12.0, 'L', 'min'), (r'balloon|balao', 14.0, 'H', 'min'),
+             (r'canhao_moderno', 4.5, 'L', 'min'), (r'^cannon$|canhao', 2.8, 'L', 'min'), (r'locomotiva|\btrem\b|train', 14.0, 'L', 'min'), (r'trator|tractor', 4.0, 'L', 'min'), (r'barco|boat|canoa', 5.0, 'L', 'min'), (r'piano', 1.6, 'L', 'min'),
+             (r'throne|trono', 1.9, 'H', 'min'), (r'guilhotina', 4.0, 'H', 'min'), (r'telescopio', 2.2, 'H', 'min'))
+def _tam_real(as_, s_atual, z_=0.0):   # devolve (escala corrigida, texto para a folha 2) ou (s_atual, None)
+    nm_ = str(as_)
+    if nm_.endswith('_air') and not re.search(r'roadster', nm_): return s_atual, None   # versoes "no ar" de foguete/balao sao fundo de cena, o roteiro escolhe
+    for rx_, m_, eixo_, modo_ in _TAM_REAL:
+        if not re.search(rx_, nm_): continue
+        _glb_len(nm_); d_ = _GDIM.get(nm_)
+        if not d_: return s_atual, None
+        dim_ = d_[1] if eixo_ == 'H' else max(d_[0], d_[2])
+        if dim_ <= 0: return s_atual, None
+        alvo_ = round(_KM * m_ / dim_, 2)
+        if modo_ == 'min' and float(s_atual) < 0.85 * alvo_ and float(z_) > -16: return alvo_, f'{nm_}: {m_} m reais -> escala {alvo_} (estava {s_atual}: pequeno demais)'
+        if modo_ == 'max' and float(s_atual) > 1.2 * alvo_: return alvo_, f'{nm_}: {m_} m reais -> escala {alvo_} (estava {s_atual}: grande demais)'
+        return s_atual, None
+    return s_atual, None
 _GH = {}; _GDIM = {}   # _GDIM[asset] = (largura x, altura y, profundidade z, y minimo) do modelo
 def _glb_alt(a_): _glb_len(a_); return _GH.get(a_)   # altura do modelo 3D (para o close mirar no meio do objeto)
 _FRENTE = {'carro_redondo': 1, 'carro_50': 1, 'carro_antigo': 1, 'roadster': -1, 'roadster26': -1, 'cybertruck': -1, 'roadster_air': -1, 'roadster26_air': -1}   # frente do modelo: +x ou -x (olhado no Blender 23/11)
@@ -905,7 +927,7 @@ if B.get('director') is not False and B.get('emocao_close') is not False:
             _w0 = _b['who'][0].split(':'); _w0 += [''] * (3 - len(_w0))
             if _w0[2] in ('', 'neutral', 'smile', 'stern'): _w0[2] = 'pleading'; _b['who'][0] = ':'.join(_w0)
             PLANO.append((_k, 'pedido: plano medio dos dois, um pede ao outro', 'shot'))
-        elif _livre and _EMO.search(_sy) and _seq < 2 and _k > 0:
+        elif _livre and _EMO.search(_sy) and _seq < 2 and _k > 0 and not re.search(r'\b(os dois|as duas|ambos|ambas|juntos|juntas|todos|um ao outro|um no outro|entre eles)\b|\b(pul|salt|danc|comemor|abrac|brind)', _nrm0(_b['say'])):   # v13: emocao DOS DOIS ou com acao de corpo inteiro nao vira close num rosto so'
             _b['shot'] = 'close'; _b['_emo_close'] = True; _b.pop('perto', None); _seq += 1
             if len(_b.get('who', [])) > 1: _b['_who_todo'] = list(_b['who']); _b['who'] = _b['who'][:1]   # o close e' de quem sente: so' ele no quadro, centralizado
         else: _seq = 0
@@ -953,19 +975,23 @@ def _explica(k, b, light, a, bb):
         j_ = _wj(pal)
         return f"WS({starts[k] + j_}, {off})" if j_ is not None else pad
     _glb_len(obj); dx, dy, dz, y0 = _GDIM.get(obj, (2.0, 1.2, 1.0, 0.0)); L = max(dx, dz)
-    s = float(E.get('s') or (round(4.8 / L, 2) if L > 2.2 else round(max(1.0, 2.0 / max(L, dy)), 2)))
+    s = float(E.get('s') or (_tam_real(obj, 0.01)[0] if _tam_real(obj, 0.01)[1] else (round(4.8 / L, 2) if L > 2.2 else round(max(1.0, 2.0 / max(L, dy)), 2))))
     Ls, Hs = L * s, dy * s; sgF = _FRENTE.get(str(obj).split('/')[-1], 1)
     vfx_in = list(E.get('vfx') or [])
+    _med = E.get('medidor') or E.get('contador') or {}
+    if not E.get('manobra') and _EH_VEIC(obj) and re.search(r'km|mph|milha', str(_med.get('un', '')).lower()): E = {**E, 'manobra': 'corre'}   # v13: medidor de velocidade num veiculo = o veiculo CORRENDO (Gibson: "por que nao mostrar o carro andando ultra rapido?")
+    if E.get('manobra') == 'corre' and not any(v_.get('k') in ('jato', 'velocidade') for v_ in vfx_in):
+        vfx_in = vfx_in + [{'k': 'velocidade', 'na': 0.12}] + ([{'k': 'jato', 'dir': 'tras', 'pts': 'tras2', 'na': _med.get('na') or 0.1, 'pot': 0.9}] if E.get('propulsor', True) else []) + ([] if any(v_.get('k') == 'pneu' for v_ in vfx_in) else [{'k': 'pneu', 'na': 0.02, 'ate': 0.3, 'pot': 0.6}])
     man = E.get('manobra') or ('paira' if any(v_.get('k') == 'jato' for v_ in vfx_in) else 'gira' if not (E.get('pecas') or E.get('rotulos') or E.get('setas')) else 'parado')
     z0 = -2.0
-    ybase = {'paira': f"DK + 1.5 + 0.1 * Math.sin((f - ({a})) / 9)", 'parado': "DK", 'gira': "DK + 0.02"}.get(man)
+    ybase = {'paira': f"DK + 1.5 + 0.1 * Math.sin((f - ({a})) / 9)", 'parado': "DK", 'gira': "DK + 0.02", 'corre': "DK"}.get(man)
     if man == 'sobe':
         t0 = _wf(E.get('sobe_na'), -6, f"({a}) + 14"); ybase = f"DK + 2.4 * Math.pow(Math.min(1, Math.max(0, (f - ({t0})) / 40)), 1.5) + (f > ({t0}) + 40 ? 0.1 * Math.sin((f - ({t0})) / 9) : 0)"
     yfn = f"(f) => {ybase}"
     vfx_js = []
     for v_ in vfx_in:
         va = _wf(v_.get('na'), -4, f"({a}) + 8"); vb = _wf(v_.get('ate'), 0, f"({bb}) - 4")
-        vfx_js.append(f"{{ k: {json.dumps(v_.get('k', 'jato'))}, a: {va}, b: {vb}, pts: {json.dumps(v_.get('pts', 'baixo4'))}, pot: {num(v_.get('pot', 1))}{', col: ' + json.dumps(v_['col']) if v_.get('col') else ''} }}")
+        vfx_js.append(f"{{ k: {json.dumps(v_.get('k', 'jato'))}, a: {va}, b: {vb}, pts: {json.dumps(v_.get('pts', 'baixo4'))}, pot: {num(v_.get('pot', 1))}{', col: ' + json.dumps(v_['col']) if v_.get('col') else ''}{', dir: ' + json.dumps(v_['dir']) + ', fr: ' + str(sgF) if v_.get('dir') else ''} }}")
         _som = {'jato': 'jato', 'fogo': 'whoosh', 'faisca': 'faisca', 'pneu': 'pneu', 'brilho': 'hud', 'onda': 'thump'}.get(v_.get('k', 'jato'))
         if _som: KWSFX.append((starts[k] + (_wj(v_.get('na')) if _wj(v_.get('na')) is not None else 1), _som))
     xr = E.get('raiox'); xr_js = ''
@@ -973,7 +999,7 @@ def _explica(k, b, light, a, bb):
         xt = _wf(xr if isinstance(xr, str) else None, -4, f"({a}) + 12"); xr_js = f", xray: (f) => Math.min(1, Math.max(0, (f - ({xt})) / 12))"
         KWSFX.append((starts[k] + (_wj(xr) if isinstance(xr, str) and _wj(xr) is not None else 1), 'hud'))
     ry = 0.0 if sgF == 1 else 3.1416
-    pr = [f"{{ asset: {json.dumps(obj)}, at: [X, {num(z0)}], s: {num(s)}, y: {yfn}, ry: {num(ry)}{', spinY: 0.55' if man == 'gira' else ''}{xr_js}{', vfx: [' + ', '.join(vfx_js) + ']' if vfx_js else ''}, drop: false }}"]
+    pr = [f"{{ asset: {json.dumps(obj)}, at: [X, {num(z0)}], s: {num(s)}, y: {yfn}, ry: {num(ry)}{', spinY: 0.55' if man == 'gira' else ''}{(', move: [[X + 56, ' + num(z0) + '], ' + a + ' + 6, ' + bb + ", 'in'], align: false, bob: 0.02") if man == 'corre' else ''}{xr_js}{', vfx: [' + ', '.join(vfx_js) + ']' if vfx_js else ''}, drop: false }}"]
     for pc in (E.get('pecas') or []):   # pecas internas (aparecem no raio-X): posicao relativa ao objeto, em metros do modelo
         pa_, px_, py_, pz_ = pc[0], float(pc[1]), float(pc[2]), float(pc[3]) if len(pc) > 3 else 0.0; ps_ = float(pc[4]) if len(pc) > 4 else 0.5
         pex = pc[5] if len(pc) > 5 and isinstance(pc[5], dict) else {}
@@ -1009,20 +1035,28 @@ def _explica(k, b, light, a, bb):
     lt = E.get('luz') or ('explica' if b.get('set') == 'loc_estudio' else light)
     mid = f"Math.round({a} + ({bb} + 1 - ({a})) * 0.5)"
     body = lambda id_, fa, fb: f"S('{id_}', {fa}, {fb}, X, {json.dumps(lt)}, {{ actors: [], props: [{', '.join(pr)}], fx: [{', '.join(fx)}], hero: {{ hero: 'none', explica: true }}, trans: 'dissolve' }})"
-    dur_ok = len(ws) >= 9
-    if dur_ok: call = f"{{ ...{body(f'b{k}', a, mid + ' - 1')}, cam: [{Kc(a, k0)}, {Kc(mid + ' - 1', k1)}], nocut: true, vary: false, creep: 0 }}, {{ ...{body(f'b{k}_x', mid, bb).replace(chr(39) + 'dissolve' + chr(39), chr(39) + 'cut' + chr(39))}, cam: [{Kc(mid, k2)}, {Kc(bb, k3)}], nocut: true, vary: false, glide: true, glideN: 22, creep: 0 }}"
-    else: call = f"{{ ...{body(f'b{k}', a, bb)}, cam: [{Kc(a, k0)}, {Kc(bb, k3)}], nocut: true, vary: false, creep: 0 }}"
+    dur_ok = len(ws) >= 9 and man != 'corre'
+    if man == 'corre':   # carro correndo: 1 tomada so', camera de lado andando junto, com espaco ATRAS do carro para o jato e os riscos de velocidade
+        _xo = -0.2 * Ls; _dc = round(Ls * 3.5 + 2.0, 2)
+        k0 = (_xo, cy, z0, _dc, 16, 7, 44); k3 = (_xo, cy, z0, round(_dc * 0.92, 2), -8, 5, 44)
+    _cf = f", camFollow: {{ asset: {json.dumps(obj)}, k: 1, ky: 0 }}" if man == 'corre' else ''
+    if dur_ok: call = f"{{ ...{body(f'b{k}', a, mid + ' - 1')}, cam: [{Kc(a, k0)}, {Kc(mid + ' - 1', k1)}], nocut: true, vary: false, creep: 0{_cf} }}, {{ ...{body(f'b{k}_x', mid, bb).replace(chr(39) + 'dissolve' + chr(39), chr(39) + 'cut' + chr(39))}, cam: [{Kc(mid, k2)}, {Kc(bb, k3)}], nocut: true, vary: false, glide: true, glideN: 22, creep: 0{_cf} }}"
+    else: call = f"{{ ...{body(f'b{k}', a, bb)}, cam: [{Kc(a, k0)}, {Kc(bb, k3)}], nocut: true, vary: false, creep: 0{_cf} }}"
     b['_explica_ok'] = {'objeto': obj, 'manobra': man, 'vfx': [v_.get('k', 'jato') for v_ in vfx_in], 'rotulos': nrot, 'graficos': [x_ for x_ in ('medidor', 'contador', 'passos', 'comparar') if E.get(x_)], 'raiox': bool(xr)}
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = ''.join(pt_ if i_ % 2 else re.sub(r'\bX\b', 'X_' + b['set'], pt_) for i_, pt_ in enumerate(re.split(r'("(?:[^"\\]|\\.)*")', call)))
     return call
 
 def build_beat(k, b):
-    shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
+    shot = b.get('shot', 'two')
+    if shot == 'close' and len(b.get('who', [])) >= 2 and re.search(r'\b(os dois|as duas|ambos|ambas|juntos|juntas|todos|um ao outro|um no outro|entre eles)\b', _nrm0(b['say'])): shot = b['shot'] = 'two'   # v13: a frase fala dos DOIS -> os dois no quadro (nada de close em um so')
+    T = dict(TEMPL.get(shot, TEMPL['two']))
     if b.get('impact') and shot in WIDE and b.get('caminhoes'): T.update(d0=13.0, d1=31.0, el=11, h=2.6); T.pop('az0', None); T.pop('az1', None)   # comeca na tropa subindo nos caminhoes e ABRE para a fazenda inteira
     elif b.get('impact') and shot in WIDE: T.update(d0=25.0, d1=19.0, el=11, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
     elif shot == 'reveal': T.update(d0=11.0, d1=27.0, el=10)
     if b.get('_emo_close') and shot == 'close': T.update(d0=3.5, d1=2.9, h=2.55)   # EMOCAO: camera chega no rosto (a cara diz o que ele sente)
     if b.get('perto') and shot in ('two', 'group', 'low', 'close'): T['d0'] *= b['perto']; T['d1'] *= b['perto'] * 0.94
+    if shot in ('two', 'group', 'low', 'close') and re.search(r'\b(caiu|cairam|caindo|cai|tombou|tombaram|desmaiou|desmaiaram|derrub\w+|empurr\w+|desabou|escorreg\w+|tropec\w+)\b', _nrm0(b['say'])) and not b.get('interior'): T['d0'] *= 1.3; T['d1'] *= 1.3; T['_aberto_acao'] = True   # v13 QUEDA: quem cai ocupa ~3 m deitado; a camera abre para o corpo inteiro ficar no quadro
+    if shot in ('two', 'group', 'low', 'close') and not T.pop('_aberto_acao', None) and not b.get('_obj_acao') and re.search(r'\b(pul\w+|salt\w+|comemor\w+|danc\w+|jog\w+ para cima|arremess\w+)\b', _nrm0(b['say'])): T['d0'] *= 1.25; T['d1'] *= 1.25; T['h'] = T.get('h', 2.3) + 0.35   # v13 PULO: quem pula sobe ~1 m; a camera abre e sobe para a cabeca nao sair do quadro
     _n = len(b.get('who', []))
     if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
     light = b.get('light')
@@ -1220,7 +1254,7 @@ def build_beat(k, b):
         _va = vc.get('asset', 'kit/carro_redondo'); _va = 'kit/carro_redondo' if _va == 'vehicles/car' else _va
         if _va == 'kit/carro_redondo' and ANO and ANO < 1935: _va = 'kit/carro_antigo'      # CARRO DA EPOCA
         elif _va == 'kit/carro_redondo' and ANO and ANO < 1975: _va = 'kit/carro_50'
-        pr.append(f"{{ asset: {json.dumps(_va)}, at: [X + {num(x0v)}, {num(zv)}], move: [[X + {num(x1v)}, {num(zv)}], {a}, {bb}, 'lin'], s: {num(sv * (0.85 if _va in ('kit/carro_redondo', 'kit/carro_antigo', 'kit/carro_50') else 1))}, bob: 0.03{', ry: ' + ('-1.5708' if _FRENTE.get(_va.split('/')[-1], 1) == 1 else '1.5708') if _va.split('/')[-1] in _FRENTE else ''} }}")
+        pr.append(f"{{ asset: {json.dumps(_va)}, at: [X + {num(x0v)}, {num(zv)}], move: [[X + {num(x1v)}, {num(zv)}], {a}, {bb}, 'lin'], s: {num(_tam_real(_va, sv * (0.85 if _va in ('kit/carro_redondo', 'kit/carro_antigo', 'kit/carro_50') else 1))[0])}, bob: 0.03{', ry: ' + ('-1.5708' if _FRENTE.get(_va.split('/')[-1], 1) == 1 else '1.5708') if _va.split('/')[-1] in _FRENTE else ''} }}")
         _tvv = ' ' + re.sub(r'[^a-z ]', ' ', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()) + ' '
         _wsv = b['say'].split(); _jvv = next((j_ for j_, w_ in enumerate(_wsv) if re.match(r'(voou|voaram|voando|voa$|decol|levantou|alcou)', nrm(w_))), None)
         _yv = ''
@@ -1305,6 +1339,8 @@ def build_beat(k, b):
         # VEICULO DE VERDADE (23/11, Gibson: "carro do tamanho correto", "carro voador saindo do chao e voando", "nada de carro parado no ceu")
         if _EH_VEIC(asset) and not ex.get('fixo') and not ex.get('carregado'):
             _L = _glb_len(asset); _alvo = 6.2 if re.search(r'truck|caminh|onibus|bus', str(asset)) else 5.0
+            _sr, _tr = _tam_real(asset, s, z)
+            if _tr: s = _sr; b.setdefault('_tam', []).append(_tr)
             if _ppos and float(z) > -3.0 and not ex.get('perto'): dx, z = (0.0 if shot not in WIDE else dx), -3.4   # carro nunca em cima/no meio dos personagens: estaciona ATRAS deles, inteiro no quadro ("perto": true no prop desliga)
             if _L and float(s) * _L < 0.85 * _alvo: s = round(_alvo / _L, 2)   # carro proporcional aos personagens (~3 m): nunca carrinho de brinquedo
             _tv = ' ' + re.sub(r'[^a-z0-9 ]', ' ', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()) + ' '
@@ -1376,6 +1412,9 @@ def build_beat(k, b):
                 extra += f", vfx: [{{ k: 'velocidade', a: {a} + 12, b: {bb} - 8 }}" + (f", {{ k: 'pneu', a: {a} + 4, b: {a} + 30, pts: 'baixo4', pot: 1 }}" if _arr else '') + "]"
                 if _arr: KWSFX.append((starts[k] + max(0, (_jx(r'(acelerou|arrancou|disparou|correu|corria|lancad|lancou)') or 0)), 'pneu')); KWSFX.append((starts[k] + max(0, (_jx(r'(acelerou|arrancou|disparou|correu|corria|lancad|lancou)') or 0)), 'motor_ev'))
                 b.setdefault('_veic_anim', []).append('anda pela cena')
+        if not _EH_VEIC(asset) and not ex.get('s_livre') and not ex.get('carregado'):   # v13: qualquer objeto grande no tamanho real
+            _sr, _tr = _tam_real(asset, s, z)
+            if _tr: s = _sr; b.setdefault('_tam', []).append(_tr)
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx - (mv / 2 if ex.get('carregado') else 0))}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = list(b.pop('_anfx', []))
@@ -2134,6 +2173,55 @@ os.makedirs(f'referencias/{ID}', exist_ok=True)
 json.dump(_doss, open(f'referencias/{ID}/DOSSIE.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 open(f'referencias/{ID}/FICHA.md', 'w', encoding='utf-8').write('\n'.join([f"# FICHA DE REFERENCIA - {B.get('title', ID)}", '', f"- Ano/epoca: {_ano_v} ({_doss['ancoras']['era']})", f"- Onde: {_VIS.get('local', '-')}", f"- Quando: {_VIS.get('quando', '-')}", f"- Quem: {_VIS.get('participantes', '-')}", f"- Roupas: {_VIS.get('roupas', '-')}", f"- Cenario real: {_VIS.get('cenario', '-')}", f"- Objetos: {_VIS.get('objetos', '-')}",
     f"- Cenarios usados no video: {', '.join(_doss['ancoras']['cenarios'])}", f"- PROIBIDO pela epoca (a ferramenta bloqueia): {', '.join(_proib_auto) or '-'}", f"- Proibido pelo roteiro: {', '.join(map(str, _doss['proibido_pelo_roteiro'])) or '-'}", '', '## Explicacoes (ciencia)'] + [f"- {e_}" for e_ in (_VIS.get('explicacoes') or ['-'])] + ['', '## Fontes visuais'] + [f"- {f_}" for f_ in (_VIS.get('fontes_visuais') or ['-'])] + ['', '## Fontes da historia'] + [f"- {f_}" for f_ in (B.get('fontes') or ['-'])]) + '\n')
+# ===== v13 HEROIS (24/11): todo roteiro tem o(s) seu(s) heroi(s) -- objeto(s) e personagem(ns). "herois": ["kit/x", ...] no topo, ou a ferramenta deduz =====
+_cnt_obj = __import__('collections').Counter(str(p_[0]) for b_ in beats for p_ in (b_.get('props') or []) if not str(p_[0]).startswith(('kit/room', 'buildings/', 'nature/', 'kit/torre_luz', 'kit/rampa', 'mk/', 'kit/tower', 'kit/marco', 'kit/rg_', 'kit/telao', 'kit/grade', 'kit/cone', 'kit/barreira', 'ship', 'boat')))
+HEROIS_OBJ = list(dict.fromkeys([h_ for h_ in ([HEROI] if HEROI else []) + list(B.get('herois') or []) + [a_ for a_, n_ in _cnt_obj.most_common(3) if n_ >= 3] if h_]))[:4]
+_cnt_per = __import__('collections').Counter(w_.split(':')[0] for b_ in beats for w_ in (b_.get('who') or []) if not w_.startswith(('POV', 'POVO')))
+HEROIS_PER = [c_ for c_, n_ in _cnt_per.most_common(4) if n_ >= 2][:(4 if re.search(r'guerra|batalha', _nz(str(B.get('serie', '')) + ' ' + str(B.get('title', '')))) else 2)] or [c_ for c_, n_ in _cnt_per.most_common(1)]
+for h_ in HEROIS_OBJ:
+    if not any(str(p_[0]) == h_ for b_ in beats for p_ in (b_.get('props') or [])) and not any((b_.get('_explica_ok') or {}).get('objeto') == h_ for b_ in beats): _glob.append((f'objeto heroi {h_} nao aparece em nenhuma cena', f'por {h_} em "props" de pelo menos uma cena (ou tirar de "herois")'))
+# ===== v13 FOLHA 4 - PESQUISA (24/11, Gibson: "a ferramenta faz um raio-X do roteiro, ve o que vai precisar, pesquisa na internet e bate print de tudo") =====
+_PT_EN = (('carro', 'car'), ('caminhao', 'truck'), ('tanque', 'tank'), ('navio', 'ship'), ('balao', 'hot air balloon'), ('foguete', 'rocket'), ('canhao', 'cannon'), ('soldado', 'soldier uniform'), ('exercito', 'army'), ('cavalo', 'horse cavalry'), ('trem', 'train locomotive'), ('aviao', 'airplane'), ('fazenda', 'farm'), ('castelo', 'castle'), ('porto', 'harbor'), ('laboratorio', 'laboratory'), ('fabrica', 'factory'), ('hospital', 'hospital'))
+_plano = []
+def _pq(tipo_, item_, consultas_):
+    item_ = str(item_).strip()
+    if not item_ or any(p_['item'] == item_ for p_ in _plano): return
+    _b = (_VIS.get('buscas') or {}).get(item_)
+    _plano.append({'tipo': tipo_, 'item': item_, 'consultas': [c_ for c_ in dict.fromkeys(([_b] if _b else []) + [re.sub(r'\s+', ' ', re.sub(r'[():;,]', ' ', str(c_))).strip()[:90] for c_ in consultas_]) if c_]})
+_ano_s = str(_ano_v or '')
+_tit = re.sub(r'^.*EP\s*\d+\s*-\s*', '', str(B.get('title', ID)))
+_pq('tema', _tit, [B.get('tema_busca') or _tit, ' '.join(re.findall(r'[A-Z][\w]+', ' '.join(b_['say'] for b_ in beats[:3])))[:80] + ' ' + _ano_s])
+if _VIS.get('local'): _pq('lugar', str(_VIS['local'])[:80], [str(_VIS['local']).split(':')[0].split('(')[0], str(_VIS['local']).split(':')[0] + ' ' + _ano_s])
+for m_ in dict.fromkeys(str(b_['mapa']) for b_ in beats if b_.get('mapa')): _pq('lugar', m_.title(), [m_.title() + ' ' + _ano_s, m_.title() + ' landscape'])
+if _ano_v: _pq('epoca', f'roupas e ruas de {_ano_v}', [f'{_ano_v} fashion clothing', f'{_ano_v} street photograph' if _ano_v > 1840 else f'{(_ano_v // 100) + 1}th century clothing painting'])
+for q_ in (_VIS.get('participantes') or []) if isinstance(_VIS.get('participantes'), list) else ([_VIS['participantes']] if _VIS.get('participantes') else []): _pq('pessoas', str(q_)[:70], [str(q_).split(' no ')[0].split(' na ')[0], str(q_) + ' ' + _ano_s])
+for q_ in (_VIS.get('objetos') or []) if isinstance(_VIS.get('objetos'), list) else ([_VIS['objetos']] if _VIS.get('objetos') else []): _pq('objeto', str(q_)[:70], [str(q_).split('(')[0], str(q_).split('(')[0] + ' ' + _ano_s])
+_hn = B.get('herois_nomes') or {}
+for n_h, h_ in enumerate(HEROIS_OBJ): _pq('heroi', _hn.get(h_) or (h_.split('/')[-1].replace('_', ' ')), [_hn.get(h_) or (str((_VIS.get('objetos') or [_tit])[0]).split('(')[0] if n_h == 0 and isinstance(_VIS.get('objetos'), list) else h_.split('/')[-1].replace('_', ' ')), _tit if n_h == 0 else h_.split('/')[-1].replace('_', ' ')])
+_txt_all = _nz(' '.join(b_['say'] for b_ in beats))
+for pt_, en_ in _PT_EN:
+    if re.search(r'\b' + pt_, _txt_all): _pq('epoca', f'{pt_} da epoca', [f'{en_} {_ano_s}', en_])
+for b_ in beats:
+    if b_.get('explica') or (b_.get('_classe') == 'explicativa'): _pq('mecanismo', b_['say'][:70], [' '.join(w_ for w_ in re.findall(r'[a-z]{5,}', _nz(b_['say'])) if w_ not in _STOPW)[:60], ((b_.get('_explica_ok') or {}).get('objeto') or '').split('/')[-1].replace('_', ' ') + ' diagram'])
+os.makedirs(f'referencias/{ID}', exist_ok=True)
+json.dump({'id': ID, 'ano': _ano_v, 'itens': _plano}, open(f'referencias/{ID}/plano_pesquisa.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+try: _pesq = {i_['item']: i_.get('achados', []) for i_ in json.load(open(f'referencias/{ID}/pesquisa.json', encoding='utf-8'))['itens']}
+except Exception: _pesq = None
+_ref_man = _VIS.get('referencias') or {}
+_f4 = ['# FOLHA 4 - PESQUISA: ' + str(B.get('title', ID)), '', 'Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py ' + ID + '` busca cada item na internet, baixa os prints (referencias/' + ID + '/prints/) e monta o quadro referencias/' + ID + '/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.', '',
+       f'- Historia: {_tit}', f'- Epoca: {_ano_v or "?"} | Lugar: {_VIS.get("local", "?")} | Quando: {_VIS.get("quando", "?")}', f'- HEROIS (objeto): {", ".join(HEROIS_OBJ) or "-"}', f'- HEROIS (personagens): {", ".join(HEROIS_PER) or "-"}',
+       f'- Cenarios: {", ".join(_doss["ancoras"]["cenarios"])}', f'- Proibido pela epoca: {", ".join(_proib_auto) or "-"}', f'- Tamanho real aplicado: {"; ".join(dict.fromkeys(t_ for b_ in beats for t_ in b_.get("_tam", []))) or "nenhum objeto precisou de ajuste"}', '', '## Itens pesquisados', '', 'Tipo | Item | Consultas | Referencias achadas (print)', '---|---|---|---']
+_sem_ref = []
+for it_ in _plano:
+    ach_ = (_pesq or {}).get(it_['item'], []); man_ = _ref_man.get(it_['item'])
+    if not ach_ and not man_: _sem_ref.append(it_['item'])
+    _f4.append(f"{it_['tipo']} | {it_['item']} | {' / '.join(it_['consultas'])} | " + ('; '.join(f"{a_['titulo'][:50]} ({a_['print']})" for a_ in ach_[:3]) or (f'manual: {man_}' if man_ else 'SEM REFERENCIA')))
+_f4 += ['', '## Explicacoes (como funciona, com fonte)'] + [f'- {e_}' for e_ in (_VIS.get('explicacoes') or ['-'])] + ['', '## Fontes visuais do roteirista'] + [f'- {f_}' for f_ in (_VIS.get('fontes_visuais') or ['-'])]
+open(f'stories/{ID}/folha4_pesquisa.md', 'w', encoding='utf-8').write('\n'.join(_f4) + '\n')
+if B.get('serie') != 'Teste':
+    if _pesq is None: _glob.append(('FOLHA 4: a pesquisa de campo ainda nao foi feita', f'python3 pesquisar.py {ID}  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/{ID}/moodboard.jpg'))
+    elif len(_sem_ref) > max(1, len(_plano) // 3): _glob.append((f'FOLHA 4: {len(_sem_ref)} item(ns) sem referencia visual: {", ".join(_sem_ref)[:160]}', 'por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}'))
+print(f"FOLHA 4 (pesquisa): {len(_plano)} itens, {len(_plano) - len(_sem_ref) if _pesq is not None else 0} com referencia -> stories/{ID}/folha4_pesquisa.md | herois: objeto {HEROIS_OBJ or '-'} personagens {HEROIS_PER or '-'}")
 if B.get('serie') != 'Teste' and _vfal: _glob.append((f'roteiro sem pesquisa visual completa (falta: {", ".join(_vfal)})', 'pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela'))
 if not HEROI and 'heroi' not in B: _glob.append(('video sem objeto heroi', '"heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)'))
 _cx = sorted({o_ for b in beats for o_ in [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) if '/' in str(o_) and not _redondo(str(o_))})

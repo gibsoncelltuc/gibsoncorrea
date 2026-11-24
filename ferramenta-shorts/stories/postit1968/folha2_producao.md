@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não ca...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): FRY (variante 0, expressao surprised) | multidao: 6 de POV
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a ...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): SIL (variante 0, expressao smile)
@@ -147,9 +147,11 @@ nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se pare
 ## Video inteiro
 - Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 14% | detalhe 4%
 - Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar, b9 susto
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py postit1968  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/postit1968/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh postit1968 bN bM` (so essas cenas).

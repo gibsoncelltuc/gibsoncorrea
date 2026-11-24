@@ -1,0 +1,79 @@
+{
+ "id": "losangeles1942",
+ "titulo": "Guerras Inusitadas EP 20 - A Batalha de Los Angeles",
+ "ancoras": {
+  "ano": 1942,
+  "era": "historica",
+  "regiao": "eua",
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "interior madeira",
+   "interior pedra",
+   "mountain",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "escudo",
+  "lampiao",
+  "navio a vela",
+  "objeto moderno",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
+  "kit/canhao_moderno",
+  "kit/marco_hollywood",
+  "kit/room_eua_wood",
+  "kit/room_europa_stone",
+  "kit/searchlight",
+  "kit/wash_basin",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Stool",
+  "mk/Table_Large",
+  "nature/lamppost"
+ ],
+ "pesquisa_visual": {
+  "local": "Los Angeles (California): ruas do centro com predios dos anos 1940, baterias antiaereas na costa e nos morros, holofotes cruzando o ceu",
+  "quando": "madrugada de 24 para 25 de fevereiro de 1942 (sirenes as 2h25, tiros das 3h16 as 4h14, fim do alerta as 7h21); vespera: submarino japones I-17 atacou Ellwood no fim da tarde de 23/fev",
+  "participantes": [
+   "artilharia antiaerea do Exercito dos EUA",
+   "moradores de Los Angeles",
+   "militares e politicos no dia seguinte"
+  ],
+  "roupas": {
+   "SOL": "soldado americano de 1942: uniforme verde-oliva, capacete M1917 (Brodie)",
+   "GEN": "oficial com quepe de servico",
+   "CID": "morador de 1942: paleto e chapeu de aba",
+   "PRE": "politico de terno escuro e chapeu-coco",
+   "POV": "moradores de casaco e chapeu dos anos 40"
+  },
+  "cenario": "cidade no apagao a noite, fachos de holofote se cruzando no ceu, explosoes de fumaca dos tiros antiaereos, estilhacos caindo nas ruas",
+  "objetos": [
+   "holofotes antiaereos",
+   "canhoes antiaereos",
+   "sirenes",
+   "jornal do dia seguinte"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Los_Angeles",
+   "https://commons.wikimedia.org/wiki/File:Battle_of_Los_Angeles_LA_Times_photo.jpg"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

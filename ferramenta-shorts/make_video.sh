@@ -11,6 +11,8 @@ log() { echo "$(date +%T) $*" | tee -a $L; }
 st() { [ -f stories/$ID/stages/$1 ]; }; mark() { date +%s > stories/$ID/stages/$1; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }
 python3 mkvideo.py $ID >> $L 2>&1
+# FOLHA 4 (v13): pesquisa de campo automatica antes de tudo (busca cada item do roteiro na internet, baixa os prints e monta o quadro de referencias)
+if [ ! -f referencias/$ID/pesquisa.json ]; then log "pesquisa de campo (folha 4)"; python3 pesquisar.py $ID >> $L 2>&1 || true; python3 mkvideo.py $ID >> $L 2>&1; fi
 VOICE=$(j voice); RATE=$(j rate); T=$(j file)
 if st voice && [ -f stories/$ID/voice.mp3 ] && [ ! -f stories/$ID/work/phrases.json ]; then log "refazendo so a temporizacao (work/ ausente)"; (cd stories/$ID && python3 ../../timing.py voice.mp3 script.txt --out work >> ../../$L 2>&1); fi
 if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; fi

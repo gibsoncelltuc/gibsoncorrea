@@ -1,0 +1,124 @@
+{
+ "id": "tulipas1637",
+ "ano": 1637,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "cena": "b0",
+   "frase": "Uma única flor já custou o preço de uma casa inteira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b1",
+   "frase": "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b2",
+   "frase": "Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por um bulbo, e outro gritava que pagava duas mil.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b3",
+   "frase": "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b4",
+   "frase": "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b5",
+   "frase": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b6",
+   "frase": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "cena": "b7",
+   "frase": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "cena": "b8",
+   "frase": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b9",
+   "frase": "O marinheiro, pelo menos, almoçou bem.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

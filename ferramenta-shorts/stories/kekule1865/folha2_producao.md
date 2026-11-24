@@ -30,7 +30,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): benzeno, carbono, liquido, problema, professor, seis
-- RISCOS: nenhum
+- RISCOS: 
+  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
 
 ## Cena b3 - Os químicos desenhavam correntes retas, e nada fechava a conta. Era um...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -60,7 +61,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar
 - Objetos/modelos: kit/snake_ring, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atomos, proprio, sonho
-- RISCOS: nenhum
+- RISCOS: 
+  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
 
 ## Cena b6 - Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não...
 - Cenario: interior madeira | luz: noite | clima: limpo
@@ -148,9 +150,13 @@ mk/Chair_1 | b4, b5 | pronto | conferir na folha de contato se le bem; se parece
 ## Video inteiro
 - Objeto heroi: kit/snake_ring | grandes momentos: b1, b10 | planos abertos: 2 | mistura: close 15% | medio 76% | aberto 5% | detalhe 3%
 - Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b9 pular
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py kekule1865  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/kekule1865/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- b2: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+- b5: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kekule1865 bN bM` (so essas cenas).

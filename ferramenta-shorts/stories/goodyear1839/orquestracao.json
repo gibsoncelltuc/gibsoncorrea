@@ -1,0 +1,142 @@
+{
+ "id": "goodyear1839",
+ "ano": 1839,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "cena": "b0",
+   "frase": "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b1",
+   "frase": "Era mil oitocentos e trinta e nove, nos Estados Unidos.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "cena": "b2",
+   "frase": "A borracha estava na moda, mas tinha um defeito: no calor, derretia e fedia. No frio, rachava.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "cena": "b3",
+   "frase": "Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo o dinheiro da família.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b4",
+   "frase": "Fez tantas dívidas que foi parar na prisão. E lá dentro continuou fazendo experiências.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "cena": "b5",
+   "frase": "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b6",
+   "frase": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b7",
+   "frase": "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "cena": "b8",
+   "frase": "Tinha nascido a vulcanização: finalmente a borracha aguentava o calor e o frio.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b9",
+   "frase": "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "cena": "b10",
+   "frase": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "cena": "b11",
+   "frase": "E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "cena": "b12",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

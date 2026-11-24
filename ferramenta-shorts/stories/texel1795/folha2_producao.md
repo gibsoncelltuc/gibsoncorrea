@@ -116,9 +116,13 @@ horse | b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se par
 ## Video inteiro
 - Objeto heroi: kit/navio_vela | grandes momentos: b5, b7 | planos abertos: 5 | mistura: close 24% | medio 41% | aberto 32% | detalhe 3%
 - Interacoes: b3 tremem de frio
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py texel1795  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/texel1795/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh texel1795 bN bM` (so essas cenas).

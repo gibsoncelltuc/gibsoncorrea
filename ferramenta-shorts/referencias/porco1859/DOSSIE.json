@@ -1,0 +1,89 @@
+{
+ "id": "porco1859",
+ "titulo": "Guerras Inusitadas EP 06 - A Guerra do Porco",
+ "ancoras": {
+  "ano": 1859,
+  "era": "historica",
+  "regiao": "eua",
+  "luz_base": "day",
+  "cenarios": [
+   "countryside",
+   "harbor",
+   "interior madeira",
+   "mountain",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "escudo",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/barn",
+  "buildings/house_small",
+  "buildings/house_two",
+  "buildings/shop",
+  "cannon",
+  "kit/batatas",
+  "kit/coin",
+  "kit/cross",
+  "kit/room_eua_wood",
+  "kit/room_europa_wood",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "nature/flowerbed",
+  "nature/haybale",
+  "nature/picket_fence",
+  "nature/scarecrow",
+  "nature/tree_oak",
+  "ship",
+  "tools/wheelbarrow"
+ ],
+ "pesquisa_visual": {
+  "local": "Ilha de San Juan (entre os EUA e o Canada, perto de Vancouver): fazendas com horta, pinheiros, costa com navios",
+  "quando": "15 de junho de 1859 (o tiro no porco), de dia; ocupacao conjunta ate 1872",
+  "participantes": [
+   "Lyman Cutlar, fazendeiro americano",
+   "Charles Griffin, irlandes da Companhia da Baia de Hudson (dono do porco)",
+   "capitao George Pickett e soldados da 9a Infantaria dos EUA",
+   "Royal Marines britanicos",
+   "contra-almirante Robert Baynes"
+  ],
+  "roupas": {
+   "FAZ": "camisa azul e chapeu de palha de colono",
+   "IRL": "paleto e chapeu-coco (1859)",
+   "AME": "soldado americano de 1859: casaca azul-escura, calca azul-clara, quepe de campanha",
+   "ING": "Royal Marine: casaca vermelha, barretina",
+   "ALM": "almirante da Marinha Real: casaca azul-escura com dragonas, chapeu bicorne"
+  },
+  "cenario": "horta de batatas cercada, fazenda de colonos, pinheiros, praia com navios de guerra a vela/vapor, acampamentos dos dois exercitos",
+  "objetos": [
+   "batatas da horta",
+   "espingarda",
+   "notas de dolar",
+   "navios de guerra",
+   "canhoes"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+   "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

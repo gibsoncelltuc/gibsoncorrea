@@ -1,0 +1,65 @@
+{
+ "id": "kiska1943",
+ "titulo": "A Invasão da Ilha Vazia",
+ "ancoras": {
+  "ano": 1943,
+  "era": "historica",
+  "regiao": "eua",
+  "luz_base": "overcast",
+  "cenarios": [
+   "arctic",
+   "harbor",
+   "mountain"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "escudo",
+  "lampiao",
+  "navio a vela",
+  "objeto moderno",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/canhao_moderno",
+  "kit/dog_sit",
+  "kit/marco_alpes",
+  "kit/navio_vapor",
+  "nature/picket_fence",
+  "ship",
+  "vehicles/airplane"
+ ],
+ "pesquisa_visual": {
+  "local": "Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim e pedras, praias de cascalho, mar frio, neblina constante",
+  "quando": "desembarque em 15 de agosto de 1943 (os japoneses tinham saido em 28 de julho, escondidos na neblina)",
+  "participantes": [
+   "cerca de 34 mil soldados americanos e canadenses",
+   "marinha americana",
+   "guarnicao japonesa (ja evacuada)",
+   "cachorros deixados na ilha"
+  ],
+  "roupas": {
+   "USA": "soldado americano de 1943: uniforme verde-oliva, capacete M1, fuzil",
+   "CAN": "soldado canadense: uniforme caqui, capacete Brodie",
+   "OFF": "oficial americano com quepe"
+  },
+  "cenario": "praia de cascalho cinza com navios de desembarque, encostas de tundra sem arvores, neblina densa, vulcao ao fundo",
+  "objetos": [
+   "navios de guerra e de desembarque",
+   "avioes",
+   "canhoes",
+   "cachorros abandonados"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Operation_Cottage",
+   "https://en.wikipedia.org/wiki/Kiska"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

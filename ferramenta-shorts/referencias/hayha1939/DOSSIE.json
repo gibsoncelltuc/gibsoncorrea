@@ -1,0 +1,71 @@
+{
+ "id": "hayha1939",
+ "titulo": "A Morte Branca",
+ "ancoras": {
+  "ano": 1939,
+  "era": "historica",
+  "regiao": "russia",
+  "luz_base": "arctic",
+  "cenarios": [
+   "arctic",
+   "interior hospital",
+   "interior madeira",
+   "mountain"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "escudo",
+  "lampiao",
+  "navio a vela",
+  "objeto moderno",
+  "tambor de guerra",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/campfire",
+  "kit/maca",
+  "kit/room_europa_wood",
+  "kit/room_hospital",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Cabinet",
+  "mk/Nightstand_Shelf",
+  "mk/Stool",
+  "nature/bush",
+  "nature/picket_fence",
+  "nature/tree_oak",
+  "nature/tree_pine"
+ ],
+ "pesquisa_visual": {
+  "local": "Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos",
+  "quando": "Guerra de Inverno, 30/nov/1939 a 13/mar/1940; ferido em 6/mar/1940; temperaturas de ate -40 C, dias curtos",
+  "participantes": [
+   "Simo Hayha, fazendeiro e atirador de 1,52 m",
+   "soldados finlandeses de esqui e camuflagem branca",
+   "Exercito Vermelho"
+  ],
+  "roupas": {
+   "FIN": "camuflagem branca de neve por cima da farda, capuz/gorro branco, fuzil Mosin-Nagant M/28-30 de mira de ferro",
+   "SOV": "soldado sovietico: capote verde-acinzentado, capacete SSh-39, fuzil"
+  },
+  "cenario": "floresta de pinheiros com neve funda, trincheiras rasas, fogueira de acampamento, hospital de campanha",
+  "objetos": [
+   "fuzil de mira de ferro",
+   "esquis",
+   "fogueira",
+   "neve na boca"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Simo_H%C3%A4yh%C3%A4",
+   "https://commons.wikimedia.org/wiki/File:Simo_H%C3%A4yh%C3%A4_1940.jpg"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

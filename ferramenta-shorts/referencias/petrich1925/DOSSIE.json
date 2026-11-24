@@ -1,0 +1,74 @@
+{
+ "id": "petrich1925",
+ "titulo": "A Guerra do Cachorro Perdido",
+ "ancoras": {
+  "ano": 1925,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "interior pedra",
+   "mountain",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "carro dos anos 50",
+  "castical",
+  "escudo",
+  "navio a vela",
+  "objeto moderno",
+  "tambor de guerra",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/coin",
+  "kit/dog_sit",
+  "kit/room_europa_wood",
+  "kit/room_verde_stone",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Stool",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia e a Bulgaria, perto de Petrich; sede da Liga das Nacoes em Genebra",
+  "quando": "19 de outubro de 1925 (o tiro), invasao grega a partir de 22 de outubro de 1925, de dia, outono",
+  "participantes": [
+   "soldado grego de guarda e seu cachorro",
+   "sentinela bulgara",
+   "exercito grego",
+   "governo bulgaro",
+   "Conselho da Liga das Nacoes"
+  ],
+  "roupas": {
+   "GRE": "soldado grego de 1925: farda caqui, quepe, fuzil",
+   "BUL": "soldado bulgaro: farda verde-acinzentada, quepe",
+   "OFF": "oficial grego de caqui com quepe"
+  },
+  "cenario": "montanhas secas com pedras e mata baixa, posto de fronteira; salao de reunioes da Liga das Nacoes",
+  "objetos": [
+   "cachorro",
+   "fuzis",
+   "bandeira branca",
+   "documento do ultimato"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Incident_at_Petrich"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

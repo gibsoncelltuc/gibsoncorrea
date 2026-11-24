@@ -177,3 +177,15 @@ O que a ferramenta **sabe** animar (escreva o roteiro com isto): andar, chegar a
 **5. Dossiê.** Todo `mkvideo.py` grava `referencias/<id>/DOSSIE.json` e `FICHA.md` (ano, lugar, cenários, proibidos, fontes). Vídeo com cena de explicação exige `"visual": {"explicacoes": ["como funciona X — fonte"]}`.
 
 **6. Padrões do canal travados:** a 1ª frase não pode abrir com data; duração entre 55 e 75 s (bloqueia fora de 50–80); `stories/<id>/orquestracao.json` traz a classe de cada frase (chave / explicativa / simples / transição), o briefing de efeito das ações-chave e 4 métricas que têm de dar 100%.
+
+## v13b (24/11) — Folha 4 (pesquisa), heróis, tamanho real, queda e carro correndo
+
+**Folha 4 — PESQUISA (`stories/<id>/folha4_pesquisa.md`).** O `mkvideo.py` faz o raio-X do roteiro e monta o plano de pesquisa (tema, lugar, época, pessoas, roupas, objetos, veículos, heróis e cada mecanismo explicado). `python3 pesquisar.py <id>` busca cada item na internet (Wikimedia Commons: fotos, quadros, desenhos), baixa os prints para `referencias/<id>/prints/` e monta o quadro `referencias/<id>/moodboard.jpg`. A fila (`make_video.sh`) roda isso sozinha no começo. **Olhe o quadro antes de aprovar o storyboard** e ajuste figurino, cenário e objetos a ele. Sem pesquisa, ou com mais de 1/3 dos itens sem referência, o render trava. Item que a busca não acha: consulta em inglês em `"visual": {"buscas": {"<item>": "<consulta>"}}`, ou a referência vista por outro meio em `"visual": {"referencias": {"<item>": "<url/descrição>"}}`.
+
+**Heróis.** Todo roteiro tem o(s) seu(s) herói(s). Objeto: `"heroi": "kit/x"` (um) ou `"herois": ["kit/x", "kit/y"]` (vários); nome legível para a pesquisa em `"herois_nomes": {"kit/x": "Tesla Roadster 2026"}`. Personagens-herói são deduzidos (quem mais aparece; em vídeo de guerra/batalha, até 4 — os dois lados). Herói que não aparece em nenhuma cena trava o render. A folha 4 lista os heróis.
+
+**Tamanho real.** Carro tem tamanho de carro, tanque de tanque, balão tripulado é gigante, balão de festa é pequeno. A tabela `_TAM_REAL` (em `mkvideo.py`) guarda o tamanho em metros de cada tipo de objeto grande e a ferramenta corrige a escala sozinha quando o roteiro põe menor (1 m real = 1,35 unidade; o boneco tem ~3). A correção aparece na folha 4. Objeto novo de tamanho conhecido: acrescente uma linha na tabela. `"s_livre": true` no 5º campo do prop libera (maquete, brinquedo).
+
+**Queda e pulo.** Quem cai fica deitado EM CIMA do chão, inteiro no quadro (a câmera abre sozinha em frase com caiu/tombou/desmaiou/empurrou). Quem pula: a câmera abre e sobe. Frase que fala "os dois / ambos / juntos" nunca vira close em um só.
+
+**Carro correndo no medidor.** Em cena de explicação, medidor em km/h (ou mph) com veículo = o veículo CORRENDO de lado, câmera junto, riscos de velocidade, fumaça de pneu na largada e propulsor na traseira (`"propulsor": false` tira o jato). Manual: `"manobra": "corre"`.

@@ -130,9 +130,11 @@ nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 26% | medio 56% | aberto 15% | detalhe 3%
 - Interacoes: b0 avanca e o outro recua, b5 empurrar, b6 pedir, b7 tremem de frio, b8 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py toledo1835  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/toledo1835/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh toledo1835 bN bM` (so essas cenas).

@@ -8,7 +8,7 @@ b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/searchlight, kit/marco_ho
 b1 | street | reveal | 10 | reagir | kit/marco_hollywood | - | -
 b2 | harbor | group | 12 | conversar, INTERAGEM: cochichar, batalha | kit/marco_hollywood | - | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/searchlight, kit/marco_hollywood, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b4 | mountain | orbit | 22 | encena, batalha | cannon, kit/marco_hollywood | - | -
+b4 | mountain | orbit | 22 | encena, batalha | kit/canhao_moderno, kit/marco_hollywood, cannon | - | -
 b5 | harbor | group | 12 | discutir, INTERAGEM: discutir | kit/marco_hollywood | - | -
 b6 | street | crowd | 22 | encena, batalha | kit/marco_hollywood, cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -

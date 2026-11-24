@@ -1,0 +1,115 @@
+{
+ "id": "kiska1943",
+ "ano": 1943,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "cena": "b0",
+   "frase": "Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma grande invasão da ilha de Kiska, no Alasca, ocupada pelos japoneses.",
+   "classe": "simples",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "cena": "b1",
+   "frase": "Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "cena": "b2",
+   "frase": "Antes do desembarque, bombardearam Kiska durante semanas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "cena": "b3",
+   "frase": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "cena": "b4",
+   "frase": "Mas teve um problema: os japoneses já tinham ido embora.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "cena": "b5",
+   "frase": "Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "cena": "b6",
+   "frase": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "cena": "b7",
+   "frase": "No fim, só acharam na ilha alguns cachorros abandonados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "cena": "b8",
+   "frase": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "cena": "b9",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

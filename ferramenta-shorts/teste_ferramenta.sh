@@ -46,5 +46,20 @@ python3 -c "import json,sys;o=json.load(open('stories/$V/orquestracao.json'));c=
 { [ -f referencias/$V/DOSSIE.json ] && [ -f referencias/$V/FICHA.md ]; } || f "v13: dossie nao foi gravado"
 node --check web/vfx.js 2>/dev/null || f "sintaxe web/vfx.js"
 grep -q "vfx.js" build3.sh || f "v13: vfx.js fora do build"
+# ---- v13b: tamanho real, folha 4, herois, carro correndo no medidor, queda ----
+grep -q 'asset: "kit/roadster26", at: \[X + 0, -4.0\], s: 1.3' $S || f "v13: carro fora do tamanho real (deveria ter ~6 unidades)"
+{ [ -f stories/$V/folha4_pesquisa.md ] && [ -f referencias/$V/plano_pesquisa.json ] && grep -q 'HEROIS' stories/$V/folha4_pesquisa.md; } || f "v13: folha 4 (pesquisa) nao foi gerada"
+python3 - "$V" <<'V13B' || f "v13: medidor de km/h nao poe o carro correndo com propulsor traseiro"
+import json, sys, re, subprocess
+v = sys.argv[1]; p = f'videos/{v}/beats.json'; B = json.load(open(p, encoding='utf-8'))
+B['beats'][1] = {"say": "Segundo a empresa, o carro vai de zero a cem em menos de um segundo.", "explica": {"medidor": {"de": 0, "para": 100, "un": "km/h", "na": "zero"}}}
+B['beats'][3] = {"who": ["ENG:0:angry", "MUS:0:surprised"], "say": "O engenheiro empurrou o chefe e ele caiu no chão diante de todos."}
+json.dump(B, open(p, 'w', encoding='utf-8'), ensure_ascii=False)
+subprocess.run([sys.executable, 'mkvideo.py', v], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+s = open(f'stories/{v}/spec.js', encoding='utf-8').read()
+ok = "dir: \"tras\"" in s and "k: \"velocidade\"" in s and 'camFollow' in s and "'fall'" in s
+sys.exit(0 if ok else 1)
+V13B
+grep -q "L_.y += 0.3 \* L_.s" web/runtime.js || f "v13: queda sem a correcao do corpo dentro do chao"
 [ -n "$V" ] && rm -rf "videos/$V" "stories/$V" "referencias/$V"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

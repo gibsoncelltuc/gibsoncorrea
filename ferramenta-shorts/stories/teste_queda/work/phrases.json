@@ -1,0 +1,54 @@
+{
+ "duration": 12.168,
+ "frames30": 365,
+ "source": "silence-align (cost 0.08)",
+ "segments": [
+  [
+   0.159417,
+   0.655417
+  ],
+  [
+   0.955458,
+   3.51246
+  ],
+  [
+   4.38479,
+   5.53562
+  ],
+  [
+   5.72467,
+   7.54321
+  ],
+  [
+   8.39513,
+   11.3704
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "No campo,",
+   "s": 0.159,
+   "e": 0.655
+  },
+  {
+   "text": "Jo\u00e3o empurrou Pedro com for\u00e7a e Pedro caiu no ch\u00e3o.",
+   "s": 0.955,
+   "e": 3.512
+  },
+  {
+   "text": "Ele trope\u00e7ou numa pedra,",
+   "s": 4.385,
+   "e": 5.536
+  },
+  {
+   "text": "desmaiou e ficou ca\u00eddo por um minuto.",
+   "s": 5.725,
+   "e": 7.543
+  },
+  {
+   "text": "Depois os dois pularam de alegria e jogaram a bola para cima.",
+   "s": 8.395,
+   "e": 11.37
+  }
+ ]
+}

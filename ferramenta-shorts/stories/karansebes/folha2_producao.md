@@ -143,9 +143,11 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 ## Video inteiro
 - Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 19% | detalhe 5%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua, b10 pular
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py karansebes  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/karansebes/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).

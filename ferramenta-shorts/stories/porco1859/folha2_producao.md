@@ -154,9 +154,11 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/batatas | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 8% | medio 77% | aberto 13% | detalhe 3%
 - Interacoes: b0 o outro se aproxima, b1 insiste, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py porco1859  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/porco1859/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).
