@@ -1,41 +1,41 @@
 # CRONOGRAMA - Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Gerado em 24/11 04:38 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 04:53 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | MOD, BOL | - | house_two, marco_ghirlandina, lamppost, bucket | - | Duas cidades italianas foram à guerra por causa de um balde de madeira
-b1 | transicao | loc_campo | reveal | NOB, BOL | 8 | house_small, marco_ghirlandina, picket_fence, tree_oak | - | Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a 
-b2 | simples | loc_montanha | track | MOD, MOD | - | marco_ghirlandina | - | Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bol
-b3 | chave | loc_montanha | crowd | MOD, MOD | - | house_small, well, picket_fence, tree_oak, bucket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, 
-b4 | simples | interior pedra | close | NOB | - | bucket | - | "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu M
-b5 | simples | loc_montanha | crowd | BOL, BOL | 18 | marco_ghirlandina | - | Bolonha juntou um exército de trinta mil homens, e marchou contra a vi
-b6 | simples | interior madeira | two | MOD, MOD | - | - | - | Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida
-b7 | chave | loc_deserto | crowd | MOD, BOL | 24 | marco_ghirlandina | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa única tarde de batalha, os sete mil atacaram de sur
-b8 | simples | street | track | MOD, MOD | 8 | house_two, marco_ghirlandina, lamppost | - | Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ain
-b9 | simples | loc_deserto | close | MOD, MOD | - | marco_ghirlandina, bucket | - | O balde nunca foi devolvido. Está guardado em Módena até hoje, setecen
-b10 | simples | loc_campo | close | MOD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | medieval | two | MOD, BOL | - | house_two, balde_madeira, lamppost, bucket | - | Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um b
+b1 | simples | medieval | two | NOB, BOL | - | - | - | Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o 
+b2 | simples | loc_campo | crowd | BOL, BOL | 18 | picket_fence | - | Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil s
+b3 | simples | loc_campo | group | MOD, MOD | 6 | - | - | Módena tinha menos de oito mil homens, entre cavaleiros e soldados a p
+b4 | chave | loc_campo | crowd | MOD, BOL | 32 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o e
+b5 | simples | loc_campo | two | MOD, MOD | 8 | picket_fence | - | Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros 
+b6 | simples | loc_campo | group | MOD, MOD | 8 | - | - | Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotado
+b7 | simples | medieval | two | MOD, MOD | - | balde_madeira, well, bucket | - | Na volta, levaram como troféu um balde de madeira, tirado de um poço p
+b8 | simples | interior pedra | close | MOD | - | balde_madeira, bucket | - | O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbol
+b9 | simples | interior madeira | two | POV, POV | - | - | - | Um poeta italiano transformou a história numa sátira famosa, escrita p
+b10 | simples | interior madeira | close | MOD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/6 itens) | PENDENTE | python3 pesquisar.py balde1325
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh balde1325
-10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/13 itens) | FEITO | 
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
+5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
+10 | Render | todos os quadros renderizados nesta versao das folhas | PENDENTE | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh balde1325
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local balde1325 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 2. Pesquisa de campo
+**Etapa atual:** 10. Render
 

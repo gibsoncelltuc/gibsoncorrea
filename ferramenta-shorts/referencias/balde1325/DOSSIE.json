@@ -10,22 +10,9 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
-   "loc_deserto",
-   "loc_montanha",
-   "street"
+   "medieval"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "medieval",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "medieval",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -46,7 +33,7 @@
  "objetos_em_cena": [
   "buildings/house_small",
   "buildings/house_two",
-  "kit/marco_ghirlandina",
+  "kit/balde_madeira",
   "kit/room_europa_stone",
   "kit/room_verde_wood",
   "kit/well",
@@ -61,18 +48,45 @@
   "mk/Table_Large",
   "nature/lamppost",
   "nature/picket_fence",
-  "nature/tree_oak",
   "tools/bucket"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Zappolino",
+  "quando": "15 de novembro de 1325, ao pôr do sol; outono",
+  "participantes": [
+   "exército de Bolonha",
+   "exército de Módena",
+   "Passerino Bonacolsi",
+   "Alessandro Tassoni"
+  ],
+  "roupas": {
+   "MOD": "gibelinos: sobrecota amarela, elmo de ferro",
+   "BOL": "guelfos de Bolonha: sobrecota vermelha, elmo",
+   "NOB": "nobre/senhor com coroa e manto roxo",
+   "POV": "camponês de colete azul e chapéu"
+  },
+  "cenario": "campo e colina, muralha de tijolo com portão de Bolonha, poço de pedra, torre alta de Módena",
+  "objetos": [
+   "balde de madeira",
+   "poço de pedra"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Zappolino",
+   "referencias/balde1325/moodboard.jpg"
+  ],
+  "buscas": {
+   "Módena": "Torre della Ghirlandina Modena",
+   "Bolonha": "Bologna medieval city walls gate",
+   "batalha": "Battle of Zappolino 1325",
+   "balde": "Secchia rapita bucket Modena Ghirlandina",
+   "soldado da epoca": "14th century Italian infantry crossbowman illustration",
+   "Zappolino": "Zappolino Valsamoggia castle hill",
+   "balde de madeira": "wooden bucket medieval iron bands",
+   "exército de Bolonha": "Bologna medieval army 14th century",
+   "exército de Módena": "Modena medieval soldiers 14th century",
+   "Passerino Bonacolsi": "Passerino Bonacolsi Mantua"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

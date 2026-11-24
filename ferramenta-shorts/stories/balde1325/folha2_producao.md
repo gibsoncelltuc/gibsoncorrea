@@ -2,108 +2,108 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/balde1325/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py balde1325` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Duas cidades italianas foram à guerra por causa de um balde de madeira...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b0 - Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um b...
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MOD (variante 0, expressao grin, segura bag); BOL (variante 0, expressao shock)
-- Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/marco_ghirlandina, tools/bucket, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MOD (variante 0, expressao grin); BOL (variante 0, expressao shock)
+- Animacao: conversar | interacao: susto
+- Objetos/modelos: kit/balde_madeira, tools/bucket, buildings/house_two, nature/lamppost
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira, premio, vencedor
 - RISCOS: nenhum
 
-## Cena b1 - Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a ...
+## Cena b1 - Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o ...
+- Cenario: medieval | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): NOB (variante 0, expressao stern); BOL (variante 1, expressao stern)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fronteira, imperador, papa
+- RISCOS: nenhum
+
+## Cena b2 - Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil s...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): NOB (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 8 de POV
-- Animacao: -
-- Objetos/modelos: kit/marco_ghirlandina, buildings/house_small, nature/picket_fence, nature/tree_oak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiava, imperador, papa, vizinho
-- RISCOS: nenhum
-
-## Cena b2 - Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bol...
-- Cenario: loc_montanha | luz: noite | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): MOD (variante 0, expressao grin); MOD (variante 1, expressao nervous)
-- Animacao: encena
-- Objetos/modelos: kit/marco_ghirlandina
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lenda, modena
-- RISCOS: nenhum
-
-## Cena b3 - Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, ...
-- Cenario: loc_montanha | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin)
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/well, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, poco, praca
-- RISCOS: nenhum
-
-## Cena b4 - "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu M...
-- Cenario: interior pedra | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): NOB (variante 0, expressao stern)
-- Animacao: discutir
-- Objetos/modelos: tools/bucket
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nosso
-- RISCOS: nenhum
-
-## Cena b5 - Bolonha juntou um exército de trinta mil homens, e marchou contra a vi...
-- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BOL (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 18 de BOL
 - Animacao: encena
-- Objetos/modelos: kit/marco_ghirlandina
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, trinta, vizinha
+- Objetos/modelos: nature/picket_fence
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): modena, territorio, trinta
 - RISCOS: nenhum
 
-## Cena b6 - Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained)
+## Cena b3 - Módena tinha menos de oito mil homens, entre cavaleiros e soldados a p...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained) | multidao: 6 de MOD
 - Animacao: reagir | interacao: insiste
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): derrota
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oito
 - RISCOS: nenhum
 
-## Cena b7 - Acontece que, numa única tarde de batalha, os sete mil atacaram de sur...
-- Cenario: loc_deserto | luz: day | clima: limpo
+## Cena b4 - Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o e...
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MOD (variante 0, expressao stern); BOL (variante 0, expressao shock) | multidao: 24 de MOD/BOL
+- Personagens principais (2): MOD (variante 0, expressao stern); BOL (variante 0, expressao shock) | multidao: 32 de MOD/BOL
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_ghirlandina
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, exercito, sete, surpresa
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, exercito, modeneses, novembro, quinze
 - RISCOS: nenhum
 
-## Cena b8 - Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ain...
-- Cenario: street | luz: day | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+## Cena b5 - Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros ...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): MOD (variante 0, expressao stern); MOD (variante 1, expressao grin) | multidao: 8 de MOD
+- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
+- Objetos/modelos: nature/picket_fence
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, duas, modeneses
+- RISCOS: nenhum
+
+## Cena b6 - Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotado...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura flag); MOD (variante 1, expressao grin) | multidao: 8 de MOD
-- Animacao: comemorar
-- Objetos/modelos: kit/marco_ghirlandina, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, cidade, fora, inimigos, portas
+- Animacao: comemorar | interacao: pular
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): derrotados, festa, invadir
 - RISCOS: nenhum
 
-## Cena b9 - O balde nunca foi devolvido. Está guardado em Módena até hoje, setecen...
-- Cenario: loc_deserto | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+## Cena b7 - Na volta, levaram como troféu um balde de madeira, tirado de um poço p...
+- Cenario: medieval | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MOD (variante 0, expressao grin, segura bag); MOD (variante 0, expressao grin)
-- Animacao: comemorar | interacao: pular
-- Objetos/modelos: kit/marco_ghirlandina, tools/bucket
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde
+- Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 0 de 
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/well, kit/balde_madeira, tools/bucket
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, bolonha, madeira, poco, porta
+- RISCOS: nenhum
+
+## Cena b8 - O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbol...
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): MOD (variante 0, expressao smile)
+- Animacao: comemorar
+- Objetos/modelos: kit/balde_madeira, tools/bucket
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, torre, vitoria
+- RISCOS: nenhum
+
+## Cena b9 - Um poeta italiano transformou a história numa sátira famosa, escrita p...
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): POV (variante 0, expressao smile, segura paper); POV (variante 1, expressao smile)
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poeta
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): MOD (variante 0, expressao grin)
@@ -117,26 +117,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_ghirlandina | b0, b1, b2, b5, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-tools/bucket | b0, b3, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b0, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b0, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/well | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balde_madeira | b0, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+tools/bucket | b0, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 25% | medio 48% | aberto 24% | detalhe 4%
-- Interacoes: b0 susto, b6 insiste, b9 pular
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py balde1325  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/balde1325/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+- Objeto heroi: kit/balde_madeira | grandes momentos: b4 | planos abertos: 2 | mistura: close 17% | medio 62% | aberto 17% | detalhe 4%
+- Interacoes: b0 susto, b1 o outro se aproxima, b3 insiste, b5 aproxima-se, b6 pular, b7 vai ate o outro, b9 avanca e o outro recua
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh balde1325 bN bM` (so essas cenas).

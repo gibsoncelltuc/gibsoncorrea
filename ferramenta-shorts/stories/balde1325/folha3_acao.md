@@ -1,105 +1,115 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
-> "Duas cidades italianas foram à guerra por causa de um balde de madeira."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | 1325 | OK |
-
-## Cena b1 - 4.8s a 13.3s - 24 palavras - plano reveal
-> "Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para implicar com o vizinho."
+## Cena b0 - 0.1s a 4.1s - 16 palavras - plano two
+> "Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um balde de madeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ITÁLIA | OK |
+| 1 | prêmio (2.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | prêmio (2.7s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b2 - 13.7s a 17.8s - 12 palavras - plano track
-> "Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | entraram (16.7s) | ACAO: chega | entra andando pela lateral | OK |
-
-## Cena b3 - 18.1s a 24.4s - 18 palavras - plano crowd
-> "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo."
+## Cena b1 - 5.5s a 11.2s - 18 palavras - plano two
+> "Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o imperador como patrono, Bolonha tinha o papa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltaram (23.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | rindo (24.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | rindo (24.4s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | O BALDE | OK |
+| 1 | disputavam (6.4s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | MAPA | ITÁLIA | OK |
 
-## Cena b4 - 24.8s a 28.1s - 10 palavras - plano close
-> ""Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena."
+## Cena b2 - 12.3s a 18.1s - 23 palavras - plano crowd
+> "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Devolvam (24.8s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | respondeu (27.8s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | ATUACAO | discutir | OK |
-
-## Cena b5 - 28.5s a 33.0s - 13 palavras - plano crowd
-> "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | juntou (28.9s) | ACAO: pega | levanta/segura | OK |
-| 2 | marchou (31.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | juntou (14.5s) | ACAO: pega | levanta/segura | OK |
+| 2 | marchou (16.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | PLACA | 30.000 | OK |
 
-## Cena b6 - 33.3s a 37.4s - 12 palavras - plano two
-> "Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida."
+## Cena b3 - 19.3s a 24.0s - 16 palavras - plano group
+> "Módena tinha menos de oito mil homens, entre cavaleiros e soldados a pé, e parecia perdida."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | derrota (36.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | derrota (36.3s) | ACAO: perde | mao na testa | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | - | CENA | cavalaria: 2 soldados a cavalo (MOD) | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 37.8s a 44.4s - 19 palavras - plano crowd
-> "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | atacaram (41.5s) | EFEITO: ring | onda + som | OK |
-| 2 | surpresa (42.2s) | EFEITO: ring | onda + som | OK |
-| 3 | surpresa (42.2s) | ACAO: grita | grita de bracos para cima | OK |
-| 4 | fugiu (44.1s) | EFEITO: dust | poeira + som | OK |
-| 5 | fugiu (44.1s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 6 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | reagir | OK |
-
-## Cena b8 - 44.8s a 51.5s - 19 palavras - plano track
-> "Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora."
+## Cena b4 - 25.3s a 31.9s - 22 palavras - plano crowd
+> "Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perseguiu (45.2s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 2 | zombou (49.6s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 1 | atacaram (28.5s) | EFEITO: ring | onda + som | OK |
+| 2 | fugiu (31.1s) | EFEITO: dust | poeira + som | OK |
+| 3 | fugiu (31.1s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 51.9s a 56.7s - 14 palavras - plano close
-> "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois."
+## Cena b5 - 33.0s a 37.0s - 14 palavras - plano two
+> "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | pular | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 700 ANOS | OK |
+| 1 | Morreram (33.0s) | EFEITO: puff | fumaca + som | OK |
+| 2 | Morreram (33.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | chegaram (36.1s) | EFEITO: dust | poeira + som | OK |
+| 4 | chegaram (36.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 5 | - | INTERACAO | aproxima-se | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b10 - 57.0s a 61.5s - 13 palavras - plano close
+## Cena b6 - 38.3s a 41.6s - 13 palavras - plano group
+> "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | invadir (38.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | festa (40.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | festa (40.2s) | ACAO: vence | bracos para cima + brilho | OK |
+| 4 | zombar (41.1s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 5 | derrotados (41.6s) | ACAO: perde | mao na testa | OK |
+| 6 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 7 | - | INTERACAO | pular | OK |
+| 8 | - | ATUACAO | comemorar | OK |
+
+## Cena b7 - 43.0s a 47.6s - 18 palavras - plano two
+> "Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | levaram (43.7s) | ACAO: pega | levanta/segura | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | O BALDE | OK |
+
+## Cena b8 - 48.9s a 53.1s - 14 palavras - plano close
+> "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | guardado (49.6s) | ACAO: pega | levanta/segura | OK |
+| 2 | vitória (53.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | vitória (53.1s) | ACAO: vence | bracos para cima + brilho | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+
+## Cena b9 - 54.2s a 59.4s - 17 palavras - plano two
+> "Um poeta italiano transformou a história numa sátira famosa, escrita por volta de mil seiscentos e quinze."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+
+## Cena b10 - 60.4s a 63.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
