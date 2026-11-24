@@ -10,7 +10,7 @@ git fetch -q origin $MAIN || exit 0
 # FERRAMENTA = tudo em ferramenta-shorts menos o que e' da sessao (roteiros, folhas, trechos, pesquisas, filas). A comparacao e' pelo CONTEUDO dos arquivos
 # (nao pelo historico): mesmo que a sessao tenha editado o motor ou copiado arquivos a mao, se ficou diferente da principal ela volta a ficar IDENTICA.
 FERR=(ferramenta-shorts ':!ferramenta-shorts/stories' ':!ferramenta-shorts/videos' ':!ferramenta-shorts/ckpt' ':!ferramenta-shorts/referencias' ':!ferramenta-shorts/queue.txt' ':!ferramenta-shorts/web/story.js' ':!ferramenta-shorts/web/main.js' ':!ferramenta-shorts/web/toon.js' ':!ferramenta-shorts/PAUSA')
-git diff --quiet HEAD FETCH_HEAD -- "${FERR[@]}" CLAUDE.md .claude && exit 0   # ferramenta ja identica a da principal
+[ -z "$(git diff --diff-filter=MD --name-only FETCH_HEAD HEAD -- "${FERR[@]}" CLAUDE.md .claude)" ] && exit 0   # ferramenta ja identica a da principal (arquivos que so' a sessao tem nao contam)
 # scripts bash que a fila esta EXECUTANDO nao podem mudar no meio: se mudaram, espera a fila ficar entre videos
 if git diff --name-only HEAD FETCH_HEAD | grep -qE 'ferramenta-shorts/(make_video|run_queue|assemble|render)\.sh$' && pgrep -f make_video.sh >/dev/null; then
   echo "$(date +%T) atualizacao com scripts da fila: espera o video atual terminar"; exit 0; fi
@@ -19,7 +19,7 @@ git merge --no-edit -X theirs FETCH_HEAD >/dev/null 2>&1 || { git merge --abort 
 # FORCA: depois do merge (ou sem ele), cada arquivo da ferramenta fica IGUAL ao da principal -- nenhuma edicao antiga da sessao sobrevive no motor
 git checkout FETCH_HEAD -- "${FERR[@]}" CLAUDE.md .claude 2>/dev/null
 git show FETCH_HEAD:ferramenta-shorts/PAUSA > /dev/null 2>&1 && git checkout FETCH_HEAD -- ferramenta-shorts/PAUSA 2>/dev/null   # a pausa da principal vale para as sessoes
-git diff --quiet FETCH_HEAD -- "${FERR[@]}" || echo "$(date +%T) AVISO: ainda ha diferenca para a principal (ver git diff FETCH_HEAD -- ferramenta-shorts)"
+[ -z "$(git diff --diff-filter=MD --name-only FETCH_HEAD -- "${FERR[@]}")" ] || echo "$(date +%T) AVISO: ainda ha arquivo do motor diferente da principal (git diff --diff-filter=MD FETCH_HEAD -- ferramenta-shorts)"   # arquivo que so a sessao tem (objeto que ela modelou) nao conta
 cd ferramenta-shorts; cat web/toonbase.js web/roman.js web/pig2d.js web/animals2d.js > web/toon.js
 N=0
 for id in $(grep -v '^#' queue.txt 2>/dev/null); do
