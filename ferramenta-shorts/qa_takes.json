@@ -1,122 +1,108 @@
 {
  "fails": [
   {
-   "f": 68,
-   "shot": "b0",
+   "f": 444,
+   "shot": "b2~2",
    "why": [
-    "tru: HIDDEN behind red_tv/#6a4a2a"
+    "par: head/torso cropped (box 1.153, 0.526, 1.376, 0.712)"
    ]
   },
   {
-   "f": 69,
-   "shot": "b0",
+   "f": 448,
+   "shot": "b2~2",
    "why": [
-    "tru: HIDDEN behind red_tv/#6a4a2a"
+    "par: head/torso cropped (box 1.153, 0.529, 1.338, 0.712)"
    ]
   },
   {
-   "f": 88,
-   "shot": "b0_d",
+   "f": 452,
+   "shot": "b2~2",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "par: head/torso cropped (box 1.145, 0.529, 1.33, 0.715)"
    ]
   },
   {
-   "f": 116,
-   "shot": "b0_v",
+   "f": 456,
+   "shot": "b2~2",
    "why": [
-    "cnd: HIDDEN behind red_tv/#6a4a2a"
+    "par: head/torso cropped (box 1.132, 0.527, 1.316, 0.713)"
    ]
   },
   {
-   "f": 120,
-   "shot": "b0_v",
+   "f": 457,
+   "shot": "b2~3",
    "why": [
-    "cnd: HIDDEN behind red_tv/#6a4a2a"
+    "par: head/torso cropped (box 1.13, 0.527, 1.356, 0.718)"
    ]
   },
   {
-   "f": 124,
-   "shot": "b0_v",
+   "f": 460,
+   "shot": "b2~3",
    "why": [
-    "cnd: HIDDEN behind red_tv/#6a4a2a"
+    "par: head/torso cropped (box 1.123, 0.525, 1.348, 0.714)"
    ]
   },
   {
-   "f": 128,
-   "shot": "b0_v",
+   "f": 464,
+   "shot": "b2~3",
    "why": [
-    "tru: HIDDEN behind red_tv/#6a4a2a"
+    "par: head/torso cropped (box 1.126, 0.512, 1.334, 0.686)"
    ]
   },
   {
-   "f": 188,
-   "shot": "b0_v",
+   "f": 468,
+   "shot": "b2~3",
    "why": [
-    "tru: HIDDEN behind red_tv/#6a4a2a"
+    "par: head/torso cropped (box 1.093, 0.49, 1.231, 0.635)"
    ]
   },
   {
-   "f": 192,
-   "shot": "b0_v",
+   "f": 480,
+   "shot": "b2~3",
    "why": [
-    "tru: HIDDEN behind red_tv_1/#7fc4e6"
+    "par: head/torso cropped (box 1.031, 0.473, 1.139, 0.592)"
    ]
   },
   {
-   "f": 193,
-   "shot": "b0_v",
+   "f": 484,
+   "shot": "b2~3",
    "why": [
-    "tru: HIDDEN behind red_tv_1/#7fc4e6"
+    "par: head/torso cropped (box 1.029, 0.474, 1.136, 0.592)"
    ]
   },
   {
-   "f": 1795,
-   "shot": "b10_v",
+   "f": 488,
+   "shot": "b2~3",
    "why": [
-    "empty take: no character in the take"
+    "par: head/torso cropped (box 1.029, 0.475, 1.133, 0.591)"
    ]
   },
   {
-   "f": 1796,
-   "shot": "b10_v",
+   "f": 492,
+   "shot": "b2~3",
    "why": [
-    "empty take: no character in the take"
+    "par: head/torso cropped (box 1.029, 0.476, 1.13, 0.591)"
    ]
   },
   {
-   "f": 1800,
-   "shot": "b10_v",
+   "f": 496,
+   "shot": "b2~3",
    "why": [
-    "empty take: no character in the take"
+    "par: head/torso cropped (box 1.029, 0.477, 1.132, 0.591)"
    ]
   },
   {
-   "f": 1804,
-   "shot": "b10_v",
+   "f": 500,
+   "shot": "b2~3",
    "why": [
-    "empty take: no character in the take"
+    "par: head/torso cropped (box 1.028, 0.476, 1.132, 0.591)"
    ]
   },
   {
-   "f": 1808,
-   "shot": "b10_v",
+   "f": 503,
+   "shot": "b2~3",
    "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1812,
-   "shot": "b10_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1816,
-   "shot": "b10_v",
-   "why": [
-    "tru: head/torso cropped (box 0.555, 0.298, 1.151, 0.946)"
+    "par: head/torso cropped (box 1.031, 0.477, 1.134, 0.592)"
    ]
   }
  ],
