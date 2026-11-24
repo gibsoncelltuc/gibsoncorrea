@@ -111,7 +111,7 @@
     ],
     "march": false
    },
-   "mapa": "AMÉRICA CENTRAL",
+   "mapa": "HONDURAS",
    "mapa_at": 3,
    "say": "Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigavam por terra e por imigrantes.",
    "fx": [
@@ -283,8 +283,8 @@
     ],
     [
      "kit/trave",
-     0.6,
-     1.0,
+     7.0,
+     -14.0,
      1.8,
      {
       "fixo": true
@@ -317,8 +317,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -326,20 +325,13 @@
     "SOL:0:stern"
    ],
    "batalha": true,
-   "crowd": {
-    "n": 0
-   },
    "props": [
     [
      "vehicles/airplane",
      0.0,
-     -19.4,
-     1.2,
+     -7.0,
+     2.2,
      {
-      "mover": [
-       0.0,
-       -19.4
-      ],
       "fixo": true
      }
     ]
@@ -348,8 +340,20 @@
    "titulo": true,
    "say": "Semanas depois, o exército salvadorenho atacou Honduras.",
    "hora": "dia",
-   "fachada": false,
    "detalhe": false,
+   "quadro_manual": true,
+   "cx": 0,
+   "cz": -5.0,
+   "h": 3.5,
+   "d0": 20,
+   "d1": 18,
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true
+   },
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o airplane (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
@@ -361,13 +365,7 @@
       "estado": "chegando"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -13.6,
-   "h": 2.8,
-   "d0": 21.6,
-   "d1": 18.6,
-   "_auto_vis": 2
+   }
   },
   {
    "shot": "two",
@@ -389,9 +387,9 @@
    "props": [
     [
      "kit/ball",
-     1.2,
+     2.4,
      0.2,
-     1.2,
+     1.5,
      {
       "fixo": true
      }
@@ -431,8 +429,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   }
  ],
  "max_wide": 4,

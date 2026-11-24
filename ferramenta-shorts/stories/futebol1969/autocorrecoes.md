@@ -14,3 +14,8 @@
 ## 24/11 20:05 autocorrecao de visibilidade
 - b7: ja corrigida 3 vezes, objeto citado "vehicles/airplane" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b7: ja corrigida 3 vezes, objeto "vehicles/airplane" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 24/11 20:07 autocorrecao de visibilidade
+- b6: objeto citado "kit/trave" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/trave" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> objeto na frente dos personagens e maior
+- b9: objeto "kit/ball" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
