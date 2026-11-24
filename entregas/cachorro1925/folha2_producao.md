@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cachorro1925/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cachorro1925` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Segundo uma versão, um cachorro sumiu e provocou uma invasão entre doi...
+## Cena b0 - Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa.
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/dog_sit, dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, invasao, versao
+- Personagens principais (2): GRE (variante 0, expressao shout); BUL (variante 0, expressao shout)
+- Animacao: encena
+- Objetos/modelos: dog
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, europa
 - RISCOS: nenhum
 
 ## Cena b1 - Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc...
@@ -32,14 +32,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, soldado
 - RISCOS: nenhum
 
-## Cena b3 - Do outro lado, soldados búlgaros atiraram, e ele morreu. A Bulgária pe...
+## Cena b3 - Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A B...
 - Cenario: mountain | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GRE (variante 0, expressao scared); BUL (variante 0, expressao angry) | multidao: 10 de GRE/BUL
 - Animacao: conversar | interacao: empurrar | batalha encenada
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, soldado
 - RISCOS: nenhum
 
 ## Cena b4 - A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os...
@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Dias depois, em vinte e dois de outubro, o exército grego, com vinte m...
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GRE (variante 0, expressao angry); BUL (variante 0, expressao shout) | multidao: 20 de GRE/BUL
-- Animacao: encena | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): GRE (variante 0, expressao angry) | multidao: 24 de GRE/BUL
+- Animacao: encena
 - Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, cidade, exercito, outubro, petrich, vinte
 - RISCOS: nenhum
@@ -107,16 +107,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/dog_sit | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b0, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/dog_sit | b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 8% | medio 78% | aberto 12% | detalhe 2%
-- Interacoes: b0 discutir, b3 empurrar, b4 susto, b6 susto, b7 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b3 | planos abertos: 2 | mistura: close 5% | medio 72% | aberto 21% | detalhe 2%
+- Interacoes: b3 empurrar, b4 susto, b6 susto, b7 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
