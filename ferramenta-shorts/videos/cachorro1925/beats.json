@@ -111,15 +111,22 @@
     "GRE:0:scared",
     "BUL:0:angry"
    ],
-   "interacao": "empurrar",
    "fx": [
     "burst@60"
    ],
    "sfx": [
     "gun@60"
    ],
-   "say": "Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A Bulgária pediu desculpas e propôs investigar juntos.",
-   "props": []
+   "say": "Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A Bulgária pediu desculpas e propôs investigar juntos.",
+   "props": [],
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "shot_lock": true,
+   "impact": false,
+   "batalha": false
   },
   {
    "shot": "two",
@@ -159,16 +166,17 @@
    "shot_lock": true
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "DIP:0:sad:paper",
-    "PRE:0:nervous"
+    "DIP:0:sad:paper"
    ],
    "interacao": "susto",
    "say": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
    "props": [],
-   "text": "LIGA DAS NAÇÕES"
+   "text": "LIGA DAS NAÇÕES",
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",

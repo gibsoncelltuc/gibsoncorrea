@@ -10,3 +10,9 @@
 
 ## 24/11 13:53 autocorrecao de visibilidade
 - b5: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 24/11 14:51 autocorrecao de visibilidade
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 24/11 14:52 autocorrecao de visibilidade
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)

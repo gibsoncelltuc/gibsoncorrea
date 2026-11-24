@@ -59,12 +59,13 @@
    "animals": [
     [
      "dog",
-     2.0,
-     1.0,
+     0.6,
+     0.4,
      "run"
     ]
    ],
-   "shot_lock": true
+   "shot_lock": true,
+   "objetos": false
   },
   {
    "shot": "reveal",
@@ -104,13 +105,11 @@
    ]
   },
   {
-   "shot": "two",
-   "set": "loc_montanha",
+   "shot": "wide",
+   "set": "mountain",
    "who": [
-    "GRE:0:scared",
-    "BUL:0:angry"
+    "GRE:0:scared"
    ],
-   "interacao": "empurrar",
    "fx": [
     "burst@60"
    ],
@@ -118,11 +117,22 @@
     "gun@60"
    ],
    "say": "Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A Bulgária pediu desculpas e propôs investigar juntos.",
-   "props": []
+   "props": [],
+   "acao": "tomba",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "BUL"
+    ],
+    "march": false,
+    "expr": "angry",
+    "poucos": true
+   },
+   "shot_lock": true
   },
   {
    "shot": "two",
-   "set": "loc_montanha",
+   "set": "mountain",
    "who": [
     "GRE:0:sad",
     "GRE:1:angry"
@@ -140,12 +150,12 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 20,
+    "n": 24,
     "outfits": [
      "GRE",
      "BUL"
     ],
-    "march": true,
+    "march": false,
     "expr": "angry"
    },
    "text": "INVASÃO",
@@ -153,10 +163,12 @@
    "say": "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2
+   "d0": 17.0,
+   "d1": 16.0,
+   "shot_lock": true
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "DIP:0:sad:paper",
@@ -165,7 +177,9 @@
    "interacao": "susto",
    "say": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
    "props": [],
-   "text": "LIGA DAS NAÇÕES"
+   "text": "LIGA DAS NAÇÕES",
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "two",

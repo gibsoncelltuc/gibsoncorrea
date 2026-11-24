@@ -82,30 +82,24 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "GRE",
     "BUL"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [],
    "palavras": 19,
    "cena": "b3",
-   "frase": "Do outro lado, soldados búlgaros atiraram, e o soldado caiu morto. A Bulgária pediu desculpas e propôs investigar juntos.",
-   "classe": "chave",
+   "frase": "Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A Bulgária pediu desculpas e propôs investigar juntos.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "mountain"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GRE",
     "GRE"
@@ -148,19 +142,24 @@
    "cenario": "mountain"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
-    "DIP",
-    "PRE"
+    "DIP"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
    "cena": "b6",
    "frase": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
