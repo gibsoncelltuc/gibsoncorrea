@@ -272,11 +272,9 @@ kit/falcon9_land | b0, b2, b3, b4, b5, b6, b7, b9 | pronto (HEROI: aparece em cl
 ## Video inteiro
 - Objeto heroi: kit/falcon9_land | grandes momentos: b7 | planos abertos: 6 | mistura: close 10% | medio 53% | aberto 37% | detalhe 0%
 - Interacoes: b10 o outro se aproxima
-- RISCOS GERAIS: 
-  - FOLHA 4: 4 item(ns) sem referencia visual: O Foguete que Voltou de Ré, roupas e ruas de 2015, primeiro estágio descendo de ré, foguete da epoca -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 4 item(ns) sem referencia visual: O Foguete que Voltou de Ré, roupas e ruas de 2015, primeiro estágio descendo de ré, foguete da epoca
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh falcon2015 bN bM` (so essas cenas).
