@@ -7,7 +7,6 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
-   "countryside",
    "interior madeira",
    "loc_campo",
    "medieval"
