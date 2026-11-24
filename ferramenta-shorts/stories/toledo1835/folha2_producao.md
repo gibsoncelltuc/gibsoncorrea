@@ -6,8 +6,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): OHI (variante 0, expressao stern); MIC (variante 0, expressao stern)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Personagens principais (2): OHI (variante 0, expressao stern); MIC (variante 0, expressao pained)
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/canivete
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivetada
 - RISCOS: nenhum
@@ -130,7 +130,7 @@ kit/minerio | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 ## Video inteiro
 - Objeto heroi: kit/canivete | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 27% | medio 55% | aberto 14% | detalhe 4%
-- Interacoes: b0 avanca e o outro recua, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
+- Interacoes: b0 susto, b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
