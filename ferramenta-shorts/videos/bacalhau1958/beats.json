@@ -50,21 +50,21 @@
      1.0
     ],
     [
-     "vehicles/motorboat",
-     13,
-     -15,
-     1.0
-    ],
-    [
      "kit/fishing_net",
      9,
      -14,
      1.0
     ],
     [
+     "kit/navio_vapor",
+     15,
+     -24,
+     1.0
+    ],
+    [
      "kit/navio_leander",
-     18,
-     -42,
+     22,
+     -46,
      1.0
     ]
    ],

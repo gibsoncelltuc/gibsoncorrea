@@ -37,13 +37,13 @@
   "kit/fishing_net",
   "kit/navio_encouracado",
   "kit/navio_leander",
+  "kit/navio_vapor",
   "kit/room_europa_stone",
   "kit/scroll",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Table_Large",
-  "vehicles/motorboat"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de pesca); águas cinzentas e frias",
