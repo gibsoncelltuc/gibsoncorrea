@@ -45,7 +45,7 @@
  },
  "beats": [
   {
-   "say": "Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.",
+   "say": "Um país aceitou o bitcoin como dinheiro oficial, e nove em cada dez moradores não entendiam o que era.",
    "shot": "two",
    "who": [
     "BUK:0:smile",
@@ -68,25 +68,15 @@
    "verbos_ok": [
     "aceit"
    ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "text": "9 EM 10 NÃO ENTENDIAM",
+   "titulo": true
   },
   {
-   "say": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
+   "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
    "shot": "close",
    "who": [
     "BUK:0:smug"
@@ -98,7 +88,7 @@
    "impact": false
   },
   {
-   "say": "A lei foi aprovada pelo congresso em junho daquele ano.",
+   "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
    "shot": "group",
    "who": [
     "DEP:0:neutral",
@@ -120,31 +110,19 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5
   },
   {
-   "say": "E passou a valer em sete de setembro de dois mil e vinte e um.",
+   "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
    "shot": "reveal",
    "who": [
     "BUK:0:grin",
     "POV:0:smile"
    ],
-   "text": "7 DE SETEMBRO DE 2021",
+   "text": "7 DE SETEMBRO",
    "crowd": {
     "n": 8,
     "outfits": [
@@ -159,7 +137,7 @@
    "impact": false
   },
   {
-   "say": "Com isso, dava para pagar as compras com bitcoin.",
+   "say": "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo.",
    "shot": "two",
    "who": [
     "CLI:0:smile:coin",
@@ -195,31 +173,15 @@
     "ding@3"
    ],
    "impact": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/stall",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "text": "US$ 30",
+   "titulo": true
   },
   {
-   "say": "O governo lançou até uma carteira digital, chamada Chivo.",
+   "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
    "shot": "close",
    "who": [
     "CLI:0:surprised"
@@ -240,7 +202,7 @@
    "riscos_ok": true
   },
   {
-   "say": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",
+   "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
    "shot": "two",
    "who": [
     "CLI:0:nervous",
@@ -255,10 +217,12 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "text": "68% DISCORDAM",
+   "titulo": true
   },
   {
-   "say": "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.",
+   "say": "Mesmo assim, a moeda digital virou assunto no mundo inteiro.",
    "shot": "orbit",
    "who": [
     "BUK:0:grin",
@@ -286,18 +250,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/globe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -325,22 +277,50 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5
   }
- ]
+ ],
+ "duracao_ok": true,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+  "https://www.aljazeera.com/economy/2021/9/7/glitches-protests-as-bitcoin-becomes-legal-tender-in-el-salvador"
+ ],
+ "visual": {
+  "local": "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021",
+  "quando": "junho a setembro de 2021, dia",
+  "participantes": [
+   "presidente Nayib Bukele (jaqueta escura e bone)",
+   "deputados da Assembleia Legislativa de terno",
+   "comerciantes de chapeu de palha e camisa laranja",
+   "clientes comuns de camisa verde"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura, bone e barba",
+   "DEP": "terno roxo com gravata vermelha",
+   "POV": "comerciante de chapeu de palha",
+   "CLI": "camisa verde e calca azul"
+  },
+  "cenario": "rua com barraca de feira e comerciantes, sala da assembleia, celulares com a carteira Chivo",
+  "objetos": [
+   "moeda de bitcoin",
+   "carteira digital Chivo",
+   "barraca de feira",
+   "globo"
+  ],
+  "explicacoes": [
+   "Bukele anunciou o projeto em 5 de junho de 2021; a Assembleia aprovou a Lei do Bitcoin em 9 de junho (62 de 84 votos) e ela entrou em vigor em 7 de setembro de 2021 (fonte: Wikipedia Bitcoin in El Salvador)",
+   "O governo prometeu US$ 30 em bitcoin a quem se cadastrasse na carteira Chivo, que ficou fora do ar por horas no lancamento; pesquisa da UCA: 68% discordavam da decisao e 9 em 10 nao entendiam o que era bitcoin (fonte: Wikipedia Bitcoin in El Salvador)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+   "https://commons.wikimedia.org/wiki/Category:Bitcoin"
+  ],
+  "buscas": {
+   "O País do Bitcoin": "El Salvador bitcoin legal tender 2021 Chivo",
+   "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador,": "San Salvador market street 2021"
+  }
+ }
 }
