@@ -274,11 +274,9 @@ kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; 
 - Objeto heroi: kit/tower_mini | grandes momentos: b5, b8 | planos abertos: 6 | mistura: close 7% | medio 52% | aberto 38% | detalhe 3%
 - Interacoes: b0 aproxima-se
 - RISCOS GERAIS: 
-  - video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: 10 item(ns) sem referencia visual: A Torre que Pegou um Foguete no Ar, Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo, Elon Musk (camiseta preta), engenheiros da  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~79 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: 10 item(ns) sem referencia visual: A Torre que Pegou um Foguete no Ar, Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo, Elon Musk (camiseta preta), engenheiros da 
 
 ## Reparos depois do render

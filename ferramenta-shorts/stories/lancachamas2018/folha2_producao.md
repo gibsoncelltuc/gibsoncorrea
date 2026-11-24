@@ -233,11 +233,9 @@ nature/picket_fence | b7 | pronto | conferir na folha de contato se le bem; se p
 - Objeto heroi: kit/flamethrower | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 13% | medio 75% | aberto 6% | detalhe 6%
 - Interacoes: b0 entregar, b1 aproxima-se, b2 avanca e o outro recua, b4 susto, b5 brindar, b7 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: 
-  - video com ~41 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: 7 item(ns) sem referencia visual: O Não é um Lança-Chamas, Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto, Elon Musk (jaqueta preta), funcionarios da Boring Com -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~41 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: 7 item(ns) sem referencia visual: O Não é um Lança-Chamas, Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto, Elon Musk (jaqueta preta), funcionarios da Boring Com
 
 ## Reparos depois do render

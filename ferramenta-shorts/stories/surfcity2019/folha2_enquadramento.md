@@ -2,14 +2,14 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City El Salvador."
+## b0: "Um país pequeno decidiu virar a capital mundial do surfe."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 
-## b1: "O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal, ao mundo."
+## b1: "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; JOR na direita, expressao laugh; sem multidao; acao: fala/gesto

@@ -21,11 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "1º DE ABRIL" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (0.2-1.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (1.8-3.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (3.4-4.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (4.9-6.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (0.2-2.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (2.4-4.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b1 - Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla...
@@ -45,9 +43,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (7.7-9.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (9.6-11.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (5.1-6.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (6.7-8.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (8.3-9.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b2 - Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila.
@@ -70,10 +69,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/tequila_bolt: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/tequila_bolt: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/tequila_bolt: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (12.7-14.5 s): mesmo angulo
-  - take 2 (14.5-16.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (16.3-18.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (10.0-12.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (12.2-14.4 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou regi...
@@ -94,10 +92,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (19.5-21.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (21.2-22.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (22.9-24.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (14.7-16.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (16.3-17.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (17.9-19.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (19.6-21.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que o conselho que protege a tequila no México reclamou: o no...
@@ -119,11 +118,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/veg_cacto: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.3 m de altura x 2.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (25.6-27.2 s): mesmo angulo
-  - take 2 (27.2-28.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (28.9-30.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (30.6-32.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (21.4-23.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (23.0-24.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (24.6-26.2 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b5 - Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no Méxi...
@@ -146,9 +144,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/veg_cacto: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.3 m de altura x 2.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/veg_cacto: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (33.4-34.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (34.9-36.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (36.5-38.0 s): mesmo angulo
+  - take 1 (26.3-27.8 s): mesmo angulo
+  - take 2 (27.8-29.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (29.4-30.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b6 - A garrafa era de vidro soprado à mão, em forma de raio, presa num supo...
@@ -171,9 +169,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@20
 - SOM: sting@50
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (39.2-41.3 s): mesmo angulo
-  - take 2 (41.3-43.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (31.2-33.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.1-34.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (34.9-36.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b7 - Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas hor...
@@ -197,7 +196,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: sting@50
 - TEXTO NA TELA: "ESGOTOU" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b8 - Logo, até garrafas vazias apareceram à venda na internet por mais de m...
@@ -216,10 +215,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smug, segura paper; FAN na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/tequila_bolt: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (50.1-51.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (51.9-53.8 s): mesmo angulo
-  - take 3 (53.8-55.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (41.3-42.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (42.9-44.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (44.5-46.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b9 - Uma piada do dia da mentira que terminou numa prateleira de verdade.
@@ -238,9 +237,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/tequila_bolt: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (66.5-68.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (68.0-69.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (46.3-48.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (48.1-50.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (50.0-51.8 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -268,10 +268,10 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 - Objeto heroi: kit/tequila_bolt | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 12% | medio 70% | aberto 12% | detalhe 6%
 - Interacoes: b0 insiste, b2 discutir, b3 entregar, b5 cochichar, b8 entregar
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py teslaquila2020  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/teslaquila2020/moodboard.jpg
+  - FOLHA 4: 10 item(ns) sem referencia visual: A Piada que Virou Tequila, Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria c, Elon Musk (camiseta preta), fas da Tesla, represent -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: FOLHA 4: 10 item(ns) sem referencia visual: A Piada que Virou Tequila, Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria c, Elon Musk (camiseta preta), fas da Tesla, represent
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh teslaquila2020 bN bM` (so essas cenas).
@@ -281,8 +281,9 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (70.6-72.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (72.2-73.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (51.9-53.9 s): mesmo angulo
+  - take 2 (53.9-55.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (55.8-57.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

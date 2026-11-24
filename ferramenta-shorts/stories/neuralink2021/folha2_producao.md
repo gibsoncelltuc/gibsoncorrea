@@ -259,11 +259,9 @@ kit/phone | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Objeto heroi: kit/monkey_pong | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 11% | medio 77% | aberto 6% | detalhe 6%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b7 discutir, b8 entregar
 - RISCOS GERAIS: 
-  - video com ~77 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: 11 item(ns) sem referencia visual: O Macaco que Jogou Videogame com a Mente, Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas, macaco Pager (macaco-rhesus de 9 ano -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~77 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: 11 item(ns) sem referencia visual: O Macaco que Jogou Videogame com a Mente, Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas, macaco Pager (macaco-rhesus de 9 ano
 
 ## Reparos depois do render

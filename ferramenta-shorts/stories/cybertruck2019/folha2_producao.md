@@ -223,11 +223,9 @@ kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer
 - Objeto heroi: kit/steel_ball | grandes momentos: b3, b4 | planos abertos: 5 | mistura: close 12% | medio 40% | aberto 40% | detalhe 7%
 - Interacoes: b7 aproxima-se, b8 pular
 - RISCOS GERAIS: 
-  - video com ~48 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: 8 item(ns) sem referencia visual: A Janela do Cybertruck, Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla, Elon Musk (jaqueta de couro preta), designer Franz von -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~48 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: 8 item(ns) sem referencia visual: A Janela do Cybertruck, Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla, Elon Musk (jaqueta de couro preta), designer Franz von
 
 ## Reparos depois do render

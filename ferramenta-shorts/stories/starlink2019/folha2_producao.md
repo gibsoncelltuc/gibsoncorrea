@@ -14,15 +14,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e rocket juntos (camera a 8.0 m)
-- PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/rocket: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/falcon_air: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (0.2-2.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (2.0-3.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (3.7-5.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- LOCAL: vila rural (casas, cercas, campo); hora: noite
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AST (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/starlink_train: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 17.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+- TEXTO NA TELA: "3 MINUTOS" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.5 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b1 - Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta sa...
@@ -37,15 +36,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: AST (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.3 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- MAPA: FLÓRIDA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (6.5-8.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (8.4-10.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (10.3-12.2 s): mesmo angulo
+- LOCAL: loc_pista; hora: golden
+- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e rocket juntos (camera a 8.0 m)
+- PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/rocket: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/falcon_air: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 5 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (3.8-5.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (5.5-7.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (7.2-8.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 4 (8.8-10.5 s): mesmo angulo
+  - take 5 (10.5-12.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b2 - Um dia depois, um rastreador de satélites holandês, Marco Langbroek, f...
@@ -104,7 +105,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: noite
+- LOCAL: loc_montanha; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/starlink_train: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 17.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -167,13 +168,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: AST (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.3 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (38.5-40.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (40.1-41.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/starlink_train no centro, manobra "parado"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (3.3 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b8 - A imagem da fila de luzes se espalhou por vários países e foi assunto ...
@@ -209,7 +207,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: golden
+- LOCAL: loc_montanha; hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)
 - PERSONAGENS: AST (cientista) na esquerda, expressao laugh; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/rocket: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -245,10 +243,10 @@ nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se p
 - Objeto heroi: kit/rocket | grandes momentos: b0, b3, b5 | planos abertos: 5 | mistura: close 11% | medio 57% | aberto 27% | detalhe 5%
 - Interacoes: b2 avanca e o outro recua, b6 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py starlink2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/starlink2019/moodboard.jpg
+  - FOLHA 4: 9 item(ns) sem referencia visual: A Fila de Luzes no Céu, Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leide, astronomo amador Marco Langbroek com camera e tripe, j -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: FOLHA 4: 9 item(ns) sem referencia visual: A Fila de Luzes no Céu, Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leide, astronomo amador Marco Langbroek com camera e tripe, j
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh starlink2019 bN bM` (so essas cenas).

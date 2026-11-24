@@ -4,26 +4,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
+## Cena b0 - 0.2s a 3.7s - 15 palavras - plano two
 > "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cruzou (1.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | cruzou (0.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | 3 MINUTOS | OK |
+<!-- FISICA -->
 
-## Cena b1 - 5.6s a 14.1s - 24 palavras - plano reveal
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra cruzou (0.7s): executa: entra andando pela lateral
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 3.8s a 12.2s - 24 palavras - plano reveal
 > "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b2 - 13.6s a 18.4s - 13 palavras - plano two
 > "Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu."
@@ -105,7 +109,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | MAPA | MUNDO | OK |
 <!-- FISICA -->
 
-## Cena b7 - 38.9s a 42.6s - 11 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra explicaram (34.8s): braco estendido apontando para o objeto/lugar citado
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b7 - 38.5s a 41.8s - 11 palavras - plano two
 > "Os satélites ainda estavam juntos, em fila, logo depois do lançamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
