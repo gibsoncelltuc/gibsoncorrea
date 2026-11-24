@@ -29,7 +29,41 @@ os.makedirs(f'stories/{ID}', exist_ok=True)
 SET = B.get('set', 'countryside')
 LIGHT = B.get('light', 'day')
 MOOD = B.get('mood', 'playful')
-SETS_X = {'outback': 2000, 'countryside': 1000, 'arctic': 7000, 'palace': 4000, 'harbor': 5000, 'mountain': 3000, 'medieval': 9000, 'jungle': 6000, 'hall': 8000, 'stadium': 11000, 'street': 12000}
+SETS_X = {'outback': 2000, 'countryside': 1000, 'arctic': 7000, 'palace': 4000, 'harbor': 5000, 'mountain': 3000, 'medieval': 9000, 'jungle': 6000, 'hall': 8000, 'stadium': 11000, 'street': 12000,
+          'loc_pista': 13000, 'loc_patio': 14000, 'loc_deserto': 15000, 'loc_campo': 16000, 'loc_montanha': 17000, 'loc_cidade': 18000, 'loc_estudio': 19000}
+# ===== ISOLAMENTO DE CENARIO (v13, 24/11, Gibson: "nao sei por que voce sempre coloca essa fazendinha") =====
+# Os cenarios antigos sao TEMATICOS (nasceram de um video: outback = fazenda dos emus, mountain = front de guerra...). Eles so' entram quando a narracao ou a
+# pesquisa visual pedem aquele tema; senao a cena vai para uma LOCACAO LIMPA (web/sets/loc.js: so' chao + horizonte + itens da pesquisa). "set_tematico_ok": true desliga.
+_nrm0 = lambda t_: __import__('unicodedata').normalize('NFKD', str(t_).lower()).encode('ascii', 'ignore').decode()
+_VIS0 = B.get('visual') or {}
+_TXT0 = _nrm0(' '.join([b_.get('say', '') for b_ in B['beats']] + [json.dumps(_VIS0, ensure_ascii=False), B.get('title', '')]))
+_a0 = re.search(r'(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)', ' '.join([str(B.get('ano', '')), B.get('title', ''), ID, str(_VIS0.get('quando', ''))]))
+_ANO0 = int(_a0.group(1)) if _a0 else None
+_MODERNO = bool(_ANO0 and _ANO0 >= 1950)
+_SET_TEMA = {'outback': (r'fazend|rural|outback|trigo|celeiro|moinho|australia|sertao|rancho|plantac|colheit|lavoura|\bgado\b|pasto|\bemus?\b', 'fazenda (celeiro, moinho, casa, trigo, cerca)'),
+             'countryside': (r'fazend|rural|\bcampo\b|aldeia|\bvila\b|vilarejo|celeiro|moinho|igreja|plantac|colheit|lavoura|\bsitio\b|pasto|campones|interior d', 'vila rural (casas, igreja, celeiro, moinho, feno)'),
+             'mountain': (r'guerra|batalha|\bfront\b|trincheir|soldad|exercit|tropa|castelo|mosteiro|abadia|cerco', 'front de guerra na montanha (sacos de areia, torre de castelo, igreja)'),
+             'medieval': (r'castelo|medieval|\breino\b|feudal|cavaleir|idade media|muralha|\brei\b|rainha', 'vila medieval (castelo, fonte, casas antigas)'),
+             'harbor': (r'porto|\bmar\b|navio|\bcais\b|praia|\bilha\b|\bcosta\b|barco|pesc|marinha|frota|desembarc|oceano|litoral', 'porto (navio, farol, caixotes, palmeiras)'),
+             'jungle': (r'selva|florest|\bmata\b|tropical|tribo|amazon|pantano|indigena', 'selva'),
+             'arctic': (r'neve|gelo|artic|inverno|polar|congel|siberia|alasca|nevasca|geada|antart', 'neve e gelo'),
+             'palace': (r'palacio|\brei\b|rainha|imperador|\bcorte\b|governo|sultao|presidente|capital|farao|imperio|czar', 'palacio (torres, palmeiras, igreja)'),
+             'stadium': (r'estadio|torcida|\bjogo\b|partida|arena|\bluta\b|ringue|\bcopa\b|olimp|campeonato', 'estadio lotado'),
+             'street': (r'.', 'rua de cidade')}
+def _set_ok(s_):
+    if B.get('set_tematico_ok') or s_ not in _SET_TEMA: return True
+    if s_ == 'street': return not (_ANO0 and _ANO0 >= 1970)   # rua antiga (lampiao, loja de madeira) nao serve para historia atual
+    if s_ == 'medieval' and _ANO0 and _ANO0 > 1750: return False
+    return bool(re.search(_SET_TEMA[s_][0], _TXT0))
+def _set_limpo(s_):   # a locacao limpa que substitui um cenario tematico fora de lugar
+    if s_ in ('street', 'palace', 'stadium'): return 'loc_cidade' if _MODERNO else 'loc_campo'
+    if s_ == 'outback': return 'loc_deserto' if re.search(r'desert|areia|saara|arabia|egito|seca\b|texas|nevada|arizona', _TXT0) else ('loc_pista' if _MODERNO else 'loc_campo')
+    if s_ == 'mountain': return 'loc_montanha'
+    if s_ == 'harbor': return 'loc_patio' if _MODERNO else 'loc_campo'
+    return 'loc_campo'
+_TROCAS = []   # (onde, de, para): vai para a folha 2
+_LOCS_OK = [l_ for l_ in (_VIS0.get('locacoes') or []) if isinstance(l_, str) and (l_ in SETS_X or l_.startswith('interior '))]   # a pesquisa visual pode fixar os lugares do video
+if not _set_ok(SET): _TROCAS.append(('video', SET, _LOCS_OK[0] if _LOCS_OK and not _LOCS_OK[0].startswith('interior') else _set_limpo(SET))); SET = _TROCAS[-1][2]
 SETX = SETS_X.get(SET, 1000) if 'x' not in B else B['x']
 _neve = False
 for _b in B['beats']:   # NEVE: enquanto estiver nevando, a cena vai para o cenario de neve (chao branco) se o roteiro nao fixar outro
@@ -65,7 +99,7 @@ for _b in B['beats']:   # MONTANHA: cena que fala de colina/montanha/morro acont
 _VEIC_RX = re.compile(r'(^|/)(carro|car|roadster|cybertruck|truck|taxi|jeep|caminhao|onibus|bus|motorcycle|moto|carro_[a-z0-9]+)')
 _EH_VEIC = lambda a_: bool(_VEIC_RX.search(str(a_))) and not re.search(r'carroca|wagon|cart|carrinho|falcon|rocket', str(a_))
 _GLEN = {}
-_GH = {}
+_GH = {}; _GDIM = {}   # _GDIM[asset] = (largura x, altura y, profundidade z, y minimo) do modelo
 def _glb_alt(a_): _glb_len(a_); return _GH.get(a_)   # altura do modelo 3D (para o close mirar no meio do objeto)
 _FRENTE = {'carro_redondo': 1, 'carro_50': 1, 'carro_antigo': 1, 'roadster': -1, 'roadster26': -1, 'cybertruck': -1, 'roadster_air': -1, 'roadster26_air': -1}   # frente do modelo: +x ou -x (olhado no Blender 23/11)
 _ryv = lambda a_, sg_: 0.0 if _FRENTE.get(str(a_).split('/')[-1], 1) == sg_ else 3.1416   # gira o carro para a FRENTE apontar para onde ele anda
@@ -82,12 +116,20 @@ def _glb_len(a_):
                 if len(ac.get('min', [])) == 3: mn = [min(mn[i], ac['min'][i]) for i in range(3)]; mx = [max(mx[i], ac['max'][i]) for i in range(3)]
             L = max(mx[0] - mn[0], mx[2] - mn[2]) if mx[0] > -1e8 else None
             _GH[a_] = (mx[1] - mn[1]) if mx[0] > -1e8 else None
+            if mx[0] > -1e8: _GDIM[a_] = (mx[0] - mn[0], mx[1] - mn[1], mx[2] - mn[2], mn[1])
     except Exception: L = None
     _GLEN[a_] = L; return L
+# ===== v13 O OBJETO E' O SUJEITO: "o carro decolou/voou/pulou/pousou" -> a cena e' DELE (camera nele, gente de lado olhando, sem multidao na frente) =====
+_RX_OBJ_ACAO = r' (pul\w*|salt\w*|voa|voam|voou|voaram|voando|voar|decol\w*|levantou voo|alcou voo|planou|sobrevo\w*|saiu do chao|subiu aos ceus|desceu|pousou|aterriss\w*)\b'
+for _b in B['beats']:
+    _t = ' ' + re.sub(r'[^a-z ]', ' ', _nrm0(_b.get('say', ''))) + ' '
+    if _b.get('explica'): _b['set'] = _b.get('set') or ('loc_estudio' if (not isinstance(_b['explica'], dict) or _b['explica'].get('fundo', 'estudio') == 'estudio') else None); _b['who'] = []; _b['crowd'] = {'n': 0, 'outfits': [], 'march': False}; _b['mapa'] = None; _b['detalhe'] = False; _b['shot'] = 'two'; _b['shot_lock'] = True; continue
+    if any(_EH_VEIC(p_[0]) for p_ in (_b.get('props') or [])) and re.search(_RX_OBJ_ACAO, _t) and not re.search(r' rampa| loop|cabeca para baixo|se soltou|soltou', _t) and not _b.get('veiculo') and _b.get('obj_acao') is not False:
+        _b['_obj_acao'] = True; _b['shot'] = 'two'; _b['shot_lock'] = True; _b['who'] = (_b.get('who') or [])[:2]; _b['crowd'] = {'n': 0, 'outfits': [w_.split(':')[0] for w_ in _b['who']] or ['POV'], 'march': False}; _b['detalhe'] = False; _b['fachada'] = False
 # ===== VARIEDADE DE CENARIO (ordem do Gibson 19/11: "cada video tem que ter cenarios diferentes") =====
 # 1) a narracao escolhe o lugar da cena; 2) nenhum lugar ocupa mais da metade do video e todo video tem pelo menos 3 lugares
 _EXPL = {i_ for i_, b_ in enumerate(B['beats']) if b_.get('set') or b_.get('interior')}   # o que o roteiro fixou nao muda
-_LUGAR = ((r'desert|areia|egito|egipci|piramide|arabia|saara|australia|faraó|farao|seca\b|caravana', 'set', 'outback'),
+_LUGAR = ((r'australia|\bemus?\b', 'set', 'outback'), (r'desert|areia|egito|egipci|piramide|arabia|saara|faraó|farao|seca\b|caravana', 'set', 'loc_deserto'),
           (r'florest|selva|amazon|\bmata\b|tribo|aldeia|indigena', 'set', 'jungle'),
           (r'castelo|cavaleir|medieval|reino\b|rainha|imperador|\bcorte\b|trono', 'set', 'medieval'),
           (r'estadio|torcida|futebol|\bpartida\b|ringue|\bluta\b|campeonato|\bcopa\b|lutador|luta livre|\barena\b|plateia|nocaute', 'set', 'stadium'),
@@ -118,6 +160,14 @@ _ALT = {'street': ['interior loja', 'harbor', 'countryside', 'interior madeira',
         'palace': ['interior pedra', 'street', 'harbor', 'countryside'], 'jungle': ['harbor', 'mountain', 'interior madeira', 'countryside'], 'medieval': ['interior pedra', 'countryside', 'mountain', 'interior madeira'],
         'arctic': ['harbor', 'interior madeira', 'mountain', 'interior pedra'], 'mountain': ['countryside', 'interior madeira', 'outback', 'street'], 'stadium': ['street', 'interior loja', 'countryside', 'interior madeira'],
         'hall': ['street', 'interior pedra', 'harbor', 'countryside']}
+def _limpa_sets():   # v13: nenhum cenario tematico fora de lugar (nem o que a variedade automatica escolheu)
+    for i_, b_ in enumerate(B['beats']):
+        if b_.get('set') and b_['set'] in _SET_TEMA and not _set_ok(b_['set']) and not b_.get('interior'):
+            _n = _set_limpo(b_['set']); _TROCAS.append((f'cena {i_ + 1}', b_['set'], _n)); b_['set'] = _n
+_limpa_sets()
+_ALT_LIMPO = (['loc_pista', 'interior galpao', 'loc_patio', 'loc_cidade', 'interior loja', 'loc_campo'] if _MODERNO else ['loc_campo', 'interior madeira', 'loc_montanha', 'interior pedra', 'loc_deserto'])
+for _k in ('loc_pista', 'loc_patio', 'loc_deserto', 'loc_campo', 'loc_montanha', 'loc_cidade', 'loc_estudio'): _ALT[_k] = [x_ for x_ in _ALT_LIMPO if x_ != _k]
+_alt_ok = lambda o_: o_.startswith('interior') or o_.startswith('loc_') or _set_ok(o_)
 _lug = lambda b_: ('interior ' + str(b_['interior'])) if b_.get('interior') else b_.get('set', SET)
 _N = len(B['beats'])
 _MINL = 4 if _N >= 9 else 3; _MAXD = max(2, -(-_N // 3)) if _N >= 9 else _N // 2   # 23/11 (Gibson: "cenario repetindo pra caramba"): >=4 lugares e nenhum em mais de 1/3 do video
@@ -127,7 +177,8 @@ if _N >= 6 and B.get('variar_cenario') is not False:
         _dom, _qt = _cont.most_common(1)[0]
         if len(_cont) >= _MINL and _qt <= _MAXD: break
         _livres = [i_ for i_, b_ in enumerate(B['beats']) if _lug(b_) == _dom and i_ not in _EXPL and not b_.get('_lug_ok') and i_ not in (0, _N - 1) and not b_.get('mapa')]
-        _opc = [o_ for o_ in _ALT.get(_dom.replace('interior ', ''), _ALT['street']) if o_ not in _cont] or _ALT.get(SET, _ALT['street'])
+        _base_opc = _LOCS_OK or [o_ for o_ in _ALT.get(_dom.replace('interior ', ''), _ALT['street']) if _alt_ok(o_)] + [o_ for o_ in _ALT_LIMPO]
+        _opc = [o_ for o_ in dict.fromkeys(_base_opc) if o_ not in _cont] or list(dict.fromkeys(_base_opc))
         _bl = [_livres[j_:j_ + 2] for j_ in range(0, len(_livres), 2)]
         _bl = _bl[1::2] + _bl[0::2]   # blocos de 2 cenas seguidas, primeiro um sim um nao (o lugar muda junto com a historia)
         for n_, bl_ in enumerate(_bl):
@@ -137,10 +188,11 @@ if _N >= 6 and B.get('variar_cenario') is not False:
                 b_ = B['beats'][i_]
                 _o = o_
                 if _o.startswith('interior') and (b_.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or b_.get('batalha') or b_.get('veiculo') or b_.get('crowd') or b_.get('props')):
-                    _o = next((x_ for x_ in _opc if not x_.startswith('interior')), 'harbor')
+                    _o = next((x_ for x_ in _opc if not x_.startswith('interior')), _ALT_LIMPO[0])
                 if _o.startswith('interior'): b_['interior'] = _o.split()[1]
                 else: b_['set'] = _o
                 _cont[_dom] -= 1; _cont[_o] += 1
+_limpa_sets()
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
@@ -363,7 +415,7 @@ if ANO and ANO >= 1930 and SET in ('street', 'stadium', 'hall'): _CHAO = '#6a6a7
 elif ANO and ANO < 1800 and not _CHAO: _CHAO = '#b49a78'                               # rua antiga: terra batida
 _ASF = bool(ANO and (ANO >= 1950 or (ANO >= 1925 and REGIAO == "eua")) and B.get("asfalto") is not False)   # rua asfaltada com faixa e calcada (cidade moderna); antes disso pedra/terra
 _PRAIA = B.get("praia", bool(re.search(r"\bpraia|\bareia\b|desembarc", " ".join(__import__("unicodedata").normalize("NFKD", b_["say"].lower()).encode("ascii", "ignore").decode() for b_ in B["beats"]))))   # praia de areia em vez do cais de madeira
-_REG_JS = f"globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_CHAO)}; globalThis.ASFALTO = {json.dumps(_ASF)}; globalThis.PRAIA = {json.dumps(bool(_PRAIA))}; globalThis.SEM_NAVIO = {json.dumps(B.get('navio') is False or bool(ANO and ANO >= 1990 and not re.search(r'navio|marinha|frota|porto|barco', ' '.join(b_['say'].lower() for b_ in B['beats']))))};\n"
+_REG_JS = f"globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_CHAO)}; globalThis.ASFALTO = {json.dumps(_ASF)}; globalThis.PRAIA = {json.dumps(bool(_PRAIA))}; globalThis.SEM_NAVIO = {json.dumps(B.get('navio') is False or bool(ANO and ANO >= 1990 and not re.search(r'navio|marinha|frota|porto|barco', ' '.join(b_['say'].lower() for b_ in B['beats']))))}; globalThis.ERA_ANO = {json.dumps(ANO or _ANO0)}; globalThis.ERA_GUERRA = {json.dumps(bool(re.search(r'guerra|batalha|trincheir|soldad|exercit|tropa|front', _TXT0)))}; globalThis.DRESS_OFF = {json.dumps([_nrm0(x_) for x_ in (_VIS0.get('proibidos') or []) if isinstance(x_, str)] + (B.get('sem_enfeite') or []))}; globalThis.LOCCFG = {json.dumps(B.get('locacao') or {})}; globalThis.LOC_NOITE = {json.dumps(sum(1 for b_ in B['beats'] if b_.get('hora') == 'noite') * 2 >= len(B['beats']))};\n"
 _FAMHAIR = {str(o_.get('hair', '')).lower() for o_ in B.get('outfits', {}).values() if o_.get('pele')} - {''}
 for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em video com famoso, ninguem mais usa a cor de cabelo dele (loiro do Trump so no Trump)
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
@@ -695,7 +747,7 @@ def direct(beats):
                 persons_out = [w.split(':')[0] for w in b.get('who', [])]
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
                 b['crowd'] = {'n': (12 if b.get('impact') else 5) if b.get('emus') else (18 if (b.get('impact') or (mass and (arrive or first))) else 10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass)) and not (b.get('impact') and any(SHOOT.match(w_) for w_ in words))}
-            if not b.get('who'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
+            if not b.get('who') and not b.get('explica') and b['crowd'].get('outfits'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
             _sy = __import__('unicodedata').normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()
             if re.search(r'multid|milhares|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
                 b['crowd']['n'] = max(int(b['crowd'].get('n', 0)), 30); b['crowd']['lotado'] = True   # "varias pessoas" na narracao: encher a tela de gente (ordem do Gibson 19/11)
@@ -866,6 +918,94 @@ for _b in beats:
         _b['crowd']['outfits'] = list(dict.fromkeys(_ok + _POVO))
 
 
+# ===== v13 CENA DE EXPLICACAO (24/11, Gibson: "quando o narrador explica a propulsao, um take so' explicando, sem personagem: e' video de ciencia") =====
+# "explica": { "objeto": "kit/x" (padrao: heroi), "raiox": true|"palavra", "pecas": [["kit/tanque_ar", dx, dy, dz, s], ...], "manobra": "paira"|"parado"|"gira"|"sobe",
+#   "vfx": [{"k": "jato", "pts": "baixo4", "pot": 1, "na": "palavra", "ate": "palavra"|0.9}], "rotulos": [["TEXTO", "topo|baixo|frente|tras|meio", "palavra", lado]],
+#   "setas": [["cima|baixo|esq|dir", "TEXTO", "#cor", "palavra", "ponto"]], "medidor": {"de": 0, "para": 100, "un": "km/h", "titulo": "0 A 100", "na": "palavra", "dur": 1.0},
+#   "contador": {...igual...}, "passos": ["A", "B", "C"], "comparar": [["NOME", valor, "un"], ...], "fundo": "estudio"|"cena", "angulo": "baixo"|"cima"|"lado" }
+# A cena NAO tem personagem: so' o objeto, o mecanismo funcionando (VFX preso nele), rotulos de 1 a 3 palavras e graficos. Aparecem na palavra da narracao.
+def _explica(k, b, light, a, bb):
+    E = b['explica'] if isinstance(b['explica'], dict) else {}
+    obj = E.get('objeto') or HEROI or 'kit/crate'
+    ws = b['say'].split()
+    def _wj(pal):
+        if not isinstance(pal, str): return None
+        return next((j_ for j_, w_ in enumerate(ws) if nrm(w_).startswith(nrm(pal))), None)
+    def _wf(pal, off=0, pad=None):   # quadro da palavra (ou fracao 0..1 da cena)
+        if isinstance(pal, (int, float)) and not isinstance(pal, bool): return f"Math.round({a} + ({bb} - ({a})) * {num(pal)})"
+        j_ = _wj(pal)
+        return f"WS({starts[k] + j_}, {off})" if j_ is not None else pad
+    _glb_len(obj); dx, dy, dz, y0 = _GDIM.get(obj, (2.0, 1.2, 1.0, 0.0)); L = max(dx, dz)
+    s = float(E.get('s') or (round(4.8 / L, 2) if L > 2.2 else round(max(1.0, 2.0 / max(L, dy)), 2)))
+    Ls, Hs = L * s, dy * s; sgF = _FRENTE.get(str(obj).split('/')[-1], 1)
+    vfx_in = list(E.get('vfx') or [])
+    man = E.get('manobra') or ('paira' if any(v_.get('k') == 'jato' for v_ in vfx_in) else 'gira' if not (E.get('pecas') or E.get('rotulos') or E.get('setas')) else 'parado')
+    z0 = -2.0
+    ybase = {'paira': f"DK + 1.5 + 0.1 * Math.sin((f - ({a})) / 9)", 'parado': "DK", 'gira': "DK + 0.02"}.get(man)
+    if man == 'sobe':
+        t0 = _wf(E.get('sobe_na'), -6, f"({a}) + 14"); ybase = f"DK + 2.4 * Math.pow(Math.min(1, Math.max(0, (f - ({t0})) / 40)), 1.5) + (f > ({t0}) + 40 ? 0.1 * Math.sin((f - ({t0})) / 9) : 0)"
+    yfn = f"(f) => {ybase}"
+    vfx_js = []
+    for v_ in vfx_in:
+        va = _wf(v_.get('na'), -4, f"({a}) + 8"); vb = _wf(v_.get('ate'), 0, f"({bb}) - 4")
+        vfx_js.append(f"{{ k: {json.dumps(v_.get('k', 'jato'))}, a: {va}, b: {vb}, pts: {json.dumps(v_.get('pts', 'baixo4'))}, pot: {num(v_.get('pot', 1))}{', col: ' + json.dumps(v_['col']) if v_.get('col') else ''} }}")
+        _som = {'jato': 'jato', 'fogo': 'whoosh', 'faisca': 'faisca', 'pneu': 'pneu', 'brilho': 'hud', 'onda': 'thump'}.get(v_.get('k', 'jato'))
+        if _som: KWSFX.append((starts[k] + (_wj(v_.get('na')) if _wj(v_.get('na')) is not None else 1), _som))
+    xr = E.get('raiox'); xr_js = ''
+    if xr:
+        xt = _wf(xr if isinstance(xr, str) else None, -4, f"({a}) + 12"); xr_js = f", xray: (f) => Math.min(1, Math.max(0, (f - ({xt})) / 12))"
+        KWSFX.append((starts[k] + (_wj(xr) if isinstance(xr, str) and _wj(xr) is not None else 1), 'hud'))
+    ry = 0.0 if sgF == 1 else 3.1416
+    pr = [f"{{ asset: {json.dumps(obj)}, at: [X, {num(z0)}], s: {num(s)}, y: {yfn}, ry: {num(ry)}{', spinY: 0.55' if man == 'gira' else ''}{xr_js}{', vfx: [' + ', '.join(vfx_js) + ']' if vfx_js else ''}, drop: false }}"]
+    for pc in (E.get('pecas') or []):   # pecas internas (aparecem no raio-X): posicao relativa ao objeto, em metros do modelo
+        pa_, px_, py_, pz_ = pc[0], float(pc[1]), float(pc[2]), float(pc[3]) if len(pc) > 3 else 0.0; ps_ = float(pc[4]) if len(pc) > 4 else 0.5
+        pex = pc[5] if len(pc) > 5 and isinstance(pc[5], dict) else {}
+        pr.append(f"{{ asset: {json.dumps(pa_)}, at: [X + {num(px_ * s)}, {num(z0 + pz_ * s)}], s: {num(ps_ * s)}, y: (f) => {ybase} + {num(py_ * s)}{', rz: ' + num(pex['rz']) if 'rz' in pex else ''}{', rx: ' + num(pex['rx']) if 'rx' in pex else ''}, tint: {json.dumps(pex.get('cor', '#ffb347'))}, drop: false }}")
+    PT = {'topo': (0, dy, 0), 'baixo': (0, 0.06 * dy, 0), 'meio': (0, dy * 0.5, dz * 0.5), 'frente': (dx * 0.46, dy * 0.45, dz * 0.3), 'tras': (-dx * 0.46, dy * 0.45, dz * 0.3), 'roda': (dx * 0.3, dy * 0.16, dz * 0.5), 'roda_tras': (-dx * 0.3, dy * 0.16, dz * 0.5), 'capo': (dx * 0.3, dy * 0.7, dz * 0.3)}
+    _pt = lambda p_: list(p_) if isinstance(p_, (list, tuple)) else list(PT.get(p_ or 'topo', PT['topo']))
+    fx = []; nrot = 0
+    for i_, r_ in enumerate(E.get('rotulos') or []):
+        tx = str(r_[0]).upper(); pt_ = r_[1] if len(r_) > 1 else 'topo'; t0 = _wf(r_[2] if len(r_) > 2 else None, -3, f"Math.round({a} + ({bb} - ({a})) * {num(0.12 + 0.2 * i_)})")
+        lado = int(r_[3]) if len(r_) > 3 and r_[3] else (1 if i_ % 2 == 0 else -1); inv = pt_ == 'baixo'
+        fx.append(f"{{ k: 'rotulo', a: {t0}, b: {bb}, prop: 0, off: {json.dumps([round(v_, 3) for v_ in _pt(pt_)])}, text: {json.dumps(tx)}, lado: {lado}{', inv: true' if inv else ''}, s: {num(max(1.5, min(2.6, Ls * 0.5)))} }}"); nrot += 1
+        KWSFX.append((starts[k] + (_wj(r_[2]) if len(r_) > 2 and _wj(r_[2]) is not None else min(len(ws) - 1, 2 + 3 * i_)), 'hud'))
+    for i_, s_ in enumerate(E.get('setas') or []):
+        d_ = s_[0]; tx = str(s_[1]).upper() if len(s_) > 1 and s_[1] else ''; col = s_[2] if len(s_) > 2 and s_[2] else {'cima': '#3ad17a', 'baixo': '#ff5a3a', 'esq': '#ffc93a', 'dir': '#ffc93a'}.get(d_, '#3ad17a')
+        t0 = _wf(s_[3] if len(s_) > 3 else None, -3, f"Math.round({a} + ({bb} - ({a})) * {num(0.3 + 0.2 * i_)})"); pt_ = s_[4] if len(s_) > 4 else {'cima': 'topo', 'baixo': 'baixo', 'esq': 'tras' if sgF == 1 else 'frente', 'dir': 'frente' if sgF == 1 else 'tras'}.get(d_, 'topo')
+        fx.append(f"{{ k: 'seta', a: {t0}, b: {bb}, prop: 0, off: {json.dumps([round(v_, 3) for v_ in _pt(pt_)])}, dir: {json.dumps(d_)}, text: {json.dumps(tx)}, col: {json.dumps(col)}, s: {num(max(1.5, min(2.4, Ls * 0.45)))} }}")
+        KWSFX.append((starts[k] + (_wj(s_[3]) if len(s_) > 3 and _wj(s_[3]) is not None else min(len(ws) - 1, 4 + 3 * i_)), 'whoosh'))
+    for kind in ('medidor', 'contador'):
+        m_ = E.get(kind)
+        if m_:
+            t0 = _wf(m_.get('na'), -3, f"Math.round({a} + ({bb} - ({a})) * 0.35)")
+            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get('up', 0.5))} }}")
+            KWSFX.append((starts[k] + (_wj(m_.get('na')) if _wj(m_.get('na')) is not None else len(ws) // 3), 'hud'))
+    if E.get('passos'):
+        t0 = _wf(E.get('passos_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'passos', a: {t0}, b: {bb}, itens: {json.dumps([str(x_).upper() for x_ in E['passos']][:4], ensure_ascii=False)}, up: {num(E.get('passos_up', 0.46))} }}")
+        for i_ in range(min(4, len(E['passos']))): KWSFX.append((starts[k] + min(len(ws) - 1, 1 + i_ * max(1, len(ws) // (len(E['passos']) + 1))), 'hud'))
+    if E.get('comparar'):
+        t0 = _wf(E.get('comparar_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'comparar', a: {t0}, b: {bb}, itens: {json.dumps([[str(c_[0]).upper()] + list(c_[1:]) for c_ in E['comparar']][:3], ensure_ascii=False)}, up: {num(E.get('comparar_up', 0.46))} }}")
+        KWSFX.append((starts[k] + min(len(ws) - 1, 2), 'hud'))
+    if b.get('text'): fx.append(f"txt(X, {a} + 6, {bb}, {json.dumps(b['text'])}, '#fff6e0', '#17305c', 4.4)")
+    # camera: sem corte seco; 2 enquadramentos (3/4 de frente -> o angulo que mostra o mecanismo). HUD colado em cima ocupa a parte alta: o objeto fica um pouco abaixo do centro.
+    hud_on = any(E.get(x_) for x_ in ('medidor', 'contador', 'passos', 'comparar'))
+    cy = (1.5 if man in ('paira', 'sobe') else 0.0) + Hs * 0.5 + (1.5 if hud_on else 0.25)
+    d0 = round(Ls * (2.15 if hud_on else 2.4) + 2.0, 2); ang = E.get('angulo') or ('baixo' if any(v_.get('k') == 'jato' for v_ in vfx_in) else 'lado')
+    k0 = (0.0, cy, z0, d0, 26, 10, 44); k1 = (0.0, cy, z0, round(d0 * 0.9, 2), 12, 8, 44)
+    k2, k3 = {'baixo': ((0.0, cy - 0.5, z0, round(d0 * 0.86, 2), -24, 1.5, 44), (0.0, cy - 0.5, z0, round(d0 * 0.78, 2), -10, 2.5, 44)),
+              'cima': ((0.0, cy - 0.2, z0, round(d0 * 0.95, 2), -22, 34, 44), (0.0, cy - 0.2, z0, round(d0 * 0.86, 2), -8, 30, 44)),
+              'lado': ((0.0, cy, z0, round(d0 * 0.88, 2), -20, 6, 44), (0.0, cy, z0, round(d0 * 0.8, 2), -6, 5, 44))}[ang if ang in ('baixo', 'cima', 'lado') else 'lado']
+    Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
+    lt = E.get('luz') or ('explica' if b.get('set') == 'loc_estudio' else light)
+    mid = f"Math.round({a} + ({bb} + 1 - ({a})) * 0.5)"
+    body = lambda id_, fa, fb: f"S('{id_}', {fa}, {fb}, X, {json.dumps(lt)}, {{ actors: [], props: [{', '.join(pr)}], fx: [{', '.join(fx)}], hero: {{ hero: 'none', explica: true }}, trans: 'dissolve' }})"
+    dur_ok = len(ws) >= 9
+    if dur_ok: call = f"{{ ...{body(f'b{k}', a, mid + ' - 1')}, cam: [{Kc(a, k0)}, {Kc(mid + ' - 1', k1)}], nocut: true, vary: false, creep: 0 }}, {{ ...{body(f'b{k}_x', mid, bb).replace(chr(39) + 'dissolve' + chr(39), chr(39) + 'cut' + chr(39))}, cam: [{Kc(mid, k2)}, {Kc(bb, k3)}], nocut: true, vary: false, glide: true, glideN: 22, creep: 0 }}"
+    else: call = f"{{ ...{body(f'b{k}', a, bb)}, cam: [{Kc(a, k0)}, {Kc(bb, k3)}], nocut: true, vary: false, creep: 0 }}"
+    b['_explica_ok'] = {'objeto': obj, 'manobra': man, 'vfx': [v_.get('k', 'jato') for v_ in vfx_in], 'rotulos': nrot, 'graficos': [x_ for x_ in ('medidor', 'contador', 'passos', 'comparar') if E.get(x_)], 'raiox': bool(xr)}
+    if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = ''.join(pt_ if i_ % 2 else re.sub(r'\bX\b', 'X_' + b['set'], pt_) for i_, pt_ in enumerate(re.split(r'("(?:[^"\\]|\\.)*")', call)))
+    return call
+
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
     if b.get('impact') and shot in WIDE and b.get('caminhoes'): T.update(d0=13.0, d1=31.0, el=11, h=2.6); T.pop('az0', None); T.pop('az1', None)   # comeca na tropa subindo nos caminhoes e ABRE para a fazenda inteira
@@ -902,6 +1042,7 @@ def build_beat(k, b):
     if b.get('interior') == 'galpao' and not b.get('light'): light = 'overcast'   # galpao iluminado: luz branca fria (nao a luz amarela de sala)
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
+    if b.get('explica'): return _explica(k, b, light, a, bb)   # v13: cena de explicacao sem personagem
     # elenco de pessoas
     HOLDS = (('rifle', r'espingarda|fuzil|mosquete|carabina|pegou a arma|sacou a arma'), ('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|\bcha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|\brum\b|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|\blista\b|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|\brendeu\b|\brenderam\b|\brendicao\b'), ('sword', r'\bespadas?\b|\bduelo\b|\bduelaram\b|esgrima|\bsabre\b'), ('money', r'dolar|dolares|libras|notas|cedulas|\\bpago\\b'), ('coin', r'dinheiro|moeda|\bouro\b|recompensa|pagou|pagar|fortuna|salario|imposto'), ('shovel', r'cavou|cavaram|cavando|cavar|trincheira|enterrou|enterraram|\\bcova\\b'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
@@ -918,6 +1059,10 @@ def build_beat(k, b):
         if hold is None and auto_hold and not persons and not B.get('outfits', {}).get(out, {}).get('rifle'): hold = auto_hold   # o primeiro personagem da cena segura o objeto de que a narracao fala
         persons.append((out, v, ex, hold or None))
     n = len(persons); sl = slots(max(n, 1))
+    if b.get('_obj_acao'):   # v13: quem assiste fica DE LADO (do lado contrario ao voo/salto), nunca na frente do objeto
+        _vp = next((p_ for p_ in (b.get('props') or []) if _EH_VEIC(p_[0])), None); _vdx = float(_vp[1]) if _vp and len(_vp) > 1 else 0.0; _sgo = 1 if _vdx <= 0 else -1
+        _voz = -3.4 if (_vp and len(_vp) > 2 and float(_vp[2]) > -3.0) else (float(_vp[2]) if _vp and len(_vp) > 2 else -3.4); _vL = ((_glb_len(_vp[0]) or 4.5) if _vp else 4.5); _vL = max(_vL, 5.0)
+        sl = [round(_vdx - _sgo * (_vL / 2 + 1.3 + 0.95 * i_), 2) for i_ in range(max(n, 1))]
     acts = []
     # ROSTO NA PALAVRA (sincronismo, ordem do Gibson): "gritou", "chorou", "riu", "assustou"... -> a cara muda NO INSTANTE da palavra
     _WEX = ((r'^(gritou|gritaram|gritava|berrou|berraram|socorro)$', 'shout'), (r'^(chorou|choraram|chorava|lagrimas|choro)$', 'cry'), (r'^(riu|riram|gargalhou|gargalhada|gargalhadas|risada|risadas)$', 'laugh'),
@@ -943,6 +1088,7 @@ def build_beat(k, b):
     for i, (out, v, ex, hold) in enumerate(persons):
         ov = f", over: {{ hold: {json.dumps(hold)} }}" if hold else ''
         dx, z = sl[i], (ZSW[i % len(ZSW)] if shot in WIDE else ZS[i % len(ZS)])
+        if b.get('_obj_acao'): z = round(_voz + 1.0 - 0.7 * i, 2)   # v13: quem assiste fica na mesma profundidade do objeto (inteiro no quadro, sem tapar)
         if shot == 'track' or mv:
             d = mv if mv else 8
             acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: {json.dumps('run' if re.search(r'corre|correu|correram|fugi|fuga|disparou em|debandada|persegui', _say_sp) else 'march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, expr: {_exj(ex)}{ov} }}")   # correu/fugiu: CORRE; soldado marcha; civil caminha solto
@@ -1070,9 +1216,8 @@ def build_beat(k, b):
         _yv = ''
         if _jvv is not None:   # o carro que esta andando DECOLA na palavra e sobe voando (motorista junto)
             _t0v = f"WS({starts[k] + _jvv}) - 8"; _yv = f"3.2 * Math.pow(Math.min(1, Math.max(0, (f - ({_t0v})) / 40)), 1.5)"
-            pr[-1] = pr[-1][:-2] + f", y: (f) => DK + {_yv} }}"
-            b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {_t0v}, b: {_t0v} + 30, at: [X, DK + 0.3, {num(zv)}], s: 1.8, follow: -1 }}"]
-            KWSFX.append((starts[k] + _jvv, 'whoosh')); b.setdefault('_veic_anim', []).append('o carro decola andando e sobe voando')
+            pr[-1] = pr[-1][:-2] + f", y: (f) => DK + {_yv}, vfx: [{{ k: 'jato', a: {_t0v} - 4, b: {bb}, pts: 'baixo4', pot: 1 }}, {{ k: 'onda', a: {_t0v} - 2, b: {_t0v} + 50, n: 3 }}, {{ k: 'velocidade', a: {a}, b: {bb} }}] }}"
+            KWSFX.append((starts[k] + _jvv, 'jato')); b.setdefault('_veic_anim', []).append('o carro decola andando com o jato dos propulsores embaixo e sobe voando')
         if vc.get('motorista'):   # motorista DENTRO do carro: carta cortada (cabeca e ombros) encostada na janela do lado da camera
             mo_ = vc['motorista'].split(':'); k_ = sv; zd = zv + 0.1 * sv; dxd = -0.45 * sv * dirv   # sentado no banco, dentro da cabine aberta
             acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v + dxd)}, {num(zd)}], move: [[X + {num(x1v + dxd)}, {num(zd)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: {num(0.86 * k_)}, y: {('(f) => ' + num(-0.42 * k_) + ' + ' + _yv) if _yv else num(-0.42 * k_)}, crop: 0.5, flip: {'false' if dirv > 0 else 'true'} }}")
@@ -1090,7 +1235,7 @@ def build_beat(k, b):
         _rr = _cores[_sn % len(_cores)]
         kit = 'kit/room_hospital' if it == 'hospital' else 'kit/room_galpao' if it == 'galpao' else f'kit/room_{_rr}_{_tp}' if os.path.exists(f'web/assets/library/kit/room_{_rr}_{_tp}.glb') else {'madeira': 'kit/room_wood', 'pedra': 'kit/room_stone', 'loja': 'kit/room_shop'}.get(it, 'kit/room_wood')
         pr.append(f"{{ asset: {json.dumps(kit)}, at: [X, 0], s: 1, drop: false }}")
-        for nm_, dx_, z_, s_ in (b.get('moveis') or ([('kit/maca', 4.2, -3.2, 1.4), ('kit/maca', -4.4, -3.0, 1.4), ('kit/maca', 8.0, -2.6, 1.4)] if it == 'hospital' else [] if it == 'loja' else [('mk/Crate_Metal', -6.8, -2.6, 2.4), ('mk/Workbench', 6.8, -2.8, 2.2), ('mk/Crate_Wooden', 7.6, 0.4, 2.0), ('mk/Barrel', -7.6, 0.6, 2.0)] if it == 'galpao' else [[('mk/Bookcase_2', 7.4, -3.4, 2.4), ('mk/Table_Large', -6.6, -1.6, 2.2), ('mk/Chair_1', -4.4, -1.2, 2.2), ('mk/Chest_Wood', 6.9, 0.6, 2.2)],
+        for nm_, dx_, z_, s_ in (b.get('moveis') or ([('kit/maca', 4.2, -3.2, 1.4), ('kit/maca', -4.4, -3.0, 1.4), ('kit/maca', 8.0, -2.6, 1.4)] if it == 'hospital' else [] if it == 'loja' else ([('mk/Crate_Metal', -6.8, -2.6, 2.4), ('mk/Workbench', 6.8, -2.8, 2.2), ('kit/palete', 7.6, 0.4, 1.2), ('kit/cone_transito', -7.6, 0.6, 1.3)] if _MODERNO else [('mk/Crate_Metal', -6.8, -2.6, 2.4), ('mk/Workbench', 6.8, -2.8, 2.2), ('mk/Crate_Wooden', 7.6, 0.4, 2.0), ('mk/Barrel', -7.6, 0.6, 2.0)]) if it == 'galpao' else [[('mk/Bookcase_2', 7.4, -3.4, 2.4), ('mk/Table_Large', -6.6, -1.6, 2.2), ('mk/Chair_1', -4.4, -1.2, 2.2), ('mk/Chest_Wood', 6.9, 0.6, 2.2)],
             [('mk/Cabinet', -7.2, -3.3, 2.3), ('mk/Bed_Twin1', 7.0, -2.4, 2.1), ('mk/Nightstand_Shelf', 4.6, -3.2, 2.2), ('mk/CandleStick_Stand', -4.8, -2.8, 2.2), ('mk/Barrel', -7.4, 0.8, 2.0)],
             [('mk/Workbench_Drawers', 7.0, -3.0, 2.2), ('mk/Shelf_Small_Bottles', -6.8, -3.4, 2.4), ('mk/Stool', 4.8, -1.4, 2.2), ('mk/Crate_Wooden', -7.0, 0.4, 2.0), ('mk/Vase_2', 0.0, -3.6, 2.2)],
             [('mk/Shelf_Arch', 6.8, -3.4, 2.4), ('mk/Bench', -6.4, -2.0, 2.2), ('mk/Table_Large', 6.6, -0.8, 2.0), ('mk/Vase_4', -7.6, 0.6, 2.2), ('mk/CandleStick_Triple', -4.2, -3.0, 2.2)]][STATE.get('sala_n', 0) % 4])):
@@ -1161,9 +1306,10 @@ def build_beat(k, b):
                 pr.append(f"{{ asset: 'kit/rampa_curva', at: [X + {num(_rx0)}, {num(z)}], s: 1, drop: false{', ry: 3.1416' if _sgF < 0 else ''} }}")
                 _th = f"Math.PI * Math.min(1, Math.max(0, (f - ({_T0}) - 24) / 40))"
                 extra += (f", xf: (f) => {{ const u = Math.min(1, Math.max(0, (f - ({_T0})) / 24)); return u < 1 ? X + {num(_rx0 - _sgF * 9)} + {num(_sgF * 9)} * u : X + {num(_rx0)} + {num(_sgF * _RL)} * Math.sin({_th}); }}"
-                          f", y: (f) => DK + 0.28 + {num(_RL)} - {num(_RL)} * Math.cos({_th}), rz: (f) => {num(_sgF)} * {_th}, move: [[X + {num(_rx0)}, {num(z)}], {a}, {bb}, 'lin'], align: false")
+                          f", y: (f) => DK + 0.28 + {num(_RL)} - {num(_RL)} * Math.cos({_th}), rz: (f) => {num(_sgF)} * {_th}, move: [[X + {num(_rx0)}, {num(z)}], {a}, {bb}, 'lin'], align: false"
+                          f", vfx: [{{ k: 'pneu', a: {_T0} - 2, b: {_T0} + 22, pts: 'baixo4', pot: 1 }}, {{ k: 'velocidade', a: {_T0}, b: {_T0} + 60 }}]")
                 b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {_T0}, b: {_T0} + 30, at: [X + {num(_rx0 - _sgF * 8)}, DK + 0.3, {num(z)}], s: 1.6 }}"]
-                if _j0 is not None: KWSFX.append((starts[k] + _j0, 'whoosh'))
+                if _j0 is not None: KWSFX.append((starts[k] + _j0, 'pneu')); KWSFX.append((starts[k] + _j0, 'motor_ev'))
                 STATE['loop_top'] = (_rx0, float(z), _sgF, k); b['detalhe'] = False
                 b.setdefault('_veic_anim', []).append('acelera e sobe a rampa curva gigante ate ficar de cabeca para baixo')
             elif STATE.get('loop_top') and STATE['loop_top'][3] == k - 1 and re.search(r' (soltou|se soltou|voou|girou|gira|pousou|aterriss)', _tv) and 'y' not in ex:   # DO TOPO DA RAMPA: se solta, voa girando (barrel roll) com os propulsores soltando fumaca e pousa numa nuvem branca
@@ -1173,18 +1319,15 @@ def build_beat(k, b):
                 _u = f"Math.min(1, Math.max(0, (f - ({_T0})) / {_TF}))"
                 extra += (f", xf: (f) => X + {num(_rx0)} + {num(_DX)} * {_u}, y: (f) => {{ const u = {_u}; return DK + 0.28 + {num(2 * _RL)} * (1 - u) * (1 - u) + 2.5 * u * (1 - u); }}"
                           f", rz: (f) => {num(_sgF)} * Math.PI * (1 + {_u}), rx: (f) => 2 * Math.PI * {_u} * {_u} * (3 - 2 * {_u}), move: [[X + {num(_rx0)}, {num(_zr)}], {a}, {bb}, 'lin'], align: false")
+                extra += f", vfx: [{{ k: 'jato', a: {_T0}, b: {_T0} + {_TF + 6}, pts: 'baixo4', pot: 1.1 }}, {{ k: 'onda', a: {_T0} + {_TF - 3}, b: {_T0} + {_TF + 50}, n: 3, raio: 7 }}, {{ k: 'poeira', a: {_T0} + {_TF - 4}, b: {_T0} + {_TF + 14}, pts: 'baixo4', pot: 1.3, col: '#f2f2ee' }}]"   # v13: jato dos propulsores PRESO no carro (gira junto com ele), onda e poeira no pouso
                 _fx_ = []
-                for i_ in range(0, _TF, 6):   # fumacinha dos propulsores saindo de baixo do carro durante o voo
-                    u_ = i_ / _TF; x_ = _rx0 + _DX * u_; y_ = 0.28 + 2 * _RL * (1 - u_) ** 2 + 2.5 * u_ * (1 - u_)
-                    _fx_.append(f"{{ k: 'puff', a: {_T0} + {i_}, b: {_T0} + {i_ + 22}, at: [X + {num(x_)}, DK + {num(max(0.3, y_ - 0.7))}, {num(_zr)}], s: 0.9 }}")
                 for i_, dx_ in enumerate((-1.6, 0.0, 1.6, -0.8, 0.8)):   # pouso: nuvem de fumaca branca
                     _fx_.append(f"{{ k: 'puff', a: {_T0} + {_TF - 4 + i_ * 3}, b: {_T0} + {_TF + 40 + i_ * 3}, at: [X + {num(_rx0 + _DX + dx_)}, DK + {num(0.5 + 0.3 * (i_ % 2))}, {num(_zr + 0.4)}], s: 2.2 }}")
-                _fx_.append(f"{{ k: 'dust', a: {_T0} + {_TF - 2}, b: {_T0} + {_TF + 30}, at: [X + {num(_rx0 + _DX)}, DK + 0.3, {num(_zr)}], s: 2.0 }}")
                 b['_anfx'] = b.get('_anfx', []) + _fx_; b['detalhe'] = False
-                if _j0 is not None: KWSFX.append((starts[k] + _j0, 'whoosh'))
+                if _j0 is not None: KWSFX.append((starts[k] + _j0, 'jato')); KWSFX.append((starts[k] + _j0 + 1, 'espanto'))
                 _jp = _jx(r'(pousou|aterriss|desceu)')
-                if _jp is not None: KWSFX.append((starts[k] + _jp, 'thump'))
-                b.setdefault('_veic_anim', []).append('se solta do topo, voa girando com fumaca dos propulsores e pousa numa nuvem branca')
+                if _jp is not None: KWSFX.append((starts[k] + _jp, 'pouso'))
+                b.setdefault('_veic_anim', []).append('se solta do topo, voa girando com o jato dos propulsores saindo de baixo e pousa numa nuvem branca (onda de ar no chao)')
             elif re.search(r' (espaco|orbita|starman|marte|gravidade zero)|ao redor do sol', _tv) and 'move' not in ex and 'y' not in ex:   # NO ESPACO: flutua, gira devagar e atravessa a cena (nunca parado)
                 extra += f", y: (f) => DK + 1.6 + 0.35 * Math.sin((f - ({a})) / 22), spinY: 0.35, move: [[X + {num(dx + 3.5)}, {num(z)}], {a}, {bb}, 'io'], align: false"
                 b.setdefault('_veic_anim', []).append('flutua no espaco girando')
@@ -1195,24 +1338,33 @@ def build_beat(k, b):
                 _T = lambda j_: f"WS({starts[k] + j_})"
                 _mvx = 3.0 if float(dx) <= 0 else -3.0
                 if _jd is not None and _jp is None and (_jv is None or _jv > _jd):   # DESCE/POUSA: comeca no ar e desce ate as rodas tocarem o chao (girando se a frase diz que girou)
-                    t0 = _T(_jd) + " - 10"; extra += f", y: (f) => DK + 3.0 * (1 - Math.pow(Math.min(1, Math.max(0, (f - ({t0})) / 34)), 1.5)), spinY: {2.2 if re.search(r' gir', _tv) else 0}"
-                    b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {t0} + 32, b: {t0} + 62, at: [X + {num(dx)}, DK + 0.3, {num(z)}], s: 1.7 }}"]; KWSFX.append((starts[k] + _jd, 'thump'))
-                    b.setdefault('_veic_anim', []).append('desce do ar e pousa nas rodas')
+                    t0 = _T(_jd) + " - 10"; extra += f", y: (f) => DK + 3.6 * (1 - Math.pow(Math.min(1, Math.max(0, (f - ({t0})) / 34)), 1.5)), spinY: {2.2 if re.search(r' gir', _tv) else 0}, vfx: [{{ k: 'jato', a: {a}, b: {t0} + 34, pts: 'baixo4', pot: 1 }}, {{ k: 'onda', a: {t0} + 30, b: {t0} + 80, n: 3 }}, {{ k: 'poeira', a: {t0} + 30, b: {t0} + 46, pts: 'baixo4', pot: 1.2 }}]"
+                    KWSFX.append((starts[k] + _jd, 'pouso'))
+                    b['_voo_cam'] = {'asset': str(asset), 'dx': float(dx), 'z': float(z), 'L': (_glb_len(asset) or 4.5) * float(s), 'sg': 1 if float(dx) <= 0 else -1}
+                    b.setdefault('_veic_anim', []).append('desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira')
                 elif _jp is not None and (_jv is None or _jp <= _jv):   # PULOU/SALTOU: arranca, sobe em arco e cai do outro lado (na palavra)
-                    t0 = _T(_jp) + " - 14"; extra += f", y: (f) => DK + 3.4 * Math.sin(Math.PI * Math.min(1, Math.max(0, (f - ({t0})) / 44)))"
+                    t0 = _T(_jp) + " - 14"; extra += f", y: (f) => DK + 3.4 * Math.sin(Math.PI * Math.min(1, Math.max(0, (f - ({t0})) / 44))), rz: (f) => {{ const u = Math.min(1, Math.max(0, (f - ({t0})) / 44)); return {num(0.28 * (1 if float(dx) <= 0 else -1) * _sgF)} * Math.cos(Math.PI * u) * Math.sin(Math.PI * u) * 2; }}, vfx: [{{ k: 'pneu', a: {t0} - 16, b: {t0}, pts: 'baixo4', pot: 1 }}, {{ k: 'velocidade', a: {t0} - 10, b: {t0} + 44 }}, {{ k: 'poeira', a: {t0} + 42, b: {t0} + 56, pts: 'baixo4', pot: 1.3 }}, {{ k: 'onda', a: {t0} + 42, b: {t0} + 80, n: 2, raio: 5 }}]"
                     if 'move' not in ex: extra += f", move: [[X + {num(dx + 2 * _mvx)}, {num(z)}], {t0} - 16, {t0} + 50, 'io'], align: false" + ('' if 'ry' in ex else f", ry: {_ryv(asset, 1 if float(dx) <= 0 else -1)}")
-                    b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {t0}, b: {t0} + 26, at: [X + {num(dx)}, DK + 0.3, {num(z)}], s: 1.5 }}", f"{{ k: 'dust', a: {t0} + 42, b: {t0} + 72, at: [X + {num(dx + 2 * _mvx)}, DK + 0.3, {num(z)}], s: 1.5 }}"]; KWSFX.append((starts[k] + _jp, 'whoosh'))
-                    b.setdefault('_veic_anim', []).append('pula em arco e cai do outro lado')
-                else:   # VOOU/DECOLOU: comeca no chao, decola com poeira na palavra e sobe voando para o lado
+                    KWSFX.append((starts[k] + _jp, 'motor_ev')); KWSFX.append((starts[k] + _jp + 1, 'pouso'))
+                    b['_voo_cam'] = {'asset': str(asset), 'dx': float(dx), 'z': float(z), 'L': (_glb_len(asset) or 4.5) * float(s), 'sg': 1 if float(dx) <= 0 else -1, 'k': 1.0, 'ky': 0.35}
+                    b.setdefault('_veic_anim', []).append('canta pneu, pula em arco inclinando o nariz e cai do outro lado com poeira')
+                else:   # VOOU/DECOLOU (v13, Gibson: "voce nao mostrou o carro voando, mostrou subindo um pouquinho"): decola com o jato embaixo, SOBE ALTO, voa atravessando a cena inclinado, e a camera vai junto
                     t0 = (_T(_jv) + " - 8") if _jv is not None else f"({a}) + 14"
-                    extra += f", y: (f) => DK + 3.0 * Math.pow(Math.min(1, Math.max(0, (f - ({t0})) / 46)), 1.6) + (f > ({t0}) + 20 ? 0.12 * Math.sin((f - ({t0})) / 6) : 0)"
-                    if 'move' not in ex: extra += f", move: [[X + {num(dx + _mvx)}, {num(z - 1.0)}], {t0} + 10, {bb}, 'in'], align: false" + ('' if 'ry' in ex else f", ry: {_ryv(asset, 1 if float(dx) <= 0 else -1)}")
-                    b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {t0} - 2, b: {t0} + 30, at: [X + {num(dx)}, DK + 0.3, {num(z)}], s: 1.6 }}", f"{{ k: 'puff', a: {t0}, b: {t0} + 24, at: [X + {num(dx)}, DK + 0.4, {num(z)}], s: 1.3 }}"]
-                    b['_anfx'] += [f"{{ k: 'puff', a: {t0} + {i_}, b: {t0} + {i_ + 22}, at: [X + {num(dx + _mvx * min(1, max(0, (i_ - 10) / 40)) ** 2)}, DK + {num(max(0.3, 3.0 * min(1, i_ / 46) ** 1.6 - 0.6))}, {num(z - min(1, i_ / 46))}], s: 0.8 }}" for i_ in range(4, 50, 6)]   # fumacinha dos propulsores debaixo do carro enquanto sobe
-                    if _jv is not None: KWSFX.append((starts[k] + _jv, 'whoosh'))
-                    b.setdefault('_veic_anim', []).append('decola do chao com poeira e sobe voando')
+                    _HV = float(ex.get('altura', 5.2)); _sgv = 1 if float(dx) <= 0 else -1; _mvx = 7.5 * _sgv
+                    _uu = f"Math.min(1, Math.max(0, (f - ({t0})) / 46))"
+                    extra += (f", y: (f) => {{ const u = {_uu}; return DK + {num(_HV)} * u * u * (3 - 2 * u) + (f > ({t0}) + 30 ? 0.16 * Math.sin((f - ({t0})) / 7) : 0); }}"
+                              f", rz: (f) => {{ const u = {_uu}; return {num(0.2 * _sgv * _sgF)} * Math.sin(Math.PI * u) + {num(0.05 * _sgv * _sgF)} * Math.sin((f - ({t0})) / 11); }}"
+                              f", rx: (f) => 0.07 * Math.sin((f - ({t0})) / 13) * {_uu}"
+                              f", vfx: [{{ k: 'jato', a: {t0} - 5, b: {bb}, pts: 'baixo4', pot: 1.15 }}, {{ k: 'onda', a: {t0} - 3, b: {t0} + 60, n: 4, raio: 7 }}, {{ k: 'poeira', a: {t0} - 4, b: {t0} + 22, pts: 'baixo4', pot: 1.3 }}, {{ k: 'velocidade', a: {t0} + 30, b: {bb} }}]")
+                    if 'move' not in ex: extra += f", move: [[X + {num(dx + _mvx)}, {num(z - 0.6)}], {t0} + 24, {bb}, 'io'], align: false" + ('' if 'ry' in ex else f", ry: {_ryv(asset, _sgv)}")
+                    if _jv is not None: KWSFX.append((starts[k] + _jv, 'jato')); KWSFX.append((starts[k] + _jv + 2, 'espanto'))
+                    b['_voo_cam'] = {'asset': str(asset), 'dx': float(dx), 'z': float(z), 'L': (_glb_len(asset) or 4.5) * float(s), 'sg': _sgv}; b['detalhe'] = False
+                    b.setdefault('_veic_anim', []).append(f'decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe {_HV:.0f} m, voa atravessando a cena inclinado e a camera acompanha')
             elif re.search(r' (dirig\w*|acelerou|arrancou|andou|andava|correu|corria|passou|desfil\w*|estrada|avenida|percorr\w*|viajou|rodou|chegou|lancad\w*|lancou|pilot\w*)\b', _tv) and 'move' not in ex:   # ANDANDO: atravessa a cena rodando
                 extra += f", move: [[X + {num(dx + (6.0 if float(dx) <= 0 else -6.0))}, {num(z)}], {a}, {bb}, 'io'], align: false, bob: 0.03" + ('' if 'ry' in ex else f", ry: {_ryv(asset, 1 if float(dx) <= 0 else -1)}")
+                _arr = re.search(r' (acelerou|arrancou|disparou|correu|corria|lancad\w*|lancou)', _tv)
+                extra += f", vfx: [{{ k: 'velocidade', a: {a} + 12, b: {bb} - 8 }}" + (f", {{ k: 'pneu', a: {a} + 4, b: {a} + 30, pts: 'baixo4', pot: 1 }}" if _arr else '') + "]"
+                if _arr: KWSFX.append((starts[k] + max(0, (_jx(r'(acelerou|arrancou|disparou|correu|corria|lancad|lancou)') or 0)), 'pneu')); KWSFX.append((starts[k] + max(0, (_jx(r'(acelerou|arrancou|disparou|correu|corria|lancad|lancou)') or 0)), 'motor_ev'))
                 b.setdefault('_veic_anim', []).append('anda pela cena')
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx - (mv / 2 if ex.get('carregado') else 0))}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
@@ -1243,7 +1395,7 @@ def build_beat(k, b):
             fx.append(f"{{ k: 'text', a: {a}, b: {bb}, at: [X + {num(_sx)}, DK, {num(-1.3)}], text: {json.dumps(b['text'], ensure_ascii=False)}, s: {num(b.get('tscale', 1.5) * 1.75)}, col: '#3a2416', size: 120, board: {json.dumps(b.get('placa', True))} }}")
     for e in b.get('fx', []):
         kind, _, at = e.partition('@'); at = int(at) if at else 4
-        if b.get('_enc') and kind in ('puff', 'dust', 'splash'): continue   # cena de processo: a fumaca sai do objeto (encenacao), nao uma nuvem na frente do personagem
+        if (b.get('_enc') or b.get('_veic_anim')) and kind in ('puff', 'dust', 'splash'): continue   # cena de processo: a fumaca sai do objeto (encenacao), nao uma nuvem na frente do personagem
         if kind == 'burst': fx.append(f"{{ k: 'burst', a: {a} + {at}, at: [X + {num(sl[0] if n else 0)}, DK + 1.8, 3.2], s: 1.2 }}")
         elif kind in ('dust', 'puff'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X + 0.9, DK + 0.12, 1.0], s: 0.75 }}")   # nos pes, nao na frente do rosto
         elif kind in ('stars', 'splash', 'ring', 'creak'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X, DK + 0.5, 1.2], s: 1.1 }}")
@@ -1270,7 +1422,7 @@ def build_beat(k, b):
             nw = nrm(w)
             if j in _ngK or j in _idiom_idx(b['say']): continue   # "ninguem deu um tiro" / "a noticia correu": sem efeito de acao
             for rx, kind, kick in KW:
-                if rx.match(nw) and kfx < 7 and not (b.get('_enc') and kind in ('puff', 'dust', 'splash')):
+                if rx.match(nw) and kfx < 7 and not ((b.get('_enc') or b.get('_veic_anim')) and kind in ('puff', 'dust', 'splash')):
                     kfx += 1; wi = starts[k] + j; PLANO.append((k, w.strip('.,!?"'), kind)); KWSFX.append((wi, 'cannon' if re.match(r'canh|explo|bomb', nw) else {'burst': 'gun', 'ring': 'sting', 'dust': 'thump', 'puff': 'thump', 'stars': 'ding'}.get(kind, 'tick')))   # SOM na mesma palavra do efeito
                     px, pz = (crowd_pos[(j * 5) % len(crowd_pos)] if crowd_pos else (sl[0] if n else 0.0, 1.5))
                     _rif = [i_ for i_, pe_ in enumerate(persons) if pe_[3] == 'rifle' or B.get('outfits', {}).get(pe_[0], {}).get('rifle') or PROFISSOES.get(str(B.get('outfits', {}).get(pe_[0], {}).get('profissao', '')).lower(), {}).get('rifle')]
@@ -1347,6 +1499,7 @@ def build_beat(k, b):
         else:
           for j_, w_ in enumerate(_ws):
               nw_ = nrm(w_); wi_ = starts[k] + j_
+              if b.get('_obj_acao') and re.match(r'(pul|salt|voa|voo|voar|decol|desc|pous|aterriss|acel|arranc|sub|gir|plan|sobrevo|levant|caiu|cair)', nw_): b.setdefault('_enc_words', []).append(nw_); continue   # v13 SUJEITO = OBJETO: quem pula/voa/pousa e' o carro (com VFX), nao o personagem que assiste
               if j_ in _negi: b.setdefault('_enc_words', []).append(nw_); continue   # acao NEGADA na frase: nao encena (e nao conta como falta)
               if j_ in _idiom_idx(b['say']): b.setdefault('_enc_words', []).append(nw_); continue   # EXPRESSAO: "o panico tomou", "a noticia correu", "o preco caiu"
               for rx_, gest_, tipo_ in ENC:
@@ -1636,6 +1789,11 @@ def build_beat(k, b):
                f"{{ f: {bb}, at: [X + {num(_x1m - 2.2 * _dr)}, DK + 2.1, {num(_zm)}], d: 11.5, az: {-8 * _dr}, el: 7, fov: 42, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
         call = call.replace("k: 'flash',", f"k: 'flash', follow: 0, dx: 1.5,")   # o clarao do tiro sai da arma do cavaleiro (acompanha o galope)
+    if b.get('_voo_cam') and not b.get('cam_livre') and call.count("S('b") == 1:   # v13 VOO: plano aberto no carro (inteiro, com chao embaixo para ver o jato bater) e a camera SOBE e anda com ele
+        _vc = b['_voo_cam']; _dv = round(_vc['L'] * 2.6 + 6.5, 2); _cxv = _vc['dx'] - _vc['sg'] * 1.7
+        cam = (f"cam: [{{ f: {a}, at: [X + {num(_cxv)}, DK + 1.5, {num(_vc['z'])}], d: {num(_dv)}, az: {8 * _vc['sg']}, el: 5, fov: 44 }}, "
+               f"{{ f: {bb}, at: [X + {num(_cxv)}, DK + 1.2, {num(_vc['z'])}], d: {num(_dv * 1.08)}, az: {-8 * _vc['sg']}, el: 1.5, fov: 44 }}]")
+        call = f"{{ ...{call}, {cam}, nocut: true, vary: false, creep: 0, camFollow: {{ asset: {json.dumps(_vc['asset'])}, k: {num(_vc.get('k', 1.0))}, ky: {num(_vc.get('ky', 0.5))}{', y0: DK + ' + num(_vc['y0']) if 'y0' in _vc else ''} }} }}"
     if b.get('veiculo') and not b.get('cam_livre'):   # a camera acompanha o veiculo de lado, mostrando ele inteiro
         vc = b['veiculo']; x0v, x1v, zv = vc.get('de', -9), vc.get('para', 9), vc.get('z', 0.6); dd = vc.get('dist', 14.5)
         cam = (f"cam: [{{ f: {a}, at: [X + {num(x0v)}, DK + 1.9, {num(zv)}], d: {num(dd)}, az: {12 if x1v >= x0v else -12}, el: 7, fov: 40 }}, "
@@ -1808,8 +1966,37 @@ def _redondo(as_):   # objeto do kit feito com blender/formas.py (malha 'red_...
     except Exception: return True
 _VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
 _STOPW = set('guerra causa vezes tempo coisa hora horas dias anos meses semanas noite manha tarde vida nada tudo todo toda todos todas mesmo mesma outro outra outros outras nome meio parte lado fim final verdade volta ideia ordem resposta historia mundo pais paises primeiro segundo terceiro ultimo unica unico dele dela deles delas quem qual onde quando para pelo pela entre sobre depois antes ainda apenas quase muito pouco mais menos maior menor inteiro inteira troca conta hoje nunca sempre'.split())
+# ===== v13 TRIAGEM DE CADA FRASE (24/11): ACAO-CHAVE | EXPLICATIVA | SIMPLES | TRANSICAO ("classe" no beat sobrepoe) =====
+_RX_EXPLICA = (r'propuls|comprimid|\bpressao\b|empuxo|aerodinam|magnet|eletromagn|combust|reacao quimica|molecul|\batomos?\b|bacteria|\bvirus\b|gravidade|\batrito\b|temperatura|\bgraus\b|voltagem|motor(es)? (eletric|a jato|a vapor)'
+               r'|\bfuncion\w+|mecanismo|por dentro|o segredo (e|era|eram|sao|esta|estava)\b|o truque (e|era)\b|a ciencia|a explicacao|isso acontece porque|faz com que|\bserve para|quilometros por hora|de zero a|vezes mais (rapid|forte|quente|pesad|leve|alto)|ventilador|turbina|\bvalvula|\bbateria')
+def _classe(b):
+    if b.get('classe') in ('chave', 'explicativa', 'simples', 'transicao'): return b['classe']
+    t_ = _nz(b['say'])
+    if b.get('explica'): return 'explicativa'
+    if b.get('_veic_anim') or b.get('_obj_acao') or b.get('impact') or b.get('batalha') or b.get('_fogo') or b.get('montado') or re.search(r'explodi|explos|desab|afund|naufrag|incendi', t_): return 'chave'
+    if re.search(_RX_EXPLICA, t_) and b.get('explica') is not False: return 'explicativa'
+    if b.get('_acao') or b.get('_inter') or b.get('_chega') or b.get('_enc_words') or b.get('veiculo') or any(kk_ == beats.index(b) for kk_, _, _ in PLANO): return 'simples'
+    return 'transicao'
+def _briefing(b):   # camadas do efeito de uma ACAO-CHAVE: corpo, emissao/particulas, luz, camera, som
+    c_ = []
+    if b.get('_veic_anim'): c_ += [('corpo', '; '.join(b['_veic_anim'])), ('emissao', 'VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)'), ('luz', 'luz do propulsor acompanha o objeto'), ('camera', 'camera segue o objeto' if b.get('_voo_cam') else 'plano aberto no objeto'), ('som', 'som na palavra da acao')]
+    elif b.get('impact') or b.get('batalha'): c_ += [('corpo', 'tropa/personagens encenam a batalha'), ('emissao', 'claroes de tiro, fumaca e poeira'), ('luz', 'clarao'), ('camera', '4 cameras em sequencia'), ('som', 'tiros e gritos')]
+    elif b.get('_fogo'): c_ += [('corpo', 'labaredas 3D'), ('emissao', 'fumaca'), ('luz', 'clarao do fogo'), ('camera', 'plano da cena'), ('som', 'fogo')]
+    elif b.get('montado'): c_ += [('corpo', 'cavaleiro galopando'), ('emissao', 'poeira/clarao do tiro'), ('luz', 'cena'), ('camera', 'camera acompanha'), ('som', 'galope')]
+    elif b.get('explica') and b.get('_explica_ok'): e_ = b['_explica_ok']; c_ += [('corpo', f"{e_['objeto']} ({e_['manobra']})" + (' em raio-X' if e_['raiox'] else '')), ('emissao', ', '.join(e_['vfx']) or 'rotulos/graficos'), ('luz', 'estudio'), ('camera', '2 enquadramentos sem corte seco'), ('som', 'som em cada entrada')]
+    return c_
 def _riscos(k, b):
     t = _nz(b['say']); nw = len(b['say'].split()); sh = b.get('shot'); R = []; cen = b.get('set', SET)
+    b['_classe'] = _classe(b)
+    if b.get('explica'):   # cena de explicacao: o objeto e o mecanismo SAO a acao (sem personagem)
+        b['_faltam'] = []
+        e_ = b.get('_explica_ok') or {}
+        if not (e_.get('vfx') or e_.get('rotulos') or e_.get('graficos') or e_.get('raiox')): R.append(('cena de explicacao vazia (so o objeto parado)', 'por em "explica" pelo menos um de: "vfx", "rotulos", "setas", "medidor", "contador", "passos", "comparar", "raiox"'))
+        if not _lib(str(e_.get('objeto', ''))): R.append((f"objeto da explicacao sem modelo 3D: {e_.get('objeto')}", 'modelar em blender/ (formas.py) ou trocar "explica.objeto"'))
+        if nw > 26: R.append((f'cena longa ({nw} palavras)', 'dividir em duas cenas de explicacao'))
+        return R
+    if b['_classe'] == 'explicativa': R.append(('frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada', '"explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); se a frase nao e\' explicacao: "explica": false'))
+    if b['_classe'] == 'chave' and len(_briefing(b)) < 3: R.append(('ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)', 'por o objeto da acao em "props" (veiculo/objeto grande) para a ferramenta animar com VFX, ou "batalha"/"explica" na cena'))
     if re.search(r'desembarc|barcos? cheg|navios? cheg|chegaram? de (barco|navio)|atravess\w* o (rio|mar|lago|canal)|ancor|zarp', t) and sh not in WIDE: R.append(('chegada/travessia pela agua em plano fechado: nao da para ver barco nem desembarque', '"shot": "reveal", "set": "harbor" nesta cena (plano aberto no cais, navios ao fundo)'))
     if re.search(r'\b(rio|lago|mar|praia|ilha|costa|porto|cais|oceano)\b', t) and cen not in ('harbor', 'palace') and not b.get('interior') and not b.get('mapa'): R.append((f'a narracao cita agua e o cenario "{cen}" nao tem agua', '"set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar'))
     an = sorted(set(re.findall(_ANIM_ALL, t)))
@@ -1836,7 +2023,7 @@ def _riscos(k, b):
     if k >= 2 and all(not x.get('interior') and x.get('set', SET) == cen and x.get('shot') == sh and [w.split(':')[0] for w in x.get('who', [])] == [w.split(':')[0] for w in b.get('who', [])] for x in (beats[k - 1], beats[k - 2])) and sh not in WIDE: R.append(('3a cena seguida com o mesmo plano, lugar e personagens: fica repetitivo', 'trocar o "shot", levar para "interior" ou trocar quem aparece'))
     fal = _sem_modelo(re.findall(FALTA_MODELAR, t))
     if fal: R.append((f'objeto sem modelo 3D: {", ".join(fal)}', 'modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra'))
-    if not (b.get('_acao') or b.get('_inter') or b.get('_chega') or b.get('impact') or sh in WIDE or sh == 'track' or any(len(w.split(':')) > 3 for w in b.get('who', []))): R.append(('personagens parados (so falam e piscam)', '"acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true'))
+    if not (b.get('_acao') or b.get('_inter') or b.get('_chega') or b.get('impact') or b.get('_obj_acao') or b.get('_veic_anim') or sh in WIDE or sh == 'track' or any(len(w.split(':')) > 3 for w in b.get('who', []))): R.append(('personagens parados (so falam e piscam)', '"acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true'))
     # ===== VERIFICADOR DE ACAO (ordem do Gibson): todo verbo de acao da frase precisa de animacao na cena; senao o video NAO renderiza =====
     _stg = set(b.get('_enc_words', [])) | {nrm(w_) for kk_, w_, kd_ in PLANO if kk_ == k}
     _fam = (('voando', r'voar|voou|ares|explod|bomba'), ('desembarque', r'cheg|desembarc|navio|atrac|aport'), ('lados', r'avanc|atac|lut|enfrent|batalh|combat|tiro|canh|explod'),
@@ -1874,11 +2061,35 @@ for k, b in enumerate(beats):
             '- RISCOS: ' + ('nenhum' if not R else ''), *[f'  - {r} -> CORRECAO: {c}' for r, c in R], '']
 _glob = []
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))
-if sum(1 for b in beats if b.get('impact')) < int(B.get('min_momentos', 2)): _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
-if HEROI and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
+if sum(1 for b in beats if b.get('impact') or b.get('_veic_anim') or b.get('explica')) < int(B.get('min_momentos', 2)): _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
+if HEROI and not any(b.get('_det_heroi') or b.get('explica') or b.get('_voo_cam') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
 if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
     _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))
+# ===== v13 OBJETO FORA DE EPOCA: nada do que esta em cena pode ser de outra epoca (bloqueia o render) =====
+_PROP_ERA = (('barrel|Barrel', -9999, 1945, 'barril'), ('crate$|Crate_Wooden', -9999, 1965, 'caixote de madeira'), ('lantern', -9999, 1925, 'lampiao'), ('CandleStick|Candle', -9999, 1920, 'castical'), ('carro_antigo', 1885, 1940, 'carro antigo'), ('carro_50', 1940, 1975, 'carro dos anos 50'),
+             ('wagon|carroca|charrete', -9999, 1935, 'carroca'), ('cannon|canhao', 1300, 1900, 'canhao antigo'), ('shield|escudo', -9999, 1650, 'escudo'), ('war/drum', -9999, 1900, 'tambor de guerra'), ('haybale|scarecrow', -9999, 1990, 'feno/espantalho'),
+             ('cone_transito|barreira_jersey|telao_led|grade_evento|tripe_camera|palete', 1950, 9999, 'objeto moderno'), ('roadster|cybertruck|falcon|booster|rocket|b2_|helicopter', 1940, 9999, 'veiculo moderno'), ('torre_luz', 1930, 9999, 'torre de refletor'),
+             ('vehicles/(car|taxi|truck|jeep|motorcycle|tank)|carro_redondo', 1890, 9999, 'veiculo a motor'), ('buildings/apartment', 1900, 9999, 'predio de apartamentos'), ('navio_vapor', 1810, 1960, 'navio a vapor'), ('navio_vela', -9999, 1900, 'navio a vela'))
+_ano_v = ANO or _ANO0
+_spec_txt = ' '.join(shots)
+_fora = []
+if _ano_v and B.get('epoca_livre') is not True:
+    for as_ in sorted(set(re.findall(r'asset: ["\']([^"\']+)["\']', _spec_txt))):
+        for rx_, de_, ate_, nm_ in _PROP_ERA:
+            if re.search(rx_, as_) and not (de_ <= _ano_v <= ate_) and as_ not in (B.get('epoca_ok') or []): _fora.append(f'{as_} ({nm_}, {de_ if de_ > 0 else "..."}-{ate_ if ate_ < 9000 else "..."})'); break
+if _fora: _glob.append((f'OBJETO FORA DE EPOCA para {_ano_v}: ' + ', '.join(_fora), 'tirar o objeto de "props"/"moveis" ou trocar por um da epoca; se a historia mostra mesmo esse objeto (museu, lembranca), liste em "epoca_ok": ["<asset>"]'))
+if _TROCAS: print('v13 cenario limpo: ' + '; '.join(f'{o_}: {d_} -> {p_}' for o_, d_, p_ in _TROCAS))
+# ===== v13 ORQUESTRACAO: cada frase com classe, briefing de efeito e 4 metricas (todas tem de dar 100%) =====
+_orq = []
+for k_, b_ in enumerate(beats):
+    c_ = b_.get('_classe') or _classe(b_); br_ = _briefing(b_)
+    _orq.append({'cena': f'b{k_}', 'frase': b_['say'], 'classe': c_, 'sujeito': 'objeto' if (b_.get('_obj_acao') or b_.get('_veic_anim') or b_.get('explica')) else 'personagem' if b_.get('who') else 'cenario', 'briefing': dict(br_), 'acoes_faltando': b_.get('_faltam', []), 'cenario': ('interior ' + str(b_['interior'])) if b_.get('interior') else b_.get('set', SET)})
+_m_chave = [o_ for o_ in _orq if o_['classe'] == 'chave']; _m_expl = [o_ for o_ in _orq if o_['classe'] == 'explicativa']
+_MET = {'acoes_encenadas': round(100 * sum(1 for o_ in _orq if not o_['acoes_faltando']) / max(1, len(_orq))), 'acoes_chave_com_efeito': round(100 * sum(1 for o_ in _m_chave if len(o_['briefing']) >= 3) / max(1, len(_m_chave))),
+        'explicacoes_cobertas': round(100 * sum(1 for o_, b_ in zip(_orq, beats) if o_['classe'] == 'explicativa' and b_.get('explica')) / max(1, len(_m_expl))), 'cenario_e_epoca_ok': 0 if _fora else 100}
+json.dump({'id': ID, 'ano': _ano_v, 'cenarios_trocados': _TROCAS, 'metricas': _MET, 'cenas': _orq}, open(f'stories/{ID}/orquestracao.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('v13 orquestracao: ' + ' | '.join(f'{k_} {v_}%' for k_, v_ in _MET.items()) + f' -> stories/{ID}/orquestracao.json')
 # PESQUISA VISUAL OBRIGATORIA (ordem do Gibson 23/11): todo roteiro traz "visual" com ONDE/QUANDO/QUEM/ROUPAS DA EPOCA/CENARIO/OBJETOS e as FONTES VISUAIS (fotos, quadros, videos)
 _VIS = B.get('visual') or {}
 _vfal = [k_ for k_ in ('local', 'quando', 'participantes', 'roupas', 'cenario', 'objetos', 'fontes_visuais') if not _VIS.get(k_)]

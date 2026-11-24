@@ -58,19 +58,16 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 2f42c8fa ckpt(kekule1865): trecho 8
-- 7e5d30bc ckpt(kekule1865): trecho 6
-- b565f7a9 ckpt(kekule1865): trecho 5
-- 87678c9b ckpt(kekule1865): trecho 3
-- 73497c7b ckpt(kekule1865): trecho 2
-
-**In-progress files (1):**
-- CLAUDE.md
+- 93ddb6b6 Trava PAUSA: reinicio do ambiente nao religa fila/watchdog/auto-aprovacao (producao parada para o pente fino v13)
+- 173d98f0 ckpt(karansebes): pronto
+- ee3fa7c8 ckpt(karansebes): trecho 11
+- fd9a517b ckpt(karansebes): trecho 13
+- 7dc6e03e ckpt(karansebes): trecho 12
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-23 15:18:24 UTC
+**Hook generated:** 2026-11-23 23:36:45 UTC
 <!-- post-compact-recovery-end -->
