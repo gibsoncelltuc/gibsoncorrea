@@ -282,10 +282,11 @@
    "h": 6.0,
    "d0": 123.4,
    "d1": 117.5,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "impact": true
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "IMP:0:surprised",
     "COZ:0:scared"
@@ -312,7 +313,7 @@
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/kettle",
@@ -324,6 +325,7 @@
    },
    "detalhe": false,
    "set": "harbor",
+   "impact": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,

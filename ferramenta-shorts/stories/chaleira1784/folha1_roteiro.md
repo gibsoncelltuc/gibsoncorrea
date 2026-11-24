@@ -54,7 +54,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeito + som nas palavras-chave: encena: x_espera (cross) @9 -> acao + som de efeito; encena: atira @11 -> acao + som de efeito
 - Efeito visual marcado: burst@60
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)
 - Narracao: A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.

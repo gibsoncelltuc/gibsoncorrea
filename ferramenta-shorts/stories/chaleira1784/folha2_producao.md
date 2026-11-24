@@ -54,21 +54,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que o navio de guerra holandês Dolfijn estava esperando, e di...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao angry) | multidao: 0 de 
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: insiste | batalha encenada
 - Objetos/modelos: cannon, kit/navio_fragata
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio
 - RISCOS: nenhum
 
 ## Cena b6 - A bala acertou e destruiu uma chaleira de sopa no convés do navio do i...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): IMP (variante 0, expressao surprised); COZ (variante 0, expressao scared) | multidao: 0 de IMP/COZ
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/kettle, navios de guerra ao fundo, no tamanho real
+- Animacao: conversar | interacao: vai ate o outro | batalha encenada
+- Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, imperador, navio, sopa
 - RISCOS: nenhum
 
@@ -124,13 +124,11 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b6 | planos abertos: 3 | mistura: close 19% | medio 56% | aberto 23% | detalhe 1%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b8 entregar
-- RISCOS GERAIS: 
-  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
+- Objeto heroi: kit/kettle | grandes momentos: b5, b6 | planos abertos: 2 | mistura: close 8% | medio 71% | aberto 20% | detalhe 1%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b6 vai ate o outro, b8 entregar
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: menos de 2 grandes momentos
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).

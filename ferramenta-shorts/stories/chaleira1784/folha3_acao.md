@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 14 palavras - plano two
@@ -47,17 +47,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | seguia (24.4s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | PLACA | 3 NAVIOS | OK |
 
-## Cena b5 - 25.8s a 30.1s - 15 palavras - plano low
+## Cena b5 - 25.8s a 30.1s - 15 palavras - plano two
 > "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | esperando (28.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
 | 2 | disparou (29.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | INTERACAO | insiste | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 31.2s a 34.4s - 15 palavras - plano orbit
+## Cena b6 - 31.2s a 34.4s - 15 palavras - plano two
 > "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,6 +66,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | bala (31.3s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | bala (31.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 35.8s a 39.2s - 14 palavras - plano group
 > "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais."

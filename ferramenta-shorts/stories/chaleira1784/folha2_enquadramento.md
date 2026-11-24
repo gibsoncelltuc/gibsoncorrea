@@ -48,7 +48,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +20 da cena
