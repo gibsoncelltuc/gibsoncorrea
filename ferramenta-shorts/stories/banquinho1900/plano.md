@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1900 | (rosto) pleading (expr + som de efeito); encena: fala (point) @3 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | Ouro (stars + som de sino); encena: fala (point) @7 (acao + som de efeito); encena: paga (reach) @11 (acao + som de efeito) | -
-b2 | two | -  | - | - | -
+b2 | two | -  | tropa | - | -
 b3 | two | -  | interior, objeto na mao | - | -
 b4 | two | -  | - | encena: fala (point) @10 (acao + som de efeito) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: FORTE CERCADO | encena: chega (point) @4 (acao + som de efeito) | -

@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~3.8 s)
 - Narracao: Depois de quase dez anos, os dois lados fizeram a paz.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: aperto de mao -> acao + som de efeito
 - Efeito visual marcado: -

@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 ## Cena b3  (~4.1 s)
 - Narracao: Os gauleses cercaram a colina, e a fome apertou os dois lados.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: x_aperta (reach) @8 -> acao + som de efeito; aperto de mao -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino; ouro -> stars + som de sino; encena: negocio (reach) @9 -> acao + som de efeito; encena: paga (reach) @13 -> acao + som de efeito; encena: sai @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) @9 -> acao + som de efeito; encena: sai @18 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1.000 LIBRAS
 - Funcao na historia: desenvolvimento

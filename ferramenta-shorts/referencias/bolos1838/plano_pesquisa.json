@@ -7,7 +7,16 @@
    "item": "A Guerra dos Bolos",
    "consultas": [
     "A Guerra dos Bolos",
-    "França México Um Cidade México Um 1838"
+    "França México Um Tacubaya Cidade México Em 1838"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Tacubaya",
+   "consultas": [
+    "Tacubaya Mexico City 1830s",
+    "Tacubaya",
+    "Tacubaya 1838"
    ]
   },
   {
@@ -27,10 +36,85 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "confeiteiro francês",
+   "consultas": [
+    "French pastry chef 19th century",
+    "confeiteiro francês",
+    "confeiteiro francês 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "rei Luís Filipe",
+   "consultas": [
+    "rei Luís Filipe",
+    "rei Luís Filipe 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Santa Anna",
+   "consultas": [
+    "Antonio Lopez de Santa Anna portrait 1830s",
+    "Santa Anna",
+    "Santa Anna 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "almirante Baudin",
+   "consultas": [
+    "almirante Baudin",
+    "almirante Baudin 1838"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "oficial mexicano de 1830",
+   "consultas": [
+    "Mexican army officer 1830s uniform Santa Anna era",
+    "oficial mexicano de 1830",
+    "oficial mexicano de 1830 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bolos e doces",
+   "consultas": [
+    "bolos e doces",
+    "bolos e doces 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "papel de queixa",
+   "consultas": [
+    "papel de queixa",
+    "papel de queixa 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "moedas",
+   "consultas": [
+    "moedas",
+    "moedas 1838"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "canhão do século 19",
+   "consultas": [
+    "canhão do século 19",
+    "canhão do século 19 1838"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "cake table",
    "consultas": [
-    "cake table",
+    "bolos e doces",
     "A Guerra dos Bolos"
    ]
   },
@@ -44,16 +128,9 @@
   },
   {
    "tipo": "epoca",
-   "item": "canhao da epoca",
-   "consultas": [
-    "cannon 1838",
-    "cannon"
-   ]
-  },
-  {
-   "tipo": "epoca",
    "item": "soldado da epoca",
    "consultas": [
+    "Mexican army officer 1830s uniform",
     "soldier uniform 1838",
     "soldier uniform"
    ]

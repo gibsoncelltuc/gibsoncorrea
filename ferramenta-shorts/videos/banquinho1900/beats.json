@@ -147,7 +147,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ASH",
+     "CHE"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Gerado em 24/11 19:38 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,9 +10,9 @@ b0 | simples | harbor | group | BRA | - | lobster | - | A França e o Brasil qua
 b1 | chave | harbor | crowd | PES | - | boat, fishing_net | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil novecentos e sessenta e um, e barcos franceses pescavam lagost
 b2 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/lobster (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras
 b3 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/lobster (sobe); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | A França respondia que a lagosta nada, e por isso era de quem pescasse
-b4 | simples | harbor | group | MFR | - | navio_destroier | - | A França mandou um navio de guerra para proteger os pescadores dela.
-b5 | chave | harbor | crowd | MAR | - | navios de guerra ao fundo, no tamanho real, ship, airplane | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o Brasil não recuou. Mandou navios e aviões para a costa,
-b6 | simples | harbor | two | MAR, MFR | - | - | - | Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o 
+b4 | simples | harbor | wide | MFR | - | navio_destroier, navios de guerra ao fundo, no tamanho real | - | A França mandou um navio de guerra para proteger os pescadores dela.
+b5 | simples | harbor | two | MAR | - | ship, airplane | - | Acontece que o Brasil não recuou. Mandou navios e aviões para a costa,
+b6 | chave | harbor | orbit | MAR, MFR | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o 
 b7 | simples | interior pedra | two | FRA, BRA | - | - | - | Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em 
 b8 | simples | harbor | reveal | PES, FRA | - | navio em movimento | - | Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, c
 b9 | simples | harbor | wide | BRA | - | lobster | - | No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.
@@ -32,10 +32,10 @@ N | Etapa | O que confere | Estado | Proximo passo
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh lagosta1961
 10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh lagosta1961
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local lagosta1961 <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
 
 **Etapa atual:** 9. Revisao escrita e aprovacao
 

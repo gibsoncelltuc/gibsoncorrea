@@ -51,10 +51,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: escala (lift) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: NAVIOS E AVIÕES
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b6  (~7.9 s)
 - Narracao: Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.
@@ -63,7 +63,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeito + som nas palavras-chave: encena: olha (point) @5 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito; encena: olha (point) @21 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.5 s)
 - Narracao: Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.

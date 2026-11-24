@@ -178,7 +178,7 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "FRY"
    ],
@@ -202,12 +202,12 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "SIL",
     "CHE"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "kit/postit"
    ],

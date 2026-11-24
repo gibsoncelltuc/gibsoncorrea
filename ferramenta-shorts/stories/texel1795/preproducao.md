@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | arctic | wide | 1 | parados (so fala e pisca) | ship, horse | - | -
+b0 | arctic | wide | 13 | parados (so fala e pisca) | ship, horse | - | -
 b1 | arctic | reveal | 2 | reagir | - | - | -
 b2 | arctic | orbit | 2 | reagir | ship | - | -
 b3 | arctic | wide | 1 | encena | ship | - | -
@@ -13,7 +13,7 @@ b5 | arctic | two | 2 | conversar, INTERAGEM: aproxima-se | horse | - | -
 b6 | arctic | low | 1 | reagir | horse | - | -
 b7 | arctic | two | 2 | encena, andando, batalha | horse | - | -
 b8 | arctic | group | 12 | reagir, INTERAGEM: avanca e o outro recua, batalha | ship | - | -
-b9 | arctic | crowd | 2 | batalha | ship, horse_sela | - | -
+b9 | arctic | crowd | 14 | batalha | ship, horse_sela | - | -
 b10 | arctic | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)

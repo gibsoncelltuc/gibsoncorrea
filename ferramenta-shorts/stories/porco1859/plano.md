@@ -9,7 +9,7 @@ b3 | two | -  | animais, objeto na mao | animal: pig leva o tiro e cai (acao + s
 b4 | two | -  | animais, placa: $10, objeto na mao | encena: x_entrega (reach) @2 (acao + som de efeito) | -
 b5 | two | -  | animais, placa: $100, objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); dinheiro (stars + som de sino); encena: grita (up) @2 (acao + som de efeito); encena: paga (reach) @11 (acao + som de efeito) | -
 b6 | group | -  | tropa, placa: TROPAS | encena: x_discute (point) @2 (acao + som de efeito); encena: fala (point) @9 (acao + som de efeito) | -
-b7 | crowd | -  | batalha aberta com tiros, tropa | encena: fala (point) @2 (acao + som de efeito); encena: atira @13 (acao + som de efeito); encena: fala (point) @14 (acao + som de efeito) | -
+b7 | crowd | -  | batalha aberta com tiros, tropa | encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @14 (acao + som de efeito) | -
 b8 | two | -  | animais, interior | atacar (ring + som de alerta); encena: x_entrega (reach) @3 (acao + som de efeito) | -
 b9 | group | -  | interior, placa: FESTAS | encena: x_entrega (reach) @4 (acao + som de efeito); encena: vence (up) @8 (acao + som de efeito) | -
 b10 | two | -  | interior, placa: 13 ANOS, objeto na mao | (rosto) determined (expr + som de efeito) | -

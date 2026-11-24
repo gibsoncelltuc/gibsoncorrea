@@ -79,7 +79,15 @@
    "montado": {
     "animal": "horse_sela",
     "z": -2.5
-   }
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "FRA"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "say": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
@@ -304,7 +312,15 @@
    "mood": "playful",
    "set": "arctic",
    "clima": "neve",
-   "montado": false
+   "montado": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "FRA"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   }
  ],
  "heroi": null,

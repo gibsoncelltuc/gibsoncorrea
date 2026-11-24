@@ -52,7 +52,10 @@
  "beats": [
   {
    "shot": "crowd",
-   "who": [],
+   "who": [
+    "GUA:0:stern",
+    "BUK:0:smug"
+   ],
    "props": [
     [
      "kit/prison",
@@ -63,7 +66,7 @@
    ],
    "fx": [],
    "sfx": [],
-   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
+   "say": "El Salvador tem uma prisão tão grande que virou notícia no mundo inteiro.",
    "cx": 0,
    "cz": -14.5,
    "crowd": {
@@ -75,7 +78,8 @@
     "expr": "scared"
    },
    "text": "40 MIL PRESOS",
-   "titulo": true
+   "titulo": true,
+   "acao": "conversar"
   },
   {
    "shot": "reveal",
@@ -109,10 +113,9 @@
    "shot": "group",
    "interior": false,
    "who": [
+    "BUK:0:stern",
     "GUA:0:stern",
-    "GUA:1:stern",
-    "PRE:0:scared",
-    "PRE:1:scared"
+    "GUA:1:stern"
    ],
    "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
    "set": "loc_campo",
@@ -193,7 +196,7 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
+   "say": "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
    "set": "loc_campo",
    "hud": {
     "comparar": [
@@ -239,7 +242,7 @@
     "REP:0:nervous:paper"
    ],
    "acao": "discutir",
-   "say": "O governo responde que as ruas ficaram seguras e que a maioria apoia.",
+   "say": "O governo responde que as ruas ficaram seguras.",
    "set": "loc_patio"
   },
   {
@@ -252,12 +255,7 @@
    "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
+    "n": 0
    },
    "props": [
     [
@@ -270,7 +268,8 @@
    "text": "DEBATE",
    "titulo": true,
    "say": "A prisão virou símbolo: de segurança para uns, de excesso para outros.",
-   "set": "loc_patio"
+   "set": "loc_patio",
+   "_susp_ok": true
   },
   {
    "shot": "medium",

@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CHE (variante 0, expressao stern); ASH (variante 0, expressao smile)
+- Personagens principais (2): CHE (variante 0, expressao stern); ASH (variante 0, expressao smile) | multidao: 12 de ASH/CHE
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/golden_stool
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alma, ashanti, banquinho, povo
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
-- PERSONAGENS: CHE na esquerda, expressao stern; ASH na direita, expressao smile; sem multidao; acao: conversar
+- PERSONAGENS: CHE na esquerda, expressao stern; ASH na direita, expressao smile; multidao de 12 (ASH, CHE) ATRAS dos principais; acao: conversar
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (11.1-12.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -127,7 +127,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: ASH no centro, expressao angry; multidao de 10 (ASH) ATRAS dos principais; acao: batalha
 - OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "FORTE CERCADO" flutuando no alto, na palavra 1 da frase

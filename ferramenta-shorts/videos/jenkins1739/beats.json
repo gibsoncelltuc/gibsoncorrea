@@ -227,7 +227,7 @@
    ],
    "interacao": "entregar",
    "say": "Depois de quase dez anos, os dois lados fizeram a paz.",
-   "set": "palace"
+   "interior": "pedra"
   },
   {
    "shot": "two",

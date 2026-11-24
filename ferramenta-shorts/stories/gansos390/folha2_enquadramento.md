@@ -3,7 +3,7 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Um bando de gansos barulhentos salvou Roma numa só noite."
-- LOCAL: vila medieval; hora: dia
+- LOCAL: vila medieval; hora: noite
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: ROM no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)

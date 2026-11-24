@@ -1,31 +1,31 @@
 # CRONOGRAMA - Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | MOD, BOL | - | house_two, marco_ghirlandina, lamppost, bucket | - | Duas cidades italianas foram à guerra por causa de um balde de madeira
-b1 | transicao | loc_campo | reveal | NOB, BOL | 8 | house_small, marco_ghirlandina, picket_fence, tree_oak | - | Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a 
-b2 | simples | loc_montanha | track | MOD, MOD | - | marco_ghirlandina | - | Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bol
-b3 | chave | loc_montanha | crowd | MOD, MOD | - | house_small, well, picket_fence, tree_oak, bucket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, 
-b4 | simples | interior pedra | close | NOB | - | bucket | - | "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu M
-b5 | simples | loc_montanha | crowd | BOL, BOL | 18 | marco_ghirlandina | - | Bolonha juntou um exército de trinta mil homens, e marchou contra a vi
-b6 | simples | interior madeira | two | MOD, MOD | - | - | - | Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida
-b7 | chave | loc_deserto | crowd | MOD, BOL | 24 | marco_ghirlandina | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa única tarde de batalha, os sete mil atacaram de sur
-b8 | simples | street | track | MOD, MOD | 8 | house_two, marco_ghirlandina, lamppost | - | Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ain
-b9 | simples | loc_deserto | close | MOD, MOD | - | marco_ghirlandina, bucket | - | O balde nunca foi devolvido. Está guardado em Módena até hoje, setecen
-b10 | simples | loc_campo | close | MOD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | medieval | two | MOD, BOL | - | house_small, balde_madeira, picket_fence, tree_oak, bucket | - | Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um 
+b1 | simples | medieval | two | NOB, PAP | - | - | - | Módena e Bolonha disputavam a fronteira havia décadas.
+b2 | simples | loc_campo | crowd | BOL, BOL | 18 | picket_fence | - | Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil s
+b3 | simples | loc_campo | two | MOD, MOD | 6 | - | - | Módena tinha menos de oito mil homens, e parecia perdida.
+b4 | chave | loc_campo | crowd | MOD, BOL | 32 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacar
+b5 | simples | medieval | group | MOD, MOD | 8 | castle_tower, church, picket_fence | - | Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros 
+b6 | simples | loc_campo | two | MOD, MOD | 8 | - | - | Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotado
+b7 | simples | medieval | two | MOD, MOD | - | castle_tower, balde_madeira, well, bucket | - | Na volta, levaram como troféu um balde de madeira, tirado de um poço p
+b8 | simples | medieval | close | MOD | - | castle_tower, balde_madeira, bucket | - | O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbol
+b9 | simples | interior madeira | two | POV, POV | - | - | - | Séculos depois, um poeta transformou a história numa sátira famosa.
+b10 | simples | interior madeira | close | MOD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/6 itens) | PENDENTE | python3 pesquisar.py balde1325
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/13 itens) | PENDENTE | python3 pesquisar.py balde1325
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | BLOQUEADO (etapa anterior pendente) | modelar em blender/ (formas.py): kit/balde_madeira
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

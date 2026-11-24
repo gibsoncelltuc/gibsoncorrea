@@ -17,28 +17,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra tiro (1.6s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ACAO: atira na palavra tiro (1.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- EFEITO: burst na palavra tiro (2.2s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra tiro (2.2s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b1 - 4.5s a 9.9s - 18 palavras - plano wide
+## Cena b1 - 5.2s a 11.5s - 18 palavras - plano wide
 > "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fechado (9.0s) | ACAO: empurra | empurra/puxa | OK |
+| 1 | fechado (10.4s) | ACAO: empurra | empurra/puxa | OK |
 | 2 | - | MAPA | HOLANDA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: empurra na palavra fechado (9.0s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: empurra na palavra fechado (10.4s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 11.3s a 15.6s - 15 palavras - plano two
+## Cena b2 - 11.9s a 17.0s - 15 palavras - plano two
 > "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -52,98 +52,98 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b3 - 16.9s a 21.2s - 14 palavras - plano wide
+## Cena b3 - 17.4s a 22.2s - 14 palavras - plano wide
 > "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 22.2s a 24.8s - 11 palavras - plano wide
+## Cena b4 - 22.6s a 26.3s - 11 palavras - plano wide
 > "O maior levava a bandeira do imperador e seguia na frente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | levava (22.5s) | ACAO: pega | levanta/segura | OK |
-| 2 | seguia (24.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | levava (23.3s) | ACAO: pega | levanta/segura | OK |
+| 2 | seguia (25.6s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | PLACA | 3 NAVIOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra levava (22.5s): executa: levanta/segura
-- ACAO: chega na palavra seguia (24.4s): executa: entra andando pela lateral
+- ACAO: pega na palavra levava (23.3s): executa: levanta/segura
+- ACAO: chega na palavra seguia (25.6s): executa: entra andando pela lateral
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 25.8s a 30.1s - 15 palavras - plano two
+## Cena b5 - 26.7s a 31.9s - 15 palavras - plano two
 > "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperando (28.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | disparou (29.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | esperando (30.0s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | disparou (30.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_espera na palavra esperando (28.3s): executa: espera de bracos cruzados
-- ACAO: atira na palavra disparou (29.2s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ACAO: x_espera na palavra esperando (30.0s): executa: espera de bracos cruzados
+- ACAO: atira na palavra disparou (30.7s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 31.2s a 34.4s - 15 palavras - plano two
+## Cena b6 - 32.2s a 37.4s - 15 palavras - plano two
 > "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | bala (31.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | bala (32.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: atira na palavra bala (31.3s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ACAO: atira na palavra bala (32.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 35.8s a 39.2s - 14 palavras - plano wide
+## Cena b7 - 37.8s a 42.6s - 14 palavras - plano wide
 > "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendeu (36.8s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | rendeu (39.3s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: rende na palavra rendeu (36.8s): executa: maos para cima (rendicao)
-- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- ACAO: rende na palavra rendeu (39.3s): executa: maos para cima (rendicao)
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b8 - 40.3s a 47.7s - 23 palavras - plano two
+## Cena b8 - 43.0s a 51.1s - 23 palavras - plano two
 > "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fechado (45.9s) | ACAO: empurra | empurra/puxa | OK |
-| 2 | pagou (47.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | pagou (47.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | fechado (48.9s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | pagou (50.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | pagou (50.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | - | INTERACAO | entregar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: empurra na palavra fechado (45.9s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- EFEITO: stars na palavra pagou (47.2s): executa: estrelinhas + som
-- ACAO: negocio na palavra pagou (47.2s): executa: moeda girando (compra/venda)
+- ACAO: empurra na palavra fechado (48.9s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- EFEITO: stars na palavra pagou (50.4s): executa: estrelinhas + som
+- ACAO: negocio na palavra pagou (50.4s): executa: moeda girando (compra/venda)
 - INTERACAO (a cena toda): executa: entregar
 <!-- /FISICA -->
 
-## Cena b9 - 49.0s a 50.7s - 8 palavras - plano two
+## Cena b9 - 51.5s a 54.1s - 8 palavras - plano two
 > "O único prejuízo do dia foi o almoço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -155,7 +155,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 51.9s a 55.2s - 13 palavras - plano close
+## Cena b10 - 54.4s a 58.9s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

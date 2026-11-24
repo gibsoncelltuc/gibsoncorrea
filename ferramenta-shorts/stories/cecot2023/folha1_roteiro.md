@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 27 - A Maior Prisão das Américas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 170 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 167 palavras (~58 s)
 
 ## Cena b0  (~4.5 s)
-- Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
+- Narracao: El Salvador tem uma prisão tão grande que virou notícia no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.2 s)
-- Narracao: Os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.
+## Cena b6  (~5.9 s)
+- Narracao: Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: SEM JULGAMENTO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.5 s)
-- Narracao: O governo responde que as ruas ficaram seguras e que a maioria apoia.
+## Cena b8  (~2.8 s)
+- Narracao: O governo responde que as ruas ficaram seguras.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

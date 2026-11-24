@@ -11,20 +11,21 @@
  "cenas": [
   {
    "camera": "two",
-   "personagens": [],
+   "personagens": [
+    "GUA",
+    "BUK"
+   ],
    "multidao": 26,
    "objetos": [
     "kit/prison"
    ],
    "palavras": 13,
    "cena": "b0",
-   "frase": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
-   "classe": "transicao",
-   "sujeito": "cenario",
+   "frase": "El Salvador tem uma prisão tão grande que virou notícia no mundo inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "construiu"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
@@ -66,10 +67,9 @@
   {
    "camera": "orbit",
    "personagens": [
+    "BUK",
     "GUA",
-    "GUA",
-    "PRE",
-    "PRE"
+    "GUA"
    ],
    "multidao": 30,
    "objetos": [
@@ -131,16 +131,16 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "two",
+   "camera": "low",
    "personagens": [
     "REP",
     "BUK"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 17,
    "cena": "b6",
-   "frase": "Os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
+   "frase": "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -178,9 +178,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "O governo responde que as ruas ficaram seguras e que a maioria apoia.",
+   "frase": "O governo responde que as ruas ficaram seguras.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -194,7 +194,7 @@
     "POV",
     "POV"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/prison"
    ],
@@ -229,7 +229,7 @@
   {
    "camera": "close",
    "personagens": [
-    "REP"
+    "GUA"
    ],
    "multidao": 0,
    "objetos": [],

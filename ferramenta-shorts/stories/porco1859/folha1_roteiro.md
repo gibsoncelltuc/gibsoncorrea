@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito; encena: fala (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: fala (point) @14 -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

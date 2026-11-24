@@ -19,9 +19,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: COZ na esquerda, expressao shock; HOL na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "UM ÚNICO TIRO" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (0.2-1.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (1.8-3.4 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (0.0-1.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (1.6-3.2 s): mesmo angulo
+  - take 3 (3.2-4.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Esc...
@@ -41,10 +42,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MAR na esquerda, expressao stern; MAR na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: HOLANDA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (4.5-6.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (6.3-8.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (8.1-9.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (5.2-6.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (6.8-8.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (8.3-9.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (9.9-11.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b2 - O imperador José Segundo, da Áustria, queria o rio aberto para os navi...
@@ -63,9 +65,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: IMP na esquerda, expressao angry; GEN na direita, expressao nervous; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (11.3-13.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (13.4-15.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (11.9-13.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (13.6-15.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (15.3-17.0 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Convencido de que os holandeses não reagiriam, ele mandou três navios ...
@@ -86,9 +89,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_fragata: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_fragata: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (16.9-19.0 s): mesmo angulo
-  - take 2 (19.0-21.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (17.4-19.0 s): mesmo angulo
+  - take 2 (19.0-20.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (20.6-22.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - O maior levava a bandeira do imperador e seguia na frente.
@@ -108,7 +112,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: IMP no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "3 NAVIOS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (22.6-24.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (24.5-26.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que o navio de guerra holandês Dolfijn estava esperando, e di...
@@ -131,9 +137,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +105 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +110 da cena
 - SOM: cannon@105
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (25.8-28.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (28.0-30.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (26.7-28.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (28.4-30.2 s): mesmo angulo
+  - take 3 (30.2-31.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b6 - A bala acertou e destruiu uma chaleira de sopa no convés do navio do i...
@@ -141,7 +148,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): IMP (variante 0, expressao surprised); COZ (variante 0, expressao scared)
-- Animacao: conversar | interacao: vai ate o outro | batalha encenada
+- Animacao: conversar | interacao: vai ate o outro | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, imperador, navio, sopa
 - RISCOS: nenhum
@@ -156,15 +163,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +55 da cena
 - SOM: thump@55
 - SOM: ding@58
-- TAKES: sequencia de acao em 3 cameras (3.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (5.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): GEN (variante 0, expressao scared, segura flag) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/navio_fragata, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, tiro
 - RISCOS: nenhum
@@ -175,7 +182,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: GEN no centro, expressao scared, segura flag; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b8 - Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O ...
@@ -194,11 +201,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: IMP na esquerda, expressao sad; HOL na direita, expressao smug, segura money; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 4 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (40.3-42.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (42.1-44.0 s): mesmo angulo
-  - take 3 (44.0-45.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (45.9-47.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 5 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (43.0-44.6 s): mesmo angulo
+  - take 2 (44.6-46.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (46.2-47.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (47.9-49.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 5 (49.5-51.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b9 - O único prejuízo do dia foi o almoço.
@@ -217,7 +225,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
 - PERSONAGENS: COZ no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -244,9 +252,11 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/kettle | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 10% | medio 59% | aberto 30% | detalhe 1%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b6 vai ate o outro, b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py chaleira1784  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/chaleira1784/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).
@@ -256,8 +266,9 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (51.9-53.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (53.5-55.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (54.4-55.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (55.9-57.4 s): mesmo angulo
+  - take 3 (57.4-58.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
