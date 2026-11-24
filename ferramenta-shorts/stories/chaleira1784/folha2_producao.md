@@ -126,11 +126,9 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/kettle | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 7% | medio 77% | aberto 13% | detalhe 3%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 reverencia, b4 insiste, b6 vai ate o outro, b8 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: 10 item(ns) sem referencia visual: Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R, imperador José II da Áustria (casaca clara com faixa vermelha), oficiais e mar -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 10 item(ns) sem referencia visual: Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R, imperador José II da Áustria (casaca clara com faixa vermelha), oficiais e mar
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).

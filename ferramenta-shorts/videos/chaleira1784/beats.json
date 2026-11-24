@@ -90,8 +90,7 @@
     "GEN:0:nervous"
    ],
    "acao": "discutir",
-   "say": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia.",
-   "set": "harbor"
+   "say": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia."
   },
   {
    "shot": "two",
@@ -101,8 +100,7 @@
     "GEN:0:scared:paper"
    ],
    "interacao": "reverencia",
-   "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
-   "set": "harbor"
+   "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio."
   },
   {
    "shot": "reveal",
