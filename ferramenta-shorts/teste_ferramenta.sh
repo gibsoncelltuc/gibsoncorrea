@@ -124,6 +124,10 @@ grep -q 'checagem_coerencia.py' verificar_folhas.py || f "verificar_folhas nao r
 grep -q 'python3 enquadrar.py' make_video.sh && grep -q 'FICHA DE CENA' enquadrar.py && grep -q 'a ficha de cena planejou' visivel.mjs || f "folha 2 sem enquadramento na fonte (objeto jogado na cena sem lugar/tamanho/camera)"
 grep -q 'ficha_nas_folhas.py' make_video.sh && grep -q 'FISICA E MOVIMENTO' ficha_nas_folhas.py && grep -q 'lista_revisao.py' make_video.sh && grep -q 'refacoes.txt' refazer.sh || f "folhas sem ficha tecnica/takes/fisica ou revisao sem lista unica"
 grep -q "B\['max_wide'\] = _nw" enquadrar.py || f "ficha de cena pode ser desobedecida pelo limite de planos abertos"
+grep -q "globalThis.FAZENDA" mkvideo.py && grep -q "globalThis.FAZENDA" web/sets/outback.js || f "outback desenha celeiro e moinho holandes em qualquer historia"
+python3 -c "import re,sys;s=open('mkvideo.py').read();r=re.search(r\"_CAVW = re.compile\\(r'(.+?)'\\)\",s).group(1);sys.exit(1 if re.search(r,'uma metralhadora montada em caminhao') else 0)" || f "'montada em caminhao' vira cavalaria"
+grep -q "_tropa = False   # 24/11" mkvideo.py || f "soldado com fuzil vira batalha mesmo com crowd n 0"
+grep -q "R7 b" checagem_coerencia.py || f "cenario palace (praia) passa sem praia na historia"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

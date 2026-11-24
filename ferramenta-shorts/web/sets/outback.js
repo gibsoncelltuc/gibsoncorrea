@@ -12,7 +12,7 @@ SETDEF.outback = (X) => {
     for (let k = 0; k < 3; k++) add(new THREE.SphereGeometry(1.2 * s, 9, 7), toon({ color: ['#7d9a6a', '#6f8c5e', '#8aa874'][k] }), (k - 1) * 1.0 * s, 3.8 * s + (k % 2) * 0.5, (k % 2) * 0.6, g); }
   for (let i = 0; i < 14; i++) { const o = libInst('nature/rocks', X + (rf() - 0.5) * 200, DECK, -40 - rf() * 40 + (i % 3 ? 70 : 0), rf() * 6, 1.4 + rf() * 1.6); o.userData.c0 = o.userData.c0; }
   for (let i = 0; i < 24; i++) libInst('nature/picket_fence', X - 46 + i * 3.8, DECK, -5.6, 0, 1.6);
-  for (const [x, z, n] of [[-30, -60, 'buildings/barn'], [-18, -62, 'buildings/windmill'], [34, -58, 'buildings/house_small']]) libInst(n, X + x, DECK, z, 0.2, 1.5);
+  for (const [x, z, n] of [[-30, -60, 'buildings/barn'], [-18, -62, 'buildings/windmill'], [34, -58, 'buildings/house_small']]) if (n === 'buildings/house_small' || globalThis.FAZENDA) libInst(n, X + x, DECK, z, 0.2, 1.5);   /* 24/11 (Emus): celeiro vermelho e moinho holandes so' com fazenda/celeiro/moinho no roteiro */
   for (let i = 0; i < 10; i++) libInst('nature/bush', X + (rf() - 0.5) * 160, DECK, 28 + rf() * 20, rf() * 6, 1.1);
   farHills(X, -140, '#c8845a', '#d49a6a', 16, 280);
 };

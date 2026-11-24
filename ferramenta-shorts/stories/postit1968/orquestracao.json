@@ -30,9 +30,8 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
    "multidao": 18,
@@ -181,8 +180,7 @@
    "camera": "crowd",
    "personagens": [
     "FRY",
-    "SIL",
-    "CHE"
+    "SIL"
    ],
    "multidao": 18,
    "objetos": [

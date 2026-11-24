@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1968 | encena: quimico (pour) @1 (acao + som de efeito) | -
-b1 | reveal | -  | batalha aberta com tiros, tropa, mapa | - | -
+b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
 b3 | group | -  | interior, objeto na mao | encena: sai @2 (acao + som de efeito); encena: x_solta (up) @10 (acao + som de efeito) | -
 b4 | two | -  | interior, objeto na mao | encena: fala (point) @7 (acao + som de efeito) | -
