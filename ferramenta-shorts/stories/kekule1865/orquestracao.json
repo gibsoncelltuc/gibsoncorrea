@@ -20,9 +20,9 @@
     "kit/marco_viena",
     "kit/snake_ring"
    ],
-   "palavras": 17,
+   "palavras": 16,
    "cena": "b0",
-   "frase": "Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda de uma cobra.",
+   "frase": "Um dos maiores segredos da química foi resolvido num cochilo, com a ajuda de uma cobra.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

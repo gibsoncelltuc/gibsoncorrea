@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/kekule1865/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py kekule1865` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um dos maiores segredos da química foi resolvido num cochilo, e com a ...
+## Cena b0 - Um dos maiores segredos da química foi resolvido num cochilo, com a aj...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
