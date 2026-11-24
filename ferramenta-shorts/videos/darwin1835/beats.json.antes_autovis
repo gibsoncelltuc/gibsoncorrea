@@ -81,21 +81,51 @@
   },
   {
    "say": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
-    "MAR:0:neutral",
-    "MAR:1:smile"
+    "MAR:0:neutral"
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "MAR",
-     "POV"
-    ],
-    "march": false
+    "n": 0
    },
    "mapa": "GALÁPAGOS",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "set": "harbor",
+   "props": [
+    [
+     "kit/navio_vela",
+     -7.0,
+     -33.8,
+     7.65,
+     {
+      "mover": [
+       0.0,
+       -33.8
+      ],
+      "fixo": true
+     }
+    ]
+   ],
+   "tela": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vela (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_vela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   }
   },
   {
    "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
@@ -115,9 +145,9 @@
      }
     ]
    ],
-   "set": "harbor",
+   "set": "palace",
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -128,6 +158,7 @@
      }
     ]
    },
+   "fachada": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -141,7 +172,9 @@
     "MAR:0:bored"
    ],
    "acao": "conversar",
-   "set": "harbor"
+   "set": "palace",
+   "fachada": false,
+   "_auto_vis": 0
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
@@ -151,7 +184,36 @@
     "DAR:0:surprised",
     "GOU:0:shout"
    ],
-   "interacao": "discutir"
+   "interacao": "discutir",
+   "props": [
+    [
+     "kit/finch",
+     0.0,
+     -1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 1
   },
   {
    "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
@@ -215,7 +277,7 @@
   },
   {
    "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "DAR:0:shock",
     "GOU:0:surprised"
@@ -223,26 +285,11 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "MAR",
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [
      "kit/finch_thick",
-     1.6,
-     -1.0,
-     1.5,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/finch_long",
      0.6,
      1.0,
      1.5,
@@ -251,9 +298,18 @@
      }
     ],
     [
-     "kit/finch",
+     "kit/finch_long",
      0.0,
      1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/finch",
+     0.0,
+     -1.2,
      2.0,
      {
       "fixo": true
@@ -268,10 +324,10 @@
     "ding@40",
     "sting@60"
    ],
-   "set": "harbor",
+   "set": "palace",
    "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "orbit; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "local": "praia / palacio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/finch",
@@ -293,12 +349,13 @@
      }
     ]
    },
+   "detalhe": true,
+   "fachada": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 3,
-   "detalhe": true
+   "_auto_vis": 3
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
@@ -410,5 +467,9 @@
    "https://en.wikipedia.org/wiki/Darwin%27s_finches",
    "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
   ]
- }
+ },
+ "coerencia_ok": [
+  "R7"
+ ],
+ "set_tematico_ok": true
 }
