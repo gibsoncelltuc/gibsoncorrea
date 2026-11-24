@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1859 | Lugar: Ilha de San Juan (entre os EUA e o Canada, perto de Vancouver): fazendas com horta, pinheiros, costa com navios | Quando: 15 de junho de 1859 (o tiro no porco), de dia; ocupacao conjunta ate 1872
 - HEROIS (objeto): kit/batatas
 - HEROIS (personagens): FAZ, AME, IRL, ING
-- Cenarios: countryside, harbor, interior madeira, interior pedra, loc_campo, loc_montanha
+- Cenarios: countryside, harbor, interior madeira, interior pedra, loc_campo
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 

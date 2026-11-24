@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Gerado em 24/11 05:39 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 05:40 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -17,7 +17,7 @@ b7 | chave | harbor | crowd | ING, AME | 48 | cannon, navios de guerra ao fundo,
 b8 | simples | interior madeira | two | ALM, ING | - | - | - | O almirante inglês recebeu ordem de atacar, e se recusou: não ia começ
 b9 | simples | interior pedra | group | ING, AME, ING | - | - | - | Os soldados passaram meses trocando insultos, e depois, festas. Ningué
 b10 | simples | interior pedra | two | ALM, AME | - | - | - | Treze anos depois, um árbitro decidiu que a ilha era americana.
-b11 | simples | loc_montanha | two | FAZ | - | cross, picket_fence | - | A única baixa da guerra foi o porco.
+b11 | simples | countryside | two | FAZ | - | cross, picket_fence | - | A única baixa da guerra foi o porco.
 b12 | simples | countryside | close | FAZ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

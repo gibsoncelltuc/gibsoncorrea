@@ -15,7 +15,7 @@ b7 | harbor | crowd | 32 | discutir, batalha | cannon, navios de guerra ao fundo
 b8 | interior madeira | two | 2 | reagir, INTERAGEM: susto | pig | - | -
 b9 | interior pedra | group | 3 | discutir, INTERAGEM: vai ate o outro | - | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
-b11 | loc_montanha | two | 1 | conversar | kit/cross, nature/picket_fence, pig | - | -
+b11 | countryside | two | 1 | conversar | kit/cross, nature/picket_fence, pig | - | -
 b12 | countryside | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/batatas
