@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
-Gerado em 24/11 19:57 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 67%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 19:58 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 67%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -23,7 +23,7 @@ b10 | simples | stadium | close | HON | - | - | - | Agora não deixe de comentar
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (15/15 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (14/15 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | PENDENTE | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
