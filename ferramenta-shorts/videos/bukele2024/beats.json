@@ -301,11 +301,9 @@
    "text": "106 → 2,4"
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "REP:0:suspicious:paper",
-    "REP:1:angry",
-    "POV:0:worried"
+    "REP:0:suspicious:paper"
    ],
    "acao": "discutir",
    "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
@@ -313,8 +311,8 @@
     [
      "kit/prison",
      0.0,
-     -14.5,
-     1.0,
+     -23.3,
+     2.65,
      {
       "fixo": true
      }
@@ -324,7 +322,24 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/prison",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",

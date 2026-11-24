@@ -192,15 +192,14 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "REP",
-    "REP",
-    "POV"
+    "REP"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/prison"
+    "kit/prison",
+    "kit/volcano"
    ],
    "palavras": 15,
    "cena": "b9",
@@ -212,11 +211,11 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/ballot_box",
     "kit/globe"

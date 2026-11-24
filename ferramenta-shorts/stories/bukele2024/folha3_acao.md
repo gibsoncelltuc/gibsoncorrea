@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 11 palavras - plano two
@@ -164,23 +164,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 44.2s a 49.1s - 15 palavras - plano group
+## Cena b9 - 44.2s a 49.1s - 15 palavras - plano wide
 > "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | criticaram (46.8s) | ACAO: protesto | punho para cima (protesto) | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: protesto na palavra criticaram (46.8s): executa: punho para cima (protesto)
-- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b10 - 50.3s a 54.7s - 16 palavras - plano orbit
+## Cena b10 - 50.3s a 54.7s - 16 palavras - plano two
 > "Amado por muitos e criticado por outros, ele virou um dos presidentes mais populares do planeta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

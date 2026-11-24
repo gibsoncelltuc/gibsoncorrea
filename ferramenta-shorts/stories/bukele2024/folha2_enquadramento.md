@@ -77,9 +77,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
 - LOCAL: loc_campo; hora: golden
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: REP (jornalista) na esquerda, expressao suspicious, segura paper; REP (jornalista) no centro, expressao angry; POV na direita, expressao worried; sem multidao; acao: discutir
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: REP (jornalista) no centro, expressao suspicious, segura paper; sem multidao; acao: discutir
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b10: "Amado por muitos e criticado por outros, ele virou um dos presidentes mais populares do planeta."
 - LOCAL: loc_campo; hora: golden
