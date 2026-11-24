@@ -44,7 +44,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_defende (cross) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: INGLATERRA
+- Texto na tela: FRAGATAS | mapa: INGLATERRA
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~5.5 s)

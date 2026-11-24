@@ -42,8 +42,8 @@
    "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
    "shot": "wide",
    "who": [
-    "ICE:0:laugh",
-    "BRI:0:shock"
+    "ICE:0:stern",
+    "BRI:0:stern"
    ],
    "props": [
     [
@@ -59,7 +59,6 @@
      1.0
     ]
    ],
-   "mood": "tense",
    "text": "ISLÂNDIA VENCEU",
    "tat": 16,
    "tstyle": "blue",
@@ -68,7 +67,7 @@
    "h": 9.0,
    "d0": 50,
    "d1": 44,
-   "detalhe": false
+   "mood": "march"
   },
   {
    "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
@@ -178,7 +177,9 @@
    "h": 9.0,
    "d0": 50,
    "d1": 44,
-   "detalhe": false
+   "text": "FRAGATAS",
+   "tat": 10,
+   "tstyle": "blue"
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",

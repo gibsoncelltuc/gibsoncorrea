@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
@@ -9,7 +9,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | ISLÂNDIA VENCEU | OK |
 
@@ -27,7 +27,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pescavam (12.5s) | ACAO: x_pesca | puxa a linha + respingo | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | BACALHAU | OK |
 
@@ -47,6 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | proteger (22.9s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | INGLATERRA | OK |
+| 5 | - | PLACA | FRAGATAS | OK |
 
 ## Cena b5 - 25.1s a 29.8s - 16 palavras - plano low
 > "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede."
@@ -81,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | espalhou (45.5s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | INTERACAO | insiste | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | VITÓRIA ISLANDESA | OK |
 
