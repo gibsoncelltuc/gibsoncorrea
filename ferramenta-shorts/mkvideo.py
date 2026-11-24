@@ -148,6 +148,7 @@ _RX_OBJ_ACAO = r' (pul\w*|salt\w*|voa|voam|voou|voaram|voando|voar|decol\w*|leva
 for _b in B['beats']:
     _t = ' ' + re.sub(r'[^a-z ]', ' ', _nrm0(_b.get('say', ''))) + ' '
     if _b.get('explica'): _b['set'] = _b.get('set') or ('loc_estudio' if (not isinstance(_b['explica'], dict) or _b['explica'].get('fundo', 'estudio') == 'estudio') else None); _b['who'] = []; _b['crowd'] = {'n': 0, 'outfits': [], 'march': False}; _b['mapa'] = None; _b['detalhe'] = False; _b['shot'] = 'two'; _b['shot_lock'] = True; continue
+    if '?' in _b.get('say', '') and _b.get('obj_acao') is None: _b['obj_acao'] = False; _b['_pergunta'] = True   # v13: pergunta ('carro voador ou carro que pula?') nao e' acao: ninguem voa nem pula
     if any(_EH_VEIC(p_[0]) for p_ in (_b.get('props') or [])) and re.search(_RX_OBJ_ACAO, _t) and not re.search(r' rampa| loop|cabeca para baixo|se soltou|soltou', _t) and not _b.get('veiculo') and _b.get('obj_acao') is not False:
         _b['_obj_acao'] = True; _b['shot'] = 'two'; _b['shot_lock'] = True; _b['who'] = (_b.get('who') or [])[:2]; _b['crowd'] = {'n': 0, 'outfits': [w_.split(':')[0] for w_ in _b['who']] or ['POV'], 'march': False}; _b['detalhe'] = False; _b['fachada'] = False
 # ===== VARIEDADE DE CENARIO (ordem do Gibson 19/11: "cada video tem que ter cenarios diferentes") =====
@@ -279,6 +280,8 @@ _MARCO_ANO = {'kit/marco_detroit': (1977, 9999), 'kit/marco_texas': (1888, 9999)
 _mt = __import__('unicodedata').normalize('NFKD', (B.get('title', '') + ' ' + ' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:3])).lower()).encode('ascii', 'ignore').decode()   # so o LUGAR da historia (titulo, mapa, comeco), nao qualquer citacao
 _anoM2 = re.search(r'(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)', ' '.join([str(B.get('ano', '')), B.get('title', ''), ID] + [str(b_.get('text', '')) for b_ in B['beats'][:4]])); _ANO_M = int(_anoM2.group(1)) if _anoM2 else (int(B['ano']) if str(B.get('ano', '')).lstrip('-').isdigit() else None)
 MARCO = None if B.get('marco') is False else (B.get('marco') or next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if re.search(rx_, _mt) and (_ANO_M is None or _MARCO_ANO.get(a_, (-9999, 9999))[0] <= _ANO_M <= _MARCO_ANO.get(a_, (-9999, 9999))[1])), None))
+# v13: marco e' predio de CIDADE (capitolio, torre, palacio). Se a pesquisa diz que a historia se passa fora da cidade (base de testes, pista, deserto, fazenda, ilha, mato...), o marco automatico nao entra (o Capitolio do Texas aparecia atras da base da SpaceX em McGregor)
+if MARCO and not B.get('marco') and re.search(r'base de testes|base da spacex|\bpista\b|desert|fazend|\bilha\b|\bcampo\b|florest|montanh|acampamento|area aberta|rural|isolad|\bmar\b|oceano|\bselva', _nrm0(str(_VIS0.get('local', '')) + ' ' + str(_VIS0.get('cenario', '')))): MARCO = None
 if MARCO and isinstance(MARCO, str): MARCO = next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if a_ == MARCO), (MARCO, 18, -70, 1.0))
 if MARCO:
     for k_, b_ in enumerate(B['beats']):
@@ -1370,7 +1373,10 @@ def build_beat(k, b):
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
         extra = ''.join((f', y: DK + {num(vv)}' if kk == 'y' else f', {kk}: {json.dumps(vv)}') for kk, vv in ex.items() if kk not in ('alto', 'mover', 'carregado') and not (kk == 'y' and ex.get('carregado')))   # 19/11: 'y' do roteiro e' altura acima do chao (DK +) + (f", y: DK + {num(ex.get('y', 0.7))}, move: [[X + {num(dx + mv / 2)}, {num(z)}], {a}, {bb}, 'lin'], drop: false" if ex.get('carregado') and mv else '')   # OBJETO CARREGADO: ["kit/sink", dx_do_personagem + 0.5, z, escala, {"carregado": true}] em cena "track": anda junto na altura das maos + (f", move: [[X + {num(ex['mover'][0])}, {num(ex['mover'][1])}], {a}, Math.round({a} + ({bb} - ({a})) * 0.85), 'sm'], drop: false" if ex.get('mover') else '')
         # VEICULO DE VERDADE (23/11, Gibson: "carro do tamanho correto", "carro voador saindo do chao e voando", "nada de carro parado no ceu")
-        if _EH_VEIC(asset) and not ex.get('fixo') and not ex.get('carregado'):
+        if _EH_VEIC(asset) and not ex.get('carregado') and (ex.get('fixo') or b.get('_pergunta')):   # veiculo parado de proposito: so' o tamanho real, sem animacao
+            _sr, _tr = _tam_real(asset, s, z)
+            if _tr and not ex.get('fixo'): s = _sr; b.setdefault('_tam', []).append(_tr)
+        if _EH_VEIC(asset) and not ex.get('fixo') and not ex.get('carregado') and not b.get('_pergunta'):
             _L = _glb_len(asset); _alvo = 6.2 if re.search(r'truck|caminh|onibus|bus', str(asset)) else 5.0
             _sr, _tr = _tam_real(asset, s, z)
             if _tr: s = _sr; b.setdefault('_tam', []).append(_tr)

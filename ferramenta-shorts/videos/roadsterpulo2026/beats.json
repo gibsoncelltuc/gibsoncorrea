@@ -58,12 +58,27 @@
    "props": [
     [
      "kit/roadster26",
-     1.6,
-     -0.8,
+     0,
+     -4.0,
      1.0
+    ],
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
     ]
    ],
-   "interior": "galpao"
+   "set": "loc_pista",
+   "hora": "noite",
+   "fachada": false,
+   "obj_acao": false
   },
   {
    "who": [

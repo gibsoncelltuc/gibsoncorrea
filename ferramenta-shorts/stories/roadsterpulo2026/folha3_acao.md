@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 17 palavras - plano two
@@ -79,14 +79,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 50.6s a 53.3s - 8 palavras - plano two
+## Cena b9 - 50.6s a 53.3s - 8 palavras - plano close
 > "Carro voador ou carro que pula? Você decide."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | pula (51.8s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 54.7s a 58.0s - 13 palavras - plano close
+## Cena b10 - 54.7s a 58.0s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
