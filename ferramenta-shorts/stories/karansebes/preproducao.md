@@ -13,7 +13,7 @@ b5 | countryside | two | 9 | discutir, INTERAGEM: discutir, alguem chega andando
 b6 | countryside | orbit | 13 | conversar, batalha | kit/campfire, kit/tent | - | -
 b7 | countryside | crowd | 51 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b8 | countryside | group | 8 | reagir, INTERAGEM: susto | cannon | - | -
-b9 | countryside | two | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
+b9 | countryside | two | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/campfire, kit/tent | spyglass | -
 b10 | countryside | close | 2 | comemorar, INTERAGEM: pular | - | - | -
 b11 | countryside | two | 1 | conversar | - | - | -
 

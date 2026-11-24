@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Numa noite, os hussardos foram na frente procurar o inimigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (HUS) -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (HUS) -> acao + som de efeito; montado: HUS galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -50,9 +50,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 ## Cena b5  (~5.9 s)
 - Narracao: Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: gun@167
 - Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: atira @16 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: burst@167
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -77,9 +77,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 ## Cena b8  (~4.8 s)
 - Narracao: Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: cannon@85, cannon@97, cannon@109
 - Efeito + som nas palavras-chave: artilharia -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; encena: fala (point) @2 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: burst@85, burst@97, burst@109
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

@@ -131,13 +131,6 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "barrel",
-   "consultas": [
-    "barrel"
-   ]
-  },
-  {
    "tipo": "epoca",
    "item": "soldado da epoca",
    "consultas": [

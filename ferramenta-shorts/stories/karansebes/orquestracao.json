@@ -216,8 +216,6 @@
    ],
    "multidao": 5,
    "objetos": [
-    "barrel",
-    "crate",
     "kit/campfire",
     "kit/tent"
    ],
