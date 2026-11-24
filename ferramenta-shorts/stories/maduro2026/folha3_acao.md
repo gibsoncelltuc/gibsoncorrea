@@ -71,24 +71,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 45.2s a 50.0s - 14 palavras - plano crowd
+## Cena b8 - 45.2s a 50.0s - 14 palavras - plano wide
 > "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dividiu (48.9s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | MUNDO | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | MUNDO | OK |
 
-## Cena b9 - 50.4s a 53.7s - 10 palavras - plano two
+## Cena b9 - 50.4s a 53.7s - 10 palavras - plano crowd
 > "A operação ganhou um nome que resume tudo: Resolução Absoluta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (51.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (51.1s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | comemorar | OK |
 
 ## Cena b10 - 54.1s a 58.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

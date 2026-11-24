@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 22 - A Praga da Dança
 
-Gerado em 24/11 23:25 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:35 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,8 +12,8 @@ b2 | chave | medieval | crowd | TRO, POV, POV, POV | 48 | - | corpo: tropa/perso
 b3 | simples | medieval | group | POV, TRO, POV, POV | 36 | - | - | Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sa
 b4 | simples | interior pedra | two | PRE, MED | - | - | - | O conselho da cidade chamou os médicos, que culparam o sangue quente e
 b5 | simples | hall | wide | MUS, MUS | 12 | house_two, lamppost | - | A cidade reformou salões e contratou músicos para manter os dançarinos
-b6 | simples | medieval | two | PRE, POV | - | - | - | Deu errado: mais gente entrou na dança, com medo de um castigo de São 
-b7 | chave | loc_campo | orbit | PRE, MED | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguns dizem que morriam quinze por dia, mas os documentos da época nã
+b6 | chave | medieval | orbit | PRE, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Deu errado: mais gente entrou na dança, com medo de um castigo de São 
+b7 | simples | loc_campo | two | PRE, MED | - | - | - | Alguns dizem que morriam quinze por dia, mas os documentos da época nã
 b8 | simples | loc_montanha | wide | DAN | 6 | church, marco_viena | - | No fim, os dançarinos foram levados a uma capela no alto de um monte, 
 b9 | simples | interior madeira | close | MED | - | - | - | Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que
 b10 | simples | interior madeira | close | PRE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

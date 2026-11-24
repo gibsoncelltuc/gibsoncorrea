@@ -63,16 +63,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; dança -> stars + som de sino; dançar -> stars + som de sino; encena: x_entrega (reach) @0 -> acao + som de efeito; encena: chega (point) @4 -> acao + som de efeito; encena: danca (up) @6 -> acao + som de efeito; encena: danca (up) @19 -> acao + som de efeito
 - Efeito visual marcado: dust@50, puff@110
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.2 s)
 - Narracao: Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: morre @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~7.6 s)
 - Narracao: No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.

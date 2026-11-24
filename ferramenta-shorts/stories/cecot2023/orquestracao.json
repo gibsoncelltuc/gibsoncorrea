@@ -85,7 +85,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "GUA",
     "GUA",
@@ -98,15 +98,9 @@
    "palavras": 17,
    "cena": "b4",
    "frase": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -131,33 +125,16 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "low",
+   "camera": "crowd",
    "personagens": [
     "REP",
     "BUK"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [],
    "palavras": 17,
    "cena": "b6",
    "frase": "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "REP",
-    "POV"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -171,24 +148,47 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "BUK",
-    "REP"
+    "REP",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
-   "cena": "b8",
-   "frase": "O governo responde que as ruas ficaram seguras.",
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "BUK",
+    "REP"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "O governo responde que as ruas ficaram seguras.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "POV",
     "POV",

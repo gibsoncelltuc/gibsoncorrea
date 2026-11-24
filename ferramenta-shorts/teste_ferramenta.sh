@@ -175,6 +175,7 @@ grep -q "cena de paz vai para a montanha limpa" mkvideo.py || f "front de guerra
 python3 checagem_coerencia.py aroostook1838 2>&1 | grep -q Traceback && f "checagem_coerencia quebrou (erro de Python)"
 python3 suspeitas.py aroostook1838 2>&1 | grep -q Traceback && f "suspeitas.py quebrou (erro de Python)"
 grep -q "objeto CITADO na frase (o fogao)" mkvideo.py || f "objeto citado na frase vai para fora do quadro (fogao do Goodyear)"
+grep -q "morte/doenca nunca vira festa" mkvideo.py || f "cena de morte vira grande momento com multidao rindo (Curie)"
 grep -q "_negm" suspeitas.py || f "suspeitas acusa multidao em frase negada (nao foram pessoas)"
 grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----

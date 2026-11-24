@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
@@ -78,9 +78,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | despencaram (41.1s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | VIDAS SALVAS | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | VIDAS SALVAS | OK |
 
 ## Cena b8 - 42.6s a 45.9s - 10 palavras - plano two
 > "Mas os médicos se ofenderam, e Semmelweis foi mandado embora."
@@ -103,17 +102,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 50.7s a 56.3s - 16 palavras - plano close
+## Cena b10 - 50.7s a 56.3s - 16 palavras - plano orbit
 > "Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | provou (52.2s) | ACAO: fala | aponta explicando | OK |
 | 2 | chamado (54.8s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | PLACA | LAVE AS MÃOS | OK |
 
-## Cena b11 - 56.7s a 61.1s - 13 palavras - plano two
+## Cena b11 - 56.7s a 61.1s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

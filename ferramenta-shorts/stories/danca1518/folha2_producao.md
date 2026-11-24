@@ -64,20 +64,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Deu errado: mais gente entrou na dança, com medo de um castigo de São ...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PRE (variante 0, expressao stern, segura paper); POV (variante 0, expressao pained) | multidao: 0 de 
-- Animacao: dancar | interacao: entregar | o ultimo personagem ENTRA andando
+- Animacao: dancar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, conselho, danca, medo
 - RISCOS: nenhum
 
 ## Cena b7 - Alguns dizem que morriam quinze por dia, mas os documentos da época nã...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock) | multidao: 12 de POV/DAN
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock)
+- Animacao: reagir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): documentos, epoca
 - RISCOS: nenhum
@@ -124,8 +124,8 @@ buildings/church | b8 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 19% | medio 56% | aberto 26% | detalhe 0%
-- Interacoes: b0 susto, b1 aproxima-se, b3 empurrar, b4 avanca e o outro recua, b6 entregar
+- Objeto heroi: - | grandes momentos: b2, b6 | planos abertos: 4 | mistura: close 20% | medio 54% | aberto 27% | detalhe 0%
+- Interacoes: b0 susto, b1 aproxima-se, b3 empurrar, b4 avanca e o outro recua, b7 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

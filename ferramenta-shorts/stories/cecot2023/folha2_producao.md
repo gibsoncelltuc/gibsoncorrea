@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Para guardar tanta gente, ergueram o Centro de Confinamento do Terrori...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern); GUA (variante 2, expressao angry) | multidao: 16 de GUA
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centro, confinamento, terrorismo, vagas
 - RISCOS: nenhum
@@ -64,37 +64,37 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que os assassinatos despencaram: de cento e seis para dois ví...
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug) | multidao: 12 de POV
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, cento
 - RISCOS: nenhum
 
 ## Cena b7 - Organizações de direitos humanos denunciaram prisões sem julgamento e ...
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried) | multidao: 12 de POV
-- Animacao: discutir | grande momento (efeito + som, sem tiro)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried)
+- Animacao: discutir | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos
 - RISCOS: nenhum
 
 ## Cena b8 - O governo responde que as ruas ficaram seguras.
 - Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper)
-- Animacao: discutir | interacao: vai ate o outro
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper) | multidao: 12 de POV
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, ruas
 - RISCOS: nenhum
 
 ## Cena b9 - A prisão virou símbolo: de segurança para uns, de excesso para outros.
 - Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao grin); POV (variante 2, expressao worried) | multidao: 0 de 
 - Animacao: conversar | interacao: o outro se aproxima
@@ -132,8 +132,8 @@ kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 21% | medio 55% | aberto 24% | detalhe 0%
-- Interacoes: b0 aproxima-se, b2 discutir, b6 avanca e o outro recua, b8 vai ate o outro, b9 o outro se aproxima, b10 insiste
+- Objeto heroi: kit/prison | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 11% | medio 65% | aberto 23% | detalhe 2%
+- Interacoes: b0 aproxima-se, b2 discutir, b4 avanca e o outro recua, b7 vai ate o outro, b9 o outro se aproxima, b10 insiste
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py cecot2023  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/cecot2023/moodboard.jpg
 

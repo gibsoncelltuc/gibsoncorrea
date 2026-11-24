@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -38,7 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | presos (23.7s) | ACAO: prende | empurra/prende | OK |
 | 2 | - | ATUACAO | prender | OK |
 
-## Cena b4 - 24.1s a 30.0s - 17 palavras - plano crowd
+## Cena b4 - 24.1s a 30.0s - 17 palavras - plano group
 > "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -46,8 +46,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | guardar (24.4s) | ACAO: pega | levanta/segura | OK |
 | 2 | ergueram (25.6s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 3 | presos (30.0s) | ACAO: prende | empurra/prende | OK |
-| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 5 | - | PLACA | 40 MIL | OK |
+| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 40 MIL | OK |
 
 ## Cena b5 - 30.4s a 34.4s - 12 palavras - plano two
 > "Muralhas altas, cercas elétricas e torres de vigia por todos os lados."
@@ -56,33 +57,33 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 34.8s a 40.7s - 17 palavras - plano low
+## Cena b6 - 34.8s a 40.7s - 17 palavras - plano crowd
 > "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 41.1s a 45.2s - 12 palavras - plano orbit
+## Cena b7 - 41.1s a 45.2s - 12 palavras - plano two
 > "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | denunciaram (42.6s) | ACAO: protesto | punho para cima (protesto) | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | PLACA | SEM JULGAMENTO | OK |
 
-## Cena b8 - 45.6s a 48.1s - 8 palavras - plano group
+## Cena b8 - 45.6s a 48.1s - 8 palavras - plano orbit
 > "O governo responde que as ruas ficaram seguras."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 48.5s a 52.6s - 12 palavras - plano two
+## Cena b9 - 48.5s a 52.6s - 12 palavras - plano group
 > "A prisão virou símbolo: de segurança para uns, de excesso para outros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

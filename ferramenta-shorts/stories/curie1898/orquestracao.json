@@ -159,22 +159,6 @@
    "palavras": 13,
    "cena": "b7",
    "frase": "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "MAR"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 18,
-   "cena": "b8",
-   "frase": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -184,6 +168,22 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 18,
+   "cena": "b8",
+   "frase": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },

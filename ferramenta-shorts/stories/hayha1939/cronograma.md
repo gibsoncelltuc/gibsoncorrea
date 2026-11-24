@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 23 - A Morte Branca
 
-Gerado em 24/11 23:26 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:36 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,8 +12,8 @@ b2 | explicativa | arctic | orbit | FIN, FIN, FIN | 32 | bush, tree_oak, tree_pi
 b3 | simples | arctic | close | FIN | - | - | - | Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 b4 | simples | arctic | low | FIN | - | - | - | Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
 b5 | simples | arctic | close | FIN | - | - | - | Dizem que ele mantinha neve na boca, para o vapor da respiração não en
-b6 | simples | arctic | two | FIN, FIN | - | picket_fence | - | Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por 
-b7 | chave | arctic | crowd | SOV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os soviéticos passaram a chamá-lo de Morte Branca.
+b6 | chave | arctic | crowd | FIN, FIN | 48 | picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por 
+b7 | simples | arctic | group | SOV | - | - | - | Os soviéticos passaram a chamá-lo de Morte Branca.
 b8 | simples | interior hospital | two | FIN, FIN | - | - | - | Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. 
 b9 | simples | interior madeira | close | FIN | - | - | - | Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só
 b10 | simples | interior madeira | two | FIN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

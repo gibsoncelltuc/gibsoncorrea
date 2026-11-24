@@ -64,20 +64,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ...
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock)
-- Animacao: conversar | interacao: tremem de frio
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock) | multidao: 12 de FIN/FIN
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ferro, fuzil, mira, quinhentos
 - RISCOS: nenhum
 
 ## Cena b7 - Os soviéticos passaram a chamá-lo de Morte Branca.
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 12 de SOV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): SOV (variante 1, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chamalo, morte, sovieticos
 - RISCOS: nenhum
@@ -127,8 +127,8 @@ nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 4 | mistura: close 30% | medio 44% | aberto 24% | detalhe 3%
-- Interacoes: b6 tremem de frio, b8 cochichar
+- Objeto heroi: - | grandes momentos: b1, b6 | planos abertos: 4 | mistura: close 31% | medio 42% | aberto 26% | detalhe 0%
+- Interacoes: b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

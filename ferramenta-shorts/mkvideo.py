@@ -894,7 +894,7 @@ KWSFX = []
 _crowd_roteiro = {id(b_) for b_ in beats if isinstance(b_.get('crowd'), dict)}   # multidao que o ROTEIRO pediu fica como esta
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
-    _okm = [i_ for i_, b_ in enumerate(beats) if 0 < i_ < len(beats) - 1 and not b_.get('interior') and not b_.get('explica') and not b_.get('_cta') and not b_.get('shot_lock')]   # 24/11 (Goodyear/Abelhas): momento automatico nunca dentro de sala nem em cena de explicacao
+    _okm = [i_ for i_, b_ in enumerate(beats) if 0 < i_ < len(beats) - 1 and not b_.get('interior') and not b_.get('explica') and not b_.get('_cta') and not b_.get('shot_lock') and not re.search(r'morre|morte|mortes|faleceu|doen|saude|tragedia|vitima|luto|chor|enterr', nrm(b_['say']))]   # 24/11 (Goodyear/Abelhas): momento automatico nunca dentro de sala nem em cena de explicacao
     _b = beats[min(_okm, key=lambda i_: abs(i_ - len(beats) * 0.6))] if _okm else {'shot_lock': True}
     if not _b.get('shot_lock'): _b['impact'] = True; _b['shot'] = 'orbit'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False})
 # DOIS GRANDES MOMENTOS (ordem do Gibson): todo video tem 2 pontos de impacto encenados em plano aberto com multidao, efeito e som. Se o roteiro so' rendeu 1, a virada ("Acontece que") ou a cena a 1/3 do video vira o segundo.
@@ -904,7 +904,7 @@ if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if
     _vir = [i for i in _cand if re.match(r'acontece que|na verdade|so que|o problema', re.sub(r'[^a-z ]', '', unicodedata.normalize('NFKD', beats[i]['say'].lower()).encode('ascii', 'ignore').decode()))]
     # v13: o "grande momento" automatico so' nasce numa cena que TEM tropa ou povo (fuzil, POV/POVO/SOL/TRO, "hats"/"multidao"); cena de 2 personagens da historia nao vira batalha de mentira
     _OFa = B.get('outfits', {}); _ma = lambda o_: str(o_).startswith(('POV', 'SOL', 'TRO')) or bool(_OFa.get(o_, {}).get('rifle') or _OFa.get(o_, {}).get('hats') or _OFa.get(o_, {}).get('multidao'))
-    _cand = [i for i in _cand if not beats[i].get('interior') and not beats[i].get('explica')]   # 24/11: nada de multidao/batalha automatica dentro de sala
+    _cand = [i for i in _cand if not beats[i].get('interior') and not beats[i].get('explica') and not re.search(r'morre|morte|mortes|morta|morto|faleceu|doen|saude|tragedia|vitima|luto|chor|enterr|ferid', nrm(beats[i]['say']))]   # 24/11 (Curie): morte/doenca nunca vira festa com multidao   # 24/11: nada de multidao/batalha automatica dentro de sala
     _cand = [i for i in _cand if any(_ma(w_.split(':')[0]) for w_ in beats[i].get('who', [])) or any(str(k_).startswith(('POV', 'POVO')) for k_ in _OFa)]
     _vir = [i for i in _vir if i in _cand]
     _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]

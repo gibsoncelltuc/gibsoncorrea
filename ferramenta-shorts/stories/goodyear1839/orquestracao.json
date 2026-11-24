@@ -172,20 +172,14 @@
    "palavras": 11,
    "cena": "b8",
    "frase": "Mas outros copiaram a ideia, e ele morreu cheio de dívidas.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "hall"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV",
@@ -201,9 +195,15 @@
    "palavras": 14,
    "cena": "b9",
    "frase": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
