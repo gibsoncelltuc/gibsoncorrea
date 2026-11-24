@@ -1,6 +1,6 @@
 # CRONOGRAMA - A Invasão da Ilha Vazia
 
-Gerado em 24/11 05:10 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 05:37 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,8 +12,8 @@ b2 | simples | harbor | reveal | sem personagem | - | aviao_ww2, tanque_ww2, nav
 b3 | chave | arctic | crowd | USA | 48 | canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
 b4 | chave | mountain | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No meio do nevoeiro, os soldados desceram em silêncio, prontos para um
 b5 | simples | interior pedra | two | USA, CAN | - | - | - | Mas teve um problema: os japoneses já tinham ido embora.
-b6 | transicao | mountain | track | sem personagem | - | sandbags | - | Mesmo assim, eles procuraram o inimigo por dias, em túneis e trincheir
-b7 | transicao | harbor | wide | sem personagem | - | picket_fence, navios de guerra ao fundo, no tamanho real, ship | - | Semanas antes, navios japoneses tinham levado cerca de cinco mil homen
+b6 | transicao | mountain | track | sem personagem | - | sandbags | - | Eles procuraram o inimigo por dias, em trincheiras vazias.
+b7 | transicao | harbor | wide | sem personagem | - | navios de guerra ao fundo, no tamanho real, ship | - | Semanas antes, navios japoneses levaram cinco mil homens embora em men
 b8 | simples | mountain | group | USA, CAN, USA | - | - | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
 b9 | simples | arctic | group | USA, CAN | 5 | - | - | Mais de vinte soldados morreram nesses tiros, e um navio americano ain
 b10 | simples | harbor | two | USA | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
