@@ -154,6 +154,7 @@ grep -q "Emus): 'pediram metralhadoras'" mkvideo.py || f "'pediram metralhadoras
 grep -q "america\\\\b(?! (central|latina|do sul))" mkvideo.py || f "mapa AMERICA CENTRAL vira regiao eua (predios de Nova York em Honduras, Futebol)"
 grep -q "objeto ENORME" visivel.mjs && grep -q "'objeto ENORME' in txt" autocorrigir_visibilidade.py || f "objeto pequeno gigante cobrindo o quadro passa sem checagem (bola do Futebol)"
 grep -q "sem tropa/multidao a grua termina a 34 m" mkvideo.py || f "sequencia de grua em cena sem multidao deixa os personagens minusculos (Emus b4, Danca b6)"
+grep -q "no maximo 1,6x mais longe" fit_fast.mjs || f "ajuste de camera afasta sem limite (Tulipas gancho a 2,47x)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
