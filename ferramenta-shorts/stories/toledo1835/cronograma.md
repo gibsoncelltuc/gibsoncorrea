@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Gerado em 25/11 18:28 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:29 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,8 +9,8 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | countryside | two | OHI | 16 | canivete_aberto | - | Dois estados foram à guerra, e o único ferido levou uma canivetada.
 b1 | simples | countryside | reveal | GOV | 32 | - | - | E quem perdeu a guerra ficou rico.
 b2 | simples | countryside | two | OHI, MIC | - | mapa_antigo | - | Ohio e Michigan disputavam Toledo por um mapa errado.
-b3 | simples | interior madeira | close | GOV | - | - | - | O governador de Michigan, de 23 anos, ocupou Toledo.
-b4 | simples | street | group | OHI | 18 | - | - | Ohio mandou sua milícia, e as tropas se encararam.
+b3 | simples | countryside | close | GOV | - | - | - | O governador de Michigan, de 23 anos, ocupou Toledo.
+b4 | simples | countryside | group | OHI, MIC | 18 | - | - | Ohio mandou sua milícia, e as tropas se encararam.
 b5 | chave | countryside | crowd | OHI | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Teve tiro para o alto, mas ninguém acertou ninguém.
 b6 | simples | interior madeira | two | RAP, XER | - | canivete_aberto | - | O único ferido: um xerife, esfaqueado numa taverna.
 b7 | simples | arctic | wide | OHI, MIC, GOV | - | bush, tree_oak, tree_pine | - | Ohio levou Toledo. Michigan, uma floresta gelada.

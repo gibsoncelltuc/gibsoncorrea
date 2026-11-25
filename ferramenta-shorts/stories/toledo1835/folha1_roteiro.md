@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~3.1 s)
 - Narracao: O governador de Michigan, de 23 anos, ocupou Toledo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,9 +40,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b4  (~3.1 s)
 - Narracao: Ohio mandou sua milícia, e as tropas se encararam.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: O único ferido: um xerife, esfaqueado numa taverna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@60, thump@55
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: espeta (point) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@60, burst@55
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
