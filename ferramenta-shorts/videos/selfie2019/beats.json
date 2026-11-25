@@ -164,9 +164,9 @@
    "interacao": "cochichar",
    "objetos": false,
    "fachada": false,
-   "set": "palace",
+   "interior": "pedra",
    "bloco": "prova",
-   "say": "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
+   "say": "O presidente de El Salvador, Nayib Bukele, tinha só 38 anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -333,7 +333,7 @@
    "tiros": false,
    "set": "street",
    "bloco": "pagamento",
-   "say": "A selfie rodou o mundo. O discurso ficou em segundo plano.",
+   "say": "A selfie rodou o mundo inteiro. O discurso ficou em segundo plano.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -370,7 +370,7 @@
    "d1": 8.0,
    "set": "street",
    "bloco": "loop",
-   "say": "Um segundo bastou. E foi assim que...",
+   "say": "Um segundo bastou para virar notícia. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [

@@ -66,11 +66,12 @@
     "MUS",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/coin",
     "kit/roadster2008",
-    "kit/rocket"
+    "kit/rocket",
+    "kit/tv"
    ],
    "palavras": 11,
    "cena": "b1",
@@ -90,7 +91,8 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/computador_2002"
+    "kit/computador_2002",
+    "kit/tv"
    ],
    "palavras": 9,
    "cena": "b2",
@@ -99,7 +101,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",

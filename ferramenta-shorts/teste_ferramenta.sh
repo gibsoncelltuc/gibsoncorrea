@@ -277,6 +277,7 @@ grep -q 'teslaquila"' obj_dict.d/principal.json || f "garrafa qualquer virava a 
 grep -q "'storm', 'arctic', 'desert')" verificar_execucao.py || f "dia de neve (luz arctic) travava a verificacao (Curie)"
 grep -q "LEITURA x TELA AUTOMATICA" mkvideo.py || f "passo da leitura nao executado devolvia o storyboard (forcar manual)"
 grep -q "camera perto do objeto = rotulo menor" web/runtime.js || f "rotulo da explicacao saindo cortado no alto da tela (Abelhas)"
+grep -q "Selfie: o LOOP copia o cenario da 1a cena" verificar_execucao.py || f "verificacao cobrava o cenario antigo do loop (Selfie)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

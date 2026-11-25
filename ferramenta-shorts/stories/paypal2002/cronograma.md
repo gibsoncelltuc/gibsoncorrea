@@ -1,20 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
-Gerado em 25/11 17:24 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 21:06 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | MUS, EBY | - | coin, rocket | - | Os foguetes da SpaceX nasceram de um site de pagamento.
-b1 | simples | loc_cidade | wide | MUS, POV | 6 | coin, roadster2008, rocket | - | E tudo começou com um jeito de mandar dinheiro por e-mail.
-b2 | simples | interior madeira | two | POV, POV | - | bancada, computador_2002 | - | O PayPal deixava mandar dinheiro só com um e-mail.
+b1 | simples | loc_cidade | wide | MUS, POV | - | coin, roadster2008, rocket, tv | - | E tudo começou com um jeito de mandar dinheiro por e-mail.
+b2 | simples | loc_cidade | two | POV, POV | - | bancada, computador_2002, tv | - | O PayPal deixava mandar dinheiro só com um e-mail.
 b3 | simples | loc_cidade | two | EBY, MUS | - | - | - | Em 2002, o eBay comprou o PayPal.
 b4 | simples | interior pedra | two | MUS, EBY | - | coin | - | Preço: um bilhão e meio de dólares, em ações.
 b5 | simples | interior madeira | two | MUS, POV | - | - | - | Elon Musk era o maior acionista. Ficou rico de repente.
 b6 | simples | interior galpao | two | MUS | - | rocket | - | Acontece que, no mesmo ano, ele tinha fundado a SpaceX.
 b7 | chave | loc_pista | orbit | MUS | - | roadster2008 | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dois anos depois, investiu na Tesla.
-b8 | simples | loc_cidade | two | MUS, POV | - | coin, roadster2008, rocket | - | O dinheiro do PayPal ajudou a bancar foguetes e carros.
+b8 | simples | loc_cidade | wide | MUS, POV | - | coin, roadster2008, rocket | - | O dinheiro do PayPal ajudou a bancar foguetes e carros.
 b9 | simples | loc_cidade | two | MUS, EBY | - | coin, rocket | - | Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
@@ -25,7 +25,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/16 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | PENDENTE | modelar em blender/ (formas.py): kit/computador_2002, kit/roadster2008
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | REFAZER (a etapa anterior mudou) | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 

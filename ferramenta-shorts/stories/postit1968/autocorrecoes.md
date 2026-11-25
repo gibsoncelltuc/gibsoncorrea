@@ -79,3 +79,6 @@
 - b0: objeto "kit/postit" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b8: objeto "kit/postit" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b9: objeto "kit/postit" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 20:50 autocorrecao de visibilidade
+- b9: objeto "kit/postit" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> close no objeto

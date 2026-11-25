@@ -29,9 +29,12 @@
   [
    3,
    "prova",
-   "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
+   "O presidente de El Salvador, Nayib Bukele, tinha só 38 anos.",
    "Bukele",
-   {}
+   {
+    "interior": "pedra",
+    "set": null
+   }
   ],
   [
    4,
@@ -70,14 +73,14 @@
   [
    9,
    "pagamento",
-   "A selfie rodou o mundo. O discurso ficou em segundo plano.",
+   "A selfie rodou o mundo inteiro. O discurso ficou em segundo plano.",
    "rodou",
    {}
   ],
   [
    10,
    "loop",
-   "Um segundo bastou. E foi assim que...",
+   "Um segundo bastou para virar notícia. E foi assim que...",
    "assim",
    {}
   ]

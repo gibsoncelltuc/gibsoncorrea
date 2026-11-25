@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 28 - A Selfie na ONU
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: palace | 9 cenas, 90 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: palace | 9 cenas, 95 palavras (~33 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um presidente parou o discurso na ONU para tirar uma selfie.
@@ -29,9 +29,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: palace |
 - Texto na tela: ONU - NOVA YORK | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.4 s)
-- Narracao: O presidente de El Salvador, Nayib Bukele, tinha 38 anos.
-- Som ambiente: birds
+## Cena b3  (~3.8 s)
+- Narracao: O presidente de El Salvador, Nayib Bukele, tinha só 38 anos.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: palace |
 - Texto na tela: KODAK?
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.8 s)
-- Narracao: A selfie rodou o mundo. O discurso ficou em segundo plano.
+## Cena b7  (~4.1 s)
+- Narracao: A selfie rodou o mundo inteiro. O discurso ficou em segundo plano.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: palace |
 - Texto na tela: SELFIE
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~2.4 s)
-- Narracao: Um segundo bastou. E foi assim que...
+## Cena b8  (~3.4 s)
+- Narracao: Um segundo bastou para virar notícia. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

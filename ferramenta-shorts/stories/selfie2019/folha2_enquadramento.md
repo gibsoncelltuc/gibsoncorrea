@@ -5,7 +5,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b0: "Um presidente parou o discurso na ONU para tirar uma selfie."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; multidao de 6 (POV) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
@@ -14,7 +14,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "E a foto chamou mais atenção que o discurso inteiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
-- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao surprised; REP (jornalista) na direita, expressao grin; multidao de 20 (POV) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao surprised; REP (jornalista) na direita, expressao grin; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
