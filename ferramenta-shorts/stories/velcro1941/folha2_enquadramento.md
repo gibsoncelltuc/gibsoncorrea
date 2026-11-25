@@ -67,7 +67,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: AST no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.1 m de altura x 2.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

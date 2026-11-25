@@ -1,4 +1,3 @@
-VISIBILIDADE: 3 FALHA(S)
-FALHA b8: objeto citado "kit/burr" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+VISIBILIDADE: 2 FALHA(S)
 FALHA b8: objeto citado "kit/rocket" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b8: objeto "kit/burr" saiu com 0% da altura da tela, a ficha de cena planejou 32%
+FALHA b8: objeto "kit/burr" saiu com 12% da altura da tela, a ficha de cena planejou 32%
