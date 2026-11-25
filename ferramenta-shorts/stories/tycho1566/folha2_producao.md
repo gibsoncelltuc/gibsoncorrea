@@ -11,16 +11,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronomia, genio, nariz
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
-- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
-- OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "NARIZ DE METAL" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b1 - E passou o resto da vida com um nariz de metal.
 - Cenario: loc_deserto | luz: dia | clima: limpo
@@ -31,15 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): metal, nariz, resto
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
-- PERSONAGENS: TYC (nobre) no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b2 - Em 1566, Tycho Brahe estudava na Alemanha.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -50,18 +31,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: DINAMARCA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (6.7-8.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (8.1-9.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b3 - Numa festa, discutiu com um primo sobre matemática.
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -72,15 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primo
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR no centro, expressao shout; POV na direita, expressao surprised, segura mug; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b4 - Dias depois, os dois resolveram tudo num duelo de espadas.
 - Cenario: loc_deserto | luz: noite | clima: limpo
@@ -91,20 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, espadas
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: TYC (nobre) na esquerda, expressao angry, segura sword; PAR na direita, expressao shout, segura sword; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
-- SOM: whoosh@36
-- SOM: thump@40
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (14.0-15.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (15.3-16.7 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b5 - Acontece que o primo cortou fora um pedaço do nariz de Tycho.
 - Cenario: loc_montanha | luz: noite | clima: limpo
@@ -115,19 +61,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nariz, pedaco, primo, tycho
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PAR na esquerda, expressao angry, segura sword; TYC (nobre) na direita, expressao pained, segura sword; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +36 da cena
-- SOM: whoosh@26
-- SOM: thump@30
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b6 - Depois, o rei lhe deu uma ilha só para estudar o céu.
 - Cenario: harbor | luz: day | clima: limpo
@@ -138,15 +71,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: REI (rei) na esquerda, expressao grin; TYC (nobre) na direita, expressao surprised; sem multidao; acao: entregar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b7 - Mediu mais de mil estrelas, sem telescópio.
 - Cenario: loc_campo | luz: noite | clima: limpo
@@ -157,21 +81,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_uraniborg, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: TYC (nobre) no centro, expressao grin, segura paper; sem multidao; acao: fala/gesto
-- OBJETO kit/marco_uraniborg: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 21.2 m de altura x 36.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 13.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
-- SOM: ding@20
-- SOM: ding@60
-- TEXTO NA TELA: "MIL ESTRELAS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b8 - Os dados dele ajudaram o astrônomo Kepler.
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -182,18 +91,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronomo, dados
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: TYC (nobre) na esquerda, expressao smug, segura paper; KEP (cientista) na direita, expressao surprised; sem multidao; acao: entregar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
-- SOM: ding@50
-- TEXTO NA TELA: "KEPLER" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b9 - Cabeça nas estrelas e nariz de metal. Tudo porque...
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -226,15 +123,3 @@ kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh tycho1566 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh tycho1566` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
-- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
-- OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (30.8-32.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (32.3-33.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
