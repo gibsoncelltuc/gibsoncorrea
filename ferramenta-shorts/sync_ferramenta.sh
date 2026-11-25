@@ -23,8 +23,9 @@ git merge --no-edit -X theirs FETCH_HEAD >/dev/null 2>&1 || { git merge --abort 
 # sao da SESSAO: o que ela mudou desde o ponto comum volta como estava (a principal manda roteiro novo por mensagem + checkout explicito).
 BASE=$(git merge-base $PRE FETCH_HEAD 2>/dev/null)
 if [ -n "$BASE" ] && [ "$(git rev-parse HEAD)" != "$PRE" ]; then
+  # 25/11 (B, mendel): so restaura o arquivo que o merge trocou pelo da principal E que a sessao nao editou de novo depois (corrida com commit da sessao)
   MEUS=$(git diff --name-only $BASE $PRE -- ferramenta-shorts/videos ferramenta-shorts/stories ferramenta-shorts/referencias ferramenta-shorts/fila_sessao_A.txt ferramenta-shorts/fila_sessao_B.txt ferramenta-shorts/queue.txt 2>/dev/null)
-  if [ -n "$MEUS" ]; then echo "$MEUS" | while read -r f_; do git cat-file -e $PRE:"$f_" 2>/dev/null && git checkout $PRE -- "$f_" 2>/dev/null; done; git add -A >/dev/null 2>&1; git commit -qm "sync: roteiros/folhas da sessao preservados" >/dev/null 2>&1; fi
+  if [ -n "$MEUS" ]; then echo "$MEUS" | while read -r f_; do git cat-file -e $PRE:"$f_" 2>/dev/null || continue; [ "$(git rev-parse -q --verify HEAD:"$f_" 2>/dev/null)" = "$(git rev-parse -q --verify FETCH_HEAD:"$f_" 2>/dev/null)" ] || continue; [ "$(git hash-object "$f_" 2>/dev/null)" = "$(git rev-parse -q --verify HEAD:"$f_" 2>/dev/null)" ] || continue; git checkout $PRE -- "$f_" 2>/dev/null; done; git add -A >/dev/null 2>&1; git commit -qm "sync: roteiros/folhas da sessao preservados" >/dev/null 2>&1; fi
 fi
 # FORCA: depois do merge (ou sem ele), cada arquivo da ferramenta fica IGUAL ao da principal -- nenhuma edicao antiga da sessao sobrevive no motor
 git checkout FETCH_HEAD -- "${FERR[@]}" "${SEGURA[@]}" CLAUDE.md .claude 2>/dev/null

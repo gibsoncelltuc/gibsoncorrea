@@ -5,9 +5,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 ## Cena b0  (~4.1 s)
 - Narracao: Um bilionário vendeu um lança-chamas e jurou que não era um lança-chamas.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; vendeu -> stars + som de sino
+- Efeito visual marcado: burst@30, stars@50
 - Texto na tela: -
 - Funcao na historia: GANCHO
 
@@ -17,14 +17,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Texto na tela: BORING COMPANY | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.9 s)
 - Narracao: Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa, lançaria um lança-chamas. Os bonés esgotaram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_ri (up) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 50 MIL BONÉS
 - Funcao na historia: desenvolvimento
@@ -35,14 +35,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: "NÃO É UM LANÇA-CHAMAS"
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~4.5 s)
 - Narracao: Acontece que o aparelho soltava fogo de verdade, e essa era a piada.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: whoosh@18
-- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_solta (up) @4 -> acao + som de efeito; encena: calor (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao
 - Efeito visual marcado: puff@20, puff@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -51,16 +51,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: ALFÂNDEGA
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~3.4 s)
 - Narracao: Cada compra vinha com um extintor de incêndio de brinde.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: negocio (reach) @1 -> acao + som de efeito; encena: queima (scared) @7 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: entrega (point) @1 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: negocio (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: entrega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Isso rendeu cerca de dez milhões de dólares para a empresa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: rende (up) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: vence (up) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: O próprio Musk postou vídeos soltando fogo com o aparelho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@18
-- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_fone (lift) @3 -> acao + som de efeito; encena: x_solta (up) @5 -> acao + som de efeito; encena: calor (reach) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao
 - Efeito visual marcado: puff@20, puff@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Um produto que se chamava de tudo, menos do que parecia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
