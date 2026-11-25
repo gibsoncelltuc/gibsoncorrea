@@ -151,9 +151,9 @@
    "props": [
     [
      "kit/syringe",
-     0.0,
-     -1.2,
-     1.0,
+     0.7,
+     0.3,
+     1.4,
      {
       "fixo": true
      }
@@ -172,7 +172,6 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -183,15 +182,11 @@
      }
     ]
    },
-   "objetos": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "objetos": false
   },
   {
    "say": "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva.",
-   "shot": "group",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "PAS:0:surprised",
@@ -200,8 +195,8 @@
    "animals": [
     [
      "dog",
-     1.6,
-     0.6
+     0.9,
+     0.5
     ]
    ],
    "encena": {
@@ -213,7 +208,13 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "quadro_manual": true,
+   "cx": 0.4,
+   "cz": 0.0,
+   "h": 1.2,
+   "d0": 8.0,
+   "d1": 7.0
   },
   {
    "say": "Pasteur não era médico e tinha medo, mas decidiu tentar.",
