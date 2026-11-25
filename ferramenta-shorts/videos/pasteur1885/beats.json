@@ -45,16 +45,17 @@
  "beats": [
   {
    "say": "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "PAS:0:smile"
+    "PAS:0:smile",
+    "POV:0:smile"
    ],
    "props": [
     [
      "kit/syringe",
      0.0,
-     -1.0,
-     2.2,
+     -0.8,
+     1.3,
      {
       "fixo": true
      }
@@ -88,11 +89,12 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.5,
-   "h": 1.6,
+   "cz": -0.4,
+   "h": 1.5,
    "d0": 8.0,
    "d1": 7.5,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "chega": false
   },
   {
    "say": "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios.",
@@ -256,7 +258,8 @@
    "say": "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente.",
    "set": "hall",
    "who": [
-    "PAS:0:relief"
+    "PAS:0:relief",
+    "POV:0:smile"
    ],
    "impact": true,
    "tiros": false,
@@ -275,8 +278,8 @@
     [
      "kit/syringe",
      0.0,
-     -1.0,
-     2.2,
+     -0.8,
+     1.3,
      {
       "fixo": true
      }
@@ -309,14 +312,15 @@
      }
     ]
    },
-   "shot": "wide",
+   "shot": "two",
    "fachada": false,
    "cx": 0.0,
-   "cz": -0.5,
-   "h": 1.6,
+   "cz": -0.4,
+   "h": 1.5,
    "d0": 8.0,
    "d1": 7.5,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "chega": false
   },
   {
    "say": "Joseph sobreviveu, e a notícia correu o mundo.",

@@ -12,7 +12,8 @@
   {
    "camera": "two",
    "personagens": [
-    "PAS"
+    "PAS",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
@@ -115,7 +116,8 @@
   {
    "camera": "orbit",
    "personagens": [
-    "PAS"
+    "PAS",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
