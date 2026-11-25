@@ -590,7 +590,25 @@
    "cz": 0.6,
    "d0": 7.6,
    "d1": 7.2,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/borracha",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tires",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "visual": {

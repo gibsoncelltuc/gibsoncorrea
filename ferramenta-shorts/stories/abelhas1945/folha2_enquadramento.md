@@ -14,9 +14,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
 - PERSONAGENS: FRI (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: ÁUSTRIA (cobre a tela 1-2 s)
 
 ## b2: "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia."
@@ -88,7 +88,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
 - PERSONAGENS: FRI (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 

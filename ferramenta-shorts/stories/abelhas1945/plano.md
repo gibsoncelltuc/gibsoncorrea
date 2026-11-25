@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | - | dançando (stars + som de sino); descobriu (ring + som de alerta); encena: examina (think) @10 (acao + som de efeito) | -
-b1 | group | -  | interior, mapa | encena: examina (think) @8 (acao + som de efeito) | -
+b1 | two | -  | interior, mapa | encena: examina (think) @8 (acao + som de efeito) | -
 b2 | wide | -  | batalha aberta com tiros, placa: DANÇA | encena: constroi (hammer) @1 (acao + som de efeito) | -
 b3 | two | -  | - | - | -
 b4 | two | -  | tropa | - | -
