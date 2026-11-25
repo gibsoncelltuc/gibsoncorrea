@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 10 - A Pia no Twitter
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 8 cenas, 108 palavras (~37 s)
+Voz: pt-BR-AntonioNeural -5% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 79 palavras (~27 s)
 
-## Cena b0  (~7.6 s)
-- Narracao: Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do Twitter, em São Francisco, carregando uma pia.
+## Cena b0  (~3.8 s)
+- Narracao: Um bilionário entrou carregando uma pia na empresa que estava comprando.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: whoosh@20
-- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: comprando -> stars + som de sino
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: LET THAT SINK IN
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~3.8 s)
-- Narracao: Ele filmou a própria entrada e postou o vídeo na internet.
+- Narracao: E a pia era uma piada de 44 bilhões de dólares.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~3.1 s)
+- Narracao: Foi Elon Musk, em 2022, na sede do Twitter.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,57 +29,57 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
+## Cena b3  (~2.4 s)
+- Narracao: A legenda era um trocadilho em inglês.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@8
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: puff@8
-- Texto na tela: DEIXE ISSO AFUNDAR
+- Efeito visual marcado: -
+- Texto na tela: LET THAT SINK IN
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.2 s)
-- Narracao: É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar.
+## Cena b4  (~2.4 s)
+- Narracao: Sink quer dizer pia e também afundar.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@4
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@4
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~6.2 s)
-- Narracao: Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.
-- Som ambiente: silencio/sala
+## Cena b5  (~3.1 s)
+- Narracao: Acontece que, no dia seguinte, o Twitter virou dele.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
-
-## Cena b5  (~4.1 s)
-- Narracao: Ele também mudou o perfil, e escreveu que era o Chefe Twit.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: CHEFE TWIT
-- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~3.1 s)
-- Narracao: A cena deu o que falar no mundo inteiro.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b7  (~3.4 s)
-- Narracao: Uma pia, uma legenda e uma piada que ninguém esqueceu.
+- Narracao: No mesmo dia, demitiu o presidente e outros chefes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~2.8 s)
+- Narracao: E mudou o próprio perfil para Chefe Twit.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: CHIEF TWIT
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~2.8 s)
+- Narracao: Uma piada com pia. E foi assim que...
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: LET THAT SINK IN
 - Funcao na historia: FECHO/PIADA FINAL
 
