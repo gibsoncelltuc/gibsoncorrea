@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): POV (variante 0, expressao smile, segura tulip) | multidao: 0 de 
+- Personagens principais (1): POV (variante 0, expressao smile, segura tulip) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/marco_amsterdam, kit/tulip_red
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chegar, holanda, moda, oriente, tulipa
@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): RIC (variante 0, expressao grin, segura paper); MER (variante 0, expressao smug, segura tulip) | multidao: 0 de 
+- Personagens principais (2): RIC (variante 0, expressao grin, segura paper); MER (variante 0, expressao smug, segura tulip) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: buildings/house_small, kit/scroll, kit/tulip_striped, kit/marco_amsterdam, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): RIC (variante 0, expressao pained, segura tulip) | multidao: 0 de 
+- Personagens principais (1): RIC (variante 0, expressao pained, segura tulip) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam, kit/tulip_red, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dividas, flores, precos
