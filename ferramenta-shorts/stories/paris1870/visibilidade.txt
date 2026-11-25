@@ -1,3 +1,0 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b0: objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b4: objeto "kit/rato" saiu com 15% da altura da tela, a ficha de cena planejou 32%
