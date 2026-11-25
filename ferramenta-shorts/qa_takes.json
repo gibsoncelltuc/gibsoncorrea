@@ -1,45 +1,73 @@
 {
  "fails": [
   {
-   "f": 1340,
-   "shot": "b7~3",
+   "f": 89,
+   "shot": "b0_v",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box -0.063, 0.145, 0.259, 0.619)"
    ]
   },
   {
-   "f": 1344,
-   "shot": "b7~3",
+   "f": 92,
+   "shot": "b0_v",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box -0.056, 0.149, 0.264, 0.621)"
    ]
   },
   {
-   "f": 1345,
-   "shot": "b7~3",
+   "f": 1588,
+   "shot": "b10",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box 0.8, 0.452, 1.04, 0.703)"
    ]
   },
   {
-   "f": 1348,
-   "shot": "b7~3",
+   "f": 1592,
+   "shot": "b10",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box 0.789, 0.451, 1.037, 0.713)"
    ]
   },
   {
-   "f": 1352,
-   "shot": "b7~3",
+   "f": 1596,
+   "shot": "b10",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box 0.778, 0.45, 1.034, 0.72)"
    ]
   },
   {
-   "f": 1356,
-   "shot": "b7~3",
+   "f": 1600,
+   "shot": "b10",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box 0.769, 0.449, 1.033, 0.725)"
+   ]
+  },
+  {
+   "f": 1604,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.768, 0.449, 1.033, 0.726)"
+   ]
+  },
+  {
+   "f": 1606,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.765, 0.449, 1.034, 0.727)"
+   ]
+  },
+  {
+   "f": 1607,
+   "shot": "b10~1",
+   "why": [
+    "men: head/torso cropped (box 0.765, 0.449, 1.033, 0.727)"
+   ]
+  },
+  {
+   "f": 1608,
+   "shot": "b10~1",
+   "why": [
+    "men: head/torso cropped (box 0.764, 0.449, 1.033, 0.727)"
    ]
   }
  ],
