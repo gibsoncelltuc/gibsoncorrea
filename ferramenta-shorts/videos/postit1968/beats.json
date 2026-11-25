@@ -110,7 +110,7 @@
     [
      "kit/postit",
      0.0,
-     1.4,
+     -1.2,
      2.0,
      {
       "fixo": true
@@ -146,8 +146,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -353,7 +352,7 @@
    },
    "_enq_shot": "two",
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -364,12 +363,12 @@
      }
     ]
    },
+   "interior": "loja",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2,
-   "interior": "loja"
+   "_auto_vis": 2
   },
   {
    "shot": "two",
