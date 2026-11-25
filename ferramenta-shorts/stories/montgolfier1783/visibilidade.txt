@@ -1,2 +1,1 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b5: animal citado aparece pequeno demais no take 1 (media 11% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (25 tomadas)

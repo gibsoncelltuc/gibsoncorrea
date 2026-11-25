@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Gerado em 25/11 07:14 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:18 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | transicao | street | reveal | POV, POV | 6 | marco_versalhes | - | Era mil 
 b2 | simples | interior madeira | group | JOS, ETI | - | campfire | - | Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fuma
 b3 | explicativa | loc_campo | two | sem personagem | - | balloon, fire | corpo: kit/balloon (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Então fizeram um balão gigante de pano e papel, cheio de ar quente.
 b4 | simples | interior madeira | two | NOB, ETI | - | - | - | Só que ninguém sabia se dava para respirar lá em cima.
-b5 | chave | loc_patio | wide | JOS | - | balloon, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
+b5 | chave | loc_campo | wide | JOS | - | balloon, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
 b6 | simples | street | crowd | REI, RAI | 30 | marco_versalhes | - | Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me
 b7 | chave | loc_campo | orbit | POV | - | balloon, balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão levantou voo de verdade, com os bichos dentro.
 b8 | simples | loc_campo | two | ETI | - | balloon | - | Oito minutos depois, ele desceu num bosque a três quilômetros dali, e 
@@ -27,16 +27,16 @@ N | Etapa | O que confere | Estado | Proximo passo
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/15 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | PENDENTE | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh montgolfier1783
+5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh montgolfier1783
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh montgolfier1783
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local montgolfier1783 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 5. Voz
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1783 | Lugar: Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris | Quando: 19 de setembro de 1783, dia; 21 de novembro de 1783 em Paris
 - HEROIS (objeto): kit/balloon
 - HEROIS (personagens): JOS, ETI
-- Cenarios: interior madeira, loc_campo, loc_patio, street
+- Cenarios: interior madeira, loc_campo, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/balloon: 14.0 m reais -> escala 8.22 (estava 4.5: pequeno demais)
 

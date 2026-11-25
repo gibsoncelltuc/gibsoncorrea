@@ -307,22 +307,22 @@
    "animals": [
     [
      "sheep",
-     -0.5,
-     -3.8,
+     -0.7,
+     -3.1,
      "stand",
      1.6
     ],
     [
      "duck",
-     0.5,
-     -3.9,
+     0.6,
+     -3.2,
      "stand",
      1.6
     ],
     [
      "rooster",
      0.0,
-     -4.3,
+     -3.4,
      "stand",
      1.6
     ]
@@ -356,7 +356,7 @@
      }
     ]
    },
-   "set": "loc_patio",
+   "set": "loc_campo",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
