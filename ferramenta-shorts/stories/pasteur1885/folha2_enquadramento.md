@@ -23,8 +23,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PAS na esquerda, expressao suspicious; MED na direita, expressao nervous; sem multidao; acao: conversar
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: PAS no centro, expressao suspicious; sem multidao; acao: conversar
 - OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b4: "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."

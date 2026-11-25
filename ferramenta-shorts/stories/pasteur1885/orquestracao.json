@@ -62,10 +62,9 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "PAS",
-    "MED"
+    "PAS"
    ],
    "multidao": 0,
    "objetos": [

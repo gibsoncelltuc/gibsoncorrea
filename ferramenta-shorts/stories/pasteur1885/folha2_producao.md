@@ -69,10 +69,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Pasteur tinha criado uma vacina e testado só em animais, nunca em uma ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): PAS (variante 0, expressao suspicious); MED (variante 0, expressao nervous) | multidao: 0 de POV
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): PAS (variante 0, expressao suspicious) | multidao: 0 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa, vacina
 - RISCOS: nenhum
@@ -80,8 +80,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PAS na esquerda, expressao suspicious; MED na direita, expressao nervous; sem multidao; acao: conversar
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: PAS no centro, expressao suspicious; sem multidao; acao: conversar
 - OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (15.2-17.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -256,7 +256,7 @@ dog | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 ## Video inteiro
 - Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 33% | medio 54% | aberto 13% | detalhe 0%
-- Interacoes: b2 avanca e o outro recua, b3 susto, b8 cochichar
+- Interacoes: b2 avanca e o outro recua, b8 cochichar
 - RISCOS GERAIS: 
   - objeto heroi (kit/syringe) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 

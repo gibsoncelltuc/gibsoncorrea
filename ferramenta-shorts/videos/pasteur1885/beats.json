@@ -141,11 +141,10 @@
   },
   {
    "say": "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa.",
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "PAS:0:suspicious",
-    "MED:0:nervous"
+    "PAS:0:suspicious"
    ],
    "acao": "conversar",
    "props": [
@@ -162,7 +161,7 @@
    "detalhe": false,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/syringe",
@@ -183,16 +182,16 @@
     ]
    },
    "objetos": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "_enq_shot": "two"
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "say": "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva.",
@@ -401,7 +400,7 @@
    }
   }
  ],
- "max_wide": 3,
+ "max_wide": 4,
  "visual": {
   "local": "Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur",
   "quando": "julho de 1885, dia",

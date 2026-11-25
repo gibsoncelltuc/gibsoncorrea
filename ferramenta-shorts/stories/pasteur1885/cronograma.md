@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Gerado em 25/11 06:39 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 06:46 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | street | two | PAS | - | syringe | - | Um menino de nove anos foi o primeiro a receber a vacina contra a raiv
 b1 | transicao | street | reveal | MED, MED | 8 | - | - | Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já er
 b2 | simples | interior madeira | two | MED, POV | - | - | - | Na época, quem era mordido por um animal com raiva quase nunca se salv
-b3 | simples | interior madeira | group | PAS, MED | - | syringe | - | Pasteur tinha criado uma vacina e testado só em animais, nunca em uma 
+b3 | simples | interior madeira | two | PAS | - | syringe | - | Pasteur tinha criado uma vacina e testado só em animais, nunca em uma 
 b4 | simples | interior madeira | close | PAS | - | - | - | Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um
 b5 | simples | interior loja | close | PAS | - | - | - | Pasteur não era médico e tinha medo, mas decidiu tentar.
 b6 | chave | hall | orbit | PAS, MED | - | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca

@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 1 | conversar | kit/syringe | - | -
 b1 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
-b3 | interior madeira | group | 2 | conversar, INTERAGEM: susto | kit/syringe | - | -
+b3 | interior madeira | two | 1 | conversar | kit/syringe | - | -
 b4 | interior madeira | close | 1 | conversar | dog | - | -
 b5 | interior loja | close | 1 | reagir | - | - | -
 b6 | hall | orbit | 2 | encena, batalha | kit/syringe | - | -
@@ -19,7 +19,7 @@ b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/syringe
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
-Interacoes entre personagens: b2 avanca e o outro recua, b3 susto, b8 cochichar
+Interacoes entre personagens: b2 avanca e o outro recua, b8 cochichar
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada
