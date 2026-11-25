@@ -150,9 +150,11 @@
    "shot_lock": true,
    "cx": 0,
    "cz": 0,
-   "h": 1.5,
-   "d0": 6.5,
-   "d1": 6.0
+   "h": 1.6,
+   "d0": 8.5,
+   "d1": 8.0,
+   "detalhe": false,
+   "vary": false
   },
   {
    "shot": "two",
@@ -240,8 +242,8 @@
    "props": [
     [
      "kit/ballot_box",
-     0.0,
-     -1.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -285,7 +287,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -460,7 +462,8 @@
    "d0": 14.0,
    "d1": 13.0,
    "quadro_manual": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "vary": false
   },
   {
    "shot": "two",
