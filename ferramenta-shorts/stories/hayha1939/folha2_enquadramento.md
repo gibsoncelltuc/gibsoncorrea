@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: FIN na esquerda, expressao stern; SOV na direita, expressao shock; sem multidao; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "1939" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic

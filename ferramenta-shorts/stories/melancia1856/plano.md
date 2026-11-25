@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1856 | - | -
+b0 | two | -  | - | - | -
 b1 | wide | -  | tropa, mapa | ouro (stars + som de sino) | -
 b2 | wide | -  | tropa | - | -
 b3 | two | -  | - | encena: x_come (eat) @5 (acao + som de efeito); encena: sai @12 (acao + som de efeito) | -

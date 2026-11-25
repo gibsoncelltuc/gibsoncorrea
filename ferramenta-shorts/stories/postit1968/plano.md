@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1968 | encena: quimico (pour) @1 (acao + som de efeito) | -
+b0 | two | -  | - | encena: quimico (pour) @1 (acao + som de efeito) | -
 b1 | two | -  | interior, mapa, objeto na mao | - | -
 b2 | two | -  | interior, objeto na mao | encena: quimico (point) @3 (acao + som de efeito) | -
 b3 | group | -  | interior, objeto na mao | - | -

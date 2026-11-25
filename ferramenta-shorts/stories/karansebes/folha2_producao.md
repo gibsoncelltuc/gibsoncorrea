@@ -18,7 +18,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: travelling (camera acompanha andando)
 - PERSONAGENS: AUT na esquerda, expressao neutral; AUT no centro, expressao stern; AUT na direita, expressao neutral; AUT no fundo, expressao stern; multidao de 24 (AUT, HUS) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "1788" numa placa atras dos personagens, na palavra 5 da frase
 - TAKES: sequencia de acao em 3 cameras (2.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 

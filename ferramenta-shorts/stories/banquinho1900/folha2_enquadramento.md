@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: GOV na esquerda, expressao smug; ASH na direita, expressao shock; sem multidao; acao: discutir
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1900" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti."
 - LOCAL: mata tropical (arvores, cabanas); hora: day

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1984, objeto na mao | brigaram (puff + som de baque) | -
+b0 | two | -  | objeto na mao | brigaram (puff + som de baque) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | - | -
 b3 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @9 (acao + som de efeito); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -

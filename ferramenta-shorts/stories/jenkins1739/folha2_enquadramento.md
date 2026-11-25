@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
 - PERSONAGENS: JEN na esquerda, expressao shock; ESP na direita, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1739" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol parou o capitão inglês Robert Jenkins."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1900 | (rosto) pleading (expr + som de efeito); encena: fala (point) @3 (acao + som de efeito) | -
+b0 | two | -  | - | (rosto) pleading (expr + som de efeito); encena: fala (point) @3 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | Ouro (stars + som de sino) | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | interior, objeto na mao | - | -

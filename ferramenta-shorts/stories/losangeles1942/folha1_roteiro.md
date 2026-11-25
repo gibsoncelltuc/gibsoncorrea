@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: cannon@40
 - Efeito + som nas palavras-chave: encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: burst@40
-- Texto na tela: 1942
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.9 s)

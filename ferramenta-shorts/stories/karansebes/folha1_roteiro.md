@@ -6,9 +6,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Um exército inteiro conseguiu perder uma batalha contra si mesmo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; cavalaria: 4 soldados a cavalo (AUT) -> acao + som de efeito; perder -> dust + som de impacto; encena: perde (facepalm) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; perder -> dust + som de impacto; encena: perde (facepalm) @4 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: 1788
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.9 s)
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Numa noite, os hussardos foram na frente procurar o inimigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (HUS) -> acao + som de efeito; encena: chega (point) @7 -> acao + som de efeito; montado: HUS galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @7 -> acao + som de efeito; montado: HUS galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: gun@167
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: atira @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: atira @16 -> acao + som de efeito
 - Efeito visual marcado: burst@167
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

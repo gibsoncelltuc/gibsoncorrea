@@ -15,7 +15,7 @@
     "MUS",
     "ENA"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
@@ -100,7 +100,7 @@
    "personagens": [
     "MUS"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"

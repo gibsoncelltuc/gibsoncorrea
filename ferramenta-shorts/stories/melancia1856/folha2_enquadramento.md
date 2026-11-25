@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e melon juntos (camera a 11.5 m)
 - PERSONAGENS: VIA (jornalista) na esquerda, expressao smug; VEN (comerciante) na direita, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/melon: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1856" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

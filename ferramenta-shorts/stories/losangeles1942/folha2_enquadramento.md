@@ -9,7 +9,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/searchlight: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: cannon@40
-- TEXTO NA TELA: "1942" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 70 acoes catalogadas, 70 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 66 acoes catalogadas, 66 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -15,18 +15,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | perder (1.5s) | EFEITO: dust | poeira + som | OK |
 | 2 | perder (1.5s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | CENA | cavalaria: 4 soldados a cavalo (AUT) | OK |
-| 5 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 6 | - | PLACA | 1788 | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra perder (1.5s): executa: poeira + som
 - ACAO: perde na palavra perder (1.5s): executa: mao na testa
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- CENA (a cena toda): executa: cavalaria: 4 soldados a cavalo (AUT)
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 24: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
@@ -63,13 +59,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | procurar (12.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | CENA | cavalaria: 2 soldados a cavalo (HUS) | OK |
-| 3 | - | CENA | montado: HUS galopando em cima do animal (horse_sela) atravessando a cena | OK |
+| 2 | - | CENA | montado: HUS galopando em cima do animal (horse_sela) atravessando a cena | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra procurar (12.6s): executa: entra andando pela lateral
-- CENA (a cena toda): executa: cavalaria: 2 soldados a cavalo (HUS)
 - CENA (a cena toda): executa: montado: HUS galopando em cima do animal (horse_sela) atravessando a cena
 - multidao de 6: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -142,17 +136,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (23.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (23.2s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | tiro (28.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | CHEGADA | alguem entra andando | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegou (23.2s): executa: poeira + som
 - ACAO: chega na palavra chegou (23.2s): executa: entra andando pela lateral
 - ACAO: atira na palavra tiro (28.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- CENA (a cena toda): executa: cavalaria: 2 soldados a cavalo (AUT)
 - INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - CHEGADA (a cena toda): executa: alguem entra andando

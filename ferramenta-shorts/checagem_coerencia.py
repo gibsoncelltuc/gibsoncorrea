@@ -79,5 +79,7 @@ if 'R9' not in ok and re.search(r'antes de cristo|\ba\.? ?c\.|ha mais de (dois|t
 s0 = n(BT[0]['say']) if BT else ''
 if re.match(r'(segundo|dizem|conta-se|contam|reza a lenda|era (mil|o ano)|em (mil|\d{3,4})|no ano de)', s0) and 'R4' not in ok:
     erros.append('R4 gancho comeca com data ou ressalva ("' + BT[0]['say'][:40] + '..."): abra com o fato mais surpreendente, sem data')
+if re.fullmatch(r'\s*(em |ano )?\d{3,4}\s*', str(BT[0].get('text') or '')) and 'R4' not in ok:   # 25/11 (Tulipas, Goodyear): placa com o ANO na cena do gancho tambem e' data no gancho
+    erros.append('R4 gancho com placa de ano ("' + str(BT[0].get('text')) + '"): tire o "text" da 1a cena; a data entra na 2a frase')
 if erros: print('COERENCIA:'); [print(' -', e) for e in erros]; sys.exit(1)
 print('COERENCIA OK (lugar, regiao, fardas dos lados, gancho)')

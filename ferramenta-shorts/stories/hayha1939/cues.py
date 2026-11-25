@@ -6,7 +6,6 @@ harp(F(_A[8]), F(_A[10]))
 drone(F(_A[10]), F(_A[11]), 49); heartbeat(F(_A[10]), F(_A[11]), 72, 0.55)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)
-ding(F(int(_W(0) - 2)), 0.5, 988)
 whoosh(F(_A[1]), 0.4, 0.35)
 gun(F(_A[1] + 8))
 gun(F(_A[1] + 16))

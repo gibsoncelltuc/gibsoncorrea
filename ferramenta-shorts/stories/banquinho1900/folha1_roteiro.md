@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: 1900
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)

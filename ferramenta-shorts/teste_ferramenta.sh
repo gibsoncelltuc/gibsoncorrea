@@ -214,6 +214,7 @@ grep -q "light not in ('night', 'dusk', 'study_dark'): light = 'overcast'" mkvid
 python3 -c "
 import re; s=open('suspeitas.py').read(); R=eval(re.search(r\"^MUITA = (r'.*')\",s,re.M).group(1)); raise SystemExit(0 if not re.search(R,'repetiu os testes centenas de vezes') and re.search(R,'centenas de pessoas') else 1)" || f "'centenas de vezes' vira multidao de clones (Abelhas)"
 grep -q "veiculo que ANIMA (sem 'fixo' no roteiro" enquadrar.py && grep -q "3o objeto grande nao empilha" enquadrar.py || f "enquadrar marca o carro que voa como 'fixo' (mata a animacao) e empilha objetos (Roadster)"
+grep -q "placa de ano" checagem_coerencia.py || f "placa com o ano na cena do gancho passa (Tulipas, Goodyear)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

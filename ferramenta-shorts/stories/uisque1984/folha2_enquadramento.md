@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smug, segura flag; DIN (soldado) na direita, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/whisky: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1984" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
