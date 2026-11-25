@@ -85,8 +85,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - A vacina dele só tinha sido testada em animais.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PAS (variante 0, expressao suspicious) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/bancada, kit/seringa_pe, kit/syringe
@@ -206,13 +206,11 @@ dog | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 11% | medio 68% | aberto 21% | detalhe 0%
+- Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 11% | medio 66% | aberto 21% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b7 o outro se aproxima, b9 insiste
-- RISCOS GERAIS: 
-  - objeto heroi (kit/seringa_pe) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/seringa_pe) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh pasteur1885 bN bM` (so essas cenas).
