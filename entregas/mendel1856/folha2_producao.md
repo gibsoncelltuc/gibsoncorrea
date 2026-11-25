@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Na primeira geração, todas saíram amarelas, como se o verde tivesse su...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MEN (variante 0, expressao surprised) | multidao: 0 de POV
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, du...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MEN (variante 0, expressao neutral, segura paper) | multidao: 0 de POV
