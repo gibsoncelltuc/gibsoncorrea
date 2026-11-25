@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): NEW, AMI
 - Cenarios: countryside, loc_campo, street
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/apple: 0.3 m reais -> escala 0.4 (estava 1.3: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.0: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 2.0: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.9: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.5: grande demais)
+- Tamanho real aplicado: kit/apple: 0.3 m reais -> escala 0.4 (estava 1.3: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.0: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.09: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.9: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.5: grande demais)
 
 ## Itens pesquisados
 
