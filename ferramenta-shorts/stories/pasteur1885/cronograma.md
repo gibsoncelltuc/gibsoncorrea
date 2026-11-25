@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Gerado em 25/11 18:33 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:36 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,10 +10,10 @@ b0 | simples | street | two | PAS, JOS | - | bancada, seringa_pe | - | Um menino
 b1 | simples | street | close | PAS | - | syringe | - | E quem aplicou a vacina nem era médico.
 b2 | chave | street | wide | MED, MED | 8 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1885, Louis Pasteur estudava micróbios na França.
 b3 | simples | interior madeira | two | MED | - | - | - | Mordida de animal com raiva quase sempre matava.
-b4 | simples | interior madeira | two | PAS | - | bancada, seringa_pe, syringe | - | A vacina dele só tinha sido testada em animais.
-b5 | simples | interior madeira | two | MAE, JOS | - | - | - | Um dia, chegou o menino Joseph, mordido por um cachorro.
-b6 | simples | interior loja | close | PAS | - | - | - | Pasteur tinha medo, mas decidiu tentar.
-b7 | chave | hall | orbit | PAS, JOS | - | bancada, seringa_pe, syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, depois de dez dias de injeções, o menino não adoeceu.
+b4 | simples | interior madeira | wide | PAS | - | bancada, seringa_pe, syringe | - | A vacina dele só tinha sido testada em animais.
+b5 | simples | interior madeira | wide | MAE, JOS | - | - | - | Um dia, chegou o menino Joseph, mordido por um cachorro.
+b6 | simples | interior loja | wide | PAS | - | - | - | Pasteur tinha medo, mas decidiu tentar.
+b7 | chave | hall | two | PAS, JOS | - | bancada, seringa_pe, syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, depois de dez dias de injeções, o menino não adoeceu.
 b8 | simples | interior madeira | track | MAE, JOS | - | - | - | Joseph sobreviveu, e a notícia correu o mundo.
 b9 | simples | street | two | PAS, JOS | - | bancada, seringa_pe | - | Um químico arriscou tudo. E foi assim que...
 

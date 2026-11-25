@@ -87,7 +87,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "PAS"
    ],
@@ -107,7 +107,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MAE",
     "JOS"
@@ -124,7 +124,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "PAS"
    ],
@@ -140,7 +140,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "PAS",
     "JOS"

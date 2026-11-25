@@ -1,3 +1,5 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b4: objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+VISIBILIDADE: 4 FALHA(S)
+FALHA b4: "kit/xray_plate" tapando a camera (50% do quadro, colado na lente)
+FALHA b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 FALHA b9: objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b4: objeto ENORME "kit/xray_plate" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close

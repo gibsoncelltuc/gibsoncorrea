@@ -75,7 +75,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 13.8s a 15.8s - 9 palavras - plano two
+## Cena b4 - 13.8s a 15.8s - 9 palavras - plano wide
 > "A vacina dele só tinha sido testada em animais."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -90,7 +90,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 16.9s a 19.5s - 10 palavras - plano two
+## Cena b5 - 16.9s a 19.5s - 10 palavras - plano wide
 > "Um dia, chegou o menino Joseph, mordido por um cachorro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -100,18 +100,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | chegou (17.6s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | CENA | animal: dog entra caminhando | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegou (17.6s): executa: poeira + som
 - CENA (a cena toda): executa: animal: dog entra caminhando
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 20.7s a 22.3s - 6 palavras - plano close
+## Cena b6 - 20.7s a 22.3s - 6 palavras - plano wide
 > "Pasteur tinha medo, mas decidiu tentar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -130,7 +126,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 23.3s a 26.6s - 12 palavras - plano orbit
+## Cena b7 - 23.3s a 26.6s - 12 palavras - plano two
 > "Acontece que, depois de dez dias de injeções, o menino não adoeceu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -139,10 +135,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b8 - 27.7s a 29.8s - 8 palavras - plano track
