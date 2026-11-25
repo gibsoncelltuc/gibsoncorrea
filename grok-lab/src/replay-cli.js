@@ -17,11 +17,14 @@ const file = arg('file') ?? path.join(dir, fs.readdirSync(dir).filter((f) => f.s
 const resamples = Number(arg('resamples', 10000));
 const boots = Number(arg('bootstrap', 10000));
 const len = Number(arg('len', 200));
+const maxAgeH = Number(arg('maxAge', 72)); // idade máxima do token em horas (72 = regra do vídeo; use 100000 para tokens antigos)
+const noRug = process.argv.includes('--noRug'); // desliga o filtro de segurança (só para estudar sinais e saídas)
+const CFG = { ...CONFIG, scan: { ...CONFIG.scan, maxAgeMin: maxAgeH * 60 }, rug: { ...CONFIG.rug, disabled: noRug } };
 
 const raw = JSON.parse(fs.readFileSync(file, 'utf8'));
 const tokens = loadTokens(raw);
 
-function run(toks, cfg = CONFIG) {
+function run(toks, cfg = CFG) {
   const m = new ReplayMarket(toks);
   const e = new Engine(m, cfg);
   while (!m.done) e.tick();
@@ -44,16 +47,16 @@ const fmt = (s) =>
 const t0 = Math.min(...tokens.map((t) => t.all[0].t));
 const t1 = Math.max(...tokens.map((t) => t.all[t.all.length - 1].t));
 console.log(`DADOS REAIS · ${path.basename(file)} · coletado em ${raw.collectedAt}`);
-console.log(`${tokens.length} tokens com dados do RugCheck · janela de ${((t1 - t0) / 60).toFixed(1)} h · velas de 1 min (GeckoTerminal)\n`);
+console.log(`${tokens.length} tokens com dados do RugCheck · janela de ${((t1 - t0) / 60).toFixed(1)} h · velas de 1 min (GeckoTerminal) · idade máxima do token: ${maxAgeH} h · filtro de segurança: ${noRug ? 'DESLIGADO' : 'ligado'}\n`);
 
 const base = run(tokens);
 const bs = stats(base);
 console.log('1) Regras do vídeo + custos realistas (taxa 0,5% + derrapagem 1,5% por lado):');
 console.log('   ' + fmt(bs));
-const free = run(tokens, { ...CONFIG, feePct: 0, slippagePct: 0 });
+const free = run(tokens, { ...CFG, feePct: 0, slippagePct: 0 });
 console.log('2) Mesmas regras SEM custos (só para ver quanto os custos comem):');
 console.log('   ' + fmt(stats(free)));
-const harsh = run(tokens, { ...CONFIG, slippagePct: 0.03 });
+const harsh = run(tokens, { ...CFG, slippagePct: 0.03 });
 console.log('3) Derrapagem de 3% por lado (memecoin de pouca liquidez):');
 console.log('   ' + fmt(stats(harsh)));
 const reasons = {};

@@ -68,7 +68,7 @@ export class Engine {
     for (const tok of this.m.tokens) {
       const cs = tok.candles;
       const n = cs.length;
-      if (n < 24) continue;
+      if (n < Math.max(24, s.breakoutLookback + 23)) continue;
       if ((this.cool.get(tok.id) ?? -1) > T) continue;
       if (this.positions.some((p) => p.tok === tok)) continue;
       const age = T - tok.born;
@@ -79,8 +79,13 @@ export class Engine {
       for (let i = n - 2 - s.breakoutLookback; i < n - 2; i++) hh = Math.max(hh, cs[i].h);
       if (last.c <= hh) continue;
       let av = 0;
-      for (let i = n - 22; i < n - 2; i++) av += cs[i].v;
+      let active = 0;
+      for (let i = n - 22; i < n - 2; i++) {
+        av += cs[i].v;
+        if (cs[i].v > 0) active++;
+      }
       av /= 20;
+      if (active < 10) continue; // exige negociação contínua: velas vazias (preenchimento de buracos) geram falsos rompimentos
       if (last.v < s.volSpike * av) continue;
       let v5 = 0;
       for (let i = n - 6; i < n - 1; i++) v5 += cs[i].v;
@@ -92,6 +97,7 @@ export class Engine {
   // ---- Rug Check ----
   rugCheck(tok) {
     const r = this.cfg.rug;
+    if (r.disabled) return { pass: true, reason: 'filtro desligado' };
     if (tok.cloneOf) return { pass: false, reason: `clone of $${tok.cloneOf}` };
     if (!tok.mintRevoked) return { pass: false, reason: 'mint authority on' };
     if (!tok.freezeOff) return { pass: false, reason: 'freeze authority on' };
