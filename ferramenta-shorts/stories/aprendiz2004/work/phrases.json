@@ -1,225 +1,189 @@
 {
- "duration": 56.64,
- "frames30": 1699,
- "source": "silence-align (cost 0.66)",
+ "duration": 42.72,
+ "frames30": 1282,
+ "source": "silence-align (cost 0.55)",
  "segments": [
   [
-   0.154917,
-   3.77429
+   0.158375,
+   1.06621
   ],
   [
-   4.12742,
-   5.11083
+   1.35329,
+   3.929
   ],
   [
-   5.94846,
-   6.74717
+   4.78179,
+   5.80396
   ],
   [
-   7.00512,
-   9.38004
+   6.69612,
+   7.83383
   ],
   [
-   10.2371,
-   13.9665
+   8.67142,
+   9.47004
   ],
   [
-   14.8251,
-   15.503
+   9.728,
+   12.1032
   ],
   [
-   15.7279,
-   17.7048
+   12.9615,
+   16.1917
   ],
   [
-   17.9864,
-   19.0607
+   17.0535,
+   17.7019
   ],
   [
-   19.9097,
-   22.1346
+   17.9507,
+   20.233
   ],
   [
-   22.4014,
-   23.4038
+   21.095,
+   21.8259
   ],
   [
-   24.27,
-   26.4264
+   22.096,
+   23.0141
   ],
   [
-   26.6875,
-   27.5513
+   23.2742,
+   24.3249
   ],
   [
-   27.7513,
-   28.302
+   25.1643,
+   27.9663
   ],
   [
-   28.5393,
-   29.5179
+   28.8238,
+   29.4024
   ],
   [
-   30.3868,
-   34.1189
+   29.6802,
+   31.2773
   ],
   [
-   34.9625,
-   38.5974
+   31.5956,
+   32.7403
   ],
   [
-   39.4483,
-   40.0269
+   33.6039,
+   36.0626
   ],
   [
-   40.3046,
-   41.9017
+   36.9181,
+   37.988
   ],
   [
-   42.22,
-   43.3615
+   38.3024,
+   39.3944
   ],
   [
-   44.2182,
-   46.0347
-  ],
-  [
-   46.1937,
-   47.1257
-  ],
-  [
-   47.9937,
-   51.5421
-  ],
-  [
-   52.3342,
-   53.7777
-  ],
-  [
-   54.0715,
-   55.8332
+   40.2121,
+   41.9032
   ]
  ],
  "phrases": [
   {
-   "text": "Duas palavras transformaram um empres\u00e1rio de Nova York numa estrela mundial:",
-   "s": 0.155,
-   "e": 3.774
+   "text": "O que ningu\u00e9m lembra:",
+   "s": 0.158,
+   "e": 1.066
   },
   {
-   "text": "voc\u00ea est\u00e1 demitido.",
-   "s": 4.127,
-   "e": 5.111
+   "text": "duas palavras deixaram Trump famoso no mundo todo.",
+   "s": 1.353,
+   "e": 3.929
   },
   {
-   "text": "Em dois mil e quatro,",
-   "s": 5.948,
-   "e": 6.747
+   "text": "E n\u00e3o foi na pol\u00edtica.",
+   "s": 4.782,
+   "e": 5.804
+  },
+  {
+   "text": "Foi num programa de TV.",
+   "s": 6.696,
+   "e": 7.834
+  },
+  {
+   "text": "Em 2004,",
+   "s": 8.671,
+   "e": 9.47
   },
   {
    "text": "estreou nos Estados Unidos o programa O Aprendiz.",
-   "s": 7.005,
-   "e": 9.38
+   "s": 9.728,
+   "e": 12.103
   },
   {
-   "text": "Dezesseis candidatos disputavam um emprego numa empresa de Donald Trump.",
-   "s": 10.237,
-   "e": 13.966
+   "text": "Dezesseis candidatos disputavam um emprego na empresa de Trump.",
+   "s": 12.961,
+   "e": 16.192
   },
   {
    "text": "Toda semana,",
-   "s": 14.825,
-   "e": 15.503
+   "s": 17.053,
+   "e": 17.702
   },
   {
-   "text": "as equipes faziam tarefas de neg\u00f3cios,",
-   "s": 15.728,
-   "e": 17.705
+   "text": "a equipe perdedora ia para a sala de reuni\u00e3o.",
+   "s": 17.951,
+   "e": 20.233
   },
   {
-   "text": "como vender limonada.",
-   "s": 17.986,
-   "e": 19.061
+   "text": "E algu\u00e9m ouvia,",
+   "s": 21.095,
+   "e": 21.826
   },
   {
-   "text": "A equipe perdedora ia para a sala de reuni\u00e3o,",
-   "s": 19.91,
-   "e": 22.135
-  },
-  {
-   "text": "e algu\u00e9m era eliminado.",
-   "s": 22.401,
-   "e": 23.404
-  },
-  {
-   "text": "Acontece que o jeito de eliminar virou marca:",
-   "s": 24.27,
-   "e": 26.426
-  },
-  {
-   "text": "apontando o dedo,",
-   "s": 26.688,
-   "e": 27.551
-  },
-  {
-   "text": "ele dizia,",
-   "s": 27.751,
-   "e": 28.302
+   "text": "com o dedo na cara:",
+   "s": 22.096,
+   "e": 23.014
   },
   {
    "text": "voc\u00ea est\u00e1 demitido.",
-   "s": 28.539,
-   "e": 29.518
+   "s": 23.274,
+   "e": 24.325
   },
   {
-   "text": "A final da primeira temporada teve cerca de vinte e oito milh\u00f5es de espectadores.",
-   "s": 30.387,
-   "e": 34.119
-  },
-  {
-   "text": "Bill Rancic venceu e ganhou um sal\u00e1rio de duzentos e cinquenta mil d\u00f3lares.",
-   "s": 34.962,
-   "e": 38.597
+   "text": "A final teve cerca de vinte e oito milh\u00f5es de espectadores.",
+   "s": 25.164,
+   "e": 27.966
   },
   {
    "text": "No Brasil,",
-   "s": 39.448,
-   "e": 40.027
+   "s": 28.824,
+   "e": 29.402
   },
   {
    "text": "O Aprendiz estreou no mesmo ano,",
-   "s": 40.305,
-   "e": 41.902
+   "s": 29.68,
+   "e": 31.277
   },
   {
    "text": "com Roberto Justus.",
-   "s": 42.22,
-   "e": 43.361
+   "s": 31.596,
+   "e": 32.74
   },
   {
-   "text": "Trump apresentou por mais de dez anos,",
-   "s": 44.218,
-   "e": 46.035
+   "text": "Trump apresentou o programa por mais de dez anos.",
+   "s": 33.604,
+   "e": 36.063
   },
   {
-   "text": "at\u00e9 dois mil e quinze.",
-   "s": 46.194,
-   "e": 47.126
+   "text": "Um programa de emprego,",
+   "s": 36.918,
+   "e": 37.988
   },
   {
-   "text": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
-   "s": 47.994,
-   "e": 51.542
+   "text": "famoso por demitir.",
+   "s": 38.302,
+   "e": 39.394
   },
   {
-   "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 52.334,
-   "e": 53.778
-  },
-  {
-   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 54.072,
-   "e": 55.833
+   "text": "Tudo por causa de duas palavras.",
+   "s": 40.212,
+   "e": 41.903
   }
  ]
 }

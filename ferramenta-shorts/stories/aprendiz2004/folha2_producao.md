@@ -21,9 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - SOM: sting@60
 - TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (0.2-2.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (2.1-4.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.2-1.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.9-3.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b1 - E não foi na política. Foi num programa de TV.
@@ -46,9 +46,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
 - SOM: ding@50
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (4.3-5.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (5.8-7.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (4.8-6.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (6.2-7.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b2 - Em 2004, estreou nos Estados Unidos o programa O Aprendiz.
@@ -68,9 +68,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "O APRENDIZ" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (7.8-9.9 s): mesmo angulo
-  - take 2 (9.9-12.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (8.7-10.2 s): mesmo angulo
+  - take 2 (10.2-11.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b3 - Dezesseis candidatos disputavam um emprego na empresa de Trump.
@@ -89,9 +89,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de multidao
 - PERSONAGENS: TRU na esquerda, expressao grin; CND na direita, expressao nervous; multidao de 16 (POV) ATRAS dos principais; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (12.6-14.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (14.2-15.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (13.0-14.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (14.5-16.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Toda semana, a equipe perdedora ia para a sala de reunião.
@@ -112,10 +112,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (16.4-17.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (17.9-19.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (19.4-20.9 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (17.1-18.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.5-19.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b5 - E alguém ouvia, com o dedo na cara: você está demitido.
@@ -139,9 +138,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (21.0-22.9 s): mesmo angulo
-  - take 2 (22.9-24.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b6 - A final teve cerca de vinte e oito milhões de espectadores.
@@ -165,7 +162,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "28 MILHÕES" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.
@@ -188,9 +185,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@30
 - TEXTO NA TELA: "ROBERTO JUSTUS" flutuando no alto, na palavra 1 da frase
 - MAPA: BRASIL (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (28.5-30.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (30.4-32.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (28.8-30.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (30.6-32.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b8 - Trump apresentou o programa por mais de dez anos.
@@ -210,9 +207,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: conversar
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "2004-2015" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (32.5-34.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (34.0-35.5 s): mesmo angulo
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Um programa de emprego, famoso por demitir. Tudo por causa de duas pal...
@@ -241,11 +236,11 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 - Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 52% | medio 36% | aberto 6% | detalhe 5%
 - Interacoes: b2 vai ate o outro, b4 discutir, b7 aproxima-se
 - RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: acima de 36 s: ~40.7 s (estimado; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py aprendiz2004
+  - ESTRUTURA VIRAL: acima de 36 s: ~42.7 s (voz real; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py aprendiz2004
   - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py aprendiz2004
 
 ## RESUMO: 2 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: acima de 36 s: ~40.7 s (estimado; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~42.7 s (voz real; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
 - geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
@@ -263,8 +258,8 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 - SOM: sting@60
 - TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (35.8-37.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (37.3-38.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (38.8-40.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (36.9-38.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (38.4-39.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (39.9-41.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
