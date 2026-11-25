@@ -83,7 +83,7 @@
    "fachada": false,
    "titulo": true,
    "bloco": "gancho",
-   "say": "Você acha que guerra precisa de tiro? Esta durou 335 anos sem nenhum.",
+   "say": "Uma guerra durou 335 anos e ninguém disparou um tiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -123,13 +123,13 @@
    },
    "fachada": false,
    "bloco": "promessa",
-   "say": "E o jeito que ela acabou é ainda mais absurdo.",
+   "say": "E só acabou porque alguém resolveu perguntar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "absurdo"
+      "na": "perguntar"
      }
     ]
    },
@@ -238,7 +238,7 @@
    "detalhe": false,
    "fachada": false,
    "bloco": "prova",
-   "say": "Dizem que a Holanda mandou navios e declarou guerra às ilhas.",
+   "say": "A Holanda declarou guerra às ilhas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -278,7 +278,7 @@
     "n": 0
    },
    "bloco": "escalada",
-   "say": "Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.",
+   "say": "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -316,7 +316,7 @@
    },
    "detalhe": false,
    "bloco": "escalada",
-   "say": "Os holandeses foram embora. E ninguém assinou a paz.",
+   "say": "Os holandeses foram embora. E ninguém lembrou de assinar a paz.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -353,13 +353,13 @@
    ],
    "interior": "madeira",
    "bloco": "pagamento",
-   "say": "Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?",
+   "say": "Três séculos depois, um historiador escreveu para a Holanda.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "perguntou"
+      "na": "historiador"
      }
     ]
    }
@@ -383,13 +383,13 @@
     ]
    ],
    "bloco": "pagamento",
-   "say": "Em 1986, o embaixador holandês foi às ilhas assinar a paz.",
+   "say": "O embaixador veio às ilhas e assinou a paz.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "escreve",
-      "na": "assinar",
+      "na": "assinou",
       "quem": 0
      }
     ]
@@ -436,13 +436,13 @@
    "set": "harbor",
    "fachada": false,
    "bloco": "loop",
-   "say": "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro.",
+   "say": "Ninguém lembrou de um papel. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "zero"
+      "na": "papel"
      }
     ]
    },
@@ -498,8 +498,8 @@
   ]
  },
  "variar_cenario": false,
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "loop_frase_ok": true,
- "gancho_cumprido": "Gancho promete uma guerra de 335 anos sem tiro e um final absurdo; o pagamento mostra a paz assinada so em 1986, porque ninguem lembrou de assinar antes.",
+ "gancho_cumprido": "Gancho: uma guerra de 335 anos sem tiro, que so acabou porque alguem perguntou. Pagamento: ninguem assinou a paz em 1651; tres seculos depois um historiador escreveu e o embaixador assinou.",
  "max_wide": 5
 }

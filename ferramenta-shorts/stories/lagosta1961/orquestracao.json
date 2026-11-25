@@ -19,9 +19,9 @@
     "crate",
     "kit/lobster"
    ],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Você acha que guerra é por petróleo? O Brasil quase brigou por lagosta.",
+   "frase": "Brasil e França quase entraram em guerra por causa de lagosta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -38,9 +38,9 @@
     "crate",
     "kit/lobster"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b1",
-   "frase": "E a briga dependia de uma pergunta: a lagosta anda ou nada?",
+   "frase": "E tudo dependia de uma pergunta: lagosta anda ou nada?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -57,9 +57,9 @@
     "boat",
     "kit/fishing_net"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco.",
+   "frase": "Em 1961, barcos franceses pescavam lagosta em Pernambuco.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -73,7 +73,7 @@
    "objetos": [],
    "palavras": 11,
    "cena": "b3",
-   "frase": "O Brasil dizia: lagosta anda no fundo do mar, é nossa.",
+   "frase": "O Brasil dizia: ela anda no fundo do mar, é nossa.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -93,7 +93,7 @@
    "objetos": [],
    "palavras": 9,
    "cena": "b4",
-   "frase": "A França respondia: lagosta nada, é de quem pescar.",
+   "frase": "A França dizia: ela nada, é de quem pescar.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -107,7 +107,7 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "MFR"
    ],
@@ -116,29 +116,9 @@
     "kit/navio_destroier",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b5",
-   "frase": "A França mandou um navio de guerra para a costa.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "MAR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "navios de guerra ao fundo, no tamanho real",
-    "ship",
-    "vehicles/airplane"
-   ],
-   "palavras": 11,
-   "cena": "b6",
-   "frase": "Acontece que o Brasil não recuou e mandou navios e aviões.",
+   "frase": "A França mandou um navio de guerra.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -148,6 +128,25 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship",
+    "vehicles/airplane"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Acontece que o Brasil respondeu com navios e aviões.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -159,37 +158,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Mas o tiro nunca veio. Os dois governos fizeram um acordo.",
+   "frase": "Mas o tiro nunca veio. Os governos negociaram.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior pedra"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "PES",
-    "FRA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b8",
-   "frase": "No fim, alguns barcos franceses puderam pescar, com limite.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -201,9 +177,9 @@
     "crate",
     "kit/lobster"
    ],
-   "palavras": 9,
-   "cena": "b9",
-   "frase": "Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta.",
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Nenhum tiro, só uma briga sobre um bicho. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

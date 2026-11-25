@@ -7,13 +7,13 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | medieval | track | 2 | encena, andando | kit/bathtub | - | -
 b1 | medieval | two | 2 | conversar, INTERAGEM: insiste | kit/bathtub | - | -
 b2 | medieval | reveal | 10 | parados (so fala e pisca) | kit/bathtub | - | -
-b3 | interior pedra | two | 2 | reagir, INTERAGEM: discutir | kit/coroa_louros | - | -
+b3 | interior pedra | two | 2 | conversar, INTERAGEM: discutir | kit/coroa_louros | - | -
 b4 | interior pedra | group | 2 | conversar, INTERAGEM: entregar | kit/coroa_louros | paper | -
 b5 | interior pedra | two | 1 | conversar, alguem chega andando, batalha | kit/bathtub | - | -
 b6 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b7 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | medieval | crowd | 16 | comemorar, batalha | kit/coroa_louros | - | -
-b9 | medieval | two | 2 | conversar, INTERAGEM: susto | kit/bathtub | - | -
+b9 | medieval | two | 2 | conversar, INTERAGEM: susto | - | - | -
 
 OBJETO HEROI: kit/bathtub
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b8

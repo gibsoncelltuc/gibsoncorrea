@@ -85,13 +85,13 @@
    "d0": 11.4,
    "d1": 11.0,
    "bloco": "gancho",
-   "say": "Existem cadernos tão perigosos que só se lê com roupa especial.",
+   "say": "Os cadernos de Marie Curie só podem ser lidos com proteção.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "perigosos"
+      "na": "proteção"
      }
     ]
    }
@@ -121,13 +121,13 @@
    "d1": 6.8,
    "quadro_manual": true,
    "bloco": "promessa",
-   "say": "E vão continuar perigosos por mais de mil anos.",
+   "say": "E vão continuar radioativos por mais de mil anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "perigosos"
+      "na": "por"
      }
     ]
    }
@@ -145,7 +145,7 @@
    "d0": 12.0,
    "d1": 11.0,
    "bloco": "prova",
-   "say": "Em Paris, Marie Curie trabalhava num galpão gelado.",
+   "say": "Em Paris, ela trabalhava num galpão gelado com o marido Pierre.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -165,7 +165,7 @@
    ],
    "hora": "dia",
    "bloco": "prova",
-   "say": "O teto pingava, e ela mexia minério com uma barra de ferro.",
+   "say": "Mexia toneladas de minério com uma barra de ferro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -213,13 +213,13 @@
    "shot_lock": true,
    "impact": true,
    "bloco": "prova",
-   "say": "Assim ela e Pierre acharam dois elementos novos: polônio e rádio.",
+   "say": "Assim descobriram dois elementos novos: polônio e rádio.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "acharam"
+      "na": "Assim"
      }
     ]
    }
@@ -263,7 +263,7 @@
    },
    "detalhe": false,
    "bloco": "escalada",
-   "say": "O rádio brilhava no escuro, e ela adorava olhar os frascos.",
+   "say": "O rádio brilhava no escuro, e ela adorava olhar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -283,13 +283,13 @@
    ],
    "hora": "dia",
    "bloco": "escalada",
-   "say": "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
+   "say": "Ela andava com frascos no bolso, sem saber do perigo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "carregava"
+      "na": "com"
      }
     ]
    }
@@ -307,13 +307,13 @@
    ],
    "hora": "dia",
    "bloco": "escalada",
-   "say": "Acontece que a radiação destruiu a saúde dela. Ela morreu por isso.",
+   "say": "Acontece que a radiação destruiu a saúde dela.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "morre",
-      "na": "morreu",
+      "na": "Acontece",
       "quem": 0
      }
     ]
@@ -348,7 +348,7 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "pagamento",
-   "say": "Hoje, os cadernos dela ficam em caixas de chumbo em Paris.",
+   "say": "Hoje, os cadernos dormem em caixas de chumbo em Paris.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -393,13 +393,13 @@
     "passos": [
      {
       "faz": "escreve",
-      "na": "assinar",
+      "na": "ler",
       "quem": 0
      }
     ]
    },
    "bloco": "loop",
-   "say": "Para ler, é preciso assinar um termo e vestir proteção."
+   "say": "Quem quiser ler, precisa de autorização. É por isso que..."
   }
  ],
  "objetos_do_video": {
@@ -437,6 +437,6 @@
   "explicacoes": "O radio emite radiacao e brilha no escuro (radioluminescencia); a radiacao contamina papel e objetos por seculos (meia-vida do radio-226: cerca de 1600 anos). Fonte: Bibliotheque nationale de France (cadernos em caixas de chumbo) e Wikipedia \"Radium\"."
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: cadernos tao perigosos que so se le com roupa especial, e perigosos por mais de mil anos. Pagamento: o radio que ela carregava no bolso deixou os cadernos radioativos; hoje ficam em caixas de chumbo em Paris.",
+ "gancho_cumprido": "Gancho: os cadernos de Marie Curie so podem ser lidos com protecao e seguem radioativos por mais de mil anos. Pagamento: o radio que ela carregava no bolso contaminou tudo; os cadernos ficam em caixas de chumbo.",
  "loop_frase_ok": true
 }

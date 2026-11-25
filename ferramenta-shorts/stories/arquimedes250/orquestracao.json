@@ -19,9 +19,9 @@
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Ninguém te conta: um gênio correu da banheira gritando pela rua.",
+   "frase": "Um homem saiu correndo da banheira, gritando pela rua.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -40,7 +40,7 @@
    ],
    "palavras": 10,
    "cena": "b1",
-   "frase": "E foi a banheira que desmascarou um ladrão de ouro.",
+   "frase": "E foi a banheira que pegou um ladrão de ouro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,7 +59,7 @@
    ],
    "palavras": 9,
    "cena": "b2",
-   "frase": "Siracusa, na Sicília, há mais de dois mil anos.",
+   "frase": "Foi em Siracusa, na Sicília, há dois mil anos.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,9 +76,9 @@
    "objetos": [
     "kit/coroa_louros"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "O rei Hierão desconfiou que sua coroa de ouro tinha prata.",
+   "frase": "O rei desconfiou que o ourives misturou prata na coroa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -97,7 +97,7 @@
    ],
    "palavras": 10,
    "cena": "b4",
-   "frase": "Ele pediu a Arquimedes a verdade, sem estragar a coroa.",
+   "frase": "Ele mandou Arquimedes achar a resposta, sem estragar a coroa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -153,9 +153,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Coroa com prata é maior e derrama mais água que ouro puro.",
+   "frase": "Coroa com prata é maior, e derrama mais água.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -178,9 +178,9 @@
    "objetos": [
     "kit/coroa_louros"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b8",
-   "frase": "Conta a lenda: ele gritou Eureca. E a coroa tinha prata.",
+   "frase": "Conta a lenda: ele gritou Eureca. A coroa tinha prata.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -200,12 +200,10 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/bathtub"
-   ],
-   "palavras": 9,
+   "objetos": [],
+   "palavras": 13,
    "cena": "b9",
-   "frase": "Dá para enganar muita gente. Mas não uma banheira.",
+   "frase": "Dá para enganar muita gente, mas não a água. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

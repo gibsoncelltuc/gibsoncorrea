@@ -25,9 +25,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Você acha que guerra precisa de tiro? Esta durou 335 anos sem nenhum.",
+   "frase": "Uma guerra durou 335 anos e ninguém disparou um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -42,9 +42,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "E o jeito que ela acabou é ainda mais absurdo.",
+   "frase": "E só acabou porque alguém resolveu perguntar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -83,12 +83,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 11,
+   "palavras": 6,
    "cena": "b3",
-   "frase": "Dizem que a Holanda mandou navios e declarou guerra às ilhas.",
+   "frase": "A Holanda declarou guerra às ilhas.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -111,7 +110,7 @@
    "objetos": [],
    "palavras": 11,
    "cena": "b4",
-   "frase": "Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.",
+   "frase": "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -127,9 +126,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 9,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "Os holandeses foram embora. E ninguém assinou a paz.",
+   "frase": "Os holandeses foram embora. E ninguém lembrou de assinar a paz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -144,9 +143,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?",
+   "frase": "Três séculos depois, um historiador escreveu para a Holanda.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -162,9 +161,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Em 1986, o embaixador holandês foi às ilhas assinar a paz.",
+   "frase": "O embaixador veio às ilhas e assinou a paz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -181,9 +180,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 14,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro.",
+   "frase": "Ninguém lembrou de um papel. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

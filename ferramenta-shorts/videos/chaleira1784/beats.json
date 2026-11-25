@@ -67,7 +67,7 @@
    "titulo": true,
    "set": "loc_campo",
    "bloco": "gancho",
-   "say": "Uma guerra inteira teve um único tiro. E acertou uma chaleira.",
+   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -106,7 +106,7 @@
    "d1": 8.5,
    "interior": "madeira",
    "bloco": "promessa",
-   "say": "E aquela chaleira estava cheia de sopa quente.",
+   "say": "E dentro dela tinha sopa quente para o almoço.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -145,13 +145,13 @@
    "d1": 20,
    "quadro_manual": true,
    "bloco": "prova",
-   "say": "Em 1784, a Holanda mantinha o rio Escalda fechado.",
+   "say": "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "fechado"
+      "na": "fechou"
      }
     ]
    }
@@ -165,7 +165,7 @@
    ],
    "acao": "discutir",
    "bloco": "prova",
-   "say": "O imperador José Segundo, da Áustria, queria o rio aberto.",
+   "say": "O imperador da Áustria queria o rio aberto.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -214,7 +214,7 @@
    "d1": 66,
    "quadro_manual": true,
    "bloco": "prova",
-   "say": "Ele mandou três navios descerem o rio, achando que ninguém reagiria.",
+   "say": "Mandou três navios descerem o rio, certo de que ninguém reagiria.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -277,7 +277,7 @@
     ]
    },
    "bloco": "escalada",
-   "say": "Acontece que o navio holandês Dolfijn esperava e disparou um tiro."
+   "say": "Acontece que um navio holandês esperava e disparou um tiro."
   },
   {
    "shot": "two",
@@ -315,7 +315,7 @@
    "d1": 8.5,
    "interior": "madeira",
    "bloco": "escalada",
-   "say": "A bala destruiu uma chaleira de sopa no convés.",
+   "say": "A bala destruiu a chaleira de sopa no convés.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -365,7 +365,7 @@
     ]
    },
    "bloco": "pagamento",
-   "say": "O navio austríaco se rendeu na hora, sem mais tiros."
+   "say": "O navio austríaco se rendeu na hora."
   },
   {
    "shot": "two",
@@ -390,7 +390,7 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "loop",
-   "say": "O único prejuízo do dia foi o almoço.",
+   "say": "Perderam o almoço e a coragem. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -465,6 +465,6 @@
  },
  "marco": false,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: uma guerra inteira teve um unico tiro e acertou uma chaleira de sopa. Pagamento: o Dolfijn disparou, a bala destruiu a chaleira e o navio austriaco se rendeu.",
+ "gancho_cumprido": "Gancho: uma guerra inteira teve um unico tiro e ele acertou uma chaleira de sopa. Pagamento: o Dolfijn disparou, a bala destruiu a chaleira e o navio austriaco se rendeu.",
  "loop_frase_ok": true
 }

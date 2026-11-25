@@ -7,7 +7,7 @@
    "item": "A Guerra da Orelha de Jenkins",
    "consultas": [
     "A Guerra da Orelha de Jenkins",
-    "Ninguém Parlamento Em Cuba Robert Jenkins 1739"
+    "Uma Parlamento Perto Cuba Robert Jenkins 1739"
    ]
   },
   {
@@ -120,14 +120,6 @@
    "consultas": [
     "ship 1739",
     "ship"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "porto da epoca",
-   "consultas": [
-    "harbor 1739",
-    "harbor"
    ]
   }
  ]

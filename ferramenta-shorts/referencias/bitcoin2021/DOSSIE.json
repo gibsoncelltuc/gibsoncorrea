@@ -43,7 +43,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/bitcoin",
-  "kit/phone",
+  "kit/coin",
   "kit/rack_mineracao",
   "kit/volcano"
  ],

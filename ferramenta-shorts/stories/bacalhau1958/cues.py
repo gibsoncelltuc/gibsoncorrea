@@ -1,5 +1,5 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [9, 19, 28, 40, 50, 60, 68, 80, 92]] + [FR]
+_A = [0] + [int(_W(i) - 3) for i in [11, 19, 28, 36, 47, 53, 63, 73, 81]] + [FR]
 playful(F(_A[0]), F(_A[10]), 122)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)
@@ -28,10 +28,13 @@ creak(F(_A[7] + 30))
 thump(F(_A[7] + 55))
 whoosh(F(_A[8]), 0.4, 0.35)
 sea(F(_A[8]), F(_A[9]), 0.14); gulls(F(_A[8]), F(_A[9]), 3, 0.1)
-ding(F(int(_W(92) - 2)), 0.5, 988)
-gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.2)), 4, 260, 0.12); gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.58)), 4, 185, 0.12)
+ding(F(int(_W(85) - 2)), 0.5, 988)
+gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.12)), 6, 250, 0.2); gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.38)), 6, 165, 0.2); gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.62)), 5, 270, 0.22); gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.82)), 4, 160, 0.2)
 whoosh(F(_A[9]), 0.4, 0.35)
 sea(F(_A[9]), F(_A[10]), 0.14); gulls(F(_A[9]), F(_A[10]), 3, 0.1)
-ding(F(int(_W(108) - 2)), 0.5, 1175)
+ding(F(int(_W(97) - 2)), 0.5, 1175)
 creak(F(_A[9] + 40))
-hud(F(int(_W(45))))
+thump(F(int(_W(15))))
+hud(F(int(_W(43))))
+thump(F(int(_W(78))))
+thump(F(int(_W(80))))

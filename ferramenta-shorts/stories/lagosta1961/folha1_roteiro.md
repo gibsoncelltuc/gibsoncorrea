@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 105 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 85 palavras (~29 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Você acha que guerra é por petróleo? O Brasil quase brigou por lagosta.
+## Cena b0  (~3.8 s)
+- Narracao: Brasil e França quase entraram em guerra por causa de lagosta.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -11,17 +11,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: GUERRA DA LAGOSTA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.1 s)
-- Narracao: E a briga dependia de uma pergunta: a lagosta anda ou nada?
+## Cena b1  (~3.4 s)
+- Narracao: E tudo dependia de uma pergunta: lagosta anda ou nada?
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: briga -> puff + som de baque
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco.
+## Cena b2  (~2.8 s)
+- Narracao: Em 1961, barcos franceses pescavam lagosta em Pernambuco.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@70
 - Efeito + som nas palavras-chave: -
@@ -30,7 +30,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.8 s)
-- Narracao: O Brasil dizia: lagosta anda no fundo do mar, é nossa.
+- Narracao: O Brasil dizia: ela anda no fundo do mar, é nossa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -39,7 +39,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.1 s)
-- Narracao: A França respondia: lagosta nada, é de quem pescar.
+- Narracao: A França dizia: ela nada, é de quem pescar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,26 +47,26 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.4 s)
-- Narracao: A França mandou um navio de guerra para a costa.
-- Som ambiente: sea
+## Cena b5  (~2.4 s)
+- Narracao: A França mandou um navio de guerra.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~3.8 s)
-- Narracao: Acontece que o Brasil não recuou e mandou navios e aviões.
+## Cena b6  (~3.1 s)
+- Narracao: Acontece que o Brasil respondeu com navios e aviões.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: NAVIOS E AVIÕES
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
-## Cena b7  (~3.8 s)
-- Narracao: Mas o tiro nunca veio. Os dois governos fizeram um acordo.
+## Cena b7  (~2.8 s)
+- Narracao: Mas o tiro nunca veio. Os governos negociaram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -74,20 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: No fim, alguns barcos franceses puderam pescar, com limite.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@20
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b9  (~3.1 s)
-- Narracao: Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta.
+## Cena b8  (~4.1 s)
+- Narracao: Nenhum tiro, só uma briga sobre um bicho. E foi assim que...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: GUERRA DA LAGOSTA
 - Funcao na historia: FECHO/PIADA FINAL

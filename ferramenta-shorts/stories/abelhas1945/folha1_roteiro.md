@@ -1,21 +1,21 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 97 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
 
-## Cena b0  (~2.8 s)
-- Narracao: O que ninguém te conta: abelhas conversam dançando.
+## Cena b0  (~3.1 s)
+- Narracao: Abelhas conversam dançando, e a dança é um mapa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dançando -> stars + som de sino
+- Efeito + som nas palavras-chave: dançando -> stars + som de sino; dança -> stars + som de sino
 - Efeito visual marcado: stars@30
 - Texto na tela: ABELHAS DANÇAM
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.1 s)
-- Narracao: E a dança delas é um mapa que leva até a comida.
+## Cena b1  (~2.8 s)
+- Narracao: E quem traduziu isso ganhou um Prêmio Nobel.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dança -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ÁUSTRIA
 - Funcao na historia: desenvolvimento
@@ -29,11 +29,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: DANÇA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~3.8 s)
-- Narracao: A abelha que achava o açúcar voltava e dançava no favo.
+## Cena b3  (~2.8 s)
+- Narracao: A abelha que achava o açúcar voltava dançando.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: dançando -> stars + som de sino
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -48,7 +48,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~3.8 s)
-- Narracao: A parte maluca: o ângulo da dança aponta para o sol.
+- Narracao: O ângulo da dança aponta a direção, comparada com o sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: -
@@ -65,29 +65,29 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~2.4 s)
-- Narracao: Cientistas riram: inseto com linguagem? Parecia piada.
+## Cena b7  (~2.8 s)
+- Narracao: Acontece que os cientistas riram: inseto com linguagem?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram: -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: VIRADA
 
-## Cena b8  (~4.1 s)
-- Narracao: Em 1973, a dança das abelhas deu a ele o Prêmio Nobel.
+## Cena b8  (~3.1 s)
+- Narracao: Em 1973, ele ganhou o Nobel por essa dança.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: dança -> stars + som de sino; Prêmio -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; dança -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: Viu uma abelha dançando? Lembre do que ninguém te conta.
+## Cena b9  (~2.4 s)
+- Narracao: Repare na próxima abelha que passar. Porque...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dançando -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: ABELHAS DANÇAM
 - Funcao na historia: FECHO/PIADA FINAL

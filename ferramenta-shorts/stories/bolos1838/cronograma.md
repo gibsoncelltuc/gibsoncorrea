@@ -1,28 +1,27 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 25/11 16:51 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:19 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | CON, OFI | - | cake_table, marco_ulua | - | A França foi à guerra contra o México por causa de bolos.
-b1 | simples | street | wide | CON, FRA | - | marco_ulua | - | E a conta nunca foi paga.
+b0 | simples | street | two | CON, OFI | - | cake_table, marco_ulua | - | França e México entraram em guerra por causa de uma confeitaria.
+b1 | simples | interior madeira | wide | CON, FRA | - | cake_table | - | E a conta dos bolos nunca foi paga.
 b2 | simples | street | two | CON, OFI | - | shop, cake_table, marco_ulua, stall | - | Um confeiteiro francês tinha uma loja perto da Cidade do México.
-b3 | simples | interior loja | two | OFI, OFI | - | barrel_r, cake_table, chest | - | Em 1832, oficiais mexicanos saquearam a loja, segundo o confeiteiro.
-b4 | simples | interior pedra | two | CON, REI | - | - | - | Ele pediu sessenta mil pesos. A loja valia menos de mil.
-b5 | simples | interior pedra | close | REI | - | - | - | A França exigiu seiscentos mil pesos. O México recusou.
-b6 | transicao | harbor | wide | FRA, FRA | 32 | marco_ulua, navios de guerra ao fundo, no tamanho real | - | Acontece que a França mandou navios de guerra e fechou os portos.
-b7 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Canhões franceses bombardearam a fortaleza, e soldados tomaram Veracru
-b8 | simples | interior pedra | two | GEN, FRA | - | - | - | Em 1839, o México prometeu pagar, e a França foi embora.
-b9 | simples | street | two | CON, OFI | - | cake_table | - | Tudo por uma conta de bolos.
+b3 | simples | interior loja | two | OFI, OFI | - | barrel_r, cake_table, chest | - | Ele disse que oficiais mexicanos saquearam tudo.
+b4 | simples | interior pedra | two | CON, REI | - | - | - | Pediu sessenta mil pesos. A loja valia menos de mil.
+b5 | simples | harbor | wide | FRA, FRA | 32 | marco_ulua, navios de guerra ao fundo, no tamanho real | - | Acontece que a França assumiu a briga e mandou navios de guerra.
+b6 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.
+b7 | simples | interior pedra | two | GEN, FRA | - | - | - | O México prometeu pagar, e a França foi embora.
+b8 | simples | street | two | CON, OFI | - | - | - | Esse dinheiro nunca chegou. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/17 itens) | PENDENTE | python3 pesquisar.py bolos1838
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/16 itens) | PENDENTE | python3 pesquisar.py bolos1838
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 

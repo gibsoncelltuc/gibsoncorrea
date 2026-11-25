@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/curie1898/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py curie1898` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Existem cadernos tão perigosos que só se lê com roupa especial.
+## Cena b0 - Os cadernos de Marie Curie só podem ser lidos com proteção.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PRO (variante 0, expressao scared, segura paper)
 - Animacao: encena
 - Objetos/modelos: kit/curie_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): roupa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, marie, protecao
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (1.7-3.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b1 - E vão continuar perigosos por mais de mil anos.
+## Cena b1 - E vão continuar radioativos por mais de mil anos.
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -47,14 +47,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (4.9-6.3 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b2 - Em Paris, Marie Curie trabalhava num galpão gelado.
+## Cena b2 - Em Paris, ela trabalhava num galpão gelado com o marido Pierre.
 - Cenario: street | luz: dia | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): POV (variante 0, expressao smile) | multidao: 6 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_eiffel
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -64,19 +64,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FRANÇA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (6.9-8.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (8.4-10.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (6.9-8.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (8.9-10.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b3 - O teto pingava, e ela mexia minério com uma barra de ferro.
+## Cena b3 - Mexia toneladas de minério com uma barra de ferro.
 - Cenario: interior galpao | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao stern, segura paper); PIE (variante 0, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/pechblenda
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barra, ferro, teto
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barra, ferro, minerio
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -85,12 +85,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MAR na esquerda, expressao stern, segura paper; PIE (cientista) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (10.2-12.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (12.1-13.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (11.0-12.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (12.4-13.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b4 - Assim ela e Pierre acharam dois elementos novos: polônio e rádio.
+## Cena b4 - Assim descobriram dois elementos novos: polônio e rádio.
 - Cenario: interior galpao | luz: dia | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -109,17 +109,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 - TEXTO NA TELA: "TONELADAS DE MINÉRIO" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.5 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b5 - O rádio brilhava no escuro, e ela adorava olhar os frascos.
+## Cena b5 - O rádio brilhava no escuro, e ela adorava olhar.
 - Cenario: interior galpao | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/curie_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, frascos, radio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, radio
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -127,17 +127,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/curie_box no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.2 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.8 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
-## Cena b6 - Ela carregava frascos no bolso. Ninguém sabia do perigo.
+## Cena b6 - Ela andava com frascos no bolso, sem saber do perigo.
 - Cenario: interior galpao | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao nervous, segura paper); PIE (variante 0, expressao worried)
 - Animacao: reagir | interacao: aproxima-se
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, perigo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, frascos, perigo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -146,12 +146,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MAR na esquerda, expressao nervous, segura paper; PIE (cientista) na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (21.9-23.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (23.5-25.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (20.1-21.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (21.9-23.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - Acontece que a radiação destruiu a saúde dela. Ela morreu por isso.
+## Cena b7 - Acontece que a radiação destruiu a saúde dela.
 - Cenario: street | luz: dia | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -169,12 +169,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (25.3-27.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (27.4-29.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (23.7-25.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (25.1-26.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b8 - Hoje, os cadernos dela ficam em caixas de chumbo em Paris.
+## Cena b8 - Hoje, os cadernos dormem em caixas de chumbo em Paris.
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -192,20 +192,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (29.7-31.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (31.4-33.1 s): mesmo angulo
-  - take 3 (33.1-34.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (26.7-28.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (28.5-30.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b9 - Para ler, é preciso assinar um termo e vestir proteção.
+## Cena b9 - Quem quiser ler, precisa de autorização. É por isso que...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): PRO (variante 0, expressao scared, segura paper)
 - Animacao: encena
 - Objetos/modelos: kit/curie_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): termo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): autorizacao
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -220,7 +219,7 @@ crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 16% | detalhe 2%
+- Objeto heroi: kit/curie_box | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 20% | medio 61% | aberto 17% | detalhe 2%
 - Interacoes: b3 vai ate o outro, b6 aproxima-se
 - RISCOS GERAIS: nenhum
 
@@ -240,6 +239,8 @@ crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "PERIGO" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (30.6-32.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (32.8-35.0 s): mesmo angulo
 <!-- /FICHA -->
 

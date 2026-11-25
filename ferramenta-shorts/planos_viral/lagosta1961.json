@@ -1,62 +1,69 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "GUERRA DA LAGOSTA",
- "gancho_cumprido": "Gancho: o Brasil quase brigou por lagosta, e a briga dependia de a lagosta andar ou nadar. Pagamento: navios de guerra frente a frente, o tiro nunca veio e o acordo deixou alguns barcos franceses pescarem com limite.",
+ "gancho_cumprido": "Gancho: o Brasil quase entrou em guerra com a Franca por lagosta, e tudo dependia de ela andar ou nadar. Pagamento: navio de guerra frances, navios e avioes brasileiros, e o tiro nunca veio.",
  "cenas": [
   [
    0,
    "gancho",
-   "Você acha que guerra é por petróleo? O Brasil quase brigou por lagosta.",
-   "lagosta"
+   "Brasil e França quase entraram em guerra por causa de lagosta.",
+   "lagosta",
+   {}
   ],
   [
    9,
    "promessa",
-   "E a briga dependia de uma pergunta: a lagosta anda ou nada?",
-   "lagosta"
+   "E tudo dependia de uma pergunta: lagosta anda ou nada?",
+   "lagosta",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco.",
-   "pescavam"
+   "Em 1961, barcos franceses pescavam lagosta em Pernambuco.",
+   "pescavam",
+   {}
   ],
   [
    2,
    "prova",
-   "O Brasil dizia: lagosta anda no fundo do mar, é nossa.",
-   "anda"
+   "O Brasil dizia: ela anda no fundo do mar, é nossa.",
+   "anda",
+   {}
   ],
   [
    3,
    "prova",
-   "A França respondia: lagosta nada, é de quem pescar.",
-   "nada"
+   "A França dizia: ela nada, é de quem pescar.",
+   "nada",
+   {}
   ],
   [
    4,
    "escalada",
-   "A França mandou um navio de guerra para a costa.",
-   "mandou"
+   "A França mandou um navio de guerra.",
+   "mandou",
+   {}
   ],
   [
    5,
    "escalada",
-   "Acontece que o Brasil não recuou e mandou navios e aviões.",
-   "mandou"
+   "Acontece que o Brasil respondeu com navios e aviões.",
+   "respondeu",
+   {}
   ],
   [
    7,
    "pagamento",
-   "Mas o tiro nunca veio. Os dois governos fizeram um acordo.",
-   "acordo",
+   "Mas o tiro nunca veio. Os governos negociaram.",
+   "negociaram",
    {
     "encena": {
      "sentido": "negativa",
      "passos": [
       {
        "faz": "fala",
-       "na": "acordo",
+       "na": "negociaram",
        "quem": 0
       }
      ]
@@ -64,19 +71,11 @@
    }
   ],
   [
-   8,
-   "pagamento",
-   "No fim, alguns barcos franceses puderam pescar, com limite.",
-   "pescar",
-   {
-    "text": null
-   }
-  ],
-  [
    0,
    "loop",
-   "Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta.",
-   "lagosta"
+   "Nenhum tiro, só uma briga sobre um bicho. E foi assim que...",
+   "Nenhum",
+   {}
   ]
  ]
 }

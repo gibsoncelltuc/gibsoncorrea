@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "O que ninguém te conta: abelhas conversam dançando."
+## b0: "Abelhas conversam dançando, e a dança é um mapa."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
 - PERSONAGENS: FRI (cientista) na esquerda, expressao grin; COL (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -13,7 +13,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "ABELHAS DANÇAM" flutuando no alto, na palavra 1 da frase
 
-## b1: "E a dança delas é um mapa que leva até a comida."
+## b1: "E quem traduziu isso ganhou um Prêmio Nobel."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
 - PERSONAGENS: FRI (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -31,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@30
 - TEXTO NA TELA: "DANÇA" numa placa atras dos personagens, na palavra 1 da frase
 
-## b3: "A abelha que achava o açúcar voltava e dançava no favo."
+## b3: "A abelha que achava o açúcar voltava dançando."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
 - PERSONAGENS: FRI (cientista) no centro, expressao surprised; sem multidao; acao: fala/gesto
@@ -48,7 +48,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/bee no centro, manobra "gira"
 - PASSOS NA TELA: -
 
-## b5: "A parte maluca: o ângulo da dança aponta para o sol."
+## b5: "O ângulo da dança aponta a direção, comparada com o sol."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bee no centro, manobra "gira"
 - PASSOS NA TELA: -
@@ -58,13 +58,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/bee no centro, manobra "gira"
 - PASSOS NA TELA: -
 
-## b7: "Cientistas riram: inseto com linguagem? Parecia piada."
+## b7: "Acontece que os cientistas riram: inseto com linguagem?"
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: COL (cientista) na esquerda, expressao laugh; FRI (cientista) na direita, expressao nervous, segura paper; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Em 1973, a dança das abelhas deu a ele o Prêmio Nobel."
+## b8: "Em 1973, ele ganhou o Nobel por essa dança."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: FRI (cientista) na esquerda, expressao laugh; ASS (agricultor) na direita, expressao laugh; multidao de 4 (POV) ATRAS dos principais; acao: comemorar
@@ -75,7 +75,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
 
-## b9: "Viu uma abelha dançando? Lembre do que ninguém te conta."
+## b9: "Repare na próxima abelha que passar. Porque..."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
 - PERSONAGENS: FRI (cientista) na esquerda, expressao grin; COL (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto

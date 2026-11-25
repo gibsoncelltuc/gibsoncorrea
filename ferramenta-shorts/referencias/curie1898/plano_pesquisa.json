@@ -7,7 +7,7 @@
    "item": "O Caderno que Ainda Brilha",
    "consultas": [
     "O Caderno que Ainda Brilha",
-    "Existem Em Paris Marie Curie 1898"
+    "Os Marie Curie Em Paris Pierre 1898"
    ]
   },
   {
@@ -108,9 +108,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "O rádio brilhava no escuro, e ela adorava olhar os frascos.",
+   "item": "O rádio brilhava no escuro, e ela adorava olhar.",
    "consultas": [
-    "radio brilhava escuro adorava olhar frascos",
+    "radio brilhava escuro adorava olhar",
     "curie box diagram"
    ]
   }

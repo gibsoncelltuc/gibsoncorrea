@@ -84,7 +84,7 @@
     "creak@40"
    ],
    "bloco": "gancho",
-   "say": "Marinha grande é invencível? A Islândia provou que não.",
+   "say": "A Islândia derrotou a marinha inglesa usando um cortador de rede.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -121,13 +121,13 @@
    "tstyle": "brown",
    "set": "harbor",
    "bloco": "promessa",
-   "say": "Com uma arma que parecia piada: um cortador de rede.",
+   "say": "E o motivo da briga era o bacalhau.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "cortador"
+      "na": "bacalhau"
      }
     ]
    }
@@ -192,7 +192,7 @@
    "set": "harbor",
    "detalhe": false,
    "bloco": "prova",
-   "say": "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.",
+   "say": "Barcos ingleses pescavam bacalhau na costa da Islândia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -239,7 +239,7 @@
     }
    },
    "bloco": "prova",
-   "say": "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.",
+   "say": "A Islândia ampliou o seu mar: de doze para duzentas milhas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -276,7 +276,7 @@
    "detalhe": false,
    "impact": true,
    "bloco": "escalada",
-   "say": "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.",
+   "say": "A Inglaterra mandou fragatas de guerra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -319,13 +319,13 @@
    "impact": true,
    "fachada": false,
    "bloco": "escalada",
-   "say": "A Islândia só tinha barquinhos da guarda costeira.",
+   "say": "Acontece que a Islândia só tinha barcos da guarda costeira.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "barquinhos"
+      "na": "barcos"
      }
     ]
    }
@@ -375,7 +375,7 @@
    "shot_lock": true,
    "detalhe": false,
    "bloco": "escalada",
-   "say": "Mas eles cortavam os cabos das redes inglesas no meio do mar.",
+   "say": "E eles cortavam as redes inglesas no meio do mar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -406,13 +406,13 @@
    ],
    "fachada": false,
    "bloco": "pagamento",
-   "say": "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo.",
+   "say": "Em 1976, a Inglaterra finalmente desistiu da briga.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "cedeu"
+      "na": "Inglaterra"
      }
     ]
    }
@@ -463,13 +463,13 @@
     "creak@40"
    ],
    "bloco": "loop",
-   "say": "Tudo por um bacalhau. Marinha grande não é invencível.",
+   "say": "As duzentas milhas viraram regra no mundo. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "bacalhau"
+      "na": "duzentas"
      }
     ]
    }
@@ -512,6 +512,6 @@
   "https://en.wikipedia.org/wiki/Cod_Wars"
  ],
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a Islandia venceu a marinha inglesa com uma arma que parecia piada. Pagamento: os cortadores de rede fizeram a Inglaterra ceder em 1976.",
+ "gancho_cumprido": "Gancho: a Islandia derrotou a marinha inglesa com um cortador de rede, numa briga por peixe. Pagamento: barquinhos cortavam as redes inglesas e, em 1976, a Inglaterra desistiu; as 200 milhas viraram regra.",
  "loop_frase_ok": true
 }

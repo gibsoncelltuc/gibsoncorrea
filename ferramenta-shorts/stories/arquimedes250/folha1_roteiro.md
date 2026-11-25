@@ -1,18 +1,18 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 103 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 100 palavras (~34 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Ninguém te conta: um gênio correu da banheira gritando pela rua.
+## Cena b0  (~3.1 s)
+- Narracao: Um homem saiu correndo da banheira, gritando pela rua.
 - Som ambiente: birds
 - Efeitos sonoros marcados: steps@10
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @5 -> acao + som de efeito; encena: grita (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: corre @3 -> acao + som de efeito; encena: grita (up) @6 -> acao + som de efeito
 - Efeito visual marcado: dust@20
 - Texto na tela: EUREKA
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~3.4 s)
-- Narracao: E foi a banheira que desmascarou um ladrão de ouro.
+- Narracao: E foi a banheira que pegou um ladrão de ouro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ouro -> stars + som de sino
@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.1 s)
-- Narracao: Siracusa, na Sicília, há mais de dois mil anos.
+- Narracao: Foi em Siracusa, na Sicília, há dois mil anos.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,20 +29,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: SICÍLIA
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.8 s)
-- Narracao: O rei Hierão desconfiou que sua coroa de ouro tinha prata.
+## Cena b3  (~3.4 s)
+- Narracao: O rei desconfiou que o ourives misturou prata na coroa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito; ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.4 s)
-- Narracao: Ele pediu a Arquimedes a verdade, sem estragar a coroa.
+- Narracao: Ele mandou Arquimedes achar a resposta, sem estragar a coroa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~4.1 s)
-- Narracao: Coroa com prata é maior e derrama mais água que ouro puro.
+## Cena b7  (~3.1 s)
+- Narracao: Coroa com prata é maior, e derrama mais água.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: Conta a lenda: ele gritou Eureca. E a coroa tinha prata.
+## Cena b8  (~3.4 s)
+- Narracao: Conta a lenda: ele gritou Eureca. A coroa tinha prata.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, sting@80
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; encena: grita (up) @4 -> acao + som de efeito
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: EUREKA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~3.1 s)
-- Narracao: Dá para enganar muita gente. Mas não uma banheira.
+## Cena b9  (~4.5 s)
+- Narracao: Dá para enganar muita gente, mas não a água. E foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: steps@10
 - Efeito + som nas palavras-chave: -

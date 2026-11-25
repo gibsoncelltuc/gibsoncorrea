@@ -1,166 +1,162 @@
 {
- "duration": 41.976,
- "frames30": 1259,
- "source": "silence-align (cost 2.47)",
+ "duration": 37.248,
+ "frames30": 1117,
+ "source": "silence-align (cost 1.50)",
  "segments": [
   [
-   0.165,
-   1.03329
+   0.148042,
+   2.65738
   ],
   [
-   1.30983,
-   3.10508
+   3.51362,
+   5.72092
   ],
   [
-   3.97408,
-   6.16783
+   6.58937,
+   7.28146
   ],
   [
-   7.02475,
-   8.43529
+   7.54725,
+   10.3809
   ],
   [
-   8.72025,
-   9.427
+   11.2378,
+   13.8836
   ],
   [
-   9.6575,
-   11.9725
+   14.7415,
+   15.8592
   ],
   [
-   12.8178,
-   15.3138
+   16.1331,
+   16.7197
   ],
   [
-   16.1646,
-   17.2526
+   17.5766,
+   18.2419
   ],
   [
-   17.561,
-   18.6411
+   18.3908,
+   18.773
   ],
   [
-   19.5069,
-   20.1413
+   19.0272,
+   20.9413
   ],
   [
-   20.3205,
-   21.3748
+   21.8142,
+   24.1854
   ],
   [
-   21.5815,
-   23.3999
+   25.0523,
+   26.6195
   ],
   [
-   24.2709,
-   27.2271
+   26.8447,
+   29.1202
   ],
   [
-   28.0096,
-   29.5498
+   29.9791,
+   30.9793
   ],
   [
-   29.7692,
-   32.471
+   31.2643,
+   32.2428
   ],
   [
-   33.3771,
-   35.9595
+   33.1066,
+   34.7857
   ],
   [
-   36.8285,
-   38.9363
-  ],
-  [
-   39.7965,
-   41.17
+   35.6484,
+   36.4576
   ]
  ],
  "phrases": [
   {
-   "text": "Ningu\u00e9m te conta:",
-   "s": 0.165,
-   "e": 1.033
+   "text": "Uma orelha cortada come\u00e7ou uma guerra de nove anos.",
+   "s": 0.148,
+   "e": 2.657
   },
   {
-   "text": "uma orelha cortada come\u00e7ou uma guerra.",
-   "s": 1.31,
-   "e": 3.105
+   "text": "E o dono da orelha levou ela at\u00e9 o Parlamento.",
+   "s": 3.514,
+   "e": 5.721
   },
   {
-   "text": "E o dono dela levou a orelha at\u00e9 o Parlamento.",
-   "s": 3.974,
-   "e": 6.168
+   "text": "Perto de Cuba,",
+   "s": 6.589,
+   "e": 7.281
   },
   {
-   "text": "Em 1731, perto de Cuba,",
-   "s": 7.025,
-   "e": 8.435
+   "text": "espanh\u00f3is pararam o navio do capit\u00e3o Robert Jenkins.",
+   "s": 7.547,
+   "e": 10.381
   },
   {
-   "text": "espanh\u00f3is pararam o navio de Robert Jenkins.",
-   "s": 8.72,
-   "e": 11.973
-  },
-  {
-   "text": "O capit\u00e3o espanhol cortou a orelha dele com a espada.",
-   "s": 12.818,
-   "e": 15.314
+   "text": "O comandante espanhol cortou a orelha dele com a espada.",
+   "s": 11.238,
+   "e": 13.884
   },
   {
    "text": "\"Leve isso ao seu rei\",",
-   "s": 16.165,
-   "e": 17.253
+   "s": 14.742,
+   "e": 15.859
   },
   {
-   "text": "teria dito o espanhol.",
-   "s": 17.561,
-   "e": 18.641
+   "text": "teria dito.",
+   "s": 16.133,
+   "e": 16.72
   },
   {
-   "text": "Dizem que,",
-   "s": 19.507,
-   "e": 20.141
+   "text": "Anos depois,",
+   "s": 17.577,
+   "e": 18.242
   },
   {
-   "text": "sete anos depois,",
-   "s": 20.32,
-   "e": 21.375
+   "text": "dizem,",
+   "s": 18.391,
+   "e": 18.773
   },
   {
-   "text": "Jenkins mostrou a orelha ao Parlamento.",
-   "s": 21.581,
-   "e": 23.4
+   "text": "Jenkins mostrou a orelha aos deputados.",
+   "s": 19.027,
+   "e": 20.941
   },
   {
-   "text": "Acontece que a Inglaterra s\u00f3 queria uma desculpa para brigar.",
-   "s": 24.271,
-   "e": 27.227
+   "text": "Acontece que a Inglaterra s\u00f3 queria um pretexto.",
+   "s": 21.814,
+   "e": 24.185
   },
   {
    "text": "Em 1739,",
-   "s": 28.01,
-   "e": 29.55
+   "s": 25.052,
+   "e": 26.619
   },
   {
-   "text": "navios ingleses atacaram portos espanh\u00f3is no Caribe.",
-   "s": 29.769,
-   "e": 32.471
+   "text": "navios ingleses atacaram o Caribe espanhol.",
+   "s": 26.845,
+   "e": 29.12
   },
   {
-   "text": "Foram quase dez anos de guerra por causa de uma orelha.",
-   "s": 33.377,
-   "e": 35.959
+   "text": "Nove anos de guerra,",
+   "s": 29.979,
+   "e": 30.979
   },
   {
-   "text": "E Jenkins nunca recebeu a orelha de volta.",
-   "s": 36.828,
-   "e": 38.936
+   "text": "por causa de uma orelha.",
+   "s": 31.264,
+   "e": 32.243
   },
   {
-   "text": "\u00c9 isso que ningu\u00e9m te conta.",
-   "s": 39.797,
-   "e": 41.17
+   "text": "Jenkins nunca recuperou a orelha.",
+   "s": 33.107,
+   "e": 34.786
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 35.648,
+   "e": 36.458
   }
  ]
 }

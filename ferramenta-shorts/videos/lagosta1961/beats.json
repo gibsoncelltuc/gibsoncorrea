@@ -98,7 +98,7 @@
    "d1": 5.5,
    "quadro_manual": true,
    "bloco": "gancho",
-   "say": "Você acha que guerra é por petróleo? O Brasil quase brigou por lagosta.",
+   "say": "Brasil e França quase entraram em guerra por causa de lagosta.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -150,7 +150,7 @@
    "d1": 5.5,
    "quadro_manual": true,
    "bloco": "promessa",
-   "say": "E a briga dependia de uma pergunta: a lagosta anda ou nada?",
+   "say": "E tudo dependia de uma pergunta: lagosta anda ou nada?",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -205,7 +205,7 @@
    "d0": 15.0,
    "d1": 13.0,
    "bloco": "prova",
-   "say": "Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco.",
+   "say": "Em 1961, barcos franceses pescavam lagosta em Pernambuco.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -227,7 +227,7 @@
     ]
    },
    "bloco": "prova",
-   "say": "O Brasil dizia: lagosta anda no fundo do mar, é nossa.",
+   "say": "O Brasil dizia: ela anda no fundo do mar, é nossa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -249,7 +249,7 @@
     ]
    },
    "bloco": "prova",
-   "say": "A França respondia: lagosta nada, é de quem pescar.",
+   "say": "A França dizia: ela nada, é de quem pescar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -288,7 +288,7 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "escalada",
-   "say": "A França mandou um navio de guerra para a costa.",
+   "say": "A França mandou um navio de guerra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -340,13 +340,13 @@
    "d0": 20.8,
    "d1": 17.8,
    "bloco": "escalada",
-   "say": "Acontece que o Brasil não recuou e mandou navios e aviões.",
+   "say": "Acontece que o Brasil respondeu com navios e aviões.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "mandou"
+      "na": "respondeu"
      }
     ]
    }
@@ -367,39 +367,13 @@
     "passos": [
      {
       "faz": "fala",
-      "na": "acordo",
+      "na": "negociaram",
       "quem": 0
      }
     ]
    },
    "bloco": "pagamento",
-   "say": "Mas o tiro nunca veio. Os dois governos fizeram um acordo."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PES:0:laugh",
-    "FRA:0:relief"
-   ],
-   "acao": "comemorar",
-   "set": "harbor",
-   "fx": [
-    "stars@20"
-   ],
-   "sfx": [
-    "ding@20"
-   ],
-   "bloco": "pagamento",
-   "say": "No fim, alguns barcos franceses puderam pescar, com limite.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "pescar"
-     }
-    ]
-   }
+   "say": "Mas o tiro nunca veio. Os governos negociaram."
   },
   {
    "shot": "two",
@@ -442,13 +416,13 @@
    "d1": 5.5,
    "quadro_manual": true,
    "bloco": "loop",
-   "say": "Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta.",
+   "say": "Nenhum tiro, só uma briga sobre um bicho. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "lagosta"
+      "na": "Nenhum"
      }
     ]
    }
@@ -491,7 +465,7 @@
   ]
  },
  "variar_cenario": false,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: o Brasil quase brigou por lagosta, e a briga dependia de a lagosta andar ou nadar. Pagamento: navios de guerra frente a frente, o tiro nunca veio e o acordo deixou alguns barcos franceses pescarem com limite.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o Brasil quase entrou em guerra com a Franca por lagosta, e tudo dependia de ela andar ou nadar. Pagamento: navio de guerra frances, navios e avioes brasileiros, e o tiro nunca veio.",
  "loop_frase_ok": true
 }

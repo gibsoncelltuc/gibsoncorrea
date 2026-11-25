@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/abelhas1945/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py abelhas1945` de novo ate esta folha sair sem risco.
 
-## Cena b0 - O que ninguém te conta: abelhas conversam dançando.
+## Cena b0 - Abelhas conversam dançando, e a dança é um mapa.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FRI (variante 0, expressao grin); COL (variante 0, expressao surprised)
-- Animacao: dancar | interacao: entregar
+- Animacao: dancar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/beehive, kit/bee
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): danca, mapa
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -23,19 +23,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "ABELHAS DANÇAM" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (0.2-1.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (1.6-3.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (0.2-1.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.8-3.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b1 - E a dança delas é um mapa que leva até a comida.
+## Cena b1 - E quem traduziu isso ganhou um Prêmio Nobel.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FRI (variante 0, expressao smile)
-- Animacao: dancar
+- Animacao: conversar
 - Objetos/modelos: kit/beehive
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, danca, mapa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): premio
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -45,9 +45,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: FRI (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: ÁUSTRIA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (3.4-5.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (5.3-7.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Karl von Frisch pôs água com açúcar longe da colmeia.
@@ -71,19 +69,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
 - TEXTO NA TELA: "DANÇA" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (7.9-9.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (9.8-11.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (6.7-8.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (8.7-10.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b3 - A abelha que achava o açúcar voltava e dançava no favo.
+## Cena b3 - A abelha que achava o açúcar voltava dançando.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FRI (variante 0, expressao surprised)
 - Animacao: dancar
 - Objetos/modelos: kit/beehive, kit/bee
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, acucar, favo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, acucar
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -98,9 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@20
 - SOM: sting@50
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (11.8-13.2 s): mesmo angulo
-  - take 2 (13.2-14.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - Comida perto: voltinhas. Comida longe: um oito, rebolando.
@@ -118,17 +114,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bee no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (3.2 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (1.8 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
-## Cena b5 - A parte maluca: o ângulo da dança aponta para o sol.
+## Cena b5 - O ângulo da dança aponta a direção, comparada com o sol.
 - Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/beehive, kit/bee
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, danca
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, danca, direcao
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -136,7 +132,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bee no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (2.6 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (4.3 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b6 - Quanto mais rebola, mais longe está a comida.
@@ -154,17 +150,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bee no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.3 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.7 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
-## Cena b7 - Cientistas riram: inseto com linguagem? Parecia piada.
+## Cena b7 - Acontece que os cientistas riram: inseto com linguagem?
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): COL (variante 0, expressao laugh); FRI (variante 0, expressao nervous, segura paper)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): linguagem
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientistas, linguagem
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -173,17 +169,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: COL (cientista) na esquerda, expressao laugh; FRI (cientista) na direita, expressao nervous, segura paper; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (23.0-25.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (25.0-27.0 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b8 - Em 1973, a dança das abelhas deu a ele o Prêmio Nobel.
+## Cena b8 - Em 1973, ele ganhou o Nobel por essa dança.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): FRI (variante 0, expressao laugh); ASS (variante 0, expressao laugh) | multidao: 4 de POV
-- Animacao: comemorar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/beehive
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, danca, premio
+- Animacao: comemorar | interacao: pular
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nobel
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -197,19 +195,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (29.3-31.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (31.5-33.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Viu uma abelha dançando? Lembre do que ninguém te conta.
+## Cena b9 - Repare na próxima abelha que passar. Porque...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): FRI (variante 0, expressao grin); COL (variante 0, expressao surprised)
-- Animacao: dancar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/beehive, kit/bee
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): proxima
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -217,13 +213,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/beehive | b0, b1, b2, b3, b4, b5, b6, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/beehive | b0, b1, b2, b3, b4, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/bee | b0, b2, b3, b4, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/beehive | grandes momentos: b2 | planos abertos: 1 | mistura: close 2% | medio 92% | aberto 4% | detalhe 2%
-- Interacoes: b0 entregar, b7 discutir, b8 avanca e o outro recua, b9 o outro se aproxima
+- Objeto heroi: kit/beehive | grandes momentos: b2 | planos abertos: 1 | mistura: close 2% | medio 91% | aberto 4% | detalhe 3%
+- Interacoes: b0 avanca e o outro recua, b7 discutir, b8 pular, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -243,8 +239,6 @@ kit/bee | b0, b2, b3, b4, b5, b6, b9 | pronto | conferir na folha de contato se 
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (33.8-35.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (35.6-37.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

@@ -1,19 +1,19 @@
 {
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a Islandia venceu a marinha inglesa com uma arma que parecia piada. Pagamento: os cortadores de rede fizeram a Inglaterra ceder em 1976.",
+ "gancho_cumprido": "Gancho: a Islandia derrotou a marinha inglesa com um cortador de rede, numa briga por peixe. Pagamento: barquinhos cortavam as redes inglesas e, em 1976, a Inglaterra desistiu; as 200 milhas viraram regra.",
  "cenas": [
   [
    0,
    "gancho",
-   "Marinha grande é invencível? A Islândia provou que não.",
+   "A Islândia derrotou a marinha inglesa usando um cortador de rede.",
    "Islândia",
    {}
   ],
   [
    9,
    "promessa",
-   "Com uma arma que parecia piada: um cortador de rede.",
-   "cortador",
+   "E o motivo da briga era o bacalhau.",
+   "bacalhau",
    {
     "text": null
    }
@@ -22,18 +22,20 @@
    1,
    "prova",
    "Foram três Guerras do Bacalhau, em quase vinte anos.",
-   "três"
+   "três",
+   {}
   ],
   [
    2,
    "prova",
-   "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.",
-   "pescavam"
+   "Barcos ingleses pescavam bacalhau na costa da Islândia.",
+   "pescavam",
+   {}
   ],
   [
    3,
    "prova",
-   "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.",
+   "A Islândia ampliou o seu mar: de doze para duzentas milhas.",
    "ampliou",
    {
     "encena_antiga": true
@@ -42,19 +44,21 @@
   [
    4,
    "escalada",
-   "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.",
-   "mandou"
+   "A Inglaterra mandou fragatas de guerra.",
+   "mandou",
+   {}
   ],
   [
    5,
    "escalada",
-   "A Islândia só tinha barquinhos da guarda costeira.",
-   "barquinhos"
+   "Acontece que a Islândia só tinha barcos da guarda costeira.",
+   "barcos",
+   {}
   ],
   [
    6,
    "escalada",
-   "Mas eles cortavam os cabos das redes inglesas no meio do mar.",
+   "E eles cortavam as redes inglesas no meio do mar.",
    "cortavam",
    {
     "encena_antiga": true
@@ -63,14 +67,15 @@
   [
    8,
    "pagamento",
-   "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo.",
-   "cedeu"
+   "Em 1976, a Inglaterra finalmente desistiu da briga.",
+   "Inglaterra",
+   {}
   ],
   [
    0,
    "loop",
-   "Tudo por um bacalhau. Marinha grande não é invencível.",
-   "bacalhau",
+   "As duzentas milhas viraram regra no mundo. E foi assim que...",
+   "duzentas",
    {}
   ]
  ]

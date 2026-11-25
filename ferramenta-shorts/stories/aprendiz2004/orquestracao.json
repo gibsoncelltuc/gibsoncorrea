@@ -24,9 +24,9 @@
    "objetos": [
     "kit/marco_trumptower"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "O que ninguém lembra: duas palavras deixaram Trump famoso no mundo todo.",
+   "frase": "Duas palavras deixaram Donald Trump famoso no mundo inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -42,9 +42,9 @@
    "objetos": [
     "kit/tv"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b1",
-   "frase": "E não foi na política. Foi num programa de TV.",
+   "frase": "E não foi na política. Foi na televisão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -62,9 +62,9 @@
     "kit/marco_trumptower",
     "kit/tv"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Em 2004, estreou nos Estados Unidos o programa O Aprendiz.",
+   "frase": "Em 2004, estreou o programa O Aprendiz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -81,9 +81,9 @@
    "objetos": [
     "kit/marco_trumptower"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b3",
-   "frase": "Dezesseis candidatos disputavam um emprego na empresa de Trump.",
+   "frase": "Candidatos disputavam um emprego numa empresa dele.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -109,9 +109,9 @@
     "mk/Chair_1",
     "mk/Table_Large"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "Toda semana, a equipe perdedora ia para a sala de reunião.",
+   "frase": "A equipe que perdia ia para a sala de reunião.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -125,9 +125,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b5",
-   "frase": "E alguém ouvia, com o dedo na cara: você está demitido.",
+   "frase": "Acontece que ali Trump apontava o dedo e dizia: você está demitido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -144,12 +144,11 @@
    "multidao": 30,
    "objetos": [
     "kit/marco_trumptower",
-    "kit/tv",
-    "nature/picket_fence"
+    "kit/tv"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "A final teve cerca de vinte e oito milhões de espectadores.",
+   "frase": "A final teve uns vinte e oito milhões de espectadores.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -172,9 +171,9 @@
    "objetos": [
     "kit/marco_trumptower"
    ],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "frase": "No Brasil, a versão teve Roberto Justus.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -192,7 +191,7 @@
    ],
    "palavras": 9,
    "cena": "b8",
-   "frase": "Trump apresentou o programa por mais de dez anos.",
+   "frase": "Ele apresentou o programa por mais de dez anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -206,9 +205,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Um programa de emprego, famoso por demitir. Tudo por causa de duas palavras.",
+   "frase": "Virou a marca dele. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -1,5 +1,5 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [11, 19, 28, 38, 49, 60, 69, 79]] + [FR]
+_A = [0] + [int(_W(i) - 3) for i in [12, 21, 32, 40, 51, 61, 70, 77]] + [FR]
 playful(F(_A[0]), F(_A[9]), 122)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)
@@ -29,8 +29,9 @@ whoosh(F(_A[7]), 0.4, 0.35)
 sea(F(_A[7]), F(_A[8]), 0.14); gulls(F(_A[7]), F(_A[8]), 3, 0.1)
 whoosh(F(_A[8]), 0.4, 0.35)
 sea(F(_A[8]), F(_A[9]), 0.14); gulls(F(_A[8]), F(_A[9]), 3, 0.1)
-ding(F(int(_W(79) - 2)), 0.5, 988)
+ding(F(int(_W(77) - 2)), 0.5, 988)
 gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.2)), 4, 260, 0.12); gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.58)), 4, 185, 0.12)
 gun(F(int(_W(6))))
-gun(F(int(_W(57))))
-sting(F(int(_W(73))))
+gun(F(int(_W(58))))
+sting(F(int(_W(74))))
+thump(F(int(_W(77))))

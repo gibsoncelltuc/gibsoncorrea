@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/jenkins1739/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py jenkins1739` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Ninguém te conta: uma orelha cortada começou uma guerra.
+## Cena b0 - Uma orelha cortada começou uma guerra de nove anos.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JEN (variante 0, expressao shock); ESP (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/ear_jar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nove, orelha
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -19,14 +19,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: JEN na esquerda, expressao shock; ESP na direita, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "ORELHA = GUERRA" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b1 - E o dono dela levou a orelha até o Parlamento.
+## Cena b1 - E o dono da orelha levou ela até o Parlamento.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug) | multidao: 12 de ESP/JEN
+- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, orelha, parlamento
@@ -36,19 +36,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; multidao de 12 (ESP, JEN) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b2 - Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.
+## Cena b2 - Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JEN (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cuba, navio, robert
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, cuba, navio
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -58,20 +58,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: JEN no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: CUBA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (7.0-8.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (8.5-10.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (10.0-11.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (6.6-8.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (8.3-10.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b3 - O capitão espanhol cortou a orelha dele com a espada.
+## Cena b3 - O comandante espanhol cortou a orelha dele com a espada.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CAP (variante 0, expressao angry); JEN (variante 0, expressao scared)
 - Animacao: golpe | interacao: empurrar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ear_jar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, espada, orelha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comandante, espada, orelha
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -82,17 +81,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: whoosh@70
-- TAKES: sequencia de acao em 3 cameras (2.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b4 - "Leve isso ao seu rei", teria dito o espanhol.
+## Cena b4 - "Leve isso ao seu rei", teria dito.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: frente
 - Personagens principais (2): CAP (variante 0, expressao smug); JEN (variante 0, expressao pained)
 - Animacao: discutir | interacao: cochichar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanhol
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -101,10 +100,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CAP (capitao) na esquerda, expressao smug; JEN na direita, expressao pained; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b5 - Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.
+## Cena b5 - Anos depois, dizem, Jenkins mostrou a orelha aos deputados.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -121,19 +120,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: PRE na esquerda, expressao angry, segura paper; JEN no centro, expressao sad; ING na direita, expressao angry; PRE no fundo, expressao shout; sem multidao; acao: susto
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PARLAMENTO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (19.5-21.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (21.1-22.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (17.6-19.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (19.0-20.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b6 - Acontece que a Inglaterra só queria uma desculpa para brigar.
+## Cena b6 - Acontece que a Inglaterra só queria um pretexto.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PRE (variante 0, expressao smug); ING (variante 0, expressao suspicious)
-- Animacao: discutir | interacao: cochichar
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desculpa, inglaterra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, pretexto
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -142,10 +141,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRE na esquerda, expressao smug; ING na direita, expressao suspicious; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b7 - Em 1739, navios ingleses atacaram portos espanhóis no Caribe.
+## Cena b7 - Em 1739, navios ingleses atacaram o Caribe espanhol.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -166,10 +165,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: cannon@50
 - SOM: cannon@80
 - TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b8 - Foram quase dez anos de guerra por causa de uma orelha.
+## Cena b8 - Nove anos de guerra, por causa de uma orelha.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -185,13 +184,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
 - PERSONAGENS: ESP na esquerda, expressao relief, segura paper; ING na direita, expressao relief; sem multidao; acao: entregar
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta...
+## Cena b9 - Jenkins nunca recuperou a orelha. E foi assim que...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): JEN (variante 0, expressao shock); ESP (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/ear_jar
@@ -208,11 +207,13 @@ ship | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 10% | medio 73% | aberto 14% | detalhe 2%
+- Objeto heroi: kit/ear_jar | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 10% | medio 73% | aberto 15% | detalhe 2%
 - Interacoes: b0 discutir, b1 avanca e o outro recua, b3 empurrar, b4 cochichar, b5 susto, b6 cochichar, b8 entregar, b9 discutir
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~37.2 s (voz real; 95 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py jenkins1739
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~37.2 s (voz real; 95 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).
@@ -225,8 +226,8 @@ ship | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
 - PERSONAGENS: JEN na esquerda, expressao shock; ESP na direita, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (36.8-38.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (38.8-40.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (33.1-34.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (34.7-36.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

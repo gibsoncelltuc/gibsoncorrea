@@ -19,9 +19,9 @@
     "kit/navio_leander",
     "kit/navio_vapor"
    ],
-   "palavras": 9,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Marinha grande é invencível? A Islândia provou que não.",
+   "frase": "A Islândia derrotou a marinha inglesa usando um cortador de rede.",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {
@@ -44,9 +44,9 @@
     "crate",
     "kit/cod"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b1",
-   "frase": "Com uma arma que parecia piada: um cortador de rede.",
+   "frase": "E o motivo da briga era o bacalhau.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -81,11 +81,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "crate"
+    "crate",
+    "kit/cod"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.",
+   "frase": "Barcos ingleses pescavam bacalhau na costa da Islândia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -101,9 +102,9 @@
    "objetos": [
     "kit/navio_leander"
    ],
-   "palavras": 10,
+   "palavras": 11,
    "cena": "b4",
-   "frase": "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.",
+   "frase": "A Islândia ampliou o seu mar: de doze para duzentas milhas.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -117,9 +118,9 @@
    "objetos": [
     "kit/navio_leander"
    ],
-   "palavras": 10,
+   "palavras": 6,
    "cena": "b5",
-   "frase": "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.",
+   "frase": "A Inglaterra mandou fragatas de guerra.",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {
@@ -141,9 +142,9 @@
     "kit/fishing_net",
     "kit/navio_vapor"
    ],
-   "palavras": 8,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "A Islândia só tinha barquinhos da guarda costeira.",
+   "frase": "Acontece que a Islândia só tinha barcos da guarda costeira.",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {
@@ -166,9 +167,9 @@
     "kit/navio_leander",
     "kit/navio_vapor"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Mas eles cortavam os cabos das redes inglesas no meio do mar.",
+   "frase": "E eles cortavam as redes inglesas no meio do mar.",
    "classe": "transicao",
    "sujeito": "cenario",
    "briefing": {},
@@ -185,9 +186,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo.",
+   "frase": "Em 1976, a Inglaterra finalmente desistiu da briga.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -200,15 +201,13 @@
    "multidao": 0,
    "objetos": [
     "kit/barco_guarda",
-    "kit/cod",
     "kit/fishing_net",
     "kit/navio_leander",
-    "kit/navio_vapor",
-    "navios de guerra ao fundo, no tamanho real"
+    "kit/navio_vapor"
    ],
-   "palavras": 9,
+   "palavras": 11,
    "cena": "b9",
-   "frase": "Tudo por um bacalhau. Marinha grande não é invencível.",
+   "frase": "As duzentas milhas viraram regra no mundo. E foi assim que...",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {

@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 99 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 81 palavras (~28 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Você acha que guerra precisa de tiro? Esta durou 335 anos sem nenhum.
+## Cena b0  (~3.4 s)
+- Narracao: Uma guerra durou 335 anos e ninguém disparou um tiro.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -11,11 +11,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: 335 ANOS SEM TIRO
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.4 s)
-- Narracao: E o jeito que ela acabou é ainda mais absurdo.
+## Cena b1  (~2.4 s)
+- Narracao: E só acabou porque alguém resolveu perguntar.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: absurdo -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: - | mapa: ILHAS SCILLY
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~3.8 s)
-- Narracao: Dizem que a Holanda mandou navios e declarou guerra às ilhas.
+## Cena b3  (~2.1 s)
+- Narracao: A Holanda declarou guerra às ilhas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -39,16 +39,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~3.8 s)
-- Narracao: Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.
+- Narracao: Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacar -> ring + som de alerta
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b5  (~3.1 s)
-- Narracao: Os holandeses foram embora. E ninguém assinou a paz.
+## Cena b5  (~3.8 s)
+- Narracao: Os holandeses foram embora. E ninguém lembrou de assinar a paz.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~3.8 s)
-- Narracao: Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
+## Cena b6  (~3.1 s)
+- Narracao: Três séculos depois, um historiador escreveu para a Holanda.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,17 +65,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.8 s)
-- Narracao: Em 1986, o embaixador holandês foi às ilhas assinar a paz.
+## Cena b7  (~3.1 s)
+- Narracao: O embaixador veio às ilhas e assinou a paz.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: escreve (write) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: escreve (write) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.8 s)
-- Narracao: 335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro.
+## Cena b8  (~3.1 s)
+- Narracao: Ninguém lembrou de um papel. E foi assim que...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

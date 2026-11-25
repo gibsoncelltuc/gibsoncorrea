@@ -1,21 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 09 - O País do Bitcoin
 
-Gerado em 25/11 16:51 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:19 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | BUK, POV | 8 | bitcoin, volcano | - | Dinheiro de um país é coisa séria? Um presidente escolheu o bitcoin.
-b1 | simples | loc_pista | reveal | BUK | 8 | bitcoin | - | E o final dessa aposta ninguém esperava.
-b2 | simples | loc_cidade | close | BUK | - | bitcoin, volcano | - | Em 2021, El Salvador, de Nayib Bukele, adotou o bitcoin.
-b3 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/bitcoin (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Quem baixasse a carteira digital ganhava trinta dólares.
-b4 | chave | loc_pista | wide | CLI, POV | 6 | bitcoin, phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No primeiro dia, o aplicativo travou. O bitcoin caiu dez por cento.
-b5 | transicao | loc_pista | wide | BUK | - | bitcoin, rack_mineracao, volcano | - | O país passou a minerar bitcoin com a energia de um vulcão.
-b6 | chave | loc_pista | orbit | BUK | - | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dó
-b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/bitcoin (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Mas em dezembro de 2024, o bitcoin passou de cem mil dólares.
-b8 | simples | loc_patio | two | BUK, DEP | - | bitcoin | - | As reservas no prejuízo viraram lucro.
-b9 | simples | loc_cidade | two | BUK, POV | 8 | bitcoin | - | Aposta maluca ou visão de futuro? Você decide.
+b0 | simples | loc_cidade | two | BUK, POV | 8 | bitcoin, coin, volcano | - | Um país inteiro apostou o próprio dinheiro numa moeda digital.
+b1 | chave | loc_pista | wide | BUK | - | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o final dessa aposta ninguém esperava.
+b2 | simples | loc_cidade | close | BUK | - | bitcoin, coin, volcano | - | Em 2021, El Salvador adotou o bitcoin como moeda oficial.
+b3 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/bitcoin (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Quem baixasse o aplicativo ganhava trinta dólares.
+b4 | transicao | loc_pista | wide | BUK | - | bitcoin, rack_mineracao, volcano | - | O governo até minerava bitcoin com a energia de um vulcão.
+b5 | chave | loc_patio | orbit | BUK | - | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, em 2022, o bitcoin despencou para dezesseis mil.
+b6 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/bitcoin (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Mas em 2024, ele passou de cem mil dólares.
+b7 | simples | loc_patio | two | BUK, DEP | - | bitcoin | - | As reservas no prejuízo viraram lucro.
+b8 | simples | loc_cidade | two | BUK, POV | 8 | bitcoin | - | Maluquice ou visão? Só sei que foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

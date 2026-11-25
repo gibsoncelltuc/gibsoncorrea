@@ -1,21 +1,21 @@
 # CRONOGRAMA - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Gerado em 25/11 16:51 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:19 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | chave | harbor | two | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Marinha grande é invencível? A Islândia provou que não.
-b1 | simples | harbor | close | PES | - | crate, cod | - | Com uma arma que parecia piada: um cortador de rede.
+b0 | chave | harbor | two | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Islândia derrotou a marinha inglesa usando um cortador de rede.
+b1 | simples | harbor | close | PES | - | crate, cod | - | E o motivo da briga era o bacalhau.
 b2 | transicao | harbor | wide | ICE, BRI | - | cod, navio_leander | - | Foram três Guerras do Bacalhau, em quase vinte anos.
-b3 | simples | harbor | two | ICE, PES | - | crate | - | A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.
-b4 | transicao | harbor | wide | ICE | - | navio_leander | - | Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.
-b5 | chave | harbor | group | sem personagem | - | navio_leander | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.
-b6 | chave | harbor | group | sem personagem | - | barco_guarda, fishing_net, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Islândia só tinha barquinhos da guarda costeira.
-b7 | transicao | harbor | wide | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | - | Mas eles cortavam os cabos das redes inglesas no meio do mar.
-b8 | simples | harbor | group | BRI, ICE | - | scroll | - | Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo
-b9 | chave | harbor | wide | sem personagem | - | barco_guarda, cod, fishing_net, navio_leander, navio_vapor, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Tudo por um bacalhau. Marinha grande não é invencível.
+b3 | simples | harbor | two | ICE, PES | - | crate, cod | - | Barcos ingleses pescavam bacalhau na costa da Islândia.
+b4 | transicao | harbor | wide | ICE | - | navio_leander | - | A Islândia ampliou o seu mar: de doze para duzentas milhas.
+b5 | chave | harbor | group | sem personagem | - | navio_leander | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra mandou fragatas de guerra.
+b6 | chave | harbor | group | sem personagem | - | barco_guarda, fishing_net, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a Islândia só tinha barcos da guarda costeira.
+b7 | transicao | harbor | wide | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | - | E eles cortavam as redes inglesas no meio do mar.
+b8 | simples | harbor | group | BRI, ICE | - | scroll | - | Em 1976, a Inglaterra finalmente desistiu da briga.
+b9 | chave | harbor | wide | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | As duzentas milhas viraram regra no mundo. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

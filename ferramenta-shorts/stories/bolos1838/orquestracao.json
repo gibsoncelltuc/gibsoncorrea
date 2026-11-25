@@ -20,9 +20,9 @@
     "kit/cake_table",
     "kit/marco_ulua"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "A França foi à guerra contra o México por causa de bolos.",
+   "frase": "França e México entraram em guerra por causa de uma confeitaria.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -37,16 +37,16 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_ulua"
+    "kit/cake_table"
    ],
-   "palavras": 6,
+   "palavras": 8,
    "cena": "b1",
-   "frase": "E a conta nunca foi paga.",
+   "frase": "E a conta dos bolos nunca foi paga.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -82,9 +82,9 @@
     "kit/cake_table",
     "kit/chest"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b3",
-   "frase": "Em 1832, oficiais mexicanos saquearam a loja, segundo o confeiteiro.",
+   "frase": "Ele disse que oficiais mexicanos saquearam tudo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -99,25 +99,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "Ele pediu sessenta mil pesos. A loja valia menos de mil.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "REI"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b5",
-   "frase": "A França exigiu seiscentos mil pesos. O México recusou.",
+   "frase": "Pediu sessenta mil pesos. A loja valia menos de mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -136,9 +120,9 @@
     "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 12,
-   "cena": "b6",
-   "frase": "Acontece que a França mandou navios de guerra e fechou os portos.",
-   "classe": "transicao",
+   "cena": "b5",
+   "frase": "Acontece que a França assumiu a briga e mandou navios de guerra.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -154,9 +138,9 @@
     "cannon",
     "kit/marco_ulua"
    ],
-   "palavras": 9,
-   "cena": "b7",
-   "frase": "Canhões franceses bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -177,9 +161,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "Em 1839, o México prometeu pagar, e a França foi embora.",
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "O México prometeu pagar, e a França foi embora.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -193,12 +177,10 @@
     "OFI"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/cake_table"
-   ],
-   "palavras": 6,
-   "cena": "b9",
-   "frase": "Tudo por uma conta de bolos.",
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Esse dinheiro nunca chegou. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

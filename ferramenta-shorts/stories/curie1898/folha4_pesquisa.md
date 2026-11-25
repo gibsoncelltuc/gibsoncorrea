@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Caderno que Ainda Brilha | O Caderno que Ainda Brilha / Existem Em Paris Marie Curie 1898 | SEM REFERENCIA
+tema | O Caderno que Ainda Brilha | O Caderno que Ainda Brilha / Os Marie Curie Em Paris Pierre 1898 | SEM REFERENCIA
 lugar | Paris: galpao velho de madeira e vidro da Escola de Fisica e Quimica (rue Lhomon | Paris / Paris 1898 | Plan de Paris en 1657.JPG (referencias/curie1898/prints/paris_galpao_velho_de_madeira_e_vidro_da_4af884.jpg); Paris - Eiffelturm und Marsfeld2.jpg (referencias/curie1898/prints/paris_galpao_velho_de_madeira_e_vidro_da_47800e.jpg); Turgot map of Paris - Norman B. Leventhal Map Cent (referencias/curie1898/prints/paris_galpao_velho_de_madeira_e_vidro_da_c3a760.jpg)
 lugar | França | França 1898 / França landscape | Xarxa de la Companyia dels ferrocarrils de Tarrago (referencias/curie1898/prints/fran_a_fecef7.jpg); Lisboa - Festejos do Centenário da Índia, 1898 - A (referencias/curie1898/prints/fran_a_017817.jpg); Palácio de Santos - Embaixada de França, Lisboa, P (referencias/curie1898/prints/fran_a_bbe314.jpg)
 epoca | roupas e ruas de 1898 | 1898 fashion clothing / 1898 street photograph | Skaters on the reservoir at La Villette (1813) - F (referencias/curie1898/prints/roupas_e_ruas_de_1898_91fe96.jpg); LAROUSSE - L.C.Bombled (1862-1927) COSTUMES CIVILS (referencias/curie1898/prints/roupas_e_ruas_de_1898_803b5e.jpg); Costumes civils HISTORICAL CLOTHING OF FRANCE civi (referencias/curie1898/prints/roupas_e_ruas_de_1898_d6d125.jpg)
@@ -27,7 +27,7 @@ objeto | frascos de radio brilhando | frascos de radio brilhando / frascos de ra
 objeto | caixas de chumbo | caixas de chumbo / caixas de chumbo 1898 | Window boxes toxic lead in Stamford, Lincolnshire  (referencias/curie1898/prints/caixas_de_chumbo_b1cf63.jpg); Window boxes toxic lead in Stamford, Lincolnshire  (referencias/curie1898/prints/caixas_de_chumbo_040877.jpg); Lead guitarists.jpg (referencias/curie1898/prints/caixas_de_chumbo_948ae6.jpg)
 objeto | minerio (pechblenda) | minerio / minerio 1898 | Minerio Logo.jpg (referencias/curie1898/prints/minerio_pechblenda__d9fe7f.jpg)
 heroi | curie box | cadernos de laboratorio / O Caderno que Ainda Brilha | J. Robert Oppenheimer visiting Los Alamos National (referencias/curie1898/prints/curie_box_ec9133.jpg); Environmental Management at Los Alamos National La (referencias/curie1898/prints/curie_box_d81843.jpg)
-mecanismo | O rádio brilhava no escuro, e ela adorava olhar os frascos. | radio brilhava escuro adorava olhar frascos / curie box diagram | SEM REFERENCIA
+mecanismo | O rádio brilhava no escuro, e ela adorava olhar. | radio brilhava escuro adorava olhar / curie box diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - O

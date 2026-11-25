@@ -21,7 +21,7 @@
    ],
    "palavras": 9,
    "cena": "b0",
-   "frase": "Ninguém te conta: uma orelha cortada começou uma guerra.",
+   "frase": "Uma orelha cortada começou uma guerra de nove anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -34,13 +34,13 @@
     "JEN",
     "ESP"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/ear_jar"
    ],
    "palavras": 10,
    "cena": "b1",
-   "frase": "E o dono dela levou a orelha até o Parlamento.",
+   "frase": "E o dono da orelha levou ela até o Parlamento.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -57,9 +57,9 @@
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.",
+   "frase": "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -78,7 +78,7 @@
    ],
    "palavras": 10,
    "cena": "b3",
-   "frase": "O capitão espanhol cortou a orelha dele com a espada.",
+   "frase": "O comandante espanhol cortou a orelha dele com a espada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -99,9 +99,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b4",
-   "frase": "\"Leve isso ao seu rei\", teria dito o espanhol.",
+   "frase": "\"Leve isso ao seu rei\", teria dito.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -120,9 +120,9 @@
    "objetos": [
     "kit/ear_jar"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.",
+   "frase": "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -137,9 +137,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Acontece que a Inglaterra só queria uma desculpa para brigar.",
+   "frase": "Acontece que a Inglaterra só queria um pretexto.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -156,9 +156,9 @@
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Em 1739, navios ingleses atacaram portos espanhóis no Caribe.",
+   "frase": "Em 1739, navios ingleses atacaram o Caribe espanhol.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -181,9 +181,9 @@
    "objetos": [
     "kit/ear_jar"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Foram quase dez anos de guerra por causa de uma orelha.",
+   "frase": "Nove anos de guerra, por causa de uma orelha.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -200,9 +200,9 @@
    "objetos": [
     "kit/ear_jar"
    ],
-   "palavras": 14,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta.",
+   "frase": "Jenkins nunca recuperou a orelha. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

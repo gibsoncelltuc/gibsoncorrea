@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra dos Bolos
 - Epoca: 1838 | Lugar: Tacubaya | Quando: 1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)
 - HEROIS (objeto): kit/cake_table
-- HEROIS (personagens): CON, OFI, FRA, REI
-- Cenarios: harbor, interior loja, interior pedra, street
+- HEROIS (personagens): CON, OFI, FRA
+- Cenarios: harbor, interior loja, interior madeira, interior pedra, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
@@ -30,7 +30,6 @@ objeto | canhão do século 19 | canhão do século 19 / canhão do século 19 1
 heroi | cake table | bolos e doces / A Guerra dos Bolos | SEM REFERENCIA
 epoca | navio da epoca | ship 1838 / ship | SEM REFERENCIA
 epoca | soldado da epoca | Mexican army officer 1830s uniform / soldier uniform 1838 / soldier uniform | SEM REFERENCIA
-epoca | porto da epoca | harbor 1838 / harbor | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Dinheiro de um país é coisa séria? Um presidente escolheu o bitcoin."
+## b0: "Um país inteiro apostou o próprio dinheiro numa moeda digital."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; multidao de 8 (POV, CLI) ATRAS dos principais; acao: fala/gesto
@@ -15,26 +15,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 2021, El Salvador, de Nayib Bukele, adotou o bitcoin."
+## b2: "Em 2021, El Salvador adotou o bitcoin como moeda oficial."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: BUK no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 
-## b3: "Quem baixasse a carteira digital ganhava trinta dólares."
+## b3: "Quem baixasse o aplicativo ganhava trinta dólares."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bitcoin no centro, manobra "gira"
 - PASSOS NA TELA: -
 
-## b4: "No primeiro dia, o aplicativo travou. O bitcoin caiu dez por cento."
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: CLI na esquerda, expressao shock, segura phone; POV (comerciante) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/phone: FRENTE, esquerda; tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-
-## b5: "O país passou a minerar bitcoin com a energia de um vulcão."
+## b4: "O governo até minerava bitcoin com a energia de um vulcão."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -3.6, camera a 21.9 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
@@ -47,25 +40,25 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - TEXTO NA TELA: "ENERGIA DO VULCÃO" flutuando no alto, na palavra 1 da frase
 
-## b6: "Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dólares."
+## b5: "Acontece que, em 2022, o bitcoin despencou para dezesseis mil."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b7: "Mas em dezembro de 2024, o bitcoin passou de cem mil dólares."
+## b6: "Mas em 2024, ele passou de cem mil dólares."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bitcoin no centro, manobra "gira"
 - PASSOS NA TELA: -
 
-## b8: "As reservas no prejuízo viraram lucro."
+## b7: "As reservas no prejuízo viraram lucro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; DEP na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PREJUÍZO → LUCRO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b9: "Aposta maluca ou visão de futuro? Você decide."
+## b8: "Maluquice ou visão? Só sei que foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; multidao de 8 (POV, CLI) ATRAS dos principais; acao: fala/gesto

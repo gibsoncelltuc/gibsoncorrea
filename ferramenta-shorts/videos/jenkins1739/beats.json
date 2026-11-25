@@ -94,8 +94,12 @@
    "interacao": "discutir",
    "acao": "discutir",
    "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: uma orelha cortada começou uma guerra.",
+   "say": "Uma orelha cortada começou uma guerra de nove anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -106,24 +110,7 @@
     ]
    },
    "text": "ORELHA = GUERRA",
-   "titulo": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ear_jar",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "shot": "two",
@@ -144,40 +131,18 @@
     ]
    ],
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "promessa",
-   "say": "E o dono dela levou a orelha até o Parlamento.",
+   "say": "E o dono da orelha levou ela até o Parlamento.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "levou"
-     }
-    ]
-   },
-   "crowd": {
-    "n": 12,
-    "outfits": [
-     "ESP",
-     "JEN"
-    ],
-    "march": false
-   },
-   "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ear_jar",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -206,32 +171,19 @@
    ],
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
    "bloco": "prova",
-   "say": "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.",
+   "say": "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "pararam"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "ship",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -265,31 +217,18 @@
     ]
    ],
    "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "prova",
-   "say": "O capitão espanhol cortou a orelha dele com a espada.",
+   "say": "O comandante espanhol cortou a orelha dele com a espada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "cortou"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ear_jar",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -315,7 +254,7 @@
     ]
    },
    "bloco": "prova",
-   "say": "\"Leve isso ao seu rei\", teria dito o espanhol."
+   "say": "\"Leve isso ao seu rei\", teria dito."
   },
   {
    "shot": "group",
@@ -341,30 +280,13 @@
     ]
    ],
    "bloco": "escalada",
-   "say": "Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.",
+   "say": "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "mostrou"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "group",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ear_jar",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -378,13 +300,13 @@
    ],
    "interacao": "cochichar",
    "bloco": "escalada",
-   "say": "Acontece que a Inglaterra só queria uma desculpa para brigar.",
+   "say": "Acontece que a Inglaterra só queria um pretexto.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "desculpa"
+      "na": "Inglaterra"
      }
     ]
    }
@@ -434,32 +356,19 @@
     "cannon@50",
     "cannon@80"
    ],
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
    "bloco": "escalada",
-   "say": "Em 1739, navios ingleses atacaram portos espanhóis no Caribe.",
+   "say": "Em 1739, navios ingleses atacaram o Caribe espanhol.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "atacaram"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "ship",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "chegando"
      }
     ]
    }
@@ -484,30 +393,13 @@
     ]
    ],
    "bloco": "pagamento",
-   "say": "Foram quase dez anos de guerra por causa de uma orelha.",
+   "say": "Nove anos de guerra, por causa de uma orelha.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "guerra"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ear_jar",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -533,31 +425,18 @@
    "interacao": "discutir",
    "acao": "discutir",
    "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "loop",
-   "say": "E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta.",
+   "say": "Jenkins nunca recuperou a orelha. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "orelha"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ear_jar",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -602,6 +481,6 @@
   "R1"
  ],
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra. Pagamento: foram quase dez anos de guerra por causa da orelha, e Jenkins nunca a recebeu de volta.",
+ "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra de nove anos. Pagamento: os espanhois cortaram a orelha de Jenkins, ele a mostrou aos deputados e em 1739 a Inglaterra atacou o Caribe; nove anos de guerra.",
  "loop_frase_ok": true
 }

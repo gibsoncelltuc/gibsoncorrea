@@ -2,90 +2,92 @@
 
 | id | palavras | ~seg | frases >12 | falhas |
 |---|---|---|---|---|
-| abelhas1945 | 102 | 37 | 0 | 0:  |
-| aprendiz2004 | 112 | 41 | 0 | 0:  |
-| aroostook1838 | 104 | 38 | 0 | 0:  |
-| arquimedes250 | 103 | 37 | 0 | 0:  |
-| bacalhau1958 | 106 | 39 | 0 | 0:  |
-| balde1325 | 99 | 36 | 0 | 0:  |
-| banquinho1900 | 105 | 38 | 0 | 0:  |
-| bateria2017 | 93 | 34 | 0 | 0:  |
-| bifes2007 | 101 | 37 | 0 | 0:  |
-| bitcoin2021 | 109 | 40 | 0 | 0:  |
-| bolos1838 | 107 | 39 | 0 | 0:  |
-| bukele2024 | 100 | 36 | 0 | 0:  |
-| bukelebio2021 | 94 | 34 | 0 | 0:  |
-| cachorro1925 | 103 | 37 | 0 | 0:  |
-| cameo1992 | 97 | 35 | 0 | 0:  |
-| cecot2023 | 112 | 41 | 0 | 0:  |
-| chaleira1784 | 92 | 33 | 0 | 0:  |
-| curie1898 | 104 | 38 | 0 | 0:  |
-| cybertruck2019 | 101 | 37 | 0 | 0:  |
-| danca1518 | 94 | 34 | 0 | 0:  |
-| darwin1835 | 112 | 41 | 0 | 0:  |
-| emus1932 | 100 | 36 | 0 | 0:  |
-| eratostenes240 | 105 | 38 | 0 | 0:  |
-| ese_buraco | 98 | 36 | 0 | 0:  |
-| ese_dinheiro | 99 | 36 | 0 | 0:  |
-| ese_holanda | 120 | 44 | 0 | 0:  |
-| ese_humanos | 97 | 35 | 0 | 0:  |
-| ese_internet | 108 | 39 | 0 | 0:  |
-| ese_lua | 90 | 33 | 0 | 0:  |
-| ese_napoleao | 103 | 37 | 0 | 0:  |
-| ese_pulo | 91 | 33 | 0 | 0:  |
-| ese_sono | 88 | 32 | 0 | 0:  |
-| ese_titanic | 110 | 40 | 0 | 0:  |
-| falcon2015 | 100 | 36 | 0 | 0:  |
-| fleming1928 | 108 | 39 | 0 | 0:  |
-| franklin1752 | 97 | 35 | 0 | 0:  |
-| futebol1969 | 105 | 38 | 0 | 0:  |
-| galileu1589 | 104 | 38 | 0 | 0:  |
-| gansos390 | 97 | 35 | 0 | 0:  |
-| goodyear1839 | 110 | 40 | 0 | 0:  |
-| hayha1939 | 106 | 39 | 0 | 0:  |
-| jenkins1739 | 115 | 42 | 0 | 0:  |
-| karansebes | 104 | 38 | 0 | 0:  |
-| kekule1865 | 99 | 36 | 0 | 0:  |
-| kiska1943 | 101 | 37 | 0 | 0:  |
-| lagosta1961 | 110 | 44 | 0 | 0:  |
-| lancachamas2018 | 91 | 33 | 0 | 0:  |
-| losangeles1942 | 107 | 39 | 0 | 0:  |
-| maduro2026 | 106 | 39 | 0 | 0:  |
-| martelo2025 | 103 | 37 | 0 | 0:  |
-| mechazilla2024 | 117 | 43 | 0 | 0:  |
-| melancia1856 | 99 | 36 | 0 | 0:  |
-| mendel1856 | 100 | 36 | 0 | 0:  |
-| microondas1945 | 101 | 37 | 0 | 0:  |
-| montgolfier1783 | 110 | 40 | 0 | 0:  |
-| neuralink2021 | 101 | 37 | 0 | 0:  |
-| newton1666 | 111 | 40 | 0 | 0:  |
-| paris1870 | 103 | 37 | 0 | 0:  |
-| pasteur1885 | 100 | 36 | 0 | 0:  |
-| paypal2002 | 99 | 36 | 0 | 0:  |
-| petrich1925 | 102 | 37 | 0 | 0:  |
-| pia2022 | 96 | 35 | 0 | 0:  |
-| porco1859 | 110 | 40 | 0 | 0:  |
-| postit1968 | 114 | 41 | 0 | 0:  |
-| reeleicao2024 | 107 | 39 | 0 | 0:  |
-| roadster2018 | 91 | 33 | 0 | 0:  |
-| roadsterpulo2026 | 110 | 40 | 0 | 0:  |
-| rontgen1895 | 112 | 41 | 0 | 0:  |
-| scilly1651 | 122 | 44 | 0 | 0:  |
-| selfie2019 | 99 | 36 | 0 | 0:  |
-| semmelweis1847 | 107 | 39 | 0 | 0:  |
-| starlink2019 | 101 | 37 | 0 | 0:  |
-| surfcity2019 | 114 | 41 | 0 | 0:  |
-| teslaquila2020 | 120 | 44 | 0 | 0:  |
-| texel1795 | 108 | 39 | 0 | 0:  |
-| toledo1835 | 107 | 39 | 0 | 0:  |
-| trumpgame1989 | 115 | 42 | 0 | 0:  |
-| tulipas1637 | 100 | 36 | 0 | 0:  |
-| tycho1566 | 109 | 40 | 0 | 0:  |
-| uisque1984 | 115 | 42 | 0 | 0:  |
-| velcro1941 | 99 | 36 | 0 | 0:  |
-| vulcao2021 | 104 | 38 | 0 | 0:  |
-| wrestlemania2007 | 103 | 37 | 0 | 0:  |
-| xplaca2023 | 99 | 36 | 0 | 0:  |
-| zanzibar1896 | 104 | 38 | 0 | 0:  |
+| abelhas1945 | 102 | 37 | 0 | 2: acima de 36 s: ~37.1 s (estimado; 102 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| aprendiz2004 | 112 | 41 | 0 | 2: acima de 36 s: ~40.7 s (estimado; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| aroostook1838 | 104 | 38 | 0 | 3: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| arquimedes250 | 103 | 37 | 0 | 3: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| bacalhau1958 | 106 | 39 | 0 | 2: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| balde1325 | 99 | 36 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| banquinho1900 | 105 | 38 | 0 | 3: acima de 36 s: ~38.2 s (estimado; 105 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| bateria2017 | 93 | 34 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| bifes2007 | 101 | 37 | 0 | 2: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| bitcoin2021 | 109 | 40 | 0 | 2: acima de 36 s: ~39.6 s (estimado; 109 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| bolos1838 | 107 | 39 | 0 | 2: acima de 36 s: ~38.9 s (estimado; 107 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| bukele2024 | 100 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| bukelebio2021 | 94 | 34 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| cachorro1925 | 103 | 37 | 0 | 3: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| cameo1992 | 97 | 35 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| cecot2023 | 112 | 41 | 0 | 2: acima de 36 s: ~40.7 s (estimado; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| chaleira1784 | 92 | 33 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| curie1898 | 104 | 38 | 0 | 2: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| cybertruck2019 | 101 | 37 | 0 | 2: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| danca1518 | 94 | 34 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| darwin1835 | 112 | 41 | 0 | 3: acima de 36 s: ~40.7 s (estimado; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| emus1932 | 100 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| eratostenes240 | 105 | 38 | 0 | 3: acima de 36 s: ~38.2 s (estimado; 105 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| ese_buraco | 98 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_dinheiro | 99 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_holanda | 120 | 44 | 0 | 3: acima de 36 s: ~43.6 s (estimado; 120 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| ese_humanos | 97 | 35 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_internet | 108 | 39 | 0 | 2: acima de 36 s: ~39.3 s (estimado; 108 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_lua | 90 | 33 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_napoleao | 103 | 37 | 0 | 2: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_pulo | 91 | 33 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_sono | 88 | 32 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| ese_titanic | 110 | 40 | 0 | 2: acima de 36 s: ~40.0 s (estimado; 110 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| falcon2015 | 100 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| fleming1928 | 108 | 39 | 0 | 3: acima de 36 s: ~39.3 s (estimado; 108 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| franklin1752 | 97 | 35 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| futebol1969 | 105 | 38 | 0 | 2: acima de 36 s: ~38.2 s (estimado; 105 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| galileu1589 | 104 | 38 | 0 | 2: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| gansos390 | 97 | 35 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| goodyear1839 | 110 | 40 | 0 | 2: acima de 36 s: ~40.0 s (estimado; 110 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| hayha1939 | 106 | 39 | 0 | 2: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| jenkins1739 | 115 | 42 | 0 | 3: acima de 36 s: ~42.0 s (voz real; 115 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| karansebes | 104 | 38 | 0 | 2: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| kekule1865 | 99 | 36 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| kiska1943 | 101 | 37 | 0 | 2: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| lagosta1961 | 110 | 44 | 0 | 2: acima de 36 s: ~44.3 s (voz real; 110 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| lancachamas2018 | 91 | 33 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| losangeles1942 | 107 | 39 | 0 | 2: acima de 36 s: ~38.9 s (estimado; 107 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| maduro2026 | 106 | 39 | 0 | 2: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| martelo2025 | 103 | 37 | 0 | 2: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| mechazilla2024 | 117 | 43 | 0 | 2: acima de 36 s: ~42.5 s (estimado; 117 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| melancia1856 | 99 | 36 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| mendel1856 | 100 | 36 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| microondas1945 | 101 | 37 | 0 | 3: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| montgolfier1783 | 110 | 40 | 0 | 2: acima de 36 s: ~40.0 s (estimado; 110 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| neuralink2021 | 101 | 37 | 0 | 2: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| newton1666 | 111 | 40 | 0 | 2: acima de 36 s: ~40.4 s (estimado; 111 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| paris1870 | 103 | 37 | 0 | 3: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| pasteur1885 | 100 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| paypal2002 | 99 | 36 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| petrich1925 | 102 | 37 | 0 | 3: acima de 36 s: ~37.1 s (estimado; 102 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| pia2022 | 96 | 35 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| porco1859 | 110 | 40 | 0 | 2: acima de 36 s: ~40.0 s (estimado; 110 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| postit1968 | 114 | 41 | 0 | 2: acima de 36 s: ~41.5 s (estimado; 114 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| reeleicao2024 | 107 | 39 | 0 | 2: acima de 36 s: ~38.9 s (estimado; 107 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| roadster2018 | 91 | 33 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| roadsterpulo2026 | 110 | 40 | 0 | 2: acima de 36 s: ~40.0 s (estimado; 110 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| rontgen1895 | 112 | 41 | 0 | 2: acima de 36 s: ~40.7 s (estimado; 112 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| scilly1651 | 122 | 44 | 0 | 2: acima de 36 s: ~43.7 s (voz real; 122 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| selfie2019 | 99 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| semmelweis1847 | 107 | 39 | 0 | 2: acima de 36 s: ~38.9 s (estimado; 107 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| starlink2019 | 101 | 37 | 0 | 2: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| surfcity2019 | 114 | 41 | 0 | 2: acima de 36 s: ~41.5 s (estimado; 114 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| teslaquila2020 | 120 | 44 | 0 | 2: acima de 36 s: ~43.6 s (estimado; 120 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| texel1795 | 108 | 39 | 0 | 2: acima de 36 s: ~39.3 s (estimado; 108 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| toledo1835 | 107 | 39 | 0 | 2: acima de 36 s: ~38.9 s (estimado; 107 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| trumpgame1989 | 115 | 42 | 0 | 3: acima de 36 s: ~41.8 s (estimado; 115 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| tulipas1637 | 100 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| tycho1566 | 109 | 40 | 0 | 3: acima de 36 s: ~39.6 s (estimado; 109 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| uisque1984 | 115 | 42 | 0 | 2: acima de 36 s: ~41.8 s (estimado; 115 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| velcro1941 | 99 | 36 | 0 | 2: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| vulcao2021 | 104 | 38 | 0 | 3: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| wrestlemania2007 | 103 | 37 | 0 | 3: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio / LOOP sem emenda: a ultima fra |
+| xplaca2023 | 99 | 36 | 0 | 1: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
+| zanzibar1896 | 104 | 38 | 0 | 2: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas / LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay |
 
-85/85 roteiros dentro da estrutura.
+GANCHOS REPETIDOS (mesmas 3 primeiras palavras em mais de 2 videos): "ninguem te conta": aroostook1838, arquimedes250, balde1325, banquinho1900, cachorro1925, darwin1835, eratostenes240, ese_holanda, fleming1928, gansos390, jenkins1739, kekule1865, melancia1856, mendel1856, microondas1945, paris1870, paypal2002, petrich1925, roadster2018, trumpgame1989, tycho1566, velcro1941, vulcao2021, wrestlemania2007
+
+0/85 roteiros dentro da estrutura.

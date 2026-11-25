@@ -24,11 +24,12 @@
    "multidao": 8,
    "objetos": [
     "kit/bitcoin",
+    "kit/coin",
     "kit/volcano"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Dinheiro de um país é coisa séria? Um presidente escolheu o bitcoin.",
+   "frase": "Um país inteiro apostou o próprio dinheiro numa moeda digital.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -36,20 +37,26 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "BUK"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/bitcoin"
    ],
    "palavras": 7,
    "cena": "b1",
    "frase": "E o final dessa aposta ninguém esperava.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -61,11 +68,12 @@
    "multidao": 0,
    "objetos": [
     "kit/bitcoin",
+    "kit/coin",
     "kit/volcano"
    ],
    "palavras": 10,
    "cena": "b2",
-   "frase": "Em 2021, El Salvador, de Nayib Bukele, adotou o bitcoin.",
+   "frase": "Em 2021, El Salvador adotou o bitcoin como moeda oficial.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -77,9 +85,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
+   "palavras": 7,
    "cena": "b3",
-   "frase": "Quem baixasse a carteira digital ganhava trinta dólares.",
+   "frase": "Quem baixasse o aplicativo ganhava trinta dólares.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -95,32 +103,6 @@
   {
    "camera": "wide",
    "personagens": [
-    "CLI",
-    "POV"
-   ],
-   "multidao": 6,
-   "objetos": [
-    "kit/bitcoin",
-    "kit/phone"
-   ],
-   "palavras": 12,
-   "cena": "b4",
-   "frase": "No primeiro dia, o aplicativo travou. O bitcoin caiu dez por cento.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
     "BUK"
    ],
    "multidao": 0,
@@ -129,9 +111,9 @@
     "kit/rack_mineracao",
     "kit/volcano"
    ],
-   "palavras": 12,
-   "cena": "b5",
-   "frase": "O país passou a minerar bitcoin com a energia de um vulcão.",
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "O governo até minerava bitcoin com a energia de um vulcão.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -147,9 +129,9 @@
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 12,
-   "cena": "b6",
-   "frase": "Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dólares.",
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que, em 2022, o bitcoin despencou para dezesseis mil.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -160,16 +142,16 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_patio"
   },
   {
    "camera": "two",
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "Mas em dezembro de 2024, o bitcoin passou de cem mil dólares.",
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Mas em 2024, ele passou de cem mil dólares.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -193,7 +175,7 @@
     "kit/bitcoin"
    ],
    "palavras": 6,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "As reservas no prejuízo viraram lucro.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -211,9 +193,9 @@
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 8,
-   "cena": "b9",
-   "frase": "Aposta maluca ou visão de futuro? Você decide.",
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Maluquice ou visão? Só sei que foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): ICE, PES, BRI
 - Cenarios: harbor
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | As Guerras do Bacalhau | As Guerras do Bacalhau / Marinha Islândia Com Foram Guerras Bacalhau 1958 | SEM REFERENCIA
+tema | As Guerras do Bacalhau | As Guerras do Bacalhau / Islândia Foram Guerras Bacalhau 1958 | SEM REFERENCIA
 lugar | Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de p | Atlântico Norte mar aberto perto da costa da Islândia / Atlântico Norte mar aberto perto da costa da Islândia Reykjavik e a costa de pesca águas c | SEM REFERENCIA
 lugar | Inglaterra | Inglaterra 1958 / Inglaterra landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1958 | 1958 fashion clothing / 1958 street photograph | SEM REFERENCIA

@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/scilly1651/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py scilly1651` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Você acha que guerra precisa de tiro? Esta durou 335 anos sem nenhum.
+## Cena b0 - Uma guerra durou 335 anos e ninguém disparou um tiro.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -19,20 +19,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ILH (pescador) na esquerda, expressao laugh; HOL (marinheiro) na direita, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "335 ANOS SEM TIRO" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (0.2-1.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (1.7-3.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (3.3-4.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (0.2-2.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (2.0-3.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b1 - E o jeito que ela acabou é ainda mais absurdo.
+## Cena b1 - E só acabou porque alguém resolveu perguntar.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): ILH (variante 0, expressao neutral); ILH (variante 1, expressao nervous) | multidao: 0 de 
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jeito
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -41,7 +40,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: ILH (pescador) na esquerda, expressao neutral; ILH (pescador) na direita, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1651, piratas das ilhas Scilly atacavam navios holandeses.
@@ -67,16 +66,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: cannon@40
 - SOM: cannon@70
 - MAPA: ILHAS SCILLY (cobre a tela 1-2 s)
-- TAKES: sequencia de acao em 3 cameras (3.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b3 - Dizem que a Holanda mandou navios e declarou guerra às ilhas.
+## Cena b3 - A Holanda declarou guerra às ilhas.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 0 de 
 - Animacao: - | batalha encenada
-- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
+- Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilhas
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -87,10 +86,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MAR (marinheiro) no centro, expressao angry; sem multidao; acao: batalha
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (2.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b4 - Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.
+## Cena b4 - Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -106,19 +105,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de multidao
 - PERSONAGENS: PRE (politico) na esquerda, expressao smug, segura paper; ILH (pescador) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (18.3-19.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (19.7-21.1 s): mesmo angulo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b5 - Os holandeses foram embora. E ninguém assinou a paz.
+## Cena b5 - Os holandeses foram embora. E ninguém lembrou de assinar a paz.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): HOL (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holandeses
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assinar, holandeses
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -127,12 +124,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: HOL (marinheiro) no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: INDO EMBORA; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (22.3-24.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (24.0-25.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (18.3-19.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (19.7-21.1 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b6 - Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
+## Cena b6 - Três séculos depois, um historiador escreveu para a Holanda.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -148,14 +145,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRE (politico) na esquerda, expressao surprised, segura book; EMB (nobre) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (26.6-28.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (28.2-29.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (29.9-31.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 4 (31.6-33.2 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (22.3-24.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (24.0-25.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - Em 1986, o embaixador holandês foi às ilhas assinar a paz.
+## Cena b7 - O embaixador veio às ilhas e assinou a paz.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -171,17 +166,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 8.0 m)
 - PERSONAGENS: EMB (nobre) no centro, expressao relief, segura paper; sem multidao; acao: entregar
 - OBJETO kit/scroll: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (26.6-28.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (28.5-30.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (30.4-32.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b8 - 335 anos de guerra, zero tiros. E você achando que guerra precisa de t...
+## Cena b8 - Ninguém lembrou de um papel. E foi assim que...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tiro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papel
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -194,7 +192,7 @@ ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 77% | aberto 16% | detalhe 3%
+- Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 73% | aberto 20% | detalhe 3%
 - Interacoes: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 o outro se aproxima, b8 discutir
 - RISCOS GERAIS: nenhum
 
@@ -212,9 +210,6 @@ ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer 
 - PERSONAGENS: ILH (pescador) na esquerda, expressao laugh; HOL (marinheiro) na direita, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "335 ANOS" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (37.3-39.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (39.1-40.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (40.8-42.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
