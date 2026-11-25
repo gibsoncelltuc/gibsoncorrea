@@ -10,7 +10,7 @@ b0 | simples | interior hospital | two | SEM, DIR | - | wash_basin | - | Um méd
 b1 | chave | street | wide | POV, POV | 6 | maca, marco_viena, room_hospital | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na 
 b2 | simples | interior hospital | two | SEM, PAR | - | - | - | O hospital tinha duas alas de parto: uma de parteiras e outra de médic
 b3 | simples | interior hospital | group | MAE, SEM | - | - | - | Acontece que, na ala dos médicos, morriam muito mais mães, de uma febr
-b4 | simples | interior hospital | two | KOL, SEM | - | - | - | Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e 
+b4 | simples | interior hospital | two | KOL, SEM | - | bisturi | - | Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e 
 b5 | simples | interior hospital | close | SEM | - | - | - | Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, 
 b6 | simples | interior hospital | two | SEM, KOL | - | wash_basin | - | Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a la
 b7 | simples | street | orbit | SEM, MAE, PAR | - | marco_viena, wash_basin | - | As mortes despencaram quase dez vezes.

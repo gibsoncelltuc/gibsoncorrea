@@ -94,20 +94,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e ...
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): KOL (variante 0, expressao shock); SEM (variante 0, expressao surprised)
 - Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Objetos/modelos: kit/bisturi
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): amigo, bisturi
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bisturi juntos (camera a 11.5 m)
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/bisturi: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
@@ -184,7 +184,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
-- TEXTO NA TELA: "VIDAS SALVAS" flutuando no alto, na palavra 1 da frase
 - TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -274,11 +273,12 @@ kit/wash_basin | b0, b6, b7, b10 | pronto (HEROI: aparece em close) | conferir n
 kit/maca | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/room_hospital | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bisturi | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/lapide | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 20% | medio 65% | aberto 10% | detalhe 5%
+- Objeto heroi: kit/wash_basin | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 10% | detalhe 7%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 discutir, b8 empurrar
 - RISCOS GERAIS: nenhum
 

@@ -96,7 +96,9 @@
     "SEM"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/bisturi"
+   ],
    "palavras": 17,
    "cena": "b4",
    "frase": "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre.",

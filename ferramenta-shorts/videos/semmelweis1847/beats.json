@@ -237,7 +237,25 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/bisturi",
+     0.0,
+     -0.3,
+     2.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.2,
+   "h": 1.4,
+   "d0": 6.5,
+   "d1": 6.0,
+   "detalhe": true
   },
   {
    "shot": "close",
@@ -348,8 +366,6 @@
     "ding@20",
     "ding@60"
    ],
-   "text": "VIDAS SALVAS",
-   "titulo": true,
    "say": "As mortes despencaram quase dez vezes.",
    "batalha": false,
    "tiros": false,

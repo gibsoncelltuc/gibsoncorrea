@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
-- Texto na tela: VIDAS SALVAS
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.4 s)

@@ -8,7 +8,7 @@ b0 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | kit/wash_basi
 b1 | street | wide | 8 | batalha | kit/maca, kit/room_hospital, kit/marco_viena | - | -
 b2 | interior hospital | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | interior hospital | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
-b4 | interior hospital | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
+b4 | interior hospital | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/bisturi | - | -
 b5 | interior hospital | close | 1 | conversar | - | - | -
 b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
 b7 | street | orbit | 3 | comemorar | kit/wash_basin, kit/marco_viena | - | -

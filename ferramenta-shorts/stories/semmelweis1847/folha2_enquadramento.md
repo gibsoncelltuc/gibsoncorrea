@@ -34,9 +34,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bisturi juntos (camera a 11.5 m)
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/bisturi: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
@@ -65,7 +65,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
-- TEXTO NA TELA: "VIDAS SALVAS" flutuando no alto, na palavra 1 da frase
 
 ## b8: "Mas os médicos se ofenderam, e Semmelweis foi mandado embora."
 - LOCAL: sala de madeira; hora: day

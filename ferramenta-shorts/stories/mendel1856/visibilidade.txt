@@ -1,5 +1,0 @@
-VISIBILIDADE: 4 FALHA(S)
-FALHA b2: objeto "kit/vagem_amarela" saiu com 15% da altura da tela, a ficha de cena planejou 32%
-FALHA b3: objeto "kit/vagem_amarela" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-FALHA b6: objeto "kit/vagem_verde" saiu com 4% da altura da tela, a ficha de cena planejou 32%
-FALHA b6: objeto "kit/vagem_amarela" saiu com 4% da altura da tela, a ficha de cena planejou 32%
