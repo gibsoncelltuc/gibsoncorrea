@@ -45,7 +45,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b6: "Os viajantes se trancaram na estação de trem."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 2.9 m), sem multidao na frente
-- PERSONAGENS: VIA (jornalista) no centro, expressao shock; multidao de 16 (SOL, VIA) ATRAS dos principais; acao: discutir
+- PERSONAGENS: VIA (jornalista) no centro, expressao shock; sem multidao; acao: discutir
 - OBJETO vehicles/locomotive: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.2 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "ESTAÇÃO DE TREM" flutuando no alto, na palavra 1 da frase
 

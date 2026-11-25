@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 91 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Uma fatia de melancia quase virou guerra entre dois países.
@@ -58,9 +58,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~2.8 s)
 - Narracao: Os viajantes se trancaram na estação de trem.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: ESTAÇÃO DE TREM
 - Funcao na historia: GRANDE MOMENTO
