@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 98 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 88 palavras (~30 s)
 
 ## Cena b0  (~3.4 s)
-- Narracao: Ninguém te conta: um mofo esquecido salvou milhões de vidas.
+- Narracao: Um mofo esquecido numa mesa bagunçada salvou milhões de vidas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito
@@ -12,7 +12,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~2.8 s)
-- Narracao: E tudo por causa de uma mesa bagunçada.
+- Narracao: E tudo porque o cientista saiu de férias.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -21,13 +21,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.1 s)
-- Narracao: Em 1928, em Londres, trabalhava o cientista Alexander Fleming.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Narracao: Em 1928, Alexander Fleming trabalhava num laboratório em Londres.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: INGLATERRA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~3.1 s)
 - Narracao: Ele deixava os pratos de bactérias empilhados na bancada.
@@ -41,14 +41,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b4  (~3.4 s)
 - Narracao: Saiu de férias por um mês e não limpou nada.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~3.1 s)
-- Narracao: Quando voltou, um prato estava coberto de bolor verde.
+- Narracao: Na volta, um prato estava coberto de bolor verde.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: BACTÉRIAS SUMIRAM
 - Funcao na historia: VIRADA
 
-## Cena b7  (~3.1 s)
-- Narracao: O mofo matava bactérias. Ele chamou isso de penicilina.
+## Cena b7  (~2.4 s)
+- Narracao: O mofo matava bactérias. Era a penicilina.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,20 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.1 s)
-- Narracao: Em 1945, Fleming ganhou o Nobel.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino
-- Efeito visual marcado: stars@30, burst@70
-- Texto na tela: NOBEL
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b10  (~3.8 s)
-- Narracao: A bagunça valeu mais que qualquer faxina. Ninguém te conta isso.
+## Cena b9  (~3.1 s)
+- Narracao: Fleming ganhou até o Nobel. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: MOFO
 - Funcao na historia: FECHO/PIADA FINAL

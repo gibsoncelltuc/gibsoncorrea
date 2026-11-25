@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1839 | Lugar: Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois | Quando: inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas
 - HEROIS (objeto): kit/borracha, kit/stove, kit/gosma
 - HEROIS (personagens): GOO, CLA
-- Cenarios: hall, interior galpao, interior madeira, interior pedra, loc_estudio, street
+- Cenarios: interior galpao, interior madeira, interior pedra, loc_estudio, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Borracha que Caiu no Fogão | Charles Goodyear vulcanization / A Borracha que Caiu no Fogão / Um Nos Estados Unidos 1839 | Charles Goodyear.png (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_8854bf.jpg); Charles Goodyear.jpg (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_5692f8.jpg); Southworth and Hawes - Charles Goodyear (Zeno Foto (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_1a6dfa.jpg)
+tema | A Borracha que Caiu no Fogão | Charles Goodyear vulcanization / A Borracha que Caiu no Fogão / Uma Nos Estados Unidos 1839 | Charles Goodyear.png (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_8854bf.jpg); Charles Goodyear.jpg (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_5692f8.jpg); Southworth and Hawes - Charles Goodyear (Zeno Foto (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_1a6dfa.jpg)
 lugar | Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao | Woburn / Woburn Massachusetts EUA 1839 | Map of Woburn, MA - 1904 - Walker Massachusetts At (referencias/goodyear1839/prints/woburn_massachusetts_eua_cozinha_de_casa_a05ced.jpg); Oak Tree Woburn Abbey, Bedfordshire - geograph.org (referencias/goodyear1839/prints/woburn_massachusetts_eua_cozinha_de_casa_635cbe.jpg); Woburn, Bedfordshire - geograph.org.uk - 6511.jpg (referencias/goodyear1839/prints/woburn_massachusetts_eua_cozinha_de_casa_8767ba.jpg)
 lugar | Estados Unidos | New England village 1830s / Estados Unidos 1839 / Estados Unidos landscape | New England Municipality map.png (referencias/goodyear1839/prints/estados_unidos_475963.jpg); New England commercial fishing vessel.png (referencias/goodyear1839/prints/estados_unidos_3460d1.jpg); By the New England Seashore, by Edward Henry Potth (referencias/goodyear1839/prints/estados_unidos_bb71ea.jpg)
 epoca | roupas e ruas de 1839 | 1839 fashion clothing / 19th century clothing painting | Fashion plate 1839a.jpg (referencias/goodyear1839/prints/roupas_e_ruas_de_1839_3a5630.jpg); Albanian palikars 19th century engraving.jpg (referencias/goodyear1839/prints/roupas_e_ruas_de_1839_53379a.jpg); Anonymous 19th century painting of Léopold Joseph, (referencias/goodyear1839/prints/roupas_e_ruas_de_1839_adcc71.jpg)

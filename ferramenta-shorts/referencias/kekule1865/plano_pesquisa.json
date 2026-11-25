@@ -7,7 +7,7 @@
    "item": "O Químico que Sonhou com uma Cobra",
    "consultas": [
     "O Químico que Sonhou com uma Cobra",
-    "Ninguém Em Bélgica August Kekulé 1865"
+    "Um Em August Kekulé 1865"
    ]
   },
   {
@@ -124,9 +124,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Uma delas mordeu o próprio rabo.",
+   "item": "Acontece que uma delas mordeu o próprio rabo.",
    "consultas": [
-    "mordeu proprio",
+    "acontece mordeu proprio",
     "snake ring diagram"
    ]
   }

@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Químico que Sonhou com uma Cobra | O Químico que Sonhou com uma Cobra / Ninguém Em Bélgica August Kekulé 1865 | SEM REFERENCIA
+tema | O Químico que Sonhou com uma Cobra | O Químico que Sonhou com uma Cobra / Um Em August Kekulé 1865 | SEM REFERENCIA
 lugar | Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laborat | Gante / Gante Belgica 1865 | Ghent - centre.jpg (referencias/kekule1865/prints/gante_belgica_gabinete_de_professor_com__65695d.jpg); L-Gante Conferencia de prensa (51862639395).jpg (referencias/kekule1865/prints/gante_belgica_gabinete_de_professor_com__352bf9.jpg); L-Gante Conferencia de prensa (51861973411).jpg (referencias/kekule1865/prints/gante_belgica_gabinete_de_professor_com__e406fb.jpg)
 lugar | Bélgica | Bélgica 1865 / Bélgica landscape | 1840 portrait of King Leopold I (King of the Belgi (referencias/kekule1865/prints/b_lgica_246de9.jpg); Prince Leopold of Saxe-Coburg-Gotha (1824-1884)-Wi (referencias/kekule1865/prints/b_lgica_d11a54.jpg); Prince Leopold of Saxe-Coburg and Gotha by Charles (referencias/kekule1865/prints/b_lgica_936b8b.jpg)
 epoca | roupas e ruas de 1865 | 1865 fashion clothing / 1865 street photograph | Gazette of Fashion, February 1865, RP-P-2009-2675. (referencias/kekule1865/prints/roupas_e_ruas_de_1865_eb7f09.jpg); Gazette of Fashion, August 1865, RP-P-2009-2676.jp (referencias/kekule1865/prints/roupas_e_ruas_de_1865_a878de.jpg); The Englishwoman's Domestic Magazine, August 1865  (referencias/kekule1865/prints/roupas_e_ruas_de_1865_2a8cc6.jpg)
@@ -29,7 +29,7 @@ objeto | papel com desenhos de moleculas | papel com desenhos de moleculas / pap
 objeto | frascos de quimica | frascos de quimica / frascos de quimica 1865 | Conjunto de frascos de reactivos químicos - (M.A.B (referencias/kekule1865/prints/frascos_de_quimica_55ee48.jpg); Cistac-Tristan-1865-06-28-prodigios-de-la-quimica. (referencias/kekule1865/prints/frascos_de_quimica_f0b0d2.jpg); Cistac-Tristan-1865-07-21-prodigios-de-la-quimica. (referencias/kekule1865/prints/frascos_de_quimica_8d9195.jpg)
 heroi | snake ring | anel do benzeno / O Químico que Sonhou com uma Cobra | AnelAIM.jpg (referencias/kekule1865/prints/snake_ring_a059a0.jpg); AnelAIM.jpg (referencias/kekule1865/prints/snake_ring_a059a0.jpg)
 mecanismo | No sonho, átomos dançavam como cobras. | sonho atomos dancavam cobras / snake ring diagram | SEM REFERENCIA
-mecanismo | Uma delas mordeu o próprio rabo. | mordeu proprio / snake ring diagram | SEM REFERENCIA
+mecanismo | Acontece que uma delas mordeu o próprio rabo. | acontece mordeu proprio / snake ring diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim

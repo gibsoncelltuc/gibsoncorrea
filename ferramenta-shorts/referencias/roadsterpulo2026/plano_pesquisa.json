@@ -8,7 +8,7 @@
    "consultas": [
     "Tesla Roadster second generation prototype",
     "O Carro que Voou de Cabeça para Baixo",
-    "Carro Este Elon Musk Roadster Texas 2026"
+    "Um Elon Musk Roadster Texas 2026"
    ]
   },
   {
@@ -107,9 +107,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Primeiro truque: uma sucção gruda o carro na pista, como ventosa.",
+   "item": "Primeiro truque: uma sucção gruda o carro na pista.",
    "consultas": [
-    "truque succao gruda carro pista ventosa",
+    "truque succao gruda carro pista",
     "roadster26 diagram"
    ]
   },
@@ -118,13 +118,6 @@
    "item": "Segundo truque: dez bocais sopram ar comprimido para baixo.",
    "consultas": [
     "truque bocais sopram comprimido baixo",
-    "roadster26 diagram"
-   ]
-  },
-  {
-   "tipo": "mecanismo",
-   "item": "Zero a cem em menos de um segundo.",
-   "consultas": [
     "roadster26 diagram"
    ]
   }

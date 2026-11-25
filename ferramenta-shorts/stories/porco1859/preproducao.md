@@ -11,14 +11,14 @@ b3 | countryside | two | 1 | encena | nature/flowerbed, nature/picket_fence, nat
 b4 | countryside | two | 1 | atira | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | rifle | -
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: entregar | nature/picket_fence, nature/haybale, tools/wheelbarrow | money | -
 b6 | harbor | group | 19 | conversar, INTERAGEM: insiste | - | - | -
-b7 | harbor | crowd | 32 | discutir, batalha | navios de guerra ao fundo, no tamanho real | - | -
-b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | pig | - | -
-b9 | interior pedra | group | 3 | comemorar, INTERAGEM: discutir | - | - | -
+b7 | harbor | crowd | 22 | discutir, batalha | navios de guerra ao fundo, no tamanho real | - | -
+b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | - | -
+b9 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | - | - | -
 b10 | countryside | wide | 1 | reagir | nature/picket_fence, nature/haybale, pig | pitchfork | -
 
 OBJETO HEROI: kit/batatas
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b7
-Interacoes entre personagens: b2 o outro se aproxima, b5 entregar, b6 insiste, b8 susto, b9 discutir
+Interacoes entre personagens: b2 o outro se aproxima, b5 entregar, b6 insiste, b8 susto, b9 pular
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

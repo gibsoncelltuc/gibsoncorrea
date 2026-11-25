@@ -2,8 +2,8 @@
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 93 palavras (~32 s)
 
-## Cena b0  (~3.1 s)
-- Narracao: Ninguém te conta: Paris já serviu elefante no jantar.
+## Cena b0  (~2.8 s)
+- Narracao: Paris já serviu elefante no jantar de Natal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -12,7 +12,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~2.8 s)
-- Narracao: E o cardápio tinha até canguru e lobo.
+- Narracao: E no cardápio tinha até canguru e lobo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: FRANÇA
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.4 s)
-- Narracao: Primeiro comeram os cavalos. Depois, os cachorros e os gatos.
+## Cena b3  (~2.8 s)
+- Narracao: Primeiro comeram os cavalos. Depois, cachorros e gatos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (PAR) -> acao + som de efeito
@@ -40,12 +40,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~2.4 s)
 - Narracao: Depois os roedores, que viraram prato chique.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: RATOS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~2.4 s)
 - Narracao: Quando acabou tudo, olharam para o zoológico.
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~2.8 s)
-- Narracao: Um açougueiro comprou os elefantes Castor e Pólux.
+## Cena b6  (~3.4 s)
+- Narracao: Acontece que um açougueiro comprou os elefantes Castor e Pólux.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: comprou -> stars + som de sino
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~3.4 s)
-- Narracao: No Natal, um restaurante serviu consomê de elefante e canguru.
+## Cena b7  (~2.8 s)
+- Narracao: No Natal, um restaurante serviu consomê de elefante.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -75,16 +75,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~2.4 s)
-- Narracao: Acontece que só os ricos podiam pagar.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Narracao: Só os ricos podiam pagar esse luxo.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagar -> stars + som de sino
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: SÓ PARA OS RICOS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.1 s)
-- Narracao: O povo fazia fila no frio, com comida racionada.
+- Narracao: O povo fazia fila no frio por comida racionada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -92,11 +92,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.8 s)
-- Narracao: Em 1871, Paris se rendeu. De barriga vazia.
+## Cena b10  (~3.8 s)
+- Narracao: Na fome, até bicho de zoológico vira comida. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: rende (up) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: ELEFANTE NO JANTAR
 - Funcao na historia: FECHO/PIADA FINAL

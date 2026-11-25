@@ -99,7 +99,7 @@
    "titulo": true,
    "tstyle": "red",
    "bloco": "gancho",
-   "say": "Um exército inteiro perdeu uma batalha contra si mesmo.",
+   "say": "Um exército inteiro perdeu uma batalha contra ele mesmo.",
    "encena": {
     "sentido": "figurada",
     "passos": [
@@ -123,7 +123,7 @@
    "light": "dawn",
    "acao": "comemorar",
    "bloco": "promessa",
-   "say": "E o inimigo venceu sem disparar um único tiro.",
+   "say": "E o inimigo venceu sem disparar um tiro.",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -195,7 +195,7 @@
     "dir": 1
    },
    "bloco": "prova",
-   "say": "Numa noite, os hussardos foram na frente procurar o inimigo.",
+   "say": "Numa noite, os hussardos foram procurar o inimigo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -245,7 +245,7 @@
    "detalhe": true,
    "shot_lock": true,
    "bloco": "prova",
-   "say": "Acharam moradores vendendo aguardente. Compraram tudo e beberam.",
+   "say": "Acharam moradores vendendo aguardente e beberam o barril todo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -291,7 +291,7 @@
    },
    "acao": "discutir",
    "bloco": "escalada",
-   "say": "A infantaria quis um gole. Eles negaram, e alguém atirou.",
+   "say": "A infantaria quis um gole. Negaram, e alguém atirou.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -358,7 +358,7 @@
    "batalha": true,
    "hora": "noite",
    "bloco": "escalada",
-   "say": "Ninguém entendia a língua do vizinho. Todos atiraram em todos.",
+   "say": "Acontece que ninguém entendia a língua do vizinho. Todos atiraram em todos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -452,7 +452,7 @@
    "light": "dawn",
    "detalhe": false,
    "bloco": "pagamento",
-   "say": "Dois dias depois, os turcos acharam o acampamento abandonado.",
+   "say": "Os turcos chegaram e acharam o acampamento abandonado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -504,13 +504,13 @@
    "titulo": true,
    "tstyle": "red",
    "bloco": "loop",
-   "say": "Venceram sem um tiro. O exército perdeu para si mesmo.",
+   "say": "Ninguém precisou lutar contra eles. Foi assim que...",
    "encena": {
     "sentido": "figurada",
     "passos": [
      {
       "faz": "perde",
-      "na": "perdeu",
+      "na": "precisou",
       "quem": 0
      }
     ]
@@ -551,6 +551,6 @@
   ]
  },
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um exercito perdeu uma batalha contra si mesmo e o inimigo venceu sem disparar. Pagamento: briga pela aguardente, panico, todos atirando em todos, e os turcos acharam o acampamento abandonado.",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma batalha contra ele mesmo e o inimigo venceu sem tiro. Pagamento: briga pela aguardente, grito de 'Turcos!', todos atirando em todos e os turcos acharam o acampamento abandonado.",
  "loop_frase_ok": true
 }

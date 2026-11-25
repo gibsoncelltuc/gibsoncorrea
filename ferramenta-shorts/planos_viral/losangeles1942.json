@@ -1,13 +1,91 @@
-{"gancho_tipo": "crenca", "texto_gancho": "NENHUM INIMIGO",
- "gancho_cumprido": "Gancho: uma cidade atirou no ceu a noite toda sem inimigo, e ninguem sabe no que atiravam. Pagamento: mais de mil tiros contra nuvens e fumaca, mortes por acidente e susto, nenhum inimigo.",
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "NENHUM INIMIGO",
+ "gancho_cumprido": "Gancho: uma cidade atirou no ceu a noite toda contra um inimigo invisivel e ninguem sabe no que atiravam. Pagamento: mais de mil tiros, estilhacos na cidade, mortes por acidente e nada no ceu.",
  "cenas": [
-  [0, "gancho", "Uma cidade inteira atirou no céu a noite toda. Não havia inimigo.", "atirou", {"encena_antiga": true}],
-  [9, "promessa", "E até hoje ninguém sabe no que eles atiravam.", "atiravam"],
-  [1, "prova", "Em fevereiro de 1942, Los Angeles vivia com medo do Japão.", "medo"],
-  [2, "prova", "Na véspera, um submarino japonês tinha atirado na Califórnia.", "atirado", {"encena_antiga": true}],
-  [3, "prova", "De madrugada, sirenes tocaram e holofotes varreram o céu.", "varreram", {"encena_antiga": true}],
-  [4, "escalada", "Alguém viu um objeto, e os canhões antiaéreos começaram a atirar.", "atirar", {"encena_antiga": true}],
-  [6, "escalada", "Foram mais de mil tiros, e estilhaços caíram na cidade.", "caíram", {"encena_antiga": true}],
-  [5, "escalada", "Acontece que não havia nada lá em cima. Só nuvens e fumaça.", "nada", {"encena_antiga": true}],
-  [8, "pagamento", "Algumas pessoas morreram por acidente e susto. Nenhum inimigo apareceu.", "morreram", {"encena_antiga": true}],
-  [0, "loop", "O único derrotado foi o sono de Los Angeles.", "sono"]]}
+  [
+   0,
+   "gancho",
+   "Uma cidade atirou no céu a noite toda contra um inimigo invisível.",
+   "atirou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E até hoje ninguém sabe no que eles atiravam.",
+   "atiravam",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1942, Los Angeles vivia com medo do Japão.",
+   "medo",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Na véspera, um submarino japonês atirou na Califórnia.",
+   "atirou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "De madrugada, sirenes tocaram e holofotes varreram o céu.",
+   "varreram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Alguém viu algo, e os canhões antiaéreos começaram a atirar.",
+   "atirar",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Foram mais de mil tiros, e estilhaços caíram na cidade.",
+   "caíram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que não havia nada lá em cima.",
+   "nada",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Algumas pessoas morreram por acidente e susto.",
+   "morreram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "O medo venceu o sono. E foi assim que...",
+   "sono",
+   {}
+  ]
+ ]
+}

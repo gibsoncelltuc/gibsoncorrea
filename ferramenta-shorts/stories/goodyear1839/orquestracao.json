@@ -21,7 +21,7 @@
    ],
    "palavras": 13,
    "cena": "b0",
-   "frase": "Um inventor falido deixou cair uma gosma no fogão. E mudou o mundo.",
+   "frase": "Uma gosma caiu no fogão de um inventor falido. E mudou o mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -57,9 +57,9 @@
    "objetos": [
     "kit/stove"
    ],
-   "palavras": 8,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Nos Estados Unidos, a borracha estava na moda.",
+   "frase": "Nos Estados Unidos, a borracha virou moda.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -136,9 +136,9 @@
     "kit/gosma",
     "kit/stove"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "Um dia, a mistura de borracha e enxofre caiu no fogão quente.",
+   "frase": "Um dia, borracha com enxofre caiu no fogão quente.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -154,9 +154,9 @@
    "objetos": [
     "kit/stove"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Acontece que não derreteu. Ficou firme e elástica, como couro.",
+   "frase": "Acontece que não derreteu. Ficou firme e elástica.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -177,9 +177,9 @@
     "kit/stove",
     "kit/tires"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos.",
+   "frase": "Era a borracha vulcanizada, hoje em pneus e sapatos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -195,34 +195,16 @@
   {
    "camera": "two",
    "personagens": [
-    "COB",
-    "GOO"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b9",
-   "frase": "Mas outros copiaram, e ele morreu cheio de dívidas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "hall"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "GOO"
    ],
    "multidao": 0,
    "objetos": [
     "kit/gosma",
-    "kit/stove",
-    "kit/tires"
+    "kit/stove"
    ],
    "palavras": 11,
-   "cena": "b10",
-   "frase": "A Goodyear dos pneus ganhou o nome dele. Ele nunca soube.",
+   "cena": "b9",
+   "frase": "A Goodyear ganhou o nome dele, sem ele saber. Tudo porque...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

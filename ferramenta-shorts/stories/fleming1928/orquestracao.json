@@ -22,7 +22,7 @@
    ],
    "palavras": 10,
    "cena": "b0",
-   "frase": "Ninguém te conta: um mofo esquecido salvou milhões de vidas.",
+   "frase": "Um mofo esquecido numa mesa bagunçada salvou milhões de vidas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -40,7 +40,7 @@
    ],
    "palavras": 8,
    "cena": "b1",
-   "frase": "E tudo por causa de uma mesa bagunçada.",
+   "frase": "E tudo porque o cientista saiu de férias.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -48,7 +48,7 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "MED",
     "MED"
@@ -59,10 +59,16 @@
    ],
    "palavras": 9,
    "cena": "b2",
-   "frase": "Em 1928, em Londres, trabalhava o cientista Alexander Fleming.",
-   "classe": "transicao",
+   "frase": "Em 1928, Alexander Fleming trabalhava num laboratório em Londres.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -87,7 +93,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "FLE",
     "COL"
@@ -121,7 +127,7 @@
    ],
    "palavras": 9,
    "cena": "b5",
-   "frase": "Quando voltou, um prato estava coberto de bolor verde.",
+   "frase": "Na volta, um prato estava coberto de bolor verde.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -153,9 +159,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "O mofo matava bactérias. Ele chamou isso de penicilina.",
+   "frase": "O mofo matava bactérias. Era a penicilina.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -187,29 +193,6 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "crowd",
-   "personagens": [
-    "FLE",
-    "COL"
-   ],
-   "multidao": 14,
-   "objetos": [],
-   "palavras": 6,
-   "cena": "b9",
-   "frase": "Em 1945, Fleming ganhou o Nobel.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "hall"
-  },
-  {
    "camera": "wide",
    "personagens": [
     "FLE",
@@ -220,9 +203,9 @@
     "kit/bancada",
     "kit/petri_mofo"
    ],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "A bagunça valeu mais que qualquer faxina. Ninguém te conta isso.",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Fleming ganhou até o Nobel. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

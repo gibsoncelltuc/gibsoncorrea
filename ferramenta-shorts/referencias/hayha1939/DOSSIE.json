@@ -31,12 +31,9 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/barn",
-  "nature/bush",
   "nature/haybale",
   "nature/picket_fence",
-  "nature/scarecrow",
-  "nature/tree_oak",
-  "nature/tree_pine"
+  "nature/scarecrow"
  ],
  "pesquisa_visual": {
   "local": "Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos",

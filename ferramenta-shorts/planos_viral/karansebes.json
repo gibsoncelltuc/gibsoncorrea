@@ -1,11 +1,11 @@
 {
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um exercito perdeu uma batalha contra si mesmo e o inimigo venceu sem disparar. Pagamento: briga pela aguardente, panico, todos atirando em todos, e os turcos acharam o acampamento abandonado.",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma batalha contra ele mesmo e o inimigo venceu sem tiro. Pagamento: briga pela aguardente, grito de 'Turcos!', todos atirando em todos e os turcos acharam o acampamento abandonado.",
  "cenas": [
   [
    0,
    "gancho",
-   "Um exército inteiro perdeu uma batalha contra si mesmo.",
+   "Um exército inteiro perdeu uma batalha contra ele mesmo.",
    "perdeu",
    {
     "encena_antiga": true
@@ -14,7 +14,7 @@
   [
    10,
    "promessa",
-   "E o inimigo venceu sem disparar um único tiro.",
+   "E o inimigo venceu sem disparar um tiro.",
    "venceu",
    {
     "encena_antiga": true
@@ -24,18 +24,20 @@
    1,
    "prova",
    "Em 1788, o exército austríaco tinha soldados de vários países.",
-   "soldados"
+   "soldados",
+   {}
   ],
   [
    2,
    "prova",
-   "Numa noite, os hussardos foram na frente procurar o inimigo.",
-   "procurar"
+   "Numa noite, os hussardos foram procurar o inimigo.",
+   "procurar",
+   {}
   ],
   [
    3,
    "prova",
-   "Acharam moradores vendendo aguardente. Compraram tudo e beberam.",
+   "Acharam moradores vendendo aguardente e beberam o barril todo.",
    "beberam",
    {
     "encena_antiga": true
@@ -44,7 +46,7 @@
   [
    5,
    "escalada",
-   "A infantaria quis um gole. Eles negaram, e alguém atirou.",
+   "A infantaria quis um gole. Negaram, e alguém atirou.",
    "atirou",
    {
     "encena_antiga": true
@@ -62,7 +64,7 @@
   [
    7,
    "escalada",
-   "Ninguém entendia a língua do vizinho. Todos atiraram em todos.",
+   "Acontece que ninguém entendia a língua do vizinho. Todos atiraram em todos.",
    "atiraram",
    {
     "encena_antiga": true
@@ -80,14 +82,15 @@
   [
    9,
    "pagamento",
-   "Dois dias depois, os turcos acharam o acampamento abandonado.",
-   "acharam"
+   "Os turcos chegaram e acharam o acampamento abandonado.",
+   "acharam",
+   {}
   ],
   [
    0,
    "loop",
-   "Venceram sem um tiro. O exército perdeu para si mesmo.",
-   "perdeu",
+   "Ninguém precisou lutar contra eles. Foi assim que...",
+   "precisou",
    {
     "encena_antiga": true
    }

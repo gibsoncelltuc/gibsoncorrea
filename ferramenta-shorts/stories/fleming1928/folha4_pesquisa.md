@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1928 | Lugar: Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas | Quando: agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945
 - HEROIS (objeto): kit/petri_mofo, kit/bancada, kit/petri
 - HEROIS (personagens): FLE, COL
-- Cenarios: hall, interior galpao, interior madeira, interior pedra, loc_campo, street
+- Cenarios: interior galpao, interior madeira, interior pedra, loc_campo, street
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Fleming e a Penicilina | Fleming e a Penicilina / Ninguém Em Londres Alexander Fleming 1928 | Synthetic Production of Penicillin TR1468.jpg (referencias/fleming1928/prints/fleming_e_a_penicilina_6a4ae5.jpg); Alexander Fleming 3.jpg (referencias/fleming1928/prints/fleming_e_a_penicilina_499d1a.jpg); Alexander Fleming 1945.jpg (referencias/fleming1928/prints/fleming_e_a_penicilina_98bb4d.jpg)
+tema | Fleming e a Penicilina | Fleming e a Penicilina / Um Em Alexander Fleming Londres 1928 | Synthetic Production of Penicillin TR1468.jpg (referencias/fleming1928/prints/fleming_e_a_penicilina_6a4ae5.jpg); Alexander Fleming 3.jpg (referencias/fleming1928/prints/fleming_e_a_penicilina_499d1a.jpg); Alexander Fleming 1945.jpg (referencias/fleming1928/prints/fleming_e_a_penicilina_98bb4d.jpg)
 lugar | Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microsc | Hospital St Mary's Londres / Hospital St Mary's Londres 1928 | St Mary's Hospital.jpg (referencias/fleming1928/prints/hospital_st_mary_s_londres_laboratorio_p_6148fd.jpg); StMarys80section.jpg (referencias/fleming1928/prints/hospital_st_mary_s_londres_laboratorio_p_d01ca6.jpg); St Mary's Hospital - geograph.org.uk - 2790489.jpg (referencias/fleming1928/prints/hospital_st_mary_s_londres_laboratorio_p_ae7ec3.jpg)
 lugar | Inglaterra | Inglaterra 1928 / Inglaterra landscape | Gherkin, Londres, Inglaterra, 2014-08-07, DD 052.J (referencias/fleming1928/prints/inglaterra_52b3f1.jpg); Puente Pulteney, Bath, Inglaterra, 2014-08-12, DD  (referencias/fleming1928/prints/inglaterra_4f20b2.jpg); Havana - Inglaterra Hotel 01.jpg (referencias/fleming1928/prints/inglaterra_9f417f.jpg)
 epoca | roupas e ruas de 1928 | 1928 fashion clothing / 1928 street photograph | LAROUSSE - L.C.Bombled (1862-1927) COSTUMES CIVILS (referencias/fleming1928/prints/roupas_e_ruas_de_1928_803b5e.jpg); Portrait, woman, fashion Fortepan 18907.jpg (referencias/fleming1928/prints/roupas_e_ruas_de_1928_dbb68f.jpg)
@@ -27,7 +27,8 @@ objeto | frascos de vidro | frascos de vidro / frascos de vidro 1928 | Glass fla
 heroi | petri mofo | placa de Petri com mofo / Fleming e a Penicilina | SEM REFERENCIA
 heroi | bancada | bancada | Liderança da Bancada Feminina no Senado Federal (5 (referencias/fleming1928/prints/bancada_0aa6cf.jpg); Liderança da Bancada Feminina no Senado Federal (5 (referencias/fleming1928/prints/bancada_a366b7.jpg); Liderança da Bancada Feminina no Senado Federal (5 (referencias/fleming1928/prints/bancada_180dd9.jpg)
 heroi | petri | petri | Synthetic Production of Penicillin TR1468.jpg (referencias/fleming1928/prints/petri_6a4ae5.jpg); Alexander Fleming 3.jpg (referencias/fleming1928/prints/petri_499d1a.jpg); Alexander Fleming 1945.jpg (referencias/fleming1928/prints/petri_98bb4d.jpg)
-mecanismo | O mofo matava bactérias. Ele chamou isso de penicilina. | matava bacterias chamou penicilina / petri mofo diagram | SEM REFERENCIA
+epoca | laboratorio da epoca | laboratory 1928 / laboratory | SEM REFERENCIA
+mecanismo | O mofo matava bactérias. Era a penicilina. | matava bacterias penicilina / petri mofo diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929

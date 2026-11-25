@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 102 palavras (~35 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 86 palavras (~30 s)
 
-## Cena b0  (~3.4 s)
-- Narracao: Ninguém te conta: Darwin misturou as etiquetas de uns passarinhos.
+## Cena b0  (~3.8 s)
+- Narracao: Uma etiqueta trocada ajudou Darwin a explicar a vida na Terra.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: ERRO DE ETIQUETA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.4 s)
-- Narracao: E esse erro explicou como a vida muda na Terra.
+## Cena b1  (~2.8 s)
+- Narracao: E tudo começou no bico de um passarinho.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: Em 1835, Darwin chegou às ilhas Galápagos, no navio Beagle.
+## Cena b2  (~2.4 s)
+- Narracao: Em 1835, Darwin chegou às ilhas Galápagos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~2.8 s)
-- Narracao: Em Londres, John Gould revelou: eram todos tentilhões.
+## Cena b4  (~2.1 s)
+- Narracao: Em Londres, descobriram: eram todos tentilhões.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: descobriram: -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~3.8 s)
-- Narracao: Quem tinha o bico certo sobrevivia e passava isso aos filhos.
+## Cena b7  (~2.1 s)
+- Narracao: Quem tinha o bico certo sobrevivia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~2.8 s)
-- Narracao: Em 1859, essa ideia virou a seleção natural.
+## Cena b8  (~2.4 s)
+- Narracao: Em 1859, isso virou a seleção natural.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: SELEÇÃO NATURAL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~3.8 s)
-- Narracao: Tudo começou com etiquetas trocadas. É isso que ninguém te conta.
+## Cena b9  (~2.4 s)
+- Narracao: Darwin nunca mais esqueceu de anotar. Porque...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

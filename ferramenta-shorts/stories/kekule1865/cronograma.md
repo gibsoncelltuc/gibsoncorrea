@@ -1,22 +1,22 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Gerado em 25/11 16:46 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:20 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | KEK, COL | - | snake_ring | - | Ninguém te conta: um segredo da química foi resolvido num cochilo.
-b1 | simples | street | close | KEK | - | snake_ring | - | E quem deu a resposta foi uma cobra.
-b2 | chave | street | wide | POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1865, na Bélgica, August Kekulé tinha um problema.
+b0 | simples | street | two | KEK, COL | - | snake_ring | - | Um segredo da química foi resolvido num cochilo.
+b1 | simples | street | close | KEK | - | snake_ring | - | E quem deu a resposta foi uma cobra de sonho.
+b2 | chave | street | wide | POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1865, August Kekulé tinha um problema.
 b3 | simples | interior madeira | two | KEK, ALU | - | snake_ring | - | Ninguém sabia arrumar os seis carbonos do benzeno.
-b4 | simples | interior madeira | close | KEK | - | fireplace, Chair_1 | - | Numa noite fria, ele cochilou de frente para a lareira.
+b4 | simples | interior madeira | close | KEK | - | fireplace, Chair_1 | - | Numa noite fria, ele cochilou diante da lareira.
 b5 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/snake_ring (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som | No sonho, átomos dançavam como cobras.
-b6 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/snake_ring (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som | Uma delas mordeu o próprio rabo.
-b7 | simples | interior madeira | low | KEK | - | snake_ring | - | Ele acordou num pulo. O benzeno era um anel!
+b6 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/snake_ring (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som | Acontece que uma delas mordeu o próprio rabo.
+b7 | simples | interior madeira | low | KEK | - | snake_ring | - | Ele acordou num pulo: o benzeno era um anel!
 b8 | chave | street | wide | COL | 6 | snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Esse anel virou base de remédios, tintas e plásticos.
 b9 | simples | street | two | COL | - | snake_ring | - | Muita gente duvida do sonho. Mas o anel estava certo.
-b10 | simples | street | two | KEK, COL | - | snake_ring | - | Ele dizia: aprendam a sonhar, mas confiram acordados.
+b10 | simples | street | two | KEK, COL | - | snake_ring | - | Ele dizia: aprendam a sonhar. Porque...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -31,11 +31,11 @@ N | Etapa | O que confere | Estado | Proximo passo
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh kekule1865
-10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh kekule1865
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh kekule1865
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local kekule1865 <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
 **Etapa atual:** 8. Storyboard e grade de acoes
 

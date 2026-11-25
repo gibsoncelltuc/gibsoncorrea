@@ -44,9 +44,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b1",
-   "frase": "Os inimigos tinham tanto medo que deram um apelido a ele.",
+   "frase": "Tão temido que os inimigos deram um apelido a ele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -61,9 +61,9 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "No inverno de 1939, a União Soviética invadiu a Finlândia.",
+   "frase": "Em 1939, a União Soviética invadiu a Finlândia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -84,14 +84,10 @@
     "FIN"
    ],
    "multidao": 0,
-   "objetos": [
-    "nature/bush",
-    "nature/tree_oak",
-    "nature/tree_pine"
-   ],
-   "palavras": 8,
+   "objetos": [],
+   "palavras": 6,
    "cena": "b3",
-   "frase": "Fazia quarenta graus abaixo de zero na floresta.",
+   "frase": "Fazia quarenta graus abaixo de zero.",
    "classe": "explicativa",
    "sujeito": "personagem",
    "briefing": {},
@@ -99,16 +95,16 @@
    "cenario": "arctic"
   },
   {
-   "camera": "close",
+   "camera": "orbit",
    "personagens": [
     "FIN"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 6,
    "cena": "b4",
-   "frase": "Um soldado do campo, baixinho, se chamava Simo Häyhä.",
-   "classe": "simples",
+   "frase": "Esse soldado se chamava Simo Häyhä.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -152,13 +148,11 @@
     "FIN",
     "FIN"
    ],
-   "multidao": 48,
-   "objetos": [
-    "nature/picket_fence"
-   ],
-   "palavras": 12,
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Em cerca de cem dias, contam mais de quinhentos abatidos por ele.",
+   "frase": "Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -195,9 +189,9 @@
    ],
    "multidao": 32,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 11,
    "cena": "b9",
-   "frase": "Viveu até 96 anos e dizia: só fiz meu trabalho.",
+   "frase": "Ele só dizia: fiz o meu trabalho. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -62,7 +62,7 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "Ninguém te conta: um segredo da química foi resolvido num cochilo.",
+   "say": "Um segredo da química foi resolvido num cochilo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -88,7 +88,7 @@
     ]
    ],
    "bloco": "promessa",
-   "say": "E quem deu a resposta foi uma cobra.",
+   "say": "E quem deu a resposta foi uma cobra de sonho.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -112,7 +112,7 @@
    "d0": 12.0,
    "d1": 11.0,
    "bloco": "prova",
-   "say": "Em 1865, na Bélgica, August Kekulé tinha um problema.",
+   "say": "Em 1865, August Kekulé tinha um problema.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -176,7 +176,7 @@
     ]
    ],
    "bloco": "prova",
-   "say": "Numa noite fria, ele cochilou de frente para a lareira.",
+   "say": "Numa noite fria, ele cochilou diante da lareira.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -240,7 +240,7 @@
     ]
    },
    "bloco": "escalada",
-   "say": "Uma delas mordeu o próprio rabo.",
+   "say": "Acontece que uma delas mordeu o próprio rabo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -273,7 +273,7 @@
     "sting@20"
    ],
    "bloco": "escalada",
-   "say": "Ele acordou num pulo. O benzeno era um anel!",
+   "say": "Ele acordou num pulo: o benzeno era um anel!",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -367,7 +367,7 @@
     "ding@30"
    ],
    "bloco": "loop",
-   "say": "Ele dizia: aprendam a sonhar, mas confiram acordados.",
+   "say": "Ele dizia: aprendam a sonhar. Porque...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -415,6 +415,6 @@
   ]
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um segredo da quimica resolvido num cochilo, com a resposta dada por uma cobra. Pagamento: a cobra mordendo o rabo mostrou que o benzeno e' um anel, base de remedios, tintas e plasticos.",
+ "gancho_cumprido": "Gancho: um segredo da quimica resolvido num cochilo, com a resposta de uma cobra de sonho. Pagamento: a cobra mordendo o rabo mostrou o anel do benzeno, base de remedios, tintas e plasticos.",
  "loop_frase_ok": true
 }

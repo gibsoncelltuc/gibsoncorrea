@@ -1,18 +1,18 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 11 cenas, 110 palavras (~38 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 94 palavras (~32 s)
 
 ## Cena b0  (~4.1 s)
-- Narracao: Carro voador é coisa de filme? Este voou na frente de todos.
+- Narracao: Um carro voou na frente dos convidados, e não era efeito especial.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: VOOU DE VERDADE
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.1 s)
-- Narracao: E o jeito que ele fez isso parece mágica.
+## Cena b1  (~2.4 s)
+- Narracao: E ninguém esperava como ele fez isso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.8 s)
-- Narracao: Primeiro truque: uma sucção gruda o carro na pista, como ventosa.
+## Cena b3  (~3.1 s)
+- Narracao: Primeiro truque: uma sucção gruda o carro na pista.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: Assim ele subiu uma rampa curva e ficou de cabeça para baixo.
+## Cena b4  (~3.8 s)
+- Narracao: Assim ele subiu uma rampa e ficou de cabeça para baixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
-- Narracao: Foi assim que ele decolou por cima de carros parados.
+## Cena b7  (~3.8 s)
+- Narracao: Acontece que foi assim que ele decolou por cima de carros.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: VIRADA
+
+## Cena b8  (~2.1 s)
+- Narracao: Mas o voo durou poucos segundos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,26 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~2.8 s)
-- Narracao: Zero a cem em menos de um segundo.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~3.8 s)
-- Narracao: Mas o voo durou poucos segundos. Ainda não é carro voador.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~2.8 s)
-- Narracao: Carro voador ou carro que pula? Você decide.
+## Cena b9  (~3.1 s)
+- Narracao: Ainda não é carro voador. Mas foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

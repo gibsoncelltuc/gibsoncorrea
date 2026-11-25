@@ -13,12 +13,11 @@ b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b6 | interior madeira | two | 1 | reagir | kit/stove, kit/gosma | - | -
 b7 | interior madeira | two | 1 | comemorar | kit/stove | borracha | -
 b8 | street | orbit | 21 | comemorar, batalha | kit/tires, kit/bola_couro, kit/borracha, kit/stove | - | -
-b9 | hall | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b10 | interior madeira | two | 1 | reagir | kit/stove, kit/gosma, kit/tires | - | -
+b9 | interior madeira | two | 1 | reagir | kit/stove, kit/gosma | - | -
 
 OBJETO HEROI: kit/borracha
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b8
-Interacoes entre personagens: b1 avanca e o outro recua, b4 o outro se aproxima, b5 empurrar, b9 discutir
+Interacoes entre personagens: b1 avanca e o outro recua, b4 o outro se aproxima, b5 empurrar
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

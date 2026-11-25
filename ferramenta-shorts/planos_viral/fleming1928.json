@@ -1,24 +1,26 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "MOFO",
- "gancho_cumprido": "Gancho: um mofo esquecido salvou milhoes de vidas por causa de uma mesa baguncada. Pagamento: o bolor matava as bacterias, virou a penicilina, salvou milhoes e deu o Nobel.",
+ "gancho_cumprido": "Gancho: um mofo esquecido numa mesa baguncada salvou milhoes, porque o cientista saiu de ferias. Pagamento: o bolor matava as bacterias, virou a penicilina e salvou milhoes; ele ganhou o Nobel.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: um mofo esquecido salvou milhões de vidas.",
-   "mofo"
+   "Um mofo esquecido numa mesa bagunçada salvou milhões de vidas.",
+   "mofo",
+   {}
   ],
   [
    10,
    "promessa",
-   "E tudo por causa de uma mesa bagunçada.",
-   "bagunçada"
+   "E tudo porque o cientista saiu de férias.",
+   "cientista",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 1928, em Londres, trabalhava o cientista Alexander Fleming.",
+   "Em 1928, Alexander Fleming trabalhava num laboratório em Londres.",
    "trabalhava",
    {}
   ],
@@ -26,30 +28,34 @@
    2,
    "prova",
    "Ele deixava os pratos de bactérias empilhados na bancada.",
-   "empilhados"
+   "empilhados",
+   {}
   ],
   [
    3,
    "prova",
    "Saiu de férias por um mês e não limpou nada.",
-   "férias"
+   "férias",
+   {}
   ],
   [
    4,
    "escalada",
-   "Quando voltou, um prato estava coberto de bolor verde.",
-   "bolor"
+   "Na volta, um prato estava coberto de bolor verde.",
+   "bolor",
+   {}
   ],
   [
    6,
    "escalada",
    "Acontece que, em volta do mofo, as bactérias tinham sumido.",
-   "sumido"
+   "sumido",
+   {}
   ],
   [
    7,
    "escalada",
-   "O mofo matava bactérias. Ele chamou isso de penicilina.",
+   "O mofo matava bactérias. Era a penicilina.",
    "penicilina",
    {
     "encena_antiga": true
@@ -59,19 +65,15 @@
    8,
    "pagamento",
    "Virou remédio e salvou milhões de pessoas.",
-   "salvou"
-  ],
-  [
-   9,
-   "pagamento",
-   "Em 1945, Fleming ganhou o Nobel.",
-   "Nobel"
+   "salvou",
+   {}
   ],
   [
    0,
    "loop",
-   "A bagunça valeu mais que qualquer faxina. Ninguém te conta isso.",
-   "bagunça"
+   "Fleming ganhou até o Nobel. E foi assim que...",
+   "Fleming",
+   {}
   ]
  ]
 }

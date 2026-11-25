@@ -13,8 +13,8 @@ b5 | countryside | group | 9 | discutir, INTERAGEM: discutir | - | - | -
 b6 | countryside | close | 13 | reagir | - | - | -
 b7 | countryside | orbit | 27 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b8 | countryside | group | 7 | reagir | cannon | - | -
-b9 | countryside | two | 7 | reagir, INTERAGEM: aproxima-se | kit/campfire, kit/tent | spyglass | -
-b10 | countryside | wide | 28 | encena, batalha | - | - | -
+b9 | countryside | two | 7 | reagir, INTERAGEM: aproxima-se, alguem chega andando | kit/campfire, kit/tent | spyglass | -
+b10 | countryside | wide | 28 | batalha | - | - | -
 
 OBJETO HEROI: kit/barrel_r
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b7, b10

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: SONHO | - | -
+b0 | two | -  | placa: SONHO | segredo (ring + som de alerta) | -
 b1 | close | -  | - | - | -
 b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | two | -  | interior, objeto na mao | - | -
@@ -14,5 +14,5 @@ b8 | wide | noite  | batalha aberta com tiros, tropa, placa: REMÉDIOS, TINTAS, 
 b9 | two | noite  | - | - | -
 b10 | two | noite  | placa: SONHO | - | -
 
-Mistura de planos: close 21% | medio 68% | aberto 7% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 21% | medio 68% | aberto 6% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

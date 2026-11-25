@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 23 - A Morte Branca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 10 cenas, 99 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um fazendeiro baixinho virou o soldado mais temido de uma guerra.
@@ -11,26 +11,26 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Texto na tela: MORTE BRANCA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.8 s)
-- Narracao: Os inimigos tinham tanto medo que deram um apelido a ele.
+## Cena b1  (~3.4 s)
+- Narracao: Tão temido que os inimigos deram um apelido a ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: No inverno de 1939, a União Soviética invadiu a Finlândia.
+## Cena b2  (~2.8 s)
+- Narracao: Em 1939, a União Soviética invadiu a Finlândia.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; invadiu -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; invadiu -> dust + som de impacto; encena: chega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: FINLÂNDIA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~2.8 s)
-- Narracao: Fazia quarenta graus abaixo de zero na floresta.
+## Cena b3  (~2.1 s)
+- Narracao: Fazia quarenta graus abaixo de zero.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.1 s)
-- Narracao: Um soldado do campo, baixinho, se chamava Simo Häyhä.
+## Cena b4  (~2.1 s)
+- Narracao: Esse soldado se chamava Simo Häyhä.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,11 +65,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Texto na tela: NEVE NA BOCA
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~4.1 s)
-- Narracao: Em cerca de cem dias, contam mais de quinhentos abatidos por ele.
+## Cena b7  (~3.8 s)
+- Narracao: Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: atira @9 -> acao + som de efeito
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: encena: atira @10 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: 100 DIAS
 - Funcao na historia: GRANDE MOMENTO
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Texto na tela: MORTE BRANCA
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: Viveu até 96 anos e dizia: só fiz meu trabalho.
+## Cena b9  (~3.8 s)
+- Narracao: Ele só dizia: fiz o meu trabalho. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

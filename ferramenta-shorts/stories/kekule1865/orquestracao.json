@@ -19,9 +19,9 @@
    "objetos": [
     "kit/snake_ring"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Ninguém te conta: um segredo da química foi resolvido num cochilo.",
+   "frase": "Um segredo da química foi resolvido num cochilo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -37,9 +37,9 @@
    "objetos": [
     "kit/snake_ring"
    ],
-   "palavras": 8,
+   "palavras": 10,
    "cena": "b1",
-   "frase": "E quem deu a resposta foi uma cobra.",
+   "frase": "E quem deu a resposta foi uma cobra de sonho.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -53,9 +53,9 @@
    ],
    "multidao": 18,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Em 1865, na Bélgica, August Kekulé tinha um problema.",
+   "frase": "Em 1865, August Kekulé tinha um problema.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -97,9 +97,9 @@
     "kit/fireplace",
     "mk/Chair_1"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b4",
-   "frase": "Numa noite fria, ele cochilou de frente para a lareira.",
+   "frase": "Numa noite fria, ele cochilou diante da lareira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -131,9 +131,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 6,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Uma delas mordeu o próprio rabo.",
+   "frase": "Acontece que uma delas mordeu o próprio rabo.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -157,7 +157,7 @@
    ],
    "palavras": 9,
    "cena": "b7",
-   "frase": "Ele acordou num pulo. O benzeno era um anel!",
+   "frase": "Ele acordou num pulo: o benzeno era um anel!",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -216,9 +216,9 @@
    "objetos": [
     "kit/snake_ring"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b10",
-   "frase": "Ele dizia: aprendam a sonhar, mas confiram acordados.",
+   "frase": "Ele dizia: aprendam a sonhar. Porque...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

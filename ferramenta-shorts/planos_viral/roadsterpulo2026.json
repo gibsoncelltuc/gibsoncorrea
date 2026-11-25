@@ -1,12 +1,12 @@
 {
  "gancho_tipo": "crenca",
  "texto_gancho": "VOOU DE VERDADE",
- "gancho_cumprido": "Gancho: um carro voou na frente de todos e o segredo sao dois truques. Pagamento: succao para a rampa de cabeca para baixo e bocais de ar comprimido para decolar; o voo durou poucos segundos.",
+ "gancho_cumprido": "Gancho: um carro voou na frente dos convidados sem efeito especial, com dois truques escondidos. Pagamento: succao para a rampa de cabeca para baixo e bocais de ar comprimido para decolar; o voo durou segundos.",
  "cenas": [
   [
    0,
    "gancho",
-   "Carro voador é coisa de filme? Este voou na frente de todos.",
+   "Um carro voou na frente dos convidados, e não era efeito especial.",
    "voou",
    {
     "encena_antiga": true,
@@ -25,8 +25,8 @@
   [
    9,
    "promessa",
-   "E o jeito que ele fez isso parece mágica.",
-   "mágica",
+   "E ninguém esperava como ele fez isso.",
+   "esperava",
    {}
   ],
   [
@@ -43,7 +43,7 @@
   [
    2,
    "prova",
-   "Primeiro truque: uma sucção gruda o carro na pista, como ventosa.",
+   "Primeiro truque: uma sucção gruda o carro na pista.",
    "gruda",
    {
     "encena_antiga": true
@@ -52,7 +52,7 @@
   [
    3,
    "prova",
-   "Assim ele subiu uma rampa curva e ficou de cabeça para baixo.",
+   "Assim ele subiu uma rampa e ficou de cabeça para baixo.",
    "subiu",
    {
     "encena_antiga": true
@@ -79,17 +79,8 @@
   [
    6,
    "escalada",
-   "Foi assim que ele decolou por cima de carros parados.",
+   "Acontece que foi assim que ele decolou por cima de carros.",
    "decolou",
-   {
-    "encena_antiga": true
-   }
-  ],
-  [
-   7,
-   "escalada",
-   "Zero a cem em menos de um segundo.",
-   "zero",
    {
     "encena_antiga": true
    }
@@ -97,14 +88,16 @@
   [
    8,
    "pagamento",
-   "Mas o voo durou poucos segundos. Ainda não é carro voador.",
-   "durou"
+   "Mas o voo durou poucos segundos.",
+   "durou",
+   {}
   ],
   [
    9,
    "loop",
-   "Carro voador ou carro que pula? Você decide.",
-   "decide"
+   "Ainda não é carro voador. Mas foi assim que...",
+   "voador",
+   {}
   ]
  ]
 }

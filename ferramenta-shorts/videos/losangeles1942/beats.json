@@ -96,7 +96,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Uma cidade inteira atirou no céu a noite toda. Não havia inimigo.",
+   "say": "Uma cidade atirou no céu a noite toda contra um inimigo invisível.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -162,7 +162,7 @@
    "mapa": "LOS ANGELES",
    "mapa_at": 3,
    "bloco": "prova",
-   "say": "Em fevereiro de 1942, Los Angeles vivia com medo do Japão.",
+   "say": "Em 1942, Los Angeles vivia com medo do Japão.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -213,7 +213,7 @@
    "quadro_manual": true,
    "objetos": false,
    "bloco": "prova",
-   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia.",
+   "say": "Na véspera, um submarino japonês atirou na Califórnia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -224,7 +224,7 @@
      {
       "faz": "atira",
       "alvo": "kit/submarino_ww2",
-      "na": "atirado"
+      "na": "atirou"
      }
     ]
    }
@@ -352,7 +352,7 @@
    "d1": 10.5,
    "quadro_manual": true,
    "bloco": "escalada",
-   "say": "Alguém viu um objeto, e os canhões antiaéreos começaram a atirar.",
+   "say": "Alguém viu algo, e os canhões antiaéreos começaram a atirar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -450,13 +450,13 @@
     "march": false
    },
    "bloco": "escalada",
-   "say": "Acontece que não havia nada lá em cima. Só nuvens e fumaça.",
+   "say": "Acontece que não havia nada lá em cima.",
    "encena": {
     "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "nuvens"
+      "na": "nada"
      }
     ]
    }
@@ -477,7 +477,7 @@
     "march": false
    },
    "bloco": "pagamento",
-   "say": "Algumas pessoas morreram por acidente e susto. Nenhum inimigo apareceu.",
+   "say": "Algumas pessoas morreram por acidente e susto.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -531,7 +531,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "O único derrotado foi o sono de Los Angeles.",
+   "say": "O medo venceu o sono. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -573,6 +573,6 @@
   ]
  },
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma cidade atirou no ceu a noite toda sem inimigo, e ninguem sabe no que atiravam. Pagamento: mais de mil tiros contra nuvens e fumaca, mortes por acidente e susto, nenhum inimigo.",
+ "gancho_cumprido": "Gancho: uma cidade atirou no ceu a noite toda contra um inimigo invisivel e ninguem sabe no que atiravam. Pagamento: mais de mil tiros, estilhacos na cidade, mortes por acidente e nada no ceu.",
  "loop_frase_ok": true
 }

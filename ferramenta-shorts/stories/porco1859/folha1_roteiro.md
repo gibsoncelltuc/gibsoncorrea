@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 105 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Dois países quase foram à guerra por causa de um porco.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Em 1859, a ilha de San Juan não tinha dono definido.
+## Cena b2  (~3.1 s)
+- Narracao: A ilha de San Juan não tinha dono definido.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -30,7 +30,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.1 s)
-- Narracao: Um fazendeiro americano pegou um porco comendo suas batatas.
+- Narracao: Um fazendeiro americano viu um porco comendo suas batatas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: TROPAS
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.8 s)
-- Narracao: A Inglaterra respondeu com navios de guerra e centenas de soldados.
+## Cena b7  (~2.4 s)
+- Narracao: A Inglaterra respondeu com navios de guerra.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.1 s)
-- Narracao: Acontece que o almirante inglês recusou atacar por causa de um porco.
+## Cena b8  (~3.1 s)
+- Narracao: Acontece que o almirante inglês se recusou a atacar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: atacar -> ring + som de alerta
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b9  (~3.4 s)
-- Narracao: Os soldados acabaram fazendo festas juntos. Ninguém deu um tiro.
+## Cena b9  (~2.1 s)
+- Narracao: Os soldados acabaram fazendo festas juntos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: vence (up) @4 -> acao + som de efeito
@@ -92,8 +92,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: FESTAS
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~3.4 s)
-- Narracao: Treze anos depois, a disputa acabou. Tudo por um porco.
+## Cena b10  (~3.8 s)
+- Narracao: Ninguém deu um tiro, só no porco. E foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -12,8 +12,8 @@ b4 | harbor | low | 2 | conversar, INTERAGEM: insiste | kit/searchlight | - | -
 b5 | street | wide | 4 | encena | kit/canhao_moderno, cannon | - | -
 b6 | loc_cidade | orbit | 22 | batalha | kit/canhao_moderno, kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | harbor | two | 14 | discutir, INTERAGEM: discutir | - | - | -
-b8 | loc_cidade | two | 14 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | - | - | -
-b9 | street | two | 14 | reagir, INTERAGEM: susto | kit/searchlight | - | -
+b8 | loc_cidade | two | 14 | conversar, INTERAGEM: o outro se aproxima | - | - | -
+b9 | street | two | 14 | comemorar, INTERAGEM: susto | kit/searchlight | - | -
 
 OBJETO HEROI: kit/searchlight
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b6

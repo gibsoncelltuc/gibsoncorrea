@@ -164,7 +164,7 @@
    "mapa_at": 4,
    "set": "harbor",
    "bloco": "prova",
-   "say": "Em 1859, a ilha de San Juan não tinha dono definido.",
+   "say": "A ilha de San Juan não tinha dono definido.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -237,13 +237,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "prova",
-   "say": "Um fazendeiro americano pegou um porco comendo suas batatas.",
+   "say": "Um fazendeiro americano viu um porco comendo suas batatas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "olha",
-      "na": "pegou",
+      "na": "porco",
       "quem": 0
      }
     ]
@@ -402,7 +402,7 @@
    ],
    "set": "harbor",
    "bloco": "escalada",
-   "say": "A Inglaterra respondeu com navios de guerra e centenas de soldados.",
+   "say": "A Inglaterra respondeu com navios de guerra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -422,7 +422,7 @@
    ],
    "interior": "madeira",
    "bloco": "escalada",
-   "say": "Acontece que o almirante inglês recusou atacar por causa de um porco.",
+   "say": "Acontece que o almirante inglês se recusou a atacar.",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -446,7 +446,7 @@
    "tat": 8,
    "tstyle": "gold",
    "bloco": "pagamento",
-   "say": "Os soldados acabaram fazendo festas juntos. Ninguém deu um tiro.",
+   "say": "Os soldados acabaram fazendo festas juntos.",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -500,7 +500,7 @@
    "shot_lock": true,
    "detalhe": false,
    "bloco": "loop",
-   "say": "Treze anos depois, a disputa acabou. Tudo por um porco.",
+   "say": "Ninguém deu um tiro, só no porco. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -546,6 +546,6 @@
  "sem_mortos": true,
  "min_momentos": 1,
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: dois paises quase foram a guerra por um porco, e a unica baixa foi ele. Pagamento: soldados e navios frente a frente, o almirante recusou atacar e ninguem deu um tiro.",
+ "gancho_cumprido": "Gancho: dois paises quase foram a guerra por um porco, a unica baixa. Pagamento: tiro no porco, dez contra cem dolares, soldados e navios; o almirante recusou atacar e ninguem deu um tiro.",
  "loop_frase_ok": true
 }

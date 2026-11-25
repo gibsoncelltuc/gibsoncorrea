@@ -75,7 +75,7 @@
    "quadro_manual": true,
    "shot_lock": true,
    "bloco": "gancho",
-   "say": "Ninguém te conta: Paris já serviu elefante no jantar.",
+   "say": "Paris já serviu elefante no jantar de Natal.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -116,7 +116,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "promessa",
-   "say": "E o cardápio tinha até canguru e lobo.",
+   "say": "E no cardápio tinha até canguru e lobo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -176,7 +176,7 @@
     "n": 0
    },
    "bloco": "prova",
-   "say": "Primeiro comeram os cavalos. Depois, os cachorros e os gatos.",
+   "say": "Primeiro comeram os cavalos. Depois, cachorros e gatos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -312,7 +312,7 @@
    ],
    "detalhe": false,
    "bloco": "escalada",
-   "say": "Um açougueiro comprou os elefantes Castor e Pólux.",
+   "say": "Acontece que um açougueiro comprou os elefantes Castor e Pólux.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -352,7 +352,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "escalada",
-   "say": "No Natal, um restaurante serviu consomê de elefante e canguru.",
+   "say": "No Natal, um restaurante serviu consomê de elefante.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -391,7 +391,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "pagamento",
-   "say": "Acontece que só os ricos podiam pagar.",
+   "say": "Só os ricos podiam pagar esse luxo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -416,7 +416,7 @@
    },
    "set": "street",
    "bloco": "pagamento",
-   "say": "O povo fazia fila no frio, com comida racionada.",
+   "say": "O povo fazia fila no frio por comida racionada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -459,13 +459,13 @@
     "passos": [
      {
       "faz": "rende",
-      "na": "rendeu",
+      "na": "zoológico",
       "quem": 0
      }
     ]
    },
    "bloco": "loop",
-   "say": "Em 1871, Paris se rendeu. De barriga vazia."
+   "say": "Na fome, até bicho de zoológico vira comida. Foi assim que..."
   }
  ],
  "heroi": "kit/bife_elefante",
@@ -502,6 +502,6 @@
  "titulo_base": "O Cardápio do Zoológico",
  "variar_cenario": false,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: Paris serviu elefante no jantar, com canguru e lobo no cardapio. Pagamento: no cerco de 1870 a comida acabou, os elefantes do zoologico viraram prato de Natal para os ricos.",
+ "gancho_cumprido": "Gancho: Paris serviu elefante no jantar de Natal, com canguru e lobo. Pagamento: no cerco de 1870 a comida acabou, os elefantes Castor e Polux viraram consome para os ricos enquanto o povo passava fome.",
  "loop_frase_ok": true
 }

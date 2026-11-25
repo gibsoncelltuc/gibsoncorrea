@@ -21,9 +21,9 @@
     "kit/marco_notredame",
     "mk/Table_Large"
    ],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Ninguém te conta: Paris já serviu elefante no jantar.",
+   "frase": "Paris já serviu elefante no jantar de Natal.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -42,7 +42,7 @@
    ],
    "palavras": 8,
    "cena": "b1",
-   "frase": "E o cardápio tinha até canguru e lobo.",
+   "frase": "E no cardápio tinha até canguru e lobo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,9 +76,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "Primeiro comeram os cavalos. Depois, os cachorros e os gatos.",
+   "frase": "Primeiro comeram os cavalos. Depois, cachorros e gatos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -86,7 +86,7 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "PAR",
     "CHF"
@@ -100,9 +100,15 @@
    "palavras": 7,
    "cena": "b4",
    "frase": "Depois os roedores, que viraram prato chique.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -133,9 +139,9 @@
    ],
    "multidao": 12,
    "objetos": [],
-   "palavras": 8,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Um açougueiro comprou os elefantes Castor e Pólux.",
+   "frase": "Acontece que um açougueiro comprou os elefantes Castor e Pólux.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -158,9 +164,9 @@
    "objetos": [
     "kit/bife_elefante"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "No Natal, um restaurante serviu consomê de elefante e canguru.",
+   "frase": "No Natal, um restaurante serviu consomê de elefante.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -168,7 +174,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "CHF",
     "PAR"
@@ -180,21 +186,15 @@
    ],
    "palavras": 7,
    "cena": "b8",
-   "frase": "Acontece que só os ricos podiam pagar.",
-   "classe": "chave",
+   "frase": "Só os ricos podiam pagar esse luxo.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "PAR",
     "PAR"
@@ -205,7 +205,7 @@
    ],
    "palavras": 9,
    "cena": "b9",
-   "frase": "O povo fazia fila no frio, com comida racionada.",
+   "frase": "O povo fazia fila no frio por comida racionada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -224,9 +224,9 @@
     "kit/marco_notredame",
     "mk/Table_Large"
    ],
-   "palavras": 8,
+   "palavras": 11,
    "cena": "b10",
-   "frase": "Em 1871, Paris se rendeu. De barriga vazia.",
+   "frase": "Na fome, até bicho de zoológico vira comida. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
