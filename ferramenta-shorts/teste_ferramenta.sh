@@ -215,7 +215,7 @@ python3 -c "
 import re; s=open('suspeitas.py').read(); R=eval(re.search(r\"^MUITA = (r'.*')\",s,re.M).group(1)); raise SystemExit(0 if not re.search(R,'repetiu os testes centenas de vezes') and re.search(R,'centenas de pessoas') else 1)" || f "'centenas de vezes' vira multidao de clones (Abelhas)"
 grep -q "veiculo que ANIMA (sem 'fixo' no roteiro" enquadrar.py && grep -q "3o objeto grande nao empilha" enquadrar.py || f "enquadrar marca o carro que voa como 'fixo' (mata a animacao) e empilha objetos (Roadster)"
 grep -q "placa de ano" checagem_coerencia.py || f "placa com o ano na cena do gancho passa (Tulipas, Goodyear)"
-grep -q "maçã' sem acento vira 'maca' de hospital" mkvideo.py && grep -q "celular', _sy_) and (ANO or 2024) >= 2007" mkvideo.py || f "maçã vira hospital (Newton) / foto em 1895 vira celular (Rontgen)"
+grep -q "maçã' sem acento vira 'maca' de hospital" mkvideo.py && grep -q "celular', _sy_) and (ANO or _ANO0 or 2024) >= 2007" mkvideo.py || f "maçã vira hospital (Newton) / foto em 1895 vira celular (Rontgen)"
 grep -q "e.k === 'raio'" web/runtime.js && grep -q "k: 'raio'" mkvideo.py || f "historia de raio/tempestade sem relampago na tela (Franklin)"
 grep -q "WX.hail = w.hail" web/weather.js && grep -q "gustMesh" web/weather.js && grep -q "'granizo': {'hail'" mkvideo.py && grep -q "'gelo': {'ice'" mkvideo.py && grep -q "TEMPESTADE: relampago no ceu de tempo em tempo" mkvideo.py || f "clima incompleto: granizo, gelo, vento forte visivel, relampago na tempestade"
 python3 -c "
@@ -239,6 +239,7 @@ grep -q "petri_mofo ja em cena = nao poe outra placa" mkvideo.py || f "variante 
 grep -q "objeto EM CIMA da mesa/bancada" enquadrar.py || f "enquadrar separava a bancada do objeto em cima dela (Darwin)"
 grep -q "nao vira o grande momento com multidao (tapava o submarino)" mkvideo.py || f "grande momento automatico punha multidao em cena com crowd 0 / quadro_manual (LA)"
 grep -q "todo mundo achava que vinha mais. e. opiniao" mkvideo.py || f "todo mundo achava (opiniao) virava multidao lotada tapando o submarino (LA)"
+grep -q "celular antes de 2007 = camera de tripe" mkvideo.py && grep -q "(ANO or _ANO0 or 2024) >= 2007" mkvideo.py || f "celular na mao em 1895 (fotografou) - Rontgen B"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

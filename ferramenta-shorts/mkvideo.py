@@ -1871,7 +1871,7 @@ def build_beat(k, b):
             elif tipo_ == 'negocio':
                 pr.append(f"{{ asset: 'kit/coin', a: WS({wi_}) - 2, b: WS({wi_}) + 50, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: (f) => DK + 1.5 + 0.25 * Math.sin(f * 0.2), spinY: 2, s: 0.35, drop: false }}"); KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'tira':
-                if re.search(r'foto|selfie|fotograf|film|grav|celular', _sy_) and (ANO or 2024) >= 2007: pr.append(f"{{ asset: 'kit/phone', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], y: DK + 2.0, s: 0.35, drop: false }}"); fx.append(f"{{ k: 'flash', a: WS({wi_}) + 6, b: WS({wi_}) + 12, at: [X + {num(_hx)}, DK + 0.8, {num(_z0 + 0.7)}], s: 1.2 }}")
+                if re.search(r'foto|selfie|fotograf|film|grav|celular', _sy_) and (ANO or _ANO0 or 2024) >= 2007: pr.append(f"{{ asset: 'kit/phone', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], y: DK + 2.0, s: 0.35, drop: false }}"); fx.append(f"{{ k: 'flash', a: WS({wi_}) + 6, b: WS({wi_}) + 12, at: [X + {num(_hx)}, DK + 0.8, {num(_z0 + 0.7)}], s: 1.2 }}")
                 KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'rende':
                 fx.append(f"{{ k: 'stars', a: WS({wi_}) + 4, b: WS({wi_}) + 34, at: [X + {num(sl[0])}, DK + 3.0, {num(_z0)}], s: 0.6 }}"); KWSFX.append((wi_, 'sting'))
@@ -1924,6 +1924,7 @@ def build_beat(k, b):
                       'x_costura': ('tick', None, None), 'x_pinta': ('tick', 'stars', None), 'x_bate': ('thump', 'burst', None), 'x_procura': ('tick', None, 'kit/lupa'), 'x_vigia': ('tick', None, None), 'x_saluda': ('sting', None, None),
                       'x_reza': ('ding', 'stars', None), 'x_aplaude': ('ding', 'stars', None), 'x_abraca': ('ding', 'stars', None), 'x_acorda': ('ding', 'stars', None), 'x_espera': ('tick', None, None), 'x_treme': ('creak', None, None),
                       'x_tosse': ('thump', 'puff', None), 'x_nada': ('creak', 'splash', None), 'x_ri': ('laughs', 'stars', None), 'x_abre': ('creak', None, None), 'x_solta': ('ding', 'stars', None), 'x_entrega': ('tick', None, None), 'x_discute': ('sting', None, None), 'x_aperta': ('ding', 'stars', None), 'x_desce': ('thump', 'dust', None), 'x_defende': ('thump', 'ring', None), 'x_dirige': ('tick', 'dust', None)}.get(tipo_, ('tick', None, None))
+                if _X[2] == 'kit/phone' and (ANO or _ANO0 or 2024) < 2007: _X = (_X[0], _X[1], 'kit/tripe_camera' if re.search(r'foto|fotograf|film|retrat', _sy_) else None)   # 25/11 Rontgen (B): celular antes de 2007 = camera de tripe (foto) ou nada
                 if _X[2] and _X[2] not in ' '.join(pr): pr.append(f"{{ asset: {json.dumps(_X[2])}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: DK + {1.9 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0}, s: {0.35 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0.6}, drop: false }}")
                 if _X[1]: fx.append(f"{{ k: {json.dumps(_X[1])}, a: WS({wi_}) + 3, b: WS({wi_}) + 30, at: [X + {num(sl[0] + (0.6 if _X[1] in ('splash', 'puff') else 0))}, DK + {2.6 if _X[1] in ('stars', 'ring') else 1.6}, {num(_z0 + 0.4)}], s: 0.6 }}")
                 if tipo_ == 'x_treme' and acts: _gst.setdefault('inter', []).append(f"inter: {{ k: 'shiver', a: WS({wi_}), b: WS({wi_}) + 50, dir: 1, n: 3, ph: 0 }}")
