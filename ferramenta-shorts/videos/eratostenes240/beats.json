@@ -579,7 +579,7 @@
    "d1": 11.5
   }
  ],
- "exp": 0.9,
+ "exp": 1.416,
  "regiao": "classico",
  "marco": "kit/marco_alexandria",
  "visual": {
@@ -627,5 +627,6 @@
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
  "loop_frase_ok": true,
- "max_wide": 4
+ "max_wide": 4,
+ "cinf": 1.5
 }
