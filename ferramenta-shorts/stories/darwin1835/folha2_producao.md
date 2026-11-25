@@ -51,7 +51,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): DAR (variante 0, expressao neutral, segura bag); MAR (variante 0, expressao smile) | multidao: 6 de POV
+- Personagens principais (2): DAR (variante 0, expressao neutral, segura bag); MAR (variante 0, expressao smile)
 - Animacao: encena
 - Objetos/modelos: kit/finch, kit/bancada, kit/navio_fragata
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): beagle, ilha, viagem
@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): DAR (variante 0, expressao suspicious, segura paper); MAR (variante 0, expressao bored)
+- Personagens principais (2): DAR (variante 0, expressao suspicious, segura paper); MAR (variante 0, expressao bored) | multidao: 0 de POV
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/navio_fragata, kit/finch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -215,10 +215,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - No fim, o erro das etiquetas virou um acerto de bico.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): DAR (variante 0, expressao smug) | multidao: 6 de POV
-- Animacao: -
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): DAR (variante 0, expressao smug)
+- Animacao: conversar
 - Objetos/modelos: kit/finch, kit/bancada
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acerto, bico, erro, etiquetas
 - RISCOS: nenhum
@@ -258,7 +258,7 @@ kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 
 
 ## Video inteiro
-- Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 10% | medio 50% | aberto 34% | detalhe 6%
+- Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 57% | aberto 28% | detalhe 6%
 - Interacoes: b0 vai ate o outro, b5 aproxima-se, b6 cochichar, b8 pular
 - RISCOS GERAIS: nenhum
 

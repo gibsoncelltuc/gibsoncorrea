@@ -55,7 +55,7 @@
     "DAR",
     "MAR"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/bancada",
     "kit/finch",
@@ -201,11 +201,11 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "DAR"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/bancada",
     "kit/finch"
@@ -213,7 +213,7 @@
    "palavras": 11,
    "cena": "b9",
    "frase": "No fim, o erro das etiquetas virou um acerto de bico.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

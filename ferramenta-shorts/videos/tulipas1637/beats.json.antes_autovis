@@ -503,9 +503,9 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.7,
-   "d0": 10.0,
-   "d1": 8.5,
+   "cz": -0.5,
+   "d0": 11.5,
+   "d1": 10.0,
    "quadro_manual": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
@@ -524,7 +524,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "shot_lock": true
   },
   {
    "shot": "two",
