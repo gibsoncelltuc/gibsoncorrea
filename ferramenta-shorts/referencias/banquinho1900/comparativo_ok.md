@@ -1,0 +1,2 @@
+kit/golden_stool: OK - assento curvo em cima de coluna central e base retangular, com sinos pendurados nas pontas, igual ao banquinho ashanti da foto (2a referencia) e a foto de 1935 com os sinos; dourado como o Sika Dwa Kofi
+kit/forte_colonial: OK - forte ingles de Kumasi (1896-1900) era quadrado, de pedra clara, com torres redondas nos cantos e bandeira; o modelo segue isso (sem foto baixada: busca sem resultado util, descrito pela pesquisa historica)

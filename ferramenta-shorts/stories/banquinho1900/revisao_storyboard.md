@@ -1,7 +1,7 @@
 b0: OK - "Um governador ingles pediu para sentar num banquinho": governador e ashanti ao lado do banquinho dourado grande (gancho)
 b1: OK - "a Costa do Ouro, hoje Gana, terra do povo ashanti": mapa de Gana e povo ashanti na mata
 b2: OK - "um banquinho dourado sagrado, a alma do povo": banquinho dourado no meio do povo
-b3: OK - "o governador ingles exigiu o banquinho": governador bravo com papel diante do chefe assustado, banquinho ao fundo
+b3: OK - "o governador ingles exigiu o banquinho": governador bravo com o papel da exigencia diante do banquinho dourado, na sala
 b4: OK - "Os lideres ashanti ficaram em choque": chefe e ashanti em choque e com raiva na aldeia
 b5: OK - "se revoltaram e cercaram o forte": ashanti bravos diante do forte, FORTE CERCADO
 b6: OK - "Soldados ingleses marcharam... a guerra seguiu por varios meses": tropa inglesa em batalha na mata
