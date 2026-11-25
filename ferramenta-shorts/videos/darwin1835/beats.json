@@ -79,15 +79,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "explicou"
+      "faz": "mostra",
+      "na": "passarinhos"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -141,12 +139,11 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "chegou"
+      "na": "chegou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -190,12 +187,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "pega",
-      "na": "coletou"
+      "na": "Coletou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -214,12 +210,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "achou"
+      "na": "Achou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -263,12 +258,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "revelou"
+      "na": "revelou",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -331,20 +325,13 @@
    "d1": 11.5,
    "_auto_vis": 2,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "quebra",
-      "na": "quebrar"
-     },
-     {
-      "quem": 0,
-      "faz": "pega",
-      "na": "pegar"
+      "faz": "mostra",
+      "na": "bico"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -434,10 +421,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "bico"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -478,14 +464,13 @@
    "d1": 11.5,
    "_auto_vis": 2,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Os"
+      "na": "bichos"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -498,15 +483,14 @@
    ],
    "acao": "comemorar",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "pensa",
-      "na": "ideia"
+      "na": "ideia",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -544,14 +528,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "No"
+      "na": "etiquetas"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

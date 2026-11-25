@@ -6,11 +6,11 @@ b0 | two | -  | tropa, placa: 1961 | - | -
 b1 | wide | -  | batalha aberta com tiros, tropa, mapa | encena: x_pesca (lift) @10 (acao + som de efeito) | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | tropa | - | -
-b4 | wide | -  | tropa | encena: fala (point) @2 (acao + som de efeito); encena: x_defende (cross) @8 (acao + som de efeito) | -
+b4 | wide | -  | tropa | encena: fala (point) @2 (acao + som de efeito) | -
 b5 | two | -  | tropa, placa: NAVIOS E AVIÕES | - | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | encena: olha (point) @5 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito); encena: olha (point) @21 (acao + som de efeito) | -
-b7 | two | -  | interior, objeto na mao | - | -
-b8 | reveal | -  | placa: 1963 | chegaram (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito); encena: x_pesca (lift) @9 (acao + som de efeito) | -
+b6 | orbit | -  | batalha aberta com tiros, tropa | encena: olha (point) @5 (acao + som de efeito) | -
+b7 | two | -  | interior, objeto na mao | encena: fala (point) @11 (acao + som de efeito) | -
+b8 | reveal | -  | placa: 1963 | chegaram (dust + som de impacto); encena: x_aperta (point) @4 (acao + som de efeito); aperto de mao (acao + som de efeito) | -
 b9 | wide | -  | tropa | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 

@@ -10,7 +10,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/balde_madeira (FALTA MODELAR), tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira, premio, vencedor
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: vencedor -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b1 - Módena e Bolonha disputavam a fronteira havia décadas.
 - Cenario: medieval | luz: day | clima: limpo
@@ -70,7 +71,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): derrotados, festa, invadir
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: invadir -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b7 - Na volta, levaram como troféu um balde de madeira, tirado de um poço p...
 - Cenario: medieval | luz: day | clima: limpo
@@ -132,9 +134,13 @@ kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 - Interacoes: b0 susto, b1 o outro se aproxima, b3 insiste, b5 aproxima-se, b6 pular, b7 vai ate o outro, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py balde1325  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/balde1325/moodboard.jpg
+  - 2 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
+- b0: ACAO SEM ANIMACAO na narracao: vencedor
+- b6: ACAO SEM ANIMACAO na narracao: invadir
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: 2 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh balde1325 bN bM` (so essas cenas).

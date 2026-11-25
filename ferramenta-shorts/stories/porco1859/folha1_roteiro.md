@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Um fazendeiro americano pegou um porco comendo as batatas da horta.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: pega (lift) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
 - Som ambiente: birds
 - Efeitos sonoros marcados: gun@24, squeal@30
-- Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: atira @5 -> acao + som de efeito
 - Efeito visual marcado: burst@24
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) @2 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: fala (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TROPAS
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: fala (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: x_entrega (reach) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: atacar -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: vence (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: FESTAS
 - Funcao na historia: desenvolvimento

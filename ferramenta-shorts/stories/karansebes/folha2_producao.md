@@ -5,9 +5,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b0 - Um exército inteiro conseguiu perder uma batalha contra si mesmo.
 - Cenario: countryside | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (4): AUT (variante 0, expressao neutral); AUT (variante 1, expressao stern); AUT (variante 2, expressao neutral); AUT (variante 3, expressao stern) | multidao: 48 de AUT/HUS
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, exercito
 - RISCOS: nenhum
@@ -40,7 +40,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir | interacao: aproxima-se
 - Objetos/modelos: barrel, kit/barrel_r
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: vendendo -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b4 - Compraram tudo, beberam, e a festa começou.
 - Cenario: countryside | luz: noite | clima: limpo
@@ -141,9 +142,12 @@ cannon | b8 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 11% | medio 66% | aberto 21% | detalhe 1%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b9 avanca e o outro recua, b10 pular
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b3: ACAO SEM ANIMACAO na narracao: vendendo
+- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).

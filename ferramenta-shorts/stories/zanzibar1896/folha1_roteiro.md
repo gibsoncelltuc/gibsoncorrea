@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: O sultão morreu, e um primo ocupou o palácio sem pedir licença.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @2 -> acao + som de efeito; encena: chega (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: chega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: x_abre (push) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 2.800
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: Os ingleses colocaram outro sultão no trono.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: OUTRO SULTÃO
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: E ainda mandaram a conta das balas para os derrotados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: perde (facepalm) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

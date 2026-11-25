@@ -135,4 +135,7 @@ PENDENCIAS EM 24/11 19:35: Lagosta b7 na refazer.txt (depois: revisao_final ja q
 ## LEITURA ESCRITA DE CADA FRASE (25/11, pedido do Gibson: "solucao definitiva para a ferramenta entender o contexto")
 - A ferramenta (codigo) nao entende frase; quem entende e' a IA. Toda frase leva no beats.json o "encena": {"sentido": afirmativa|negativa|hipotese|figurada|fato, "passos": [{quem, faz, alvo, na}]} escrito por quem LEU a frase (encenacao.py; GUIA "LEITURA ESCRITA"). A ferramenta so' executa; a folha 3 mostra a leitura passo a passo.
 - aprovar_storyboard.sh RECUSA sem leitura em todas as frases. Passo com verbo que a ferramenta nao tem = FALTA ANIMACAO (trava): construir a animacao, nunca pular.
+- Procedimento: rascunho automatico (stories/<id>/leitura.md) -> a IA LE e escreve com `encenacao.py revisar <id>` -> mkvideo -> `encenacao.py conferir` (mao dupla) -> `forcar` se preciso. A leitura MANDA: acao fora dela nao acontece. Fila principal 100% revisada em 25/11.
 - Novos verbos de 25/11: anda_ate (entra andando ate o objeto), entra_em (entra e senta DENTRO do recipiente), transborda (agua azul espirrando pela borda na palavra).
+
+- NUNCA editar make_video.sh/run_queue.sh com a fila rodando (bash le o script aos pedacos: edicao no meio = "syntax error" e o video para depois do render). Editar so' com a fila parada ou entre um video e outro.

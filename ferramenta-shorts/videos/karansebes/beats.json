@@ -86,15 +86,14 @@
     "HUS"
    ],
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
       "faz": "perde",
-      "na": "perder"
+      "na": "perder",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -123,12 +122,11 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "marchando"
+      "na": "marchando",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -163,11 +161,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Numa"
+      "faz": "chega",
+      "na": "procurar",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -220,14 +219,15 @@
     ]
    },
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Não"
+      "faz": "olha",
+      "na": "acharam",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -270,22 +270,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "negocio",
-      "na": "compraram"
-     },
-     {
-      "quem": 0,
       "faz": "x_bebe",
-      "na": "beberam"
+      "na": "beberam",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "festa"
+      "na": "festa",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -319,17 +313,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "chegou"
+      "na": "chegou",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "atira",
-      "na": "tiro"
+      "na": "tiro",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -356,17 +349,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "grita",
-      "na": "gritou"
-     },
-     {
-      "quem": 0,
-      "faz": "grita",
-      "na": "panico"
+      "na": "gritou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -394,15 +381,14 @@
     "HUS"
    ],
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "atira",
-      "na": "atirava"
+      "na": "atirava",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -481,22 +467,15 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mandou"
+      "na": "mandou",
+      "quem": 0
      },
      {
-      "quem": 0,
-      "faz": "atira",
-      "na": "artilharia"
-     },
-     {
-      "quem": 0,
       "faz": "atira",
       "na": "dispararam"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -517,22 +496,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "chegaram"
+      "na": "chegaram",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "acharam"
-     },
-     {
-      "quem": 0,
-      "faz": "sai",
-      "na": "abandonado"
+      "na": "acharam",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -552,12 +525,11 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "venceram"
+      "na": "venceram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

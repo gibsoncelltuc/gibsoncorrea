@@ -107,17 +107,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "espeta",
-      "na": "ferido"
-     },
-     {
-      "quem": 0,
-      "faz": "pega",
-      "na": "levou"
+      "faz": "mostra",
+      "na": "canivetada"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -160,14 +153,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Ohio"
+      "na": "mapa"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -182,17 +174,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mandou"
-     },
-     {
-      "quem": 0,
-      "faz": "chega",
-      "na": "ocupar"
+      "na": "mandou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -221,17 +207,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "respondeu"
-     },
-     {
-      "quem": 0,
-      "faz": "chega",
-      "na": "chegaram"
+      "na": "respondeu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -287,15 +267,14 @@
     ]
    },
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "atira",
-      "na": "tiros"
+      "na": "tiros",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -380,17 +359,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "espeta",
-      "na": "espetado"
-     },
-     {
+      "na": "espetado",
       "quem": 0,
-      "faz": "golpe",
-      "na": "briga"
+      "alvo_quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -407,17 +381,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mandou"
-     },
-     {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "ofereceu"
+      "na": "mandou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -429,15 +397,13 @@
    ],
    "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "levou"
+      "faz": "mostra",
+      "na": "floresta"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -482,15 +448,13 @@
    },
    "_auto_vis": 3,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "paga",
-      "na": "fortuna"
+      "faz": "mostra",
+      "na": "cobre"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -503,15 +467,14 @@
    "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
    "interior": "madeira",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
       "faz": "perde",
-      "na": "perdeu"
+      "na": "perdeu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

@@ -11,7 +11,7 @@ b5 | close | noite  | interior | encena: brilha (point) @2 (acao + som de efeito
 b6 | two | dia limpo | interior, objeto na mao | encena: pega (lift) @1 (acao + som de efeito) | -
 b7 | orbit | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
 b8 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @17 (acao + som de efeito) | -
-b9 | two | dia limpo | interior | encena: pega (lift) @6 (acao + som de efeito) | -
+b9 | two | dia limpo | interior | - | -
 b10 | close | dia limpo | interior, objeto na mao | encena: x_le (think) @1 (acao + som de efeito); encena: escreve (write) @4 (acao + som de efeito) | -
 b11 | two | dia limpo | interior | - | -
 b12 | close | dia  | interior, placa: COMENTE! | - | -

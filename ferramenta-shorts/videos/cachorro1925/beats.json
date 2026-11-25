@@ -70,12 +70,10 @@
     "sentido": "hipotese",
     "passos": [
      {
-      "quem": 0,
-      "faz": "corre",
-      "na": "fugiu"
+      "faz": "mostra",
+      "na": "cachorro"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -102,10 +100,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Em"
+      "na": "fronteira"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -128,17 +125,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "corre",
-      "na": "correu"
-     },
-     {
-      "quem": 0,
-      "faz": "chega",
-      "na": "cruzou"
+      "na": "correu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -170,27 +161,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "atira",
-      "na": "atiraram"
+      "na": "atiraram",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "tomba",
-      "na": "tombou"
-     },
-     {
-      "quem": 0,
-      "faz": "fala",
-      "na": "pediu"
-     },
-     {
-      "quem": 0,
-      "faz": "examina",
-      "na": "investigar"
+      "na": "tombou",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -207,22 +187,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "deu"
-     },
-     {
-      "quem": 0,
       "faz": "fala",
-      "na": "pedir"
-     },
-     {
-      "quem": 0,
-      "faz": "paga",
-      "na": "pagar"
+      "na": "recusou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -254,17 +223,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "invadiu"
-     },
-     {
-      "quem": 0,
-      "faz": "chega",
-      "na": "ocupou"
+      "na": "invadiu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -283,11 +246,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Só"
+      "faz": "fala",
+      "na": "apelou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -311,22 +274,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mandou"
-     },
-     {
-      "quem": 0,
-      "faz": "sai",
-      "na": "retirou"
-     },
-     {
-      "quem": 0,
-      "faz": "negocio",
-      "na": "pagou"
+      "na": "mandou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -357,10 +309,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Até"
+      "na": "cachorro"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

@@ -100,14 +100,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Existem"
+      "na": "cadernos"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -130,10 +129,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Era"
+      "na": "Paris"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -152,10 +150,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Marie"
+      "na": "galpão"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -172,12 +169,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mistura",
-      "na": "mexia"
+      "na": "mexia",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -227,17 +223,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mistura",
-      "na": "mexendo"
+      "na": "Mexendo",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "examina",
-      "na": "descobriram"
+      "na": "descobriram",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -287,17 +282,15 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "brilha",
       "na": "brilhava"
      },
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "olhar"
+      "na": "olhar",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -314,12 +307,11 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "pega",
-      "na": "carregava"
+      "na": "carregava",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -359,12 +351,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "ganhou"
+      "na": "ganhou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -385,12 +376,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "morre",
-      "na": "morreu"
+      "na": "morreu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -432,15 +422,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "guardados"
+      "faz": "mostra",
+      "na": "cadernos"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -486,20 +474,19 @@
    "d0": 8.4,
    "d1": 8.0,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_le",
-      "na": "ler"
+      "na": "ler",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "escreve",
-      "na": "assinar"
+      "na": "assinar",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -539,14 +526,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Ou"
+      "na": "cadernos"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

@@ -109,15 +109,13 @@
    },
    "detalhe": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "salvando"
+      "faz": "mostra",
+      "na": "mofo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -143,10 +141,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Era"
+      "na": "Londres"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -164,17 +161,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "examina",
-      "na": "estudava"
-     },
-     {
-      "quem": 0,
-      "faz": "pega",
-      "na": "empilhados"
+      "na": "estudava",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -190,12 +181,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "sai",
-      "na": "saiu"
+      "na": "saiu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -264,17 +254,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "voltou"
+      "na": "voltou",
+      "quem": 1
      },
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "achou"
+      "na": "achou",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -341,17 +330,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "cai",
-      "na": "jogar"
-     },
-     {
-      "quem": 0,
       "faz": "olha",
-      "na": "olhou"
+      "na": "olhou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -435,10 +418,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "mofo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -460,14 +442,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "O"
+      "na": "penicilina"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -484,17 +465,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "vira",
-      "na": "transformaram"
-     },
-     {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "salvou"
+      "faz": "mostra",
+      "na": "remédio"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -528,15 +502,14 @@
    ],
    "acao": "comemorar",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "ganhou"
+      "na": "ganhou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -547,14 +520,13 @@
    ],
    "interior": "madeira",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "No"
+      "na": "bagunça"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

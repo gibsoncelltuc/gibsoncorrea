@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.
 - Som ambiente: sea
 - Efeitos sonoros marcados: cannon@68
-- Efeito + som nas palavras-chave: encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@68
 - Texto na tela: SUBMARINO JAPONÊS
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: toca @3 -> acao + som de efeito; encena: empurra (push) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@40, cannon@100, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; tiros -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; caíram -> dust + som de impacto; pânico -> dust + som de impacto; encena: atira @4 -> acao + som de efeito; encena: grita (up) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; tiros -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; caíram -> dust + som de impacto; pânico -> dust + som de impacto; encena: grita (up) @16 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@100
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O único alvo derrotado naquela noite foi o sono de Los Angeles.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: derrotado -> puff + som de baque; encena: perde (facepalm) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: derrotado -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

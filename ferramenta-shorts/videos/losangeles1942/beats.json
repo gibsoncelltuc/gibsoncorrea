@@ -107,15 +107,14 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "atira",
-      "na": "atirando"
+      "na": "atirando",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -141,10 +140,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Era"
+      "na": "Pearl"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -203,12 +201,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "atira",
-      "na": "atirado"
+      "faz": "mostra",
+      "na": "submarino"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -289,17 +285,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "toca",
-      "na": "sirenes"
-     },
-     {
-      "quem": 0,
-      "faz": "empurra",
-      "na": "apagaram"
+      "faz": "mostra",
+      "na": "holofotes"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -379,17 +368,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "viu"
+      "na": "viu",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "atira",
-      "na": "atirar"
+      "na": "atirar",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -412,14 +400,13 @@
    },
    "_susp_ok": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Os"
+      "na": "nuvens"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -495,17 +482,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "atira",
-      "na": "tiros"
-     },
-     {
-      "quem": 0,
       "faz": "grita",
-      "na": "panico"
+      "na": "pânico",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -518,15 +499,15 @@
    "interacao": "susto",
    "say": "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_discute",
-      "na": "discutiram"
+      "na": "discutiram",
+      "quem": 0,
+      "alvo_quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -539,14 +520,13 @@
    "set": "loc_cidade",
    "hora": "noite",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Algumas"
+      "na": "morreram"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "crowd": {
     "n": 12,
@@ -593,15 +573,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
-      "faz": "perde",
-      "na": "derrotado"
+      "faz": "mostra",
+      "na": "sono"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

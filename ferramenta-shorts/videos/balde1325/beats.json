@@ -71,15 +71,13 @@
    ],
    "detalhe": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "vence",
-      "na": "premio"
+      "faz": "mostra",
+      "na": "balde"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -96,12 +94,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_discute",
-      "na": "disputavam"
+      "na": "disputavam",
+      "quem": 0,
+      "alvo_quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -123,20 +121,14 @@
    "say": "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.",
    "set": "loc_campo",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "juntou"
-     },
-     {
-      "quem": 0,
       "faz": "chega",
-      "na": "marchou"
+      "na": "marchou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -161,10 +153,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Módena"
+      "na": "homens"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -193,12 +184,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "corre",
-      "na": "fugiu"
+      "na": "fugiu",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -244,17 +234,15 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "morre",
-      "na": "morreram"
+      "na": "Morreram"
      },
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "chegaram"
+      "na": "chegaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -279,27 +267,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "invadir"
-     },
-     {
-      "quem": 0,
       "faz": "vence",
-      "na": "festa"
+      "na": "festa",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "x_ri",
-      "na": "zombar"
-     },
-     {
-      "quem": 0,
-      "faz": "perde",
-      "na": "derrotados"
+      "na": "zombar",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -350,12 +327,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "pega",
-      "na": "levaram"
+      "na": "levaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -384,20 +360,13 @@
    "shot_lock": true,
    "text": "TORRE GHIRLANDINA",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "guardado"
-     },
-     {
-      "quem": 0,
-      "faz": "vence",
-      "na": "vitoria"
+      "faz": "mostra",
+      "na": "balde"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -410,14 +379,13 @@
    "tiros": false,
    "say": "Séculos depois, um poeta transformou a história numa sátira famosa.",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Séculos"
+      "na": "poeta"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

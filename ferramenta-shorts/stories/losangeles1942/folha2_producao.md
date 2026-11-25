@@ -27,10 +27,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): CID (variante 0, expressao scared) | multidao: 30 de 
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/submarino_ww2
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, submarino, vespera
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: atirado -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b3 - Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e ho...
 - Cenario: harbor | luz: noite | clima: limpo
@@ -40,7 +41,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, luzes, madrugada, sirenes
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: tocaram -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b4 - Alguém viu um objeto no céu, e os soldados começaram a atirar com canh...
 - Cenario: street | luz: noite | clima: limpo
@@ -131,7 +133,9 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 - Interacoes: b0 susto, b3 entregar, b5 discutir, b7 susto, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b2: ACAO SEM ANIMACAO na narracao: atirado
+- b3: ACAO SEM ANIMACAO na narracao: tocaram
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh losangeles1942 bN bM` (so essas cenas).

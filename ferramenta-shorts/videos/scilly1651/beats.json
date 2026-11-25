@@ -84,10 +84,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Uma"
+      "na": "ilha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -109,14 +108,13 @@
    "say": "Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
    "fachada": false,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Tudo"
+      "na": "Scilly"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -163,8 +161,7 @@
       "faz": "mostra",
       "na": "Piratas"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -189,17 +186,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mandou"
-     },
-     {
-      "quem": 0,
-      "faz": "paga",
-      "na": "dinheiro"
+      "na": "mandou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -235,15 +226,14 @@
    "d0": 15.0,
    "d1": 14.0,
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "declarou"
+      "na": "declarou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -263,10 +253,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "ingleses"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -282,17 +271,10 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "seguiu"
-     },
-     {
-      "quem": 0,
-      "faz": "chega",
-      "na": "seguiram"
+      "faz": "mostra",
+      "na": "ilhas"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -307,12 +289,11 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "perguntou"
+      "na": "perguntou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -328,11 +309,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "No"
+      "faz": "chega",
+      "na": "foi",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -356,12 +338,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "escreve",
-      "na": "assinaram"
+      "na": "assinaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -384,14 +365,13 @@
    "set": "harbor",
    "fachada": false,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "guerra"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

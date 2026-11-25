@@ -81,14 +81,13 @@
    "titulo": true,
    "acao": "conversar",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "El"
+      "na": "prisão"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -114,10 +113,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Foi"
+      "na": "inaugurada"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -133,10 +131,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Por"
+      "na": "gangues"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -167,14 +164,14 @@
     "expr": "scared"
    },
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Em"
+      "faz": "fala",
+      "na": "decretou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -211,20 +208,13 @@
    "cx": 0,
    "cz": -14.5,
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "guardar"
-     },
-     {
-      "quem": 0,
-      "faz": "constroi",
+      "faz": "mostra",
       "na": "ergueram"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -239,14 +229,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
       "na": "Muralhas"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -283,10 +272,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "despencaram"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -313,12 +301,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "protesto",
-      "na": "denunciaram"
+      "na": "denunciaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -335,11 +322,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "O"
+      "faz": "fala",
+      "na": "responde",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -368,14 +355,13 @@
    "set": "loc_patio",
    "_susp_ok": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "prisão"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -396,15 +382,13 @@
    "text": "COPIADO E CRITICADO",
    "titulo": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
-      "faz": "escreve",
-      "na": "copiado"
+      "faz": "mostra",
+      "na": "modelo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

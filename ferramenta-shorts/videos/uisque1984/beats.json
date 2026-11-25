@@ -89,15 +89,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
-      "faz": "golpe",
-      "na": "brigaram"
+      "faz": "mostra",
+      "na": "uísque"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -111,14 +109,13 @@
    "mapa_at": 3,
    "say": "A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia.",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "ilha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -135,10 +132,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Os"
+      "na": "ilha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -199,15 +195,14 @@
    "d1": 27.2,
    "_susp_ok": true,
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "desembarcaram"
+      "na": "desembarcaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -267,10 +262,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Eles"
+      "na": "bandeira"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -324,12 +318,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "apareceram"
+      "na": "apareceram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -374,10 +367,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "E"
+      "na": "bilhete"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -393,17 +385,17 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "voltaram"
+      "na": "voltaram",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "x_entrega",
-      "na": "trocar"
+      "na": "trocar",
+      "quem": 0,
+      "alvo_quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -419,11 +411,12 @@
     "sentido": "figurada",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "A"
+      "faz": "x_ri",
+      "na": "piada",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -439,12 +432,13 @@
     "sentido": "fato",
     "passos": [
      {
+      "faz": "x_aperta",
+      "na": "dividiram",
       "quem": 0,
-      "faz": "x_entrega",
-      "na": "dividiram"
+      "alvo_quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -485,14 +479,13 @@
    "detalhe": false,
    "_auto_vis": 2,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "negativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "uísque"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

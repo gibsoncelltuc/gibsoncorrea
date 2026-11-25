@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: prêmio -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: prêmio -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @8 -> acao + som de efeito; encena: chega (point) @17 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 30.000
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: chega (point) @3 -> acao + som de efeito; encena: vence (up) @6 -> acao + som de efeito; encena: x_ri (up) @10 -> acao + som de efeito; encena: perde (facepalm) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito; encena: x_ri (up) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; vitória -> stars + som de sino; encena: pega (lift) @3 -> acao + som de efeito; encena: vence (up) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; vitória -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: TORRE GHIRLANDINA
 - Funcao na historia: desenvolvimento

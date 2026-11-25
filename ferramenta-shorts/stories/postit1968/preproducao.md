@@ -14,12 +14,12 @@ b6 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/post
 b7 | countryside | wide | 7 | encena, batalha | kit/postit | - | -
 b8 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b9 | street | group | 19 | comemorar, batalha | kit/postit | - | -
-b10 | countryside | orbit | 10 | encena | kit/postit | - | -
+b10 | countryside | orbit | 10 | parados (so fala e pisca) | kit/postit | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/postit
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b7, b9
 Interacoes entre personagens: b0 discutir, b1 avanca e o outro recua, b3 o outro se aproxima, b4 entregar, b5 insiste, b6 vai ate o outro
 
-Cenas com personagens parados: 1 de 12
+Cenas com personagens parados: 2 de 12
 FALTA MODELAR: nada
