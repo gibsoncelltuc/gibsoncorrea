@@ -19,14 +19,30 @@
    "objetos": [
     "kit/kite"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Um homem soltou uma pipa em plena tempestade para pegar um raio.",
+   "frase": "Um homem soltou uma pipa na tempestade para pegar um raio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E o que ele descobriu protege a sua casa até hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "reveal",
@@ -36,9 +52,9 @@
    ],
    "multidao": 8,
    "objetos": [],
-   "palavras": 19,
-   "cena": "b1",
-   "frase": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1752, Benjamin Franklin queria provar que raio era eletricidade.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -53,9 +69,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
-   "cena": "b2",
-   "frase": "Na época, muita gente achava que o raio era um castigo dos céus, e não uma força da natureza.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Muita gente achava que o raio era castigo dos céus.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -65,22 +81,6 @@
   {
    "camera": "two",
    "personagens": [
-    "FRA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b3",
-   "frase": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "group",
-   "personagens": [
     "FRA",
     "FIL"
    ],
@@ -89,9 +89,9 @@
     "kit/key",
     "kit/kite"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b4",
-   "frase": "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa.",
+   "frase": "Contam que ele prendeu uma chave de metal na linha da pipa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -99,7 +99,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FRA"
    ],
@@ -108,28 +108,9 @@
     "kit/key",
     "kit/kite"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "FRA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/key",
-    "kit/kite"
-   ],
-   "palavras": 19,
-   "cena": "b6",
-   "frase": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.",
+   "frase": "Acontece que a nuvem passou, e uma faísca pulou da chave.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -152,9 +133,9 @@
    "objetos": [
     "kit/kite"
    ],
-   "palavras": 19,
-   "cena": "b7",
-   "frase": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Se um raio caísse na pipa, ele teria morrido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -162,21 +143,19 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "FRA"
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/house_small",
     "buildings/house_two",
     "kit/lightning_rod",
-    "nature/picket_fence",
-    "nature/tree_oak"
+    "nature/lamppost"
    ],
-   "palavras": 15,
-   "cena": "b8",
-   "frase": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Daí nasceu o para-raios, que protege prédios no mundo inteiro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -190,33 +169,18 @@
    "cenario": "street"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "FRA"
+    "FRA",
+    "FIL"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/key"
+    "kit/kite"
    ],
-   "palavras": 10,
-   "cena": "b9",
-   "frase": "No fim, o raio perdeu a briga para uma chave.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FRA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Coragem ou loucura? Só sei que foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Maior Prisão das Américas
 - Epoca: 2023 | Lugar: Tecoluca, departamento de San Vicente, El Salvador: o CECOT (Centro de Confinamiento del Terrorismo), complexo isolado cercado por campo e morros | Quando: inaugurado em 31/jan/2023; estado de excecao decretado em marco de 2022; dia, ceu claro
 - HEROIS (objeto): kit/prison
-- HEROIS (personagens): REP, BUK
+- HEROIS (personagens): BUK, GUA
 - Cenarios: interior pedra, loc_campo, loc_cidade, loc_estudio, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste

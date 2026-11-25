@@ -153,7 +153,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "TRU"
    ],
@@ -164,7 +164,7 @@
    "palavras": 8,
    "cena": "b7",
    "frase": "Antes foi o presidente 45. Agora, o 47.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

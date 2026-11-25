@@ -4,9 +4,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: Galileu e a Torre de Pisa
 - Epoca: 1589 | Lugar: Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a catedral | Quando: cerca de 1589-1592, dia
-- HEROIS (objeto): kit/ball, kit/pisa_tower
+- HEROIS (objeto): kit/bola_couro, kit/pisa_tower
 - HEROIS (personagens): GAL, ALU
-- Cenarios: arctic, interior loja, interior madeira, interior pedra, loc_campo, street
+- Cenarios: arctic, interior madeira, interior pedra, loc_campo, street
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, fragata a vela, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Galileu e a Torre de Pisa | Galileu e a Torre de Pisa / Uma Conta Pisa Itália Aristóteles 1589 | SEM REFERENCIA
+tema | Galileu e a Torre de Pisa | Galileu e a Torre de Pisa / Uma Em Galileu Pisa 1589 | SEM REFERENCIA
 lugar | Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a cat | Pisa Italia / Pisa Italia 1589 | SEM REFERENCIA
 lugar | Itália | Itália 1589 / Itália landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1589 | 1589 fashion clothing / 16th century clothing painting | SEM REFERENCIA
@@ -25,7 +25,7 @@ objeto | bola de ferro pesada | bola de ferro pesada / bola de ferro pesada 1589
 objeto | bola leve | bola leve / bola leve 1589 | SEM REFERENCIA
 objeto | torre de Pisa | torre de Pisa / torre de Pisa 1589 | SEM REFERENCIA
 objeto | martelo e pena (Apollo 15) | martelo e pena / martelo e pena 1589 | SEM REFERENCIA
-heroi | ball | bola de ferro pesada / Galileu e a Torre de Pisa | SEM REFERENCIA
+heroi | bola couro | bola de ferro pesada / Galileu e a Torre de Pisa | SEM REFERENCIA
 heroi | pisa tower | pisa tower | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

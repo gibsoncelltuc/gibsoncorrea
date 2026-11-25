@@ -1,4 +1,4 @@
-# FOLHA 4 - PESQUISA: A Guerra do Cachorro Perdido
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 26 - A Guerra do Cachorro Perdido
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py petrich1925` busca cada item na internet, baixa os prints (referencias/petrich1925/prints/) e monta o quadro referencias/petrich1925/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1925 | Lugar: Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia e a Bulgaria, perto de Petrich; sede da Liga das Nacoes em Genebra | Quando: 19 de outubro de 1925 (o tiro), invasao grega a partir de 22 de outubro de 1925, de dia, outono
 - HEROIS (objeto): kit/dog_sit
 - HEROIS (personagens): GRE, BUL, OFF
-- Cenarios: interior madeira, interior pedra, loc_campo, mountain
+- Cenarios: interior madeira, interior pedra, loc_campo, loc_montanha, mountain
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,11 +14,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra do Cachorro Perdido | A Guerra do Cachorro Perdido / Outubro Grécia Bulgária Conta 1925 | SEM REFERENCIA
-lugar | Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia | Passo de Demir Kapia na serra de Belasitsa / Passo de Demir Kapia na serra de Belasitsa 1925 | Iron-gates-frome.jpg (referencias/petrich1925/prints/passo_de_demir_kapia_na_serra_de_belasit_02ba97.jpg); Expédition des Portes de fer, octobre 1839 ; le pr (referencias/petrich1925/prints/passo_de_demir_kapia_na_serra_de_belasit_719331.jpg); Iron gate leading nowhere.jpg (referencias/petrich1925/prints/passo_de_demir_kapia_na_serra_de_belasit_d7a95b.jpg)
-lugar | Grécia | Grécia 1925 / Grécia landscape | Le Général Pangalos, Président du Conseil grec.jpg (referencias/petrich1925/prints/gr_cia_54ea40.jpg); Cross of Athens (1925).jpg (referencias/petrich1925/prints/gr_cia_a4207b.jpg); Το Πανελλήνιο Σωματείο Καραγκιοζοπαιχτών σε αναμνη (referencias/petrich1925/prints/gr_cia_951b8f.jpg)
-epoca | roupas e ruas de 1925 | 1925 fashion clothing / 1925 street photograph | 1925 - Schlager's Clothing - 10 Nov MC - Allentown (referencias/petrich1925/prints/roupas_e_ruas_de_1925_1c4292.jpg); Costumes civils HISTORICAL CLOTHING OF FRANCE civi (referencias/petrich1925/prints/roupas_e_ruas_de_1925_d6d125.jpg); Practicoat knitted jackets ad 1925-11.png (referencias/petrich1925/prints/roupas_e_ruas_de_1925_52e4f6.jpg)
-pessoas | soldado grego de guarda e seu cachorro | soldado grego de guarda e seu cachorro / soldado grego de guarda e seu cachorro 1925 | Andreas Kotzias 1868 031.JPG (referencias/petrich1925/prints/soldado_grego_de_guarda_e_seu_cachorro_522fc3.jpg); The under-renovation headquarters of the National  (referencias/petrich1925/prints/soldado_grego_de_guarda_e_seu_cachorro_f9503a.jpg); Surrender of Yanina, 1913.png (referencias/petrich1925/prints/soldado_grego_de_guarda_e_seu_cachorro_03a1de.jpg)
+tema | A Guerra do Cachorro Perdido | A Guerra do Cachorro Perdido / Ninguém Em Grécia Bulgária 1925 | SEM REFERENCIA
+lugar | Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia | Passo de Demir Kapia na serra de Belasitsa / Passo de Demir Kapia na serra de Belasitsa 1925 | SEM REFERENCIA
+lugar | Grécia | Grécia 1925 / Grécia landscape | SEM REFERENCIA
+epoca | roupas e ruas de 1925 | 1925 fashion clothing / 1925 street photograph | SEM REFERENCIA
+pessoas | soldado grego de guarda e seu cachorro | soldado grego de guarda e seu cachorro / soldado grego de guarda e seu cachorro 1925 | SEM REFERENCIA
 pessoas | sentinela bulgara | sentinela bulgara / sentinela bulgara 1925 | SEM REFERENCIA
 pessoas | exercito grego | exercito grego / exercito grego 1925 | Greek Army Strymon WWI.jpg (referencias/petrich1925/prints/exercito_grego_3665d6.jpg); Hellenic Army - Mercedes with 9K111 Fagot - 7224.j (referencias/petrich1925/prints/exercito_grego_027b6e.jpg); Hellenic Army - Mercedes with 9K111 Fagot - 7222.j (referencias/petrich1925/prints/exercito_grego_ddcc39.jpg)
 pessoas | governo bulgaro | governo bulgaro / governo bulgaro 1925 | Wien 01 Hotel Imperial a.jpg (referencias/petrich1925/prints/governo_bulgaro_d2b7b6.jpg)

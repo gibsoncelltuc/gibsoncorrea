@@ -20,9 +20,9 @@
     "kit/marco_wurzburg",
     "kit/xray_plate"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.",
+   "frase": "A primeira foto de dentro do corpo assustou a esposa do cientista.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -30,20 +30,37 @@
    "cenario": "street"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
+   "personagens": [
+    "ANA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/xray_plate"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "Conta-se que ela viu ali a própria morte.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
    ],
    "multidao": 6,
    "objetos": [
-    "buildings/house_two",
-    "kit/marco_wurzburg",
-    "nature/lamppost"
+    "kit/crookes_tube",
+    "kit/marco_wurzburg"
    ],
-   "palavras": 11,
-   "cena": "b1",
-   "frase": "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -65,27 +82,9 @@
    "objetos": [
     "kit/crookes_tube"
    ],
-   "palavras": 15,
-   "cena": "b2",
-   "frase": "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "ROE"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/crookes_tube"
-   ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b3",
-   "frase": "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.",
+   "frase": "Uma noite, cobriu o tubo e apagou a luz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -101,9 +100,9 @@
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b4",
-   "frase": "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.",
+   "frase": "Acontece que, do outro lado da sala, uma tela brilhou no escuro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -117,12 +116,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/crookes_tube",
     "kit/xray_plate"
    ],
-   "palavras": 15,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.",
+   "frase": "Pôs a mão na frente e viu os próprios ossos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -139,9 +137,9 @@
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.",
+   "frase": "Depois, fotografou a mão da esposa, Anna, com a aliança.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -151,15 +149,16 @@
   {
    "camera": "two",
    "personagens": [
-    "ANA"
+    "ROE",
+    "JOR"
    ],
    "multidao": 0,
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 14,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte.",
+   "frase": "Sem saber o que era, chamou de raio X.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -169,18 +168,17 @@
   {
    "camera": "orbit",
    "personagens": [
-    "JOR",
+    "ROE",
     "MED",
     "POV"
    ],
-   "multidao": 14,
+   "multidao": 18,
    "objetos": [
-    "kit/marco_wurzburg",
-    "kit/xray_plate"
+    "kit/marco_wurzburg"
    ],
-   "palavras": 14,
+   "palavras": 6,
    "cena": "b8",
-   "frase": "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso.",
+   "frase": "Ganhou o primeiro Nobel de Física.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -197,51 +195,15 @@
    "camera": "two",
    "personagens": [
     "ROE",
-    "JOR"
+    "ANA"
    ],
    "multidao": 0,
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 13,
+   "palavras": 7,
    "cena": "b9",
-   "frase": "Sem saber o que era, ele chamou de raio X: X, de desconhecido.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "ROE",
-    "MED",
-    "POV"
-   ],
-   "multidao": 18,
-   "objetos": [
-    "kit/marco_wurzburg"
-   ],
-   "palavras": 17,
-   "cena": "b10",
-   "frase": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "ROE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Um raio desconhecido, e foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

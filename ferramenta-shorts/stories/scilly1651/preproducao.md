@@ -5,21 +5,18 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | - | -
-b1 | harbor | group | 10 | conversar, INTERAGEM: susto | - | - | -
+b1 | harbor | group | 2 | conversar, INTERAGEM: susto | - | - | -
 b2 | harbor | crowd | 19 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
-b3 | harbor | group | 3 | discutir, INTERAGEM: avanca e o outro recua | ship | - | -
-b4 | harbor | orbit | 1 | encena, batalha | ship | - | -
-b5 | loc_campo | group | 2 | reagir, INTERAGEM: o outro se aproxima | - | paper | -
-b6 | loc_campo | two | 2 | comemorar, INTERAGEM: pular | - | - | -
-b7 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro | - | book | -
-b8 | harbor | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b9 | interior pedra | two | 2 | conversar, INTERAGEM: apertar | kit/scroll | paper | -
-b10 | harbor | group | 1 | conversar | kit/scroll | - | -
-b11 | harbor | close | 1 | conversar | - | - | -
+b3 | harbor | orbit | 1 | batalha | ship | - | -
+b4 | loc_campo | two | 2 | reagir, INTERAGEM: avanca e o outro recua | - | paper | -
+b5 | harbor | wide | 1 | parados (so fala e pisca) | ship | - | -
+b6 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | book | -
+b7 | interior pedra | two | 1 | encena | kit/scroll | paper | -
+b8 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | - | -
 
 OBJETO HEROI: kit/scroll
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4
-Interacoes entre personagens: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 vai ate o outro, b8 cochichar, b9 apertar
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b3
+Interacoes entre personagens: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 o outro se aproxima, b8 discutir
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 1 de 9
 FALTA MODELAR: nada

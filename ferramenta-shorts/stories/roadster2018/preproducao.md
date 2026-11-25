@@ -5,20 +5,18 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | arctic | two | 1 | conversar | kit/roadster | - | -
-b1 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/roadster | - | -
+b1 | interior loja | two | 1 | conversar | kit/roadster | - | -
 b2 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/rocket | - | -
 b3 | interior loja | two | 1 | conversar | kit/roadster | - | -
 b4 | loc_pista | wide | 1 | reagir, batalha | kit/falcon_air | - | -
 b5 | interior loja | two | 1 | conversar | kit/roadster | - | -
-b6 | arctic | orbit | 1 | parados (so fala e pisca) | kit/roadster | - | -
+b6 | arctic | group | 1 | conversar | kit/roadster | - | -
 b7 | arctic | two | 0 | parados (so fala e pisca) | kit/roadster, kit/globe | - | -
-b8 | arctic | wide | 1 | reagir, batalha | kit/roadster | - | -
-b9 | loc_pista | two | 1 | comemorar | kit/rocket, kit/roadster | - | -
-b10 | loc_pista | close | 1 | conversar | - | - | -
+b8 | arctic | wide | 1 | parados (so fala e pisca) | kit/roadster | - | -
 
 OBJETO HEROI: kit/roadster
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b8
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b4
 Interacoes entre personagens: nenhuma
 
-Cenas com personagens parados: 4 de 11 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando
+Cenas com personagens parados: 3 de 9
 FALTA MODELAR: nada

@@ -78,10 +78,10 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: harbor | 1
 - Narracao: Às nove e quarenta, a bandeira caiu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (GUA) -> acao + som de efeito; caiu -> dust + som de impacto
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~3.8 s)
 - Narracao: Os ingleses mandaram a conta das balas. E foi assim que...

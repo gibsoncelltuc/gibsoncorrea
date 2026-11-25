@@ -208,7 +208,8 @@ kit/veg_cacto | b5, b6 | pronto | conferir na folha de contato se le bem; se par
 ## Video inteiro
 - Objeto heroi: kit/tequila_bolt | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 4% | medio 72% | aberto 14% | detalhe 9%
 - Interacoes: b0 insiste, b4 entregar, b6 cochichar, b7 entregar, b8 vai ate o outro
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py teslaquila2020  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/teslaquila2020/moodboard.jpg
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 

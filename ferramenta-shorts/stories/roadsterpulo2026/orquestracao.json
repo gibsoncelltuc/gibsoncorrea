@@ -15,14 +15,14 @@
     "MUS",
     "ENA"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um carro saiu do chão e voou na frente de convidados. E não era efeito especial.",
+   "frase": "Um carro voou na frente dos convidados, e não era efeito especial.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -36,34 +36,50 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "reveal",
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E ninguém esperava como ele fez isso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
-    "kit/rampa_curva",
-    "kit/telao_led",
-    "kit/torre_luz"
+    "kit/roadster"
    ],
-   "palavras": 22,
-   "cena": "b1",
-   "frase": "Era a nova invenção de Elon Musk, numa base da SpaceX, no Texas, em outubro de dois mil e vinte e seis.",
-   "classe": "transicao",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Elon Musk mostrou o novo Roadster numa base no Texas.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "interior galpao"
   },
   {
    "camera": "two",
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b2",
-   "frase": "O primeiro truque: um sistema de sucção gruda o carro na pista, como uma ventosa.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Primeiro truque: uma sucção gruda o carro na pista.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -77,7 +93,7 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -86,9 +102,9 @@
     "kit/roadster26",
     "kit/torre_luz"
    ],
-   "palavras": 16,
-   "cena": "b3",
-   "frase": "Com ele, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Assim ele subiu uma rampa e ficou de cabeça para baixo.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -102,7 +118,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "low",
    "personagens": [
     "ENA"
    ],
@@ -111,9 +127,9 @@
     "kit/roadster26",
     "kit/torre_luz"
    ],
-   "palavras": 14,
-   "cena": "b4",
-   "frase": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Depois se soltou, girou no ar e pousou na fumaça.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -131,9 +147,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
-   "cena": "b5",
-   "frase": "O segundo truque: dez bocais escondidos, que sopram ar comprimido para baixo.",
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Segundo truque: dez bocais sopram ar comprimido para baixo.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -158,9 +174,9 @@
     "kit/roadster26",
     "kit/torre_luz"
    ],
-   "palavras": 14,
-   "cena": "b6",
-   "frase": "Foi assim que ele decolou e voou, nos propulsores, por cima de veículos parados.",
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "Acontece que foi assim que ele decolou por cima de carros.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -175,26 +191,6 @@
   },
   {
    "camera": "two",
-   "personagens": [],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 18,
-   "cena": "b7",
-   "frase": "E, segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
-   "classe": "explicativa",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "kit/roadster26 (corre)",
-    "emissao": "velocidade, jato, pneu",
-    "luz": "estudio",
-    "camera": "2 enquadramentos sem corte seco",
-    "som": "som em cada entrada"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_estudio"
-  },
-  {
-   "camera": "two",
    "personagens": [
     "ENG",
     "ENA"
@@ -203,9 +199,9 @@
    "objetos": [
     "kit/roadster26"
    ],
-   "palavras": 16,
+   "palavras": 6,
    "cena": "b8",
-   "frase": "Mas especialistas lembraram: o voo durou poucos segundos. Ainda não é um carro voador de verdade.",
+   "frase": "Mas o voo durou poucos segundos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -213,38 +209,24 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
-    "MUS"
+    "MUS",
+    "ENA"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
-    "kit/roadster26"
+    "kit/roadster26",
+    "kit/torre_luz"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Carro voador ou carro que pula? Você decide.",
+   "frase": "Ainda não é carro voador. Mas foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior galpao"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior galpao"
+   "cenario": "loc_pista"
   }
  ]
 }

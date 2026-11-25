@@ -1,225 +1,162 @@
 {
- "duration": 56.088,
- "frames30": 1683,
- "source": "silence-align (cost 0.98)",
+ "duration": 34.128,
+ "frames30": 1024,
+ "source": "silence-align (cost 1.39)",
  "segments": [
   [
-   0.155542,
-   3.00412
+   0.143833,
+   2.43017
   ],
   [
-   3.26437,
-   4.36112
+   3.22283,
+   5.25008
   ],
   [
-   5.22542,
-   6.61187
+   6.04325,
+   6.67604
   ],
   [
-   6.89708,
-   7.58396
+   6.92083,
+   9.51596
   ],
   [
-   7.89304,
-   10.6628
+   10.3022,
+   12.732
   ],
   [
-   11.5395,
-   12.8082
+   13.5106,
+   14.531
   ],
   [
-   13.1326,
-   15.1546
+   14.7822,
+   15.328
   ],
   [
-   16.0272,
-   17.3001
+   16.11,
+   16.7219
   ],
   [
-   17.5432,
-   18.6127
+   16.8598,
+   17.2073
   ],
   [
-   19.5054,
-   20.5915
+   17.4433,
+   19.2021
   ],
   [
-   20.7997,
-   23.0048
+   19.9865,
+   22.1695
   ],
   [
-   23.2873,
-   25.0268
+   22.9592,
+   24.4037
   ],
   [
-   25.8781,
-   30.7274
+   24.6082,
+   26.6896
   ],
   [
-   31.5783,
-   33.1554
+   27.4742,
+   28.3938
   ],
   [
-   33.3905,
-   34.2635
+   28.651,
+   29.5441
   ],
   [
-   34.5945,
-   37.4564
+   30.3317,
+   31.8829
   ],
   [
-   38.3107,
-   39.7437
-  ],
-  [
-   39.969,
-   41.522
-  ],
-  [
-   42.3811,
-   45.0984
-  ],
-  [
-   45.3759,
-   46.4243
-  ],
-  [
-   47.2849,
-   49.0718
-  ],
-  [
-   49.3266,
-   50.9139
-  ],
-  [
-   51.7777,
-   53.2204
-  ],
-  [
-   53.515,
-   55.2657
+   32.6652,
+   33.4079
   ]
  ],
  "phrases": [
   {
-   "text": "Uma orelha cortada levou a Inglaterra \u00e0 guerra contra a Espanha,",
-   "s": 0.156,
-   "e": 3.004
+   "text": "Uma orelha cortada come\u00e7ou uma guerra de nove anos.",
+   "s": 0.144,
+   "e": 2.43
   },
   {
-   "text": "por quase dez anos.",
-   "s": 3.264,
-   "e": 4.361
+   "text": "E o dono da orelha levou ela at\u00e9 o Parlamento.",
+   "s": 3.223,
+   "e": 5.25
   },
   {
-   "text": "Em mil setecentos e trinta e um,",
-   "s": 5.225,
-   "e": 6.612
+   "text": "Perto de Cuba,",
+   "s": 6.043,
+   "e": 6.676
   },
   {
-   "text": "perto de Cuba,",
-   "s": 6.897,
-   "e": 7.584
+   "text": "espanh\u00f3is pararam o navio do capit\u00e3o Robert Jenkins.",
+   "s": 6.921,
+   "e": 9.516
   },
   {
-   "text": "um navio espanhol parou o capit\u00e3o ingl\u00eas Robert Jenkins.",
-   "s": 7.893,
-   "e": 10.663
+   "text": "O comandante espanhol cortou a orelha dele com a espada.",
+   "s": 10.302,
+   "e": 12.732
   },
   {
-   "text": "Suspeitaram de contrabando,",
-   "s": 11.54,
-   "e": 12.808
+   "text": "\"Leve isso ao seu rei\",",
+   "s": 13.511,
+   "e": 14.531
   },
   {
-   "text": "e o capit\u00e3o espanhol arrancou a orelha dele.",
-   "s": 13.133,
-   "e": 15.155
+   "text": "teria dito.",
+   "s": 14.782,
+   "e": 15.328
   },
   {
-   "text": "\"V\u00e1 levar isso ao seu rei\",",
-   "s": 16.027,
-   "e": 17.3
+   "text": "Anos depois,",
+   "s": 16.11,
+   "e": 16.722
   },
   {
-   "text": "teria dito o espanhol.",
-   "s": 17.543,
-   "e": 18.613
+   "text": "dizem,",
+   "s": 16.86,
+   "e": 17.207
   },
   {
-   "text": "Sete anos depois,",
-   "s": 19.505,
-   "e": 20.591
+   "text": "Jenkins mostrou a orelha aos deputados.",
+   "s": 17.443,
+   "e": 19.202
   },
   {
-   "text": "Jenkins relatou a hist\u00f3ria ao Parlamento ingl\u00eas,",
-   "s": 20.8,
-   "e": 23.005
+   "text": "Acontece que a Inglaterra s\u00f3 queria um pretexto.",
+   "s": 19.986,
+   "e": 22.169
   },
   {
-   "text": "e os deputados ficaram furiosos.",
-   "s": 23.287,
-   "e": 25.027
+   "text": "Em 1739,",
+   "s": 22.959,
+   "e": 24.404
   },
   {
-   "text": "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do com\u00e9rcio no Caribe.",
-   "s": 25.878,
-   "e": 30.727
+   "text": "navios ingleses atacaram o Caribe espanhol.",
+   "s": 24.608,
+   "e": 26.69
   },
   {
-   "text": "Em mil setecentos e trinta e nove,",
-   "s": 31.578,
-   "e": 33.155
+   "text": "Nove anos de guerra,",
+   "s": 27.474,
+   "e": 28.394
   },
   {
-   "text": "a guerra come\u00e7ou,",
-   "s": 33.391,
-   "e": 34.264
+   "text": "por causa de uma orelha.",
+   "s": 28.651,
+   "e": 29.544
   },
   {
-   "text": "com navios ingleses atacando portos espanh\u00f3is no Caribe.",
-   "s": 34.594,
-   "e": 37.456
+   "text": "Jenkins nunca recuperou a orelha.",
+   "s": 30.332,
+   "e": 31.883
   },
   {
-   "text": "Depois de quase dez anos,",
-   "s": 38.311,
-   "e": 39.744
-  },
-  {
-   "text": "os dois lados fizeram a paz.",
-   "s": 39.969,
-   "e": 41.522
-  },
-  {
-   "text": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor,",
-   "s": 42.381,
-   "e": 45.098
-  },
-  {
-   "text": "um s\u00e9culo depois.",
-   "s": 45.376,
-   "e": 46.424
-  },
-  {
-   "text": "A orelha custou dez anos de guerra,",
-   "s": 47.285,
-   "e": 49.072
-  },
-  {
-   "text": "e Jenkins ainda ficou sem ela.",
-   "s": 49.327,
-   "e": 50.914
-  },
-  {
-   "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 51.778,
-   "e": 53.22
-  },
-  {
-   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 53.515,
-   "e": 55.266
+   "text": "E foi assim que...",
+   "s": 32.665,
+   "e": 33.408
   }
  ]
 }

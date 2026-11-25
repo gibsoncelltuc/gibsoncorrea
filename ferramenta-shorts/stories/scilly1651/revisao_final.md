@@ -1,28 +1,15 @@
-# Revisao final frase a frase - scilly1651 (24/11, olhando out/scilly1651/frase_a_frase.jpg quadro por quadro)
-f0: OK - "Uma ilha minuscula ficou 335 anos em guerra com a Holanda": ilheu de chapeu de palha e holandes de laranja com o pergaminho, placa 335 ANOS
-f1: OK - "e ninguem deu um tiro": os dois sorrindo com o pergaminho, placa 335 ANOS
-f2: OK - "Tudo comecou em mil seiscentos e cinquenta e um": mapa ILHAS SCILLY entrando
-f3: OK - "nas ilhas Scilly": ilheus de verde no cais diante do mar
-f4: OK - "perto da Inglaterra": ilheus no cais com navios a vela ao fundo
-f5: OK - "Piratas das ilhas atacavam navios holandeses": ilheus e marinheiros holandeses juntos no cais diante do navio
-f6: OK - "e a Holanda ficou furiosa": multidao de holandeses e ilheus diante do navio grande
-f7: OK - "A Holanda mandou navios de guerra e exigiu o dinheiro de volta": holandeses de laranja no cais com os navios, um mostra a moeda
-f8: OK - "Dizem que": tropa holandesa marchando, texto GUERRA
-f9: OK - "como ninguem pagou": tropa holandesa marchando no cais, GUERRA
-f10: OK - "o almirante holandes declarou guerra as ilhas": tropa com os navios ao fundo, GUERRA
-f11: OK - "os ingleses assumiram as ilhas pouco depois": politico ingles com papel e ilheu no campo, casacas vermelhas ao fundo
-f12: OK - "ninguem se lembrou de fazer a paz": politico e ilheu diante da tropa inglesa
-f13: OK - "A guerra seguiu esquecida por mais de trezentos anos": ilheus tranquilos no campo
-f14: OK - "As ilhas seguiram a vida normal": dois ilheus contentes no campo
-f15: OK - "sem soldados e sem nenhum navio holandes por perto": ilheus sozinhos no campo, sem navio
-f16: OK - "Em mil novecentos e oitenta e cinco": historiador e embaixador na biblioteca de madeira
-f17: OK - "um historiador perguntou se a guerra ainda valia": historiador de oculos surpreso na biblioteca
-f18: OK - "No ano seguinte": embaixador e ingles no cais
-f19: OK - "o embaixador holandes foi ate as ilhas": embaixador de cartola chegando ao cais
-f20: OK - "Os dois assinaram a paz": sala de pedra com o papel da paz
-f21: OK - "a guerra de 335 anos acabou": os dois apertando as maos na sala
-f22: OK - "A guerra mais longa e mais calma da historia": ilheu com o pergaminho no cais
-f23: OK - "Agora nao deixe de comentar": ilheu sorrindo, COMENTE
-f24: OK - "qual deve ser o tema do proximo video": ilheu, COMENTE
-gancho: ilheu e holandes com o pergaminho grande e a placa 335 ANOS no primeiro segundo, junto de "uma ilha minuscula ficou 335 anos em guerra"
-piloto: no nivel do Roadster EP25: pergaminho heroi no gancho e no fim, navios da epoca, tropa holandesa, cada frase com a imagem certa
+f0: OK - "Uma guerra durou 335 anos e ninguem disparou um tiro.": ilheu e holandes no cais com o pergaminho e 335 ANOS SEM TIRO
+f1: OK - "E so acabou porque alguem resolveu perguntar.": ilheus no cais, calmos
+f2: OK - "Em 1651,": piratas das ilhas no cais
+f3: OK - "piratas das ilhas Scilly atacavam navios holandeses.": mapa das Scilly sobre o cais com navio
+f4: OK - "A Holanda declarou guerra as ilhas.": almirante holandes, GUERRA, navio ao fundo
+f5: OK - "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.": ingles com documento e ilheu espantado
+f6: OK - "Os holandeses foram embora.": navio holandes no mar indo embora
+f7: OK - "E ninguem lembrou de assinar a paz.": navio longe, holandes sozinho no cais
+f8: OK - "Tres seculos depois,": sala de 1985 com historiador e embaixador
+f9: OK - "um historiador escreveu para a Holanda.": historiador com a carta
+f10: OK - "O embaixador veio as ilhas e assinou a paz.": embaixador com o papel e o pergaminho
+f11: OK - "Ninguem lembrou de um papel.": volta ao cais com 335 ANOS SEM TIRO
+f12: OK - "E foi assim que...": LOOP, mesma imagem da abertura, emenda na 1a frase
+gancho: OK - placa 335 ANOS SEM TIRO + pergaminho + frase de alto risco nos 3 primeiros segundos
+piloto: OK - estrutura viral (6 blocos, 32 s, loop), mapa, close do pergaminho, navios, sem tiro como a historia

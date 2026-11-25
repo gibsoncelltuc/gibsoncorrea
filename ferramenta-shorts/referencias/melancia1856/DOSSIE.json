@@ -7,7 +7,6 @@
   "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
-   "harbor",
    "interior pedra",
    "jungle",
    "loc_campo",
@@ -15,7 +14,12 @@
   ],
   "cenarios_trocados": [
    [
-    "cena 8",
+    "cena 3",
+    "harbor",
+    "loc_campo"
+   ],
+   [
+    "cena 7",
     "countryside",
     "loc_campo"
    ]
@@ -40,14 +44,12 @@
   "buildings/house_two",
   "buildings/shop",
   "kit/melon",
-  "kit/navio_fragata",
   "kit/room_colonial_stone",
   "kit/stall",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Table_Large",
-  "nature/lamppost",
   "vehicles/locomotive",
   "war/pistol"
  ],

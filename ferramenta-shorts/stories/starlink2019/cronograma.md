@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 04 - A Fila de Luzes no Céu
 
-Gerado em 25/11 17:34 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:27 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,10 +8,10 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | chave | countryside | two | AST | - | starlink_train | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Uma fila de luzes cruzou o céu, e chamaram de ETs.
 b1 | simples | interior loja | two | JOR, JOR2 | - | rocket | - | E a verdade estava num foguete da Flórida.
-b2 | transicao | loc_pista | wide | AST | - | falcon_air, starlink_sat | - | Em 2019, a SpaceX lançou sessenta satélites de uma vez.
+b2 | transicao | loc_pista | reveal | AST | 6 | falcon_air, starlink_sat | - | Em 2019, a SpaceX lançou sessenta satélites de uma vez.
 b3 | simples | countryside | two | AST, JOR | - | - | - | Um dia depois, o holandês Marco Langbroek filmou o céu.
 b4 | transicao | loc_montanha | wide | AST | - | starlink_train | - | Viu pelo menos cinquenta e seis luzes em fila.
-b5 | chave | loc_cidade | crowd | JOR | - | phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que um site de OVNIs recebeu mais de 150 relatos.
+b5 | chave | loc_cidade | group | JOR | - | phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que um site de OVNIs recebeu mais de 150 relatos.
 b6 | explicativa | loc_cidade | two | sem personagem | - | falcon_air | corpo: kit/starlink_train (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; so | Os satélites ainda voavam juntos, logo depois do lançamento.
 b7 | simples | interior loja | two | JOR, JOR2 | - | starlink_sat | - | Não eram ETs. Eram satélites de internet.
 b8 | chave | countryside | wide | AST | - | starlink_train | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Internet no céu, e foi assim que...

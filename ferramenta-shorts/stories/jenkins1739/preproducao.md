@@ -5,20 +5,19 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/ear_jar | - | -
-b1 | harbor | reveal | 2 | reagir | ship, navios de guerra ao fundo, no tamanho real | - | -
-b2 | street | two | 2 | golpe, INTERAGEM: empurrar, batalha | kit/ear_jar | - | -
-b3 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
-b4 | interior pedra | group | 4 | conversar, INTERAGEM: susto | - | paper | -
-b5 | interior pedra | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
-b6 | harbor | wide | 21 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
-b7 | interior pedra | two | 2 | conversar, INTERAGEM: apertar | - | paper | -
-b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/ear_jar | book | -
-b9 | street | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/ear_jar | - | -
-b10 | street | close | 1 | conversar | - | - | -
+b1 | street | two | 14 | conversar, INTERAGEM: avanca e o outro recua | kit/ear_jar | - | -
+b2 | harbor | wide | 1 | reagir | ship, navios de guerra ao fundo, no tamanho real | - | -
+b3 | street | two | 2 | golpe, INTERAGEM: empurrar, batalha | kit/ear_jar | - | -
+b4 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
+b5 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/ear_jar | paper | -
+b6 | interior pedra | group | 2 | conversar, INTERAGEM: cochichar | - | - | -
+b7 | harbor | wide | 21 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
+b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/ear_jar | paper | -
+b9 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/ear_jar | - | -
 
 OBJETO HEROI: kit/ear_jar
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b6
-Interacoes entre personagens: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar, b9 avanca e o outro recua
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b7
+Interacoes entre personagens: b0 discutir, b1 avanca e o outro recua, b3 empurrar, b4 cochichar, b5 susto, b6 cochichar, b8 entregar, b9 discutir
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

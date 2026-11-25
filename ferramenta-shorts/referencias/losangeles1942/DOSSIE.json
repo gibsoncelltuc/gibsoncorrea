@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "harbor",
-   "interior madeira",
    "loc_cidade",
    "street"
   ],
@@ -36,13 +35,8 @@
   "buildings/house_two",
   "buildings/shop",
   "kit/canhao_moderno",
-  "kit/room_eua_wood",
   "kit/searchlight",
   "kit/submarino_ww2",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large",
   "nature/lamppost"
  ],
  "pesquisa_visual": {

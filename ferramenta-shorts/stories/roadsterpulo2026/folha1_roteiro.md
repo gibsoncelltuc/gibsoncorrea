@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 11 cenas, 164 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~5.5 s)
-- Narracao: Um carro saiu do chão e voou na frente de convidados. E não era efeito especial.
-- Som ambiente: silencio/sala
+## Cena b0  (~4.1 s)
+- Narracao: Um carro voou na frente dos convidados, e não era efeito especial.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: VOOU DE VERDADE
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.6 s)
-- Narracao: Era a nova invenção de Elon Musk, numa base da SpaceX, no Texas, em outubro de dois mil e vinte e seis.
+## Cena b1  (~2.4 s)
+- Narracao: E ninguém esperava como ele fez isso.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~3.4 s)
+- Narracao: Elon Musk mostrou o novo Roadster numa base no Texas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.2 s)
-- Narracao: O primeiro truque: um sistema de sucção gruda o carro na pista, como uma ventosa.
+## Cena b3  (~3.1 s)
+- Narracao: Primeiro truque: uma sucção gruda o carro na pista.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.5 s)
-- Narracao: Com ele, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.
+## Cena b4  (~3.8 s)
+- Narracao: Assim ele subiu uma rampa e ficou de cabeça para baixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,17 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.8 s)
-- Narracao: Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b5  (~4.1 s)
-- Narracao: O segundo truque: dez bocais escondidos, que sopram ar comprimido para baixo.
+## Cena b5  (~3.4 s)
+- Narracao: Depois se soltou, girou no ar e pousou na fumaça.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~4.8 s)
-- Narracao: Foi assim que ele decolou e voou, nos propulsores, por cima de veículos parados.
+## Cena b6  (~3.1 s)
+- Narracao: Segundo truque: dez bocais sopram ar comprimido para baixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~6.2 s)
-- Narracao: E, segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.
+## Cena b7  (~3.8 s)
+- Narracao: Acontece que foi assim que ele decolou por cima de carros.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: VIRADA
+
+## Cena b8  (~2.1 s)
+- Narracao: Mas o voo durou poucos segundos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,31 +83,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.5 s)
-- Narracao: Mas especialistas lembraram: o voo durou poucos segundos. Ainda não é um carro voador de verdade.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~2.8 s)
-- Narracao: Carro voador ou carro que pula? Você decide.
+## Cena b9  (~3.1 s)
+- Narracao: Ainda não é carro voador. Mas foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: VOOU DE VERDADE
 - Funcao na historia: FECHO/PIADA FINAL
 
 

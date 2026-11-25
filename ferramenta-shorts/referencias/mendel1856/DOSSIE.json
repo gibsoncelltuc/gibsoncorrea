@@ -8,9 +8,8 @@
   "luz_base": "day",
   "cenarios": [
    "interior madeira",
-   "loc_campo",
-   "loc_deserto",
-   "loc_montanha"
+   "interior pedra",
+   "loc_campo"
   ],
   "cenarios_trocados": [
    [
@@ -19,7 +18,17 @@
     "loc_campo"
    ],
    [
-    "cena 12",
+    "cena 1",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 3",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 10",
     "countryside",
     "loc_campo"
    ]
@@ -41,26 +50,35 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/barn",
+  "buildings/church",
+  "kit/bancada",
   "kit/lupa",
-  "kit/pea_green",
-  "kit/pea_yellow",
-  "kit/phone",
-  "kit/room_europa_wood",
+  "kit/pe_ervilha",
+  "kit/room_azul_stone",
+  "kit/room_colonial_stone",
+  "kit/room_europa_stone",
+  "kit/room_rosa_wood",
   "kit/room_verde_wood",
+  "kit/vagem_amarela",
+  "kit/vagem_verde",
   "mk/Barrel",
   "mk/Bed_Twin1",
+  "mk/Bench",
   "mk/Bookcase_2",
   "mk/Cabinet",
   "mk/CandleStick_Stand",
+  "mk/CandleStick_Triple",
   "mk/Chair_1",
   "mk/Chest_Wood",
+  "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
+  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
   "mk/Table_Large",
-  "nature/flowerbed",
-  "nature/haybale",
-  "nature/picket_fence",
-  "nature/scarecrow"
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
   "local": "Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mosteiro, biblioteca",
@@ -77,7 +95,7 @@
   },
   "cenario": "horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros",
   "objetos": [
-   "vagens e ervilhas amarelas e verdes",
+   "vagens verdes e amarelas abertas com ervilhas",
    "caderno de anotacoes",
    "vasos de plantas"
   ],
@@ -89,8 +107,7 @@
    "https://commons.wikimedia.org/wiki/Category:Mendel_Museum_of_Genetics"
   ],
   "buscas": {
-   "mosteiro": "St Thomas Abbey Brno garden Mendel",
-   "ervilha": "pea pods yellow green"
+   "ervilhas": "pea pods open green yellow peas"
   }
  },
  "fontes": [],

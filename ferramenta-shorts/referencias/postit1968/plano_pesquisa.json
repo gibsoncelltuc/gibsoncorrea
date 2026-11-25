@@ -7,7 +7,7 @@
    "item": "A Cola que Não Colava",
    "consultas": [
     "A Cola que Não Colava",
-    "Um Era Estados Unidos Spencer Silver 1968"
+    "Uma Em Spencer Silver 1968"
    ]
   },
   {
@@ -107,18 +107,10 @@
    ]
   },
   {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
-   "consultas": [
-    "factory 1968",
-    "factory"
-   ]
-  },
-  {
    "tipo": "mecanismo",
-   "item": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
+   "item": "O papel saiu amarelo por acaso: era o único que tinha.",
    "consultas": [
-    "papel amarelo acaso rascunho",
+    "papel amarelo acaso tinha",
     "postit diagram"
    ]
   }

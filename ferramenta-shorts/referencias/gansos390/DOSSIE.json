@@ -14,11 +14,6 @@
   ],
   "cenarios_trocados": [
    [
-    "cena 3",
-    "mountain",
-    "loc_montanha"
-   ],
-   [
     "cena 4",
     "mountain",
     "loc_montanha"
@@ -30,7 +25,6 @@
  "objetos_em_cena": [
   "buildings/castle_tower",
   "kit/coin",
-  "kit/fire",
   "kit/room_classico_wood",
   "mk/Bookcase_2",
   "mk/Chair_1",

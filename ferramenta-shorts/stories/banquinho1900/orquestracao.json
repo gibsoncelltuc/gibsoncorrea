@@ -19,9 +19,27 @@
    "objetos": [
     "kit/golden_stool"
    ],
-   "palavras": 13,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
+   "frase": "Um banquinho dourado começou uma guerra na África.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E quem pediu para sentar nele nunca conseguiu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -34,12 +52,12 @@
     "ASH",
     "ASH"
    ],
-   "multidao": 30,
+   "multidao": 8,
    "objetos": [],
-   "palavras": 18,
-   "cena": "b1",
-   "frase": "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.",
-   "classe": "simples",
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1900, os ingleses mandavam na atual Gana.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -55,9 +73,9 @@
    "objetos": [
     "kit/golden_stool"
    ],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -67,16 +85,15 @@
   {
    "camera": "two",
    "personagens": [
-    "GOV",
-    "CHE"
+    "GOV"
    ],
    "multidao": 0,
    "objetos": [
     "kit/golden_stool"
    ],
-   "palavras": 16,
-   "cena": "b3",
-   "frase": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\"",
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "O governador inglês exigiu sentar nele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -91,9 +108,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
-   "cena": "b4",
-   "frase": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.",
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "Era como sentar na alma do povo ashanti.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -109,9 +126,9 @@
    "objetos": [
     "kit/forte_colonial"
    ],
-   "palavras": 11,
-   "cena": "b5",
-   "frase": "Eles se revoltaram e cercaram o forte onde o governador estava.",
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Eles se revoltaram e cercaram o forte do governador.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -131,9 +148,9 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Soldados ingleses vieram, e a guerra durou meses.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -153,10 +170,12 @@
     "PRE"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b7",
-   "frase": "No fim, os ingleses venceram e a região virou colônia.",
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Os ingleses venceram. Acontece que o banquinho tinha sumido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -171,45 +190,33 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/golden_stool"
+    "kit/golden_stool",
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
    ],
-   "palavras": 12,
-   "cena": "b8",
-   "frase": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Os ashanti esconderam o banquinho na mata.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "jungle"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "GOV"
+    "GOV",
+    "ASH"
    ],
    "multidao": 0,
    "objetos": [
     "kit/golden_stool"
    ],
    "palavras": 11,
-   "cena": "b9",
-   "frase": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "GOV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
    "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "O governador ganhou, mas nunca teve o banquinho. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

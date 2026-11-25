@@ -1,0 +1,80 @@
+{
+ "id": "ese_buraco",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se Você Cavasse um Buraco Até o Outro Lado da Terra?",
+   "consultas": [
+    "E Se Você Cavasse um Buraco Até o Outro Lado da Terra?",
+    "Um Terra Pacífico Rússia"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Brasil (ponto de partida) e o oceano Pacifico perto do Japao (antipoda); poco de",
+   "consultas": [
+    "Brasil",
+    "Brasil ponto de partida e o oceano Pacifico perto do Japao antipoda poco de Kola na Russia"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Rússia",
+   "consultas": [
+    "Rússia",
+    "Rússia landscape"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "um cavador com pa",
+   "consultas": [
+    "um cavador com pa"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "um professor de geologia",
+   "consultas": [
+    "um professor de geologia"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "curiosos",
+   "consultas": [
+    "curiosos"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pa",
+   "consultas": [
+    "pa"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "globo terrestre",
+   "consultas": [
+    "globo terrestre"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "perfil das camadas da Terra",
+   "consultas": [
+    "perfil das camadas da Terra"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "globe",
+   "consultas": [
+    "pa",
+    "E Se Você Cavasse um Buraco Até o Outro Lado da Terra?"
+   ]
+  }
+ ]
+}

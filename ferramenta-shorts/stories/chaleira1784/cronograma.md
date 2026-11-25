@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
-Gerado em 25/11 17:36 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:19 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,9 +11,9 @@ b1 | simples | interior madeira | two | IMP, COZ | - | kettle | - | E dentro del
 b2 | transicao | harbor | wide | MAR, MAR | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.
 b3 | simples | interior pedra | two | IMP, GEN | - | - | - | O imperador da Áustria queria o rio aberto.
 b4 | simples | harbor | wide | IMP | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Mandou três navios descerem o rio, certo de que ninguém reagiria.
-b5 | simples | harbor | wide | MAR, MAR | - | cannon, navio_fragata, navios de guerra ao fundo, no tamanho real | - | Acontece que um navio holandês esperava e disparou um tiro.
+b5 | simples | harbor | group | MAR, MAR | - | cannon, navio_fragata | - | Acontece que um navio holandês esperava e disparou um tiro.
 b6 | chave | interior madeira | two | IMP, COZ | - | kettle | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A bala destruiu a chaleira de sopa no convés.
-b7 | chave | harbor | wide | GEN | - | navio_fragata, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora.
+b7 | chave | harbor | group | GEN | - | navio_fragata | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora.
 b8 | simples | loc_campo | two | COZ, HOL | - | - | - | Perderam o almoço e a coragem. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

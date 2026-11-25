@@ -1,54 +1,63 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 9 cenas, 85 palavras (~29 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: A França e o Brasil quase entraram em guerra por causa de uma lagosta.
+## Cena b0  (~3.8 s)
+- Narracao: Brasil e França quase entraram em guerra por causa de lagosta.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: GUERRA DA LAGOSTA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.5 s)
-- Narracao: Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.
+## Cena b1  (~3.4 s)
+- Narracao: E tudo dependia de uma pergunta: lagosta anda ou nada?
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~2.8 s)
+- Narracao: Em 1961, barcos franceses pescavam lagosta em Pernambuco.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@70
-- Efeito + som nas palavras-chave: encena: x_pesca (lift) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@70
 - Texto na tela: - | mapa: PERNAMBUCO
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~3.8 s)
+- Narracao: O Brasil dizia: ela anda no fundo do mar, é nossa.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~3.1 s)
+- Narracao: A França dizia: ela nada, é de quem pescar.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~2.4 s)
+- Narracao: A França mandou um navio de guerra.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b2  (~5.5 s)
-- Narracao: O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~4.8 s)
-- Narracao: A França respondia que a lagosta nada, e por isso era de quem pescasse.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b4  (~4.1 s)
-- Narracao: A França mandou um navio de guerra para proteger os pescadores dela.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b5  (~5.9 s)
-- Narracao: Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.
+## Cena b6  (~3.1 s)
+- Narracao: Acontece que o Brasil respondeu com navios e aviões.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,48 +65,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: NAVIOS E AVIÕES
 - Funcao na historia: VIRADA
 
-## Cena b6  (~7.9 s)
-- Narracao: Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.
-- Som ambiente: sea
-- Efeitos sonoros marcados: tick@40
-- Efeito + som nas palavras-chave: encena: olha (point) @5 -> acao + som de efeito
-- Efeito visual marcado: puff@40
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b7  (~5.5 s)
-- Narracao: Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.
+## Cena b7  (~2.8 s)
+- Narracao: Mas o tiro nunca veio. Os governos negociaram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.1 s)
-- Narracao: Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: x_aperta (point) @4 -> acao + som de efeito; aperto de mao -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: 1963
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~4.5 s)
-- Narracao: No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.
+- Narracao: Nenhum tiro, só uma briga sobre um bicho. E foi assim que...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: GUERRA DA LAGOSTA
 - Funcao na historia: FECHO/PIADA FINAL
 

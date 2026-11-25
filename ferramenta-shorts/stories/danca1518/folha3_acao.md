@@ -1,153 +1,209 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 3.5s - 14 palavras - plano two
-> "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Uma mulher começou a dançar na rua e não conseguiu parar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) TRO acao do motor: danca | na palavra "dançar" (1.3s)
+  1) TRO acao do motor: danca | na palavra "dançar" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançar (1.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançar (1.3s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | dançar (1.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançar (1.5s) | ACAO: danca | danca de bracos para cima | OK |
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | dancar | OK |
+| 5 | - | PLACA | NÃO PARAVA DE DANÇAR | OK |
+<!-- FISICA -->
 
-## Cena b1 - 4.7s a 10.9s - 18 palavras - plano two
-> "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dançar (1.5s): executa: estrelinhas + som
+- ACAO: danca na palavra dançar (1.5s): bracos para cima e pulinhos curtos durante a frase
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.1s a 7.0s - 9 palavras - plano two
+> "E até hoje ninguém sabe ao certo por quê."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ninguém" (5.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b2 - 7.4s a 10.4s - 9 palavras - plano two
+> "Em 1518, em Estrasburgo, ela dançou por uma semana."
 
 - LEITURA DA FRASE: sentido FATO
-  1) TRO acao do motor: danca | na palavra "dançou" (8.8s)
+  1) TRO acao do motor: danca | na palavra "dançou" (9.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançou (8.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançou (8.8s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
+| 1 | dançou (9.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançou (9.3s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | dancar | OK |
 | 5 | - | MAPA | ESTRASBURGO | OK |
+<!-- FISICA -->
 
-## Cena b2 - 12.0s a 16.2s - 13 palavras - plano crowd
-> "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dançou (9.3s): executa: estrelinhas + som
+- ACAO: danca na palavra dançou (9.3s): bracos para cima e pulinhos curtos durante a frase
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 10.7s a 13.7s - 9 palavras - plano crowd
+> "Em poucos dias, mais de trinta pessoas dançavam também."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) TRO acao do motor: danca | na palavra "dançavam" (14.3s)
+  1) TRO acao do motor: danca | na palavra "dançavam" (13.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançavam (14.3s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | dançavam (13.3s) | ACAO: danca | danca de bracos para cima | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | dancar | OK |
+<!-- FISICA -->
 
-## Cena b3 - 17.2s a 22.3s - 14 palavras - plano group
-> "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: danca na palavra dançavam (13.3s): bracos para cima e pulinhos curtos durante a frase
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- multidao de 36: parada, reagindo (pained), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) POV acao do motor: danca | na palavra "dançavam" (19.9s)
-  2) TRO grita com os bracos para cima | na palavra "socorro" (22.3s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | dançavam (19.9s) | ACAO: danca | danca de bracos para cima | OK |
-| 2 | socorro (22.3s) | EFEITO: ring | onda + som | OK |
-| 3 | socorro (22.3s) | ACAO: grita | grita de bracos para cima | OK |
-| 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | dancar | OK |
-| 7 | - | PLACA | 50 A 400 | OK |
-
-## Cena b4 - 23.5s a 27.8s - 16 palavras - plano two
-> "O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança."
+## Cena b4 - 14.1s a 16.7s - 8 palavras - plano group
+> "Em agosto, eram centenas, com os pés sangrando."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) PRE fala apontando | na palavra "chamou" (24.7s)
-  2) MED fala apontando | na palavra "receitaram" (27.0s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | chamou (24.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | dança (27.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | reagir | OK |
-
-## Cena b5 - 28.9s a 32.7s - 13 palavras - plano wide
-> "A cidade reformou salões e contratou músicos para manter os dançarinos de pé."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MUS acao do motor: danca | na palavra "dançarinos" (31.9s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | músicos (30.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançarinos (31.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | dançarinos (31.9s) | ACAO: danca | danca de bracos para cima | OK |
-| 4 | - | ATUACAO | dancar | OK |
-| 5 | - | PLACA | SALÃO | OK |
-
-## Cena b6 - 33.7s a 39.4s - 22 palavras - plano orbit
-> "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) POV acao do motor: danca | na palavra "dança" (35.4s)
-  2) PRE fala apontando | na palavra "proibiu" (38.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | dança (35.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dança (35.4s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | proibiu (38.7s) | ACAO: fala | aponta explicando | OK |
-| 4 | dançar (39.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 6 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 7 | - | ATUACAO | dancar | OK |
-
-## Cena b7 - 40.6s a 44.8s - 15 palavras - plano two
-> "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes."
-
-- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "documentos" (43.2s)
+  1) POV acao do motor: danca | na palavra "centenas" (15.2s)
+  2) TRO grita com os bracos para cima | na palavra "centenas" (15.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | dancar | OK |
+| 3 | - | PLACA | 50 A 400 | OK |
+<!-- FISICA -->
 
-## Cena b8 - 46.0s a 52.2s - 22 palavras - plano wide
-> "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 36: parada, reagindo (pained), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b5 - 17.0s a 20.4s - 10 palavras - plano two
+> "Os médicos culparam o sangue quente e receitaram mais dança."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) DAN acao do motor: danca | na palavra "dançarinos" (46.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "receitaram" (19.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançarinos (46.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançarinos (46.8s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | dança (51.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | dança (51.9s) | ACAO: danca | danca de bracos para cima | OK |
-| 5 | - | ATUACAO | dancar | OK |
-| 6 | - | PLACA | CAPELA DO MONTE | OK |
-
-## Cena b9 - 53.3s a 56.7s - 14 palavras - plano close
-> "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu."
-
-- LEITURA DA FRASE: sentido FATO
-  1) MED mao no queixo, pensando | na palavra "suspeita" (53.6s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | suspeita (53.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | EMOCAO: distrust | o rosto vira "distrust" na palavra | OK |
+| 1 | dança (20.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b10 - 58.1s a 61.5s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dança (20.4s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b6 - 20.7s a 24.1s - 10 palavras - plano orbit
+> "Acontece que a cidade contratou músicos para manter todos dançando."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MUS acao do motor: danca | na palavra "contratou" (22.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | músicos (22.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançando (24.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | dancar | OK |
+| 5 | - | PLACA | SALÃO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra músicos (22.6s): executa: estrelinhas + som
+- EFEITO: stars na palavra dançando (24.1s): executa: estrelinhas + som
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b7 - 24.4s a 26.7s - 7 palavras - plano two
+> "Deu errado: mais gente entrou na dança."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "entrou" (25.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | dança (26.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | dancar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dança (26.7s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- CHEGADA (a cena toda): executa: alguem entra andando
+<!-- /FISICA -->
+
+## Cena b8 - 27.0s a 30.0s - 9 palavras - plano wide
+> "Levados a uma capela no monte, eles finalmente pararam."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pararam" (30.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | PLACA | CAPELA DO MONTE | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 6: parada, reagindo (relief), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b9 - 30.4s a 34.1s - 11 palavras - plano two
+> "Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ninguém" (31.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | NÃO PARAVA DE DANÇAR | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

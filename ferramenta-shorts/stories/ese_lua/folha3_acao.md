@@ -1,98 +1,162 @@
 # FOLHA 3 - ACOES - E Se EP 07 - E Se a Lua Desaparecesse?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
-> "E se, hoje à noite, a Lua simplesmente desaparecesse do céu?"
+## Cena b0 - 0.0s a 2.6s - 8 palavras - plano two
+> "Hoje à noite, a Lua desaparece do céu."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Lua" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
 
-## Cena b1 - 4.1s a 8.9s - 14 palavras - plano two
-> "A primeira mudança seria a escuridão. Noite de lua cheia, preta como uma caverna."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 3.0s a 5.6s - 8 palavras - plano reveal
+> "O pior não viria na hora. Viria devagar."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "devagar" (5.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b2 - 5.9s a 8.9s - 9 palavras - plano two
+> "Primeiro, a escuridão: lua cheia, preta como uma caverna."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "escuridão" (6.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b2 - 9.3s a 13.3s - 12 palavras - plano reveal
-> "A segunda, no mar. Quem mais puxa as marés é a Lua."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | MAPA | OCEANOS | OK |
+## Cena b3 - 9.3s a 13.0s - 11 palavras - plano wide
+> "Depois, o mar: quem mais puxa as marés é a Lua."
 
-## Cena b3 - 13.7s a 18.9s - 15 palavras - plano two
-> "Sem ela, as marés perderiam mais da metade da força. Só o Sol continuaria puxando."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | puxando (18.9s) | ACAO: empurra | empurra/puxa | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b4 - 19.3s a 26.7s - 21 palavras - plano two
-> "Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos animais iam se perder no escuro."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marés" (11.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perder (25.9s) | EFEITO: dust | poeira + som | OK |
-| 2 | perder (25.9s) | ACAO: perde | mao na testa | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | MAPA | OCEANOS | OK |
+<!-- FISICA -->
 
-## Cena b5 - 27.0s a 29.6s - 8 palavras - plano crowd
-> "O mundo inteiro olharia para cima, sem acreditar."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | SEM LUA | OK |
+## Cena b4 - 13.3s a 16.7s - 10 palavras - plano two
+> "Sem ela, as marés perderiam mais da metade da força."
 
-## Cena b6 - 30.0s a 36.3s - 18 palavras - plano two
-> "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marés" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | firme (36.3s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b7 - 36.7s a 43.0s - 18 palavras - plano two
-> "Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as estações podiam ficar extremas."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b5 - 17.0s a 20.0s - 9 palavras - plano low
+> "Acontece que a Lua mantém a Terra girando firme."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "girando" (19.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b6 - 20.4s a 23.7s - 10 palavras - plano two
+> "Sem ela, o eixo balançaria, e as estações ficariam extremas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "balançaria" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b8 - 43.3s a 49.6s - 18 palavras - plano two
-> "E os dias parariam de ficar mais compridos, porque é a Lua que freia a Terra, bem devagar."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
+## Cena b7 - 24.1s a 27.4s - 10 palavras - plano crowd
+> "Boa notícia: ela só se afasta quatro centímetros por ano."
 
-## Cena b9 - 50.0s a 54.8s - 14 palavras - plano orbit
-> "Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros por ano."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "afasta" (25.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | OBRIGADO, LUA | OK |
+<!-- FISICA -->
 
-## Cena b10 - 55.2s a 59.6s - 13 palavras - plano close
-> "Então hoje, olha para cima e agradece. Ela trabalha mais do que parece."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- multidao de 18: parada, reagindo (smile), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b8 - 27.8s a 30.4s - 8 palavras - plano two
+> "Olha para cima e agradece. Agora imagina que..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "olha" (27.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

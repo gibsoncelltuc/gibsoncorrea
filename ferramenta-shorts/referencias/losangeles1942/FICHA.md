@@ -7,7 +7,7 @@
 - Roupas: {'SOL': 'soldado americano de 1942: uniforme verde-oliva, capacete M1917 (Brodie)', 'GEN': 'oficial com quepe de servico', 'CID': 'morador de 1942: paleto e chapeu de aba', 'PRE': 'politico de terno escuro e chapeu-coco', 'POV': 'moradores de casaco e chapeu dos anos 40'}
 - Cenario real: cidade no apagao a noite, fachos de holofote se cruzando no ceu, explosoes de fumaca dos tiros antiaereos, estilhacos caindo nas ruas
 - Objetos: ['holofotes antiaereos', 'canhoes antiaereos', 'sirenes', 'jornal do dia seguinte']
-- Cenarios usados no video: harbor, interior madeira, loc_cidade, street
+- Cenarios usados no video: harbor, loc_cidade, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Proibido pelo roteiro: -
 

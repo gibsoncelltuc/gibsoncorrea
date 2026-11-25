@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Franklin, a Pipa e o Raio
 - Epoca: 1752 | Lugar: Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tijolo | Quando: junho de 1752, tarde de tempestade
 - HEROIS (objeto): kit/kite
-- HEROIS (personagens): FRA, COM
-- Cenarios: countryside, interior loja, interior madeira, interior pedra, street
+- HEROIS (personagens): FRA, FIL
+- Cenarios: countryside, interior madeira, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Franklin, a Pipa e o Raio | Franklin a Pipa e o Raio / Um Era Filadélfia Benjamin Franklin Na 1752 | West - Benjamin Franklin Drawing Electricity from  (referencias/franklin1752/prints/franklin_a_pipa_e_o_raio_4e340b.jpg); The philosopher & his kite - H.S. Sadd sc. LCCN200 (referencias/franklin1752/prints/franklin_a_pipa_e_o_raio_7aeeb5.jpg)
+tema | Franklin, a Pipa e o Raio | Franklin a Pipa e o Raio / Um Em Benjamin Franklin 1752 | West - Benjamin Franklin Drawing Electricity from  (referencias/franklin1752/prints/franklin_a_pipa_e_o_raio_4e340b.jpg); The philosopher & his kite - H.S. Sadd sc. LCCN200 (referencias/franklin1752/prints/franklin_a_pipa_e_o_raio_7aeeb5.jpg)
 lugar | Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tij | Filadelfia colonia da Pensilvania / Filadelfia colonia da Pensilvania 1752 | Plaque explaining the Portal de la Libertad in Fil (referencias/franklin1752/prints/filadelfia_colonia_da_pensilvania_campo__3cc360.jpg); Faith, unity and labor (monument in Filadelfia, Pa (referencias/franklin1752/prints/filadelfia_colonia_da_pensilvania_campo__c1d835.jpg)
 lugar | Estados Unidos | Estados Unidos 1752 / Estados Unidos landscape | Lago Pippin, Copper Center, Alaska, Estados Unidos (referencias/franklin1752/prints/estados_unidos_c8c934.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/franklin1752/prints/estados_unidos_185b81.jpg); Parque estatal Chugach, Alaska, Estados Unidos, 20 (referencias/franklin1752/prints/estados_unidos_282a45.jpg)
 epoca | roupas e ruas de 1752 | 1752 fashion clothing / 18th century clothing painting | European School, 18th century - Female figure.jpg (referencias/franklin1752/prints/roupas_e_ruas_de_1752_aec204.jpg); Sorath Rai Diyach miniature 18th century (cropped) (referencias/franklin1752/prints/roupas_e_ruas_de_1752_a12225.jpg)

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 13 - Você Está Demitido
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 87 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 87 palavras (~30 s)
 
 ## Cena b0  (~3.1 s)
 - Narracao: Duas palavras deixaram Donald Trump famoso no mundo inteiro.

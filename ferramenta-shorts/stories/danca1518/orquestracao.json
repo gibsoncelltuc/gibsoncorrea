@@ -25,14 +25,31 @@
    "objetos": [
     "kit/marco_viena"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.",
+   "frase": "Uma mulher começou a dançar na rua e não conseguiu parar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MED",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E até hoje ninguém sabe ao certo por quê.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -44,9 +61,9 @@
    "objetos": [
     "kit/marco_viena"
    ],
-   "palavras": 18,
-   "cena": "b1",
-   "frase": "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir.",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1518, em Estrasburgo, ela dançou por uma semana.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -63,9 +80,9 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b2",
-   "frase": "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Em poucos dias, mais de trinta pessoas dançavam também.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -76,7 +93,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "medieval"
+   "cenario": "street"
   },
   {
    "camera": "group",
@@ -88,9 +105,9 @@
    ],
    "multidao": 36,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Em agosto, eram centenas, com os pés sangrando.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -105,9 +122,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
-   "cena": "b4",
-   "frase": "O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança.",
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Os médicos culparam o sangue quente e receitaram mais dança.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -115,7 +132,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "MUS",
     "MUS"
@@ -125,26 +142,9 @@
     "buildings/house_two",
     "nature/lamppost"
    ],
-   "palavras": 13,
-   "cena": "b5",
-   "frase": "A cidade reformou salões e contratou músicos para manter os dançarinos de pé.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "hall"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "PRE",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 22,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público.",
+   "frase": "Acontece que a cidade contratou músicos para manter todos dançando.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -155,24 +155,24 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "medieval"
+   "cenario": "hall"
   },
   {
    "camera": "two",
    "personagens": [
     "PRE",
-    "MED"
+    "POV"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
+   "frase": "Deu errado: mais gente entrou na dança.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "wide",
@@ -184,46 +184,31 @@
     "buildings/church",
     "kit/marco_viena"
    ],
-   "palavras": 22,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
-   "classe": "simples",
+   "frase": "Levados a uma capela no monte, eles finalmente pararam.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_montanha"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "MED"
+    "TRO",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b9",
-   "frase": "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu.",
+   "frase": "Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "PRE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "medieval"
   }
  ]
 }

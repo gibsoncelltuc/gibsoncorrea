@@ -37,6 +37,25 @@
   {
    "camera": "wide",
    "personagens": [
+    "JUI",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ring"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E no fim, ele mesmo acabou no chão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
     "JUI"
    ],
    "multidao": 0,
@@ -89,13 +108,13 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "POV",
     "POV",
     "POV"
    ],
-   "multidao": 30,
+   "multidao": 18,
    "objetos": [
     "kit/ball"
    ],
@@ -133,7 +152,7 @@
    "cenario": "stadium"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "LAS"
    ],
@@ -177,7 +196,7 @@
    "cenario": "stadium"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "JUI"
    ],

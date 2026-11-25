@@ -22,190 +22,9 @@
     "kit/searchlight",
     "nature/lamppost"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "reveal",
-   "personagens": [
-    "CID",
-    "CID"
-   ],
-   "multidao": 8,
-   "objetos": [],
-   "palavras": 20,
-   "cena": "b1",
-   "frase": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "CID"
-   ],
-   "multidao": 30,
-   "objetos": [
-    "kit/submarino_ww2"
-   ],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "low",
-   "personagens": [
-    "SOL",
-    "CID"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "kit/searchlight",
-    "nature/lamppost"
-   ],
-   "palavras": 16,
-   "cena": "b3",
-   "frase": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "SOL"
-   ],
-   "multidao": 32,
-   "objetos": [
-    "cannon",
-    "kit/canhao_moderno"
-   ],
-   "palavras": 15,
-   "cena": "b4",
-   "frase": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "SOL",
-    "GEN"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 18,
-   "cena": "b5",
-   "frase": "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "CID",
-    "CID"
-   ],
-   "multidao": 48,
-   "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "cannon",
-    "kit/canhao_moderno",
-    "kit/searchlight",
-    "nature/lamppost"
-   ],
-   "palavras": 17,
-   "cena": "b6",
-   "frase": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "GEN",
-    "PRE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b7",
-   "frase": "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "CID",
-    "CID"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b8",
-   "frase": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "CID"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/searchlight"
-   ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
+   "frase": "Uma cidade atirou no céu a noite toda contra um inimigo invisível.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -218,10 +37,173 @@
     "CID"
    ],
    "multidao": 0,
+   "objetos": [
+    "kit/searchlight"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E até hoje ninguém sabe no que eles atiravam.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "CID",
+    "CID"
+   ],
+   "multidao": 8,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1942, Los Angeles vivia com medo do Japão.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "CID"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/submarino_ww2"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Na véspera, um submarino japonês atirou na Califórnia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "SOL",
+    "CID"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/searchlight"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "De madrugada, sirenes tocaram e holofotes varreram o céu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 3,
+   "objetos": [
+    "cannon",
+    "kit/canhao_moderno"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Alguém viu algo, e os canhões antiaéreos começaram a atirar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "CID",
+    "CID"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/canhao_moderno",
+    "kit/searchlight",
+    "nature/lamppost"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Foram mais de mil tiros, e estilhaços caíram na cidade.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SOL",
+    "GEN"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Acontece que não havia nada lá em cima.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CID",
+    "CID"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Algumas pessoas morreram por acidente e susto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SOL",
+    "CID"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/searchlight"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "O medo venceu o sono. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

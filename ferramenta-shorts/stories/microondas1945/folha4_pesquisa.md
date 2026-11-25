@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1945 | Lugar: Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magnetrons | Quando: cerca de 1945, dia
 - HEROIS (objeto): kit/microwave
 - HEROIS (personagens): SPE, ENG
-- Cenarios: interior loja, interior madeira, interior pedra, loc_campo, street
+- Cenarios: interior galpao, interior madeira, loc_campo, street
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Micro-ondas e o Chocolate | O Micro-ondas e o Chocolate / Uma Era Estados Unidos Percy Spencer Esses 1945 | SEM REFERENCIA
+tema | O Micro-ondas e o Chocolate | O Micro-ondas e o Chocolate / Um Por Percy Spencer 1945 | SEM REFERENCIA
 lugar | Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magne | Raytheon Waltham Massachusetts / Raytheon Waltham Massachusetts EUA 1945 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1945 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1945 | 1945 fashion clothing / 1945 street photograph | SEM REFERENCIA
@@ -28,7 +28,6 @@ objeto | ovo | ovo / ovo 1945 | SEM REFERENCIA
 objeto | Radarange (primeiro micro-ondas, 1,8 m) | Radarange / Radarange 1945 | SEM REFERENCIA
 objeto | forno de micro-ondas moderno | forno de micro-ondas moderno / forno de micro-ondas moderno 1945 | SEM REFERENCIA
 heroi | microwave | magnetron / O Micro-ondas e o Chocolate | SEM REFERENCIA
-epoca | fabrica da epoca | factory 1945 / factory | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Percy Spencer notou que um magnetron derreteu o chocolate no bolso; testou pipoca e ovo; a Raytheon lancou o Radarange em 1947, com cerca de 1,8 m e 340 kg (fonte: Wikipedia Microwave oven, Percy Spencer)

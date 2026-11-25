@@ -1,6 +1,6 @@
 # FICHA DE REFERENCIA - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-- Ano/epoca: None (None)
+- Ano/epoca: 2000 (historica)
 - Onde: Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo
 - Quando: cerca de 240 a.C., meio-dia do solsticio de verao, sol forte
 - Quem: ['Eratostenes (tunica grega branca e manto, barba)', 'bibliotecario assistente', 'camelos e caravana para medir a distancia']
@@ -8,7 +8,7 @@
 - Cenario real: cidade helenistica com colunas, palmeiras, areia; poco de pedra; vara fincada no chao com sombra
 - Objetos: ['vara (gnomon)', 'poco de pedra', 'rolos de papiro', 'globo']
 - Cenarios usados no video: loc_campo, loc_estudio, loc_montanha
-- PROIBIDO pela epoca (a ferramenta bloqueia): -
+- PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

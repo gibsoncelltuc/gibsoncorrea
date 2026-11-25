@@ -34,17 +34,7 @@
     "loc_campo"
    ],
    [
-    "cena 9",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 12",
+    "cena 10",
     "countryside",
     "loc_campo"
    ]
@@ -70,7 +60,6 @@
  "objetos_em_cena": [
   "kit/bee",
   "kit/beehive",
-  "kit/lupa",
   "kit/room_azul_stone",
   "kit/room_europa_wood",
   "kit/room_verde_wood",

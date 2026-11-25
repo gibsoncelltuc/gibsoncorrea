@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Gerado em 25/11 17:34 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | loc_campo | wide | ALM | - | marco_zanzibar, navio_vapor | - | De
 b5 | transicao | loc_campo | reveal | GUA, GUA | 32 | marco_zanzibar | - | Ele juntou quase três mil homens e se trancou lá dentro.
 b6 | chave | harbor | orbit | sem personagem | - | cannon, marco_zanzibar, navio_vapor_guerra, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, às nove e dois, os navios ingleses abriram fogo.
 b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/forte_colonial (parado); emissao: fogo, onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som | O palácio pegou fogo, e o primo fugiu.
-b8 | simples | loc_campo | wide | GUA | - | forte_colonial, marco_zanzibar, flagpole | - | Às nove e quarenta, a bandeira caiu.
+b8 | chave | loc_campo | wide | GUA, ING2 | - | forte_colonial, marco_zanzibar, flagpole | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às nove e quarenta, a bandeira caiu.
 b9 | simples | harbor | two | SUL, GUA | - | - | - | Os ingleses mandaram a conta das balas. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
@@ -27,7 +27,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | PENDENTE | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh zanzibar1896
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 

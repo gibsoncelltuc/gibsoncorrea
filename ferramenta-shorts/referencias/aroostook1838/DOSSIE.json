@@ -10,10 +10,21 @@
    "arctic",
    "interior loja",
    "interior madeira",
-   "interior pedra",
+   "loc_campo",
    "loc_montanha"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 3",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 5",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -33,21 +44,13 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/logs",
-  "kit/room_azul_shop",
-  "kit/room_europa_wood",
-  "kit/room_verde_stone",
-  "kit/scroll",
+  "kit/room_europa_shop",
+  "kit/room_verde_wood",
   "mk/Barrel",
   "mk/Bed_Twin1",
-  "mk/Bookcase_2",
   "mk/Cabinet",
   "mk/CandleStick_Stand",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
   "mk/Nightstand_Shelf",
-  "mk/Table_Large",
-  "nature/bush",
-  "nature/tree_oak",
   "nature/tree_pine"
  ],
  "pesquisa_visual": {

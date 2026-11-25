@@ -1,21 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Gerado em 24/11 23:45 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | GAL | - | ball, marco_pisa, pisa_tower | - | Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao m
-b1 | transicao | street | reveal | ALU, ALU | 8 | marco_pisa | - | Conta a história que, em Pisa, na Itália, por volta de mil quinhentos 
-b2 | simples | interior pedra | two | ARI, ALU | - | - | - | O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, ma
-b3 | simples | interior pedra | group | ALU, ALU, PRO | - | ball | - | Mas Galileu Galilei achou estranho e resolveu provar o contrário.
-b4 | transicao | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | - | Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes
-b5 | chave | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo 
-b6 | simples | interior madeira | two | GAL, ALU | - | - | - | Hoje se discute se isso aconteceu mesmo, porque a história vem de um a
-b7 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um 
-b8 | simples | interior loja | close | GAL | - | - | - | No fim, até a pena deu razão ao Galileu.
-b9 | simples | street | close | GAL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | street | two | GAL | - | bola_couro, marco_pisa, pisa_tower | - | Uma bola pesada e uma leve caíram no chão ao mesmo tempo.
+b1 | simples | loc_campo | two | GAL | - | bola_couro | - | E, séculos depois, até uma pena provou isso.
+b2 | transicao | street | reveal | ALU, ALU | - | marco_pisa | - | Em 1590, Galileu era professor em Pisa.
+b3 | simples | interior pedra | two | ARI, ALU | - | - | - | Aristóteles dizia: quanto mais pesado, mais rápido cai.
+b4 | transicao | loc_campo | wide | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | - | Dizem que Galileu levou duas bolas ao alto da torre de Pisa.
+b5 | chave | loc_campo | group | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que as duas chegaram juntas ao chão.
+b6 | simples | interior madeira | two | GAL, ALU | - | - | - | Tem historiador que duvida dessa história.
+b7 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1971, na Lua, um astronauta soltou martelo e pena juntos.
+b8 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os dois caíram exatamente ao mesmo tempo.
+b9 | transicao | street | wide | GAL | - | marco_pisa, pisa_tower | - | Aristóteles errou por dois mil anos. Até que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

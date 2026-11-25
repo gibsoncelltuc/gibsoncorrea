@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): MUS, FUN
 - Cenarios: interior loja, interior madeira, interior pedra, loc_cidade, loc_estudio
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 0.9: grande demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Pia no Twitter | A Pia no Twitter / Um Foi Elon Musk Twitter São Francisco Ele 2022 | SEM REFERENCIA
+tema | A Pia no Twitter | A Pia no Twitter / Um Foi Elon Musk Twitter 2022 | SEM REFERENCIA
 lugar | Sede do Twitter, Market Street, Sao Francisco (California): saguao moderno com o | Sede do Twitter Market Street Sao Francisco / Sede do Twitter Market Street Sao Francisco California 2022 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2022 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2022 | 2022 fashion clothing / 2022 street photograph | SEM REFERENCIA
@@ -25,7 +25,7 @@ objeto | pia de banheiro de porcelana branca | pia de banheiro de porcelana bran
 objeto | celular filmando | celular filmando / celular filmando 2022 | SEM REFERENCIA
 objeto | logo do Twitter | logo do Twitter / logo do Twitter 2022 | SEM REFERENCIA
 heroi | sink | pia de banheiro de porcelana branca / A Pia no Twitter | SEM REFERENCIA
-mecanismo | É um trocadilho: em inglês, a palavra sink quer dizer pia, e também af | trocadilho ingles palavra dizer tambem afundar / sink diagram | SEM REFERENCIA
+mecanismo | Sink quer dizer pia e também afundar. | dizer tambem afundar / sink diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em 26/10/2022 Musk entrou na sede do Twitter com uma pia e escreveu "Entering Twitter HQ - let that sink in"; em 27/10 concluiu a compra por US$ 44 bilhoes e demitiu o CEO Parag Agrawal e outros executivos; mudou a bio para "Chief Twit" (fonte: Wikipedia Acquisition of Twitter by Elon Musk)

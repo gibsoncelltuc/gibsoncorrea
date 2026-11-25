@@ -7,7 +7,7 @@
    "item": "A Guerra do Cão Fugitivo",
    "consultas": [
     "A Guerra do Cão Fugitivo",
-    "Um Europa Em Grécia Bulgária Dizem 1925"
+    "Um Europa Em Grécia Bulgária 1925"
    ]
   },
   {
@@ -82,14 +82,6 @@
    "consultas": [
     "soldier uniform 1925",
     "soldier uniform"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "exercito da epoca",
-   "consultas": [
-    "army 1925",
-    "army"
    ]
   }
  ]

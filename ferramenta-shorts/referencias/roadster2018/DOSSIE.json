@@ -39,7 +39,8 @@
   "kit/roadster",
   "kit/rocket",
   "kit/room_eua_shop",
-  "kit/room_europa_shop"
+  "kit/room_europa_shop",
+  "kit/room_verde_shop"
  ],
  "pesquisa_visual": {
   "local": "Cabo Canaveral, Complexo de Lançamento 39A do Centro Espacial Kennedy, Flórida, e o espaço",

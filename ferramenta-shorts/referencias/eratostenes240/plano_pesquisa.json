@@ -1,6 +1,6 @@
 {
  "id": "eratostenes240",
- "ano": null,
+ "ano": 2000,
  "itens": [
   {
    "tipo": "tema",
@@ -8,7 +8,7 @@
    "consultas": [
     "Eratosthenes measuring the Earth illustration shadow well Syene",
     "Eratóstenes Mede a Terra",
-    "Um Era Cristo Eratóstenes Alexandria Egito Ele Siena"
+    "Um Terra Há Eratóstenes Alexandria 2000"
    ]
   },
   {
@@ -16,22 +16,31 @@
    "item": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese",
    "consultas": [
     "Alexandria",
-    "Alexandria Egito"
+    "Alexandria Egito 2000"
    ]
   },
   {
    "tipo": "lugar",
    "item": "Egito",
    "consultas": [
-    "Egito",
+    "Egito 2000",
     "Egito landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2000",
+   "consultas": [
+    "2000 fashion clothing",
+    "2000 street photograph"
    ]
   },
   {
    "tipo": "pessoas",
    "item": "Eratostenes (tunica grega branca e manto, barba)",
    "consultas": [
-    "Eratostenes tunica grega branca e manto barba"
+    "Eratostenes tunica grega branca e manto barba",
+    "Eratostenes tunica grega branca e manto barba 2000"
    ]
   },
   {
@@ -39,14 +48,16 @@
    "item": "bibliotecario assistente",
    "consultas": [
     "ancient Greek scholar scroll library illustration",
-    "bibliotecario assistente"
+    "bibliotecario assistente",
+    "bibliotecario assistente 2000"
    ]
   },
   {
    "tipo": "pessoas",
    "item": "camelos e caravana para medir a distancia",
    "consultas": [
-    "camelos e caravana para medir a distancia"
+    "camelos e caravana para medir a distancia",
+    "camelos e caravana para medir a distancia 2000"
    ]
   },
   {
@@ -54,7 +65,8 @@
    "item": "vara (gnomon)",
    "consultas": [
     "ancient gnomon sundial shadow stick",
-    "vara"
+    "vara",
+    "vara 2000"
    ]
   },
   {
@@ -62,14 +74,16 @@
    "item": "poco de pedra",
    "consultas": [
     "ancient stone well desert Egypt",
-    "poco de pedra"
+    "poco de pedra",
+    "poco de pedra 2000"
    ]
   },
   {
    "tipo": "objeto",
    "item": "rolos de papiro",
    "consultas": [
-    "rolos de papiro"
+    "rolos de papiro",
+    "rolos de papiro 2000"
    ]
   },
   {
@@ -77,7 +91,8 @@
    "item": "globo",
    "consultas": [
     "antique terrestrial globe 17th century",
-    "globo"
+    "globo",
+    "globo 2000"
    ]
   },
   {
@@ -97,34 +112,42 @@
    ]
   },
   {
-   "tipo": "mecanismo",
-   "item": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra",
+   "tipo": "epoca",
+   "item": "foguete da epoca",
    "consultas": [
-    "alexandria fincada fazia sombra pequena",
+    "rocket 2000",
+    "rocket"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
+   "consultas": [
+    "alexandria fazia sombra",
     "stick diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Acontece que a sombra era diferente, e isso só podia acontecer se a Te",
+   "item": "Acontece que isso só acontece se a Terra for curva.",
    "consultas": [
-    "acontece sombra diferente podia acontecer terra fosse curva",
+    "acontece acontece terra curva",
     "stick diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades",
+   "item": "Ele mediu o ângulo da sombra e a distância entre as cidades.",
    "consultas": [
-    "mediu angulo sombra contou passos cidades",
+    "mediu angulo sombra distancia cidades",
     "stick diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Com uma conta simples, encontrou um número muito perto do tamanho real",
+   "item": "A conta deu quase o tamanho real da Terra.",
    "consultas": [
-    "simples encontrou numero perto tamanho terra",
+    "tamanho terra",
     "stick diagram"
    ]
   }

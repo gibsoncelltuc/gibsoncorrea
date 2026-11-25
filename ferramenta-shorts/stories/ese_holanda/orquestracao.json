@@ -1,0 +1,248 @@
+{
+ "id": "ese_holanda",
+ "ano": 1630,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "NAS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/flag_pole",
+    "kit/marco_olinda"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Um pedaço do Brasil foi holandês por 24 anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "ART"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "buildings/skyscraper",
+    "kit/marco_olinda"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E essa história termina em Nova York.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_olinda",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1630, navios holandeses tomaram Pernambuco, atrás do açúcar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAS",
+    "ART"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_olinda"
+   ],
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "Maurício de Nassau levou artistas para Recife.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/bridge",
+    "kit/marco_olinda"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Recife ganhou até a primeira sinagoga das Américas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POR",
+    "POR",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_olinda"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que portugueses, indígenas e africanos se uniram contra eles.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 6,
+   "cena": "b6",
+   "frase": "Em 1654, os holandeses foram embora.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "ART"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "O Suriname, aqui do lado, fala holandês até hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAS",
+    "ART"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Depois, a Holanda trocou Nova Amsterdã pelo Suriname.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "ART"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "buildings/house_small",
+    "buildings/skyscraper",
+    "kit/marco_olinda",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Essa vila hoje se chama Nova York.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/flag_pole"
+   ],
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "Se tivessem ficado, o mapa seria outro. Porque...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

@@ -2,18 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa, animais | - | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | group | -  | interior | encena: olha (point) @9 (acao + som de efeito) | -
-b3 | two | -  | tropa | - | -
-b4 | two | -  | interior | - | -
-b5 | wide | -  | batalha aberta com tiros, tropa, animais | - | -
-b6 | crowd | -  | tropa | encena: olha (point) @9 (acao + som de efeito) | -
-b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
-b8 | two | -  | tropa, animais | - | -
-b9 | wide | -  | tropa, placa: SOBRE PARIS | - | -
-b10 | two | -  | tropa, animais | - | -
-b11 | close | -  | tropa, placa: COMENTE! | - | -
+b0 | two | -  | tropa, animais, placa: OVELHA, PATO E GALO | - | -
+b1 | wide | -  | tropa, animais | - | -
+b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
+b3 | group | -  | interior | encena: olha (point) @0 (acao + som de efeito) | -
+b4 | two | -  | tropa | - | -
+b5 | two | -  | interior | - | -
+b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b7 | two | -  | tropa, animais | - | -
+b8 | group | -  | tropa, placa: SOBRE PARIS | - | -
+b9 | wide | -  | tropa, animais, placa: OVELHA, PATO E GALO | - | -
 
-Mistura de planos: close 11% | medio 63% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 4% | medio 70% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

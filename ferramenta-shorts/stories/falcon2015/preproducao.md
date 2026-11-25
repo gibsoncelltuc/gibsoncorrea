@@ -5,21 +5,19 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_pista | two | 1 | conversar | kit/falcon9_land | - | -
-b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | hall | wide | 1 | discutir | kit/falcon9_land | - | -
-b3 | harbor | wide | 1 | reagir, batalha | kit/falcon9_land | - | -
-b4 | loc_pista | two | 1 | conversar | kit/falcon9_land | - | -
-b5 | loc_pista | wide | 1 | reagir | kit/falcon9_land | - | -
-b6 | loc_pista | wide | 1 | reagir | kit/falcon9_land | - | -
-b7 | loc_pista | two | 1 | encena | kit/falcon9_land | - | -
-b8 | hall | reveal | 8 | comemorar | - | - | -
+b1 | harbor | wide | 8 | parados (so fala e pisca) | kit/falcon9_land | - | -
+b2 | loc_cidade | wide | 1 | discutir | kit/falcon9_land | - | -
+b3 | harbor | group | 1 | reagir, batalha | kit/falcon9_land | - | -
+b4 | loc_pista | group | 1 | conversar | kit/falcon9_land | - | -
+b5 | loc_pista | two | 1 | reagir | kit/falcon9_land | - | -
+b6 | loc_pista | two | 0 | parados (so fala e pisca) | kit/falcon9_land | - | -
+b7 | loc_pista | group | 1 | encena | kit/falcon9_land | - | -
+b8 | hall | group | 8 | comemorar, INTERAGEM: abracar | - | - | -
 b9 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/falcon9_land | - | -
-b10 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/falcon9_land | - | -
-b11 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/falcon9_land
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b3
-Interacoes entre personagens: b10 o outro se aproxima
+Interacoes entre personagens: b8 abracar
 
-Cenas com personagens parados: 2 de 12
+Cenas com personagens parados: 3 de 10
 FALTA MODELAR: nada

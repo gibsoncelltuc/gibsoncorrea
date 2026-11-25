@@ -7,7 +7,7 @@
    "item": "O Carro que Foi Parar no Espaço",
    "consultas": [
     "O Carro que Foi Parar no Espaço",
-    "Um Sol Tesla Roadster SpaceX Elon Musk Era Falcon Heavy Cabo Canaveral Estados U 2018"
+    "Um Sol Em SpaceX Falcon Heavy 2018"
    ]
   },
   {
@@ -116,9 +116,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,",
+   "item": "O carro deixou a Terra e foi girar em torno do Sol.",
    "consultas": [
-    "roadster orbita terra seguiu orbita redor espaco",
+    "carro deixou terra girar torno",
     "roadster diagram"
    ]
   }

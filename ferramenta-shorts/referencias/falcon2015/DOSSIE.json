@@ -9,10 +9,16 @@
   "cenarios": [
    "hall",
    "harbor",
-   "loc_campo",
+   "loc_cidade",
    "loc_pista"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 3",
+    "street",
+    "loc_cidade"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "barril",
@@ -36,7 +42,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/shop",
   "kit/falcon9_land"
  ],
  "pesquisa_visual": {
@@ -73,7 +78,8 @@
    "foguete da época": "Falcon 9 rocket landing legs deployed",
    "O Foguete que Voltou de Ré": "SpaceX Falcon 9 Orbcomm OG2 landing Landing Zone 1",
    "foguete da epoca": "Falcon 9 rocket standing on launch pad Cape Canaveral"
-  }
+  },
+  "explicacoes": "O primeiro estagio do Falcon 9 se separa, vira, reacende os motores para frear (queima de reentrada e de pouso) e abre quatro pernas antes de tocar o chao. Fonte: SpaceX, missao ORBCOMM-2 (21/12/2015), Landing Zone 1, Cabo Canaveral."
  },
  "fontes": [
   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",

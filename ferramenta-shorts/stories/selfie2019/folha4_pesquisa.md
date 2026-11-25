@@ -6,15 +6,15 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2019 | Lugar: Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de mármore verde e fundo dourado, edifício da ONU à beira do East River | Quando: 26 de setembro de 2019 (quinta-feira), de dia, 74ª Assembleia Geral da ONU
 - HEROIS (objeto): kit/phone
 - HEROIS (personagens): BUK, DIP
-- Cenarios: hall, interior loja, interior pedra, palace
+- Cenarios: interior madeira, interior pedra, loc_cidade, palace
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 1.0: grande demais); kit/phone: 0.6 m reais -> escala 0.7 (estava 1.4: grande demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Selfie na ONU | Bukele selfie United Nations General Assembly podium 2019 / A Selfie na ONU / Um ONU Foi Assembleia Geral ONU Nova York Ali 2019 | SEM REFERENCIA
+tema | A Selfie na ONU | Bukele selfie United Nations General Assembly podium 2019 / A Selfie na ONU / Um ONU Foi Assembleia Geral ONU Nova York 2019 | SEM REFERENCIA
 lugar | Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de m | Assembleia Geral da ONU Nova York / Assembleia Geral da ONU Nova York 2019 | SEM REFERENCIA
 lugar | Estados Unidos | United Nations headquarters New York skyline / Estados Unidos 2019 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2019 | United Nations General Assembly delegates suits 2019 / 2019 fashion clothing / 2019 street photograph | SEM REFERENCIA

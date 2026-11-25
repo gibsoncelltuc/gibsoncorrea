@@ -4,21 +4,20 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_pista | two | 10 | conversar, INTERAGEM: insiste | kit/roadster26, kit/torre_luz | - | -
-b1 | loc_pista | reveal | 8 | parados (so fala e pisca) | kit/rampa_curva, kit/telao_led, kit/torre_luz | - | -
-b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b3 | loc_pista | orbit | 1 | parados (so fala e pisca) | kit/roadster26, kit/torre_luz | - | -
-b4 | loc_pista | orbit | 1 | reagir, batalha | kit/roadster26, kit/torre_luz | - | -
-b5 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b6 | loc_pista | two | 1 | conversar | kit/roadster26, kit/cybercab, kit/cybertruck, kit/torre_luz | - | -
-b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster26 | - | -
-b9 | interior galpao | close | 1 | conversar | kit/roadster26 | - | -
-b10 | interior galpao | two | 1 | conversar | - | - | -
+b0 | loc_pista | two | 2 | conversar, INTERAGEM: insiste, batalha | kit/roadster26, kit/torre_luz | - | -
+b1 | interior galpao | close | 1 | conversar | kit/roadster26 | - | -
+b2 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster | - | -
+b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
+b4 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/roadster26, kit/torre_luz | - | -
+b5 | loc_pista | low | 1 | reagir | kit/roadster26, kit/torre_luz | - | -
+b6 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
+b7 | loc_pista | two | 1 | conversar | kit/roadster26, kit/cybercab, kit/cybertruck, kit/torre_luz | - | -
+b8 | interior galpao | two | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster26 | - | -
+b9 | loc_pista | wide | 10 | parados (so fala e pisca) | kit/roadster26, kit/torre_luz | - | -
 
 OBJETO HEROI: kit/roadster26
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b4
-Interacoes entre personagens: b0 insiste, b8 vai ate o outro
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b0
+Interacoes entre personagens: b0 insiste, b2 vai ate o outro, b8 aproxima-se
 
-Cenas com personagens parados: 5 de 11 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando
+Cenas com personagens parados: 4 de 10 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando
 FALTA MODELAR: nada

@@ -38,7 +38,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Acontece que o vidro rachou, ao vivo, na frente da plateia."
 - LOCAL: salao; hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: MUS no centro, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: MUS no centro, expressao shock; multidao de 14 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +3 da cena
 - SOM: thump@3

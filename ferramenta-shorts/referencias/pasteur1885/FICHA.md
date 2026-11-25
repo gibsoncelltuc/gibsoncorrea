@@ -7,7 +7,7 @@
 - Roupas: {'PAS': 'sobrecasaca preta e barba grisalha', 'MED': 'sobrecasaca escura e cartola', 'MAE': 'vestido longo escuro e touca', 'POV': 'roupas do seculo 19'}
 - Cenario real: laboratorio do seculo 19 com frascos, tubos e microscopio; predio do Instituto Pasteur em Paris
 - Objetos: ['seringa de vidro do seculo 19', 'frascos com medula de coelho', 'microscopio']
-- Cenarios usados no video: hall, interior loja, interior madeira, interior pedra, street
+- Cenarios usados no video: hall, interior loja, interior madeira, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro dos anos 50, encouracado, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

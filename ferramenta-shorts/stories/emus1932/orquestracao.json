@@ -145,34 +145,18 @@
    "cenario": "countryside"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "SOL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "vehicles/tank"
-   ],
-   "palavras": 10,
-   "cena": "b7",
-   "frase": "O major comparou os emus a tanques. A imprensa riu.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "outback"
-  },
-  {
    "camera": "crowd",
    "personagens": [
     "SOL",
     "SOL"
    ],
    "multidao": 48,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b8",
-   "frase": "Seis dias, milhares de balas, poucos emus abatidos.",
+   "objetos": [
+    "vehicles/tank"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "O major comparou os emus a tanques. A imprensa riu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -182,6 +166,23 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 5,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Seis dias, milhares de balas, poucos emus abatidos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },

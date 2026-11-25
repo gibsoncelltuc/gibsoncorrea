@@ -1,111 +1,182 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
-> "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Um gênio da astronomia perdeu o nariz numa briga por matemática."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | perdeu (2.2s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (2.2s) | ACAO: perde | mao na testa | OK |
-| 3 | briga (3.7s) | EFEITO: puff | fumaca + som | OK |
-| 4 | briga (3.7s) | ACAO: golpe | soco + estouro | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | INTERACAO | discutir | OK |
-| 7 | - | ATUACAO | discutir | OK |
-| 8 | - | PLACA | 1566 | OK |
-
-## Cena b1 - 5.6s a 11.5s - 17 palavras - plano wide
-> "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nariz" (2.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | estudava (10.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | MAPA | DINAMARCA | OK |
+| 1 | perdeu (1.5s) | EFEITO: puff | fumaca + som | OK |
+| 2 | briga (3.0s) | EFEITO: puff | fumaca + som | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | PLACA | NARIZ DE METAL | OK |
+<!-- FISICA -->
 
-## Cena b2 - 11.9s a 16.7s - 14 palavras - plano group
-> "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra perdeu (1.5s): executa: fumaca + som
+- EFEITO: puff na palavra briga (3.0s): executa: fumaca + som
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.1s a 7.8s - 11 palavras - plano two
+> "E passou o resto da vida com um nariz de metal."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "metal" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | festa (12.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | festa (12.2s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | discutiu (13.0s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | avanca e o outro recua | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b3 - 17.0s a 21.5s - 13 palavras - plano two
-> "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 8.1s a 10.4s - 7 palavras - plano wide
+> "Em 1566, Tycho Brahe estudava na Alemanha."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "estudava" (9.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | briga (19.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | briga (19.3s) | ACAO: golpe | soco + estouro | OK |
-| 3 | - | INTERACAO | discutir | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | MAPA | DINAMARCA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 10.7s a 13.3s - 8 palavras - plano group
+> "Numa festa, discutiu com um primo sobre matemática."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "discutiu" (11.5s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | festa (11.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
 
-## Cena b4 - 21.9s a 27.8s - 17 palavras - plano two
-> "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra festa (11.1s): executa: estrelinhas + som
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | acertou (23.3s) | ACAO: golpe | soco + estouro | OK |
-| 2 | cortou (25.2s) | ACAO: corta | machado e toras + poeira | OK |
-| 3 | - | INTERACAO | susto | OK |
+## Cena b4 - 13.7s a 17.0s - 10 palavras - plano two
+> "Dias depois, os dois resolveram tudo num duelo de espadas."
 
-## Cena b5 - 28.1s a 33.3s - 15 palavras - plano two
-> "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-
-## Cena b6 - 33.7s a 39.6s - 17 palavras - plano orbit
-> "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "duelo" (16.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deu (35.9s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | estudar (38.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | - | INTERACAO | discutir | OK |
+<!-- FISICA -->
 
-## Cena b7 - 40.0s a 45.9s - 17 palavras - plano orbit
-> "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | construiu (40.7s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | anotou (42.6s) | ACAO: escreve | escreve/assina | OK |
-| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | PLACA | MIL ESTRELAS | OK |
+## Cena b5 - 17.4s a 21.5s - 12 palavras - plano two
+> "Acontece que o primo cortou fora um pedaço do nariz de Tycho."
 
-## Cena b8 - 46.3s a 52.6s - 18 palavras - plano two
-> "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cortou" (18.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ajudaram (48.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | descobrir (49.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | KEPLER | OK |
+| 1 | - | INTERACAO | susto | OK |
+<!-- FISICA -->
 
-## Cena b9 - 53.0s a 56.3s - 10 palavras - plano two
-> "Com a cabeça nas estrelas, e o nariz de metal."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: susto
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+## Cena b6 - 21.9s a 25.9s - 12 palavras - plano orbit
+> "Depois, o rei lhe deu uma ilha só para estudar o céu."
 
-## Cena b10 - 56.7s a 61.1s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "deu" (23.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+<!-- /FISICA -->
+
+## Cena b7 - 26.3s a 28.5s - 7 palavras - plano orbit
+> "Mediu mais de mil estrelas, sem telescópio."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mediu" (26.3s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | PLACA | MIL ESTRELAS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b8 - 28.9s a 31.1s - 7 palavras - plano two
+> "Os dados dele ajudaram o astrônomo Kepler."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ajudaram" (30.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | KEPLER | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b9 - 31.5s a 34.4s - 9 palavras - plano two
+> "Cabeça nas estrelas e nariz de metal. Tudo porque..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nariz" (33.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | NARIZ DE METAL | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

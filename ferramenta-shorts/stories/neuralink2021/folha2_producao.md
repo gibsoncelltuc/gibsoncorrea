@@ -203,7 +203,8 @@ kit/chess_pc | b3, b7 | pronto | conferir na folha de contato se le bem; se pare
 ## Video inteiro
 - Objeto heroi: kit/monkey_pong | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 16% | medio 71% | aberto 8% | detalhe 5%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b7 entregar, b8 insiste
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py neuralink2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/neuralink2021/moodboard.jpg
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 

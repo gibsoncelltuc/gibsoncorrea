@@ -2,17 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | (rosto) pleading (expr + som de efeito); encena: fala (point) @3 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | Ouro (stars + som de sino) | -
-b2 | two | -  | tropa | - | -
-b3 | two | -  | interior, objeto na mao | - | -
-b4 | two | -  | - | - | -
-b5 | crowd | -  | batalha aberta com tiros, tropa, placa: FORTE CERCADO | encena: chega (point) @4 (acao + som de efeito) | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); marcharam (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito) | -
-b7 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); encena: vence (up) @4 (acao + som de efeito) | -
-b8 | two | -  | interior | - | -
-b9 | wide | -  | tropa | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
-b10 | close | -  | placa: COMENTE! | - | -
+b0 | two | -  | placa: BANQUINHO = GUERRA | - | -
+b1 | wide | -  | tropa | (rosto) pleading (expr + som de efeito) | -
+b2 | reveal | -  | tropa, mapa | - | -
+b3 | two | -  | tropa | - | -
+b4 | two | -  | interior, objeto na mao | - | -
+b5 | two | -  | - | - | -
+b6 | crowd | -  | batalha aberta com tiros, tropa, placa: FORTE CERCADO | encena: chega (point) @4 (acao + som de efeito) | -
+b7 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito) | -
+b8 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
+b9 | two | -  | - | - | -
+b10 | two | -  | placa: BANQUINHO = GUERRA | ganhou (stars + som de sino) | -
 
-Mistura de planos: close 12% | medio 63% | aberto 20% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 4% | medio 71% | aberto 20% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

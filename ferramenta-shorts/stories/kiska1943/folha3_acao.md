@@ -1,164 +1,212 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.5s - 13 palavras - plano two
-> "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano wide
+> "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) USA chega na cena | na palavra "invadiram" (1.3s)
+  1) objeto chega na cena | na palavra "desembarcaram" (1.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | invadiram (1.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | desembarcaram (1.9s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
-| 6 | - | PLACA | KISKA 1943 | OK |
+| 3 | - | PLACA | ILHA VAZIA | OK |
+<!-- FISICA -->
 
-## Cena b1 - 4.6s a 10.7s - 19 palavras - plano group
-> "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra desembarcaram (1.9s): executa: entra andando pela lateral
+- CENA (a cena toda): tropa em fileiras; clarões piscando ao longo da fileira; alguns soldados caem; fumaca baixa
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 24: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Kiska" (8.2s)
+## Cena b1 - 4.1s a 6.3s - 7 palavras - plano crowd
+> "E mesmo assim, houve mortos nessa invasão."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mortos" (5.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | mortos (5.6s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | PLACA | OPERAÇÃO ILHA VAZIA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra mortos (5.6s): executa: fumaca + som
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b2 - 6.7s a 10.7s - 12 palavras - plano group
+> "Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Kiska" (8.5s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | ALASCA | OK |
-| 4 | - | PLACA | 34.000 SOLDADOS | OK |
+<!-- FISICA -->
 
-## Cena b2 - 12.0s a 15.1s - 9 palavras - plano reveal
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- multidao de 8: parada, reagindo (stern), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b3 - 11.1s a 14.1s - 9 palavras - plano reveal
 > "Americanos e canadenses chegaram com navios, aviões e tanques."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) USA chega na cena | na palavra "chegaram" (13.4s)
+  1) USA chega na cena | na palavra "chegaram" (12.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegaram (13.4s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegaram (13.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
+| 1 | chegaram (12.2s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegaram (12.2s) | ACAO: chega | entra andando pela lateral | OK |
+<!-- FISICA -->
 
-## Cena b3 - 16.4s a 19.0s - 7 palavras - plano crowd
-> "Antes do desembarque, bombardearam Kiska durante semanas."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra chegaram (12.2s): executa: poeira + som
+- ACAO: chega na palavra chegaram (12.2s): executa: entra andando pela lateral
+<!-- /FISICA -->
+
+## Cena b4 - 14.4s a 16.3s - 6 palavras - plano crowd
+> "Bombardearam a ilha durante semanas inteiras."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bombardearam" (17.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bombardearam" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | BOMBARDEIO | OK |
+<!-- FISICA -->
 
-## Cena b4 - 20.4s a 24.7s - 14 palavras - plano orbit
-> "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- PLACA (a cena toda): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) USA acao do motor: desce | na palavra "desceram" (22.3s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | desceram (22.3s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-
-## Cena b5 - 25.8s a 28.5s - 10 palavras - plano two
-> "Mas teve um problema: os japoneses já tinham ido embora."
+## Cena b5 - 16.7s a 19.3s - 8 palavras - plano two
+> "Acontece que os japoneses já tinham ido embora."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "embora" (28.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "embora" (19.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | ILHA VAZIA | OK |
+<!-- FISICA -->
 
-## Cena b6 - 29.8s a 32.5s - 9 palavras - plano track
-> "Eles procuraram o inimigo por dias, em trincheiras vazias."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) USA acao do motor: procura | na palavra "procuraram" (30.0s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | procuraram (30.0s) | ACAO: x_procura | procura com a lupa | OK |
-
-## Cena b7 - 33.8s a 39.3s - 17 palavras - plano wide
-> "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina."
+## Cena b6 - 19.6s a 21.5s - 6 palavras - plano wide
+> "Saíram escondidos na neblina, semanas antes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "navios" (35.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "escondidos" (20.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 40.6s a 45.0s - 17 palavras - plano group
-> "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina."
+## Cena b7 - 21.9s a 24.4s - 8 palavras - plano orbit
+> "No nevoeiro, os Aliados atiraram uns nos outros."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) USA atira com a arma (clarao na boca do cano + som) | na palavra "atirar" (43.1s)
+  1) USA atira com a arma (clarao na boca do cano + som) | na palavra "atirar" (23.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atirar (43.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | atirar (43.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | INTERACAO | discutir | OK |
+| 1 | atiraram (23.3s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | atiraram (23.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | FOGO AMIGO | OK |
+<!-- FISICA -->
 
-## Cena b9 - 46.2s a 50.4s - 15 palavras - plano group
-> "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: burst na palavra atiraram (23.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra atiraram (23.3s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto cai e fica imovel | na palavra "morreram" (47.2s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | morreram (47.2s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreram (47.2s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | tiros (48.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | bateu (49.9s) | EFEITO: dust | poeira + som | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | INTERACAO | empurrar | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | MINA | OK |
-
-## Cena b10 - 51.5s a 53.7s - 9 palavras - plano prop
-> "No fim, só acharam na ilha alguns cachorros abandonados."
+## Cena b8 - 24.8s a 28.5s - 11 palavras - plano group
+> "Mais de vinte soldados morreram, e um navio bateu numa mina."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) USA olha/aponta para o alvo | na palavra "acharam" (52.3s)
+  1) objeto cai e fica imovel | na palavra "morreram" (26.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (52.3s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | SÓ CACHORROS | OK |
+| 1 | morreram (26.3s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreram (26.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | bateu (27.8s) | EFEITO: dust | poeira + som | OK |
+| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 5 | - | INTERACAO | empurrar | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | PLACA | MINA | OK |
+<!-- FISICA -->
 
-## Cena b11 - 55.2s a 58.9s - 12 palavras - plano two
-> "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra morreram (26.3s): executa: fumaca + som
+- ACAO: morre na palavra morreram (26.3s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- EFEITO: dust na palavra bateu (27.8s): executa: poeira + som
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ilha" (57.9s)
+## Cena b9 - 28.9s a 31.5s - 8 palavras - plano prop
+> "Na ilha inteira, só acharam alguns cachorros abandonados."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "acharam" (30.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | OPERAÇÃO ILHA VAZIA | OK |
+| 3 | - | PLACA | SÓ CACHORROS | OK |
+<!-- FISICA -->
 
-## Cena b12 - 60.0s a 63.4s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b10 - 31.9s a 34.4s - 8 palavras - plano wide
+> "Uma invasão contra cachorros. E foi assim que..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cachorros" (33.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | - | PLACA | ILHA VAZIA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 24: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 

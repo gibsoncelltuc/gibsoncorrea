@@ -1,94 +1,168 @@
 # FOLHA 3 - ACOES - E Se EP 02 - E Se os Humanos Sumissem da Terra?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 6.1s - 20 palavras - plano two
-> "E se, de uma hora para outra, todos os seres humanos sumissem da Terra? O que aconteceria com as cidades?"
+## Cena b0 - 0.0s a 3.0s - 9 palavras - plano two
+> "Todos os humanos sumiram da Terra de uma vez."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "humanos" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
 
-## Cena b1 - 7.4s a 10.0s - 10 palavras - plano reveal
-> "No primeiro dia, ninguém mais estaria nas usinas de energia."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 3.3s a 5.2s - 6 palavras - plano close
+> "E o planeta nem sentiria falta."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "planeta" (4.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 5.6s a 8.5s - 9 palavras - plano reveal
+> "No primeiro dia, ninguém estaria nas usinas de energia."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "usinas" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | MUNDO | OK |
+<!-- FISICA -->
 
-## Cena b2 - 11.3s a 15.0s - 12 palavras - plano two
-> "Em poucas horas, as luzes começariam a se apagar, cidade por cidade."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 8.9s a 11.1s - 7 palavras - plano two
+> "Em poucas horas, as luzes se apagariam."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luzes" (10.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b3 - 16.3s a 21.2s - 14 palavras - plano two
-> "Cachorros e gatos de estimação teriam que se virar sozinhos. Muitos voltariam a caçar."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+## Cena b4 - 11.5s a 14.8s - 10 palavras - plano low
+> "Em dois dias, o metrô de Nova York ficaria inundado."
 
-## Cena b4 - 22.2s a 27.7s - 21 palavras - plano low
-> "Em dois dias, o metrô de Nova York ficaria inundado, porque as máquinas que tiram a água dos túneis iriam parar."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "inundado" (14.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 28.9s a 34.1s - 15 palavras - plano crowd
-> "Em vinte anos, as ruas virariam florestas. Veados e lobos andariam pelo meio das avenidas."
+## Cena b5 - 15.2s a 18.9s - 11 palavras - plano crowd
+> "Em vinte anos, as ruas virariam florestas, com lobos nas avenidas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "florestas" (17.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 20 ANOS | OK |
+<!-- FISICA -->
 
-## Cena b6 - 35.5s a 40.9s - 17 palavras - plano low
-> "Acontece que, em algumas centenas de anos, até as grandes pontes de aço cairiam, comidas pela ferrugem."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 1: parada, reagindo (shock), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b6 - 19.3s a 23.0s - 11 palavras - plano low
+> "Acontece que até as pontes de aço cairiam, comidas pela ferrugem."
+
+- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cairiam" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cairiam (39.6s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b7 - 42.2s a 48.2s - 18 palavras - plano two
-> "O que sobraria? Construções de pedra, como as pirâmides, que já resistem há mais de quatro mil anos."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b7 - 23.3s a 27.0s - 11 palavras - plano wide
+> "Sobrariam as pirâmides, de pé há mais de quatro mil anos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pirâmides" (24.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Construções (43.8s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
 
-## Cena b8 - 49.4s a 53.3s - 12 palavras - plano two
-> "E o plástico. Alguns tipos levariam séculos para se desfazer na natureza."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+<!-- /FISICA -->
+
+## Cena b8 - 27.4s a 30.0s - 8 palavras - plano two
+> "E o plástico, que leva séculos para sumir."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "plástico" (28.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b9 - 54.7s a 58.1s - 13 palavras - plano orbit
-> "Em pouco tempo, a natureza tomaria de volta quase tudo o que construímos."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b9 - 30.4s a 33.3s - 9 palavras - plano two
+> "Somos nós que precisamos do planeta. Agora imagina que..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "planeta" (32.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | construímos (58.1s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | NATUREZA | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
 
-## Cena b10 - 59.4s a 64.4s - 13 palavras - plano close
-> "O planeta seguiria girando, tranquilo. Somos nós que precisamos dele, não o contrário."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

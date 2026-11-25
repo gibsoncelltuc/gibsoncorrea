@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Os Primeiros Passageiros do Céu | Os Primeiros Passageiros do Céu / Os Foram Era França Os Montgolfier 1783 | SEM REFERENCIA
+tema | Os Primeiros Passageiros do Céu | Os Primeiros Passageiros do Céu / Os Foram Em Montgolfier 1783 | SEM REFERENCIA
 lugar | Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante | Annonay / Annonay fabrica de papel dos Montgolfier e Palacio de Versalhes patio diante do palacio Pa | Annonay - Duchemin.jpg (referencias/montgolfier1783/prints/annonay_fabrica_de_papel_dos_montgolfier_e1b599.jpg); Annonay, vue générale.JPG (referencias/montgolfier1783/prints/annonay_fabrica_de_papel_dos_montgolfier_0d3be6.jpg); Annonay Quartier de Cance.jpg (referencias/montgolfier1783/prints/annonay_fabrica_de_papel_dos_montgolfier_94b469.jpg)
 lugar | França | França 1783 / França landscape | Elévation du ballon libre le 21 nov. 1783 à droite (referencias/montgolfier1783/prints/fran_a_d575dc.jpg); Andien de Clermont (c.1716-1783) - Franca Trippa a (referencias/montgolfier1783/prints/fran_a_2b6dba.jpg)
 epoca | roupas e ruas de 1783 | 1783 fashion clothing / 18th century clothing painting | Queen Mary II - 18th century portrait - anonymous  (referencias/montgolfier1783/prints/roupas_e_ruas_de_1783_b28ab0.jpg); Sorath Rai Diyach miniature 18th century 2.jpg (referencias/montgolfier1783/prints/roupas_e_ruas_de_1783_22178f.jpg); Saint Catherine (South American 18th century).jpg (referencias/montgolfier1783/prints/roupas_e_ruas_de_1783_2a4dd2.jpg)
@@ -27,8 +27,7 @@ objeto | cesto de vime com os animais | cesto de vime com os animais / cesto de 
 objeto | fogueira de palha | fogueira de palha / fogueira de palha 1783 | SEM REFERENCIA
 heroi | balloon | balao de papel e pano azul com ornamentos dourados / Os Primeiros Passageiros do Céu | 2006 Ojiya balloon festival night 004.jpg (referencias/montgolfier1783/prints/balloon_25cd6e.jpg); Cappadocia Balloon Inflating Wikimedia Commons.JPG (referencias/montgolfier1783/prints/balloon_53280b.jpg); Inside of a hot air balloon.jpg (referencias/montgolfier1783/prints/balloon_7ba965.jpg)
 epoca | balao da epoca | hot air balloon 1783 / hot air balloon | 1783 balloonj.jpg (referencias/montgolfier1783/prints/balao_da_epoca_6b532b.jpg); Mongolfier brothers' hot air balloon from 1783.jpg (referencias/montgolfier1783/prints/balao_da_epoca_b4b3bb.jpg); Wonderful Balloon Ascents, 1870 - Ascent of the 19 (referencias/montgolfier1783/prints/balao_da_epoca_6cb94e.jpg)
-epoca | fabrica da epoca | factory 1783 / factory | WomanFactory1940s.jpg (referencias/montgolfier1783/prints/fabrica_da_epoca_71260e.jpg); Sandakan Sabah Plywood-Factory-23.jpg (referencias/montgolfier1783/prints/fabrica_da_epoca_d26e53.jpg); Photo of Espanya Industrial factory, Sants, Barcel (referencias/montgolfier1783/prints/fabrica_da_epoca_bbd3d0.jpg)
-mecanismo | Então fizeram um balão gigante de pano e papel, cheio de ar quente. | entao fizeram balao gigante papel cheio quente / balloon diagram | SEM REFERENCIA
+mecanismo | Fizeram um balão gigante de pano e papel. | fizeram balao gigante papel / balloon diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em 19/09/1783, em Versalhes, o balao dos Montgolfier levou uma ovelha, um pato e um galo por cerca de 8 minutos e pousou a uns 3 km; em 21/11/1783 Pilatre de Rozier e o marques d'Arlandes voaram sobre Paris (fonte: Wikipedia Montgolfier brothers)

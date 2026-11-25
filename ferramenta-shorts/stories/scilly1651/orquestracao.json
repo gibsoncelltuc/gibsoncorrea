@@ -3,12 +3,7 @@
  "ano": 1651,
  "cenarios_trocados": [
   [
-   "cena 6",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 7",
+   "cena 5",
    "countryside",
    "loc_campo"
   ]
@@ -30,9 +25,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém deu um tiro.",
+   "frase": "Uma guerra durou 335 anos e ninguém disparou um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -45,11 +40,11 @@
     "ILH",
     "ILH"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
+   "frase": "E só acabou porque alguém resolveu perguntar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -66,9 +61,9 @@
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa.",
+   "frase": "Em 1651, piratas das ilhas Scilly atacavam navios holandeses.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -78,26 +73,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "HOL",
-    "MAR",
-    "MAR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "ship"
-   ],
-   "palavras": 12,
-   "cena": "b3",
-   "frase": "A Holanda mandou navios de guerra e exigiu o dinheiro de volta.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -110,9 +85,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 12,
-   "cena": "b4",
-   "frase": "Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas.",
+   "palavras": 6,
+   "cena": "b3",
+   "frase": "A Holanda declarou guerra às ilhas.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -126,16 +101,16 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "PRE",
     "ILH"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
-   "cena": "b5",
-   "frase": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.",
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -143,21 +118,22 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ILH",
-    "ILH"
+    "HOL"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 24,
-   "cena": "b6",
-   "frase": "A guerra seguiu esquecida por mais de trezentos anos. As ilhas seguiram a vida normal, sem soldados e sem nenhum navio holandês por perto.",
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Os holandeses foram embora. E ninguém lembrou de assinar a paz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -167,9 +143,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b7",
-   "frase": "Em mil novecentos e oitenta e cinco, um historiador perguntou se a guerra ainda valia.",
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Três séculos depois, um historiador escreveu para a Holanda.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -179,33 +155,15 @@
   {
    "camera": "two",
    "personagens": [
-    "EMB",
-    "PRE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b8",
-   "frase": "No ano seguinte, o embaixador holandês foi até as ilhas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "EMB",
-    "PRE"
+    "EMB"
    ],
    "multidao": 0,
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "Os dois assinaram a paz, e a guerra de 335 anos acabou.",
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "O embaixador veio às ilhas e assinou a paz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -213,33 +171,18 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "ILH"
+    "ILH",
+    "HOL"
    ],
    "multidao": 0,
    "objetos": [
     "kit/scroll"
    ],
    "palavras": 9,
-   "cena": "b10",
-   "frase": "A guerra mais longa e mais calma da história.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "ILH"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "cena": "b8",
+   "frase": "Ninguém lembrou de um papel. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -108,14 +108,14 @@
    "cenario": "stadium"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "HON",
     "SAL",
     "HON",
     "SAL"
    ],
-   "multidao": 30,
+   "multidao": 10,
    "objetos": [],
    "palavras": 11,
    "cena": "b5",
@@ -127,7 +127,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "SAL",
     "SAL",

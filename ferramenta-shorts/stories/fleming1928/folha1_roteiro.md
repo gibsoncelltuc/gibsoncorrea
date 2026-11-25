@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 88 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 88 palavras (~30 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um mofo esquecido numa mesa bagunçada salvou milhões de vidas.

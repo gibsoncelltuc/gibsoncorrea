@@ -8,7 +8,7 @@
    "consultas": [
     "Charles Goodyear vulcanization",
     "A Borracha que Caiu no Fogão",
-    "Um Era Estados Unidos Botas 1839"
+    "Uma Nos Estados Unidos 1839"
    ]
   },
   {
@@ -133,18 +133,17 @@
    ]
   },
   {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
+   "tipo": "heroi",
+   "item": "gosma",
    "consultas": [
-    "factory 1839",
-    "factory"
+    "gosma"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "A borracha estava na moda, mas derretia no calor e rachava no frio. Bo",
+   "item": "Mas derretia no calor e rachava no frio.",
    "consultas": [
-    "borracha estava derretia calor rachava botas capas borracha",
+    "derretia calor rachava",
     "borracha diagram"
    ]
   }

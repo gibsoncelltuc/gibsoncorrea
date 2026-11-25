@@ -223,7 +223,8 @@ nature/lamppost | b8 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/bitcoin | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 4% | medio 67% | aberto 28% | detalhe 0%
 - Interacoes: b0 o outro se aproxima, b3 discutir, b6 insiste, b9 vai ate o outro
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py vulcao2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/vulcao2021/moodboard.jpg
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 

@@ -3,32 +3,25 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. SUSPEITA b5: a frase fala de MUITA GENTE e a cena tem 2 pessoa(s) e nenhuma multidao
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Uma orelha cortada levou a Inglaterra à guerra contra a Espa": 
-- f1 "por quase dez anos.": 
-- f2 "Em mil setecentos e trinta e um,": 
-- f3 "perto de Cuba,": 
-- f4 "um navio espanhol parou o capitão inglês Robert Jenkins.": 
-- f5 "Suspeitaram de contrabando,": 
-- f6 "e o capitão espanhol arrancou a orelha dele.": 
-- f7 ""Vá levar isso ao seu rei",": 
-- f8 "teria dito o espanhol.": 
-- f9 "Sete anos depois,": 
-- f10 "Jenkins relatou a história ao Parlamento inglês,": 
-- f11 "e os deputados ficaram furiosos.": 
-- f12 "Acontece que a Inglaterra queria uma desculpa para brigar co": 
-- f13 "Em mil setecentos e trinta e nove,": 
-- f14 "a guerra começou,": 
-- f15 "com navios ingleses atacando portos espanhóis no Caribe.": 
-- f16 "Depois de quase dez anos,": 
-- f17 "os dois lados fizeram a paz.": 
-- f18 "Quem deu o nome de Guerra da Orelha de Jenkins foi um escrit": 
-- f19 "um século depois.": 
-- f20 "A orelha custou dez anos de guerra,": 
-- f21 "e Jenkins ainda ficou sem ela.": 
-- f22 "Agora não deixe de comentar:": 
-- f23 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Uma orelha cortada começou uma guerra de nove anos.": 
+- f1 "E o dono da orelha levou ela até o Parlamento.": 
+- f2 "Perto de Cuba,": 
+- f3 "espanhóis pararam o navio do capitão Robert Jenkins.": 
+- f4 "O comandante espanhol cortou a orelha dele com a espada.": 
+- f5 ""Leve isso ao seu rei",": 
+- f6 "teria dito.": 
+- f7 "Anos depois,": 
+- f8 "dizem,": 
+- f9 "Jenkins mostrou a orelha aos deputados.": 
+- f10 "Acontece que a Inglaterra só queria um pretexto.": 
+- f11 "Em 1739,": 
+- f12 "navios ingleses atacaram o Caribe espanhol.": 
+- f13 "Nove anos de guerra,": 
+- f14 "por causa de uma orelha.": 
+- f15 "Jenkins nunca recuperou a orelha.": 
+- f16 "E foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

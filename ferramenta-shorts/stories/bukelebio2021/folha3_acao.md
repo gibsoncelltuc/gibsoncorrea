@@ -21,11 +21,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.6s a 6.1s - 9 palavras - plano two
+## Cena b1 - 3.7s a 6.7s - 9 palavras - plano two
 > "E ninguém sabia dizer se era piada ou não."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piada" (5.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piada" (5.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -36,11 +36,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 6.2s a 9.8s - 10 palavras - plano crowd
+## Cena b2 - 7.0s a 10.4s - 10 palavras - plano crowd
 > "Em 2021, milhares protestaram contra Nayib Bukele em El Salvador."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "protestaram" (6.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "protestaram" (8.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -54,11 +54,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 16: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b3 - 9.9s a 13.1s - 8 palavras - plano two
+## Cena b3 - 10.7s a 13.3s - 8 palavras - plano two
 > "Ele respondeu escrevendo uma palavra no perfil: ditador."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "escrevendo" (11.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "escrevendo" (11.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -71,11 +71,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 13.4s a 17.5s - 10 palavras - plano group
+## Cena b4 - 13.7s a 17.0s - 10 palavras - plano group
 > "Dias depois, trocou para: o ditador mais legal do mundo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trocou" (14.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trocou" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -92,11 +92,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 17.7s a 20.8s - 9 palavras - plano reveal
+## Cena b5 - 17.4s a 20.4s - 9 palavras - plano reveal
 > "Acontece que a frase se espalhou pelo mundo inteiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "espalhou" (19.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "espalhou" (19.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -108,11 +108,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b6 - 21.2s a 23.8s - 8 palavras - plano two
+## Cena b6 - 20.7s a 23.3s - 8 palavras - plano two
 > "Muitos leram como ironia, para provocar os críticos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ironia" (21.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ironia" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -125,11 +125,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 24.0s a 26.3s - 8 palavras - plano two
+## Cena b7 - 23.7s a 26.3s - 8 palavras - plano two
 > "Em 2024, o perfil dele dizia: rei filósofo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perfil" (24.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perfil" (24.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -142,11 +142,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 26.4s a 28.6s - 9 palavras - plano two
+## Cena b8 - 26.7s a 29.6s - 9 palavras - plano two
 > "Provocação ou confissão? Só sei que foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Provocação" (26.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Provocação" (26.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

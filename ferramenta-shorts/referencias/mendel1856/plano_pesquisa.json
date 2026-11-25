@@ -7,7 +7,7 @@
    "item": "Mendel e as Ervilhas",
    "consultas": [
     "Mendel e as Ervilhas",
-    "Um Era Brno Gregor Mendel Ele 1856"
+    "Um Em Gregor Mendel 1856"
    ]
   },
   {
@@ -60,10 +60,10 @@
   },
   {
    "tipo": "objeto",
-   "item": "vagens e ervilhas amarelas e verdes",
+   "item": "vagens verdes e amarelas abertas com ervilhas",
    "consultas": [
-    "vagens e ervilhas amarelas e verdes",
-    "vagens e ervilhas amarelas e verdes 1856"
+    "vagens verdes e amarelas abertas com ervilhas",
+    "vagens verdes e amarelas abertas com ervilhas 1856"
    ]
   },
   {
@@ -84,17 +84,24 @@
   },
   {
    "tipo": "heroi",
-   "item": "pea green",
+   "item": "vagem verde",
    "consultas": [
-    "vagens e ervilhas amarelas e verdes",
+    "vagens verdes e amarelas abertas com ervilhas",
     "Mendel e as Ervilhas"
    ]
   },
   {
    "tipo": "heroi",
-   "item": "pea yellow",
+   "item": "pe ervilha",
    "consultas": [
-    "pea yellow"
+    "pe ervilha"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "vagem amarela",
+   "consultas": [
+    "vagem amarela"
    ]
   }
  ]

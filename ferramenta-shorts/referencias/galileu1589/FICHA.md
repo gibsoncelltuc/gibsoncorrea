@@ -7,7 +7,7 @@
 - Roupas: {'GAL': 'toga preta de professor universitario', 'ALU': 'gibao e calcas renascentistas', 'PRO': 'toga e barrete', 'ARI': 'tunica grega', 'AST': 'traje espacial branco Apollo'}
 - Cenario real: praca gramada com a torre inclinada branca, catedral romanica; sala de universidade de pedra; superficie da Lua
 - Objetos: ['bola de ferro pesada', 'bola leve', 'torre de Pisa', 'martelo e pena (Apollo 15)']
-- Cenarios usados no video: arctic, interior loja, interior madeira, interior pedra, loc_campo, street
+- Cenarios usados no video: arctic, interior madeira, interior pedra, loc_campo, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, encouracado, fragata a vela, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

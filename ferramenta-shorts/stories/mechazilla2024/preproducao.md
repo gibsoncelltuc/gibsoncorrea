@@ -10,7 +10,7 @@ b2 | loc_campo | wide | 8 | batalha | kit/tower | - | -
 b3 | loc_deserto | wide | 1 | discutir | kit/booster_air | paper | -
 b4 | loc_deserto | two | 0 | parados (so fala e pisca) | kit/tower | - | -
 b5 | loc_patio | two | 1 | conversar | kit/tower_catch, kit/tower | - | -
-b6 | loc_patio | wide | 1 | parados (so fala e pisca) | kit/booster_air | - | -
+b6 | loc_patio | group | 1 | conversar | kit/booster_air | - | -
 b7 | loc_patio | wide | 1 | reagir | kit/booster_air | - | -
 b8 | loc_patio | wide | 1 | batalha | kit/tower_catch, kit/tower | - | -
 b9 | loc_patio | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/tower_mini, kit/tower_catch | - | -
@@ -19,5 +19,5 @@ OBJETO HEROI: kit/tower_mini
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b8
 Interacoes entre personagens: b0 aproxima-se, b9 avanca e o outro recua
 
-Cenas com personagens parados: 2 de 10
+Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

@@ -1,0 +1,64 @@
+{
+ "id": "ese_buraco",
+ "titulo": "E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": "russia",
+  "luz_base": "day",
+  "cenarios": [
+   "interior pedra",
+   "loc_campo",
+   "loc_deserto",
+   "loc_montanha"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "outback",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/globe",
+  "kit/room_russia_stone",
+  "kit/scroll",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "Brasil (ponto de partida) e o oceano Pacifico perto do Japao (antipoda); poco de Kola, na Russia",
+  "quando": "hoje, de dia (hipotese)",
+  "participantes": [
+   "um cavador com pa",
+   "um professor de geologia",
+   "curiosos"
+  ],
+  "roupas": {
+   "CAV": "roupa de trabalho com capacete",
+   "PRO": "professor de jaleco",
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "terreno com buraco, camadas de rocha, globo terrestre mostrando o caminho ate o outro lado",
+  "objetos": [
+   "pa",
+   "globo terrestre",
+   "perfil das camadas da Terra"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole",
+   "https://en.wikipedia.org/wiki/Gravity_train"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole",
+  "https://www.antipodesmap.com/",
+  "https://en.wikipedia.org/wiki/Gravity_train"
+ ],
+ "falta": []
+}

@@ -1,22 +1,20 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
-Gerado em 25/11 05:32 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | FRA, FIL | - | kite | - | Um homem soltou uma pipa em plena tempestade para pegar um raio.
-b1 | transicao | street | reveal | COM, POV | 8 | - | - | Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Frank
-b2 | simples | interior madeira | two | COM, POV | - | - | - | Na época, muita gente achava que o raio era um castigo dos céus, e não
-b3 | simples | countryside | two | FRA | - | - | - | Franklin discordava: para ele, o raio era só uma faísca elétrica gigan
-b4 | simples | countryside | group | FRA, FIL | - | key, kite | - | Contam que, numa tarde de chuva, ele prendeu uma chave de metal na lin
-b5 | simples | interior loja | close | FRA | - | key, kite | - | O plano era simples e perigoso: se a pipa pegasse eletricidade, a chav
-b6 | chave | countryside | orbit | FRA | - | key, kite | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulo
-b7 | simples | interior madeira | two | COM, FRA | - | kite | - | Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na
-b8 | chave | street | wide | FRA | - | house_small, house_two, lightning_rod, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Franklin então inventou o para-raios, e hoje ele protege casas e prédi
-b9 | simples | interior pedra | close | FRA | - | key | - | No fim, o raio perdeu a briga para uma chave.
-b10 | simples | street | close | FRA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | street | two | FRA, FIL | - | kite | - | Um homem soltou uma pipa na tempestade para pegar um raio.
+b1 | simples | interior madeira | two | FRA | - | - | - | E o que ele descobriu protege a sua casa até hoje.
+b2 | transicao | street | reveal | COM, POV | 8 | - | - | Em 1752, Benjamin Franklin queria provar que raio era eletricidade.
+b3 | simples | interior madeira | two | COM, POV | - | - | - | Muita gente achava que o raio era castigo dos céus.
+b4 | simples | countryside | two | FRA, FIL | - | key, kite | - | Contam que ele prendeu uma chave de metal na linha da pipa.
+b5 | chave | countryside | two | FRA | - | key, kite | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a nuvem passou, e uma faísca pulou da chave.
+b6 | simples | interior madeira | two | COM, FRA | - | kite | - | Se um raio caísse na pipa, ele teria morrido.
+b7 | chave | street | orbit | FRA | - | house_two, lightning_rod, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Daí nasceu o para-raios, que protege prédios no mundo inteiro.
+b8 | simples | street | two | FRA, FIL | - | kite | - | Coragem ou loucura? Só sei que foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

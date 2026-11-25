@@ -140,7 +140,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "ENG"
    ],
@@ -151,7 +151,7 @@
    "palavras": 8,
    "cena": "b6",
    "frase": "O propulsor decolou com trinta e três motores.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

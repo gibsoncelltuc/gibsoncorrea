@@ -2,8 +2,8 @@
  "id": "eratostenes240",
  "titulo": "Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra",
  "ancoras": {
-  "ano": null,
-  "era": null,
+  "ano": 2000,
+  "era": "historica",
   "regiao": "classico",
   "luz_base": "desert",
   "cenarios": [
@@ -18,35 +18,40 @@
     "loc_campo"
    ],
    [
-    "cena 6",
-    "medieval",
-    "loc_campo"
-   ],
-   [
-    "cena 10",
-    "medieval",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
+    "cena 2",
     "medieval",
     "loc_campo"
    ]
   ]
  },
- "proibido_pela_epoca": [],
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/apartment",
-  "buildings/house_two",
-  "kit/globe",
   "kit/lupa",
   "kit/marco_alexandria",
-  "kit/scroll",
+  "kit/rocket",
   "kit/starlink_sat",
   "kit/stick",
   "kit/well",
-  "nature/lamppost",
   "nature/tree_palm",
   "tools/bucket"
  ],

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Gerado em 25/11 17:33 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,8 +10,8 @@ b0 | simples | interior loja | two | MUS | - | megapack | - | Um homem arriscou 
 b1 | simples | interior madeira | two | MUS, JOR | - | megapack, phone | - | E tudo começou com uma resposta curta, escrita no celular.
 b2 | transicao | loc_campo | wide | MUS | - | megapack | - | Em 2017, Elon Musk prometeu baterias gigantes para a Austrália.
 b3 | transicao | loc_campo | wide | MUS | - | megapack | - | Cem dias para entregar. Senão, seria de graça.
-b4 | chave | loc_cidade | wide | MUS | 30 | megapack | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os jornais calcularam: ele podia perder mais de cinquenta milhões.
-b5 | chave | loc_campo | wide | MUS | - | megapack, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ficou pronta em cerca de cinquenta e cinco dias.
+b4 | chave | loc_cidade | group | MUS | - | megapack | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os jornais calcularam: ele podia perder mais de cinquenta milhões.
+b5 | chave | loc_campo | group | MUS | - | megapack, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ficou pronta em cerca de cinquenta e cinco dias.
 b6 | explicativa | loc_campo | two | sem personagem | - | megapack | corpo: kit/megapack (gira); emissao: brilho; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada ent | Na época, era a maior bateria do mundo.
 b7 | simples | interior loja | two | CAN, MUS | - | - | - | Quem lançou o desafio teve que admitir: ele cumpriu.
 b8 | simples | interior loja | two | MUS | - | megapack | - | Uma resposta curta, e foi assim que...
@@ -21,13 +21,13 @@ b8 | simples | interior loja | two | MUS | - | megapack | - | Uma resposta curta
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (11/13 itens) | FEITO | 
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/13 itens) | PENDENTE | python3 pesquisar.py bateria2017
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh bateria2017
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 

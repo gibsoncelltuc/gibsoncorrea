@@ -1,104 +1,174 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
-> "Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro."
+## Cena b0 - 0.0s a 3.0s - 9 palavras - plano two
+> "O velcro nasceu de um passeio com o cachorro."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passeio" (1.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 1941 | OK |
+| 3 | - | PLACA | INVENTADO POR UM CACHORRO | OK |
+<!-- FISICA -->
 
-## Cena b1 - 5.2s a 13.0s - 22 palavras - plano two
-> "Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Mestral voltou de uma caminhada com o seu cachorro."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | voltou (10.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | MAPA | SUÍÇA | OK |
+## Cena b1 - 3.3s a 5.6s - 7 palavras - plano wide
+> "E hoje ele está no seu tênis."
 
-## Cena b2 - 13.3s a 17.4s - 12 palavras - plano two
-> "O pelo do cachorro e a calça dele estavam cheios de carrapichos."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-
-## Cena b3 - 17.8s a 21.5s - 11 palavras - plano two
-> "Curioso, ele levou um carrapicho para casa e olhou no microscópio."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | levou (18.5s) | ACAO: pega | levanta/segura | OK |
-| 2 | olhou (20.7s) | ACAO: olha | aponta/olha | OK |
-| 3 | microscópio (21.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 4 | - | ATUACAO | conversar | OK |
-
-## Cena b4 - 21.9s a 27.0s - 15 palavras - plano close
-> "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | agarrava (25.6s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | ATUACAO | reagir | OK |
-
-## Cena b5 - 27.4s a 31.5s - 12 palavras - plano low
-> "Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | pensou (27.8s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b6 - 31.9s a 37.0s - 15 palavras - plano wide
-> "Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | riram (32.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | riram (32.6s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | ideia (33.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 4 | Levou (33.7s) | ACAO: pega | levanta/segura | OK |
-| 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 6 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 7 | - | ATUACAO | discutir | OK |
-
-## Cena b7 - 37.4s a 42.2s - 14 palavras - plano two
-> "O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, gancho."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | segredo (37.8s) | EFEITO: ring | onda + som | OK |
-| 2 | segredo (37.8s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 3 | juntou (40.4s) | ACAO: pega | levanta/segura | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | conversar | OK |
-
-## Cena b8 - 42.6s a 47.4s - 14 palavras - plano wide
-> "Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tênis" (5.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+<!-- /FISICA -->
+
+## Cena b2 - 5.9s a 9.6s - 11 palavras - plano two
+> "Em 1941, na Suíça, George de Mestral voltou de uma caminhada."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltou" (8.5s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | SUÍÇA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 10.0s a 13.0s - 9 palavras - plano two
+> "O cachorro e a calça estavam cheios de carrapichos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carrapichos" (13.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 13.3s a 15.6s - 7 palavras - plano two
+> "Curioso, ele olhou um carrapicho no microscópio."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "olhou" (14.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b5 - 15.9s a 18.9s - 9 palavras - plano close
+> "Acontece que cada espinho tinha um ganchinho na ponta."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ganchinho" (18.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b6 - 19.3s a 22.6s - 10 palavras - plano low
+> "Ele pensou: uma fita com ganchinhos e outra com voltinhas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pensou" (19.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b7 - 23.0s a 25.9s - 9 palavras - plano wide
+> "Os tecelões riram. Levou quase dez anos até acertar."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "riram" (23.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | riram (23.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra riram (23.7s): executa: estrelinhas + som
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b8 - 26.3s a 30.0s - 11 palavras - plano two
+> "Até que astronautas usaram no espaço, e o mundo inteiro quis."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "usaram" (27.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | VELCRO | OK |
+<!-- FISICA -->
 
-## Cena b9 - 47.8s a 53.0s - 15 palavras - plano two
-> "Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio de carrapichos."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b9 - 30.4s a 33.3s - 9 palavras - plano two
+> "Um cachorro cheio de carrapichos. E foi assim que..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cachorro" (30.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | INVENTADO POR UM CACHORRO | OK |
+<!-- FISICA -->
 
-## Cena b10 - 53.3s a 57.8s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

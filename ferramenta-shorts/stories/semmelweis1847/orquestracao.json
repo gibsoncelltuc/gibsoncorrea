@@ -19,9 +19,9 @@
    "objetos": [
     "kit/wash_basin"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hospital.",
+   "frase": "Um médico pediu para os colegas lavarem as mãos e foi expulso.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -29,7 +29,26 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "wide",
+   "camera": "two",
+   "personagens": [
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena",
+    "kit/wash_basin"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "Hoje é chamado de salvador das mães.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
    "personagens": [
     "POV",
     "POV"
@@ -40,49 +59,26 @@
     "kit/marco_viena",
     "kit/room_hospital"
    ],
-   "palavras": 14,
-   "cena": "b1",
-   "frase": "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria.",
-   "classe": "chave",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 1847, no hospital de Viena, havia duas alas de parto.",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
   {
    "camera": "two",
    "personagens": [
-    "SEM",
-    "PAR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b2",
-   "frase": "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior hospital"
-  },
-  {
-   "camera": "group",
-   "personagens": [
     "MAE",
     "SEM"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.",
+   "frase": "Na ala dos médicos, morriam muito mais mães, de febre.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -97,12 +93,18 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre.",
-   "classe": "simples",
+   "frase": "Um colega se cortou numa autópsia e morreu de febre.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "interior hospital"
   },
@@ -113,9 +115,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas.",
+   "frase": "Acontece que os médicos saíam das autópsias de mãos sujas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -132,9 +134,9 @@
    "objetos": [
     "kit/wash_basin"
    ],
-   "palavras": 21,
+   "palavras": 12,
    "cena": "b6",
-   "frase": "Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar.",
+   "frase": "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -155,60 +157,7 @@
    ],
    "palavras": 6,
    "cena": "b7",
-   "frase": "As mortes despencaram quase dez vezes.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "DIR",
-    "SEM"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b8",
-   "frase": "Mas os médicos se ofenderam, e Semmelweis foi mandado embora.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior hospital"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MAE"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/lapide"
-   ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "PAR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/wash_basin"
-   ],
-   "palavras": 16,
-   "cena": "b10",
-   "frase": "Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.",
+   "frase": "As mortes caíram quase dez vezes.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -222,20 +171,40 @@
    "cenario": "street"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
+    "DIR",
     "SEM"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Mas os médicos se ofenderam e o expulsaram.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SEM",
+    "DIR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/wash_basin"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Lavar as mãos virou insulto. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
   }
  ]
 }

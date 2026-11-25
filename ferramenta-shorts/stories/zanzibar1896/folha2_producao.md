@@ -179,10 +179,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Às nove e quarenta, a bandeira caiu.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): GUA (variante 0, expressao pained, segura flag) | multidao: 0 de POV
-- Animacao: encena
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern)
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/forte_colonial, kit/marco_zanzibar, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, nove
 - RISCOS: nenhum
@@ -191,7 +191,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
-- PERSONAGENS: GUA no centro, expressao pained, segura flag; sem multidao; acao: fala/gesto
+- PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING2 na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
@@ -224,7 +224,7 @@ war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b6 | planos abertos: 4 | mistura: close 10% | medio 59% | aberto 28% | detalhe 3%
+- Objeto heroi: kit/navio_vapor | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 11% | medio 63% | aberto 23% | detalhe 3%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b9 entregar
 - RISCOS GERAIS: nenhum
 

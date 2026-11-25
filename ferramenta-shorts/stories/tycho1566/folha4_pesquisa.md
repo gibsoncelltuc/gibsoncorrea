@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Astrônomo do Nariz de Metal | O Astrônomo do Nariz de Metal / Um Era Tycho Brahe Alemanha Numa 1566 | SEM REFERENCIA
+tema | O Astrônomo do Nariz de Metal | O Astrônomo do Nariz de Metal / Um Em Tycho Brahe Alemanha 1566 | SEM REFERENCIA
 lugar | Rostock (Alemanha) em 1566; ilha de Hven (Dinamarca) com o castelo-observatorio | Rostock / Rostock Alemanha em 1566 ilha de Hven Dinamarca com o castelo-observatorio Uraniborg 1566 | SEM REFERENCIA
 lugar | Dinamarca | Dinamarca 1566 / Dinamarca landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1566 | 1566 fashion clothing / 16th century clothing painting | SEM REFERENCIA
@@ -27,7 +27,6 @@ objeto | espadas | espadas / espadas 1566 | SEM REFERENCIA
 objeto | quadrante mural | quadrante mural / quadrante mural 1566 | SEM REFERENCIA
 objeto | Uraniborg | Uraniborg / Uraniborg 1566 | SEM REFERENCIA
 heroi | brass nose | nariz de latao / O Astrônomo do Nariz de Metal | SEM REFERENCIA
-epoca | castelo da epoca | castle 1566 / castle | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em 1566, em Rostock, Tycho perdeu parte do nariz num duelo com o primo Manderup Parsbjerg e passou a usar protese de metal; Frederico II lhe deu a ilha de Hven, onde ergueu Uraniborg; seus dados permitiram a Kepler suas leis (fonte: Wikipedia Tycho Brahe)

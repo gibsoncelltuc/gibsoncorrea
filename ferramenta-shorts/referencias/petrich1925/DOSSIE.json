@@ -1,6 +1,6 @@
 {
  "id": "petrich1925",
- "titulo": "A Guerra do Cachorro Perdido",
+ "titulo": "Guerras Inusitadas EP 26 - A Guerra do Cachorro Perdido",
  "ancoras": {
   "ano": 1925,
   "era": "historica",
@@ -10,6 +10,7 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
+   "loc_montanha",
    "mountain"
   ],
   "cenarios_trocados": []
@@ -32,7 +33,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/coin",
   "kit/dog_sit",
   "kit/room_azul_wood",
   "kit/room_europa_stone",

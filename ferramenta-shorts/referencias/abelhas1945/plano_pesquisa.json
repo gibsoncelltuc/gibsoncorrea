@@ -8,7 +8,7 @@
    "consultas": [
     "waggle dance honey bee",
     "As Abelhas que Dançam um Mapa",
-    "As Karl Frisch Ele 1945"
+    "Abelhas Prêmio Nobel Karl Frisch 1945"
    ]
   },
   {
@@ -113,7 +113,7 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
+   "item": "Comida perto: voltinhas. Comida longe: um oito, rebolando.",
    "consultas": [
     "comida perto voltinhas comida longe rebolando",
     "bee diagram"
@@ -121,17 +121,17 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada",
+   "item": "O ângulo da dança aponta a direção, comparada com o sol.",
    "consultas": [
-    "incrivel angulo rebolada mostrava direcao comparada",
+    "angulo danca aponta direcao comparada",
     "bee diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
+   "item": "Quanto mais rebola, mais longe está a comida.",
    "consultas": [
-    "quanto rebolava longe comida danca",
+    "quanto rebola longe comida",
     "bee diagram"
    ]
   }

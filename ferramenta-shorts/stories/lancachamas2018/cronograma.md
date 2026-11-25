@@ -1,23 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
-Gerado em 25/11 05:54 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | MUS, POV | - | bancada, flamethrower, marco_hollywood | - | Um bilionário vendeu um lança-chamas e jurou que não era um lança-cham
-b1 | simples | interior pedra | two | MUS, CMP | - | - | - | Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a emp
-b2 | simples | loc_cidade | two | MUS, POV | - | flamethrower | - | Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa,
-b3 | simples | interior loja | two | MUS, CMP | - | bancada, flamethrower | - | O nome dele era Não é um lança-chamas, e custava quinhentos dólares.
-b4 | chave | loc_deserto | wide | MUS | 18 | bancada, fire, flamethrower, marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o aparelho soltava fogo de verdade, e essa era a piada.
-b5 | simples | interior pedra | two | MUS, CMP | - | flamethrower | - | Musk explicou que o nome era para driblar a alfândega, que barrava lan
-b6 | simples | interior loja | two | CMP, POV | - | extinguisher | - | Cada compra vinha com um extintor de incêndio de brinde.
-b7 | chave | loc_cidade | crowd | POV, POV | 16 | marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.
-b8 | simples | interior pedra | two | MUS, CMP | - | picket_fence | - | Isso rendeu cerca de dez milhões de dólares para a empresa.
-b9 | chave | loc_deserto | wide | MUS | 6 | bancada, fire, flamethrower, marco_hollywood, phone | corpo: labaredas 3D; emissao: fumaca; luz: clarao do fogo; camera: plano da cena; som: fogo | O próprio Musk postou vídeos soltando fogo com o aparelho.
-b10 | simples | loc_cidade | two | MUS, POV | - | bancada, extinguisher | - | Um produto que se chamava de tudo, menos do que parecia.
-b11 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower, marco_hollywood | - | Um bilionário vendeu lança-chamas jurando que não era lança-chamas.
+b1 | simples | loc_cidade | two | MUS, POV | - | bancada, extinguisher | - | E o motivo desse nome é bem esperto.
+b2 | transicao | loc_cidade | wide | MUS, CMP | 6 | bancada, flamethrower, marco_hollywood, tunel_boring | - | Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.
+b3 | simples | interior loja | two | MUS, CMP | - | bancada, flamethrower | - | O nome era Não é um lança-chamas. Custava quinhentos dólares.
+b4 | chave | loc_deserto | wide | MUS | 18 | bancada, fire, flamethrower, marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele soltava fogo de verdade.
+b5 | simples | interior loja | two | MUS, CMP | - | flamethrower, Crate_Metal | - | O nome servia para driblar a alfândega, que barrava lança-chamas.
+b6 | simples | interior loja | group | CMP, POV | - | extinguisher | - | E vinha com um extintor de incêndio junto.
+b7 | chave | loc_cidade | group | POV, POV | 16 | marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Vinte mil unidades esgotaram em poucos dias.
+b8 | simples | interior pedra | two | MUS, CMP | - | picket_fence | - | Isso rendeu cerca de dez milhões de dólares.
+b9 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower | - | O nome mentia, e todo mundo sabia. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

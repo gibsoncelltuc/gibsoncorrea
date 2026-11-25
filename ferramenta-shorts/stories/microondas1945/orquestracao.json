@@ -20,14 +20,39 @@
     "kit/chocolate",
     "kit/microwave"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Uma barra de chocolate derretida no bolso inventou o forno de micro-ondas.",
+   "frase": "Um chocolate derretido no bolso inventou o micro-ondas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/microwave"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E hoje ele está em quase toda cozinha.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "reveal",
@@ -37,9 +62,9 @@
    ],
    "multidao": 8,
    "objetos": [],
-   "palavras": 23,
-   "cena": "b1",
-   "frase": "Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos, e o engenheiro Percy Spencer trabalhava numa fábrica de radares.",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Por volta de 1945, Percy Spencer trabalhava com radares.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -54,14 +79,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b2",
-   "frase": "Esses radares tinham uma peça potente, que mandava ondas invisíveis o dia inteiro.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Uma peça do radar soltava ondas invisíveis o dia inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "group",
@@ -73,14 +98,14 @@
    "objetos": [
     "kit/chocolate"
    ],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Um dia, ele chegou perto dessa peça com uma barra de chocolate no bolso.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Um dia, ele chegou perto dela com chocolate no bolso.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "two",
@@ -93,29 +118,13 @@
     "kit/chocolate"
    ],
    "palavras": 10,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "SPE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b5",
-   "frase": "Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -127,9 +136,9 @@
    "objetos": [
     "kit/popcorn"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b6",
-   "frase": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
+   "frase": "Acontece que ele testou pipoca, e os grãos estouraram pela sala.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -152,9 +161,9 @@
    "objetos": [
     "kit/egg"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
+   "frase": "Depois testou um ovo, que explodiu na cara de um colega.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -178,9 +187,9 @@
    "objetos": [
     "kit/microwave"
    ],
-   "palavras": 18,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
+   "frase": "O primeiro forno era mais alto que uma pessoa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -190,57 +199,16 @@
   {
    "camera": "two",
    "personagens": [
-    "POV",
-    "POV"
+    "SPE",
+    "COL"
    ],
    "multidao": 0,
    "objetos": [
     "kit/microwave"
    ],
-   "palavras": 15,
+   "palavras": 7,
    "cena": "b9",
-   "frase": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "SPE"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/chocolate",
-    "kit/popcorn"
-   ],
-   "palavras": 9,
-   "cena": "b10",
-   "frase": "No fim, o chocolate perdeu, mas a pipoca agradece.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "SPE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Um lanche perdido. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

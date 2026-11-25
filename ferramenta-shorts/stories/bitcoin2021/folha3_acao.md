@@ -1,104 +1,91 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 15 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 15 acoes catalogadas, 15 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
-> "Um presidente transformou o bitcoin em dinheiro oficial de um país inteiro."
+## Cena b0 - 0.2s a 3.0s - 10 palavras - plano two
+> "Um país inteiro apostou o próprio dinheiro numa moeda digital."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bitcoin" (1.5s)
-
-- LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aceitou" (0.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dinheiro" (1.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (2.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | PAÍS DO BITCOIN | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra dinheiro (1.9s): executa: estrelinhas + som
 - INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 8: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra dinheiro (2.2s): executa: estrelinhas + som
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: reagir
-- multidao de 8: parada, reagindo (shock), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
+## Cena b1 - 3.1s a 5.8s - 7 palavras - plano wide
+> "E o final dessa aposta ninguém esperava."
 
-## Cena b1 - 4.4s a 7.4s - 9 palavras - plano close
-> "Foi em El Salvador, com o presidente Nayib Bukele."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Salvador" (5.6s)
-
-- LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Salvador" (5.8s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aposta" (4.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | MAPA | EL SALVADOR | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
+## Cena b2 - 6.0s a 9.0s - 10 palavras - plano close
+> "Em 2021, El Salvador adotou o bitcoin como moeda oficial."
 
-## Cena b2 - 7.8s a 14.1s - 18 palavras - plano reveal
-> "Em setembro de dois mil e vinte e um, virou o primeiro país do mundo a fazer isso."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "primeiro" (11.9s)
-
-- LEITURA DA FRASE: sentido FATO
-  1) DEP a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "anunciou" (11.0s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "adotou" (8.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 1º PAÍS DO MUNDO | OK |
+| 1 | - | MAPA | EL SALVADOR | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b3 - 14.4s a 17.8s - 10 palavras - plano two
-> "Quem baixasse a carteira digital ganhava trinta dólares em bitcoin."
+## Cena b3 - 9.1s a 10.7s - 7 palavras - plano two
+> "Quem baixasse o aplicativo ganhava trinta dólares."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carteira" (15.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trinta" (10.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 18.1s a 23.3s - 15 palavras - plano wide
-> "No primeiro dia, o aplicativo travou, e o bitcoin despencou mais de dez por cento."
+## Cena b4 - 10.8s a 14.3s - 11 palavras - plano wide
+> "O governo até minerava bitcoin com a energia de um vulcão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "despencou" (21.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "minerava" (11.3s)
 
-- LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passou" (16.7s)
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | PLACA | ENERGIA DO VULCÃO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b5 - 14.8s a 18.5s - 10 palavras - plano orbit
+> "Acontece que, em 2022, o bitcoin despencou para dezesseis mil."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "despencou" (17.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -111,183 +98,52 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
+## Cena b6 - 19.1s a 21.1s - 9 palavras - plano two
+> "Mas em 2024, ele passou de cem mil dólares."
 
-## Cena b5 - 23.7s a 27.0s - 10 palavras - plano two
-> "Mesmo assim, o governo continuou comprando bitcoins com dinheiro público."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "comprando" (25.6s)
-
-- LEITURA DA FRASE: sentido FATO
-  1) CLI a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "convencer" (21.8s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passou" (20.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 27.4s a 33.0s - 16 palavras - plano wide
-> "E não é só comprar: o país também minera bitcoin com a energia de um vulcão."
+## Cena b7 - 22.3s a 24.3s - 6 palavras - plano two
+> "As reservas no prejuízo viraram lucro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "minera" (30.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | PLACA | ENERGIA DO VULCÃO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b7 - 33.3s a 38.5s - 15 palavras - plano two
-> "Minerar é deixar computadores fazendo contas sem parar, e quem acerta primeiro ganha bitcoins novos."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "computadores" (34.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b8 - 38.9s a 42.2s - 10 palavras - plano two
-> "Em novembro, o bitcoin bateu sessenta e nove mil dólares."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bateu" (40.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | bateu (38.9s) | EFEITO: dust | poeira + som | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra bateu (38.9s): executa: poeira + som
-<!-- /FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra bateu (40.4s): executa: poeira + som
-<!-- /FISICA -->
-
-## Cena b9 - 42.6s a 48.1s - 16 palavras - plano orbit
-> "Acontece que, um ano depois, despencou para dezesseis mil, e o país perdeu milhões no papel."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "despencou" (44.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | perdeu (47.0s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra perdeu (45.9s): executa: fumaca + som
-- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra perdeu (47.0s): executa: fumaca + som
-- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b10 - 48.5s a 52.6s - 12 palavras - plano group
-> "E nas pesquisas, sessenta e oito por cento da população era contra."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pesquisas" (49.3s)
-
-- LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "governo" (39.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lucro" (24.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | PREJUÍZO → LUCRO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b11 - 53.0s a 58.9s - 17 palavras - plano two
-> "Mas em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem mil dólares."
+## Cena b8 - 24.8s a 27.5s - 9 palavras - plano two
+> "Maluquice ou visão? Só sei que foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passou" (57.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Maluquice" (24.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b12 - 59.3s a 62.2s - 9 palavras - plano wide
-> "E as reservas, que estavam no prejuízo, viraram lucro."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "reservas" (60.0s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | PLACA | PREJUÍZO → LUCRO | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | PAÍS DO BITCOIN | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b13 - 61.2s a 64.1s - 8 palavras - plano two
-> "Aposta maluca ou visão de futuro? Você decide."
-
-- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Aposta" (62.6s)
-
-- LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Mesmo" (45.3s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b14 - 65.6s a 70.0s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 8: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 

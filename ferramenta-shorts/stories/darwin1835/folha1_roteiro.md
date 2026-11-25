@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 10 cenas, 86 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 86 palavras (~30 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma etiqueta trocada ajudou Darwin a explicar a vida na Terra.

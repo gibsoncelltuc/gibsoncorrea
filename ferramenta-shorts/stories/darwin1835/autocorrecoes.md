@@ -204,3 +204,20 @@
 - b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 08:54 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 08:55 autocorrecao de visibilidade
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch_thick" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch_long" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch_thick" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch_long" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

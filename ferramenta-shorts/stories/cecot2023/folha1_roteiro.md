@@ -22,12 +22,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b2  (~2.4 s)
 - Narracao: Ela abriu em 2023, em El Salvador.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: EL SALVADOR
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~3.4 s)
 - Narracao: O país tinha das maiores taxas de assassinato do mundo.
@@ -76,12 +76,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b8  (~2.8 s)
 - Narracao: O modelo passou a ser copiado e criticado.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: COPIADO E CRITICADO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~2.1 s)
 - Narracao: Segurança ou excesso? Foi assim que...
