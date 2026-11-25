@@ -1,0 +1,193 @@
+{
+ "duration": 34.224,
+ "frames30": 1027,
+ "source": "silence-align (cost 0.89)",
+ "segments": [
+  [
+   0.0,
+   3.04321
+  ],
+  [
+   3.42017,
+   4.13175
+  ],
+  [
+   4.36192,
+   5.56621
+  ],
+  [
+   5.94583,
+   7.389
+  ],
+  [
+   7.58188,
+   8.33162
+  ],
+  [
+   8.56513,
+   9.07662
+  ],
+  [
+   9.24483,
+   10.334
+  ],
+  [
+   10.7061,
+   12.7192
+  ],
+  [
+   12.9846,
+   13.9268
+  ],
+  [
+   14.3011,
+   16.3967
+  ],
+  [
+   16.771,
+   18.9043
+  ],
+  [
+   19.2759,
+   20.714
+  ],
+  [
+   20.9033,
+   21.8191
+  ],
+  [
+   22.1888,
+   22.77
+  ],
+  [
+   23.0334,
+   24.7045
+  ],
+  [
+   25.0769,
+   26.51
+  ],
+  [
+   26.7628,
+   27.9164
+  ],
+  [
+   28.2842,
+   28.9958
+  ],
+  [
+   29.1683,
+   30.9437
+  ],
+  [
+   31.3133,
+   32.6803
+  ],
+  [
+   33.0457,
+   33.7857
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
+   "s": 0.0,
+   "e": 3.043
+  },
+  {
+   "text": "E mesmo assim,",
+   "s": 3.42,
+   "e": 4.132
+  },
+  {
+   "text": "houve mortos nessa invas\u00e3o.",
+   "s": 4.362,
+   "e": 5.566
+  },
+  {
+   "text": "Em 1943, a ilha de Kiska,",
+   "s": 5.946,
+   "e": 7.389
+  },
+  {
+   "text": "no Alasca,",
+   "s": 7.582,
+   "e": 8.332
+  },
+  {
+   "text": "estava com os japoneses.",
+   "s": 8.565,
+   "e": 10.334
+  },
+  {
+   "text": "Americanos e canadenses chegaram com navios,",
+   "s": 10.706,
+   "e": 12.719
+  },
+  {
+   "text": "avi\u00f5es e tanques.",
+   "s": 12.985,
+   "e": 13.927
+  },
+  {
+   "text": "Bombardearam a ilha durante semanas inteiras.",
+   "s": 14.301,
+   "e": 16.397
+  },
+  {
+   "text": "Acontece que os japoneses j\u00e1 tinham ido embora.",
+   "s": 16.771,
+   "e": 18.904
+  },
+  {
+   "text": "Sa\u00edram escondidos na neblina,",
+   "s": 19.276,
+   "e": 20.714
+  },
+  {
+   "text": "semanas antes.",
+   "s": 20.903,
+   "e": 21.819
+  },
+  {
+   "text": "No nevoeiro,",
+   "s": 22.189,
+   "e": 22.77
+  },
+  {
+   "text": "os Aliados atiraram uns nos outros.",
+   "s": 23.033,
+   "e": 24.704
+  },
+  {
+   "text": "Mais de vinte soldados morreram,",
+   "s": 25.077,
+   "e": 26.51
+  },
+  {
+   "text": "e um navio bateu numa mina.",
+   "s": 26.763,
+   "e": 27.916
+  },
+  {
+   "text": "Na ilha inteira,",
+   "s": 28.284,
+   "e": 28.996
+  },
+  {
+   "text": "s\u00f3 acharam alguns cachorros abandonados.",
+   "s": 29.168,
+   "e": 30.944
+  },
+  {
+   "text": "Uma invas\u00e3o contra cachorros.",
+   "s": 31.313,
+   "e": 32.68
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 33.046,
+   "e": 33.786
+  }
+ ]
+}
