@@ -1,100 +1,176 @@
 # FOLHA 3 - ACOES - E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
-> "Todo mundo já quis cavar um buraco até a China. E se desse para atravessar a Terra inteira?"
+## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
+> "Um buraco até a China? Do Brasil, você sairia no meio do Pacífico."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "buraco" (0.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cavar (1.5s) | ACAO: cava | cava: poeira | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | insiste | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | MAPA | CHINA | OK |
 | 4 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
 
-## Cena b1 - 6.7s a 13.3s - 19 palavras - plano reveal
-> "Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | surpresa: (7.0s) | EFEITO: ring | onda + som | OK |
-| 2 | surpresa (7.0s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 4 | - | MAPA | OCEANO PACÍFICO | OK |
+## Cena b1 - 4.8s a 7.0s - 7 palavras - plano two
+> "E o pulo nesse buraco nunca acabaria."
 
-## Cena b2 - 13.7s a 18.1s - 13 palavras - plano two
-> "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | cavar (14.4s) | ACAO: cava | cava: poeira | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b3 - 18.5s a 24.4s - 17 palavras - plano two
-> "O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b4 - 24.8s a 31.5s - 19 palavras - plano low
-> "Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-
-## Cena b5 - 31.9s a 35.9s - 12 palavras - plano crowd
-> "Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | pulasse (35.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 5.000 °C | OK |
-
-## Cena b6 - 36.3s a 42.6s - 18 palavras - plano group
-> "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-
-## Cena b7 - 43.0s a 47.0s - 12 palavras - plano two
-> "Depois iria freando, e sairia do outro lado em uns quarenta minutos."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | cochichar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b8 - 47.4s a 52.2s - 14 palavras - plano two
-> "Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pulo" (5.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
 
-## Cena b9 - 52.6s a 55.2s - 8 palavras - plano orbit
-> "Os cientistas chamam isso de túnel da gravidade."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b2 - 7.4s a 11.1s - 11 palavras - plano two
+> "O buraco mais fundo do mundo tem doze quilômetros, na Rússia."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "buraco" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 40 MINUTOS | OK |
-
-## Cena b10 - 55.6s a 60.4s - 14 palavras - plano close
-> "Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | comprar (59.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b3 - 11.5s a 13.7s - 7 palavras - plano wide
+> "Lá embaixo, faz cento e oitenta graus."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "graus" (13.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 14.1s a 17.8s - 11 palavras - plano wide
+> "O centro da Terra fica a mais de seis mil quilômetros."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "centro" (14.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b5 - 18.1s a 21.5s - 10 palavras - plano close
+> "E é quase tão quente quanto a superfície do Sol."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "quente" (19.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b6 - 21.9s a 25.2s - 10 palavras - plano orbit
+> "Acontece que, se você pulasse, cairia cada vez mais rápido."
+
+- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pulasse" (23.3s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+<!-- /FISICA -->
+
+## Cena b7 - 25.6s a 28.1s - 8 palavras - plano two
+> "Sairia do outro lado em uns quarenta minutos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Sairia" (25.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | cochichar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b8 - 28.5s a 31.9s - 10 palavras - plano two
+> "Mas, sem ninguém para segurar, cairia de volta. Para sempre."
+
+- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cairia" (30.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | reverencia | OK |
+| 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: reverencia
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b9 - 32.2s a 35.9s - 11 palavras - plano two
+> "Para ir ao Japão, a passagem ainda é o melhor caminho."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passagem" (34.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

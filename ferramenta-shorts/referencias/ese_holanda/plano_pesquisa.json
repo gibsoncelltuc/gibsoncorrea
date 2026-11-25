@@ -1,0 +1,102 @@
+{
+ "id": "ese_holanda",
+ "ano": 1630,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se o Brasil Tivesse Sido Holandês?",
+   "consultas": [
+    "E Se o Brasil Tivesse Sido Holandês?",
+    "Ninguém Brasil Nova York Em Pernambuco 1630"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Recife e Pernambuco (Brasil holandes), Suriname e Nova Amsterda",
+   "consultas": [
+    "Recife e Pernambuco",
+    "Recife e Pernambuco Brasil holandes Suriname e Nova Amsterda 1630"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Pernambuco",
+   "consultas": [
+    "Pernambuco 1630",
+    "Pernambuco landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1630",
+   "consultas": [
+    "1630 fashion clothing",
+    "17th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Mauricio de Nassau",
+   "consultas": [
+    "Mauricio de Nassau",
+    "Mauricio de Nassau 1630"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados holandeses",
+   "consultas": [
+    "soldados holandeses",
+    "soldados holandeses 1630"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "colonos portugueses, indigenas e africanos",
+   "consultas": [
+    "colonos portugueses indigenas e africanos",
+    "colonos portugueses indigenas e africanos 1630"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navios a vela do sec. XVII",
+   "consultas": [
+    "navios a vela do sec. XVII",
+    "navios a vela do sec. XVII 1630"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "canas de acucar",
+   "consultas": [
+    "canas de acucar",
+    "canas de acucar 1630"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bandeira holandesa",
+   "consultas": [
+    "bandeira holandesa",
+    "bandeira holandesa 1630"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "flag pole",
+   "consultas": [
+    "navios a vela do sec. XVII",
+    "E Se o Brasil Tivesse Sido Holandês?"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1630",
+    "ship"
+   ]
+  }
+ ]
+}

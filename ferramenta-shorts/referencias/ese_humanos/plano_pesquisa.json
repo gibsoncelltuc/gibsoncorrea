@@ -1,0 +1,73 @@
+{
+ "id": "ese_humanos",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se os Humanos Sumissem da Terra?",
+   "consultas": [
+    "E Se os Humanos Sumissem da Terra?",
+    "Terra Veja No"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "cidades de hoje (Nova York, metro), florestas, piramides do Egito",
+   "consultas": [
+    "cidades de hoje",
+    "cidades de hoje Nova York metro florestas piramides do Egito"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Mundo",
+   "consultas": [
+    "Mundo",
+    "Mundo landscape"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores (antes de sumir)",
+   "consultas": [
+    "moradores antes de sumir"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "animais: caes, gatos, lobos, veados",
+   "consultas": [
+    "animais caes gatos lobos veados"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "globo terrestre",
+   "consultas": [
+    "globo terrestre"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "usina de energia",
+   "consultas": [
+    "usina de energia"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "ponte de aco",
+   "consultas": [
+    "ponte de aco"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "globe",
+   "consultas": [
+    "globo terrestre",
+    "E Se os Humanos Sumissem da Terra?"
+   ]
+  }
+ ]
+}

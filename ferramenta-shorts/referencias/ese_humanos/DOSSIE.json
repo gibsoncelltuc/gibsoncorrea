@@ -1,0 +1,63 @@
+{
+ "id": "ese_humanos",
+ "titulo": "E Se EP 02 - E Se os Humanos Sumissem da Terra?",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "interior loja",
+   "interior madeira",
+   "jungle",
+   "loc_campo",
+   "loc_deserto",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/globe",
+  "kit/room_azul_wood",
+  "kit/room_europa_shop",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/bush",
+  "nature/lamppost",
+  "nature/tree_oak",
+  "nature/tree_pine"
+ ],
+ "pesquisa_visual": {
+  "local": "cidades de hoje (Nova York, metro), florestas, piramides do Egito",
+  "quando": "hoje e o futuro (hipotese), de dia",
+  "participantes": [
+   "moradores (antes de sumir)",
+   "animais: caes, gatos, lobos, veados"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "cidade vazia, ruas tomadas por plantas, metro alagado, ponte enferrujada, piramides",
+  "objetos": [
+   "globo terrestre",
+   "usina de energia",
+   "ponte de aco"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_World_Without_Us",
+   "https://en.wikipedia.org/wiki/Life_After_People"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/The_World_Without_Us",
+  "https://www.scientificamerican.com/article/earth-without-people/"
+ ],
+ "falta": []
+}

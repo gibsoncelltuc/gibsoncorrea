@@ -70,133 +70,17 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Durante vinte e quatro anos, um pedaço do Brasil foi holandês. E se eles nunca tivessem saído?"
-  },
-  {
-   "shot": "reveal",
-   "who": [
-    "POV:0:smile",
-    "POV:1:grin"
-   ],
-   "mapa": "PERNAMBUCO",
-   "mapa_at": 3,
-   "say": "Em mil seiscentos e trinta, navios holandeses tomaram Pernambuco, atrás do açúcar mais valioso do mundo."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "NAS:0:grin",
-    "ART:0:smile:paper"
-   ],
-   "acao": "conversar",
-   "say": "O governador Maurício de Nassau trouxe pintores, cientistas e engenheiros para Recife."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "NAS:0:smug",
-    "POV:0:surprised"
-   ],
-   "props": [
-    [
-     "buildings/bridge",
-     3.5,
-     -18.0,
-     1.4
+   "bloco": "gancho",
+   "say": "Ninguém te conta: um pedaço do Brasil foi holandês por 24 anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "holandês"
+     }
     ]
-   ],
-   "fx": [
-    "puff@40"
-   ],
-   "sfx": [
-    "thump@40"
-   ],
-   "say": "Construiu uma das primeiras grandes pontes do Brasil, e a cidade ganhou a primeira sinagoga das Américas.",
-   "detalhe": false
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "POR:0:angry",
-    "POR:1:shout",
-    "POV:0:angry"
-   ],
-   "batalha": true,
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POR",
-     "POV"
-    ],
-    "march": true,
-    "expr": "angry"
-   },
-   "fx": [
-    "ring@20"
-   ],
-   "sfx": [
-    "sting@20"
-   ],
-   "text": "GUARARAPES",
-   "titulo": true,
-   "say": "Acontece que portugueses, indígenas, africanos e colonos se uniram, e venceram as batalhas dos Guararapes."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "NAS:0:sad",
-    "POV:0:grin"
-   ],
-   "props": [
-    [
-     "ship",
-     2.0,
-     -12.0,
-     0.8
-    ]
-   ],
-   "say": "Em mil seiscentos e cinquenta e quatro, os holandeses foram embora de vez."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "ART:0:surprised:paper",
-    "POV:0:suspicious"
-   ],
-   "acao": "discutir",
-   "say": "E se tivessem ficado? Talvez o Nordeste fosse hoje outro país, falando holandês."
-  },
-  {
-   "shot": "close",
-   "who": [
-    "ART:0:shock"
-   ],
-   "fx": [
-    "ring@20",
-    "stars@50"
-   ],
-   "sfx": [
-    "sting@20",
-    "ding@50"
-   ],
-   "say": "Isso não é tão maluco: o Suriname, aqui do lado do Brasil, foi colônia holandesa e fala holandês até hoje."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "NAS:0:smug",
-    "ART:0:grin"
-   ],
-   "props": [
-    [
-     "kit/scroll",
-     1.6,
-     -0.8,
-     1.0
-    ]
-   ],
-   "interacao": "entregar",
-   "say": "E mais: em mil seiscentos e sessenta e sete, a Holanda trocou com os ingleses. Ficou com o Suriname, e entregou a vila de Nova Amsterdã."
+   }
   },
   {
    "shot": "crowd",
@@ -233,23 +117,311 @@
    ],
    "text": "NOVA YORK",
    "titulo": true,
-   "say": "Essa vila hoje se chama Nova York."
+   "bloco": "promessa",
+   "say": "E essa história termina em Nova York.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Nova"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "PERNAMBUCO",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Em 1630, navios holandeses tomaram Pernambuco, atrás do açúcar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tomaram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:grin",
+    "ART:0:smile:paper"
+   ],
+   "acao": "conversar",
+   "bloco": "prova",
+   "say": "Maurício de Nassau trouxe pintores e cientistas para Recife.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trouxe"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:smug",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "buildings/bridge",
+     3.5,
+     -18.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Recife ganhou uma grande ponte e a primeira sinagoga das Américas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ponte"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POR:0:angry",
+    "POR:1:shout",
+    "POV:0:angry"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POR",
+     "POV"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "text": "GUARARAPES",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "Acontece que portugueses, indígenas e africanos se uniram contra eles.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "uniram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:sad",
+    "POV:0:grin"
+   ],
+   "props": [
+    [
+     "ship",
+     2.0,
+     -12.0,
+     0.8
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Em 1654, os holandeses foram embora de vez.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "embora"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
    "who": [
-    "NAS:0:smile"
+    "ART:0:shock"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "escalada",
+   "say": "O Suriname, aqui do lado, fala holandês até hoje.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Suriname"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:smug",
+    "ART:0:grin"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interacao": "entregar",
+   "bloco": "pagamento",
+   "say": "Em 1667, a Holanda ficou com o Suriname e entregou Nova Amsterdã.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "entregou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised",
+    "ART:0:laugh"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "buildings/skyscraper",
+     0,
+     -14.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "NOVA YORK",
+   "titulo": true,
+   "bloco": "pagamento",
+   "say": "Essa vila hoje se chama Nova York.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Nova"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:smug",
+    "POV:0:surprised"
    ],
    "props": [
     [
      "kit/flag_pole",
-     -1.6,
+     1.8,
      -1.4,
      1.0
     ]
    ],
-   "acao": "conversar",
-   "say": "Uma troca de terras, e o mapa do mundo podia ser completamente diferente."
+   "text": "1630",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "loop",
+   "say": "E se eles tivessem ficado? O mapa seria outro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mapa"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "Recife e Pernambuco (Brasil holandes), Suriname e Nova Amsterda",
+  "quando": "1630 a 1654, de dia; troca de 1667 (Tratado de Breda)",
+  "participantes": [
+   "Mauricio de Nassau",
+   "soldados holandeses",
+   "colonos portugueses, indigenas e africanos"
+  ],
+  "roupas": {
+   "HOL": "holandes do sec. XVII: gibao escuro, gola branca larga, chapeu de aba",
+   "POR": "colono portugues do sec. XVII",
+   "SOL": "soldado do sec. XVII com morion"
+  },
+  "cenario": "porto de Recife com navios a vela, engenhos de acucar, ponte de madeira, casas holandesas",
+  "objetos": [
+   "navios a vela do sec. XVII",
+   "canas de acucar",
+   "bandeira holandesa"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Dutch_Brazil",
+   "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)"
+  ]
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um pedaco do Brasil foi holandes por 24 anos e a historia termina em Nova York. Pagamento: Nassau em Recife, os holandeses expulsos em 1654, e em 1667 trocaram Nova Amsterda, hoje Nova York, pelo Suriname.",
+ "loop_frase_ok": true
 }

@@ -1,0 +1,94 @@
+{
+ "id": "ese_dinheiro",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se o Dinheiro Sumisse do Mundo?",
+   "consultas": [
+    "E Se o Dinheiro Sumisse do Mundo?",
+    "Em Na"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "cidade de hoje (padaria, feira) e a ilha de Yap, na Micronesia",
+   "consultas": [
+    "cidade de hoje",
+    "cidade de hoje padaria feira e a ilha de Yap na Micronesia"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Ilha De Yap",
+   "consultas": [
+    "Ilha De Yap",
+    "Ilha De Yap landscape"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "padeiro",
+   "consultas": [
+    "padeiro"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "fazendeiro",
+   "consultas": [
+    "fazendeiro"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "professor",
+   "consultas": [
+    "professor"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores",
+   "consultas": [
+    "moradores"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "moedas",
+   "consultas": [
+    "moedas"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "galinha",
+   "consultas": [
+    "galinha"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cesta de comida",
+   "consultas": [
+    "cesta de comida"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pedras rai de Yap",
+   "consultas": [
+    "pedras rai de Yap"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "coin",
+   "consultas": [
+    "moedas",
+    "E Se o Dinheiro Sumisse do Mundo?"
+   ]
+  }
+ ]
+}
