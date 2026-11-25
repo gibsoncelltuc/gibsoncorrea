@@ -173,12 +173,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_pista; hora: dia
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster2008: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.5 m de altura x 9.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
 - SOM: ding@3
-- TEXTO NA TELA: "TESLA" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "TESLA" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (35.8-37.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (37.6-39.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe

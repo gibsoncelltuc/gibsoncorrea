@@ -1121,6 +1121,12 @@ const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
             p.ell(lx, ly, 7.2 * u, 3.0 * u, (i + r) % 2 ? "#f2c230" : "#d9a020", 1.1 * u, 0, 360, deg + (i < 0 ? -1 : 1) * (28 + 30 * Math.abs(t)) + (r ? (i < 0 ? -18 : 18) : 0));
         }
         const [kx, ky] = R([[cx, yb - 3 * u]])[0]; p.ell(kx, ky, 3.6 * u, 3.6 * u, "#e8b830", 1.1 * u);
+    } else if (o.hat === "bunny") {   /* 25/11 teste: ORELHAS DE COELHO caidas (lop), bege com interior rosa, uma de cada lado da cabeca */
+        for (const sd of [-1, 1]) {
+            const [ex, ey] = R([[cx + sd * 0.47 * W, crown + 0.78 * HH]])[0];
+            p.ell(ex, ey, 0.11 * W, 0.6 * HH, o.cap || "#e9cfa6", 1.6 * u, 0, 360, (a * 180 / Math.PI) + sd * 8);
+            p.ell(ex + sd * 0.005 * W, ey + 0.04 * HH, 0.055 * W, 0.46 * HH, "#f2a7a0", 0, 0, 360, (a * 180 / Math.PI) + sd * 8);
+        }
     /*FIM ADITIVO*/} else if (["helmet", "bowler", "straw", "slouch", "fez", "turban", "crown", "beret", "wizard", "tricorn", "bicorne", "kepi", "pickelhaube", "stahlhelm", "brodie", "adrian", "m1", "quepe", "colonial", "bibico", "boonie"].includes(o.hat)) {
         /* chapeus novos (canal: >=25 tipos). dome = meia elipse sobre a testa */
         const deg = a * 180 / Math.PI, yb = crown + 0.24 * HH;
@@ -1577,7 +1583,7 @@ export const bodyFront = (p, o, opts)=>{
             if (k === "flag") { const c1 = c2 || "#c0262d", c3 = o.holdCol2 || "#f4f1e8", w = 52 * u, h = 34 * u, y0 = top + 2 * u; const wv = (t) => 4 * u * Math.sin(t * 5.2 + 0.6);   /* bandeira maior, ondulada, com faixa de 2a cor e ponteira dourada */
                 const top_ = [], bot_ = [], mid1 = [], mid2 = []; for (let q = 0; q <= 8; q++) { const t = q / 8, xx = x + 2 * u + w * t; top_.push([xx, y0 + wv(t)]); bot_.push([xx, y0 + h + wv(t + 0.15)]); mid1.push([xx, y0 + h * 0.36 + wv(t + 0.05)]); mid2.push([xx, y0 + h * 0.64 + wv(t + 0.1)]); }
                 p.poly([...top_, ...bot_.slice().reverse()], c1, 1.8 * u); p.poly([...mid1, ...mid2.slice().reverse()], c3, 0); p.poly([...top_, ...bot_.slice().reverse()], null, 1.8 * u); p.ell(x, top - 3 * u, 4 * u, 4 * u, "#f2c230", 1.3 * u); }
-            if (k === "torch") { p.ell(x, top - 7 * u, 7 * u, 11 * u, "#ff9a3a", 1.4 * u); p.ell(x, top - 4 * u, 3.5 * u, 6 * u, "#ffe07a", 0.6 * u); } }
+            if (k === "torch") { p.ell(x, top - 7 * u, 7 * u, 11 * u, "#ff9a3a", 1.4 * u); p.ell(x, top - 4 * u, 3.5 * u, 6 * u, "#ffe07a", 0.6 * u); } }/*ADITIVO*/else if (k === "toothbrush") { p.band([[x, y + 10 * u], [x, y - 26 * u]], "#3dbb5a", 3.2 * u, 1.2 * u, "round"); p.band([[x - 0.5 * u, y - 26 * u], [x - 0.5 * u, y - 34 * u]], "#ffffff", 5 * u, 1.0 * u, "round"); }   /* 25/11 escova de dentes verde com cerdas brancas */ /*FIM ADITIVO*/
         else if (k === "tulip") { const c1 = c2 || "#e2332f"; p.band([[x, y + 8 * u], [x, y - 22 * u]], "#3f8a3a", 3 * u, 1.2 * u, "round"); p.poly([[x - 2 * u, y - 4 * u], [x - 13 * u, y - 14 * u], [x - 3 * u, y - 12 * u]], "#4fa84a", 1.2 * u); p.poly([[x - 8 * u, y - 22 * u], [x - 9 * u, y - 37 * u], [x - 4 * u, y - 31 * u], [x, y - 40 * u], [x + 4 * u, y - 31 * u], [x + 9 * u, y - 37 * u], [x + 8 * u, y - 22 * u], [x, y - 18 * u]], c1, 1.8 * u); }
         else if (k === "axe") { p.band([[x, y - 34 * u], [x, y + 30 * u]], "#8a5a34", 3.8 * u, 1.3 * u, "round"); p.poly([[x - 2 * u, y - 36 * u], [x + 16 * u, y - 44 * u], [x + 18 * u, y - 24 * u], [x - 2 * u, y - 26 * u]], "#b8bec6", 1.6 * u); }   // machado de lenhador (pendencia da sessao B)
         else if (k === "shovel") { p.band([[x, y - 30 * u], [x, y + 42 * u]], "#8a5a34", 3.6 * u, 1.3 * u, "round"); p.poly([[x - 9 * u, y + 40 * u], [x + 9 * u, y + 40 * u], [x + 8 * u, y + 58 * u], [x, y + 66 * u], [x - 8 * u, y + 58 * u]], "#9aa0a8", 1.6 * u); p.band([[x - 6 * u, y - 31 * u], [x + 6 * u, y - 31 * u]], "#8a5a34", 3.4 * u, 1.2 * u, "round"); }
