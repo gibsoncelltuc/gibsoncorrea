@@ -13,7 +13,7 @@ b5 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/stick, nature/tree_
 b6 | loc_estudio | two | 0 | batalha | - | - | -
 b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b9 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/stick, kit/rocket | - | -
+b9 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/stick | - | -
 
 OBJETO HEROI: kit/stick
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
