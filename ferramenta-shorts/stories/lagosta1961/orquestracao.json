@@ -16,7 +16,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/bancada",
+    "crate",
     "kit/lobster"
    ],
    "palavras": 14,
@@ -191,7 +191,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/bancada",
+    "crate",
     "kit/lobster"
    ],
    "palavras": 13,

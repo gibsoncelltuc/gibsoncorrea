@@ -64,23 +64,22 @@
    ],
    "props": [
     [
-     "kit/bancada",
-     1.2,
-     -0.6,
-     1.2,
+     "crate",
+     1.0,
+     -0.4,
+     1.0,
      {
-      "nocol": true,
       "fixo": true
      }
     ],
     [
      "kit/lobster",
-     1.2,
-     -0.6,
-     0.45,
+     1.0,
+     -0.4,
+     1.0,
      {
       "fixo": true,
-      "y": 0.85
+      "y": 0.95
      }
     ]
    ],
@@ -102,11 +101,11 @@
      }
     ]
    },
-   "cx": 0.6,
-   "cz": -0.5,
-   "h": 1.7,
-   "d0": 7.5,
-   "d1": 6.5,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -192,9 +191,9 @@
    "cx": 0.0,
    "cz": -5.6,
    "h": 2.8,
-   "d0": 14.8,
-   "d1": 11.8,
-   "_auto_vis": 2
+   "d0": 15.0,
+   "d1": 13.0,
+   "_auto_vis": 3
   },
   {
    "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
@@ -453,23 +452,22 @@
    ],
    "props": [
     [
-     "kit/bancada",
+     "crate",
      1.0,
-     -0.6,
-     1.2,
+     -0.4,
+     1.0,
      {
-      "nocol": true,
       "fixo": true
      }
     ],
     [
      "kit/lobster",
      1.0,
-     -0.6,
-     0.45,
+     -0.4,
+     1.0,
      {
       "fixo": true,
-      "y": 0.85
+      "y": 0.95
      }
     ]
    ],
@@ -489,11 +487,11 @@
      }
     ]
    },
-   "cx": 0.6,
-   "cz": -0.5,
-   "h": 1.7,
-   "d0": 7.5,
-   "d1": 6.5,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",

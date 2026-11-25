@@ -33,7 +33,7 @@
  "objetos_em_cena": [
   "boat",
   "buildings/shop",
-  "kit/bancada",
+  "crate",
   "kit/fishing_net",
   "kit/lobster",
   "kit/navio_destroier",
