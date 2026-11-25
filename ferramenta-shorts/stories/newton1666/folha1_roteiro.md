@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 
 ## Cena b3  (~5.2 s)
 - Narracao: Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pensa (think) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 
 ## Cena b5  (~6.9 s)
 - Narracao: Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @12 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -89,12 +89,12 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: HOSPITAL
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

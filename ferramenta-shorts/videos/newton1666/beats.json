@@ -58,7 +58,7 @@
     ]
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -80,6 +80,8 @@
     ]
    },
    "detalhe": false,
+   "set": "loc_campo",
+   "moveis": [],
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -334,7 +336,7 @@
    ],
    "explica": false,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_campo",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -356,6 +358,8 @@
      }
     ]
    },
+   "set": "loc_campo",
+   "moveis": [],
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

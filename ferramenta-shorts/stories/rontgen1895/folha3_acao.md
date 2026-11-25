@@ -1,18 +1,18 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
 > "Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ROE acao do motor: tira | na palavra "tirou" (0.7s)
+  1) ROE pega/levanta o objeto | na palavra "tirou" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tirou (0.7s) | ACAO: tira | tira foto (celular + flash) | OK |
+| 1 | tirou (0.7s) | ACAO: pega | levanta/segura | OK |
 | 2 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | conversar | OK |
@@ -20,7 +20,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: tira na palavra tirou (0.7s): executa: tira foto (celular + flash)
+- ACAO: pega na palavra tirou (0.7s): executa: levanta/segura
 - EMOCAO: scared (a cena toda): executa: o rosto vira "scared" na palavra
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
@@ -113,18 +113,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) ROE fala apontando | na palavra "chamou" (31.2s)
-  2) ROE acao do motor: tira | na palavra "fotografou" (32.7s)
+  2) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fotografou" (32.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chamou (31.2s) | ACAO: fala | aponta explicando | OK |
-| 2 | fotografou (32.7s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra chamou (31.2s): braco estendido apontando para o objeto/lugar citado
-- ACAO: tira na palavra fotografou (32.7s): executa: tira foto (celular + flash)
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 

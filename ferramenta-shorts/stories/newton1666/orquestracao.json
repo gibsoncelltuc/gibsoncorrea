@@ -25,7 +25,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "loc_campo"
   },
   {
    "camera": "reveal",
@@ -81,7 +81,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "countryside"
   },
   {
    "camera": "orbit",
@@ -123,7 +123,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -200,7 +200,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",
@@ -216,7 +216,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "loc_campo"
   }
  ]
 }

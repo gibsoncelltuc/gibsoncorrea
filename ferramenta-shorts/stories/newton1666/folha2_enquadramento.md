@@ -3,7 +3,7 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+- LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smile, segura book; sem multidao; acao: fala/gesto
 - OBJETO kit/apple: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -68,7 +68,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b9: "No fim, a maçã mudou a ciência e nem foi comida."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+- LOCAL: loc_campo; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/apple: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa

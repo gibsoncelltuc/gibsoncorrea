@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1666 | Lugar: Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar com macieira; Cambridge fechada pela peste | Quando: 1665-1666, verao, tarde
 - HEROIS (objeto): kit/apple
 - HEROIS (personagens): NEW, AMI
-- Cenarios: countryside, interior hospital, interior madeira, interior pedra, loc_campo, street
+- Cenarios: countryside, interior madeira, loc_campo, street
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

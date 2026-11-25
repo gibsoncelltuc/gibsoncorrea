@@ -85,12 +85,14 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "tira",
+      "faz": "pega",
       "na": "tirou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
+   "objetos": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -370,13 +372,13 @@
       "quem": 0
      },
      {
-      "faz": "tira",
-      "na": "fotografou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "fotografou"
      }
     ]
    },
    "detalhe": false,
+   "objetos": false,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
