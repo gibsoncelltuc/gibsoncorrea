@@ -84,10 +84,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
 - Cenario: arctic | luz: day | clima: neve
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): GOV (variante 0, expressao shock, segura coin); MIC (variante 0, expressao grin)
-- Animacao: reagir | interacao: cochichar
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): GOV (variante 0, expressao shock, segura coin); MIC (variante 0, expressao grin) | multidao: 6 de MIC
+- Animacao: reagir
 - Objetos/modelos: kit/minerio, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fortuna
 - RISCOS: nenhum
@@ -129,8 +129,8 @@ kit/minerio | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/canivete_aberto | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 14% | detalhe 2%
-- Interacoes: b5 discutir, b6 pedir, b7 tremem de frio, b8 cochichar
+- Objeto heroi: kit/canivete_aberto | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 21% | medio 55% | aberto 21% | detalhe 2%
+- Interacoes: b5 discutir, b6 pedir, b7 tremem de frio
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -7,7 +7,7 @@
 - Roupas: {'ROM': 'soldado romano da República: túnica clara, elmo de bronze', 'GAU': 'guerreiro gaulês: túnica marrom, cabelo ruivo e bigode', 'MAN': 'Mânlio: túnica clara e elmo de bronze'}
 - Cenario real: colina rochosa do Capitólio com muralha de pedra, templo de Juno, cidade em chamas
 - Objetos: ['gansos de Juno']
-- Cenarios usados no video: interior madeira, loc_campo, medieval, mountain
+- Cenarios usados no video: interior madeira, loc_campo, loc_montanha, medieval
 - PROIBIDO pela epoca (a ferramenta bloqueia): -
 - Proibido pelo roteiro: -
 

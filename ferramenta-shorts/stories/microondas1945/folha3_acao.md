@@ -1,22 +1,23 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 12 palavras - plano two
 > "Uma barra de chocolate derretida no bolso inventou o forno de micro-ondas."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chocolate" (0.9s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | inventou (2.4s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 2 | forno (3.0s) | ACAO: calor | vapor/calor saindo | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: vira na palavra inventou (2.4s): executa: o material vira o produto, que surge girando em destaque
+- ACAO: calor na palavra forno (3.0s): executa: vapor/calor saindo
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
@@ -116,18 +117,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 31.1s a 35.2s - 15 palavras - plano two
 > "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) SPE acao do motor: examina | na palavra "testou" (32.0s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | testou (32.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | estourar (34.4s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: examina na palavra testou (32.0s): executa: examina com lupa/microscopio/balanca
+- ACAO: quebra na palavra estourar (34.4s): executa: quebra + estouro + tremor
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
@@ -135,20 +135,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b7 - 36.4s a 39.4s - 14 palavras - plano two
 > "Depois testou um ovo, e o ovo explodiu bem na cara de um colega."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) SPE acao do motor: examina | na palavra "testou" (36.7s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | testou (36.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | explodiu (38.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | explodiu (38.3s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 5 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: examina na palavra testou (36.7s): executa: examina com lupa/microscopio/balanca
 - EFEITO: burst na palavra explodiu (38.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: desaba na palavra explodiu (38.3s): executa: desaba: nuvem de poeira + tremor
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
@@ -156,33 +155,35 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b8 - 40.6s a 45.6s - 18 palavras - plano orbit
 > "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "forno" (42.7s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | saiu (41.9s) | ACAO: sai | sai andando pela lateral | OK |
+| 2 | forno (42.7s) | ACAO: calor | vapor/calor saindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: sai na palavra saiu (41.9s): executa: sai andando pela lateral
+- ACAO: calor na palavra forno (42.7s): executa: vapor/calor saindo
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b9 - 46.8s a 50.1s - 15 palavras - plano group
+## Cena b9 - 46.8s a 50.1s - 15 palavras - plano two
 > "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cozinha" (47.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 1 MINUTO | OK |
+| 1 | jantar (49.6s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | INTERACAO | pular | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | 1 MINUTO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_come na palavra jantar (49.6s): executa: leva a comida a boca
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

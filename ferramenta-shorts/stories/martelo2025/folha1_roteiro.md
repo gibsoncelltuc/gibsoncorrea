@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: atira @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -53,42 +53,42 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: B-2
+- Texto na tela: MARTELO DA MEIA-NOITE
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~3.4 s)
 - Narracao: Para despistar, outros aviões foram mandados na direção do Pacífico.
-- Som ambiente: sea
-- Efeitos sonoros marcados: whoosh@30
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: whoosh@30
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~3.8 s)
 - Narracao: Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
-- Efeito visual marcado: burst@25, burst@45, puff@60
+- Efeitos sonoros marcados: cannon@25, cannon@40, thump@55
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: burst@25, burst@40, puff@55
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b8  (~3.1 s)
 - Narracao: Um submarino ainda lançou mísseis contra uma terceira usina.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: splash@30, puff@40
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~2.8 s)
 - Narracao: Depois, os aviões voltaram para casa em segurança.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: puff@30
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Os Estados Unidos disseram que as usinas foram destruídas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: DESTRUÍDAS?
 - Funcao na historia: desenvolvimento
@@ -105,10 +105,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Mas até hoje ninguém concorda sobre o tamanho do estrago.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b12  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

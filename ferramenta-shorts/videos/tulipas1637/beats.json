@@ -55,18 +55,17 @@
     [
      "kit/tulip_striped",
      0.0,
-     1.1,
+     -1.2,
      1.6,
      {
       "fixo": true
      }
     ]
    ],
-   "text": "1637",
    "say": "Uma única flor já custou o preço de uma casa inteira.",
    "detalhe": false,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -77,12 +76,22 @@
      }
     ]
    },
+   "set": "street",
+   "titulo": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "flor"
+     }
+    ]
+   },
    "cx": 0.0,
-   "cz": 0.3,
-   "d0": 9.0,
-   "d1": 8.5,
-   "_auto_vis": 0,
-   "set": "street"
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "wide",
@@ -119,7 +128,7 @@
     ],
     [
      "kit/tulip_bed",
-     -7.0,
+     11.0,
      -14.0,
      1.4,
      {
@@ -128,7 +137,7 @@
     ],
     [
      "kit/tulip_bed",
-     -7.0,
+     -11.0,
      -14.0,
      1.4,
      {
@@ -137,7 +146,7 @@
     ],
     [
      "buildings/windmill",
-     -7.0,
+     0.0,
      -14.0,
      1.3,
      {
@@ -177,7 +186,7 @@
      },
      {
       "objeto": "kit/tulip_bed",
-      "lugar": "FUNDO, esquerda",
+      "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      },
@@ -189,18 +198,28 @@
      },
      {
       "objeto": "buildings/windmill",
-      "lugar": "FUNDO, esquerda",
+      "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tulipa"
+     }
+    ]
+   },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -9.8,
    "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d0": 21.0,
+   "d1": 19.0,
+   "_enq_shot": "wide",
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -234,23 +253,39 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "leilão",
+      "quem": 0
+     },
+     {
+      "faz": "paga",
+      "na": "pagava",
+      "quem": 1
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "wide",
    "who": [
     "POV:0:grin:tulip"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "props": [
     [
      "kit/tulip_bed",
      0.0,
-     -1.0,
+     -8.0,
      1.4,
      {
       "fixo": true
@@ -320,44 +355,55 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "paga",
+      "na": "comprando",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
    "d1": 10.0,
-   "_auto_vis": 1
+   "_enq_shot": "wide"
   },
   {
    "shot": "wide",
    "who": [
-    "POV:0:grin:tulip"
+    "RIC:0:grin:paper",
+    "MER:0:smug:tulip"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "props": [
     [
-     "kit/tulip_bed",
-     0.0,
-     -8.0,
-     1.4,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/tulip_bed",
+     "buildings/house_small",
      7.0,
      -14.0,
-     1.4,
+     1.0,
      {
       "fixo": true
      }
     ],
     [
-     "kit/tulip_bed",
-     -7.0,
-     -14.0,
-     1.4,
+     "kit/scroll",
+     1.6,
+     -1.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tulip_striped",
+     0.0,
+     -1.2,
+     1.3,
      {
       "fixo": true
      }
@@ -366,39 +412,60 @@
    "crowd": {
     "n": 0
    },
-   "titulo": true,
    "say": "Contam que teve gente que trocou terras e casas por um único bulbo.",
    "fachada": false,
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/tulip_bed",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/tulip_striped",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/tulip_bed",
+      "objeto": "buildings/house_small",
       "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/tulip_bed",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
+      "objeto": "kit/scroll",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "impact": false,
+   "text": "1 CASA = 1 BULBO",
+   "acoes": [
+    {
+     "palavra": "trocou",
+     "tipo": "entrega",
+     "quem": 0,
+     "alvo": 1
+    }
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "entrega",
+      "na": "trocou",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   },
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "wide",
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -418,9 +485,9 @@
     ],
     [
      "kit/tulip_purple",
-     3.6,
-     -2.0,
-     1.3,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -446,10 +513,21 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "flor"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -483,10 +561,21 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_come",
+      "na": "comeu",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "group",
@@ -500,20 +589,30 @@
    "hora": "dia",
    "acao": "nenhuma",
    "text": "LEILÃO",
-   "say": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão."
+   "say": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "x_abre",
+      "na": "abriu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
    "who": [
     "POV:2:shock:tulip"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "props": [
     [
      "kit/tulip_bed",
      0.0,
-     -1.0,
+     -8.0,
      1.4,
      {
       "fixo": true
@@ -530,7 +629,14 @@
     ]
    ],
    "crowd": {
-    "n": 0
+    "n": 14,
+    "outfits": [
+     "POV",
+     "MER",
+     "RIC"
+    ],
+    "march": false,
+    "expr": "shock"
    },
    "fx": [
     "dust@40",
@@ -566,12 +672,22 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "vender",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
    "d1": 10.0,
-   "_auto_vis": 1
+   "_enq_shot": "wide"
   },
   {
    "shot": "wide",
@@ -608,18 +724,40 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "flores",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "wide"
   },
   {
    "shot": "close",
    "who": [
     "MAR:0:grin"
    ],
-   "say": "O marinheiro, pelo menos, almoçou bem."
+   "say": "O marinheiro, pelo menos, almoçou bem.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "x_come",
+      "na": "almoçou",
+      "quem": 0
+     }
+    ]
+   }
   }
  ],
  "heroi": "kit/tulip_striped",

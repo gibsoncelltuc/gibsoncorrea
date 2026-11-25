@@ -106,20 +106,71 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "descobriu",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
-    "POV:0:smile",
-    "POV:1:grin"
+    "FRI:0:smile"
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
+   "say": "Karl von Frisch, da Áustria, passou a vida estudando abelhas.",
+   "props": [
+    [
+     "kit/beehive",
+     1.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_ok": true,
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "estudando",
+      "quem": 0
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 7.6,
+   "d1": 7.2,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -132,7 +183,7 @@
      "kit/beehive",
      0.0,
      -1.2,
-     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -192,6 +243,17 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "constroi",
+      "na": "construiu",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -269,6 +331,16 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "abelha"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -276,10 +348,7 @@
   },
   {
    "shot": "two",
-   "who": [
-    "FRI:0:stern",
-    "COL:0:suspicious"
-   ],
+   "who": [],
    "props": [
     [
      "kit/beehive",
@@ -313,11 +382,10 @@
    ],
    "acao": "discutir",
    "say": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
-   "set": "mountain",
    "shot_lock": true,
    "detalhe": false,
    "quadro": {
-    "local": "encosta de montanha",
+    "local": "loc_montanha",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -343,13 +411,36 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "PERTO = VOLTINHAS",
+      "topo",
+      "perto"
+     ],
+     [
+      "LONGE = UM OITO",
+      "meio",
+      "longe"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Comida"
+     }
+    ]
+   }
   },
   {
    "shot": "low",
-   "who": [
-    "FRI:0:shock"
-   ],
+   "who": [],
    "props": [
     [
      "kit/beehive",
@@ -388,11 +479,10 @@
     "sting@20"
    ],
    "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
-   "set": "mountain",
    "shot_lock": true,
    "detalhe": false,
    "quadro": {
-    "local": "encosta de montanha",
+    "local": "loc_montanha",
     "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -418,14 +508,44 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "ÂNGULO = DIREÇÃO",
+      "topo",
+      "ângulo"
+     ],
+     [
+      "PARA CIMA = SOL",
+      "meio",
+      "sol"
+     ]
+    ],
+    "setas": [
+     [
+      "cima",
+      "SOL",
+      "",
+      "sol"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ângulo"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
-   "who": [
-    "FRI:0:laugh",
-    "ASS:0:grin"
-   ],
+   "who": [],
    "interacao": "entregar",
    "fx": [
     "stars@40"
@@ -434,7 +554,6 @@
     "ding@40"
    ],
    "say": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
-   "set": "mountain",
    "props": [
     [
      "kit/beehive",
@@ -469,7 +588,7 @@
    "shot_lock": true,
    "detalhe": false,
    "quadro": {
-    "local": "encosta de montanha",
+    "local": "loc_montanha",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -495,7 +614,32 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "MAIS REBOLADO",
+      "topo",
+      "rebolava"
+     ],
+     [
+      "= MAIS LONGE",
+      "meio",
+      "longe"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rebolava"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -505,24 +649,29 @@
     "FRI:0:nervous:paper"
    ],
    "acao": "discutir",
-   "say": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada."
+   "say": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "x_ri",
+      "na": "piada",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "who": [
-    "POV:0:surprised",
-    "COL:0:shock",
-    "FRI:0:smug"
+    "FRI:0:smug",
+    "COL:0:shock"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 16,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
+    "n": 0
    },
    "props": [
     [
@@ -561,13 +710,24 @@
    "sfx": [
     "sting@30"
    ],
-   "text": "TESTE",
    "titulo": true,
    "say": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
-   "set": "mountain",
+   "set": "countryside",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "testes",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "quadro": {
-    "local": "encosta de montanha",
-    "camera": "plano de multidao; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/beehive",
@@ -595,11 +755,10 @@
    "d1": 11.5
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "FRI:0:laugh",
-    "ASS:0:laugh",
-    "COL:0:grin"
+    "ASS:0:laugh"
    ],
    "batalha": false,
    "tiros": false,
@@ -622,7 +781,20 @@
    "text": "NOBEL",
    "titulo": true,
    "say": "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.",
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "ganhou",
+      "quem": 0
+     }
+    ]
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -632,9 +804,9 @@
    "props": [
     [
      "kit/beehive",
-     2.4,
+     1.4,
      0.2,
-     1.0,
+     1.2,
      {
       "fixo": true
      }
@@ -662,6 +834,20 @@
    ],
    "say": "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.",
    "set": "countryside",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "abelha"
+     }
+    ]
+   },
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 8.0,
+   "d1": 7.6,
+   "quadro_manual": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
@@ -685,11 +871,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "regiao": "europa",
@@ -725,6 +907,9 @@
    "colegas cientistas desconfiados": "zoologist laboratory 1940s",
    "pratinhos de agua com acucar": "bees drinking sugar water dish",
    "caderno de anotacoes": "scientist field notebook"
-  }
+  },
+  "explicacoes": [
+   "Danca das abelhas (von Frisch): danca em circulo = comida perto; danca do requebrado em oito = comida longe; o angulo da corrida em relacao a vertical indica a direcao da comida em relacao ao sol; a duracao do requebrado indica a distancia (fonte: Wikipedia Waggle dance)"
+  ]
  }
 }

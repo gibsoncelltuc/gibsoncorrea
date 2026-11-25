@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -32,38 +32,38 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 ## Cena b3  (~3.4 s)
 - Narracao: O major Meredith levou duas metralhadoras e dez mil balas.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: 10.000 BALAS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@20, thump@40, thump@60
-- Efeito + som nas palavras-chave: encena: atira @13 -> acao + som de efeito; encena: atira @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @13 -> acao + som de efeito
 - Efeito visual marcado: dust@20, dust@40, dust@60, puff@30
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b5  (~5.2 s)
 - Narracao: Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito; encena: pega (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.1 s)
 - Narracao: Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 6 DIAS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.5 s)
 - Narracao: O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.
@@ -72,7 +72,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @9 -> acao + som de efeito; encena: sai @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~5.9 s)
 - Narracao: O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.

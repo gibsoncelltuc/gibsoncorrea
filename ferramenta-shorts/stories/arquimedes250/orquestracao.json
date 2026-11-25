@@ -1,6 +1,6 @@
 {
  "id": "arquimedes250",
- "ano": 2000,
+ "ano": -250,
  "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
@@ -55,7 +55,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 14,
    "cena": "b2",
@@ -91,7 +91,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 13,
    "cena": "b4",
@@ -105,16 +105,15 @@
   {
    "camera": "two",
    "personagens": [
-    "ARQ",
-    "POV"
+    "ARQ"
    ],
    "multidao": 0,
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 14,
+   "palavras": 20,
    "cena": "b5",
-   "frase": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
+   "frase": "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -158,7 +157,7 @@
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
-    "corpo": "kit/crown (parado)",
+    "corpo": "kit/coroa_louros (parado)",
     "emissao": "onda",
     "luz": "estudio",
     "camera": "2 enquadramentos sem corte seco",
@@ -173,9 +172,9 @@
     "ARQ",
     "OUR"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 15,
    "cena": "b8",
@@ -194,7 +193,7 @@
    ],
    "multidao": 14,
    "objetos": [
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 15,
    "cena": "b9",

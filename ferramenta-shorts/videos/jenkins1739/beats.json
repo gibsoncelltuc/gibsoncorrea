@@ -84,16 +84,43 @@
     [
      "kit/ear_jar",
      0.0,
-     1.0,
-     2.6
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "text": "1739",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por quase dez anos.",
-   "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "orelha"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -103,23 +130,51 @@
     "MAR:0:neutral"
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "MAR"
-    ],
-    "march": false
+    "n": 0
    },
    "mapa": "CUBA",
    "mapa_at": 3,
    "props": [
     [
      "ship",
-     -6,
-     -8,
-     1.3
+     0.0,
+     -34.5,
+     2.11,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol parou o capitão inglês Robert Jenkins."
+   "say": "Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol parou o capitão inglês Robert Jenkins.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "navio"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "_enq_shot": "reveal",
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "revelacao (camera sobe e abre); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -143,12 +198,43 @@
     [
      "kit/ear_jar",
      0.0,
-     1.4,
-     2.0
+     -1.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corta",
+      "na": "arrancou",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -159,7 +245,18 @@
    ],
    "acao": "discutir",
    "say": "\"Vá levar isso ao seu rei\", teria dito o espanhol.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "dito",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -173,7 +270,18 @@
    "interacao": "susto",
    "say": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos.",
    "text": "PARLAMENTO",
-   "tstyle": "red"
+   "tstyle": "red",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "relatou",
+      "quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -183,7 +291,18 @@
     "ING:0:suspicious"
    ],
    "interacao": "cochichar",
-   "say": "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe."
+   "say": "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "queria",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -204,9 +323,16 @@
    "props": [
     [
      "ship",
-     -7,
-     -9,
-     1.3
+     -7.0,
+     -34.5,
+     2.11,
+     {
+      "mover": [
+       0.0,
+       -34.5
+      ],
+      "fixo": true
+     }
     ]
    ],
    "text": "GUERRA",
@@ -215,9 +341,34 @@
    "impact": true,
    "shot_lock": true,
    "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "navios"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -227,7 +378,19 @@
    ],
    "interacao": "entregar",
    "say": "Depois de quase dez anos, os dois lados fizeram a paz.",
-   "set": "palace"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_aperta",
+      "na": "paz",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -237,7 +400,16 @@
     "ING:0:grin"
    ],
    "acao": "conversar",
-   "say": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um século depois."
+   "say": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um século depois.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escritor"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -250,7 +422,7 @@
     [
      "kit/ear_jar",
      0.0,
-     0.6,
+     -1.2,
      1.8,
      {
       "fixo": true
@@ -259,7 +431,32 @@
    ],
    "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
    "detalhe": false,
-   "_auto_vis": 3
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "orelha"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "ano": 1739,

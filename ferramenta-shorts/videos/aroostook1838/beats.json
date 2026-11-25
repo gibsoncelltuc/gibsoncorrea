@@ -125,7 +125,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lenhadores"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -139,7 +148,16 @@
    "shot_lock": true,
    "detalhe": false,
    "clima": "neve",
-   "mapa_at": 0.5
+   "mapa_at": 0.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fronteira"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -193,7 +211,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corta",
+      "na": "cortavam",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -235,11 +263,21 @@
    },
    "impact": false,
    "clima": "neve",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
-   "set": "loc_campo",
+   "set": "loc_montanha",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -260,26 +298,28 @@
    "say": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.",
    "impact": false,
    "shot_lock": true,
-   "clima": "neve"
+   "clima": "neve",
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
    "who": [
+    "CAN:0:angry",
     "AME:0:shock"
    ],
    "interacao": "empurrar",
    "say": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
-   "props": [
-    [
-     "kit/prison",
-     0.0,
-     -16.4,
-     2.65,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "text": "PRESO",
    "fachada": false,
    "crowd": {
@@ -288,27 +328,24 @@
    "detalhe": false,
    "set": "arctic",
    "clima": "neve",
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -7.4, camera a 54.2 m, altura 5.2 m), sem multidao na frente",
-    "objetos": [
+   "_auto_vis": 0,
+   "titulo": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/prison",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "faz": "prende",
+      "na": "prenderam",
+      "quem": 0,
+      "alvo_quem": 1
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -7.4,
-   "h": 5.2,
-   "d0": 56.9,
-   "d1": 54.2
+   }
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
+    "PRE:0:stern:paper",
     "GEN:0:stern"
    ],
    "interacao": "cochichar",
@@ -319,7 +356,17 @@
    },
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "conversar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -330,7 +377,19 @@
    ],
    "interacao": "entregar",
    "say": "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar.",
-   "acao": "discutir"
+   "acao": "discutir",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "x_aperta",
+      "na": "trégua",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -340,7 +399,16 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton definiu a fronteira, e a maior parte da área ficou com o Maine."
+   "say": "Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton definiu a fronteira, e a maior parte da área ficou com o Maine.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Tratado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -361,10 +429,19 @@
    ],
    "fachada": false,
    "interior": "loja",
-   "objetos": false
+   "objetos": false,
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Guerra"
+     }
+    ]
+   }
   }
  ],
- "regiao": "eua",
+ "regiao": "europa",
  "visual": {
   "local": "Maine",
   "quando": "inverno de 1838-1839: fevereiro de 1839, neve e frio no norte do Maine; tratado em 1842",

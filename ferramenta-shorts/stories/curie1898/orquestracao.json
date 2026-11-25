@@ -1,13 +1,7 @@
 {
  "id": "curie1898",
  "ano": 1898,
- "cenarios_trocados": [
-  [
-   "video",
-   "street",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -16,15 +10,13 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
-    "PES",
-    "JOR"
+    "PRO"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/curie_box",
-    "kit/marco_eiffel"
+    "kit/curie_box"
    ],
    "palavras": 13,
    "cena": "b0",
@@ -33,10 +25,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "POV"
    ],
@@ -57,7 +49,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -74,7 +66,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "group",
@@ -91,17 +83,17 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "two",
    "personagens": [
-    "MAR",
-    "PIE"
+    "MAR"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/curie_box"
+    "kit/curie_box",
+    "kit/pechblenda"
    ],
    "palavras": 15,
    "cena": "b4",
@@ -110,7 +102,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "close",
@@ -128,7 +120,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "two",
@@ -145,10 +137,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "MAR"
    ],
@@ -169,7 +161,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -185,13 +177,12 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
    "personagens": [
-    "PES",
-    "JOR"
+    "PES"
    ],
    "multidao": 0,
    "objetos": [
@@ -246,7 +237,7 @@
   {
    "camera": "close",
    "personagens": [
-    "PES"
+    "PRO"
    ],
    "multidao": 0,
    "objetos": [],

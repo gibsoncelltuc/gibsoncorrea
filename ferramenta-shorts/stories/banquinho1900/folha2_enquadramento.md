@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: GOV na esquerda, expressao smug; ASH na direita, expressao shock; sem multidao; acao: discutir
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1900" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
@@ -21,7 +20,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b2: "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
-- PERSONAGENS: CHE na esquerda, expressao stern; ASH na direita, expressao smile; sem multidao; acao: conversar
+- PERSONAGENS: CHE na esquerda, expressao stern; ASH na direita, expressao smile; multidao de 12 (ASH, CHE) ATRAS dos principais; acao: conversar
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b3: "Acontece que o governador inglês exigiu o banquinho: "Por que eu ainda não estou sentado nele?""
@@ -38,7 +37,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Eles se revoltaram e cercaram o forte onde o governador estava."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: ASH no centro, expressao angry; multidao de 10 (ASH) ATRAS dos principais; acao: batalha
 - OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "FORTE CERCADO" flutuando no alto, na palavra 1 da frase

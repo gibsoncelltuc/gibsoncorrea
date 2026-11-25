@@ -30,9 +30,10 @@
    "jacket": "#c9a040",
    "pants": "#4a3a2a",
    "boots": "#2a2218",
-   "hat": "cap",
+   "hat": "hair",
    "cap": "#4a3a2a",
-   "moustache_on": "#3a2a1a"
+   "moustache_on": "#3a2a1a",
+   "hair": "#3a2a1a"
   },
   "POV": {
    "jacket": "#f1efe6",
@@ -59,7 +60,23 @@
     "steps@10"
    ],
    "set": "medieval",
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "titulo": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "corre",
+      "na": "correndo"
+     },
+     {
+      "quem": 0,
+      "faz": "grita",
+      "na": "gritando"
+     }
+    ]
+   }
   },
   {
    "say": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",
@@ -80,8 +97,8 @@
    "props": [
     [
      "kit/bathtub",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -101,10 +118,21 @@
     ]
    },
    "set": "medieval",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Siracusa"
+     }
+    ]
+   },
+   "_enq_shot": "reveal",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "say": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
@@ -115,7 +143,24 @@
     "OUR:0:nervous"
    ],
    "interacao": "discutir",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandou"
+     },
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "desconfiou",
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "say": "Será que trocou parte do ouro por prata?",
@@ -126,7 +171,18 @@
     "OUR:0:scared"
    ],
    "acao": "discutir",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pensa",
+      "na": "trocou",
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "say": "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.",
@@ -137,14 +193,23 @@
     "ARQ:0:surprised"
    ],
    "interacao": "entregar",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "chamou"
+     }
+    ]
+   }
   },
   {
-   "say": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
+   "say": "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.",
    "shot": "two",
    "who": [
-    "ARQ:0:shock",
-    "POV:0:surprised"
+    "ARQ:0:surprised"
    ],
    "impact": true,
    "tiros": false,
@@ -154,8 +219,8 @@
    "props": [
     [
      "kit/bathtub",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.3,
      {
       "fixo": true
@@ -170,24 +235,47 @@
     "whoosh@50",
     "ding@70"
    ],
+   "batalha": false,
    "interior": "pedra",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/bathtub",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "batalha": false
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "anda_ate",
+      "alvo": "kit/bathtub",
+      "na": "entrou"
+     },
+     {
+      "quem": 0,
+      "faz": "entra_em",
+      "alvo": "kit/bathtub",
+      "na": "entrou"
+     },
+     {
+      "alvo": "kit/bathtub",
+      "faz": "transborda",
+      "na": "transbordou"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
@@ -218,6 +306,15 @@
       "tamanho"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "água"
+     }
+    ]
    }
   },
   {
@@ -230,7 +327,7 @@
    "interacao": "cochichar",
    "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
    "explica": {
-    "objeto": "kit/crown",
+    "objeto": "kit/coroa_louros",
     "vfx": [
      {
       "k": "onda",
@@ -249,43 +346,66 @@
       "derramaria"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "coroa"
+     }
+    ]
    }
   },
   {
    "say": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
-   "shot": "prop",
+   "shot": "two",
    "who": [
     "ARQ:0:grin",
     "OUR:0:nervous"
    ],
    "props": [
     [
-     "kit/crown",
+     "kit/coroa_louros",
      0.0,
-     -1.2,
-     2.2,
+     1.4,
+     2.93,
      {
+      "nocol": true,
       "fixo": true
      }
     ]
    ],
+   "set": "medieval",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true,
    "quadro": {
     "local": "vila medieval",
-    "camera": "plano do objeto; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
     "objetos": [
      {
-      "objeto": "kit/crown",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "objeto": "kit/coroa_louros",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "set": "medieval",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "medir",
+      "forcar": true
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "_auto_vis": 3
   },
   {
    "say": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
@@ -316,7 +436,17 @@
    "acao": "comemorar",
    "tiros": false,
    "set": "medieval",
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "grita",
+      "na": "gritou"
+     }
+    ]
+   }
   },
   {
    "say": "No fim, dá para enganar um rei, mas não uma banheira.",
@@ -349,6 +479,16 @@
     ]
    },
    "set": "medieval",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "banheira"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -383,8 +523,16 @@
   ],
   "explicacoes": [
    "Principio do deslocamento: um corpo mergulhado desloca um volume de agua igual ao seu proprio volume (Vitruvio, De Architectura, livro IX). Prata e menos densa que o ouro: uma coroa com prata no mesmo peso tem volume maior e desloca mais agua."
-  ]
+  ],
+  "buscas": {
+   "banheira": "ancient greek bathtub terracotta",
+   "bathtub": "ancient greek bathtub terracotta",
+   "coroa de ouro (de louros)": "gold laurel wreath ancient greek",
+   "balanca de pratos": "ancient balance scale",
+   "barra de ouro": "gold ingot ancient"
+  }
  },
  "max_wide": 3,
- "regiao": "classico"
+ "regiao": "classico",
+ "ano": -250
 }

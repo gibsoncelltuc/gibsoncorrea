@@ -44,21 +44,48 @@
     "PAR:0:nervous",
     "PAR:1:pained"
    ],
-   "text": "1870",
    "tat": 0,
    "tstyle": "blue",
    "animais": false,
    "props": [
     [
-     "kit/panela",
+     "kit/bife_elefante",
      0.0,
-     1.2,
-     1.3,
+     -1.2,
+     2.2,
      {
+      "nocol": true,
       "fixo": true
      }
     ]
-   ]
+   ],
+   "detalhe": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "elefante"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
@@ -67,7 +94,16 @@
    "who": [
     "PAR:0:nervous",
     "PAR:1:sad"
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Prússia"
+     }
+    ]
+   }
   },
   {
    "say": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
@@ -99,7 +135,16 @@
    "crowd": {
     "n": 0
    },
-   "vary": false
+   "vary": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cavalos"
+     }
+    ]
+   }
   },
   {
    "say": "Depois, os roedores, que viraram um prato chique.",
@@ -117,9 +162,32 @@
     ],
     [
      "kit/panela",
-     0.9,
-     -0.4,
-     1.0
+     0.0,
+     1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rato",
+     0.6,
+     1.0,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rato",
+     3.6,
+     -2.0,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
     ]
    ],
    "text": "RATOS",
@@ -127,7 +195,46 @@
    "tstyle": "red",
    "set": "street",
    "clima": "neve",
-   "detalhe": false
+   "detalhe": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rato juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/rato",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/panela",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rato",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "roedores"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "say": "Quando acabou tudo, olharam para o zoológico da cidade.",
@@ -152,7 +259,17 @@
      "stand",
      1.0
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "olharam",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
@@ -181,7 +298,17 @@
     ]
    ],
    "clima": "neve",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "comprou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
@@ -198,18 +325,45 @@
    "clima": "neve",
    "props": [
     [
-     "kit/panela",
+     "kit/bife_elefante",
      0.0,
-     1.4,
-     1.3,
+     -1.2,
+     2.2,
      {
+      "nocol": true,
       "fixo": true
      }
     ]
    ],
    "animais": false,
    "shot_lock": true,
-   "detalhe": true
+   "detalhe": true,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Voisin"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
@@ -227,12 +381,44 @@
    "animais": false,
    "props": [
     [
-     "kit/panela",
-     0.9,
-     -0.4,
-     1.0
+     "kit/bife_elefante",
+     0.0,
+     -1.2,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_come",
+      "na": "comiam",
+      "quem": 1
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
@@ -248,7 +434,16 @@
     "expr": "sad"
    },
    "set": "street",
-   "animais": false
+   "animais": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fila"
+     }
+    ]
+   }
   },
   {
    "say": "Para mandar notícias, soltavam balões por cima do cerco.",
@@ -256,9 +451,12 @@
    "props": [
     [
      "kit/balloon_air",
-     0,
-     -6,
-     1.3
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
     ]
    ],
    "clima": "neve",
@@ -269,9 +467,42 @@
    "tat": 2,
    "tstyle": "blue",
    "who": [
-    "PAR:1:surprised",
-    "PAR:3:smile"
-   ]
+    "PAR:1:surprised"
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/balloon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "crowd": {
+    "n": 0
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_solta",
+      "na": "soltavam",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -13.5,
+   "h": 2.8,
+   "d0": 26.3,
+   "d1": 24.3,
+   "_auto_vis": 3
   },
   {
    "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
@@ -289,17 +520,47 @@
    "props": [
     [
      "kit/panela",
-     0.9,
-     -0.4,
-     1.0
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "detalhe": false,
    "set": "street",
-   "animais": false
+   "animais": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/panela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "rende",
+      "na": "rendeu",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
- "heroi": "kit/panela",
+ "heroi": "kit/bife_elefante",
  "regiao": "franca",
  "visual": {
   "local": "Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante)",
@@ -331,5 +592,6 @@
  "serie": "Guerras Inusitadas",
  "ep": 24,
  "titulo_base": "O Cardápio do Zoológico",
- "variar_cenario": false
+ "variar_cenario": false,
+ "max_wide": 6
 }

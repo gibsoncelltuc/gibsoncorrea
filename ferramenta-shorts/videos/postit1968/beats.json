@@ -61,7 +61,6 @@
      }
     ]
    ],
-   "text": "1968",
    "fx": [
     "stars@30"
    ],
@@ -86,7 +85,17 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "quimico",
+      "na": "químico",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -100,7 +109,16 @@
    "props": [],
    "detalhe": false,
    "_auto_vis": 0,
-   "interior": "galpao"
+   "interior": "galpao",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fábrica"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -114,7 +132,18 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Spencer Silver tentava criar uma super cola."
+   "say": "Spencer Silver tentava criar uma super cola.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "quimico",
+      "na": "criar",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -130,7 +159,16 @@
     "sting@30"
    ],
    "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cola"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -140,7 +178,18 @@
     "SIL:0:nervous:paper"
    ],
    "interacao": "entregar",
-   "say": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada."
+   "say": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada.",
+   "susp_ok": true,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mostrava",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -191,7 +240,17 @@
      -3.4,
      2.2
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "x_canta",
+      "na": "cantava",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -238,7 +297,16 @@
      -3.4,
      2.2
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "desaba",
+      "na": "caindo"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -279,7 +347,17 @@
    },
    "_auto_vis": 0,
    "detalhe": false,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "ideia",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
@@ -291,6 +369,15 @@
      "AMARELO",
      "POR ACASO"
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "papel"
+     }
+    ]
    }
   },
   {
@@ -298,7 +385,7 @@
    "who": [
     "FRY:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
@@ -348,7 +435,18 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_entrega",
+      "na": "distribuíram",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -386,7 +484,16 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lojas"
+     }
+    ]
+   }
   }
  ],
  "visual": {

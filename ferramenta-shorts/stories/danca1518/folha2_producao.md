@@ -25,9 +25,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b2 - Em poucos dias, mais de trinta pessoas dançavam também, incluindo o ma...
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (4): TRO (variante 0, expressao pained); POV (variante 1, expressao laugh); POV (variante 2, expressao grin); POV (variante 3, expressao pained) | multidao: 36 de POV/TRO
-- Animacao: dancar | batalha encenada
+- Animacao: dancar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido, trinta
 - RISCOS: nenhum
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 6 de POV/DAN
+- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 12 de DAN
 - Animacao: dancar
 - Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dancarinos
@@ -65,9 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Deu errado: mais gente entrou na dança, com medo de um castigo de São ...
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PRE (variante 0, expressao stern, segura paper); POV (variante 0, expressao pained) | multidao: 0 de 
-- Animacao: dancar | batalha encenada
+- Animacao: dancar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, conselho, danca, medo
 - RISCOS: nenhum
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - No fim, os dançarinos foram levados a uma capela no alto de um monte, ...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): DAN (variante 0, expressao relief) | multidao: 6 de DAN

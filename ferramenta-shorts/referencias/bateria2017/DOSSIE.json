@@ -8,27 +8,12 @@
   "luz_base": "golden",
   "cenarios": [
    "interior loja",
+   "interior madeira",
    "interior pedra",
    "loc_campo",
-   "outback"
+   "loc_cidade"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 9",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 10",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "countryside",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -52,35 +37,71 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_small",
-  "kit/marco_goldengate",
+  "buildings/apartment",
+  "buildings/house_two",
   "kit/megapack",
   "kit/phone",
-  "kit/roadster",
   "kit/room_azul_shop",
   "kit/room_europa_stone",
+  "kit/room_rosa_wood",
   "kit/room_verde_shop",
   "mk/Bed_Twin1",
+  "mk/Bench",
   "mk/Cabinet",
   "mk/Crate_Metal",
   "mk/Nightstand_Shelf",
+  "mk/Shelf_Arch",
   "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "nature/lamppost",
   "nature/picket_fence"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Hornsdale Power Reserve, perto de Jamestown, Australia do Sul (campo aberto ao lado de um parque eolico)",
+  "quando": "marco a dezembro de 2017, dia",
+  "participantes": [
+   "Elon Musk (camiseta e jaqueta escura)",
+   "Mike Cannon-Brookes, empresario australiano (camiseta e bone)",
+   "jornalistas",
+   "operarios de capacete e colete"
+  ],
+  "roupas": {
+   "MUS": "jaqueta escura",
+   "CAN": "camiseta e bone",
+   "JOR": "camisa social com bloco de notas"
+  },
+  "cenario": "campo seco e plano com fileiras de baterias brancas Tesla Powerpack e turbinas eolicas ao fundo; escritorio com celular",
+  "objetos": [
+   "baterias Tesla Powerpack em fileiras",
+   "celular com o tweet",
+   "contrato"
+  ],
+  "explicacoes": [
+   "Hornsdale Power Reserve: 100 MW / 129 MWh, a maior bateria de ions de litio do mundo em 2017; contrato assinado em 29/09/2017 e obra concluida em 23/11/2017 (fonte: Wikipedia Hornsdale Power Reserve)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Hornsdale_Power_Reserve",
+   "https://commons.wikimedia.org/wiki/Category:Hornsdale_Power_Reserve"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "loc_cidade",
+   "interior loja",
+   "interior pedra",
+   "interior madeira"
+  ],
+  "buscas": {
+   "bateria": "Hornsdale Power Reserve Tesla Powerpack 2017",
+   "local": "Hornsdale wind farm South Australia"
+  }
+ },
  "fontes": [
   "https://www.energy-storage.news/news/south-australia-takes-tesla-up-on-100-days-or-free-energy-storage-promise",
   "https://www.powermag.com/tesla-bet-and-delivered-100-mw129-mwh-energy-storage-system-within-100-days",
   "https://www.geekwire.com/2017/elon-musk-touts-teslas-plan-build-worlds-biggest-battery-100-days/",
   "https://www.ecowatch.com/tesla-worlds-largest-battery-2512145319.html"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

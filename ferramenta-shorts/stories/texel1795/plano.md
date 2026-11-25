@@ -2,10 +2,10 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | wide | - neve | animais | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena (acao + som de efeito) | -
-b1 | reveal | -  | tropa, placa: 1795, mapa | absurdo (ring + som de alerta); encena: chega (point) @9 (acao + som de efeito); encena: duvida (shrug) @16 (acao + som de efeito) | -
-b2 | orbit | - neve | tropa, placa: FROTA CONGELADA | encena: x_treme @12 (acao + som de efeito) | -
-b3 | wide | - neve | - | encena: prende (push) @3 (acao + som de efeito) | -
+b0 | wide | - neve | tropa, animais | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena (acao + som de efeito) | -
+b1 | reveal | -  | tropa, placa: 1795, mapa | absurdo (ring + som de alerta) | invadia
+b2 | orbit | - neve | tropa, placa: FROTA CONGELADA | - | -
+b3 | wide | - neve | - | - | -
 b4 | group | - neve | animais | - | -
 b5 | two | - neve | tropa, animais, placa: A CAVALO? | atacar (ring + som de alerta); encena: pensa (think) @6 (acao + som de efeito) | -
 b6 | low | noite neve | animais | - | -

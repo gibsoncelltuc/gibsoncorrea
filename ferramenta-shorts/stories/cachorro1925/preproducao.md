@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_campo | track | 2 | encena, andando | dog | - | -
+b0 | loc_campo | track | 2 | andando | dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | loc_campo | track | 2 | encena, andando | dog | - | -
 b3 | mountain | two | 14 | conversar, INTERAGEM: insiste | - | - | -

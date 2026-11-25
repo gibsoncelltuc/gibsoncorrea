@@ -37,48 +37,29 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "MARTELO DA MEIA-NOITE" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b5: "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá."
-- LOCAL: loc_pista; hora: dia
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
-- OBJETO kit/b2_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "B-2" flutuando no alto, na palavra 1 da frase
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/b2_air no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b6: "Para despistar, outros aviões foram mandados na direção do Pacífico."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
-- OBJETO kit/b2_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO whoosh: -; entra no quadro +30 da cena
-- SOM: whoosh@30
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/b2_air no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b7: "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow."
-- LOCAL: encosta de montanha; hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -4.6, camera a 23.2 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
-- OBJETO kit/mountain_bunker: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.5 m de altura x 17.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +25 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +45 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
-- SOM: cannon@25
-- SOM: cannon@45
-- SOM: thump@60
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/mountain_bunker no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b8: "Um submarino ainda lançou mísseis contra uma terceira usina."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.1, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PIL no centro, expressao stern; sem multidao; acao: fala/gesto
-- OBJETO kit/submarino_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.8 m de altura x 21.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO respingo: no chao; entra no quadro +30 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
-- SOM: whoosh@30
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/submarino_moderno no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b9: "Depois, os aviões voltaram para casa em segurança."
-- LOCAL: loc_pista; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
-- OBJETO kit/b2_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
-- SOM: ding@30
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/b2_air no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b10: "Os Estados Unidos disseram que as usinas foram destruídas."
 - LOCAL: sala de pedra (governo/castelo); hora: day

@@ -1,0 +1,6 @@
+b0 frase SEM LEITURA ESCRITA ("encena": sentido + passos): a IA tem que ler a frase e escrever o que a tela mostra
+b1 frase SEM LEITURA ESCRITA ("encena": sentido + passos): a IA tem que ler a frase e escrever o que a tela mostra
+b3 frase SEM LEITURA ESCRITA ("encena": sentido + passos): a IA tem que ler a frase e escrever o que a tela mostra
+b5 frase SEM LEITURA ESCRITA ("encena": sentido + passos): a IA tem que ler a frase e escrever o que a tela mostra
+b7 frase SEM LEITURA ESCRITA ("encena": sentido + passos): a IA tem que ler a frase e escrever o que a tela mostra
+b9 frase SEM LEITURA ESCRITA ("encena": sentido + passos): a IA tem que ler a frase e escrever o que a tela mostra

@@ -1,115 +1,98 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
+## Cena b0 - 0.2s a 3.4s - 14 palavras - plano two
 > "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiro (2.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiro (2.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | tiro (1.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | tiro (1.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | 1784 | OK |
+| 5 | - | PLACA | UM ÚNICO TIRO | OK |
 
-## Cena b1 - 5.2s a 12.2s - 20 palavras - plano crowd
-> "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | fechado (8.9s) | ACAO: empurra | empurra/puxa | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | MAPA | HOLANDA | OK |
-
-## Cena b2 - 12.6s a 17.8s - 15 palavras - plano two
-> "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele."
+## Cena b1 - 4.5s a 9.9s - 18 palavras - plano wide
+> "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | fechado (9.0s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | - | MAPA | HOLANDA | OK |
 
-## Cena b3 - 18.1s a 22.6s - 13 palavras - plano group
-> ""Mandem três navios", ordenou ele. "Os holandeses não vão ter coragem de atirar.""
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | Mandem (18.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | atirar (22.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | atirar (22.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | INTERACAO | reverencia | OK |
-| 5 | - | ATUACAO | conversar | OK |
-
-## Cena b4 - 23.0s a 28.9s - 17 palavras - plano group
-> "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras."
+## Cena b2 - 11.3s a 15.6s - 15 palavras - plano two
+> "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | desceram (24.1s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 3 NAVIOS | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 29.3s a 34.8s - 16 palavras - plano crowd
-> "Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão."
+## Cena b3 - 16.9s a 21.2s - 14 palavras - plano wide
+> "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperando (31.5s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | deu (33.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | tiro (34.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | tiro (34.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | canhão (34.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 6 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 35.2s a 40.4s - 15 palavras - plano two
-> "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro."
+## Cena b4 - 22.2s a 24.8s - 11 palavras - plano wide
+> "O maior levava a bandeira do imperador e seguia na frente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | bala (35.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | bala (35.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | atravessou (35.9s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 1 | levava (22.5s) | ACAO: pega | levanta/segura | OK |
+| 2 | seguia (24.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | PLACA | 3 NAVIOS | OK |
 
-## Cena b7 - 40.7s a 45.6s - 14 palavras - plano group
-> "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora."
+## Cena b5 - 25.8s a 30.1s - 15 palavras - plano two
+> "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | olhou (41.9s) | ACAO: olha | aponta/olha | OK |
-| 2 | rendeu (44.4s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | esperando (28.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | disparou (29.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 45.9s a 50.7s - 14 palavras - plano two
-> "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro."
+## Cena b6 - 31.2s a 34.4s - 15 palavras - plano two
+> "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | desistiu (46.7s) | EFEITO: puff | fumaca + som | OK |
-| 2 | desistiu (46.7s) | ACAO: perde | mao na testa | OK |
-| 3 | pagou (49.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | pagou (49.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 5 | dinheiro (50.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | dinheiro (50.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 7 | - | INTERACAO | entregar | OK |
+| 1 | bala (31.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 51.1s a 52.6s - 5 palavras - plano close
-> "Ninguém morreu. Só o almoço."
+## Cena b7 - 35.8s a 39.2s - 14 palavras - plano wide
+> "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | rendeu (36.8s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+
+## Cena b8 - 40.3s a 47.7s - 23 palavras - plano two
+> "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | fechado (45.9s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | pagou (47.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | pagou (47.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | - | INTERACAO | entregar | OK |
+
+## Cena b9 - 49.0s a 50.7s - 8 palavras - plano two
+> "O único prejuízo do dia foi o almoço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 53.0s a 57.4s - 13 palavras - plano close
+## Cena b10 - 51.9s a 55.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

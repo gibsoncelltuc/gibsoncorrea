@@ -99,31 +99,26 @@
    "cenario": "harbor"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
-    "POV"
+    "RIC",
+    "MER"
    ],
    "multidao": 0,
    "objetos": [
     "buildings/house_small",
     "kit/marco_amsterdam",
-    "kit/tulip_bed",
-    "kit/tulip_red",
+    "kit/scroll",
+    "kit/tulip_striped",
     "nature/picket_fence",
     "nature/tree_oak"
    ],
    "palavras": 13,
    "cena": "b4",
    "frase": "Contam que teve gente que trocou terras e casas por um único bulbo.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -188,7 +183,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV"
    ],

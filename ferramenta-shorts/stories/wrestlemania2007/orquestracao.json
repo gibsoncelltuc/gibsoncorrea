@@ -25,9 +25,9 @@
    "objetos": [
     "kit/clipper"
    ],
-   "palavras": 19,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.",
+   "frase": "Donald Trump raspou a cabeça de outro bilionário no meio de um ringue.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -61,9 +61,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
+   "palavras": 17,
    "cena": "b2",
-   "frase": "Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon.",
+   "frase": "A rivalidade era combinada, como todo show de luta: Trump contra o dono da empresa, Vince McMahon.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -80,9 +80,9 @@
    "objetos": [
     "kit/clipper"
    ],
-   "palavras": 19,
+   "palavras": 16,
    "cena": "b3",
-   "frase": "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.",
+   "frase": "A aposta: cada um escolheu um lutador, e o dono do perdedor teria a cabeça raspada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -90,7 +90,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV",
@@ -116,7 +116,7 @@
    "cenario": "stadium"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "LAS",
     "UMA"
@@ -135,18 +135,17 @@
    "cenario": "stadium"
   },
   {
-   "camera": "low",
+   "camera": "wide",
    "personagens": [
-    "JUI",
-    "UMA"
+    "JUI"
    ],
-   "multidao": 5,
+   "multidao": 0,
    "objetos": [
     "kit/ring"
    ],
-   "palavras": 17,
+   "palavras": 13,
    "cena": "b6",
-   "frase": "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça.",
+   "frase": "Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -154,13 +153,11 @@
    "cenario": "stadium"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
-    "LAS",
-    "TRU",
-    "POV"
+    "LAS"
    ],
-   "multidao": 22,
+   "multidao": 18,
    "objetos": [
     "kit/ball",
     "kit/ring"
@@ -181,19 +178,20 @@
    "cenario": "stadium"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "TRU",
-    "VIN"
+    "LAS",
+    "VIB"
    ],
    "multidao": 0,
    "objetos": [
     "kit/clipper",
     "kit/ring"
    ],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b8",
-   "frase": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.",
+   "frase": "Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar careca.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -201,27 +199,7 @@
    "cenario": "stadium"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "VIB",
-    "TRU",
-    "LAS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/clipper"
-   ],
-   "palavras": 10,
-   "cena": "b9",
-   "frase": "O dono da luta livre saiu do ringue completamente careca.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "stadium"
-  },
-  {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "JUI",
     "TRU"
@@ -230,9 +208,9 @@
    "objetos": [
     "kit/ring"
    ],
-   "palavras": 17,
-   "cena": "b10",
-   "frase": "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "E sobrou para Trump: o juiz derrubou ele também.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -247,9 +225,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 21,
-   "cena": "b11",
-   "frase": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.",
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -264,7 +242,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

@@ -36,10 +36,8 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_small",
   "buildings/house_two",
   "buildings/shop",
-  "kit/coin",
   "kit/cone_transito",
   "kit/frasco",
   "kit/globe",

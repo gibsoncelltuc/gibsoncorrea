@@ -1,7 +1,13 @@
 {
  "id": "martelo2025",
  "ano": 2025,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -60,7 +66,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
@@ -100,95 +106,104 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/b2_air"
-   ],
+   "objetos": [],
    "palavras": 12,
    "cena": "b5",
    "frase": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.",
-   "classe": "transicao",
-   "sujeito": "cenario",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/b2_air"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b6",
    "frase": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
-   "classe": "transicao",
-   "sujeito": "cenario",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/mountain_bunker"
-   ],
+   "objetos": [],
    "palavras": 11,
    "cena": "b7",
    "frase": "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow.",
-   "classe": "chave",
-   "sujeito": "cenario",
+   "classe": "explicativa",
+   "sujeito": "objeto",
    "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
+    "corpo": "kit/mountain_bunker (parado)",
+    "emissao": "fogo, onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
    },
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "PIL"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/submarino_ww2"
-   ],
+   "objetos": [],
    "palavras": 9,
    "cena": "b8",
    "frase": "Um submarino ainda lançou mísseis contra uma terceira usina.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/submarino_moderno (parado)",
+    "emissao": "fogo, vapor",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "buildings/house_small",
-    "kit/b2_air",
-    "nature/picket_fence",
-    "nature/tree_oak"
-   ],
+   "objetos": [],
    "palavras": 8,
    "cena": "b9",
    "frase": "Depois, os aviões voltaram para casa em segurança.",
-   "classe": "transicao",
-   "sujeito": "cenario",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
@@ -208,19 +223,25 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [],
    "palavras": 10,
    "cena": "b11",
    "frase": "Mas até hoje ninguém concorda sobre o tamanho do estrago.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "hall"
   },

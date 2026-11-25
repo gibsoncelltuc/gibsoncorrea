@@ -7,7 +7,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
 - PERSONAGENS: MER na esquerda, expressao grin, segura tulip; RIC na direita, expressao shock, segura coin; sem multidao; acao: fala/gesto
 - OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1637" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "1637" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
@@ -16,9 +16,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO buildings/windmill: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.7 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO buildings/windmill: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.7 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: HOLANDA (cobre a tela 1-2 s)
 
 ## b2: "Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil."
@@ -30,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b3: "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: POV no centro, expressao grin, segura tulip; multidao de 14 (POV, MER) ATRAS dos principais; acao: batalha
+- PERSONAGENS: POV no centro, expressao grin, segura tulip; multidao de 14 (POV, MER) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -42,18 +42,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Contam que teve gente que trocou terras e casas por um único bulbo."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: POV no centro, expressao grin, segura tulip; sem multidao; acao: batalha
-- OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
+- PERSONAGENS: RIC na esquerda, expressao grin, segura paper; MER na direita, expressao smug, segura tulip; sem multidao; acao: fala/gesto
+- OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO buildings/house_small: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.9 m de altura x 6.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/scroll: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "1 CASA = 1 BULBO" flutuando no alto, na palavra 1 da frase
 
 ## b5: "Ninguém queria a flor. Queriam revender mais caro na semana seguinte."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_yellow juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao grin, segura paper; POV na direita, expressao smile, segura coin; sem multidao; acao: discutir
 - OBJETO kit/tulip_yellow: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/tulip_purple: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/tulip_purple: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b6: "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna."
 - LOCAL: sala de madeira; hora: day
@@ -71,7 +72,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
 - LOCAL: vila rural (casas, cercas, campo); hora: day; clima: limpo
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: POV no centro, expressao shock, segura tulip; sem multidao; acao: discutir
+- PERSONAGENS: POV no centro, expressao shock, segura tulip; multidao de 14 (POV, MER, RIC) ATRAS dos principais; acao: discutir
 - OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena

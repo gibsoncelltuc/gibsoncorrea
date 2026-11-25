@@ -3,13 +3,15 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)
-- PERSONAGENS: GOO na esquerda, expressao shock; CLA na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/stove: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- SOM: ding@30
-- TEXTO NA TELA: "1839" numa placa atras dos personagens, na palavra 1 da frase
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: GOO no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/gosma: FRENTE, centro (objeto principal da cena); tamanho na tela: 5% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.4 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/stove: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
+- SOM: thump@30
+- SOM: ding@50
 
 ## b1: "Era mil oitocentos e trinta e nove, nos Estados Unidos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -19,10 +21,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
 ## b2: "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão."
-- LOCAL: rua de cidade (predios dos dois lados); hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: GOO na esquerda, expressao sad; POV na direita, expressao angry; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/borracha no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b3: "Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências, fazendo testes até na cozinha de casa."
 - LOCAL: sala de madeira; hora: day
@@ -40,16 +41,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)
-- PERSONAGENS: GOO na esquerda, expressao grin; CLA na direita, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/stove: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
+- PERSONAGENS: GOO no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/stove: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b6: "A gosma caiu em cima do fogão quente. Ele esperava que derretesse."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GOO no centro, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/borracha: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/stove: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/gosma: FRENTE, centro (objeto principal da cena); tamanho na tela: 5% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.4 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/stove: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +20 da cena
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: thump@20
@@ -57,10 +58,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GOO no centro, expressao surprised; sem multidao; acao: comemorar
-- OBJETO kit/borracha: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/stove: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/borracha: FRENTE, centro (objeto principal da cena); tamanho na tela: 5% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.4 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/stove: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
 
@@ -76,10 +77,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e borracha juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao grin; CLA na direita, expressao smile; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
-- OBJETO kit/borracha: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/tires: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/borracha: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/tires: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/ball: FRENTE, esquerda; tamanho na tela: 12% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- OBJETO kit/stove: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
@@ -87,10 +87,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "PNEUS" flutuando no alto, na palavra 1 da frase
 
 ## b10: "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
-- PERSONAGENS: GOO no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/stove: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/tires: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- LOCAL: galpao; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tires juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/tires: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "GOODYEAR" numa placa atras dos personagens, na palavra 1 da frase
 

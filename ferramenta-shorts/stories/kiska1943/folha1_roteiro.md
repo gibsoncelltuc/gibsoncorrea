@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 34.000 SOLDADOS | mapa: ALASCA
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Antes do desembarque, bombardearam Kiska durante semanas.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@38, cannon@60, cannon@82, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60
-- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@38, burst@60, burst@82
 - Texto na tela: BOMBARDEIO
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Mas teve um problema: os japoneses já tinham ido embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: ILHA VAZIA
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.
 - Som ambiente: sea
 - Efeitos sonoros marcados: cannon@126
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; tiros -> burst + som de tiro/explosao; bateu -> dust + som de impacto; encena: morre @4 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito; encena: x_bate (punch) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; tiros -> burst + som de tiro/explosao; bateu -> dust + som de impacto; encena: morre @4 -> acao + som de efeito
 - Efeito visual marcado: burst@126
 - Texto na tela: MINA
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 - Narracao: No fim, só acharam na ilha alguns cachorros abandonados.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito; encena: sai @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SÓ CACHORROS
 - Funcao na historia: desenvolvimento

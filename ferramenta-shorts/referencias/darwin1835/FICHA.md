@@ -7,7 +7,7 @@
 - Roupas: {'DAR': 'cavalheiro ingles de 1835: casaca, colete, gravata de laco, chapeu', 'MAR': 'marinheiro da Marinha Real de 1835: camisa listrada e chapeu de palha', 'GOU': 'cientista de 1837 de casaca escura e gravata', 'POV': 'cientistas e publico de casaca'}
 - Cenario real: ilha vulcanica com cactos e rochas pretas, navio a vela HMS Beagle ancorado, gabinete de estudo em Londres com aves empalhadas
 - Objetos: ['tentilhoes', 'caderno de anotacoes', 'navio HMS Beagle', 'livro A Origem das Especies']
-- Cenarios usados no video: harbor, interior madeira, interior pedra, loc_campo
+- Cenarios usados no video: countryside, harbor, interior madeira, interior pedra
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

@@ -1,0 +1,243 @@
+{
+ "duration": 54.528,
+ "frames30": 1636,
+ "source": "silence-align (cost 0.88)",
+ "segments": [
+  [
+   0.149792,
+   1.73879
+  ],
+  [
+   2.00133,
+   3.87846
+  ],
+  [
+   4.78096,
+   6.49729
+  ],
+  [
+   6.7395,
+   7.33537
+  ],
+  [
+   7.57354,
+   9.59096
+  ],
+  [
+   10.4302,
+   11.2071
+  ],
+  [
+   11.4851,
+   13.8688
+  ],
+  [
+   14.7248,
+   16.1604
+  ],
+  [
+   16.486,
+   18.4422
+  ],
+  [
+   19.2762,
+   21.4012
+  ],
+  [
+   21.6378,
+   22.7818
+  ],
+  [
+   22.9877,
+   24.0403
+  ],
+  [
+   24.9089,
+   25.717
+  ],
+  [
+   25.9663,
+   26.7443
+  ],
+  [
+   27.0205,
+   28.7454
+  ],
+  [
+   29.613,
+   30.7934
+  ],
+  [
+   30.9953,
+   32.5888
+  ],
+  [
+   32.8775,
+   34.0335
+  ],
+  [
+   34.8798,
+   37.3344
+  ],
+  [
+   38.228,
+   39.7008
+  ],
+  [
+   39.901,
+   41.2167
+  ],
+  [
+   42.0725,
+   44.2167
+  ],
+  [
+   44.4922,
+   46.6341
+  ],
+  [
+   47.4985,
+   49.3727
+  ],
+  [
+   50.2248,
+   51.6695
+  ],
+  [
+   51.9621,
+   53.7238
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra durou menos de uma hora,",
+   "s": 0.15,
+   "e": 1.739
+  },
+  {
+   "text": "e \u00e9 considerada a mais curta da hist\u00f3ria.",
+   "s": 2.001,
+   "e": 3.878
+  },
+  {
+   "text": "Foi em mil oitocentos e noventa e seis,",
+   "s": 4.781,
+   "e": 6.497
+  },
+  {
+   "text": "em Zanzibar,",
+   "s": 6.739,
+   "e": 7.335
+  },
+  {
+   "text": "uma ilha africana sob influ\u00eancia inglesa.",
+   "s": 7.574,
+   "e": 9.591
+  },
+  {
+   "text": "O sult\u00e3o morreu,",
+   "s": 10.43,
+   "e": 11.207
+  },
+  {
+   "text": "e um primo ocupou o pal\u00e1cio sem pedir licen\u00e7a.",
+   "s": 11.485,
+   "e": 13.869
+  },
+  {
+   "text": "Os ingleses deram um ultimato:",
+   "s": 14.725,
+   "e": 16.16
+  },
+  {
+   "text": "sair do pal\u00e1cio at\u00e9 as nove da manh\u00e3.",
+   "s": 16.486,
+   "e": 18.442
+  },
+  {
+   "text": "O primo reuniu quase tr\u00eas mil homens,",
+   "s": 19.276,
+   "e": 21.401
+  },
+  {
+   "text": "com fuzis e mosquetes,",
+   "s": 21.638,
+   "e": 22.782
+  },
+  {
+   "text": "e se trancou l\u00e1 dentro.",
+   "s": 22.988,
+   "e": 24.04
+  },
+  {
+   "text": "Acontece que,",
+   "s": 24.909,
+   "e": 25.717
+  },
+  {
+   "text": "\u00e0s nove e dois,",
+   "s": 25.966,
+   "e": 26.744
+  },
+  {
+   "text": "os navios ingleses abriram fogo.",
+   "s": 27.02,
+   "e": 28.745
+  },
+  {
+   "text": "O pal\u00e1cio pegou fogo,",
+   "s": 29.613,
+   "e": 30.793
+  },
+  {
+   "text": "a artilharia do sult\u00e3o foi calada,",
+   "s": 30.995,
+   "e": 32.589
+  },
+  {
+   "text": "e a bandeira dele caiu.",
+   "s": 32.877,
+   "e": 34.033
+  },
+  {
+   "text": "O sult\u00e3o foi pedir abrigo no consulado da Alemanha.",
+   "s": 34.88,
+   "e": 37.334
+  },
+  {
+   "text": "Por volta das nove e quarenta,",
+   "s": 38.228,
+   "e": 39.701
+  },
+  {
+   "text": "a bandeira do pal\u00e1cio caiu.",
+   "s": 39.901,
+   "e": 41.217
+  },
+  {
+   "text": "Os ingleses colocaram outro sult\u00e3o no trono,",
+   "s": 42.072,
+   "e": 44.217
+  },
+  {
+   "text": "e os aliados do primo pagaram pelas balas.",
+   "s": 44.492,
+   "e": 46.634
+  },
+  {
+   "text": "E ainda mandaram a conta das balas.",
+   "s": 47.498,
+   "e": 49.373
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 50.225,
+   "e": 51.669
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 51.962,
+   "e": 53.724
+  }
+ ]
+}

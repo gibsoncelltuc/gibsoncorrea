@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@106
-- Efeito + som nas palavras-chave: encena: espeta (punch) @9 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@106, stars@110
 - Texto na tela: 1 FERIDO: CANIVETADA
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito; encena: chega (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 23 ANOS
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; chegaram -> dust + som de impacto; encena: fala (point) @1 -> acao + som de efeito; encena: chega (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; chegaram -> dust + som de impacto; encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@60, thump@55
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: espeta (punch) @8 -> acao + som de efeito; encena: golpe (punch) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: espeta (punch) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@60, burst@55
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; encena: fala (point) @2 -> acao + som de efeito; encena: x_entrega (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ACORDO
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: paga (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fortuna -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: COBRE E FERRO
 - Funcao na historia: VIRADA

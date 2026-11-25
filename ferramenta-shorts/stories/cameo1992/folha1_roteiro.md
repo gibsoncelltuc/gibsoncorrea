@@ -2,23 +2,23 @@
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 165 palavras (~57 s)
 
-## Cena b0  (~7.6 s)
-- Narracao: Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.
+## Cena b0  (~4.8 s)
+- Narracao: Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: NOVA YORK
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.9 s)
-- Narracao: Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.
+## Cena b1  (~9.7 s)
+- Narracao: Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Texto na tela: O HOMEM É TRUMP
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~2.4 s)
 - Narracao: A cena dura cerca de sete segundos.
@@ -26,8 +26,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@30
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Texto na tela: 7 SEGUNDOS
+- Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.8 s)
 - Narracao: Acontece que aquele hotel, o Plaza, pertencia a Trump na época.
@@ -53,8 +53,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@30
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Texto na tela: O PREÇO DO HOTEL
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~5.5 s)
 - Narracao: Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.
@@ -81,7 +81,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: discussão -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~5.2 s)
 - Narracao: Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.

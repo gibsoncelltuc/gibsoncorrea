@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | medieval | group | 1 | reagir | goose | - | -
 b1 | loc_campo | reveal | 9 | encena | kit/fire | torch | -
-b2 | mountain | wide | 1 | reagir | buildings/castle_tower | - | -
-b3 | mountain | crowd | 8 | encena, batalha | - | - | -
-b4 | loc_campo | wide | 1 | parados (so fala e pisca) | buildings/castle_tower | - | -
+b2 | loc_montanha | wide | 1 | reagir | buildings/castle_tower | - | -
+b3 | loc_montanha | orbit | 8 | encena, batalha | - | - | -
+b4 | loc_campo | wide | 1 | encena | buildings/castle_tower | - | -
 b5 | loc_campo | wide | 1 | reagir | goose | - | -
 b6 | loc_campo | two | 2 | conversar, INTERAGEM: cochichar | buildings/castle_tower | - | -
 b7 | loc_campo | two | 2 | tomba, INTERAGEM: o outro se aproxima | - | - | -
 b8 | interior madeira | two | 2 | encena, INTERAGEM: entregar | - | coin, coin | -
-b9 | medieval | group | 1 | encena | goose | - | -
+b9 | medieval | group | 0 | parados (so fala e pisca) | goose | - | -
 b10 | medieval | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)

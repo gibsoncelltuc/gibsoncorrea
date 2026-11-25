@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 163 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 169 palavras (~58 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.
 - Som ambiente: birds
 - Efeitos sonoros marcados: steps@10
-- Efeito + som nas palavras-chave: encena: pula @2 -> acao + som de efeito; encena: sai @6 -> acao + som de efeito; encena: corre @7 -> acao + som de efeito; encena: grita (up) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: corre @7 -> acao + som de efeito; encena: grita (up) @10 -> acao + som de efeito
 - Efeito visual marcado: dust@20
 - Texto na tela: EUREKA
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito; ouro -> stars + som de sino; encena: fala (point) @3 -> acao + som de efeito; encena: paga (reach) @8 -> acao + som de efeito; encena: pensa (think) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito; ouro -> stars + som de sino; encena: olha (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Será que trocou parte do ouro por prata?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: x_entrega (reach) @2 -> acao + som de efeito; encena: paga (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.8 s)
-- Narracao: Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.
+## Cena b5  (~6.9 s)
+- Narracao: Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@50, ding@70
-- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: transbordou -> splash + som de efeito; encena: senta @5 -> acao + som de efeito
 - Efeito visual marcado: ring@50, stars@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: examina (think) @3 -> acao + som de efeito; encena: paga (reach) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: pega (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

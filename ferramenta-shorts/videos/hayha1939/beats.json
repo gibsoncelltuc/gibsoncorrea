@@ -35,7 +35,6 @@
     "FIN:3:stern",
     "SOV:0:shock"
    ],
-   "text": "1939",
    "tat": 0,
    "tstyle": "red",
    "mood": "march",
@@ -46,7 +45,16 @@
    "lados": [
     "FIN",
     "SOV"
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "soldado"
+     }
+    ]
+   }
   },
   {
    "say": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
@@ -54,9 +62,26 @@
    "set": "arctic",
    "mapa": "FINLÂNDIA",
    "who": [
-    "FIN:0:stern",
-    "FIN:1:nervous"
-   ]
+    "SOV:0:stern",
+    "SOV:1:angry"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "SOV"
+    ],
+    "march": true
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "invadiu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
@@ -86,6 +111,15 @@
      "un": "°C",
      "na": "quarenta"
     }
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "neve"
+     }
+    ]
    }
   },
   {
@@ -95,11 +129,21 @@
     "FIN:3:smile"
    ],
    "text": "SIMO HÄYHÄ",
-   "tat": 8,
-   "tstyle": "blue",
    "props": [],
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "quadro_manual": true,
+   "d0": 5.0,
+   "d1": 4.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Häyhä"
+     }
+    ]
+   }
   },
   {
    "say": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
@@ -109,7 +153,17 @@
    ],
    "mood": "tense",
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_espera",
+      "na": "esperava",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
@@ -118,11 +172,21 @@
     "FIN:3:neutral"
    ],
    "text": "NEVE NA BOCA",
-   "tat": 5,
-   "tstyle": "white",
    "props": [],
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "quadro_manual": true,
+   "d0": 5.0,
+   "d1": 4.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "neve"
+     }
+    ]
+   }
   },
   {
    "say": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
@@ -136,7 +200,18 @@
    "tstyle": "gold",
    "props": [],
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "abatidos",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "say": "Os soviéticos passaram a chamá-lo de Morte Branca.",
@@ -148,7 +223,18 @@
    "tat": 8,
    "tstyle": "red",
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamá-lo",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "say": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
@@ -158,7 +244,18 @@
     "FIN:1:nervous"
    ],
    "mood": "calm",
-   "interior": "hospital"
+   "interior": "hospital",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "tomba",
+      "na": "atingiu",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "say": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
@@ -171,7 +268,16 @@
    "tstyle": "white",
    "light": "golden",
    "mood": "calm",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "herói"
+     }
+    ]
+   }
   }
  ],
  "heroi": null,

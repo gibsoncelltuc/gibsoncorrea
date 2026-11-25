@@ -6,16 +6,26 @@
    "tipo": "tema",
    "item": "A Guerra do Futebol",
    "consultas": [
+    "Football War 1969 Honduras El Salvador",
     "A Guerra do Futebol",
-    "Dois Era Honduras El Salvador Aí Copa Mundo Três 1969"
+    "Dois Em Honduras El Salvador Aí Copa Mundo 1969"
    ]
   },
   {
    "tipo": "lugar",
-   "item": "América Central",
+   "item": "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic",
    "consultas": [
-    "América Central 1969",
-    "América Central landscape"
+    "Estadio Nacional Tegucigalpa 1969",
+    "Estadios de Tegucigalpa",
+    "Estadios de Tegucigalpa Honduras San Salvador El Salvador e Cidade do Mexico e a fronteira"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Honduras",
+   "consultas": [
+    "Honduras 1969",
+    "Honduras landscape"
    ]
   },
   {
@@ -27,10 +37,74 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "torcedores e jogadores de Honduras (camisa azul)",
+   "consultas": [
+    "torcedores e jogadores de Honduras camisa azul",
+    "torcedores e jogadores de Honduras camisa azul 1969"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "torcedores e jogadores de El Salvador (camisa branca e azul)",
+   "consultas": [
+    "torcedores e jogadores de El Salvador camisa branca e azul",
+    "torcedores e jogadores de El Salvador camisa branca e azul 1969"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "diplomatas de terno",
+   "consultas": [
+    "diplomatas de terno",
+    "diplomatas de terno 1969"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados salvadorenhos de uniforme verde",
+   "consultas": [
+    "soldados salvadorenhos de uniforme verde",
+    "soldados salvadorenhos de uniforme verde 1969"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bola de futebol",
+   "consultas": [
+    "bola de futebol",
+    "bola de futebol 1969"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "trave",
+   "consultas": [
+    "trave",
+    "trave 1969"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "aviao de combate",
+   "consultas": [
+    "aviao de combate",
+    "aviao de combate 1969"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "panela",
+   "consultas": [
+    "panela",
+    "panela 1969"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "ball",
    "consultas": [
-    "ball",
+    "bola de futebol",
     "A Guerra do Futebol"
    ]
   },
@@ -43,10 +117,10 @@
   },
   {
    "tipo": "epoca",
-   "item": "tanque da epoca",
+   "item": "exercito da epoca",
    "consultas": [
-    "tank 1969",
-    "tank"
+    "army 1969",
+    "army"
    ]
   }
  ]

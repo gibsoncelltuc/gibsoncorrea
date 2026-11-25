@@ -129,9 +129,11 @@ cannon | b6 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 4 | mistura: close 19% | medio 53% | aberto 26% | detalhe 2%
 - Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b8 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bolos1838  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bolos1838/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).

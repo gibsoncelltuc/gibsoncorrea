@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): FRA (variante 0, expressao grin)
+- Personagens principais (1): FRA (variante 0, expressao grin) | multidao: 12 de FRA
 - Animacao: -
 - Objetos/modelos: ship, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, frota, navios
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): NED (variante 2, expressao pained)
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, lugar, navios
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral)
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cascos, cavalos, gelo, hussardos, janeiro, panos, vinte
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 10 de NED
-- Animacao: reagir | interacao: avanca e o outro recua | batalha encenada
+- Animacao: reagir | interacao: avanca e o outro recua | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota, holandeses
 - RISCOS: nenhum
@@ -95,9 +95,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b9 - Mais de uma dezena de navios de guerra, capturados por soldados a cava...
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 0 de FRA
-- Animacao: - | batalha encenada
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 12 de FRA
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: ship, horse_sela
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, marinha, navios
 - RISCOS: nenhum
@@ -125,9 +125,11 @@ horse_sela | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b7, b8, b9 | planos abertos: 5 | mistura: close 20% | medio 45% | aberto 35% | detalhe 0%
 - Interacoes: b4 tremem de frio, b5 aproxima-se, b8 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh texel1795 bN bM` (so essas cenas).

@@ -69,7 +69,16 @@
      2.6
     ]
    ],
-   "detalhe": true
+   "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balde"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -79,8 +88,19 @@
    ],
    "mapa": "ITÁLIA",
    "mapa_at": 6,
-   "say": "Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o imperador como patrono, Bolonha tinha o papa.",
-   "tiros": false
+   "say": "Módena e Bolonha disputavam a fronteira havia décadas.",
+   "tiros": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_discute",
+      "na": "disputavam",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -99,7 +119,17 @@
    "titulo": true,
    "tiros": false,
    "say": "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "marchou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -116,8 +146,17 @@
     "march": false,
     "poucos": true
    },
-   "say": "Módena tinha menos de oito mil homens, entre cavaleiros e soldados a pé, e parecia perdida.",
-   "set": "loc_campo"
+   "say": "Módena tinha menos de oito mil homens, e parecia perdida.",
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "homens"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -140,7 +179,17 @@
     "corre"
    ],
    "say": "Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corre",
+      "na": "fugiu",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -180,7 +229,21 @@
      1.2
     ]
    ],
-   "text": "MUROS DE BOLONHA"
+   "text": "MUROS DE BOLONHA",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "morre",
+      "na": "Morreram"
+     },
+     {
+      "faz": "chega",
+      "na": "chegaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -199,7 +262,22 @@
    },
    "batalha": false,
    "say": "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "festa",
+      "quem": 0
+     },
+     {
+      "faz": "x_ri",
+      "na": "zombar",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -244,7 +322,17 @@
    "set": "medieval",
    "fachada": false,
    "shot_lock": true,
-   "acao": "pega"
+   "acao": "pega",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "levaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -270,7 +358,16 @@
    "set": "medieval",
    "fachada": false,
    "shot_lock": true,
-   "text": "TORRE GHIRLANDINA"
+   "text": "TORRE GHIRLANDINA",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balde"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -280,7 +377,16 @@
    ],
    "interior": "madeira",
    "tiros": false,
-   "say": "Um poeta italiano transformou a história numa sátira famosa, escrita por volta de mil seiscentos e quinze."
+   "say": "Séculos depois, um poeta transformou a história numa sátira famosa.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "poeta"
+     }
+    ]
+   }
   }
  ],
  "min_momentos": 1,

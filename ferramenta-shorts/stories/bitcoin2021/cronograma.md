@@ -1,30 +1,31 @@
 # CRONOGRAMA - Poder e Fama EP 09 - O País do Bitcoin
 
-Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 00:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | BUK, POV | - | bitcoin, volcano | - | Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feit
-b1 | simples | loc_cidade | reveal | BUK | 8 | volcano | - | O país era El Salvador, na América Central, e a ideia foi do president
-b2 | simples | interior pedra | group | DEP, BUK, CLI | - | bitcoin | - | A lei foi aprovada pelo congresso em junho daquele ano.
-b3 | chave | loc_pista | crowd | BUK, POV | 8 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E passou a valer em sete de setembro de dois mil e vinte e um.
-b4 | simples | loc_pista | two | CLI, POV | - | bitcoin, stall | - | Com isso, dava para pagar as compras com bitcoin.
-b5 | simples | loc_pista | close | CLI | - | - | - | O governo lançou até uma carteira digital, chamada Chivo.
-b6 | chave | loc_pista | orbit | CLI, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de ace
-b7 | transicao | loc_patio | orbit | BUK, DEP | 6 | globe, volcano | - | Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa 
-b8 | simples | loc_patio | group | BUK, POV, CLI | - | bitcoin, coin | - | Uma moeda digital, uma lei nova e um país no centro das atenções.
-b9 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | two | BUK, POV | 12 | bitcoin, volcano | - | Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não e
+b1 | simples | loc_cidade | wide | BUK | - | volcano | - | Foi em El Salvador, na América Central, e a ideia foi do presidente Na
+b2 | simples | loc_cidade | group | DEP, DEP, BUK | 10 | bitcoin | - | Ele anunciou o projeto em junho de dois mil e vinte e um, e o congress
+b3 | chave | loc_pista | reveal | BUK, POV | 8 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A lei passou a valer em sete de setembro, e o país foi o primeiro do m
+b4 | simples | loc_pista | two | CLI, POV | 12 | bitcoin, stall | - | Para convencer o povo, o governo prometeu trinta dólares em bitcoin a 
+b5 | chave | loc_pista | wide | CLI | - | phone, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas
+b6 | simples | loc_pista | two | CLI, POV | - | - | - | Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e o
+b7 | simples | interior pedra | two | BUK, DEP | - | bitcoin, coin | - | O governo também comprou bitcoins com dinheiro público, e o preço da m
+b8 | simples | loc_patio | orbit | BUK, DEP | 6 | bitcoin, coin, globe, volcano | - | Mesmo assim, a moeda digital virou assunto no mundo inteiro.
+b9 | simples | loc_patio | group | BUK, POV, CLI | - | bitcoin, coin | - | Uma moeda digital, uma lei nova e um país no centro das atenções.
+b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py bitcoin2021
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py bitcoin2021
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

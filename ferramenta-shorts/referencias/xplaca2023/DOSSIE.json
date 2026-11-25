@@ -8,6 +8,7 @@
   "luz_base": "golden",
   "cenarios": [
    "interior loja",
+   "interior madeira",
    "interior pedra",
    "loc_cidade",
    "loc_patio"
@@ -15,11 +16,6 @@
   "cenarios_trocados": [
    [
     "video",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 1",
     "street",
     "loc_cidade"
    ],
@@ -39,19 +35,14 @@
     "loc_cidade"
    ],
    [
-    "cena 9",
+    "cena 7",
     "street",
     "loc_cidade"
    ],
    [
     "cena 10",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 11",
-    "harbor",
-    "loc_patio"
+    "street",
+    "loc_cidade"
    ]
   ]
  },
@@ -78,13 +69,16 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/apartment",
+  "buildings/house_small",
   "buildings/house_two",
   "kit/finch",
+  "kit/lupa",
   "kit/marco_goldengate",
   "kit/phone",
   "kit/room_azul_shop",
   "kit/room_eua_stone",
   "kit/room_europa_shop",
+  "kit/room_rosa_wood",
   "kit/room_verde_stone",
   "mk/Bookcase_2",
   "mk/Chair_1",
@@ -96,21 +90,46 @@
   "mk/Vase_2",
   "mk/Workbench_Drawers",
   "nature/bench",
-  "nature/lamppost"
+  "nature/lamppost",
+  "nature/picket_fence",
+  "nature/tree_oak"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco com a placa na fachada",
+  "quando": "24 a 31 de julho de 2023, dia e noite",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "operarios com guindaste e capacete",
+   "fiscais da prefeitura",
+   "policiais"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "OPE": "capacete amarelo e colete laranja",
+   "OPE2": "capacete branco e colete",
+   "FIS": "camisa social com cracha da prefeitura"
+  },
+  "cenario": "fachada de predio antigo de Sao Francisco com letras TWITTER e passaro azul, guindaste, depois um X luminoso branco piscando no telhado a noite",
+  "objetos": [
+   "placa com letras",
+   "passaro azul",
+   "X luminoso",
+   "guindaste"
+  ],
+  "explicacoes": [
+   "Em 24/7/2023 o Twitter virou X; a remocao das letras foi interrompida pela policia por falta de licenca (sobraram \"er\"); o X luminoso no telhado gerou 24 reclamacoes e investigacao da prefeitura e foi retirado em 31/7 (fonte: Wikipedia Rebranding of Twitter as X)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Twitter_under_Elon_Musk"
+  ],
+  "buscas": {
+   "placa": "X sign Twitter headquarters San Francisco July 2023"
+  }
+ },
  "fontes": [
   "https://english.alarabiya.net/News/world/2023/08/01/-X-sign-removed-from-San-Francisco-building-that-was-Twitter-s-headquarters",
   "https://www.thewrap.com/x-headquarters-loses-sign/",
   "https://www.ktvu.com/news/confusion-during-removal-of-twitter-sign-from-san-francisco-headquarters"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

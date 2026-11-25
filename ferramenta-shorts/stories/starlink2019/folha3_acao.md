@@ -1,23 +1,25 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 04 - A Fila de Luzes no Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
-> "Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | decolou (3.3s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b1 - 7.8s a 14.1s - 18 palavras - plano reveal
-> "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial."
+## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
+> "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | FLÓRIDA | OK |
+| 1 | cruzou (1.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | OVNI? | OK |
+
+## Cena b1 - 5.6s a 14.1s - 24 palavras - plano reveal
+> "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b2 - 14.4s a 18.9s - 13 palavras - plano two
 > "Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu."
@@ -28,17 +30,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 19.3s a 24.1s - 14 palavras - plano group
+## Cena b3 - 19.3s a 24.1s - 14 palavras - plano wide
 > "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | registrou (19.6s) | ACAO: escreve | escreve/assina | OK |
 | 2 | levava (21.9s) | ACAO: pega | levanta/segura | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | 3 MINUTOS | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | 3 MINUTOS | OK |
 
 ## Cena b4 - 24.4s a 28.1s - 11 palavras - plano wide
 > "Ele viu pelo menos cinquenta e seis objetos brilhando em linha."
@@ -55,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | registrou (31.9s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 34.4s a 38.5s - 12 palavras - plano two
@@ -73,10 +74,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 43.0s a 48.5s - 16 palavras - plano group
+## Cena b8 - 43.0s a 48.5s - 16 palavras - plano reveal
 > "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -90,7 +90,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | olhar (50.4s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 57.0s a 61.5s - 13 palavras - plano close

@@ -8,14 +8,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: 1900
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
 - Narracao: Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@70
-- Efeito + som nas palavras-chave: Ouro -> stars + som de sino; encena: fala (point) @7 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: Ouro -> stars + som de sino
 - Efeito visual marcado: puff@70
 - Texto na tela: - | mapa: GANA
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; marcharam -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: x_entrega (reach) @4 -> acao + som de efeito; encena: prende (push) @7 -> acao + som de efeito; encena: chega (point) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; marcharam -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

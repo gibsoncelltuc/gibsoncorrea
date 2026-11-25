@@ -47,7 +47,82 @@
    "who": [
     "FLE:0:smile:book",
     "COL:0:surprised"
-   ]
+   ],
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/bancada",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/petri",
+     0.0,
+     -1.2,
+     0.8,
+     {
+      "nocol": true,
+      "y": 0.95,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     -1.6,
+     0.8,
+     0.57,
+     {
+      "nocol": true,
+      "y": 1.0,
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mofo"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "say": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
@@ -65,7 +140,17 @@
     "march": false
    },
    "mapa": "INGLATERRA",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "set": "street",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Londres"
+     }
+    ]
+   }
   },
   {
    "say": "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.",
@@ -77,50 +162,84 @@
    ],
    "acao": "conversar",
    "detalhe": false,
-   "explica": false
+   "explica": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "estudava",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Um dia, ele saiu de férias por um mês e não limpou nada.",
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "FLE:0:grin:bag",
     "COL:0:shock"
    ],
-   "chega": true
+   "chega": true,
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "sai",
+      "na": "saiu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
    "shot": "two",
-   "interior": "madeira",
+   "interior": "pedra",
    "who": [
     "COL:0:smug",
     "FLE:0:angry"
    ],
    "interacao": "discutir",
-   "detalhe": false,
+   "detalhe": true,
    "props": [
+    [
+     "kit/bancada",
+     3.6,
+     -2.0,
+     1.5,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
     [
      "kit/petri",
      0.0,
      -1.2,
-     1.9,
+     0.8,
      {
+      "nocol": true,
+      "y": 0.95,
       "fixo": true
      }
     ],
     [
      "kit/gosma",
-     3.6,
-     -2.0,
-     0.9,
+     -1.6,
+     0.8,
+     0.57,
      {
+      "nocol": true,
+      "y": 1.0,
       "fixo": true
      }
     ]
    ],
    "quadro": {
-    "local": "sala de madeira",
+    "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -130,13 +249,35 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/gosma",
+      "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "voltou",
+      "quem": 1
+     },
+     {
+      "faz": "olha",
+      "na": "achou",
+      "quem": 1
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -144,33 +285,47 @@
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "FLE:0:suspicious"
    ],
    "props": [
     [
+     "kit/bancada",
+     3.6,
+     -2.0,
+     2.0,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
      "kit/petri",
      2.4,
      0.2,
-     1.9,
+     0.8,
      {
+      "nocol": true,
+      "y": 0.95,
       "fixo": true
      }
     ],
     [
      "kit/gosma",
-     3.6,
-     -2.0,
-     0.9,
+     0.0,
+     1.4,
+     2.0,
      {
+      "nocol": true,
+      "y": 1.0,
       "fixo": true
      }
     ]
    ],
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/petri",
@@ -179,36 +334,49 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/gosma",
+      "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "MEIO, esquerda",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "interior": "pedra",
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "olhou",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "group",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 3
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
-   "shot": "orbit",
-   "set": "hall",
+   "shot": "wide",
    "who": [
     "FLE:0:shock",
     "COL:0:surprised"
    ],
-   "impact": true,
+   "impact": false,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "MED",
-     "COL"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "fx": [
     "ring@40",
@@ -217,7 +385,84 @@
    "sfx": [
     "ding@40",
     "sting@60"
-   ]
+   ],
+   "interior": "pedra",
+   "props": [
+    [
+     "kit/bancada",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/petri",
+     0.0,
+     1.4,
+     2.0,
+     {
+      "nocol": true,
+      "y": 0.95,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     -1.6,
+     0.8,
+     0.57,
+     {
+      "nocol": true,
+      "y": 1.0,
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "text": "BACTÉRIAS SUMIRAM",
+   "explica": false,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mofo"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
@@ -236,6 +481,15 @@
      "PENICILINA",
      "BACTÉRIA MORRE"
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "penicilina"
+     }
+    ]
    }
   },
   {
@@ -246,7 +500,17 @@
     "MED:1:grin",
     "POV:0:relief"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "remédio"
+     }
+    ]
+   }
   },
   {
    "say": "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.",
@@ -277,14 +541,34 @@
     "ding@30",
     "sting@70"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "ganhou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "No fim, a bagunça dele valeu mais que qualquer faxina.",
    "shot": "close",
    "who": [
     "FLE:0:smug"
-   ]
+   ],
+   "interior": "madeira",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bagunça"
+     }
+    ]
+   }
   }
  ],
  "visual": {
@@ -314,5 +598,6 @@
   "explicacoes": [
    "Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929"
   ]
- }
+ },
+ "max_wide": 3
 }

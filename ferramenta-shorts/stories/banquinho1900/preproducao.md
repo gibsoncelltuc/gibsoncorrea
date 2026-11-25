@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | - | -
 b1 | jungle | reveal | 32 | encena | - | - | -
-b2 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
+b2 | countryside | two | 14 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | kit/golden_stool | paper | -
 b4 | countryside | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b5 | countryside | crowd | 11 | encena, batalha | kit/forte_colonial | - | -

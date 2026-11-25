@@ -71,20 +71,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "chocolate"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos, e o engenheiro Percy Spencer trabalhava numa fábrica de radares.",
@@ -192,7 +183,7 @@
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "SPE:0:laugh"
    ],
@@ -221,9 +212,14 @@
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/popcorn",
@@ -232,23 +228,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "examina",
-      "na": "testou",
-      "quem": 0
-     }
-    ]
-   },
-   "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
@@ -270,12 +250,17 @@
      "kit/egg",
      2.4,
      0.2,
-     1.5,
+     1.2,
      {
       "fixo": true
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)",
@@ -287,23 +272,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "examina",
-      "na": "testou",
-      "quem": 0
-     }
-    ]
-   },
-   "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -336,26 +305,18 @@
      }
     ]
    },
-   "_enq_shot": "group",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "forno"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "group"
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "POV:0:smile"
+    "POV:0:smile",
+    "POV:1:grin"
    ],
    "impact": true,
    "tiros": false,
@@ -376,41 +337,31 @@
    "props": [
     [
      "kit/microwave",
-     2.4,
-     0.2,
-     1.5,
+     0.0,
+     -1.2,
+     1.0,
      {
       "fixo": true
      }
     ]
    ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/microwave",
-      "lugar": "MEIO, direita (objeto principal da cena)",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
-   "detalhe": false,
-   "_enq_shot": "group",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "cozinha"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",
@@ -463,6 +414,5 @@
    "forno": "Raytheon Radarange 1947",
    "lab": "Raytheon magnetron laboratory 1940s"
   }
- },
- "max_wide": 3
+ }
 }

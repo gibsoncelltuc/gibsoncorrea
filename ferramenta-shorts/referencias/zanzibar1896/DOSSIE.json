@@ -9,17 +9,12 @@
   "cenarios": [
    "harbor",
    "interior loja",
+   "interior madeira",
    "interior pedra",
    "loc_campo",
-   "palace"
+   "loc_estudio"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 10",
-    "medieval",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -35,13 +30,14 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
-  "buildings/lighthouse",
+  "buildings/shop",
   "cannon",
+  "kit/forte_colonial",
   "kit/marco_zanzibar",
+  "kit/navio_vapor",
   "kit/navio_vapor_guerra",
   "kit/room_azul_stone",
-  "kit/room_europa_stone",
+  "kit/room_europa_wood",
   "kit/room_rosa_shop",
   "kit/room_verde_stone",
   "kit/throne",
@@ -59,19 +55,61 @@
   "mk/Table_Large",
   "mk/Vase_2",
   "mk/Workbench_Drawers",
-  "nature/bench",
-  "nature/lamppost",
   "war/flagpole"
  ],
- "pesquisa_visual": {},
- "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "pesquisa_visual": {
+  "local": "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses",
+  "quando": "27 de agosto de 1896, manha, entre 9h00 e 9h40",
+  "participantes": [
+   "sultao Khalid bin Barghash e guardas zanzibaris",
+   "oficiais e marinheiros da Marinha Real britanica",
+   "consul britanico Basil Cave",
+   "consul da Alemanha"
+  ],
+  "roupas": {
+   "SUL": "tunica branca, turbante e capa de sultao",
+   "GUA": "guarda zanzibari de camisa clara e turbante",
+   "ING": "marinheiro britanico de farda branca e azul",
+   "ALM": "diplomata alemao de terno claro"
+  },
+  "cenario": "palacio de madeira do sultao em Stone Town, porto com cruzadores e canhoneiras britanicas, 1896",
+  "objetos": [
+   "navio de guerra britanico",
+   "canhao antigo",
+   "bandeira do sultao",
+   "palacio de madeira em chamas"
+  ],
+  "explicacoes": [
+   "O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Guerra Anglo-Zanzibar (27/8/1896): navios da Royal Navy bombardearam o palacio do sultao Khalid a partir das 9h02; o palacio pegou fogo, a artilharia foi silenciada e a bandeira derrubada; cessar-fogo por volta das 9h40 (fonte: Wikipedia, Anglo-Zanzibar War)."
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+   "https://commons.wikimedia.org/wiki/Category:Anglo-Zanzibar_War"
+  ],
+  "buscas": {
+   "A Guerra de 38 Minutos": "Anglo-Zanzibar War 1896 Stone Town palace bombardment",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "Stone Town Zanzibar sultan palace 1896"
+  },
+  "referencias": {
+   "A Guerra de 38 Minutos": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "Zanzibar": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "roupas e ruas de 1896": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "sultao Khalid bin Barghash e guardas zanzibaris": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "oficiais e marinheiros da Marinha Real britanica": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "consul britanico Basil Cave": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "consul da Alemanha": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "navio de guerra britanico": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "canhao antigo": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "bandeira do sultao": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "palacio de madeira em chamas": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "navio da epoca": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+ ],
+ "falta": []
 }

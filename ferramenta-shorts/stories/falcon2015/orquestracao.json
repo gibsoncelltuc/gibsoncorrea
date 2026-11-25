@@ -63,7 +63,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "ENG"
    ],
@@ -74,14 +74,20 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
@@ -117,7 +123,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "ENG"
    ],
@@ -135,7 +141,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "ENG"
    ],
@@ -146,15 +152,9 @@
    "palavras": 9,
    "cena": "b7",
    "frase": "E pousou inteira, abrindo as pernas no último segundo.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -176,7 +176,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -187,7 +187,7 @@
    "palavras": 16,
    "cena": "b9",
    "frase": "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -200,7 +200,9 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/falcon9_land"
+   ],
    "palavras": 6,
    "cena": "b10",
    "frase": "Hoje, pousar de ré virou rotina.",

@@ -89,20 +89,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "cachorro"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -120,17 +111,7 @@
    "impact": false,
    "shot_lock": true,
    "mapa": "SUÍÇA",
-   "mapa_at": 3,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "chega",
-      "na": "voltou",
-      "quem": 0
-     }
-    ]
-   }
+   "mapa_at": 3
   },
   {
    "shot": "two",
@@ -149,7 +130,7 @@
      "kit/burr",
      2.4,
      0.2,
-     1.5,
+     1.0,
      {
       "fixo": true
      }
@@ -178,20 +159,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "carrapichos"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -239,26 +211,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "pega",
-      "na": "levou",
-      "quem": 0
-     },
-     {
-      "faz": "olha",
-      "na": "olhou",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -298,20 +255,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "ganchinho"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "low",
@@ -349,21 +297,11 @@
      }
     ]
    },
-   "_enq_shot": "low",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "pensa",
-      "na": "pensou",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "low"
   },
   {
    "shot": "crowd",
@@ -378,17 +316,7 @@
    "crowd": {
     "n": 0
    },
-   "_susp_ok": true,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_ri",
-      "na": "riram",
-      "quem": 0
-     }
-    ]
-   }
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -403,7 +331,7 @@
      "kit/burr",
      0.0,
      -1.2,
-     1.5,
+     1.0,
      {
       "fixo": true
      }
@@ -428,23 +356,14 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "náilon"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "AST:0:laugh"
    ],
@@ -453,7 +372,7 @@
      "kit/burr",
      2.4,
      0.2,
-     2.0,
+     1.0,
      {
       "fixo": true
      }
@@ -491,7 +410,7 @@
    "set": "arctic",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/burr",
@@ -513,24 +432,11 @@
      }
     ]
    },
-   "detalhe": true,
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "astronautas"
-     }
-    ]
-   },
-   "crowd": {
-    "n": 0
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -568,20 +474,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "tênis"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "max_wide": 3,

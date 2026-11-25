@@ -31,8 +31,11 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/house_small",
   "buildings/house_two",
   "kit/apple",
+  "kit/gosma",
+  "kit/panela",
   "kit/room_europa_wood",
   "kit/room_verde_wood",
   "mk/Barrel",

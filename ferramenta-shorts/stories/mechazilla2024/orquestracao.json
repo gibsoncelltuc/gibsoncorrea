@@ -3,70 +3,20 @@
  "ano": 2024,
  "cenarios_trocados": [
   [
-   "video",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 1",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 3",
-   "outback",
-   "loc_deserto"
-  ],
-  [
    "cena 4",
    "outback",
    "loc_deserto"
   ],
   [
-   "cena 5",
+   "cena 10",
    "outback",
    "loc_deserto"
-  ],
-  [
-   "cena 6",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 7",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 8",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 9",
-   "outback",
-   "loc_deserto"
-  ],
-  [
-   "cena 11",
-   "outback",
-   "loc_deserto"
-  ],
-  [
-   "cena 12",
-   "harbor",
-   "loc_patio"
-  ],
-  [
-   "cena 13",
-   "harbor",
-   "loc_patio"
   ]
  ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -82,9 +32,9 @@
     "kit/tower_catch",
     "kit/tower_mini"
    ],
-   "palavras": 18,
+   "palavras": 15,
    "cena": "b0",
-   "frase": "Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.",
+   "frase": "Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -108,94 +58,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "ENG",
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/booster_air"
-   ],
-   "palavras": 19,
-   "cena": "b2",
-   "frase": "Normalmente, a parte de baixo de um foguete é descartada, ou pousa sobre pernas. Isso custa caro, e pesa.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "MUS",
-    "ENA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tower"
-   ],
-   "palavras": 21,
-   "cena": "b3",
-   "frase": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.",
-   "classe": "explicativa",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "ENA",
-    "ENG"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tower",
-    "kit/tower_catch"
-   ],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "ENG",
-    "ENA",
-    "MUS"
-   ],
-   "multidao": 18,
-   "objetos": [
-    "kit/booster_air"
-   ],
-   "palavras": 18,
-   "cena": "b5",
-   "frase": "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_patio"
-  },
-  {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "ENG"
    ],
@@ -204,49 +70,50 @@
     "kit/booster_air",
     "kit/tower"
    ],
-   "palavras": 14,
-   "cena": "b6",
-   "frase": "Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.",
+   "palavras": 18,
+   "cena": "b2",
+   "frase": "Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre pernas, que pesam e custam caro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_deserto"
   },
   {
-   "camera": "low",
-   "personagens": [
-    "ENA",
-    "MUS"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/tower_catch"
+    "kit/tower"
    ],
-   "palavras": 15,
-   "cena": "b7",
-   "frase": "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "palavras": 19,
+   "cena": "b3",
+   "frase": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre agarrar o propulsor na volta.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/tower_catch (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_deserto"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
-    "ENG",
-    "ENA",
-    "MUS"
+    "ENA"
    ],
-   "multidao": 20,
+   "multidao": 0,
    "objetos": [
     "kit/tower",
     "kit/tower_catch"
    ],
-   "palavras": 15,
-   "cena": "b8",
-   "frase": "Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história.",
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -257,41 +124,109 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "MUS",
-    "ENG"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b9",
-   "frase": "Musk comemorou nas redes sociais: a torre tinha pegado o foguete.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior True"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "ENA",
     "ENG"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tower_catch"
+    "kit/booster_air"
    ],
-   "palavras": 16,
-   "cena": "b10",
-   "frase": "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.",
-   "classe": "explicativa",
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/booster_air",
+    "kit/tower"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Minutos depois, ele voltou descendo de ré, direto na direção da torre.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower",
+    "kit/tower_catch"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENG",
+    "ENG"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/tower",
+    "kit/tower_catch"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Os engenheiros comemoraram: era a primeira vez na história.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower_catch"
+   ],
+   "palavras": 15,
+   "cena": "b9",
+   "frase": "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias vezes.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/booster_air (sobe)",
+    "emissao": "fogo",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "loc_deserto"
   },
@@ -305,14 +240,14 @@
     "kit/tower_catch",
     "kit/tower_mini"
    ],
-   "palavras": 17,
-   "cena": "b11",
-   "frase": "E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.",
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "Parece filme de robô gigante, mas é engenharia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_deserto"
   },
   {
    "camera": "two",
@@ -322,13 +257,13 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_deserto"
   }
  ]
 }

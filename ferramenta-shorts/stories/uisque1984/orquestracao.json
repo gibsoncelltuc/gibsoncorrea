@@ -67,7 +67,7 @@
    "personagens": [
     "CAN"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "vehicles/helicopter"
    ],
@@ -209,7 +209,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
     "CAN"
    ],
@@ -227,7 +227,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "CAN"
    ],

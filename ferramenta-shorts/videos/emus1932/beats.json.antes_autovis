@@ -70,7 +70,7 @@
    "fachada": false
   },
   {
-   "say": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as plantações de trigo no oeste do país.",
+   "say": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país.",
    "shot": "group",
    "who": [
     "FARM:0:shock:pitchfork",
@@ -98,8 +98,14 @@
     "AUS:0:stern"
    ],
    "interior": "madeira",
-   "say": "Fazendeiros veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
-   "fachada": false
+   "say": "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
+   "fachada": false,
+   "kw": false,
+   "encena": false,
+   "sfx": [
+    "ding@20"
+   ],
+   "riscos_ok": true
   },
   {
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
@@ -111,8 +117,8 @@
    "props": [
     [
      "mgun",
-     -0.9,
-     1.0,
+     0.0,
+     -1.2,
      1.4,
      {
       "fixo": true
@@ -120,8 +126,8 @@
     ],
     [
      "mgun",
-     0.9,
-     1.0,
+     3.6,
+     -2.0,
      1.4,
      {
       "fixo": true
@@ -143,26 +149,40 @@
    "tiros": false,
    "detalhe": false,
    "fachada": false,
-   "_auto_vis": 3
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mgun juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "mgun",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "mgun",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "SOL:0:stern"
+    "SOL:0:angry",
+    "SOL:1:stern"
    ],
-   "emus": {
-    "n": 10,
-    "mode": "run",
-    "x": 4.5,
-    "z": -2.0,
-    "dir": -1
-   },
    "batalha": false,
-   "caminhoes": 2,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
+   "_auto_vis": 0,
    "fachada": false,
    "fx": [
     "dust@20",
@@ -175,7 +195,50 @@
     "thump@40",
     "thump@60"
    ],
-   "tiros": false
+   "tiros": false,
+   "acoes": [
+    {
+     "palavra": "balas",
+     "tipo": "atira",
+     "quem": 0
+    },
+    {
+     "palavra": "poeira",
+     "tipo": "atira",
+     "quem": 1
+    }
+   ],
+   "d0": 9.0,
+   "d1": 8.5,
+   "quadro_manual": true,
+   "cx": 0.8,
+   "cz": -0.5,
+   "animals": [
+    [
+     "emu",
+     2.4,
+     -1.5,
+     "run",
+     1.0
+    ],
+    [
+     "emu",
+     3.4,
+     -2.2,
+     "run",
+     1.0
+    ],
+    [
+     "emu",
+     4.2,
+     -1.2,
+     "run",
+     1.0
+    ]
+   ],
+   "crowd": {
+    "n": 0
+   }
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
@@ -195,9 +258,9 @@
     ],
     [
      "mgun",
-     0.0,
-     -1.0,
-     1.2,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -216,7 +279,25 @@
    "h": 2.5,
    "batalha": false,
    "tiros": false,
-   "_auto_vis": 1
+   "_auto_vis": 2,
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o truck (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "vehicles/truck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "mgun",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
@@ -232,10 +313,9 @@
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "SOL:0:smug",
-    "PRESS:0:grin"
+    "SOL:0:smug"
    ],
    "text": "HA HA HA",
    "tat": 8,
@@ -245,16 +325,38 @@
    "props": [
     [
      "vehicles/tank",
-     3.0,
-     -6.0,
-     1.0,
+     0.0,
+     -8.6,
+     1.52,
      {
+      "mover": [
+       7.0,
+       -8.6
+      ],
       "fixo": true
      }
     ]
    ],
    "batalha": false,
-   "tiros": false
+   "tiros": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "vehicles/tank",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "indo embora"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",

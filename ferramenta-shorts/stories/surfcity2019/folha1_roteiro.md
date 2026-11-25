@@ -1,21 +1,21 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 07 - A Cidade do Surfe
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 168 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 171 palavras (~59 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City El Salvador.
+## Cena b0  (~3.4 s)
+- Narracao: Um país pequeno decidiu virar a capital mundial do surfe.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.5 s)
-- Narracao: O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal, ao mundo.
+## Cena b1  (~8.3 s)
+- Narracao: Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

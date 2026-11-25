@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Durante décadas, todo foguete era jogado fora depois de um voo. Até que um desceu de ré.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: cai (throw) @5 -> acao + som de efeito; encena: x_desce (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -24,25 +24,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
 - Narracao: As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.
-- Som ambiente: sea
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: splash@30
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: splash@30, puff@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Texto na tela: TOMBOU
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.5 s)
 - Narracao: Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voa (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 11 SATÉLITES
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Depois de soltar o topo, a parte de baixo voltou para a Terra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,19 +60,19 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, thump@50
-- Efeito + som nas palavras-chave: encena: x_desce (point) @3 -> acao + som de efeito
-- Efeito visual marcado: whoosh@10, puff@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: puff@40, dust@80
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b7  (~3.1 s)
 - Narracao: E pousou inteira, abrindo as pernas no último segundo.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, thump@60
-- Efeito + som nas palavras-chave: encena: x_desce (point) @1 -> acao + som de efeito; encena: x_abre (push) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@60, dust@60
 - Texto na tela: POUSOU!
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~2.8 s)
 - Narracao: Os funcionários da SpaceX comemoraram e se abraçaram.
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @12 -> acao + som de efeito; encena: x_desce (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: PRIMEIRA VEZ
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Hoje, pousar de ré virou rotina.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: vira (up) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -9,10 +9,10 @@ b1 | medieval | two | 2 | dancar, INTERAGEM: aproxima-se | kit/marco_viena | - |
 b2 | medieval | crowd | 40 | dancar, batalha | - | - | -
 b3 | medieval | group | 40 | dancar, INTERAGEM: empurrar | - | - | -
 b4 | interior pedra | two | 2 | reagir, INTERAGEM: avanca e o outro recua | - | book | -
-b5 | hall | wide | 8 | dancar | buildings/house_two, nature/lamppost | - | -
+b5 | hall | wide | 14 | dancar | buildings/house_two, nature/lamppost | - | -
 b6 | medieval | orbit | 2 | dancar, batalha | - | paper | -
 b7 | loc_campo | two | 2 | reagir, INTERAGEM: discutir | - | - | -
-b8 | mountain | wide | 7 | dancar | buildings/church, kit/marco_viena | - | -
+b8 | loc_montanha | wide | 7 | dancar | buildings/church, kit/marco_viena | - | -
 b9 | interior madeira | close | 1 | reagir | - | - | -
 b10 | interior madeira | close | 1 | conversar | - | - | -
 

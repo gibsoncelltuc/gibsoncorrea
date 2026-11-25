@@ -7,7 +7,15 @@
    "item": "A Operação da Madrugada",
    "consultas": [
     "A Operação da Madrugada",
-    "Numa Trump Caracas Venezuela Era Nicolás Maduro 2026"
+    "Um Foi Caracas Venezuela Trump Era Nicolás Maduro 2026"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sal",
+   "consultas": [
+    "Caracas Venezuela",
+    "Caracas Venezuela complexo militar cidade a noite e Mar-a-Lago Florida sala de acompanhame"
    ]
   },
   {
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Donald Trump (terno azul, gravata vermelha)",
+   "consultas": [
+    "Donald Trump terno azul gravata vermelha",
+    "Donald Trump terno azul gravata vermelha 2026"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Nicolas Maduro (bigode, jaqueta)",
+   "consultas": [
+    "Nicolas Maduro bigode jaqueta",
+    "Nicolas Maduro bigode jaqueta 2026"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados da Forca Delta (uniforme camuflado, capacete, oculos de visao",
+   "consultas": [
+    "soldados da Forca Delta uniforme camuflado capacete oculos de visao noturna",
+    "soldados da Forca Delta uniforme camuflado capacete oculos de visao noturna 2026"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "diretor da CIA e secretario de Estado",
+   "consultas": [
+    "diretor da CIA e secretario de Estado",
+    "diretor da CIA e secretario de Estado 2026"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "helicopteros militares",
+   "consultas": [
+    "helicopteros militares",
+    "helicopteros militares 2026"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "aviao",
+   "consultas": [
+    "aviao",
+    "aviao 2026"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "mandado judicial",
+   "consultas": [
+    "mandado judicial",
+    "mandado judicial 2026"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "helicopter air",
    "consultas": [
-    "helicopter air",
+    "helicopteros militares",
     "A Operação da Madrugada"
    ]
   },
@@ -48,6 +112,14 @@
    "consultas": [
     "airplane 2026",
     "airplane"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí",
+   "consultas": [
+    "ataques aereos desligaram defesas antiaereas",
+    "helicopter air diagram"
    ]
   }
  ]

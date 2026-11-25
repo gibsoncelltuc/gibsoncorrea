@@ -7,7 +7,7 @@
 - Roupas: {'FLE': 'cientista de 1928 com jaleco branco sobre terno, gravata borboleta', 'COL': 'colega de jaleco branco', 'MED': 'medico de 1940 de jaleco', 'POV': 'pacientes e enfermeiras de 1940'}
 - Cenario real: laboratorio de 1928 com bancada de madeira, microscopio de latao, placas de Petri empilhadas, frascos de vidro
 - Objetos: ['placa de Petri com mofo', 'microscopio', 'frascos de vidro']
-- Cenarios usados no video: hall, interior madeira, interior pedra, loc_campo, loc_montanha
+- Cenarios usados no video: hall, interior madeira, interior pedra, loc_campo, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Proibido pelo roteiro: -
 

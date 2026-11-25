@@ -1,33 +1,32 @@
 # CRONOGRAMA - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
-Gerado em 24/11 03:30 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 0%
+Gerado em 25/11 01:58 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | TRU, EXE | - | boardgame, marco_liberdade | - | Muito antes da política, Donald Trump lançou um jogo de tabuleiro com 
-b1 | transicao | loc_cidade | reveal | POV, POV | 6 | marco_liberdade | - | Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um 
-b2 | simples | interior loja | two | EXE, TRU | - | boardgame | - | Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios,
-b3 | simples | interior loja | close | TRU | - | boardgame | - | As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com 
-b4 | simples | interior madeira | two | PAI, FIL | - | boardgame | - | Acontece que o manual tinha mais de doze páginas. As famílias abriam a
-b5 | simples | interior madeira | group | FIL, PAI | - | boardgame | - | Muita gente comprou só de presente, ou de curiosidade, e nunca tirou a
-b6 | chave | loc_cidade | crowd | EXE, POV, POV | 30 | marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil
-b7 | simples | interior loja | two | EXE, TRU | - | - | - | O jogo saiu das lojas, e ficou esquecido por anos.
-b8 | simples | loc_pista | two | TRU, EXE | - | boardgame, tv | - | Até que, em dois mil e quatro, Trump virou estrela de um programa de T
-b9 | chave | loc_cidade | group | TRU, POV, POV | 18 | boardgame, marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o jogo voltou às lojas, com regras mais simples, e com a frase famos
-b10 | simples | interior pedra | two | PAI, FIL | - | crate, boardgame | - | Hoje, as caixas originais de mil novecentos e oitenta e nove viraram i
-b11 | simples | loc_pista | group | TRU | - | boardgame | - | Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade 
-b12 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | two | TRU, EXE | - | boardgame, marco_liberdade | - | Donald Trump lançou um jogo de tabuleiro com o próprio rosto no dinhei
+b1 | chave | loc_cidade | wide | POV, POV | 6 | marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil novecentos e oitenta e nove, e ele era um empresário famoso de
+b2 | simples | interior loja | two | EXE, TRU | - | boardgame | - | Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hoté
+b3 | simples | interior loja | close | TRU | - | boardgame | - | As notas eram de dez, cinquenta e cem milhões de dólares, com a cara d
+b4 | simples | interior loja | two | TRU, POV | - | boardgame, tv | - | O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo
+b5 | simples | interior madeira | two | PAI, FIL | - | boardgame | - | Acontece que o manual era longo, e as famílias abriam a caixa e não en
+b6 | simples | interior pedra | two | EXE, EXE | - | - | - | A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos m
+b7 | transicao | loc_pista | orbit | TRU, EXE | 6 | boardgame | - | Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.
+b8 | simples | interior loja | two | EXE, TRU | - | boardgame | - | Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos.
+b9 | chave | loc_cidade | crowd | TRU, POV, POV | - | boardgame, marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E o jogo voltou às lojas, com regras mais simples e a frase do program
+b10 | simples | loc_pista | two | TRU | - | boardgame | - | Um jogo sobre ficar bilionário, que virou curiosidade.
+b11 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py trumpgame1989
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/12 itens) | PENDENTE | python3 pesquisar.py trumpgame1989
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

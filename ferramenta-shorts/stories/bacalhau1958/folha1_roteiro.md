@@ -1,89 +1,98 @@
-# FOLHA 1 - ROTEIRO: As Guerras do Bacalhau
+# FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 169 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 154 palavras (~53 s)
 
-## Cena b0  (~9.0 s)
-- Narracao: Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: empurra (push) @19 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: 3 GUERRAS | mapa: INGLATERRA
+## Cena b0  (~3.8 s)
+- Narracao: A Islândia derrotou a marinha inglesa com um cortador de rede.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: creak@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: splash@40
+- Texto na tela: ISLÂNDIA VENCEU
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.2 s)
-- Narracao: A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.
+## Cena b1  (~6.6 s)
+- Narracao: Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_pesca (lift) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: empurra (push) @14 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: 1958-1976
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~4.8 s)
+- Narracao: A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa.
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: x_pesca (lift) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BACALHAU
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.5 s)
-- Narracao: Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.
+## Cena b3  (~4.8 s)
+- Narracao: Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 200 MILHAS
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~3.8 s)
-- Narracao: A Inglaterra mandou a marinha para proteger os barcos de pesca.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_defende (cross) @6 -> acao + som de efeito
-- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~6.2 s)
-- Narracao: A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: CORTADORES DE REDE
-- Funcao na historia: desenvolvimento
-
-## Cena b5  (~5.5 s)
-- Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
-- Som ambiente: sea
-- Efeitos sonoros marcados: thump@60, creak@62
-- Efeito + som nas palavras-chave: encena: corta (hammer) @1 -> acao + som de efeito
-- Efeito visual marcado: splash@50, burst@60
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~3.8 s)
-- Narracao: A Islândia ainda ameaçou fechar a base da Otan no país.
+## Cena b4  (~3.4 s)
+- Narracao: A marinha mandou fragatas para proteger os barcos de pesca.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_discute (point) @3 -> acao + som de efeito; encena: empurra (push) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: OTAN
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~7.9 s)
-- Narracao: Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
+## Cena b5  (~5.5 s)
+- Narracao: Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b6  (~5.2 s)
+- Narracao: Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.
+- Som ambiente: sea
+- Efeitos sonoros marcados: creak@30, thump@55
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: splash@30, burst@55
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~4.8 s)
+- Narracao: A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: empurra (push) @3 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: OTAN | mapa: INGLATERRA
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b8  (~6.9 s)
+- Narracao: Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @12 -> acao + som de efeito; encena: chega (point) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: VITÓRIA ISLANDESA
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.9 s)
-- Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
+## Cena b9  (~2.8 s)
+- Narracao: Uma guerra inteira, por causa de um bacalhau.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: TUDO POR UM PEIXE
+- Texto na tela: TUDO POR UM BACALHAU
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
+## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
@@ -92,3 +101,6 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/Cod_Wars

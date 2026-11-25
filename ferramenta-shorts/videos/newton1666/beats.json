@@ -45,19 +45,25 @@
    "who": [
     "NEW:0:smile:book"
    ],
+   "text": "1666",
    "props": [
     [
      "kit/apple",
      2.4,
      0.2,
-     1.5,
+     1.0,
      {
       "fixo": true
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "group",
    "quadro": {
-    "local": "loc_campo",
+    "local": "vila rural (casas, cercas, campo)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -67,24 +73,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_enq_shot": "group",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "maçã"
-     }
-    ]
-   },
-   "detalhe": false,
-   "set": "loc_campo",
-   "moveis": [],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "say": "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.",
@@ -146,17 +135,7 @@
      -1.6,
      1.4
     ]
-   ],
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "pensa",
-      "na": "pensando",
-      "quem": 0
-     }
-    ]
-   }
+   ]
   },
   {
    "say": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
@@ -180,7 +159,7 @@
      "kit/apple",
      0.0,
      -1.2,
-     1.5,
+     1.0,
      {
       "fixo": true
      }
@@ -195,6 +174,11 @@
     "ding@60"
    ],
    "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "orbit",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "orbit; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)",
@@ -206,21 +190,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_enq_shot": "orbit",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "cai",
-      "na": "caiu"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
@@ -247,16 +217,7 @@
     "MAE:0:shock"
    ],
    "interacao": "susto",
-   "set": "loc_campo",
-   "encena": {
-    "sentido": "hipotese",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Lua"
-     }
-    ]
-   }
+   "set": "loc_campo"
   },
   {
    "say": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
@@ -327,15 +288,20 @@
      "kit/apple",
      2.4,
      0.2,
-     2.0,
+     1.0,
      {
       "fixo": true
      }
     ]
    ],
    "explica": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
    "quadro": {
-    "local": "loc_campo",
+    "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -345,24 +311,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "detalhe": true,
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "maçã"
-     }
-    ]
-   },
-   "set": "loc_campo",
-   "moveis": [],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "visual": {
@@ -396,6 +345,5 @@
    "casa": "Woolsthorpe Manor apple tree",
    "maca": "red apple on branch"
   }
- },
- "max_wide": 3
+ }
 }

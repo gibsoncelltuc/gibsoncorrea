@@ -6,9 +6,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: hospital; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
 - PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao angry; sem multidao; acao: discutir
-- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
+- TEXTO NA TELA: "1847" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

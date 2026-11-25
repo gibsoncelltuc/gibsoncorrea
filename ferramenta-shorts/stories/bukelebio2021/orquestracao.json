@@ -5,7 +5,7 @@
   [
    "video",
    "street",
-   "loc_cidade"
+   "street"
   ],
   [
    "cena 2",
@@ -41,7 +41,7 @@
  },
  "cenas": [
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -49,9 +49,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 25,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.",
+   "frase": "Um presidente escreveu no próprio perfil que era um ditador.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -61,15 +61,19 @@
   {
    "camera": "crowd",
    "personagens": [
-    "BUK"
+    "POV",
+    "POV"
    ],
    "multidao": 30,
    "objetos": [
-    "kit/volcano"
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/volcano",
+    "nature/lamppost"
    ],
-   "palavras": 14,
+   "palavras": 21,
    "cena": "b1",
-   "frase": "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.",
+   "frase": "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -83,7 +87,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -179,7 +183,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -204,7 +208,9 @@
     "JOR2"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/phone"
+   ],
    "palavras": 13,
    "cena": "b8",
    "frase": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",

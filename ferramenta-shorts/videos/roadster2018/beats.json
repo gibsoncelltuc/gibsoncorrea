@@ -86,21 +86,12 @@
     ]
    },
    "hora": "espaco",
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "carro"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
@@ -138,21 +129,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Roadster"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
@@ -192,21 +174,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Falcon"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 22.4,
-   "d1": 21.3
+   "d1": 21.3,
+   "_enq_shot": "wide"
   },
   {
    "say": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
@@ -245,22 +218,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "mandar",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "O foguete decolou com um estrondo!",
@@ -311,21 +274,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "voa",
-      "na": "decolou"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
@@ -364,26 +318,16 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "senta",
-      "na": "sentado",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "STA:0:neutral"
    ],
@@ -408,7 +352,7 @@
    },
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster",
@@ -419,21 +363,12 @@
     ]
    },
    "hora": "espaco",
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "painel"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "two"
   },
   {
    "say": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
@@ -510,15 +445,6 @@
       "Sol"
      ]
     ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "órbita"
-     }
-    ]
    }
   },
   {
@@ -564,21 +490,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "voltas"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
@@ -641,21 +558,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "aviso"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_enq_shot": "wide"
   }
  ],
  "cinf": 1.5,

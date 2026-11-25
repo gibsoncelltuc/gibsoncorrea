@@ -53,8 +53,43 @@
   {
    "tiros": false,
    "batalha": false,
+   "impact": true,
+   "say": "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador.",
+   "shot": "wide",
+   "who": [
+    "AST:0:shock"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "OVNI?",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "hora": "noite",
+   "props": [
+    [
+     "kit/starlink_train",
+     0.0,
+     -10.6,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "countryside",
+   "fachada": false,
+   "detalhe": false
+  },
+  {
+   "tiros": false,
+   "batalha": false,
    "impact": false,
-   "say": "Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez.",
+   "say": "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial.",
    "shot": "reveal",
    "who": [
     "AST:0:grin"
@@ -62,40 +97,47 @@
    "props": [
     [
      "kit/falcon_air",
-     0,
-     -3,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/rocket",
-     1.3,
-     1.0,
-     0.5
+     2.4,
+     0.2,
+     0.5,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial.",
-   "shot": "two",
-   "who": [
-    "AST:0:smug",
-    "JOR:0:suspicious"
-   ],
-   "mapa": "FLÓRIDA",
-   "mapa_at": 1,
-   "props": [
-    [
-     "kit/falcon_air",
-     1.5,
-     -3,
-     1.0
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e rocket juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
     ]
-   ],
-   "set": "street"
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "set": "loc_pista",
+   "tela": false
   },
   {
    "tiros": false,
@@ -107,32 +149,37 @@
     "AST:0:grin",
     "JOR:0:smug"
    ],
-   "props": [
-    [
-     "kit/rocket",
-     0.5,
-     1.2,
-     0.6
+   "props": [],
+   "set": "countryside",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
     ]
-   ],
-   "set": "countryside"
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "hora": "noite"
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
    "say": "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "AST:0:shock",
-    "POV:0:shock",
-    "POV:1:shock"
+    "AST:0:shock"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "text": "3 MINUTOS",
    "fx": [
@@ -145,19 +192,41 @@
    "props": [
     [
      "kit/starlink_train",
-     0,
-     -16.0,
-     1.4
+     0.0,
+     -10.6,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "countryside"
+   "set": "countryside",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/starlink_train",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
    "say": "Ele viu pelo menos cinquenta e seis objetos brilhando em linha.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "AST:0:grin"
    ],
@@ -166,12 +235,37 @@
    "props": [
     [
      "kit/starlink_train",
-     0,
-     -16.0,
-     1.4
+     0.0,
+     -10.6,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "countryside"
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/starlink_train",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0,
+   "set": "loc_montanha"
   },
   {
    "tiros": false,
@@ -183,10 +277,7 @@
     "JOR:0:shock"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "fx": [
     "burst@40"
@@ -194,7 +285,20 @@
    "sfx": [
     "sting@40"
    ],
-   "set": "street"
+   "set": "street",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "tiros": false,
@@ -215,20 +319,58 @@
    "batalha": false,
    "impact": false,
    "say": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
-   "shot": "two",
-   "who": [
-    "AST:0:smug",
-    "JOR2:0:suspicious"
-   ],
+   "shot": "wide",
+   "who": [],
    "props": [
     [
      "kit/falcon_air",
-     1.5,
-     -3,
-     1.0
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "set": "street",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 20.6,
+   "d1": 19.6,
+   "explica": {
+    "objeto": "kit/starlink_train",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "60 SATÉLITES",
+      "topo",
+      "satélites"
+     ],
+     [
+      "AINDA EM FILA",
+      "meio",
+      "fila"
+     ]
+    ]
+   }
   },
   {
    "tiros": false,
@@ -245,7 +387,20 @@
      "POV"
     ]
    },
-   "set": "street"
+   "set": "street",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "tiros": false,
@@ -260,12 +415,32 @@
    "props": [
     [
      "kit/rocket",
-     0.5,
-     1.2,
-     0.6
+     0.0,
+     -1.2,
+     0.6,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "countryside"
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "loc_montanha",
+   "hora": "noite"
   }
  ],
  "exp": 1.0,
@@ -276,5 +451,36 @@
   "https://skyandtelescope.org/astronomy-news/observing-news/spacex-launches-starlink-satellites/"
  ],
  "ano": 2019,
- "regiao": "eua"
+ "regiao": "eua",
+ "max_wide": 7,
+ "visual": {
+  "local": "Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leiden), Europa",
+  "quando": "23 a 25 de maio de 2019, noite",
+  "participantes": [
+   "astronomo amador Marco Langbroek com camera e tripe",
+   "jornalistas"
+  ],
+  "roupas": {
+   "AST": "jaqueta de frio e gorro",
+   "JOR": "camisa social",
+   "JOR2": "blazer"
+  },
+  "cenario": "campo escuro a noite com ceu estrelado e fila de pontos brilhantes; base de lancamento com foguete; redacao",
+  "objetos": [
+   "foguete Falcon 9",
+   "fila de satelites Starlink",
+   "camera no tripe"
+  ],
+  "explicacoes": [
+   "Os 60 primeiros satelites Starlink foram lancados em 23/05/2019; Marco Langbroek filmou o \"trem\" de satelites sobre a Holanda e o site holandes de OVNIs recebeu mais de 150 relatos (fonte: Wikipedia Starlink; satobs.org Langbroek)",
+   "Logo apos o lancamento os satelites viajam juntos, em fila, antes de subir para a orbita final (fonte: Wikipedia Starlink)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Starlink"
+  ],
+  "buscas": {
+   "fila": "Starlink satellite train night sky 2019",
+   "foguete": "Falcon 9 Starlink launch May 2019"
+  }
+ }
 }

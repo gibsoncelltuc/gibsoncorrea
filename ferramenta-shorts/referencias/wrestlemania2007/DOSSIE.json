@@ -59,18 +59,45 @@
   "mk/Vase_2",
   "mk/Workbench_Drawers"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, telao e fogos",
+  "quando": "1 de abril de 2007 (WrestleMania 23), noite",
+  "participantes": [
+   "Donald Trump (terno escuro, gravata vermelha)",
+   "Vince McMahon (terno, cabelo grisalho)",
+   "Bobby Lashley (lutador de sunga)",
+   "Umaga (lutador samoano tatuado)",
+   "Stone Cold Steve Austin (juiz convidado, careca, colete preto)",
+   "80 mil fas"
+  ],
+  "roupas": {
+   "TRU": "terno escuro e gravata vermelha",
+   "VIN": "terno escuro",
+   "VIB": "terno escuro, careca",
+   "LAS": "sunga e joelheiras",
+   "JUI": "camisa listrada de juiz e colete preto",
+   "POV": "camiseta de fa"
+  },
+  "cenario": "estadio de futebol americano coberto, ringue iluminado no centro, plateia gigante, telao",
+  "objetos": [
+   "ringue",
+   "maquina de raspar cabelo",
+   "cadeira de barbeiro"
+  ],
+  "explicacoes": [
+   "WrestleMania 23 (1/4/2007, Ford Field, 80.103 pessoas): \"Battle of the Billionaires\", Lashley (Trump) venceu Umaga (McMahon) com Steve Austin de juiz; Trump e Lashley rasparam McMahon e Austin aplicou um Stunner em Trump; Trump entrou no WWE Hall of Fame em 2013 (fonte: Wikipedia WrestleMania 23)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/WrestleMania_23"
+  ],
+  "buscas": {
+   "ringue": "WrestleMania 23 Battle of the Billionaires",
+   "estadio": "Ford Field WrestleMania 23 crowd"
+  }
+ },
  "fontes": [
   "https://en.wikipedia.org/wiki/WrestleMania_23",
   "https://www.denverpost.com/2015/06/26/that-time-bobby-lashley-pro-wrestled-alongside-donald-trump-2/"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

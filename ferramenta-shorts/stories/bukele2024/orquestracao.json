@@ -3,24 +3,9 @@
  "ano": 2024,
  "cenarios_trocados": [
   [
-   "video",
-   "jungle",
-   "loc_campo"
-  ],
-  [
-   "cena 1",
+   "cena 8",
    "street",
    "loc_cidade"
-  ],
-  [
-   "cena 6",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 12",
-   "jungle",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -34,40 +19,21 @@
    "camera": "two",
    "personagens": [
     "BUK",
-    "REP"
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
     "kit/ballot_box",
     "kit/volcano"
    ],
-   "palavras": 20,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.",
+   "frase": "Um presidente foi reeleito com uma das maiores votações do mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
-  },
-  {
-   "camera": "reveal",
-   "personagens": [
-    "POV",
-    "POV"
-   ],
-   "multidao": 6,
-   "objetos": [
-    "kit/volcano"
-   ],
-   "palavras": 12,
-   "cena": "b1",
-   "frase": "Foi em El Salvador, na América Central. O presidente era Nayib Bukele.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -76,15 +42,40 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 22,
-   "cena": "b2",
-   "frase": "Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete anos, prometendo acabar com a violência das gangues.",
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 13,
+   "cena": "b1",
+   "frase": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -96,9 +87,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 22,
+   "palavras": 20,
    "cena": "b3",
-   "frase": "A Constituição proibia a reeleição seguida. Mas, em dois mil e vinte e um, a Suprema Corte mudou a interpretação, e liberou.",
+   "frase": "A Constituição proibia a reeleição seguida, mas em dois mil e vinte e um a Suprema Corte mudou a interpretação.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -106,37 +97,32 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 14,
    "cena": "b4",
    "frase": "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
-    "kit/ballot_box"
+    "kit/ballot_box",
+    "kit/volcano"
    ],
    "palavras": 9,
    "cena": "b5",
@@ -148,9 +134,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "REP"
+    "REP",
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [],
@@ -161,23 +148,18 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "loc_cidade"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
-    "BUK",
-    "POV",
-    "POV"
+    "BUK"
    ],
-   "multidao": 30,
-   "objetos": [
-    "kit/ballot_box",
-    "kit/volcano"
-   ],
-   "palavras": 13,
+   "multidao": 16,
+   "objetos": [],
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão.",
+   "frase": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -188,7 +170,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -198,9 +180,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 17,
    "cena": "b8",
-   "frase": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.",
+   "frase": "O motivo: os assassinatos caíram de cento e seis para dois vírgula quatro por cem mil habitantes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -208,13 +190,15 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/prison"
+   ],
    "palavras": 15,
    "cena": "b9",
    "frase": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
@@ -222,14 +206,14 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior galpao"
+   "cenario": "loc_pista"
   },
   {
-   "camera": "close",
+   "camera": "orbit",
    "personagens": [
     "BUK"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/ballot_box",
     "kit/globe"

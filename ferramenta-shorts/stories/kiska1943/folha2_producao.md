@@ -35,9 +35,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b3 - Antes do desembarque, bombardearam Kiska durante semanas.
 - Cenario: arctic | luz: overcast | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): USA (variante 2, expressao grin) | multidao: 18 de USA
-- Animacao: encena | batalha encenada
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/aviao_ww2, kit/canhao_moderno
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque
 - RISCOS: nenhum
@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: overcast | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): USA (variante 0, expressao nervous); CAN (variante 0, expressao nervous) | multidao: 8 de USA/CAN
+- Personagens principais (2): USA (variante 0, expressao nervous); CAN (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: war/sandbags
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inimigo
@@ -94,9 +94,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Mais de vinte soldados morreram nesses tiros, e um navio americano ain...
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): USA (variante 0, expressao sad); CAN (variante 0, expressao sad) | multidao: 5 de USA/CAN
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): USA (variante 0, expressao sad); CAN (variante 0, expressao sad) | multidao: 12 de CAN/USA
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: kit/navio_encouracado
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, vinte
@@ -114,8 +114,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Uma das maiores invasões do Pacífico Norte tomou uma ilha completament...
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/dog_sit
@@ -150,7 +150,7 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 65% | aberto 18% | detalhe 6%
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 65% | aberto 18% | detalhe 7%
 - Interacoes: b0 aproxima-se, b1 avanca e o outro recua, b5 susto, b8 discutir, b9 empurrar, b10 o outro se aproxima, b11 insiste
 - RISCOS GERAIS: nenhum
 

@@ -7,15 +7,15 @@
    "item": "A Fila de Luzes no Céu",
    "consultas": [
     "A Fila de Luzes no Céu",
-    "Em SpaceX Falcon Cabo Canaveral Flórida Starlink Um Marco Langbroek 2019"
+    "Uma Europa Em SpaceX Flórida Starlink Um Marco Langbroek 2019"
    ]
   },
   {
    "tipo": "lugar",
-   "item": "Flórida",
+   "item": "Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leide",
    "consultas": [
-    "Flórida 2019",
-    "Flórida landscape"
+    "Cabo Canaveral Florida",
+    "Cabo Canaveral Florida lancamento do Falcon 9 e ceu noturno da Holanda Leiden Europa 2019"
    ]
   },
   {
@@ -35,11 +35,58 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "astronomo amador Marco Langbroek com camera e tripe",
+   "consultas": [
+    "astronomo amador Marco Langbroek com camera e tripe",
+    "astronomo amador Marco Langbroek com camera e tripe 2019"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas",
+   "consultas": [
+    "jornalistas",
+    "jornalistas 2019"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "foguete Falcon 9",
+   "consultas": [
+    "foguete Falcon 9",
+    "foguete Falcon 9 2019"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fila de satelites Starlink",
+   "consultas": [
+    "fila de satelites Starlink",
+    "fila de satelites Starlink 2019"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "camera no tripe",
+   "consultas": [
+    "camera no tripe",
+    "camera no tripe 2019"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "rocket",
    "consultas": [
-    "rocket",
+    "foguete Falcon 9",
     "A Fila de Luzes no Céu"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "starlink train",
+   "consultas": [
+    "starlink train"
    ]
   },
   {
@@ -50,11 +97,11 @@
    ]
   },
   {
-   "tipo": "epoca",
-   "item": "foguete da epoca",
+   "tipo": "mecanismo",
+   "item": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
    "consultas": [
-    "rocket 2019",
-    "rocket"
+    "satelites estavam juntos lancamento",
+    "starlink train diagram"
    ]
   }
  ]

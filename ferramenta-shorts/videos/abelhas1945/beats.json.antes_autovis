@@ -1,0 +1,916 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 20,
+ "title": "As Abelhas que Dançam um Mapa",
+ "titulo_base": "As Abelhas que Dançam um Mapa",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/beehive",
+ "outfits": {
+  "FRI": {
+   "profissao": "cientista",
+   "hair": "#9a9a9a",
+   "glasses": true
+  },
+  "ASS": {
+   "profissao": "agricultor",
+   "hat": "straw"
+  },
+  "COL": {
+   "profissao": "cientista",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "straw",
+    "cap",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:grin",
+    "COL:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.4,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 3.0,
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.",
+   "set": "countryside",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "descobriu",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "group",
+   "who": [
+    "FRI:0:smile"
+   ],
+   "mapa": "ÁUSTRIA",
+   "mapa_at": 3,
+   "say": "Karl von Frisch, da Áustria, passou a vida estudando abelhas.",
+   "props": [
+    [
+     "kit/beehive",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_ok": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "estudando",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:suspicious",
+    "ASS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.4,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 3.0,
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia.",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "set": "countryside",
+   "text": "DANÇA",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "constroi",
+      "na": "construiu",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     2.4,
+     0.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.6,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
+   "set": "countryside",
+   "shot_lock": true,
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "abelha"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "who": [],
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.6,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
+   "shot_lock": true,
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_montanha",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "PERTO = VOLTINHAS",
+      "topo",
+      "perto"
+     ],
+     [
+      "LONGE = UM OITO",
+      "meio",
+      "longe"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Comida"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "who": [],
+   "props": [
+    [
+     "kit/beehive",
+     2.4,
+     0.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.6,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
+   "shot_lock": true,
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_montanha",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "ÂNGULO = DIREÇÃO",
+      "topo",
+      "ângulo"
+     ],
+     [
+      "PARA CIMA = SOL",
+      "meio",
+      "sol"
+     ]
+    ],
+    "setas": [
+     [
+      "cima",
+      "SOL",
+      "",
+      "sol"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ângulo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [],
+   "interacao": "entregar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.6,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_montanha",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/bee",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "MAIS REBOLADO",
+      "topo",
+      "rebolava"
+     ],
+     [
+      "= MAIS LONGE",
+      "meio",
+      "longe"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rebolava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COL:0:laugh",
+    "FRI:0:nervous:paper"
+   ],
+   "acao": "discutir",
+   "say": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "x_ri",
+      "na": "piada",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:smug",
+    "COL:0:shock"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.4,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 3.0,
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "titulo": true,
+   "say": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
+   "set": "countryside",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "testes",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "FRI:0:laugh",
+    "ASS:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 4,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "NOBEL",
+   "titulo": true,
+   "say": "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.",
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "ganhou",
+      "quem": 0
+     }
+    ]
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:smile"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     -1.6,
+     0.8,
+     0.68,
+     {
+      "y": 2.4,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bee",
+     1.6,
+     0.8,
+     0.68,
+     {
+      "y": 3.0,
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.",
+   "set": "countryside",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "abelha"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "regiao": "europa",
+ "visual": {
+  "local": "Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim com colmeias e pratinhos de agua com acucar; laboratorio em Munique; cerimonia do Nobel em Estocolmo",
+  "quando": "verao de 1944-1945 (decifrou a danca), Nobel em dezembro de 1973",
+  "participantes": [
+   "Karl von Frisch, zoologo austriaco de oculos",
+   "assistentes",
+   "colegas cientistas desconfiados"
+  ],
+  "roupas": {
+   "FRI": "terno claro dos anos 40, oculos redondos, cabelo grisalho",
+   "ASS": "assistente de camisa e chapeu de palha",
+   "COL": "cientista de terno e barba",
+   "POV": "publico dos anos 40/70"
+  },
+  "cenario": "jardim com montanhas e lago ao fundo, colmeia de observacao com vidro, mesa com pratinhos de acucar; salao do Nobel",
+  "objetos": [
+   "colmeia de vidro",
+   "abelhas marcadas com pontinhos de tinta",
+   "pratinhos de agua com acucar",
+   "caderno de anotacoes"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Karl_von_Frisch",
+   "https://en.wikipedia.org/wiki/Waggle_dance"
+  ],
+  "buscas": {
+   "As Abelhas que Dançam um Mapa": "waggle dance honey bee",
+   "Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim": "Wolfgangsee lake Austria",
+   "assistentes": "beekeeper bee research 1940s",
+   "colegas cientistas desconfiados": "zoologist laboratory 1940s",
+   "pratinhos de agua com acucar": "bees drinking sugar water dish",
+   "caderno de anotacoes": "scientist field notebook"
+  },
+  "explicacoes": [
+   "Danca das abelhas (von Frisch): danca em circulo = comida perto; danca do requebrado em oito = comida longe; o angulo da corrida em relacao a vertical indica a direcao da comida em relacao ao sol; a duracao do requebrado indica a distancia (fonte: Wikipedia Waggle dance)"
+  ]
+ }
+}

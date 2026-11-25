@@ -40,8 +40,8 @@
   {
    "camera": "crowd",
    "personagens": [
-    "FIN",
-    "FIN"
+    "SOV",
+    "SOV"
    ],
    "multidao": 48,
    "objetos": [],
@@ -131,7 +131,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FIN",
     "FIN"
@@ -143,22 +143,6 @@
    "palavras": 22,
    "cena": "b6",
    "frase": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "SOV"
-   ],
-   "multidao": 48,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b7",
-   "frase": "Os soviéticos passaram a chamá-lo de Morte Branca.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -168,6 +152,22 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Os soviéticos passaram a chamá-lo de Morte Branca.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },

@@ -6,16 +6,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Paris já serviu elefante no jantar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_come (eat) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 1870
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.8 s)
 - Narracao: Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: FRANÇA
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito; encena: negocio (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: paga (reach) @7 -> acao + som de efeito; encena: x_come (eat) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_come (eat) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SÓ PARA OS RICOS
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Para mandar notícias, soltavam balões por cima do cerco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito; encena: x_solta (up) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_solta (up) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BALÕES
 - Funcao na historia: desenvolvimento

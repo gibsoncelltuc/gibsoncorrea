@@ -91,6 +91,20 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "bancada",
+   "consultas": [
+    "bancada"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "gosma",
+   "consultas": [
+    "gosma"
+   ]
+  },
+  {
    "tipo": "mecanismo",
    "item": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d",
    "consultas": [

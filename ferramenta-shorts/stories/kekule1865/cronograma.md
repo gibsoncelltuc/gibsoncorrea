@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Gerado em 24/11 13:41 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/snake
 b5 | simples | interior madeira | low | KEK | - | snake_ring | - | Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!
 b6 | simples | interior madeira | two | KEK | - | snake_ring | - | Passou o resto da noite desenhando o anel de seis carbonos. E a conta 
 b7 | simples | interior pedra | group | KEK, COL, ALU | - | snake_ring | - | Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pe
-b8 | chave | street | crowd | COL | 6 | marco_viena, snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
+b8 | chave | street | wide | COL | 6 | marco_viena, snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
 b9 | simples | street | close | KEK | - | snake_ring | - | E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordad
 b10 | simples | street | two | KEK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -29,13 +29,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | PENDENTE | bash auditar_acoes.sh local kekule1865 <mp4>
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh kekule1865
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh kekule1865
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local kekule1865 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 13. Auditoria das acoes
+**Etapa atual:** 8. Storyboard e grade de acoes
 

@@ -2,67 +2,57 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/neuralink2021/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py neuralink2021` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as m...
+## Cena b0 - Um macaco jogou videogame sem usar as mãos, só com o pensamento.
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); CIE (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/monkey_pong
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elon, empresa, macaco, maos, pensamento
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): macaco, maos, pensamento
 - RISCOS: nenhum
 
-## Cena b1 - Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa s...
+## Cena b1 - Foi em dois mil e vinte e um, e a empresa se chama Neuralink.
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: - | batalha encenada
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, empresa, estados
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa
 - RISCOS: nenhum
 
-## Cena b2 - A ideia é um chip implantado no cérebro, que lê os sinais dos neurônio...
+## Cena b2 - A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda p...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): CIM (variante 0, expressao stern, segura paper); MUS (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Objetos/modelos: kit/chess_pc
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerebro, chip, computador, neuronios, sinais
 - RISCOS: nenhum
 
-## Cena b3 - O voluntário foi o Pager, um macaco de nove anos. Primeiro, ele aprend...
+## Cena b3 - O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): CIE (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/monkey_pong
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogar, joystick, macaco, nove, pager, voluntario
 - RISCOS: nenhum
 
-## Cena b4 - A cada acerto, ganhava um golinho de vitamina de banana, por um canudi...
+## Cena b4 - A cada acerto, ganhava um golinho de vitamina de banana.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): CIE (variante 0, expressao grin, segura mug)
 - Animacao: encena
 - Objetos/modelos: kit/monkey_pong
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banana, cada, canudinho, golinho, metal, vitamina
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banana, cada, golinho, vitamina
 - RISCOS: nenhum
 
-## Cena b5 - Enquanto isso, o chip gravava o que os neurônios faziam a cada movimen...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): CIM (variante 0, expressao suspicious); CIE (variante 0, expressao nervous)
-- Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/monkey_pong
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cada, chip, neuronios
-- RISCOS: nenhum
-
-## Cena b6 - Acontece que, um dia, desligaram o joystick. E o Pager continuou jogan...
+## Cena b5 - Acontece que, um dia, desligaram o joystick, e o Pager continuou jogan...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -72,49 +62,39 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): joystick, mente, pager
 - RISCOS: nenhum
 
-## Cena b7 - O vídeo rodou o mundo. Muita gente se encantou, e muita gente debateu ...
+## Cena b6 - O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); MUS (variante 0, expressao grin) | multidao: 18 de POV
-- Animacao: reagir | batalha encenada
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); MUS (variante 0, expressao grin) | multidao: 14 de POV
+- Animacao: reagir
 - Objetos/modelos: kit/monkey_pong
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animais, pesquisa, video
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animais, video
 - RISCOS: nenhum
 
-## Cena b8 - O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar com...
+## Cena b7 - Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o comp...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao smug); CIM (variante 0, expressao grin)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/chess_pc, kit/phone, kit/miners
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, objetivo, pensamento, usar
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/chess_pc, kit/phone
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): computador, empresa, objetivo, usar
 - RISCOS: nenhum
 
-## Cena b9 - Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chi...
+## Cena b8 - Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o cor...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): NOL (variante 0, expressao grin); CIE (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/chess_pc
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chip, computador
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corpo, pescoco
 - RISCOS: nenhum
 
-## Cena b10 - Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): NOL (variante 0, expressao smile); CIE (variante 0, expressao happy)
-- Animacao: reagir | interacao: insiste
-- Objetos/modelos: kit/chess_pc
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corpo, jogar, pescoco
-- RISCOS: nenhum
-
-## Cena b11 - E tudo começou com um macaco, um videogame antigo, e um copo de vitami...
+## Cena b9 - Tudo começou com um macaco, um videogame e um copo de vitamina de bana...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: comemorar
@@ -122,9 +102,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banana, copo, macaco, videogame, vitamina
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
@@ -137,24 +117,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/monkey_pong | b0, b3, b4, b5, b6, b7, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/chess_pc | b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/miners | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/monkey_pong | b0, b3, b4, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/chess_pc | b2, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/monkey_pong | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 18% | medio 71% | aberto 6% | detalhe 6%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b8 discutir, b9 entregar, b10 insiste
+- Objeto heroi: kit/monkey_pong | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 11% | medio 66% | aberto 15% | detalhe 7%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b8 entregar
 - RISCOS GERAIS: 
-  - video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py neuralink2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/neuralink2021/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh neuralink2021 bN bM` (so essas cenas).

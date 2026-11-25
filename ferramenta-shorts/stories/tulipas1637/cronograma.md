@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
-Gerado em 24/11 19:56 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 03:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,11 +10,11 @@ b0 | simples | street | two | MER, RIC | - | house_small, marco_amsterdam, tulip
 b1 | simples | countryside | wide | POV | - | windmill, marco_amsterdam, tulip_bed, tulip_red | - | Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida
 b2 | simples | interior madeira | two | RIC, RIC | - | coin, tulip_striped | - | Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas m
 b3 | chave | harbor | crowd | POV | 14 | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que
-b4 | chave | harbor | orbit | POV | - | house_small, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Contam que teve gente que trocou terras e casas por um único bulbo.
+b4 | simples | harbor | wide | RIC, MER | - | house_small, marco_amsterdam, scroll, tulip_striped, picket_fence, tree_oak | - | Contam que teve gente que trocou terras e casas por um único bulbo.
 b5 | simples | harbor | two | POV, POV | - | tulip_purple, tulip_yellow | - | Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
 b6 | simples | interior madeira | two | MAR, MER | - | tulip_red | - | Contam que um marinheiro comeu um bulbo achando que era cebola. Valia 
 b7 | simples | interior loja | group | MER, POV, POV, RIC | - | stall | - | Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e n
-b8 | chave | harbor | crowd | POV | 30 | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu. Em poucos dias, todo mundo quis vender, e não havia 
+b8 | chave | harbor | orbit | POV | 30 | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu. Em poucos dias, todo mundo quis vender, e não havia 
 b9 | simples | countryside | wide | RIC | - | house_small, marco_amsterdam, tulip_bed, tulip_red, picket_fence, tree_oak | - | Os preços desabaram. Quem tinha trocado a casa por flores ficou só com
 b10 | simples | countryside | close | MAR | - | - | - | O marinheiro, pelo menos, almoçou bem.
 b11 | simples | countryside | two | MER | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -24,7 +24,7 @@ b11 | simples | countryside | two | MER | - | - | - | Agora não deixe de coment
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/14 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (11/14 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 

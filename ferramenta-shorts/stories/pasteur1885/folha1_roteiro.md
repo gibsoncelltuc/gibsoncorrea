@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, sting@60
-- Efeito + som nas palavras-chave: encena: entrega (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

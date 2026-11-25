@@ -74,12 +74,28 @@
     "ding@30"
    ],
    "clima": "neve",
-   "encena": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "frota"
+     }
+    ]
+   },
    "shot_lock": true,
    "montado": {
     "animal": "horse_sela",
     "z": -2.5
-   }
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "FRA"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "say": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
@@ -90,7 +106,16 @@
     "FRA:0:stern",
     "NED:0:nervous"
    ],
-   "text": "1795"
+   "text": "1795",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Holanda"
+     }
+    ]
+   }
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
@@ -117,7 +142,16 @@
    "tat": 7,
    "tstyle": "white",
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "congelou"
+     }
+    ]
+   }
   },
   {
    "say": "Os navios ficaram presos no gelo, sem conseguir sair do lugar.",
@@ -147,7 +181,16 @@
    ],
    "set": "arctic",
    "clima": "neve",
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gelo"
+     }
+    ]
+   }
   },
   {
    "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
@@ -168,7 +211,16 @@
    ],
    "mood": "march",
    "clima": "neve",
-   "set": "arctic"
+   "set": "arctic",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cavalaria"
+     }
+    ]
+   }
   },
   {
    "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
@@ -184,7 +236,17 @@
    "animals": [],
    "set": "arctic",
    "clima": "neve",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "ideia",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.",
@@ -208,7 +270,16 @@
    "detalhe": false,
    "_auto_vis": 3,
    "d0": 12.0,
-   "d1": 11.0
+   "d1": 11.0,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gelo"
+     }
+    ]
+   }
   },
   {
    "say": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos.",
@@ -228,7 +299,17 @@
    "impact": true,
    "tiros": false,
    "sem_mortos": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "atravessaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.",
@@ -269,7 +350,17 @@
      -7,
      1.3
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "rende",
+      "na": "rendeu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero.",
@@ -304,7 +395,24 @@
    "mood": "playful",
    "set": "arctic",
    "clima": "neve",
-   "montado": false
+   "montado": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "FRA"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "navios"
+     }
+    ]
+   }
   }
  ],
  "heroi": null,

@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (3): HOL (variante 0, expressao stern); MAR (variante 0, expressao angry); MAR (variante 1, expressao stern)
+- Personagens principais (3): HOL (variante 0, expressao stern); MAR (variante 0, expressao angry); MAR (variante 1, expressao stern) | multidao: 0 de 
 - Animacao: discutir | interacao: avanca e o outro recua
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, holanda
@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 20 de MAR
+- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 0 de 
 - Animacao: encena | batalha encenada
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, ilhas
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): PRE (variante 0, expressao smug, segura paper); ILH (variante 0, expressao shock) | multidao: 16 de SOL
+- Personagens principais (2): PRE (variante 0, expressao smug, segura paper); ILH (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, ilhas, ingleses

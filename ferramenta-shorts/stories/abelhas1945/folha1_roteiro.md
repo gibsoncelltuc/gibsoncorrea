@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: fala (point) @2 -> acao + som de efeito; encena: danca (up) @3 -> acao + som de efeito; encena: examina (think) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: examina (think) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: chega (point) @9 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: danca (up) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; encena: danca (up) @7 -> acao + som de efeito; encena: fala (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: danca (up) @2 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_ri (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,9 +78,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (point) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@30
-- Texto na tela: TESTE
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~6.6 s)
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -65,7 +65,16 @@
     ]
    ],
    "shot_lock": true,
-   "objetos": false
+   "objetos": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cachorro"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -85,7 +94,16 @@
    "mapa": "BULGÁRIA",
    "mapa_at": 3,
    "say": "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa.",
-   "props": []
+   "props": [],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fronteira"
+     }
+    ]
+   }
   },
   {
    "shot": "track",
@@ -102,7 +120,17 @@
      2.2,
      0.8
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corre",
+      "na": "correu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -128,7 +156,22 @@
    },
    "shot_lock": true,
    "impact": false,
-   "batalha": false
+   "batalha": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atiraram",
+      "quem": 0
+     },
+     {
+      "faz": "tomba",
+      "na": "tombou",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -139,7 +182,17 @@
    ],
    "interacao": "susto",
    "say": "A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
-   "props": []
+   "props": [],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "recusou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -165,7 +218,17 @@
    "detalhe": false,
    "d0": 17.0,
    "d1": 16.0,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "invadiu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -178,7 +241,17 @@
    "props": [],
    "text": "LIGA DAS NAÇÕES",
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "apelou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -196,6 +269,16 @@
      "GRE"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -224,6 +307,20 @@
     ]
    ],
    "acao": "reagir",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cachorro"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e dog_sit juntos (camera a 8.0 m)",
@@ -235,12 +332,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "exp": 1.12,

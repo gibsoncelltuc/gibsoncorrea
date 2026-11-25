@@ -86,7 +86,7 @@
      1.2
     ]
    ],
-   "hora": "dia",
+   "hora": "noite",
    "say": "Um bando de gansos barulhentos salvou Roma numa só noite.",
    "detalhe": false,
    "set": "medieval",
@@ -102,7 +102,16 @@
    "props": [],
    "shot_lock": true,
    "objetos": false,
-   "interacao": false
+   "interacao": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Um"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -133,7 +142,17 @@
    "props": [],
    "detalhe": false,
    "_auto_vis": 3,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "queima",
+      "na": "queimaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -175,7 +194,16 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Capitólio"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -186,7 +214,17 @@
    "say": "Os gauleses cercaram a colina, e a fome apertou os dois lados.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "cercaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -231,7 +269,18 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegaram",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -274,7 +323,16 @@
    "d0": 11.4,
    "d1": 10.8,
    "set": "loc_campo",
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "grita",
+      "na": "gritar"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -316,7 +374,23 @@
    "_auto_vis": 0,
    "quadro_manual": true,
    "d0": 8.5,
-   "d1": 7.5
+   "d1": 7.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "empurra",
+      "na": "impediu",
+      "quem": 0,
+      "alvo_quem": 1
+     },
+     {
+      "faz": "tomba",
+      "na": "subida",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -338,7 +412,18 @@
    ],
    "sfx": [
     "thump@50"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "sai",
+      "na": "afastaram",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -348,13 +433,26 @@
    ],
    "hora": "dia",
    "text": "1.000 LIBRAS",
-   "say": "No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora."
+   "say": "No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "pagou",
+      "quem": 0
+     },
+     {
+      "faz": "sai",
+      "na": "embora",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "group",
-   "who": [
-    "ROM:0:smile"
-   ],
+   "who": [],
    "say": "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.",
    "hora": "dia",
    "animals": [
@@ -389,7 +487,20 @@
    "objetos": false,
    "d0": 7.5,
    "d1": 7.0,
-   "vary": false
+   "vary": false,
+   "crowd": {
+    "n": 0
+   },
+   "riscos_ok": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gansos"
+     }
+    ]
+   }
   }
  ],
  "cinf": 4.5,

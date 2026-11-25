@@ -58,7 +58,7 @@
      "kit/brass_nose",
      0.0,
      -1.2,
-     1.5,
+     1.1,
      {
       "fixo": true
      }
@@ -79,27 +79,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "perde",
-      "na": "perdeu",
-      "quem": 0
-     },
-     {
-      "faz": "golpe",
-      "na": "briga",
-      "quem": 0,
-      "alvo_quem": 1
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "reveal",
@@ -109,16 +93,7 @@
    ],
    "mapa": "DINAMARCA",
    "mapa_at": 3,
-   "say": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Alemanha"
-     }
-    ]
-   }
+   "say": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
   },
   {
    "shot": "wide",
@@ -158,19 +133,7 @@
     "whoosh@36",
     "thump@40"
    ],
-   "say": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "golpe",
-      "na": "duelo",
-      "quem": 0,
-      "alvo_quem": 1,
-      "forcar": true
-     }
-    ]
-   }
+   "say": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro."
   },
   {
    "shot": "two",
@@ -238,20 +201,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "metal"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -334,27 +288,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "constroi",
-      "na": "construiu",
-      "quem": 0
-     },
-     {
-      "faz": "escreve",
-      "na": "anotou",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "_enq_shot": "wide"
   },
   {
    "shot": "two",
@@ -416,20 +355,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "estrelas"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "max_wide": 3,
@@ -467,7 +397,5 @@
    "castelo": "Uraniborg engraving Hven",
    "retrato": "Tycho Brahe portrait nose"
   }
- },
- "cinf": 3.0,
- "exp": 1.254
+ }
 }

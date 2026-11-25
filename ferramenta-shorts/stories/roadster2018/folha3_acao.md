@@ -1,14 +1,11 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 13 palavras - plano two
 > "Um carro de verdade está dando voltas ao redor do Sol até hoje."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carro" (0.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -22,18 +19,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b1 - 4.4s a 9.8s - 18 palavras - plano wide
 > "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Roadster" (5.1s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b2 - 10.9s a 16.5s - 19 palavras - plano wide
 > "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Falcon" (12.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -46,9 +37,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b3 - 17.9s a 23.0s - 20 palavras - plano two
 > "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ENG fala apontando | na palavra "mandar" (22.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -66,9 +54,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b4 - 24.2s a 25.5s - 6 palavras - plano wide
 > "O foguete decolou com um estrondo!"
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto acao do motor: voa | na palavra "decolou" (24.7s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | decolou (24.7s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
@@ -85,25 +70,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b5 - 26.9s a 30.8s - 12 palavras - plano two
 > "No banco do motorista foi sentado um boneco de astronauta, chamado Starman."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) STA senta no chao/banco | na palavra "sentado" (28.2s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | sentado (28.2s) | ACAO: senta | senta | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | chamado (30.2s) | ACAO: fala | aponta explicando | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: senta na palavra sentado (28.2s): executa: senta
+- ACAO: fala na palavra chamado (30.2s): braco estendido apontando para o objeto/lugar citado
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b6 - 32.0s a 34.4s - 8 palavras - plano orbit
 > "No painel, estava escrito: Não entre em pânico."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "painel" (32.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -117,18 +98,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b7 - 35.7s a 39.7s - 17 palavras - plano two
 > "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "órbita" (36.5s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b8 - 41.0s a 43.9s - 10 palavras - plano wide
 > "E ele continua lá em cima, dando voltas, até hoje."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltas" (43.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -143,9 +118,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b9 - 45.1s a 50.0s - 17 palavras - plano two
 > "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aviso" (46.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

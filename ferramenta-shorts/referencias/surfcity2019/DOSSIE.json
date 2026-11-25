@@ -58,7 +58,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/lighthouse",
   "buildings/shop",
   "kit/room_colonial_stone",
   "kit/room_europa_shop",
@@ -69,7 +68,39 @@
   "mk/Chest_Wood",
   "mk/Table_Large"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de pedra, coqueiros, morros verdes)",
+  "quando": "2019 a 2025, dia de sol",
+  "participantes": [
+   "Nayib Bukele (jaqueta escura, bone)",
+   "surfistas com prancha",
+   "jornalistas",
+   "moradores da costa"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura e barba",
+   "JOR": "camisa social com microfone",
+   "JOR2": "camiseta e cracha de imprensa",
+   "POV": "roupa de praia"
+  },
+  "cenario": "praia de areia escura vulcanica com ondas longas, coqueiros, palanque do campeonato; rua do porto de La Libertad",
+  "objetos": [
+   "pranchas de surfe",
+   "placa Surf City",
+   "palanque de competicao"
+  ],
+  "explicacoes": [
+   "Surf City El Salvador: programa de turismo lancado em 2019; o pais sediou o ISA World Surfing Games 2021 (classificatoria olimpica para Toquio) e 2023 (para Paris) em El Sunzal e La Bocana (fonte: Wikipedia Surf City El Salvador; ISA)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/El_Sunzal",
+   "https://en.wikipedia.org/wiki/La_Libertad,_El_Salvador"
+  ],
+  "buscas": {
+   "praia": "El Sunzal surf El Salvador",
+   "evento": "ISA World Surfing Games 2021 El Salvador"
+  }
+ },
  "fontes": [
   "https://dukesurf.com/en/Nayib-Bukele-We-want-people-to-think-about-El-Salvador-and-think-about-surfing/",
   "https://elsalvadorperspectives.com/2019/09/surfcity-el-salvador.html",
@@ -78,13 +109,5 @@
   "https://www.sportspolitika.news/p/the-worlds-coolest-dictator-wants",
   "https://ticotimes.net/2025/12/07/el-salvadors-surf-city-reshapes-coastline-amid-tourism-boom"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

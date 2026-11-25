@@ -1,18 +1,7 @@
 {
  "id": "darwin1835",
  "ano": 1835,
- "cenarios_trocados": [
-  [
-   "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -42,11 +31,11 @@
   {
    "camera": "reveal",
    "personagens": [
-    "MAR",
     "MAR"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
+    "kit/navio_fragata",
     "navio em movimento",
     "navios de guerra ao fundo, no tamanho real"
    ],
@@ -67,7 +56,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/finch"
+    "kit/finch",
+    "kit/navio_fragata"
    ],
    "palavras": 24,
    "cena": "b2",
@@ -79,12 +69,12 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "DAR",
     "MAR"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/finch"
    ],
@@ -106,8 +96,8 @@
   {
    "camera": "two",
    "personagens": [
-    "DAR",
-    "GOU"
+    "GOU",
+    "DAR"
    ],
    "multidao": 0,
    "objetos": [
@@ -148,7 +138,7 @@
     "DAR",
     "GOU"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/finch",
     "kit/finch_long",
@@ -172,8 +162,7 @@
   {
    "camera": "two",
    "personagens": [
-    "DAR",
-    "GOU"
+    "DAR"
    ],
    "multidao": 0,
    "objetos": [
@@ -206,7 +195,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "DAR"
    ],
@@ -221,10 +210,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "DAR"
    ],
@@ -237,7 +226,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   }
  ]
 }

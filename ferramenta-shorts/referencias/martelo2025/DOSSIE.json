@@ -8,13 +8,19 @@
   "luz_base": "day",
   "cenarios": [
    "hall",
-   "harbor",
    "interior pedra",
    "loc_campo",
-   "loc_pista",
-   "mountain"
+   "loc_estudio",
+   "loc_montanha",
+   "loc_pista"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 3",
+    "mountain",
+    "loc_montanha"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "barril",
@@ -38,13 +44,12 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_small",
   "kit/b2_air",
   "kit/bunker_bomb",
   "kit/mountain_bunker",
   "kit/room_europa_stone",
   "kit/room_oriente_stone",
-  "kit/submarino_ww2",
+  "kit/submarino_moderno",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",
   "mk/Cabinet",
@@ -53,9 +58,7 @@
   "mk/Crate_Metal",
   "mk/Nightstand_Shelf",
   "mk/Stool",
-  "mk/Table_Large",
-  "nature/picket_fence",
-  "nature/tree_oak"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)",
@@ -91,10 +94,13 @@
    "Marinha dos EUA": "US Navy Ohio-class submarine surfaced",
    "bunker na montanha": "Fordow Fuel Enrichment Plant satellite image Iran mountain",
    "b2 air": "B-2 Spirit stealth bomber flying",
-   "aviao da epoca": "B-2 Spirit bomber 2025"
+   "aviao da epoca": "B-2 Spirit bomber 2025",
+   "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)": "Fordow enrichment plant",
+   "Um submarino ainda lançou mísseis contra uma terceira usina.": "Ohio class submarine"
   },
   "explicacoes": [
-   "A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)"
+   "A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)",
+   "Operacao Midnight Hammer (22/6/2025): 7 B-2 de Whiteman (Missouri), ~18 h de voo com reabastecimento; avioes isca enviados para Guam/Pacifico; 14 GBU-57, 12 em Fordow; submarino lancou Tomahawks contra Isfahan (fonte: Wikipedia, Operation Midnight Hammer)."
   ]
  },
  "fontes": [

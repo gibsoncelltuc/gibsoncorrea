@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/phone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "E-MAIL = DINHEIRO" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
   - take 1 (10.5-12.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -188,7 +188,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land
+- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land, kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, internet, venda
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -197,9 +197,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/roadster: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/falcon9_land: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.3 m de altura x 6.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/roadster: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.9 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/falcon9_land: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 15.3 m de altura x 7.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/tv: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
   - take 1 (42.6-44.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (44.2-45.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -210,7 +211,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pagamento
 - RISCOS: nenhum
@@ -240,7 +241,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/coin | b0, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tv | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon9_land | b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

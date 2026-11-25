@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) @14 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: DINAMARCA
 - Funcao na historia: GRANDE MOMENTO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@36, thump@40
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @6 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

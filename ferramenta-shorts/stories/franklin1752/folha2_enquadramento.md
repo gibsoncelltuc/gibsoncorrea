@@ -3,7 +3,7 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Um homem soltou uma pipa em plena tempestade para pegar um raio."
-- LOCAL: loc_campo; hora: day; clima: tempestade
+- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: tempestade
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
 - PERSONAGENS: FRA (cientista) na esquerda, expressao grin; FIL (agricultor) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/kite: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -17,8 +17,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Na época, muita gente achava que o raio era um castigo dos céus, e não uma força da natureza."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: COM (comerciante) na esquerda, expressao scared; POV (camponesa) na direita, expressao scared; sem multidao; acao: conversar
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: COM (comerciante) na esquerda, expressao scared; POV (camponesa) no centro, expressao scared; FIL (agricultor) na direita, expressao sad; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b3: "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante."
@@ -61,9 +61,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: limpo
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 15.4 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: FRA (cientista) no centro, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/lightning_rod: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 0.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/lightning_rod: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.3 m de altura x 0.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/lightning_rod: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 4.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena

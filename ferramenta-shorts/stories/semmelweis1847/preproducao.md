@@ -14,7 +14,7 @@ b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basi
 b7 | street | orbit | 3 | comemorar | kit/wash_basin, kit/marco_viena | - | -
 b8 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
 b9 | street | two | 1 | conversar | kit/lapide | - | -
-b10 | street | orbit | 1 | batalha | kit/wash_basin | - | -
+b10 | street | orbit | 1 | encena, batalha | kit/wash_basin | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/wash_basin

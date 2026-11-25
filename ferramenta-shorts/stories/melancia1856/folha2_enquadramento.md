@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e melon juntos (camera a 11.5 m)
 - PERSONAGENS: VIA (jornalista) na esquerda, expressao smug; VEN (comerciante) na direita, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/melon: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1856" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
@@ -56,9 +55,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "ESTAÇÃO DE TREM" flutuando no alto, na palavra 1 da frase
 
 ## b8: "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
-- LOCAL: sala de madeira; hora: day
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE (politico) na esquerda, expressao sad, segura paper; MOR (agricultor) na direita, expressao cry; sem multidao; acao: susto
+- PERSONAGENS: PRE (politico) na esquerda, expressao sad, segura paper; MOR (agricultor) na direita, expressao cry; multidao de 14 (POV) ATRAS dos principais; acao: susto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b9: "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos."

@@ -7,7 +7,15 @@
    "item": "O Macaco que Jogou Videogame com a Mente",
    "consultas": [
     "O Macaco que Jogou Videogame com a Mente",
-    "Uma Elon Musk Sem Foi Estados Unidos Neuralink 2021"
+    "Um Foi Neuralink 2021"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas",
+   "consultas": [
+    "Neuralink Fremont California",
+    "Neuralink Fremont California 2021"
    ]
   },
   {
@@ -27,10 +35,82 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "macaco Pager (macaco-rhesus de 9 anos)",
+   "consultas": [
+    "macaco Pager macaco-rhesus de 9 anos",
+    "macaco Pager macaco-rhesus de 9 anos 2021"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "cientistas de jaleco",
+   "consultas": [
+    "cientistas de jaleco",
+    "cientistas de jaleco 2021"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Elon Musk",
+   "consultas": [
+    "Elon Musk",
+    "Elon Musk 2021"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Noland Arbaugh (cadeira de rodas)",
+   "consultas": [
+    "Noland Arbaugh cadeira de rodas",
+    "Noland Arbaugh cadeira de rodas 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "tela com Pong",
+   "consultas": [
+    "tela com Pong",
+    "tela com Pong 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "joystick",
+   "consultas": [
+    "joystick",
+    "joystick 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "canudo de metal com vitamina de banana",
+   "consultas": [
+    "canudo de metal com vitamina de banana",
+    "canudo de metal com vitamina de banana 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "chip N1 (moeda pequena)",
+   "consultas": [
+    "chip N1",
+    "chip N1 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "computador com xadrez",
+   "consultas": [
+    "computador com xadrez",
+    "computador com xadrez 2021"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "monkey pong",
    "consultas": [
-    "monkey pong",
+    "tela com Pong",
     "O Macaco que Jogou Videogame com a Mente"
    ]
   },

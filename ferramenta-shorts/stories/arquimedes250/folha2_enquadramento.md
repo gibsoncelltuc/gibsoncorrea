@@ -9,13 +9,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +20 da cena
 - SOM: steps@10
-- TEXTO NA TELA: "EUREKA" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Foi em Siracusa, na Sicília, há mais de dois mil anos."
 - LOCAL: vila medieval; hora: day
 - CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao neutral; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: SICÍLIA (cobre a tela 1-2 s)
 
 ## b2: "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives."
@@ -36,11 +36,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: REI na esquerda, expressao angry, segura paper; ARQ na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b5: "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas."
+## b5: "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
-- PERSONAGENS: ARQ na esquerda, expressao shock; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 8.0 m)
+- PERSONAGENS: ARQ no centro, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/bathtub: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
 - SOM: whoosh@50
@@ -53,14 +53,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/crown no centro, manobra "parado"
+- OBJETO: kit/coroa_louros no centro, manobra "parado"
 - PASSOS NA TELA: -
 
 ## b8: "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro."
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano do objeto; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ARQ na esquerda, expressao grin; OUR na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/crown: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/coroa_louros: FRENTE, centro (objeto principal da cena); tamanho na tela: 3% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.2 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
 ## b9: "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata."
 - LOCAL: vila medieval; hora: day
@@ -77,5 +77,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
 - PERSONAGENS: REI na esquerda, expressao smile; OUR na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 

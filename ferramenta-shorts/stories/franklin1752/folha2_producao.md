@@ -57,17 +57,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: COM (comerciante) na esquerda, expressao scared; POV (camponesa) na direita, expressao scared; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (11.1-12.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (12.6-14.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (14.1-15.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-
 ## Cena b3 - Franklin discordava: para ele, o raio era só uma faísca elétrica gigan...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
@@ -143,22 +132,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: tempestade
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
-- PERSONAGENS: FRA (cientista) na esquerda, expressao shock; FIL (agricultor) na direita, expressao scared; sem multidao; acao: fala/gesto
-- OBJETO kit/kite: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/key: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +36 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +46 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
-- SOM: sting@36
-- SOM: thump@40
-- SOM: ding@46
-- TAKES: sequencia de acao em 3 cameras (5.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
-
 ## Cena b7 - Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
@@ -170,41 +143,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: COM (comerciante) na esquerda, expressao suspicious; FRA (cientista) na direita, expressao relief; sem multidao; acao: cochichar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (39.4-41.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (41.3-43.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (43.1-45.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-
 ## Cena b8 - Franklin então inventou o para-raios, e hoje ele protege casas e prédi...
 - Cenario: street | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): FRA (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pararaios
 - RISCOS: nenhum
 <!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: limpo
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: FRA (cientista) no centro, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/lightning_rod: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 0.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/lightning_rod: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 4.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
-- SOM: ding@30
-- SOM: sting@70
-- TEXTO NA TELA: "PARA-RAIOS" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b9 - No fim, o raio perdeu a briga para uma chave.
 - Cenario: interior loja | luz: day | clima: limpo
@@ -216,14 +164,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, chave, raio
 - RISCOS: nenhum
 <!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: FRA (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
@@ -249,11 +189,13 @@ nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 24% | medio 56% | aberto 14% | detalhe 6%
+- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 2 | mistura: close 23% | medio 61% | aberto 11% | detalhe 6%
 - Interacoes: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py franklin1752  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/franklin1752/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh franklin1752 bN bM` (so essas cenas).

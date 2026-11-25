@@ -1,7 +1,18 @@
 {
  "id": "gansos390",
  "ano": null,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 4",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -65,10 +76,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "ROM",
     "GAU"
@@ -88,7 +99,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "wide",
@@ -179,16 +190,14 @@
   },
   {
    "camera": "group",
-   "personagens": [
-    "ROM"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
    "cena": "b9",
    "frase": "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.",
    "classe": "simples",
-   "sujeito": "personagem",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "medieval"

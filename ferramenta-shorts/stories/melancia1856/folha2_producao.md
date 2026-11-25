@@ -18,7 +18,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e melon juntos (camera a 11.5 m)
 - PERSONAGENS: VIA (jornalista) na esquerda, expressao smug; VEN (comerciante) na direita, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/melon: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1856" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (0.2-2.0 s): mesmo angulo
   - take 2 (2.0-3.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -52,7 +51,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): VIA (variante 0, expressao neutral) | multidao: 0 de 
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: vehicles/locomotive, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): istmo, navio, trem
 - RISCOS: nenhum
@@ -171,20 +170,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PRE (variante 0, expressao sad, segura paper); MOR (variante 0, expressao cry)
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): PRE (variante 0, expressao sad, segura paper); MOR (variante 0, expressao cry) | multidao: 14 de POV
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: -
+- Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, quinze
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE (politico) na esquerda, expressao sad, segura paper; MOR (agricultor) na direita, expressao cry; sem multidao; acao: susto
+- PERSONAGENS: PRE (politico) na esquerda, expressao sad, segura paper; MOR (agricultor) na direita, expressao cry; multidao de 14 (POV) ATRAS dos principais; acao: susto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
   - take 1 (39.1-41.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -253,12 +252,12 @@ vehicles/locomotive | b1, b2, b7 | pronto | conferir na folha de contato se le b
 kit/stall | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/pistol | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 25% | detalhe 2%
+- Objeto heroi: kit/melon | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 11% | medio 60% | aberto 25% | detalhe 4%
 - Interacoes: b0 discutir, b3 empurrar, b4 discutir, b8 susto, b9 entregar
 - RISCOS GERAIS: nenhum
 

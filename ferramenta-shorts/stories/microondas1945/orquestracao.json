@@ -186,8 +186,9 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
+    "POV",
     "POV"
    ],
    "multidao": 0,

@@ -4,13 +4,14 @@
  "ancoras": {
   "ano": 1839,
   "era": "historica",
-  "regiao": "colonial",
+  "regiao": "europa",
   "luz_base": "day",
   "cenarios": [
    "hall",
-   "interior loja",
+   "interior galpao",
    "interior madeira",
    "interior pedra",
+   "loc_estudio",
    "street"
   ],
   "cenarios_trocados": []
@@ -32,19 +33,17 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
-  "kit/ball",
+  "kit/bola_couro",
   "kit/borracha",
-  "kit/coin",
   "kit/enxofre",
   "kit/frasco",
   "kit/gosma",
   "kit/panela",
-  "kit/room_azul_wood",
-  "kit/room_colonial_wood",
+  "kit/room_azul_stone",
   "kit/room_europa_wood",
-  "kit/room_rosa_shop",
-  "kit/room_verde_stone",
+  "kit/room_galpao",
+  "kit/room_rosa_wood",
+  "kit/room_verde_wood",
   "kit/stove",
   "kit/tires",
   "kit/tubos",
@@ -57,6 +56,7 @@
   "mk/CandleStick_Triple",
   "mk/Chair_1",
   "mk/Chest_Wood",
+  "mk/Crate_Metal",
   "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
   "mk/Shelf_Arch",
@@ -65,6 +65,7 @@
   "mk/Table_Large",
   "mk/Vase_2",
   "mk/Vase_4",
+  "mk/Workbench",
   "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
@@ -108,7 +109,10 @@
    "Estados Unidos": "New England village 1830s",
    "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois": "Woburn Massachusetts 19th century",
    "stove": "antique cast iron cook stove"
-  }
+  },
+  "explicacoes": [
+   "Borracha natural crua amolece e fica pegajosa no calor e endurece e racha no frio; aquecida com enxofre (vulcanizacao) as cadeias do polimero se ligam e ela fica firme e elastica em qualquer temperatura (Charles Goodyear, patente americana 3633, 1844; Smithsonian/ACS National Historic Chemical Landmark)."
+  ]
  },
  "fontes": [],
  "falta": []

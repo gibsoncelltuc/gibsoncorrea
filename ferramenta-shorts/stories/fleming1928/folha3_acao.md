@@ -1,194 +1,142 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
+## Cena b0 - 0.2s a 3.3s - 12 palavras - plano two
 > "Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mofo" (0.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | salvando (3.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra salvando (3.0s): executa: estende a mao entregando
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b1 - 4.4s a 10.4s - 17 palavras - plano reveal
+## Cena b1 - 4.5s a 9.3s - 17 palavras - plano reveal
 > "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Londres" (6.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | INGLATERRA | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-- multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b2 - 10.7s a 18.9s - 23 palavras - plano two
+## Cena b2 - 10.7s a 18.0s - 23 palavras - plano two
 > "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FLE acao do motor: examina | na palavra "estudava" (11.0s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | estudava (11.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | empilhados (14.1s) | ACAO: pega | levanta/segura | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| 1 | estudava (11.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: examina na palavra estudava (11.1s): executa: examina com lupa/microscopio/balanca
-- ACAO: pega na palavra empilhados (14.1s): executa: levanta/segura
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b3 - 19.3s a 23.7s - 13 palavras - plano group
+## Cena b3 - 19.2s a 21.8s - 13 palavras - plano wide
 > "Um dia, ele saiu de férias por um mês e não limpou nada."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FLE acao do motor: sai | na palavra "saiu" (20.2s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (20.4s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | susto | OK |
+| 1 | saiu (20.2s) | ACAO: sai | sai andando pela lateral | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: sai na palavra saiu (20.4s): executa: sai andando pela lateral
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: reagir
-- CHEGADA (a cena toda): executa: alguem entra andando
-<!-- /FISICA -->
-
-## Cena b4 - 24.1s a 27.4s - 10 palavras - plano two
+## Cena b4 - 23.0s a 26.5s - 10 palavras - plano two
 > "Quando voltou, achou um prato estragado, coberto de bolor verde."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FLE chega na cena | na palavra "voltou" (23.3s)
+  2) FLE olha/aponta para o alvo | na palavra "achou" (23.9s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (24.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | achou (24.8s) | ACAO: olha | aponta/olha | OK |
+| 1 | voltou (23.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | achou (23.9s) | ACAO: olha | aponta/olha | OK |
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (24.4s): executa: entra andando pela lateral
-- ACAO: olha na palavra achou (24.8s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b5 - 27.8s a 30.7s - 9 palavras - plano close
+## Cena b5 - 27.5s a 29.5s - 9 palavras - plano two
 > "Ele ia jogar o prato fora, mas olhou melhor."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FLE olha/aponta para o alvo | na palavra "olhou" (29.2s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | olhou (30.4s) | ACAO: olha | aponta/olha | OK |
+| 1 | olhou (29.2s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra olhou (30.4s): braco estendido apontando para o objeto/lugar citado
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b6 - 31.1s a 34.4s - 10 palavras - plano orbit
+## Cena b6 - 30.7s a 33.7s - 10 palavras - plano two
 > "Acontece que, em volta do mofo, as bactérias tinham sumido."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mofo" (32.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
+| 3 | - | PLACA | BACTÉRIAS SUMIRAM | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- ATUACAO (a cena toda): executa: reagir
-- multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b7 - 34.8s a 40.7s - 17 palavras - plano two
+## Cena b7 - 35.1s a 38.9s - 17 palavras - plano two
 > "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "penicilina" (38.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 41.1s a 46.3s - 15 palavras - plano group
+## Cena b8 - 40.4s a 45.3s - 15 palavras - plano group
 > "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "remédio" (43.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | transformaram (42.6s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
-| 2 | salvou (45.2s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
-| 4 | - | INTERACAO | pular | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
+| 1 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
+| 2 | - | INTERACAO | pular | OK |
+| 3 | - | ATUACAO | comemorar | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: vira na palavra transformaram (42.6s): executa: o material vira o produto, que surge girando em destaque
-- ACAO: x_entrega na palavra salvou (45.2s): executa: estende a mao entregando
-- EMOCAO: relief (a cena toda): executa: o rosto vira "relief" na palavra
-- INTERACAO (a cena toda): executa: pular
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
-
-## Cena b9 - 46.7s a 50.4s - 11 palavras - plano group
+## Cena b9 - 46.5s a 49.1s - 11 palavras - plano orbit
 > "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FLE comemora a vitoria | na palavra "ganhou" (48.7s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (49.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (49.6s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | o outro se aproxima | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
-<!-- FISICA -->
+| 1 | ganhou (48.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (48.7s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra ganhou (49.6s): executa: estrelinhas + som
-- ACAO: vence na palavra ganhou (49.6s): executa: bracos para cima + brilho
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b10 - 50.7s a 54.1s - 10 palavras - plano close
+## Cena b10 - 50.2s a 52.6s - 10 palavras - plano close
 > "No fim, a bagunça dele valeu mais que qualquer faxina."
+
+- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bagunça" (51.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b11 - 54.4s a 58.9s - 13 palavras - plano close
+## Cena b11 - 54.0s a 57.3s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 

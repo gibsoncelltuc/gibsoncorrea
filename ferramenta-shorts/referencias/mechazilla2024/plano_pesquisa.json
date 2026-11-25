@@ -7,7 +7,15 @@
    "item": "A Torre que Pegou um Foguete no Ar",
    "consultas": [
     "A Torre que Pegou um Foguete no Ar",
-    "Elon Musk Foi SpaceX Texas Normalmente Isso 2024"
+    "Elon Musk Foi SpaceX Texas Normalmente 2024"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo",
+   "consultas": [
+    "Starbase Boca Chica Texas",
+    "Starbase Boca Chica Texas 2024"
    ]
   },
   {
@@ -27,10 +35,58 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Elon Musk (camiseta preta)",
+   "consultas": [
+    "Elon Musk camiseta preta",
+    "Elon Musk camiseta preta 2024"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "engenheiros da SpaceX (camisa polo, fones)",
+   "consultas": [
+    "engenheiros da SpaceX camisa polo fones",
+    "engenheiros da SpaceX camisa polo fones 2024"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "publico assistindo de longe",
+   "consultas": [
+    "publico assistindo de longe",
+    "publico assistindo de longe 2024"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "torre Mechazilla",
+   "consultas": [
+    "torre Mechazilla",
+    "torre Mechazilla 2024"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "propulsor Super Heavy com 33 motores Raptor",
+   "consultas": [
+    "propulsor Super Heavy com 33 motores Raptor",
+    "propulsor Super Heavy com 33 motores Raptor 2024"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "foguete Starship",
+   "consultas": [
+    "foguete Starship",
+    "foguete Starship 2024"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "tower mini",
    "consultas": [
-    "tower mini",
+    "torre Mechazilla",
     "A Torre que Pegou um Foguete no Ar"
    ]
   },
@@ -51,18 +107,18 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre d",
+   "item": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a",
    "consultas": [
-    "tirar pernas foguete fazer propria torre lancamento agarrar",
-    "diagram"
+    "tirar pernas foguete fazer propria torre agarrar propulsor",
+    "tower catch diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, vá",
+   "item": "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias",
    "consultas": [
-    "assim propulsor usado varias",
-    "diagram"
+    "assim propulsor varias",
+    "booster air diagram"
    ]
   }
  ]

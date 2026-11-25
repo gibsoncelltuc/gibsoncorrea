@@ -6,8 +6,18 @@
    "tipo": "tema",
    "item": "O País do Bitcoin",
    "consultas": [
+    "El Salvador bitcoin legal tender 2021 Chivo",
     "O País do Bitcoin",
-    "Em El Salvador América Central Nayib Bukele 2021"
+    "Um Foi El Salvador América Central Nayib Bukele Ele 2021"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador,",
+   "consultas": [
+    "San Salvador market street 2021",
+    "Ruas e feiras de El Salvador Assembleia Legislativa e mercados de San Salvador 2021",
+    "Ruas e feiras de El Salvador Assembleia Legislativa e mercados de San Salvador 2021 2021"
    ]
   },
   {
@@ -27,10 +37,74 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "presidente Nayib Bukele (jaqueta escura e bone)",
+   "consultas": [
+    "presidente Nayib Bukele jaqueta escura e bone",
+    "presidente Nayib Bukele jaqueta escura e bone 2021"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "deputados da Assembleia Legislativa de terno",
+   "consultas": [
+    "deputados da Assembleia Legislativa de terno",
+    "deputados da Assembleia Legislativa de terno 2021"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "comerciantes de chapeu de palha e camisa laranja",
+   "consultas": [
+    "comerciantes de chapeu de palha e camisa laranja",
+    "comerciantes de chapeu de palha e camisa laranja 2021"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "clientes comuns de camisa verde",
+   "consultas": [
+    "clientes comuns de camisa verde",
+    "clientes comuns de camisa verde 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "moeda de bitcoin",
+   "consultas": [
+    "moeda de bitcoin",
+    "moeda de bitcoin 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "carteira digital Chivo",
+   "consultas": [
+    "carteira digital Chivo",
+    "carteira digital Chivo 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "barraca de feira",
+   "consultas": [
+    "barraca de feira",
+    "barraca de feira 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "globo",
+   "consultas": [
+    "globo",
+    "globo 2021"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "bitcoin",
    "consultas": [
-    "bitcoin",
+    "moeda de bitcoin",
     "O País do Bitcoin"
    ]
   },

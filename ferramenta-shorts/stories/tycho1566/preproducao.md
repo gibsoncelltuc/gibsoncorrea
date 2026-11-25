@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | medieval | two | 2 | discutir, INTERAGEM: discutir | kit/brass_nose | - | -
-b1 | loc_campo | wide | 8 | batalha | - | - | -
+b1 | loc_campo | wide | 8 | encena, batalha | - | - | -
 b2 | interior madeira | two | 2 | discutir, INTERAGEM: avanca e o outro recua | - | - | -
 b3 | loc_deserto | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | -
 b4 | loc_deserto | two | 2 | encena, INTERAGEM: susto | kit/brass_nose | sword, sword | -

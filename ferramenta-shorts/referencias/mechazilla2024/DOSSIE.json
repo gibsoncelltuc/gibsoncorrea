@@ -4,73 +4,23 @@
  "ancoras": {
   "ano": 2024,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": null,
   "luz_base": "day",
   "cenarios": [
-   "interior True",
+   "loc_campo",
    "loc_deserto",
    "loc_patio"
   ],
   "cenarios_trocados": [
-   [
-    "video",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 1",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 3",
-    "outback",
-    "loc_deserto"
-   ],
    [
     "cena 4",
     "outback",
     "loc_deserto"
    ],
    [
-    "cena 5",
+    "cena 10",
     "outback",
     "loc_deserto"
-   ],
-   [
-    "cena 6",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 7",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 8",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 9",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 11",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 12",
-    "harbor",
-    "loc_patio"
-   ],
-   [
-    "cena 13",
-    "harbor",
-    "loc_patio"
    ]
   ]
  },
@@ -98,26 +48,50 @@
  "objetos_em_cena": [
   "kit/booster_air",
   "kit/rocket",
-  "kit/room_eua_wood",
   "kit/tower",
   "kit/tower_catch",
-  "kit/tower_mini",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large"
+  "kit/tower_mini"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo plano, sala de controle",
+  "quando": "13 de outubro de 2024, manha",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "engenheiros da SpaceX (camisa polo, fones)",
+   "publico assistindo de longe"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "ENG": "camisa polo azul e fone",
+   "ENA": "camisa polo e cracha",
+   "POV": "roupa casual"
+  },
+  "cenario": "torre metalica alta com dois bracos gigantes (chopsticks), plataforma de concreto, campo plano e mar ao fundo",
+  "objetos": [
+   "torre Mechazilla",
+   "propulsor Super Heavy com 33 motores Raptor",
+   "foguete Starship"
+  ],
+  "explicacoes": [
+   "No 5o voo da Starship (13/10/2024) o propulsor Super Heavy voltou e foi agarrado pelos bracos (chopsticks) da torre de lancamento, a Mechazilla, sem pernas de pouso, para ser reutilizado (fonte: Wikipedia Starship flight test 5)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Starship_flight_test_5",
+   "https://en.wikipedia.org/wiki/SpaceX_Starbase"
+  ],
+  "locacoes": [
+   "loc_patio",
+   "loc_campo",
+   "loc_deserto",
+   "interior pedra"
+  ],
+  "buscas": {
+   "torre": "Mechazilla chopsticks catch Super Heavy booster",
+   "base": "Starbase Boca Chica launch tower"
+  }
+ },
  "fontes": [
   "https://www.space.com/spacex-starship-flight-5-launch-super-heavy-booster-catch-success-video"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: street | 
 - Narracao: Mas Galileu Galilei achou estranho e resolveu provar o contrário.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; encena: pensa (think) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; encena: olha (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: street | 
 - Narracao: Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: x_solta (up) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: x_solta (up) @4 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

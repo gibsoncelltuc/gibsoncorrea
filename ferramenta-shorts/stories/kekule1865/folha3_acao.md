@@ -21,7 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | BÉLGICA | OK |
 
 ## Cena b2 - 10.0s a 14.9s - 16 palavras - plano two
@@ -77,12 +77,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | FESTA | OK |
 
-## Cena b8 - 43.9s a 49.6s - 19 palavras - plano crowd
+## Cena b8 - 43.9s a 49.6s - 19 palavras - plano wide
 > "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | REMÉDIOS, TINTAS, PLÁSTICOS | OK |
 
 ## Cena b9 - 50.9s a 55.0s - 12 palavras - plano close

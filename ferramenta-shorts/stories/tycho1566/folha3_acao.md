@@ -1,15 +1,11 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 15 palavras - plano two
 > "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) TYC mao na testa (derrota) | na palavra "perdeu" (1.7s)
-  2) TYC da um golpe/soco no alvo | na palavra "briga" (2.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -37,16 +33,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b1 - 5.1s a 10.4s - 17 palavras - plano wide
 > "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Alemanha" (10.4s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | MAPA | DINAMARCA | OK |
+| 1 | estudava (9.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | MAPA | DINAMARCA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: examina na palavra estudava (9.8s): executa: examina com lupa/microscopio/balanca
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
@@ -77,20 +72,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 16.2s a 19.9s - 13 palavras - plano two
 > "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) TYC da um golpe/soco no alvo | na palavra "duelo" (18.8s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | briga (18.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | duelo (18.8s) | ACAO: golpe | soco + estouro | OK |
+| 2 | briga (18.3s) | ACAO: golpe | soco + estouro | OK |
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | discutir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: puff na palavra briga (18.3s): executa: fumaca + som
-- ACAO: golpe na palavra duelo (18.8s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- ACAO: golpe na palavra briga (18.3s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
 - INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
@@ -114,9 +106,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b5 - 26.6s a 30.3s - 15 palavras - plano two
 > "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "metal" (29.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -144,10 +133,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b7 - 36.7s a 41.8s - 17 palavras - plano orbit
 > "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) TYC martela/constroi | na palavra "construiu" (37.5s)
-  2) TYC escreve no papel | na palavra "anotou" (39.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -187,9 +172,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b9 - 49.4s a 51.7s - 10 palavras - plano two
 > "Com a cabeça nas estrelas, e o nariz de metal."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "estrelas" (50.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

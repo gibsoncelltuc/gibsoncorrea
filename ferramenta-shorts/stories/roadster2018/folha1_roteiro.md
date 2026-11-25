@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 
 - Narracao: No banco do motorista foi sentado um boneco de astronauta, chamado Starman.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: senta @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: senta @5 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

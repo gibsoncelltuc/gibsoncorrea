@@ -8,19 +8,13 @@
   "luz_base": "golden",
   "cenarios": [
    "interior loja",
-   "loc_campo",
+   "interior pedra",
    "loc_cidade",
-   "loc_patio",
-   "loc_pista"
+   "loc_deserto"
   ],
   "cenarios_trocados": [
    [
     "video",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 10",
     "street",
     "loc_cidade"
    ]
@@ -48,24 +42,64 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "kit/bancada",
   "kit/coin",
   "kit/extinguisher",
   "kit/fire",
   "kit/flamethrower",
-  "kit/globe",
   "kit/marco_hollywood",
-  "kit/room_eua_shop",
+  "kit/phone",
+  "kit/room_azul_shop",
+  "kit/room_eua_stone",
+  "kit/room_europa_shop",
+  "kit/room_rosa_stone",
+  "kit/room_verde_stone",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Metal",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers",
   "nature/picket_fence"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto para testes, ruas de Los Angeles",
+  "quando": "janeiro a fevereiro de 2018, dia",
+  "participantes": [
+   "Elon Musk (jaqueta preta)",
+   "funcionarios da Boring Company",
+   "compradores"
+  ],
+  "roupas": {
+   "MUS": "jaqueta preta e calca escura",
+   "CMP": "camisa verde com logo da empresa",
+   "POV": "roupa casual"
+  },
+  "cenario": "escritorio moderno, loja com caixas do produto, deserto aberto, rua de cidade americana",
+  "objetos": [
+   "Not-A-Flamethrower (lanca-chamas preto parecido com fuzil)",
+   "extintor vermelho de brinde"
+  ],
+  "explicacoes": [
+   "Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)",
+   "Em dezembro de 2017 Musk prometeu lancar o lanca-chamas quando a Boring Company vendesse 50 mil bones; os bones esgotaram (fonte: Wikipedia The Boring Company)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_Boring_Company#Not-A-Flamethrower"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "loc_deserto",
+   "interior pedra",
+   "interior loja"
+  ],
+  "buscas": {
+   "produto": "Boring Company Not-A-Flamethrower 2018"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

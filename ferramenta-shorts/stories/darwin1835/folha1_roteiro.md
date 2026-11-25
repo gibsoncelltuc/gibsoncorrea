@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: mistura (stir) @2 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: encena: quebra (throw) @8 -> acao + som de efeito; encena: pega (lift) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: objeto: finch_thick quebra (na palavra "quebrar") -> acao + som de efeito
 - Efeito visual marcado: dust@40, stars@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,14 +78,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito; encena: vira (up) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.8 s)
 - Narracao: No fim, o erro das etiquetas virou um acerto de bico.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

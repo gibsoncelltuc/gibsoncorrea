@@ -6,14 +6,25 @@
    "tipo": "tema",
    "item": "A Guerra da Chaleira",
    "consultas": [
+    "Kettle War 1784 Dolfijn Le Louis Scheldt",
     "A Guerra da Chaleira",
-    "Uma Era Holanda Ele 1784"
+    "Uma Foi Holanda Escalda José Segundo Antuérpia 1784"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R",
+   "consultas": [
+    "Antwerp Scheldt river 18th century painting ships",
+    "Rio Escalda",
+    "Rio Escalda Scheldt entre Antuérpia e a Holanda Países Baixos austríacos e República Holan"
    ]
   },
   {
    "tipo": "lugar",
    "item": "Holanda",
    "consultas": [
+    "Dutch Republic 18th century harbor painting",
     "Holanda 1784",
     "Holanda landscape"
    ]
@@ -27,35 +38,109 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "imperador José II da Áustria (casaca clara com faixa vermelha)",
+   "consultas": [
+    "Joseph II Holy Roman Emperor portrait 18th century",
+    "imperador José II da Áustria casaca clara com faixa vermelha",
+    "imperador José II da Áustria casaca clara com faixa vermelha 1784"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "oficiais e marinheiros austríacos de farda clara e azul",
+   "consultas": [
+    "Austrian infantry uniform 1780s",
+    "oficiais e marinheiros austríacos de farda clara e azul",
+    "oficiais e marinheiros austríacos de farda clara e azul 1784"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "marinheiros holandeses de casaca laranja e calça azul",
+   "consultas": [
+    "Dutch navy sailors 18th century uniform",
+    "marinheiros holandeses de casaca laranja e calça azul",
+    "marinheiros holandeses de casaca laranja e calça azul 1784"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "cozinheiro do navio de avental e touca branca",
+   "consultas": [
+    "ship cook 18th century galley painting",
+    "cozinheiro do navio de avental e touca branca",
+    "cozinheiro do navio de avental e touca branca 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "chaleira de sopa",
+   "consultas": [
+    "18th century iron soup kettle cauldron",
+    "chaleira de sopa",
+    "chaleira de sopa 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "canhão de bordo",
+   "consultas": [
+    "18th century ship cannon deck",
+    "canhão de bordo",
+    "canhão de bordo 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio mercante Le Louis",
+   "consultas": [
+    "Dutch brig 1780s ship painting",
+    "navio mercante Le Louis",
+    "navio mercante Le Louis 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio de guerra Dolfijn",
+   "consultas": [
+    "Dutch schooner 18th century warship 1784",
+    "navio de guerra Dolfijn",
+    "navio de guerra Dolfijn 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bandeira imperial",
+   "consultas": [
+    "Holy Roman Empire imperial flag double-headed eagle",
+    "bandeira imperial",
+    "bandeira imperial 1784"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "kettle",
    "consultas": [
-    "kettle",
+    "18th century iron soup kettle cauldron",
+    "chaleira de sopa",
     "A Guerra da Chaleira"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "navio fragata",
+   "consultas": [
+    "navio fragata"
    ]
   },
   {
    "tipo": "epoca",
    "item": "navio da epoca",
    "consultas": [
+    "18th century sailing ship brig painting",
     "ship 1784",
     "ship"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "canhao da epoca",
-   "consultas": [
-    "cannon 1784",
-    "cannon"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "soldado da epoca",
-   "consultas": [
-    "soldier uniform 1784",
-    "soldier uniform"
    ]
   }
  ]

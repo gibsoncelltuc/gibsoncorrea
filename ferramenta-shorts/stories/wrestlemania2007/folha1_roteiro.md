@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 13 cenas, 209 palavras (~72 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 12 cenas, 167 palavras (~58 s)
 
-## Cena b0  (~6.6 s)
-- Narracao: Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.
+## Cena b0  (~4.5 s)
+- Narracao: Donald Trump raspou a cabeça de outro bilionário no meio de um ringue.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: chega (point) @6 -> acao + som de efeito; encena: raspa (reach) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: raspa (reach) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2007
 - Funcao na historia: GANCHO
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~6.6 s)
-- Narracao: Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon.
+## Cena b2  (~5.9 s)
+- Narracao: A rivalidade era combinada, como todo show de luta: Trump contra o dono da empresa, Vince McMahon.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,11 +29,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~6.6 s)
-- Narracao: A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.
+## Cena b3  (~5.5 s)
+- Narracao: A aposta: cada um escolheu um lutador, e o dono do perdedor teria a cabeça raspada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito; encena: perde (facepalm) @14 -> acao + som de efeito; encena: raspa (reach) @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @11 -> acao + som de efeito; encena: raspa (reach) @15 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -56,11 +56,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.9 s)
-- Narracao: Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça.
+## Cena b6  (~4.5 s)
+- Narracao: Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito; encena: golpe (punch) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -74,35 +74,26 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: VITÓRIA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.8 s)
-- Narracao: Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.
+## Cena b8  (~4.5 s)
+- Narracao: Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar careca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
-- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: raspa (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: raspa (reach) @6 -> acao + som de efeito; encena: raspa (reach) @12 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: O dono da luta livre saiu do ringue completamente careca.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: encena: sai @5 -> acao + som de efeito; encena: raspa (reach) @9 -> acao + som de efeito
-- Efeito visual marcado: ring@20
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~5.9 s)
-- Narracao: E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.
+## Cena b9  (~3.1 s)
+- Narracao: E sobrou para Trump: o juiz derrubou ele também.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @7 -> acao + som de efeito; encena: golpe (punch) @9 -> acao + som de efeito; encena: tomba @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: derrubou -> dust + som de impacto
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~7.2 s)
-- Narracao: Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.
+## Cena b10  (~4.5 s)
+- Narracao: Seis anos depois, Trump entrou para o Hall da Fama da luta livre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
@@ -110,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b12  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

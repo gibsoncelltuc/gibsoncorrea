@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@30
-- Texto na tela: 1968
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.1 s)
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Spencer Silver tentava criar uma super cola.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: quimico (point) @3 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito; encena: x_solta (up) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POST-IT
 - Funcao na historia: GRANDE MOMENTO
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: perde (facepalm) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: 1980
 - Funcao na historia: desenvolvimento

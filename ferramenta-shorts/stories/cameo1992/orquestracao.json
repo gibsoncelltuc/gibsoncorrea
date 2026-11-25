@@ -8,32 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 1",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 3",
-   "street",
-   "loc_cidade"
-  ],
-  [
    "cena 6",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 9",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 11",
    "street",
    "loc_cidade"
   ]
@@ -46,7 +21,7 @@
  },
  "cenas": [
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FUN"
    ],
@@ -55,9 +30,9 @@
     "kit/marco_liberdade",
     "kit/tv"
    ],
-   "palavras": 22,
+   "palavras": 14,
    "cena": "b0",
-   "frase": "Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.",
+   "frase": "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -72,29 +47,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
+   "palavras": 28,
    "cena": "b1",
-   "frase": "Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "TRU",
-    "POV",
-    "POV"
-   ],
-   "multidao": 10,
-   "objetos": [
-    "nature/picket_fence"
-   ],
-   "palavras": 7,
-   "cena": "b2",
-   "frase": "A cena dura cerca de sete segundos.",
+   "frase": "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -105,10 +60,29 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "group",
+   "personagens": [
+    "FUN",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/picket_fence"
+   ],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "A cena dura cerca de sete segundos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "TRU"
    ],
@@ -123,7 +97,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -146,10 +120,9 @@
    "camera": "wide",
    "personagens": [
     "DIR",
-    "TRU",
-    "POV"
+    "TRU"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
@@ -158,15 +131,9 @@
    "palavras": 14,
    "cena": "b5",
    "frase": "Segundo o diretor, a participação de Trump foi o preço para usar o hotel.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -204,7 +171,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior pedra"
   },
   {
    "camera": "reveal",
@@ -218,14 +185,20 @@
    "palavras": 13,
    "cena": "b8",
    "frase": "O corte virou assunto por lá, e a discussão ainda dura até hoje.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],
@@ -240,10 +213,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "FUN"
    ],
@@ -256,7 +229,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior madeira"
   }
  ]
 }

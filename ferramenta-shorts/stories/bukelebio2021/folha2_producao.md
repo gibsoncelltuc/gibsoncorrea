@@ -2,29 +2,29 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bukelebio2021/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bukelebio2021` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nay...
+## Cena b0 - Um presidente escreveu no próprio perfil que era um ditador.
 - Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): celular, descricao, dois, perfil, presidente
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ditador, presidente, proprio
 - RISCOS: nenhum
 
-## Cena b1 - Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas d...
+## Cena b1 - Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes...
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): BUK (variante 0, expressao worried) | multidao: 30 de POV
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoas, ruas
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): POV (variante 0, expressao shout); POV (variante 1, expressao angry) | multidao: 30 de POV
+- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/volcano, buildings/apartment, buildings/house_two, nature/lamppost
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capital, ruas
 - RISCOS: nenhum
 
 ## Cena b2 - Primeiro, ele escreveu só uma palavra no perfil: ditador.
 - Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao laugh)
 - Animacao: conversar
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): BUK (variante 0, expressao grin); POV (variante 0, expressao shock); POV (variante 1, expressao shock)
-- Animacao: conversar | interacao: entregar | batalha encenada
+- Animacao: conversar | interacao: entregar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ditador, frase
 - RISCOS: nenhum
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil ...
 - Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: conversar
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao laugh); JOR2 (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: -
+- Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descricao
 - RISCOS: nenhum
 
@@ -117,23 +117,22 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/phone | b0, b2, b5, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b0, b2, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 43% | medio 46% | aberto 6% | detalhe 5%
+- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 11% | medio 76% | aberto 8% | detalhe 5%
 - Interacoes: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bukelebio2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bukelebio2021/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukelebio2021 bN bM` (so essas cenas).

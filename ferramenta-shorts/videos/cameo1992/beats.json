@@ -69,52 +69,68 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.",
-   "shot": "close",
+   "say": "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.",
+   "shot": "two",
    "who": [
     "FUN:0:grin"
    ],
    "props": [
     [
      "kit/tv",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "mapa": "NOVA YORK",
    "mapa_at": 1,
-   "set": "street"
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "set": "loc_cidade"
   },
   {
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "say": "Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.",
+   "impact": true,
+   "say": "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.",
    "shot": "two",
    "who": [
     "FUN:0:grin",
     "TRU:0:smug"
    ],
    "riscos_ok": true,
-   "interior": "pedra"
+   "interior": "pedra",
+   "text": "O HOMEM É TRUMP"
   },
   {
    "tiros": false,
    "batalha": false,
-   "impact": true,
+   "impact": false,
    "say": "A cena dura cerca de sete segundos.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "TRU:0:grin",
-    "POV:0:shock",
-    "POV:1:shock"
+    "FUN:0:surprised",
+    "TRU:0:smug"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "fx": [
     "burst@30"
@@ -122,27 +138,47 @@
    "sfx": [
     "sting@30"
    ],
-   "set": "street"
+   "interior": "pedra",
+   "text": "7 SEGUNDOS"
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
    "say": "Acontece que aquele hotel, o Plaza, pertencia a Trump na época.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "TRU:0:laugh"
    ],
    "props": [
     [
      "kit/tv",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "riscos_ok": true,
-   "interior": "pedra"
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira"
   },
   {
    "tiros": false,
@@ -160,19 +196,15 @@
   {
    "tiros": false,
    "batalha": false,
-   "impact": true,
+   "impact": false,
    "say": "Segundo o diretor, a participação de Trump foi o preço para usar o hotel.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "DIR:0:worried",
-    "TRU:0:smug",
-    "POV:0:shock"
+    "DIR:0:smug",
+    "TRU:0:stern"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "fx": [
     "burst@30"
@@ -180,7 +212,8 @@
    "sfx": [
     "sting@30"
    ],
-   "set": "street"
+   "set": "street",
+   "text": "O PREÇO DO HOTEL"
   },
   {
    "tiros": false,
@@ -207,19 +240,38 @@
    "props": [
     [
      "kit/tv",
-     -1.5,
-     0.3,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "mapa": "CANADÁ",
    "mapa_at": 1,
-   "interior": "loja"
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "interior": "pedra"
   },
   {
    "tiros": false,
    "batalha": false,
-   "impact": false,
+   "impact": true,
    "say": "O corte virou assunto por lá, e a discussão ainda dura até hoje.",
    "shot": "reveal",
    "who": [
@@ -231,26 +283,45 @@
      "POV"
     ]
    },
-   "set": "street"
+   "set": "loc_cidade"
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
    "say": "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "TRU:0:laugh"
    ],
    "props": [
     [
      "kit/tv",
-     0.4,
-     1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "street"
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira"
   }
  ],
  "exp": 1.0,
@@ -260,5 +331,43 @@
   "https://salon.com/2023/12/28/donald-home-alone-2-bullied"
  ],
  "ano": 1992,
- "regiao": "eua"
+ "regiao": "eua",
+ "visual": {
+  "local": "Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora CBC no Canada",
+  "quando": "filmagem em 1992 (inverno de Natal); corte na TV em 2019",
+  "participantes": [
+   "Donald Trump (sobretudo escuro e gravata)",
+   "menino Kevin (gorro e casaco)",
+   "diretor Chris Columbus (barba, bone)",
+   "jornalistas"
+  ],
+  "roupas": {
+   "TRU": "sobretudo escuro e gravata vermelha",
+   "FUN": "casaco de inverno",
+   "DIR": "bone e jaqueta",
+   "JOR": "camisa social"
+  },
+  "cenario": "saguao luxuoso do Plaza com lustres e piso de marmore, rua de Nova York no inverno, sala de TV",
+  "objetos": [
+   "televisao",
+   "camera de cinema"
+  ],
+  "explicacoes": [
+   "Trump aparece cerca de 7 s em Home Alone 2 (1992) no saguao do Plaza, que ele possuia; Chris Columbus disse em 2020 que a participacao foi condicao para filmar no hotel; Trump nega; a CBC exibiu a versao sem a cena em 2019 (fonte: Wikipedia Home Alone 2: Lost in New York)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Home_Alone_2:_Lost_in_New_York",
+   "https://en.wikipedia.org/wiki/The_Plaza_Hotel"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "interior pedra",
+   "interior madeira",
+   "interior loja"
+  ],
+  "buscas": {
+   "hotel": "Plaza Hotel lobby New York 1992",
+   "filme": "Home Alone 2 Trump cameo Plaza"
+  }
+ }
 }

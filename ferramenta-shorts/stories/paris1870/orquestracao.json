@@ -17,8 +17,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_notredame",
-    "kit/panela"
+    "kit/bife_elefante",
+    "kit/marco_notredame"
    ],
    "palavras": 6,
    "cena": "b0",
@@ -76,7 +76,8 @@
    "multidao": 0,
    "objetos": [
     "barrel",
-    "kit/panela"
+    "kit/panela",
+    "kit/rato"
    ],
    "palavras": 8,
    "cena": "b3",
@@ -138,7 +139,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/panela"
+    "kit/bife_elefante"
    ],
    "palavras": 16,
    "cena": "b6",
@@ -155,10 +156,10 @@
     "CHF",
     "PAR"
    ],
-   "multidao": 12,
+   "multidao": 6,
    "objetos": [
-    "kit/marco_notredame",
-    "kit/panela"
+    "kit/bife_elefante",
+    "kit/marco_notredame"
    ],
    "palavras": 12,
    "cena": "b7",
@@ -176,12 +177,12 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "PAR",
     "PAR"
    ],
-   "multidao": 10,
+   "multidao": 30,
    "objetos": [
     "kit/marco_notredame"
    ],
@@ -197,7 +198,6 @@
   {
    "camera": "two",
    "personagens": [
-    "PAR",
     "PAR"
    ],
    "multidao": 0,

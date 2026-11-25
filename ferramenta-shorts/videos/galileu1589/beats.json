@@ -91,21 +91,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "tomba",
-      "na": "chão"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.",
@@ -166,7 +157,7 @@
     [
      "kit/ball",
      0.0,
-     -1.2,
+     1.0,
      1.31,
      {
       "fixo": true
@@ -174,34 +165,19 @@
     ]
    ],
    "detalhe": true,
+   "_enq_shot": "group",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
+    "camera": "plano de grupo (3+ pessoas)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
-   "_enq_shot": "group",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "pensa",
-      "na": "estranho",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
@@ -222,8 +198,8 @@
     ],
     [
      "kit/ball",
-     2.4,
-     0.2,
+     1.0,
+     1.0,
      1.31,
      {
       "fixo": true
@@ -232,8 +208,8 @@
     [
      "war/cannonballs",
      -7.0,
-     -14.3,
-     2.0,
+     -14.0,
+     1.0,
      {
       "fixo": true
      }
@@ -243,15 +219,15 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": true,
+   "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      },
      {
@@ -268,20 +244,7 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "torre"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "_enq_shot": "wide"
   },
   {
    "say": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
@@ -306,9 +269,9 @@
     ],
     [
      "kit/ball",
-     2.4,
-     0.2,
-     2.8,
+     1.0,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
@@ -316,8 +279,8 @@
     [
      "war/cannonballs",
      -7.0,
-     -16.9,
-     3.2,
+     -14.0,
+     1.0,
      {
       "fixo": true
      }
@@ -332,15 +295,15 @@
     "ding@60"
    ],
    "fachada": false,
-   "detalhe": true,
+   "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      },
      {
@@ -357,21 +320,7 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_solta",
-      "na": "soltou",
-      "quem": 0
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "_enq_shot": "wide"
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
@@ -416,9 +365,9 @@
     ],
     [
      "kit/feather",
-     7.0,
-     -14.0,
-     2.0,
+     3.6,
+     -2.0,
+     1.5,
      {
       "fixo": true
      }
@@ -446,28 +395,17 @@
      },
      {
       "objeto": "kit/feather",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": true,
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_solta",
-      "na": "soltou",
-      "quem": 0
      }
     ]
    },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "say": "No fim, até a pena deu razão ao Galileu.",

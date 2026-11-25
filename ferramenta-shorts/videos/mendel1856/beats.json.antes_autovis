@@ -47,16 +47,16 @@
  "beats": [
   {
    "say": "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MEN:0:smile:bag"
    ],
    "props": [
     [
      "kit/pea_green",
-     0.8,
+     1.6,
      0.0,
-     4.2,
+     3.0,
      {
       "fixo": true
      }
@@ -73,19 +73,6 @@
    "crowd": {
     "n": 0
    },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -96,12 +83,19 @@
      }
     ]
    },
-   "cx": 0.8,
-   "cz": 0.0,
-   "d0": 8.0,
-   "d1": 7.0,
    "quadro_manual": true,
-   "h": 1.0
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_green",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -149,7 +143,7 @@
     [
      "kit/pea_green",
      0.0,
-     -1.0,
+     -8.0,
      3.84,
      {
       "fixo": true
@@ -202,8 +196,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d1": 10.0
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -214,7 +207,7 @@
    "props": [
     [
      "kit/pea_yellow",
-     1.2,
+     2.4,
      0.2,
      1.6,
      {
@@ -252,8 +245,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -286,7 +278,7 @@
     [
      "kit/pea_yellow",
      0.0,
-     -1.0,
+     -8.0,
      3.6,
      {
       "fixo": true
@@ -336,8 +328,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d1": 10.0
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
@@ -353,8 +344,8 @@
    "props": [
     [
      "kit/pea_yellow",
-     1.6,
-     -1.0,
+     7.0,
+     -14.0,
      4.8,
      {
       "fixo": true
@@ -380,8 +371,8 @@
     ],
     [
      "kit/pea_green",
-     0.6,
-     1.0,
+     0.0,
+     -8.0,
      3.6,
      {
       "fixo": true
@@ -443,8 +434,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 2
+   "d1": 10.0
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -503,18 +493,18 @@
    "props": [
     [
      "kit/pea_green",
-     -2.0,
-     -1.0,
-     5.0,
+     -1.2,
+     0.0,
+     3.2,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     2.5,
-     -1.5,
-     5.0,
+     1.2,
+     0.0,
+     3.2,
      {
       "fixo": true
      }
@@ -530,6 +520,19 @@
     "sting@70"
    ],
    "acao": "comemorar",
+   "detalhe": false,
+   "fachada": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "viram",
+      "quem": 0
+     }
+    ]
+   },
+   "quadro_manual": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -547,26 +550,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "detalhe": false,
-   "fachada": false,
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "olha",
-      "na": "viram",
-      "quem": 0
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -1.0,
-   "h": 1.5,
-   "d0": 10.0,
-   "d1": 9.0,
-   "quadro_manual": true
+   }
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",
@@ -578,7 +562,7 @@
     [
      "kit/pea_green",
      0.0,
-     -1.0,
+     -8.0,
      4.8,
      {
       "fixo": true
@@ -616,8 +600,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d1": 10.0
   }
  ],
  "visual": {

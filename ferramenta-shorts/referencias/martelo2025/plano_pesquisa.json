@@ -14,6 +14,7 @@
    "tipo": "lugar",
    "item": "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)",
    "consultas": [
+    "Fordow enrichment plant",
     "Fordow Natanz e Isfahan",
     "Fordow Natanz e Isfahan Irã base de Whiteman Missouri EUA 2025"
    ]
@@ -105,14 +106,6 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "b2 air",
-   "consultas": [
-    "B-2 Spirit stealth bomber flying",
-    "b2 air"
-   ]
-  },
-  {
    "tipo": "epoca",
    "item": "aviao da epoca",
    "consultas": [
@@ -127,6 +120,47 @@
    "consultas": [
     "bomba chegava antibunker treze toneladas aviao carrega",
     "bunker bomb diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até",
+   "consultas": [
+    "avioes invisiveis sairam missouri viajaram dezoito",
+    "b2 air diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
+   "consultas": [
+    "despistar avioes foram mandados direcao pacifico",
+    "b2 air diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fo",
+   "consultas": [
+    "acontece madrugada catorze bombas cairam fordow",
+    "mountain bunker diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Um submarino ainda lançou mísseis contra uma terceira usina.",
+   "consultas": [
+    "Ohio class submarine",
+    "submarino lancou misseis contra terceira usina",
+    "submarino moderno diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Depois, os aviões voltaram para casa em segurança.",
+   "consultas": [
+    "avioes voltaram seguranca",
+    "b2 air diagram"
    ]
   }
  ]

@@ -1,21 +1,21 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 160 palavras (~55 s)
 
-## Cena b0  (~6.6 s)
-- Narracao: Em dois mil e sete, Donald Trump lançou uma linha de carnes com o próprio nome: a Trump Steaks.
+## Cena b0  (~4.8 s)
+- Narracao: Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.5 s)
-- Narracao: Os bifes apareceram na loja Sharper Image, a partir de oito de maio.
+## Cena b1  (~7.6 s)
+- Narracao: Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento

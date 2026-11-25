@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: Um bando de gansos barulhentos salvou Roma numa só noite.
 - Som ambiente: birds
 - Efeitos sonoros marcados: squeal@10, squeal@40, squeal@80
-- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito; encena: x_entrega (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: Os romanos que sobraram se trancaram no Capitólio, uma colina fortificada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: empurra (push) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: CAPITÓLIO
 - Funcao na historia: desenvolvimento
@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 ## Cena b3  (~4.1 s)
 - Narracao: Os gauleses cercaram a colina, e a fome apertou os dois lados.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: x_aperta (reach) @8 -> acao + som de efeito; aperto de mao -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os guardas não ouviram nada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: Os gauleses se afastaram, mas mantiveram o cerco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai (point) @3 -> acao + som de efeito
 - Efeito visual marcado: dust@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino; ouro -> stars + som de sino; encena: negocio (reach) @9 -> acao + som de efeito; encena: paga (reach) @13 -> acao + som de efeito; encena: sai @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) @9 -> acao + som de efeito; encena: sai @18 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1.000 LIBRAS
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: x_entrega (reach) @2 -> acao + som de efeito; encena: paga (reach) @7 -> acao + som de efeito; encena: sai @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

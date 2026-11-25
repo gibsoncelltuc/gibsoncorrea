@@ -37,8 +37,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/shop",
-  "kit/falcon9_land",
-  "kit/gosma"
+  "kit/falcon9_land"
  ],
  "pesquisa_visual": {
   "local": "Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de lançamento)",

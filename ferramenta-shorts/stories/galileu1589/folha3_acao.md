@@ -1,14 +1,11 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.2s - 16 palavras - plano two
 > "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto cai no chao | na palavra "chão" (3.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -59,19 +56,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 19.2s a 22.0s - 10 palavras - plano group
 > "Mas Galileu Galilei achou estranho e resolveu provar o contrário."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ALU mao no queixo, pensando | na palavra "estranho" (20.5s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | estranho (20.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | achou (20.2s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pensa na palavra estranho (20.5s): executa: mao no queixo + brilho de ideia
+- ACAO: olha na palavra achou (20.2s): braco estendido apontando para o objeto/lugar citado
 - EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
@@ -80,9 +74,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b4 - 23.2s a 27.2s - 16 palavras - plano wide
 > "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "torre" (24.4s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
@@ -90,20 +81,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b5 - 28.8s a 32.8s - 14 palavras - plano wide
 > "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GAL acao do motor: solta | na palavra "soltou" (30.6s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | soltou (30.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caíram (31.7s) | EFEITO: dust | poeira + som | OK |
-| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 3 | chão (32.1s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 5 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_solta na palavra soltou (30.6s): executa: solta/liberta + brilho
 - EFEITO: dust na palavra caíram (31.7s): executa: poeira + som
+- ACAO: tomba na palavra chão (32.1s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
@@ -127,9 +117,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b7 - 40.0s a 46.3s - 23 palavras - plano two
 > "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) AST acao do motor: solta | na palavra "soltou" (43.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

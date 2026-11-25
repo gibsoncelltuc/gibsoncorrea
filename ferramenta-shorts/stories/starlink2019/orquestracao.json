@@ -8,31 +8,6 @@
    "loc_cidade"
   ],
   [
-   "cena 1",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 2",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 3",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 4",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 5",
-   "countryside",
-   "loc_campo"
-  ],
-  [
    "cena 6",
    "street",
    "loc_cidade"
@@ -46,16 +21,6 @@
    "cena 9",
    "street",
    "loc_cidade"
-  ],
-  [
-   "cena 10",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "countryside",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -72,40 +37,41 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air",
-    "kit/marco_canaveral",
-    "kit/rocket",
-    "kit/starlink_sat"
+    "kit/starlink_train"
    ],
-   "palavras": 21,
+   "palavras": 15,
    "cena": "b0",
-   "frase": "Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez.",
-   "classe": "simples",
+   "frase": "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "countryside"
   },
   {
    "camera": "reveal",
    "personagens": [
-    "AST",
-    "JOR"
+    "AST"
    ],
-   "multidao": 8,
+   "multidao": 6,
    "objetos": [
     "kit/falcon_air",
-    "kit/marco_canaveral",
     "kit/starlink_sat"
    ],
-   "palavras": 18,
+   "palavras": 24,
    "cena": "b1",
-   "frase": "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial.",
+   "frase": "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
@@ -115,7 +81,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/rocket",
     "kit/starlink_sat"
    ],
    "palavras": 13,
@@ -125,16 +90,14 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "AST",
-    "POV",
-    "POV"
+    "AST"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/starlink_train",
     "nature/picket_fence"
@@ -152,14 +115,14 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "wide",
    "personagens": [
     "AST"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/starlink_train"
    ],
@@ -170,16 +133,16 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "crowd",
    "personagens": [
     "JOR"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
-    "kit/marco_canaveral"
+    "kit/phone"
    ],
    "palavras": 16,
    "cena": "b5",
@@ -217,32 +180,34 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "AST",
-    "JOR2"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air",
-    "kit/starlink_sat"
+    "kit/falcon_air"
    ],
    "palavras": 11,
    "cena": "b7",
    "frase": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/starlink_train (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {
-   "camera": "group",
+   "camera": "reveal",
    "personagens": [
     "JOR"
    ],
    "multidao": 10,
    "objetos": [
-    "kit/marco_canaveral"
+    "kit/phone"
    ],
    "palavras": 16,
    "cena": "b8",
@@ -271,7 +236,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "close",
@@ -287,7 +252,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   }
  ]
 }

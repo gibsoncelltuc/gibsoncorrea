@@ -51,7 +51,7 @@
     "FARM",
     "AUS"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [],
    "palavras": 11,
    "cena": "b2",
@@ -63,7 +63,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "SOL",
     "SOL"
@@ -76,23 +76,6 @@
    "palavras": 10,
    "cena": "b3",
    "frase": "O major Meredith levou duas metralhadoras e dez mil balas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "SOL",
-    "SOL"
-   ],
-   "multidao": 5,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -102,6 +85,23 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 32,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
   },
@@ -130,11 +130,29 @@
     "SOL",
     "SOL"
    ],
-   "multidao": 30,
+   "multidao": 32,
    "objetos": [],
    "palavras": 12,
    "cena": "b6",
    "frase": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "vehicles/tank"
+   ],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -144,24 +162,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "SOL"
-   ],
-   "multidao": 5,
-   "objetos": [
-    "vehicles/tank"
-   ],
-   "palavras": 16,
-   "cena": "b7",
-   "frase": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "countryside"
   },

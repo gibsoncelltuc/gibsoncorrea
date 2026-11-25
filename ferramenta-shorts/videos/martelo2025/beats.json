@@ -87,7 +87,16 @@
    "h": 2.4,
    "d0": 10.5,
    "d1": 10.0,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bomba"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -99,7 +108,16 @@
    "mapa_at": 6,
    "say": "Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do Irã.",
    "fachada": false,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Irã"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -141,7 +159,16 @@
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Fordow"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -163,6 +190,15 @@
       "toneladas"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bomba"
+     }
+    ]
    }
   },
   {
@@ -174,250 +210,240 @@
    "interior": "pedra",
    "text": "MARTELO DA MEIA-NOITE",
    "say": "A missão se chamou Martelo da Meia-Noite.",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
-   "who": [],
-   "props": [
-    [
-     "kit/b2_air",
-     0.0,
-     1.4,
-     3.12,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "text": "B-2",
-   "titulo": true,
    "say": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.",
    "fachada": false,
-   "set": "loc_pista",
-   "hora": "dia",
    "crowd": {
     "n": 0
    },
-   "detalhe": true,
-   "cx": 0.0,
-   "cz": 1.4,
-   "h": 11.0,
-   "d0": 20.0,
-   "d1": 18.0,
-   "quadro_manual": true,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
+   "_auto_vis": 0,
+   "el": 14,
+   "explica": {
+    "objeto": "kit/b2_air",
+    "rotulos": [
+     [
+      "7 AVIOES INVISIVEIS",
+      "cima",
+      "aviões"
+     ],
+     [
+      "18 HORAS DE VOO",
+      "baixo",
+      "dezoito"
+     ]
+    ],
+    "vfx": [
      {
-      "objeto": "kit/b2_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "k": "velocidade",
+      "na": "viajaram"
      }
     ]
    },
-   "_auto_vis": 3,
-   "el": 14
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aviões"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
-   "who": [],
-   "props": [
-    [
-     "kit/b2_air",
-     0.0,
-     1.4,
-     3.12,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "whoosh@30"
-   ],
-   "sfx": [
-    "whoosh@30"
-   ],
    "say": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
    "fachada": false,
-   "set": "harbor",
    "crowd": {
     "n": 0
    },
-   "detalhe": true,
-   "cx": 0.0,
-   "cz": 1.4,
-   "h": 11.0,
-   "d0": 20.0,
-   "d1": 18.0,
-   "quadro_manual": true,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
+   "_auto_vis": 0,
+   "el": 14,
+   "explica": {
+    "objeto": "kit/b2_air",
+    "rotulos": [
+     [
+      "AVIOES ISCA",
+      "cima",
+      "outros"
+     ],
+     [
+      "RUMO AO PACIFICO",
+      "baixo",
+      "pacífico"
+     ]
+    ],
+    "vfx": [
      {
-      "objeto": "kit/b2_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "k": "velocidade",
+      "na": "mandados"
      }
     ]
    },
-   "_auto_vis": 3,
-   "el": 14
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aviões"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
-   "hora": "noite",
-   "who": [],
-   "props": [
-    [
-     "kit/mountain_bunker",
-     7.0,
-     -16.1,
-     1.6,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "burst@25",
-    "burst@45",
-    "puff@60"
-   ],
-   "sfx": [
-    "cannon@25",
-    "cannon@45",
-    "thump@60"
-   ],
    "say": "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow.",
    "fachada": false,
-   "set": "mountain",
    "tiros": false,
    "crowd": {
     "n": 0
    },
-   "detalhe": true,
-   "cx": 7.0,
-   "cz": -16.1,
-   "h": 3.0,
-   "d0": 20.0,
-   "d1": 18.0,
-   "quadro_manual": true,
-   "quadro": {
-    "local": "encosta de montanha",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -4.6, camera a 23.2 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
+   "_auto_vis": 0,
+   "el": 10,
+   "explica": {
+    "objeto": "kit/mountain_bunker",
+    "rotulos": [
+     [
+      "14 BOMBAS",
+      "cima",
+      "catorze"
+     ],
+     [
+      "12 SOBRE FORDOW",
+      "baixo",
+      "doze"
+     ]
+    ],
+    "vfx": [
      {
-      "objeto": "kit/mountain_bunker",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "k": "fogo",
+      "na": "caíram",
+      "pts": "topo",
+      "pot": 2
+     },
+     {
+      "k": "onda",
+      "na": "doze"
      }
     ]
    },
-   "_auto_vis": 3,
-   "el": 10
+   "fx": [
+    "burst@25",
+    "burst@40",
+    "puff@55"
+   ],
+   "sfx": [
+    "cannon@25",
+    "cannon@40",
+    "thump@55"
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bombas"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
-   "who": [
-    "PIL:0:stern"
-   ],
-   "props": [
-    [
-     "kit/submarino_ww2",
-     0.0,
-     -11.4,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "splash@30",
-    "puff@40"
-   ],
+   "who": [],
    "sfx": [
     "whoosh@30"
    ],
    "say": "Um submarino ainda lançou mísseis contra uma terceira usina.",
    "fachada": false,
-   "set": "harbor",
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.1, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
+   "_auto_vis": 0,
+   "riscos_ok": true,
+   "explica": {
+    "objeto": "kit/submarino_moderno",
+    "rotulos": [
+     [
+      "SUBMARINO",
+      "baixo",
+      "submarino"
+     ],
+     [
+      "MISSEIS",
+      "cima",
+      "mísseis"
+     ]
+    ],
+    "vfx": [
      {
-      "objeto": "kit/submarino_ww2",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "k": "fogo",
+      "na": "lançou",
+      "pts": "topo"
+     },
+     {
+      "k": "vapor",
+      "na": "mísseis",
+      "pts": "topo"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -5.1,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "submarino"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
-   "who": [],
-   "props": [
-    [
-     "kit/b2_air",
-     0.0,
-     1.4,
-     3.12,
-     {
-      "fixo": true
-     }
-    ]
-   ],
    "say": "Depois, os aviões voltaram para casa em segurança.",
    "fachada": false,
-   "set": "loc_pista",
    "crowd": {
     "n": 0
    },
-   "detalhe": true,
-   "fx": [
-    "puff@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "cx": 0.0,
-   "cz": 1.4,
-   "h": 11.0,
-   "d0": 20.0,
-   "d1": 18.0,
-   "quadro_manual": true,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
+   "_auto_vis": 0,
+   "el": 14,
+   "explica": {
+    "objeto": "kit/b2_air",
+    "rotulos": [
+     [
+      "VOLTA EM SEGURANCA",
+      "cima",
+      "voltaram"
+     ]
+    ],
+    "vfx": [
      {
-      "objeto": "kit/b2_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "k": "velocidade",
+      "na": "voltaram"
      }
     ]
    },
-   "_auto_vis": 3,
-   "el": 14
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltaram"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -428,7 +454,18 @@
    "interior": "pedra",
    "text": "DESTRUÍDAS?",
    "say": "Os Estados Unidos disseram que as usinas foram destruídas.",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "disseram",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -438,7 +475,18 @@
    ],
    "say": "Mas até hoje ninguém concorda sobre o tamanho do estrago.",
    "fachada": false,
-   "set": "hall"
+   "set": "hall",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "concorda",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   }
  ],
  "fontes": [
@@ -485,10 +533,13 @@
    "Marinha dos EUA": "US Navy Ohio-class submarine surfaced",
    "bunker na montanha": "Fordow Fuel Enrichment Plant satellite image Iran mountain",
    "b2 air": "B-2 Spirit stealth bomber flying",
-   "aviao da epoca": "B-2 Spirit bomber 2025"
+   "aviao da epoca": "B-2 Spirit bomber 2025",
+   "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)": "Fordow enrichment plant",
+   "Um submarino ainda lançou mísseis contra uma terceira usina.": "Ohio class submarine"
   },
   "explicacoes": [
-   "A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)"
+   "A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)",
+   "Operacao Midnight Hammer (22/6/2025): 7 B-2 de Whiteman (Missouri), ~18 h de voo com reabastecimento; avioes isca enviados para Guam/Pacifico; 14 GBU-57, 12 em Fordow; submarino lancou Tomahawks contra Isfahan (fonte: Wikipedia, Operation Midnight Hammer)."
   ]
  },
  "max_wide": 9

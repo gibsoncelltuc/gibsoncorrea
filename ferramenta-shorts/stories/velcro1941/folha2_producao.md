@@ -64,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: MES no centro, expressao angry; sem multidao; acao: fala/gesto
-- OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
 - TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
@@ -174,7 +174,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)
 - PERSONAGENS: MES na esquerda, expressao laugh; TEC (comerciante) na direita, expressao surprised; sem multidao; acao: entregar
-- OBJETO kit/burr: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/burr: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
@@ -187,7 +187,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: espaco | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): AST (variante 0, expressao laugh)
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/burr, kit/rocket, kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, usar
@@ -196,9 +196,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: AST no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.1 m de altura x 2.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/moon: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 8.0 m de altura x 6.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena

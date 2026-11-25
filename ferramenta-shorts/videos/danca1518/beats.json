@@ -71,7 +71,17 @@
    ],
    "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.",
    "set": "medieval",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "danca",
+      "na": "dançar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -84,7 +94,17 @@
    "say": "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir.",
    "hora": "dia",
    "set": "medieval",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "danca",
+      "na": "dançou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -106,6 +126,16 @@
     ],
     "march": false,
     "expr": "pained"
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "danca",
+      "na": "dançavam",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -149,7 +179,22 @@
    "h": 2.5,
    "d0": 13.0,
    "d1": 12.0,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "danca",
+      "na": "dançavam",
+      "quem": 0
+     },
+     {
+      "faz": "grita",
+      "na": "socorro",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -159,7 +204,22 @@
    ],
    "interior": "pedra",
    "say": "O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança.",
-   "acao": "nenhuma"
+   "acao": "nenhuma",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamou",
+      "quem": 0
+     },
+     {
+      "faz": "fala",
+      "na": "receitaram",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -171,7 +231,25 @@
    "say": "A cidade reformou salões e contratou músicos para manter os dançarinos de pé.",
    "set": "hall",
    "riscos_ok": true,
-   "detalhe": false
+   "detalhe": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "DAN"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "danca",
+      "na": "dançarinos",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -196,7 +274,31 @@
    "set": "medieval",
    "fachada": false,
    "props": [],
-   "detalhe": false
+   "detalhe": false,
+   "vary": false,
+   "quadro_manual": true,
+   "d0": 9.0,
+   "d1": 8.5,
+   "cx": 0.0,
+   "cz": 0.0,
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "danca",
+      "na": "dança",
+      "quem": 1,
+      "forcar": true
+     },
+     {
+      "faz": "fala",
+      "na": "proibiu",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -207,7 +309,16 @@
    "say": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
    "acao": "nenhuma",
    "set": "loc_campo",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "documentos"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -256,7 +367,17 @@
    "d0": 14.0,
    "d1": 13.0,
    "quadro_manual": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "danca",
+      "na": "dançarinos",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -267,7 +388,18 @@
    "say": "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu.",
    "acao": "nenhuma",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "suspeita",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   }
  ],
  "heroi": null,

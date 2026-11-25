@@ -31,7 +31,7 @@
  },
  "cenas": [
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -39,9 +39,9 @@
    "objetos": [
     "kit/surfboard"
    ],
-   "palavras": 15,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City El Salvador.",
+   "frase": "Um país pequeno decidiu virar a capital mundial do surfe.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,9 +59,9 @@
     "kit/surfboard",
     "kit/volcano"
    ],
-   "palavras": 16,
+   "palavras": 24,
    "cena": "b1",
-   "frase": "O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal, ao mundo.",
+   "frase": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

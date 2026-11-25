@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: ? | Lugar: Roma, colina do Capitólio | Quando: 390 a.C., verão; cerco de sete meses
 - HEROIS (objeto): -
 - HEROIS (personagens): ROM, GAU, MAN
-- Cenarios: interior madeira, loc_campo, medieval, mountain
+- Cenarios: interior madeira, loc_campo, loc_montanha, medieval
 - Proibido pela epoca: -
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

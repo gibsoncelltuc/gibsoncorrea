@@ -28,7 +28,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b4: "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus."
-- LOCAL: loc_campo; hora: day; clima: neve
+- LOCAL: loc_montanha; hora: day; clima: neve
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MIL (soldado) na esquerda, expressao angry; ING (soldado) na direita, expressao angry; multidao de 20 (MIL, ING) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -36,15 +36,15 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day; clima: neve
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -7.4, camera a 54.2 m, altura 5.2 m), sem multidao na frente
-- PERSONAGENS: AME (agricultor) no centro, expressao shock; sem multidao; acao: empurrar
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: CAN (agricultor) na esquerda, expressao angry; AME (agricultor) na direita, expressao shock; sem multidao; acao: empurrar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "PRESO" flutuando no alto, na palavra 1 da frase
 
 ## b6: "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: GEN (general) no centro, expressao stern; sem multidao; acao: cochichar
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: PRE (politico) na esquerda, expressao stern, segura paper; GEN (general) na direita, expressao stern; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b7: "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar."

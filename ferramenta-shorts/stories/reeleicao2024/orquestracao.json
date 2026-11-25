@@ -41,19 +41,18 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/marco_casabranca",
     "kit/white_house"
    ],
-   "palavras": 15,
+   "palavras": 13,
    "cena": "b1",
-   "frase": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos.",
+   "frase": "Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -61,14 +60,15 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "ELE",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 30,
    "objetos": [
-    "kit/ballot_box"
+    "kit/ballot_box",
+    "kit/marco_casabranca"
    ],
    "palavras": 14,
    "cena": "b2",
@@ -115,11 +115,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "TRU",
-    "ELE",
-    "POV"
+    "TRU"
    ],
-   "multidao": 22,
+   "multidao": 14,
    "objetos": [
     "kit/white_house"
    ],
@@ -175,39 +173,18 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "TRU",
-    "GEN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/white_house"
-   ],
-   "palavras": 16,
-   "cena": "b8",
-   "frase": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
    "camera": "orbit",
    "personagens": [
-    "TRU",
-    "POV",
-    "POV"
+    "TRU"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/marco_casabranca",
     "kit/white_house"
    ],
    "palavras": 16,
-   "cena": "b9",
-   "frase": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.",
+   "cena": "b8",
+   "frase": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -221,7 +198,26 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "close",
+   "camera": "group",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_casabranca",
+    "kit/white_house"
+   ],
+   "palavras": 15,
+   "cena": "b9",
+   "frase": "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "TRU"
    ],
@@ -239,7 +235,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "TRU"
    ],

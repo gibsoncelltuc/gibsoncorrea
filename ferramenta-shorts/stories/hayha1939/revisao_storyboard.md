@@ -1,12 +1,13 @@
-b0: OK - um fazendeiro baixinho virou o soldado mais temido da guerra: soldado finlandes de branco diante do soldado sovietico de verde na neve, placa 1939
-b1: OK - inverno de 1939, a Uniao Sovietica invadiu a Finlandia: mapa da Finlandia e a batalha na neve
-b2: OK - os finlandeses eram poucos, mas conheciam a floresta, a neve e o frio de 40 graus negativos: tropa de branco entre os pinheiros
-b3: OK - um deles era um homem do campo, baixinho, Simo Hayha: Hayha de branco com o fuzil, placa SIMO HAYHA
-b4: CORRIGIDO - vila de grama verde -> vestido de branco ele esperava imovel no meio da neve: Hayha sozinho na neve
-b5: CORRIGIDO - deserto marrom -> mantinha neve na boca para o vapor nao entregar a posicao: Hayha na neve, placa NEVE NA BOCA
-b6: CORRIGIDO - fogueira e a mesma farda dos dois lados -> em cerca de cem dias, mais de quinhentos inimigos: finlandeses de branco, placa 100 DIAS
-b7: CORRIGIDO - vila verde -> os sovieticos passaram a chama-lo de Morte Branca: sovieticos de verde na neve, assustados
-b8: OK - em marco de 1940 uma bala atingiu o rosto dele e ele sobreviveu: Hayha no hospital, placa HOSPITAL
-b9: CORRIGIDO - fogueira dentro de casa -> viveu ate 96 anos e dizia que so fez o seu trabalho: Hayha sorrindo em casa
-pesquisa: o quadro de referencias mostra Simo Hayha com a camuflagem branca de inverno, a floresta finlandesa nevada da Guerra de Inverno, o fuzil Mosin de mira de ferro e os soldados sovieticos de casaco verde; comparei roupas, neve, floresta e armas
-defeitos procurados: cenario de floresta nevada da Finlandia sem vila verde nem deserto; epoca 1939 sem objeto fora; tamanho certo de fuzil e pinheiros; ninguem cortado; multidao sem clone e cada lado com a sua farda; legenda livre; acao de cada frase visivel (invasao, espera na neve, hospital); objeto heroi o fuzil de Hayha sempre na mao dele
+# Revisao do storyboard - hayha1939 (25/11, olhando o storyboard inteiro)
+pesquisa: Simo Hayha, Guerra de Inverno (Finlandia x URSS), 1939-1940, -40 graus, roupa branca, fuzil de mira de ferro, cerca de 100 dias, mais de 500 abatidos (contam), apelido Morte Branca, ferido no rosto em marco de 1940, viveu ate 96 anos
+b0: OK - "Um fazendeiro baixinho virou o soldado mais temido de uma gu" fazendeiro baixinho e o soldado sovietico na fazenda nevada, 1939
+b1: OK - "Era o inverno de mil novecentos e trinta e nove, e a União S" mapa FINLANDIA e tropas sovieticas invadindo com explosoes
+b2: OK - "Os soldados finlandeses eram poucos, mas conheciam a florest" soldados finlandeses de branco na floresta, -40
+b3: OK - "Um deles era um homem do campo, baixinho, chamado Simo Häyhä" close no Simo com o titulo SIMO HAYHA
+b4: OK - "Vestido de branco, ele esperava imóvel no meio da neve, hora" Simo de branco imovel na neve
+b5: OK - "Dizem que ele mantinha neve na boca, para o vapor da respira" close no Simo, NEVE NA BOCA
+b6: OK - "Em cerca de cem dias, contam mais de quinhentos inimigos aba" Simo e companheiro, 100 DIAS
+b7: OK - "Os soviéticos passaram a chamá-lo de Morte Branca." soldado sovietico, MORTE BRANCA
+b8: OK - "Em março de mil novecentos e quarenta, uma bala atingiu o ro" hospital, Simo ferido
+b9: OK - "Viveu até os noventa e seis anos, e nunca se achou herói. Di" Simo idoso sorrindo, SO FEZ O SEU TRABALHO
+defeitos procurados: lado errado na invasao (agora soviéticos), placa tapando personagem em close (agora titulo), Simo pequeno ao longe (agora close), epoca, neve, legenda

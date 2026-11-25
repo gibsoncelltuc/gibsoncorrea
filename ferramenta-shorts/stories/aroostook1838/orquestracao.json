@@ -101,36 +101,19 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "AME"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/prison"
-   ],
-   "palavras": 16,
-   "cena": "b5",
-   "frase": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "orbit",
    "personagens": [
-    "GEN"
+    "CAN",
+    "AME"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
-   "cena": "b6",
-   "frase": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.",
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -141,10 +124,27 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "arctic"
   },
   {
    "camera": "two",
+   "personagens": [
+    "PRE",
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
+   "cena": "b6",
+   "frase": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
    "personagens": [
     "GEN",
     "PRE"

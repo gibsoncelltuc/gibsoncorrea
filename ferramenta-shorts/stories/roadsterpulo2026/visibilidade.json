@@ -1,0 +1,1434 @@
+{
+ "id": "roadsterpulo2026",
+ "falhas": [
+  "b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b0: objeto citado \"kit/torre_luz\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b1: objeto citado \"kit/torre_luz\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b4: objeto citado \"kit/torre_luz\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b6: objeto citado \"kit/cybertruck\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b0: objeto \"kit/torre_luz\" saiu com 0% da altura da tela, a ficha de cena planejou 18%",
+  "b6: objeto \"kit/roadster26\" saiu com 13% da altura da tela, a ficha de cena planejou 30%",
+  "b6: objeto \"kit/cybertruck\" saiu com 0% da altura da tela, a ficha de cena planejou 18%"
+ ],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 12,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 0.6868686868686869,
+       "area": 0.1110722093644613,
+       "cx": 0.1522976572533517,
+       "alt": 0.14605921703617786,
+       "altmax": 0.14605921703617786
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.32099999999999995
+    },
+    {
+     "f": 29,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 0.6181818181818182,
+       "area": 0.1505619089571499,
+       "cx": 0.027627150082416563,
+       "alt": 0.17015184460666943,
+       "altmax": 0.17015184460666943
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.4
+    },
+    {
+     "f": 46,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.896969696969697,
+       "vis": 0.22972972972972974,
+       "area": 0.20614655761076042,
+       "cx": -0.07689083121590673,
+       "alt": 0.2237735058255326,
+       "altmax": 0.2237735058255326
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.521
+    }
+   ]
+  },
+  {
+   "id": "b0~1",
+   "quadros": [
+    {
+     "f": 70,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.8444444444444444,
+       "vis": 0.9688995215311005,
+       "area": 0.21661638903569452,
+       "cx": -0.07571388002384843,
+       "alt": 0.2353461941242224,
+       "altmax": 0.2353461941242224
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.5820000000000001
+    },
+    {
+     "f": 88,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9030303030303031,
+       "vis": 0.9149888143176734,
+       "area": 0.2508694316701235,
+       "cx": 0.056244823983951975,
+       "alt": 0.26665539659412696,
+       "altmax": 0.26665539659412696
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.617
+    },
+    {
+     "f": 105,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.5333333333333333,
+       "vis": 0.9507575757575758,
+       "area": 0.11915760344087076,
+       "cx": 0.18307653645773697,
+       "alt": 0.26850562396377264,
+       "altmax": 0.26850562396377264
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.623
+    }
+   ]
+  },
+  {
+   "id": "b0~2",
+   "quadros": [
+    {
+     "f": 129,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.2404040404040404,
+       "vis": 0.9831932773109243,
+       "area": 0.013957693433760791,
+       "cx": 0.8520281877078875,
+       "alt": 0.09627982665325044,
+       "altmax": 0.09627982665325044
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.46499999999999997
+    },
+    {
+     "f": 146,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.404
+    },
+    {
+     "f": 163,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.373
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 216,
+     "objs": [
+      {
+       "a": "kit/rampa_curva",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0.015514345474838181
+      },
+      {
+       "a": "kit/telao_led",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0.2958420599297001
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.348
+    },
+    {
+     "f": 276,
+     "objs": [
+      {
+       "a": "kit/rampa_curva",
+       "inq": 0.5161290322580645,
+       "vis": 1,
+       "area": 0.15397748822120016,
+       "cx": 0.3741190437504178,
+       "alt": 0.2483745119873261,
+       "altmax": 0.2483745119873261
+      },
+      {
+       "a": "kit/telao_led",
+       "inq": 0.4,
+       "vis": 1,
+       "area": 0.023265297455193987,
+       "cx": -0.7714762997599468,
+       "alt": 0.28505174987385273,
+       "altmax": 0.28505174987385273
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.183
+    },
+    {
+     "f": 336,
+     "objs": [
+      {
+       "a": "kit/rampa_curva",
+       "inq": 0.946236559139785,
+       "vis": 1,
+       "area": 0.23438132202601109,
+       "cx": 0.3282099127439959,
+       "alt": 0.35241592248651454,
+       "altmax": 0.35241592248651454
+      },
+      {
+       "a": "kit/telao_led",
+       "inq": 0.4,
+       "vis": 1,
+       "area": 0.01898212398034558,
+       "cx": -0.8017040839642384,
+       "alt": 0.24361381520408132,
+       "altmax": 0.24361381520408132
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.43617021276595747,
+       "vis": 1,
+       "area": 0.035728710470063686,
+       "cx": 0.904546880814235,
+       "alt": 0.38160600672126765,
+       "altmax": 0.38160600672126765
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.43617021276595747,
+       "vis": 1,
+       "area": 0.035728710470063686,
+       "cx": 0.904546880814235,
+       "alt": 0.38160600672126765,
+       "altmax": 0.38160600672126765
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.12799999999999995
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 392,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 416,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 439,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b2_x",
+   "quadros": [
+    {
+     "f": 470,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 493,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 516,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 565,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.7090909090909091,
+       "vis": 0.8945868945868946,
+       "area": 0.02906701933342675,
+       "cx": 0.7120393074830274,
+       "alt": 0.10161854690786826,
+       "altmax": 0.10161854690786826
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.6382978723404256,
+       "vis": 0.75,
+       "area": 0.031204986521532266,
+       "cx": 0.9168615531440424,
+       "alt": 0.40128681054391346,
+       "altmax": 0.40128681054391346
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.6382978723404256,
+       "vis": 0.75,
+       "area": 0.031204986521532266,
+       "cx": 0.9168615531440424,
+       "alt": 0.40128681054391346,
+       "altmax": 0.40128681054391346
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.19599999999999995
+    },
+    {
+     "f": 615,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9797979797979798,
+       "vis": 0.6907216494845361,
+       "area": 0.16634488139257053,
+       "cx": -0.15352825858232633,
+       "alt": 0.23624774712840824,
+       "altmax": 0.23624774712840824
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.265
+    },
+    {
+     "f": 665,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9575757575757575,
+       "vis": 0.8755274261603375,
+       "area": 0.11905897005725717,
+       "cx": 0.2445065213703901,
+       "alt": 0.1804262916810241,
+       "altmax": 0.1804262916810241
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.5957446808510638,
+       "vis": 1,
+       "area": 0.05452217225875572,
+       "cx": -0.8866351917914008,
+       "alt": 0.5259190466078314,
+       "altmax": 0.5259190466078314
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.5957446808510638,
+       "vis": 1,
+       "area": 0.05452217225875572,
+       "cx": -0.8866351917914008,
+       "alt": 0.5259190466078314,
+       "altmax": 0.5259190466078314
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.268
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 727,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06244709573840901,
+       "cx": 0.3484537398737582,
+       "alt": 0.2682848504633422,
+       "altmax": 0.2682848504633422
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.1276595744680851,
+       "vis": 1,
+       "area": 0.021196411183675466,
+       "cx": 0.9522567840935048,
+       "alt": 0.45304005624318683,
+       "altmax": 0.45304005624318683
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.1276595744680851,
+       "vis": 1,
+       "area": 0.021196411183675466,
+       "cx": 0.9522567840935048,
+       "alt": 0.45304005624318683,
+       "altmax": 0.45304005624318683
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.24499999999999994
+    },
+    {
+     "f": 770,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.006060606060606061,
+       "vis": 1,
+       "area": 6.193378524690656e-7,
+       "cx": 0.995393014462967,
+       "alt": 0.00046069459256077756,
+       "altmax": 0.00046069459256077756
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.482
+    },
+    {
+     "f": 812,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0.017492262306772956
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0.017492262306772956
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.48499999999999993
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 856,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 880,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 903,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b5_x",
+   "quadros": [
+    {
+     "f": 934,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 958,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 981,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 1028,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.08266103826263059,
+       "cx": 0.31770826587460504,
+       "alt": 0.1300821942522008,
+       "altmax": 0.1300821942522008
+      },
+      {
+       "a": "kit/cybercab",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/cybercab",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/cybertruck",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.14501124528684434,
+       "cx": -0.6013768940121175,
+       "alt": 0.5407031096866222,
+       "altmax": 0.5407031096866222
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.14501124528684434,
+       "cx": -0.6013768940121175,
+       "alt": 0.5407031096866222,
+       "altmax": 0.5407031096866222
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.172
+    },
+    {
+     "f": 1075,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06783544448401396,
+       "cx": 0.3546679868866893,
+       "alt": 0.10919132276373777,
+       "altmax": 0.10919132276373777
+      },
+      {
+       "a": "kit/cybercab",
+       "inq": 0.4072398190045249,
+       "vis": 0.8222222222222222,
+       "area": 0.01589154852947747,
+       "cx": 0.8215406141022041,
+       "alt": 0.10395765050022807,
+       "altmax": 0.10395765050022807
+      },
+      {
+       "a": "kit/cybercab",
+       "inq": 0.4072398190045249,
+       "vis": 0.8222222222222222,
+       "area": 0.01589154852947747,
+       "cx": 0.8215406141022041,
+       "alt": 0.10395765050022807,
+       "altmax": 0.10395765050022807
+      },
+      {
+       "a": "kit/cybertruck",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.6702127659574468,
+       "vis": 0.9047619047619048,
+       "area": 0.09625272778038196,
+       "cx": -0.792938004219149,
+       "alt": 0.5312953942276133,
+       "altmax": 0.5312953942276133
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.6702127659574468,
+       "vis": 0.9047619047619048,
+       "area": 0.09625272778038196,
+       "cx": -0.792938004219149,
+       "alt": 0.5312953942276133,
+       "altmax": 0.5312953942276133
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.17899999999999994
+    },
+    {
+     "f": 1121,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.05480700427479353,
+       "cx": 0.33342391894155776,
+       "alt": 0.09276091565576933,
+       "altmax": 0.09276091565576933
+      },
+      {
+       "a": "kit/cybercab",
+       "inq": 1,
+       "vis": 0.6199095022624435,
+       "area": 0.05419247447202626,
+       "cx": 0.3371039810613568,
+       "alt": 0.10788589467124196,
+       "altmax": 0.10788589467124196
+      },
+      {
+       "a": "kit/cybercab",
+       "inq": 1,
+       "vis": 0.6199095022624435,
+       "area": 0.05419247447202626,
+       "cx": 0.3371039810613568,
+       "alt": 0.10788589467124196,
+       "altmax": 0.10788589467124196
+      },
+      {
+       "a": "kit/cybertruck",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.1702127659574468,
+       "vis": 1,
+       "area": 0.0007564556662140381,
+       "cx": 0.9736536124857383,
+       "alt": 0.061897297078296776,
+       "altmax": 0.061897297078296776
+      },
+      {
+       "a": "kit/torre_luz",
+       "inq": 0.1702127659574468,
+       "vis": 1,
+       "area": 0.0007564556662140381,
+       "cx": 0.9736536124857383,
+       "alt": 0.061897297078296776,
+       "altmax": 0.061897297078296776
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.19799999999999995
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1182,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1226,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1269,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1309,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 0.5717171717171717,
+       "area": 0.12298526791061665,
+       "cx": 0.1306015350051839,
+       "alt": 0.14696556087017068,
+       "altmax": 0.14696556087017068
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35200000000000004
+    },
+    {
+     "f": 1325,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 0.498989898989899,
+       "area": 0.14038459964439376,
+       "cx": 0.05982485915386371,
+       "alt": 0.15731569075271257,
+       "altmax": 0.15731569075271257
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38700000000000007
+    },
+    {
+     "f": 1340,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 0.503030303030303,
+       "area": 0.15917441357522008,
+       "cx": -0.011472030665014288,
+       "alt": 0.16783941305730046,
+       "altmax": 0.16783941305730046
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42499999999999993
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1361,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.8666666666666667,
+       "vis": 0.36596736596736595,
+       "area": 0.1433319684611424,
+       "cx": -0.22033903500757268,
+       "alt": 0.1838498933834772,
+       "altmax": 0.1838498933834772
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.4099999999999999
+    },
+    {
+     "f": 1377,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.7757575757575758,
+       "vis": 0.3229166666666667,
+       "area": 0.12829137379100708,
+       "cx": -0.3112125069562397,
+       "alt": 0.18652961321204492,
+       "altmax": 0.18652961321204492
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34900000000000003
+    },
+    {
+     "f": 1392,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.8929292929292929,
+       "vis": 0.34841628959276016,
+       "area": 0.13038490929261184,
+       "cx": -0.2731315423069321,
+       "alt": 0.18018545745391526,
+       "altmax": 0.18018545745391526
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.361
+    }
+   ]
+  },
+  {
+   "id": "b8~2",
+   "quadros": [
+    {
+     "f": 1413,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9212121212121213,
+       "vis": 0.42105263157894735,
+       "area": 0.1510235139857543,
+       "cx": -0.14031407647875865,
+       "alt": 0.1756829538930094,
+       "altmax": 0.1756829538930094
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37900000000000006
+    },
+    {
+     "f": 1428,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9535353535353536,
+       "vis": 0.4745762711864407,
+       "area": 0.16830254420008756,
+       "cx": 0.042266542856818856,
+       "alt": 0.18046921365871765,
+       "altmax": 0.18046921365871765
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.45199999999999996
+    },
+    {
+     "f": 1443,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9515151515151515,
+       "vis": 0.4819532908704883,
+       "area": 0.18744074809526698,
+       "cx": -0.022386470394665348,
+       "alt": 0.1921961020318079,
+       "altmax": 0.1921961020318079
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.5
+    }
+   ]
+  },
+  {
+   "id": "b8~3",
+   "quadros": [
+    {
+     "f": 1464,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.8080808080808081,
+       "vis": 0.2825,
+       "area": 0.15633933900325714,
+       "cx": -0.23647802510902927,
+       "alt": 0.20501451250931,
+       "altmax": 0.20501451250931
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.432
+    },
+    {
+     "f": 1480,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.8666666666666667,
+       "vis": 0.41025641025641024,
+       "area": 0.13279981119776804,
+       "cx": -0.32326235239456147,
+       "alt": 0.19692228075968143,
+       "altmax": 0.19692228075968143
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.332
+    },
+    {
+     "f": 1495,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9111111111111111,
+       "vis": 0.48337028824833705,
+       "area": 0.13152613158495038,
+       "cx": -0.275789090453609,
+       "alt": 0.19006082251266426,
+       "altmax": 0.19006082251266426
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.315
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1518,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 0.4808080808080808,
+       "area": 0.16133125544464136,
+       "cx": -0.11365171303422672,
+       "alt": 0.20970951512257388,
+       "altmax": 0.20970951512257388
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.28300000000000003
+    },
+    {
+     "f": 1536,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 1,
+       "vis": 0.4868686868686869,
+       "area": 0.183569935051634,
+       "cx": -0.17087274699409266,
+       "alt": 0.2220979116057335,
+       "altmax": 0.2220979116057335
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.338
+    },
+    {
+     "f": 1554,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9292929292929293,
+       "vis": 0.4956521739130435,
+       "area": 0.19501412926602096,
+       "cx": -0.16993532398554256,
+       "alt": 0.23522831868383598,
+       "altmax": 0.23522831868383598
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35999999999999993
+    }
+   ]
+  },
+  {
+   "id": "b9~1",
+   "quadros": [
+    {
+     "f": 1579,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.9939393939393939,
+       "vis": 0.508130081300813,
+       "area": 0.20691583968251176,
+       "cx": 0.0008980851063744022,
+       "alt": 0.2088189494626844,
+       "altmax": 0.2088189494626844
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43
+    },
+    {
+     "f": 1597,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.8464646464646465,
+       "vis": 0.4821002386634845,
+       "area": 0.1889903164196269,
+       "cx": 0.09418629806146606,
+       "alt": 0.21182251289059886,
+       "altmax": 0.21182251289059886
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.443
+    },
+    {
+     "f": 1615,
+     "objs": [
+      {
+       "a": "kit/roadster26",
+       "inq": 0.806060606060606,
+       "vis": 0.45864661654135336,
+       "area": 0.17618906740567664,
+       "cx": 0.15102479744166136,
+       "alt": 0.20969596585939118,
+       "altmax": 0.20969596585939118
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.432
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1641,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1661,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1680,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1707,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1727,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1746,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  }
+ ]
+}

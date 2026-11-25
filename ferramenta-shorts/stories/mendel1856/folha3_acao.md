@@ -1,14 +1,11 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
 > "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: examina | na palavra "descobriu" (2.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -28,22 +25,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b2 - 11.3s a 15.5s - 15 palavras - plano wide
 > "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: espera | na palavra "esperou" (14.3s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperou (14.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 1 | cruzou (11.6s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | esperou (14.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
 
 ## Cena b3 - 16.7s a 20.6s - 12 palavras - plano two
 > "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "amarelas" (18.6s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | saíram (18.3s) | ACAO: sai | sai andando pela lateral | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 21.9s a 24.5s - 9 palavras - plano two
 > "Mendel ficou curioso: para onde tinha ido o verde?"
@@ -57,29 +50,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 25.5s a 29.6s - 14 palavras - plano wide
+## Cena b5 - 25.5s a 29.6s - 14 palavras - plano group
 > "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: planta | na palavra "plantou" (25.8s)
-  2) MEN fala apontando | na palavra "contou" (27.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | plantou (25.8s) | ACAO: x_planta | cava/planta + terra | OK |
 | 2 | contou (27.2s) | ACAO: fala | aponta explicando | OK |
 
-## Cena b6 - 30.8s a 35.9s - 16 palavras - plano wide
+## Cena b6 - 30.8s a 35.9s - 16 palavras - plano two
 > "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verde" (31.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | 3 : 1 | OK |
+| 1 | voltou (32.0s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | 3 : 1 | OK |
 
 ## Cena b7 - 36.9s a 40.0s - 14 palavras - plano two
 > "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
@@ -105,24 +92,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | Publicou (41.0s) | ACAO: escreve | escreve/assina | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 46.3s a 51.0s - 18 palavras - plano wide
+## Cena b9 - 46.3s a 51.0s - 18 palavras - plano group
 > "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
-
-- LEITURA DA FRASE: sentido FATO
-  1) CIE olha/aponta para o alvo | na palavra "viram" (49.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | viram (49.9s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | GENÉTICA | OK |
+| 3 | - | INTERACAO | pular | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | GENÉTICA | OK |
 
 ## Cena b10 - 52.1s a 53.9s - 8 palavras - plano two
 > "No fim, a ervilha fez o monge famoso."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ervilha" (52.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

@@ -6,7 +6,7 @@
    "item": "Os Gansos que Salvaram Roma",
    "consultas": [
     "Os Gansos que Salvaram Roma",
-    "Um Roma Em Cristo Breno Os Capitólio"
+    "Um Roma Em Cristo Breno Roma Os Capitólio"
    ],
    "achados": []
   },
@@ -24,25 +24,25 @@
      "descricao": "0falsefalse English Lodovico Pogliaghi - Demagogues take refuge on the \\u003Cspan class=\\",
      "ordem": 1,
      "print": "referencias/gansos390/prints/roma_colina_do_capit_lio_fa40b4.jpg",
-     "consulta": "Roma colina do Capitólio"
-    },
-    {
-     "titulo": "Piazza del Campidoglio 1, Rome.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Piazza_del_Campidoglio_1%2C_Rome.jpg/500px-Piazza_del_Campidoglio_1%2C_Rome.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APiazza_del_Campidoglio_1%2C_Rome.jpg",
-     "descricao": "Alike 4.0 truetrue English Palazzo dei Conservatori and Palazzo Senatorio around Piazza del \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/gansos390/prints/roma_colina_do_capit_lio_274983.jpg",
-     "consulta": "Roma colina do Capitólio"
+     "consulta": "Roma Capitólio"
     },
     {
      "titulo": "US Capitol east side.JPG",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/500px-US_Capitol_east_side.JPG",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AUS_Capitol_east_side.JPG",
      "descricao": "provide a link to the license, and indicate if changes were made. You may \\u003Cspan class=\\",
-     "ordem": 4,
+     "ordem": 2,
      "print": "referencias/gansos390/prints/roma_colina_do_capit_lio_a285d8.jpg",
-     "consulta": "Roma colina do Capitólio"
+     "consulta": "Roma Capitólio"
+    },
+    {
+     "titulo": "US Capitol west side.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/500px-US_Capitol_west_side.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUS_Capitol_west_side.JPG",
+     "descricao": "truetrue English US \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/roma_colina_do_capit_lio_4cad9f.jpg",
+     "consulta": "Roma Capitólio"
     }
    ]
   },
@@ -56,22 +56,31 @@
    ],
    "achados": [
     {
-     "titulo": "Palazzo Esercito (Roma).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Palazzo_Esercito_%28Roma%29.jpg/500px-Palazzo_Esercito_%28Roma%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APalazzo_Esercito_%28Roma%29.jpg",
-     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Palazzo Esercito (\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/gansos390/prints/roma_1e7701.jpg",
-     "consulta": "Roma"
+     "titulo": "Foro Romano Musei Capitolini Roma.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Foro_Romano_Musei_Capitolini_Roma.jpg/500px-Foro_Romano_Musei_Capitolini_Roma.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AForo_Romano_Musei_Capitolini_Roma.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/roma_ad3dc1.jpg",
+     "consulta": "Roman Forum Rome"
     },
     {
-     "titulo": "Roma pirofregata corazzata.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Roma_pirofregata_corazzata.jpg/500px-Roma_pirofregata_corazzata.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoma_pirofregata_corazzata.jpg",
+     "titulo": "Forum Romanum (14).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Forum_Romanum_%2814%29.jpg/500px-Forum_Romanum_%2814%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AForum_Romanum_%2814%29.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 9,
-     "print": "referencias/gansos390/prints/roma_a5e68d.jpg",
-     "consulta": "Roma"
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/roma_c25c15.jpg",
+     "consulta": "Roman Forum Rome"
+    },
+    {
+     "titulo": "Foro Romano visto dal Vittoriano Roma.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Foro_Romano_visto_dal_Vittoriano_Roma.jpg/500px-Foro_Romano_visto_dal_Vittoriano_Roma.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AForo_Romano_visto_dal_Vittoriano_Roma.jpg",
+     "descricao": "Vittoriano a Roma. English: View of the \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/gansos390/prints/roma_4dbb44.jpg",
+     "consulta": "Roman Forum Rome"
     }
    ]
   },
@@ -84,22 +93,31 @@
    ],
    "achados": [
     {
+     "titulo": "Giovanni di Ser Giovanni Guidi (called Scheggia) - King Brennus of Gaul captures the city of Rome, Marcus Furius Camillus expels King Brennus from Rome - 1942.324 - Yale University Art Gallery.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Giovanni_di_Ser_Giovanni_Guidi_%28called_Scheggia%29_-_King_Brennus_of_Gaul_captures_the_city_of_Rome%2C_Marcus_Furius_Camillus_expels_King_Brennus_from_Rome_-_1942.324_-_Yale_University_Art_Gallery.jpg/500px-Giovanni_di_Ser_Giovanni_Guidi_%28called_Scheggia%29_-_King_Brennus_of_Gaul_captures_the_city_of_Rome%2C_Marcus_Furius_Camillus_expels_King_Brennus_from_Rome_-_1942.324_-_Yale_University_Art_Gallery.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGiovanni_di_Ser_Giovanni_Guidi_%28called_Scheggia%29_-_King_Brennus_of_Gaul_captures_the_city_of_Rome%2C_Marcus_Furius_Camillus_expels_King_Brennus_from_Rome_-_1942.324_-_Yale_University_Art_Gallery.jpg",
+     "descricao": "di ser Giovanni Guidi: King \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/gauleses_de_breno_a94eea.jpg",
+     "consulta": "Brennus Gaul Rome"
+    },
+    {
      "titulo": "Brennus and Sulpicius (illustration).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Brennus_and_Sulpicius_%28illustration%29.jpg/500px-Brennus_and_Sulpicius_%28illustration%29.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ABrennus_and_Sulpicius_%28illustration%29.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 1,
+     "ordem": 2,
      "print": "referencias/gansos390/prints/gauleses_de_breno_70ce30.jpg",
-     "consulta": "Brennus Gaul sack of Rome painting"
+     "consulta": "Brennus Gaul Rome"
     },
     {
-     "titulo": "Sebastiano ricci, camillo riprende roma a brenno, 1716-20 ca.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sebastiano_ricci%2C_camillo_riprende_roma_a_brenno%2C_1716-20_ca.jpg/500px-Sebastiano_ricci%2C_camillo_riprende_roma_a_brenno%2C_1716-20_ca.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASebastiano_ricci%2C_camillo_riprende_roma_a_brenno%2C_1716-20_ca.jpg",
-     "descricao": "Object type \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/gansos390/prints/gauleses_de_breno_f50b00.jpg",
-     "consulta": "Brennus Gaul sack of Rome painting"
+     "titulo": "GaulsinRome.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/GaulsinRome.jpg/500px-GaulsinRome.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGaulsinRome.jpg",
+     "descricao": "DescriptionGaulsin\\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/gansos390/prints/gauleses_de_breno_0eeb14.jpg",
+     "consulta": "Brennus Gaul Rome"
     }
    ]
   },
@@ -118,25 +136,25 @@
      "descricao": "Description\\u003Cspan class=\\",
      "ordem": 2,
      "print": "referencias/gansos390/prints/marco_m_nlio_b4f625.jpg",
-     "consulta": "Marco Mânlio"
+     "consulta": "Manlius Capitolinus"
+    },
+    {
+     "titulo": "Des cas des nobles hommes - BNF Fr130 f141r (Mort de Marcus Manlius Capitolinus).jpeg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Des_cas_des_nobles_hommes_-_BNF_Fr130_f141r_%28Mort_de_Marcus_Manlius_Capitolinus%29.jpeg/500px-Des_cas_des_nobles_hommes_-_BNF_Fr130_f141r_%28Mort_de_Marcus_Manlius_Capitolinus%29.jpeg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADes_cas_des_nobles_hommes_-_BNF_Fr130_f141r_%28Mort_de_Marcus_Manlius_Capitolinus%29.jpeg",
+     "descricao": "Étienne Colaud: Français : L\\u0026#039;exécution de \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/marco_m_nlio_9fff5c.jpg",
+     "consulta": "Manlius Capitolinus"
     },
     {
      "titulo": "Marcus Manlius capitolinus.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Marcus_Manlius_capitolinus.jpg/500px-Marcus_Manlius_capitolinus.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AMarcus_Manlius_capitolinus.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/gansos390/prints/marco_m_nlio_6018e8.jpg",
-     "consulta": "Marco Mânlio"
-    },
-    {
-     "titulo": "Domenico Beccafumi 007.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Domenico_Beccafumi_007.jpg/500px-Domenico_Beccafumi_007.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ADomenico_Beccafumi_007.jpg",
-     "descricao": "Q3305213 Genre allegory  Description Szene: Der Sturz des \\u003Cspan class=\\",
      "ordem": 4,
-     "print": "referencias/gansos390/prints/marco_m_nlio_f71836.jpg",
-     "consulta": "Marco Mânlio"
+     "print": "referencias/gansos390/prints/marco_m_nlio_6018e8.jpg",
+     "consulta": "Manlius Capitolinus"
     }
    ]
   },
@@ -149,31 +167,31 @@
    ],
    "achados": [
     {
-     "titulo": "Wells 0706 054.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wells_0706_054.jpg/500px-Wells_0706_054.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AWells_0706_054.jpg",
-     "descricao": "English Recreation of Roman \\u003Cspan class=\\",
+     "titulo": "Montefortino helmet, prototype.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Montefortino_helmet%2C_prototype.jpg/500px-Montefortino_helmet%2C_prototype.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMontefortino_helmet%2C_prototype.jpg",
+     "descricao": "Alike 4.0 truetrue English The Gaulish type-find of the \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/gansos390/prints/legion_rio_romano_e46d97.jpg",
-     "consulta": "legionário romano"
+     "print": "referencias/gansos390/prints/legion_rio_romano_2b6c9b.jpg",
+     "consulta": "Roman Montefortino"
     },
     {
-     "titulo": "Tux vestita da legionario romano.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tux_vestita_da_legionario_romano.png/500px-Tux_vestita_da_legionario_romano.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATux_vestita_da_legionario_romano.png",
-     "descricao": "English Italian Tux vestita da \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/gansos390/prints/legion_rio_romano_a3c2ba.jpg",
-     "consulta": "legionário romano"
+     "titulo": "Helmet typ Montefortino 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Helmet_typ_Montefortino_01.jpg/500px-Helmet_typ_Montefortino_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHelmet_typ_Montefortino_01.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/legion_rio_romano_8af04d.jpg",
+     "consulta": "Roman Montefortino"
     },
     {
-     "titulo": "1st century legionaries.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/1st_century_legionaries.jpg/500px-1st_century_legionaries.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A1st_century_legionaries.jpg",
-     "descricao": "Description1st century \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/gansos390/prints/legion_rio_romano_072ec4.jpg",
-     "consulta": "legionário romano"
+     "titulo": "Helmet of the Montefortino Type MET DP701216.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Helmet_of_the_Montefortino_Type_MET_DP701216.jpg/500px-Helmet_of_the_Montefortino_Type_MET_DP701216.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHelmet_of_the_Montefortino_Type_MET_DP701216.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/gansos390/prints/legion_rio_romano_43c8fe.jpg",
+     "consulta": "Roman Montefortino"
     }
    ]
   },
@@ -185,6 +203,15 @@
     "gansos de Juno"
    ],
    "achados": [
+    {
+     "titulo": "MotteGeese.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/MotteGeese.jpg/500px-MotteGeese.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMotteGeese.jpg",
+     "descricao": "Rome with the sacred \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/gansos_de_juno_0b69dc.jpg",
+     "consulta": "geese Juno"
+    },
     {
      "titulo": "Juno Sospita Statue.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Juno_Sospita_Statue.jpg/500px-Juno_Sospita_Statue.jpg",
@@ -201,15 +228,6 @@
      "descricao": "English \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/gansos390/prints/gansos_de_juno_1eddab.jpg",
-     "consulta": "Juno"
-    },
-    {
-     "titulo": "Junona, Ny Carlsberg Glyptotek, Copenhagen, 20220618 1048 7020.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Junona%2C_Ny_Carlsberg_Glyptotek%2C_Copenhagen%2C_20220618_1048_7020.jpg/500px-Junona%2C_Ny_Carlsberg_Glyptotek%2C_Copenhagen%2C_20220618_1048_7020.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AJunona%2C_Ny_Carlsberg_Glyptotek%2C_Copenhagen%2C_20220618_1048_7020.jpg",
-     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Bust of the goddess \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/gansos390/prints/gansos_de_juno_fca464.jpg",
      "consulta": "Juno"
     }
    ]

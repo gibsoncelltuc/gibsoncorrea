@@ -79,6 +79,16 @@
      "CAN"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "invadiram",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -111,7 +121,16 @@
     ]
    ],
    "mapa": "ALASCA",
-   "set": "arctic"
+   "set": "arctic",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Kiska"
+     }
+    ]
+   }
   },
   {
    "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
@@ -135,7 +154,17 @@
    "who": [
     "USA:0:stern",
     "CAN:1:smile"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
@@ -175,7 +204,16 @@
    "detalhe": false,
    "_auto_vis": 3,
    "d0": 15.0,
-   "d1": 14.0
+   "d1": 14.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bombardearam"
+     }
+    ]
+   }
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -189,7 +227,17 @@
    "light": "overcast",
    "mood": "tense",
    "set": "arctic",
-   "clima": "neblina"
+   "clima": "neblina",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_desce",
+      "na": "desceram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Mas teve um problema: os japoneses já tinham ido embora.",
@@ -203,7 +251,16 @@
    "tstyle": "red",
    "light": "overcast",
    "clima": "neblina",
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "embora"
+     }
+    ]
+   }
   },
   {
    "say": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
@@ -214,12 +271,18 @@
     "CAN:0:nervous"
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "USA",
-     "CAN"
-    ],
-    "march": true
+    "n": 0
+   },
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_procura",
+      "na": "procuraram",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -244,7 +307,16 @@
    "mood": "calm",
    "set": "harbor",
    "clima": "neblina",
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "navios"
+     }
+    ]
+   }
   },
   {
    "say": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
@@ -269,7 +341,17 @@
    "light": "overcast",
    "mood": "tense",
    "set": "arctic",
-   "clima": "neblina"
+   "clima": "neblina",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atirar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
@@ -296,7 +378,25 @@
    "text": "MINA",
    "tat": 14,
    "tstyle": "red",
-   "animais": false
+   "animais": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CAN",
+     "USA"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "morre",
+      "na": "morreram"
+     }
+    ]
+   }
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -333,7 +433,17 @@
     ]
    ],
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "acharam",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
@@ -362,7 +472,16 @@
    ],
    "detalhe": true,
    "set": "harbor",
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ilha"
+     }
+    ]
+   }
   }
  ],
  "heroi": "kit/dog_sit",

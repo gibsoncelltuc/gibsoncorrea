@@ -12,6 +12,14 @@
   },
   {
    "tipo": "lugar",
+   "item": "Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi",
+   "consultas": [
+    "Estados Unidos",
+    "Estados Unidos 2024"
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Estados Unidos",
    "consultas": [
     "Estados Unidos 2024",
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Donald Trump (terno azul, gravata vermelha)",
+   "consultas": [
+    "Donald Trump terno azul gravata vermelha",
+    "Donald Trump terno azul gravata vermelha 2024"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "apoiadores de bone vermelho",
+   "consultas": [
+    "apoiadores de bone vermelho",
+    "apoiadores de bone vermelho 2024"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "eleitores",
+   "consultas": [
+    "eleitores",
+    "eleitores 2024"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Kamala Harris (citada)",
+   "consultas": [
+    "Kamala Harris citada",
+    "Kamala Harris citada 2024"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "urna e cedulas",
+   "consultas": [
+    "urna e cedulas",
+    "urna e cedulas 2024"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bandeiras dos EUA",
+   "consultas": [
+    "bandeiras dos EUA",
+    "bandeiras dos EUA 2024"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "Casa Branca",
+   "consultas": [
+    "Casa Branca",
+    "Casa Branca 2024"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "ballot box",
    "consultas": [
-    "ballot box",
+    "urna e cedulas",
     "A Volta de Trump"
    ]
   },

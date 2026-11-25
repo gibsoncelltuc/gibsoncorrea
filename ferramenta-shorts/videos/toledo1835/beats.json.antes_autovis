@@ -61,10 +61,9 @@
  "titulo_base": "A Guerra de Toledo",
  "beats": [
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "OHI:0:stern",
-    "MIC:0:pained"
+    "OHI:0:stern"
    ],
    "text": "1 FERIDO: CANIVETADA",
    "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
@@ -72,9 +71,13 @@
    "props": [
     [
      "kit/canivete_aberto",
-     0.5,
-     1.6,
-     4.5
+     2.4,
+     0.2,
+     3.0,
+     {
+      "nocol": true,
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -88,7 +91,32 @@
    "tstyle": "red",
    "titulo": true,
    "detalhe": false,
-   "_auto_vis": 1
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "canivetada"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -102,14 +130,43 @@
    "props": [
     [
      "kit/mapa_antigo",
-     1.9,
-     -0.6,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "MAPA ERRADO",
    "tat": 15,
-   "tstyle": "red"
+   "tstyle": "red",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mapa_antigo juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/mapa_antigo",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mapa"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "close",
@@ -118,7 +175,17 @@
    ],
    "interior": "madeira",
    "say": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.",
-   "text": "23 ANOS"
+   "text": "23 ANOS",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -141,7 +208,17 @@
    "impact": false,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "respondeu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -166,9 +243,12 @@
    "props": [
     [
      "kit/teodolito",
-     -2.6,
-     -0.4,
-     1.1
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "lados": [
@@ -176,7 +256,33 @@
     "MIC"
    ],
    "detalhe": false,
-   "_auto_vis": 2
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e teodolito juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/teodolito",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "tiros",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide"
   },
   {
    "shot": "two",
@@ -232,11 +338,42 @@
     [
      "kit/canivete_aberto",
      0.0,
-     0.6,
-     2.2
+     -1.2,
+     2.2,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "acao": "discutir"
+   "acao": "discutir",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "espeta",
+      "na": "espetado",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -246,7 +383,18 @@
    ],
    "interior": "pedra",
    "text": "ACORDO",
-   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo."
+   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.",
+   "susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -255,7 +403,16 @@
     "MIC:1:pained",
     "GOV:0:nervous"
    ],
-   "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria."
+   "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "floresta"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -269,8 +426,8 @@
     [
      "kit/minerio",
      0.0,
-     0.4,
-     1.6,
+     -1.0,
+     2.0,
      {
       "fixo": true
      }
@@ -280,7 +437,34 @@
    "tat": 6,
    "tstyle": "gold",
    "titulo": true,
-   "detalhe": false
+   "detalhe": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/minerio",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cobre"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "wide",
+   "_auto_vis": 1
   },
   {
    "shot": "close",
@@ -290,7 +474,17 @@
    "clima": "limpo",
    "hora": "dia",
    "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perdeu",
+      "quem": 0
+     }
+    ]
+   }
   }
  ],
  "heroi": "kit/canivete_aberto",
@@ -330,5 +524,6 @@
  "fontes": [
   "https://en.wikipedia.org/wiki/Toledo_War",
   "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war"
- ]
+ ],
+ "max_wide": 4
 }

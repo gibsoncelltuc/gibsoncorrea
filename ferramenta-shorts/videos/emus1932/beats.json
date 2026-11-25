@@ -67,7 +67,16 @@
    "verbos_ok": [
     "decla"
    ],
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Austrália"
+     }
+    ]
+   }
   },
   {
    "say": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país.",
@@ -89,7 +98,17 @@
    "mapa": "AUSTRÁLIA",
    "mapa_at": 3,
    "riscos_ok": true,
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "invadiram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -101,11 +120,28 @@
    "say": "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
    "fachada": false,
    "kw": false,
-   "encena": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "pediram",
+      "quem": 0
+     }
+    ]
+   },
    "sfx": [
     "ding@20"
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "FARM"
+    ],
+    "march": false,
+    "expr": "angry"
+   }
   },
   {
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
@@ -149,10 +185,6 @@
    "tiros": false,
    "detalhe": false,
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "fazenda aberta",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mgun juntos (camera a 11.5 m)",
@@ -170,6 +202,20 @@
       "estado": "parado"
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "levou",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -179,13 +225,6 @@
     "SOL:0:angry",
     "SOL:1:stern"
    ],
-   "emus": {
-    "n": 8,
-    "mode": "run",
-    "x": 5.0,
-    "z": -4.5,
-    "dir": -1
-   },
    "batalha": false,
    "props": [],
    "detalhe": false,
@@ -215,11 +254,49 @@
      "quem": 1
     }
    ],
-   "d0": 10.5,
-   "d1": 9.5,
+   "d0": 9.0,
+   "d1": 8.5,
    "quadro_manual": true,
    "cx": 0.8,
-   "cz": -1.0
+   "cz": -0.5,
+   "animals": [
+    [
+     "emu",
+     2.4,
+     -1.5,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     3.4,
+     -2.2,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     4.2,
+     -1.2,
+     "run",
+     1.6
+    ]
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "impact": false,
+   "grua": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "balas",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
@@ -278,6 +355,16 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "instalada",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -290,7 +377,32 @@
    "text": "6 DIAS",
    "tat": 0,
    "set": "loc_campo",
-   "fachada": false
+   "fachada": false,
+   "animals": [
+    [
+     "emu",
+     2.6,
+     -1.4,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     3.6,
+     -2.0,
+     "run",
+     1.6
+    ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cartuchos"
+     }
+    ]
+   }
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
@@ -320,11 +432,6 @@
    ],
    "batalha": false,
    "tiros": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0,
    "detalhe": false,
    "quadro": {
     "local": "fazenda aberta",
@@ -335,6 +442,56 @@
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "indo embora"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0,
+   "animals": [
+    [
+     "emu",
+     -3.0,
+     -4.0,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     -1.8,
+     -5.0,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     3.4,
+     -3.6,
+     "run",
+     1.6
+    ]
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_ri",
+      "na": "riu",
+      "quem": 0
+     },
+     {
+      "faz": "sai",
+      "na": "retirou",
+      "quem": 0
      }
     ]
    }
@@ -380,7 +537,17 @@
    "cx": 3.0,
    "cz": 0.8,
    "h": 2.4,
-   "tiros": false
+   "tiros": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "voltou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
@@ -401,7 +568,17 @@
    },
    "riscos_ok": true,
    "titulo": true,
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "pagou",
+      "quem": 0
+     }
+    ]
+   }
   }
  ],
  "heroi": null,

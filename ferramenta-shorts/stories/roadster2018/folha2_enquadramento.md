@@ -47,10 +47,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "No painel, estava escrito: Não entre em pânico."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: espaco
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: STA no centro, expressao neutral; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "NÃO ENTRE EM PÂNICO" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "NÃO ENTRE EM PÂNICO" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b7: "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)

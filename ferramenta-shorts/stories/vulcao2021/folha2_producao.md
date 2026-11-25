@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/vulcao2021/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py vulcao2021` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - O presidente de El Salvador resolveu fabricar dinheiro digital com a e...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: jungle | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUK (variante 0, expressao smug); ENG (variante 0, expressao surprised)
@@ -13,23 +13,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - El Salvador é um país pequeno da América Central, cheio de vulcões.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Cenario: jungle | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
+- Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, vulcoes
 - RISCOS: nenhum
 
-## Cena b2 - Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficia...
+## Cena b2 - Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao ...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); ENA (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bitcoin, kit/coin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, dolar, moeda, nayib
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, bukele, dolar, moeda
 - RISCOS: nenhum
 
 ## Cena b3 - Só que, para criar bitcoins novos, computadores fazem contas sem parar...
@@ -43,88 +43,77 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Então ele mandou a empresa de energia do governo usar o calor do vulcã...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): BUK (variante 0, expressao smug); ENG (variante 0, expressao shock)
-- Animacao: conversar | interacao: entregar
+- Cenario: jungle | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: encena
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): calor, empresa, energia, governo, vulcao
 - RISCOS: nenhum
 
 ## Cena b5 - O vapor quente que sai de dentro da terra gira turbinas, e vira eletri...
-- Cenario: loc_pista | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ENA (variante 0, expressao grin); BUK (variante 0, expressao smile)
+- Cenario: loc_estudio | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (0): - | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/volcano, kit/turbina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dentro, terra, vapor
-- RISCOS: 
-  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
+- RISCOS: nenhum
 
-## Cena b6 - Acontece que, ao lado da usina, instalaram centenas de computadores só...
+## Cena b6 - Acontece que, ao lado da usina, instalaram computadores só para minera...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ENG (variante 0, expressao surprised); ENA (variante 0, expressao grin)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/miners, kit/bitcoin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): computadores, usina
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): usina
 - RISCOS: nenhum
 
 ## Cena b7 - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao grin)
-- Animacao: comemorar
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, pedacinho
 - RISCOS: nenhum
 
-## Cena b8 - Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
+## Cena b8 - Anos depois, o governo contava quase quinhentos bitcoins feitos com o ...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): BUK (variante 0, expressao laugh); ENG (variante 0, expressao laugh); ENA (variante 0, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): redes, usina, video, vulcao
-- RISCOS: nenhum
-
-## Cena b9 - Anos depois, o governo contava quase quinhentos bitcoins minerados com...
-- Cenario: loc_patio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENA (variante 0, expressao smile, segura paper); ENG (variante 0, expressao grin)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/bitcoin, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, governo, vulcao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, vulcao
 - RISCOS: nenhum
 
-## Cena b10 - E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés...
+## Cena b9 - E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); BUK (variante 0, expressao smug) | multidao: 16 de POV
-- Animacao: reagir | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): POV (variante 0, expressao surprised) | multidao: 0 de 
+- Animacao: encena
 - Objetos/modelos: kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, plano
 - RISCOS: nenhum
 
-## Cena b11 - Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+## Cena b10 - Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BUK (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vulcao
 - RISCOS: nenhum
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: jungle | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): BUK (variante 0, expressao grin)
@@ -138,27 +127,24 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bitcoin | b0, b2, b3, b6, b7, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b4, b5, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bitcoin | b0, b2, b3, b6, b7, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b4, b5, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/miners | b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/turbina | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b8, b10 | planos abertos: 4 | mistura: close 22% | medio 55% | aberto 17% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b4 entregar, b6 vai ate o outro, b9 aproxima-se
+- Objeto heroi: kit/bitcoin | grandes momentos: b2, b7 | planos abertos: 5 | mistura: close 12% | medio 53% | aberto 32% | detalhe 3%
+- Interacoes: b0 o outro se aproxima, b3 discutir, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py vulcao2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/vulcao2021/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- b5: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh vulcao2021 bN bM` (so essas cenas).

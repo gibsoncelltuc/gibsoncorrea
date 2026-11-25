@@ -7,7 +7,15 @@
    "item": "Bitcoin Feito com Vulcão",
    "consultas": [
     "Bitcoin Feito com Vulcão",
-    "El Salvador El Salvador América Central Em Nayib Bukele 2021"
+    "El Salvador El Salvador América Central Em Bukele 2021"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Usina geotermica de Berlin, no vulcao Tecapa (Usulutan, El Salvador): usina com",
+   "consultas": [
+    "Usina geotermica de Berlin no vulcao Tecapa",
+    "Usina geotermica de Berlin no vulcao Tecapa Usulutan El Salvador 2021"
    ]
   },
   {
@@ -27,10 +35,58 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Nayib Bukele (jaqueta escura, bone)",
+   "consultas": [
+    "Nayib Bukele jaqueta escura bone",
+    "Nayib Bukele jaqueta escura bone 2021"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "engenheiros da LaGeo de capacete e colete",
+   "consultas": [
+    "engenheiros da LaGeo de capacete e colete",
+    "engenheiros da LaGeo de capacete e colete 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "moeda de bitcoin",
+   "consultas": [
+    "moeda de bitcoin",
+    "moeda de bitcoin 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "computadores de mineracao (ASIC)",
+   "consultas": [
+    "computadores de mineracao",
+    "computadores de mineracao 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "turbina",
+   "consultas": [
+    "turbina",
+    "turbina 2021"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "vulcao",
+   "consultas": [
+    "vulcao",
+    "vulcao 2021"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "bitcoin",
    "consultas": [
-    "bitcoin",
+    "moeda de bitcoin",
     "Bitcoin Feito com Vulcão"
    ]
   },
@@ -61,7 +117,7 @@
    "item": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletri",
    "consultas": [
     "vapor quente dentro terra turbinas eletricidade limpa",
-    "diagram"
+    "turbina diagram"
    ]
   }
  ]

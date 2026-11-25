@@ -6,7 +6,7 @@
  "title": "O País do Bitcoin",
  "titulo_base": "O País do Bitcoin",
  "set": "street",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/bitcoin",
  "outfits": {
@@ -45,7 +45,7 @@
  },
  "beats": [
   {
-   "say": "Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.",
+   "say": "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam.",
    "shot": "two",
    "who": [
     "BUK:0:smile",
@@ -54,9 +54,12 @@
    "props": [
     [
      "kit/bitcoin",
-     1.5,
-     0.3,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -64,11 +67,40 @@
    "impact": false,
    "verbos_ok": [
     "aceit"
-   ]
+   ],
+   "text": "9 EM 10 NÃO ENTENDIAM",
+   "titulo": true,
+   "detalhe": false,
+   "vary": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "BUK",
+     "POV"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "say": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
-   "shot": "close",
+   "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
+   "shot": "wide",
    "who": [
     "BUK:0:smug"
    ],
@@ -76,37 +108,76 @@
    "mapa_at": 1,
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "quadro_manual": true,
+   "d0": 4.5,
+   "d1": 4.0,
+   "shot_lock": true,
+   "h": 1.7,
+   "cx": 0,
+   "cz": 0,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
-   "say": "A lei foi aprovada pelo congresso em junho daquele ano.",
+   "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
    "shot": "group",
    "who": [
-    "DEP:0:neutral",
-    "BUK:0:smile",
-    "CLI:0:neutral"
+    "DEP:0:smile",
+    "DEP:1:grin",
+    "BUK:0:smile"
    ],
-   "interior": "pedra",
    "props": [
     [
      "kit/bitcoin",
-     1.6,
-     0.3,
-     1.1
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "DEP"
+    ],
+    "march": false,
+    "expr": "smile"
+   },
+   "text": "LEI APROVADA",
+   "set": "loc_cidade",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "say": "E passou a valer em sete de setembro de dois mil e vinte e um.",
+   "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
    "shot": "reveal",
    "who": [
     "BUK:0:grin",
     "POV:0:smile"
    ],
-   "text": "7 DE SETEMBRO DE 2021",
+   "text": "7 DE SETEMBRO",
    "crowd": {
     "n": 8,
     "outfits": [
@@ -118,10 +189,10 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": true
   },
   {
-   "say": "Com isso, dava para pagar as compras com bitcoin.",
+   "say": "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo.",
    "shot": "two",
    "who": [
     "CLI:0:smile:coin",
@@ -131,15 +202,21 @@
    "props": [
     [
      "kit/stall",
-     1.7,
-     -0.5,
-     1.2
+     3.6,
+     -2.0,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/bitcoin",
-     -1.6,
-     0.3,
-     1.0
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -150,15 +227,50 @@
    "sfx": [
     "ding@3"
    ],
-   "impact": false
+   "impact": false,
+   "text": "US$ 30",
+   "titulo": true,
+   "detalhe": false,
+   "vary": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CLI",
+     "POV"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stall",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "say": "O governo lançou até uma carteira digital, chamada Chivo.",
-   "shot": "close",
+   "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
+   "shot": "wide",
    "who": [
     "CLI:0:surprised"
    ],
-   "text": "CARTEIRA CHIVO",
+   "text": "FORA DO AR",
    "fx": [
     "stars@2"
    ],
@@ -167,14 +279,48 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
+   "impact": true,
    "verbos_ok": [
     "lanco"
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "props": [
+    [
+     "kit/phone",
+     0.55,
+     0.3,
+     1.08,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "detalhe": false,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0.25,
+   "cz": 0.1,
+   "h": 1.5,
+   "d0": 4.2,
+   "d1": 3.8,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 2
   },
   {
-   "say": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",
+   "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
    "shot": "two",
    "who": [
     "CLI:0:nervous",
@@ -189,10 +335,33 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "text": "68% DISCORDAM",
+   "titulo": true
   },
   {
-   "say": "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.",
+   "say": "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte.",
+   "who": [
+    "BUK:0:nervous",
+    "DEP:0:shock"
+   ],
+   "shot": "two",
+   "interior": "pedra",
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "PREÇO DESPENCOU"
+  },
+  {
+   "say": "Mesmo assim, a moeda digital virou assunto no mundo inteiro.",
    "shot": "orbit",
    "who": [
     "BUK:0:grin",
@@ -201,9 +370,12 @@
    "props": [
     [
      "kit/globe",
-     1.5,
-     -0.3,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "crowd": {
@@ -216,7 +388,23 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
@@ -229,14 +417,95 @@
    "props": [
     [
      "kit/bitcoin",
-     1.8,
-     -0.4,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "detalhe": false,
+   "vary": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
- ]
+ ],
+ "duracao_ok": true,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+  "https://www.aljazeera.com/economy/2021/9/7/glitches-protests-as-bitcoin-becomes-legal-tender-in-el-salvador"
+ ],
+ "visual": {
+  "local": "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021",
+  "quando": "junho a setembro de 2021, dia",
+  "participantes": [
+   "presidente Nayib Bukele (jaqueta escura e bone)",
+   "deputados da Assembleia Legislativa de terno",
+   "comerciantes de chapeu de palha e camisa laranja",
+   "clientes comuns de camisa verde"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura, bone e barba",
+   "DEP": "terno roxo com gravata vermelha",
+   "POV": "comerciante de chapeu de palha",
+   "CLI": "camisa verde e calca azul"
+  },
+  "cenario": "rua com barraca de feira e comerciantes, sala da assembleia, celulares com a carteira Chivo",
+  "objetos": [
+   "moeda de bitcoin",
+   "carteira digital Chivo",
+   "barraca de feira",
+   "globo"
+  ],
+  "explicacoes": [
+   "Bukele anunciou o projeto em 5 de junho de 2021; a Assembleia aprovou a Lei do Bitcoin em 9 de junho (62 de 84 votos) e ela entrou em vigor em 7 de setembro de 2021 (fonte: Wikipedia Bitcoin in El Salvador)",
+   "O governo prometeu US$ 30 em bitcoin a quem se cadastrasse na carteira Chivo, que ficou fora do ar por horas no lancamento; pesquisa da UCA: 68% discordavam da decisao e 9 em 10 nao entendiam o que era bitcoin (fonte: Wikipedia Bitcoin in El Salvador)",
+   "O governo de El Salvador comprou bitcoins com dinheiro publico a partir de setembro de 2021; em 2022 o preco do bitcoin caiu mais de 60% (fonte: Wikipedia Bitcoin in El Salvador)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+   "https://commons.wikimedia.org/wiki/Category:Bitcoin"
+  ],
+  "buscas": {
+   "O País do Bitcoin": "El Salvador bitcoin legal tender 2021 Chivo",
+   "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador,": "San Salvador market street 2021"
+  },
+  "referencias": {
+   "O País do Bitcoin": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador,": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "El Salvador": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "roupas e ruas de 2021": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "presidente Nayib Bukele (jaqueta escura e bone)": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "deputados da Assembleia Legislativa de terno": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "comerciantes de chapeu de palha e camisa laranja": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "clientes comuns de camisa verde": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "moeda de bitcoin": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "carteira digital Chivo": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "barraca de feira": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "globo": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "bitcoin": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "volcano": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)"
+  }
+ },
+ "cinf": 3.0,
+ "exp": 1.254,
+ "max_wide": 3
 }

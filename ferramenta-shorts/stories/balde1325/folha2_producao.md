@@ -8,18 +8,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao grin); BOL (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/balde_madeira, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/balde_madeira (FALTA MODELAR), tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira, premio, vencedor
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: vencedor -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
-## Cena b1 - Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o ...
+## Cena b1 - Módena e Bolonha disputavam a fronteira havia décadas.
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): NOB (variante 0, expressao stern); PAP (variante 0, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fronteira, imperador, papa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fronteira
 - RISCOS: nenhum
 
 ## Cena b2 - Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil s...
@@ -32,10 +33,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): modena, territorio, trinta
 - RISCOS: nenhum
 
-## Cena b3 - Módena tinha menos de oito mil homens, entre cavaleiros e soldados a p...
+## Cena b3 - Módena tinha menos de oito mil homens, e parecia perdida.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained) | multidao: 6 de MOD
 - Animacao: reagir | interacao: insiste
 - Objetos/modelos: -
@@ -70,7 +71,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): derrotados, festa, invadir
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: invadir -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b7 - Na volta, levaram como troféu um balde de madeira, tirado de um poço p...
 - Cenario: medieval | luz: day | clima: limpo
@@ -78,7 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 0 de 
 - Animacao: pega | interacao: vai ate o outro
-- Objetos/modelos: kit/well, kit/balde_madeira, buildings/castle_tower, tools/bucket
+- Objetos/modelos: kit/well, kit/balde_madeira (FALTA MODELAR), buildings/castle_tower, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, bolonha, madeira, poco, porta
 - RISCOS: nenhum
 
@@ -88,14 +90,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MOD (variante 0, expressao smile)
 - Animacao: comemorar
-- Objetos/modelos: buildings/castle_tower, kit/balde_madeira, tools/bucket
+- Objetos/modelos: buildings/castle_tower, kit/balde_madeira (FALTA MODELAR), tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, torre, vitoria
 - RISCOS: nenhum
 
-## Cena b9 - Um poeta italiano transformou a história numa sátira famosa, escrita p...
+## Cena b9 - Séculos depois, um poeta transformou a história numa sátira famosa.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): POV (variante 0, expressao smile, segura paper); POV (variante 1, expressao smile)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
@@ -117,7 +119,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/balde_madeira | b0, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balde_madeira | b0, b7, b8 | FALTA (HEROI: aparece em close) | modelar antes de renderizar
 tools/bucket | b0, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -128,11 +130,17 @@ kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/balde_madeira | grandes momentos: b4 | planos abertos: 2 | mistura: close 15% | medio 62% | aberto 17% | detalhe 6%
+- Objeto heroi: kit/balde_madeira | grandes momentos: b4 | planos abertos: 2 | mistura: close 17% | medio 56% | aberto 19% | detalhe 7%
 - Interacoes: b0 susto, b1 o outro se aproxima, b3 insiste, b5 aproxima-se, b6 pular, b7 vai ate o outro, b9 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py balde1325  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/balde1325/moodboard.jpg
+  - 2 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 4 risco(s) em aberto
+- b0: ACAO SEM ANIMACAO na narracao: vencedor
+- b6: ACAO SEM ANIMACAO na narracao: invadir
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: 2 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh balde1325 bN bM` (so essas cenas).

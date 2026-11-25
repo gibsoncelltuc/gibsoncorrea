@@ -45,3 +45,19 @@
 - b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b0: ja corrigida 3 vezes, objeto citado "kit/lobster" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b0: ja corrigida 3 vezes, objeto "kit/lobster" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 00:36 autocorrecao de visibilidade
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b1: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 0.0, cz -5.6), sem multidao na frente
+- b5: objeto citado "vehicles/airplane" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 7.0, cz -11.2), sem multidao na frente
+- b0: objeto "kit/lobster" saiu com 6% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b1: objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: objeto "kit/lobster" saiu com 8% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 00:37 autocorrecao de visibilidade
+- b0: objeto "kit/lobster" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+- b1: objeto "boat" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> camera mais perto do objeto, 1 personagem de lado
+
+## 25/11 00:37 autocorrecao de visibilidade
+- b1: ja corrigida 3 vezes, objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b1: ja corrigida 3 vezes, objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30% -> fica para o olho

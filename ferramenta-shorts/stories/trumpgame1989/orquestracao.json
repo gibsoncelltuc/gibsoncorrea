@@ -13,7 +13,7 @@
    "loc_cidade"
   ],
   [
-   "cena 13",
+   "cena 12",
    "street",
    "loc_cidade"
   ]
@@ -22,7 +22,7 @@
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
-  "cenario_e_epoca_ok": 0
+  "cenario_e_epoca_ok": 100
  },
  "cenas": [
   {
@@ -36,9 +36,9 @@
     "kit/boardgame",
     "kit/marco_liberdade"
    ],
-   "palavras": 21,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro.",
+   "frase": "Donald Trump lançou um jogo de tabuleiro com o próprio rosto no dinheiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -46,7 +46,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
@@ -55,12 +55,18 @@
    "objetos": [
     "kit/marco_liberdade"
    ],
-   "palavras": 18,
+   "palavras": 16,
    "cena": "b1",
-   "frase": "Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um empresário famoso de Nova York.",
-   "classe": "transicao",
+   "frase": "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -74,9 +80,9 @@
    "objetos": [
     "kit/boardgame"
    ],
-   "palavras": 20,
+   "palavras": 17,
    "cena": "b2",
-   "frase": "Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico.",
+   "frase": "Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hotéis até ficar o mais rico.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -92,9 +98,29 @@
    "objetos": [
     "kit/boardgame"
    ],
-   "palavras": 19,
+   "palavras": 16,
    "cena": "b3",
-   "frase": "As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com a cara do Trump estampada.",
+   "frase": "As notas eram de dez, cinquenta e cem milhões de dólares, com a cara do Trump.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame",
+    "kit/tv"
+   ],
+   "palavras": 13,
+   "cena": "b4",
+   "frase": "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -106,25 +132,6 @@
    "personagens": [
     "PAI",
     "FIL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/boardgame"
-   ],
-   "palavras": 18,
-   "cena": "b4",
-   "frase": "Acontece que o manual tinha mais de doze páginas. As famílias abriam a caixa, e não entendiam nada.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "FIL",
-    "PAI"
    ],
    "multidao": 0,
    "objetos": [
@@ -132,7 +139,7 @@
    ],
    "palavras": 16,
    "cena": "b5",
-   "frase": "Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa.",
+   "frase": "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -140,109 +147,16 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
-   "personagens": [
-    "EXE",
-    "POV",
-    "POV"
-   ],
-   "multidao": 30,
-   "objetos": [
-    "kit/marco_liberdade"
-   ],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil. Foi considerado um fracasso.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
    "camera": "two",
    "personagens": [
     "EXE",
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b7",
-   "frase": "O jogo saiu das lojas, e ficou esquecido por anos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TRU",
     "EXE"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/boardgame",
-    "kit/tv"
-   ],
-   "palavras": 17,
-   "cena": "b8",
-   "frase": "Até que, em dois mil e quatro, Trump virou estrela de um programa de TV, O Aprendiz.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "TRU",
-    "POV",
-    "POV"
-   ],
-   "multidao": 18,
-   "objetos": [
-    "kit/boardgame",
-    "kit/marco_liberdade"
-   ],
-   "palavras": 20,
-   "cena": "b9",
-   "frase": "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "PAI",
-    "FIL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "crate",
-    "kit/boardgame"
-   ],
-   "palavras": 15,
-   "cena": "b10",
-   "frase": "Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador.",
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -250,7 +164,72 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
+   "personagens": [
+    "TRU",
+    "EXE"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EXE",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "TRU",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame",
+    "kit/marco_liberdade"
+   ],
+   "palavras": 18,
+   "cena": "b9",
+   "frase": "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "TRU"
    ],
@@ -258,9 +237,9 @@
    "objetos": [
     "kit/boardgame"
    ],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história.",
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "Um jogo sobre ficar bilionário, que virou curiosidade.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -275,7 +254,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

@@ -7,7 +7,15 @@
    "item": "O Cameo de Sete Segundos",
    "consultas": [
     "O Cameo de Sete Segundos",
-    "Em Esqueceram Mim Kevin Nova York Numa Kevin Donald Trump 1992"
+    "Um Natal Donald Trump Em Esqueceram Mim Kevin Trump 1992"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C",
+   "consultas": [
+    "Hotel Plaza Nova York",
+    "Hotel Plaza Nova York saguao dourado com lustres set de filmagem emissora CBC no Canada 19"
    ]
   },
   {
@@ -35,10 +43,58 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Donald Trump (sobretudo escuro e gravata)",
+   "consultas": [
+    "Donald Trump sobretudo escuro e gravata",
+    "Donald Trump sobretudo escuro e gravata 1992"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "menino Kevin (gorro e casaco)",
+   "consultas": [
+    "menino Kevin gorro e casaco",
+    "menino Kevin gorro e casaco 1992"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "diretor Chris Columbus (barba, bone)",
+   "consultas": [
+    "diretor Chris Columbus barba bone",
+    "diretor Chris Columbus barba bone 1992"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas",
+   "consultas": [
+    "jornalistas",
+    "jornalistas 1992"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "televisao",
+   "consultas": [
+    "televisao",
+    "televisao 1992"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "camera de cinema",
+   "consultas": [
+    "camera de cinema",
+    "camera de cinema 1992"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "tv",
    "consultas": [
-    "tv",
+    "televisao",
     "O Cameo de Sete Segundos"
    ]
   }

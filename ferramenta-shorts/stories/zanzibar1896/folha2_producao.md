@@ -2,119 +2,118 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/zanzibar1896/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py zanzibar1896` de novo ate esta folha sair sem risco.
 
-## Cena b0 - A guerra mais curta da história durou menos que um almoço.
-- Cenario: palace | luz: day | clima: limpo
+## Cena b0 - Uma guerra durou menos de uma hora, e é considerada a mais curta da hi...
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): SUL (variante 0, expressao stern); GUA (variante 0, expressao stern)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/marco_zanzibar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almoco
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b1 - Era em Zanzibar, uma ilha da costa da África, controlada pela Inglater...
-- Cenario: palace | luz: day | clima: limpo
+## Cena b1 - Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana...
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SUL (variante 0, expressao neutral); POV (variante 1, expressao neutral) | multidao: 8 de POV
 - Animacao: -
 - Objetos/modelos: kit/marco_zanzibar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): africa, costa, ilha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
 
-## Cena b2 - O sultão morreu de repente, e um primo dele correu para o palácio, e s...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): SUL (variante 0, expressao grin); GUA (variante 1, expressao stern)
-- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/throne
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palacio, primo, repente, sultao, trono
-- RISCOS: nenhum
-
-## Cena b3 - Os ingleses não gostaram. "Saia do palácio até as nove da manhã", avis...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): ALM (variante 0, expressao stern, segura paper); ING (variante 0, expressao stern)
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, nove, palacio
-- RISCOS: nenhum
-
-## Cena b4 - O novo sultão juntou quase três mil homens, alguns canhões velhos, e s...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern) | multidao: 18 de GUA/POV
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_zanzibar, cannon
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): novo
-- RISCOS: nenhum
-
-## Cena b5 - "Eles não vão atirar", disse ele.
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): SUL (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
-
-## Cena b6 - Acontece que, às nove e dois, os navios ingleses abriram fogo. O palác...
-- Cenario: palace | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): ING (variante 0, expressao stern); GUA (variante 0, expressao shock) | multidao: 20 de ING/GUA
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_zanzibar, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, madeira, navios, nove, palacio, pegar
-- RISCOS: nenhum
-
-## Cena b7 - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado ...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): SUL (variante 0, expressao shock); GUA (variante 1, expressao shock)
-- Animacao: discutir
-- Objetos/modelos: buildings/house_two, nature/lamppost, nature/bench
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, consulado, fundos, sultao
-- RISCOS: nenhum
-
-## Cena b8 - Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
+## Cena b2 - O sultão morreu, e um primo ocupou o palácio sem pedir licença.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern)
-- Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: cannon, war/flagpole
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, canhoes, nove, palacio
+- Personagens principais (2): SUL (variante 0, expressao grin); GUA (variante 0, expressao stern)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: kit/throne
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palacio, primo, sultao
 - RISCOS: nenhum
 
-## Cena b9 - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (3): ALM (variante 0, expressao smile, segura paper); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
-- Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
-- RISCOS: 
-  - a narracao cita "sultao" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
+## Cena b3 - Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ALM (variante 0, expressao stern, segura paper) | multidao: 0 de 
+- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/navio_vapor, kit/marco_zanzibar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, nove, palacio, ultimato
+- RISCOS: nenhum
 
-## Cena b10 - E ainda mandaram a conta das balas para Zanzibar.
+## Cena b4 - O primo reuniu quase três mil homens, com fuzis e mosquetes, e se tran...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern) | multidao: 18 de GUA/POV
+- Animacao: encena
+- Objetos/modelos: kit/marco_zanzibar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fuzis, primo
+- RISCOS: nenhum
+
+## Cena b5 - Acontece que, às nove e dois, os navios ingleses abriram fogo.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/navio_vapor_guerra, cannon, kit/marco_zanzibar, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, nove
+- RISCOS: nenhum
+
+## Cena b6 - O palácio pegou fogo, e a artilharia do sultão foi calada.
+- Cenario: loc_estudio | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, palacio, sultao
+- RISCOS: nenhum
+
+## Cena b7 - O sultão foi pedir abrigo no consulado da Alemanha.
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): SUL (variante 0, expressao scared) | multidao: 0 de 
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, consulado, sultao
+- RISCOS: nenhum
+
+## Cena b8 - Por volta das nove e quarenta, a bandeira do palácio caiu.
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern)
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: kit/forte_colonial, war/flagpole
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, nove, palacio
+- RISCOS: nenhum
+
+## Cena b9 - Os ingleses colocaram outro sultão no trono.
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): SUL (variante 0, expressao smile); ING2 (variante 0, expressao grin) | multidao: 0 de 
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/throne
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
+- RISCOS: nenhum
+
+## Cena b10 - E ainda mandaram a conta das balas para os derrotados.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ALM (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, derrotados
 - RISCOS: nenhum
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): SUL (variante 0, expressao grin)
@@ -128,28 +127,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_zanzibar | b0, b1, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/throne | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-cannon | b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_zanzibar | b0, b1, b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/throne | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vapor | b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vapor_guerra | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/forte_colonial | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 65% | aberto 12% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro, b9 aproxima-se
-- RISCOS GERAIS: 
-  - objeto heroi cannon nao aparece em nenhuma cena -> CORRECAO: por cannon em "props" de pelo menos uma cena (ou tirar de "herois")
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py zanzibar1896  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/zanzibar1896/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+- Objeto heroi: kit/navio_vapor | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 19% | medio 59% | aberto 19% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b8 insiste, b9 vai ate o outro
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 4 risco(s) em aberto
-- b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
-- geral: objeto heroi cannon nao aparece em nenhuma cena
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).

@@ -53,19 +53,17 @@
   {
    "shot": "two",
    "who": [
-    "FAZ:0:shock:pitchfork",
-    "IRL:0:angry"
+    "FAZ:0:shock:pitchfork"
    ],
    "animals": [
     [
      "pig",
      2.6,
-     1.0,
+     1.2,
      "stand",
-     1.1
+     2.01
     ]
    ],
-   "text": "1859",
    "say": "Dois países quase entraram em guerra por causa de um porco.",
    "props": [
     [
@@ -86,7 +84,19 @@
      -0.6,
      1.1
     ]
-   ]
+   ],
+   "d0": 6.0,
+   "d1": 5.0,
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "porco"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -96,7 +106,16 @@
    ],
    "mapa": "ILHA DE SAN JUAN",
    "mapa_at": 4,
-   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era."
+   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ilha"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -109,7 +128,7 @@
      2.2,
      0.8,
      "walk",
-     1.1
+     1.49
     ]
    ],
    "props": [
@@ -145,14 +164,45 @@
     ],
     [
      "kit/batatas",
-     0.0,
-     1.4,
-     1.0
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "detalhe": false,
    "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
-   "set": "countryside"
+   "set": "countryside",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e batatas juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/batatas",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "pegou",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 9.0,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -193,7 +243,16 @@
     ]
    ],
    "set": "countryside",
-   "encena": false
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atirou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -226,7 +285,18 @@
    "say": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_entrega",
+      "na": "ofereceu",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -248,7 +318,17 @@
    "say": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "grita",
+      "na": "gritou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -267,7 +347,17 @@
    "text": "TROPAS",
    "titulo": true,
    "say": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_discute",
+      "na": "ameaçaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -294,7 +384,17 @@
     "thump@40"
    ],
    "say": "A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "respondeu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -304,7 +404,18 @@
    ],
    "interior": "madeira",
    "say": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "susp_ok": true,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "recusou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -317,7 +428,17 @@
    "acao": "comemorar",
    "text": "FESTAS",
    "tat": 8,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "festas",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -329,7 +450,16 @@
    "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
    "riscos_ok": true,
    "impact": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "árbitro"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -341,9 +471,12 @@
    "props": [
     [
      "kit/cross",
-     2.6,
-     -1.6,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "nature/picket_fence",
@@ -361,7 +494,33 @@
      "fall",
      1.1
     ]
-   ]
+   ],
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cross juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/cross",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "porco"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "heroi": "kit/batatas",

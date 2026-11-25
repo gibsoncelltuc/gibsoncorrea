@@ -1,0 +1,2 @@
+VISIBILIDADE: 1 FALHA(S)
+FALHA b4: objeto citado "tools/lantern" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

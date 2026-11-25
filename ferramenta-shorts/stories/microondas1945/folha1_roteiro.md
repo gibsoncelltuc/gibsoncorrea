@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma barra de chocolate derretida no bolso inventou o forno de micro-ondas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: vira (up) @7 -> acao + som de efeito; encena: calor (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40, thump@60
-- Efeito + som nas palavras-chave: encena: examina (think) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @3 -> acao + som de efeito; encena: quebra (throw) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@40, burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: squeal@50
-- Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao; encena: examina (think) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao; encena: examina (think) @1 -> acao + som de efeito; encena: desaba @7 -> acao + som de efeito
 - Efeito visual marcado: burst@50, puff@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai @3 -> acao + som de efeito; encena: calor (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_come (eat) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@70
 - Texto na tela: 1 MINUTO
 - Funcao na historia: GRANDE MOMENTO

@@ -25,7 +25,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "reveal",
@@ -81,7 +81,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "street"
   },
   {
    "camera": "orbit",
@@ -107,7 +107,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "street"
   },
   {
    "camera": "close",
@@ -145,7 +145,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "NEW",
     "AMI"
@@ -185,7 +185,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "NEW"
    ],
@@ -200,7 +200,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "close",
@@ -216,7 +216,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   }
  ]
 }

@@ -1,94 +1,95 @@
-# FOLHA 3 - ACOES - As Guerras do Bacalhau
+# FOLHA 3 - ACOES - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 9.3s - 26 palavras - plano two
-> "Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe."
+## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
+> "A Islândia derrotou a marinha inglesa com um cortador de rede."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | travaram (7.0s) | ACAO: empurra | empurra/puxa | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | ISLÂNDIA VENCEU | OK |
+
+## Cena b1 - 3.8s a 8.5s - 19 palavras - plano wide
+> "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | travaram (7.3s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | - | PLACA | 1958-1976 | OK |
+
+## Cena b2 - 9.9s a 14.3s - 14 palavras - plano two
+> "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | pescavam (12.5s) | ACAO: x_pesca | puxa a linha + respingo | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | MAPA | INGLATERRA | OK |
-| 5 | - | PLACA | 3 GUERRAS | OK |
-
-## Cena b1 - 9.6s a 15.9s - 18 palavras - plano group
-> "A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | pescavam (13.7s) | ACAO: x_pesca | puxa a linha + respingo | OK |
-| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | BACALHAU | OK |
 
-## Cena b2 - 16.3s a 21.9s - 16 palavras - plano wide
-> "Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas."
+## Cena b3 - 15.5s a 19.8s - 14 palavras - plano wide
+> "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 200 MILHAS | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b3 - 22.2s a 25.9s - 11 palavras - plano group
-> "A Inglaterra mandou a marinha para proteger os barcos de pesca."
+## Cena b4 - 21.2s a 23.8s - 10 palavras - plano group
+> "A marinha mandou fragatas para proteger os barcos de pesca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (23.0s) | ACAO: fala | aponta explicando | OK |
-| 2 | proteger (24.4s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
-## Cena b4 - 26.3s a 32.6s - 18 palavras - plano close
-> "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede."
+## Cena b5 - 24.9s a 29.6s - 16 palavras - plano group
+> "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+
+## Cena b6 - 30.6s a 34.3s - 15 palavras - plano wide
+> "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b7 - 35.7s a 38.8s - 14 palavras - plano two
+> "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | ameaçou (36.2s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
+| 2 | fechar (36.5s) | ACAO: empurra | empurra/puxa | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | MAPA | INGLATERRA | OK |
+| 7 | - | PLACA | OTAN | OK |
+
+## Cena b8 - 40.3s a 45.6s - 20 palavras - plano group
+> "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | espalhou (44.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | VITÓRIA ISLANDESA | OK |
+
+## Cena b9 - 46.7s a 48.5s - 8 palavras - plano close
+> "Uma guerra inteira, por causa de um bacalhau."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | CORTADORES DE REDE | OK |
+| 2 | - | PLACA | TUDO POR UM BACALHAU | OK |
 
-## Cena b5 - 33.0s a 38.5s - 16 palavras - plano wide
-> "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | cortavam (33.3s) | ACAO: corta | machado e toras + poeira | OK |
-
-## Cena b6 - 38.9s a 42.6s - 11 palavras - plano orbit
-> "A Islândia ainda ameaçou fechar a base da Otan no país."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | ameaçou (40.0s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | fechar (40.4s) | ACAO: empurra | empurra/puxa | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | PLACA | OTAN | OK |
-
-## Cena b7 - 43.0s a 51.1s - 23 palavras - plano two
-> "Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | ideia (47.4s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | espalhou (50.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | VITÓRIA ISLANDESA | OK |
-
-## Cena b8 - 51.5s a 57.4s - 17 palavras - plano close
-> "Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | batendo (53.3s) | ACAO: x_bate | bate + estouro | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | TUDO POR UM PEIXE | OK |
-
-## Cena b9 - 57.8s a 62.2s - 13 palavras - plano two
+## Cena b10 - 49.7s a 53.0s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

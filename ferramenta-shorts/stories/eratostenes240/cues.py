@@ -24,6 +24,7 @@ laughs(F(_A[9] + int((_A[10] - _A[9]) * 0.2))); laughs(F(_A[9] + int((_A[10] - _
 whoosh(F(_A[10]), 0.4, 0.35)
 ding(F(int(_W(151) - 2)), 0.5, 880)
 gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.58)), 4, 290, 0.12)
+tick(F(int(_W(2))))
 tick(F(int(_W(37))))
 hud(F(int(_W(74))))
 hud(F(int(_W(80))))

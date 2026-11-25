@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Gerado em 24/11 15:40 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 02:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | chave | countryside | orbit | OHI | 48 | teodolito | corpo: tropa/personage
 b5 | simples | interior madeira | two | RAP, XER | - | canivete_aberto | - | A única baixa foi um xerife de Michigan, espetado numa briga de tavern
 b6 | simples | interior pedra | two | GOV, OHI | - | - | - | O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.
 b7 | simples | jungle | group | OHI, MIC, GOV | - | bush, tree_oak, tree_pine | - | Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que
-b8 | simples | arctic | low | GOV, MIC | - | minerio, bush, tree_oak, tree_pine | - | Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
+b8 | simples | arctic | wide | GOV, MIC | 32 | minerio, bush, tree_oak, tree_pine | - | Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
 b9 | simples | interior madeira | close | GOV | - | - | - | No fim das contas, Michigan perdeu a guerra, e ficou rico.
 b10 | simples | interior madeira | two | OHI | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -30,12 +30,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | FEITO | 
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh toledo1835
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh toledo1835
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local toledo1835 <mp4>
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 14. Entrega
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

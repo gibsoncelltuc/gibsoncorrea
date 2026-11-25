@@ -1,0 +1,287 @@
+{
+ "duration": 54.984,
+ "frames30": 1650,
+ "source": "silence-align (cost 1.02)",
+ "segments": [
+  [
+   0.264917,
+   2.96729
+  ],
+  [
+   3.47012,
+   4.986
+  ],
+  [
+   5.48675,
+   7.21129
+  ],
+  [
+   7.41667,
+   8.62704
+  ],
+  [
+   8.77704,
+   9.47075
+  ],
+  [
+   9.69096,
+   11.327
+  ],
+  [
+   11.8401,
+   12.6309
+  ],
+  [
+   12.9662,
+   15.2236
+  ],
+  [
+   15.6288,
+   16.4973
+  ],
+  [
+   17.0045,
+   17.285
+  ],
+  [
+   17.6687,
+   18.3863
+  ],
+  [
+   18.803,
+   20.2119
+  ],
+  [
+   20.3668,
+   21.4375
+  ],
+  [
+   21.9267,
+   22.6944
+  ],
+  [
+   22.9683,
+   25.951
+  ],
+  [
+   26.4599,
+   27.2972
+  ],
+  [
+   27.8,
+   28.8534
+  ],
+  [
+   29.09,
+   30.614
+  ],
+  [
+   31.1288,
+   32.6282
+  ],
+  [
+   32.8274,
+   33.7098
+  ],
+  [
+   34.0423,
+   35.1656
+  ],
+  [
+   35.6771,
+   35.8875
+  ],
+  [
+   36.0313,
+   37.0083
+  ],
+  [
+   37.131,
+   41.5791
+  ],
+  [
+   42.094,
+   43.2731
+  ],
+  [
+   43.6425,
+   45.7938
+  ],
+  [
+   46.2978,
+   47.9719
+  ],
+  [
+   48.5015,
+   49.1041
+  ],
+  [
+   49.2252,
+   49.994
+  ],
+  [
+   50.5087,
+   51.1532
+  ],
+  [
+   51.6661,
+   52.7969
+  ],
+  [
+   53.1938,
+   54.6332
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A car lifted off the ground and flew in front of guests.",
+   "s": 0.265,
+   "e": 2.967
+  },
+  {
+   "text": "And it was not a special effect.",
+   "s": 3.47,
+   "e": 4.986
+  },
+  {
+   "text": "It was Elon Musk's new invention,",
+   "s": 5.487,
+   "e": 7.211
+  },
+  {
+   "text": "at a SpaceX base,",
+   "s": 7.417,
+   "e": 8.627
+  },
+  {
+   "text": "in Texas,",
+   "s": 8.777,
+   "e": 9.471
+  },
+  {
+   "text": "in October twenty twenty-six.",
+   "s": 9.691,
+   "e": 11.327
+  },
+  {
+   "text": "The first trick:",
+   "s": 11.84,
+   "e": 12.631
+  },
+  {
+   "text": "a suction system sticks the car to the track,",
+   "s": 12.966,
+   "e": 15.224
+  },
+  {
+   "text": "like a suction cup.",
+   "s": 15.629,
+   "e": 16.497
+  },
+  {
+   "text": "With it,",
+   "s": 17.005,
+   "e": 17.285
+  },
+  {
+   "text": "the car sped up,",
+   "s": 17.669,
+   "e": 18.386
+  },
+  {
+   "text": "climbed a giant curved ramp and hung upside down.",
+   "s": 18.803,
+   "e": 21.438
+  },
+  {
+   "text": "Then it let go,",
+   "s": 21.927,
+   "e": 22.694
+  },
+  {
+   "text": "flew spinning through the air and landed in a cloud of white smoke.",
+   "s": 22.968,
+   "e": 25.951
+  },
+  {
+   "text": "The second trick:",
+   "s": 26.46,
+   "e": 27.297
+  },
+  {
+   "text": "ten hidden nozzles,",
+   "s": 27.8,
+   "e": 28.853
+  },
+  {
+   "text": "that blow compressed air downward.",
+   "s": 29.09,
+   "e": 30.614
+  },
+  {
+   "text": "That is how it took off and flew,",
+   "s": 31.129,
+   "e": 32.628
+  },
+  {
+   "text": "on its thrusters,",
+   "s": 32.827,
+   "e": 33.71
+  },
+  {
+   "text": "over parked vehicles.",
+   "s": 34.042,
+   "e": 35.166
+  },
+  {
+   "text": "And,",
+   "s": 35.677,
+   "e": 35.888
+  },
+  {
+   "text": "according to Tesla,",
+   "s": 36.031,
+   "e": 37.008
+  },
+  {
+   "text": "it goes from zero to almost one hundred kilometers per hour in under one second.",
+   "s": 37.131,
+   "e": 41.579
+  },
+  {
+   "text": "But experts pointed out:",
+   "s": 42.094,
+   "e": 43.273
+  },
+  {
+   "text": "the flight lasted only a few seconds.",
+   "s": 43.642,
+   "e": 45.794
+  },
+  {
+   "text": "It is not a real flying car yet.",
+   "s": 46.298,
+   "e": 47.972
+  },
+  {
+   "text": "Flying car or jumping car?",
+   "s": 48.502,
+   "e": 49.994
+  },
+  {
+   "text": "You decide.",
+   "s": 50.509,
+   "e": 51.153
+  },
+  {
+   "text": "Now don't forget to comment:",
+   "s": 51.666,
+   "e": 52.797
+  },
+  {
+   "text": "what should the next video be about?",
+   "s": 53.194,
+   "e": 54.633
+  }
+ ]
+}

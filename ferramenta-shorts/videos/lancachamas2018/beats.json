@@ -37,203 +37,396 @@
  },
  "beats": [
   {
-   "say": "No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.",
-   "shot": "two",
-   "who": [
-    "MUS:0:grin",
-    "CMP:0:surprised"
-   ],
-   "props": [],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3
-  },
-  {
-   "say": "O nome dele era Não é um lança-chamas.",
-   "shot": "two",
-   "who": [
-    "MUS:0:grin",
-    "CMP:0:surprised"
-   ],
-   "props": [
-    [
-     "kit/flamethrower",
-     1.3,
-     0.2,
-     1.3
-    ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "acao": "conversar"
-  },
-  {
-   "say": "O preço era de quinhentos dólares.",
-   "shot": "two",
+   "say": "Um bilionário vendeu um lança-chamas e jurou que não era um lança-chamas.",
    "who": [
     "MUS:0:smug",
-    "CMP:0:surprised"
+    "POV:0:shock"
    ],
+   "shot": "two",
    "props": [
     [
+     "kit/bancada",
+     0.0,
+     2.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
      "kit/flamethrower",
-     1.3,
-     0.2,
-     1.3
+     0.0,
+     2.4,
+     1.5,
+     {
+      "fixo": true,
+      "nocol": true,
+      "y": 0.55
+     }
     ]
    ],
-   "text": "US$ 500",
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "acao": "conversar"
+   "set": "loc_cidade",
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "say": "O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada.",
-   "shot": "two",
+   "say": "Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a empresa de túneis de Elon Musk, lançou o produto.",
    "who": [
-    "CMP:0:suspicious",
-    "MUS:0:laugh"
+    "MUS:0:grin",
+    "CMP:0:smile"
    ],
-   "acao": "conversar",
+   "shot": "two",
+   "props": [],
+   "interior": "pedra"
+  },
+  {
+   "say": "Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa, lançaria um lança-chamas. Os bonés esgotaram.",
+   "who": [
+    "MUS:0:grin",
+    "POV:0:surprised"
+   ],
+   "shot": "two",
+   "set": "loc_cidade",
+   "text": "50 MIL BONÉS",
+   "verificador": false
+  },
+  {
+   "say": "O nome dele era Não é um lança-chamas, e custava quinhentos dólares.",
+   "who": [
+    "MUS:0:grin",
+    "CMP:0:surprised"
+   ],
+   "shot": "two",
    "props": [
     [
+     "kit/bancada",
+     0.0,
+     2.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
      "kit/flamethrower",
-     -1.5,
-     0.3,
-     1.3
+     0.0,
+     2.4,
+     1.5,
+     {
+      "fixo": true,
+      "nocol": true,
+      "y": 0.55
+     }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "interior": "loja",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Acontece que o aparelho soltava fogo de verdade, e essa era a piada.",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "shot": "wide",
+   "props": [
+    [
+     "kit/bancada",
+     0.0,
+     2.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
+     "kit/flamethrower",
+     0.0,
+     2.4,
+     1.5,
+     {
+      "fixo": true,
+      "nocol": true,
+      "y": 0.55
+     }
+    ]
+   ],
+   "set": "loc_deserto",
+   "impact": true,
+   "quadro": {
+    "local": "loc_deserto",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.",
+   "who": [
+    "MUS:0:smug",
+    "CMP:0:nervous"
+   ],
+   "shot": "two",
+   "props": [],
+   "interior": "pedra"
   },
   {
    "say": "Cada compra vinha com um extintor de incêndio de brinde.",
-   "shot": "two",
    "who": [
-    "MUS:0:smile",
-    "CMP:0:grin"
+    "CMP:0:grin",
+    "POV:0:surprised"
    ],
+   "shot": "two",
    "props": [
     [
      "kit/extinguisher",
-     1.5,
-     0.2,
-     1.3
+     -1.4,
+     0.7,
+     0.75,
+     {
+      "fixo": true,
+      "nocol": true
+     }
     ]
    ],
-   "fx": [
-    "stars@4"
-   ],
-   "sfx": [
-    "ding@4"
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "detalhe": false
+   "interior": "loja",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/extinguisher",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "say": "Foram vinte mil unidades à venda.",
-   "shot": "group",
+   "say": "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.",
    "who": [
-    "MUS:0:smile",
-    "CMP:0:neutral",
-    "POV:0:grin"
+    "POV:0:shock",
+    "POV:1:grin"
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "detalhe": false,
-   "fx": [
-    "stars@3"
-   ],
-   "sfx": [
-    "ding@3"
-   ]
-  },
-  {
-   "say": "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.",
    "shot": "crowd",
-   "who": [
-    "CMP:0:shock",
-    "MUS:0:laugh"
-   ],
-   "fx": [
-    "burst@3"
-   ],
-   "sfx": [
-    "ding@3"
-   ],
+   "props": [],
+   "set": "loc_cidade",
    "crowd": {
-    "n": 12,
+    "n": 16,
     "outfits": [
      "POV"
     ],
     "march": false,
     "expr": "laugh"
    },
-   "tiros": false,
-   "batalha": false,
-   "detalhe": false,
    "impact": true
   },
   {
-   "say": "A notícia se espalhou pelo mundo inteiro.",
-   "shot": "orbit",
+   "say": "Isso rendeu cerca de dez milhões de dólares para a empresa.",
    "who": [
-    "CMP:0:grin",
-    "MUS:0:smile"
+    "MUS:0:laugh",
+    "CMP:0:grin"
    ],
+   "shot": "two",
+   "props": [],
+   "interior": "pedra",
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 10,
+     "un": "milhões de dólares",
+     "na": "rendeu",
+     "dur": 1.0
+    }
+   }
+  },
+  {
+   "say": "O próprio Musk postou vídeos soltando fogo com o aparelho.",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "shot": "two",
    "props": [
     [
-     "kit/globe",
+     "kit/phone",
+     3.6,
+     -2.0,
      1.5,
-     -0.4,
-     1.1
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bancada",
+     0.0,
+     2.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
+     "kit/flamethrower",
+     0.0,
+     2.4,
+     1.5,
+     {
+      "fixo": true,
+      "nocol": true,
+      "y": 0.55
+     }
     ]
    ],
-   "crowd": {
-    "n": 6,
-    "outfits": [
-     "POV"
-    ],
-    "march": false
-   },
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "set": "loc_deserto",
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "quadro": {
+    "local": "loc_deserto",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Um produto que se chamava de tudo, menos do que parecia.",
-   "shot": "group",
    "who": [
-    "MUS:0:laugh",
-    "CMP:0:smile"
+    "MUS:0:smug",
+    "POV:0:grin"
    ],
+   "shot": "two",
    "props": [
     [
-     "kit/flamethrower",
-     1.8,
-     -0.3,
-     1.3
+     "kit/extinguisher",
+     -1.4,
+     0.7,
+     0.75,
+     {
+      "fixo": true,
+      "nocol": true
+     }
     ],
     [
-     "kit/extinguisher",
-     -1.7,
-     0.2,
-     1.1
+     "kit/bancada",
+     0.0,
+     2.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
+     "kit/flamethrower",
+     0.0,
+     2.4,
+     1.5,
+     {
+      "fixo": true,
+      "nocol": true,
+      "y": 0.55
+     }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "set": "loc_cidade",
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/extinguisher",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": true
   }
  ],
  "exp": 1.0,
- "marco": "kit/marco_hollywood"
+ "marco": "kit/marco_hollywood",
+ "visual": {
+  "local": "Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto para testes, ruas de Los Angeles",
+  "quando": "janeiro a fevereiro de 2018, dia",
+  "participantes": [
+   "Elon Musk (jaqueta preta)",
+   "funcionarios da Boring Company",
+   "compradores"
+  ],
+  "roupas": {
+   "MUS": "jaqueta preta e calca escura",
+   "CMP": "camisa verde com logo da empresa",
+   "POV": "roupa casual"
+  },
+  "cenario": "escritorio moderno, loja com caixas do produto, deserto aberto, rua de cidade americana",
+  "objetos": [
+   "Not-A-Flamethrower (lanca-chamas preto parecido com fuzil)",
+   "extintor vermelho de brinde"
+  ],
+  "explicacoes": [
+   "Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)",
+   "Em dezembro de 2017 Musk prometeu lancar o lanca-chamas quando a Boring Company vendesse 50 mil bones; os bones esgotaram (fonte: Wikipedia The Boring Company)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_Boring_Company#Not-A-Flamethrower"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "loc_deserto",
+   "interior pedra",
+   "interior loja"
+  ],
+  "buscas": {
+   "produto": "Boring Company Not-A-Flamethrower 2018"
+  }
+ }
 }

@@ -109,7 +109,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: GAL no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pisa_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.5 m de altura x 1.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 12.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
   - take 1 (23.2-25.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (25.2-27.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -130,9 +130,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)
 - PERSONAGENS: GAL no centro, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pisa_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 12.0 m de altura x 19.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
@@ -178,7 +178,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e hammer juntos (camera a 8.0 m)
 - PERSONAGENS: AST no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO tools/hammer: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/feather: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 0.2 m de altura x 5.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/feather: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +70 da cena
 - SOM: ding@40

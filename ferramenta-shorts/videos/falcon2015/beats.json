@@ -94,7 +94,16 @@
    "cz": -2.0,
    "h": 3.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desceu"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -106,7 +115,16 @@
    "mapa_at": 3,
    "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
    "fachada": false,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Canaveral"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -149,7 +167,18 @@
    "cz": -2.0,
    "h": 2.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "queria",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -199,7 +228,18 @@
    "cz": -2.0,
    "h": 3.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "impact": true,
+   "text": "TOMBOU",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tombaram"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -243,7 +283,16 @@
    "cz": -2.0,
    "h": 3.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "decolou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -293,7 +342,16 @@
    "cz": -2.0,
    "h": 3.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -305,7 +363,7 @@
     [
      "kit/falcon9_land",
      0.0,
-     -10.0,
+     -12.8,
      1.1,
      {
       "fixo": true
@@ -313,8 +371,8 @@
     ]
    ],
    "fx": [
-    "whoosh@10",
-    "puff@40"
+    "puff@40",
+    "dust@80"
    ],
    "sfx": [
     "ding@30",
@@ -329,11 +387,10 @@
    "detalhe": false,
    "objetos": false,
    "cx": 0.0,
-   "cz": 0.0,
-   "h": 3.5,
-   "d0": 9.0,
-   "d1": 8.0,
-   "quadro_manual": true,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
@@ -346,7 +403,17 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "vary": false,
+   "quadro_manual": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desceu"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -358,7 +425,7 @@
     [
      "kit/falcon9_land",
      0.0,
-     -13.0,
+     -12.8,
      1.1,
      {
       "fixo": true
@@ -384,20 +451,33 @@
    "detalhe": false,
    "objetos": false,
    "cx": 0.0,
-   "cz": -13.0,
-   "h": 4.5,
-   "d0": 14.0,
-   "d1": 12.0,
-   "quadro_manual": true,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 43.9 m, altura 3.9 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/falcon9_land",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
+     }
+    ]
+   },
+   "vary": false,
+   "quadro_manual": true,
+   "riscos_ok": true,
+   "obj_acao": false,
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
      }
     ]
    }
@@ -420,7 +500,22 @@
    "say": "Os funcionários da SpaceX comemoraram e se abraçaram.",
    "fachada": false,
    "set": "hall",
-   "explica": false
+   "explica": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "comemoraram",
+      "quem": 0
+     },
+     {
+      "faz": "x_abraca",
+      "na": "abraçaram",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -463,17 +558,46 @@
    "cz": -2.0,
    "h": 3.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MUS:0:smile",
     "POV:0:smile"
    ],
    "say": "Hoje, pousar de ré virou rotina.",
    "fachada": false,
-   "set": "harbor"
+   "set": "harbor",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rotina"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

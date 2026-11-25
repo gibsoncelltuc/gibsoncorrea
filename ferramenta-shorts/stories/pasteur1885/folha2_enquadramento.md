@@ -29,7 +29,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PAS na esquerda, expressao surprised; MAE na direita, expressao cry; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 

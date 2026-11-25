@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): MEN (variante 0, expressao smile, segura bag) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao smile, segura bag)
 - Animacao: encena
 - Objetos/modelos: kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): monge
@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MEN (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: encena
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ervilhas, filhos
@@ -34,9 +34,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Na primeira geração, todas saíram amarelas, como se o verde tivesse su...
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): MEN (variante 0, expressao surprised) | multidao: 0 de 
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): MEN (variante 0, expressao surprised)
 - Animacao: conversar
 - Objetos/modelos: kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primeira, verde
@@ -54,9 +54,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, du...
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MEN (variante 0, expressao neutral, segura paper) | multidao: 0 de 
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): MEN (variante 0, expressao neutral, segura paper)
 - Animacao: encena
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): amarelas, novo
@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am...
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MEN (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Só no ano mil e novecentos, já depois da morte dele, os cientistas vir...
 - Cenario: loc_deserto | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): CIE (variante 0, expressao surprised) | multidao: 0 de 
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (3): CIE (variante 0, expressao surprised); CIE (variante 1, expressao grin); CIE (variante 2, expressao smile) | multidao: 0 de 
+- Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_green, kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientistas, morte
 - RISCOS: nenhum
@@ -106,7 +106,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): MEN (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ervilha, monge
@@ -137,8 +137,8 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 20% | medio 46% | aberto 31% | detalhe 2%
-- Interacoes: b4 discutir, b7 cochichar
+- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 62% | aberto 16% | detalhe 6%
+- Interacoes: b4 discutir, b7 cochichar, b9 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

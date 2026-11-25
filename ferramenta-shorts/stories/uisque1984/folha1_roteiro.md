@@ -6,9 +6,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Narracao: O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: brigaram -> puff + som de baque; encena: golpe (punch) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: brigaram -> puff + som de baque
 - Efeito visual marcado: -
-- Texto na tela: 1984
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.5 s)
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Narracao: A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_ri (up) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Narracao: Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_aperta (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

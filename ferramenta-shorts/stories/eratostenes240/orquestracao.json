@@ -227,13 +227,12 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "ERA"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_alexandria",
     "kit/starlink_sat",
     "kit/stick",
     "kit/well",

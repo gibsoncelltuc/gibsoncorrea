@@ -64,7 +64,6 @@
      }
     ]
    ],
-   "text": "1900",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
@@ -82,10 +81,21 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "pediu",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "reveal",
@@ -109,7 +119,16 @@
    ],
    "sfx": [
     "thump@70"
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Gana"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -144,10 +163,29 @@
      }
     ]
    },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ASH",
+     "CHE"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "banquinho"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -157,7 +195,17 @@
     "CHE:0:scared"
    ],
    "interacao": "empurrar",
-   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\""
+   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\"",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "exigiu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -167,7 +215,16 @@
     "ASH:0:angry"
    ],
    "interacao": "susto",
-   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
+   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "choque"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -189,7 +246,7 @@
     [
      "kit/forte_colonial",
      0.0,
-     -8.0,
+     -10.2,
      1.0,
      {
       "fixo": true
@@ -204,7 +261,7 @@
    "objetos": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/forte_colonial",
@@ -214,11 +271,22 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "cercaram",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -2.0,
    "h": 2.8,
-   "d0": 32.6,
-   "d1": 31.0
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide"
   },
   {
    "shot": "wide",
@@ -240,7 +308,17 @@
    "detalhe": false,
    "d0": 24.0,
    "d1": 21.0,
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "marcharam",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -250,7 +328,17 @@
     "PRE:0:smug:paper"
    ],
    "interacao": "entregar",
-   "say": "No fim, os ingleses venceram e a região virou colônia."
+   "say": "No fim, os ingleses venceram e a região virou colônia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "venceram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -284,10 +372,20 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "esconderam"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "wide",
@@ -320,10 +418,21 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "ganhou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "wide"
   }
  ],
  "ano": 1900,

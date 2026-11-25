@@ -1,13 +1,13 @@
 # CRONOGRAMA - Poder e Fama EP 07 - A Cidade do Surfe
 
-Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior pedra | close | BUK | - | surfboard | - | Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City E
-b1 | simples | harbor | two | BUK, JOR | - | surfboard, volcano | - | O plano: mostrar as praias de La Libertad, como Punta Roca e El Sunzal
+b0 | simples | interior pedra | two | BUK | - | surfboard | - | Um país pequeno decidiu virar a capital mundial do surfe.
+b1 | simples | harbor | two | BUK, JOR | - | surfboard, volcano | - | Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, 
 b2 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzent
 b3 | simples | loc_cidade | two | JOR, JOR2 | - | - | - | Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias vir
 b4 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e três, vieram duzentos e noventa e quatro competi
@@ -23,9 +23,9 @@ b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comen
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py surfcity2019
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/13 itens) | PENDENTE | python3 pesquisar.py surfcity2019
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
