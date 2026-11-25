@@ -8,7 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 13",
+   "cena 15",
    "street",
    "loc_cidade"
   ]
@@ -49,9 +49,9 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b1",
-   "frase": "Foi em El Salvador, na América Central, com o presidente Nayib Bukele.",
+   "frase": "Foi em El Salvador, com o presidente Nayib Bukele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -69,9 +69,9 @@
     "kit/bitcoin",
     "kit/volcano"
    ],
-   "palavras": 20,
+   "palavras": 18,
    "cena": "b2",
-   "frase": "Em sete de setembro de dois mil e vinte e um, virou o primeiro país do mundo a fazer isso.",
+   "frase": "Em setembro de dois mil e vinte e um, virou o primeiro país do mundo a fazer isso.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -83,9 +83,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "Para convencer o povo, quem baixasse a carteira digital ganhava trinta dólares em bitcoin.",
+   "frase": "Quem baixasse a carteira digital ganhava trinta dólares em bitcoin.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -108,9 +108,9 @@
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 17,
+   "palavras": 15,
    "cena": "b4",
-   "frase": "Acontece que, no primeiro dia, o aplicativo travou, e o bitcoin despencou mais de dez por cento.",
+   "frase": "No primeiro dia, o aplicativo travou, e o bitcoin despencou mais de dez por cento.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -144,18 +144,57 @@
    "cenario": "loc_estudio"
   },
   {
+   "camera": "wide",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/rack_mineracao",
+    "kit/volcano"
+   ],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "E não é só comprar: o país também minera bitcoin com a energia de um vulcão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Minerar é deixar computadores fazendo contas sem parar, e quem acerta primeiro ganha bitcoins novos.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/rack_mineracao (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
    "camera": "two",
    "personagens": [
-    "BUK",
-    "DEP"
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 13,
-   "cena": "b6",
-   "frase": "Em novembro, o bitcoin bateu sessenta e nove mil dólares, e Bukele comemorou.",
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Em novembro, o bitcoin bateu sessenta e nove mil dólares.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -167,31 +206,13 @@
    "personagens": [
     "BUK"
    ],
-   "multidao": 30,
+   "multidao": 0,
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 15,
-   "cena": "b7",
-   "frase": "Mas um ano depois, despencou para dezesseis mil, e o país perdeu milhões no papel.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "CLI",
-    "POV",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b8",
-   "frase": "E uma pesquisa mostrou que sessenta e oito por cento da população era contra.",
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "Acontece que, um ano depois, despencou para dezesseis mil, e o país perdeu milhões no papel.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -205,13 +226,31 @@
    "cenario": "loc_cidade"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "CLI",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b10",
+   "frase": "E nas pesquisas, sessenta e oito por cento da população era contra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
    "camera": "two",
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 21,
-   "cena": "b9",
-   "frase": "Só que o jogo virou: em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem mil dólares.",
+   "palavras": 17,
+   "cena": "b11",
+   "frase": "Mas em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem mil dólares.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -225,23 +264,23 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "BUK",
     "DEP"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "E as reservas do país, que estavam no prejuízo, viraram lucro.",
-   "classe": "simples",
+   "palavras": 9,
+   "cena": "b12",
+   "frase": "E as reservas, que estavam no prejuízo, viraram lucro.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_pista"
   },
   {
    "camera": "close",
@@ -253,7 +292,7 @@
     "kit/bitcoin"
    ],
    "palavras": 8,
-   "cena": "b11",
+   "cena": "b13",
    "frase": "Aposta maluca ou visão de futuro? Você decide.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -269,7 +308,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b14",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
