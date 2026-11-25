@@ -61,7 +61,7 @@
    ],
    "shot_lock": true,
    "crowd": {
-    "n": 16,
+    "n": 6,
     "outfits": [
      "POV"
     ],
@@ -70,7 +70,7 @@
    },
    "say": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
    "fachada": false,
-   "set": "hall"
+   "interior": "pedra"
   },
   {
    "shot": "two",
@@ -84,7 +84,7 @@
    "text": "ONU - NOVA YORK",
    "say": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
    "fachada": true,
-   "set": "hall",
+   "set": "street",
    "crowd": {
     "n": 12,
     "outfits": [
@@ -114,8 +114,8 @@
    "interacao": "cochichar",
    "objetos": false,
    "say": "O presidente de El Salvador, Nayib Bukele, tinha trinta e oito anos.",
-   "interior": "loja",
-   "fachada": false
+   "fachada": false,
+   "set": "palace"
   },
   {
    "shot": "two",
@@ -168,7 +168,7 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "set": "hall"
+   "interior": "pedra"
   },
   {
    "shot": "crowd",
@@ -194,7 +194,7 @@
    "acao": "tirar",
    "shot_lock": true,
    "crowd": {
-    "n": 20,
+    "n": 6,
     "outfits": [
      "POV"
     ],
@@ -204,7 +204,7 @@
    "say": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
    "fachada": false,
    "tiros": false,
-   "set": "hall"
+   "interior": "pedra"
   },
   {
    "shot": "two",
@@ -229,7 +229,7 @@
    ],
    "_susp_tela": true,
    "_susp_ok": true,
-   "set": "hall"
+   "interior": "madeira"
   },
   {
    "shot": "two",
@@ -247,7 +247,7 @@
    },
    "impact": false,
    "tiros": false,
-   "set": "hall"
+   "interior": "pedra"
   },
   {
    "shot": "two",
@@ -288,7 +288,8 @@
    "titulo": true,
    "say": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
    "fachada": false,
-   "tiros": false
+   "tiros": false,
+   "set": "street"
   },
   {
    "shot": "two",
@@ -310,7 +311,6 @@
    "acao": "comemorar",
    "objetos": false,
    "say": "Um segundo de selfie, e a ONU virou assunto.",
-   "interior": "pedra",
    "fachada": false,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
@@ -327,7 +327,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "street"
   }
  ],
  "fontes": [

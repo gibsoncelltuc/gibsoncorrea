@@ -1,7 +1,28 @@
 {
  "id": "selfie2019",
  "ano": 2019,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 11",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 12",
+   "street",
+   "loc_cidade"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -15,7 +36,7 @@
     "BUK",
     "DIP"
    ],
-   "multidao": 16,
+   "multidao": 6,
    "objetos": [
     "kit/phone",
     "mk/BookStand"
@@ -27,7 +48,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "interior pedra"
   },
   {
    "camera": "reveal",
@@ -36,7 +57,9 @@
     "POV"
    ],
    "multidao": 12,
-   "objetos": [],
+   "objetos": [
+    "kit/marco_onu"
+   ],
    "palavras": 16,
    "cena": "b1",
    "frase": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
@@ -44,7 +67,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -78,10 +101,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "palace"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -97,7 +120,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "interior pedra"
   },
   {
    "camera": "crowd",
@@ -105,7 +128,7 @@
     "BUK",
     "POV"
    ],
-   "multidao": 20,
+   "multidao": 6,
    "objetos": [
     "kit/phone",
     "mk/BookStand"
@@ -117,7 +140,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -136,10 +159,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "BUK",
     "DIP"
@@ -149,17 +172,11 @@
    "palavras": 13,
    "cena": "b7",
    "frase": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -179,7 +196,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV",
@@ -193,11 +210,17 @@
    "palavras": 12,
    "cena": "b9",
    "frase": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -206,6 +229,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/marco_onu",
     "kit/phone"
    ],
    "palavras": 9,
@@ -215,7 +239,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "close",
@@ -231,7 +255,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_cidade"
   }
  ]
 }

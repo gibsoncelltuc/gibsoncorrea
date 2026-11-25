@@ -6,9 +6,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2019 | Lugar: Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de mármore verde e fundo dourado, edifício da ONU à beira do East River | Quando: 26 de setembro de 2019 (quinta-feira), de dia, 74ª Assembleia Geral da ONU
 - HEROIS (objeto): kit/phone
 - HEROIS (personagens): BUK, DIP
-- Cenarios: hall, interior loja, interior pedra, palace
+- Cenarios: interior loja, interior madeira, interior pedra, loc_cidade, palace
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 1.0: grande demais); kit/phone: 0.6 m reais -> escala 0.7 (estava 1.4: grande demais); kit/phone: 0.6 m reais -> escala 0.7 (estava 0.9: grande demais); kit/phone: 0.6 m reais -> escala 0.7 (estava 1.2: grande demais); kit/phone: 0.6 m reais -> escala 0.7 (estava 1.3: grande demais)
 
 ## Itens pesquisados
 
