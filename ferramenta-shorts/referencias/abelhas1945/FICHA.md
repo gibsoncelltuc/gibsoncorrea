@@ -7,7 +7,7 @@
 - Roupas: {'FRI': 'terno claro dos anos 40, oculos redondos, cabelo grisalho', 'ASS': 'assistente de camisa e chapeu de palha', 'COL': 'cientista de terno e barba', 'POV': 'publico dos anos 40/70'}
 - Cenario real: jardim com montanhas e lago ao fundo, colmeia de observacao com vidro, mesa com pratinhos de acucar; salao do Nobel
 - Objetos: ['colmeia de vidro', 'abelhas marcadas com pontinhos de tinta', 'pratinhos de agua com acucar', 'caderno de anotacoes']
-- Cenarios usados no video: interior madeira, interior pedra, loc_campo, loc_estudio, loc_montanha
+- Cenarios usados no video: interior madeira, interior pedra, loc_campo, loc_estudio
 - PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Proibido pelo roteiro: -
 

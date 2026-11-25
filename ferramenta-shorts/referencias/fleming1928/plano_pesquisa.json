@@ -92,6 +92,13 @@
   },
   {
    "tipo": "heroi",
+   "item": "bancada",
+   "consultas": [
+    "bancada"
+   ]
+  },
+  {
+   "tipo": "heroi",
    "item": "gosma",
    "consultas": [
     "gosma"
