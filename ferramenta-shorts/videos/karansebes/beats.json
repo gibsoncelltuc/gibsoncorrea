@@ -226,6 +226,13 @@
       "na": "acharam",
       "quem": 0,
       "forcar": true
+     },
+     {
+      "quem": 1,
+      "faz": "entrega",
+      "alvo_quem": 0,
+      "na": "vendendo",
+      "forcar": true
      }
     ]
    }
