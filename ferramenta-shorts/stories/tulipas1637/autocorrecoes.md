@@ -96,3 +96,9 @@
 - b1: objeto citado "buildings/windmill" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
 - b1: objeto "buildings/windmill" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> camera mais perto do objeto, 1 personagem de lado
 - b4: objeto "kit/scroll" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+
+## 25/11 19:36 autocorrecao de visibilidade
+- b2: objeto citado "kit/tulip_bed" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b2: objeto citado "buildings/windmill" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b2: objeto "buildings/windmill" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> camera mais perto do objeto, 1 personagem de lado
+- b5: objeto "kit/scroll" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)

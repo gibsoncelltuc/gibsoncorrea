@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Gerado em 25/11 19:34 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:37 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | interior madeira | two | GOO, CLA | - | - | - | Charles Goodyear 
 b5 | simples | interior madeira | group | GUA, GOO | - | - | - | Fez tantas dívidas que foi parar na prisão.
 b6 | simples | interior madeira | two | GOO | - | gosma, stove | - | Um dia, borracha com enxofre caiu no fogão quente.
 b7 | simples | interior madeira | two | GOO | - | stove | - | Acontece que não derreteu. Ficou firme e elástica.
-b8 | chave | street | orbit | POV, POV, CLA | 18 | bola_couro, borracha, stove, tires | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era a borracha vulcanizada, hoje em pneus e sapatos.
+b8 | chave | street | orbit | POV, POV, CLA | - | bola_couro, borracha, stove, tires | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era a borracha vulcanizada, hoje em pneus e sapatos.
 b9 | simples | interior madeira | two | GOO | - | gosma, stove | - | A Goodyear ganhou o nome dele, sem ele saber. Tudo porque...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
