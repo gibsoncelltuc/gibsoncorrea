@@ -14,7 +14,7 @@ b5 [afirmativa] "Ele plantou as amarelas de novo e contou tudo, ervilha por ervi
     - x_planta quem=0 alvo=- na="plantou"
     - fala quem=0 alvo=- na="contou"
 b6 [afirmativa] "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
-    - mostra quem=- alvo=- na="voltou"
+    - mostra quem=- alvo=- na="verde"
 b7 [afirmativa] "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
     - examina quem=0 alvo=- na="descobriu"
 b8 [afirmativa] "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção."
