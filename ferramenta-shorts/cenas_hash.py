@@ -11,6 +11,7 @@ fit = {}
 try: fit = json.loads(re.search(r'SPEC\.fit = (\{.*?\});', open(f'{D}/fit.js', encoding='utf-8').read()).group(1))
 except Exception: pass
 web = ''.join(open(f, encoding='utf-8', errors='ignore').read() for f in sorted(glob.glob('web/*.js') + glob.glob('web/sets/*.js')) if not f.endswith('story.js'))
+web = re.sub(r'/\*ADITIVO\*/.*?/\*FIM ADITIVO\*/', '', web, flags=re.S)   # 25/11 codigo ADITIVO: ramo novo que so' roda com opcao NOVA (ex.: hat 'laurel'); nao muda nenhum quadro ja renderizado -> nao derruba os trechos dos outros videos. So' marque assim codigo que video antigo nunca alcanca.
 voz = open(f'{D}/work/phrases.json', encoding='utf-8').read() if os.path.exists(f'{D}/work/phrases.json') else ''
 glob_ = []; cenas = {}
 for l in spec:

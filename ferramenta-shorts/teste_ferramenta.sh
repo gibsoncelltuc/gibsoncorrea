@@ -201,6 +201,10 @@ grep -q ' antigo" "$d/cenas.txt"' limpar_disco.sh && grep -q "reconstituindo ant
 python3 - <<'Q' || f "mkvideo.py com erro de Python (variavel apagada por comentario)"
 import ast; ast.parse(open('mkvideo.py').read()); s=open('mkvideo.py').read(); raise SystemExit(0 if '_quer_t = {' in s and s.index('_quer_t = {') < s.index('e_[2] in _quer_t') else 1)
 Q
+grep -q 'o.hat === "laurel"' web/toon.js && grep -q "ANO < 500 and _of_.get('hat') == 'crown'" mkvideo.py || f "rei da Antiguidade com coroa de pontas medieval (Hierao, Arquimedes)"
+python3 -c "
+import re; w=open('web/toon.js').read(); assert w.count('/*ADITIVO*/')==w.count('/*FIM ADITIVO*/')
+assert 'ADITIVO' in open('cenas_hash.py').read()" || f "codigo ADITIVO do motor (hat novo) derruba o render de todos os videos"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
