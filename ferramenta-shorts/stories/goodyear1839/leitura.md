@@ -1,6 +1,6 @@
 # LEITURA DAS FRASES - goodyear1839 (revisar cada linha; corrigir no beats.json "encena" e apagar "rascunho")
 b0 [afirmativa] "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre."
-    - cai quem=0 alvo=- na="deixou"
+    - cai quem=0 alvo=- na="cair"
 b1 [fato] "Era mil oitocentos e trinta e nove, nos Estados Unidos."
     - mostra quem=- alvo=- na="Estados"
 b2 [fato] "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão."

@@ -65,8 +65,8 @@
     [
      "kit/curie_box",
      0.0,
-     -1.0,
-     1.22,
+     -1.2,
+     1.5,
      {
       "fixo": true
      }
@@ -99,7 +99,15 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 1
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cadernos"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -115,7 +123,16 @@
    "detalhe": false,
    "_auto_vis": 3,
    "d0": 12.0,
-   "d1": 11.0
+   "d1": 11.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Paris"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -127,7 +144,16 @@
    "acao": "conversar",
    "say": "Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "galpão"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -138,7 +164,17 @@
    ],
    "hora": "dia",
    "clima": "chuva",
-   "say": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
+   "say": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mistura",
+      "na": "mexia",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -182,7 +218,22 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mistura",
+      "na": "Mexendo",
+      "quem": 0
+     },
+     {
+      "faz": "examina",
+      "na": "descobriram",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -194,9 +245,9 @@
    "props": [
     [
      "kit/curie_box",
-     1.2,
+     2.4,
      0.2,
-     1.3,
+     1.5,
      {
       "fixo": true
      }
@@ -227,7 +278,20 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "_auto_vis": 1
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "brilha",
+      "na": "brilhava"
+     },
+     {
+      "faz": "olha",
+      "na": "olhar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -238,14 +302,24 @@
    ],
    "say": "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "carregava",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
    "who": [
     "MAR:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
@@ -272,7 +346,17 @@
    "clima": "limpo",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "ganhou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -287,7 +371,17 @@
    ],
    "say": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "morre",
+      "na": "morreu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -326,7 +420,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cadernos"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -369,7 +472,22 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "x_le",
+      "na": "ler",
+      "quem": 0
+     },
+     {
+      "faz": "escreve",
+      "na": "assinar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -406,7 +524,16 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cadernos"
+     }
+    ]
+   }
   }
  ],
  "objetos_do_video": {
