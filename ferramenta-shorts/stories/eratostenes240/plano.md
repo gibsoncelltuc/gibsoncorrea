@@ -10,7 +10,7 @@ b4 | two | - calor | tropa | - | -
 b5 | two | -  | - | encena: pensa (think) @1 (acao + som de efeito) | -
 b6 | two | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | - calor | tropa | - | -
-b8 | two | -  | interior, objeto na mao | encena: olha (point) @4 (acao + som de efeito) | -
+b8 | two | -  | tropa | - | -
 b9 | orbit | -  | tropa | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 

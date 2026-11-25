@@ -4,10 +4,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela."
 - LOCAL: praia / palacio; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 11.5 m)
 - PERSONAGENS: ERA (cientista) na esquerda, expressao smile; BIB (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/stick: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/stick: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b1: "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito."
 - LOCAL: praia / palacio; hora: desert
@@ -35,13 +34,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais."
 - LOCAL: vila medieval; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 8.0 m)
 - PERSONAGENS: ERA (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/globe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/stick: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b6: "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/globe no centro, manobra "gira"
+- OBJETO: kit/stick no centro, manobra "parado"
 - PASSOS NA TELA: -
 
 ## b7: "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
@@ -50,10 +49,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PASSOS NA TELA: -
 
 ## b8: "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
-- LOCAL: sala de pedra (governo/castelo); hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: ERA (cientista) na esquerda, expressao grin, segura paper; BIB (cientista) na direita, expressao surprised; sem multidao; acao: cochichar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/stick no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b9: "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 - LOCAL: vila medieval; hora: desert
