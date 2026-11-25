@@ -92,11 +92,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -146,11 +146,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -191,11 +191,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -229,11 +229,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -294,11 +294,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "say": "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido.",
@@ -350,11 +350,11 @@
     ]
    },
    "_susp_ok": true,
+   "_enq_shot": "crowd",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "crowd"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -386,11 +386,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   }
  ],
  "fontes": [

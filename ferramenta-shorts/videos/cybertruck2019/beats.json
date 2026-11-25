@@ -80,12 +80,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6,
-   "_enq_shot": "wide"
+   "d1": 10.6
   },
   {
    "say": "Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente.",
@@ -127,12 +127,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6,
-   "_enq_shot": "wide"
+   "d1": 10.6
   },
   {
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
@@ -194,12 +194,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6,
-   "_enq_shot": "wide"
+   "d1": 10.6
   },
   {
    "say": "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.",
@@ -252,12 +252,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6,
-   "_enq_shot": "wide"
+   "d1": 10.6
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",
@@ -325,12 +325,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6,
-   "_enq_shot": "wide"
+   "d1": 10.6
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
@@ -399,11 +399,11 @@
    },
    "_susp_tela": true,
    "_susp_ok": true,
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -466,11 +466,11 @@
    },
    "_susp_tela": true,
    "_susp_ok": true,
+   "_enq_shot": "orbit",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "orbit"
+   "d1": 11.5
   },
   {
    "say": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",
@@ -512,11 +512,11 @@
    },
    "text": "146 MIL RESERVAS",
    "_susp_ok": true,
+   "_enq_shot": "orbit",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "orbit"
+   "d1": 11.5
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -577,11 +577,11 @@
     ]
    },
    "_susp_ok": true,
+   "_enq_shot": "group",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "group"
+   "d1": 11.5
   }
  ],
  "exp": 0.9,

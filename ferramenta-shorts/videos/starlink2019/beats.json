@@ -96,12 +96,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "tiros": false,
@@ -152,11 +152,11 @@
    },
    "set": "loc_pista",
    "tela": false,
+   "_enq_shot": "reveal",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "reveal"
+   "d1": 8.0
   },
   {
    "tiros": false,
@@ -234,12 +234,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "tiros": false,
@@ -281,12 +281,12 @@
     ]
    },
    "set": "loc_montanha",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "tiros": false,
@@ -332,11 +332,11 @@
      }
     ]
    },
+   "_enq_shot": "crowd",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "crowd"
+   "d1": 8.0
   },
   {
    "tiros": false,
@@ -451,11 +451,11 @@
      }
     ]
    },
+   "_enq_shot": "reveal",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "reveal"
+   "d1": 8.0
   },
   {
    "tiros": false,
@@ -492,11 +492,11 @@
    },
    "set": "loc_montanha",
    "hora": "noite",
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   }
  ],
  "exp": 1.0,
