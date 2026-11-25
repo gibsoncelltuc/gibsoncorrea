@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_campo; hora: pordosol
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e moon juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
-- OBJETO kit/moon: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/moon: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b1: "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge."
 - LOCAL: vila medieval; hora: day

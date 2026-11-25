@@ -1,1 +1,2 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (27 tomadas)
+VISIBILIDADE: 1 FALHA(S)
+FALHA b0: objeto "kit/moon" saiu com 15% da altura da tela, a ficha de cena planejou 32%

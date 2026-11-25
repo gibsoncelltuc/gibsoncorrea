@@ -1,6 +1,6 @@
 # LEITURA DAS FRASES - newton1666 (revisar cada linha; corrigir no beats.json "encena" e apagar "rascunho")
 b0 [fato] "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça."
-    - mostra quem=- alvo=- na="maçã"
+    - mostra quem=- alvo=- na="Lua"
 b1 [fato] "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge."
     - mostra quem=- alvo=- na="Cambridge"
 b2 [afirmativa] "Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da mãe."
