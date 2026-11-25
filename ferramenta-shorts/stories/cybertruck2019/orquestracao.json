@@ -65,12 +65,11 @@
    "cenario": "hall"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "MUS",
-    "DSG"
+    "MUS"
    ],
-   "multidao": 12,
+   "multidao": 30,
    "objetos": [
     "kit/cybertruck"
    ],
@@ -155,7 +154,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "MUS",
     "DSG"
@@ -168,14 +167,14 @@
    "palavras": 16,
    "cena": "b7",
    "frase": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "hall"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "MUS",
     "DSG"

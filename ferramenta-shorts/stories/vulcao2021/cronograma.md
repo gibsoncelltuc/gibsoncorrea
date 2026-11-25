@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
-Gerado em 25/11 08:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 08:46 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | chave | loc_pista | wide | BUK, ENA | - | bitcoin, coin | corpo: tropa/pers
 b3 | simples | interior loja | two | ENG, BUK | - | bitcoin, miners | - | Só que, para criar bitcoins novos, computadores fazem contas sem parar
 b4 | transicao | jungle | wide | BUK | - | volcano | - | Então ele mandou a empresa de energia do governo usar o calor do vulcã
 b5 | explicativa | loc_estudio | two | sem personagem | - | turbina, volcano | corpo: kit/turbina (gira); emissao: vapor; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entra | O vapor quente que sai de dentro da terra gira turbinas, e vira eletri
-b6 | simples | interior loja | two | ENG, ENA | - | bitcoin, miners | - | Acontece que, ao lado da usina, instalaram computadores só para minera
+b6 | simples | interior loja | two | ENG | - | bitcoin, miners | - | Acontece que, ao lado da usina, instalaram computadores só para minera
 b7 | chave | loc_pista | orbit | BUK | - | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
 b8 | simples | loc_pista | two | ENA, ENG | - | bitcoin, volcano | - | Anos depois, o governo contava quase quinhentos bitcoins feitos com o 
 b9 | simples | loc_cidade | wide | POV | - | apartment, house_two, bitcoin, volcano, lamppost | - | E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés
@@ -28,15 +28,15 @@ N | Etapa | O que confere | Estado | Proximo passo
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | PENDENTE | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh vulcao2021
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh vulcao2021
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh vulcao2021
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local vulcao2021 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 6. Estilo e enquadramento
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

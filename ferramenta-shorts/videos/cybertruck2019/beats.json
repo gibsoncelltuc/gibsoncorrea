@@ -245,10 +245,9 @@
   },
   {
    "say": "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "MUS:0:shock",
-    "DSG:0:nervous"
+    "MUS:0:shock"
    ],
    "fx": [
     "burst@3"
@@ -270,7 +269,7 @@
      "kit/cybertruck",
      0.0,
      -8.0,
-     1.37,
+     1.2,
      {
       "fixo": true
      }
@@ -307,13 +306,12 @@
     ]
    },
    "cx": 0,
-   "cz": -2,
-   "h": 1.8,
-   "d0": 10.0,
-   "d1": 9.0,
-   "quadro_manual": true,
-   "shot_lock": true,
-   "_susp_ok": true
+   "cz": -5,
+   "h": 2.4,
+   "d0": 14.0,
+   "d1": 13.0,
+   "_susp_ok": true,
+   "vary": false
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",

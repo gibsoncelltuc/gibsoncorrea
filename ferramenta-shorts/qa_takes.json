@@ -1,4 +1,159 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 64,
+   "shot": "b0_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 85,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 88,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 92,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 96,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 100,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 104,
+   "shot": "b0_v",
+   "why": [
+    "fan: head/torso cropped (box 0.816, 0.309, 1.173, 0.845)"
+   ]
+  },
+  {
+   "f": 108,
+   "shot": "b0_v",
+   "why": [
+    "fan: head/torso cropped (box 0.634, 0.345, 1.133, 0.805)"
+   ]
+  },
+  {
+   "f": 380,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 384,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 388,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 392,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 396,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 400,
+   "shot": "b2_v",
+   "why": [
+    "mus: head/torso cropped (box 0.567, 0.366, 1.111, 0.854)"
+   ]
+  },
+  {
+   "f": 881,
+   "shot": "b5_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 884,
+   "shot": "b5_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 888,
+   "shot": "b5_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 892,
+   "shot": "b5_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 896,
+   "shot": "b5_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 900,
+   "shot": "b5_v",
+   "why": [
+    "mex: head/torso cropped (box 0.721, 0.309, 1.134, 0.853)"
+   ]
+  },
+  {
+   "f": 1005,
+   "shot": "b6",
+   "why": [
+    "fan: head/torso cropped (box -0.022, 0.387, 0.298, 0.707)"
+   ]
+  },
+  {
+   "f": 1006,
+   "shot": "b6~1",
+   "why": [
+    "fan: head/torso cropped (box -0.027, 0.381, 0.294, 0.702)"
+   ]
+  }
+ ],
  "tiny": []
 }

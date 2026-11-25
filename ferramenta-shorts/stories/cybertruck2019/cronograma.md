@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 11 - A Janela do Cybertruck
 
-Gerado em 25/11 08:28 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 08:46 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,12 +9,12 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | hall | two | MUS | - | cybertruck | - | Uma picape blindada teve as janelas quebradas ao vivo, no próprio lanç
 b1 | transicao | hall | wide | MUS | - | cybertruck | - | Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresen
 b2 | simples | hall | wide | DSG | - | cybertruck, steel_ball | - | Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n
-b3 | chave | hall | two | MUS, DSG | 12 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.
+b3 | chave | hall | wide | MUS | 30 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.
 b4 | chave | hall | wide | DSG | - | ball, cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou
 b5 | simples | hall | two | MUS | - | cybertruck, phone, steel_ball | - | Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin
 b6 | simples | hall | orbit | MUS, DSG | 30 | globe, phone | - | A plateia riu, a internet também, e a cena deu o que falar no mundo in
-b7 | transicao | hall | orbit | MUS, DSG | - | cybertruck, globe | - | Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarent
-b8 | simples | hall | group | MUS, DSG | - | cybertruck, steel_ball | - | Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam
+b7 | simples | hall | group | MUS, DSG | - | cybertruck, globe | - | Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarent
+b8 | simples | hall | two | MUS, DSG | - | cybertruck, steel_ball | - | Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam
 b9 | simples | hall | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
