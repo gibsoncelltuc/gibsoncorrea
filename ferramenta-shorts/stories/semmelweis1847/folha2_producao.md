@@ -98,17 +98,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): KOL (variante 0, expressao shock); SEM (variante 0, expressao surprised)
 - Animacao: reagir | interacao: aproxima-se | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/bancada, kit/bisturi
+- Objetos/modelos: kit/bisturi
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colega, febre
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bisturi: FRENTE, esquerda; tamanho na tela: 1% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bisturi: FRENTE, centro (objeto principal da cena); tamanho na tela: 1% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TAKES: sequencia de acao em 3 cameras (2.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
@@ -221,7 +220,6 @@ kit/wash_basin | b0, b1, b6, b7, b9 | pronto (HEROI: aparece em close) | conferi
 kit/marco_viena | b1, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/maca | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/room_hospital | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/bancada | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/bisturi | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

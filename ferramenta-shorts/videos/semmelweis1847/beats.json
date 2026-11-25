@@ -333,31 +333,21 @@
    },
    "props": [
     [
-     "kit/bancada",
-     0.0,
-     1.6,
-     1.3,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "kit/bisturi",
      0.0,
-     1.6,
-     0.9,
+     1.0,
+     0.45,
      {
-      "fixo": true,
-      "y": 1.22
+      "fixo": true
      }
     ]
    ],
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": 0.6,
-   "h": 1.6,
-   "d0": 9.0,
-   "d1": 8.6,
+   "cz": 0.4,
+   "h": 1.4,
+   "d0": 8.0,
+   "d1": 7.6,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",

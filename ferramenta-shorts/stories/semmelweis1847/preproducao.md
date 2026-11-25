@@ -8,7 +8,7 @@ b0 | interior hospital | group | 1 | discutir | kit/wash_basin | - | -
 b1 | street | two | 1 | conversar | kit/wash_basin, kit/marco_viena | - | -
 b2 | street | reveal | 8 | parados (so fala e pisca) | kit/maca, kit/room_hospital, kit/marco_viena | - | -
 b3 | interior hospital | wide | 3 | encena | kit/maca | - | -
-b4 | interior hospital | two | 2 | reagir, INTERAGEM: aproxima-se, batalha | kit/bancada, kit/bisturi | - | -
+b4 | interior hospital | two | 2 | reagir, INTERAGEM: aproxima-se, batalha | kit/bisturi | - | -
 b5 | interior hospital | wide | 2 | parados (so fala e pisca) | - | - | -
 b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
 b7 | street | crowd | 3 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
