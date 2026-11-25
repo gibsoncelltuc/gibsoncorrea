@@ -85,7 +85,19 @@
    "cz": -1.0,
    "d0": 12.5,
    "d1": 11.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Foi em El Salvador, com o presidente Nayib Bukele.",
@@ -115,10 +127,11 @@
     [
      "kit/bitcoin",
      0.0,
-     -1.2,
-     2.4,
+     -2.6,
+     2.6,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.5
      }
     ]
    ],
@@ -132,7 +145,11 @@
      }
     ]
    },
-   "_enq_shot": "reveal",
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 11.0,
+   "d1": 9.5,
+   "quadro_manual": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -144,11 +161,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "Quem baixasse a carteira digital ganhava trinta dólares em bitcoin.",
@@ -641,7 +654,19 @@
    "cz": -1.0,
    "d0": 12.5,
    "d1": 11.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Aposta maluca ou visão de futuro? Você decide.",
@@ -669,7 +694,7 @@
      }
     ]
    },
-   "_enq_shot": "close",
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
