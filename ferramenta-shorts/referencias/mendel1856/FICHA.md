@@ -7,7 +7,7 @@
 - Roupas: {'MEN': 'habito preto de monge e oculos', 'FRE': 'habito preto', 'CIE': 'terno escuro e barba do seculo 19'}
 - Cenario real: horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros
 - Objetos: ['vagens e ervilhas amarelas e verdes', 'caderno de anotacoes', 'vasos de plantas']
-- Cenarios usados no video: interior madeira, loc_campo, loc_patio
+- Cenarios usados no video: hall, interior madeira, loc_campo, loc_patio
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
