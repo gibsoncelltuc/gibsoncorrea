@@ -7,7 +7,7 @@
 - Roupas: {'JOS': 'casaca marrom e peruca do seculo 18', 'ETI': 'casaca azul e peruca', 'REI': 'casaca dourada e manto real', 'NOB': 'roupa de corte com peruca', 'POV': 'roupas do povo do seculo 18'}
 - Cenario real: patio de Versalhes com o palacio ao fundo, balao azul e dourado decorado, multidao; bosque de Vaucresson; fabrica de papel
 - Objetos: ['balao de papel e pano azul com ornamentos dourados', 'cesto de vime com os animais', 'fogueira de palha']
-- Cenarios usados no video: interior madeira, loc_campo, loc_patio, street
+- Cenarios usados no video: interior madeira, loc_campo, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
