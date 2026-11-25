@@ -1,3 +1,0 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b9: objeto citado "kit/pea_yellow" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
