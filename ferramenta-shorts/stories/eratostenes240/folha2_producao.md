@@ -148,24 +148,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b7 - Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades...
-- Cenario: loc_montanha | luz: desert | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ERA (variante 0, expressao neutral) | multidao: 0 de 
-- Animacao: encena
-- Objetos/modelos: kit/stick, kit/marco_alexandria, buildings/apartment, buildings/house_two, nature/lamppost
+- Cenario: loc_estudio | luz: desert | clima: calor
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: desert
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: ERA (cientista) no centro, expressao neutral; sem multidao; acao: fala/gesto
-- OBJETO kit/stick: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (37.3-39.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (39.0-40.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/stick no centro, manobra "parado"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (3.4 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b8 - Com uma conta simples, encontrou um número muito perto do tamanho real...
@@ -191,7 +188,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - No fim, uma vara e um poço fizeram o trabalho de um satélite.
 - Cenario: loc_campo | luz: desert | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ERA (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: comemorar
@@ -228,18 +225,18 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/stick | b0, b4, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alexandria | b0, b1, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_alexandria | b0, b1, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_palm | b2, b3, b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_palm | b2, b3, b4, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/starlink_sat | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 10% | medio 60% | aberto 27% | detalhe 4%
+- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 68% | aberto 18% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b8 cochichar
 - RISCOS GERAIS: nenhum
 

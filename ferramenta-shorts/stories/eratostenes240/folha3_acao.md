@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 15 palavras - plano two
@@ -115,23 +115,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b7 - 37.3s a 40.7s - 14 palavras - plano orbit
+## Cena b7 - 37.3s a 40.7s - 14 palavras - plano two
 > "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ERA acao do motor: examina | na palavra "mediu" (37.6s)
-  2) ERA fala apontando | na palavra "contou" (39.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ângulo" (38.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mediu (37.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | contou (39.2s) | ACAO: fala | aponta explicando | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: examina na palavra mediu (37.6s): executa: examina com lupa/microscopio/balanca
-- ACAO: fala na palavra contou (39.2s): braco estendido apontando para o objeto/lugar citado
-<!-- /FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b8 - 42.1s a 45.8s - 14 palavras - plano two
 > "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
@@ -152,7 +144,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.9s a 49.7s - 13 palavras - plano wide
+## Cena b9 - 46.9s a 49.7s - 13 palavras - plano orbit
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 
 - LEITURA DA FRASE: sentido FATO

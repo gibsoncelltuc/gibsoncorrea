@@ -45,10 +45,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PASSOS NA TELA: -
 
 ## b7: "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
-- LOCAL: praia / palacio; hora: desert
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: ERA (cientista) no centro, expressao neutral; sem multidao; acao: fala/gesto
-- OBJETO kit/stick: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/stick no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b8: "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
 - LOCAL: sala de pedra (governo/castelo); hora: desert

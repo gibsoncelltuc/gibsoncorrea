@@ -29,6 +29,7 @@ heroi | stick | wooden stick shadow on desert sand / stick | Indian Farmers' Pro
 heroi | well | well | Water well in Mongolia.jpg (referencias/eratostenes240/prints/well_fe4dea.jpg); 20170815 Zalipie 5497 DxO.jpg (referencias/eratostenes240/prints/well_6a9958.jpg); Water well in Yangdong Village.jpg (referencias/eratostenes240/prints/well_44ef77.jpg)
 mecanismo | Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra | alexandria fincada fazia sombra pequena / stick diagram | SEM REFERENCIA
 mecanismo | Acontece que a sombra era diferente, e isso só podia acontecer se a Te | acontece sombra diferente podia acontecer terra fosse curva / globe diagram | SEM REFERENCIA
+mecanismo | Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades | mediu angulo sombra contou passos cidades / stick diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)

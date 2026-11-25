@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) @1 -> acao + som de efeito; encena: fala (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

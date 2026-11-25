@@ -505,9 +505,7 @@
   {
    "say": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.",
    "shot": "wide",
-   "who": [
-    "ERA:0:neutral"
-   ],
+   "who": [],
    "props": [
     [
      "kit/stick",
@@ -515,9 +513,20 @@
      -8.0,
      2.2,
      {
-      "nocol": true,
       "fixo": true
      }
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
     ]
    ],
    "fachada": false,
@@ -547,17 +556,37 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "examina",
-      "na": "mediu",
-      "quem": 0
-     },
-     {
-      "faz": "fala",
-      "na": "contou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "ângulo"
      }
     ]
-   }
+   },
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "ANGULO DA SOMBRA",
+      "topo",
+      "ângulo"
+     ],
+     [
+      "PASSOS ENTRE AS CIDADES",
+      "baixo",
+      "passos"
+     ]
+    ],
+    "setas": [
+     [
+      "baixo",
+      "SOL",
+      "",
+      "sombra"
+     ]
+    ]
+   },
+   "shot_lock": true,
+   "clima": "calor"
   },
   {
    "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
