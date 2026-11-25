@@ -361,36 +361,36 @@
    "props": [
     [
      "kit/pea_yellow",
-     0.6,
+     0.7,
      0.4,
-     2.8,
+     3.4,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     1.1,
+     1.2,
      -0.4,
-     2.8,
+     3.4,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     0.2,
+     0.3,
      -0.8,
-     2.8,
+     3.4,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_green",
-     -1.4,
+     -1.6,
      0.4,
-     3.4,
+     4.4,
      {
       "fixo": true
      }
@@ -448,11 +448,11 @@
     ]
    },
    "set": "hall",
-   "cx": -0.2,
+   "cx": -0.3,
    "cz": 0.0,
    "h": 1.4,
-   "d0": 8.0,
-   "d1": 7.5,
+   "d0": 7.0,
+   "d1": 6.5,
    "quadro_manual": true
   },
   {
