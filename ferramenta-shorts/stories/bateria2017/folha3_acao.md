@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 12 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.3s - 11 palavras - plano two
+## Cena b0 - 0.2s a 3.3s - 11 palavras - plano close
 > "Um homem apostou cinquenta milhões de dólares numa conversa no Twitter."
 
 - LEITURA DA FRASE: sentido FATO

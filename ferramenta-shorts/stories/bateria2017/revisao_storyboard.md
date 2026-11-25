@@ -1,6 +1,6 @@
 pesquisa: aposta de Musk e Mike Cannon-Brookes em marco de 2017, bateria Hornsdale Power Reserve perto de Jamestown (Australia do Sul), prazo de 100 dias, ficou pronta em ~55, 100 MW; ver referencias/bateria2017/moodboard.jpg (prints de objeto lixo ignorados no comparativo).
 defeitos procurados: cenario/epoca (campo aberto e cidade, interior), tamanho do megapack, cortado, multidao (jornalistas b2), legenda livre, acao, objeto citado (megapack, celular, mapa), sem tiro.
-b0: OK - "homem apostou 50 milhoes numa conversa no Twitter": Musk com dinheiro atras de megapacks numa sala.
+b0: OK - "homem apostou 50 milhoes numa conversa no Twitter": Musk sorrindo com notas de dinheiro numa sala (refeito: antes so aparecia o megapack).
 b1: OK - "2017, Musk prometeu baterias gigantes para Australia do Sul em 100 dias": mapa AUSTRALIA e Musk com megapacks e texto 100 DIAS.
 b2: OK - "jornais calcularam que ele podia perder 50 milhoes": multidao de reporteres, Musk preocupado, texto 50 MILHOES.
 b3: OK - "contrato fechado, prazo de 100 dias comecou": close de Musk nervoso com papel, megapack ao lado.

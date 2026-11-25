@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior loja | two | 1 | encena | kit/megapack | - | -
+b0 | interior loja | close | 1 | encena | kit/megapack | - | -
 b1 | loc_campo | wide | 1 | parados (so fala e pisca) | kit/megapack | - | -
 b2 | loc_cidade | wide | 31 | encena, batalha | kit/megapack | - | -
 b3 | interior pedra | close | 1 | reagir | kit/megapack | - | -
