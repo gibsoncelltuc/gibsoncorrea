@@ -1,5 +1,0 @@
-VISIBILIDADE: 4 FALHA(S)
-FALHA b0: objeto citado "kit/lobster" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b1: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b0: objeto "kit/bancada" saiu com 16% da altura da tela, a ficha de cena planejou 32%
-FALHA b1: objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30%

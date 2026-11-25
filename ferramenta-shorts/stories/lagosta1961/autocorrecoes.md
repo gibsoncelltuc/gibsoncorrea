@@ -96,3 +96,16 @@
 - b1: ja corrigida 3 vezes, objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b1: ja corrigida 3 vezes, objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 14:35 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b1: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 0.0, cz -5.6), sem multidao na frente
+- b5: objeto citado "vehicles/airplane" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 7.0, cz -11.2), sem multidao na frente
+- b1: objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30% -> camera em plano aberto mirando o objeto (cx 7.0, cz -11.2), sem multidao na frente
+
+## 25/11 14:36 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b1: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera mais perto do objeto, 1 personagem de lado
+- b1: ja corrigida 3 vezes, objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
