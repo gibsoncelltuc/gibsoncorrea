@@ -6,6 +6,7 @@
    "tipo": "tema",
    "item": "A Guerra do Banquinho Dourado",
    "consultas": [
+    "War of the Golden Stool 1900 Kumasi",
     "A Guerra do Banquinho Dourado",
     "Um Era Costa Ouro Gana Os Nem 1900"
    ]
@@ -46,6 +47,7 @@
    "tipo": "pessoas",
    "item": "lideres ashanti",
    "consultas": [
+    "Asante chiefs kente cloth 1900",
     "lideres ashanti",
     "lideres ashanti 1900"
    ]
@@ -70,6 +72,7 @@
    "tipo": "objeto",
    "item": "banquinho dourado (Sika Dwa Kofi)",
    "consultas": [
+    "Golden Stool Asante Sika Dwa Kofi",
     "banquinho dourado",
     "banquinho dourado 1900"
    ]
@@ -86,6 +89,7 @@
    "tipo": "objeto",
    "item": "fuzis",
    "consultas": [
+    "Lee-Metford rifle 1900",
     "fuzis",
     "fuzis 1900"
    ]
@@ -94,6 +98,7 @@
    "tipo": "heroi",
    "item": "golden stool",
    "consultas": [
+    "Golden Stool of Asante",
     "banquinho dourado",
     "A Guerra do Banquinho Dourado"
    ]

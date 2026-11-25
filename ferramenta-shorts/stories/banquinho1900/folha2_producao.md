@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: GOV na esquerda, expressao smug; ASH na direita, expressao shock; sem multidao; acao: discutir
-- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (0.2-1.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (1.9-3.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: CHE na esquerda, expressao stern; ASH na direita, expressao smile; multidao de 12 (ASH, CHE) ATRAS dos principais; acao: conversar
-- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (11.1-12.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (12.8-14.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -188,7 +188,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: CHE na esquerda, expressao smug; ASH na direita, expressao grin; sem multidao; acao: cochichar
-- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (41.9-43.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (43.6-45.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -209,7 +209,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
 - PERSONAGENS: GOV no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
   - take 1 (46.6-48.0 s): mesmo angulo
   - take 2 (48.0-49.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -237,11 +237,9 @@ kit/forte_colonial | b5 | pronto | conferir na folha de contato se le bem; se pa
 ## Video inteiro
 - Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 12% | medio 63% | aberto 20% | detalhe 5%
 - Interacoes: b0 discutir, b2 o outro se aproxima, b3 empurrar, b4 susto, b7 entregar, b8 cochichar
-- RISCOS GERAIS: 
-  - FOLHA 4: 5 item(ns) sem referencia visual: A Guerra do Banquinho Dourado, lideres ashanti, banquinho dourado (Sika Dwa Kofi), fuzis, golden stool -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 5 item(ns) sem referencia visual: A Guerra do Banquinho Dourado, lideres ashanti, banquinho dourado (Sika Dwa Kofi), fuzis, golden stool
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh banquinho1900 bN bM` (so essas cenas).

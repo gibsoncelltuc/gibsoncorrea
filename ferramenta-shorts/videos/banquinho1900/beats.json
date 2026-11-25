@@ -463,7 +463,14 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
    "https://en.wikipedia.org/wiki/Golden_Stool"
-  ]
+  ],
+  "buscas": {
+   "banquinho dourado (Sika Dwa Kofi)": "Golden Stool Asante Sika Dwa Kofi",
+   "golden stool": "Golden Stool of Asante",
+   "lideres ashanti": "Asante chiefs kente cloth 1900",
+   "fuzis": "Lee-Metford rifle 1900",
+   "A Guerra do Banquinho Dourado": "War of the Golden Stool 1900 Kumasi"
+  }
  },
  "variar_cenario": false,
  "max_wide": 4
