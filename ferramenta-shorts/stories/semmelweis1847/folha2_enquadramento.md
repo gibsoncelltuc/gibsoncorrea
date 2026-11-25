@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: hospital; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
 - PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao angry; sem multidao; acao: discutir
-- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "LAVE AS MÃOS" flutuando no alto, na palavra 1 da frase
@@ -79,9 +79,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Lavar as mãos virou insulto. Foi assim que..."
 - LOCAL: hospital; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
-- PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao angry; sem multidao; acao: discutir
-- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)
+- PERSONAGENS: SEM (medico) no centro, expressao stern; sem multidao; acao: discutir
+- OBJETO kit/wash_basin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "1847" numa placa atras dos personagens, na palavra 1 da frase

@@ -68,9 +68,9 @@
    "props": [
     [
      "kit/wash_basin",
-     0.0,
-     -1.2,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -112,7 +112,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -441,16 +442,15 @@
   {
    "shot": "two",
    "who": [
-    "SEM:0:stern",
-    "DIR:0:angry"
+    "SEM:0:stern"
    ],
    "acao": "discutir",
    "props": [
     [
      "kit/wash_basin",
-     0.0,
-     -1.2,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -491,7 +491,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 3
   }
  ],
  "variar_cenario": false,

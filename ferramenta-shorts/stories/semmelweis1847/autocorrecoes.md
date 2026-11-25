@@ -21,3 +21,14 @@
 ## 25/11 13:33 autocorrecao de visibilidade
 - b4: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 17:49 autocorrecao de visibilidade
+- b0: objeto "kit/wash_basin" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: objeto "kit/wash_basin" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 17:50 autocorrecao de visibilidade
+- b0: objeto "kit/wash_basin" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b9: objeto "kit/wash_basin" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 17:50 autocorrecao de visibilidade
+- b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)

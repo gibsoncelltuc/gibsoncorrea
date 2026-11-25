@@ -6,35 +6,19 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Um médico pediu aos colegas para lavarem as mãos,": 
-- f1 "e foi expulso do hospital.": 
-- f2 "Era mil oitocentos e quarenta e sete,": 
-- f3 "no grande hospital de Viena,": 
-- f4 "na Áustria.": 
-- f5 "O hospital tinha duas alas de parto:": 
-- f6 "uma de parteiras e outra de médicos.": 
-- f7 "Acontece que,": 
-- f8 "na ala dos médicos,": 
-- f9 "morriam muito mais mães,": 
-- f10 "de uma febre misteriosa.": 
-- f11 "Um dia,": 
-- f12 "o amigo Kolletschka se cortou com um bisturi numa autópsia,": 
-- f13 "e morreu da mesma febre.": 
-- f14 "Ele entendeu:": 
-- f15 "os médicos saíam das autópsias e iam direto aos partos,": 
-- f16 "de mãos sujas.": 
-- f17 "Ele pôs uma bacia com água e cloro na porta,": 
-- f18 "e obrigou os médicos a lavar as mãos antes de entrar.": 
-- f19 "As mortes despencaram quase dez vezes.": 
-- f20 "Mas os médicos se ofenderam,": 
-- f21 "e Semmelweis foi mandado embora.": 
-- f22 "Ele morreu em mil oitocentos e sessenta e cinco,": 
-- f23 "sem ser reconhecido.": 
-- f24 "Anos depois,": 
-- f25 "a ciência provou que ele estava certo.": 
-- f26 "Hoje,": 
-- f27 "é chamado de salvador das mães.": 
-- f28 "Agora não deixe de comentar:": 
-- f29 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Um médico pediu para os colegas lavarem as mãos e foi expuls": 
+- f1 "Hoje é chamado de salvador das mães.": 
+- f2 "Em 1847, no hospital de Viena,": 
+- f3 "havia duas alas de parto.": 
+- f4 "Na ala dos médicos,": 
+- f5 "morriam muito mais mães,": 
+- f6 "de febre.": 
+- f7 "Um colega se cortou numa autópsia e morreu de febre.": 
+- f8 "Acontece que os médicos saíam das autópsias de mãos sujas.": 
+- f9 "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.": 
+- f10 "As mortes caíram quase dez vezes.": 
+- f11 "Mas os médicos se ofenderam e o expulsaram.": 
+- f12 "Lavar as mãos virou insulto.": 
+- f13 "Foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado
