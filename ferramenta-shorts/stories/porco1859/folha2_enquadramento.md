@@ -82,7 +82,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b11: "A única baixa da guerra foi o porco."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cross juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e cross juntos (camera a 8.0 m)
 - PERSONAGENS: FAZ no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/cross: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

@@ -168,8 +168,8 @@
     ],
     [
      "kit/batatas",
-     0.6,
-     1.0,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -204,9 +204,8 @@
    "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 3
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -466,7 +465,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "FAZ:0:sad"
    ],
@@ -524,7 +523,9 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "detalhe": false,
+   "_auto_vis": 1
   }
  ],
  "heroi": "kit/batatas",
@@ -560,5 +561,6 @@
  },
  "sem_mortos": true,
  "min_momentos": 1,
- "estrutura_ok": true
+ "estrutura_ok": true,
+ "max_wide": 3
 }

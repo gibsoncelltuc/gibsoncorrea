@@ -13,8 +13,8 @@ b7 | crowd | -  | batalha aberta com tiros, tropa | encena: fala (point) @2 (aca
 b8 | two | -  | animais, interior | atacar (ring + som de alerta) | -
 b9 | group | -  | interior, placa: FESTAS | encena: vence (up) @8 (acao + som de efeito) | -
 b10 | two | -  | interior, placa: 13 ANOS, objeto na mao | (rosto) determined (expr + som de efeito) | -
-b11 | two | -  | animais | - | -
+b11 | wide | -  | tropa, animais | - | -
 b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 10% | medio 72% | aberto 16% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 10% | medio 68% | aberto 21% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

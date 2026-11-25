@@ -1,3 +1,0 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b0: animal citado aparece pequeno demais no take 2 (media 11% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
-FALHA b2: objeto "kit/batatas" saiu com 10% da altura da tela, a ficha de cena planejou 32%

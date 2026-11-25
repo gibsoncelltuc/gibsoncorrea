@@ -234,7 +234,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FAZ"
    ],
@@ -246,7 +246,7 @@
    "palavras": 8,
    "cena": "b11",
    "frase": "A única baixa da guerra foi o porco.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

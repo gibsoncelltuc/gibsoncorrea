@@ -15,12 +15,12 @@ b7 | harbor | crowd | 32 | discutir, batalha | cannon, navios de guerra ao fundo
 b8 | interior madeira | two | 2 | reagir, INTERAGEM: susto | pig | - | -
 b9 | interior pedra | group | 3 | comemorar, INTERAGEM: vai ate o outro | - | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
-b11 | countryside | two | 1 | conversar | kit/cross, nature/picket_fence, pig | - | -
+b11 | countryside | wide | 1 | parados (so fala e pisca) | kit/cross, nature/picket_fence, pig | - | -
 b12 | countryside | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/batatas
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b7
 Interacoes entre personagens: b4 entregar, b5 discutir, b6 o outro se aproxima, b8 susto, b9 vai ate o outro, b10 cochichar
 
-Cenas com personagens parados: 1 de 13
+Cenas com personagens parados: 2 de 13
 FALTA MODELAR: nada
