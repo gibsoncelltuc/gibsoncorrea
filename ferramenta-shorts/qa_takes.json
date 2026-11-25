@@ -1,94 +1,45 @@
 {
  "fails": [
   {
-   "f": 36,
-   "shot": "b0",
+   "f": 1340,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.034, 0.38, 0.278, 0.641)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 40,
-   "shot": "b0",
+   "f": 1344,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.027, 0.378, 0.268, 0.643)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 132,
-   "shot": "b0~2",
+   "f": 1345,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.051, 0.347, 0.203, 0.659)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 136,
-   "shot": "b0~2",
+   "f": 1348,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.075, 0.344, 0.186, 0.663)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 140,
-   "shot": "b0~2",
+   "f": 1352,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.09, 0.341, 0.175, 0.665)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 144,
-   "shot": "b0~2",
+   "f": 1356,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.097, 0.34, 0.17, 0.666)"
-   ]
-  },
-  {
-   "f": 147,
-   "shot": "b0~2",
-   "why": [
-    "men: head/torso cropped (box -0.098, 0.34, 0.169, 0.667)"
-   ]
-  },
-  {
-   "f": 552,
-   "shot": "b3~1",
-   "why": [
-    "men: head/torso cropped (box -0.031, 0.379, 0.296, 0.674)"
-   ]
-  },
-  {
-   "f": 556,
-   "shot": "b3~1",
-   "why": [
-    "men: head/torso cropped (box -0.068, 0.359, 0.274, 0.678)"
-   ]
-  },
-  {
-   "f": 560,
-   "shot": "b3~1",
-   "why": [
-    "men: head/torso cropped (box -0.096, 0.339, 0.249, 0.678)"
-   ]
-  },
-  {
-   "f": 564,
-   "shot": "b3~1",
-   "why": [
-    "men: head/torso cropped (box -0.079, 0.337, 0.246, 0.673)"
-   ]
-  },
-  {
-   "f": 568,
-   "shot": "b3~1",
-   "why": [
-    "men: head/torso cropped (box -0.053, 0.34, 0.259, 0.668)"
-   ]
-  },
-  {
-   "f": 572,
-   "shot": "b3~1",
-   "why": [
-    "men: head/torso cropped (box -0.033, 0.344, 0.199, 0.664)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   }
  ],
