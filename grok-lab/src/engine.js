@@ -143,7 +143,7 @@ export class Engine {
     this.fees += fee;
     this.cash += proceeds;
     const pnl = proceeds - pos.size;
-    this.trades.push({ sym: pos.sym, pnl, reason });
+    this.trades.push({ sym: pos.sym, pnl, ret: pnl / pos.size, reason });
     this.positions = this.positions.filter((p) => p !== pos);
     this.cool.set(pos.tok.id, this.m.tick + this.cfg.cooldownMin);
     const isStop = reason === 'Stop loss';
