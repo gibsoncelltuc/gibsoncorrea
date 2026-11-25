@@ -1,0 +1,54 @@
+:root {
+  --bg: #0a0b0d; --card: #111317; --line: #1d2026; --txt: #e8eaed; --mut: #7b8290;
+  --up: #2dd4a7; --down: #ff6b6b; --warn: #f5a623;
+  --c-scan: #f5c542; --c-rug: #ff5d5d; --c-size: #8b7bff; --c-exec: #2dd4a7; --c-stop: #ff9f43; --c-tp: #4c8dff; --c-log: #e8eaed;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--txt); font: 14px/1.4 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+.app { max-width: 1180px; margin: 0 auto; padding: 14px 16px 40px; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 6px 0 12px; }
+.brand { font-size: 16px; display: flex; align-items: center; gap: 8px; color: var(--mut); }
+.brand b { color: var(--txt); }
+.logo { width: 22px; height: 22px; border-radius: 7px; background: linear-gradient(135deg, #2dd4a7, #4c8dff); display: inline-block; }
+.right { display: flex; align-items: center; gap: 10px; color: var(--mut); font-family: ui-monospace, Menlo, monospace; }
+.badge { background: #2a1d05; color: var(--warn); border: 1px solid #5a3d0a; padding: 3px 9px; border-radius: 999px; font: 600 11px ui-sans-serif, system-ui; letter-spacing: .03em; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--up); box-shadow: 0 0 8px var(--up); }
+.kpis { display: grid; grid-template-columns: 1.6fr repeat(4, 1fr); gap: 14px; align-items: end; padding: 6px 0 16px; }
+.kpis label { display: block; color: var(--mut); font-size: 12px; margin-bottom: 2px; }
+.kpis b { font-size: 20px; display: block; }
+.kpis small { color: var(--mut); font-size: 12px; font-family: ui-monospace, Menlo, monospace; }
+.big { font-size: 46px; font-weight: 700; letter-spacing: -.02em; line-height: 1.05; }
+.up { color: var(--up); } .down { color: var(--down); }
+main { display: grid; grid-template-columns: 300px 1fr; gap: 14px; }
+.agents, .chartcard, .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
+.agents { padding: 12px 10px; }
+.agents h3 { margin: 2px 8px 8px; font-size: 13px; font-weight: 600; display: flex; justify-content: space-between; color: var(--txt); }
+.agents h3 span { color: var(--mut); font-weight: 400; }
+.agents ul { list-style: none; margin: 0; padding: 0; }
+.agents li { display: flex; align-items: center; gap: 10px; padding: 9px 8px; border-radius: 10px; }
+.agents li:nth-child(odd) { background: #0e1013; }
+.agents .ico { width: 26px; height: 26px; border-radius: 9px; flex: none; }
+.agents .nm { font-weight: 600; font-size: 13px; letter-spacing: .02em; }
+.agents .st { font: 12px ui-monospace, Menlo, monospace; color: var(--mut); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; }
+.agents .st.ok { color: var(--up); } .agents .st.bad { color: var(--down); }
+.chartcard { padding: 12px 14px; min-height: 420px; display: flex; flex-direction: column; }
+.chead { display: flex; align-items: baseline; gap: 10px; }
+.tok { font-size: 20px; font-weight: 700; } .tf { color: var(--mut); font-size: 12px; } .px { margin-left: auto; font-size: 18px; font-weight: 700; }
+.ohlc { color: var(--mut); font: 11px ui-monospace, Menlo, monospace; margin: 2px 0 6px; }
+.posrow { font: 12px ui-monospace, Menlo, monospace; color: var(--mut); display: flex; gap: 14px; min-height: 18px; }
+.posrow .pl { margin-left: auto; font-weight: 700; font-size: 14px; }
+canvas { width: 100%; display: block; }
+#chart { flex: 1; min-height: 320px; }
+#eq { height: 150px; }
+.card { margin-top: 14px; padding: 12px 14px; }
+.ctitle { font-size: 13px; font-weight: 600; margin-bottom: 8px; display: flex; justify-content: space-between; }
+.ctitle span { color: var(--mut); font-weight: 400; font-family: ui-monospace, Menlo, monospace; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { color: var(--mut); font-weight: 400; text-align: left; padding: 4px 6px; font-size: 12px; }
+td { padding: 5px 6px; border-top: 1px solid var(--line); font-family: ui-monospace, Menlo, monospace; }
+.r { text-align: right; } td.r { font-weight: 600; }
+.s-Buy { color: var(--up); } .s-Sell { color: var(--txt); } .s-Stop { color: var(--down); } .s-Rejected { color: var(--warn); }
+@media (max-width: 820px) {
+  .kpis { grid-template-columns: 1fr 1fr; } .bal { grid-column: 1 / -1; } .big { font-size: 38px; }
+  main { grid-template-columns: 1fr; }
+}

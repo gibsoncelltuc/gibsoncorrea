@@ -1,0 +1,13 @@
+{
+  "name": "grok-lab",
+  "private": true,
+  "type": "module",
+  "description": "Motor de trading em modo SIMULADO (paper) com painel em HTML. Engenharia reversa de um vídeo de TikTok. Sem dinheiro real.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.js",
+    "sim": "node src/cli.js",
+    "mc": "node src/montecarlo.js",
+    "test": "node --test test/*.test.js"
+  }
+}

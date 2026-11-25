@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab Terminal · SIMULAÇÃO</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand"><span class="logo"></span><b>Lab</b> Terminal</div>
+    <div class="right">
+      <span class="badge" title="Os dados deste painel são sintéticos. Nenhuma ordem real é enviada.">SIMULAÇÃO · dados sintéticos</span>
+      <span class="clock" id="clock">00:00:00</span><i class="dot"></i>
+    </div>
+  </header>
+
+  <section class="kpis">
+    <div class="bal"><label>Capital</label><div class="big" id="equity">$0.00</div></div>
+    <div><label>PnL total</label><b id="pnl">—</b><small id="pnlpct"></small></div>
+    <div><label>Trades</label><b id="trades">0</b><small id="wl"></small></div>
+    <div><label>Win rate</label><b id="wr">—</b><small id="fees"></small></div>
+    <div><label>Drawdown máx.</label><b id="dd">—</b><small id="open"></small></div>
+  </section>
+
+  <main>
+    <aside class="agents">
+      <h3>Agentes <span id="online">7 online</span></h3>
+      <ul id="agentList"></ul>
+    </aside>
+    <section class="chartcard">
+      <div class="chead"><span class="tok" id="sym">$—</span><span class="tf">1m · MC</span><span class="px" id="px"></span></div>
+      <div class="ohlc" id="ohlc"></div>
+      <div class="posrow" id="posrow"></div>
+      <canvas id="chart"></canvas>
+    </section>
+  </main>
+
+  <section class="card">
+    <div class="ctitle">Equity <span id="eqlast"></span></div>
+    <canvas id="eq"></canvas>
+  </section>
+
+  <section class="card">
+    <div class="ctitle">Atividade <span id="evcount"></span></div>
+    <table><thead><tr><th>Hora</th><th>Lado</th><th>Token</th><th class="r">Tamanho / PnL</th><th>Nota</th></tr></thead><tbody id="events"></tbody></table>
+  </section>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
