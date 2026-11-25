@@ -85,12 +85,12 @@
    },
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
     "objetos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/vagem_verde",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -170,18 +170,18 @@
    "detalhe": true,
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
     "objetos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/vagem_verde",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "objeto": "kit/vagem_amarela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -239,13 +239,13 @@
     "n": 0
    },
    "quadro": {
-    "local": "loc_patio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)",
     "objetos": [
      {
-      "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/vagem_amarela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -314,13 +314,13 @@
     "thump@30"
    ],
    "quadro": {
-    "local": "loc_patio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)",
     "objetos": [
      {
-      "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/vagem_amarela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -426,19 +426,37 @@
     "sting@60"
    ],
    "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
     "objetos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/vagem_verde",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, direita",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "2% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -574,19 +592,25 @@
     ]
    },
    "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/vagem_verde",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "2% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -618,13 +642,13 @@
     ]
    ],
    "quadro": {
-    "local": "loc_patio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
     "objetos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/vagem_verde",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
