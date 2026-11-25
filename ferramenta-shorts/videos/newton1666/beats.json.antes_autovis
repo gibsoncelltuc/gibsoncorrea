@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+7%",
+ "rate": "+5%",
  "serie": "Curiosidade e Ciência",
  "ep": 1,
  "title": "Newton e a Maçã",
@@ -58,37 +58,80 @@
  },
  "beats": [
   {
-   "say": "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça.",
    "shot": "group",
    "who": [
     "NEW:0:smile:apple"
    ],
    "props": [
     [
-     "kit/moon",
-     2.2,
-     -6.0,
-     1.8,
+     "kit/lua_ceu",
+     2.0,
+     -10.0,
+     1.4,
      {
       "fixo": true,
-      "y": 5.0
+      "y": 6.0
      }
     ]
    ],
+   "detalhe": false,
+   "set": "loc_campo",
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 11.0,
+   "d1": 10.0,
+   "hora": "pordosol",
+   "quadro_manual": true,
+   "h": 1.6,
+   "bloco": "gancho",
+   "say": "Uma maçã que não caiu na cabeça de Newton mudou tudo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "maçã"
+     }
+    ]
+   },
+   "text": "LENDA?",
+   "titulo": true,
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e moon juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
     "objetos": [
      {
-      "objeto": "kit/moon",
+      "objeto": "kit/lua_ceu",
       "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NEW:0:smug"
+   ],
+   "props": [
+    [
+     "kit/apple",
+     1.0,
+     1.0,
+     1.09,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "explica": false,
+   "detalhe": true,
+   "set": "loc_campo",
+   "bloco": "promessa",
+   "say": "Ela explicou por que a Lua não cai em cima da gente.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -96,19 +139,21 @@
      }
     ]
    },
-   "detalhe": false,
-   "set": "loc_campo",
-   "moveis": [],
-   "cx": 0.8,
-   "cz": -2.0,
-   "d0": 10.0,
-   "d1": 8.5,
-   "hora": "pordosol",
-   "quadro_manual": true,
-   "h": 1.6
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "say": "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.",
    "shot": "two",
    "who": [
     "EST:0:scared"
@@ -123,27 +168,31 @@
    },
    "mapa": "INGLATERRA",
    "mapa_at": 2,
+   "set": "street",
+   "text": "CAMBRIDGE FECHADA",
+   "tstyle": "red",
+   "bloco": "prova",
+   "say": "Em 1666, a peste fechou a universidade de Cambridge.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Cambridge"
+      "na": "fechou"
      }
     ]
-   },
-   "set": "medieval",
-   "text": "CAMBRIDGE FECHADA",
-   "tstyle": "red"
+   }
   },
   {
-   "say": "Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da mãe.",
    "shot": "two",
    "who": [
     "NEW:0:smile:bag",
     "MAE:0:smile"
    ],
-   "chega": true,
+   "set": "countryside",
+   "fachada": true,
+   "bloco": "prova",
+   "say": "Isaac Newton, de 23 anos, voltou para a fazenda.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -153,12 +202,9 @@
       "quem": 0
      }
     ]
-   },
-   "set": "countryside",
-   "fachada": true
+   }
   },
   {
-   "say": "Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem.",
    "shot": "two",
    "who": [
     "NEW:0:neutral:book",
@@ -172,6 +218,8 @@
      1.4
     ]
    ],
+   "bloco": "prova",
+   "say": "Ficava debaixo de uma macieira, pensando.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -184,8 +232,7 @@
    }
   },
   {
-   "say": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "NEW:0:surprised",
     "AMI:0:shock"
@@ -203,9 +250,9 @@
     ],
     [
      "kit/apple",
-     0.0,
-     -1.0,
-     1.5,
+     0.2,
+     0.9,
+     1.0,
      {
       "fixo": true
      }
@@ -219,20 +266,14 @@
     "thump@40",
     "ding@60"
    ],
-   "_susp_ok": true,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "orbit; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/apple",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "orbit",
+   "cx": 0.2,
+   "cz": 0.0,
+   "d0": 8.0,
+   "d1": 7.0,
+   "quadro_manual": true,
+   "h": 1.3,
+   "bloco": "escalada",
+   "say": "Acontece que uma maçã caiu bem na frente dele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -242,18 +283,48 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "say": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
    "shot": "two",
    "who": [
     "NEW:0:suspicious"
    ],
+   "set": "countryside",
+   "props": [
+    [
+     "nature/tree_oak",
+     -2.6,
+     -2.5,
+     1.4
+    ],
+    [
+     "kit/apple",
+     0.9,
+     0.5,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@40"
+   ],
+   "text": "PARA BAIXO",
+   "bloco": "escalada",
+   "say": "Ele se perguntou: por que ela cai sempre para baixo?",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -264,51 +335,55 @@
      }
     ]
    },
-   "set": "countryside",
-   "props": [
-    [
-     "nature/tree_oak",
-     -2.2,
-     -1.6,
-     1.4
-    ],
-    [
-     "kit/apple",
-     2.4,
-     0.2,
-     1.3,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "ring@40"
-   ],
-   "text": "PARA BAIXO",
    "_enq_shot": "two",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
     "objetos": [
      {
       "objeto": "kit/apple",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "cx": 0.4,
+   "cz": 0.2,
+   "h": 1.4,
+   "d0": 7.0,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "detalhe": true
   },
   {
-   "say": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?",
    "shot": "two",
    "who": [],
    "set": "loc_campo",
+   "props": [
+    [
+     "kit/lua_ceu",
+     0.0,
+     -1.0,
+     1.0,
+     {
+      "fixo": true,
+      "y": 0.6
+     }
+    ]
+   ],
+   "explica": {
+    "objeto": "kit/lua_ceu",
+    "manobra": "parado",
+    "passos": [
+     "TERRA PUXA A MAÇÃ",
+     "TERRA PUXA A LUA",
+     "MESMA FORÇA"
+    ]
+   },
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Se a força puxa a maçã, puxa a Lua também?",
    "encena": {
     "sentido": "hipotese",
     "passos": [
@@ -317,62 +392,9 @@
       "na": "Lua"
      }
     ]
-   },
-   "props": [
-    [
-     "kit/globe",
-     -1.8,
-     -1.2,
-     1.5,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/moon",
-     2.6,
-     -3.0,
-     1.0,
-     {
-      "fixo": true,
-      "y": 2.5
-     }
-    ],
-    [
-     "kit/apple",
-     0.0,
-     -0.6,
-     1.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "explica": {
-    "objeto": "kit/apple",
-    "manobra": "parado",
-    "rotulos": [
-     [
-      "TERRA PUXA A MACA",
-      "topo",
-      "maçã"
-     ],
-     [
-      "TERRA PUXA A LUA",
-      "meio",
-      "Lua"
-     ],
-     [
-      "MESMA FORCA",
-      "baixo",
-      "força"
-     ]
-    ]
-   },
-   "shot_lock": true
+   }
   },
   {
-   "say": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
    "shot": "two",
    "who": [
     "NEW:0:smug:book"
@@ -387,76 +409,55 @@
     "ding@30",
     "sting@70"
    ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.0,
+   "h": 1.5,
+   "d0": 7.0,
+   "d1": 6.5,
+   "interior": "madeira",
+   "bloco": "pagamento",
+   "say": "Isso virou a lei da gravidade de Newton.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "gravidade"
      }
     ]
-   },
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 1.5,
-   "d0": 7.0,
-   "d1": 6.5
-  },
-  {
-   "say": "Anos depois, ele mesmo contou essa história a um amigo.",
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "NEW:0:smile:mug",
-    "AMI:1:smile"
-   ],
-   "interacao": "cochichar",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "contou",
-      "quem": 0
-     }
-    ]
    }
   },
   {
-   "say": "No fim, a maçã mudou a ciência e nem foi comida.",
-   "shot": "two",
+   "shot": "group",
    "who": [
-    "NEW:0:smug"
+    "NEW:0:smile:apple"
    ],
    "props": [
     [
-     "kit/apple",
-     2.4,
-     0.2,
+     "kit/lua_ceu",
      2.0,
+     -10.0,
+     1.4,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 6.0
      }
     ]
    ],
-   "explica": false,
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/apple",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": true,
-   "_enq_shot": "two",
+   "detalhe": false,
+   "set": "loc_campo",
+   "cx": 0.8,
+   "cz": -2.0,
+   "d0": 10.0,
+   "d1": 8.5,
+   "hora": "pordosol",
+   "quadro_manual": true,
+   "h": 1.6,
+   "bloco": "loop",
+   "say": "E a maçã nem foi comida. Foi assim que...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -464,12 +465,18 @@
      }
     ]
    },
-   "set": "loc_campo",
-   "moveis": [],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lua_ceu",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "visual": {
@@ -504,7 +511,9 @@
    "maca": "red apple on branch"
   }
  },
- "max_wide": 3,
  "cinf": 4.5,
- "exp": 1.12
+ "exp": 1.12,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma maca que nao caiu na cabeca de Newton explicou por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade.",
+ "loop_frase_ok": true
 }

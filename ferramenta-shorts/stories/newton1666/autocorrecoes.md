@@ -40,3 +40,10 @@
 
 ## 25/11 08:05 autocorrecao de visibilidade
 - b4: objeto "kit/apple" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 19:56 autocorrecao de visibilidade
+- b1: objeto citado "kit/apple" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.5, 1.0)
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/lua_ceu" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b1: objeto "kit/apple" saiu com 4% da altura da tela, a ficha de cena planejou 15% -> objeto na frente dos personagens e maior
+- b5: quadro_manual (o roteiro fixou o quadro), objeto "kit/apple" saiu com 5% da altura da tela, a ficha de cena planejou 15% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/lua_ceu" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
