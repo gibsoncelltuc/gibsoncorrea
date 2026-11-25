@@ -18,7 +18,7 @@
    "multidao": 0,
    "objetos": [
     "kit/marco_wurzburg",
-    "kit/xray_plate"
+    "kit/xray_alianca"
    ],
    "palavras": 16,
    "cena": "b0",
@@ -99,6 +99,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/xray_alianca",
     "kit/xray_plate"
    ],
    "palavras": 14,
@@ -118,6 +119,7 @@
    "multidao": 0,
    "objetos": [
     "kit/crookes_tube",
+    "kit/xray_alianca",
     "kit/xray_plate"
    ],
    "palavras": 15,
@@ -137,7 +139,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/xray_plate"
+    "kit/xray_alianca"
    ],
    "palavras": 16,
    "cena": "b6",
@@ -155,6 +157,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/xray_alianca",
     "kit/xray_plate"
    ],
    "palavras": 14,

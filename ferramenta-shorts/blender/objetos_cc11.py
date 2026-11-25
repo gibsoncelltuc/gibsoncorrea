@@ -19,3 +19,16 @@ for i, (bx, tx, fx) in enumerate(((-.09, -.13, -.2), (-.03, -.045, -.07), (.03, 
 tubo([(-.1, .92, .04), (-.27, 1.05, .04), (-.38, 1.2, .04), (-.44, 1.32, .04)], .02, B_)                          # polegar
 torno((.03, 1.37, .04), [(.03, -.025), (.042, 0), (.042, .03), (.03, .035)], '#f2c230', 14)                       # alianca no dedo anelar
 fim(0.008)
+novo('xray_alianca')                                             # chapa de raio X num cavalete: placa escura com os ossos da mao em branco e a alianca dourada
+caixa((0, 1.1, 0), (1.0, 1.3, .05), '#1d2a3a'); caixa((0, 1.1, -.01), (1.08, 1.38, .03), '#6a4426')
+for x in (-.35, .35): cil((x, .45, -.15), .035, 1.0, '#7a4a26', rot=(.25, 0, 0))
+B_ = '#e6eef5'
+tubo([(-.06, .45, .04), (-.06, .85, .04)], .03, B_); tubo([(.06, .45, .04), (.06, .85, .04)], .028, B_)          # radio e ulna
+bola((0, .9, .04), .13, B_, .4, esc=(1.35, 1, .3))                                                                  # carpo
+for i, (bx, tx, fx) in enumerate(((-.09, -.13, -.2), (-.03, -.045, -.07), (.03, .045, .06), (.09, .13, .18))):
+    tubo([(bx, .95, .04), (tx, 1.22, .04)], .022, B_)                                                               # metacarpo
+    ln = (.36, .42, .39, .3)[i]; tubo([(tx, 1.25, .04), (tx + (fx - tx) * .5, 1.25 + ln * .55, .04), (fx, 1.25 + ln, .04)], .018, B_)   # dedo inteiro
+    for t in (0, .55, 1): bola((tx + (fx - tx) * t * (.5 if t < 1 else 1) if t < 1 else fx, 1.25 + ln * t, .04), .026, B_, seg=10)    # juntas
+tubo([(-.1, .92, .04), (-.27, 1.05, .04), (-.38, 1.2, .04), (-.44, 1.32, .04)], .02, B_)                          # polegar
+torno((.05, 1.36, .04), [(.05, -.035), (.07, 0), (.07, .05), (.05, .06)], '#ffd23a', 18, tampa=False)                       # alianca no dedo anelar
+fim(0.008)

@@ -7,7 +7,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; encena: tira (lift) @2 -> acao + som de efeito
-- Efeito visual marcado: stars@30
+- Efeito visual marcado: flash@10, stars@30
 - Texto na tela: -
 - Funcao na historia: GANCHO
 

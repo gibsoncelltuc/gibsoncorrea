@@ -92,10 +92,17 @@
   },
   {
    "tipo": "heroi",
-   "item": "xray plate",
+   "item": "xray alianca",
    "consultas": [
     "tubo de Crookes",
     "O Raio X de Röntgen"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "crookes tube",
+   "consultas": [
+    "crookes tube"
    ]
   },
   {
