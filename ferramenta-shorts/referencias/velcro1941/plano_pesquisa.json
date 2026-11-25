@@ -91,6 +91,15 @@
    ]
   },
   {
+   "tipo": "objeto",
+   "item": "microscopio_antigo",
+   "consultas": [
+    "antique brass compound microscope 1900s",
+    "microscopio_antigo",
+    "microscopio_antigo 1941"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "burr",
    "consultas": [

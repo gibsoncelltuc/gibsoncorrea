@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: relampago no ceu na palavra + trovao -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: relampago no ceu na palavra + trovao -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

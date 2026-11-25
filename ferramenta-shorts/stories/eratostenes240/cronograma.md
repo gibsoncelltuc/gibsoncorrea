@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Gerado em 25/11 04:03 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:17 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,7 +15,7 @@ b5 | simples | loc_campo | two | ERA | - | globe, tree_palm | - | Ele pensou: se
 b6 | explicativa | loc_estudio | two | sem personagem | - | globe, stick, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a sombra era diferente, e isso só podia acontecer se a Te
 b7 | simples | loc_montanha | orbit | ERA | - | apartment, house_two, marco_alexandria, stick, lamppost | - | Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades
 b8 | simples | interior pedra | two | ERA, BIB | - | - | - | Com uma conta simples, encontrou um número muito perto do tamanho real
-b9 | simples | loc_campo | two | ERA | - | starlink_sat, stick, well, bucket | - | No fim, uma vara e um poço fizeram o trabalho de um satélite.
+b9 | simples | loc_campo | wide | ERA | - | marco_alexandria, starlink_sat, stick, well, bucket | - | No fim, uma vara e um poço fizeram o trabalho de um satélite.
 b10 | simples | loc_campo | close | ERA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

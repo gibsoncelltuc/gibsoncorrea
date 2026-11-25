@@ -1,409 +1,45 @@
 {
  "fails": [
   {
-   "f": 1328,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1332,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1336,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
    "f": 1340,
-   "shot": "b8",
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
    "f": 1344,
-   "shot": "b8",
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+   ]
+  },
+  {
+   "f": 1345,
+   "shot": "b7~3",
+   "why": [
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
    "f": 1348,
-   "shot": "b8",
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
    "f": 1352,
-   "shot": "b8",
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
    "f": 1356,
-   "shot": "b8",
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1360,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1364,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1368,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1372,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1376,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1380,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1384,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1388,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1392,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1396,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1400,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1404,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1408,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1412,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1416,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1420,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1424,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1428,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1432,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1436,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1440,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1444,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1448,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1452,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1456,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1458,
-   "shot": "b8",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1740,
-   "shot": "b11",
-   "why": [
-    "jos: head/torso cropped (box -0.03, 0.508, 0.186, 0.751)"
-   ]
-  },
-  {
-   "f": 1744,
-   "shot": "b11",
-   "why": [
-    "jos: head/torso cropped (box -0.093, 0.506, 0.226, 0.761)"
-   ]
-  },
-  {
-   "f": 1748,
-   "shot": "b11",
-   "why": [
-    "jos: head/torso cropped (box -0.093, 0.502, 0.228, 0.758)"
-   ]
-  },
-  {
-   "f": 1752,
-   "shot": "b11",
-   "why": [
-    "jos: head/torso cropped (box -0.094, 0.509, 0.228, 0.764)"
-   ]
-  },
-  {
-   "f": 1753,
-   "shot": "b11",
-   "why": [
-    "jos: head/torso cropped (box -0.095, 0.505, 0.227, 0.763)"
-   ]
-  },
-  {
-   "f": 1754,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.095, 0.505, 0.227, 0.761)"
-   ]
-  },
-  {
-   "f": 1756,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.099, 0.502, 0.224, 0.76)"
-   ]
-  },
-  {
-   "f": 1760,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.129, 0.5, 0.199, 0.769)"
-   ]
-  },
-  {
-   "f": 1764,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.175, 0.487, 0.156, 0.777)"
-   ]
-  },
-  {
-   "f": 1768,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.135, 0.469, 0.071, 0.775)"
-   ]
-  },
-  {
-   "f": 1772,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.154, 0.464, 0.071, 0.778)"
-   ]
-  },
-  {
-   "f": 1776,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.153, 0.448, 0.081, 0.769)"
-   ]
-  },
-  {
-   "f": 1780,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.148, 0.442, 0.092, 0.772)"
-   ]
-  },
-  {
-   "f": 1784,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.131, 0.437, 0.105, 0.762)"
-   ]
-  },
-  {
-   "f": 1787,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.119, 0.438, 0.115, 0.759)"
-   ]
-  },
-  {
-   "f": 1788,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.114, 0.44, 0.118, 0.76)"
-   ]
-  },
-  {
-   "f": 1792,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.09, 0.455, 0.13, 0.756)"
-   ]
-  },
-  {
-   "f": 1796,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.069, 0.459, 0.222, 0.75)"
-   ]
-  },
-  {
-   "f": 1800,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.058, 0.468, 0.232, 0.753)"
-   ]
-  },
-  {
-   "f": 1804,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.046, 0.461, 0.245, 0.745)"
-   ]
-  },
-  {
-   "f": 1808,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.041, 0.466, 0.255, 0.748)"
-   ]
-  },
-  {
-   "f": 1812,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.038, 0.463, 0.254, 0.744)"
-   ]
-  },
-  {
-   "f": 1816,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.038, 0.463, 0.251, 0.745)"
-   ]
-  },
-  {
-   "f": 1819,
-   "shot": "b11~1",
-   "why": [
-    "jos: head/torso cropped (box -0.039, 0.469, 0.245, 0.75)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   }
  ],

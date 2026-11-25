@@ -25,6 +25,7 @@ pessoas | astronautas da Apollo | astronautas da Apollo / astronautas da Apollo 
 objeto | carrapicho de bardana | carrapicho de bardana / carrapicho de bardana 1941 | SEM REFERENCIA
 objeto | microscopio | microscopio / microscopio 1941 | Binocular compound microscope, Carl Zeiss Jena, 19 (referencias/velcro1941/prints/microscopio_97aad6.jpg); Fine rotative table Microscope 5 (12996283235).jpg (referencias/velcro1941/prints/microscopio_40f39a.jpg); Microscope MET DP108688.jpg (referencias/velcro1941/prints/microscopio_5a25a2.jpg)
 objeto | fita de velcro de nailon | fita de velcro de nailon / fita de velcro de nailon 1941 | SEM REFERENCIA
+objeto | microscopio_antigo | antique brass compound microscope 1900s / microscopio_antigo / microscopio_antigo 1941 | SEM REFERENCIA
 heroi | burr | carrapicho de bardana / O Cachorro que Inventou o Velcro | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

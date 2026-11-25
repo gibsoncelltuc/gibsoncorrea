@@ -10,7 +10,7 @@ b4 | low | study  | interior | encena: brilha (point) @11 (acao + som de efeito)
 b5 | two | study  | interior | encena: olha (point) @9 (acao + som de efeito) | -
 b6 | group | dia  | interior | encena: fala (point) @4 (acao + som de efeito); encena: tira (lift) @9 (acao + som de efeito) | -
 b7 | two | -  | interior | encena: olha (point) @3 (acao + som de efeito) | -
-b8 | orbit | -  | batalha aberta com tiros, tropa, placa: NOTÍCIA, objeto na mao | relampago no ceu na palavra + trovao (acao + som de efeito) | -
+b8 | orbit | -  | batalha aberta com tiros, tropa, placa: NOTÍCIA, objeto na mao | - | -
 b9 | two | -  | interior, placa: RAIO X, objeto na mao | encena: fala (point) @6 (acao + som de efeito) | -
 b10 | crowd | -  | tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @6 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -

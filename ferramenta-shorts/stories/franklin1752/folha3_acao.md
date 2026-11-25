@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.1s - 12 palavras - plano two
@@ -13,11 +13,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltou (0.7s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | pegar (3.3s) | ACAO: pega | levanta/segura | OK |
+| 1 | soltou (0.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | pegar (2.6s) | ACAO: pega | levanta/segura | OK |
 | 3 | - | CENA | relampago no ceu na palavra + trovao | OK |
 | 4 | - | INTERACAO | susto | OK |
 | 5 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_solta na palavra soltou (0.6s): executa: solta/liberta + brilho
@@ -35,12 +36,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | relampago no ceu na palavra + trovao | OK |
-| 2 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | MAPA | ESTADOS UNIDOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- CENA (a cena toda): executa: relampago no ceu na palavra + trovao
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 - multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -70,12 +69,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | relampago no ceu na palavra + trovao | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- CENA (a cena toda): executa: relampago no ceu na palavra + trovao
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 

@@ -127,7 +127,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.9s a 49.7s - 13 palavras - plano two
+## Cena b9 - 46.9s a 49.7s - 13 palavras - plano wide
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

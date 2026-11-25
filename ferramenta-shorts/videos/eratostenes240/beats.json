@@ -91,11 +91,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "say": "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.",
@@ -170,11 +170,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "say": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
@@ -220,11 +220,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
@@ -345,11 +345,11 @@
     ]
    },
    "set": "medieval",
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "say": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
@@ -476,16 +476,16 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 19.3,
-   "d1": 18.4,
    "crowd": {
     "n": 0
    },
    "_enq_shot": "wide",
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.3,
+   "d1": 18.4
   },
   {
    "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
@@ -499,7 +499,7 @@
   },
   {
    "say": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "ERA:0:smug"
    ],
@@ -529,7 +529,7 @@
    "acao": "comemorar",
    "quadro": {
     "local": "vila medieval",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/stick",
@@ -546,21 +546,21 @@
     ]
    },
    "set": "medieval",
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 19.3,
-   "d1": 18.4,
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "two"
+   "d1": 18.4
   }
  ],
  "exp": 0.9,
  "regiao": "classico",
  "marco": "kit/marco_alexandria",
- "max_wide": 3,
+ "max_wide": 4,
  "visual": {
   "local": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo",
   "quando": "cerca de 240 a.C., meio-dia do solsticio de verao, sol forte",
