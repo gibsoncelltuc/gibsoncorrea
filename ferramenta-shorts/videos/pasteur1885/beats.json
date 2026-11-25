@@ -218,7 +218,7 @@
      }
     ]
    ],
-   "detalhe": true,
+   "detalhe": false,
    "bloco": "prova",
    "say": "A vacina dele só tinha sido testada em animais.",
    "encena": {
@@ -424,7 +424,7 @@
      "kit/seringa_pe",
      0.9,
      0.3,
-     1.4,
+     1.2,
      {
       "fixo": true
      }
@@ -448,9 +448,9 @@
    },
    "cx": 0.5,
    "cz": 0.2,
-   "h": 1.6,
-   "d0": 8.6,
-   "d1": 8.2,
+   "h": 1.7,
+   "d0": 9.5,
+   "d1": 9.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",

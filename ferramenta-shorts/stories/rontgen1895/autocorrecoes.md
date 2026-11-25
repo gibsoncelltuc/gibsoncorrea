@@ -25,3 +25,7 @@
 ## 25/11 18:11 autocorrecao de visibilidade
 - b4: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b9: objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 25/11 18:29 autocorrecao de visibilidade
+- b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

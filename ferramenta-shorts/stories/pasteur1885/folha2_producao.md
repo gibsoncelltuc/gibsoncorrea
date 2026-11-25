@@ -85,8 +85,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - A vacina dele só tinha sido testada em animais.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PAS (variante 0, expressao suspicious) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/bancada, kit/seringa_pe, kit/syringe
@@ -206,7 +206,7 @@ dog | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 2 | mistura: close 20% | medio 66% | aberto 8% | detalhe 6%
+- Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 2 | mistura: close 20% | medio 69% | aberto 8% | detalhe 3%
 - Interacoes: b0 avanca e o outro recua, b5 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: nenhum
 
@@ -222,7 +222,7 @@ dog | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 8.0 m)
 - PERSONAGENS: PAS no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/seringa_pe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/seringa_pe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

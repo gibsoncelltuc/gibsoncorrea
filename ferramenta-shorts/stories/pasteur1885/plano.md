@@ -13,5 +13,5 @@ b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b8 | track | -  | interior | - | -
 b9 | two | -  | tropa, placa: PRIMEIRA VACINA | - | -
 
-Mistura de planos: close 20% | medio 66% | aberto 8% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 69% | aberto 8% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

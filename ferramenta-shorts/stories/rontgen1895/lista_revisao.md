@@ -3,7 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+1. b4: objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 2. b9: objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
