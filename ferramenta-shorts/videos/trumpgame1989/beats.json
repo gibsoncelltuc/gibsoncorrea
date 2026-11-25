@@ -374,7 +374,7 @@
     [
      "kit/boardgame",
      0.0,
-     -1.2,
+     -1.0,
      1.4,
      {
       "fixo": true
@@ -415,7 +415,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 1
   },
   {
    "say": "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos.",
