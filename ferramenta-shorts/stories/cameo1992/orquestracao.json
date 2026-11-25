@@ -159,9 +159,9 @@
    ],
    "multidao": 10,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "O corte virou polêmica, e a discussão dura até hoje.",
+   "frase": "O corte virou polêmica no mundo inteiro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -183,9 +183,9 @@
    "objetos": [
     "kit/tv"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Sete segundos de cena. Mais de trinta anos de briga.",
+   "frase": "Um cameo virou briga política. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

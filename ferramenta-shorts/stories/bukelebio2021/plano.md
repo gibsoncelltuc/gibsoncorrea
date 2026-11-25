@@ -12,5 +12,5 @@ b6 | two | -  | interior | - | -
 b7 | two | -  | interior, placa: REI FILÓSOFO | - | -
 b8 | two | -  | interior, placa: DITADOR | - | -
 
-Mistura de planos: close 2% | medio 85% | aberto 10% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 2% | medio 84% | aberto 11% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

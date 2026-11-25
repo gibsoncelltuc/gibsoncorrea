@@ -1,7 +1,7 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "7 SEGUNDOS",
- "gancho_cumprido": "Gancho: sete segundos de um filme de Natal ainda geram briga e a culpa e' de um hotel. Pagamento: Trump aparece porque era dono do Plaza; diretor e Trump discordam e uma TV canadense cortou a cena em 2019.",
+ "gancho_cumprido": "Gancho: sete segundos de um filme de Natal geram briga ate hoje e a culpa e' de um hotel. Pagamento: Trump era dono do Plaza, o diretor diz que a cena foi o preco do hotel e Trump nega; uma TV cortou a cena em 2019.",
  "cenas": [
   [
    0,
@@ -43,30 +43,34 @@
    4,
    "escalada",
    "O diretor diz que a cena foi o preço do hotel.",
-   "diz"
+   "diz",
+   {}
   ],
   [
    6,
    "escalada",
    "Acontece que Trump nega: diz que foi a equipe que pediu.",
-   "nega"
+   "nega",
+   {}
   ],
   [
    7,
    "pagamento",
    "Em 2019, uma TV canadense passou o filme sem a cena.",
-   "passou"
+   "passou",
+   {}
   ],
   [
    8,
    "pagamento",
-   "O corte virou polêmica, e a discussão dura até hoje.",
-   "polêmica"
+   "O corte virou polêmica no mundo inteiro.",
+   "polêmica",
+   {}
   ],
   [
    0,
    "loop",
-   "Sete segundos de cena. Mais de trinta anos de briga.",
+   "Um cameo virou briga política. E foi assim que...",
    "briga",
    {
     "mapa": null

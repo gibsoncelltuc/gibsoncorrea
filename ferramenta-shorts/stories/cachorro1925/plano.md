@@ -13,5 +13,5 @@ b7 | two | -  | interior, placa: LIGA DAS NAÇÕES, objeto na mao | - | -
 b8 | two | -  | tropa, objeto na mao | recuou (dust + som de impacto); pagou (stars + som de sino); encena: fala (point) @2 (acao + som de efeito) | -
 b9 | track | -  | animais, placa: GUERRA DO CACHORRO | - | -
 
-Mistura de planos: close 11% | medio 67% | aberto 19% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 66% | aberto 20% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

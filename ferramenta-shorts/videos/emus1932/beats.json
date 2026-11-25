@@ -71,13 +71,13 @@
     "passos": [
      {
       "faz": "perde",
-      "na": "derrotada",
+      "na": "exército",
       "quem": 0
      }
     ]
    },
    "bloco": "gancho",
-   "say": "Um exército contra pássaros? A Austrália saiu derrotada."
+   "say": "Um exército perdeu uma guerra contra pássaros."
   },
   {
    "shot": "two",
@@ -128,7 +128,7 @@
    "mapa_at": 3,
    "fachada": false,
    "bloco": "prova",
-   "say": "Em 1932, vinte mil emus tomaram as lavouras de trigo.",
+   "say": "Em 1932, vinte mil emus tomaram as lavouras da Austrália.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -449,7 +449,7 @@
     ]
    ],
    "bloco": "pagamento",
-   "say": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
+   "say": "Seis dias, milhares de balas, poucos emus abatidos.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -475,13 +475,13 @@
    },
    "fachada": false,
    "bloco": "loop",
-   "say": "Placar final: exército zero, emus um.",
+   "say": "Exército zero, emus um. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "placar"
+      "na": "Exército"
      }
     ]
    }
@@ -546,7 +546,7 @@
    "exercito da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a Australia perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
  "loop_frase_ok": true
 }

@@ -24,9 +24,9 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Foguete era jogado fora depois de um voo. Até que um voltou de ré.",
+   "frase": "Um foguete gigante voltou do espaço e pousou de ré, de pé.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -161,9 +161,9 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "E pousou inteira, de pé, abrindo as pernas no fim.",
+   "frase": "E pousou inteira, abrindo as pernas no último segundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -196,9 +196,9 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Foi a primeira vez. Hoje, pousar de ré é normal.",
+   "frase": "Antes, o foguete ia para o lixo. Até que...",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},

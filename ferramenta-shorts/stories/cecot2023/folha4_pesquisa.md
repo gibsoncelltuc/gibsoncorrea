@@ -27,7 +27,7 @@ objeto | torre de vigia | torre de vigia / torre de vigia 2023 | Tower in Uptown
 objeto | portao de ferro | portao de ferro / portao de ferro 2023 | Iron electrolytic and 1cm3 cube.jpg (referencias/cecot2023/prints/portao_de_ferro_fb496b.jpg); Iron (Aisne) mairie.JPG (referencias/cecot2023/prints/portao_de_ferro_9f2a8c.jpg); The Magnefious IRON PILLAR.jpg (referencias/cecot2023/prints/portao_de_ferro_a79b9b.jpg)
 objeto | cerca eletrica | cerca eletrica / cerca eletrica 2023 | Reformado, terminal de ônibus do Paranoá beneficia (referencias/cecot2023/prints/cerca_eletrica_8399ba.jpg)
 heroi | prison | muralha de concreto / A Maior Prisão das Américas | Moyamensing Prison, c1840, 1848. (4700659588).jpg (referencias/cecot2023/prints/prison_8e4de4.jpg); The Covenanters' Prison - geograph.org.uk - 151407 (referencias/cecot2023/prints/prison_5db2c3.jpg); Danish prison service 2026 - 2.png (referencias/cecot2023/prints/prison_52ba82.jpg)
-mecanismo | Muralhas altas, cercas elétricas e torres de vigia por todo lado. | muralhas altas cercas eletricas torres vigia / prison diagram | SEM REFERENCIA
+mecanismo | Muralhas, cercas elétricas e torres de vigia. | muralhas cercas eletricas torres vigia / prison diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - CECOT: complexo de concreto com muralhas, cercas e torres de vigia, previsto para 40 mil presos (fonte: governo de El Salvador / Wikipedia "Terrorism Confinement Center")

@@ -8,7 +8,7 @@ b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | two | -  | interior, objeto na mao | - | -
 b4 | group | -  | tropa | - | -
 b5 | two | -  | tropa | - | -
-b6 | orbit | -  | batalha aberta com tiros, objeto na mao | - | -
+b6 | orbit | -  | batalha aberta com tiros, objeto na mao | caíram (dust + som de impacto) | -
 b7 | group | -  | placa: SEM JULGAMENTO | - | -
 b8 | group | -  | placa: COPIADO E CRITICADO, objeto na mao | - | -
 b9 | crowd | -  | tropa, placa: 40 MIL PRESOS | - | -

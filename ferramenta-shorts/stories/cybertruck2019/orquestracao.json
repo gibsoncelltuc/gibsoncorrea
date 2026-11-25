@@ -44,9 +44,9 @@
     "kit/cybertruck",
     "kit/steel_ball"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "E mesmo assim, ela virou um sucesso de reservas.",
+   "frase": "E mesmo assim virou sucesso de reservas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -62,9 +62,9 @@
    "objetos": [
     "kit/cybertruck"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Em 2019, na Califórnia, a Tesla apresentou o Cybertruck.",
+   "frase": "Em 2019, a Tesla apresentou o Cybertruck.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -167,9 +167,9 @@
     "kit/phone",
     "kit/steel_ball"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Musk disse que, nos testes, a esfera nem arranhava o vidro.",
+   "frase": "Musk disse que, nos testes, o vidro aguentava.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -204,9 +204,9 @@
    "objetos": [
     "kit/cybertruck"
    ],
-   "palavras": 6,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "A janela quebrou. As reservas, não.",
+   "frase": "O vidro falhou, a venda não. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

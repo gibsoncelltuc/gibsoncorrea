@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Gerado em 25/11 16:59 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:25 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,9 +12,9 @@ b2 | chave | loc_cidade | crowd | POV, POV | 30 | volcano | corpo: tropa/persona
 b3 | simples | interior pedra | two | BUK | - | phone | - | Ele respondeu escrevendo uma palavra no perfil: ditador.
 b4 | chave | interior loja | group | BUK, POV, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dias depois, trocou para: o ditador mais legal do mundo.
 b5 | transicao | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a frase se espalhou pelo mundo inteiro.
-b6 | simples | interior loja | two | JOR, BUK | - | - | - | Muitos leram como ironia, feita para provocar os críticos.
-b7 | simples | interior pedra | two | BUK | - | ballot_box, phone | - | Em 2024, no dia da eleição, o perfil dizia: rei filósofo.
-b8 | simples | interior pedra | two | BUK | - | phone | - | Uma biografia que se troca em dez segundos.
+b6 | simples | interior loja | two | JOR, BUK | - | - | - | Muitos leram como ironia, para provocar os críticos.
+b7 | simples | interior pedra | two | BUK | - | ballot_box, phone | - | Em 2024, o perfil dele dizia: rei filósofo.
+b8 | simples | interior pedra | two | BUK | - | phone | - | Provocação ou confissão? Só sei que foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

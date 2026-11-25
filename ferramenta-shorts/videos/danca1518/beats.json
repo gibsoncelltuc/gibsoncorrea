@@ -348,7 +348,7 @@
    "quadro_manual": true,
    "shot_lock": true,
    "bloco": "pagamento",
-   "say": "Levados a uma capela no monte, os dançarinos finalmente pararam.",
+   "say": "Levados a uma capela no monte, eles finalmente pararam.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -368,7 +368,7 @@
    "set": "medieval",
    "fachada": false,
    "bloco": "loop",
-   "say": "Histeria coletiva? Ninguém sabe ao certo.",
+   "say": "Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [

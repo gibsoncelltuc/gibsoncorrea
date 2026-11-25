@@ -1,12 +1,13 @@
 {
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma prisao para 40 mil presos virou noticia e ninguem concorda se e' solucao ou problema. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil, mas houve denuncias de prisoes sem julgamento; o modelo e' copiado e criticado.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma prisao para 40 mil presos virou noticia e ninguem concorda se e' solucao ou problema. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil, mas houve denuncias de prisoes sem julgamento.",
  "cenas": [
   [
    0,
    "gancho",
    "Uma prisão para quarenta mil presos virou notícia no mundo inteiro.",
-   "prisão"
+   "prisão",
+   {}
   ],
   [
    9,
@@ -20,7 +21,7 @@
   [
    1,
    "prova",
-   "Ela fica em El Salvador e abriu em 2023.",
+   "Ela abriu em 2023, em El Salvador.",
    "abriu",
    {
     "text": null,
@@ -30,7 +31,7 @@
   [
    2,
    "prova",
-   "O país tinha uma das maiores taxas de assassinato do mundo.",
+   "O país tinha das maiores taxas de assassinato do mundo.",
    "taxas",
    {
     "interior": "pedra",
@@ -40,7 +41,7 @@
   [
    3,
    "prova",
-   "Em 2022, Nayib Bukele decretou estado de exceção.",
+   "O governo decretou estado de exceção contra as gangues.",
    "decretou",
    {
     "encena_antiga": true
@@ -49,7 +50,7 @@
   [
    5,
    "escalada",
-   "Muralhas altas, cercas elétricas e torres de vigia por todo lado.",
+   "Muralhas, cercas elétricas e torres de vigia.",
    "muralhas",
    {
     "encena_antiga": true
@@ -58,8 +59,8 @@
   [
    6,
    "escalada",
-   "Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil.",
-   "despencaram",
+   "Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.",
+   "de",
    {
     "encena_antiga": true
    }
@@ -67,20 +68,23 @@
   [
    7,
    "escalada",
-   "Mas grupos de direitos humanos denunciaram prisões sem julgamento.",
-   "denunciaram"
+   "Mas houve denúncias de prisões sem julgamento.",
+   "denúncias",
+   {}
   ],
   [
    10,
    "pagamento",
-   "O modelo passou a ser copiado e criticado pelo mundo.",
-   "copiado"
+   "O modelo passou a ser copiado e criticado.",
+   "copiado",
+   {}
   ],
   [
    0,
    "loop",
-   "Segurança para uns, excesso para outros. Você decide.",
-   "decide"
+   "Segurança ou excesso? Foi assim que...",
+   "Segurança",
+   {}
   ]
  ]
 }

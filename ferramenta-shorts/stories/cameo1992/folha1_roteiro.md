@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 02 - O Cameo de Sete Segundos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 92 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 88 palavras (~30 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Sete segundos de um filme de Natal ainda geram briga até hoje.
@@ -65,17 +65,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: - | mapa: CANADÁ
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
-- Narracao: O corte virou polêmica, e a discussão dura até hoje.
+## Cena b7  (~2.4 s)
+- Narracao: O corte virou polêmica no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: discussão -> puff + som de baque
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~3.4 s)
-- Narracao: Sete segundos de cena. Mais de trinta anos de briga.
+## Cena b8  (~3.1 s)
+- Narracao: Um cameo virou briga política. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: briga -> puff + som de baque

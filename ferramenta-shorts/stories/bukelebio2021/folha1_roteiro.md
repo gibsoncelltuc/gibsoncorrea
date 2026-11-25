@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 84 palavras (~29 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 81 palavras (~28 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um presidente escreveu no próprio perfil que era um ditador.
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: VIRADA
 
-## Cena b6  (~3.1 s)
-- Narracao: Muitos leram como ironia, feita para provocar os críticos.
+## Cena b6  (~2.8 s)
+- Narracao: Muitos leram como ironia, para provocar os críticos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.8 s)
-- Narracao: Em 2024, no dia da eleição, o perfil dizia: rei filósofo.
+## Cena b7  (~2.8 s)
+- Narracao: Em 2024, o perfil dele dizia: rei filósofo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@8
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: REI FILÓSOFO
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~2.8 s)
-- Narracao: Uma biografia que se troca em dez segundos.
+## Cena b8  (~3.1 s)
+- Narracao: Provocação ou confissão? Só sei que foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

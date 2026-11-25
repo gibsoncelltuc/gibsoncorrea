@@ -85,7 +85,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Guerra por futebol parece exagero? Dois países fizeram uma de verdade.",
+   "say": "Dois países fizeram uma guerra de verdade por causa de futebol.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -154,7 +154,7 @@
    ],
    "set": "countryside",
    "bloco": "prova",
-   "say": "Em 1969, Honduras e El Salvador já disputavam terras.",
+   "say": "Em 1969, os dois países já disputavam terras.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -200,13 +200,13 @@
    "d1": 11.5,
    "detalhe": false,
    "bloco": "prova",
-   "say": "Depois veio a disputa de uma vaga na Copa: três jogos.",
+   "say": "Depois veio a vaga na Copa: três jogos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "disputa"
+      "na": "Depois"
      }
     ]
    }
@@ -354,7 +354,7 @@
     "expr": "laugh"
    },
    "bloco": "escalada",
-   "say": "No terceiro, El Salvador venceu por três a dois, na prorrogação.",
+   "say": "No terceiro, El Salvador venceu na prorrogação.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -404,7 +404,7 @@
    ],
    "text": "100 HORAS",
    "bloco": "pagamento",
-   "say": "A guerra durou cem horas, até um cessar-fogo.",
+   "say": "A guerra durou cem horas, até o cessar-fogo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -455,13 +455,13 @@
     "passos": [
      {
       "faz": "perde",
-      "na": "perdeu",
+      "na": "perderam",
       "quem": 1
      }
     ]
    },
    "bloco": "loop",
-   "say": "Na Copa, El Salvador perdeu os três jogos. Sem um gol."
+   "say": "Na Copa, perderam os três jogos, sem um gol. Tudo porque..."
   }
  ],
  "fontes": [
@@ -519,7 +519,7 @@
    "exercito da epoca": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: dois paises fizeram uma guerra de verdade por futebol e o vencedor do jogo nao fez gol na Copa. Pagamento: tres jogos, brigas, guerra de cem horas e El Salvador perdeu os tres jogos da Copa sem marcar.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: dois paises fizeram uma guerra de verdade por causa de futebol e o vencedor do jogo nao fez gol na Copa. Pagamento: tres jogos, brigas, guerra de cem horas, e El Salvador perdeu os tres jogos da Copa sem marcar.",
  "loop_frase_ok": true
 }

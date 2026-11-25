@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 11 - A Janela do Cybertruck
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 10 cenas, 92 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: hall | 10 cenas, 88 palavras (~30 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma picape blindada teve as janelas rachadas ao vivo, no lançamento.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Texto na tela: VIDRO BLINDADO?
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.1 s)
-- Narracao: E mesmo assim, ela virou um sucesso de reservas.
+## Cena b1  (~2.4 s)
+- Narracao: E mesmo assim virou sucesso de reservas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.1 s)
-- Narracao: Em 2019, na Califórnia, a Tesla apresentou o Cybertruck.
+## Cena b2  (~2.4 s)
+- Narracao: Em 2019, a Tesla apresentou o Cybertruck.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~3.8 s)
-- Narracao: Musk disse que, nos testes, a esfera nem arranhava o vidro.
+## Cena b7  (~2.8 s)
+- Narracao: Musk disse que, nos testes, o vidro aguentava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Texto na tela: 146 MIL RESERVAS
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.1 s)
-- Narracao: A janela quebrou. As reservas, não.
+## Cena b9  (~3.1 s)
+- Narracao: O vidro falhou, a venda não. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: quebrou -> dust + som de impacto
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: VIDRO BLINDADO?
 - Funcao na historia: FECHO/PIADA FINAL

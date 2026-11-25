@@ -49,3 +49,9 @@
 
 ## 25/11 17:24 autocorrecao de visibilidade
 - b7: objeto "kit/scroll" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 25/11 17:24 autocorrecao de visibilidade
+- b7: objeto "kit/scroll" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 17:25 autocorrecao de visibilidade
+- b7: objeto "kit/scroll" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> close no objeto

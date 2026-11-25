@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 27 - A Maior Prisão das Américas
 
-Gerado em 25/11 16:59 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:25 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,14 +8,14 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | GUA, BUK | 26 | prison | - | Uma prisão para quarenta mil presos virou notícia no mundo inteiro.
 b1 | simples | loc_patio | crowd | POV, POV, POV | - | prison | - | E ninguém concorda se ela é solução ou problema.
-b2 | chave | loc_cidade | wide | POV, POV | 6 | prison | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ela fica em El Salvador e abriu em 2023.
-b3 | simples | interior pedra | two | REP, POV | - | - | - | O país tinha uma das maiores taxas de assassinato do mundo.
-b4 | simples | loc_campo | group | BUK, GUA, GUA | 16 | prison | - | Em 2022, Nayib Bukele decretou estado de exceção.
-b5 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/prison (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | Muralhas altas, cercas elétricas e torres de vigia por todo lado.
-b6 | chave | loc_campo | orbit | REP, BUK | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil.
-b7 | simples | loc_campo | group | REP, POV | - | - | - | Mas grupos de direitos humanos denunciaram prisões sem julgamento.
-b8 | simples | loc_pista | group | BUK, POV | - | globe | - | O modelo passou a ser copiado e criticado pelo mundo.
-b9 | simples | loc_campo | crowd | GUA, BUK | 26 | prison | - | Segurança para uns, excesso para outros. Você decide.
+b2 | chave | loc_cidade | wide | POV, POV | 6 | prison | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ela abriu em 2023, em El Salvador.
+b3 | simples | interior pedra | two | REP, POV | - | - | - | O país tinha das maiores taxas de assassinato do mundo.
+b4 | simples | loc_campo | group | BUK, GUA, GUA | 16 | prison | - | O governo decretou estado de exceção contra as gangues.
+b5 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/prison (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | Muralhas, cercas elétricas e torres de vigia.
+b6 | chave | loc_campo | orbit | REP, BUK | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.
+b7 | simples | loc_campo | group | REP, POV | - | - | - | Mas houve denúncias de prisões sem julgamento.
+b8 | simples | loc_pista | group | BUK, POV | - | globe | - | O modelo passou a ser copiado e criticado.
+b9 | simples | loc_campo | crowd | GUA, BUK | 26 | prison | - | Segurança ou excesso? Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

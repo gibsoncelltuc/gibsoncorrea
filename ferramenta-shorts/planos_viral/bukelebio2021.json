@@ -1,7 +1,7 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "DITADOR",
- "gancho_cumprido": "Gancho: um presidente se chamou de ditador no proprio perfil e ninguem sabia se era piada. Pagamento: trocou para 'o ditador mais legal do mundo', a frase rodou o mundo, foi lida como ironia e depois virou 'rei filosofo'.",
+ "gancho_cumprido": "Gancho: um presidente se chamou de ditador no proprio perfil e ninguem sabia se era piada. Pagamento: depois dos protestos escreveu 'ditador', trocou para 'o ditador mais legal do mundo', lido como ironia; depois 'rei filosofo'.",
  "cenas": [
   [
    0,
@@ -16,7 +16,8 @@
    9,
    "promessa",
    "E ninguém sabia dizer se era piada ou não.",
-   "piada"
+   "piada",
+   {}
   ],
   [
    1,
@@ -32,30 +33,34 @@
    2,
    "prova",
    "Ele respondeu escrevendo uma palavra no perfil: ditador.",
-   "escrevendo"
+   "escrevendo",
+   {}
   ],
   [
    3,
    "escalada",
    "Dias depois, trocou para: o ditador mais legal do mundo.",
-   "trocou"
+   "trocou",
+   {}
   ],
   [
    4,
    "escalada",
    "Acontece que a frase se espalhou pelo mundo inteiro.",
-   "espalhou"
+   "espalhou",
+   {}
   ],
   [
    6,
    "escalada",
-   "Muitos leram como ironia, feita para provocar os críticos.",
-   "ironia"
+   "Muitos leram como ironia, para provocar os críticos.",
+   "ironia",
+   {}
   ],
   [
    7,
    "pagamento",
-   "Em 2024, no dia da eleição, o perfil dizia: rei filósofo.",
+   "Em 2024, o perfil dele dizia: rei filósofo.",
    "perfil",
    {
     "riscos_ok": true
@@ -64,8 +69,9 @@
   [
    9,
    "loop",
-   "Uma biografia que se troca em dez segundos.",
-   "biografia"
+   "Provocação ou confissão? Só sei que foi assim que...",
+   "Provocação",
+   {}
   ]
  ]
 }

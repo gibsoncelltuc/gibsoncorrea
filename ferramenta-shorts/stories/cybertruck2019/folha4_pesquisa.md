@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Janela do Cybertruck | A Janela do Cybertruck / Uma Em Califórnia Tesla Cybertruck 2019 | SEM REFERENCIA
+tema | A Janela do Cybertruck | A Janela do Cybertruck / Uma Em Tesla Cybertruck 2019 | SEM REFERENCIA
 lugar | Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla | Tesla Design Studio Hawthorne California / Tesla Design Studio Hawthorne California 2019 | SEM REFERENCIA
 lugar | Califórnia | Califórnia 2019 / Califórnia landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2019 | 2019 fashion clothing / 2019 street photograph | SEM REFERENCIA

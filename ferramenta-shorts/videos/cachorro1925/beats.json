@@ -76,7 +76,7 @@
    "shot_lock": true,
    "objetos": false,
    "bloco": "gancho",
-   "say": "Ninguém te conta: um cachorro perdido quase começou uma guerra.",
+   "say": "Um cachorro perdido quase começou uma guerra na Europa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -292,7 +292,7 @@
    "text": "LIGA DAS NAÇÕES",
    "detalhe": false,
    "bloco": "pagamento",
-   "say": "A Bulgária apelou à Liga das Nações, a antecessora da ONU.",
+   "say": "A Bulgária apelou à Liga das Nações.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -351,7 +351,7 @@
    "shot_lock": true,
    "objetos": false,
    "bloco": "loop",
-   "say": "Tudo por um cachorro que talvez nem existisse.",
+   "say": "Talvez o cachorro nem existisse. Mas foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -400,6 +400,6 @@
  },
  "cinf": 4.5,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um cachorro fugido quase comecou uma guerra e nem se sabe se ele existiu. Pagamento: soldado morto, invasao grega, a Liga das Nacoes mandou parar e a Grecia pagou indenizacao.",
+ "gancho_cumprido": "Gancho: um cachorro perdido quase comecou uma guerra e nem se sabe se ele existiu. Pagamento: soldado morto, invasao grega, a Liga das Nacoes mandou parar e a Grecia pagou indenizacao.",
  "loop_frase_ok": true
 }

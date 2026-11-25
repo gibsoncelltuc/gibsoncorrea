@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 10 cenas, 98 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: mountain | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~3.4 s)
-- Narracao: Ninguém te conta: um cachorro perdido quase começou uma guerra.
+## Cena b0  (~3.1 s)
+- Narracao: Um cachorro perdido quase começou uma guerra na Europa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: INVASÃO
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.8 s)
-- Narracao: A Bulgária apelou à Liga das Nações, a antecessora da ONU.
+## Cena b7  (~2.4 s)
+- Narracao: A Bulgária apelou à Liga das Nações.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.8 s)
-- Narracao: Tudo por um cachorro que talvez nem existisse.
+## Cena b9  (~3.1 s)
+- Narracao: Talvez o cachorro nem existisse. Mas foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

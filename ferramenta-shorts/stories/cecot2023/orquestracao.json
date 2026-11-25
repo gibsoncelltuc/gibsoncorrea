@@ -64,9 +64,9 @@
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Ela fica em El Salvador e abriu em 2023.",
+   "frase": "Ela abriu em 2023, em El Salvador.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -87,9 +87,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "O país tinha uma das maiores taxas de assassinato do mundo.",
+   "frase": "O país tinha das maiores taxas de assassinato do mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -107,9 +107,9 @@
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Em 2022, Nayib Bukele decretou estado de exceção.",
+   "frase": "O governo decretou estado de exceção contra as gangues.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -121,9 +121,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b5",
-   "frase": "Muralhas altas, cercas elétricas e torres de vigia por todo lado.",
+   "frase": "Muralhas, cercas elétricas e torres de vigia.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -146,7 +146,7 @@
    "objetos": [],
    "palavras": 12,
    "cena": "b6",
-   "frase": "Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil.",
+   "frase": "Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -167,9 +167,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Mas grupos de direitos humanos denunciaram prisões sem julgamento.",
+   "frase": "Mas houve denúncias de prisões sem julgamento.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -186,9 +186,9 @@
    "objetos": [
     "kit/globe"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "O modelo passou a ser copiado e criticado pelo mundo.",
+   "frase": "O modelo passou a ser copiado e criticado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -205,9 +205,9 @@
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b9",
-   "frase": "Segurança para uns, excesso para outros. Você decide.",
+   "frase": "Segurança ou excesso? Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

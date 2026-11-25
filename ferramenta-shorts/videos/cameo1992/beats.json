@@ -288,7 +288,7 @@
    },
    "set": "loc_cidade",
    "bloco": "pagamento",
-   "say": "O corte virou polêmica, e a discussão dura até hoje.",
+   "say": "O corte virou polêmica no mundo inteiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -325,7 +325,7 @@
    "d1": 8.0,
    "set": "loc_cidade",
    "bloco": "loop",
-   "say": "Sete segundos de cena. Mais de trinta anos de briga.",
+   "say": "Um cameo virou briga política. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -383,7 +383,7 @@
    "filme": "Home Alone 2 Trump cameo Plaza"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: sete segundos de um filme de Natal ainda geram briga e a culpa e' de um hotel. Pagamento: Trump aparece porque era dono do Plaza; diretor e Trump discordam e uma TV canadense cortou a cena em 2019.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: sete segundos de um filme de Natal geram briga ate hoje e a culpa e' de um hotel. Pagamento: Trump era dono do Plaza, o diretor diz que a cena foi o preco do hotel e Trump nega; uma TV cortou a cena em 2019.",
  "loop_frase_ok": true
 }

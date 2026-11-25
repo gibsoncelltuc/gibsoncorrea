@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra dos Emus | Emu War 1932 Western Australia Lewis gun soldiers / A Guerra dos Emus / Um Austrália Em 1932 | Emus coming to drink Emu War.jpg (referencias/emus1932/prints/a_guerra_dos_emus_d9ba9e.jpg); Fallow caused by emus.jpg (referencias/emus1932/prints/a_guerra_dos_emus_183d63.jpg)
+tema | A Guerra dos Emus | Emu War 1932 Western Australia Lewis gun soldiers / A Guerra dos Emus / Um Em Austrália 1932 | Emus coming to drink Emu War.jpg (referencias/emus1932/prints/a_guerra_dos_emus_d9ba9e.jpg); Fallow caused by emus.jpg (referencias/emus1932/prints/a_guerra_dos_emus_183d63.jpg)
 lugar | Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia) | Campion Western Australia wheatbelt 1930s farm / Distrito de Campion cinturão de trigo do oeste da Austrália / Distrito de Campion cinturão de trigo do oeste da Austrália Western Australia 1932 | Townsite of Campion, 1929.png (referencias/emus1932/prints/distrito_de_campion_cintur_o_de_trigo_do_fbc38a.jpg); William Campion at Parliament House 1928.jpg (referencias/emus1932/prints/distrito_de_campion_cintur_o_de_trigo_do_2980d9.jpg); Brasserie-malterie Campion sept 2023 (1).jpg (referencias/emus1932/prints/distrito_de_campion_cintur_o_de_trigo_do_c729be.jpg)
 lugar | Austrália | Austrália 1932 / Austrália landscape | Australian House of Representatives - Parliament o (referencias/emus1932/prints/austr_lia_722357.jpg)
 epoca | roupas e ruas de 1932 | 1932 fashion clothing / 1932 street photograph | Tremont Street at Camden Street facing north, Apri (referencias/emus1932/prints/roupas_e_ruas_de_1932_b3c3fa.jpg)

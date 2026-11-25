@@ -143,7 +143,7 @@
    ],
    "set": "street",
    "bloco": "prova",
-   "say": "Ela fica em El Salvador e abriu em 2023.",
+   "say": "Ela abriu em 2023, em El Salvador.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -163,7 +163,7 @@
    "acao": "discutir",
    "interior": "pedra",
    "bloco": "prova",
-   "say": "O país tinha uma das maiores taxas de assassinato do mundo.",
+   "say": "O país tinha das maiores taxas de assassinato do mundo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -201,7 +201,7 @@
     "expr": "scared"
    },
    "bloco": "prova",
-   "say": "Em 2022, Nayib Bukele decretou estado de exceção.",
+   "say": "O governo decretou estado de exceção contra as gangues.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -224,7 +224,7 @@
     ]
    },
    "bloco": "escalada",
-   "say": "Muralhas altas, cercas elétricas e torres de vigia por todo lado.",
+   "say": "Muralhas, cercas elétricas e torres de vigia.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -264,13 +264,13 @@
     ]
    },
    "bloco": "escalada",
-   "say": "Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil.",
+   "say": "Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "despencaram"
+      "na": "de"
      }
     ]
    }
@@ -295,13 +295,13 @@
    "tiros": false,
    "text": "SEM JULGAMENTO",
    "bloco": "escalada",
-   "say": "Mas grupos de direitos humanos denunciaram prisões sem julgamento.",
+   "say": "Mas houve denúncias de prisões sem julgamento.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "denunciaram"
+      "na": "denúncias"
      }
     ]
    }
@@ -323,7 +323,7 @@
    "text": "COPIADO E CRITICADO",
    "titulo": true,
    "bloco": "pagamento",
-   "say": "O modelo passou a ser copiado e criticado pelo mundo.",
+   "say": "O modelo passou a ser copiado e criticado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -364,13 +364,13 @@
    "titulo": true,
    "acao": "conversar",
    "bloco": "loop",
-   "say": "Segurança para uns, excesso para outros. Você decide.",
+   "say": "Segurança ou excesso? Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "decide"
+      "na": "Segurança"
      }
     ]
    }
@@ -416,7 +416,7 @@
  },
  "exp": 1.12,
  "cinf": 4.5,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma prisao para 40 mil presos virou noticia e ninguem concorda se e' solucao ou problema. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil, mas houve denuncias de prisoes sem julgamento; o modelo e' copiado e criticado.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma prisao para 40 mil presos virou noticia e ninguem concorda se e' solucao ou problema. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil, mas houve denuncias de prisoes sem julgamento.",
  "loop_frase_ok": true
 }

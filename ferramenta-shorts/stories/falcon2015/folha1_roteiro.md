@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 91 palavras (~31 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: Foguete era jogado fora depois de um voo. Até que um voltou de ré.
+## Cena b0  (~4.1 s)
+- Narracao: Um foguete gigante voltou do espaço e pousou de ré, de pé.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b7  (~3.4 s)
-- Narracao: E pousou inteira, de pé, abrindo as pernas no fim.
+## Cena b7  (~3.1 s)
+- Narracao: E pousou inteira, abrindo as pernas no último segundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, thump@60
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: Foi a primeira vez. Hoje, pousar de ré é normal.
+## Cena b9  (~3.1 s)
+- Narracao: Antes, o foguete ia para o lixo. Até que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

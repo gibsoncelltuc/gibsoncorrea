@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
-Gerado em 25/11 16:59 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:25 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,8 +13,8 @@ b3 | simples | interior pedra | group | FUN, TRU | - | - | - | O homem era Donal
 b4 | simples | interior loja | two | DIR, TRU | - | - | - | O diretor diz que a cena foi o preço do hotel.
 b5 | simples | interior loja | group | TRU, DIR | - | - | - | Acontece que Trump nega: diz que foi a equipe que pediu.
 b6 | simples | interior pedra | two | JOR, JOR2 | - | tv | - | Em 2019, uma TV canadense passou o filme sem a cena.
-b7 | chave | loc_cidade | wide | JOR | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O corte virou polêmica, e a discussão dura até hoje.
-b8 | simples | loc_cidade | two | FUN | - | tv | - | Sete segundos de cena. Mais de trinta anos de briga.
+b7 | chave | loc_cidade | wide | JOR | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O corte virou polêmica no mundo inteiro.
+b8 | simples | loc_cidade | two | FUN | - | tv | - | Um cameo virou briga política. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

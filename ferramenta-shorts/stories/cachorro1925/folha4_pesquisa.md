@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra do Cão Fugitivo | A Guerra do Cão Fugitivo / Ninguém Em Grécia Bulgária 1925 | SEM REFERENCIA
+tema | A Guerra do Cão Fugitivo | A Guerra do Cão Fugitivo / Um Europa Em Grécia Bulgária 1925 | SEM REFERENCIA
 lugar | Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich | Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich / Fronteira entre Grécia e Bulgária monte Belasitsa e a cidade de Petrich 1925 | Bulgaria-Greece border.png (referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__c7f475.jpg); Map of Graeco-Bulgarian Frontier including Demir H (referencias/cachorro1925/prints/fronteira_entre_gr_cia_e_bulg_ria_monte__1d66f8.jpg)
 lugar | Bulgária | Bulgária 1925 / Bulgária landscape | Bulgarian refugees from Demir Hisar.jpg (referencias/cachorro1925/prints/bulg_ria_068b6a.jpg); Congress of Macedonian emigration in Bulgaria, 192 (referencias/cachorro1925/prints/bulg_ria_6073ab.jpg); BASA-1735K-1-345-19-St. Sofia Church, Sofia, Bulga (referencias/cachorro1925/prints/bulg_ria_a4c547.jpg)
 epoca | roupas e ruas de 1925 | Bulgaria 1920s street photograph / 1925 fashion clothing / 1925 street photograph | Spring folk carnival, Varna, Bulgaria, March 26, 2 (referencias/cachorro1925/prints/roupas_e_ruas_de_1925_41f3b8.jpg); Bulgaria 1918.png (referencias/cachorro1925/prints/roupas_e_ruas_de_1925_36cc35.jpg); Spring folk carnival in Varna, Bulgaria.jpg (referencias/cachorro1925/prints/roupas_e_ruas_de_1925_718165.jpg)

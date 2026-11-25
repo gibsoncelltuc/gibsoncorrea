@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 22 - A Praga da Dança
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval | 10 cenas, 89 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: medieval | 10 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma mulher começou a dançar na rua e não conseguiu parar.
@@ -74,17 +74,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: Levados a uma capela no monte, os dançarinos finalmente pararam.
+## Cena b8  (~3.1 s)
+- Narracao: Levados a uma capela no monte, eles finalmente pararam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dançarinos -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: CAPELA DO MONTE
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.1 s)
-- Narracao: Histeria coletiva? Ninguém sabe ao certo.
+## Cena b9  (~3.8 s)
+- Narracao: Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

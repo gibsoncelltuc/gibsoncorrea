@@ -1,12 +1,12 @@
 {
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a Australia perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
  "cenas": [
   [
    0,
    "gancho",
-   "Um exército contra pássaros? A Austrália saiu derrotada.",
-   "derrotada",
+   "Um exército perdeu uma guerra contra pássaros.",
+   "exército",
    {
     "who": [
      "SOL:0:pained",
@@ -17,7 +17,7 @@
      "passos": [
       {
        "faz": "perde",
-       "na": "derrotada",
+       "na": "exército",
        "quem": 0
       }
      ]
@@ -36,7 +36,7 @@
   [
    1,
    "prova",
-   "Em 1932, vinte mil emus tomaram as lavouras de trigo.",
+   "Em 1932, vinte mil emus tomaram as lavouras da Austrália.",
    "emus",
    {}
   ],
@@ -59,7 +59,8 @@
    3,
    "prova",
    "O major Meredith levou duas metralhadoras e dez mil balas.",
-   "levou"
+   "levou",
+   {}
   ],
   [
    4,
@@ -91,7 +92,7 @@
   [
    6,
    "pagamento",
-   "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
+   "Seis dias, milhares de balas, poucos emus abatidos.",
    "abatidos",
    {
     "encena_antiga": true
@@ -100,8 +101,9 @@
   [
    0,
    "loop",
-   "Placar final: exército zero, emus um.",
-   "placar"
+   "Exército zero, emus um. E foi assim que...",
+   "Exército",
+   {}
   ]
  ]
 }

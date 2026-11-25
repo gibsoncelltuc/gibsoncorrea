@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | desert  | animais, placa: EXÉRCITO × EMUS | - | -
+b0 | two | desert  | animais, placa: EXÉRCITO × EMUS | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
 b1 | reveal | golden  | animais | - | -
 b2 | group | -  | animais, placa: 20.000 EMUS, mapa, objeto na mao | - | -
 b3 | two | -  | tropa, interior, objeto na mao | pedido: plano medio dos dois, um pede ao outro (shot + som de efeito); (rosto) pleading (expr + som de efeito) | -
@@ -13,5 +13,5 @@ b7 | crowd | -  | batalha aberta com tiros, tropa, animais, placa: HA HA HA | (r
 b8 | group | -  | tropa, animais, placa: 6 DIAS | - | -
 b9 | reveal | desert  | animais, placa: EXÉRCITO × EMUS | - | -
 
-Mistura de planos: close 5% | medio 55% | aberto 37% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 6 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 5% | medio 55% | aberto 40% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo); quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - O embaixador veio às ilhas e assinou a paz.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): EMB (variante 0, expressao relief, segura paper)
 - Animacao: encena
 - Objetos/modelos: kit/scroll
@@ -102,7 +102,7 @@ ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 73% | aberto 20% | detalhe 3%
+- Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 71% | aberto 20% | detalhe 6%
 - Interacoes: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 o outro se aproxima, b8 discutir
 - RISCOS GERAIS: nenhum
 

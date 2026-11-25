@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 10 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: outback | 10 cenas, 92 palavras (~32 s)
 
-## Cena b0  (~2.8 s)
-- Narracao: Um exército contra pássaros? A Austrália saiu derrotada.
+## Cena b0  (~2.4 s)
+- Narracao: Um exército perdeu uma guerra contra pássaros.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: EXÉRCITO × EMUS
 - Funcao na historia: GANCHO
@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.4 s)
-- Narracao: Em 1932, vinte mil emus tomaram as lavouras de trigo.
+- Narracao: Em 1932, vinte mil emus tomaram as lavouras da Austrália.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Texto na tela: HA HA HA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.1 s)
-- Narracao: Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
+## Cena b8  (~2.8 s)
+- Narracao: Seis dias, milhares de balas, poucos emus abatidos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Texto na tela: 6 DIAS
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.1 s)
-- Narracao: Placar final: exército zero, emus um.
+## Cena b9  (~2.8 s)
+- Narracao: Exército zero, emus um. E foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

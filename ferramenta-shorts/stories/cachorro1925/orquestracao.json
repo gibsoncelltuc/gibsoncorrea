@@ -45,9 +45,9 @@
    "objetos": [
     "kit/dog_sit"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Ninguém te conta: um cachorro perdido quase começou uma guerra.",
+   "frase": "Um cachorro perdido quase começou uma guerra na Europa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -175,9 +175,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "A Bulgária apelou à Liga das Nações, a antecessora da ONU.",
+   "frase": "A Bulgária apelou à Liga das Nações.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -211,9 +211,9 @@
    "objetos": [
     "kit/dog_sit"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Tudo por um cachorro que talvez nem existisse.",
+   "frase": "Talvez o cachorro nem existisse. Mas foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

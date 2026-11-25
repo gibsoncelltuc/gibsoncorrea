@@ -122,7 +122,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "promessa",
-   "say": "E mesmo assim, ela virou um sucesso de reservas.",
+   "say": "E mesmo assim virou sucesso de reservas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -166,7 +166,7 @@
    "d1": 10.6,
    "mapa": "CALIFÓRNIA",
    "bloco": "prova",
-   "say": "Em 2019, na Califórnia, a Tesla apresentou o Cybertruck.",
+   "say": "Em 2019, a Tesla apresentou o Cybertruck.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -410,7 +410,7 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "escalada",
-   "say": "Musk disse que, nos testes, a esfera nem arranhava o vidro.",
+   "say": "Musk disse que, nos testes, o vidro aguentava.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -497,13 +497,13 @@
    "d0": 11.1,
    "d1": 10.6,
    "bloco": "loop",
-   "say": "A janela quebrou. As reservas, não.",
+   "say": "O vidro falhou, a venda não. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "janela"
+      "na": "falhou"
      }
     ]
    }
@@ -545,7 +545,7 @@
    "picape": "Tesla Cybertruck 2019 prototype"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a picape blindada teve as janelas quebradas ao vivo e mesmo assim virou sucesso. Pagamento: o vidro rachou duas vezes na frente da plateia, mas vieram mais de 140 mil reservas.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a picape 'blindada' teve as janelas rachadas ao vivo e mesmo assim virou sucesso. Pagamento: a esfera de aco rachou duas janelas na frente da plateia, mas vieram mais de 140 mil reservas.",
  "loop_frase_ok": true
 }

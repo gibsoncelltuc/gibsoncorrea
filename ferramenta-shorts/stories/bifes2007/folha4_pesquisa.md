@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Os Bifes com o Nome do Trump | Os Bifes com o Nome do Trump / Nome Trump Em Trump Trump Steaks 2007 | SEM REFERENCIA
+tema | Os Bifes com o Nome do Trump | Os Bifes com o Nome do Trump / Trump Em Trump Steaks 2007 | SEM REFERENCIA
 lugar | Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hot | Estados Unidos / Estados Unidos 2007 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2007 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2007 | 2007 fashion clothing / 2007 street photograph | SEM REFERENCIA

@@ -1,7 +1,7 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "VIDRO BLINDADO?",
- "gancho_cumprido": "Gancho: a picape blindada teve as janelas quebradas ao vivo e mesmo assim virou sucesso. Pagamento: o vidro rachou duas vezes na frente da plateia, mas vieram mais de 140 mil reservas.",
+ "gancho_cumprido": "Gancho: a picape 'blindada' teve as janelas rachadas ao vivo e mesmo assim virou sucesso. Pagamento: a esfera de aco rachou duas janelas na frente da plateia, mas vieram mais de 140 mil reservas.",
  "cenas": [
   [
    0,
@@ -16,13 +16,14 @@
   [
    8,
    "promessa",
-   "E mesmo assim, ela virou um sucesso de reservas.",
-   "sucesso"
+   "E mesmo assim virou sucesso de reservas.",
+   "sucesso",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 2019, na Califórnia, a Tesla apresentou o Cybertruck.",
+   "Em 2019, a Tesla apresentou o Cybertruck.",
    "apresentou",
    {
     "mapa": "CALIFÓRNIA"
@@ -32,7 +33,8 @@
    1,
    "prova",
    "Musk garantiu que o vidro era super resistente.",
-   "garantiu"
+   "garantiu",
+   {}
   ],
   [
    2,
@@ -64,20 +66,22 @@
   [
    5,
    "escalada",
-   "Musk disse que, nos testes, a esfera nem arranhava o vidro.",
-   "disse"
+   "Musk disse que, nos testes, o vidro aguentava.",
+   "disse",
+   {}
   ],
   [
    7,
    "pagamento",
    "Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.",
-   "reservas"
+   "reservas",
+   {}
   ],
   [
    0,
    "loop",
-   "A janela quebrou. As reservas, não.",
-   "janela",
+   "O vidro falhou, a venda não. Foi assim que...",
+   "falhou",
    {
     "mapa": null
    }

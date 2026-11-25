@@ -271,7 +271,7 @@
    ],
    "interior": "loja",
    "bloco": "escalada",
-   "say": "Muitos leram como ironia, feita para provocar os críticos.",
+   "say": "Muitos leram como ironia, para provocar os críticos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -324,7 +324,7 @@
    "d1": 8.0,
    "riscos_ok": true,
    "bloco": "pagamento",
-   "say": "Em 2024, no dia da eleição, o perfil dizia: rei filósofo.",
+   "say": "Em 2024, o perfil dele dizia: rei filósofo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -360,13 +360,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "loop",
-   "say": "Uma biografia que se troca em dez segundos.",
+   "say": "Provocação ou confissão? Só sei que foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "biografia"
+      "na": "Provocação"
      }
     ]
    }
@@ -418,6 +418,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um presidente se chamou de ditador no proprio perfil e ninguem sabia se era piada. Pagamento: trocou para 'o ditador mais legal do mundo', a frase rodou o mundo, foi lida como ironia e depois virou 'rei filosofo'.",
+ "gancho_cumprido": "Gancho: um presidente se chamou de ditador no proprio perfil e ninguem sabia se era piada. Pagamento: depois dos protestos escreveu 'ditador', trocou para 'o ditador mais legal do mundo', lido como ironia; depois 'rei filosofo'.",
  "loop_frase_ok": true
 }

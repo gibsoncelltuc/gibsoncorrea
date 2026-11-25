@@ -10,8 +10,8 @@ b4 | group | -  | tropa, placa: 50 A 400 | - | -
 b5 | two | -  | interior, objeto na mao | dança (stars + som de sino) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: SALÃO | músicos (stars + som de sino); dançando (stars + som de sino) | -
 b7 | two | -  | tropa, objeto na mao | dança (stars + som de sino) | -
-b8 | wide | -  | tropa, placa: CAPELA DO MONTE | dançarinos (stars + som de sino) | -
+b8 | wide | -  | tropa, placa: CAPELA DO MONTE | - | -
 b9 | two | -  | placa: NÃO PARAVA DE DANÇAR | - | -
 
-Mistura de planos: close 4% | medio 77% | aberto 18% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 79% | aberto 17% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

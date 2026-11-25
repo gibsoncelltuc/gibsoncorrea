@@ -94,7 +94,7 @@
    "d1": 11.5,
    "set": "loc_cidade",
    "bloco": "gancho",
-   "say": "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.",
+   "say": "O bife do Trump sumiu das lojas em só dois meses.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -171,7 +171,7 @@
    "d1": 11.5,
    "interior": "loja",
    "bloco": "prova",
-   "say": "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.",
+   "say": "Em 2007, ele lançou a Trump Steaks.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -292,7 +292,7 @@
    ],
    "interior": "pedra",
    "bloco": "pagamento",
-   "say": "Em 2014, a marca registrada foi cancelada.",
+   "say": "Em 2014, a marca foi cancelada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -329,7 +329,7 @@
    "d1": 11.5,
    "interior": "madeira",
    "bloco": "pagamento",
-   "say": "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.",
+   "say": "Mesmo assim, o bife seguiu no cardápio dos hotéis dele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -366,7 +366,7 @@
    "d1": 11.5,
    "set": "loc_cidade",
    "bloco": "loop",
-   "say": "Nem todo nome famoso dura mais que uma promoção.",
+   "say": "Nome famoso não salvou a carne. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -423,7 +423,7 @@
    "loja": "Sharper Image store 2007"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: nome famoso nao vende sozinho; o bife de Trump sumiu em dois meses. Pagamento: saiu da loja em julho, vendeu menos de 50 mil dolares e a marca foi cancelada em 2014.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o bife com o nome de Trump sumiu das lojas em dois meses, com venda bem menor que o esperado. Pagamento: saiu da loja em julho, vendas estimadas abaixo de 50 mil dolares e marca cancelada em 2014.",
  "loop_frase_ok": true
 }
