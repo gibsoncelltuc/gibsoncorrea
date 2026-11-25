@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao smile, segura bag; sem multidao; acao: fala/gesto
-- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@60
 
@@ -21,8 +21,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/vagem_amarela: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_amarela: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
@@ -32,7 +32,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/vagem_amarela: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_amarela: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b4: "Mendel ficou curioso: para onde tinha ido o verde?"
 - LOCAL: sala de madeira; hora: day
@@ -44,7 +44,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao neutral, segura paper; sem multidao; acao: fala/gesto
-- OBJETO kit/vagem_amarela: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_amarela: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
 
@@ -52,11 +52,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/vagem_amarela: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/vagem_amarela: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/vagem_amarela: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_amarela: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_amarela: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_amarela: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
@@ -92,5 +92,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
