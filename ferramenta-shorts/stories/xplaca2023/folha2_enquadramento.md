@@ -2,27 +2,27 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Trocar de nome é fácil? Esta placa nova virou caso de investigação."
+## b0: "Uma placa com uma letra só virou caso de investigação."
 - LOCAL: loc_patio; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "X" flutuando no alto, na palavra 1 da frase
 
-## b1: "E tudo por causa de uma letra só."
+## b1: "E a culpa foi de uma luz piscando de madrugada."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
-## b2: "Em 2023, Elon Musk trocou o nome do Twitter para X."
+## b2: "Em 2023, Musk trocou o nome do Twitter para X."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS na esquerda, expressao grin; OPE (pedreiro) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: SÃO FRANCISCO (cobre a tela 1-2 s)
 
-## b3: "Operários começaram a tirar as letras e o passarinho da fachada."
+## b3: "Operários começaram a tirar o passarinho da fachada."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: OPE (pedreiro) na esquerda, expressao nervous; OPE2 (pedreiro) no centro, expressao suspicious; MUS na direita, expressao worried; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
@@ -30,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
 
-## b4: "O trabalho parou no meio, porque faltavam licenças."
+## b4: "O trabalho parou no meio, por falta de licença."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: OPE (pedreiro) na esquerda, expressao shock; FIS na direita, expressao stern; sem multidao; acao: fala/gesto
@@ -45,7 +45,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@40
 - TEXTO NA TELA: "X" flutuando no alto, na palavra 1 da frase
 
-## b6: "A luz entrava nas janelas dos vizinhos de madrugada."
+## b6: "A luz entrava nas janelas dos vizinhos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: POV na esquerda, expressao angry; JOR na direita, expressao surprised; sem multidao; acao: discutir
@@ -64,7 +64,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: FIS na esquerda, expressao shock; OPE (pedreiro) na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Até trocar de nome precisa de licença."
+## b9: "Até trocar de nome precisa de licença. Foi assim que..."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto

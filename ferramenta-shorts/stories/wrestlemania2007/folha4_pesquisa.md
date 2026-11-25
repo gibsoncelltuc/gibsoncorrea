@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Trump na Batalha dos Bilionários
 - Epoca: 2007 | Lugar: Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, telao e fogos | Quando: 1 de abril de 2007 (WrestleMania 23), noite
 - HEROIS (objeto): kit/ring, kit/clipper
-- HEROIS (personagens): TRU, VIN, JUI, LAS
+- HEROIS (personagens): TRU, VIN, LAS, JUI
 - Cenarios: interior pedra, loc_cidade, stadium
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Trump na Batalha dos Bilionários | Trump na Batalha dos Bilionários / Ninguém Trump Foi 2007 | SEM REFERENCIA
+tema | Trump na Batalha dos Bilionários | Trump na Batalha dos Bilionários / Donald Trump Foi 2007 | SEM REFERENCIA
 lugar | Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, tel | Ford Field Detroit / Ford Field Detroit Michigan 2007 | Ford-Field-September-10-2006.jpg (referencias/wrestlemania2007/prints/ford_field_detroit_michigan_estadio_cobe_b3f386.jpg); Detroit December 2025 04 (Ford Field).jpg (referencias/wrestlemania2007/prints/ford_field_detroit_michigan_estadio_cobe_c45c91.jpg); Aerial View of Downtown Detroit - Ford Field and C (referencias/wrestlemania2007/prints/ford_field_detroit_michigan_estadio_cobe_65b571.jpg)
 lugar | Estados Unidos | Estados Unidos 2007 / Estados Unidos landscape | Lago Pippin, Copper Center, Alaska, Estados Unidos (referencias/wrestlemania2007/prints/estados_unidos_c8c934.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/wrestlemania2007/prints/estados_unidos_185b81.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/wrestlemania2007/prints/estados_unidos_7a8f7d.jpg)
 epoca | roupas e ruas de 2007 | 2007 fashion clothing / 2007 street photograph | One of the types of girls'-fashion in 2007.jpg (referencias/wrestlemania2007/prints/roupas_e_ruas_de_2007_57d288.jpg); Chaoyue Sportswear China Fashion Week 2007 III.jpg (referencias/wrestlemania2007/prints/roupas_e_ruas_de_2007_72c8c5.jpg); Chaoyue Sportswear China Fashion Week 2007 I.jpg (referencias/wrestlemania2007/prints/roupas_e_ruas_de_2007_3fd524.jpg)

@@ -25,9 +25,9 @@
    "objetos": [
     "kit/clipper"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue.",
+   "frase": "Donald Trump raspou a cabeça de outro bilionário num ringue.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -37,7 +37,8 @@
   {
    "camera": "wide",
    "personagens": [
-    "JUI"
+    "JUI",
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -46,7 +47,7 @@
    "palavras": 8,
    "cena": "b1",
    "frase": "E no fim, ele mesmo acabou no chão.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -60,9 +61,9 @@
    ],
    "multidao": 6,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Foi em 2007, no maior show de luta livre do mundo.",
+   "frase": "Foi em 2007, no maior show de luta livre.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -117,15 +118,16 @@
   {
    "camera": "wide",
    "personagens": [
-    "LAS"
+    "LAS",
+    "UMA"
    ],
    "multidao": 0,
    "objetos": [
     "kit/ring"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b5",
-   "frase": "O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga.",
+   "frase": "O lutador de Trump enfrentou o gigante Umaga.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -160,7 +162,9 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU"
+    "TRU",
+    "LAS",
+    "VIB"
    ],
    "multidao": 0,
    "objetos": [
@@ -169,7 +173,7 @@
    ],
    "palavras": 9,
    "cena": "b7",
-   "frase": "Trump e Lashley rasparam a cabeça de Vince McMahon.",
+   "frase": "Trump ajudou a raspar a cabeça de Vince McMahon.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -179,7 +183,8 @@
   {
    "camera": "wide",
    "personagens": [
-    "JUI"
+    "JUI",
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -204,9 +209,9 @@
    "objetos": [
     "kit/clipper"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b9",
-   "frase": "Depois, Trump entrou para o Hall da Fama da luta livre.",
+   "frase": "Anos depois, foi para o Hall da Fama. Tudo porque...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

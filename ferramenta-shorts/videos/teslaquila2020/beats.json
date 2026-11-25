@@ -75,10 +75,6 @@
    "sfx": [
     "ding@30"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Uma piada de primeiro de abril virou uma garrafa de 250 dólares.",
    "encena": {
@@ -91,7 +87,24 @@
     ]
    },
    "text": "PIADA → TEQUILA",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -110,10 +123,6 @@
     ]
    ],
    "acao": "comemorar",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "E até a garrafa vazia passou a valer uma fortuna.",
    "encena": {
@@ -122,6 +131,23 @@
      {
       "faz": "mostra",
       "na": "vazia"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -136,9 +162,9 @@
    "props": [
     [
      "kit/phone",
-     0.0,
-     -0.8,
-     0.9,
+     1.0,
+     1.0,
+     0.7,
      {
       "fixo": true
      }
@@ -153,6 +179,19 @@
      {
       "faz": "mostra",
       "na": "postou"
+     }
+    ]
+   },
+   "_enq_shot": "reveal",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "revelacao (camera sobe e abre)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -193,7 +232,7 @@
     ],
     [
      "kit/tequila_bolt",
-     -3.6,
+     5.4,
      -2.0,
      1.65,
      {
@@ -202,7 +241,7 @@
     ],
     [
      "kit/tequila_bolt",
-     -3.6,
+     -5.4,
      -2.0,
      1.65,
      {
@@ -212,10 +251,6 @@
    ],
    "acao": "discutir",
    "set": "street",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Na foto, garrafas de uma tal Teslaquila.",
    "encena": {
@@ -224,6 +259,47 @@
      {
       "faz": "mostra",
       "na": "garrafas"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -288,10 +364,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "Acontece que o México barrou o nome: tequila tem regras.",
    "encena": {
@@ -300,6 +372,29 @@
      {
       "faz": "mostra",
       "na": "barrou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e veg_cacto juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -351,10 +446,6 @@
    "interacao": "cochichar",
    "set": "outback",
    "interior": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "Em 2020, saiu como Tesla Tequila, feita no México.",
    "encena": {
@@ -363,6 +454,41 @@
      {
       "faz": "mostra",
       "na": "saiu"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -385,9 +511,9 @@
     ],
     [
      "kit/phone",
-     0.0,
-     -0.8,
-     0.9,
+     -1.6,
+     0.8,
+     0.7,
      {
       "fixo": true
      }
@@ -395,10 +521,6 @@
    ],
    "interacao": "entregar",
    "interior": "loja",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Garrafas vazias apareceram na internet por mais de mil dólares.",
    "encena": {
@@ -407,6 +529,29 @@
      {
       "faz": "mostra",
       "na": "vazias"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -434,10 +579,6 @@
    "sfx": [
     "ding@30"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Ninguém acreditou na piada. E foi assim que...",
    "encena": {
@@ -446,6 +587,23 @@
      {
       "faz": "mostra",
       "na": "piada"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

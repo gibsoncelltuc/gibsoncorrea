@@ -1,43 +1,48 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.1s - 12 palavras - plano group
-> "Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue."
+## Cena b0 - 0.0s a 3.3s - 10 palavras - plano group
+> "Donald Trump raspou a cabeça de outro bilionário num ringue."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "raspou" (1.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "raspou" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
+| 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | BATALHA DOS BILIONÁRIOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: entregar
+- INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): tropa em fileiras; clarões piscando ao longo da fileira; alguns soldados caem; fumaca baixa
 <!-- /FISICA -->
 
-## Cena b1 - 3.2s a 5.5s - 8 palavras - plano wide
+## Cena b1 - 3.7s a 6.3s - 8 palavras - plano wide
 > "E no fim, ele mesmo acabou no chão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chão" (5.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chão" (6.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b2 - 5.6s a 8.2s - 11 palavras - plano reveal
-> "Foi em 2007, no maior show de luta livre do mundo."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b2 - 6.7s a 9.6s - 9 palavras - plano reveal
+> "Foi em 2007, no maior show de luta livre."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "show" (7.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "show" (8.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -48,11 +53,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 9.4s a 12.7s - 11 palavras - plano group
+## Cena b3 - 10.0s a 13.7s - 11 palavras - plano group
 > "Cada um escolheu um lutador. A aposta valia uma cabeça raspada."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aposta" (11.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aposta" (12.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -65,11 +70,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 13.0s a 16.2s - 8 palavras - plano crowd
+## Cena b4 - 14.1s a 16.7s - 8 palavras - plano crowd
 > "Mais de oitenta mil pessoas lotaram o estádio."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lotaram" (14.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lotaram" (15.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -85,25 +90,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 18: parada, reagindo (shout), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b5 - 16.9s a 19.2s - 10 palavras - plano wide
-> "O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga."
+## Cena b5 - 17.0s a 19.6s - 8 palavras - plano wide
+> "O lutador de Trump enfrentou o gigante Umaga."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "enfrentou" (18.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "enfrentou" (18.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 19.6s a 23.4s - 12 palavras - plano wide
+## Cena b6 - 20.0s a 24.1s - 12 palavras - plano wide
 > "Acontece que o lutador de Trump venceu, e o estádio foi abaixo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "venceu" (21.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "venceu" (22.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venceu (21.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | venceu (22.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | comemorar | OK |
@@ -111,61 +116,63 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra venceu (21.8s): executa: estrelinhas + som
+- EFEITO: stars na palavra venceu (22.2s): executa: estrelinhas + som
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 24.0s a 27.1s - 9 palavras - plano two
-> "Trump e Lashley rasparam a cabeça de Vince McMahon."
+## Cena b7 - 24.4s a 27.4s - 9 palavras - plano two
+> "Trump ajudou a raspar a cabeça de Vince McMahon."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rasparam" (24.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "raspar" (25.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 27.3s a 29.3s - 6 palavras - plano wide
+## Cena b8 - 27.8s a 29.6s - 6 palavras - plano wide
 > "E o juiz derrubou Trump também."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "derrubou" (28.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "derrubou" (28.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | derrubou (28.4s) | EFEITO: dust | poeira + som | OK |
+| 1 | derrubou (28.9s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra derrubou (28.4s): executa: poeira + som
+- EFEITO: dust na palavra derrubou (28.9s): executa: poeira + som
+- ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b9 - 29.7s a 33.8s - 11 palavras - plano group
-> "Depois, Trump entrou para o Hall da Fama da luta livre."
+## Cena b9 - 30.0s a 33.3s - 10 palavras - plano group
+> "Anos depois, foi para o Hall da Fama. Tudo porque..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Hall" (31.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Hall" (31.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | pular | OK |
 | 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | PLACA | BATALHA DOS BILIONÁRIOS | OK |
+| 3 | - | PLACA | BATALHA DOS BILIONÁRIOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- CHEGADA (a cena toda): executa: alguem entra andando
 - PLACA (a cena toda): tropa em fileiras; clarões piscando ao longo da fileira; alguns soldados caem; fumaca baixa
 <!-- /FISICA -->
 

@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/xplaca2023/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py xplaca2023` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Trocar de nome é fácil? Esta placa nova virou caso de investigação.
+## Cena b0 - Uma placa com uma letra só virou caso de investigação.
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/phone, kit/marco_goldengate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): investigacao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): investigacao, letra, placa
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -19,19 +19,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "X" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (0.2-1.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.8-3.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b1 - E tudo por causa de uma letra só.
+## Cena b1 - E a culpa foi de uma luz piscando de madrugada.
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao laugh)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): letra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): culpa, madrugada
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -40,10 +38,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (2.9-4.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (4.5-6.2 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b2 - Em 2023, Elon Musk trocou o nome do Twitter para X.
+## Cena b2 - Em 2023, Musk trocou o nome do Twitter para X.
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -60,17 +60,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS na esquerda, expressao grin; OPE (pedreiro) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: SÃO FRANCISCO (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b3 - Operários começaram a tirar as letras e o passarinho da fachada.
+## Cena b3 - Operários começaram a tirar o passarinho da fachada.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (3): OPE (variante 0, expressao nervous); OPE2 (variante 0, expressao suspicious); MUS (variante 0, expressao worried) | multidao: 10 de POV
 - Animacao: reagir | interacao: o outro se aproxima | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/finch
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fachada, letras, passarinho, tirar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fachada, passarinho, tirar
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -81,17 +81,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
-- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b4 - O trabalho parou no meio, porque faltavam licenças.
+## Cena b4 - O trabalho parou no meio, por falta de licença.
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): OPE (variante 0, expressao shock); FIS (variante 0, expressao stern)
 - Animacao: reagir | interacao: insiste
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): trabalho
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): licenca, trabalho
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -100,7 +100,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: OPE (pedreiro) na esquerda, expressao shock; FIS na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que instalaram um X gigante piscando no alto do prédio.
@@ -125,14 +125,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (4.5 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b6 - A luz entrava nas janelas dos vizinhos de madrugada.
+## Cena b6 - A luz entrava nas janelas dos vizinhos.
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao angry); JOR (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: buildings/house_small, nature/picket_fence, nature/tree_oak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): janelas, madrugada, vizinhos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): janelas, vizinhos
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -142,9 +142,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao angry; JOR na direita, expressao surprised; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "X" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (20.7-22.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (22.4-24.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - Vieram vinte e quatro reclamações num fim de semana.
@@ -163,11 +161,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FIS na esquerda, expressao angry; MUS na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (22.1-23.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (23.8-25.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b8 - A prefeitura investigou, e o X foi retirado.
-- Cenario: loc_cidade | luz: noite | clima: limpo
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FIS (variante 0, expressao shock); OPE (variante 0, expressao laugh) | multidao: 8 de POV
@@ -182,13 +182,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FIS na esquerda, expressao shock; OPE (pedreiro) na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Até trocar de nome precisa de licença.
-- Cenario: loc_patio | luz: noite | clima: limpo
+## Cena b9 - Até trocar de nome precisa de licença. Foi assim que...
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
@@ -213,13 +213,11 @@ nature/bench | b8 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 2% | medio 82% | aberto 12% | detalhe 3%
+- Objeto heroi: kit/phone | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 2% | medio 82% | aberto 13% | detalhe 3%
 - Interacoes: b2 entregar, b3 o outro se aproxima, b4 insiste, b6 discutir, b7 vai ate o outro
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py xplaca2023
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh xplaca2023 bN bM` (so essas cenas).

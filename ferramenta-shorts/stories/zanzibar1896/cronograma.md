@@ -14,7 +14,7 @@ b4 | simples | loc_campo | wide | ALM | - | marco_zanzibar, navio_vapor | - | De
 b5 | transicao | loc_campo | reveal | GUA, GUA | 32 | marco_zanzibar | - | Ele juntou quase três mil homens e se trancou lá dentro.
 b6 | chave | harbor | orbit | sem personagem | - | cannon, marco_zanzibar, navio_vapor_guerra, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, às nove e dois, os navios ingleses abriram fogo.
 b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/forte_colonial (parado); emissao: fogo, onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som | O palácio pegou fogo, e o primo fugiu.
-b8 | chave | loc_campo | wide | GUA, ING2 | - | forte_colonial, marco_zanzibar, flagpole | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às nove e quarenta, a bandeira caiu.
+b8 | simples | loc_campo | wide | GUA, ING2 | - | forte_colonial, marco_zanzibar, flagpole | - | Às nove e quarenta, a bandeira caiu.
 b9 | simples | harbor | two | SUL, GUA | - | - | - | Os ingleses mandaram a conta das balas. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

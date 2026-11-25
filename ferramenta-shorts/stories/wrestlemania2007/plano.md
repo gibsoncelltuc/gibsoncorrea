@@ -14,4 +14,4 @@ b8 | wide | -  | tropa | derrubou (dust + som de impacto) | -
 b9 | group | -  | placa: BATALHA DOS BILIONÁRIOS | - | -
 
 Mistura de planos: close 4% | medio 58% | aberto 38% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo); quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Planos abertos: 6 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

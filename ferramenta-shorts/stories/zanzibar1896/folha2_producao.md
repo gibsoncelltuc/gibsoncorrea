@@ -179,10 +179,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Às nove e quarenta, a bandeira caiu.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern)
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern) | multidao: 0 de POV
+- Animacao: encena
 - Objetos/modelos: kit/forte_colonial, kit/marco_zanzibar, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, nove
 - RISCOS: nenhum
@@ -224,7 +224,7 @@ war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 11% | medio 63% | aberto 23% | detalhe 3%
+- Objeto heroi: kit/navio_vapor | grandes momentos: b6 | planos abertos: 4 | mistura: close 10% | medio 59% | aberto 28% | detalhe 3%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b9 entregar
 - RISCOS GERAIS: nenhum
 
