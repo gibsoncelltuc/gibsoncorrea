@@ -745,7 +745,7 @@ ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu',
 _DANCA_OUTRO = r'(atomos|moleculas|cobras|chamas|estrelas|folhas|ondas|particulas|letras|numeros)\s*(\w{0,12}\s*)?danc|danc\w*\s*como|sonho'   # quem danca e' a coisa (sonho, atomos...), nao o personagem
 OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) -- usado para por objetos em cena e na pre-producao
     (r'\bbarril\b|\bbarris\b|aguardente|cerveja|\bvinho\b|\brum\b', 'barrel', 1.1, False), (r'caixote|\bcaixas\b|\bcarga\b|mercadoria', 'crate', 1.0, False), (r'\bcanhao\b|\bcanhoes\b|artilharia', 'cannon', 1.0, False),
-    (r'\bbaldes?\b|\bpoco\b', 'tools/bucket', 1.8, False), (r'\bfonte\b|chafariz', 'nature/fountain', 1.2, False), (r'\bbandeiras?\b|estandarte', 'war/flagpole', 1.3, False), (r'\btambor\b|\btambores\b', 'war/drum', 1.4, False),
+    (r'\bbaldes?\b|\bpoco\b', 'tools/bucket', 1.8, False), (r'\bfonte\b|chafariz', 'nature/fountain', 1.2, False), (r'bandeira\w*\s+(d[oa]\s+)?canad', 'kit/bandeira_canada', 1.0, False), (r'bandeira\w*\s+(d[oa]\s+)?dinamar', 'kit/bandeira_dinamarca', 1.0, False), (r'\bbandeiras?\b|estandarte', 'war/flagpole', 1.3, False), (r'\btambor\b|\btambores\b', 'war/drum', 1.4, False),
     (r'trincheira|barricada|sacos de areia', 'war/sandbags', 1.2, False), (r'\bescudos?\b', 'war/shield', 1.5, False), (r'\bfeno\b|trigo|plantac|colheita', 'nature/haybale', 1.1, False), (r'espantalho', 'nature/scarecrow', 1.2, False),
     (r'lanterna|lampiao|lamparina', 'tools/lantern', 1.2, False), (r'\bescadas?\b', 'tools/ladder', 1.2, False), (r'carrinho de mao', 'tools/wheelbarrow', 1.2, False), (r'ferreiro|bigorna', 'tools/anvil', 1.3, False),
     (r'\btulipas?\b|\bbulbos?\b|\bflor\b|\bflores\b', 'kit/tulip_red', 1.3, False), (r'\bcova\b|tumulo|enterr|caixao|cemiterio', 'kit/grave', 1.0, False), (r'\bbatatas?\b|\bhorta\b|\blegumes?\b', 'nature/flowerbed', 1.2, False),
@@ -797,6 +797,11 @@ for _ano_lim, _de, _para in _ERA_TROCA:
 if ANO is not None and ANO < 1950: OBJ_DICT = [(r_, 'kit/bola_couro' if m_ == 'kit/ball' else m_, *x_) for r_, m_, *x_ in OBJ_DICT]; ENC_RES = [(r_, 'kit/bola_couro' if m_ == 'kit/ball' else m_) for r_, m_ in ENC_RES]   # 25/11 Goodyear: antes de 1950 a bola e' de COURO marrom costurado (a de gomos pretos e brancos e' dos anos 1970)
 if ANO is not None and ANO < 500: OBJ_DICT = [(r_, 'kit/coroa_louros' if m_ == 'kit/crown' else m_, *x_) for r_, m_, *x_ in OBJ_DICT]   # 25/11 'coroa' na Antiguidade = coroa de LOUROS de ouro (pesquisa: Munique 400 a.C., Aigai), nunca a coroa de pontas medieval
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+_BAND_PAIS = [(r'canad', 'kit/bandeira_canada'), (r'dinamar', 'kit/bandeira_dinamarca')]
+def _band_pais(t_):   # pais citado na frase que tem bandeira ('bandeira' ou 'a deles' do pais); o mais perto depois da palavra bandeira
+    t_ = str(t_).lower(); i_ = t_.find('bandeira'); i_ = 0 if i_ < 0 else i_
+    ach_ = sorted((m_.start() if m_.start() >= i_ else 10 ** 6 + m_.start(), md_) for rx_, md_ in _BAND_PAIS for m_ in re.finditer(rx_, t_))
+    return ach_[0][1] if ach_ else None
 def _sem_modelo(ws): return sorted(w_ for w_ in set(ws) if not any(re.search(o_[0], w_) for o_ in OBJ_DICT))   # palavra que ja tem modelo no OBJ_DICT (ex.: radio = elemento quimico da Marie Curie) nao e' falta
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
     if 'heroi' in B: return B['heroi'] or None
@@ -1425,8 +1430,11 @@ def build_beat(k, b):
         fb = {'countryside': ['buildings/house_small', 'buildings/house_two'], 'outback': ['buildings/house_small', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/shop']}.get(b.get('set', SET))   # 24/11: farol como fachada tapava o quadro (Kiska, Bolos): so' com farol na narracao
         if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.8 if k % 2 else -4.8)}, -11.0], s: 1.05, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
     # OBJETOS DA HISTORIA: o que a narracao cita e existe na biblioteca entra em cena sozinho (ate 2 por cena)
+    _bp_ = _band_pais(_say_sp)   # 25/11 Uisque: bandeira citada com o PAIS = a bandeira daquele pais (o war/flagpole tem pano listrado generico)
+    if _bp_: props = [[_bp_] + list(p_[1:]) if str(p_[0]) == 'war/flagpole' else p_ for p_ in props]
     if b.get('objetos') is not False and not b.get('veiculo'):
         tem_ = {str(p_[0]) for p_ in props}; n_auto = 0
+        if any(str(t_).startswith('kit/bandeira_') for t_ in tem_): tem_.add('war/flagpole')
         _fam = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
         if HEROI and (k == 0 or k == len(beats) - 1) and not wide_pre and not any(_fam(t_) == _fam(HEROI) for t_ in tem_):   # o objeto heroi abre e fecha o video (25/11 Montgolfier: GRANDE na chamada final/close vai para o fundo, -11 m; a -3.6 o balao saia gigante e cortado ao lado do personagem)
             props = props + ([[HEROI, 0.0, (-11.0 if (b.get('_cta') or b.get('shot') == 'close') else -3.6), 1.0]] if _EH_VEIC(HEROI) or (_glb_len(HEROI) or 0) > 2.2 else [[HEROI, 0.0, 2.0, 1.15]] if len(b.get('who', [])) == 2 else [[HEROI, (1.7 if k % 2 else -1.7), -0.5, 1.3]])   # objeto GRANDE (carro...) fica atras dos personagens, inteiro no quadro   # entre os dois, a frente (a placa do ano fica atras); tem_.add(HEROI); b.setdefault('_auto_obj', []).append(HEROI)
