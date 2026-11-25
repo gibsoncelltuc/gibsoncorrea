@@ -19,10 +19,15 @@ for b in B['beats']:
     _ex = b.get('explica') if isinstance(b.get('explica'), dict) else {}
     if str(_ex.get('objeto', '')).startswith('kit/') and _ex['objeto'] not in usados: usados.append(_ex['objeto'])   # objeto da cena de EXPLICACAO tambem (Arquimedes: coroa medieval escapou por aqui)
 if B.get('heroi') and B['heroi'] not in usados: usados.insert(0, B['heroi'])
+try:   # o que VAI PARA A TELA manda (spec.js ja com as trocas de epoca: coroa de louros, bola de couro...): fora do spec nao entra
+    _spec = open(f'stories/{ID}/spec.js', encoding='utf-8').read(); _ass = set(re.findall(r'asset: "(kit/[a-z0-9_]+)"', _spec)) | set(re.findall(r"asset: '(kit/[a-z0-9_]+)'", _spec))
+    if _ass: usados = [a for a in usados if a in _ass] + sorted(a for a in _ass if a not in usados and not re.search(r'kit/(room|rg_|marco|porch|palete)', a))
+except FileNotFoundError: pass
 def prints_de(asset):   # prints da pesquisa para este objeto: item heroi, ou item cujo nome casa com o nome do asset / sinonimo PT
-    nome = asset.split('/')[-1]; sin = {'bathtub': 'banheira', 'crown': 'coroa', 'scale': 'balanca', 'stove': 'fogao', 'petri': 'placa|prato', 'syringe': 'seringa', 'kettle': 'chaleira', 'boardgame': 'tabuleiro', 'flamethrower': 'lanca', 'sink': 'pia', 'phone': 'celular|telefone', 'bife_elefante': 'carne|bife', 'coroa_louros': 'coroa'}.get(nome, nome)
+    nome = asset.split('/')[-1]; sin = {'bathtub': 'banheira', 'crown': 'coroa', 'scale': 'balanca', 'stove': 'fogao', 'petri': 'placa|prato', 'syringe': 'seringa', 'kettle': 'chaleira', 'boardgame': 'tabuleiro', 'flamethrower': 'lanca', 'sink': 'pia', 'phone': 'celular|telefone', 'bife_elefante': 'carne|bife', 'coroa_louros': 'coroa', 'bola_couro': 'bola', 'gosma': 'borracha|gosma', 'stove': 'fogao'}.get(nome, nome)
     out = []
     for it in P.get('itens', []):
+        if it.get('tipo') in ('pessoas', 'lugar', 'epoca', 'tema'): continue   # retrato/paisagem nao e' referencia de OBJETO
         if it.get('tipo') == 'heroi' and B.get('heroi') == asset or re.search(sin, n(it.get('item', ''))) or nome in n(it.get('item', '')):
             out += [a['print'] for a in it.get('achados', []) if os.path.exists(a.get('print', ''))]
     return list(dict.fromkeys(out))[:3]

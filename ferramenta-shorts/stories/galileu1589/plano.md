@@ -13,5 +13,5 @@ b7 | two | noite  | batalha aberta com tiros, tropa | caíram (dust + som de imp
 b8 | close | -  | interior | - | -
 b9 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 16% | medio 61% | aberto 22% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 16% | medio 62% | aberto 22% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

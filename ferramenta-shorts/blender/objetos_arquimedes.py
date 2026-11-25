@@ -27,7 +27,8 @@ for i in range(1, 7): a_ = math.pi * i / 7; bola((L0 - (R * 1.04 + .01) * math.s
 caixa(((L0 + L1) / 2 - .1, .03, 0), (L1 - L0 + .1, .06, 2 * R - .12), TERRA2)   # base baixa
 fim(0)
 novo('coroa_louros')                       # medida real: aro ~0.2 m de diametro (o motor escala pelo tamanho real)
-OURO, OURO2 = '#f0b418', '#c88a0c'
+OURO, OURO2 = '#f6c21c', '#e0a414'
+luz(True)   # ouro brilha (sem isto a coroa ficava quase preta na cena de explicacao)
 r = .1; n = 30; ab = .3                    # abertura na frente (radianos de cada lado)
 ang = [ab + (2 * math.pi - 2 * ab) * i / n for i in range(n + 1)]
 tubo([(r * math.sin(a), .0, r * math.cos(a)) for a in ang], .007, OURO2)        # galho do aro
@@ -36,6 +37,7 @@ for k, a in enumerate(ang[:-1]):
         rr = r + lado * .02; x, z = rr * math.sin(a), rr * math.cos(a)
         bola((x, .014 + .01 * (lado == 0) + .005 * (k % 2), z), .028, OURO if (k + lado) % 2 else OURO2, rot=(.6 * lado, .3 + .2 * (k % 2), a + math.pi / 2), esc=(1.0, .16, .4), seg=10)
 for a in (ab, 2 * math.pi - ab): bola((r * math.sin(a), .0, r * math.cos(a)), .012, OURO2, seg=8)   # pontas do galho
+luz(False)
 fim(0)
 novo('semente')                            # 25/11 Darwin: semente dura que o tentilhao de bico grosso quebra (duas metades rachadas)
 bola((-.06, .07, 0), .08, '#8a5a2a', esc=(1.0, .9, 1.25), seg=14); bola((.07, .065, .02), .075, '#a8763a', esc=(1.0, .85, 1.2), rot=(0, .4, .3), seg=14)

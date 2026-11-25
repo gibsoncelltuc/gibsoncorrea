@@ -16,7 +16,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
+    "kit/bola_couro",
     "kit/marco_pisa",
     "kit/pisa_tower"
    ],
@@ -74,7 +74,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball"
+    "kit/bola_couro"
    ],
    "palavras": 10,
    "cena": "b3",
@@ -92,7 +92,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
+    "kit/bola_couro",
     "kit/marco_pisa",
     "kit/pisa_tower",
     "war/cannonballs"
@@ -113,7 +113,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
+    "kit/bola_couro",
     "kit/marco_pisa",
     "kit/pisa_tower",
     "war/cannonballs"

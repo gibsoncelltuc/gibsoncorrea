@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: Galileu e a Torre de Pisa
 - Epoca: 1589 | Lugar: Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a catedral | Quando: cerca de 1589-1592, dia
-- HEROIS (objeto): kit/ball, kit/pisa_tower
+- HEROIS (objeto): kit/ball, kit/pisa_tower, kit/bola_couro
 - HEROIS (personagens): GAL, ALU
 - Cenarios: arctic, interior loja, interior madeira, interior pedra, loc_campo, street
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, fragata a vela, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
@@ -27,6 +27,7 @@ objeto | torre de Pisa | torre de Pisa / torre de Pisa 1589 | Torre de Pisa - pa
 objeto | martelo e pena (Apollo 15) | martelo e pena / martelo e pena 1589 | Sramalle.jpg (referencias/galileu1589/prints/martelo_e_pena_apollo_15__6f51b3.jpg); Sramalle.jpg (referencias/galileu1589/prints/martelo_e_pena_apollo_15__6f51b3.jpg)
 heroi | ball | bola de ferro pesada / Galileu e a Torre de Pisa | Ca' Morosini Ferro Manolesso (Venise).jpg (referencias/galileu1589/prints/ball_f12d14.jpg); Palazzo Ferro Fini Canal Grande Venezia.jpg (referencias/galileu1589/prints/ball_d8f70c.jpg); Fiona Ferro RG2021.jpg (referencias/galileu1589/prints/ball_930b93.jpg)
 heroi | pisa tower | pisa tower | The Duomo and Tower of Pisa at sunrise.jpg (referencias/galileu1589/prints/pisa_tower_b87777.jpg); The Leaning Tower of Pisa SB.jpeg (referencias/galileu1589/prints/pisa_tower_6a539d.jpg); Exterior of the Leaning Tower (Pisa) in April 2024 (referencias/galileu1589/prints/pisa_tower_d8149f.jpg)
+heroi | bola couro | bola couro | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Segundo Vincenzo Viviani, aluno de Galileu, ele soltou bolas de pesos diferentes da Torre de Pisa; historiadores duvidam; em 1971 David Scott (Apollo 15) soltou martelo e pena na Lua e caíram juntos (fonte: Wikipedia Galileo's Leaning Tower of Pisa experiment)

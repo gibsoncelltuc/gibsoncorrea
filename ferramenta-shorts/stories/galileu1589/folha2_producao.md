@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): GAL (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: conversar
-- Objetos/modelos: kit/pisa_tower, kit/marco_pisa, kit/ball
+- Objetos/modelos: kit/pisa_tower, kit/marco_pisa, kit/bola_couro
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bola, chao
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -73,11 +73,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Mas Galileu Galilei achou estranho e resolveu provar o contrário.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): ALU (variante 0, expressao smug); ALU (variante 1, expressao bored); PRO (variante 0, expressao smug)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/ball
+- Objetos/modelos: kit/bola_couro
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contrario
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): GAL (variante 0, expressao smile) | multidao: 0 de 
 - Animacao: -
-- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa
+- Objetos/modelos: kit/pisa_tower, kit/bola_couro, war/cannonballs, kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, pesos, pisa, torre
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -121,7 +121,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): GAL (variante 0, expressao shock) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa
+- Objetos/modelos: kit/pisa_tower, kit/bola_couro, war/cannonballs, kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, duas
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -222,18 +222,22 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/pisa_tower | b0, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_pisa | b0, b1, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/ball | b0, b3, b4, b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bola_couro | b0, b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/cannonballs | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/hammer | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/feather | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 16% | medio 61% | aberto 22% | detalhe 2%
+- Objeto heroi: kit/ball | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 16% | medio 62% | aberto 22% | detalhe 0%
 - Interacoes: b2 vai ate o outro, b3 aproxima-se, b6 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/ball) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - objeto heroi kit/ball nao aparece em nenhuma cena -> CORRECAO: por kit/ball em "props" de pelo menos uma cena (ou tirar de "herois")
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: objeto heroi (kit/ball) sem close de camera
+- geral: objeto heroi kit/ball nao aparece em nenhuma cena
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh galileu1589 bN bM` (so essas cenas).

@@ -1,17 +1,17 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Gerado em 25/11 02:00 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 02:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | GAL | - | ball, marco_pisa, pisa_tower | - | Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao m
+b0 | simples | street | two | GAL | - | bola_couro, marco_pisa, pisa_tower | - | Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao m
 b1 | transicao | street | reveal | ALU, ALU | 8 | marco_pisa | - | Conta a história que, em Pisa, na Itália, por volta de mil quinhentos 
 b2 | simples | interior pedra | two | ARI, ALU | - | - | - | O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, ma
-b3 | simples | interior pedra | group | ALU, ALU, PRO | - | ball | - | Mas Galileu Galilei achou estranho e resolveu provar o contrário.
-b4 | transicao | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | - | Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes
-b5 | chave | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo 
+b3 | simples | interior pedra | group | ALU, ALU, PRO | - | bola_couro | - | Mas Galileu Galilei achou estranho e resolveu provar o contrário.
+b4 | transicao | loc_campo | wide | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | - | Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes
+b5 | chave | loc_campo | wide | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo 
 b6 | simples | interior madeira | two | GAL, ALU | - | - | - | Hoje se discute se isso aconteceu mesmo, porque a história vem de um a
 b7 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um 
 b8 | simples | interior loja | close | GAL | - | - | - | No fim, até a pena deu razão ao Galileu.
@@ -22,13 +22,13 @@ b9 | simples | street | close | GAL | - | - | - | Agora não deixe de comentar: 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (12/13 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (12/14 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh galileu1589
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
@@ -36,5 +36,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local galileu1589 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 4. Travas do roteiro
 

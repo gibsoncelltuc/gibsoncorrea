@@ -778,6 +778,14 @@ for _f in sorted(__import__('glob').glob('obj_dict.d/*.json')):
 if ANO is not None and ANO < 500:
     for _b in B['beats']:
         if isinstance(_b.get('explica'), dict) and _b['explica'].get('objeto') == 'kit/crown': _b['explica']['objeto'] = 'kit/coroa_louros'   # explicacao na Antiguidade tambem
+_ERA_TROCA = [(500, 'kit/crown', 'kit/coroa_louros'), (1950, 'kit/ball', 'kit/bola_couro')]   # 25/11 objeto fora de epoca escrito no ROTEIRO tambem troca (props, explicacao)
+for _ano_lim, _de, _para in _ERA_TROCA:
+    if ANO is None or ANO >= _ano_lim: continue
+    for _b in B['beats']:
+        for _p in (_b.get('props') or []):
+            if isinstance(_p, list) and _p and _p[0] == _de: _p[0] = _para
+        if isinstance(_b.get('explica'), dict) and _b['explica'].get('objeto') == _de: _b['explica']['objeto'] = _para
+if ANO is not None and ANO < 1950: OBJ_DICT = [(r_, 'kit/bola_couro' if m_ == 'kit/ball' else m_, *x_) for r_, m_, *x_ in OBJ_DICT]; ENC_RES = [(r_, 'kit/bola_couro' if m_ == 'kit/ball' else m_) for r_, m_ in ENC_RES]   # 25/11 Goodyear: antes de 1950 a bola e' de COURO marrom costurado (a de gomos pretos e brancos e' dos anos 1970)
 if ANO is not None and ANO < 500: OBJ_DICT = [(r_, 'kit/coroa_louros' if m_ == 'kit/crown' else m_, *x_) for r_, m_, *x_ in OBJ_DICT]   # 25/11 'coroa' na Antiguidade = coroa de LOUROS de ouro (pesquisa: Munique 400 a.C., Aigai), nunca a coroa de pontas medieval
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
 def _sem_modelo(ws): return sorted(w_ for w_ in set(ws) if not any(re.search(o_[0], w_) for o_ in OBJ_DICT))   # palavra que ja tem modelo no OBJ_DICT (ex.: radio = elemento quimico da Marie Curie) nao e' falta
@@ -1642,6 +1650,10 @@ def build_beat(k, b):
         T.setdefault('cx', 0.0); T.setdefault('cz', -1.5)
     elif b.get('crowd') and persons and not mv:   # plano medio com tropa atras: a camera mira nos PERSONAGENS PRINCIPAIS (a tropa marchando puxava a mira para o vazio)
         T.setdefault('cx', round(sum(sl[i] for i in range(len(persons))) / len(persons), 2)); T.setdefault('cz', 1.2)
+    if b.get('interior') and not b.get('quadro_manual'):   # 25/11 (Arquimedes): sala tem 7.8 m ate a parede da frente; camera mais longe fica FORA da sala e a borda da parede entra borrada tapando metade da tela
+        _czi = float(b.get('cz', T.get('cz', 0)) or 0); _dmax = round(max(5.5, 7.3 - max(0.0, _czi)), 2)
+        for kk in ('d0', 'd1'):
+            if (b.get(kk) or T.get(kk) or 0) > _dmax: T[kk] = _dmax if kk == 'd0' else round(_dmax * 0.94, 2); b.pop(kk, None)   # d1 um pouco menor: a camera ainda se aproxima
     for kk in ('h', 'd0', 'd1', 'el', 'fov', 'az0', 'az1', 'cx', 'cz'):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')
@@ -1821,7 +1833,7 @@ def build_beat(k, b):
             elif tipo_ == 'golpe' or tipo_ == 'espeta':
                 fx.append(f"{{ k: 'burst', a: WS({wi_}) + 4, b: WS({wi_}) + 22, at: [X + {num(sl[-1] if len(sl) > 1 else sl[0] + _side * 1.6)}, DK + 2.0, {num(_z0 + 0.5)}], s: {0.9 if tipo_ == 'golpe' else 0.6} }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'bola':
-                pr.append(f"{{ asset: 'kit/ball', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], move: [[X + {num(_hx + _side * 6)}, {num(_z0 - 3)}], WS({wi_}) + 2, WS({wi_}) + 22, 'lin'], align: false, y: {grav_js(f'WS({wi_}) + 2', 20 / 30, 0.2, 0.2)}, spinY: 3, s: 0.35, drop: false }}")   # bola em parabola (gravidade); KWSFX.append((wi_, 'thump'))
+                pr.append(f"{{ asset: '{'kit/bola_couro' if ANO is not None and ANO < 1950 else 'kit/ball'}', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], move: [[X + {num(_hx + _side * 6)}, {num(_z0 - 3)}], WS({wi_}) + 2, WS({wi_}) + 22, 'lin'], align: false, y: {grav_js(f'WS({wi_}) + 2', 20 / 30, 0.2, 0.2)}, spinY: 3, s: 0.35, drop: false }}")   # bola em parabola (gravidade); KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'negocio':
                 pr.append(f"{{ asset: 'kit/coin', a: WS({wi_}) - 2, b: WS({wi_}) + 50, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: (f) => DK + 1.5 + 0.25 * Math.sin(f * 0.2), spinY: 2, s: 0.35, drop: false }}"); KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'tira':

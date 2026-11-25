@@ -104,6 +104,13 @@
    "consultas": [
     "pisa tower"
    ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bola couro",
+   "consultas": [
+    "bola couro"
+   ]
   }
  ]
 }
