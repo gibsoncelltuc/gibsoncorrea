@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 15,
  "title": "A Cola que Não Colava",
@@ -53,22 +53,35 @@
    "props": [
     [
      "kit/postit",
-     0.0,
-     -1.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
      }
     ]
    ],
-   "text": "1968",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
    ],
-   "say": "Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.",
+   "detalhe": false,
+   "bloco": "gancho",
+   "say": "Uma cola que falhou virou sucesso no mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "falhou"
+     }
+    ]
+   },
+   "text": "COLA QUE FALHOU",
+   "titulo": true,
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
@@ -81,12 +94,60 @@
      }
     ]
    },
-   "detalhe": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 1
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:smile",
+    "CHE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1980",
+   "detalhe": false,
+   "bloco": "promessa",
+   "say": "E a ideia veio de alguém cantando na igreja.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cantando"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
@@ -96,25 +157,20 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 0,
-   "interior": "galpao"
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "SIL:0:grin:paper"
-   ],
-   "fx": [
-    "puff@40"
-   ],
-   "sfx": [
-    "thump@40"
-   ],
-   "say": "Spencer Silver tentava criar uma super cola."
+   "interior": "galpao",
+   "bloco": "prova",
+   "say": "Em 1968, Spencer Silver tentava criar uma super cola.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tentava"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -129,18 +185,18 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.",
-   "detalhe": false
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "CHE:0:bored",
-    "SIL:0:nervous:paper"
-   ],
-   "interacao": "entregar",
-   "say": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada."
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Saiu o contrário: uma cola que grudava e soltava fácil.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "grudava"
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -152,46 +208,21 @@
    "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 4,
-    "outfits": [
-     "POV"
-    ],
-    "march": false
+    "n": 0
    },
-   "say": "Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja.",
    "interior": "pedra",
-   "moveis": [
-    [
-     "mk/Bench",
-     -6.2,
-     -1.8,
-     2.2
-    ],
-    [
-     "mk/Bench",
-     6.2,
-     -1.8,
-     2.2
-    ],
-    [
-     "mk/CandleStick_Stand",
-     -4.0,
-     -3.2,
-     2.2
-    ],
-    [
-     "mk/CandleStick_Stand",
-     4.0,
-     -3.2,
-     2.2
-    ],
-    [
-     "mk/BookStand",
-     0.0,
-     -3.4,
-     2.2
+   "bloco": "escalada",
+   "say": "Acontece que Art Fry cantava no coral da igreja.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cantava"
+     }
     ]
-   ]
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -205,40 +236,18 @@
    "sfx": [
     "whoosh@30"
    ],
-   "say": "Os papeizinhos que marcavam o hinário viviam caindo.",
    "interior": "pedra",
-   "moveis": [
-    [
-     "mk/Bench",
-     -6.2,
-     -1.8,
-     2.2
-    ],
-    [
-     "mk/Bench",
-     6.2,
-     -1.8,
-     2.2
-    ],
-    [
-     "mk/CandleStick_Stand",
-     -4.0,
-     -3.2,
-     2.2
-    ],
-    [
-     "mk/CandleStick_Stand",
-     4.0,
-     -3.2,
-     2.2
-    ],
-    [
-     "mk/BookStand",
-     0.0,
-     -3.4,
-     2.2
+   "bloco": "escalada",
+   "say": "E os papeizinhos do hinário viviam caindo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "desaba",
+      "na": "caindo"
+     }
     ]
-   ]
+   }
   },
   {
    "shot": "two",
@@ -264,7 +273,19 @@
     "ding@20",
     "sting@40"
    ],
-   "say": "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.",
+   "detalhe": false,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Ele pensou: e se os marcadores tivessem a cola fraca?",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pensou"
+     }
+    ]
+   },
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o postit (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -276,13 +297,9 @@
       "estado": "parado"
      }
     ]
-   },
-   "_auto_vis": 0,
-   "detalhe": false,
-   "quadro_manual": true
+   }
   },
   {
-   "say": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
    "explica": {
     "objeto": "kit/postit",
     "manobra": "gira",
@@ -291,64 +308,18 @@
      "AMARELO",
      "POR ACASO"
     ]
+   },
+   "bloco": "pagamento",
+   "say": "O papel saiu amarelo por acaso: era o único que tinha.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "papel"
+     }
+    ]
    }
-  },
-  {
-   "shot": "group",
-   "who": [
-    "FRY:0:laugh"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "props": [
-    [
-     "kit/postit",
-     2.4,
-     0.2,
-     2.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "POST-IT",
-   "titulo": true,
-   "say": "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.",
-   "impact": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/postit",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
   },
   {
    "shot": "two",
@@ -359,8 +330,8 @@
    "props": [
     [
      "kit/postit",
-     0.0,
-     -1.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -368,7 +339,19 @@
     ]
    ],
    "text": "1980",
-   "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.",
+   "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Em 1980, o post-it chegou às lojas do mundo todo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chegou"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
@@ -381,12 +364,66 @@
      }
     ]
    },
-   "detalhe": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 1
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:sad",
+    "CHE:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/postit",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "detalhe": false,
+   "bloco": "loop",
+   "say": "A cola não colava direito. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cola"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   }
  ],
  "visual": {
@@ -418,6 +455,19 @@
   ],
   "explicacoes": [
    "O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia \"Post-it Note\")."
-  ]
- }
+  ],
+  "buscas": {
+   "A Cola que Não Colava": "3M weak adhesive Spencer Silver 1968",
+   "Art Fry": "Art Fry 3M inventor Post-it",
+   "colega que cantava no coral": "church choir 1970s singer hymnal",
+   "chefes da 3M": "3M executives 1970s office",
+   "hinario com marcadores caindo": "hymnal bookmarks paper",
+   "amostras gratis": "Post-it free samples 1980 Boise",
+   "postit": "yellow Post-it note pad",
+   "O papel saiu amarelo por acaso: era o único que tinha.": "canary yellow scrap paper Post-it origin"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma cola que falhou virou sucesso no mundo, e a ideia veio de quem cantava na igreja. Pagamento: a cola fraca virou marcador de hinario e, em 1980, o post-it.",
+ "loop_frase_ok": true
 }

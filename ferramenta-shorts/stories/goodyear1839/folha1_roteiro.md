@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, borracha com enxofre caiu no fogão quente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@20, sting@40
-- Efeito + som nas palavras-chave: encena: x_espera (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: cai (throw) @5 -> acao + som de efeito; encena: x_espera (point) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@20, ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

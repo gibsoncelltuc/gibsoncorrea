@@ -48,14 +48,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: galpao; hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MAR na esquerda, expressao nervous, segura paper; PIE (cientista) na direita, expressao worried; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/frasco: FRENTE, centro (objeto principal da cena); tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
 ## b7: "Acontece que a radiação destruiu a saúde dela."
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: MAR no centro, expressao sad; sem multidao; acao: fala/gesto
+- LOCAL: hospital; hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MAR na esquerda, expressao sad; PIE (cientista) na direita, expressao cry; sem multidao; acao: nenhuma
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
 
 ## b8: "Hoje, os cadernos dormem em caixas de chumbo em Paris."

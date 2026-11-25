@@ -143,7 +143,9 @@
     "PIE"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/frasco"
+   ],
    "palavras": 10,
    "cena": "b6",
    "frase": "Ela andava com frascos no bolso, sem saber do perigo.",
@@ -154,14 +156,13 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "MAR"
+    "MAR",
+    "PIE"
    ],
-   "multidao": 6,
-   "objetos": [
-    "kit/marco_eiffel"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 8,
    "cena": "b7",
    "frase": "Acontece que a radiação destruiu a saúde dela.",
@@ -169,7 +170,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior hospital"
   },
   {
    "camera": "two",

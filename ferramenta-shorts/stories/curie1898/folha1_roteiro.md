@@ -69,9 +69,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a radiação destruiu a saúde dela.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: morre (point) @0 -> acao + som de efeito
-- Efeito visual marcado: ring@40
-- Texto na tela: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: HOSPITAL
 - Funcao na historia: VIRADA
 
 ## Cena b8  (~3.4 s)

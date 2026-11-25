@@ -322,7 +322,8 @@
      {
       "faz": "cai",
       "na": "caiu",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      },
      {
       "faz": "x_espera",
@@ -422,8 +423,8 @@
    "props": [
     [
      "kit/tires",
-     1.6,
-     -1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "fixo": true
@@ -471,10 +472,6 @@
     ]
    },
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "crowd",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -500,7 +497,10 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
