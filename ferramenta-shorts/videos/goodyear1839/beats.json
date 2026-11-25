@@ -56,8 +56,8 @@
    "props": [
     [
      "kit/stove",
-     1.6,
-     -0.5,
+     1.3,
+     0.4,
      1.3,
      {
       "fixo": true
@@ -65,8 +65,8 @@
     ],
     [
      "kit/gosma",
-     1.5,
-     0.3,
+     1.25,
+     0.9,
      0.5,
      {
       "fixo": true
@@ -96,10 +96,10 @@
    "interior": "madeira",
    "_enq_shot": "two",
    "quadro_manual": true,
-   "cx": 0.7,
-   "cz": -0.2,
-   "d0": 7.0,
-   "d1": 6.6,
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 7.6,
+   "d1": 7.2,
    "h": 2.2,
    "quadro": {
     "local": "sala de madeira",
@@ -118,7 +118,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "az0": 0,
+   "az1": 3
   },
   {
    "shot": "reveal",
@@ -227,8 +229,8 @@
    "props": [
     [
      "kit/stove",
-     1.6,
-     -0.5,
+     1.3,
+     0.4,
      1.3,
      {
       "fixo": true
@@ -248,10 +250,10 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 0.7,
-   "cz": -0.2,
-   "d0": 7.0,
-   "d1": 6.6,
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 7.6,
+   "d1": 7.2,
    "quadro_manual": true,
    "h": 2.2,
    "quadro": {
@@ -265,7 +267,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "az0": 0,
+   "az1": 3
   },
   {
    "shot": "two",
@@ -276,8 +280,8 @@
    "props": [
     [
      "kit/stove",
-     1.6,
-     -0.5,
+     1.3,
+     0.4,
      1.3,
      {
       "fixo": true
@@ -285,8 +289,8 @@
     ],
     [
      "kit/gosma",
-     1.5,
-     0.3,
+     1.25,
+     0.9,
      0.5,
      {
       "fixo": true
@@ -320,10 +324,10 @@
    },
    "_enq_shot": "two",
    "quadro_manual": true,
-   "cx": 0.7,
-   "cz": -0.2,
-   "d0": 7.0,
-   "d1": 6.6,
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 7.6,
+   "d1": 7.2,
    "h": 2.2,
    "quadro": {
     "local": "sala de madeira",
@@ -342,7 +346,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "az0": 0,
+   "az1": 3
   },
   {
    "shot": "two",
@@ -353,8 +359,8 @@
    "props": [
     [
      "kit/stove",
-     1.6,
-     -0.5,
+     1.3,
+     0.4,
      1.3,
      {
       "fixo": true
@@ -362,8 +368,8 @@
     ],
     [
      "kit/borracha",
-     1.5,
-     0.4,
+     1.25,
+     0.9,
      0.5,
      {
       "fixo": true
@@ -390,10 +396,10 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 0.7,
-   "cz": -0.2,
-   "d0": 7.0,
-   "d1": 6.6,
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 7.6,
+   "d1": 7.2,
    "quadro_manual": true,
    "h": 2.2,
    "quadro": {
@@ -413,7 +419,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "az0": 0,
+   "az1": 3
   },
   {
    "shot": "two",
@@ -462,8 +470,8 @@
    "props": [
     [
      "kit/tires",
-     3.6,
-     -2.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -537,7 +545,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -556,9 +565,9 @@
     ],
     [
      "kit/borracha",
-     2.4,
-     0.2,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -566,24 +575,6 @@
    ],
    "text": "GOODYEAR",
    "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/borracha",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tires",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": true,
    "encena": {
     "sentido": "negativa",
@@ -595,10 +586,11 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 7.6,
+   "d1": 7.2,
+   "quadro_manual": true
   }
  ],
  "visual": {

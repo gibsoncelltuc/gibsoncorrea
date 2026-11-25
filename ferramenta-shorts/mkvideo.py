@@ -1191,7 +1191,7 @@ def build_beat(k, b):
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
     if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoites?\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
-    if b.get('interior') == 'galpao' and not b.get('light'): light = 'overcast'   # galpao iluminado: luz branca fria (nao a luz amarela de sala)
+    if b.get('interior') == 'galpao' and not b.get('light') and light not in ('night', 'dusk', 'study_dark'): light = 'overcast'   # 25/11 Curie: de noite o galpao fica escuro (noite), nao nublado   # galpao iluminado: luz branca fria (nao a luz amarela de sala)
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     if b.get('explica'): return _explica(k, b, light, a, bb)   # v13: cena de explicacao sem personagem

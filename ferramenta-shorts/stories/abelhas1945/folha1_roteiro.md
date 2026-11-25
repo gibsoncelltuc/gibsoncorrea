@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: encena: examina (point) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@30
-- Texto na tela: TESTE
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~6.6 s)

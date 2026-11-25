@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.0s - 15 palavras - plano two
@@ -18,11 +18,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | avanca e o outro recua | OK |
 | 5 | - | ATUACAO | dancar | OK |
 
-## Cena b1 - 6.2s a 9.1s - 10 palavras - plano two
+## Cena b1 - 6.2s a 9.1s - 10 palavras - plano group
 > "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) POV acao do motor: examina | na palavra "estudando" (8.6s)
+  1) FRI acao do motor: examina | na palavra "estudando" (8.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -99,14 +99,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) POV acao do motor: examina | na palavra "testes" (45.8s)
+  1) FRI acao do motor: examina | na palavra "testes" (45.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | testes (45.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | TESTE | OK |
 
 ## Cena b9 - 50.2s a 55.5s - 19 palavras - plano two
 > "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas."
