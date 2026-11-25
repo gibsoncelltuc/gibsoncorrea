@@ -23,3 +23,10 @@
 - b3: ja corrigida 3 vezes, objeto "kit/balloon" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b7: ja corrigida 3 vezes, objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b9: ja corrigida 3 vezes, objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 05:45 autocorrecao de visibilidade
+- b3: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/balloon" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/balloon_air" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho

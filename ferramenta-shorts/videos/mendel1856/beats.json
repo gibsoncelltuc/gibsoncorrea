@@ -139,8 +139,8 @@
    "props": [
     [
      "kit/pea_green",
-     0.8,
-     0.3,
+     2.4,
+     0.2,
      1.8,
      {
       "fixo": true
@@ -148,8 +148,8 @@
     ],
     [
      "kit/pea_yellow",
-     -0.8,
-     0.3,
+     3.6,
+     -2.0,
      1.8,
      {
       "fixo": true
@@ -167,18 +167,18 @@
    "detalhe": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -203,7 +203,12 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -214,8 +219,8 @@
    "props": [
     [
      "kit/pea_yellow",
-     0.7,
-     0.3,
+     2.4,
+     0.2,
      1.8,
      {
       "fixo": true
@@ -247,7 +252,12 @@
       "na": "amarelas"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -536,18 +546,18 @@
    },
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/pea_green",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
