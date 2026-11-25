@@ -104,7 +104,7 @@
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/seringa_pe",
@@ -380,7 +380,7 @@
    "_enq_shot": "wide",
    "quadro": {
     "local": "salao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/seringa_pe",
@@ -510,5 +510,5 @@
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: o primeiro vacinado contra a raiva foi um menino de nove anos e quem aplicou nem era medico. Pagamento: dez dias de injecoes, Joseph sobreviveu e a noticia correu o mundo.",
  "loop_frase_ok": true,
- "max_wide": 5
+ "max_wide": 7
 }
