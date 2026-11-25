@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 2.2s - 9 palavras - plano crowd
+## Cena b0 - 0.0s a 2.2s - 9 palavras - plano wide
 > "Um exército inteiro perdeu uma batalha contra ele mesmo."
 
 - LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
@@ -33,7 +33,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | FOGO AMIGO | OK |
 
-## Cena b2 - 5.1s a 9.0s - 10 palavras - plano orbit
+## Cena b2 - 5.1s a 9.0s - 10 palavras - plano crowd
 > "Em 1788, o exército austríaco tinha soldados de vários países."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -71,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | brindar | OK |
 | 6 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 15.6s a 18.2s - 9 palavras - plano crowd
+## Cena b5 - 15.6s a 18.2s - 9 palavras - plano orbit
 > "A infantaria quis um gole. Negaram, e alguém atirou."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | TURCOS! | OK |
 
-## Cena b7 - 22.2s a 25.6s - 12 palavras - plano orbit
+## Cena b7 - 22.2s a 25.6s - 12 palavras - plano crowd
 > "Acontece que ninguém entendia a língua do vizinho. Todos atiraram em todos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -111,7 +111,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 26.2s a 28.1s - 8 palavras - plano group
+## Cena b8 - 26.2s a 28.1s - 8 palavras - plano wide
 > "Até os canhões dispararam contra o próprio exército."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -125,7 +125,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 28.9s a 30.7s - 8 palavras - plano two
+## Cena b9 - 28.9s a 30.7s - 8 palavras - plano group
 > "Os turcos chegaram e acharam o acampamento abandonado."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

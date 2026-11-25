@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "AUT",
     "AUT",
@@ -52,7 +52,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "AUT",
     "HUS",
@@ -116,7 +116,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "AUT",
     "HUS",
@@ -150,7 +150,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "AUT",
     "AUT",
@@ -178,11 +178,11 @@
    "cenario": "countryside"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "OFF"
    ],
-   "multidao": 6,
+   "multidao": 32,
    "objetos": [
     "cannon"
    ],
@@ -196,7 +196,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "TUR",
     "TUR"
