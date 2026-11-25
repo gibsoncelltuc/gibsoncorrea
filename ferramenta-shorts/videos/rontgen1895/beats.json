@@ -213,7 +213,9 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "hora": "noite",
+   "light": "night"
   },
   {
    "shot": "low",
@@ -240,7 +242,7 @@
     "ding@20",
     "sting@24"
    ],
-   "light": "study",
+   "light": "night",
    "bloco": "escalada",
    "say": "Acontece que, do outro lado da sala, uma tela brilhou no escuro.",
    "encena": {
@@ -294,7 +296,7 @@
    "sfx": [
     "sting@30"
    ],
-   "light": "study",
+   "light": "night",
    "bloco": "escalada",
    "say": "Pôs a mão na frente e viu os próprios ossos.",
    "encena": {
