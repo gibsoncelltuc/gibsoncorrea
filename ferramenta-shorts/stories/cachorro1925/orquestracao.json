@@ -100,7 +100,7 @@
    "palavras": 11,
    "cena": "b3",
    "frase": "Dizem que um soldado grego cruzou a fronteira atrás do cachorro.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

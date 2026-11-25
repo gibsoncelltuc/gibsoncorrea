@@ -213,7 +213,8 @@
      {
       "faz": "corre",
       "na": "cruzou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }
@@ -255,7 +256,8 @@
      {
       "faz": "tomba",
       "na": "atiraram",
-      "quem": 1
+      "quem": 1,
+      "forcar": true
      }
     ]
    }

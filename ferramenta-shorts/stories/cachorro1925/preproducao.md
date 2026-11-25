@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_campo | track | 2 | andando | kit/dog_sit, dog | - | -
 b1 | loc_campo | two | 1 | reagir | kit/dog_sit, dog | - | -
 b2 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
-b3 | mountain | track | 2 | andando | dog | - | -
+b3 | mountain | track | 2 | encena, andando | dog | - | -
 b4 | mountain | two | 14 | conversar, INTERAGEM: insiste | - | - | -
 b5 | mountain | orbit | 2 | batalha | - | - | -
 b6 | mountain | wide | 25 | encena | - | - | -

@@ -291,9 +291,9 @@
    "props": [
     [
      "kit/phone",
-     1.0,
-     1.0,
-     0.7,
+     0.8,
+     0.9,
+     1.6,
      {
       "fixo": true
      }
@@ -325,7 +325,13 @@
      }
     ]
    },
-   "detalhe": true
+   "detalhe": true,
+   "cx": 0.4,
+   "cz": 0.3,
+   "h": 1.4,
+   "d0": 7.5,
+   "d1": 7.0,
+   "quadro_manual": true
   },
   {
    "who": [

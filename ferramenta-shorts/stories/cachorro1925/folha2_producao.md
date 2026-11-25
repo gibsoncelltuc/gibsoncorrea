@@ -72,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, soldado
 - RISCOS: nenhum
