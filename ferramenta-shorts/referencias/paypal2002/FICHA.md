@@ -7,7 +7,7 @@
 - Roupas: {'MUS': 'camisa social azul sem gravata, calça escura', 'EBY': 'terninho e camisa social', 'POV': 'camiseta e jeans de startup'}
 - Cenario real: escritório de startup da virada dos anos 2000: mesas, monitores CRT, quadro branco; rua comercial do Vale do Silício
 - Objetos: ['monitor de computador', 'moedas/dólares', 'foguete (SpaceX, fundada em 2002)', 'smartphone', 'roadster2008']
-- Cenarios usados no video: interior madeira, interior pedra, loc_cidade, loc_pista
+- Cenarios usados no video: interior galpao, interior madeira, interior pedra, loc_cidade, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
