@@ -88,10 +88,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que, do outro lado da sala, uma tela brilhou no escuro.
 - Cenario: interior madeira | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): ROE (variante 0, expressao surprised)
-- Animacao: conversar
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, sala, tela
 - RISCOS: nenhum
@@ -106,9 +106,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO flash: -; entra no quadro +70 da cena
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +70 da cena
 - SOM: ding@70
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (13.9-15.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (15.4-17.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: sequencia de acao em 3 cameras (3.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b5 - Pôs a mão na frente e viu os próprios ossos.
@@ -137,7 +135,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ROE (variante 0, expressao grin); ANA (variante 0, expressao nervous)
-- Animacao: reagir
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alianca, esposa
 - RISCOS: nenhum
@@ -148,9 +146,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
 - PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (20.8-22.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (22.2-23.7 s): mesmo angulo
+- TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - Sem saber o que era, chamou de raio X.
@@ -175,10 +171,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Ganhou o primeiro Nobel de Física.
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): ROE (variante 0, expressao laugh); MED (variante 0, expressao grin); POV (variante 0, expressao laugh) | multidao: 18 de POV/MED/JOR
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
+- Animacao: comemorar
 - Objetos/modelos: kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fisica
 - RISCOS: nenhum
@@ -218,13 +214,11 @@ kit/crookes_tube | b2, b3 | pronto | conferir na folha de contato se le bem; se 
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b8 | planos abertos: 2 | mistura: close 22% | medio 59% | aberto 13% | detalhe 6%
+- Objeto heroi: kit/xray_plate | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 23% | medio 64% | aberto 10% | detalhe 3%
 - Interacoes: b0 aproxima-se, b7 avanca e o outro recua, b9 o outro se aproxima
-- RISCOS GERAIS: 
-  - menos de 2 grandes momentos -> CORRECAO: "impact": true em duas cenas de acao ("batalha": true SO' se a frase for de luta de verdade)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: menos de 2 grandes momentos
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh rontgen1895 bN bM` (so essas cenas).

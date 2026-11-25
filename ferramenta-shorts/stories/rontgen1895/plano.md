@@ -6,12 +6,12 @@ b0 | two | -  | placa: RAIO X, objeto na mao | (rosto) scared (expr + som de efe
 b1 | two | -  | interior | - | -
 b2 | two | -  | interior, mapa | - | -
 b3 | close | noite  | interior, objeto na mao | - | -
-b4 | two | noite  | interior | - | -
+b4 | two | noite  | batalha aberta com tiros, interior | - | -
 b5 | close | noite  | interior | - | -
-b6 | wide | dia  | interior | - | -
+b6 | wide | dia  | batalha aberta com tiros, interior | - | -
 b7 | two | -  | interior, placa: RAIO X, objeto na mao | - | -
-b8 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | Ganhou (stars + som de sino) | -
+b8 | crowd | -  | tropa, placa: NOBEL | Ganhou (stars + som de sino) | -
 b9 | two | -  | placa: RAIO X, objeto na mao | - | -
 
-Mistura de planos: close 22% | medio 59% | aberto 13% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 23% | medio 64% | aberto 10% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

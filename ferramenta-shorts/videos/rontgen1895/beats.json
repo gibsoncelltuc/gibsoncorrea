@@ -306,7 +306,8 @@
    "d0": 8.5,
    "d1": 8.0,
    "quadro_manual": true,
-   "h": 1.6
+   "h": 1.6,
+   "impact": true
   },
   {
    "shot": "two",
@@ -411,7 +412,8 @@
    "d0": 11.5,
    "d1": 11.0,
    "quadro_manual": true,
-   "h": 1.9
+   "h": 1.9,
+   "impact": true
   },
   {
    "shot": "two",

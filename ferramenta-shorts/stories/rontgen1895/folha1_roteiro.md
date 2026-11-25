@@ -40,12 +40,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~4.1 s)
 - Narracao: Acontece que, do outro lado da sala, uma tela brilhou no escuro.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, flash@70, ring@70
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~3.4 s)
 - Narracao: Pôs a mão na frente e viu os próprios ossos.
@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~3.4 s)
 - Narracao: Depois, fotografou a mão da esposa, Anna, com a aliança.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~3.1 s)
 - Narracao: Sem saber o que era, chamou de raio X.
@@ -81,7 +81,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: Ganhou -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~2.4 s)
 - Narracao: Um raio desconhecido, e foi assim que...
