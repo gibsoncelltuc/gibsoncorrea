@@ -1,12 +1,1 @@
-VISIBILIDADE: 11 FALHA(S)
-FALHA b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b6~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b6~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b0: objeto "kit/vagem_verde" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-FALHA b2: objeto "kit/vagem_verde" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-FALHA b2: objeto "kit/vagem_amarela" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-FALHA b3: objeto "kit/vagem_amarela" saiu com 12% da altura da tela, a ficha de cena planejou 32%
-FALHA b5: objeto "kit/vagem_amarela" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-FALHA b6: objeto "kit/vagem_verde" saiu com 12% da altura da tela, a ficha de cena planejou 32%
-FALHA b6: objeto "kit/vagem_amarela" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-FALHA b10: objeto "kit/vagem_verde" saiu com 14% da altura da tela, a ficha de cena planejou 32%
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (27 tomadas)

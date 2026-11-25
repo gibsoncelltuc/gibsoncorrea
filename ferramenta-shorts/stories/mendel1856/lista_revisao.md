@@ -3,17 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b6~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-3. b6~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-4. b0: objeto "kit/vagem_verde" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-5. b2: objeto "kit/vagem_verde" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-6. b2: objeto "kit/vagem_amarela" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-7. b3: objeto "kit/vagem_amarela" saiu com 12% da altura da tela, a ficha de cena planejou 32%
-8. b5: objeto "kit/vagem_amarela" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-9. b6: objeto "kit/vagem_verde" saiu com 12% da altura da tela, a ficha de cena planejou 32%
-10. b6: objeto "kit/vagem_amarela" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-11. b10: objeto "kit/vagem_verde" saiu com 14% da altura da tela, a ficha de cena planejou 32%
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um monge passou oito anos contando ervilhas e descobriu como": 

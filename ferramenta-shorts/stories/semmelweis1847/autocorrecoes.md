@@ -9,3 +9,7 @@
 - b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
 - b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
 - conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)
+
+## 25/11 11:53 autocorrecao de visibilidade
+- b4: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b4: quadro_manual (o roteiro fixou o quadro), objeto "kit/bisturi" saiu com 6% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
