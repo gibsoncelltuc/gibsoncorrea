@@ -106,6 +106,9 @@ for k, b in enumerate(BT):
             if M_ < alvo_m: f_ = alvo_m / M_; s = s * f_; H = H * f_; L = L * f_
             x = (0.0 if n_p != 1 else 1.0) if eh_p else next((v_ for v_ in (-1.6, 1.6, -2.8, 2.8, -4.0, 4.0) if v_ not in usados_x), 5.2); z = 1.0 if eh_p else 0.8; tela = round(H / (2 * TANF * 9.0), 2)
             rel = f'objeto pequeno ampliado para {num(H)} m (le de longe): NA FRENTE, {"entre os personagens" if eh_p else "ao lado"}, sem tapar rosto'
+        if re.search(r'bandeira_|flagpole', a):   # 25/11 Uisque: mastro posto 'ao lado' no mesmo plano deixava o PANO na frente do rosto do personagem; agora fica atras e de lado, com o pano acima das cabecas
+            if H < 4.6: s = s * 4.6 / H; H = 4.6
+            x = -3.0 if -3.0 not in usados_x else 3.0; z = -3.5; lugar = 'MEIO'; rel = f'{num(H)} m: mastro atras e ao lado dos personagens, pano acima das cabecas'
         usados_x.append(x)
         if estado == 'chegando': ex['mover'] = [num(x), num(z)]; x0, z0 = x - 7.0, z   # entra perto da borda (a -16 m o veiculo ficava fora do quadro quase a cena toda)
         elif estado == 'indo embora': ex['mover'] = [num(x + 7.0), num(z)]; x0, z0 = x, z
