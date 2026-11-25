@@ -1,0 +1,144 @@
+{
+ "duration": 32.784,
+ "frames30": 984,
+ "source": "silence-align (cost 0.48)",
+ "segments": [
+  [
+   0.147208,
+   2.95012
+  ],
+  [
+   3.72063,
+   4.65621
+  ],
+  [
+   5.48837,
+   6.20571
+  ],
+  [
+   6.99388,
+   7.74742
+  ],
+  [
+   7.955,
+   9.274
+  ],
+  [
+   10.0693,
+   12.4234
+  ],
+  [
+   13.2121,
+   15.3508
+  ],
+  [
+   16.14,
+   18.3992
+  ],
+  [
+   18.6766,
+   19.6103
+  ],
+  [
+   20.3789,
+   22.7839
+  ],
+  [
+   23.5566,
+   24.0995
+  ],
+  [
+   24.3559,
+   25.8795
+  ],
+  [
+   26.6728,
+   28.7919
+  ],
+  [
+   29.5801,
+   30.5253
+  ],
+  [
+   31.3251,
+   32.0675
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Duas palavras deixaram Donald Trump famoso no mundo inteiro.",
+   "s": 0.147,
+   "e": 2.95
+  },
+  {
+   "text": "E n\u00e3o foi na pol\u00edtica.",
+   "s": 3.721,
+   "e": 4.656
+  },
+  {
+   "text": "Foi na televis\u00e3o.",
+   "s": 5.488,
+   "e": 6.206
+  },
+  {
+   "text": "Em 2004,",
+   "s": 6.994,
+   "e": 7.747
+  },
+  {
+   "text": "estreou o programa O Aprendiz.",
+   "s": 7.955,
+   "e": 9.274
+  },
+  {
+   "text": "Candidatos disputavam um emprego numa empresa dele.",
+   "s": 10.069,
+   "e": 12.423
+  },
+  {
+   "text": "A equipe que perdia ia para a sala de reuni\u00e3o.",
+   "s": 13.212,
+   "e": 15.351
+  },
+  {
+   "text": "Acontece que ali Trump apontava o dedo e dizia:",
+   "s": 16.14,
+   "e": 18.399
+  },
+  {
+   "text": "voc\u00ea est\u00e1 demitido.",
+   "s": 18.677,
+   "e": 19.61
+  },
+  {
+   "text": "A final teve uns vinte e oito milh\u00f5es de espectadores.",
+   "s": 20.379,
+   "e": 22.784
+  },
+  {
+   "text": "No Brasil,",
+   "s": 23.557,
+   "e": 24.099
+  },
+  {
+   "text": "a vers\u00e3o teve Roberto Justus.",
+   "s": 24.356,
+   "e": 25.88
+  },
+  {
+   "text": "Ele apresentou o programa por mais de dez anos.",
+   "s": 26.673,
+   "e": 28.792
+  },
+  {
+   "text": "Virou a marca dele.",
+   "s": 29.58,
+   "e": 30.525
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 31.325,
+   "e": 32.068
+  }
+ ]
+}

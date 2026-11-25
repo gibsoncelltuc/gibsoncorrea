@@ -13,9 +13,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "E não foi na política. Foi na televisão."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: close (rosto e ombros)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
 - PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
