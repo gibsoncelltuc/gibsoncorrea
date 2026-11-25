@@ -148,7 +148,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b7 - Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades...
-- Cenario: loc_montanha | luz: desert | clima: limpo
+- Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ERA (variante 0, expressao neutral) | multidao: 0 de 
@@ -159,7 +159,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: desert
+- LOCAL: loc_campo; hora: desert
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: ERA (cientista) no centro, expressao neutral; sem multidao; acao: fala/gesto
 - OBJETO kit/stick: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -241,9 +241,11 @@ kit/starlink_sat | b9 | pronto | conferir na folha de contato se le bem; se pare
 ## Video inteiro
 - Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 10% | medio 60% | aberto 27% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b8 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'loc_campo': 6, 'loc_montanha': 2, 'loc_estudio': 2, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'loc_campo': 6, 'loc_montanha': 2, 'loc_estudio': 2, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh eratostenes240 bN bM` (so essas cenas).

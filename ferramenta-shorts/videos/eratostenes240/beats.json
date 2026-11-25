@@ -476,7 +476,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 19.3,
-   "d1": 18.4
+   "d1": 18.4,
+   "set": "loc_campo"
   },
   {
    "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
