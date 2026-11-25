@@ -3,7 +3,10 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b2~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+3. b9~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+4. b9~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um presidente foi reeleito com uma das maiores votações do m": 
