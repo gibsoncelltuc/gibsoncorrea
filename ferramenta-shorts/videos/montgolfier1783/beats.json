@@ -292,7 +292,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "JOS:0:smile"
    ],
@@ -329,7 +329,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": true,
+   "detalhe": false,
    "quadro": {
     "local": "loc_patio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -352,7 +352,7 @@
      }
     ]
    },
-   "cx": 0.0,
+   "cx": 0.4,
    "cz": -0.5,
    "h": 2.5,
    "d0": 12.0,
@@ -549,7 +549,7 @@
    "objetos": false
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "POV:0:laugh",
     "POV:1:laugh"
@@ -582,7 +582,7 @@
    "titulo": true,
    "say": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
    "fachada": false,
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",

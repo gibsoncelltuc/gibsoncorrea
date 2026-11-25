@@ -136,25 +136,26 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "JOS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon"
+    "kit/balloon",
+    "kit/marco_versalhes"
    ],
    "palavras": 16,
    "cena": "b5",
    "frase": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "REI",
     "RAI"
@@ -224,8 +225,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon",
-    "kit/marco_versalhes"
+    "kit/balloon"
    ],
    "palavras": 12,
    "cena": "b9",

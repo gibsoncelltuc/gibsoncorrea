@@ -9,11 +9,11 @@ b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_versalhes | - |
 b2 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/campfire | - | -
 b3 | loc_campo | wide | 1 | conversar, batalha | kit/balloon, kit/fire, kit/marco_versalhes | - | -
 b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b5 | loc_patio | two | 1 | conversar | kit/balloon, sheep, duck, rooster | - | -
-b6 | street | crowd | 32 | encena | kit/marco_versalhes | - | -
+b5 | loc_patio | wide | 1 | parados (so fala e pisca) | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
+b6 | street | orbit | 32 | encena | kit/marco_versalhes | - | -
 b7 | loc_campo | orbit | 1 | reagir, batalha | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
 b8 | loc_campo | two | 1 | reagir | kit/balloon, sheep, duck, rooster | - | -
-b9 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/balloon, kit/marco_versalhes | - | -
+b9 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/balloon | - | -
 b10 | loc_campo | wide | 1 | parados (so fala e pisca) | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 b11 | street | close | 1 | conversar | kit/balloon | - | -
 
@@ -21,5 +21,5 @@ OBJETO HEROI: kit/balloon
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b7
 Interacoes entre personagens: b2 avanca e o outro recua, b4 discutir, b9 o outro se aproxima
 
-Cenas com personagens parados: 2 de 12
+Cenas com personagens parados: 3 de 12
 FALTA MODELAR: nada
