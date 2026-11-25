@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e ...
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): KOL (variante 0, expressao shock); SEM (variante 0, expressao surprised)
 - Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: kit/bisturi
@@ -136,7 +136,7 @@ kit/lapide | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/wash_basin | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 20% | medio 65% | aberto 10% | detalhe 5%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 discutir, b8 empurrar
 - RISCOS GERAIS: nenhum
 
