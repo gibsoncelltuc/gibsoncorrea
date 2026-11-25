@@ -330,24 +330,18 @@
      {
       "quem": 0,
       "faz": "entrega",
-      "alvo": 1,
-      "na": "compra"
+      "alvo_quem": 1,
+      "na": "compra",
+      "forcar": true
      },
      {
-      "quem": 0,
-      "faz": "entrega",
-      "alvo": 1,
-      "na": "brinde"
+      "quem": 1,
+      "faz": "pega",
+      "na": "brinde",
+      "forcar": true
      }
     ]
    },
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "verificador": false,
    "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
@@ -378,18 +372,12 @@
      {
       "quem": 0,
       "faz": "entrega",
-      "alvo": 1,
-      "na": "venda"
+      "alvo_quem": 1,
+      "na": "venda",
+      "forcar": true
      }
     ]
-   },
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "verificador": false
+   }
   },
   {
    "say": "Isso rendeu cerca de dez milhões de dólares para a empresa.",
@@ -415,17 +403,11 @@
      {
       "quem": 0,
       "faz": "vence",
-      "na": "rendeu"
+      "na": "rendeu",
+      "forcar": true
      }
     ]
-   },
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "verificador": false
+   }
   },
   {
    "say": "O próprio Musk postou vídeos soltando fogo com o aparelho.",

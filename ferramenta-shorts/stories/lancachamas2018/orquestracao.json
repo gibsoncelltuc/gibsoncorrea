@@ -9,7 +9,7 @@
   ]
  ],
  "metricas": {
-  "acoes_encenadas": 75,
+  "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -154,10 +154,7 @@
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "compra",
-    "brinde"
-   ],
+   "acoes_faltando": [],
    "cenario": "interior loja"
   },
   {
@@ -182,9 +179,7 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [
-    "venda"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {
@@ -203,9 +198,7 @@
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "rendeu"
-   ],
+   "acoes_faltando": [],
    "cenario": "interior pedra"
   },
   {

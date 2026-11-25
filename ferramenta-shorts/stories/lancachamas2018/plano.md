@@ -8,9 +8,9 @@ b2 | two | -  | placa: 50 MIL BONÉS | - | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa | fogo (burst + som de tiro/explosao) | -
 b5 | two | -  | interior | - | -
-b6 | two | -  | interior | incêndio (burst + som de tiro/explosao) | -
-b7 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b8 | two | -  | interior | - | -
+b6 | two | -  | interior | incêndio (burst + som de tiro/explosao); encena: entrega (point) @1 (acao + som de efeito); encena: pega (lift) @9 (acao + som de efeito) | -
+b7 | crowd | -  | batalha aberta com tiros, tropa | encena: entrega (point) @5 (acao + som de efeito) | -
+b8 | two | -  | interior | encena: vence (up) @1 (acao + som de efeito) | -
 b9 | two | -  | - | fogo (burst + som de tiro/explosao) | -
 b10 | two | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -

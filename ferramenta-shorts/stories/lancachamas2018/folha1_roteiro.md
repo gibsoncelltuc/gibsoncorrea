@@ -59,27 +59,27 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 ## Cena b6  (~3.4 s)
 - Narracao: Cada compra vinha com um extintor de incêndio de brinde.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao
-- Efeito visual marcado: stars@30
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: entrega (point) @1 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.1 s)
 - Narracao: Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@30
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: entrega (point) @5 -> acao + som de efeito
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~3.8 s)
 - Narracao: Isso rendeu cerca de dez milhões de dólares para a empresa.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@30
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: vence (up) @1 -> acao + som de efeito
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
