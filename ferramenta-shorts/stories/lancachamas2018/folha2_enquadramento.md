@@ -42,10 +42,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Acontece que ele soltava fogo de verdade."
 - LOCAL: loc_deserto; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
-- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- PERSONAGENS: MUS no centro, expressao laugh, segura torch; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/fire: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b5: "O nome servia para driblar a alfândega, que barrava lança-chamas."
 - LOCAL: loja / taverna; hora: golden

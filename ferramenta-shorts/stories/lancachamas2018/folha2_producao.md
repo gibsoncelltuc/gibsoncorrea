@@ -101,9 +101,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (1): MUS (variante 0, expressao laugh)
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/bancada, kit/flamethrower, kit/fire
+- Personagens principais (1): MUS (variante 0, expressao laugh, segura torch)
+- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/bancada, kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: 
   - a narracao fala de FOGO e nao ha fogo em cena -> CORRECAO: tirar "interior"/"fogo": false desta cena (as labaredas entram sozinhas em cena externa) e por tocha na mao de quem ateia: "who": ["GAU:0:angry:torch", ...]
@@ -112,10 +112,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_deserto; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
-- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- PERSONAGENS: MUS no centro, expressao laugh, segura torch; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/fire: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: sequencia de acao em 3 cameras (2.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
@@ -215,7 +214,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bancada | b0, b1, b2, b3, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/flamethrower | b0, b2, b3, b4, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fire | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fire | b0, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_hollywood | b0, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/extinguisher | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tunel_boring | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
