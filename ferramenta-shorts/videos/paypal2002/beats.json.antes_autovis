@@ -78,6 +78,30 @@
      }
     ]
    },
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "tela": false,
+   "_enq_shot": "group",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "vendido",
+      "quem": 0
+     }
+    ]
+   },
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 1.5,
+     "un": " bi US$",
+     "titulo": "PREÇO DO PAYPAL",
+     "na": "bilhão",
+     "dur": 1.2
+    }
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -92,7 +116,46 @@
    "acao": "conversar",
    "say": "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/tv",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "eBay",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "comprou",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -100,12 +163,46 @@
     "POV:0:smile",
     "POV:1:grin"
    ],
-   "say": "O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem precisar de banco.",
+   "say": "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.",
    "fachada": false,
-   "interior": "loja"
+   "props": [
+    [
+     "kit/smartphone",
+     0.0,
+     1.0,
+     0.98,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "E-MAIL = DINHEIRO",
+   "interior": "madeira",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/smartphone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandar"
+     }
+    ]
+   }
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "EBY:0:shock",
     "MUS:0:smile"
@@ -114,7 +211,18 @@
    "mapa_at": 6,
    "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
    "fachada": false,
-   "set": "street"
+   "set": "street",
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "compra",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -148,6 +256,16 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ações"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -161,7 +279,16 @@
    ],
    "say": "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente.",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rico"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -206,6 +333,16 @@
      }
     ]
    },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fundado"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.9,
@@ -213,13 +350,13 @@
    "d1": 20.0
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "MUS:0:grin"
    ],
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.6,
@@ -245,13 +382,23 @@
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "investiu"
      }
     ]
    },
@@ -259,7 +406,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 1
   },
   {
    "shot": "wide",
@@ -271,14 +419,14 @@
     [
      "kit/coin",
      0.0,
-     1.0,
+     -1.2,
      0.92,
      {
       "fixo": true
      }
     ],
     [
-     "kit/roadster",
+     "kit/roadster2008",
      7.0,
      -14.0,
      2.6,
@@ -288,9 +436,18 @@
     ],
     [
      "kit/falcon9_land",
-     0.6,
-     1.0,
+     -7.0,
+     -14.0,
      1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tv",
+     1.6,
+     -1.0,
+     0.9,
      {
       "fixo": true
      }
@@ -301,16 +458,16 @@
    "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/coin",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
@@ -320,20 +477,86 @@
       "lugar": "FUNDO, esquerda",
       "tela": "18% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
    "objetos": false,
-   "_auto_vis": 2
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "venda",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 1
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MUS:0:smug"
    ],
    "say": "Quem diria: um pagamento online chegou ao espaço.",
    "fachada": false,
-   "set": "loc_campo"
+   "set": "loc_pista",
+   "props": [
+    [
+     "kit/falcon_air",
+     0.0,
+     -10.1,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tela": false,
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "wide",
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chegou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.8,
+   "d0": 21.0,
+   "d1": 20.0
   }
  ],
  "fontes": [
@@ -359,7 +582,9 @@
   "objetos": [
    "monitor de computador",
    "moedas/dólares",
-   "foguete (SpaceX, fundada em 2002)"
+   "foguete (SpaceX, fundada em 2002)",
+   "smartphone",
+   "roadster2008"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/PayPal",
@@ -372,7 +597,9 @@
    "eBay": "eBay 2002 website homepage",
    "Elon Musk": "Elon Musk 2002 PayPal",
    "SpaceX": "SpaceX Falcon 1 2006 launch pad",
-   "Tesla": "Tesla Motors 2004 early prototype Roadster"
+   "Tesla": "Tesla Motors 2004 early prototype Roadster",
+   "smartphone": "smartphone 2010s touchscreen phone",
+   "roadster2008": "Tesla Roadster 2008 red"
   },
   "explicacoes": [
    "O PayPal permitia enviar dinheiro pelo e-mail; o eBay o comprou por 1,5 bilhão de dólares em ações e a compra foi concluída em 3 de outubro de 2002 (fonte: https://en.wikipedia.org/wiki/PayPal)"

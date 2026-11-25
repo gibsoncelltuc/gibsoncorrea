@@ -184,17 +184,16 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MUS",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/coin",
     "kit/falcon9_land",
-    "kit/roadster2008",
-    "kit/tv"
+    "kit/roadster2008"
    ],
    "palavras": 13,
    "cena": "b8",
@@ -206,7 +205,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],

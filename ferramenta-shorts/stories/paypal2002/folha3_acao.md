@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 15 palavras - plano group
@@ -158,7 +158,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 42.6s a 45.7s - 13 palavras - plano two
+## Cena b8 - 42.6s a 45.7s - 13 palavras - plano wide
 > "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -168,18 +168,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | dinheiro (42.7s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | venda (43.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra dinheiro (42.7s): executa: estrelinhas + som
 - ACAO: negocio na palavra venda (43.5s): executa: moeda girando (compra/venda)
-- INTERACAO (a cena toda): executa: cochichar
-- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.9s a 49.2s - 8 palavras - plano wide
+## Cena b9 - 46.9s a 49.2s - 8 palavras - plano two
 > "Quem diria: um pagamento online chegou ao espaço."
 
 - LEITURA DA FRASE: sentido FATO
@@ -188,10 +184,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (48.7s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegou (48.7s): executa: poeira + som
+- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b10 - 50.3s a 53.6s - 13 palavras - plano close

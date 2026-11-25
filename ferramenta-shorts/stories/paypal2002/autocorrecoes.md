@@ -68,3 +68,16 @@
 
 ## 25/11 01:58 autocorrecao de visibilidade
 - b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 25/11 14:00 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b8: objeto "kit/tv" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+
+## 25/11 14:00 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b8: objeto citado "kit/roadster2008" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b8: objeto "kit/coin" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 14:01 autocorrecao de visibilidade
+- b8: ja corrigida 3 vezes, objeto citado "kit/coin" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b8: ja corrigida 3 vezes, objeto citado "kit/tv" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
