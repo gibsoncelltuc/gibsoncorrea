@@ -101,3 +101,7 @@
 ## 25/11 15:01 autocorrecao de visibilidade
 - b2: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b8: ja corrigida 3 vezes, objeto citado "kit/rocket" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 15:11 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/computador_2002" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
