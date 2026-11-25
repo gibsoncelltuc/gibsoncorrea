@@ -41,3 +41,6 @@
 - b5: quadro_manual (o roteiro fixou o quadro), animal citado aparece pequeno demais no take 1 (media 12% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior -> fica para o olho
 - b3: quadro_manual (o roteiro fixou o quadro), objeto "kit/fire" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 07:05 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), animal citado aparece pequeno demais no take 1 (media 11% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior -> fica para o olho
