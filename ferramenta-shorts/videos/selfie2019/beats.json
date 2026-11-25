@@ -183,9 +183,9 @@
     ],
     [
      "kit/phone",
-     0.55,
-     1.55,
-     0.35,
+     1.0,
+     1.0,
+     0.96,
      {
       "y": 1.45,
       "alto": 4.14,
@@ -245,9 +245,9 @@
     ],
     [
      "kit/phone",
-     0.5,
-     1.55,
-     0.35,
+     1.0,
+     1.0,
+     0.96,
      {
       "y": 2.0,
       "alto": 2.0,
@@ -283,6 +283,19 @@
      {
       "faz": "mostra",
       "na": "selfie"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
