@@ -3,10 +3,15 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Um exército inteiro conseguiu perder uma batalha contra si mesmo."
-- LOCAL: vila rural (casas, cercas, campo); hora: golden
-- CAMERA: travelling (camera acompanha andando)
+- LOCAL: vila rural (casas, cercas, campo); hora: noite
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: AUT na esquerda, expressao neutral; AUT no centro, expressao stern; AUT na direita, expressao neutral; AUT no fundo, expressao stern; multidao de 24 (AUT, HUS) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +20 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +45 da cena
+- EFEITO smoke: -; entra no quadro +30 da cena
+- SOM: cannon@20
+- SOM: cannon@45
 
 ## b1: "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam."
 - LOCAL: vila rural (casas, cercas, campo); hora: golden
@@ -58,10 +63,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 16.2 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -2.0, camera a 20.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: OFF no centro, expressao shock; multidao de 6 (AUT, HUS) ATRAS dos principais; acao: fala/gesto
-- OBJETO cannon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.5 m de altura x 6.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.5 m de altura x 6.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO cannon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.0 m de altura x 10.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.0 m de altura x 10.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +85 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +97 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +109 da cena

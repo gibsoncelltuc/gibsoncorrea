@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | wide | - neve | - | - | -
+b0 | wide | - neve | tropa | - | -
 b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | tiros: 5 soldados caem no chao (acao + som de efeito); invadiu (dust + som de impacto); encena: chega (point) @14 (acao + som de efeito) | -
 b2 | orbit | - neve | tropa, placa: -40 °C, mapa | - | -
 b3 | close | - neve | placa: SIMO HÄYHÄ | - | -

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 09 - O País do Bitcoin
 
-Gerado em 25/11 05:47 | 15 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 05:52 | 15 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -19,7 +19,7 @@ b9 | chave | loc_cidade | orbit | BUK | - | bitcoin | corpo: tropa/personagens e
 b10 | simples | loc_cidade | group | CLI, POV, POV | - | - | - | E nas pesquisas, sessenta e oito por cento da população era contra.
 b11 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/bitcoin (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Mas em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem 
 b12 | transicao | loc_pista | wide | BUK, DEP | 6 | bitcoin | - | E as reservas, que estavam no prejuízo, viraram lucro.
-b13 | simples | loc_pista | close | BUK | - | bitcoin | - | Aposta maluca ou visão de futuro? Você decide.
+b13 | simples | loc_pista | two | BUK | - | bitcoin | - | Aposta maluca ou visão de futuro? Você decide.
 b14 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

@@ -87,44 +87,15 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 0aa5d49a ckpt(curie1898): trecho 8
-- 7d4b820f ckpt(curie1898): trecho 7
-- 58357d86 ckpt(curie1898): trecho 6
-- 4797b0f9 progresso da fila
-- 2f37338b nota: nao editar make_video.sh com a fila rodando
-
-**In-progress files (255):**
-- ferramenta-shorts/aprovar_storyboard.sh
-- ferramenta-shorts/ckpt/arquimedes250/cenas.txt
-- ferramenta-shorts/ckpt/arquimedes250/folha3.hash
-- ferramenta-shorts/ckpt/arquimedes250/list.txt
-- ferramenta-shorts/ckpt/arquimedes250/seg_000.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_001.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_002.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_003.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_004.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_005.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_006.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_007.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_008.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_009.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_010.mp4
-- ferramenta-shorts/ckpt/arquimedes250/seg_011.mp4
-- ferramenta-shorts/pesquisar.py
-- ferramenta-shorts/referencias/arquimedes250/DOSSIE.json
-- ferramenta-shorts/referencias/arquimedes250/plano_pesquisa.json
-- ferramenta-shorts/referencias/arquimedes250/prints/arquimedes_sabio_de_siracusa_a88739.jpg
-- ferramenta-shorts/referencias/arquimedes250/prints/arquimedes_sabio_de_siracusa_c9459b.jpg
-- ferramenta-shorts/referencias/arquimedes250/prints/balanca_de_pratos_133c33.jpg
-- ferramenta-shorts/referencias/arquimedes250/prints/balanca_de_pratos_20f4de.jpg
-- [truncated — 232 more files]
+- 6843a4e5 storyboards: Bitcoin (rotulos sobrepostos), Arquimedes aprovado, Curie (pechblenda tapava a camera), Darwin (casco do navio tapava, tentilhoes enormes)
+- b0842cdf Goodyear b7: borracha na mao (escondia o personagem); Abelhas volta (render parou por disco cheio)
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-25 01:33:37 UTC
+**Hook generated:** 2026-11-25 05:48:08 UTC
 <!-- post-compact-recovery-end -->
 
 ## PASTA DE ENTREGA SEM MISTURA (ordem do Gibson 24/11)

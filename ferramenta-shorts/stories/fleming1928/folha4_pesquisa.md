@@ -4,9 +4,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: Fleming e a Penicilina
 - Epoca: 1928 | Lugar: Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas | Quando: agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945
-- HEROIS (objeto): kit/petri, kit/bancada, kit/gosma
+- HEROIS (objeto): kit/petri_mofo, kit/bancada, kit/petri
 - HEROIS (personagens): FLE, COL
-- Cenarios: hall, interior madeira, interior pedra, loc_campo, street
+- Cenarios: hall, interior galpao, interior madeira, interior pedra, loc_campo, street
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -24,10 +24,10 @@ pessoas | Howard Florey e Ernst Chain, que transformaram em remedio | Howard Flo
 objeto | placa de Petri com mofo | placa de Petri com mofo / placa de Petri com mofo 1928 | Molds.jpg (referencias/fleming1928/prints/placa_de_petri_com_mofo_d79985.jpg); Crimea, Ai-Petri, low clouds.jpg (referencias/fleming1928/prints/placa_de_petri_com_mofo_d7c9fc.jpg); Holy Spirit stained-glass window (Cathedra Petri). (referencias/fleming1928/prints/placa_de_petri_com_mofo_ae404d.jpg)
 objeto | microscopio | microscopio / microscopio 1928 | Binocular compound microscope, Carl Zeiss Jena, 19 (referencias/fleming1928/prints/microscopio_97aad6.jpg); Fine rotative table Microscope 5 (12996283235).jpg (referencias/fleming1928/prints/microscopio_40f39a.jpg); Microscope MET DP108688.jpg (referencias/fleming1928/prints/microscopio_5a25a2.jpg)
 objeto | frascos de vidro | frascos de vidro / frascos de vidro 1928 | Glass flask MET DP108415.jpg (referencias/fleming1928/prints/frascos_de_vidro_dfd1f6.jpg); Glass flask, 14th century BC, AM of Mycenae, 20171 (referencias/fleming1928/prints/frascos_de_vidro_6a3a2e.jpg); Glass flask, 14th century BC, AM of Mycenae, 20171 (referencias/fleming1928/prints/frascos_de_vidro_3bcb3e.jpg)
-heroi | petri | placa de Petri com mofo / Fleming e a Penicilina | Synthetic Production of Penicillin TR1468.jpg (referencias/fleming1928/prints/petri_6a4ae5.jpg); Alexander Fleming 3.jpg (referencias/fleming1928/prints/petri_499d1a.jpg); Alexander Fleming 1945.jpg (referencias/fleming1928/prints/petri_98bb4d.jpg)
+heroi | petri mofo | placa de Petri com mofo / Fleming e a Penicilina | SEM REFERENCIA
 heroi | bancada | bancada | Liderança da Bancada Feminina no Senado Federal (5 (referencias/fleming1928/prints/bancada_0aa6cf.jpg); Liderança da Bancada Feminina no Senado Federal (5 (referencias/fleming1928/prints/bancada_a366b7.jpg); Liderança da Bancada Feminina no Senado Federal (5 (referencias/fleming1928/prints/bancada_180dd9.jpg)
-heroi | gosma | gosma | GOSMA OSTAN.jpg (referencias/fleming1928/prints/gosma_0f0ea9.jpg)
-mecanismo | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d | soltava matava bacterias penicilina / petri diagram | Diagram of the petri dish.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_10ae28.jpg); Petri Net 2.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_a31f8c.jpg); Petri Net 3.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_ba227c.jpg)
+heroi | petri | petri | Synthetic Production of Penicillin TR1468.jpg (referencias/fleming1928/prints/petri_6a4ae5.jpg); Alexander Fleming 3.jpg (referencias/fleming1928/prints/petri_499d1a.jpg); Alexander Fleming 1945.jpg (referencias/fleming1928/prints/petri_98bb4d.jpg)
+mecanismo | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d | soltava matava bacterias penicilina / petri mofo diagram | Diagram of the petri dish.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_10ae28.jpg); Petri Net 2.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_a31f8c.jpg); Petri Net 3.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_ba227c.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929
