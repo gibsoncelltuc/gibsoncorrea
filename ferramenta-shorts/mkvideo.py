@@ -1043,8 +1043,11 @@ if B.get('director') is not False and B.get('emocao_close') is not False:
 _POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or o_.get('hats')]
 _UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and not B.get('serie', '').lower().startswith('guerras'))}
 for _b in beats:
-    if _b.get('crowd') and not _b.get('_crowd_roteiro') and _POVO:
-        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO]
+    _massa_ = lambda o_: o_ not in _UNICO or bool((B.get('outfits') or {}).get(o_, {}).get('rifle') or (B.get('outfits') or {}).get(o_, {}).get('multidao'))   # tropa (rifle) e figurino de multidao podem repetir
+    if _b.get('crowd') and not _POVO and (_b['crowd'].get('n') or 0) > 0 and not [o_ for o_ in _b['crowd'].get('outfits', []) if _massa_(o_)]:   # 25/11 (Bateria, sessao A): sem povo no roteiro, a multidao so' clonaria o Musk -> sem multidao
+        _b['crowd']['n'] = 0
+    if _b.get('crowd') and _POVO and (not _b.get('_crowd_roteiro') or not [o_ for o_ in _b['crowd'].get('outfits', []) if _massa_(o_)]):   # personagem com nome (Musk, rei, cientista) NUNCA vira multidao de clones, nem quando o roteiro escreveu so' ele
+        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if _massa_(o_)]
         _b['crowd']['outfits'] = list(dict.fromkeys(_ok + _POVO))
 
 
