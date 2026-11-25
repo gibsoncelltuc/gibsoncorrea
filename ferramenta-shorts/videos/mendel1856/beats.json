@@ -427,12 +427,12 @@
    ],
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
     "objetos": [
      {
       "objeto": "kit/vagem_verde",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      },
      {
@@ -443,20 +443,20 @@
      },
      {
       "objeto": "kit/vagem_amarela",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/vagem_amarela",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, direita",
+      "tela": "11% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/vagem_amarela",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -598,7 +598,7 @@
      {
       "objeto": "kit/vagem_verde",
       "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "3% da altura da tela",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      },
      {
@@ -610,7 +610,7 @@
      {
       "objeto": "kit/vagem_amarela",
       "lugar": "FRENTE, esquerda",
-      "tela": "2% da altura da tela",
+      "tela": "11% da altura da tela",
       "estado": "parado"
      }
     ]
