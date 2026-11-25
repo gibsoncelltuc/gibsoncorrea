@@ -8,7 +8,7 @@ b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | - | -
 b1 | harbor | group | 2 | conversar, INTERAGEM: susto | - | - | -
 b2 | harbor | crowd | 19 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
 b3 | harbor | orbit | 1 | batalha | ship | - | -
-b4 | loc_campo | two | 2 | reagir, INTERAGEM: avanca e o outro recua | - | paper | -
+b4 | harbor | two | 2 | reagir, INTERAGEM: avanca e o outro recua | - | paper | -
 b5 | harbor | wide | 1 | parados (so fala e pisca) | ship | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | book | -
 b7 | interior pedra | two | 1 | encena | kit/scroll | paper | -

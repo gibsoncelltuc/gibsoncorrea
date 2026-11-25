@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1651 | Lugar: Ilhas Scilly, arquipelago no extremo sudoeste da Inglaterra: ilhas pequenas, praias, rochas, casas de pedra, porto com barcos | Quando: 1651 (guerra civil inglesa), de dia; o tratado de paz em 17 de abril de 1986
 - HEROIS (objeto): kit/scroll
 - HEROIS (personagens): ILH, HOL, PRE, EMB
-- Cenarios: harbor, interior madeira, interior pedra, loc_campo
+- Cenarios: harbor, interior madeira, interior pedra
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 

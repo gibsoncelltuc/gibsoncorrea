@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~3.4 s)
 - Narracao: O comandante espanhol cortou a orelha dele com a espada.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: whoosh@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~3.1 s)
 - Narracao: Nove anos de guerra, por causa de uma orelha.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

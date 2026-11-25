@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Gerado em 25/11 17:50 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:04 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | harbor | two | ILH, HOL | - | scroll | - | Uma guerra durou 335 a
 b1 | simples | harbor | group | ILH, ILH | - | - | - | E só acabou porque alguém resolveu perguntar.
 b2 | chave | harbor | crowd | ILH | 18 | navios de guerra ao fundo, no tamanho real, ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1651, piratas das ilhas Scilly atacavam navios holandeses.
 b3 | chave | harbor | orbit | MAR | - | ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Holanda declarou guerra às ilhas.
-b4 | simples | loc_campo | two | PRE, ILH | - | - | - | Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.
+b4 | simples | harbor | two | PRE, ILH | - | - | - | Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.
 b5 | simples | harbor | wide | HOL | - | ship | - | Os holandeses foram embora. E ninguém lembrou de assinar a paz.
 b6 | simples | interior madeira | two | PRE, EMB | - | - | - | Três séculos depois, um historiador escreveu para a Holanda.
 b7 | simples | interior pedra | two | EMB | - | scroll | - | O embaixador veio às ilhas e assinou a paz.
@@ -29,11 +29,11 @@ N | Etapa | O que confere | Estado | Proximo passo
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh scilly1651
-10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh scilly1651
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh scilly1651
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local scilly1651 <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
 **Etapa atual:** 9. Revisao escrita e aprovacao
 

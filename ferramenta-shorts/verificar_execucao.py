@@ -40,6 +40,10 @@ def verifica(i):
     for k, b in enumerate(B['beats']):
         cs = cenas.get(f'b{k}', [])
         if not cs: continue
+        try: _rl = json.load(open(f'stories/{i}/orquestracao.json'))['cenas'][k]['cenario']
+        except Exception: _rl = None
+        if b.get('interior') and _rl and not _rl.startswith('interior'):   # 25/11 FILMAGEM CONTINUA: o mkvideo juntou a cena solta ao lugar das vizinhas; vale o cenario real da orquestracao
+            b = {**b, 'set': _rl}; b.pop('interior')
         if b.get('interior'):
             ctot += 1; (cok := cok + 1) if any(x == 'X_hall' for x, _ in cs) else cfal.append(f'b{k} interior')
         elif b.get('set'):
