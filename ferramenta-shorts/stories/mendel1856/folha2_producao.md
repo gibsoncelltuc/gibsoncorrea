@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um monge passou oito anos contando ervilhas e descobriu como herdamos ...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MEN (variante 0, expressao smile, segura bag) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/pea_green
@@ -275,11 +275,13 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 20% | medio 46% | aberto 31% | detalhe 2%
+- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 20% | medio 48% | aberto 31% | detalhe 0%
 - Interacoes: b4 discutir, b7 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/pea_green) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/pea_green) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mendel1856 bN bM` (so essas cenas).

@@ -376,7 +376,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lightning_rod",

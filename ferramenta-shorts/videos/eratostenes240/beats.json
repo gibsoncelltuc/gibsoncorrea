@@ -95,7 +95,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "mediu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.",
@@ -174,7 +185,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_le",
+      "na": "leu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
@@ -224,7 +246,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Isso"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
@@ -300,6 +332,16 @@
       "fincada"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Em"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -349,7 +391,18 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pensa",
+      "na": "pensou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
@@ -443,6 +496,16 @@
       "curva"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -485,7 +548,23 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 19.3,
-   "d1": 18.4
+   "d1": 18.4,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "mediu"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "contou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
@@ -495,7 +574,18 @@
     "ERA:0:grin:paper",
     "BIB:0:surprised"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "encontrou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
@@ -555,7 +645,17 @@
    "h": 2.8,
    "d0": 13.0,
    "d1": 11.0,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "No"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "exp": 0.9,

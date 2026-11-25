@@ -54,8 +54,8 @@
     ],
     [
      "kit/smartphone",
-     1.3,
-     0.2,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -80,7 +80,24 @@
    "say": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
    "fachada": false,
    "set": "hall",
-   "objetos": false
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "reveal",
+   "quadro": {
+    "local": "salao",
+    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/smartphone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -196,8 +213,8 @@
     ],
     [
      "kit/smartphone",
-     1.3,
-     0.2,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -225,7 +242,24 @@
    "fachada": false,
    "tiros": false,
    "set": "hall",
-   "objetos": false
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "salao",
+    "camera": "plano de multidao; plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/smartphone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",

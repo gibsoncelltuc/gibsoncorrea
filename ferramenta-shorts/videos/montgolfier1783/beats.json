@@ -182,6 +182,23 @@
       "quem": 0
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "group",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/campfire",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -195,8 +212,8 @@
     [
      "kit/balloon",
      0.0,
-     -8.0,
-     5.0,
+     -19.2,
+     8.22,
      {
       "fixo": true
      }
@@ -214,6 +231,24 @@
      {
       "faz": "mostra",
       "na": "balão"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -441,8 +476,8 @@
     [
      "kit/balloon",
      0.0,
-     -9.0,
-     5.0,
+     -19.2,
+     8.22,
      {
       "fixo": true
      }
@@ -479,6 +514,24 @@
      {
       "faz": "mostra",
       "na": "bosque"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
