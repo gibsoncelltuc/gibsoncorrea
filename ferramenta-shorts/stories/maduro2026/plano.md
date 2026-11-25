@@ -4,14 +4,14 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | noite  | tropa, placa: 3 HORAS | - | -
 b1 | wide | noite  | tropa | - | -
-b2 | reveal | -  | tropa, mapa | - | -
+b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | two | noite  | tropa | - | -
-b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: DELTA | - | -
+b4 | wide | noite  | tropa, placa: DELTA | - | -
 b5 | two | noite  | tropa | - | -
-b6 | low | noite  | - | - | -
+b6 | orbit | noite  | batalha aberta com tiros | - | -
 b7 | two | -  | - | - | -
-b8 | wide | -  | batalha aberta com tiros, tropa, placa: MUNDO | - | -
+b8 | crowd | -  | tropa, placa: MUNDO | - | -
 b9 | wide | noite  | tropa, placa: 3 HORAS | - | -
 
-Mistura de planos: close 16% | medio 54% | aberto 31% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 4% | medio 51% | aberto 44% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo); quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

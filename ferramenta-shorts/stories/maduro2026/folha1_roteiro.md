@@ -22,12 +22,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b2  (~3.1 s)
 - Narracao: Foi em janeiro de 2026, em Caracas, na Venezuela.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: VENEZUELA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~3.8 s)
 - Narracao: O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterrorismo.
@@ -45,7 +45,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, whoosh@50
 - Texto na tela: DELTA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b5  (~3.4 s)
 - Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas do país.
@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b6  (~3.8 s)
 - Narracao: Acontece que, em menos de três horas, ele já estava capturado.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~2.4 s)
 - Narracao: Foi levado de avião para Nova York.
@@ -81,7 +81,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: MUNDO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.4 s)
 - Narracao: A operação se chamou Resolução Absoluta. E foi assim que...
