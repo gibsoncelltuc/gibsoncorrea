@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 9 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
 > "Uma fila de luzes cruzou o céu, e chamaram de ETs."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luzes" (1.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luzes" (0.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,11 +23,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 4.1s a 6.7s - 8 palavras - plano two
+## Cena b1 - 3.1s a 5.4s - 8 palavras - plano two
 > "E a verdade estava num foguete da Flórida."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verdade" (4.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verdade" (3.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -40,21 +40,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 7.0s a 10.4s - 10 palavras - plano reveal
+## Cena b2 - 5.6s a 8.4s - 10 palavras - plano wide
 > "Em 2019, a SpaceX lançou sessenta satélites de uma vez."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (8.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (6.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b3 - 10.7s a 14.1s - 10 palavras - plano two
+## Cena b3 - 8.9s a 11.9s - 10 palavras - plano two
 > "Um dia depois, o holandês Marco Langbroek filmou o céu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "filmou" (13.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "filmou" (11.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -67,11 +67,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 14.4s a 17.4s - 9 palavras - plano wide
+## Cena b4 - 13.3s a 16.5s - 9 palavras - plano wide
 > "Viu pelo menos cinquenta e seis luzes em fila."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cinquenta" (15.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cinquenta" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -82,11 +82,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 17.8s a 21.5s - 11 palavras - plano group
+## Cena b5 - 16.9s a 20.9s - 11 palavras - plano crowd
 > "Acontece que um site de OVNIs recebeu mais de 150 relatos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "relatos" (21.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "relatos" (20.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -99,21 +99,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 21.9s a 24.8s - 9 palavras - plano two
+## Cena b6 - 21.1s a 24.2s - 9 palavras - plano two
 > "Os satélites ainda voavam juntos, logo depois do lançamento."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voavam" (23.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voavam" (22.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 25.2s a 27.4s - 7 palavras - plano two
+## Cena b7 - 24.3s a 26.0s - 7 palavras - plano two
 > "Não eram ETs. Eram satélites de internet."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "eram" (25.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "eram" (24.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -128,11 +128,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b8 - 27.8s a 30.0s - 7 palavras - plano wide
+## Cena b8 - 26.4s a 28.7s - 7 palavras - plano wide
 > "Internet no céu, e foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Internet" (27.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Internet" (26.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

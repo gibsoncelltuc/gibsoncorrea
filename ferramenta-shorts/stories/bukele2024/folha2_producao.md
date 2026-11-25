@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bukele2024/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bukele2024` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um presidente teve quase 85% dos votos, e o mundo se dividiu.
+## Cena b0 - Um presidente foi reeleito com uma das maiores votações do mundo.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh)
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/ballot_box, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, votos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maiores, presidente
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -21,38 +21,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "84,6%" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (0.1-2.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (2.2-4.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (0.1-1.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.6-3.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b1 - E o motivo dessa votação é polêmico.
+## Cena b1 - Foi em El Salvador, na América Central, e o presidente era Nayib Bukel...
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
-- Personagens principais (1): BUK (variante 0, expressao smile)
-- Animacao: comemorar
-- Objetos/modelos: kit/ballot_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): motivo
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)
-- PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
-- OBJETO kit/ballot_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
-
-## Cena b2 - Em 2024, Bukele tentou a reeleição em El Salvador.
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
-- Animacao: - | grande momento (efeito + som, sem tiro)
+- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 8 de POV
+- Animacao: -
 - Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): reeleicao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -63,17 +44,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "NAYIB BUKELE" flutuando no alto, na palavra 1 da frase
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (6.8-8.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (8.3-9.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (4.3-6.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (6.0-7.8 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b3 - Ele prometeu acabar com a violência das gangues.
+## Cena b2 - Ele chegou ao poder prometendo acabar com a violência das gangues.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): BUK (variante 0, expressao stern); POV (variante 0, expressao nervous)
-- Animacao: conversar | interacao: susto
+- Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, violencia
 - RISCOS: nenhum
@@ -88,40 +69,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@40
 - TEXTO NA TELA: "FIM DAS GANGUES" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (10.1-11.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (11.5-12.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (9.1-10.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (10.4-11.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b4 - Os assassinatos caíram de 106 para 2,4 por cem mil.
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug) | multidao: 6 de POV
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: REP (jornalista) na esquerda, expressao surprised, segura paper; BUK na direita, expressao smug; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "106 → 2,4" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (13.1-14.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (14.5-15.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b5 - Acontece que a Constituição proibia reeleição seguida.
+## Cena b3 - A Constituição proibia a reeleição seguida, mas em dois mil e vinte e ...
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): JUI (variante 0, expressao stern, segura paper); REP (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): constituicao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): constituicao, interpretacao, reeleicao, suprema
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -130,17 +89,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: JUI na esquerda, expressao stern, segura paper; REP (jornalista) na direita, expressao suspicious; sem multidao; acao: discutir
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (1.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (12.9-14.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (14.5-16.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (16.0-17.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b6 - Uma corte liberou, e críticos chamaram de ilegal.
+## Cena b4 - Críticos e opositores disseram que a candidatura era ilegal. O governo...
 - Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao nervous)
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corte, ilegal
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): candidatura, decisao, governo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -151,42 +113,39 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (17.5-19.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (19.0-20.5 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (19.1-20.7 s): mesmo angulo
+  - take 2 (20.7-22.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (22.2-23.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - Grupos de direitos humanos criticaram as prisões em massa.
+## Cena b5 - No dia da eleição, os salvadorenhos foram às urnas.
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): REP (variante 0, expressao suspicious, segura paper) | multidao: 14 de POV
-- Animacao: discutir
-- Objetos/modelos: kit/prison, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos, prisoes
+- Personagens principais (2): POV (variante 0, expressao grin); POV (variante 1, expressao smile) | multidao: 12 de POV
+- Animacao: -
+- Objetos/modelos: kit/ballot_box, kit/volcano
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eleicao, salvadorenhos, urnas
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: REP (jornalista) no centro, expressao suspicious, segura paper; multidao de 14 (PRE) ATRAS dos principais; acao: discutir
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "PRISÕES EM MASSA" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (20.6-22.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (22.1-23.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (23.6-25.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao grin; POV na direita, expressao smile; multidao de 12 (POV) ATRAS dos principais; acao: entregar
+- OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - Mesmo assim, ele levou 84,6% dos votos.
+## Cena b6 - Acontece que o resultado impressionou: Bukele teve quase oitenta e cin...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao laugh); REP (variante 0, expressao shock, segura paper)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): votos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): resultado, votos
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -200,17 +159,112 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TEXTO NA TELA: "84,6%" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (28.7-30.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (30.9-33.1 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b9 - Amado por uns, criticado por outros. Foi assim que...
-- Cenario: loc_cidade | luz: golden | clima: limpo
+## Cena b7 - Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
+- Cenario: loc_cidade | luz: dusk | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh)
-- Animacao: comemorar | interacao: vai ate o outro
-- Objetos/modelos: kit/ballot_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- Personagens principais (1): BUK (variante 0, expressao laugh) | multidao: 12 de POV
+- Animacao: comemorar
+- Objetos/modelos: kit/porch
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores, ruas
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dusk
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: BUK no centro, expressao laugh; multidao de 12 (POV) ATRAS dos principais; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "VITÓRIA" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (34.3-35.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (35.7-37.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b8 - O motivo: os assassinatos caíram de cento e seis para dois vírgula qua...
+- Cenario: interior galpao | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, cento, motivo
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: REP (jornalista) na esquerda, expressao surprised, segura paper; BUK na direita, expressao smug; sem multidao; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "106 → 2,4" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (38.2-39.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (39.7-41.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (41.2-42.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
+
+## Cena b9 - Organizações de direitos humanos, porém, criticaram as prisões em mass...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): REP (variante 0, expressao suspicious, segura paper) | multidao: 14 de POV
+- Animacao: discutir | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/prison, kit/volcano
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos, estado, excecao, prisoes
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: golden
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: REP (jornalista) no centro, expressao suspicious, segura paper; multidao de 14 (PRE) ATRAS dos principais; acao: discutir
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "PRISÕES EM MASSA" flutuando no alto, na palavra 1 da frase
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (44.2-45.8 s): mesmo angulo
+  - take 2 (45.8-47.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (47.5-49.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b10 - Amado por muitos e criticado por outros, ele virou um dos presidentes ...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (1): BUK (variante 0, expressao smile)
+- Animacao: comemorar
+- Objetos/modelos: kit/ballot_box, kit/globe
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): planeta, presidentes
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: golden
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)
+- PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
+- OBJETO kit/ballot_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (50.3-52.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (52.5-54.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_campo | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Personagens principais (1): BUK (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -218,15 +272,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/ballot_box | b0, b1, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/prison | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ballot_box | b0, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/porch | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/prison | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b2, b6 | planos abertos: 4 | mistura: close 4% | medio 64% | aberto 29% | detalhe 3%
-- Interacoes: b0 pular, b3 susto, b5 discutir, b8 o outro se aproxima, b9 vai ate o outro
+- Objeto heroi: kit/ballot_box | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 12% | medio 70% | aberto 16% | detalhe 2%
+- Interacoes: b0 pular, b2 susto, b3 discutir, b4 o outro se aproxima, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -238,15 +294,9 @@ kit/prison | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_cidade; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
-- PERSONAGENS: BUK na esquerda, expressao laugh; POV na direita, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- SOM: ding@30
-- TEXTO NA TELA: "84,6%" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (27.5-29.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (29.4-31.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (56.0-57.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (57.6-59.3 s): mesmo angulo
 <!-- /FICHA -->
 

@@ -1,14 +1,14 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 2.2s - 7 palavras - plano two
+## Cena b0 - 0.1s a 1.9s - 7 palavras - plano two
 > "Um exército perdeu uma guerra contra pássaros."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) SOL mao na testa (derrota) | na palavra "exército" (0.4s)
+  1) SOL mao na testa (derrota) | na palavra "exército" (0.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -27,11 +27,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 2.6s a 5.6s - 9 palavras - plano reveal
+## Cena b1 - 3.0s a 4.7s - 9 palavras - plano reveal
 > "E o placar final virou piada no mundo inteiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piada" (4.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piada" (4.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -41,7 +41,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Em 1932, vinte mil emus tomaram as lavouras da Austrália."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "emus" (7.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "emus" (7.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -58,11 +58,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 9.6s a 12.6s - 9 palavras - plano two
+## Cena b3 - 10.4s a 13.0s - 9 palavras - plano two
 > "Os agricultores pediram ajuda, e o governo mandou soldados."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (12.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (12.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -80,11 +80,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 6: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b4 - 13.0s a 16.3s - 10 palavras - plano wide
+## Cena b4 - 14.2s a 16.9s - 10 palavras - plano wide
 > "O major Meredith levou duas metralhadoras e dez mil balas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "levou" (14.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "levou" (15.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -95,84 +95,79 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 16.7s a 20.7s - 12 palavras - plano orbit
+## Cena b5 - 18.0s a 21.1s - 12 palavras - plano orbit
 > "Acontece que os emus se espalharam, e as balas só acertavam poeira."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) SOL atira com a arma (clarao na boca do cano + som) | na palavra "balas" (19.6s)
+  1) SOL atira com a arma (clarao na boca do cano + som) | na palavra "balas" (20.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | balas (19.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | balas (20.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: atira na palavra balas (19.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ACAO: atira na palavra balas (20.1s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b6 - 21.1s a 24.1s - 9 palavras - plano wide
+## Cena b6 - 22.1s a 24.5s - 9 palavras - plano wide
 > "Uma metralhadora num caminhão sacudia tanto que ninguém acertava."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
-  1) SOL pega/levanta o objeto | na palavra "sacudia" (22.6s)
+  1) SOL pega/levanta o objeto | na palavra "sacudia" (23.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 24.4s a 27.8s - 10 palavras - plano crowd
+## Cena b7 - 25.8s a 28.9s - 10 palavras - plano wide
 > "O major comparou os emus a tanques. A imprensa riu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) SOL acao do motor: ri | na palavra "riu" (27.8s)
-  2) SOL acao do motor: sai | na palavra "riu" (27.8s)
+  1) SOL acao do motor: ri | na palavra "riu" (28.9s)
+  2) SOL acao do motor: sai | na palavra "riu" (28.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | riu (27.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | riu (27.8s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 1 | riu (28.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | riu (28.9s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | HA HA HA | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | HA HA HA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra riu (27.8s): executa: estrelinhas + som
-- ACAO: x_ri na palavra riu (27.8s): executa: ri de bracos para cima + brilho
+- EFEITO: stars na palavra riu (28.9s): executa: estrelinhas + som
+- ACAO: x_ri na palavra riu (28.9s): executa: ri de bracos para cima + brilho
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 10: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 28.1s a 30.7s - 8 palavras - plano group
+## Cena b8 - 29.9s a 32.3s - 8 palavras - plano crowd
 > "Seis dias, milhares de balas, poucos emus abatidos."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "abatidos" (30.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "abatidos" (32.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 6 DIAS | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | 6 DIAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 31.1s a 33.7s - 8 palavras - plano reveal
+## Cena b9 - 33.6s a 36.6s - 8 palavras - plano reveal
 > "Exército zero, emus um. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Exército" (31.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Exército" (33.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

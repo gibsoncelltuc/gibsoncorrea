@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 11 - A Janela do Cybertruck
 
-Gerado em 25/11 17:25 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:49 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | simples | hall | group | MUS, DSG | - | cybertruck, steel_ball | - | E mesm
 b2 | transicao | hall | wide | MUS | - | cybertruck | - | Em 2019, a Tesla apresentou o Cybertruck.
 b3 | transicao | hall | wide | MUS | - | cybertruck | - | Musk garantiu que o vidro era super resistente.
 b4 | simples | hall | two | DSG | - | cybertruck, steel_ball | - | O designer jogou uma esfera de aço na janela.
-b5 | chave | hall | group | MUS | 14 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente da plateia.
+b5 | chave | hall | group | MUS | - | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente da plateia.
 b6 | chave | hall | group | DSG | - | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tentou em outra janela. Também rachou.
 b7 | simples | hall | two | MUS | - | cybertruck, phone, steel_ball | - | Musk disse que, nos testes, o vidro aguentava.
 b8 | simples | hall | group | MUS, DSG | - | globe | - | Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.

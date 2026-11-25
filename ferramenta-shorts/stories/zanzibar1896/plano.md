@@ -10,8 +10,8 @@ b4 | wide | -  | tropa, objeto na mao | - | -
 b5 | reveal | -  | tropa, placa: 2.800 | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | fogo (burst + som de tiro/explosao) | -
 b7 | two | -  | tropa | - | -
-b8 | wide | -  | batalha aberta com tiros, placa: 9:40, objeto na mao | cavalaria: 4 soldados a cavalo (GUA) (acao + som de efeito); caiu (dust + som de impacto) | -
+b8 | wide | -  | tropa, placa: 9:40, objeto na mao | caiu (dust + som de impacto) | -
 b9 | two | -  | placa: 38 MINUTOS | - | -
 
-Mistura de planos: close 11% | medio 63% | aberto 23% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 59% | aberto 28% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

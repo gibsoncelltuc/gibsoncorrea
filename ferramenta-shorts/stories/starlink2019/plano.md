@@ -4,13 +4,13 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | noite  | batalha aberta com tiros, tropa, placa: OVNI? | - | -
 b1 | two | -  | interior | - | -
-b2 | reveal | -  | tropa | - | -
+b2 | wide | -  | tropa | - | -
 b3 | two | noite  | - | - | -
 b4 | wide | noite  | tropa, placa: 56 | - | -
-b5 | group | -  | batalha aberta com tiros, tropa | - | -
+b5 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b6 | two | -  | tropa | - | -
 b7 | two | -  | interior, mapa | - | -
 b8 | wide | noite  | batalha aberta com tiros, tropa, placa: OVNI? | - | -
 
-Mistura de planos: close 2% | medio 77% | aberto 21% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 4% | medio 65% | aberto 31% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

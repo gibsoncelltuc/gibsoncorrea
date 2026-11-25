@@ -5,19 +5,21 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | comemorar, INTERAGEM: pular | kit/ballot_box, kit/volcano | - | -
-b1 | loc_campo | group | 1 | comemorar | kit/ballot_box | - | -
-b2 | loc_campo | wide | 2 | batalha | kit/volcano | - | -
-b3 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | - | - | -
-b4 | loc_campo | wide | 8 | conversar | - | paper | -
-b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
-b6 | loc_patio | orbit | 2 | reagir, batalha | - | paper | -
-b7 | loc_campo | wide | 15 | discutir | kit/prison, kit/volcano | paper | -
-b8 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | paper | -
-b9 | loc_cidade | two | 2 | comemorar, INTERAGEM: vai ate o outro | kit/ballot_box | - | -
+b1 | loc_campo | reveal | 10 | parados (so fala e pisca) | kit/volcano | - | -
+b2 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | - | - | -
+b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
+b4 | loc_patio | two | 2 | reagir, INTERAGEM: susto | - | paper | -
+b5 | loc_campo | wide | 14 | parados (so fala e pisca) | kit/ballot_box, kit/volcano | - | -
+b6 | loc_cidade | orbit | 2 | reagir, batalha | - | paper | -
+b7 | loc_cidade | two | 13 | comemorar | kit/porch | - | -
+b8 | interior galpao | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
+b9 | loc_pista | wide | 1 | discutir, batalha | kit/prison, kit/volcano | paper | -
+b10 | loc_pista | group | 1 | comemorar | kit/ballot_box, kit/globe | - | -
+b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/ballot_box
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b6
-Interacoes entre personagens: b0 pular, b3 susto, b5 discutir, b8 o outro se aproxima, b9 vai ate o outro
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
+Interacoes entre personagens: b0 pular, b2 o outro se aproxima, b3 discutir, b4 susto, b8 insiste
 
-Cenas com personagens parados: 0 de 10
+Cenas com personagens parados: 2 de 12
 FALTA MODELAR: nada

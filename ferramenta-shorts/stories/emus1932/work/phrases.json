@@ -1,0 +1,171 @@
+{
+ "duration": 37.464,
+ "frames30": 1124,
+ "source": "silence-align (cost 1.41)",
+ "segments": [
+  [
+   0.143458,
+   2.23133
+  ],
+  [
+   3.01721,
+   5.07238
+  ],
+  [
+   5.85583,
+   7.217
+  ],
+  [
+   7.41887,
+   9.60208
+  ],
+  [
+   10.3925,
+   11.7779
+  ],
+  [
+   12.049,
+   13.4467
+  ],
+  [
+   14.2295,
+   17.2157
+  ],
+  [
+   18.0085,
+   19.5039
+  ],
+  [
+   19.8086,
+   21.3407
+  ],
+  [
+   22.1195,
+   24.9872
+  ],
+  [
+   25.7781,
+   27.4994
+  ],
+  [
+   28.2825,
+   29.0535
+  ],
+  [
+   29.8599,
+   30.5092
+  ],
+  [
+   30.6997,
+   31.5844
+  ],
+  [
+   31.812,
+   32.8595
+  ],
+  [
+   33.6431,
+   34.4959
+  ],
+  [
+   34.7091,
+   35.2054
+  ],
+  [
+   35.9923,
+   36.735
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um ex\u00e9rcito perdeu uma guerra contra p\u00e1ssaros.",
+   "s": 0.143,
+   "e": 2.231
+  },
+  {
+   "text": "E o placar final virou piada no mundo inteiro.",
+   "s": 3.017,
+   "e": 5.072
+  },
+  {
+   "text": "Em 1932,",
+   "s": 5.856,
+   "e": 7.217
+  },
+  {
+   "text": "vinte mil emus tomaram as lavouras da Austr\u00e1lia.",
+   "s": 7.419,
+   "e": 9.602
+  },
+  {
+   "text": "Os agricultores pediram ajuda,",
+   "s": 10.393,
+   "e": 11.778
+  },
+  {
+   "text": "e o governo mandou soldados.",
+   "s": 12.049,
+   "e": 13.447
+  },
+  {
+   "text": "O major Meredith levou duas metralhadoras e dez mil balas.",
+   "s": 14.229,
+   "e": 17.216
+  },
+  {
+   "text": "Acontece que os emus se espalharam,",
+   "s": 18.009,
+   "e": 19.504
+  },
+  {
+   "text": "e as balas s\u00f3 acertavam poeira.",
+   "s": 19.809,
+   "e": 21.341
+  },
+  {
+   "text": "Uma metralhadora num caminh\u00e3o sacudia tanto que ningu\u00e9m acertava.",
+   "s": 22.119,
+   "e": 24.987
+  },
+  {
+   "text": "O major comparou os emus a tanques.",
+   "s": 25.778,
+   "e": 27.499
+  },
+  {
+   "text": "A imprensa riu.",
+   "s": 28.282,
+   "e": 29.053
+  },
+  {
+   "text": "Seis dias,",
+   "s": 29.86,
+   "e": 30.509
+  },
+  {
+   "text": "milhares de balas,",
+   "s": 30.7,
+   "e": 31.584
+  },
+  {
+   "text": "poucos emus abatidos.",
+   "s": 31.812,
+   "e": 32.859
+  },
+  {
+   "text": "Ex\u00e9rcito zero,",
+   "s": 33.643,
+   "e": 34.496
+  },
+  {
+   "text": "emus um.",
+   "s": 34.709,
+   "e": 35.205
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 35.992,
+   "e": 36.735
+  }
+ ]
+}

@@ -168,8 +168,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "GUA",
-    "ING2"
+    "GUA"
    ],
    "multidao": 0,
    "objetos": [
@@ -180,15 +179,9 @@
    "palavras": 7,
    "cena": "b8",
    "frase": "Às nove e quarenta, a bandeira caiu.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
