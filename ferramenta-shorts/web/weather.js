@@ -54,4 +54,45 @@ function sceneryLights(L, f, C, focus) {
   const sa = L.az * Math.PI / 180, se = L.el * Math.PI / 180; sunGlow.position.set(C.pos[0] + Math.cos(se) * Math.cos(sa) * 1000, C.pos[1] + Math.sin(se) * 1000, C.pos[2] + Math.cos(se) * Math.sin(sa) * 1000); sunGlow.lookAt(C.pos[0], C.pos[1], C.pos[2]); sunGlow.scale.setScalar(L.glow ? 520 : 0.0001); sunGlow.material.opacity = L.glow || 0;
   updateMotes(f, C, !!L.shafts);
   shafts.forEach((m, i) => { m.visible = !!L.shafts; if (!L.shafts) return; const k = i / (shafts.length - 1) - 0.5; m.material.opacity = L.shafts * (0.35 + 0.25 * Math.sin(f * 0.03 + i)); m.position.set(C.look[0] + k * 9 + Math.sin(f * 0.01 + i) * 0.4, C.look[1] + 8, C.look[2] - 3 - Math.abs(k) * 4); m.rotation.set(0, Math.atan2(C.pos[0] - m.position.x, C.pos[2] - m.position.z), -0.35); });
-}
+}/*ADITIVO*/
+// 25/11 (Gibson: "chuva, tempestade, granizo, gelo, fogo, vento ja era para existir"): GRANIZO (bolas de gelo caindo rapido) e GELO (ar gelado: nevoa branca-azulada + cristais).
+// W.weather.hail = 0..1, W.weather.ice = 0..1. Codigo aditivo: video sem hail/ice desenha igual a antes.
+const HAIL_N = 900, ICE_N = 260;
+const hailMesh = new THREE.InstancedMesh(new THREE.SphereGeometry(0.055, 7, 5), new THREE.MeshBasicMaterial({ color: '#f2fbff', transparent: true, opacity: 0.95, depthWrite: false, fog: false }), HAIL_N); hailMesh.userData.ndSkip = true; hailMesh.frustumCulled = false; hailMesh.renderOrder = 4; hailMesh.visible = false; scene.add(hailMesh);
+const iceMesh = new THREE.InstancedMesh(new THREE.OctahedronGeometry(0.035, 0), new THREE.MeshBasicMaterial({ color: '#e8f6ff', transparent: true, opacity: 0.9, depthWrite: false, fog: false }), ICE_N); iceMesh.userData.ndSkip = true; iceMesh.frustumCulled = false; iceMesh.renderOrder = 4; iceMesh.visible = false; scene.add(iceMesh);
+const HSEED = [], ISEED = []; { const hp = P.rng(909); for (let i = 0; i < HAIL_N; i++) HSEED.push([hp(), hp(), hp()]); for (let i = 0; i < ICE_N; i++) ISEED.push([hp(), hp(), hp(), hp()]); }
+const _setWeather0 = setWeather;
+setWeather = function (W) { _setWeather0(W); const w = window.WXO || W.weather || WX_DEFAULT; WX.hail = w.hail || 0; WX.ice = w.ice || 0; };
+const _weatherParticles0 = weatherParticles;
+weatherParticles = function (f, camPos) {
+  _weatherParticles0(f, camPos); const t = f / 30, R = 10;
+  hailMesh.visible = WX.hail > 0.02; if (hailMesh.visible) {   // granizo: cai bem mais rapido e mais reto que a chuva, bolinhas brancas
+    const n = Math.floor(HAIL_N * Math.min(1, WX.hail)); hailMesh.count = n;
+    for (let i = 0; i < n; i++) { const r = HSEED[i]; const y = ((r[1] * 16 - t * 22 * (0.85 + r[2] * 0.3)) % 16 + 16) % 16; _pp.set(camPos.x + (r[0] - 0.5) * 2 * R + (16 - y) * 0.08 * WX.wind * WX.dx, camPos.y - 4 + y, camPos.z + (r[2] - 0.5) * 2 * R); _ss.set(1, 1, 1); _qq.identity(); _mm.compose(_pp, _qq, _ss); hailMesh.setMatrixAt(i, _mm); }
+    hailMesh.instanceMatrix.needsUpdate = true; }
+  iceMesh.visible = WX.ice > 0.02; if (iceMesh.visible) {   // gelo: cristais brilhando parados no ar, girando devagar
+    const n = Math.floor(ICE_N * Math.min(1, WX.ice)); iceMesh.count = n;
+    for (let i = 0; i < n; i++) { const r = ISEED[i]; _pp.set(camPos.x + (r[0] - 0.5) * 2 * R, camPos.y - 2.5 + r[1] * 6 + Math.sin(t * 0.8 + r[3] * 9) * 0.15, camPos.z + (r[2] - 0.5) * 2 * R); _ee.set(t * (0.5 + r[3]), t * 0.7, 0); _qq.setFromEuler(_ee); const k = 0.6 + 0.6 * Math.abs(Math.sin(t * 2 + r[3] * 7)); _ss.set(k, k * 1.6, k); _mm.compose(_pp, _qq, _ss); iceMesh.setMatrixAt(i, _mm); }
+    iceMesh.instanceMatrix.needsUpdate = true; }
+};
+const _sceneryLights0 = sceneryLights;
+sceneryLights = function (L, f, C, focus) { _sceneryLights0(L, f, C, focus); if (WX.ice > 0.02) { scene.fog.color.lerp(new THREE.Color('#dcecff'), 0.55 * WX.ice); scene.fog.far *= 1 - 0.3 * WX.ice; hemi.color.lerp(new THREE.Color('#e6f2ff'), 0.4 * WX.ice); } if (WX.hail > 0.02) { scene.fog.color.lerp(new THREE.Color('#8a96a8'), 0.4 * WX.hail); sun.intensity *= 1 - 0.35 * WX.hail; } };
+/*FIM ADITIVO*//*ADITIVO*/
+// 25/11 VENTO FORTE visivel: rajadas (linhas brancas compridas cruzando o quadro) + folhas extras maiores, quando WX.wind >= 1.1 (clima "vento" e "tempestade").
+const GUST_N = 260, LEAF2_N = 220;
+const gustMesh = new THREE.InstancedMesh(new THREE.PlaneGeometry(2.2, 0.04), new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.75, depthWrite: false, fog: false, side: THREE.DoubleSide }), GUST_N); gustMesh.userData.ndSkip = true; gustMesh.frustumCulled = false; gustMesh.renderOrder = 4; gustMesh.visible = false; scene.add(gustMesh);
+const leaf2Mesh = new THREE.InstancedMesh(new THREE.PlaneGeometry(0.45, 0.28), new THREE.MeshBasicMaterial({ color: '#ffffff', side: THREE.DoubleSide, transparent: true, depthWrite: false }), LEAF2_N); leaf2Mesh.userData.ndSkip = true; leaf2Mesh.frustumCulled = false; leaf2Mesh.visible = false; scene.add(leaf2Mesh);
+{ const c = ['#e0a13a', '#c4572c', '#8fb54a', '#f1c85a', '#b8743a', '#6fa83a']; for (let i = 0; i < LEAF2_N; i++) leaf2Mesh.setColorAt(i, new THREE.Color(c[i % c.length])); leaf2Mesh.instanceColor.needsUpdate = true; }
+const GSEED = []; { const gp = P.rng(515); for (let i = 0; i < Math.max(GUST_N, LEAF2_N); i++) GSEED.push([gp(), gp(), gp(), gp()]); }
+const _weatherParticles1 = weatherParticles;
+weatherParticles = function (f, camPos) {
+  _weatherParticles1(f, camPos); const t = f / 30, R = 8, forte = Math.max(0, Math.min(1, (WX.wind - 1.0) / 0.5));
+  gustMesh.visible = forte > 0.02 && WX.snow < 0.5; leaf2Mesh.visible = forte > 0.02 && WX.snow < 0.5 && WX.ice < 0.1;
+  if (gustMesh.visible) { const n = Math.floor(GUST_N * forte); gustMesh.count = n;
+    for (let i = 0; i < n; i++) { const r = GSEED[i]; const u = ((r[0] + t * (0.9 + r[3] * 0.8)) % 1 + 1) % 1; _pp.set(camPos.x + (u - 0.5) * 2 * R * WX.dx, camPos.y - 3 + r[1] * 7, camPos.z + (r[2] - 0.5) * 2 * R); _ee.set(0, Math.atan2(-WX.dz, WX.dx), Math.sin(t * 3 + r[3] * 9) * 0.06); _qq.setFromEuler(_ee); _ss.set(0.6 + r[3] * 1.2, 1, 1); _mm.compose(_pp, _qq, _ss); gustMesh.setMatrixAt(i, _mm); }
+    gustMesh.instanceMatrix.needsUpdate = true; }
+  if (leaf2Mesh.visible) { const n = Math.floor(LEAF2_N * forte); leaf2Mesh.count = n;
+    for (let i = 0; i < n; i++) { const r = GSEED[i]; const u = ((r[1] + t * (0.18 + 0.12 * r[3])) % 1 + 1) % 1; _pp.set(camPos.x + (u - 0.5) * 2 * R * WX.dx, camPos.y - 3.2 + r[2] * 5 + Math.sin(t * 4 + r[0] * 9) * 0.5, camPos.z + (r[0] - 0.5) * 2 * R); _ee.set(t * (3 + r[3] * 4), t * (2 + r[0] * 3), t * 5 * r[1]); _qq.setFromEuler(_ee); _ss.set(1, 1, 1); _mm.compose(_pp, _qq, _ss); leaf2Mesh.setMatrixAt(i, _mm); }
+    leaf2Mesh.instanceMatrix.needsUpdate = true; }
+};
+/*FIM ADITIVO*/
