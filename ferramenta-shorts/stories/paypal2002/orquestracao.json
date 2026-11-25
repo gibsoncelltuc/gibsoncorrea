@@ -31,11 +31,10 @@
  },
  "cenas": [
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "EBY",
     "MUS",
-    "POV"
+    "EBY"
    ],
    "multidao": 0,
    "objetos": [
@@ -58,7 +57,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tv"
+    "kit/bancada",
+    "kit/computador_2002"
    ],
    "palavras": 17,
    "cena": "b1",
@@ -77,7 +77,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/phone"
+    "kit/bancada",
+    "kit/computador_2002"
    ],
    "palavras": 15,
    "cena": "b2",
@@ -142,22 +143,22 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land"
+    "kit/rocket"
    ],
    "palavras": 14,
    "cena": "b6",
    "frase": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "interior galpao"
   },
   {
    "camera": "orbit",
@@ -166,7 +167,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 17,
    "cena": "b7",
@@ -184,17 +185,16 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MUS",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/coin",
-    "kit/falcon9_land",
-    "kit/roadster",
-    "kit/tv"
+    "kit/roadster2008",
+    "kit/rocket"
    ],
    "palavras": 13,
    "cena": "b8",
@@ -206,11 +206,11 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/falcon_air"
    ],
@@ -226,7 +226,7 @@
   {
    "camera": "close",
    "personagens": [
-    "EBY"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [],

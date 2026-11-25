@@ -25,9 +25,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "Acontece que o governador inglês exigiu o banquinho: "Por que eu ainda não estou sentado nele?""
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
-- PERSONAGENS: GOV na esquerda, expressao angry, segura paper; CHE na direita, expressao scared; sem multidao; acao: empurrar
-- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
+- PERSONAGENS: GOV no centro, expressao angry, segura paper; sem multidao; acao: empurrar
+- OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b4: "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
 - LOCAL: vila rural (casas, cercas, campo); hora: day

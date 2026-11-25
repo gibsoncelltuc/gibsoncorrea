@@ -191,8 +191,7 @@
    "shot": "two",
    "interior": "madeira",
    "who": [
-    "GOV:0:angry:paper",
-    "CHE:0:scared"
+    "GOV:0:angry:paper"
    ],
    "interacao": "empurrar",
    "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\"",
@@ -209,18 +208,14 @@
    "props": [
     [
      "kit/golden_stool",
-     0.0,
-     -1.2,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
@@ -233,7 +228,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
