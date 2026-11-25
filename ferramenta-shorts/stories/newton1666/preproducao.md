@@ -12,7 +12,7 @@ b4 | countryside | wide | 8 | encena | nature/tree_oak, kit/apple | book | -
 b5 | countryside | two | 2 | conversar, INTERAGEM: susto, batalha | nature/tree_oak, kit/apple | - | -
 b6 | countryside | close | 1 | conversar | nature/tree_oak, kit/apple | - | -
 b7 | loc_campo | two | 0 | parados (so fala e pisca) | kit/lua_ceu | - | -
-b8 | loc_campo | two | 11 | encena, batalha | - | book | -
+b8 | loc_campo | two | 1 | encena, batalha | - | book | -
 b9 | loc_campo | group | 1 | encena | kit/lua_ceu, kit/apple | apple | -
 
 OBJETO HEROI: kit/apple

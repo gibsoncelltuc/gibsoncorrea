@@ -10,7 +10,7 @@ b4 | wide | -  | tropa, objeto na mao | encena: pensa (think) @5 (acao + som de 
 b5 | two | -  | batalha aberta com tiros, tropa | caiu (dust + som de impacto) | -
 b6 | close | -  | placa: PARA BAIXO | encena: fala (point) @2 (acao + som de efeito) | -
 b7 | two | -  | tropa | - | -
-b8 | two | -  | batalha aberta com tiros, tropa, placa: PRINCIPIA - 1687, objeto na mao | - | -
+b8 | two | -  | batalha aberta com tiros, placa: PRINCIPIA - 1687, objeto na mao | - | -
 b9 | group | pordosol  | placa: LENDA?, objeto na mao | - | -
 
 Mistura de planos: close 8% | medio 75% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

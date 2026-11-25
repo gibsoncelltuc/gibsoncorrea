@@ -67,8 +67,8 @@
    "props": [
     [
      "kit/wash_basin",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -95,25 +95,24 @@
     ]
    },
    "titulo": true,
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "hospital",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/wash_basin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "detalhe": false,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -566,7 +565,7 @@
    "props": [
     [
      "kit/wash_basin",
-     1.2,
+     2.4,
      0.2,
      1.5,
      {
@@ -609,8 +608,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   }
  ],
  "variar_cenario": false,
@@ -653,5 +651,5 @@
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos e foi expulso; hoje e' o salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
  "loop_frase_ok": true,
- "max_wide": 5
+ "max_wide": 6
 }
