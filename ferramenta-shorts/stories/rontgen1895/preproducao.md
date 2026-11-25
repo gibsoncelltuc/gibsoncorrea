@@ -8,7 +8,7 @@ b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/xray_plate, kit/
 b1 | interior madeira | two | 1 | conversar | kit/xray_plate | - | -
 b2 | street | wide | 8 | batalha | kit/marco_wurzburg, kit/crookes_tube | - | -
 b3 | interior madeira | two | 1 | encena | kit/crookes_tube | paper | -
-b4 | interior madeira | low | 1 | conversar | kit/xray_plate | - | -
+b4 | interior madeira | close | 1 | conversar | kit/xray_plate | - | -
 b5 | interior madeira | two | 1 | reagir | kit/xray_plate | - | -
 b6 | interior madeira | group | 2 | conversar, INTERAGEM: entregar | kit/xray_plate | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/xray_plate | paper | -

@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 11,
  "title": "O Raio X de Röntgen",
@@ -60,13 +60,26 @@
      }
     ]
    ],
-   "say": "Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
    ],
+   "bloco": "gancho",
+   "say": "A primeira foto de dentro do corpo assustou a esposa do cientista.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "foto"
+     }
+    ]
+   },
+   "text": "RAIO X",
+   "titulo": true,
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
@@ -79,11 +92,56 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ANA:0:scared"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "Conta-se que ela viu ali a própria morte.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "viu"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "reveal",
@@ -93,59 +151,17 @@
    ],
    "mapa": "ALEMANHA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.",
+   "bloco": "prova",
+   "say": "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Alemanha"
+      "na": "testava"
      }
     ]
    }
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "ROE:0:stern"
-   ],
-   "props": [
-    [
-     "kit/crookes_tube",
-     2.4,
-     0.2,
-     1.4,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.",
-   "light": "study",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/crookes_tube",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
   },
   {
    "shot": "two",
@@ -164,13 +180,24 @@
      }
     ]
    ],
-   "say": "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.",
    "fx": [
     "puff@60"
    ],
    "sfx": [
     "thump@60"
    ],
+   "bloco": "prova",
+   "say": "Uma noite, cobriu o tubo e apagou a luz.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cobriu"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)",
@@ -183,7 +210,8 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "hora": "noite",
+   "light": "night",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -214,8 +242,19 @@
     "ding@20",
     "sting@24"
    ],
-   "say": "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.",
-   "light": "study",
+   "light": "night",
+   "bloco": "escalada",
+   "say": "Acontece que, do outro lado da sala, uma tela brilhou no escuro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "brilhou"
+     }
+    ]
+   },
+   "_enq_shot": "low",
    "quadro": {
     "local": "sala de madeira",
     "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
@@ -228,7 +267,7 @@
      }
     ]
    },
-   "_enq_shot": "low",
+   "hora": "noite",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -257,8 +296,19 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.",
-   "light": "study",
+   "light": "night",
+   "bloco": "escalada",
+   "say": "Pôs a mão na frente e viu os próprios ossos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ossos"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
@@ -271,135 +321,47 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "hora": "noite",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0
   },
   {
-   "shot": "group",
+   "shot": "two",
    "interior": "madeira",
    "hora": "dia",
    "who": [
-    "ROE:0:grin"
+    "ROE:0:grin",
+    "ANA:0:nervous"
    ],
    "interacao": "entregar",
    "props": [
     [
      "kit/xray_plate",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.0,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
-    "objetos": [
+   "bloco": "escalada",
+   "say": "Depois, fotografou a mão da esposa, Anna, com a aliança.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/xray_plate",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "detalhe": false,
-   "_auto_vis": 1
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "ANA:0:scared"
-   ],
-   "props": [
-    [
-     "kit/xray_plate",
-     2.4,
-     0.2,
-     1.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "say": "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/xray_plate",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "fotografou"
      }
     ]
    },
    "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "JOR:0:surprised:paper",
-    "MED:0:grin",
-    "POV:0:shock"
-   ],
-   "batalha": false,
-   "tiros": false,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "JOR",
-     "MED",
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
-   },
-   "props": [
-    [
-     "kit/xray_plate",
-     0.0,
-     -1.2,
-     1.4,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@30",
-    "ring@60"
-   ],
-   "sfx": [
-    "ding@30",
-    "sting@60"
-   ],
-   "text": "NOTÍCIA",
-   "titulo": true,
-   "say": "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso.",
-   "verbos_ok": [
-    "corre"
-   ],
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/xray_plate",
@@ -409,7 +371,6 @@
      }
     ]
    },
-   "_enq_shot": "crowd",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -423,7 +384,17 @@
     "JOR:0:suspicious:paper"
    ],
    "text": "RAIO X",
-   "say": "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
+   "bloco": "pagamento",
+   "say": "Sem saber o que era, chamou de raio X.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chamou"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -455,11 +426,72 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
+   "bloco": "pagamento",
+   "say": "Ganhou o primeiro Nobel de Física.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Nobel"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ROE:0:grin:paper",
+    "ANA:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "loop",
+   "say": "Um raio desconhecido, e foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "foi"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "variar_cenario": false,
- "max_wide": 4,
  "visual": {
   "local": "Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio escuro com tubo de Crookes",
   "quando": "8 de novembro de 1895, noite; 22 de dezembro de 1895 (mao de Anna)",
@@ -491,7 +523,12 @@
   ],
   "buscas": {
    "mao": "Rontgen hand of Anna Bertha 1895 x-ray",
-   "lab": "Rontgen laboratory Wurzburg"
+   "lab": "Rontgen laboratory Wurzburg",
+   "jornalistas e medicos": "1896 physicians examining x-ray photograph",
+   "tela de platinocianeto de bario": "barium platinocyanide fluorescent screen Rontgen"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a primeira foto de dentro do corpo assustou a esposa do cientista, que viu ali a propria morte. Pagamento: a tela brilhou, ele viu os ossos, fotografou a mao de Anna e chamou de raio X; ganhou o Nobel.",
+ "loop_frase_ok": true
 }
