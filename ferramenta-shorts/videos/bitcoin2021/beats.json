@@ -55,7 +55,7 @@
     [
      "kit/bitcoin",
      0.0,
-     0.8,
+     -1.2,
      2.8,
      {
       "fixo": true
@@ -77,6 +77,23 @@
      {
       "faz": "mostra",
       "na": "bitcoin"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -109,7 +126,7 @@
     [
      "kit/bitcoin",
      0.0,
-     0.8,
+     -1.2,
      2.4,
      {
       "fixo": true
@@ -123,6 +140,23 @@
      {
       "faz": "mostra",
       "na": "primeiro"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "reveal",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -162,8 +196,17 @@
     [
      "kit/bitcoin",
      0.0,
-     0.8,
+     -1.2,
      1.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -196,7 +239,33 @@
       "na": "despencou"
      }
     ]
-   }
+   },
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 2
   },
   {
    "say": "Mesmo assim, o governo continuou comprando bitcoins com dinheiro público.",
@@ -240,7 +309,7 @@
     [
      "kit/volcano",
      0.0,
-     -30.0,
+     -8.0,
      1.0,
      {
       "fixo": true
@@ -248,8 +317,8 @@
     ],
     [
      "kit/rack_mineracao",
-     -3.0,
-     -3.0,
+     3.6,
+     -2.0,
      1.4,
      {
       "fixo": true
@@ -257,8 +326,8 @@
     ],
     [
      "kit/rack_mineracao",
-     -1.0,
-     -3.2,
+     -3.6,
+     -2.0,
      1.4,
      {
       "fixo": true
@@ -266,8 +335,8 @@
     ],
     [
      "kit/rack_mineracao",
-     1.0,
-     -3.2,
+     5.4,
+     -2.0,
      1.4,
      {
       "fixo": true
@@ -275,8 +344,8 @@
     ],
     [
      "kit/rack_mineracao",
-     3.0,
-     -3.0,
+     -5.4,
+     -2.0,
      1.4,
      {
       "fixo": true
@@ -294,6 +363,52 @@
      {
       "faz": "mostra",
       "na": "minera"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 23.0,
+   "d1": 21.9,
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "wide",
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -3.6, camera a 21.9 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/volcano",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rack_mineracao",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rack_mineracao",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rack_mineracao",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rack_mineracao",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -341,8 +456,8 @@
    "props": [
     [
      "kit/bitcoin",
-     0.0,
-     0.8,
+     2.4,
+     0.2,
      2.2,
      {
       "fixo": true
@@ -377,6 +492,23 @@
       "na": "bateu"
      }
     ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -388,8 +520,8 @@
    "props": [
     [
      "kit/bitcoin",
-     0.0,
-     0.8,
+     2.4,
+     0.2,
      2.2,
      {
       "fixo": true
@@ -423,6 +555,23 @@
      {
       "faz": "mostra",
       "na": "despencou"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -500,7 +649,7 @@
     [
      "kit/bitcoin",
      0.0,
-     0.8,
+     -1.2,
      3.0,
      {
       "fixo": true
@@ -516,6 +665,23 @@
       "na": "reservas"
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -527,8 +693,8 @@
    "props": [
     [
      "kit/bitcoin",
-     0.0,
-     0.8,
+     2.4,
+     0.2,
      2.2,
      {
       "fixo": true
@@ -541,6 +707,23 @@
      {
       "faz": "mostra",
       "na": "Aposta"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "close",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

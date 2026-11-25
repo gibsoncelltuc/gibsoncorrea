@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
 - PERSONAGENS: MER na esquerda, expressao grin, segura tulip; RIC na direita, expressao shock, segura coin; sem multidao; acao: fala/gesto
 - OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1637" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
 - LOCAL: vila rural (casas, cercas, campo); hora: day

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -14,7 +14,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | 1637 | OK |
 
 ## Cena b1 - 3.6s a 9.2s - 17 palavras - plano wide
 > "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."

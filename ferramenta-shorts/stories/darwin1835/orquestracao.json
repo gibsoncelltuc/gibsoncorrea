@@ -49,7 +49,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "DAR",
     "MAR"
@@ -96,8 +96,7 @@
   {
    "camera": "two",
    "personagens": [
-    "GOU",
-    "DAR"
+    "GOU"
    ],
    "multidao": 0,
    "objetos": [

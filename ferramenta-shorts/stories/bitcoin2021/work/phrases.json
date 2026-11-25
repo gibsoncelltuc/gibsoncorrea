@@ -1,216 +1,297 @@
 {
- "duration": 58.176,
- "frames30": 1745,
- "source": "silence-align (cost 0.53)",
+ "duration": 69.816,
+ "frames30": 2094,
+ "source": "silence-align (cost 0.78)",
  "segments": [
   [
-   0.160083,
-   2.06175
+   0.159625,
+   3.73212
   ],
   [
-   2.32729,
-   4.38746
+   4.63362,
+   5.46975
   ],
   [
-   5.32667,
-   6.22442
+   5.79462,
+   7.21312
   ],
   [
-   6.45287,
-   7.3885
+   8.07992,
+   9.54379
   ],
   [
-   7.71779,
-   9.83733
+   9.85558,
+   11.8515
   ],
   [
-   10.7032,
-   13.1432
+   12.734,
+   15.9065
   ],
   [
-   13.496,
-   15.5599
+   16.7317,
+   17.4841
   ],
   [
-   16.4157,
-   18.3242
+   17.718,
+   18.8165
   ],
   [
-   18.6369,
-   20.6445
+   19.1268,
+   21.4524
   ],
   [
-   21.5304,
-   22.5853
+   22.299,
+   22.9413
   ],
   [
-   22.8584,
-   27.0559
+   23.2378,
+   26.0162
   ],
   [
-   27.9144,
-   28.7745
+   26.8562,
+   27.8814
   ],
   [
-   28.9875,
-   29.7234
+   28.2576,
+   30.9392
   ],
   [
-   30.0326,
-   32.633
+   31.7986,
+   34.4154
   ],
   [
-   33.4726,
-   38.6144
+   34.679,
+   36.782
   ],
   [
-   39.4629,
-   42.0256
+   37.626,
+   38.1699
   ],
   [
-   42.2628,
-   44.4843
+   38.4088,
+   40.6928
   ],
   [
-   45.3457,
-   45.9875
+   41.5561,
+   42.42
   ],
   [
-   46.2277,
-   48.4029
+   42.6452,
+   43.4758
   ],
   [
-   49.2531,
-   50.249
+   43.688,
+   45.0936
   ],
   [
-   50.5471,
-   53.0294
+   45.4148,
+   47.1001
   ],
   [
-   53.8793,
-   55.3225
+   47.9632,
+   48.8642
   ],
   [
-   55.6169,
-   57.3785
+   49.1121,
+   51.463
+  ],
+  [
+   52.3302,
+   54.1012
+  ],
+  [
+   54.38,
+   56.3683
+  ],
+  [
+   57.2251,
+   58.0887
+  ],
+  [
+   58.2937,
+   59.3766
+  ],
+  [
+   59.5791,
+   60.2916
+  ],
+  [
+   61.161,
+   62.9845
+  ],
+  [
+   63.8312,
+   64.6597
+  ],
+  [
+   65.5212,
+   66.968
+  ],
+  [
+   67.2585,
+   69.0203
   ]
  ],
  "phrases": [
   {
-   "text": "Um pa\u00eds aceitou o bitcoin como dinheiro,",
+   "text": "Um presidente transformou o bitcoin em dinheiro oficial de um pa\u00eds inteiro.",
    "s": 0.16,
-   "e": 2.062
-  },
-  {
-   "text": "e nove em dez moradores n\u00e3o entendiam.",
-   "s": 2.327,
-   "e": 4.387
+   "e": 3.732
   },
   {
    "text": "Foi em El Salvador,",
-   "s": 5.327,
-   "e": 6.224
+   "s": 4.634,
+   "e": 5.47
   },
   {
-   "text": "na Am\u00e9rica Central,",
-   "s": 6.453,
-   "e": 7.388
+   "text": "com o presidente Nayib Bukele.",
+   "s": 5.795,
+   "e": 7.213
   },
   {
-   "text": "e a ideia foi do presidente Nayib Bukele.",
-   "s": 7.718,
-   "e": 9.837
+   "text": "Em setembro de dois mil e vinte e um,",
+   "s": 8.08,
+   "e": 9.544
   },
   {
-   "text": "Ele anunciou o projeto em junho de dois mil e vinte e um,",
-   "s": 10.703,
-   "e": 13.143
+   "text": "virou o primeiro pa\u00eds do mundo a fazer isso.",
+   "s": 9.856,
+   "e": 11.851
   },
   {
-   "text": "e o congresso aprovou poucos dias depois.",
-   "s": 13.496,
-   "e": 15.56
+   "text": "Quem baixasse a carteira digital ganhava trinta d\u00f3lares em bitcoin.",
+   "s": 12.734,
+   "e": 15.906
   },
   {
-   "text": "A lei passou a valer em sete de setembro,",
-   "s": 16.416,
-   "e": 18.324
+   "text": "No primeiro dia,",
+   "s": 16.732,
+   "e": 17.484
   },
   {
-   "text": "e o pa\u00eds foi o primeiro do mundo a fazer isso.",
-   "s": 18.637,
-   "e": 20.645
+   "text": "o aplicativo travou,",
+   "s": 17.718,
+   "e": 18.817
   },
   {
-   "text": "Para convencer o povo,",
-   "s": 21.53,
-   "e": 22.585
-  },
-  {
-   "text": "o governo prometeu trinta d\u00f3lares em bitcoin a quem baixasse a carteira digital Chivo.",
-   "s": 22.858,
-   "e": 27.056
-  },
-  {
-   "text": "Acontece que,",
-   "s": 27.914,
-   "e": 28.774
-  },
-  {
-   "text": "no lan\u00e7amento,",
-   "s": 28.988,
-   "e": 29.723
-  },
-  {
-   "text": "o aplicativo ficou fora do ar por algumas horas.",
-   "s": 30.033,
-   "e": 32.633
-  },
-  {
-   "text": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decis\u00e3o.",
-   "s": 33.473,
-   "e": 38.614
-  },
-  {
-   "text": "O governo tamb\u00e9m comprou bitcoins com dinheiro p\u00fablico,",
-   "s": 39.463,
-   "e": 42.026
-  },
-  {
-   "text": "e o pre\u00e7o da moeda despencou no ano seguinte.",
-   "s": 42.263,
-   "e": 44.484
+   "text": "e o bitcoin despencou mais de dez por cento.",
+   "s": 19.127,
+   "e": 21.452
   },
   {
    "text": "Mesmo assim,",
-   "s": 45.346,
-   "e": 45.987
+   "s": 22.299,
+   "e": 22.941
   },
   {
-   "text": "a moeda digital virou assunto no mundo inteiro.",
-   "s": 46.228,
-   "e": 48.403
+   "text": "o governo continuou comprando bitcoins com dinheiro p\u00fablico.",
+   "s": 23.238,
+   "e": 26.016
   },
   {
-   "text": "Uma moeda digital,",
-   "s": 49.253,
-   "e": 50.249
+   "text": "E n\u00e3o \u00e9 s\u00f3 comprar:",
+   "s": 26.856,
+   "e": 27.881
   },
   {
-   "text": "uma lei nova e um pa\u00eds no centro das aten\u00e7\u00f5es.",
-   "s": 50.547,
-   "e": 53.029
+   "text": "o pa\u00eds tamb\u00e9m minera bitcoin com a energia de um vulc\u00e3o.",
+   "s": 28.258,
+   "e": 30.939
+  },
+  {
+   "text": "Minerar \u00e9 deixar computadores fazendo contas sem parar,",
+   "s": 31.799,
+   "e": 34.415
+  },
+  {
+   "text": "e quem acerta primeiro ganha bitcoins novos.",
+   "s": 34.679,
+   "e": 36.782
+  },
+  {
+   "text": "Em novembro,",
+   "s": 37.626,
+   "e": 38.17
+  },
+  {
+   "text": "o bitcoin bateu sessenta e nove mil d\u00f3lares.",
+   "s": 38.409,
+   "e": 40.693
+  },
+  {
+   "text": "Acontece que,",
+   "s": 41.556,
+   "e": 42.42
+  },
+  {
+   "text": "um ano depois,",
+   "s": 42.645,
+   "e": 43.476
+  },
+  {
+   "text": "despencou para dezesseis mil,",
+   "s": 43.688,
+   "e": 45.094
+  },
+  {
+   "text": "e o pa\u00eds perdeu milh\u00f5es no papel.",
+   "s": 45.415,
+   "e": 47.1
+  },
+  {
+   "text": "E nas pesquisas,",
+   "s": 47.963,
+   "e": 48.864
+  },
+  {
+   "text": "sessenta e oito por cento da popula\u00e7\u00e3o era contra.",
+   "s": 49.112,
+   "e": 51.463
+  },
+  {
+   "text": "Mas em dezembro de dois mil e vinte e quatro,",
+   "s": 52.33,
+   "e": 54.101
+  },
+  {
+   "text": "o bitcoin passou de cem mil d\u00f3lares.",
+   "s": 54.38,
+   "e": 56.368
+  },
+  {
+   "text": "E as reservas,",
+   "s": 57.225,
+   "e": 58.089
+  },
+  {
+   "text": "que estavam no preju\u00edzo,",
+   "s": 58.294,
+   "e": 59.377
+  },
+  {
+   "text": "viraram lucro.",
+   "s": 59.579,
+   "e": 60.292
+  },
+  {
+   "text": "Aposta maluca ou vis\u00e3o de futuro?",
+   "s": 61.161,
+   "e": 62.984
+  },
+  {
+   "text": "Voc\u00ea decide.",
+   "s": 63.831,
+   "e": 64.66
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 53.879,
-   "e": 55.322
+   "s": 65.521,
+   "e": 66.968
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 55.617,
-   "e": 57.379
+   "s": 67.258,
+   "e": 69.02
   }
  ]
 }

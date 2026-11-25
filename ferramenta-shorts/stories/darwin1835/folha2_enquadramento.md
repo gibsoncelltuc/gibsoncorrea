@@ -17,7 +17,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
 - PERSONAGENS: DAR (cientista) na esquerda, expressao neutral, segura bag; MAR (marinheiro) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
@@ -29,9 +29,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
-- PERSONAGENS: GOU (cientista) na esquerda, expressao smug, segura paper; DAR (cientista) na direita, expressao surprised; sem multidao; acao: discutir
-- OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)
+- PERSONAGENS: GOU (cientista) no centro, expressao smug, segura paper; sem multidao; acao: discutir
+- OBJETO kit/finch: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b5: "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos."
 - LOCAL: sala de madeira; hora: day
@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)
 - PERSONAGENS: DAR (cientista) no centro, expressao smile; sem multidao; acao: cochichar
 - OBJETO kit/finch_thick: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

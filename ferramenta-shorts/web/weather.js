@@ -79,15 +79,15 @@ const _sceneryLights0 = sceneryLights;
 sceneryLights = function (L, f, C, focus) { _sceneryLights0(L, f, C, focus); if (WX.ice > 0.02) { scene.fog.color.lerp(new THREE.Color('#dcecff'), 0.55 * WX.ice); scene.fog.far *= 1 - 0.3 * WX.ice; hemi.color.lerp(new THREE.Color('#e6f2ff'), 0.4 * WX.ice); } if (WX.hail > 0.02) { scene.fog.color.lerp(new THREE.Color('#8a96a8'), 0.4 * WX.hail); sun.intensity *= 1 - 0.35 * WX.hail; } };
 /*FIM ADITIVO*//*ADITIVO*/
 // 25/11 VENTO FORTE visivel: rajadas (linhas brancas compridas cruzando o quadro) + folhas extras maiores, quando WX.wind >= 1.1 (clima "vento" e "tempestade").
-const GUST_N = 260, LEAF2_N = 220;
-const gustMesh = new THREE.InstancedMesh(new THREE.PlaneGeometry(2.2, 0.04), new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.75, depthWrite: false, fog: false, side: THREE.DoubleSide }), GUST_N); gustMesh.userData.ndSkip = true; gustMesh.frustumCulled = false; gustMesh.renderOrder = 4; gustMesh.visible = false; scene.add(gustMesh);
-const leaf2Mesh = new THREE.InstancedMesh(new THREE.PlaneGeometry(0.45, 0.28), new THREE.MeshBasicMaterial({ color: '#ffffff', side: THREE.DoubleSide, transparent: true, depthWrite: false }), LEAF2_N); leaf2Mesh.userData.ndSkip = true; leaf2Mesh.frustumCulled = false; leaf2Mesh.visible = false; scene.add(leaf2Mesh);
-{ const c = ['#e0a13a', '#c4572c', '#8fb54a', '#f1c85a', '#b8743a', '#6fa83a']; for (let i = 0; i < LEAF2_N; i++) leaf2Mesh.setColorAt(i, new THREE.Color(c[i % c.length])); leaf2Mesh.instanceColor.needsUpdate = true; }
+const GUST_N = 120, LEAF2_N = 70;
+const gustMesh = new THREE.InstancedMesh(new THREE.PlaneGeometry(2.0, 0.022), new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.45, depthWrite: false, fog: false, side: THREE.DoubleSide }), GUST_N); gustMesh.userData.ndSkip = true; gustMesh.frustumCulled = false; gustMesh.renderOrder = 4; gustMesh.visible = false; scene.add(gustMesh);
+const leaf2Mesh = new THREE.InstancedMesh(new THREE.PlaneGeometry(0.24, 0.15), new THREE.MeshBasicMaterial({ color: '#ffffff', side: THREE.DoubleSide, transparent: true, depthWrite: false }), LEAF2_N); leaf2Mesh.userData.ndSkip = true; leaf2Mesh.frustumCulled = false; leaf2Mesh.visible = false; scene.add(leaf2Mesh);
+{ const c = ['#6f8f3a', '#8a6a2a', '#5a7a2a', '#9a7a3a']; for (let i = 0; i < LEAF2_N; i++) leaf2Mesh.setColorAt(i, new THREE.Color(c[i % c.length])); leaf2Mesh.instanceColor.needsUpdate = true; }
 const GSEED = []; { const gp = P.rng(515); for (let i = 0; i < Math.max(GUST_N, LEAF2_N); i++) GSEED.push([gp(), gp(), gp(), gp()]); }
 const _weatherParticles1 = weatherParticles;
 weatherParticles = function (f, camPos) {
   _weatherParticles1(f, camPos); const t = f / 30, R = 8, forte = Math.max(0, Math.min(1, (WX.wind - 1.0) / 0.5));
-  gustMesh.visible = forte > 0.02 && WX.snow < 0.5; leaf2Mesh.visible = forte > 0.02 && WX.snow < 0.5 && WX.ice < 0.1;
+  gustMesh.visible = forte > 0.02 && WX.snow < 0.5 && WX.rain < 0.5; leaf2Mesh.visible = forte > 0.02 && WX.snow < 0.5 && WX.ice < 0.1 && WX.rain < 0.5;   /* 25/11 (Franklin): na tempestade a chuva ja' mostra o vento; folhas coloridas viravam confete */
   if (gustMesh.visible) { const n = Math.floor(GUST_N * forte); gustMesh.count = n;
     for (let i = 0; i < n; i++) { const r = GSEED[i]; const u = ((r[0] + t * (0.9 + r[3] * 0.8)) % 1 + 1) % 1; _pp.set(camPos.x + (u - 0.5) * 2 * R * WX.dx, camPos.y - 3 + r[1] * 7, camPos.z + (r[2] - 0.5) * 2 * R); _ee.set(0, Math.atan2(-WX.dz, WX.dx), Math.sin(t * 3 + r[3] * 9) * 0.06); _qq.setFromEuler(_ee); _ss.set(0.6 + r[3] * 1.2, 1, 1); _mm.compose(_pp, _qq, _ss); gustMesh.setMatrixAt(i, _mm); }
     gustMesh.instanceMatrix.needsUpdate = true; }
