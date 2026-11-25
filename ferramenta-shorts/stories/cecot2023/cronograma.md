@@ -6,16 +6,16 @@ Gerado em 25/11 17:18 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | GUA, BUK | - | prison | - | Uma prisão para quarenta mil presos virou notícia no mundo inteiro.
-b1 | simples | loc_patio | crowd | POV, POV, POV | - | prison | - | E ninguém concorda se ela é solução ou problema.
-b2 | simples | loc_cidade | reveal | POV, POV | - | prison | - | Ela fica em El Salvador e abriu em 2023.
+b0 | simples | loc_campo | two | GUA | - | prison | - | Uma prisão para quarenta mil presos virou notícia no mundo inteiro.
+b1 | simples | loc_patio | wide | POV | - | prison | - | E ninguém concorda se ela é solução ou problema.
+b2 | transicao | loc_cidade | wide | POV | - | prison | - | Ela fica em El Salvador e abriu em 2023.
 b3 | simples | interior pedra | two | REP, POV | - | - | - | O país tinha uma das maiores taxas de assassinato do mundo.
-b4 | simples | loc_campo | group | BUK, GUA, GUA | - | prison | - | Em 2022, Nayib Bukele decretou estado de exceção.
+b4 | simples | loc_campo | wide | BUK | - | prison | - | Em 2022, Nayib Bukele decretou estado de exceção.
 b5 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/prison (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | Muralhas altas, cercas elétricas e torres de vigia por todo lado.
 b6 | chave | loc_campo | orbit | REP, BUK | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil.
-b7 | simples | loc_campo | wide | REP, POV | 6 | - | - | Mas grupos de direitos humanos denunciaram prisões sem julgamento.
+b7 | simples | loc_campo | two | REP, POV | - | - | - | Mas grupos de direitos humanos denunciaram prisões sem julgamento.
 b8 | chave | loc_pista | wide | BUK, POV | - | globe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O modelo passou a ser copiado e criticado pelo mundo.
-b9 | simples | loc_campo | crowd | GUA, BUK | - | prison | - | Segurança para uns, excesso para outros. Você decide.
+b9 | simples | loc_campo | wide | GUA | - | prison | - | Segurança para uns, excesso para outros. Você decide.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
