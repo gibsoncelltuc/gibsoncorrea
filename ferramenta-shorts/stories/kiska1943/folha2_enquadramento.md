@@ -31,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b3: "Americanos e canadenses chegaram com navios, aviões e tanques."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: overcast
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tanque_ww2 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: USA na esquerda, expressao stern; CAN na direita, expressao smile; sem multidao; acao: fala/gesto
+- PERSONAGENS: USA no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/tanque_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 2.9 m de altura x 8.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/aviao_ww2: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: CHEGANDO; 4.9 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

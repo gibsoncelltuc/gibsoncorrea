@@ -71,8 +71,7 @@
   {
    "camera": "reveal",
    "personagens": [
-    "USA",
-    "CAN"
+    "USA"
    ],
    "multidao": 32,
    "objetos": [
@@ -170,7 +169,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
    "camera": "orbit",

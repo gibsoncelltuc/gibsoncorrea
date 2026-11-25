@@ -3,37 +3,29 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b3: objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+2. SUSPEITA b10: a frase cita ANIMAL e a cena nao tem animal
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Trinta e quatro mil soldados invadiram uma ilha onde não hav": 
-- f1 "Era agosto de mil novecentos e quarenta e três.": 
-- f2 "A ilha de Kiska,": 
-- f3 "no Alasca,": 
-- f4 "estava ocupada pelos japoneses.": 
-- f5 "Americanos e canadenses chegaram com navios,": 
-- f6 "aviões e tanques.": 
-- f7 "Antes do desembarque,": 
-- f8 "bombardearam Kiska durante semanas.": 
-- f9 "No meio do nevoeiro,": 
-- f10 "os soldados desceram em silêncio,": 
-- f11 "prontos para um combate duro.": 
-- f12 "Mas teve um problema:": 
-- f13 "os japoneses já tinham ido embora.": 
-- f14 "Eles procuraram o inimigo por dias,": 
-- f15 "em trincheiras vazias.": 
-- f16 "Semanas antes,": 
-- f17 "navios japoneses levaram cinco mil homens embora em menos de": 
-- f18 "escondidos na neblina.": 
-- f19 "Sem inimigo à vista,": 
-- f20 "os Aliados começaram a atirar uns nos outros,": 
-- f21 "no escuro e na neblina.": 
-- f22 "Mais de vinte soldados morreram nesses tiros,": 
-- f23 "e um navio americano ainda bateu numa mina.": 
-- f24 "No fim,": 
-- f25 "só acharam na ilha alguns cachorros abandonados.": 
-- f26 "Uma das maiores invasões do Pacífico Norte tomou uma ilha co": 
-- f27 "Agora não deixe de comentar:": 
-- f28 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Trinta e quatro mil soldados desembarcaram numa ilha sem nen": 
+- f1 "E mesmo assim,": 
+- f2 "houve mortos nessa invasão.": 
+- f3 "Em 1943, a ilha de Kiska,": 
+- f4 "no Alasca,": 
+- f5 "estava com os japoneses.": 
+- f6 "Americanos e canadenses chegaram com navios,": 
+- f7 "aviões e tanques.": 
+- f8 "Bombardearam a ilha durante semanas inteiras.": 
+- f9 "Acontece que os japoneses já tinham ido embora.": 
+- f10 "Saíram escondidos na neblina,": 
+- f11 "semanas antes.": 
+- f12 "No nevoeiro,": 
+- f13 "os Aliados atiraram uns nos outros.": 
+- f14 "Mais de vinte soldados morreram,": 
+- f15 "e um navio bateu numa mina.": 
+- f16 "Na ilha inteira,": 
+- f17 "só acharam alguns cachorros abandonados.": 
+- f18 "Uma invasão contra cachorros.": 
+- f19 "E foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

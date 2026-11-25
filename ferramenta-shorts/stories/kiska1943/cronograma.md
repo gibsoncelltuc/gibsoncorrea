@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
-Gerado em 25/11 18:36 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:40 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,11 +9,11 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | harbor | wide | USA, CAN | 32 | ship | - | Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimig
 b1 | simples | harbor | crowd | OFF, USA | 32 | dog_sit | - | E mesmo assim, houve mortos nessa invasão.
 b2 | simples | arctic | group | USA, CAN, USA | - | navio_vapor, airplane | - | Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses.
-b3 | simples | harbor | reveal | USA, CAN | 32 | aviao_ww2, tanque_ww2, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Americanos e canadenses chegaram com navios, aviões e tanques.
+b3 | simples | harbor | reveal | USA | 32 | aviao_ww2, tanque_ww2, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Americanos e canadenses chegaram com navios, aviões e tanques.
 b4 | chave | harbor | crowd | USA | 48 | aviao_ww2, canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Bombardearam a ilha durante semanas inteiras.
 b5 | simples | interior pedra | two | USA, CAN | - | - | - | Acontece que os japoneses já tinham ido embora.
 b6 | transicao | harbor | wide | sem personagem | - | ship | - | Saíram escondidos na neblina, semanas antes.
-b7 | chave | harbor | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No nevoeiro, os Aliados atiraram uns nos outros.
+b7 | chave | arctic | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No nevoeiro, os Aliados atiraram uns nos outros.
 b8 | simples | harbor | orbit | USA, CAN | 48 | navio_encouracado, navios de guerra ao fundo, no tamanho real | - | Mais de vinte soldados morreram, e um navio bateu numa mina.
 b9 | simples | harbor | prop | USA, CAN | - | dog_sit | - | Na ilha inteira, só acharam alguns cachorros abandonados.
 b10 | transicao | harbor | wide | USA, CAN | 32 | ship | - | Uma invasão contra cachorros. E foi assim que...
