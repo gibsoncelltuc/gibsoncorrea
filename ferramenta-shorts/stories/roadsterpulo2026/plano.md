@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | noite  | tropa | - | -
+b0 | two | noite  | tropa | encena: fala (point) @2 (acao + som de efeito) | -
 b1 | wide | noite  | tropa, mapa | - | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | tropa | - | -
@@ -10,7 +10,7 @@ b4 | wide | noite  | tropa | - | -
 b5 | orbit | noite  | batalha aberta com tiros, tropa | - | -
 b6 | two | noite  | tropa | - | -
 b7 | two | -  | tropa | - | -
-b8 | two | -  | interior | - | -
+b8 | two | -  | interior | encena: fala (point) @2 (acao + som de efeito) | -
 b9 | close | -  | interior | - | -
 b10 | two | -  | interior, placa: COMENTE! | - | -
 

@@ -85,6 +85,12 @@
      {
       "faz": "mostra",
       "na": "carro"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "prometeu",
+      "forcar": true
      }
     ]
    },
@@ -623,6 +629,12 @@
      {
       "faz": "mostra",
       "na": "especialistas"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "lembraram",
+      "forcar": true
      }
     ]
    },
