@@ -7,9 +7,9 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_pista | two | 10 | conversar, INTERAGEM: insiste | kit/roadster26, kit/torre_luz | - | -
 b1 | loc_pista | reveal | 8 | parados (so fala e pisca) | kit/rampa_curva, kit/telao_led, kit/torre_luz | - | -
 b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b4 | loc_pista | orbit | 11 | parados (so fala e pisca) | kit/roadster26, kit/torre_luz | - | -
-b5 | loc_pista | orbit | 1 | reagir, batalha | kit/roadster26, kit/torre_luz | - | -
+b3 | loc_pista | orbit | 1 | parados (so fala e pisca) | kit/roadster26, kit/torre_luz | - | -
+b4 | loc_pista | orbit | 1 | reagir, batalha | kit/roadster26, kit/torre_luz | - | -
+b5 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b6 | loc_pista | two | 1 | conversar | kit/roadster26, kit/cybercab, kit/cybertruck, kit/torre_luz | - | -
 b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster26 | - | -
@@ -17,7 +17,7 @@ b9 | interior galpao | close | 1 | conversar | kit/roadster26 | - | -
 b10 | interior galpao | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/roadster26
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b5
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b4
 Interacoes entre personagens: b0 insiste, b8 vai ate o outro
 
 Cenas com personagens parados: 5 de 11 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando

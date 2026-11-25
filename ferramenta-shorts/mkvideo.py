@@ -1611,6 +1611,11 @@ def build_beat(k, b):
         for _q, (_ox, _oz) in enumerate(((-0.7, 0.2), (0.7, 0.2), (0.0, 0.5), (-0.4, -0.2), (0.4, -0.2))):
             fx.append(f"{{ k: 'splash', a: WS({_spi}) + {_q * 4}, b: WS({_spi}) + {40 + _q * 4}, at: [X + {num(_sx + _ox)}, DK + 0.75, {num(_sz + _oz)}], s: 1.0 }}")
         KWSFX.append((_spi, 'thump'))
+    _rw = [j_ for j_, w_ in enumerate(b['say'].split()) if re.match(r'^(raios?|relampag\w*|trovoada|trovao|tempestade)$', nrm(w_)) and not re.search(r'para.?raio', nrm(b['say'].split()[max(0, j_ - 1)] + w_))]
+    if _rw and b.get('raio') is not False and not b.get('interior'):   # 25/11 (Franklin): RELAMPAGO no ceu na palavra (raio/relampago/tempestade), com trovao; para-raios nao conta
+        for _q, _j in enumerate(_rw[:2]):
+            fx.append(f"{{ k: 'raio', a: WS({starts[k] + _j}), b: WS({starts[k] + _j}) + 24, at: [X + {num(2.5 - 5 * _q)}, DK + 7.5, -9], s: 5.0 }}"); KWSFX.append((starts[k] + _j, 'cannon'))
+        PLANO.append((k, 'relampago no ceu na palavra + trovao', 'acao')); b.setdefault('_enc_words', []).extend(nrm(b['say'].split()[j_]) for j_ in _rw)
     for _ofw, _ofa, _oft in (b.get('_obj_faz') or []):   # 25/11 leitura escrita: acao do OBJETO (passo sem 'quem', alvo = objeto da cena) -> efeito + som no objeto, na palavra
         _ofj = next((j_ for j_, w_ in enumerate(b['say'].split()) if nrm(w_) == nrm(_ofw) or (nrm(_ofw) and nrm(_ofw) in nrm(w_))), 0); _ofi = starts[k] + _ofj
         _ofp = next((p_ for p_ in (b.get('props') or []) if isinstance(p_, list) and str(p_[0]) == str(_ofa)), None); _ox_, _oz_ = (float(_ofp[1]), float(_ofp[2])) if _ofp else (0.0, 1.2); _oh_ = 0.9 * (float(_ofp[3]) if _ofp and len(_ofp) > 3 else 1.0)

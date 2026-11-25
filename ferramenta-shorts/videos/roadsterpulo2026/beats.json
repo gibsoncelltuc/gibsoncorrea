@@ -54,7 +54,7 @@
     "MUS:0:grin",
     "ENA:0:surprised"
    ],
-   "say": "Elon Musk prometeu um carro que voa. E, diante de convidados, o carro dele saiu do chão.",
+   "say": "Um carro saiu do chão e voou na frente de convidados. E não era efeito especial.",
    "props": [
     [
      "kit/roadster26",
@@ -89,7 +89,7 @@
      {
       "quem": 0,
       "faz": "fala",
-      "na": "prometeu",
+      "na": "voou",
       "forcar": true
      }
     ]
@@ -141,7 +141,7 @@
     "POV:1:grin"
    ],
    "shot": "reveal",
-   "say": "Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Texas.",
+   "say": "Era a nova invenção de Elon Musk, numa base da SpaceX, no Texas, em outubro de dois mil e vinte e seis.",
    "mapa": "ESTADOS UNIDOS",
    "props": [
     [
@@ -214,71 +214,7 @@
    }
   },
   {
-   "say": "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo.",
-   "explica": {
-    "raiox": "escondidos",
-    "pecas": [
-     [
-      "kit/tanque_ar",
-      -0.9,
-      0.42,
-      0,
-      0.55,
-      {
-       "rz": 1.5708
-      }
-     ],
-     [
-      "kit/tanque_ar",
-      0.9,
-      0.42,
-      0,
-      0.55,
-      {
-       "rz": 1.5708
-      }
-     ]
-    ],
-    "vfx": [
-     {
-      "k": "jato",
-      "na": "sopram"
-     }
-    ],
-    "rotulos": [
-     [
-      "DEZ BOCAIS",
-      "baixo",
-      "bocais"
-     ],
-     [
-      "AR COMPRIMIDO",
-      "topo",
-      "comprimido"
-     ]
-    ],
-    "setas": [
-     [
-      "cima",
-      "EMPUXO",
-      "",
-      "baixo",
-      "capo"
-     ]
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "propulsores"
-     }
-    ]
-   }
-  },
-  {
-   "say": "E um sistema de sucção gruda o carro na pista, como uma ventosa, até de cabeça para baixo.",
+   "say": "O primeiro truque: um sistema de sucção gruda o carro na pista, como uma ventosa.",
    "explica": {
     "manobra": "parado",
     "rotulos": [
@@ -323,7 +259,7 @@
    "h": 4.4,
    "d0": 25,
    "d1": 23,
-   "say": "Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "say": "Com ele, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "props": [
     [
      "kit/roadster26",
@@ -350,13 +286,7 @@
    "cx": -1.5,
    "cz": -7.0,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV",
-     "ENG"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "encena": {
     "sentido": "afirmativa",
@@ -391,7 +321,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
    "who": [
@@ -470,10 +401,74 @@
    }
   },
   {
+   "say": "O segundo truque: dez bocais escondidos, que sopram ar comprimido para baixo.",
+   "explica": {
+    "raiox": "escondidos",
+    "pecas": [
+     [
+      "kit/tanque_ar",
+      -0.9,
+      0.42,
+      0,
+      0.55,
+      {
+       "rz": 1.5708
+      }
+     ],
+     [
+      "kit/tanque_ar",
+      0.9,
+      0.42,
+      0,
+      0.55,
+      {
+       "rz": 1.5708
+      }
+     ]
+    ],
+    "vfx": [
+     {
+      "k": "jato",
+      "na": "sopram"
+     }
+    ],
+    "rotulos": [
+     [
+      "DEZ BOCAIS",
+      "baixo",
+      "bocais"
+     ],
+     [
+      "AR COMPRIMIDO",
+      "topo",
+      "comprimido"
+     ]
+    ],
+    "setas": [
+     [
+      "cima",
+      "EMPUXO",
+      "",
+      "baixo",
+      "capo"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bocais"
+     }
+    ]
+   }
+  },
+  {
    "who": [
     "MUS:0:laugh"
    ],
-   "say": "Depois decolou e voou, nos propulsores, por cima de veículos parados.",
+   "say": "Foi assim que ele decolou e voou, nos propulsores, por cima de veículos parados.",
    "props": [
     [
      "kit/roadster26",
@@ -579,7 +574,7 @@
    }
   },
   {
-   "say": "Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
+   "say": "E, segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
    "explica": {
     "medidor": {
      "de": 0,
@@ -605,7 +600,7 @@
     "ENG:0:suspicious",
     "ENA:0:bored"
    ],
-   "say": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
+   "say": "Mas especialistas lembraram: o voo durou poucos segundos. Ainda não é um carro voador de verdade.",
    "props": [
     [
      "kit/roadster26",
