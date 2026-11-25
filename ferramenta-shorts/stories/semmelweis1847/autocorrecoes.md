@@ -40,3 +40,7 @@
 - b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
 - b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bisturi" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b9: objeto citado "kit/wash_basin" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 25/11 18:30 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+- b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bisturi" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

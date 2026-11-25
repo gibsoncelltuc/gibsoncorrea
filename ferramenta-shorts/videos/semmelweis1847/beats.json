@@ -61,8 +61,7 @@
   {
    "shot": "wide",
    "who": [
-    "SEM:0:stern",
-    "DIR:0:angry"
+    "SEM:0:stern"
    ],
    "acao": "discutir",
    "props": [
@@ -114,7 +113,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "two",
