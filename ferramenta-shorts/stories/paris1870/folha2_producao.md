@@ -11,6 +11,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bife_elefante, mk/Table_Large, kit/marco_notredame, elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar, natal
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
+- PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao pained; sem multidao; acao: fala/gesto
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "ELEFANTE NO JANTAR" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b1 - E no cardápio tinha até canguru e lobo.
 - Cenario: interior loja | luz: day | clima: limpo
@@ -21,6 +31,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bife_elefante, wolf
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cardapio
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
+- PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "CANGURU E LOBO" numa placa atras dos personagens, na palavra 4 da frase
+- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b2 - Em 1870, a Prússia cercou Paris, e a comida acabou.
 - Cenario: street | luz: day | clima: limpo
@@ -31,6 +51,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, prussia
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: FRANÇA (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (4.7-6.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (6.2-7.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b3 - Primeiro comeram os cavalos. Depois, cachorros e gatos.
 - Cenario: street | luz: day | clima: limpo
@@ -41,6 +73,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: dog, cat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalos
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: PAR na esquerda, expressao pained; PAR na direita, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "CAVALOS, CÃES, GATOS" numa placa atras dos personagens, na palavra 6 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (8.7-10.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (10.2-11.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b4 - Depois os roedores, que viraram prato chique.
 - Cenario: street | luz: day | clima: limpo
@@ -51,6 +95,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: barrel, kit/panela, kit/rato
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): roedores
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rato juntos (camera a 11.5 m)
+- PERSONAGENS: PAR na esquerda, expressao shock; CHF na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/rato: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/panela: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.9 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/rato: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "RATOS" numa placa atras dos personagens, na palavra 4 da frase
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b5 - Quando acabou tudo, olharam para o zoológico.
 - Cenario: street | luz: day | clima: limpo
@@ -61,6 +117,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_notredame, elephant, deer
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): zoologico
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b6 - Acontece que um açougueiro comprou os elefantes Castor e Pólux.
 - Cenario: street | luz: day | clima: limpo
@@ -71,6 +136,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acougueiro, elefantes
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: BUT na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "CASTOR E PÓLUX" numa placa atras dos personagens, na palavra 7 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (17.5-18.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.9-20.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b7 - No Natal, um restaurante serviu consomê de elefante.
 - Cenario: interior loja | luz: day | clima: limpo
@@ -81,6 +158,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bife_elefante, elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, natal, restaurante
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
+- PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "NATAL DE 1870" flutuando no alto, na palavra 4 da frase
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b8 - Só os ricos podiam pagar esse luxo.
 - Cenario: street | luz: day | clima: limpo
@@ -91,6 +178,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bife_elefante, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ricos
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
+- PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "SÓ PARA OS RICOS" flutuando no alto, na palavra 7 da frase
+- TAKES: 1 take continuo (1.3 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b9 - O povo fazia fila no frio por comida racionada.
 - Cenario: street | luz: day | clima: limpo
@@ -101,6 +198,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frio, povo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: PAR na esquerda, expressao surprised; PAR na direita, expressao shock; multidao de 10 () ATRAS dos principais; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b10 - Na fome, até bicho de zoológico vira comida. Foi assim que...
 - Cenario: street | luz: day | clima: limpo
@@ -141,3 +247,16 @@ deer | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh paris1870` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dusk
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
+- PERSONAGENS: PAR na esquerda, expressao pained; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "PARIS SE RENDEU" numa placa atras dos personagens, na palavra 11 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (28.7-30.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (30.3-31.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+

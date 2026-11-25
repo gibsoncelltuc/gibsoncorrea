@@ -11,6 +11,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): quimica, segredo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e snake_ring juntos (camera a 11.5 m)
+- PERSONAGENS: KEK (cientista) na esquerda, expressao grin; COL (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/snake_ring: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "SONHO" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b1 - E quem deu a resposta foi uma cobra de sonho.
 - Cenario: street | luz: day | clima: limpo
@@ -21,6 +33,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cobra, sonho
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)
+- PERSONAGENS: KEK (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/snake_ring: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b2 - Em 1865, August Kekulé tinha um problema.
 - Cenario: street | luz: day | clima: limpo
@@ -31,6 +52,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): problema
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: BÉLGICA (cobre a tela 1-2 s)
+- TAKES: sequencia de acao em 3 cameras (2.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b3 - Ninguém sabia arrumar os seis carbonos do benzeno.
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -41,6 +72,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): benzeno, seis
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: KEK (cientista) na esquerda, expressao worried; ALU na direita, expressao suspicious, segura paper; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b4 - Numa noite fria, ele cochilou diante da lareira.
 - Cenario: interior madeira | luz: noite | clima: limpo
@@ -51,6 +91,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/fireplace, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lareira
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e fireplace juntos (camera a 8.0 m)
+- PERSONAGENS: KEK (cientista) no centro, expressao bored; sem multidao; acao: fala/gesto
+- OBJETO kit/fireplace: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b5 - No sonho, átomos dançavam como cobras.
 - Cenario: loc_estudio | luz: noite | clima: limpo
@@ -61,6 +110,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sonho
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/snake_ring no centro, manobra "gira"
+- PASSOS NA TELA: ÁTOMOS -> COBRA -> ANEL
+- TAKES: 1 take de explicacao (1.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
 ## Cena b6 - Acontece que uma delas mordeu o próprio rabo.
 - Cenario: loc_estudio | luz: noite | clima: limpo
@@ -71,6 +128,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): proprio
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/snake_ring no centro, manobra "gira"
+- PASSOS NA TELA: ÁTOMOS -> COBRA -> ANEL
+- TAKES: 1 take de explicacao (1.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
 ## Cena b7 - Ele acordou num pulo: o benzeno era um anel!
 - Cenario: interior madeira | luz: noite | clima: limpo
@@ -81,6 +146,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anel, benzeno
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: noite
+- CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)
+- PERSONAGENS: KEK (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/snake_ring: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
+- SOM: sting@20
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b8 - Esse anel virou base de remédios, tintas e plásticos.
 - Cenario: street | luz: noite | clima: limpo
@@ -91,6 +167,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): remedios
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)
+- PERSONAGENS: COL (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
+- OBJETO kit/snake_ring: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "REMÉDIOS, TINTAS, PLÁSTICOS" flutuando no alto, na palavra 16 da frase
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b9 - Muita gente duvida do sonho. Mas o anel estava certo.
 - Cenario: street | luz: noite | clima: limpo
@@ -101,6 +187,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anel, sonho
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)
+- PERSONAGENS: COL (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
+- OBJETO kit/snake_ring: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b10 - Ele dizia: aprendam a sonhar. Porque...
 - Cenario: street | luz: noite | clima: limpo
@@ -133,3 +228,16 @@ mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer ca
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kekule1865 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh kekule1865` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e snake_ring juntos (camera a 11.5 m)
+- PERSONAGENS: KEK (cientista) na esquerda, expressao grin; COL (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/snake_ring: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "1865" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+

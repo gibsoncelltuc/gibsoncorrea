@@ -131,3 +131,17 @@
 ## 25/11 19:01 autocorrecao de visibilidade
 - b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b4: objeto "kit/rato" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 19:04 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b4: objeto "kit/rato" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 19:04 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b4: objeto "kit/rato" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 19:05 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b4: objeto "kit/rato" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> close no objeto
