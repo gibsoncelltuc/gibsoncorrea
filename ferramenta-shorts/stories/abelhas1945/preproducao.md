@@ -12,7 +12,7 @@ b4 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/beehive, kit/bee | 
 b5 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/beehive, kit/bee | - | -
 b6 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/beehive, kit/bee | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
-b8 | loc_campo | orbit | 33 | reagir, batalha | kit/beehive, kit/bee | - | -
+b8 | loc_campo | orbit | 32 | reagir, batalha | kit/beehive, kit/bee | - | -
 b9 | interior pedra | two | 6 | comemorar, INTERAGEM: pular | - | - | -
 b10 | loc_campo | two | 1 | conversar | kit/beehive, kit/bee | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -

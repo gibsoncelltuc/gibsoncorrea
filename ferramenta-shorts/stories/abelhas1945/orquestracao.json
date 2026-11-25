@@ -68,7 +68,7 @@
   {
    "camera": "two",
    "personagens": [
-    "POV"
+    "FRI"
    ],
    "multidao": 0,
    "objetos": [
@@ -217,9 +217,8 @@
   {
    "camera": "orbit",
    "personagens": [
-    "POV",
-    "COL",
-    "FRI"
+    "FRI",
+    "COL"
    ],
    "multidao": 30,
    "objetos": [
