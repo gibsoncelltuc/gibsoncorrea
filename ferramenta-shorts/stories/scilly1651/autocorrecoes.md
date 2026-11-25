@@ -40,3 +40,9 @@
 
 ## 25/11 16:52 autocorrecao de visibilidade
 - b7: objeto "kit/scroll" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 16:53 autocorrecao de visibilidade
+- b7: objeto "kit/scroll" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 16:53 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)

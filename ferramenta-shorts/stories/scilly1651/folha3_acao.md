@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 13 palavras - plano two
@@ -92,8 +92,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | assinar (35.7s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 37.3s a 42.6s - 14 palavras - plano two
 > "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro."

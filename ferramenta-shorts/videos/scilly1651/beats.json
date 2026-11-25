@@ -368,15 +368,14 @@
    "shot": "two",
    "interior": "pedra",
    "who": [
-    "EMB:0:relief:paper",
-    "PRE:0:relief"
+    "EMB:0:relief:paper"
    ],
    "interacao": "entregar",
    "props": [
     [
      "kit/scroll",
-     0.0,
-     -1.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -412,7 +411,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 1
+   "_auto_vis": 3
   },
   {
    "shot": "two",

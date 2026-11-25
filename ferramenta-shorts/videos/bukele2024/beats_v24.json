@@ -1,0 +1,567 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 26,
+ "title": "O Presidente dos 85 por Cento",
+ "titulo_base": "O Presidente dos 85 por Cento",
+ "set": "loc_campo",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/ballot_box",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "capBack": true
+  },
+  "POV": {
+   "jacket": "#2aa7c9",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "straw",
+    "cap",
+    "hair",
+    "beret"
+   ]
+  },
+  "REP": {
+   "profissao": "jornalista"
+  },
+  "JUI": {
+   "jacket": "#1b1b1f",
+   "pants": "#1b1b1f",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#9a9a9a",
+   "glasses": true
+  },
+  "PRE": {
+   "jacket": "#f2f2f2",
+   "pants": "#f2f2f2",
+   "boots": "#d9d9d9",
+   "hat": "hair",
+   "uniforme_fixo": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh",
+    "POV:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um presidente foi reeleito com uma das maiores votações do mundo.",
+   "set": "loc_cidade",
+   "acao": "comemorar",
+   "text": "84,6%",
+   "titulo": true,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "reeleito"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:grin",
+    "POV:0:smile"
+   ],
+   "mapa": "EL SALVADOR",
+   "say": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
+   "text": "NAYIB BUKELE",
+   "titulo": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "mapa",
+      "na": "Salvador"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:stern",
+    "POV:0:nervous"
+   ],
+   "say": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "set": "loc_cidade",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "prometendo"
+     }
+    ]
+   },
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.6,
+   "d0": 8.0,
+   "d1": 6.5,
+   "detalhe": false,
+   "vary": false,
+   "text": "FIM DAS GANGUES"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "JUI:0:stern:paper",
+    "REP:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "say": "A Constituição proibia a reeleição seguida, mas em dois mil e vinte e um a Suprema Corte mudou a interpretação.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/scroll",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "kit/scroll",
+      "na": "Constituição"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:worried:paper",
+    "POV:0:nervous"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.",
+   "set": "loc_patio",
+   "batalha": false,
+   "impact": false,
+   "tiros": false,
+   "interior": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "ilegal"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:grin",
+    "POV:1:smile"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "No dia da eleição, os salvadorenhos foram às urnas.",
+   "set": "loc_campo",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "crowd",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "urna",
+      "na": "urnas"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": false,
+   "who": [
+    "BUK:0:laugh",
+    "REP:0:shock:paper"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos.",
+   "verbos_ok": [
+    "impre"
+   ],
+   "set": "loc_cidade",
+   "text": "84,6%",
+   "titulo": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "votos"
+     }
+    ]
+   },
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.3,
+   "d0": 7.0,
+   "d1": 5.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/porch",
+     0.0,
+     -4.5,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "say": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
+   "light": "dusk",
+   "impact": false,
+   "set": "street",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "comemorou"
+     }
+    ]
+   },
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -1.5,
+   "h": 1.6,
+   "d0": 10.0,
+   "d1": 8.5,
+   "text": "VITÓRIA"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "BUK:0:smug"
+   ],
+   "acao": "conversar",
+   "say": "O motivo: os assassinatos caíram de cento e seis para dois vírgula quatro por cem mil habitantes.",
+   "hud": {
+    "comparar": [
+     [
+      "2015",
+      106.3,
+      ""
+     ],
+     [
+      "2023",
+      2.4,
+      ""
+     ]
+    ]
+   },
+   "text": "106 → 2,4",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "grafico",
+      "na": "caíram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "REP:0:suspicious:paper"
+   ],
+   "acao": "discutir",
+   "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
+   "props": [
+    [
+     "kit/prison",
+     0.0,
+     -12.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "PRE"
+    ],
+    "march": false,
+    "expr": "sad"
+   },
+   "detalhe": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "prisao",
+      "na": "prisões"
+     }
+    ]
+   },
+   "vary": false,
+   "cx": 0.0,
+   "cz": -5.0,
+   "h": 2.4,
+   "d0": 15.0,
+   "d1": 13.0,
+   "text": "PRISÕES EM MASSA",
+   "quadro_manual": true
+  },
+  {
+   "shot": "group",
+   "who": [
+    "BUK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Amado por muitos e criticado por outros, ele virou um dos presidentes mais populares do planeta.",
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "populares"
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 11.4,
+   "d1": 11.0,
+   "_auto_vis": 2
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election",
+  "https://www.idea.int/democracytracker/report/el-salvador/february-2024",
+  "https://en.wikipedia.org/wiki/Crime_in_El_Salvador",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/"
+ ],
+ "visual": {
+  "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",
+  "quando": "4/fev/2024; apuracao e comemoracao de noite",
+  "participantes": [
+   "Nayib Bukele (terno escuro, bone preto virado para tras nos anos de governo)",
+   "apoiadores de camisa azul-ciano (cor do Nuevas Ideas)",
+   "eleitores",
+   "jornalistas"
+  ],
+  "roupas": {
+   "BUK": "terno escuro, camisa branca",
+   "POV": "camisetas e bones azul-ciano",
+   "JUI": "toga preta (Sala Constitucional)",
+   "REP": "camisa com crachá de imprensa"
+  },
+  "cenario": "fachada clara do Palacio Nacional com sacada, multidao na praca a noite, bandeiras azuis e brancas, urnas de papelao com cabine",
+  "objetos": [
+   "urnas",
+   "bandeira de El Salvador (azul e branca)",
+   "cartaz com rosto de Bukele"
+  ],
+  "fontes_visuais": [
+   "https://www.gettyimages.com/editorial-images/news/event/salvadorians-vote-in-presidential-election/776100638",
+   "https://www.youtube.com/watch?v=FX3aCqFx_g0"
+  ],
+  "buscas": {
+   "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao": "Palacio Nacional San Salvador El Salvador",
+   "urnas": "El Salvador election ballot box voting 2024",
+   "eleitores": "El Salvador voters queue election 2024",
+   "jornalistas": "journalists press conference El Salvador",
+   "roupas e ruas de 2024": "San Salvador street 2024",
+   "cartaz com rosto de Bukele": "Nayib Bukele campaign poster Nuevas Ideas",
+   "ballot box": "ballot box election voting booth",
+   "O Presidente dos 85 por Cento": "Nayib Bukele 2024 election night balcony"
+  }
+ },
+ "cinf": 4.5,
+ "exp": 1.12,
+ "max_wide": 3
+}

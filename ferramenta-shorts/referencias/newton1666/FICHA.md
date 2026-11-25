@@ -7,7 +7,7 @@
 - Roupas: {'NEW': 'casaca marrom simples do seculo 17, camisa branca, cabelo comprido', 'MAE': 'vestido escuro e touca', 'AMI': 'casaca e peruca', 'LAV': 'roupa de camponeses ingleses'}
 - Cenario real: fazenda inglesa de pedra calcaria, pomar com macieira, campo verde; sala com lareira
 - Objetos: ['maca vermelha', 'macieira', 'livros e penas de escrever']
-- Cenarios usados no video: countryside, interior madeira, loc_campo
+- Cenarios usados no video: countryside, interior madeira, loc_campo, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

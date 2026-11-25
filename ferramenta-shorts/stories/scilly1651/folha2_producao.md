@@ -76,8 +76,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): EMB (variante 0, expressao relief, segura paper); PRE (variante 0, expressao relief)
-- Animacao: conversar | interacao: entregar
+- Personagens principais (1): EMB (variante 0, expressao relief, segura paper)
+- Animacao: encena
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): embaixador, ilhas
 - RISCOS: nenhum
@@ -103,7 +103,7 @@ ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer 
 
 ## Video inteiro
 - Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 77% | aberto 16% | detalhe 3%
-- Interacoes: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 o outro se aproxima, b7 entregar, b8 discutir
+- Interacoes: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 o outro se aproxima, b8 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

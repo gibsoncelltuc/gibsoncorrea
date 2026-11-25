@@ -55,9 +55,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Em 1986, o embaixador holandês foi às ilhas assinar a paz."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
-- PERSONAGENS: EMB (nobre) na esquerda, expressao relief, segura paper; PRE (politico) na direita, expressao relief; sem multidao; acao: entregar
-- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 8.0 m)
+- PERSONAGENS: EMB (nobre) no centro, expressao relief, segura paper; sem multidao; acao: entregar
+- OBJETO kit/scroll: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b8: "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

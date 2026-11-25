@@ -93,40 +93,93 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.",
-   "set": "medieval",
+   "set": "street",
    "fachada": false,
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "gancho",
+   "say": "Os primeiros passageiros de um balão não foram pessoas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/balloon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "balão"
      }
     ]
    },
-   "_enq_shot": "wide",
+   "text": "OVELHA, PATO E GALO",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "JOS:0:smile"
+   ],
+   "animals": [
+    [
+     "sheep",
+     -0.9,
+     -1.3,
+     "stand",
+     1.5
+    ],
+    [
+     "duck",
+     0.9,
+     -1.4,
+     "stand",
+     1.5
+    ],
+    [
+     "rooster",
+     0.0,
+     -1.6,
+     "stand",
+     1.5
+    ]
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -4.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "loc_campo",
+   "cx": 0.4,
+   "cz": -2.0,
+   "h": 1.4,
+   "d0": 9.0,
+   "d1": 8.0,
+   "quadro_manual": true,
+   "bloco": "promessa",
+   "say": "Foram uma ovelha, um pato e um galo.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "ovelha"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "reveal",
@@ -136,14 +189,15 @@
    ],
    "mapa": "FRANÇA",
    "mapa_at": 3,
-   "say": "Era mil setecentos e oitenta e três, na França.",
    "set": "street",
+   "bloco": "prova",
+   "say": "Em 1783, os irmãos Montgolfier faziam papel na França.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "França"
+      "na": "Montgolfier"
      }
     ]
    }
@@ -171,8 +225,13 @@
    "sfx": [
     "whoosh@40"
    ],
-   "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fumaça quente fazia sacos de papel flutuarem.",
    "interior": "madeira",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Eles viram que fumaça quente fazia sacos de papel flutuarem.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -182,24 +241,7 @@
       "quem": 0
      }
     ]
-   },
-   "_enq_shot": "group",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/campfire",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "wide",
@@ -233,20 +275,10 @@
      }
     ]
    ],
-   "say": "Então fizeram um balão gigante de pano e papel, cheio de ar quente.",
    "detalhe": false,
    "fachada": false,
    "crowd": {
     "n": 0
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "balão"
-     }
-    ]
    },
    "set": "loc_campo",
    "fx": [
@@ -268,7 +300,18 @@
      ]
     ]
    },
-   "shot_lock": true
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Fizeram um balão gigante de pano e papel, cheio de ar quente.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -277,10 +320,11 @@
     "ETI:0:nervous"
    ],
    "acao": "discutir",
-   "say": "Só que ninguém sabia se dava para respirar lá em cima.",
    "interior": "madeira",
+   "bloco": "escalada",
+   "say": "Mas ninguém sabia se dava para respirar lá em cima.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -288,80 +332,6 @@
      }
     ]
    }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "JOS:0:smile"
-   ],
-   "animals": [
-    [
-     "sheep",
-     -0.9,
-     -1.3,
-     "stand",
-     1.5
-    ],
-    [
-     "duck",
-     0.9,
-     -1.4,
-     "stand",
-     1.5
-    ],
-    [
-     "rooster",
-     0.0,
-     -1.6,
-     "stand",
-     1.5
-    ]
-   ],
-   "say": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
-   "props": [
-    [
-     "kit/balloon",
-     0.0,
-     -4.0,
-     4.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/balloon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "set": "loc_campo",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "cesta"
-     }
-    ]
-   },
-   "cx": 0.4,
-   "cz": -2.0,
-   "h": 1.4,
-   "d0": 9.0,
-   "d1": 8.0,
-   "quadro_manual": true
   },
   {
    "shot": "two",
@@ -387,39 +357,28 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão.",
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/balloon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "set": "street",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "olha",
-      "na": "assistiram",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.5,
    "h": 1.5,
    "d0": 8.0,
    "d1": 6.5,
    "objetos": false,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Em Versalhes, o rei Luís Dezesseis assistiu no meio da multidão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "assistiu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -445,26 +404,20 @@
     "whoosh@20",
     "ding@50"
    ],
-   "say": "Acontece que o balão levantou voo de verdade, com os bichos dentro.",
    "fachada": false,
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/balloon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "set": "medieval",
-   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 9.0,
+   "d0": 26.0,
+   "d1": 24.0,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Acontece que o balão subiu de verdade, com os bichos dentro.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -473,13 +426,7 @@
       "na": "balão"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.0,
-   "h": 9.0,
-   "d0": 26.0,
-   "d1": 24.0,
-   "quadro_manual": true
+   }
   },
   {
    "shot": "two",
@@ -497,10 +444,9 @@
      }
     ]
    ],
-   "say": "Oito minutos depois, ele desceu num bosque a três quilômetros dali, e os bichos estavam vivos: dava para respirar no céu.",
    "shot_lock": true,
    "detalhe": false,
-   "set": "countryside",
+   "set": "jungle",
    "fachada": false,
    "crowd": {
     "n": 0
@@ -522,35 +468,24 @@
      0.8
     ]
    ],
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "bosque"
-     }
-    ]
-   },
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/balloon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -0.5,
    "h": 1.8,
    "d0": 9.0,
    "d1": 8.0,
    "quadro_manual": true,
-   "objetos": false
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Oito minutos depois, pousou, e os bichos estavam vivos.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -590,10 +525,18 @@
    ],
    "text": "SOBRE PARIS",
    "titulo": true,
-   "say": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
    "fachada": false,
    "detalhe": false,
    "set": "street",
+   "cx": 0.5,
+   "cz": -6.0,
+   "h": 1.4,
+   "d0": 20.0,
+   "d1": 17.0,
+   "quadro_manual": true,
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Dois meses depois, um balão levou dois homens sobre Paris.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -602,14 +545,7 @@
       "na": "balão"
      }
     ]
-   },
-   "cx": 0.5,
-   "cz": -6.0,
-   "h": 1.4,
-   "d0": 20.0,
-   "d1": 17.0,
-   "quadro_manual": true,
-   "objetos": false
+   }
   },
   {
    "shot": "wide",
@@ -650,91 +586,32 @@
      }
     ]
    ],
-   "say": "Tudo graças a três bichos corajosos.",
    "fachada": false,
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/balloon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "set": "countryside",
-   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 2.4,
+   "d0": 13.0,
+   "d1": 12.0,
+   "quadro_manual": true,
+   "bloco": "loop",
+   "say": "Tudo graças a três bichos corajosos.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "bichos"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.0,
-   "h": 2.4,
-   "d0": 13.0,
-   "d1": 12.0,
-   "quadro_manual": true
-  },
-  {
-   "who": [
-    "JOS:0:grin"
-   ],
-   "shot": "two",
-   "say": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "text": "COMENTE!",
-   "_cta": true,
-   "detalhe": false,
-   "mapa": null,
-   "set": "street",
-   "objetos": false,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "props": [
-    [
-     "kit/balloon",
-     0.0,
-     -12.0,
-     4.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": -3.0,
-   "h": 3.0,
-   "d0": 14.0,
-   "d1": 12.0,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/balloon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   }
  ],
  "exp": 0.81,
- "max_wide": 9,
  "visual": {
   "local": "Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris",
   "quando": "19 de setembro de 1783, dia; 21 de novembro de 1783 em Paris",
@@ -773,5 +650,8 @@
   "buscas": {
    "balao": "Montgolfier balloon Versailles 1783 engraving"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos, pousou oito minutos depois com todos vivos e abriu caminho para o voo humano.",
+ "loop_frase_ok": true
 }

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Gerado em 25/11 16:52 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:54 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | chave | harbor | orbit | MAR | - | navios de guerra ao fundo, no tamanho re
 b4 | simples | loc_campo | two | PRE, ILH | - | - | - | Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.
 b5 | simples | harbor | wide | HOL | - | ship | - | Os holandeses foram embora. E ninguém assinou a paz.
 b6 | simples | interior madeira | two | PRE, EMB | - | - | - | Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
-b7 | simples | interior pedra | two | EMB, PRE | - | scroll | - | Em 1986, o embaixador holandês foi às ilhas assinar a paz.
+b7 | simples | interior pedra | two | EMB | - | scroll | - | Em 1986, o embaixador holandês foi às ilhas assinar a paz.
 b8 | simples | harbor | two | ILH, HOL | - | scroll | - | 335 anos de guerra, zero tiros. E você achando que guerra precisa de t
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

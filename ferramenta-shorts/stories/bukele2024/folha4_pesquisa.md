@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2024 | Lugar: San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao | Quando: 4/fev/2024; apuracao e comemoracao de noite
 - HEROIS (objeto): kit/ballot_box, kit/volcano
 - HEROIS (personagens): BUK, REP
-- Cenarios: interior galpao, interior madeira, loc_campo, loc_cidade, loc_patio, loc_pista
+- Cenarios: interior madeira, loc_campo, loc_cidade, loc_patio
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/prison: 11.0 m reais -> escala 2.65 (estava 1.4: pequeno demais)
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Presidente dos 85 por Cento | Nayib Bukele 2024 election night balcony / O Presidente dos 85 por Cento / Um Foi El Salvador América Central Nayib Bukele Ele 2024 | CPIHSBC - CPI do HSBC (22823958054).jpg (referencias/bukele2024/prints/o_presidente_dos_85_por_cento_bebc7a.jpg); CPIHSBC - CPI do HSBC (22823956134).jpg (referencias/bukele2024/prints/o_presidente_dos_85_por_cento_ae755e.jpg); CPIHSBC - CPI do HSBC (27148421482).jpg (referencias/bukele2024/prints/o_presidente_dos_85_por_cento_167864.jpg)
+tema | O Presidente dos 85 por Cento | Nayib Bukele 2024 election night balcony / O Presidente dos 85 por Cento / Um Em El Salvador Nayib Bukele 2024 | CPIHSBC - CPI do HSBC (22823958054).jpg (referencias/bukele2024/prints/o_presidente_dos_85_por_cento_bebc7a.jpg); CPIHSBC - CPI do HSBC (22823956134).jpg (referencias/bukele2024/prints/o_presidente_dos_85_por_cento_ae755e.jpg); CPIHSBC - CPI do HSBC (27148421482).jpg (referencias/bukele2024/prints/o_presidente_dos_85_por_cento_167864.jpg)
 lugar | San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/ | San Salvador El Salvador / San Salvador El Salvador 2024 | Iglesia de San Salvador, Luesia, Zaragoza, España, (referencias/bukele2024/prints/san_salvador_el_salvador_palacio_naciona_79c445.jpg); Iglesia de San Salvador, Luesia, Zaragoza, España, (referencias/bukele2024/prints/san_salvador_el_salvador_palacio_naciona_38eed1.jpg); Catedral Metropolitana de San Salvador, El Salvado (referencias/bukele2024/prints/san_salvador_el_salvador_palacio_naciona_59541a.jpg)
 lugar | El Salvador | El Salvador 2024 / El Salvador landscape | Sentinel-1 eyes Ahuachapán in El Salvador (Coperni (referencias/bukele2024/prints/el_salvador_93b70d.jpg); Olocuilta stores.jpg (referencias/bukele2024/prints/el_salvador_17825f.jpg); Villa El Salvador 2024.jpg (referencias/bukele2024/prints/el_salvador_3397fa.jpg)
 epoca | roupas e ruas de 2024 | San Salvador street 2024 / 2024 fashion clothing / 2024 street photograph | GD 廣東 Guangdong GZ 廣州 Guangzhou 天河 Tianhe Fashion  (referencias/bukele2024/prints/roupas_e_ruas_de_2024_75e66f.jpg); GD 廣東 Guangdong GZ 廣州 Guangzhou 天河 Tianhe Fashion  (referencias/bukele2024/prints/roupas_e_ruas_de_2024_ce1c2c.jpg); GD 廣東 Guangdong GZ 廣州 Guangzhou 天河 Tianhe Fashion  (referencias/bukele2024/prints/roupas_e_ruas_de_2024_7b8ccd.jpg)

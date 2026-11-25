@@ -9,15 +9,10 @@
   "cenarios": [
    "countryside",
    "interior madeira",
-   "loc_campo"
+   "loc_campo",
+   "street"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 2",
-    "medieval",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "carro antigo",
@@ -39,6 +34,7 @@
   "buildings/barn",
   "buildings/house_small",
   "buildings/house_two",
+  "buildings/shop",
   "kit/apple",
   "kit/lua_ceu",
   "kit/room_europa_wood",

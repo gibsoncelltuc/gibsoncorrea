@@ -1,13 +1,7 @@
 {
  "id": "newton1666",
  "ano": 1666,
- "cenarios_trocados": [
-  [
-   "cena 2",
-   "medieval",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -25,9 +19,9 @@
     "kit/apple",
     "kit/lua_ceu"
    ],
-   "palavras": 15,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça.",
+   "frase": "A maçã não caiu na cabeça de Newton. E mesmo assim mudou tudo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -37,18 +31,36 @@
   {
    "camera": "reveal",
    "personagens": [
-    "EST"
+    "NEW"
    ],
-   "multidao": 10,
-   "objetos": [],
-   "palavras": 15,
+   "multidao": 8,
+   "objetos": [
+    "kit/apple"
+   ],
+   "palavras": 11,
    "cena": "b1",
-   "frase": "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.",
-   "classe": "transicao",
+   "frase": "Ela explicou por que a Lua não cai na nossa cabeça.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EST"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1666, a peste fechou a universidade de Cambridge.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -63,29 +75,9 @@
     "nature/picket_fence",
     "nature/scarecrow"
    ],
-   "palavras": 15,
-   "cena": "b2",
-   "frase": "Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da mãe.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "NEW",
-    "AMI"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/apple",
-    "nature/tree_oak"
-   ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b3",
-   "frase": "Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem.",
+   "frase": "Isaac Newton, de 23 anos, voltou para a fazenda da mãe.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -98,14 +90,34 @@
     "NEW",
     "AMI"
    ],
+   "multidao": 6,
+   "objetos": [
+    "kit/apple",
+    "nature/tree_oak"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Passava os dias debaixo de uma macieira, pensando.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NEW",
+    "AMI"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/apple",
     "nature/tree_oak"
    ],
-   "palavras": 16,
-   "cena": "b4",
-   "frase": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que uma maçã caiu bem na frente dele.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -119,7 +131,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "NEW"
    ],
@@ -128,9 +140,9 @@
     "kit/apple",
     "nature/tree_oak"
    ],
-   "palavras": 20,
-   "cena": "b5",
-   "frase": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Ele se perguntou: por que ela cai sempre para baixo?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -144,9 +156,9 @@
    "objetos": [
     "kit/lua_ceu"
    ],
-   "palavras": 19,
-   "cena": "b6",
-   "frase": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?",
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Se a força puxa a maçã, será que puxa a Lua também?",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -164,11 +176,11 @@
    "personagens": [
     "NEW"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b7",
-   "frase": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Virou a lei da gravidade, publicada em 1687.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -179,53 +191,21 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "NEW",
-    "AMI"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b8",
-   "frase": "Anos depois, ele mesmo contou essa história a um amigo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
-   "personagens": [
-    "NEW"
-   ],
-   "multidao": 6,
-   "objetos": [
-    "kit/apple"
-   ],
-   "palavras": 11,
-   "cena": "b9",
-   "frase": "No fim, a maçã mudou a ciência e nem foi comida.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
     "NEW"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "objetos": [
+    "kit/apple",
+    "kit/lua_ceu"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "A maçã ficou famosa. E nem foi comida.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

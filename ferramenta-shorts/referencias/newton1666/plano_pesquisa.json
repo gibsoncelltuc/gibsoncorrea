@@ -7,7 +7,7 @@
    "item": "Newton e a Maçã",
    "consultas": [
     "Newton e a Maçã",
-    "Uma Lua Era Cambridge Um Isaac Newton 1666"
+    "Newton Ela Lua Em Cambridge 1666"
    ]
   },
   {
@@ -91,6 +91,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "lua ceu",
+   "consultas": [
+    "lua ceu"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "fazenda da epoca",
    "consultas": [
@@ -100,9 +107,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá",
+   "item": "Se a força puxa a maçã, será que puxa a Lua também?",
    "consultas": [
-    "forca galho tambem",
+    "forca tambem",
     "lua ceu diagram"
    ]
   }
