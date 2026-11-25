@@ -121,10 +121,9 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
-    "BUK",
-    "POV"
+    "BUK"
    ],
    "multidao": 6,
    "objetos": [

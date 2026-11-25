@@ -8,8 +8,8 @@ b0 | interior pedra | reveal | 2 | parados (so fala e pisca) | mk/BookStand, kit
 b1 | loc_cidade | crowd | 3 | comemorar | kit/marco_onu | - | -
 b2 | loc_cidade | two | 14 | conversar, INTERAGEM: avanca e o outro recua | kit/marco_onu | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b4 | interior pedra | close | 1 | conversar | kit/phone, mk/BookStand | - | -
-b5 | interior pedra | crowd | 8 | tirar | mk/BookStand, kit/phone | - | -
+b4 | interior pedra | close | 1 | conversar | mk/BookStand, kit/phone | - | -
+b5 | interior pedra | two | 7 | tirar | mk/BookStand, kit/phone | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b7 | loc_cidade | orbit | 23 | comemorar, batalha | kit/marco_onu, kit/phone | - | -
 b8 | interior pedra | reveal | 2 | comemorar | mk/BookStand | - | -

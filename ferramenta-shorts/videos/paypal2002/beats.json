@@ -269,13 +269,13 @@
      },
      {
       "objeto": "kit/computador_2002",
-      "lugar": "sem medida (modelo nao encontrado)",
-      "tela": "-",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/tv",
-      "lugar": "MEIO, direita",
+      "lugar": "MEIO, esquerda",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }

@@ -47,9 +47,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Acontece que virou de costas e fez uma selfie com o plenário."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano de multidao
-- PERSONAGENS: BUK na esquerda, expressao grin; POV na direita, expressao surprised; multidao de 6 (POV) ATRAS dos principais; acao: tirar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: BUK no centro, expressao grin; multidao de 6 (POV) ATRAS dos principais; acao: tirar
+- OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@20

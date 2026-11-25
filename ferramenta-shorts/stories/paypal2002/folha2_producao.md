@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/bancada, kit/computador_2002 (FALTA MODELAR), kit/tv
+- Objetos/modelos: kit/bancada, kit/computador_2002, kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): email, paypal
 - RISCOS: nenhum
 
@@ -112,7 +112,7 @@ kit/rocket | b0, b1, b6, b8, b9 | pronto | conferir na folha de contato se le be
 kit/roadster2008 | b1, b7, b8 | FALTA | modelar antes de renderizar
 kit/tv | b1, b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/bancada | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/computador_2002 | b2 | FALTA | modelar antes de renderizar
+kit/computador_2002 | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

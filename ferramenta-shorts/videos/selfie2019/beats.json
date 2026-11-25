@@ -176,20 +176,21 @@
    ],
    "props": [
     [
-     "kit/phone",
-     1.0,
-     1.0,
-     0.96,
-     {
-      "y": 1.5,
-      "fixo": true
-     }
-    ],
-    [
      "mk/BookStand",
      -1.0,
      -1.5,
      2.0
+    ],
+    [
+     "kit/phone",
+     0.55,
+     1.55,
+     0.35,
+     {
+      "y": 1.45,
+      "alto": 4.14,
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -231,10 +232,9 @@
    }
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "who": [
-    "BUK:0:grin",
-    "POV:1:surprised"
+    "BUK:0:grin"
    ],
    "props": [
     [
@@ -242,6 +242,17 @@
      0,
      -1.5,
      2.0
+    ],
+    [
+     "kit/phone",
+     0.5,
+     1.55,
+     0.35,
+     {
+      "y": 2.0,
+      "alto": 2.0,
+      "fixo": true
+     }
     ]
    ],
    "fx": [
