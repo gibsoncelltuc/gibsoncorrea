@@ -96,12 +96,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "tomba",
-      "na": "chao"
+      "na": "chão"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -2.0,
@@ -126,14 +124,13 @@
    "mapa": "ITÁLIA",
    "mapa_at": 2,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Conta"
+      "na": "Pisa"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -146,14 +143,13 @@
    ],
    "acao": "conversar",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "O"
+      "na": "Aristóteles"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -195,12 +191,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "pensa",
+      "na": "estranho",
       "quem": 0,
-      "faz": "olha",
-      "na": "achou"
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -274,14 +270,13 @@
    },
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Dizem"
+      "na": "torre"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -367,17 +362,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_solta",
-      "na": "soltou"
-     },
-     {
-      "quem": 0,
-      "faz": "tomba",
-      "na": "chao"
+      "na": "soltou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -394,14 +383,13 @@
    ],
    "interacao": "cochichar",
    "encena": {
-    "sentido": "fato",
+    "sentido": "hipotese",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Hoje"
+      "na": "aluno"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -470,12 +458,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_solta",
-      "na": "soltou"
+      "na": "soltou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -489,15 +476,13 @@
     "GAL:0:smug"
    ],
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "deu"
+      "faz": "mostra",
+      "na": "pena"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

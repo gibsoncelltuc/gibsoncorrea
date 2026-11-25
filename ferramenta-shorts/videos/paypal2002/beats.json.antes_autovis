@@ -86,17 +86,13 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "entrega",
+      "na": "vendido",
       "quem": 0,
-      "faz": "paga",
-      "na": "pagar"
-     },
-     {
-      "quem": 0,
-      "faz": "negocio",
-      "na": "vendido"
+      "alvo_quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -142,12 +138,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "negocio",
-      "na": "comprou"
+      "faz": "mostra",
+      "na": "eBay"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -189,20 +183,13 @@
    },
    "_enq_shot": "two",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "mandar"
-     },
-     {
-      "quem": 0,
-      "faz": "paga",
-      "na": "dinheiro"
+      "faz": "mostra",
+      "na": "e-mail"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -225,17 +212,13 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "entrega",
+      "na": "compra",
       "quem": 0,
-      "faz": "sai",
-      "na": "saiu"
-     },
-     {
-      "quem": 0,
-      "faz": "negocio",
-      "na": "compra"
+      "alvo_quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -272,14 +255,13 @@
    },
    "_enq_shot": "two",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "O"
+      "na": "ações"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -296,14 +278,13 @@
    "fachada": false,
    "interior": "madeira",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Elon"
+      "na": "acionista"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -351,14 +332,13 @@
    },
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "SpaceX"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -2.0,
@@ -411,14 +391,13 @@
    },
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Dois"
+      "na": "Tesla"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -3.6,
@@ -504,22 +483,13 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "entrega",
+      "na": "venda",
       "quem": 0,
-      "faz": "paga",
-      "na": "dinheiro"
-     },
-     {
-      "quem": 0,
-      "faz": "negocio",
-      "na": "venda"
-     },
-     {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "ajudou"
+      "alvo_quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -560,15 +530,13 @@
    },
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "chegou"
+      "faz": "mostra",
+      "na": "espaço"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -2.0,

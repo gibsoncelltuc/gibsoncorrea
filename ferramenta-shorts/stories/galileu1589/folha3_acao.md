@@ -1,14 +1,14 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.2s - 16 palavras - plano two
 > "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GAL cai no chao | na palavra "chao" (3.5s)
+  1) objeto cai no chao | na palavra "chão" (3.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -26,8 +26,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b1 - 5.4s a 12.0s - 22 palavras - plano reveal
 > "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Conta" (5.4s)
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Pisa" (6.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -42,8 +42,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b2 - 13.4s a 18.1s - 16 palavras - plano two
 > "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "O" (13.4s)
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Aristóteles" (14.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -60,18 +60,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Mas Galileu Galilei achou estranho e resolveu provar o contrário."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ALU olha/aponta para o alvo | na palavra "achou" (20.2s)
+  1) ALU mao no queixo, pensando | na palavra "estranho" (20.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | achou (20.2s) | ACAO: olha | aponta/olha | OK |
+| 1 | estranho (20.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra achou (20.2s): braco estendido apontando para o objeto/lugar citado
+- ACAO: pensa na palavra estranho (20.5s): executa: mao no queixo + brilho de ideia
 - EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
@@ -80,8 +80,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b4 - 23.2s a 27.2s - 16 palavras - plano wide
 > "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Dizem" (23.2s)
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "torre" (24.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -92,21 +92,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) GAL acao do motor: solta | na palavra "soltou" (30.6s)
-  2) GAL cai no chao | na palavra "chao" (32.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | soltou (30.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caíram (31.7s) | EFEITO: dust | poeira + som | OK |
-| 3 | chão (32.1s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: x_solta na palavra soltou (30.6s): executa: solta/liberta + brilho
 - EFEITO: dust na palavra caíram (31.7s): executa: poeira + som
-- ACAO: tomba na palavra chão (32.1s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
@@ -114,8 +111,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 34.0s a 38.7s - 17 palavras - plano two
 > "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Hoje" (34.0s)
+- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aluno" (37.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -152,17 +149,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b8 - 47.6s a 49.5s - 9 palavras - plano close
 > "No fim, até a pena deu razão ao Galileu."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GAL acao do motor: entrega | na palavra "deu" (48.9s)
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pena" (48.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deu (48.9s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra deu (48.9s): executa: estende a mao entregando
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
