@@ -13,7 +13,7 @@ b7 | two | -  | interior | encena: vira (up) @7 (acao + som de efeito) | -
 b8 | orbit | -  | tropa | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
 b10 | two | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino) | -
-b11 | close | -  | placa: COMENTE! | - | -
+b11 | close | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 76% | aberto 11% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 78% | aberto 11% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

@@ -87,10 +87,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "PNEUS" flutuando no alto, na palavra 1 da frase
 
 ## b10: "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)
-- PERSONAGENS: GOO no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/borracha: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/tires: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- LOCAL: galpao; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tires juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/tires: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "GOODYEAR" numa placa atras dos personagens, na palavra 1 da frase
 

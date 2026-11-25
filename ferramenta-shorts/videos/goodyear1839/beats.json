@@ -551,23 +551,15 @@
   {
    "shot": "two",
    "who": [
-    "GOO:0:smile"
+    "POV:0:smile",
+    "POV:0:grin"
    ],
    "props": [
     [
      "kit/tires",
-     3.6,
-     -2.0,
+     0.0,
+     -0.6,
      2.0,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/borracha",
-     0.6,
-     1.0,
-     1.5,
      {
       "fixo": true
      }
@@ -575,7 +567,7 @@
    ],
    "text": "GOODYEAR",
    "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.",
-   "detalhe": true,
+   "detalhe": false,
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -586,10 +578,10 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 0.5,
-   "cz": 0.6,
-   "d0": 7.6,
-   "d1": 7.2,
+   "cx": 0.0,
+   "cz": -0.2,
+   "d0": 8.0,
+   "d1": 7.6,
    "quadro_manual": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -608,7 +600,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "interior": "galpao"
   }
  ],
  "visual": {
