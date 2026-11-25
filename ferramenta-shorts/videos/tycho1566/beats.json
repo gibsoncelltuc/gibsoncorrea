@@ -121,12 +121,11 @@
    }
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "TYC:0:angry",
-    "PAR:0:shout",
-    "POV:0:surprised:mug"
+    "PAR:0:shout"
    ],
    "acao": "discutir",
    "say": "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.",
@@ -139,7 +138,10 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",

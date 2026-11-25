@@ -145,10 +145,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del...
 - Cenario: interior madeira | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ROE (variante 0, expressao grin); ANA (variante 0, expressao nervous)
-- Animacao: conversar | interacao: entregar
+- Personagens principais (1): ROE (variante 0, expressao grin)
+- Animacao: conversar
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alianca, esposa
 - RISCOS: nenhum
@@ -156,9 +156,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
-- PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
-- OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
+- PERSONAGENS: ROE (cientista) no centro, expressao grin; sem multidao; acao: entregar
+- OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (29.4-31.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (31.1-32.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -283,8 +283,8 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 15% | detalhe 2%
-- Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
+- Objeto heroi: kit/xray_plate | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 27% | medio 55% | aberto 15% | detalhe 2%
+- Interacoes: b0 aproxima-se, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

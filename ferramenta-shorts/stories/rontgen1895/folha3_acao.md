@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
@@ -108,7 +108,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 29.4s a 34.4s - 16 palavras - plano group
+## Cena b6 - 29.4s a 34.4s - 16 palavras - plano close
 > "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -119,14 +119,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | chamou (31.2s) | ACAO: fala | aponta explicando | OK |
 | 2 | fotografou (32.7s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra chamou (31.2s): braco estendido apontando para o objeto/lugar citado
 - ACAO: tira na palavra fotografou (32.7s): executa: tira foto (celular + flash)
-- INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 

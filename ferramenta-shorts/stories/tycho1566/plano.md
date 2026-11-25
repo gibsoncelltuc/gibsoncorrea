@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1566 | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); briga (puff + som de baque); encena: perde (facepalm) @6 (acao + som de efeito); encena: golpe (punch) @10 (acao + som de efeito) | -
 b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
-b2 | group | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: x_discute (point) @3 (acao + som de efeito) | -
+b2 | two | -  | interior | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: x_discute (point) @3 (acao + som de efeito) | -
 b3 | two | noite  | objeto na mao | briga (puff + som de baque); encena: golpe (punch) @8 (acao + som de efeito) | -
 b4 | two | noite  | objeto na mao | encena: golpe (punch) @6 (acao + som de efeito) | -
 b5 | two | dia  | - | - | -

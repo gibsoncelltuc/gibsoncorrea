@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Gerado em 25/11 02:41 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 02:46 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | medieval | two | TYC, PAR | - | brass_nose | - | Um dos maiores astrônomos da história perdeu o nariz numa briga por ca
 b1 | chave | loc_campo | wide | TYC, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre di
-b2 | simples | interior madeira | group | TYC, PAR, POV | - | - | - | Numa festa, ele discutiu com um primo sobre quem era o melhor em matem
+b2 | simples | interior madeira | two | TYC, PAR | - | - | - | Numa festa, ele discutiu com um primo sobre quem era o melhor em matem
 b3 | simples | loc_deserto | two | TYC, PAR | - | - | - | Dias depois, os dois resolveram a briga num duelo de espadas, no escur
 b4 | simples | loc_deserto | two | PAR, TYC | - | brass_nose | - | Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç
 b5 | simples | loc_montanha | two | TYC | - | brass_nose | - | Para esconder o buraco, ele passou a usar um nariz de metal, colado no

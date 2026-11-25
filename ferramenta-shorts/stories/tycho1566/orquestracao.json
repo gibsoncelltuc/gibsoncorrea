@@ -68,11 +68,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "TYC",
-    "PAR",
-    "POV"
+    "PAR"
    ],
    "multidao": 0,
    "objetos": [],

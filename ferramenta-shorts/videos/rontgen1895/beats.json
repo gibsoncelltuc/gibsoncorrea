@@ -329,19 +329,18 @@
    "d1": 8.0
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "hora": "dia",
    "who": [
-    "ROE:0:grin",
-    "ANA:0:nervous"
+    "ROE:0:grin"
    ],
    "interacao": "entregar",
    "props": [
     [
      "kit/xray_plate",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.0,
      {
       "fixo": true
@@ -351,17 +350,17 @@
    "say": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/xray_plate",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -377,10 +376,11 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -563,7 +563,7 @@
   }
  ],
  "variar_cenario": false,
- "max_wide": 3,
+ "max_wide": 4,
  "visual": {
   "local": "Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio escuro com tubo de Crookes",
   "quando": "8 de novembro de 1895, noite; 22 de dezembro de 1895 (mao de Anna)",

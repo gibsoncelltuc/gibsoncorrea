@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | medieval | two | 2 | discutir, INTERAGEM: discutir | kit/brass_nose | - | -
 b1 | loc_campo | wide | 8 | batalha | - | - | -
-b2 | interior madeira | group | 3 | discutir, INTERAGEM: avanca e o outro recua | - | mug | -
+b2 | interior madeira | two | 2 | discutir, INTERAGEM: avanca e o outro recua | - | - | -
 b3 | loc_deserto | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | -
 b4 | loc_deserto | two | 2 | encena, INTERAGEM: susto | kit/brass_nose | sword, sword | -
 b5 | loc_montanha | two | 1 | conversar | kit/brass_nose | - | -

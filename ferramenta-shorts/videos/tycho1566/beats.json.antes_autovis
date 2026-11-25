@@ -57,8 +57,8 @@
     [
      "kit/brass_nose",
      0.0,
-     -1.0,
-     1.1,
+     -1.2,
+     1.5,
      {
       "fixo": true
      }
@@ -79,11 +79,27 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perdeu",
+      "quem": 0
+     },
+     {
+      "faz": "golpe",
+      "na": "briga",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -93,10 +109,19 @@
    ],
    "mapa": "DINAMARCA",
    "mapa_at": 3,
-   "say": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
+   "say": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Alemanha"
+     }
+    ]
+   }
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "TYC:0:angry",
@@ -104,7 +129,20 @@
     "POV:0:surprised:mug"
    ],
    "acao": "discutir",
-   "say": "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática."
+   "say": "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_discute",
+      "na": "discutiu",
+      "quem": 0
+     }
+    ]
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -121,7 +159,19 @@
     "whoosh@36",
     "thump@40"
    ],
-   "say": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro."
+   "say": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "golpe",
+      "na": "duelo",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -143,7 +193,19 @@
    "variar_cenario": false,
    "vary": false,
    "shot_lock": true,
-   "impact": false
+   "impact": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "golpe",
+      "na": "golpe",
+      "quem": 1,
+      "alvo_quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -177,6 +239,16 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "metal"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -190,7 +262,17 @@
    ],
    "interacao": "entregar",
    "say": "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_entrega",
+      "na": "deu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -253,6 +335,22 @@
      }
     ]
    },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "constroi",
+      "na": "construiu",
+      "quem": 0
+     },
+     {
+      "faz": "escreve",
+      "na": "anotou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -274,7 +372,18 @@
    ],
    "sfx": [
     "ding@50"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "descobrir",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -305,6 +414,16 @@
       "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "estrelas"
      }
     ]
    },

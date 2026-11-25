@@ -18,8 +18,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR no centro, expressao shout; POV na direita, expressao surprised, segura mug; sem multidao; acao: discutir
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b3: "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro."
