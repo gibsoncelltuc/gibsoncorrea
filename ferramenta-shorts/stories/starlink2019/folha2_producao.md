@@ -21,7 +21,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 - TEXTO NA TELA: "OVNI?" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.5 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b1 - Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta sa...
@@ -41,12 +41,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/rocket: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/falcon_air: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 5 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (3.8-5.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (5.5-7.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (7.2-8.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 4 (8.8-10.5 s): mesmo angulo
-  - take 5 (10.5-12.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (5.0-6.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (6.7-8.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (8.4-10.2 s): mesmo angulo
+  - take 4 (10.2-11.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b2 - Um dia depois, um rastreador de satélites holandês, Marco Langbroek, f...
@@ -66,9 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: AST (cientista) na esquerda, expressao grin; JOR na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (13.6-15.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (15.2-16.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (16.8-18.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (13.3-14.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (14.9-16.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (16.4-18.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b3 - Ele registrou uma fila de luzes, que levava cerca de três minutos para...
@@ -90,7 +89,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 - TEXTO NA TELA: "3 MINUTOS" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b4 - Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
@@ -110,7 +109,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/starlink_train: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 17.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "56" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (23.9-25.2 s): mesmo angulo
+  - take 2 (25.2-26.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que o site holandês de avistamentos de OVNIs registrou mais d...
@@ -131,7 +132,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: sting@40
-- TAKES: sequencia de acao em 3 cameras (4.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - Jornais de vários países explicaram que não eram OVNIs, e sim satélite...
@@ -152,8 +153,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: MUNDO (cobre a tela 1-2 s)
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (33.7-35.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (35.4-37.1 s): mesmo angulo
+  - take 1 (33.4-35.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (35.0-36.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - Os satélites ainda estavam juntos, em fila, logo depois do lançamento.
@@ -191,8 +192,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: JOR no centro, expressao shock; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (43.2-45.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (45.0-46.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (42.9-44.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (44.7-46.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b9 - Moral da história: se olhar o céu e vir uma fila de luzes, pode ser um...
@@ -212,9 +213,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: AST (cientista) na esquerda, expressao laugh; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/rocket: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (48.1-49.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (49.9-51.7 s): mesmo angulo
-  - take 3 (51.7-53.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (47.8-49.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (49.6-51.4 s): mesmo angulo
+  - take 3 (51.4-53.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -258,7 +259,7 @@ kit/rocket | b9 | pronto (HEROI: aparece em close) | conferir na folha de contat
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (55.0-56.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (56.7-58.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (54.7-56.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (56.4-58.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

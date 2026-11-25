@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.5s - 14 palavras - plano two
+## Cena b0 - 0.2s a 3.7s - 14 palavras - plano two
 > "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -22,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b1 - 3.9s a 12.1s - 28 palavras - plano two
+## Cena b1 - 4.8s a 12.5s - 28 palavras - plano two
 > "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -40,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b2 - 13.1s a 14.6s - 7 palavras - plano group
+## Cena b2 - 13.6s a 15.1s - 7 palavras - plano group
 > "A cena dura cerca de sete segundos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -56,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b3 - 16.0s a 19.3s - 11 palavras - plano two
+## Cena b3 - 16.5s a 19.7s - 11 palavras - plano two
 > "Acontece que aquele hotel, o Plaza, pertencia a Trump na época."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -68,7 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 20.5s a 25.9s - 19 palavras - plano two
+## Cena b4 - 21.0s a 26.3s - 19 palavras - plano two
 > "O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 27.0s a 30.5s - 14 palavras - plano wide
+## Cena b5 - 27.5s a 31.0s - 14 palavras - plano wide
 > "Segundo o diretor, a participação de Trump foi o preço para usar o hotel."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -94,58 +94,58 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 31.7s a 35.2s - 16 palavras - plano two
+## Cena b6 - 32.2s a 35.7s - 16 palavras - plano two
 > "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pediu (33.8s) | ACAO: fala | aponta explicando | OK |
+| 1 | pediu (34.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra pediu (33.8s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra pediu (34.3s): braco estendido apontando para o objeto/lugar citado
 - EMOCAO: pleading (a cena toda): executa: o rosto vira "pleading" na palavra
 - INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 36.5s a 40.4s - 15 palavras - plano two
+## Cena b7 - 37.0s a 40.9s - 15 palavras - plano two
 > "Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | exibiu (39.1s) | ACAO: fala | aponta explicando | OK |
+| 1 | exibiu (39.5s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | MAPA | CANADÁ | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra exibiu (39.1s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra exibiu (39.5s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: reagir
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b8 - 41.7s a 45.0s - 13 palavras - plano reveal
+## Cena b8 - 42.2s a 45.5s - 13 palavras - plano reveal
 > "O corte virou assunto por lá, e a discussão ainda dura até hoje."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | discussão (43.8s) | EFEITO: puff | fumaca + som | OK |
+| 1 | discussão (44.2s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra discussão (43.8s): executa: fumaca + som
+- EFEITO: puff na palavra discussão (44.2s): executa: fumaca + som
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 46.0s a 50.1s - 15 palavras - plano two
+## Cena b9 - 46.5s a 50.6s - 15 palavras - plano two
 > "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -157,7 +157,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 51.3s a 54.6s - 13 palavras - plano close
+## Cena b10 - 51.7s a 55.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

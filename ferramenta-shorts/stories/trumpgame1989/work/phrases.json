@@ -1,351 +1,207 @@
 {
- "duration": 79.224,
- "frames30": 2377,
- "source": "silence-align (cost 1.20)",
+ "duration": 48.504,
+ "frames30": 1455,
+ "source": "silence-align (cost 0.52)",
  "segments": [
   [
-   0.152208,
-   1.38138
+   0.157708,
+   3.61662
   ],
   [
-   1.60808,
-   4.53117
+   4.46312,
+   6.05504
   ],
   [
-   5.38938,
-   6.79579
+   6.37712,
+   8.47742
   ],
   [
-   7.638,
-   9.25154
+   9.3405,
+   11.1316
   ],
   [
-   9.46962,
-   10.5385
+   11.5276,
+   12.3645
   ],
   [
-   11.3877,
-   13.6616
+   12.5797,
+   14.5951
   ],
   [
-   14.5165,
-   16.6894
+   15.4535,
+   16.7863
   ],
   [
-   17.0832,
-   18.2869
+   16.9835,
+   18.5672
   ],
   [
-   18.5264,
-   19.5188
+   18.8455,
+   19.7268
   ],
   [
-   19.6608,
-   20.7613
+   20.5939,
+   22.1787
   ],
   [
-   21.6195,
-   23.3244
+   22.4647,
+   24.7399
   ],
   [
-   23.512,
-   25.1979
+   25.5774,
+   28.0836
   ],
   [
-   26.0679,
-   27.5515
+   28.3426,
+   29.6284
   ],
   [
-   28.4034,
-   30.9812
+   30.4895,
+   31.3352
   ],
   [
-   31.8486,
-   33.1329
+   31.5031,
+   33.5857
   ],
   [
-   33.3954,
-   34.375
+   34.431,
+   35.8952
   ],
   [
-   35.2075,
-   36.8822
+   36.1375,
+   38.3204
   ],
   [
-   37.1199,
-   38.0226
+   38.6135,
+   39.5953
   ],
   [
-   38.3023,
-   39.8955
+   40.4155,
+   41.9871
   ],
   [
-   40.746,
-   43.3966
+   42.2852,
+   43.3565
   ],
   [
-   44.2472,
-   45.5648
+   44.2026,
+   45.6468
   ],
   [
-   46.4665,
-   47.8095
-  ],
-  [
-   48.6425,
-   50.0244
-  ],
-  [
-   50.2461,
-   51.6314
-  ],
-  [
-   52.4712,
-   53.0207
-  ],
-  [
-   53.1657,
-   53.9822
-  ],
-  [
-   54.249,
-   56.2046
-  ],
-  [
-   56.5251,
-   57.2018
-  ],
-  [
-   58.0647,
-   59.476
-  ],
-  [
-   59.7034,
-   60.8938
-  ],
-  [
-   61.1421,
-   62.7776
-  ],
-  [
-   63.0632,
-   64.0481
-  ],
-  [
-   64.8835,
-   65.2102
-  ],
-  [
-   65.4138,
-   69.1433
-  ],
-  [
-   69.9394,
-   71.5009
-  ],
-  [
-   71.7973,
-   74.106
-  ],
-  [
-   74.9285,
-   76.3735
-  ],
-  [
-   76.6662,
-   78.4278
+   45.9441,
+   47.7015
   ]
  ],
  "phrases": [
   {
-   "text": "Muito antes da pol\u00edtica,",
-   "s": 0.152,
-   "e": 1.381
-  },
-  {
-   "text": "Donald Trump lan\u00e7ou um jogo de tabuleiro com o pr\u00f3prio nome.",
-   "s": 1.608,
-   "e": 4.531
-  },
-  {
-   "text": "E o rosto dele no dinheiro.",
-   "s": 5.389,
-   "e": 6.796
+   "text": "Donald Trump lan\u00e7ou um jogo de tabuleiro com o pr\u00f3prio rosto no dinheiro.",
+   "s": 0.158,
+   "e": 3.617
   },
   {
    "text": "Era mil novecentos e oitenta e nove,",
-   "s": 7.638,
-   "e": 9.252
+   "s": 4.463,
+   "e": 6.055
   },
   {
-   "text": "nos Estados Unidos.",
-   "s": 9.47,
-   "e": 10.539
+   "text": "e ele era um empres\u00e1rio famoso de Nova York.",
+   "s": 6.377,
+   "e": 8.477
   },
   {
-   "text": "Trump era um empres\u00e1rio famoso de Nova York.",
-   "s": 11.388,
-   "e": 13.662
+   "text": "Uma f\u00e1brica de brinquedos fez o jogo:",
+   "s": 9.341,
+   "e": 11.132
   },
   {
-   "text": "Uma grande f\u00e1brica de brinquedos fez o jogo:",
-   "s": 14.517,
-   "e": 16.689
+   "text": "comprar pr\u00e9dios,",
+   "s": 11.528,
+   "e": 12.364
   },
   {
-   "text": "comprar e vender pr\u00e9dios,",
-   "s": 17.083,
-   "e": 18.287
+   "text": "cassinos e hot\u00e9is at\u00e9 ficar o mais rico.",
+   "s": 12.58,
+   "e": 14.595
   },
   {
-   "text": "cassinos e hot\u00e9is,",
-   "s": 18.526,
-   "e": 19.519
+   "text": "As notas eram de dez,",
+   "s": 15.454,
+   "e": 16.786
   },
   {
-   "text": "at\u00e9 ficar o mais rico.",
-   "s": 19.661,
-   "e": 20.761
+   "text": "cinquenta e cem milh\u00f5es de d\u00f3lares,",
+   "s": 16.983,
+   "e": 18.567
   },
   {
-   "text": "As notas do jogo eram de dez,",
-   "s": 21.619,
-   "e": 23.324
+   "text": "com a cara do Trump.",
+   "s": 18.846,
+   "e": 19.727
   },
   {
-   "text": "cinquenta e cem milh\u00f5es de d\u00f3lares.",
-   "s": 23.512,
-   "e": 25.198
+   "text": "Acontece que o manual era longo,",
+   "s": 20.594,
+   "e": 22.179
   },
   {
-   "text": "Com a cara do Trump estampada.",
-   "s": 26.068,
-   "e": 27.552
+   "text": "e as fam\u00edlias abriam a caixa e n\u00e3o entendiam nada.",
+   "s": 22.465,
+   "e": 24.74
   },
   {
-   "text": "Acontece que o manual tinha mais de doze p\u00e1ginas.",
-   "s": 28.403,
-   "e": 30.981
+   "text": "A f\u00e1brica esperava vender dois milh\u00f5es de jogos,",
+   "s": 25.577,
+   "e": 28.084
   },
   {
-   "text": "As fam\u00edlias abriam a caixa,",
-   "s": 31.849,
-   "e": 33.133
+   "text": "e vendeu oitocentos mil.",
+   "s": 28.343,
+   "e": 29.628
   },
   {
-   "text": "e n\u00e3o entendiam nada.",
-   "s": 33.395,
-   "e": 34.375
+   "text": "Em dois mil e quatro,",
+   "s": 30.489,
+   "e": 31.335
   },
   {
-   "text": "Muita gente comprou s\u00f3 de presente,",
-   "s": 35.208,
-   "e": 36.882
-  },
-  {
-   "text": "ou de curiosidade,",
-   "s": 37.12,
-   "e": 38.023
-  },
-  {
-   "text": "e nunca tirou as pe\u00e7as da caixa.",
-   "s": 38.302,
-   "e": 39.895
-  },
-  {
-   "text": "A f\u00e1brica esperava vender dois milh\u00f5es de jogos.",
-   "s": 40.746,
-   "e": 43.397
-  },
-  {
-   "text": "Vendeu oitocentos mil.",
-   "s": 44.247,
-   "e": 45.565
-  },
-  {
-   "text": "Foi considerado um fracasso.",
-   "s": 46.467,
-   "e": 47.809
-  },
-  {
-   "text": "O jogo saiu das lojas,",
-   "s": 48.642,
-   "e": 50.024
-  },
-  {
-   "text": "e ficou esquecido por anos.",
-   "s": 50.246,
-   "e": 51.631
-  },
-  {
-   "text": "At\u00e9 que,",
-   "s": 52.471,
-   "e": 53.021
-  },
-  {
-   "text": "em dois mil e quatro,",
-   "s": 53.166,
-   "e": 53.982
-  },
-  {
-   "text": "Trump virou estrela de um programa de TV,",
-   "s": 54.249,
-   "e": 56.205
-  },
-  {
-   "text": "O Aprendiz.",
-   "s": 56.525,
-   "e": 57.202
+   "text": "Trump virou estrela do programa O Aprendiz.",
+   "s": 31.503,
+   "e": 33.586
   },
   {
    "text": "E o jogo voltou \u00e0s lojas,",
-   "s": 58.065,
-   "e": 59.476
+   "s": 34.431,
+   "e": 35.895
   },
   {
-   "text": "com regras mais simples,",
-   "s": 59.703,
-   "e": 60.894
-  },
-  {
-   "text": "e com a frase famosa do programa:",
-   "s": 61.142,
-   "e": 62.778
+   "text": "com regras mais simples e a frase do programa:",
+   "s": 36.138,
+   "e": 38.32
   },
   {
    "text": "voc\u00ea est\u00e1 demitido.",
-   "s": 63.063,
-   "e": 64.048
-  },
-  {
-   "text": "Hoje,",
-   "s": 64.883,
-   "e": 65.21
-  },
-  {
-   "text": "as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador.",
-   "s": 65.414,
-   "e": 69.143
+   "s": 38.614,
+   "e": 39.595
   },
   {
    "text": "Um jogo sobre ficar bilion\u00e1rio,",
-   "s": 69.939,
-   "e": 71.501
+   "s": 40.416,
+   "e": 41.987
   },
   {
-   "text": "que acabou virando s\u00f3 uma curiosidade da hist\u00f3ria.",
-   "s": 71.797,
-   "e": 74.106
+   "text": "que virou curiosidade.",
+   "s": 42.285,
+   "e": 43.356
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 74.928,
-   "e": 76.374
+   "s": 44.203,
+   "e": 45.647
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 76.666,
-   "e": 78.428
+   "s": 45.944,
+   "e": 47.702
   }
  ]
 }

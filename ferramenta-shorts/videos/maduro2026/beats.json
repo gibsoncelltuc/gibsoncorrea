@@ -63,10 +63,9 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "SOL:0:stern",
-    "MAD:0:shock"
+    "SOL:0:stern"
    ],
    "props": [
     [
@@ -123,7 +122,7 @@
    "say": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "MAD:0:smug"
    ],
@@ -313,7 +312,7 @@
    "say": "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "AGE:0:stern",
     "MAD:0:sad"
@@ -330,8 +329,8 @@
     ],
     [
      "vehicles/airplane",
-     5.0,
-     -7.5,
+     7.0,
+     -15.5,
      1.1,
      {
       "fixo": true
@@ -395,7 +394,7 @@
    "say": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "TRU:0:smug"
    ],

@@ -1,351 +1,252 @@
 {
- "duration": 76.992,
- "frames30": 2310,
- "source": "silence-align (cost 0.99)",
+ "duration": 55.776,
+ "frames30": 1673,
+ "source": "silence-align (cost 0.72)",
  "segments": [
   [
-   0.152625,
-   3.14925
+   0.145917,
+   2.51821
   ],
   [
-   4.03808,
-   4.816
+   2.78987,
+   3.76942
   ],
   [
-   5.03192,
-   6.05208
+   4.67771,
+   5.68933
   ],
   [
-   6.9635,
-   8.40642
+   6.02517,
+   7.5075
   ],
   [
-   8.61933,
-   9.61937
+   8.3675,
+   9.84938
   ],
   [
-   10.4791,
-   11.8478
+   10.1176,
+   12.7013
   ],
   [
-   12.7117,
-   14.7648
+   13.5213,
+   14.6991
   ],
   [
-   15.0504,
-   17.6129
+   14.9597,
+   16.2303
   ],
   [
-   18.4374,
-   19.6948
+   16.5066,
+   18.4315
   ],
   [
-   19.954,
-   21.2617
+   19.268,
+   20.0186
   ],
   [
-   22.1335,
-   22.5258
+   20.2032,
+   22.0872
   ],
   [
-   22.7413,
-   24.7325
+   22.9501,
+   23.7945
   ],
   [
-   25.6015,
-   26.3624
+   23.9308,
+   24.3439
   ],
   [
-   26.5605,
-   28.3647
+   24.5084,
+   25.7178
   ],
   [
-   28.6032,
-   29.6722
+   25.9724,
+   28.2122
   ],
   [
-   30.5426,
-   31.2245
+   29.0791,
+   30.1632
   ],
   [
-   31.5068,
-   34.2056
+   30.4439,
+   33.2557
   ],
   [
-   35.0644,
-   35.9278
+   34.1221,
+   34.9955
   ],
   [
-   36.164,
-   36.5743
+   35.2362,
+   38.782
   ],
   [
-   36.7605,
-   37.9808
+   39.6491,
+   40.7106
   ],
   [
-   38.8438,
-   40.3882
+   40.9621,
+   41.9431
   ],
   [
-   40.5717,
-   41.3585
+   42.253,
+   44.2337
   ],
   [
-   42.2129,
-   43.3346
+   44.5282,
+   45.9483
   ],
   [
-   44.2013,
-   45.4475
+   46.8253,
+   48.0888
   ],
   [
-   45.7142,
-   48.1751
+   48.4306,
+   50.6166
   ],
   [
-   49.0294,
-   49.7236
+   51.4748,
+   52.9195
   ],
   [
-   50.0149,
-   50.863
-  ],
-  [
-   51.0897,
-   54.9902
-  ],
-  [
-   55.8558,
-   56.8945
-  ],
-  [
-   57.1827,
-   59.262
-  ],
-  [
-   59.4802,
-   61.6709
-  ],
-  [
-   62.5292,
-   64.7265
-  ],
-  [
-   65.5862,
-   66.4865
-  ],
-  [
-   67.2883,
-   68.7129
-  ],
-  [
-   68.9272,
-   69.9082
-  ],
-  [
-   70.2707,
-   71.8255
-  ],
-  [
-   72.6945,
-   74.137
-  ],
-  [
-   74.4318,
-   76.1935
+   53.2165,
+   54.9737
   ]
  ],
  "phrases": [
   {
-   "text": "Uma empresa de Elon Musk mostrou um macaco jogando videogame.",
-   "s": 0.153,
-   "e": 3.149
-  },
-  {
-   "text": "Sem as m\u00e3os,",
-   "s": 4.038,
-   "e": 4.816
+   "text": "Um macaco jogou videogame sem usar as m\u00e3os,",
+   "s": 0.146,
+   "e": 2.518
   },
   {
    "text": "s\u00f3 com o pensamento.",
-   "s": 5.032,
-   "e": 6.052
+   "s": 2.79,
+   "e": 3.769
   },
   {
-   "text": "Foi em abril de dois mil e vinte e um,",
-   "s": 6.963,
-   "e": 8.406
+   "text": "Foi em dois mil e vinte e um,",
+   "s": 4.678,
+   "e": 5.689
   },
   {
-   "text": "nos Estados Unidos.",
-   "s": 8.619,
-   "e": 9.619
+   "text": "e a empresa se chama Neuralink.",
+   "s": 6.025,
+   "e": 7.508
   },
   {
-   "text": "A empresa se chama Neuralink.",
-   "s": 10.479,
-   "e": 11.848
-  },
-  {
-   "text": "A ideia \u00e9 um chip implantado no c\u00e9rebro,",
-   "s": 12.712,
-   "e": 14.765
+   "text": "A ideia \u00e9 um chip no c\u00e9rebro,",
+   "s": 8.367,
+   "e": 9.849
   },
   {
    "text": "que l\u00ea os sinais dos neur\u00f4nios e manda para o computador.",
-   "s": 15.05,
-   "e": 17.613
+   "s": 10.118,
+   "e": 12.701
   },
   {
    "text": "O volunt\u00e1rio foi o Pager,",
-   "s": 18.437,
-   "e": 19.695
+   "s": 13.521,
+   "e": 14.699
   },
   {
-   "text": "um macaco de nove anos.",
-   "s": 19.954,
-   "e": 21.262
+   "text": "um macaco de nove anos,",
+   "s": 14.96,
+   "e": 16.23
   },
   {
-   "text": "Primeiro,",
-   "s": 22.134,
-   "e": 22.526
-  },
-  {
-   "text": "ele aprendeu a jogar Pong com um joystick.",
-   "s": 22.741,
-   "e": 24.733
+   "text": "que aprendeu a jogar Pong com um joystick.",
+   "s": 16.507,
+   "e": 18.431
   },
   {
    "text": "A cada acerto,",
-   "s": 25.602,
-   "e": 26.362
+   "s": 19.268,
+   "e": 20.019
   },
   {
-   "text": "ganhava um golinho de vitamina de banana,",
-   "s": 26.561,
-   "e": 28.365
-  },
-  {
-   "text": "por um canudinho de metal.",
-   "s": 28.603,
-   "e": 29.672
-  },
-  {
-   "text": "Enquanto isso,",
-   "s": 30.543,
-   "e": 31.224
-  },
-  {
-   "text": "o chip gravava o que os neur\u00f4nios faziam a cada movimento.",
-   "s": 31.507,
-   "e": 34.206
+   "text": "ganhava um golinho de vitamina de banana.",
+   "s": 20.203,
+   "e": 22.087
   },
   {
    "text": "Acontece que,",
-   "s": 35.064,
-   "e": 35.928
+   "s": 22.95,
+   "e": 23.794
   },
   {
    "text": "um dia,",
-   "s": 36.164,
-   "e": 36.574
+   "s": 23.931,
+   "e": 24.344
   },
   {
-   "text": "desligaram o joystick.",
-   "s": 36.761,
-   "e": 37.981
+   "text": "desligaram o joystick,",
+   "s": 24.508,
+   "e": 25.718
   },
   {
-   "text": "E o Pager continuou jogando,",
-   "s": 38.844,
-   "e": 40.388
+   "text": "e o Pager continuou jogando s\u00f3 com a mente.",
+   "s": 25.972,
+   "e": 28.212
   },
   {
-   "text": "s\u00f3 com a mente!",
-   "s": 40.572,
-   "e": 41.358
+   "text": "O v\u00eddeo rodou o mundo,",
+   "s": 29.079,
+   "e": 30.163
   },
   {
-   "text": "O v\u00eddeo rodou o mundo.",
-   "s": 42.213,
-   "e": 43.335
+   "text": "e tamb\u00e9m abriu debate sobre o uso de animais em pesquisa.",
+   "s": 30.444,
+   "e": 33.256
   },
   {
-   "text": "Muita gente se encantou,",
-   "s": 44.201,
-   "e": 45.447
+   "text": "Segundo a empresa,",
+   "s": 34.122,
+   "e": 34.995
   },
   {
-   "text": "e muita gente debateu o uso de animais na pesquisa.",
-   "s": 45.714,
-   "e": 48.175
-  },
-  {
-   "text": "O objetivo,",
-   "s": 49.029,
-   "e": 49.724
-  },
-  {
-   "text": "segundo a empresa,",
-   "s": 50.015,
-   "e": 50.863
-  },
-  {
-   "text": "\u00e9 ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.",
-   "s": 51.09,
-   "e": 54.99
+   "text": "o objetivo \u00e9 ajudar quem \u00e9 paralisado a usar o computador s\u00f3 pensando.",
+   "s": 35.236,
+   "e": 38.782
   },
   {
    "text": "Em dois mil e vinte e quatro,",
-   "s": 55.856,
-   "e": 56.895
+   "s": 39.649,
+   "e": 40.711
   },
   {
-   "text": "o primeiro paciente humano recebeu o chip,",
-   "s": 57.183,
-   "e": 59.262
+   "text": "o primeiro paciente,",
+   "s": 40.962,
+   "e": 41.943
   },
   {
-   "text": "e jogou xadrez no computador s\u00f3 pensando.",
-   "s": 59.48,
-   "e": 61.671
+   "text": "que n\u00e3o mexia o corpo do pesco\u00e7o para baixo,",
+   "s": 42.253,
+   "e": 44.234
   },
   {
-   "text": "Ele n\u00e3o mexia o corpo do pesco\u00e7o para baixo.",
-   "s": 62.529,
-   "e": 64.727
+   "text": "jogou xadrez s\u00f3 pensando.",
+   "s": 44.528,
+   "e": 45.948
   },
   {
-   "text": "E voltou a jogar.",
-   "s": 65.586,
-   "e": 66.487
+   "text": "Tudo come\u00e7ou com um macaco,",
+   "s": 46.825,
+   "e": 48.089
   },
   {
-   "text": "E tudo come\u00e7ou com um macaco,",
-   "s": 67.288,
-   "e": 68.713
-  },
-  {
-   "text": "um videogame antigo,",
-   "s": 68.927,
-   "e": 69.908
-  },
-  {
-   "text": "e um copo de vitamina de banana.",
-   "s": 70.271,
-   "e": 71.826
+   "text": "um videogame e um copo de vitamina de banana.",
+   "s": 48.431,
+   "e": 50.617
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 72.695,
-   "e": 74.137
+   "s": 51.475,
+   "e": 52.919
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 74.432,
-   "e": 76.194
+   "s": 53.217,
+   "e": 54.974
   }
  ]
 }

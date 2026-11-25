@@ -44,10 +44,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (5.4-7.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (7.0-8.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (8.5-10.1 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (5.4-7.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (7.5-9.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b2 - Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre ...
@@ -66,11 +65,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 2.7 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao worried, segura paper; sem multidao; acao: discutir
 - OBJETO kit/booster_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.8 m de altura x 1.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 4 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (10.3-12.2 s): mesmo angulo
-  - take 2 (12.2-14.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (14.0-15.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (15.8-17.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (10.8-12.7 s): mesmo angulo
+  - take 2 (12.7-14.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (14.5-16.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b3 - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a...
@@ -88,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/tower_catch no centro, manobra "parado"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (5.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (5.0 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b4 - Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinho...
@@ -108,10 +106,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ENA no centro, expressao laugh; sem multidao; acao: conversar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.5 m de altura x 3.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "MECHAZILLA" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (24.0-25.6 s): mesmo angulo
-  - take 2 (25.6-27.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (27.1-28.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (23.8-25.3 s): mesmo angulo
+  - take 2 (25.3-26.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b5 - No dia do teste, o propulsor gigante decolou com trinta e três motores...
@@ -135,10 +132,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@20
 - SOM: thump@40
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (28.8-30.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (30.7-32.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (32.6-34.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (28.3-30.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (30.1-32.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b6 - Minutos depois, ele voltou descendo de ré, direto na direção da torre.
@@ -160,9 +156,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.2 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +30 da cena
 - SOM: whoosh@30
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (34.7-36.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (36.6-38.5 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (33.3-35.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (35.3-37.3 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - Acontece que, no último segundo, os braços se fecharam, e seguraram o ...
@@ -186,7 +182,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TEXTO NA TELA: "PEGOU!" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (5.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b8 - Os engenheiros comemoraram: era a primeira vez na história.
@@ -210,9 +206,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "PRIMEIRA VEZ" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (44.7-46.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (46.5-48.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Assim, o propulsor que antes ia para o lixo pode voar de novo, várias ...
@@ -230,7 +224,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/booster_air no centro, manobra "sobe"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (6.4 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.9 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b10 - Parece filme de robô gigante, mas é engenharia.
@@ -250,7 +244,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/tower_mini: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/tower_catch: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -291,9 +285,8 @@ kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (57.7-59.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (59.4-61.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (61.1-62.8 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (56.7-58.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (58.4-60.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

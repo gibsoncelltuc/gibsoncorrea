@@ -1,243 +1,243 @@
 {
- "duration": 59.352,
- "frames30": 1781,
- "source": "silence-align (cost 0.54)",
+ "duration": 59.016,
+ "frames30": 1770,
+ "source": "silence-align (cost 0.48)",
  "segments": [
   [
-   0.161042,
-   1.4775
+   0.160125,
+   2.32567
   ],
   [
-   1.66821,
-   5.68529
+   2.60429,
+   4.16054
   ],
   [
-   6.54629,
-   8.29379
+   4.96662,
+   6.2935
   ],
   [
-   8.52608,
-   9.15087
+   6.52337,
+   9.64138
   ],
   [
-   9.461,
-   11.3247
+   9.86487,
+   10.963
   ],
   [
-   11.5899,
-   12.7282
+   11.2188,
+   12.4039
   ],
   [
-   13.5938,
-   14.4445
+   13.2528,
+   14.1036
   ],
   [
-   14.7134,
-   16.6116
+   14.3725,
+   16.2713
   ],
   [
-   16.8536,
-   17.6223
+   16.5126,
+   17.2814
   ],
   [
-   17.8811,
-   18.5375
+   17.5428,
+   18.1966
   ],
   [
-   19.4094,
-   20.9987
+   19.0685,
+   20.6593
   ],
   [
-   21.2694,
-   23.4497
+   20.9285,
+   23.1261
   ],
   [
-   24.261,
-   27.2048
+   23.9201,
+   26.8639
   ],
   [
-   28.0724,
-   32.8605
+   27.7315,
+   32.5199
   ],
   [
-   33.7088,
-   36.512
+   33.3679,
+   36.1695
   ],
   [
-   36.6806,
-   37.6781
+   36.3397,
+   37.333
   ],
   [
-   38.5362,
-   40.2079
+   38.1953,
+   39.867
   ],
   [
-   40.3991,
-   40.8412
+   40.0582,
+   40.5002
   ],
   [
-   41.0667,
-   42.3702
+   40.7257,
+   42.0292
   ],
   [
-   43.224,
-   47.2422
+   42.8831,
+   46.9015
   ],
   [
-   48.1181,
-   48.917
+   47.7772,
+   48.576
   ],
   [
-   49.1455,
-   51.0615
+   48.8046,
+   50.718
   ],
   [
-   51.3774,
-   52.9127
+   51.0365,
+   52.5715
   ],
   [
-   53.1842,
-   54.2006
+   52.8433,
+   53.8551
   ],
   [
-   55.043,
-   56.4875
+   54.7001,
+   56.1466
   ],
   [
-   56.7801,
-   58.5312
+   56.4393,
+   58.201
   ]
  ],
  "phrases": [
   {
+   "text": "Uma fila de luzes cruzou o c\u00e9u da Europa,",
+   "s": 0.16,
+   "e": 2.326
+  },
+  {
+   "text": "e virou caso de disco voador.",
+   "s": 2.604,
+   "e": 4.161
+  },
+  {
    "text": "Em maio de dois mil e dezenove,",
-   "s": 0.161,
-   "e": 1.478
+   "s": 4.967,
+   "e": 6.293
   },
   {
-   "text": "a SpaceX decolou com um foguete Falcon 9 com sessenta sat\u00e9lites de uma vez.",
-   "s": 1.668,
-   "e": 5.685
+   "text": "a SpaceX lan\u00e7ou da Fl\u00f3rida sessenta sat\u00e9lites de uma vez:",
+   "s": 6.523,
+   "e": 9.641
   },
   {
-   "text": "O lan\u00e7amento foi em Cabo Canaveral,",
-   "s": 6.546,
-   "e": 8.294
-  },
-  {
-   "text": "na Fl\u00f3rida,",
-   "s": 8.526,
-   "e": 9.151
-  },
-  {
-   "text": "e eram os primeiros sat\u00e9lites do Starlink,",
-   "s": 9.461,
-   "e": 11.325
+   "text": "os primeiros do Starlink,",
+   "s": 9.865,
+   "e": 10.963
   },
   {
    "text": "a internet espacial.",
-   "s": 11.59,
-   "e": 12.728
+   "s": 11.219,
+   "e": 12.404
   },
   {
    "text": "Um dia depois,",
-   "s": 13.594,
-   "e": 14.444
+   "s": 13.253,
+   "e": 14.104
   },
   {
    "text": "um rastreador de sat\u00e9lites holand\u00eas,",
-   "s": 14.713,
-   "e": 16.612
+   "s": 14.373,
+   "e": 16.271
   },
   {
    "text": "Marco Langbroek,",
-   "s": 16.854,
-   "e": 17.622
+   "s": 16.513,
+   "e": 17.281
   },
   {
    "text": "filmou o c\u00e9u.",
-   "s": 17.881,
-   "e": 18.538
+   "s": 17.543,
+   "e": 18.197
   },
   {
    "text": "Ele registrou uma fila de luzes,",
-   "s": 19.409,
-   "e": 20.999
+   "s": 19.069,
+   "e": 20.659
   },
   {
    "text": "que levava cerca de tr\u00eas minutos para passar.",
-   "s": 21.269,
-   "e": 23.45
+   "s": 20.928,
+   "e": 23.126
   },
   {
    "text": "Ele viu pelo menos cinquenta e seis objetos brilhando em linha.",
-   "s": 24.261,
-   "e": 27.205
+   "s": 23.92,
+   "e": 26.864
   },
   {
    "text": "Acontece que o site holand\u00eas de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.",
-   "s": 28.072,
-   "e": 32.861
+   "s": 27.732,
+   "e": 32.52
   },
   {
    "text": "Jornais de v\u00e1rios pa\u00edses explicaram que n\u00e3o eram OVNIs,",
-   "s": 33.709,
-   "e": 36.512
+   "s": 33.368,
+   "e": 36.169
   },
   {
    "text": "e sim sat\u00e9lites.",
-   "s": 36.681,
-   "e": 37.678
+   "s": 36.34,
+   "e": 37.333
   },
   {
    "text": "Os sat\u00e9lites ainda estavam juntos,",
-   "s": 38.536,
-   "e": 40.208
+   "s": 38.195,
+   "e": 39.867
   },
   {
    "text": "em fila,",
-   "s": 40.399,
-   "e": 40.841
+   "s": 40.058,
+   "e": 40.5
   },
   {
    "text": "logo depois do lan\u00e7amento.",
-   "s": 41.067,
-   "e": 42.37
+   "s": 40.726,
+   "e": 42.029
   },
   {
    "text": "A imagem da fila de luzes se espalhou por v\u00e1rios pa\u00edses e foi assunto na internet.",
-   "s": 43.224,
-   "e": 47.242
+   "s": 42.883,
+   "e": 46.901
   },
   {
    "text": "Moral da hist\u00f3ria:",
-   "s": 48.118,
-   "e": 48.917
+   "s": 47.777,
+   "e": 48.576
   },
   {
    "text": "se olhar o c\u00e9u e vir uma fila de luzes,",
-   "s": 49.145,
-   "e": 51.062
+   "s": 48.805,
+   "e": 50.718
   },
   {
    "text": "pode ser uma fila de sat\u00e9lites,",
-   "s": 51.377,
-   "e": 52.913
+   "s": 51.036,
+   "e": 52.572
   },
   {
    "text": "e n\u00e3o alien\u00edgenas.",
-   "s": 53.184,
-   "e": 54.201
+   "s": 52.843,
+   "e": 53.855
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 55.043,
-   "e": 56.487
+   "s": 54.7,
+   "e": 56.147
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 56.78,
-   "e": 58.531
+   "s": 56.439,
+   "e": 58.201
   }
  ]
 }

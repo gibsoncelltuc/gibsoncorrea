@@ -1,243 +1,225 @@
 {
- "duration": 56.76,
- "frames30": 1703,
- "source": "silence-align (cost 0.49)",
+ "duration": 57.744,
+ "frames30": 1732,
+ "source": "silence-align (cost 0.50)",
  "segments": [
   [
-   0.16175,
-   1.1125
+   0.160792,
+   3.1995
   ],
   [
-   1.42837,
-   4.41617
+   4.07283,
+   5.01104
   ],
   [
-   5.23692,
-   5.67325
+   5.345,
+   7.77408
   ],
   [
-   5.9665,
-   7.57025
+   8.12254,
+   10.9185
   ],
   [
-   7.81787,
-   9.304
+   11.7836,
+   12.6875
   ],
   [
-   9.51137,
-   9.96588
+   13.0022,
+   14.6635
   ],
   [
-   10.818,
-   11.7218
+   14.934,
+   16.8375
   ],
   [
-   12.0364,
-   13.6978
+   17.6881,
+   20.136
   ],
   [
-   13.9682,
-   15.8727
+   20.4823,
+   21.9617
   ],
   [
-   16.7223,
-   19.1702
+   22.821,
+   23.8822
   ],
   [
-   19.5165,
-   20.996
+   24.0907,
+   26.3581
   ],
   [
-   21.8552,
-   22.9155
+   26.5459,
+   27.4095
   ],
   [
-   23.1249,
-   25.395
+   28.2661,
+   31.0343
   ],
   [
-   25.5802,
-   26.4432
+   31.294,
+   32.7185
   ],
   [
-   27.3003,
-   30.0666
+   32.9467,
+   33.8403
   ],
   [
-   30.3282,
-   31.7527
+   34.6957,
+   38.455
   ],
   [
-   31.9809,
-   32.8746
+   39.3099,
+   42.145
   ],
   [
-   33.7299,
-   37.4915
+   42.9889,
+   44.0504
   ],
   [
-   38.3442,
-   41.1746
+   44.3511,
+   46.5099
   ],
   [
-   42.0233,
-   43.0846
+   47.3503,
+   49.0544
   ],
   [
-   43.3853,
-   45.5441
+   49.3139,
+   50.26
   ],
   [
-   46.3847,
-   48.0943
+   50.5257,
+   52.581
   ],
   [
-   48.3481,
-   49.2943
+   53.4292,
+   54.8739
   ],
   [
-   49.56,
-   51.6144
-  ],
-  [
-   52.4633,
-   53.907
-  ],
-  [
-   54.2007,
-   55.9624
+   55.1665,
+   56.9282
   ]
  ],
  "phrases": [
   {
+   "text": "Um pa\u00eds pequeno decidiu virar a capital mundial do surfe.",
+   "s": 0.161,
+   "e": 3.2
+  },
+  {
    "text": "Em dois mil e dezenove,",
-   "s": 0.162,
-   "e": 1.113
+   "s": 4.073,
+   "e": 5.011
   },
   {
-   "text": "o presidente Nayib Bukele lan\u00e7ou a Surf City El Salvador.",
-   "s": 1.428,
-   "e": 4.416
+   "text": "o presidente Nayib Bukele lan\u00e7ou a Surf City,",
+   "s": 5.345,
+   "e": 7.774
   },
   {
-   "text": "O plano:",
-   "s": 5.237,
-   "e": 5.673
-  },
-  {
-   "text": "mostrar as praias de La Libertad,",
-   "s": 5.966,
-   "e": 7.57
-  },
-  {
-   "text": "como Punta Roca e El Sunzal,",
-   "s": 7.818,
-   "e": 9.304
-  },
-  {
-   "text": "ao mundo.",
-   "s": 9.511,
-   "e": 9.966
+   "text": "para mostrar ao mundo praias como Punta Roca e El Sunzal.",
+   "s": 8.123,
+   "e": 10.918
   },
   {
    "text": "Em dois mil e vinte e um,",
-   "s": 10.818,
-   "e": 11.722
+   "s": 11.784,
+   "e": 12.688
   },
   {
    "text": "o pa\u00eds sediou o Mundial de Surfe,",
-   "s": 12.036,
-   "e": 13.698
+   "s": 13.002,
+   "e": 14.664
   },
   {
    "text": "com duzentos e cinquenta e sete atletas.",
-   "s": 13.968,
-   "e": 15.873
+   "s": 14.934,
+   "e": 16.837
   },
   {
    "text": "Aquele evento valeu vaga para as Olimp\u00edadas de T\u00f3quio,",
-   "s": 16.722,
-   "e": 19.17
+   "s": 17.688,
+   "e": 20.136
   },
   {
    "text": "e as praias viraram manchete.",
-   "s": 19.517,
-   "e": 20.996
+   "s": 20.482,
+   "e": 21.962
   },
   {
    "text": "Em dois mil e vinte e tr\u00eas,",
-   "s": 21.855,
-   "e": 22.916
+   "s": 22.821,
+   "e": 23.882
   },
   {
    "text": "vieram duzentos e noventa e quatro competidores,",
-   "s": 23.125,
-   "e": 25.395
+   "s": 24.091,
+   "e": 26.358
   },
   {
    "text": "de olho em Paris.",
-   "s": 25.58,
-   "e": 26.443
+   "s": 26.546,
+   "e": 27.41
   },
   {
    "text": "O governo estimou quinhentos mil empregos em dez anos,",
-   "s": 27.3,
-   "e": 30.067
+   "s": 28.266,
+   "e": 31.034
   },
   {
    "text": "mas \u00e9 uma proje\u00e7\u00e3o oficial,",
-   "s": 30.328,
-   "e": 31.753
+   "s": 31.294,
+   "e": 32.718
   },
   {
    "text": "n\u00e3o uma auditoria.",
-   "s": 31.981,
-   "e": 32.875
+   "s": 32.947,
+   "e": 33.84
   },
   {
    "text": "Cr\u00edticos dizem que o projeto na costa preocupa moradores e ambientalistas.",
-   "s": 33.73,
-   "e": 37.492
+   "s": 34.696,
+   "e": 38.455
   },
   {
    "text": "A Surf City dois leva o projeto para o leste do pa\u00eds.",
-   "s": 38.344,
-   "e": 41.175
+   "s": 39.31,
+   "e": 42.145
   },
   {
    "text": "Em dois mil e vinte e cinco,",
-   "s": 42.023,
-   "e": 43.085
+   "s": 42.989,
+   "e": 44.05
   },
   {
    "text": "o Mundial voltou a La Bocana e El Sunzal.",
-   "s": 43.385,
-   "e": 45.544
+   "s": 44.351,
+   "e": 46.51
   },
   {
    "text": "Entre n\u00fameros otimistas e d\u00favidas,",
-   "s": 46.385,
-   "e": 48.094
+   "s": 47.35,
+   "e": 49.054
   },
   {
    "text": "uma coisa \u00e9 certa:",
-   "s": 48.348,
-   "e": 49.294
+   "s": 49.314,
+   "e": 50.26
   },
   {
    "text": "El Salvador virou assunto entre surfistas.",
-   "s": 49.56,
-   "e": 51.614
+   "s": 50.526,
+   "e": 52.581
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 52.463,
-   "e": 53.907
+   "s": 53.429,
+   "e": 54.874
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 54.201,
-   "e": 55.962
+   "s": 55.166,
+   "e": 56.928
   }
  ]
 }

@@ -65,10 +65,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; ENA na direita, expressao suspicious; sem multidao; acao: conversar
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (9.7-11.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (11.2-12.7 s): mesmo angulo
-  - take 3 (12.7-14.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (9.7-11.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (11.9-14.1 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Só que, para criar bitcoins novos, computadores fazem contas sem parar...
@@ -87,11 +86,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)
 - PERSONAGENS: ENG na esquerda, expressao worried, segura paper; BUK na direita, expressao suspicious; sem multidao; acao: discutir
 - OBJETO kit/miners: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (14.4-16.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (16.1-17.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (17.7-19.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (19.4-21.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (15.1-17.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (17.1-19.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (19.1-21.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Então ele mandou a empresa de energia do governo usar o calor do vulcã...
@@ -112,10 +110,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (21.3-22.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (22.9-24.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (24.5-26.1 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (22.4-24.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (24.1-25.9 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b5 - O vapor quente que sai de dentro da terra gira turbinas, e vira eletri...
@@ -133,7 +130,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/turbina no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.6 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.8 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que, ao lado da usina, instalaram computadores só para minera...
@@ -153,10 +150,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ENG na esquerda, expressao surprised; ENA na direita, expressao grin; sem multidao; acao: conversar
 - OBJETO kit/miners: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/miners: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (31.0-32.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (32.7-34.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (34.4-36.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (32.1-34.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (34.2-36.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b7 - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze...
@@ -179,10 +175,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@20
 - SOM: sting@50
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (36.2-38.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (38.1-39.9 s): mesmo angulo
-  - take 3 (39.9-41.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (37.4-38.9 s): mesmo angulo
+  - take 2 (38.9-40.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (40.4-41.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b8 - Anos depois, o governo contava quase quinhentos bitcoins feitos com o ...
@@ -201,10 +197,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: ENA na esquerda, expressao smile, segura paper; ENG na direita, expressao grin; sem multidao; acao: conversar
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (42.1-43.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (43.7-45.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (45.2-46.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (43.1-45.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (45.0-46.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b9 - E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés...
@@ -226,10 +221,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TEXTO NA TELA: "CIDADE BITCOIN" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (46.9-48.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (48.9-50.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (50.8-52.8 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (48.1-50.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (50.1-52.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b10 - Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
@@ -248,9 +242,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (53.0-54.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (54.5-56.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (53.3-55.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (55.4-57.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -295,9 +289,8 @@ nature/lamppost | b9 | pronto | conferir na folha de contato se le bem; se parec
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (56.2-57.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (57.8-59.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (59.3-60.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (58.7-60.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (60.4-62.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

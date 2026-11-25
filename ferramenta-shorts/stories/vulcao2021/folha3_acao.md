@@ -40,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 9.7s a 14.2s - 18 palavras - plano wide
+## Cena b2 - 9.7s a 14.1s - 18 palavras - plano wide
 > "Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao lado do dólar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -56,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b3 - 14.4s a 21.0s - 16 palavras - plano two
+## Cena b3 - 15.1s a 21.1s - 16 palavras - plano two
 > "Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta muita energia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -70,106 +70,106 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b4 - 21.3s a 26.1s - 15 palavras - plano wide
+## Cena b4 - 22.4s a 25.9s - 15 palavras - plano wide
 > "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (21.9s) | ACAO: fala | aponta explicando | OK |
+| 1 | mandou (22.9s) | ACAO: fala | aponta explicando | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra mandou (21.9s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra mandou (22.9s): braco estendido apontando para o objeto/lugar citado
 <!-- /FISICA -->
 
-## Cena b5 - 26.3s a 30.9s - 15 palavras - plano two
+## Cena b5 - 27.2s a 31.0s - 15 palavras - plano two
 > "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 31.0s a 36.1s - 12 palavras - plano two
+## Cena b6 - 32.1s a 36.3s - 12 palavras - plano two
 > "Acontece que, ao lado da usina, instalaram computadores só para minerar bitcoin."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | instalaram (34.2s) | ACAO: pega | levanta/segura | OK |
+| 1 | instalaram (34.3s) | ACAO: pega | levanta/segura | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra instalaram (34.2s): executa: levanta/segura
+- ACAO: pega na palavra instalaram (34.3s): executa: levanta/segura
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 36.2s a 41.8s - 16 palavras - plano orbit
+## Cena b7 - 37.4s a 41.9s - 16 palavras - plano orbit
 > "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (37.1s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | saiu (38.0s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: sai na palavra saiu (37.1s): executa: sai andando pela lateral
+- ACAO: sai na palavra saiu (38.0s): executa: sai andando pela lateral
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b8 - 42.1s a 46.8s - 12 palavras - plano two
+## Cena b8 - 43.1s a 46.9s - 12 palavras - plano two
 > "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | contava (43.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | contava (44.7s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra contava (43.4s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra contava (44.7s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.9s a 52.8s - 16 palavras - plano wide
+## Cena b9 - 48.1s a 52.1s - 16 palavras - plano wide
 > "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | anunciou (47.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | construída (51.0s) | ACAO: constroi | martela e o objeto cresce | OK |
+| 1 | anunciou (48.7s) | ACAO: fala | aponta explicando | OK |
+| 2 | construída (50.8s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 3 | - | PLACA | CIDADE BITCOIN | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra anunciou (47.7s): braco estendido apontando para o objeto/lugar citado
-- ACAO: constroi na palavra construída (51.0s): executa: martela e o objeto cresce
+- ACAO: fala na palavra anunciou (48.7s): braco estendido apontando para o objeto/lugar citado
+- ACAO: constroi na palavra construída (50.8s): executa: martela e o objeto cresce
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 53.0s a 56.1s - 10 palavras - plano two
+## Cena b10 - 53.3s a 57.5s - 10 palavras - plano two
 > "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Dinheiro (53.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | Dinheiro (53.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | Dinheiro (53.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | Dinheiro (53.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra Dinheiro (53.0s): executa: estrelinhas + som
-- ACAO: paga na palavra Dinheiro (53.0s): executa: estende a mao com moedas + brilho
+- EFEITO: stars na palavra Dinheiro (53.3s): executa: estrelinhas + som
+- ACAO: paga na palavra Dinheiro (53.3s): executa: estende a mao com moedas + brilho
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b11 - 56.2s a 60.9s - 13 palavras - plano close
+## Cena b11 - 58.7s a 62.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

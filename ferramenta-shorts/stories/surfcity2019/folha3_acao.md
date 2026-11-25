@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 2.8s - 10 palavras - plano two
+## Cena b0 - 0.2s a 3.0s - 10 palavras - plano two
 > "Um país pequeno decidiu virar a capital mundial do surfe."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -20,23 +20,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b1 - 3.1s a 11.1s - 24 palavras - plano two
+## Cena b1 - 4.1s a 10.6s - 24 palavras - plano two
 > "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mostrar (8.1s) | ACAO: fala | aponta explicando | OK |
+| 1 | mostrar (8.4s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra mostrar (8.1s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra mostrar (8.4s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 11.2s a 17.5s - 21 palavras - plano crowd
+## Cena b2 - 11.8s a 16.4s - 21 palavras - plano crowd
 > "Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzentos e cinquenta e sete atletas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b3 - 17.8s a 22.2s - 14 palavras - plano two
+## Cena b3 - 17.7s a 21.6s - 14 palavras - plano two
 > "Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,7 +65,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b4 - 22.3s a 27.9s - 18 palavras - plano crowd
+## Cena b4 - 22.8s a 27.1s - 18 palavras - plano crowd
 > "Em dois mil e vinte e três, vieram duzentos e noventa e quatro competidores, de olho em Paris."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b5 - 28.4s a 34.3s - 17 palavras - plano two
+## Cena b5 - 28.3s a 33.3s - 17 palavras - plano two
 > "O governo estimou quinhentos mil empregos em dez anos, mas é uma projeção oficial, não uma auditoria."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -96,7 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 34.5s a 38.7s - 11 palavras - plano group
+## Cena b6 - 34.7s a 37.7s - 11 palavras - plano group
 > "Críticos dizem que o projeto na costa preocupa moradores e ambientalistas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -110,7 +110,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 39.0s a 42.3s - 12 palavras - plano two
+## Cena b7 - 39.3s a 42.0s - 12 palavras - plano two
 > "A Surf City dois leva o projeto para o leste do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -126,23 +126,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b8 - 42.4s a 46.9s - 16 palavras - plano group
+## Cena b8 - 43.0s a 46.2s - 16 palavras - plano group
 > "Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (44.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (44.8s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (44.5s): executa: entra andando pela lateral
+- ACAO: chega na palavra voltou (44.8s): executa: entra andando pela lateral
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 47.6s a 53.1s - 15 palavras - plano group
+## Cena b9 - 47.4s a 52.1s - 15 palavras - plano group
 > "Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -154,7 +154,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 53.3s a 55.8s - 13 palavras - plano close
+## Cena b10 - 53.4s a 56.8s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

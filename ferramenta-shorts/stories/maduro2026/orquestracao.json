@@ -23,8 +23,7 @@
   {
    "camera": "two",
    "personagens": [
-    "SOL",
-    "MAD"
+    "SOL"
    ],
    "multidao": 0,
    "objetos": [
@@ -43,7 +42,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "reveal",
    "personagens": [
     "POV",
     "POV"
@@ -53,20 +52,14 @@
    "palavras": 19,
    "cena": "b1",
    "frase": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
     "MAD"
    ],
@@ -164,7 +157,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "AGE",
     "MAD"
@@ -177,14 +170,14 @@
    "palavras": 15,
    "cena": "b7",
    "frase": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV",
@@ -202,7 +195,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "TRU"
    ],
@@ -213,9 +206,15 @@
    "palavras": 10,
    "cena": "b9",
    "frase": "A operação ganhou um nome que resume tudo: Resolução Absoluta.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },

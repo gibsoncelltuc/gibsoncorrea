@@ -21,9 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "2021" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (0.2-2.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (2.2-4.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (0.1-1.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.7-3.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - Foi em dois mil e vinte e um, e a empresa se chama Neuralink.
@@ -43,9 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (4.6-6.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (6.3-8.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda p...
@@ -64,11 +62,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)
 - PERSONAGENS: CIM (cientista) na esquerda, expressao stern, segura paper; MUS na direita, expressao suspicious; sem multidao; acao: conversar
 - OBJETO kit/chess_pc: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (8.3-10.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (10.0-11.7 s): mesmo angulo
-  - take 3 (11.7-13.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (13.4-15.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (8.4-10.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (10.2-12.1 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar...
@@ -87,10 +83,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)
 - PERSONAGENS: CIE (medico) no centro, expressao smile; sem multidao; acao: conversar
 - OBJETO kit/monkey_pong: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (15.2-17.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (17.0-18.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (18.8-20.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (13.5-15.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (15.0-16.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (16.6-18.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - A cada acerto, ganhava um golinho de vitamina de banana.
@@ -111,9 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/monkey_pong: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (20.8-22.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (22.6-24.3 s): mesmo angulo
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que, um dia, desligaram o joystick, e o Pager continuou jogan...
@@ -137,9 +131,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (24.4-26.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (26.1-27.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (27.7-29.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (22.9-24.6 s): mesmo angulo
+  - take 2 (24.6-26.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (26.4-28.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b6 - O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em...
@@ -161,10 +155,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TEXTO NA TELA: "MENTE" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (30.5-32.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (32.4-34.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (34.3-36.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (29.1-30.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (30.9-32.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b7 - Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o comp...
@@ -184,10 +177,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS na esquerda, expressao smug; CIM (cientista) na direita, expressao grin; sem multidao; acao: discutir
 - OBJETO kit/chess_pc: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (36.4-38.4 s): mesmo angulo
-  - take 2 (38.4-40.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (40.5-42.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (34.1-36.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (36.2-38.4 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b8 - Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o cor...
@@ -208,12 +200,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/chess_pc: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 5 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (42.9-44.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (44.6-46.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (46.2-47.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 4 (47.9-49.5 s): mesmo angulo
-  - take 5 (49.5-51.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (39.6-41.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (41.5-43.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (43.5-45.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b9 - Tudo começou com um macaco, um videogame e um copo de vitamina de bana...
@@ -232,10 +222,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/monkey_pong: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (51.6-53.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (53.1-54.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (54.7-56.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (46.8-48.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (48.5-50.2 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -275,8 +264,8 @@ kit/phone | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (56.4-58.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (58.2-60.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (51.5-53.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (53.1-54.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

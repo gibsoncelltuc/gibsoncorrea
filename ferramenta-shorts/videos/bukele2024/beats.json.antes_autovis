@@ -128,7 +128,7 @@
      "kit/scroll",
      0.0,
      -1.0,
-     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -184,7 +184,7 @@
      "kit/ballot_box",
      0.0,
      -1.0,
-     1.1,
+     1.5,
      {
       "fixo": true
      }
@@ -250,14 +250,21 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 16,
+    "n": 12,
     "outfits": [
      "POV"
     ],
     "march": false,
     "expr": "laugh"
    },
-   "props": [],
+   "props": [
+    [
+     "kit/porch",
+     0.0,
+     -3.5,
+     1.6
+    ]
+   ],
    "fx": [
     "stars@20",
     "stars@60"
@@ -298,7 +305,7 @@
   {
    "shot": "wide",
    "who": [
-    "REP:0:suspicious"
+    "REP:0:suspicious:paper"
    ],
    "acao": "discutir",
    "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",

@@ -1,243 +1,288 @@
 {
- "duration": 47.496,
- "frames30": 1425,
- "source": "silence-align (cost 0.88)",
+ "duration": 59.064,
+ "frames30": 1772,
+ "source": "silence-align (cost 1.11)",
  "segments": [
   [
-   0.164417,
-   1.59725
+   0.159708,
+   2.78404
   ],
   [
-   1.79508,
-   2.53071
+   3.02921,
+   4.08225
   ],
   [
-   2.764,
-   4.79937
+   5.00617,
+   6.59346
   ],
   [
-   5.14004,
-   6.543
+   6.75842,
+   7.45875
   ],
   [
-   7.4135,
-   8.20779
+   8.30862,
+   9.81717
   ],
   [
-   8.44546,
-   11.6871
+   10.1865,
+   12.7003
   ],
   [
-   12.5661,
-   13.158
+   13.5773,
+   14.1644
   ],
   [
-   13.3484,
-   16.5968
+   14.3597,
+   17.608
   ],
   [
-   17.4188,
-   18.3477
+   18.4411,
+   19.9854
   ],
   [
-   18.5699,
-   19.0135
+   20.171,
+   20.6208
   ],
   [
-   19.223,
-   20.4503
+   20.8449,
+   22.2192
   ],
   [
-   21.305,
-   22.2807
+   23.089,
+   24.0646
   ],
   [
-   22.5284,
-   23.3413
+   24.3122,
+   25.1251
   ],
   [
-   23.5772,
-   24.6145
+   25.3611,
+   26.3984
   ],
   [
-   25.4898,
-   26.0377
+   27.2703,
+   28.0148
   ],
   [
-   26.2731,
-   27.8902
+   28.3736,
+   30.0404
   ],
   [
-   28.0807,
-   28.8238
+   30.9097,
+   31.453
   ],
   [
-   28.9984,
-   31.9165
+   31.693,
+   33.3103
   ],
   [
-   32.7151,
-   33.5
+   33.5006,
+   34.2446
   ],
   [
-   33.6763,
-   34.6989
+   34.4183,
+   37.3364
   ],
   [
-   34.9874,
-   36.8961
+   38.1377,
+   38.9199
   ],
   [
-   37.7492,
-   38.3691
+   39.0962,
+   40.0962
   ],
   [
-   38.5217,
-   40.7299
+   40.4074,
+   42.3173
   ],
   [
-   41.0144,
-   42.3197
+   43.1791,
+   43.829
   ],
   [
-   43.182,
-   44.6267
+   44.1014,
+   45.1559
   ],
   [
-   44.9194,
-   46.681
+   45.4,
+   48.4771
+  ],
+  [
+   49.3372,
+   49.957
+  ],
+  [
+   50.1096,
+   52.3178
+  ],
+  [
+   52.6024,
+   53.9076
+  ],
+  [
+   54.767,
+   56.2167
+  ],
+  [
+   56.5072,
+   58.269
   ]
  ],
  "phrases": [
   {
-   "text": "Em novembro de dois mil e dezenove,",
-   "s": 0.164,
-   "e": 1.597
+   "text": "Uma picape blindada teve as janelas quebradas ao vivo,",
+   "s": 0.16,
+   "e": 2.784
   },
   {
-   "text": "na Calif\u00f3rnia,",
-   "s": 1.795,
-   "e": 2.531
+   "text": "no pr\u00f3prio lan\u00e7amento.",
+   "s": 3.029,
+   "e": 4.082
   },
   {
-   "text": "a empresa de Elon Musk apresentou o Cybertruck,",
-   "s": 2.764,
-   "e": 4.799
+   "text": "Foi em novembro de dois mil e dezenove,",
+   "s": 5.006,
+   "e": 6.593
   },
   {
-   "text": "uma picape el\u00e9trica de a\u00e7o.",
-   "s": 5.14,
-   "e": 6.543
+   "text": "na Calif\u00f3rnia.",
+   "s": 6.758,
+   "e": 7.459
   },
   {
-   "text": "Na apresenta\u00e7\u00e3o,",
-   "s": 7.413,
-   "e": 8.208
+   "text": "A Tesla apresentava o Cybertruck,",
+   "s": 8.309,
+   "e": 9.817
   },
   {
-   "text": "Musk disse que as janelas eram feitas de um vidro super resistente.",
-   "s": 8.445,
-   "e": 11.687
+   "text": "e Musk garantiu que o vidro era super resistente.",
+   "s": 10.187,
+   "e": 12.7
   },
   {
    "text": "Para provar,",
-   "s": 12.566,
-   "e": 13.158
+   "s": 13.577,
+   "e": 14.164
   },
   {
    "text": "o designer Franz von Holzhausen jogou uma esfera de a\u00e7o na janela.",
-   "s": 13.348,
-   "e": 16.597
+   "s": 14.36,
+   "e": 17.608
   },
   {
-   "text": "E o vidro rachou,",
-   "s": 17.419,
-   "e": 18.348
+   "text": "Acontece que o vidro rachou,",
+   "s": 18.441,
+   "e": 19.985
   },
   {
    "text": "ao vivo,",
-   "s": 18.57,
-   "e": 19.014
+   "s": 20.171,
+   "e": 20.621
   },
   {
-   "text": "na frente de todo mundo.",
-   "s": 19.223,
-   "e": 20.45
+   "text": "na frente de toda a plateia.",
+   "s": 20.845,
+   "e": 22.219
   },
   {
    "text": "Ele tentou de novo,",
-   "s": 21.305,
-   "e": 22.281
+   "s": 23.089,
+   "e": 24.065
   },
   {
    "text": "em outra janela,",
-   "s": 22.528,
-   "e": 23.341
+   "s": 24.312,
+   "e": 25.125
   },
   {
    "text": "e ela tamb\u00e9m rachou.",
-   "s": 23.577,
-   "e": 24.614
+   "s": 25.361,
+   "e": 26.398
+  },
+  {
+   "text": "Musk brincou:",
+   "s": 27.27,
+   "e": 28.015
+  },
+  {
+   "text": "pelo menos a bola n\u00e3o atravessou.",
+   "s": 28.374,
+   "e": 30.04
   },
   {
    "text": "Depois,",
-   "s": 25.49,
-   "e": 26.038
+   "s": 30.91,
+   "e": 31.453
   },
   {
    "text": "Musk explicou na internet que,",
-   "s": 26.273,
-   "e": 27.89
+   "s": 31.693,
+   "e": 33.31
   },
   {
    "text": "nos ensaios,",
-   "s": 28.081,
-   "e": 28.824
+   "s": 33.501,
+   "e": 34.245
   },
   {
    "text": "a mesma esfera tinha batido na mesma janela sem nem arranhar.",
-   "s": 28.998,
-   "e": 31.916
+   "s": 34.418,
+   "e": 37.336
   },
   {
    "text": "A plateia riu,",
-   "s": 32.715,
-   "e": 33.5
+   "s": 38.138,
+   "e": 38.92
   },
   {
    "text": "a internet tamb\u00e9m,",
-   "s": 33.676,
-   "e": 34.699
+   "s": 39.096,
+   "e": 40.096
   },
   {
    "text": "e a cena deu o que falar no mundo inteiro.",
-   "s": 34.987,
-   "e": 36.896
+   "s": 40.407,
+   "e": 42.317
+  },
+  {
+   "text": "Mesmo assim,",
+   "s": 43.179,
+   "e": 43.829
+  },
+  {
+   "text": "poucos dias depois,",
+   "s": 44.101,
+   "e": 45.156
+  },
+  {
+   "text": "Musk anunciou mais de cento e quarenta mil reservas da picape.",
+   "s": 45.4,
+   "e": 48.477
   },
   {
    "text": "Uma picape,",
-   "s": 37.749,
-   "e": 38.369
+   "s": 49.337,
+   "e": 49.957
   },
   {
    "text": "uma esfera de a\u00e7o e uma janela que n\u00e3o aguentou:",
-   "s": 38.522,
-   "e": 40.73
+   "s": 50.11,
+   "e": 52.318
   },
   {
    "text": "um lan\u00e7amento inesquec\u00edvel.",
-   "s": 41.014,
-   "e": 42.32
+   "s": 52.602,
+   "e": 53.908
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 43.182,
-   "e": 44.627
+   "s": 54.767,
+   "e": 56.217
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 44.919,
-   "e": 46.681
+   "s": 56.507,
+   "e": 58.269
   }
  ]
 }
