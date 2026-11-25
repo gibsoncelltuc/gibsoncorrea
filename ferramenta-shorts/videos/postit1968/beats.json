@@ -91,12 +91,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "quimico",
-      "na": "quimico"
+      "na": "químico",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -117,10 +116,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Era"
+      "na": "fábrica"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -140,11 +138,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Spencer"
+      "faz": "quimico",
+      "na": "criar",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -166,17 +165,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "sai",
-      "na": "saiu"
-     },
-     {
-      "quem": 0,
-      "faz": "x_solta",
-      "na": "soltava"
+      "faz": "mostra",
+      "na": "cola"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -193,12 +185,11 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mostrava"
+      "na": "mostrava",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -255,12 +246,11 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_canta",
-      "na": "cantava"
+      "na": "cantava",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -313,12 +303,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "desaba",
       "na": "caindo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -365,12 +353,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "pensa",
-      "na": "ideia"
+      "na": "ideia",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -385,14 +372,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "O"
+      "na": "papel"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -455,17 +441,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_entrega",
-      "na": "distribuiram"
-     },
-     {
+      "na": "distribuíram",
       "quem": 0,
-      "faz": "negocio",
-      "na": "comprar"
+      "alvo_quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -509,17 +490,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "chegou"
-     },
-     {
-      "quem": 0,
-      "faz": "perde",
-      "na": "falhou"
+      "faz": "mostra",
+      "na": "lojas"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

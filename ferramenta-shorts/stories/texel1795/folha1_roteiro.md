@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Narracao: Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: absurdo -> ring + som de alerta; encena: chega (point) @9 -> acao + som de efeito; encena: duvida (shrug) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: absurdo -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: 1795 | mapa: HOLANDA
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Narracao: A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_treme @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: FROTA CONGELADA
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Narracao: Os navios ficaram presos no gelo, sem conseguir sair do lugar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: prende (push) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 
 ## Cena b9  (~5.9 s)
 - Narracao: Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

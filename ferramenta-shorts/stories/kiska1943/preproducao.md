@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | harbor | two | 26 | conversar, INTERAGEM: aproxima-se, alguem chega andando | ship | - | -
 b1 | arctic | group | 11 | conversar, INTERAGEM: avanca e o outro recua | vehicles/airplane, kit/navio_vapor | - | -
 b2 | harbor | reveal | 2 | encena | kit/aviao_ww2, kit/tanque_ww2, navios de guerra ao fundo, no tamanho real, navio em movimento | - | -
-b3 | arctic | crowd | 19 | encena, batalha | kit/aviao_ww2, kit/canhao_moderno | - | -
+b3 | arctic | crowd | 19 | batalha | kit/aviao_ww2, kit/canhao_moderno | - | -
 b4 | arctic | orbit | 51 | encena, andando, batalha | - | - | -
 b5 | interior pedra | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b6 | arctic | track | 2 | encena, andando | war/sandbags | - | -

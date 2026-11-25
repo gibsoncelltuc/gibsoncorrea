@@ -5,14 +5,14 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | tropa, placa: 40 MIL PRESOS | - | -
 b1 | reveal | -  | tropa, placa: 2023, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
-b3 | orbit | -  | tropa | encena: prende (push) @20 (acao + som de efeito) | -
-b4 | group | -  | tropa, placa: 40 MIL | encena: pega (lift) @1 (acao + som de efeito); encena: constroi (hammer) @4 (acao + som de efeito); encena: prende (push) @16 (acao + som de efeito) | -
+b3 | orbit | -  | tropa | - | -
+b4 | group | -  | tropa, placa: 40 MIL | - | -
 b5 | two | -  | tropa | - | -
 b6 | wide | -  | batalha aberta com tiros, objeto na mao | - | -
 b7 | two | -  | placa: SEM JULGAMENTO | encena: protesto (up) @4 (acao + som de efeito) | -
 b8 | orbit | -  | batalha aberta com tiros, objeto na mao | - | -
 b9 | group | -  | tropa, placa: DEBATE | - | -
-b10 | group | -  | placa: COPIADO E CRITICADO, objeto na mao | encena: escreve (write) @6 (acao + som de efeito) | -
+b10 | group | -  | placa: COPIADO E CRITICADO, objeto na mao | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
 Mistura de planos: close 11% | medio 65% | aberto 23% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

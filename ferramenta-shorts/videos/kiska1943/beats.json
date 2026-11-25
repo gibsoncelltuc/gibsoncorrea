@@ -81,15 +81,14 @@
     "march": true
    },
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "invadiram"
+      "na": "invadiram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -127,12 +126,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "ocupada"
+      "faz": "mostra",
+      "na": "Kiska"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -162,12 +159,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "chegaram"
+      "na": "chegaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -213,12 +209,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "atira",
+      "faz": "mostra",
       "na": "bombardearam"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -238,12 +232,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_desce",
-      "na": "desceram"
+      "na": "desceram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -263,12 +256,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "sai",
+      "faz": "mostra",
       "na": "embora"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -287,12 +278,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_procura",
-      "na": "procuraram"
+      "na": "procuraram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -323,10 +313,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Semanas"
+      "na": "navios"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -357,12 +346,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "atira",
-      "na": "atirar"
+      "na": "atirar",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -404,22 +392,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "morre",
       "na": "morreram"
-     },
-     {
-      "quem": 0,
-      "faz": "atira",
-      "na": "tiros"
-     },
-     {
-      "quem": 0,
-      "faz": "x_bate",
-      "na": "bateu"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -462,17 +438,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "acharam"
-     },
-     {
-      "quem": 0,
-      "faz": "sai",
-      "na": "abandonados"
+      "na": "acharam",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -504,14 +474,13 @@
    "set": "harbor",
    "_auto_vis": 3,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Uma"
+      "na": "ilha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

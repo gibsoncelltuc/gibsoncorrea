@@ -79,10 +79,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Uma"
+      "na": "frota"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "shot_lock": true,
    "montado": {
@@ -112,12 +111,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "invadia"
+      "faz": "mostra",
+      "na": "Holanda"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -150,12 +147,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_treme",
+      "faz": "mostra",
       "na": "congelou"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -192,10 +187,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Os"
+      "na": "gelo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -219,14 +213,13 @@
    "clima": "neve",
    "set": "arctic",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Do"
+      "na": "cavalaria"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -248,12 +241,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "pensa",
-      "na": "ideia"
+      "na": "ideia",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -280,14 +272,13 @@
    "d0": 12.0,
    "d1": 11.0,
    "encena": {
-    "sentido": "negativa",
+    "sentido": "hipotese",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Só"
+      "na": "gelo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -313,12 +304,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "atravessaram"
+      "na": "atravessaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -365,12 +355,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "rende",
-      "na": "rendeu"
+      "na": "rendeu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -416,14 +405,13 @@
    },
    "_susp_ok": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Mais"
+      "na": "navios"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

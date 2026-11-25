@@ -1,11 +1,14 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
 > "El Salvador tem uma prisão tão grande que virou notícia no mundo inteiro."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prisão" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -16,6 +19,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b1 - 4.8s a 9.6s - 14 palavras - plano reveal
 > "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "inaugurada" (5.2s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
@@ -25,6 +31,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b2 - 10.0s a 15.9s - 17 palavras - plano two
 > "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "gangues" (15.9s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
@@ -33,25 +42,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 16.3s a 23.7s - 21 palavras - plano orbit
 > "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) BUK fala apontando | na palavra "decretou" (20.4s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | presos (23.7s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | ATUACAO | prender | OK |
+| 1 | - | ATUACAO | prender | OK |
 
 ## Cena b4 - 24.1s a 30.0s - 17 palavras - plano group
 > "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ergueram" (25.6s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | guardar (24.4s) | ACAO: pega | levanta/segura | OK |
-| 2 | ergueram (25.6s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 3 | presos (30.0s) | ACAO: prende | empurra/prende | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | PLACA | 40 MIL | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 40 MIL | OK |
 
 ## Cena b5 - 30.4s a 34.4s - 12 palavras - plano two
 > "Muralhas altas, cercas elétricas e torres de vigia por todos os lados."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Muralhas" (30.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -60,6 +74,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 34.8s a 40.7s - 17 palavras - plano wide
 > "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "despencaram" (36.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
@@ -67,6 +84,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b7 - 41.1s a 45.2s - 12 palavras - plano two
 > "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) REP acao do motor: protesto | na palavra "denunciaram" (42.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -78,6 +98,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b8 - 45.6s a 48.1s - 8 palavras - plano orbit
 > "O governo responde que as ruas ficaram seguras."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) BUK fala apontando | na palavra "responde" (46.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
@@ -85,6 +108,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b9 - 48.5s a 52.6s - 12 palavras - plano group
 > "A prisão virou símbolo: de segurança para uns, de excesso para outros."
+
+- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prisão" (48.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -95,11 +121,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b10 - 53.0s a 56.7s - 11 palavras - plano group
 > "E o modelo passou a ser copiado e criticado pelo mundo."
 
+- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "modelo" (53.7s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | copiado (55.2s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | PLACA | COPIADO E CRITICADO | OK |
+| 1 | - | INTERACAO | insiste | OK |
+| 2 | - | PLACA | COPIADO E CRITICADO | OK |
 
 ## Cena b11 - 57.0s a 61.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
