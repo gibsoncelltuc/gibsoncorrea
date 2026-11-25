@@ -10,9 +10,9 @@ b4 | wide | -  | batalha aberta com tiros, tropa | encena: voa (point) @2 (acao 
 b5 | two | -  | tropa, interior | encena: senta @5 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito) | -
 b6 | orbit | espaco  | tropa, placa: NÃO ENTRE EM PÂNICO | - | -
 b7 | two | espaco  | tropa | - | -
-b8 | wide | espaco  | batalha aberta com tiros, tropa | - | -
+b8 | wide | espaco  | tropa | - | -
 b9 | two | -  | tropa, placa: STARMAN | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 56% | aberto 33% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 9% | medio 53% | aberto 37% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

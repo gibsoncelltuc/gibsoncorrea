@@ -160,7 +160,7 @@
    "detalhe": true,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/syringe",

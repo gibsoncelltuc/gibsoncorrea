@@ -176,10 +176,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - E ele continua lá em cima, dando voltas, até hoje.
 - Cenario: arctic | luz: espaco | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Animacao: reagir
 - Objetos/modelos: kit/roadster2008
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -245,7 +245,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster2008 | grandes momentos: b4, b8 | planos abertos: 5 | mistura: close 11% | medio 56% | aberto 33% | detalhe 0%
+- Objeto heroi: kit/roadster2008 | grandes momentos: b4 | planos abertos: 5 | mistura: close 9% | medio 53% | aberto 37% | detalhe 0%
 - Interacoes: -
 - RISCOS GERAIS: nenhum
 

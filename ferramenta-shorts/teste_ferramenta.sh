@@ -237,6 +237,8 @@ grep -q "(r'(^|/)apple\$', 0.3, 'H', 'max')" mkvideo.py || f "maca maior que o N
 grep -q "vai PARA CIMA do tampo" mkvideo.py || f "placa de Petri/passaro embaixo da bancada (y menor que o tampo)"
 grep -q "petri_mofo ja em cena = nao poe outra placa" mkvideo.py || f "variante do objeto ja em cena (petri_mofo) + objeto base duplicado no chao"
 grep -q "objeto EM CIMA da mesa/bancada" enquadrar.py || f "enquadrar separava a bancada do objeto em cima dela (Darwin)"
+grep -q "nao vira o grande momento com multidao (tapava o submarino)" mkvideo.py || f "grande momento automatico punha multidao em cena com crowd 0 / quadro_manual (LA)"
+grep -q "todo mundo achava que vinha mais. e. opiniao" mkvideo.py || f "todo mundo achava (opiniao) virava multidao lotada tapando o submarino (LA)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

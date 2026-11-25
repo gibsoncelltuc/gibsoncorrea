@@ -864,8 +864,8 @@ def direct(beats):
                 elif not b.get('impact'): b['crowd'] = {'n': 0, 'outfits': persons_out[:1] or list(B.get('outfits', {}))[:1] or ['X'], 'march': False}   # cena sem 'who' nao vira ator 'X' (figurino inexistente quebrava o render)
             if not b.get('who') and not b.get('explica') and b['crowd'].get('outfits'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
             _sy = __import__('unicodedata').normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()
-            if re.search(r'multid|milhares(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
-                b['crowd']['n'] = max(int(b['crowd'].get('n', 0)), 30); b['crowd']['lotado'] = True   # "varias pessoas" na narracao: encher a tela de gente (ordem do Gibson 19/11)
+            if not b.get('quadro_manual') and not re.search(r'todo mundo (achava|pensava|temia|acreditava|sabia|dizia|esperava)', _sy) and re.search(r'multid|milhares(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
+                b['crowd']['n'] = max(int(b['crowd'].get('n', 0)), 30); b['crowd']['lotado'] = True   # 25/11 LA: 'todo mundo achava que vinha mais' e' opiniao (nao poe multidao); cena com quadro_manual = roteiro manda   # "varias pessoas" na narracao: encher a tela de gente (ordem do Gibson 19/11)
         else:
             run += 1
             if b.get('impact') and b.get('crowd') is None and b.get('who') and not b.get('emus'):
@@ -931,6 +931,7 @@ if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if
     _OFa = B.get('outfits', {}); _ma = lambda o_: str(o_).startswith(('POV', 'SOL', 'TRO')) or bool(_OFa.get(o_, {}).get('rifle') or _OFa.get(o_, {}).get('hats') or _OFa.get(o_, {}).get('multidao'))
     _cand = [i for i in _cand if not beats[i].get('interior') and not beats[i].get('explica') and not re.search(r'morre|morte|mortes|morta|morto|faleceu|doen|saude|tragedia|vitima|luto|chor|enterr|ferid', nrm(beats[i]['say']))]   # 24/11 (Curie): morte/doenca nunca vira festa com multidao   # 24/11: nada de multidao/batalha automatica dentro de sala
     _cand = [i for i in _cand if any(_ma(w_.split(':')[0]) for w_ in beats[i].get('who', [])) or any(str(k_).startswith(('POV', 'POVO')) for k_ in _OFa)]
+    _cand = [i for i in _cand if not beats[i].get('quadro_manual') and not (isinstance(beats[i].get('crowd'), dict) and beats[i]['crowd'].get('n') == 0)]   # 25/11 LA: cena que o roteiro fechou (quadro_manual / multidao 0) nao vira o grande momento com multidao (tapava o submarino)
     _vir = [i for i in _vir if i in _cand]
     _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
     if _pick is not None:

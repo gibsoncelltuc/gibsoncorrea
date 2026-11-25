@@ -12,12 +12,12 @@ b4 | loc_pista | wide | 1 | reagir, batalha | kit/falcon_air | - | -
 b5 | interior loja | two | 1 | conversar | kit/roadster2008 | - | -
 b6 | arctic | orbit | 1 | parados (so fala e pisca) | kit/roadster2008 | - | -
 b7 | arctic | two | 0 | parados (so fala e pisca) | kit/roadster2008, kit/globe | - | -
-b8 | arctic | wide | 1 | reagir, batalha | kit/roadster2008 | - | -
+b8 | arctic | wide | 1 | reagir | kit/roadster2008 | - | -
 b9 | loc_pista | two | 1 | comemorar | kit/rocket, kit/roadster2008 | - | -
 b10 | loc_pista | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/roadster2008
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b8
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b4
 Interacoes entre personagens: nenhuma
 
 Cenas com personagens parados: 4 de 11 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando

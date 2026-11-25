@@ -76,12 +76,12 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 
 
 ## Cena b8  (~3.4 s)
 - Narracao: E ele continua lá em cima, dando voltas, até hoje.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.9 s)
 - Narracao: Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
