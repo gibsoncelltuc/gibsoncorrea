@@ -24,7 +24,7 @@ bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spy
 adrian, beret, bibico, bicorne, bonnet, boonie, bowler, brodie, cap, colonial, crown, fez, hair, helmet, kepi, m1, pickelhaube, quepe, shako, shako_tall, slouch, stahlhelm, straw, tophat, tricorn, turban, wizard
 
 ## Figurino (campos de "outfits")
-jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
+jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky|kid (crianca) | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
 
 ## Profissoes prontas ("profissao" no figurino: {"PAD": {"profissao": "padeiro"}} e ajuste as cores se quiser)
 padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinheiro, cientista, medico, comerciante, pescador, padre, camponesa, jornalista. Cada personagem ganha barba, bigode ou oculos proprios pelo nome + variante; para fixar: "beard": "#cor" | "moustache": "#cor" | "glasses": true/false. Bandeira na mao: "holdCol" e "holdCol2" no figurino mudam as duas cores.
@@ -157,3 +157,4 @@ nadar, cavalgar, escalar, sentar, deitar (mostre o resultado ou reescreva a fras
 - **Acoes que saiam so com efeito ganharam corpo**: pagar/dinheiro/vender (mao estendida com moedas), chegou/apareceu/invadiu (entra andando pela lateral), tiro/canhao/bomba (arma, clarao, som), brigar/atacar (soco), perder/derrota/desistiu (mao na testa), gritava/socorro/panico (bracos para cima), festa/premio (comemora), danca (bracos para cima; se quem danca sao atomos/cobras do sonho, brilhos no ar), segredo (mao no queixo), absurdo/impossivel (ombros), fogo/incendio (susto + fogo). Nos 63 roteiros: de 140 acoes so com efeito para 35 (as 35 sao a 2a mencao da mesma acao na frase, ja encenada).
 - **Espaco**: "no espaco / em orbita / na lua" -> ceu preto estrelado, sem nuvem, chao lunar. Ceu estrelado em toda noite ao ar livre.
 - kit/bife_elefante (24/11): bife grande no prato com plaquinha "ELEFANTE" espetada (Paris 1870: carne de elefante servida no restaurante; nunca o bicho no prato)
+- CRIANCA (25/11): figurino com `"build": "kid"` desenha corpo de crianca (cabeca maior, pernas curtas). Builds: adult (padrao), stout, lanky, kid. Use em todo roteiro com menino/menina.
