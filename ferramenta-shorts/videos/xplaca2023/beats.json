@@ -110,7 +110,18 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "investigada"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -124,7 +135,17 @@
    ],
    "mapa": "SÃO FRANCISCO",
    "mapa_at": 1,
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Foi"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -149,7 +170,18 @@
    "sfx": [
     "thump@40"
    ],
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "tira",
+      "na": "tirar"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -161,7 +193,17 @@
     "OPE:0:shock",
     "FIS:0:stern"
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Mas"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -191,7 +233,17 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "tela": false
+   "tela": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Sobraram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -214,7 +266,18 @@
    ],
    "set": "street",
    "hora": "noite",
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "instalaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.",
@@ -252,7 +315,23 @@
     "FIS:0:angry",
     "MUS:0:worried"
    ],
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "recebeu"
+     },
+     {
+      "quem": 0,
+      "faz": "x_abre",
+      "na": "abriu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -264,7 +343,17 @@
     "MUS:0:smug",
     "FIS:0:suspicious"
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -276,7 +365,18 @@
     "FIS:0:shock",
     "OPE:0:laugh"
    ],
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "retirado"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "tiros": false,
@@ -290,9 +390,9 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -315,10 +415,22 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "trocar"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
- "exp": 1.0,
+ "exp": 1.12,
  "fontes": [
   "https://english.alarabiya.net/News/world/2023/08/01/-X-sign-removed-from-San-Francisco-building-that-was-Twitter-s-headquarters",
   "https://www.thewrap.com/x-headquarters-loses-sign/",
@@ -357,5 +469,6 @@
   "buscas": {
    "placa": "X sign Twitter headquarters San Francisco July 2023"
   }
- }
+ },
+ "cinf": 4.5
 }

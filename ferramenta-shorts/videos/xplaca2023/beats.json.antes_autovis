@@ -1,0 +1,363 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 3,
+ "title": "O X no Prédio do Twitter",
+ "titulo_base": "O X no Prédio do Twitter",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "fixo": true
+  },
+  "OPE": {
+   "profissao": "pedreiro",
+   "jacket": "#e0a020",
+   "pants": "#3a3a3a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#e0a020"
+  },
+  "OPE2": {
+   "profissao": "pedreiro",
+   "jacket": "#c85a2a",
+   "pants": "#3a3a3a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#c85a2a"
+  },
+  "FIS": {
+   "jacket": "#3a4a6a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#2a2a2a",
+   "glasses": true,
+   "fixo": true
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Uma empresa trocou de nome, e a placa nova acabou investigada pela prefeitura.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "X",
+   "quadro": {
+    "local": "loc_patio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "set": "loc_patio",
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Twitter para X, em São Francisco.",
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "OPE:0:shock"
+   ],
+   "mapa": "SÃO FRANCISCO",
+   "mapa_at": 1,
+   "interior": "pedra"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Os operários começaram a tirar as letras e o passarinho da fachada.",
+   "shot": "group",
+   "who": [
+    "OPE:0:nervous",
+    "OPE2:0:suspicious",
+    "MUS:0:worried"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "set": "street"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Mas o trabalho parou no meio, porque faltavam licenças.",
+   "shot": "two",
+   "who": [
+    "OPE:0:shock",
+    "FIS:0:stern"
+   ],
+   "interior": "loja"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Sobraram só as letras E e R, em cinza, na fachada.",
+   "shot": "two",
+   "who": [
+    "OPE2:0:laugh"
+   ],
+   "props": [],
+   "text": "E R",
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "tela": false
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Acontece que depois instalaram um X gigante piscando no alto do prédio.",
+   "shot": "crowd",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "X",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "set": "street",
+   "hora": "noite",
+   "_susp_ok": true
+  },
+  {
+   "say": "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.",
+   "shot": "two",
+   "who": [
+    "POV:0:angry",
+    "JOR:0:surprised"
+   ],
+   "set": "street",
+   "hora": "noite",
+   "text": "X",
+   "crowd": {
+    "n": 0
+   },
+   "acao": "discutir",
+   "tiros": false,
+   "batalha": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "luz"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão.",
+   "shot": "two",
+   "who": [
+    "FIS:0:angry",
+    "MUS:0:worried"
+   ],
+   "interior": "pedra"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "A empresa disse que era uma placa temporária para um evento.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "FIS:0:suspicious"
+   ],
+   "interior": "loja"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado.",
+   "shot": "two",
+   "who": [
+    "FIS:0:shock",
+    "OPE:0:laugh"
+   ],
+   "set": "street"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Moral da história: até trocar de nome precisa de licença da prefeitura.",
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     1.2,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "interior": "madeira",
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
+  }
+ ],
+ "exp": 1.12,
+ "fontes": [
+  "https://english.alarabiya.net/News/world/2023/08/01/-X-sign-removed-from-San-Francisco-building-that-was-Twitter-s-headquarters",
+  "https://www.thewrap.com/x-headquarters-loses-sign/",
+  "https://www.ktvu.com/news/confusion-during-removal-of-twitter-sign-from-san-francisco-headquarters"
+ ],
+ "ano": 2023,
+ "regiao": "eua",
+ "visual": {
+  "local": "Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco com a placa na fachada",
+  "quando": "24 a 31 de julho de 2023, dia e noite",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "operarios com guindaste e capacete",
+   "fiscais da prefeitura",
+   "policiais"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "OPE": "capacete amarelo e colete laranja",
+   "OPE2": "capacete branco e colete",
+   "FIS": "camisa social com cracha da prefeitura"
+  },
+  "cenario": "fachada de predio antigo de Sao Francisco com letras TWITTER e passaro azul, guindaste, depois um X luminoso branco piscando no telhado a noite",
+  "objetos": [
+   "placa com letras",
+   "passaro azul",
+   "X luminoso",
+   "guindaste"
+  ],
+  "explicacoes": [
+   "Em 24/7/2023 o Twitter virou X; a remocao das letras foi interrompida pela policia por falta de licenca (sobraram \"er\"); o X luminoso no telhado gerou 24 reclamacoes e investigacao da prefeitura e foi retirado em 31/7 (fonte: Wikipedia Rebranding of Twitter as X)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Twitter_under_Elon_Musk"
+  ],
+  "buscas": {
+   "placa": "X sign Twitter headquarters San Francisco July 2023"
+  }
+ },
+ "cinf": 4.5
+}
