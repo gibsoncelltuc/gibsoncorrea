@@ -247,6 +247,20 @@ if _N >= 6 and B.get('variar_cenario') is not False:
                 else: b_['set'] = _o
                 _cont[_dom] -= 1; _cont[_o] += 1
 _limpa_sets()
+if B.get('gancho_tipo') and B.get('continuo') is not False:   # 25/11 FILMAGEM CONTINUA (Gibson): cena solta num lugar entre duas do MESMO lugar (A B A) volta para A quando a frase nao cita lugar -> a camera segue sem corte; video curto fica com 3+ lugares
+    _nt = lambda t_: __import__('unicodedata').normalize('NFKD', t_.lower()).encode('ascii', 'ignore').decode()
+    for _volta in range(2):
+        for i_ in range(1, _N - 1):
+            a_, b_, c_ = B['beats'][i_ - 1], B['beats'][i_], B['beats'][i_ + 1]
+            if _lug(a_) != _lug(c_) or _lug(a_) == _lug(b_) or b_.get('mapa') or b_.get('explica') or b_.get('fixo_lugar'): continue
+            if any(re.search(rx_, _nt(b_.get('say', ''))) for rx_, k_, v_ in _LUGAR): continue
+            if len(set(_lug(x_) for j_, x_ in enumerate(B['beats']) if j_ != i_)) < 3: continue
+            if _lug(a_).startswith('interior') and (b_.get('batalha') or b_.get('veiculo') or b_.get('crowd') or b_.get('shot') in ('reveal', 'crowd', 'orbit', 'track')): continue
+            b_.pop('set', None); b_.pop('interior', None)
+            if a_.get('interior'): b_['interior'] = a_['interior']
+            else: b_['set'] = a_.get('set', SET)
+            for k_ in ('regiao', 'fachada', 'hora', 'light'):
+                if k_ in a_: b_[k_] = a_[k_]
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 # 24/11 (Gibson, Zanzibar): NAVIO NO CAIS = navio em cima do concreto. No cenario harbor o cais vai ate z -21,4; daqui para tras e' mar.
@@ -1194,6 +1208,7 @@ def _explica(k, b, light, a, bb):
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = ''.join(pt_ if i_ % 2 else re.sub(r'\bX\b', 'X_' + b['set'], pt_) for i_, pt_ in enumerate(re.split(r'("(?:[^"\\]|\\.)*")', call)))
     return call
 
+_PR_FUNDO = {}
 def build_beat(k, b):
     shot = b.get('shot', 'two')
     if shot == 'close' and len(b.get('who', [])) >= 2 and re.search(r'\b(os dois|as duas|ambos|ambas|juntos|juntas|todos|um ao outro|um no outro|entre eles)\b', _nrm0(b['say'])): shot = b['shot'] = 'two'   # v13: a frase fala dos DOIS -> os dois no quadro (nada de close em um so')
@@ -2010,7 +2025,11 @@ def build_beat(k, b):
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
     elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07, main: %d }" % len(persons))
     if b.get('trans'): opts.append(f"trans: {json.dumps(b['trans'])}")
-    elif k > 0: opts.append("trans: 'dissolve'" if k % 4 == 0 else "trans: 'cut'")   # 25/11 (Gibson): CORTE SECO na maioria das trocas de cena, fusao curta so' de vez em quando (a camera ja respira dentro da cena)
+    elif k > 0:   # 25/11 (Gibson): FILMAGEM CONTINUA -- mesmo cenario = a camera DESLIZA do enquadramento anterior para o novo (sem corte), seguindo os personagens; so' corta seco quando o cenario muda
+        _loc = lambda b_: ('int:' + str(b_.get('interior'))) if b_.get('interior') else ('set:' + str(b_.get('set', SET)))
+        if _loc(beats[k - 1]) == _loc(b) and not b.get('mapa') and not b.get('explica') and not beats[k - 1].get('explica') and not b.get('veiculo'): opts.append("trans: 'cut'"); opts.append('glide: true'); opts.append('glideN: 26'); b['_cont'] = True
+        else: opts.append("trans: 'cut'")
+    if _VIRAL and not wide and 'nocut: true' not in opts: opts.append('nocut: true')   # continua: dentro da cena nao ha sub-corte; a camera respira e acompanha
     if b.get('vary') is False and not wide: opts.append('vary: false')
     mt_ = b.get('montado')
     if mt_ and acts and persons:
@@ -2031,6 +2050,11 @@ def build_beat(k, b):
         pr = _pr2
     for d_, a_ in (('kit/balloon', 'kit/balloon_air'), ('kit/rocket', 'kit/falcon_air'), ('kit/tower', 'kit/booster_air')):   # 25/11 Paris: o mesmo objeto JA NO AR e parado = dois (balao de festa gigante no chao)
         if any(f'"{a_}"' in x_ for x_ in pr): pr = [x_ for x_ in pr if f'asset: "{d_}"' not in x_]
+    _RE_FUNDO = r"asset: \"(ship|kit/navio\w*|kit/galeao\w*|kit/barco\w*|kit/fragata\w*)\""   # 25/11 FILMAGEM CONTINUA: o navio/barco grande do fundo continua no lugar na cena seguinte do mesmo cenario (nao some no meio do movimento de camera)
+    if b.get('_cont') and _PR_FUNDO.get(k - 1):
+        _tem = {re.search(_RE_FUNDO, x_).group(1) for x_ in pr if re.search(_RE_FUNDO, x_)}
+        pr = pr + [x_ for x_ in _PR_FUNDO[k - 1] if re.search(_RE_FUNDO, x_).group(1) not in _tem]
+    _PR_FUNDO[k] = [x_ for x_ in pr if re.search(_RE_FUNDO, x_) and 'move:' not in x_ and 'vfx:' not in x_ and 'y: (' not in x_ and 'xf:' not in x_]
     if pr: opts.append(f"props: [{', '.join(pr)}]")
     if fx: opts.append(f"fx: [{', '.join(fx)}]")
     call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"; _multi = False
@@ -2385,7 +2409,7 @@ _b0 = beats[0] if beats else {}
 if beats and not B.get('gancho_ok') and not any(_b0.get(k_) for k_ in ('text', 'fx', 'impact', 'batalha', 'explica', 'montado', 'veiculo', 'animals', 'hud', 'mapa')) and not _b0.get('props'):   # ordem do Gibson 24/11: IMPACTO nos 5 primeiros segundos
     _glob.append(('GANCHO sem impacto visual nos 5 primeiros segundos (cena 1 so com gente parada)', 'na cena 1: o objeto heroi em "props", "text" grande, "fx"/"impact", animal ou veiculo em acao - a imagem tem que surpreender junto com a frase'))
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
-if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
+if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > (len(beats) * 0.7 if B.get('gancho_tipo') else len(beats) // 2)):
     _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))
 # ===== v13 PADROES DO CANAL (roteiro): gancho sem data, 55 a 75 segundos =====
 if B.get('serie') != 'Teste':

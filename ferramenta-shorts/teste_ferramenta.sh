@@ -259,7 +259,11 @@ grep -q "Galileu: antes de 1950 a bola vira de couro" mkvideo.py || f "heroi kit
 grep -q "str(B.get('rate'))" make_video.sh || f "mudar so' a velocidade da voz nao refazia a voz"
 grep -q "Lagosta: roteiro curto sem acao catalogada" prechecar.sh || f "grade de acoes vazia quebrava a fila (Lagosta)"
 grep -q "CAMERA QUE RESPIRA" web/runtime.js || f "camera parada: tem que abrir e fechar acompanhando a cena"
-grep -q "CORTE SECO na maioria das trocas" mkvideo.py || f "troca de cena so' por fusao: precisa de cortes secos"
+grep -q "so' corta seco quando o cenario muda" mkvideo.py || f "troca de cenario precisa de corte seco"
+grep -q "FILMAGEM CONTINUA -- mesmo cenario" mkvideo.py || f "filmagem continua: no mesmo cenario a camera desliza, corte so' na troca de cenario"
+grep -q "FILMAGEM CONTINUA (Gibson): cena solta" mkvideo.py || f "filmagem continua: cena solta A B A sem lugar citado volta para A"
+grep -q "glide: o.glide" stories/_h.js || f "cabecalho descarta glide: a camera nao desliza entre cenas do mesmo cenario"
+grep -q "FILMAGEM CONTINUA: o navio/barco grande do fundo" mkvideo.py || f "filmagem continua: navio do fundo some no meio do movimento"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
