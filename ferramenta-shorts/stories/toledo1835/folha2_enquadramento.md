@@ -4,7 +4,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
 - PERSONAGENS: OHI no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/canivete_aberto: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +106 da cena
@@ -67,7 +67,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day; clima: neve
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)
 - PERSONAGENS: GOV na esquerda, expressao shock, segura coin; MIC na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/minerio: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/minerio: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "COBRE E FERRO" flutuando no alto, na palavra 7 da frase
 
 ## b9: "No fim das contas, Michigan perdeu a guerra, e ficou rico."

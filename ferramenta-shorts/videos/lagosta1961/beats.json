@@ -58,7 +58,7 @@
  },
  "beats": [
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "BRA:0:angry"
    ],
@@ -98,9 +98,9 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 13.5,
-   "d1": 13.0,
-   "_auto_vis": 3
+   "d0": 10.5,
+   "d1": 10.0,
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
@@ -154,10 +154,11 @@
    "batalha": false,
    "tiros": false,
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.2,
-   "d1": 10.7
+   "cz": -5.6,
+   "h": 2.8,
+   "d0": 15.0,
+   "d1": 13.0,
+   "_auto_vis": 3
   },
   {
    "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
@@ -192,7 +193,7 @@
     [
      "kit/navio_destroier",
      0.0,
-     -18.2,
+     -25.1,
      8.27,
      {
       "fixo": true
@@ -208,7 +209,7 @@
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -8.2, camera a 54.6 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/navio_destroier",
@@ -219,10 +220,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 57.3,
-   "d1": 54.6
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -239,7 +240,7 @@
     [
      "ship",
      0.0,
-     -18.2,
+     -34.5,
      2.11,
      {
       "fixo": true
@@ -262,7 +263,7 @@
    "fachada": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -8.2, camera a 101.6 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "ship",
@@ -278,14 +279,15 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 106.7,
-   "d1": 101.6
+   "cx": 7.0,
+   "cz": -11.2,
+   "h": 2.8,
+   "d0": 20.8,
+   "d1": 17.8,
+   "_auto_vis": 1
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "set": "harbor",
    "who": [
     "MAR:0:angry",
@@ -298,7 +300,10 @@
    "sfx": [
     "tick@40"
    ],
-   "say": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça."
+   "say": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -365,9 +370,9 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 13.5,
-   "d1": 13.0,
-   "_auto_vis": 2
+   "d0": 10.5,
+   "d1": 10.0,
+   "_auto_vis": 1
   }
  ],
  "ano": 1961,

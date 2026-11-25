@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -9,10 +9,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | PLACA | 1859 | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | 1859 | OK |
 
 ## Cena b1 - 3.7s a 7.6s - 17 palavras - plano reveal
 > "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era."
@@ -43,9 +41,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ofereceu (18.8s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | $10 | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | $10 | OK |
 
 ## Cena b5 - 21.8s a 26.1s - 14 palavras - plano two
 > "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu."
@@ -57,9 +54,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | dinheiro (24.5s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | dinheiro (24.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 6 | - | INTERACAO | discutir | OK |
-| 7 | - | ATUACAO | discutir | OK |
-| 8 | - | PLACA | $100 | OK |
+| 6 | - | ATUACAO | discutir | OK |
+| 7 | - | PLACA | $100 | OK |
 
 ## Cena b6 - 27.4s a 31.6s - 14 palavras - plano group
 > "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha."
@@ -68,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ameaçaram (28.0s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
 | 2 | mandaram (30.6s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | INTERACAO | empurrar | OK |
+| 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | discutir | OK |
 | 5 | - | PLACA | TROPAS | OK |
 
@@ -99,7 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | trocando (47.9s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | festas (49.9s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | FESTAS | OK |
 
@@ -109,7 +105,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 2 | - | INTERACAO | insiste | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 13 ANOS | OK |
 

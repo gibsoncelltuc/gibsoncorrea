@@ -5,7 +5,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b0: "Dois países quase entraram em guerra por causa de um porco."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FAZ na esquerda, expressao shock, segura pitchfork; IRL na direita, expressao angry; sem multidao; acao: fala/gesto
+- PERSONAGENS: FAZ no centro, expressao shock, segura pitchfork; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "1859" numa placa atras dos personagens, na palavra 1 da frase
 
@@ -20,7 +20,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e batatas juntos (camera a 8.0 m)
 - PERSONAGENS: FAZ no centro, expressao angry, segura pitchfork; sem multidao; acao: fala/gesto
-- OBJETO kit/batatas: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/batatas: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b3: "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
@@ -34,14 +34,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "O fazendeiro ofereceu dez dólares ao vizinho pelo porco."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FAZ na esquerda, expressao nervous, segura money; IRL na direita, expressao angry; sem multidao; acao: entregar
+- PERSONAGENS: FAZ no centro, expressao nervous, segura money; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "$10" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b5: "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: IRL na esquerda, expressao shout; FAZ na direita, expressao surprised, segura money; sem multidao; acao: discutir
+- PERSONAGENS: IRL no centro, expressao shout; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "$100" numa placa atras dos personagens, na palavra 1 da frase
 

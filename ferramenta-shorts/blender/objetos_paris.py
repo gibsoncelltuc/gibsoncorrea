@@ -9,13 +9,13 @@ cil((0, 0.065, 0), 0.5, 0.012, '#e2ded4')                            # fundo do 
 bola((0, 0.15, 0), 0.46, '#7a3a24', esc=(1.15, 0.34, 0.82))         # bife grande e grosso
 bola((-0.05, 0.2, 0.05), 0.36, '#9a4a2e', esc=(1.0, 0.22, 0.72))    # parte de cima tostada
 for x in (-0.25, 0.0, 0.25): caixa((x, 0.245, 0.05), (0.05, 0.012, 0.45), '#4a2216', rot=(0, 0, 0.5))   # marcas da grelha
-tubo([(0.12, 0.18, 0.0), (0.12, 0.78, 0.0)], 0.012, '#d9c08a')      # palito espetado
-caixa((0.42, 0.66, 0.0), (0.58, 0.24, 0.02), '#ffffff')             # plaquinha branca
+tubo([(0.0, 0.18, 0.0), (0.0, 1.08, 0.0)], 0.014, '#d9c08a')      # palito espetado no meio, alto (a plaquinha fica acima das cabecas)
+caixa((0.0, 0.98, 0.0), (0.66, 0.24, 0.02), '#ffffff')             # plaquinha branca centrada
 # acabamento proprio: junta o texto "ELEFANTE" na plaquinha e exporta
 bm = _S['bm']; me = bpy.data.meshes.new('red_bife'); bm.to_mesh(me); bm.free()
 for m in _S['mats']: me.materials.append(m)
 o = bpy.data.objects.new('bife_elefante', me); bpy.context.collection.objects.link(o)
-bpy.ops.object.text_add(location=(0.42, -0.02, 0.64)); t = bpy.context.object; t.data.body = 'ELEFANTE'; t.data.size = 0.11; t.data.align_x = 'CENTER'; t.data.align_y = 'CENTER'; t.data.extrude = 0.004
+bpy.ops.object.text_add(location=(0.0, -0.02, 0.96)); t = bpy.context.object; t.data.body = 'ELEFANTE'; t.data.size = 0.13; t.data.align_x = 'CENTER'; t.data.align_y = 'CENTER'; t.data.extrude = 0.004
 t.rotation_euler = (math.pi / 2, 0, 0)
 mt = bpy.data.materials.new('txt'); mt.use_nodes = True; mt.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value = (0.55, 0.02, 0.02, 1); t.data.materials.append(mt)
 bpy.ops.object.convert(target='MESH')

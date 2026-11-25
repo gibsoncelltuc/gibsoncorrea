@@ -18,20 +18,21 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - f9 "mas sem estragar a coroa.": 
 - f10 "Acontece que,": 
 - f11 "numa tarde,": 
-- f12 "ele entrou na banheira,": 
-- f13 "e a água transbordou pelas bordas.": 
-- f14 "Ele percebeu que o tanto de água que sai é igual ao tamanho ": 
-- f15 "Se a coroa tivesse prata,": 
-- f16 "seria maior que o ouro puro de mesmo peso,": 
-- f17 "e derramaria mais água.": 
-- f18 "Assim dava para medir a coroa,": 
-- f19 "e comparar com o mesmo peso de ouro puro.": 
-- f20 "Conta a lenda que ele gritou Eureca pela rua.": 
-- f21 "E a coroa tinha mesmo prata.": 
-- f22 "No fim,": 
-- f23 "dá para enganar um rei,": 
-- f24 "mas não uma banheira.": 
-- f25 "Agora não deixe de comentar:": 
-- f26 "qual deve ser o tema do próximo vídeo?": 
+- f12 "ele entrou na banheira bem devagar.": 
+- f13 "E a água transbordou pelas bordas,": 
+- f14 "molhando o chão todo.": 
+- f15 "Ele percebeu que o tanto de água que sai é igual ao tamanho ": 
+- f16 "Se a coroa tivesse prata,": 
+- f17 "seria maior que o ouro puro de mesmo peso,": 
+- f18 "e derramaria mais água.": 
+- f19 "Assim dava para medir a coroa,": 
+- f20 "e comparar com o mesmo peso de ouro puro.": 
+- f21 "Conta a lenda que ele gritou Eureca pela rua.": 
+- f22 "E a coroa tinha mesmo prata.": 
+- f23 "No fim,": 
+- f24 "dá para enganar um rei,": 
+- f25 "mas não uma banheira.": 
+- f26 "Agora não deixe de comentar:": 
+- f27 "qual deve ser o tema do próximo vídeo?": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

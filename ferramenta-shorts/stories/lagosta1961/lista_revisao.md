@@ -1,9 +1,10 @@
-# LISTA UNICA DE REVISAO - lagosta1961  (refacoes ate agora: 0; limite: 1)
+# LISTA UNICA DE REVISAO - lagosta1961  (refacoes ate agora: 2; limite: 1)
 
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b1: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+2. b1: objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "A França e o Brasil quase entraram em guerra por causa de um": 

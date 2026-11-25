@@ -6,8 +6,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FAZ (variante 0, expressao shock, segura pitchfork); IRL (variante 0, expressao angry)
-- Animacao: reagir | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
+- Personagens principais (1): FAZ (variante 0, expressao shock, segura pitchfork)
+- Animacao: reagir
 - Objetos/modelos: nature/picket_fence, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): porco
 - RISCOS: nenhum
@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): FAZ (variante 0, expressao nervous, segura money); IRL (variante 0, expressao angry)
-- Animacao: reagir | interacao: entregar
+- Personagens principais (1): FAZ (variante 0, expressao nervous, segura money)
+- Animacao: reagir
 - Objetos/modelos: nature/picket_fence, nature/haybale, tools/wheelbarrow, buildings/barn, nature/scarecrow, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro
 - RISCOS: nenhum
@@ -56,8 +56,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): IRL (variante 0, expressao shout); FAZ (variante 0, expressao surprised, segura money)
-- Animacao: discutir | interacao: discutir
+- Personagens principais (1): IRL (variante 0, expressao shout)
+- Animacao: discutir
 - Objetos/modelos: nature/picket_fence, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, dono, porco
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): AME (variante 0, expressao stern); AME (variante 1, expressao stern); FAZ (variante 0, expressao scared) | multidao: 16 de AME
-- Animacao: discutir | interacao: empurrar
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americanos, fazendeiro, ilha, ingleses
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile)
-- Animacao: comemorar | interacao: vai ate o outro
+- Animacao: comemorar | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados, tiro
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ALM (variante 0, expressao smile, segura paper); AME (variante 1, expressao smile)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arbitro, ilha
 - RISCOS: nenhum
@@ -153,7 +153,7 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 ## Video inteiro
 - Objeto heroi: kit/batatas | grandes momentos: b7 | planos abertos: 2 | mistura: close 10% | medio 79% | aberto 10% | detalhe 2%
-- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 susto, b9 vai ate o outro, b10 insiste
+- Interacoes: b6 discutir, b8 susto, b9 entregar, b10 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
