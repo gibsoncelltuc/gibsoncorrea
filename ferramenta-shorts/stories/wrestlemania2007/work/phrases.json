@@ -1,324 +1,279 @@
 {
- "duration": 69.696,
- "frames30": 2091,
- "source": "silence-align (cost 1.17)",
+ "duration": 59.664,
+ "frames30": 1790,
+ "source": "silence-align (cost 0.90)",
  "segments": [
   [
-   0.144417,
-   1.40471
+   0.157167,
+   3.39821
   ],
   [
-   1.60271,
-   3.69592
+   4.35438,
+   5.77092
   ],
   [
-   3.98237,
-   5.86821
+   5.96133,
+   6.56696
   ],
   [
-   6.79683,
-   8.21387
+   6.81825,
+   8.58854
   ],
   [
-   8.40442,
-   9.00992
+   9.44887,
+   10.8165
   ],
   [
-   9.26125,
-   11.0315
+   11.0922,
+   12.2678
   ],
   [
-   11.8991,
-   13.0812
+   12.5668,
+   13.9478
   ],
   [
-   13.2677,
-   14.6015
+   14.1974,
+   15.1706
   ],
   [
-   14.8658,
-   16.5986
+   16.0309,
+   16.6282
   ],
   [
-   16.864,
-   17.8357
+   16.8965,
+   18.1755
   ],
   [
-   18.7082,
-   19.7382
+   18.4853,
+   20.6512
   ],
   [
-   20.0053,
-   21.2467
+   21.4834,
+   23.7117
   ],
   [
-   21.6191,
-   24.0523
+   23.9991,
+   25.6447
   ],
   [
-   24.8787,
-   27.1071
+   26.4985,
+   26.959
   ],
   [
-   27.3944,
-   29.0296
+   27.1405,
+   28.1321
   ],
   [
-   29.8938,
-   30.3544
+   28.3869,
+   29.0527
   ],
   [
-   30.5358,
-   31.5275
+   29.2607,
+   30.6162
   ],
   [
-   31.7822,
-   32.448
+   30.8445,
+   32.0926
   ],
   [
-   32.656,
-   34.0116
+   32.9739,
+   35.31
   ],
   [
-   34.2398,
-   35.488
+   35.6138,
+   36.813
   ],
   [
-   36.3757,
-   38.657
+   37.6375,
+   38.039
   ],
   [
-   38.9712,
-   40.538
+   38.3462,
+   39.698
   ],
   [
-   41.3872,
-   42.5424
+   40.5571,
+   42.0107
   ],
   [
-   43.3838,
-   43.7865
+   42.8773,
+   46.7556
   ],
   [
-   44.0936,
-   45.4455
+   47.6055,
+   48.5685
   ],
   [
-   46.3045,
-   47.7582
+   48.929,
+   50.2468
   ],
   [
-   48.6106,
-   50.316
+   51.1422,
+   52.1944
   ],
   [
-   50.6187,
-   52.8528
+   52.4101,
+   54.5218
   ],
   [
-   53.7038,
-   56.7107
+   55.365,
+   56.8129
   ],
   [
-   57.5712,
-   58.7735
-  ],
-  [
-   59.1252,
-   60.8755
-  ],
-  [
-   61.1814,
-   61.9935
-  ],
-  [
-   62.8895,
-   63.9412
-  ],
-  [
-   64.1593,
-   66.2709
-  ],
-  [
-   67.151,
-   68.8941
+   57.1055,
+   58.8672
   ]
  ],
  "phrases": [
   {
-   "text": "Antes de virar presidente,",
-   "s": 0.144,
-   "e": 1.405
-  },
-  {
-   "text": "Donald Trump entrou num ringue de luta livre,",
-   "s": 1.603,
-   "e": 3.696
-  },
-  {
-   "text": "e raspou a cabe\u00e7a de outro bilion\u00e1rio.",
-   "s": 3.982,
-   "e": 5.868
+   "text": "Donald Trump raspou a cabe\u00e7a de outro bilion\u00e1rio no meio de um ringue.",
+   "s": 0.157,
+   "e": 3.398
   },
   {
    "text": "Foi em abril de dois mil e sete,",
-   "s": 6.797,
-   "e": 8.214
+   "s": 4.354,
+   "e": 5.771
   },
   {
    "text": "em Detroit,",
-   "s": 8.404,
-   "e": 9.01
+   "s": 5.961,
+   "e": 6.567
   },
   {
    "text": "no maior show de luta livre do mundo.",
-   "s": 9.261,
-   "e": 11.031
+   "s": 6.818,
+   "e": 8.589
   },
   {
-   "text": "Como todo show de luta,",
-   "s": 11.899,
-   "e": 13.081
+   "text": "A rivalidade era combinada,",
+   "s": 9.449,
+   "e": 10.816
   },
   {
-   "text": "a rivalidade era combinada:",
-   "s": 13.268,
-   "e": 14.601
+   "text": "como todo show de luta:",
+   "s": 11.092,
+   "e": 12.268
   },
   {
-   "text": "Trump contra o dono da empresa de luta,",
-   "s": 14.866,
-   "e": 16.599
+   "text": "Trump contra o dono da empresa,",
+   "s": 12.567,
+   "e": 13.948
   },
   {
    "text": "Vince McMahon.",
-   "s": 16.864,
-   "e": 17.836
+   "s": 14.197,
+   "e": 15.171
   },
   {
-   "text": "A aposta era maluca:",
-   "s": 18.708,
-   "e": 19.738
+   "text": "A aposta:",
+   "s": 16.031,
+   "e": 16.628
   },
   {
    "text": "cada um escolheu um lutador,",
-   "s": 20.005,
-   "e": 21.247
+   "s": 16.896,
+   "e": 18.175
   },
   {
-   "text": "e o dono de quem perdesse teria a cabe\u00e7a raspada.",
-   "s": 21.619,
-   "e": 24.052
+   "text": "e o dono do perdedor teria a cabe\u00e7a raspada.",
+   "s": 18.485,
+   "e": 20.651
   },
   {
    "text": "Mais de oitenta mil pessoas lotaram o est\u00e1dio,",
-   "s": 24.879,
-   "e": 27.107
+   "s": 21.483,
+   "e": 23.712
   },
   {
    "text": "para ver a Batalha dos Bilion\u00e1rios.",
-   "s": 27.394,
-   "e": 29.03
+   "s": 23.999,
+   "e": 25.645
   },
   {
    "text": "No ringue,",
-   "s": 29.894,
-   "e": 30.354
+   "s": 26.498,
+   "e": 26.959
   },
   {
    "text": "o lutador de Trump,",
-   "s": 30.536,
-   "e": 31.527
+   "s": 27.14,
+   "e": 28.132
   },
   {
    "text": "Bobby Lashley,",
-   "s": 31.782,
-   "e": 32.448
+   "s": 28.387,
+   "e": 29.053
   },
   {
    "text": "enfrentou o gigante Umaga,",
-   "s": 32.656,
-   "e": 34.012
+   "s": 29.261,
+   "e": 30.616
   },
   {
    "text": "do lado de McMahon.",
-   "s": 34.24,
-   "e": 35.488
+   "s": 30.845,
+   "e": 32.093
   },
   {
    "text": "Acontece que o juiz convidado era Steve Austin,",
-   "s": 36.376,
-   "e": 38.657
+   "s": 32.974,
+   "e": 35.31
   },
   {
-   "text": "famoso por derrubar todo mundo.",
-   "s": 38.971,
-   "e": 40.538
-  },
-  {
-   "text": "A luta virou bagun\u00e7a.",
-   "s": 41.387,
-   "e": 42.542
+   "text": "e a luta virou bagun\u00e7a.",
+   "s": 35.614,
+   "e": 36.813
   },
   {
    "text": "No fim,",
-   "s": 43.384,
-   "e": 43.786
+   "s": 37.638,
+   "e": 38.039
   },
   {
    "text": "o lutador de Trump venceu.",
-   "s": 44.094,
-   "e": 45.446
+   "s": 38.346,
+   "e": 39.698
   },
   {
    "text": "O est\u00e1dio inteiro foi abaixo.",
-   "s": 46.304,
-   "e": 47.758
+   "s": 40.557,
+   "e": 42.011
   },
   {
-   "text": "Trump e Lashley seguraram McMahon,",
-   "s": 48.611,
-   "e": 50.316
+   "text": "Trump e Lashley seguraram McMahon e rasparam a cabe\u00e7a dele at\u00e9 ficar careca.",
+   "s": 42.877,
+   "e": 46.756
   },
   {
-   "text": "e passaram a m\u00e1quina de raspar na cabe\u00e7a dele.",
-   "s": 50.619,
-   "e": 52.853
+   "text": "E sobrou para Trump:",
+   "s": 47.605,
+   "e": 48.569
   },
   {
-   "text": "O dono da luta livre saiu do ringue completamente careca.",
-   "s": 53.704,
-   "e": 56.711
-  },
-  {
-   "text": "E ainda sobrou para Trump:",
-   "s": 57.571,
-   "e": 58.773
-  },
-  {
-   "text": "o juiz aplicou um golpe nele tamb\u00e9m,",
-   "s": 59.125,
-   "e": 60.876
-  },
-  {
-   "text": "e ele foi ao ch\u00e3o.",
-   "s": 61.181,
-   "e": 61.993
+   "text": "o juiz derrubou ele tamb\u00e9m.",
+   "s": 48.929,
+   "e": 50.247
   },
   {
    "text": "Seis anos depois,",
-   "s": 62.889,
-   "e": 63.941
+   "s": 51.142,
+   "e": 52.194
   },
   {
    "text": "Trump entrou para o Hall da Fama da luta livre.",
-   "s": 64.159,
-   "e": 66.271
+   "s": 52.41,
+   "e": 54.522
   },
   {
-   "text": "Tudo por causa de um corte de cabelo.",
-   "s": 67.151,
-   "e": 68.894
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 55.365,
+   "e": 56.813
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 57.105,
+   "e": 58.867
   }
  ]
 }

@@ -344,7 +344,7 @@
    "say": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/scroll",
