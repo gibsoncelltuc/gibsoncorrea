@@ -103,10 +103,6 @@
    },
    "set": "loc_cidade",
    "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -116,7 +112,11 @@
       "na": "bilionário"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "tiros": false,
@@ -133,9 +133,9 @@
    "props": [
     [
      "kit/steak",
-     0.0,
-     -1.2,
-     1.2,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -155,10 +155,6 @@
    },
    "interior": "loja",
    "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -181,7 +177,12 @@
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "tiros": false,
@@ -226,9 +227,9 @@
    "props": [
     [
      "kit/steak",
-     0.0,
-     -1.2,
-     1.4,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -248,10 +249,6 @@
    },
    "interior": "loja",
    "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -261,7 +258,12 @@
       "na": "Acontece"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "tiros": false,
@@ -337,10 +339,6 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -350,7 +348,11 @@
       "na": "marca"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "tiros": false,
@@ -387,9 +389,9 @@
    "props": [
     [
      "kit/steak",
-     0.0,
-     -1.2,
-     1.3,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -409,10 +411,6 @@
    },
    "interior": "madeira",
    "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -422,7 +420,12 @@
       "na": "Mesmo"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "tiros": false,
@@ -458,9 +461,9 @@
    "props": [
     [
      "kit/steak",
-     2.4,
-     0.2,
-     1.3,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -480,10 +483,6 @@
    },
    "interior": "madeira",
    "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -493,7 +492,12 @@
       "na": "Moral"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 2
   }
  ],
  "exp": 1.0,

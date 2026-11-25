@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
+b0 | two | -  | tropa | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
 b1 | wide | -  | tropa, mapa | - | -
 b2 | crowd | -  | tropa | - | -
 b3 | two | -  | interior, objeto na mao | - | -
@@ -15,5 +15,5 @@ b9 | wide | noite  | tropa, placa: 47º | - | -
 b10 | two | noite  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino) | -
 b11 | close | noite  | placa: COMENTE! | - | -
 
-Mistura de planos: close 22% | medio 46% | aberto 31% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 22% | medio 44% | aberto 31% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | dentro do padrao do canal

@@ -23,13 +23,16 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU",
-    "REP"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
+    "buildings/house_small",
     "kit/ballot_box",
-    "kit/white_house"
+    "kit/marco_casabranca",
+    "kit/white_house",
+    "nature/picket_fence",
+    "nature/tree_oak"
    ],
    "palavras": 18,
    "cena": "b0",
@@ -38,7 +41,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "wide",

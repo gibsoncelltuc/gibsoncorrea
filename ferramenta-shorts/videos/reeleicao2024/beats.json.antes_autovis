@@ -1,0 +1,613 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 21,
+ "title": "A Volta de Trump",
+ "titulo_base": "A Volta de Trump",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/ballot_box",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "ELE": {
+   "jacket": "#7a3a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#d8282f"
+  },
+  "REP": {
+   "profissao": "jornalista"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:smug",
+    "REP:0:surprised:paper"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/white_house",
+     0.0,
+     -14.5,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Donald"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -10.1,
+   "d0": 18.7,
+   "d1": 15.7,
+   "h": 2.8,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 2
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:smile"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/white_house",
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "novembro"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ELE:0:grin",
+    "POV:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ELE",
+     "POV"
+    ],
+    "march": false
+   },
+   "_enq_shot": "crowd",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Milhões"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "REP:0:nervous:paper",
+    "TRU:0:stern"
+   ],
+   "acao": "discutir",
+   "say": "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "contagem"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "interior": "loja",
+   "who": [
+    "REP:0:shock:paper"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.",
+   "text": "312 VOTOS",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/white_house",
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VITÓRIA",
+   "titulo": true,
+   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
+   "set": "hall",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "apoiadores"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "POV:0:grin"
+   ],
+   "acao": "conversar",
+   "say": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "feito"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "REP:0:smile:paper",
+    "POV:1:suspicious"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     0.0,
+     -1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/scroll",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "primeiro"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 1
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:grin"
+   ],
+   "props": [
+    [
+     "kit/white_house",
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "vinte"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/white_house",
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "47º",
+   "titulo": true,
+   "say": "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Antes"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smile"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Perdeu"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "fontes": [
+  "https://ballotpedia.org/Presidential_election,_2024",
+  "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
+  "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
+ ],
+ "max_wide": 5,
+ "visual": {
+  "local": "Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noite da vitoria, Capitolio em Washington na posse",
+  "quando": "5 e 6 de novembro de 2024 (noite e madrugada); posse em 20 de janeiro de 2025, dia frio",
+  "participantes": [
+   "Donald Trump (terno azul, gravata vermelha)",
+   "apoiadores de bone vermelho",
+   "eleitores",
+   "Kamala Harris (citada)"
+  ],
+  "roupas": {
+   "TRU": "terno azul escuro e gravata vermelha",
+   "REP": "bone vermelho e camiseta",
+   "ELE": "roupa casual com adesivo de voto",
+   "POV": "roupa casual"
+  },
+  "cenario": "fila de votacao com urnas e cabines, palco com bandeiras americanas, Casa Branca e Capitolio",
+  "objetos": [
+   "urna e cedulas",
+   "bandeiras dos EUA",
+   "Casa Branca"
+  ],
+  "explicacoes": [
+   "Trump venceu a eleicao de 5/11/2024 com 312 votos no colegio eleitoral, vencendo os sete estados decisivos; tomou posse em 20/1/2025 como 47o presidente; Grover Cleveland (22o e 24o) foi o unico antes com mandatos nao consecutivos (fonte: Wikipedia 2024 United States presidential election)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/2024_United_States_presidential_election",
+   "https://en.wikipedia.org/wiki/Second_inauguration_of_Donald_Trump"
+  ],
+  "buscas": {
+   "vitoria": "Trump victory speech Palm Beach November 2024"
+  }
+ },
+ "cinf": 1.5,
+ "exp": 1.404
+}
