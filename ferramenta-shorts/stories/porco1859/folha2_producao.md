@@ -45,8 +45,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Um fazendeiro americano pegou um porco comendo as batatas da horta.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork)
 - Animacao: encena
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, kit/batatas, buildings/barn, nature/haybale, pig
@@ -290,13 +290,11 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/batatas | grandes momentos: b7 | planos abertos: 3 | mistura: close 10% | medio 74% | aberto 16% | detalhe 0%
+- Objeto heroi: kit/batatas | grandes momentos: b7 | planos abertos: 3 | mistura: close 10% | medio 72% | aberto 16% | detalhe 2%
 - Interacoes: b4 entregar, b5 discutir, b6 o outro se aproxima, b8 susto, b9 vai ate o outro, b10 cochichar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/batatas) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/batatas) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).

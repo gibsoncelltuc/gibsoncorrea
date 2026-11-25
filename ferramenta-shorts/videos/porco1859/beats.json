@@ -176,7 +176,7 @@
      }
     ]
    ],
-   "detalhe": false,
+   "detalhe": true,
    "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
    "set": "countryside",
    "quadro": {
