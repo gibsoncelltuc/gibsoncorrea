@@ -24,7 +24,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@30
 - TEXTO NA TELA: "NÃO É LANÇA-CHAMAS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (0.0-1.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.5-3.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b1 - E o motivo desse nome é bem esperto.
@@ -44,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/extinguisher: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.
@@ -67,10 +69,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "BORING COMPANY" flutuando no alto, na palavra 1 da frase
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (5.0-6.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (6.5-8.1 s): mesmo angulo
-  - take 3 (8.1-9.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (6.3-8.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (8.3-10.4 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - O nome era Não é um lança-chamas. Custava quinhentos dólares.
@@ -91,9 +92,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: ""NÃO É UM LANÇA-CHAMAS"" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (9.7-11.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (11.8-14.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (10.7-12.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (12.4-14.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que ele soltava fogo de verdade.
@@ -113,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: sequencia de acao em 3 cameras (2.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b5 - O nome servia para driblar a alfândega, que barrava lança-chamas.
@@ -133,10 +134,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS na esquerda, expressao smug; CMP na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "ALFÂNDEGA" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (16.8-18.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (18.3-19.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (19.8-21.3 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (17.0-18.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.7-20.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b6 - E vinha com um extintor de incêndio junto.
@@ -155,17 +155,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)
 - PERSONAGENS: CMP na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/extinguisher: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (21.4-23.1 s): mesmo angulo
-  - take 2 (23.1-24.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - Vinte mil unidades esgotaram em poucos dias.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao grin) | multidao: 16 de POV
-- Animacao: reagir | interacao: vai ate o outro | grande momento (efeito + som, sem tiro)
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -176,7 +174,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de multidao
 - PERSONAGENS: POV na esquerda, expressao shock; POV na direita, expressao grin; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: sequencia de acao em 3 cameras (1.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b8 - Isso rendeu cerca de dez milhões de dólares.
@@ -195,7 +193,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS na esquerda, expressao laugh; CMP na direita, expressao laugh; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - O nome mentia, e todo mundo sabia. Foi assim que...
@@ -224,8 +222,8 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 2% | medio 77% | aberto 16% | detalhe 5%
-- Interacoes: b0 entregar, b1 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b7 vai ate o outro, b8 pular, b9 susto
+- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 3% | medio 73% | aberto 19% | detalhe 5%
+- Interacoes: b0 entregar, b1 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b8 pular, b9 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -246,6 +244,8 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@30
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (29.3-31.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (31.0-32.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 

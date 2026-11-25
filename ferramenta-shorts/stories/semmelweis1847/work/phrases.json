@@ -1,0 +1,139 @@
+{
+ "duration": 34.464,
+ "frames30": 1034,
+ "source": "silence-align (cost 1.51)",
+ "segments": [
+  [
+   0.14475,
+   2.85871
+  ],
+  [
+   3.65025,
+   5.44479
+  ],
+  [
+   6.22896,
+   7.74679
+  ],
+  [
+   7.94446,
+   8.91596
+  ],
+  [
+   9.13108,
+   10.4286
+  ],
+  [
+   11.224,
+   12.1728
+  ],
+  [
+   12.4385,
+   13.6466
+  ],
+  [
+   13.8304,
+   14.263
+  ],
+  [
+   15.0447,
+   17.3782
+  ],
+  [
+   18.1865,
+   21.0752
+  ],
+  [
+   21.8498,
+   24.6268
+  ],
+  [
+   25.4172,
+   27.2686
+  ],
+  [
+   28.0525,
+   30.0891
+  ],
+  [
+   30.8796,
+   32.3359
+  ],
+  [
+   33.1621,
+   33.747
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um m\u00e9dico pediu para os colegas lavarem as m\u00e3os e foi expulso.",
+   "s": 0.145,
+   "e": 2.859
+  },
+  {
+   "text": "Hoje \u00e9 chamado de salvador das m\u00e3es.",
+   "s": 3.65,
+   "e": 5.445
+  },
+  {
+   "text": "Em 1847, no hospital de Viena,",
+   "s": 6.229,
+   "e": 7.747
+  },
+  {
+   "text": "havia duas alas de parto.",
+   "s": 7.944,
+   "e": 10.429
+  },
+  {
+   "text": "Na ala dos m\u00e9dicos,",
+   "s": 11.224,
+   "e": 12.173
+  },
+  {
+   "text": "morriam muito mais m\u00e3es,",
+   "s": 12.438,
+   "e": 13.647
+  },
+  {
+   "text": "de febre.",
+   "s": 13.83,
+   "e": 14.263
+  },
+  {
+   "text": "Um colega se cortou numa aut\u00f3psia e morreu de febre.",
+   "s": 15.045,
+   "e": 17.378
+  },
+  {
+   "text": "Acontece que os m\u00e9dicos sa\u00edam das aut\u00f3psias de m\u00e3os sujas.",
+   "s": 18.186,
+   "e": 21.075
+  },
+  {
+   "text": "Ele p\u00f4s cloro numa bacia e obrigou todos a lavar as m\u00e3os.",
+   "s": 21.85,
+   "e": 24.627
+  },
+  {
+   "text": "As mortes ca\u00edram quase dez vezes.",
+   "s": 25.417,
+   "e": 27.269
+  },
+  {
+   "text": "Mas os m\u00e9dicos se ofenderam e o expulsaram.",
+   "s": 28.052,
+   "e": 30.089
+  },
+  {
+   "text": "Lavar as m\u00e3os virou insulto.",
+   "s": 30.88,
+   "e": 32.336
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 33.162,
+   "e": 33.747
+  }
+ ]
+}

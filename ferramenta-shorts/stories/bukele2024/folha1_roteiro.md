@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Um presidente teve quase 85% dos votos, e o mundo se dividiu.
