@@ -1,6 +1,6 @@
 # LEITURA DAS FRASES - maduro2026 (revisar cada linha; corrigir no beats.json "encena" e apagar "rascunho")
 b0 [afirmativa] "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas."
-    - rende quem=1 alvo=- na="capturado"
+    - mostra quem=1 alvo=- na="capturado"
 b1 [fato] "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
     - mostra quem=- alvo=mapa na="Caracas"
 b2 [fato] "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
@@ -10,7 +10,7 @@ b3 [fato] "Às duas da manhã, helicópteros levaram soldados da Força Delta di
 b4 [fato] "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
     - mostra quem=- alvo=kit/helicopter_air na="ataques"
 b5 [afirmativa] "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
-    - rende quem=1 alvo=- na="capturado"
+    - mostra quem=1 alvo=- na="capturado"
 b6 [fato] "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
     - mostra quem=0 alvo=- na="Trump"
 b7 [fato] "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça."

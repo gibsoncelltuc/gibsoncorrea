@@ -103,17 +103,38 @@
    "d1": 6.0,
    "quadro_manual": true,
    "shot_lock": true,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 1,
+      "faz": "mostra",
+      "na": "capturado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
    "who": [
-    "POV:0:surprised",
-    "POV:1:nervous"
+    "TRU:0:stern",
+    "POV:0:surprised"
    ],
    "mapa": "VENEZUELA",
    "mapa_at": 3,
-   "say": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
+   "say": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "mapa",
+      "na": "Caracas"
+     }
+    ]
+   },
+   "quadro_manual": true
   },
   {
    "shot": "wide",
@@ -148,7 +169,17 @@
    "d1": 4.0,
    "quadro_manual": true,
    "shot_lock": true,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Maduro"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -166,7 +197,7 @@
      "kit/helicopter_air",
      0.0,
      -5.0,
-     1.8,
+     1.08,
      {
       "fixo": true
      }
@@ -204,7 +235,18 @@
    "quadro_manual": true,
    "shot_lock": true,
    "cx": 0,
-   "cz": -3
+   "cz": -3,
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "kit/helicopter_air",
+      "na": "helicópteros"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -273,6 +315,16 @@
       "desligaram"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "kit/helicopter_air",
+      "na": "ataques"
+     }
+    ]
    }
   },
   {
@@ -289,7 +341,24 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
+   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 1,
+      "faz": "mostra",
+      "na": "capturado"
+     }
+    ]
+   },
+   "quadro_manual": true,
+   "shot_lock": true,
+   "h": 1.5,
+   "cx": 0,
+   "cz": 0,
+   "d0": 6.0,
+   "d1": 5.0
   },
   {
    "shot": "two",
@@ -299,7 +368,17 @@
     "GEN:0:grin"
    ],
    "acao": "conversar",
-   "say": "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
+   "say": "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Trump"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -358,7 +437,17 @@
    "h": 1.4,
    "quadro_manual": true,
    "shot_lock": true,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "vehicles/airplane",
+      "na": "avião"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -385,7 +474,17 @@
    ],
    "text": "MUNDO",
    "titulo": true,
-   "say": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
+   "say": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "multidao",
+      "na": "mundo"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -416,7 +515,17 @@
    "d0": 4.5,
    "d1": 4.0,
    "quadro_manual": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Resolução"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

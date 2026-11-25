@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -101,7 +101,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b5 - 27.9s a 32.3s - 13 palavras - plano close
+## Cena b5 - 27.9s a 32.3s - 13 palavras - plano wide
 > "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas."
 
 - LEITURA DA FRASE: sentido FATO
@@ -110,13 +110,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | FORA DO AR | OK |
+| 2 | - | PLACA | FORA DO AR | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -139,34 +137,32 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 39.5s a 45.5s - 17 palavras - plano two
+## Cena b7 - 39.5s a 44.2s - 17 palavras - plano two
 > "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte."
 
 - LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "governo" (39.8s)
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "governo" (39.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comprou (40.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dinheiro (41.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | PREÇO DESPENCOU | OK |
+| 1 | comprou (40.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dinheiro (41.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | PREÇO DESPENCOU | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra comprou (40.5s): executa: estrelinhas + som
-- EFEITO: stars na palavra dinheiro (41.4s): executa: estrelinhas + som
-- INTERACAO (a cena toda): executa: entregar
+- EFEITO: stars na palavra comprou (40.3s): executa: estrelinhas + som
+- EFEITO: stars na palavra dinheiro (41.2s): executa: estrelinhas + som
 - ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 45.7s a 48.8s - 10 palavras - plano orbit
+## Cena b8 - 45.3s a 48.0s - 10 palavras - plano orbit
 > "Mesmo assim, a moeda digital virou assunto no mundo inteiro."
 
 - LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Mesmo" (45.7s)
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Mesmo" (45.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -177,11 +173,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 6: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 49.0s a 51.3s - 13 palavras - plano group
+## Cena b9 - 49.3s a 52.5s - 13 palavras - plano two
 > "Uma moeda digital, uma lei nova e um país no centro das atenções."
 
 - LEITURA DA FRASE: sentido FATO
-  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "moeda" (49.7s)
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "moeda" (49.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -194,7 +190,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 51.3s a 51.3s - 13 palavras - plano close
+## Cena b10 - 53.9s a 57.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

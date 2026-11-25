@@ -39,20 +39,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b4 - 20.6s a 23.7s - 13 palavras - plano two
+## Cena b4 - 20.6s a 24.2s - 13 palavras - plano two
 > "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "caixa" (23.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "caixa" (23.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | apareceu (21.3s) | EFEITO: dust | poeira + som | OK |
+| 1 | apareceu (21.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b5 - 23.9s a 30.5s - 16 palavras - plano two
+## Cena b5 - 25.4s a 29.2s - 16 palavras - plano two
 > "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -60,56 +60,56 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 30.6s a 34.4s - 12 palavras - plano two
+## Cena b6 - 30.3s a 34.2s - 12 palavras - plano two
 > "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperava (30.9s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | vender (31.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vender (31.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | vendeu (33.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | vendeu (33.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | esperava (30.8s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | vender (31.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | vender (31.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | vendeu (33.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | vendeu (33.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 6 | - | INTERACAO | susto | OK |
 | 7 | - | ATUACAO | conversar | OK |
 | 8 | - | PLACA | 800 MIL | OK |
 
-## Cena b7 - 34.6s a 37.5s - 12 palavras - plano orbit
+## Cena b7 - 35.3s a 37.9s - 12 palavras - plano orbit
 > "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 37.6s a 42.3s - 11 palavras - plano two
+## Cena b8 - 39.2s a 42.1s - 11 palavras - plano two
 > "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (40.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (40.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 42.4s a 47.5s - 18 palavras - plano crowd
+## Cena b9 - 43.4s a 47.9s - 18 palavras - plano crowd
 > "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (44.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (44.1s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOLTOU | OK |
 
-## Cena b10 - 47.5s a 47.5s - 8 palavras - plano two
+## Cena b10 - 49.4s a 51.7s - 8 palavras - plano two
 > "Um jogo sobre ficar bilionário, que virou curiosidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b11 - 47.5s a 47.5s - 13 palavras - plano close
+## Cena b11 - 53.2s a 56.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

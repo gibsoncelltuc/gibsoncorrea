@@ -115,10 +115,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock)
-- Animacao: conversar | interacao: empurrar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres, venezuela
 - RISCOS: nenhum
@@ -126,7 +126,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: SOL na esquerda, expressao stern; MAD na direita, expressao shock; sem multidao; acao: empurrar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
@@ -251,8 +251,8 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/helicopter_air | grandes momentos: b1 | planos abertos: 6 | mistura: close 17% | medio 34% | aberto 49% | detalhe 0%
-- Interacoes: b5 empurrar, b6 aproxima-se
+- Objeto heroi: kit/helicopter_air | grandes momentos: b1 | planos abertos: 7 | mistura: close 17% | medio 24% | aberto 59% | detalhe 0%
+- Interacoes: b6 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

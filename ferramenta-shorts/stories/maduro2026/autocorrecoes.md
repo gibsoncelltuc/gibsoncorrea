@@ -161,3 +161,6 @@
 
 ## 25/11 01:21 autocorrecao de visibilidade
 - b3: objeto ENORME "kit/helicopter_air" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/helicopter_air" menor e sem close (cobria o quadro)
+
+## 25/11 02:36 autocorrecao de visibilidade
+- b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro

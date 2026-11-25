@@ -135,11 +135,9 @@ kit/tv | b4 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/boardgame | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 22% | medio 61% | aberto 14% | detalhe 3%
 - Interacoes: b0 o outro se aproxima, b2 entregar, b4 insiste, b5 discutir, b6 susto, b8 vai ate o outro
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: O Jogo de Tabuleiro do Trump, Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas, Donald Trump (terno azul, gravata vermelha, anos -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: O Jogo de Tabuleiro do Trump, Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas, Donald Trump (terno azul, gravata vermelha, anos
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh trumpgame1989 bN bM` (so essas cenas).

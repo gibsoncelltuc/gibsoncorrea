@@ -1,11 +1,12 @@
-pesquisa: as fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador) mostram o presidente Nayib Bukele de jaqueta escura, a bandeira azul e branca, feira de rua e predios de San Salvador, e a moeda dourada de bitcoin; comparei com Bukele de jaqueta escura e bone, deputados de terno roxo, comerciantes de chapeu, clientes de camisa verde e azul, predios de apartamento ao fundo, moeda de bitcoin dourada e celular azul; os prints de Hong Kong, China, rublos, submarino e TV Globo foram descartados.
-defeitos procurados: cenario rua com predios de apartamento de San Salvador sem objeto de outra epoca; epoca 2021 com celular e moeda de bitcoin; tamanho celular e moeda grandes e legiveis; cortado o cliente de b5 aparece com a testa quase na borda do quadro mas inteiro; multidao deputados em grupo na b2 sem clones de Bukele; legenda textos 9 EM 10 NAO ENTENDIAM, LEI APROVADA, 7 DE SETEMBRO, US$ 30, FORA DO AR e 68% DISCORDAM ficam no alto; acao o celular aparece na b5 e a assembleia vota na b2; objeto heroi moeda de bitcoin aparece em b0 b4 b7 e b8.
-b0: OK - um pais aceitou o bitcoin como dinheiro e nove em dez moradores nao entendiam: Bukele de jaqueta escura e comerciante com a moeda diante de predios de apartamento, texto 9 EM 10 NAO ENTENDIAM.
-b1: CORRIGIDO - foi em El Salvador na America Central e a ideia foi do presidente Nayib Bukele: antes bonecos minusculos ao longe e Bukele invisivel; agora mapa de EL SALVADOR e depois Bukele sorrindo em close.
-b2: CORRIGIDO - ele anunciou o projeto em junho de dois mil e vinte e um e o congresso aprovou poucos dias depois: antes duas pessoas numa sala; agora grupo de deputados de terno roxo e Bukele na rua com a placa LEI APROVADA.
-b3: OK - a lei passou a valer em sete de setembro e o pais foi o primeiro do mundo a fazer isso: grupo pequeno na rua ao longe com o texto 7 DE SETEMBRO.
-b4: OK - o governo prometeu trinta dolares em bitcoin a quem baixasse a carteira digital Chivo: comerciantes e clientes com a moeda diante da barraca e o texto US$ 30.
-b5: CORRIGIDO - no lancamento o aplicativo ficou fora do ar por algumas horas: antes sem sinal do app; agora cliente de espanto com um celular azul grande ao lado e o texto FORA DO AR.
-b6: OK - uma pesquisa mostrou que sessenta e oito por cento discordavam da decisao: dois personagens discutindo na rua com o texto 68% DISCORDAM.
-b7: OK - mesmo assim a moeda digital virou assunto no mundo inteiro: globo azul, moeda grande e grupo comemorando.
-b8: OK - uma moeda digital uma lei nova e um pais no centro das atencoes: Bukele com a moeda e um comerciante com o papel, depois Bukele rindo com COMENTE.
+pesquisa: El Salvador adotou o bitcoin como moeda em 7/9/2021, lei aprovada pelo congresso dias depois do anuncio de junho, bonus de US$ 30 na carteira Chivo, app fora do ar no lancamento, pesquisa da UCA com 68% contra; ver referencias/bitcoin2021/moodboard.jpg.
+defeitos procurados: cenario/epoca (rua de predios, vulcao ao fundo em El Salvador, sala interna), tamanho (moeda de bitcoin grande mas legivel, celular grande no b5), cortado, multidao (assembleia de deputados em b2, fila em b4), legenda livre, acao (comemorando, discutindo), objeto citado (moeda, celular, globo), sem tiro/explosao.
+b0: OK - "pais aceitou o bitcoin, nove em dez nao entendiam": Bukele e comerciantes com a moeda e texto 9 EM 10 NAO ENTENDIAM.
+b1: OK - "El Salvador, America Central, ideia do presidente Bukele": mapa EL SALVADOR e depois close de Bukele sorrindo.
+b2: OK - "anunciou em junho de 2021, congresso aprovou": assembleia de deputados de roxo com Bukele, placa LEI APROVADA.
+b3: OK - "lei passou a valer em 7 de setembro, primeiro do mundo": grupo na rua com vulcao ao fundo, texto 7 DE SETEMBRO.
+b4: OK - "trinta dolares em bitcoin a quem baixasse a carteira": fila com a moeda grande e texto US$ 30.
+b5: OK - "aplicativo fora do ar": close do cliente com celular azul e texto FORA DO AR.
+b6: OK - "pesquisa, 68% discordavam": dois personagens discutindo, texto 68% DISCORDAM.
+b7: OK - "governo comprou bitcoins, preco despencou": sala com Bukele preocupado, moedas de bitcoin e texto PRECO DESPENCOU.
+b8: OK - "virou assunto no mundo inteiro": personagens na rua com o globo e a moeda.
+b9: OK - "moeda digital, lei nova, pais no centro das atencoes": Bukele, comerciante e moeda, depois COMENTE.

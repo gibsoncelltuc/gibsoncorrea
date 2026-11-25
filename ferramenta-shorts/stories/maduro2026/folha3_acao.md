@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 15 acoes catalogadas, 15 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.7s - 15 palavras - plano wide
@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 29.1s a 33.8s - 16 palavras - plano two
+## Cena b5 - 29.1s a 33.8s - 16 palavras - plano wide
 > "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -86,13 +86,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | empurrar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- ATUACAO (a cena toda): executa: conversar
+- ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
 ## Cena b6 - 35.2s a 40.0s - 18 palavras - plano two

@@ -93,10 +93,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -106,7 +102,12 @@
       "na": "aceitou"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
@@ -120,15 +121,15 @@
    "batalha": false,
    "impact": false,
    "quadro_manual": true,
-   "d0": 4.5,
-   "d1": 4.0,
+   "d0": 7.5,
+   "d1": 7.0,
    "shot_lock": true,
    "h": 1.7,
    "cx": 0,
    "cz": 0,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1,
+   "_auto_vis": 2,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -185,10 +186,6 @@
    },
    "text": "LEI APROVADA",
    "set": "loc_cidade",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "titulo": true,
    "interior": false,
    "encena": {
@@ -200,7 +197,12 @@
       "na": "anunciou"
      }
     ]
-   }
+   },
+   "_enq_shot": "group",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
@@ -301,10 +303,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -314,11 +312,16 @@
       "na": "convencer"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "CLI:0:surprised"
    ],
@@ -341,7 +344,7 @@
      "kit/phone",
      0.55,
      0.3,
-     1.8,
+     1.08,
      {
       "fixo": true
      }
@@ -352,11 +355,11 @@
    "detalhe": false,
    "quadro_manual": true,
    "shot_lock": true,
-   "cx": 0.25,
+   "cx": -0.2,
    "cz": 0.1,
-   "h": 1.5,
-   "d0": 4.2,
-   "d1": 3.8,
+   "h": 1.4,
+   "d0": 5.2,
+   "d1": 4.8,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
@@ -369,7 +372,6 @@
      }
     ]
    },
-   "_auto_vis": 2,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -379,7 +381,8 @@
       "na": "Acontece"
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
@@ -414,17 +417,16 @@
   {
    "say": "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte.",
    "who": [
-    "BUK:0:nervous",
-    "DEP:0:shock"
+    "BUK:0:nervous"
    ],
    "shot": "two",
    "interior": "pedra",
    "props": [
     [
      "kit/bitcoin",
-     0.0,
-     -0.8,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -440,7 +442,30 @@
       "na": "governo"
      }
     ]
-   }
+   },
+   "_enq_shot": "group",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 0,
+   "cz": 0,
+   "d0": 7.5,
+   "d1": 7.0,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "h": 1.5,
+   "vary": false,
+   "_auto_vis": 2
   },
   {
    "say": "Mesmo assim, a moeda digital virou assunto no mundo inteiro.",
@@ -483,10 +508,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -496,15 +517,19 @@
       "na": "Mesmo"
      }
     ]
-   }
+   },
+   "_enq_shot": "orbit",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "BUK:0:smile",
-    "POV:0:grin",
-    "CLI:0:laugh"
+    "POV:0:grin"
    ],
    "props": [
     [
@@ -524,7 +549,7 @@
    "vary": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/bitcoin",
@@ -534,10 +559,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -547,7 +568,12 @@
       "na": "moeda"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "duracao_ok": true,

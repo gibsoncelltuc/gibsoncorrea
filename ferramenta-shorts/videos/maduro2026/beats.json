@@ -328,7 +328,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "hora": "noite",
    "who": [
     "SOL:0:stern",
@@ -358,7 +358,10 @@
    "cx": 0,
    "cz": 0,
    "d0": 6.0,
-   "d1": 5.0
+   "d1": 5.0,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "two",

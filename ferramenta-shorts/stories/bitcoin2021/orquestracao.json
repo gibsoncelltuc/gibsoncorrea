@@ -124,13 +124,14 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "CLI"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/phone"
+    "kit/phone",
+    "kit/volcano"
    ],
    "palavras": 13,
    "cena": "b5",
@@ -167,8 +168,7 @@
   {
    "camera": "two",
    "personagens": [
-    "BUK",
-    "DEP"
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [
@@ -207,16 +207,16 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "BUK",
-    "POV",
-    "CLI"
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
     "kit/bitcoin",
-    "kit/coin"
+    "kit/coin",
+    "kit/volcano"
    ],
    "palavras": 13,
    "cena": "b9",

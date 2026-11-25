@@ -21,11 +21,13 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - f12 "no lançamento,": 
 - f13 "o aplicativo ficou fora do ar por algumas horas.": 
 - f14 "Uma pesquisa da Universidade Centro-Americana mostrou que se": 
-- f15 "Mesmo assim,": 
-- f16 "a moeda digital virou assunto no mundo inteiro.": 
-- f17 "Uma moeda digital,": 
-- f18 "uma lei nova e um país no centro das atenções.": 
-- f19 "Agora não deixe de comentar:": 
-- f20 "qual deve ser o tema do próximo vídeo?": 
+- f15 "O governo também comprou bitcoins com dinheiro público,": 
+- f16 "e o preço da moeda despencou no ano seguinte.": 
+- f17 "Mesmo assim,": 
+- f18 "a moeda digital virou assunto no mundo inteiro.": 
+- f19 "Uma moeda digital,": 
+- f20 "uma lei nova e um país no centro das atenções.": 
+- f21 "Agora não deixe de comentar:": 
+- f22 "qual deve ser o tema do próximo vídeo?": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

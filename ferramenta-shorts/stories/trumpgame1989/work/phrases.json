@@ -1,7 +1,7 @@
 {
- "duration": 48.504,
- "frames30": 1455,
- "source": "silence-align (cost 0.52)",
+ "duration": 57.504,
+ "frames30": 1725,
+ "source": "silence-align (cost 0.72)",
  "segments": [
   [
    0.157708,
@@ -32,7 +32,7 @@
    16.7863
   ],
   [
-   16.9835,
+   16.9843,
    18.5672
   ],
   [
@@ -40,56 +40,72 @@
    19.7268
   ],
   [
-   20.5939,
-   22.1787
+   20.593,
+   22.9402
   ],
   [
-   22.4647,
-   24.7399
+   23.1831,
+   24.4938
   ],
   [
-   25.5774,
-   28.0836
+   25.3555,
+   26.942
   ],
   [
-   28.3426,
-   29.6284
+   27.2258,
+   29.5009
   ],
   [
-   30.4895,
-   31.3352
+   30.3382,
+   32.8511
   ],
   [
-   31.5031,
-   33.5857
+   33.1035,
+   34.3854
   ],
   [
-   34.431,
-   35.8952
+   35.2506,
+   36.0962
   ],
   [
-   36.1375,
-   38.3204
+   36.2641,
+   38.3467
   ],
   [
-   38.6135,
-   39.5953
+   39.2,
+   39.917
   ],
   [
-   40.4155,
-   41.9871
+   40.1276,
+   42.5722
   ],
   [
-   42.2852,
-   43.3565
+   43.4191,
+   44.8832
   ],
   [
-   44.2026,
-   45.6468
+   45.1255,
+   47.3087
   ],
   [
-   45.9441,
-   47.7015
+   47.6016,
+   48.5833
+  ],
+  [
+   49.4035,
+   50.9752
+  ],
+  [
+   51.2733,
+   52.3445
+  ],
+  [
+   53.1906,
+   54.6353
+  ],
+  [
+   54.9281,
+   56.6896
   ]
  ],
  "phrases": [
@@ -130,7 +146,7 @@
   },
   {
    "text": "cinquenta e cem milh\u00f5es de d\u00f3lares,",
-   "s": 16.983,
+   "s": 16.984,
    "e": 18.567
   },
   {
@@ -139,69 +155,89 @@
    "e": 19.727
   },
   {
+   "text": "O pr\u00f3prio Trump apareceu no comercial de TV,",
+   "s": 20.593,
+   "e": 22.94
+  },
+  {
+   "text": "segurando a caixa do jogo.",
+   "s": 23.183,
+   "e": 24.494
+  },
+  {
    "text": "Acontece que o manual era longo,",
-   "s": 20.594,
-   "e": 22.179
+   "s": 25.355,
+   "e": 26.942
   },
   {
    "text": "e as fam\u00edlias abriam a caixa e n\u00e3o entendiam nada.",
-   "s": 22.465,
-   "e": 24.74
+   "s": 27.226,
+   "e": 29.501
   },
   {
    "text": "A f\u00e1brica esperava vender dois milh\u00f5es de jogos,",
-   "s": 25.577,
-   "e": 28.084
+   "s": 30.338,
+   "e": 32.851
   },
   {
    "text": "e vendeu oitocentos mil.",
-   "s": 28.343,
-   "e": 29.628
+   "s": 33.103,
+   "e": 34.385
   },
   {
    "text": "Em dois mil e quatro,",
-   "s": 30.489,
-   "e": 31.335
+   "s": 35.251,
+   "e": 36.096
   },
   {
    "text": "Trump virou estrela do programa O Aprendiz.",
-   "s": 31.503,
-   "e": 33.586
+   "s": 36.264,
+   "e": 38.347
+  },
+  {
+   "text": "Dessa vez,",
+   "s": 39.2,
+   "e": 39.917
+  },
+  {
+   "text": "quem fabricou o jogo foi outra empresa de brinquedos.",
+   "s": 40.128,
+   "e": 42.572
   },
   {
    "text": "E o jogo voltou \u00e0s lojas,",
-   "s": 34.431,
-   "e": 35.895
+   "s": 43.419,
+   "e": 44.883
   },
   {
    "text": "com regras mais simples e a frase do programa:",
-   "s": 36.138,
-   "e": 38.32
+   "s": 45.126,
+   "e": 47.309
   },
   {
    "text": "voc\u00ea est\u00e1 demitido.",
-   "s": 38.614,
-   "e": 39.595
+   "s": 47.602,
+   "e": 48.583
   },
   {
    "text": "Um jogo sobre ficar bilion\u00e1rio,",
-   "s": 40.416,
-   "e": 41.987
+   "s": 49.404,
+   "e": 50.975
   },
   {
    "text": "que virou curiosidade.",
-   "s": 42.285,
-   "e": 43.356
+   "s": 51.273,
+   "e": 52.344
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 44.203,
-   "e": 45.647
+   "s": 53.191,
+   "e": 54.635
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 45.944,
-   "e": 47.702
+   "s": 54.928,
+   "e": 56.69
   }
  ]
 }

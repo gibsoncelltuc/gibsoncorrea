@@ -46,23 +46,23 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     2.4,
+     3.6,
+     -2.0,
      1.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/flamethrower",
      0.0,
-     2.4,
+     -1.2,
      1.5,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.55
+      "y": 0.55,
+      "fixo": true
      }
     ]
    ],
@@ -74,6 +74,12 @@
      {
       "objeto": "kit/flamethrower",
       "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -88,7 +94,12 @@
       "na": "bilionário"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a empresa de túneis de Elon Musk, lançou o produto.",
@@ -141,23 +152,23 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     2.4,
+     3.6,
+     -2.0,
      1.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/flamethrower",
      0.0,
-     2.4,
+     -1.2,
      1.5,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.55
+      "y": 0.55,
+      "fixo": true
      }
     ]
    ],
@@ -169,6 +180,12 @@
      {
       "objeto": "kit/flamethrower",
       "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -183,7 +200,12 @@
       "na": "lança-chamas"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que o aparelho soltava fogo de verdade, e essa era a piada.",
@@ -194,23 +216,23 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     2.4,
+     3.6,
+     -2.0,
      1.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/flamethrower",
-     0.0,
      2.4,
+     0.2,
      1.5,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.55
+      "y": 0.55,
+      "fixo": true
      }
     ]
    ],
@@ -225,6 +247,12 @@
       "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
@@ -237,7 +265,12 @@
       "na": "Acontece"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.",
@@ -269,12 +302,12 @@
    "props": [
     [
      "kit/extinguisher",
-     -1.4,
-     0.7,
+     0.0,
+     -1.2,
      0.75,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ]
    ],
@@ -314,7 +347,12 @@
    "sfx": [
     "ding@30"
    ],
-   "verificador": false
+   "verificador": false,
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.",
@@ -407,23 +445,23 @@
     ],
     [
      "kit/bancada",
-     0.0,
-     2.4,
+     -3.6,
+     -2.0,
      1.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/flamethrower",
-     0.0,
      2.4,
+     0.2,
      1.5,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.55
+      "y": 0.55,
+      "fixo": true
      }
     ]
    ],
@@ -445,6 +483,12 @@
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
@@ -457,7 +501,12 @@
       "na": "próprio"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Um produto que se chamava de tudo, menos do que parecia.",
@@ -469,33 +518,33 @@
    "props": [
     [
      "kit/extinguisher",
-     -1.4,
-     0.7,
+     3.6,
+     -2.0,
      0.75,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/bancada",
-     0.0,
-     2.4,
+     -3.6,
+     -2.0,
      1.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/flamethrower",
      0.0,
-     2.4,
+     -1.2,
      1.5,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.55
+      "y": 0.55,
+      "fixo": true
      }
     ]
    ],
@@ -515,6 +564,12 @@
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
@@ -528,7 +583,12 @@
       "na": "produto"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "exp": 1.0,
