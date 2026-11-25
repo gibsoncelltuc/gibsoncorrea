@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/microwave, kit/chocolate | - | -
 b1 | interior madeira | two | 2 | comemorar, INTERAGEM: pular, batalha | kit/microwave | - | -
 b2 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
-b3 | interior galpao | two | 2 | conversar, INTERAGEM: insiste | - | - | -
+b3 | interior galpao | two | 2 | conversar, INTERAGEM: insiste | kit/magnetron | - | -
 b4 | interior galpao | group | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/chocolate | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: susto | kit/chocolate | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: discutir, batalha | kit/popcorn | - | -

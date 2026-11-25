@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 ## Cena b3  (~3.4 s)
 - Narracao: Uma peça do radar soltava ondas invisíveis o dia inteiro.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@20, ring@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -52,7 +52,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -68,9 +68,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 ## Cena b7  (~3.8 s)
 - Narracao: Depois testou um ovo, que explodiu na cara de um colega.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: squeal@50
+- Efeitos sonoros marcados: squeal@55
 - Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao
-- Efeito visual marcado: burst@50, puff@50
+- Efeito visual marcado: burst@55, splash@55, stars@58
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 

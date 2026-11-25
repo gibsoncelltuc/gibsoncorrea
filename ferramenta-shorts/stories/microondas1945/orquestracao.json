@@ -78,7 +78,9 @@
     "ENG"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/magnetron"
+   ],
    "palavras": 10,
    "cena": "b3",
    "frase": "Uma peça do radar soltava ondas invisíveis o dia inteiro.",

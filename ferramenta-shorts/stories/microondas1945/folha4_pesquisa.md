@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Micro-ondas e o Chocolate
 - Epoca: 1945 | Lugar: Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magnetrons | Quando: cerca de 1945, dia
-- HEROIS (objeto): kit/microwave
+- HEROIS (objeto): kit/microwave, kit/chocolate
 - HEROIS (personagens): SPE, ENG
 - Cenarios: interior galpao, interior madeira, loc_campo, street
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
@@ -28,6 +28,7 @@ objeto | ovo | ovo / ovo 1945 | Attack on carrier USS Franklin 19 March 1945.jpg
 objeto | Radarange (primeiro micro-ondas, 1,8 m) | Radarange / Radarange 1945 | Radarange NS Svannah.jpg (referencias/microondas1945/prints/radarange_primeiro_micro_ondas_1_8_m__3790f3.jpg); Radarange Amana Microwave.jpg (referencias/microondas1945/prints/radarange_primeiro_micro_ondas_1_8_m__4fb1ba.jpg); Amana Radarange Microwave Oven.jpg (referencias/microondas1945/prints/radarange_primeiro_micro_ondas_1_8_m__f397bc.jpg)
 objeto | forno de micro-ondas moderno | forno de micro-ondas moderno / forno de micro-ondas moderno 1945 | Microwave oven flashon.jpg (referencias/microondas1945/prints/forno_de_micro_ondas_moderno_96fc65.jpg); TOSHIBA Microwave Oven ER-J3 .jpg (referencias/microondas1945/prints/forno_de_micro_ondas_moderno_b9909e.jpg); Panasonic MICROWAVE OVEN NN-GM333W.jpg (referencias/microondas1945/prints/forno_de_micro_ondas_moderno_4c3432.jpg)
 heroi | microwave | magnetron / O Micro-ondas e o Chocolate | SEM REFERENCIA
+heroi | chocolate | chocolate | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Percy Spencer notou que um magnetron derreteu o chocolate no bolso; testou pipoca e ovo; a Raytheon lancou o Radarange em 1947, com cerca de 1,8 m e 340 kg (fonte: Wikipedia Microwave oven, Percy Spencer)

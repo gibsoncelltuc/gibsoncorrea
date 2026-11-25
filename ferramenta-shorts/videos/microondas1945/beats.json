@@ -131,9 +131,9 @@
    "props": [
     [
      "kit/microwave",
-     0.0,
-     -1.2,
-     1.0,
+     2.0,
+     0.4,
+     1.4,
      {
       "fixo": true
      }
@@ -163,10 +163,12 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cx": 0.9,
+   "cz": 0.2,
+   "d0": 11.0,
+   "d1": 10.5,
+   "h": 1.6,
+   "quadro_manual": true
   },
   {
    "shot": "reveal",
@@ -214,7 +216,32 @@
       "na": "ondas"
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/magnetron",
+     0.0,
+     0.6,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "ring@60"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": 0.3,
+   "h": 1.5,
+   "d0": 9.0,
+   "d1": 8.5,
+   "quadro_manual": true
   },
   {
    "shot": "two",
@@ -243,7 +270,7 @@
     "SPE:0:shock"
    ],
    "interacao": "susto",
-   "detalhe": false,
+   "detalhe": true,
    "bloco": "escalada",
    "say": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
    "encena": {
@@ -254,7 +281,27 @@
       "na": "derretido"
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/chocolate",
+     0.0,
+     0.7,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "cx": 0.0,
+   "cz": 0.3,
+   "h": 1.4,
+   "d0": 8.5,
+   "d1": 8.0,
+   "quadro_manual": true
   },
   {
    "shot": "two",
@@ -326,19 +373,20 @@
     "COL:0:shock"
    ],
    "fx": [
-    "burst@50",
-    "puff@50"
+    "burst@55",
+    "splash@55",
+    "stars@58"
    ],
    "sfx": [
-    "squeal@50"
+    "squeal@55"
    ],
    "impact": true,
    "props": [
     [
      "kit/egg",
-     0.0,
-     -1.2,
-     1.5,
+     0.4,
+     0.7,
+     1.6,
      {
       "fixo": true
      }
@@ -369,9 +417,11 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": 0.3,
+   "d0": 8.5,
+   "d1": 8.0,
+   "h": 1.5,
+   "quadro_manual": true
   },
   {
    "shot": "wide",

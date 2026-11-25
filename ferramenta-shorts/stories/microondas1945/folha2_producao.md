@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: comemorar
-- OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
 - SOM: ding@30
@@ -75,16 +75,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): SPE (variante 0, expressao neutral); ENG (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: -
+- Objetos/modelos: kit/magnetron
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): peca, radar
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: galpao; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e magnetron juntos (camera a 11.5 m)
 - PERSONAGENS: SPE na esquerda, expressao neutral; ENG na direita, expressao suspicious; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/magnetron: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
 - TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -120,9 +123,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)
 - PERSONAGENS: ENG na esquerda, expressao surprised; SPE na direita, expressao shock; sem multidao; acao: susto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/chocolate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (17.5-19.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
   - take 2 (19.0-20.5 s): mesmo angulo
@@ -166,10 +170,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)
 - PERSONAGENS: SPE na esquerda, expressao grin; COL na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/egg: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
-- SOM: squeal@50
+- OBJETO kit/egg: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +55 da cena
+- EFEITO respingo: no chao; entra no quadro +55 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +58 da cena
+- SOM: squeal@55
 - TAKES: sequencia de acao em 3 cameras (2.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
@@ -209,6 +214,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/microwave | b0, b1, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/chocolate | b0, b4, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/magnetron | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/popcorn | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/radarange | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
