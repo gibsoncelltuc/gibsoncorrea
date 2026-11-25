@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ENG (variante 0, expressao neutral); ENG (variante 1, expressao smile) | multidao: 8 de ENG/COL
+- Personagens principais (2): ENG (variante 0, expressao neutral); ENG (variante 1, expressao smile) | multidao: 8 de POV
 - Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): engenheiro, estados, radares
@@ -135,7 +135,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (1): SPE (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): SPE (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/popcorn
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estourar, graos, pipoca
@@ -180,7 +180,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): SPE (variante 0, expressao smile) | multidao: 0 de 
+- Personagens principais (1): SPE (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/radarange
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa, trezentos
@@ -202,7 +202,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 0 de 
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 0 de POV
 - Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/radarange
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar, minuto, sobra

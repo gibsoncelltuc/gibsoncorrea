@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): LAV (variante 0, expressao scared); LAV (variante 1, expressao nervous) | multidao: 8 de LAV
+- Personagens principais (2): LAV (variante 0, expressao scared); LAV (variante 1, expressao nervous) | multidao: 0 de LAV
 - Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cambridge, peste, universidade
@@ -157,7 +157,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): NEW (variante 0, expressao laugh); AMI (variante 0, expressao laugh) | multidao: 14 de LAV/AMI/MAE
+- Personagens principais (2): NEW (variante 0, expressao laugh); AMI (variante 0, expressao laugh) | multidao: 0 de LAV/AMI/MAE
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gravidade

@@ -1,19 +1,19 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 01 - Newton e a Maçã
 
-Gerado em 25/11 04:52 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:55 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | group | NEW | - | apple | - | Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça
-b1 | simples | countryside | reveal | LAV, LAV | 8 | - | - | Era mil seiscentos e sessenta e seis, e a peste fechou a universidade 
+b1 | simples | countryside | reveal | LAV, LAV | - | - | - | Era mil seiscentos e sessenta e seis, e a peste fechou a universidade 
 b2 | simples | interior madeira | two | NEW, MAE | - | picket_fence | - | Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da 
 b3 | simples | countryside | two | NEW, AMI | - | apple, tree_oak | - | Ele passava os dias debaixo de uma macieira, pensando em como as coisa
 b4 | chave | countryside | orbit | NEW, AMI | - | apple, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr
 b5 | simples | street | close | NEW | - | - | - | Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que
 b6 | simples | loc_campo | two | NEW, MAE | - | apple | - | Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá
-b7 | chave | street | crowd | NEW, AMI | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A resposta virou a lei da gravidade, publicada em mil seiscentos e oit
+b7 | chave | street | crowd | NEW, AMI | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A resposta virou a lei da gravidade, publicada em mil seiscentos e oit
 b8 | simples | interior madeira | two | NEW, AMI | - | - | - | Anos depois, ele mesmo contou essa história a um amigo.
 b9 | simples | loc_campo | two | NEW | - | apple | - | No fim, a maçã mudou a ciência e nem foi comida.
 b10 | simples | loc_campo | close | NEW | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

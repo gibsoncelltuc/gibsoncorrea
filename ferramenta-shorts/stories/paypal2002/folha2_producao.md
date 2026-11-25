@@ -137,7 +137,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, foguetes, spacex
@@ -161,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/roadster2008
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carros, conselho, fabrica, tesla
@@ -210,7 +210,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pagamento

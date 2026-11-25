@@ -144,7 +144,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous) | multidao: 0 de 
+- Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous) | multidao: 0 de POV
 - Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): material, teceloes, tentativas

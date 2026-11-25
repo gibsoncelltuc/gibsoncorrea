@@ -1,13 +1,13 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Gerado em 25/11 04:51 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:55 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | GAL | - | bola_couro, marco_pisa, pisa_tower | - | Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao m
-b1 | transicao | street | reveal | ALU, ALU | 8 | marco_pisa | - | Conta a história que, em Pisa, na Itália, por volta de mil quinhentos 
+b1 | transicao | street | reveal | ALU, ALU | - | marco_pisa | - | Conta a história que, em Pisa, na Itália, por volta de mil quinhentos 
 b2 | simples | interior pedra | two | ARI, ALU | - | - | - | O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, ma
 b3 | simples | interior pedra | group | ALU, ALU, PRO | - | bola_couro | - | Mas Galileu Galilei achou estranho e resolveu provar o contrário.
 b4 | transicao | loc_campo | wide | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | - | Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes

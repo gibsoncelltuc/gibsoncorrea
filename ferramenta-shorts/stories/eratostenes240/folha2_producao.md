@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_estudio | luz: desert | clima: calor
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/stick, nature/tree_palm, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): solo, sombra, vara
@@ -133,7 +133,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_estudio | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/globe, kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sombra, terra
@@ -151,7 +151,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_estudio | luz: desert | clima: calor
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
@@ -190,7 +190,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ERA (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): ERA (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: comemorar
 - Objetos/modelos: kit/stick, kit/well, kit/marco_alexandria, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara

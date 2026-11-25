@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 1 | conversar | kit/pisa_tower, kit/marco_pisa, kit/bola_couro | - | -
-b1 | street | reveal | 10 | parados (so fala e pisca) | kit/marco_pisa | - | -
+b1 | street | reveal | 2 | parados (so fala e pisca) | kit/marco_pisa | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b3 | interior pedra | group | 3 | conversar, INTERAGEM: aproxima-se | kit/bola_couro | - | -
 b4 | loc_campo | wide | 1 | parados (so fala e pisca) | kit/pisa_tower, kit/bola_couro, war/cannonballs, kit/marco_pisa | - | -

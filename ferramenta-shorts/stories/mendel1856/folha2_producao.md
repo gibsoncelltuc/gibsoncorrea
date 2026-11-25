@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): MEN (variante 0, expressao smile, segura bag) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao smile, segura bag) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): monge
@@ -52,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MEN (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ervilhas, filhos
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): MEN (variante 0, expressao surprised) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primeira, verde
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MEN (variante 0, expressao neutral, segura paper) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao neutral, segura paper) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): amarelas, novo
@@ -141,7 +141,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MEN (variante 0, expressao shock) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): verde
@@ -210,7 +210,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): CIE (variante 0, expressao surprised) | multidao: 0 de 
+- Personagens principais (1): CIE (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_green, kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientistas, morte
@@ -235,7 +235,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): MEN (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): MEN (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ervilha, monge

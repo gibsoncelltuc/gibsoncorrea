@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): PAS (variante 0, expressao smile) | multidao: 0 de 
+- Personagens principais (1): PAS (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino, nove, raiva, receber, vacina
@@ -132,7 +132,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PAS (variante 0, expressao relief); MED (variante 0, expressao surprised) | multidao: 0 de 
+- Personagens principais (2): PAS (variante 0, expressao relief); MED (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino

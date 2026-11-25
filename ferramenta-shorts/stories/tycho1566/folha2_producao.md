@@ -163,7 +163,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 0 de 
+- Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 0 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_uraniborg, kit/uraniborg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao

@@ -29,7 +29,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ALU (variante 0, expressao smile); ALU (variante 1, expressao neutral) | multidao: 8 de ALU
+- Personagens principais (2): ALU (variante 0, expressao smile); ALU (variante 1, expressao neutral) | multidao: 0 de ALU
 - Animacao: -
 - Objetos/modelos: kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): italia, jovem, sabio

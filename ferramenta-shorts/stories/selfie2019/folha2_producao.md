@@ -162,7 +162,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): BUK (variante 0, expressao stern); DIP (variante 0, expressao worried) | multidao: 0 de 
+- Personagens principais (2): BUK (variante 0, expressao stern); DIP (variante 0, expressao worried) | multidao: 0 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinossauros, kodak

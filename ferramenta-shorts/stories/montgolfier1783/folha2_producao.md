@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): JOS (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): JOS (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, galo, ovelha, pato, primeiros
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ETI (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): ETI (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, pano
@@ -114,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): JOS (variante 0, expressao smile) | multidao: 0 de 
+- Personagens principais (1): JOS (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cesta, frente, galo, ovelha, pato, solucao
@@ -159,7 +159,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): POV (variante 0, expressao shock) | multidao: 0 de 
+- Personagens principais (1): POV (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, bichos
@@ -184,7 +184,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ETI (variante 0, expressao nervous) | multidao: 0 de 
+- Personagens principais (1): ETI (variante 0, expressao nervous) | multidao: 0 de POV
 - Animacao: reagir
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bichos, tres
@@ -207,7 +207,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): POV (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): POV (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: comemorar
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paris
@@ -233,7 +233,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (1): ETI (variante 0, expressao smile) | multidao: 0 de 
+- Personagens principais (1): ETI (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres

@@ -168,7 +168,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): SEM (variante 0, expressao laugh); MAE (variante 0, expressao laugh); PAR (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (3): SEM (variante 0, expressao laugh); MAE (variante 0, expressao laugh); PAR (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: comemorar
 - Objetos/modelos: kit/wash_basin, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mortes
