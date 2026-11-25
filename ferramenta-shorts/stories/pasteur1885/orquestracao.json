@@ -80,7 +80,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
     "PAS"
    ],

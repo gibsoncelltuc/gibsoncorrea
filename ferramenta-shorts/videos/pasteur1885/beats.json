@@ -52,8 +52,8 @@
    "props": [
     [
      "kit/syringe",
-     0.6,
-     1.0,
+     0.0,
+     -8.0,
      1.5,
      {
       "fixo": true
@@ -91,8 +91,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 2
+   "d1": 10.0
   },
   {
    "say": "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios.",
@@ -277,7 +276,7 @@
     [
      "kit/syringe",
      0.0,
-     -1.0,
+     -8.0,
      1.5,
      {
       "fixo": true
@@ -317,8 +316,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d1": 10.0
   },
   {
    "say": "Joseph sobreviveu, e a notícia correu o mundo.",
