@@ -266,11 +266,9 @@ kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 4 | mistura: close 11% | medio 57% | aberto 28% | detalhe 4%
 - Interacoes: b3 aproxima-se, b7 avanca e o outro recua, b9 susto, b10 o outro se aproxima
-- RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: Hornsdale Power Reserve, perto de Jamestown, Australia do Sul (campo aberto ao l, Jamestown, Elon Musk (camiseta e jaqueta escura), Mike Cannon-Brookes, empresa -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: Hornsdale Power Reserve, perto de Jamestown, Australia do Sul (campo aberto ao l, Jamestown, Elon Musk (camiseta e jaqueta escura), Mike Cannon-Brookes, empresa
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bateria2017 bN bM` (so essas cenas).

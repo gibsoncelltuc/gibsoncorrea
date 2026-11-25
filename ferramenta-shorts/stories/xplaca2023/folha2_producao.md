@@ -271,11 +271,9 @@ nature/tree_oak | b6 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/phone | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 9% | medio 78% | aberto 9% | detalhe 4%
 - Interacoes: b1 entregar, b2 o outro se aproxima, b3 insiste, b6 discutir, b7 vai ate o outro, b8 aproxima-se, b9 avanca e o outro recua
-- RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco co, Elon Musk (camiseta preta), operarios com guindaste e capacete, fiscais da pre -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco co, Elon Musk (camiseta preta), operarios com guindaste e capacete, fiscais da pre
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh xplaca2023 bN bM` (so essas cenas).
