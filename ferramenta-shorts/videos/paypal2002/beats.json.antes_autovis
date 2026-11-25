@@ -106,7 +106,7 @@
    "d0": 13.0,
    "d1": 12.5,
    "hora": "dia",
-   "light": "golden",
+   "light": "day",
    "quadro_manual": true,
    "h": 1.5
   },
@@ -182,7 +182,7 @@
      "kit/computador_2002",
      0.0,
      -0.4,
-     1.0,
+     1.5,
      {
       "fixo": true,
       "y": 1.22
@@ -238,8 +238,8 @@
    "cx": 0.0,
    "cz": -0.4,
    "h": 1.6,
-   "d0": 11.5,
-   "d1": 11.0,
+   "d0": 9.5,
+   "d1": 9.0,
    "_susp_tela": true,
    "_susp_ok": true
   },
@@ -397,7 +397,7 @@
    "quadro_manual": true
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "MUS:0:grin"
    ],
@@ -455,8 +455,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d1": 10.0
   },
   {
    "shot": "wide",
