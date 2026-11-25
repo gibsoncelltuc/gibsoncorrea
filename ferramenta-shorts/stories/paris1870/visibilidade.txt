@@ -1,0 +1,5 @@
+VISIBILIDADE: 4 FALHA(S)
+FALHA b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b9: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b3: objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32%
+FALHA b9: objeto "kit/balloon_air" saiu com 4% da altura da tela, a ficha de cena planejou 30%

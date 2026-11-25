@@ -4,10 +4,9 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-3. b9: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-4. b3: objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32%
-5. b9: objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30%
+2. b9: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+3. b3: objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32%
+4. b9: objeto "kit/balloon_air" saiu com 4% da altura da tela, a ficha de cena planejou 30%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Paris já serviu elefante no jantar.": 

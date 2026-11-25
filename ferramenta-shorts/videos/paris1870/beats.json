@@ -461,12 +461,12 @@
    "props": [
     [
      "kit/balloon_air",
-     1.2,
-     -14.0,
-     3.2,
+     0.0,
+     -12.0,
+     2.6,
      {
       "fixo": true,
-      "y": 2.0
+      "y": 1.5
      }
     ]
    ],
@@ -494,11 +494,11 @@
      }
     ]
    },
-   "cx": 0.6,
-   "cz": -5.0,
-   "h": 1.3,
-   "d0": 13.0,
-   "d1": 11.0,
+   "cx": 0.0,
+   "cz": -6.0,
+   "h": 3.6,
+   "d0": 17.0,
+   "d1": 15.0,
    "quadro_manual": true,
    "titulo": true,
    "quadro": {
@@ -512,7 +512,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "az0": 0,
+   "az1": 4
   },
   {
    "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
