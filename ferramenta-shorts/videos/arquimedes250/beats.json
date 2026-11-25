@@ -30,9 +30,10 @@
    "jacket": "#c9a040",
    "pants": "#4a3a2a",
    "boots": "#2a2218",
-   "hat": "cap",
+   "hat": "hair",
    "cap": "#4a3a2a",
-   "moustache_on": "#3a2a1a"
+   "moustache_on": "#3a2a1a",
+   "hair": "#3a2a1a"
   },
   "POV": {
    "jacket": "#f1efe6",
@@ -97,7 +98,7 @@
     [
      "kit/bathtub",
      0.0,
-     -1.2,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -126,11 +127,12 @@
      }
     ]
    },
+   "_enq_shot": "reveal",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_enq_shot": "reveal"
+   "_auto_vis": 1
   },
   {
    "say": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
@@ -269,11 +271,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "say": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
@@ -386,7 +388,7 @@
      {
       "objeto": "kit/coroa_louros",
       "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "2% da altura da tela",
+      "tela": "3% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -402,7 +404,8 @@
      }
     ]
    },
-   "_enq_shot": "two"
+   "_enq_shot": "two",
+   "_auto_vis": 1
   },
   {
    "say": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
@@ -485,11 +488,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   }
  ],
  "visual": {
@@ -530,5 +533,6 @@
   }
  },
  "max_wide": 3,
- "regiao": "classico"
+ "regiao": "classico",
+ "ano": -250
 }
