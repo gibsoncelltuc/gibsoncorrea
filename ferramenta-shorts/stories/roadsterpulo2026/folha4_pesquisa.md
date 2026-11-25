@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: O Carro que Voou de Cabeça para Baixo
 - Epoca: 2026 | Lugar: Base de testes da SpaceX em McGregor (Texas, EUA): area aberta, chao de terra e concreto; galpoes da SpaceX | Quando: 15 de outubro de 2026, a noite (evento transmitido ao vivo no X)
 - HEROIS (objeto): kit/roadster26
-- HEROIS (personagens): MUS
+- HEROIS (personagens): MUS, ENA
 - Cenarios: interior galpao, loc_estudio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/roadster26: 4.5 m reais -> escala 1.36 (estava 1.0: pequeno demais)

@@ -51,36 +51,28 @@
  "beats": [
   {
    "who": [
-    "MUS:0:grin"
+    "MUS:0:grin",
+    "ENA:0:surprised"
    ],
    "say": "Elon Musk prometeu um carro que voa. E, diante de convidados, o carro dele saiu do chão.",
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     -8.0,
-     1.36,
-     {
-      "fixo": true
-     }
+     0,
+     -4.0,
+     1.0
     ],
     [
      "kit/torre_luz",
-     7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     -10,
+     -9,
+     1.2
     ],
     [
      "kit/torre_luz",
-     -7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     11,
+     -10,
+     1.2
     ]
    ],
    "set": "loc_pista",
@@ -96,21 +88,9 @@
      }
     ]
    },
-   "crowd": {
-    "n": 0
-   },
-   "_susp_ok": true,
-   "shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide",
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -171,7 +151,7 @@
     ],
     [
      "kit/torre_luz",
-     -7.0,
+     11.0,
      -14.0,
      1.2,
      {
@@ -225,7 +205,7 @@
      },
      {
       "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, esquerda",
+      "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
@@ -339,41 +319,42 @@
     "MUS:0:grin"
    ],
    "shot": "wide",
+   "h": 4.4,
+   "d0": 25,
+   "d1": 23,
    "say": "Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     -8.0,
-     1.36,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/torre_luz",
-     7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/torre_luz",
+     0,
      -7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     1.0
+    ],
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
     ]
    ],
    "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
+   "cx": -1.5,
+   "cz": -7.0,
    "crowd": {
-    "n": 0
+    "n": 10,
+    "outfits": [
+     "POV",
+     "ENG"
+    ],
+    "march": false
    },
    "encena": {
     "sentido": "afirmativa",
@@ -384,13 +365,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide",
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -421,41 +395,41 @@
     "ENA:0:shock"
    ],
    "shot": "wide",
+   "h": 4.4,
+   "d0": 25,
+   "d1": 23,
    "say": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     -8.0,
-     1.36,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/torre_luz",
-     7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/torre_luz",
+     0,
      -7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     1.0
+    ],
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
     ]
    ],
    "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
+   "cx": -1.5,
+   "cz": -7.0,
    "crowd": {
-    "n": 0
+    "n": 0,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
    },
    "encena": {
     "sentido": "afirmativa",
@@ -466,13 +440,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide",
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -506,17 +473,14 @@
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     -8.0,
-     1.36,
-     {
-      "fixo": true
-     }
+     -4,
+     -5.0,
+     1.0
     ],
     [
      "kit/cybercab",
-     7.0,
-     -14.0,
+     3.5,
+     -9.5,
      1.5,
      {
       "fixo": true
@@ -524,8 +488,8 @@
     ],
     [
      "kit/cybercab",
-     -7.0,
-     -14.0,
+     9.0,
+     -9.5,
      1.5,
      {
       "fixo": true
@@ -533,31 +497,25 @@
     ],
     [
      "kit/cybertruck",
-     -7.0,
-     -14.0,
+     14.5,
+     -9.5,
      1.25,
      {
-      "ry": 1.5708,
-      "fixo": true
+      "fixo": true,
+      "ry": 1.5708
      }
     ],
     [
      "kit/torre_luz",
-     -7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     -10,
+     -9,
+     1.2
     ],
     [
      "kit/torre_luz",
-     -7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     11,
+     -12,
+     1.2
     ]
    ],
    "set": "loc_pista",
@@ -571,21 +529,9 @@
      }
     ]
    },
-   "shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "wide",
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -607,7 +553,7 @@
      },
      {
       "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, esquerda",
+      "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      },
@@ -619,7 +565,7 @@
      },
      {
       "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, esquerda",
+      "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
@@ -650,18 +596,16 @@
   },
   {
    "who": [
-    "ENG:0:suspicious"
+    "ENG:0:suspicious",
+    "ENA:0:bored"
    ],
    "say": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     -8.0,
-     1.36,
-     {
-      "fixo": true
-     }
+     1.6,
+     -0.8,
+     1.0
     ]
    ],
    "interior": "galpao",
@@ -674,21 +618,9 @@
      }
     ]
    },
-   "shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "wide",
-   "detalhe": false,
    "quadro": {
     "local": "galpao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -707,12 +639,9 @@
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     -8.0,
-     1.36,
-     {
-      "fixo": true
-     }
+     1.6,
+     -0.8,
+     1.0
     ]
    ],
    "interior": "galpao",
@@ -725,21 +654,9 @@
      }
     ]
    },
-   "shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "wide",
-   "detalhe": false,
    "quadro": {
     "local": "galpao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -815,5 +732,5 @@
  "herois_nomes": {
   "kit/roadster26": "Tesla Roadster prototype"
  },
- "max_wide": 7
+ "max_wide": 3
 }

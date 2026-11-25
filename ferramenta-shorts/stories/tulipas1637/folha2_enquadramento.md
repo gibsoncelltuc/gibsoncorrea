@@ -16,9 +16,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO buildings/windmill: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.7 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO buildings/windmill: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.7 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: HOLANDA (cobre a tela 1-2 s)
 
 ## b2: "Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil."

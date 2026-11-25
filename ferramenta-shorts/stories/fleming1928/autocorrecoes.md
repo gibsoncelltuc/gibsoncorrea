@@ -36,3 +36,17 @@
 ## 25/11 01:44 autocorrecao de visibilidade
 - b6: objeto "kit/bancada" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b6: objeto "kit/petri" saiu com 6% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 03:05 autocorrecao de visibilidade
+- b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b0: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b5: objeto citado "kit/gosma" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b0: objeto "kit/bancada" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b5: objeto "kit/gosma" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+- b6: objeto "kit/bancada" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b6: objeto "kit/petri" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 03:05 autocorrecao de visibilidade
+- b5: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho

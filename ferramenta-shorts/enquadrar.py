@@ -67,6 +67,7 @@ for k, b in enumerate(BT):
     principal = next((q for q in objs if HEROI and fam(q[0]) == fam(HEROI)), None) or next((q for q in objs if re.sub(r'[^a-z]', '', str(q[0]).split('/')[-1])[:5] in re.sub(r'[^a-z]', '', t)), None) or (objs[0] if objs else None)
     fichas = []; cena = {}; plano_extra = None
     manual = b.get('quadro_manual') or b.get('veiculo') or b.get('montado') or SO_DESC
+    manual = manual or any(VEIC.search(str(q[0])) and not (len(q) > 4 and isinstance(q[4], dict) and (q[4].get('fixo') or q[4].get('carregado'))) for q in objs)   # 25/11 (Roadster): veiculo que ANIMA (sem 'fixo' no roteiro: sobe rampa, voa, pousa) nao e' reenquadrado; marcar 'fixo' matava a animacao
     usados_x = []
     for p in sorted(objs, key=lambda q: q is not principal):
         a = str(p[0]); s0 = float(p[3]) if len(p) > 3 else 1.0; ex = dict(p[4]) if len(p) > 4 and isinstance(p[4], dict) else {}
@@ -78,7 +79,7 @@ for k, b in enumerate(BT):
         if VEIC.search(a) and re.search(CHEGA, t): estado = 'chegando'
         elif VEIC.search(a) and re.search(SAI, t): estado = 'indo embora'
         if grande:
-            lugar = 'FUNDO'; z = -max(8.0, L * 0.35 + 4.0) - (0 if eh_p else 6.0); x = 0.0 if eh_p else (7.0 if 7.0 not in usados_x else -7.0)
+            lugar = 'FUNDO'; z = -max(8.0, L * 0.35 + 4.0) - (0 if eh_p else 6.0); x = 0.0 if eh_p else next((v_ for v_ in (7.0, -7.0, 11.0, -11.0, 15.0, -15.0) if v_ not in usados_x), 18.0)   # 25/11: 3o objeto grande nao empilha no mesmo lugar
             Hv = H * (0.6 if re.search(r'navio|ship|boat|barco|submarino', a) else 1.0)   # navio/submarino: parte do casco fica dentro d'agua
             tela = 0.30 if eh_p else 0.18   # tela em pe (9:16): objeto comprido aparece de lado, com a ponta podendo sair do quadro; altura visivel ~30%
             if eh_p:
@@ -90,7 +91,7 @@ for k, b in enumerate(BT):
                 plano_extra = f'plano aberto mirando o {a.split("/")[-1]} (alvo z {cz}, camera a {num(d)} m, altura {h} m), ' + ('multidao ATRAS dos personagens, na frente do objeto' if _gente else 'sem multidao na frente')
             rel = f'{num(H)} m de altura x {num(L)} m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores'
         elif medio:
-            lugar = 'MEIO'; x = (2.4 if n_p <= 1 else 0.0) if eh_p else (3.6 if 3.6 not in usados_x else -3.6); z = (-1.2 if n_p > 1 else 0.2) if eh_p else -2.0
+            lugar = 'MEIO'; x = (2.4 if n_p <= 1 else 0.0) if eh_p else next((v_ for v_ in (3.6, -3.6, 5.4, -5.4, 7.2, -7.2) if v_ not in usados_x), 9.0); z = (-1.2 if n_p > 1 else 0.2) if eh_p else -2.0
             tela = 0.32
             if eh_p:
                 d = max(8.0 if n_p <= 1 else 11.5, min(22.0, max(H, PERS_H) / (2 * TANF * 0.62))); cena = {'cx': round(x * 0.5, 1), 'cz': round(z * 0.5, 1), 'd0': num(d * 1.05), 'd1': num(d)}
@@ -100,7 +101,7 @@ for k, b in enumerate(BT):
             lugar = 'FRENTE'; alvo_h = 0.75 if HEROI and fam(a) == fam(HEROI) else 0.55
             M_ = max(H, L); alvo_m = 1.1 if HEROI and fam(a) == fam(HEROI) else 0.8   # o tamanho le pela MAIOR medida (lagosta comprida ampliada pela altura ficava gigante)
             if M_ < alvo_m: f_ = alvo_m / M_; s = s * f_; H = H * f_; L = L * f_
-            x = (0.0 if n_p != 1 else 1.0) if eh_p else (-1.6 if -1.6 not in usados_x else 1.6); z = 1.0 if eh_p else 0.8; tela = round(H / (2 * TANF * 9.0), 2)
+            x = (0.0 if n_p != 1 else 1.0) if eh_p else next((v_ for v_ in (-1.6, 1.6, -2.8, 2.8, -4.0, 4.0) if v_ not in usados_x), 5.2); z = 1.0 if eh_p else 0.8; tela = round(H / (2 * TANF * 9.0), 2)
             rel = f'objeto pequeno ampliado para {num(H)} m (le de longe): NA FRENTE, {"entre os personagens" if eh_p else "ao lado"}, sem tapar rosto'
         usados_x.append(x)
         if estado == 'chegando': ex['mover'] = [num(x), num(z)]; x0, z0 = x - 7.0, z   # entra perto da borda (a -16 m o veiculo ficava fora do quadro quase a cena toda)

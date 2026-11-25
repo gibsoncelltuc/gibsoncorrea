@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | noite  | tropa | - | -
+b0 | two | noite  | - | - | -
 b1 | reveal | noite  | tropa, mapa | - | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | tropa | - | -
@@ -10,8 +10,8 @@ b4 | wide | noite  | tropa | - | -
 b5 | orbit | noite  | batalha aberta com tiros, tropa | - | -
 b6 | two | noite  | tropa | - | -
 b7 | two | -  | tropa | - | -
-b8 | two | -  | tropa, interior | - | -
-b9 | close | -  | tropa, interior | - | -
+b8 | two | -  | interior | - | -
+b9 | close | -  | interior | - | -
 b10 | two | -  | interior, placa: COMENTE! | - | -
 
 Mistura de planos: close 7% | medio 74% | aberto 19% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

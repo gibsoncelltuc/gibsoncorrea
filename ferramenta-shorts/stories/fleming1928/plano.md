@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | encena: examina (think) @1 (acao + som de efeito) | -
 b3 | wide | -  | batalha aberta com tiros, objeto na mao | encena: sai @3 (acao + som de efeito) | -
 b4 | two | -  | interior | encena: chega (point) @1 (acao + som de efeito); encena: olha (point) @2 (acao + som de efeito) | -
-b5 | group | -  | interior | encena: olha (point) @7 (acao + som de efeito) | -
+b5 | two | -  | interior | encena: olha (point) @7 (acao + som de efeito) | -
 b6 | two | -  | tropa, interior, placa: BACTÉRIAS SUMIRAM | - | -
 b7 | two | -  | tropa, interior | - | -
 b8 | group | -  | interior | (rosto) relief (expr + som de efeito) | -

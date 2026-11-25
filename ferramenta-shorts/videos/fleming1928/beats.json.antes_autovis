@@ -52,8 +52,8 @@
    "props": [
     [
      "kit/bancada",
-     1.6,
-     -1.0,
+     3.6,
+     -2.0,
      1.0,
      {
       "nocol": true,
@@ -117,12 +117,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "_auto_vis": 1
+   "d1": 11.5
   },
   {
    "say": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
@@ -207,8 +206,8 @@
    "props": [
     [
      "kit/bancada",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "nocol": true,
@@ -277,12 +276,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
@@ -293,8 +291,8 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     1.4,
+     3.6,
+     -2.0,
      2.0,
      {
       "nocol": true,
@@ -314,8 +312,8 @@
     ],
     [
      "kit/gosma",
-     0.6,
-     1.0,
+     -3.6,
+     -2.0,
      1.5,
      {
       "nocol": true,
@@ -326,7 +324,7 @@
    ],
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/petri",
@@ -342,8 +340,8 @@
      },
      {
       "objeto": "kit/gosma",
-      "lugar": "FRENTE, esquerda",
-      "tela": "5% da altura da tela",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -360,12 +358,11 @@
      }
     ]
    },
+   "_enq_shot": "group",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "wide",
-   "_auto_vis": 3
+   "d1": 8.0
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
@@ -391,9 +388,9 @@
    "props": [
     [
      "kit/bancada",
-     1.6,
-     -1.0,
-     1.0,
+     3.6,
+     -2.0,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -403,7 +400,7 @@
      "kit/petri",
      0.0,
      -1.2,
-     0.8,
+     2.0,
      {
       "nocol": true,
       "y": 0.95,
@@ -458,12 +455,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "_auto_vis": 1
+   "d1": 11.5
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",

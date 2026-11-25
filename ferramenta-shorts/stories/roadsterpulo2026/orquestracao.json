@@ -3,8 +3,8 @@
  "ano": 2026,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 91,
-  "acoes_chave_com_efeito": 50,
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
@@ -12,7 +12,8 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS"
+    "MUS",
+    "ENA"
    ],
    "multidao": 0,
    "objetos": [
@@ -22,9 +23,15 @@
    "palavras": 17,
    "cena": "b0",
    "frase": "Elon Musk prometeu um carro que voa. E, diante de convidados, o carro dele saiu do chão.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a camera acompanha",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -94,7 +101,7 @@
    "personagens": [
     "MUS"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
@@ -102,9 +109,15 @@
    "palavras": 17,
    "cena": "b4",
    "frase": "Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "acelera e sobe a rampa curva gigante ate ficar de cabeca para baixo",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -122,17 +135,15 @@
    "cena": "b5",
    "frase": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "classe": "chave",
-   "sujeito": "personagem",
+   "sujeito": "objeto",
    "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
+    "corpo": "se solta do topo, voa girando com o jato dos propulsores saindo de baixo e pousa numa nuvem branca (onda de ar no chao)",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
    },
-   "acoes_faltando": [
-    "voou"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
@@ -152,7 +163,13 @@
    "frase": "Depois decolou e voou, nos propulsores, por cima de veículos parados.",
    "classe": "chave",
    "sujeito": "objeto",
-   "briefing": {},
+   "briefing": {
+    "corpo": "decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a camera acompanha",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -179,7 +196,8 @@
   {
    "camera": "two",
    "personagens": [
-    "ENG"
+    "ENG",
+    "ENA"
    ],
    "multidao": 0,
    "objetos": [
