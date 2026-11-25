@@ -82,7 +82,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": true,
+   "detalhe": false,
    "bloco": "gancho",
    "say": "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
    "encena": {
@@ -98,9 +98,9 @@
    "titulo": true,
    "cx": 0.3,
    "cz": 0.1,
-   "h": 1.9,
-   "d0": 9.5,
-   "d1": 9.0,
+   "h": 2.0,
+   "d0": 11.0,
+   "d1": 10.5,
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -373,9 +373,9 @@
    "shot": "wide",
    "cx": 0.3,
    "cz": 0.1,
-   "h": 1.9,
-   "d0": 9.5,
-   "d1": 9.0,
+   "h": 2.0,
+   "d0": 11.0,
+   "d1": 10.5,
    "fachada": false,
    "_enq_shot": "wide",
    "quadro": {
