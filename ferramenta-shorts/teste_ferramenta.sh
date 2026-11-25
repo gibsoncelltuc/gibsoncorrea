@@ -220,7 +220,7 @@ grep -q "e.k === 'raio'" web/runtime.js && grep -q "k: 'raio'" mkvideo.py || f "
 grep -q "WX.hail = w.hail" web/weather.js && grep -q "gustMesh" web/weather.js && grep -q "'granizo': {'hail'" mkvideo.py && grep -q "'gelo': {'ice'" mkvideo.py && grep -q "TEMPESTADE: relampago no ceu de tempo em tempo" mkvideo.py || f "clima incompleto: granizo, gelo, vento forte visivel, relampago na tempestade"
 python3 -c "
 import glob,re
-bad=[f for f in glob.glob('web/*.js')+glob.glob('web/sets/*.js') if not f.endswith(('story.js','main.js','toon.js')) and re.search(r'[ \t]+/\*ADITIVO\*/|/\*FIM ADITIVO\*/\n(?!\s*\S)', open(f).read())]
+bad=[f for f in glob.glob('web/*.js')+glob.glob('web/sets/*.js') if not f.endswith(('story.js','main.js','toon.js')) and re.search(r'/\*FIM ADITIVO\*/\n(?!\s*\S)|\n[ \t]+/\*FIM ADITIVO\*/[ \t]+\S', open(f).read())]
 raise SystemExit(1 if bad else 0)" || f "marca ADITIVO com espaco/linha a mais muda o hash global (todos os videos re-renderizariam)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
