@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: PAS no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.9 m de altura x 4.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.3 m de altura x 6.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b1: "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: salao; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: PAS no centro, expressao relief; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.9 m de altura x 4.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.3 m de altura x 6.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40

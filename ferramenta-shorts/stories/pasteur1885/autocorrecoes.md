@@ -25,3 +25,10 @@
 
 ## 25/11 11:08 autocorrecao de visibilidade
 - b0: objeto "kit/syringe" saiu com 12% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+
+## 25/11 11:18 autocorrecao de visibilidade
+- b0: objeto "kit/syringe" saiu com 6% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b6: objeto "kit/syringe" saiu com 7% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 11:18 autocorrecao de visibilidade
+- b0: objeto "kit/syringe" saiu com 12% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
