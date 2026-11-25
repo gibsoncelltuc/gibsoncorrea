@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: relampago no ceu na palavra + trovao -> acao + som de efeito
 - Efeito visual marcado: stars@30, ring@60
 - Texto na tela: NOTÍCIA
 - Funcao na historia: GRANDE MOMENTO
