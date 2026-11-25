@@ -9,7 +9,7 @@ b1 | medieval | reveal | 10 | parados (so fala e pisca) | kit/bathtub | - | -
 b2 | interior pedra | two | 2 | reagir, INTERAGEM: discutir | kit/crown | - | -
 b3 | interior pedra | group | 2 | discutir, INTERAGEM: o outro se aproxima | - | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/crown | paper | -
-b5 | interior pedra | two | 1 | conversar, batalha | kit/bathtub | - | -
+b5 | interior pedra | two | 1 | conversar, alguem chega andando, batalha | kit/bathtub | - | -
 b6 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b7 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | medieval | orbit | 2 | reagir | kit/crown | - | -

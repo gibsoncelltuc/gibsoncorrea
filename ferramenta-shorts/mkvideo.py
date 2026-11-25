@@ -7,7 +7,7 @@ Cada "beat" = uma frase narrada + o que aparece na tela durante ela.  Veja video
 """
 import json, sys, os, re
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mapas')); import mapas as _MAPAS   # mapa de verdade (contorno real do pais)
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import sentido as _SENT   # 24/11: sentido da frase (sentido.py)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import sentido as _SENT; import encenacao as _ENC   # 25/11: encenacao escrita frase a frase (encenacao.py) | 24/11: sentido da frase (sentido.py)
 
 ID = sys.argv[1]
 MODO_CLI = None
@@ -985,9 +985,10 @@ for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se
     if re.search(r'marchav|marcharam|marchou|marchando|desfil', _sy) and _EXERC and not _b.get('crowd'): _b['crowd'] = {'n': 10, 'outfits': [([w_.split(':')[0] for w_ in _b.get('who', []) if w_.split(':')[0] in _EXERC] or _EXERC)[0]], 'march': True}
     if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao') and not re.search(_DANCA_OUTRO, _sy): _b['acao'] = 'dancar'
     if 'hora' not in _b and re.search(r'apagar|apagou|apagaram|escuridao|breu|semluz|blecaute|apagao', _sy): _b['hora'] = 'noite'
+_ENC.aplicar(B, slots, ZS)   # 25/11 ENCENACAO ESCRITA: a leitura da IA (sentido + passos) vira acoes/props/efeitos (a ferramenta executa, nao adivinha)
 for _b in beats:   # 25/11 BANHO (Gibson: "mostrar ele entrando na banheira, a agua transbordando"): quem entra na banheira SENTA dentro dela (borda na frente da cintura)
     _sb = nrm0x(_b['say'])
-    if re.search(r'banheira|tina|banho', _sb) and re.search(r'\b(entr|mergulh|sent|deit)\w*', _sb) and _b.get('who') and not _b.get('explica'):
+    if not _b.get('encena') and re.search(r'banheira|tina|banho', _sb) and re.search(r'\b(entr|mergulh|sent|deit)\w*', _sb) and _b.get('who') and not _b.get('explica'):
         _ti = next((i_ for i_, p_ in enumerate(_b.get('props') or []) if isinstance(p_, list) and re.search(r'bathtub|banheira|tina', str(p_[0]))), None)
         _x0 = slots(len(_b['who']))[0]; _tub = ['kit/bathtub', _x0, round(ZS[0] + 0.35, 2), 1.15, {'fixo': True, 'nocol': True}]   # nocol: o boneco entra NA banheira (a fisica nao empurra para fora)
         if _ti is None: _b.setdefault('props', []).append(_tub)
@@ -1231,7 +1232,7 @@ def build_beat(k, b):
         else:
             _pp = _px if _px else (", pose: 'react'" if ex in ('shock', 'nervous') else '' if (hold or shot in WIDE or b.get('acao') == 'nenhuma') else ", pose: 'talk'")   # ninguem fica so piscando: sem acao marcada, gesticula de leve
             if _pp and not _px: b['_acao'] = b.get('_acao') or ('reagir' if 'react' in _pp else 'conversar')
-            if _chega and i == len(persons) - 1 and len(persons) >= 2 and shot not in WIDE:   # CHEGADA: entra andando pela lateral e para no lugar
+            if (_chega and i == len(persons) - 1 and len(persons) >= 2 and shot not in WIDE and b.get('_anda_quem') is None) or b.get('_anda_quem') == i:   # 25/11 encena anda_ate: o personagem indicado entra andando   # CHEGADA: entra andando pela lateral e para no lugar
                 sd_ = 1 if dx >= 0 else -1; b['_chega'] = True
                 acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx + sd_ * 2.4)}, {num(z - 1.6)}], move: [[X + {num(dx)}, {num(z)}], {a}, Math.round({a} + Math.min(48, ({bb} - ({a})) * 0.3)), 'lin'], arrive: true, walk: {json.dumps('march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, look: {num(-0.4 if dx > 0 else 0.4)}, expr: {_exj(ex)}{ov} }}")
             else:
@@ -1589,6 +1590,12 @@ def build_beat(k, b):
         if _cid and not _semq: PLANO.append((k, f'tiros: {min(5, len(_cid[2::3]))} soldados caem no chao', 'acao'))
     # animacao nas palavras-chave: golpe de camera + efeito no instante da palavra
     kfx = 0
+    for _spw, _spa in (b.get('_splash_na') or []):   # 25/11 encena transborda: agua azul espirrando em volta da borda do recipiente, na palavra
+        _spj = next((j_ for j_, w_ in enumerate(b['say'].split()) if nrm(w_) == nrm(_spw) or (nrm(_spw) and nrm(_spw) in nrm(w_))), 0); _spi = starts[k] + _spj
+        _spp = next((p_ for p_ in (b.get('props') or []) if isinstance(p_, list) and str(p_[0]) == str(_spa)), None); _sx, _sz = (float(_spp[1]), float(_spp[2])) if _spp else (sl[0] if n else 0.0, 1.2)
+        for _q, (_ox, _oz) in enumerate(((-0.7, 0.2), (0.7, 0.2), (0.0, 0.5), (-0.4, -0.2), (0.4, -0.2))):
+            fx.append(f"{{ k: 'splash', a: WS({_spi}) + {_q * 4}, b: WS({_spi}) + {40 + _q * 4}, at: [X + {num(_sx + _ox)}, DK + 0.75, {num(_sz + _oz)}], s: 1.0 }}")
+        KWSFX.append((_spi, 'thump'))
     if b.get('kw') is not False:
         _ngK = _neg_idx(b['say'])
         for j, w in enumerate(b['say'].split()):
@@ -2262,6 +2269,10 @@ for k, b in enumerate(beats):
             '- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ' + (', '.join(sorted({w_ for a_, w_ in re.findall(r'\b(um|uma|o|a|os|as|do|da|dos|das|no|na|nos|nas|de|com) ([a-z]{4,})\b', _nz(b['say'])) if w_ not in _STOPW})[:10]) or '-'),
             '- RISCOS: ' + ('nenhum' if not R else ''), *[f'  - {r} -> CORRECAO: {c}' for r, c in R], '']
 _glob = []
+_ENC_R = _ENC.validar(B)   # 25/11: a leitura escrita de cada frase e' conferida na APROVACAO do storyboard (aprovar_storyboard.sh recusa sem ela); FALTA ANIMACAO trava ja
+os.makedirs(f'stories/{ID}', exist_ok=True); open(f'stories/{ID}/encenacao_falta.txt', 'w').write(''.join(f'b{i_} {m_}\n' for i_, m_ in _ENC_R))
+for _i_e, _m_e in _ENC_R:
+    if 'FALTA ANIMACAO' in _m_e or 'contradicao' in _m_e: _glob.append((f'b{_i_e} {_m_e}', 'construir a animacao na ferramenta / corrigir o "encena"'))
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))
 if sum(1 for b in beats if b.get('impact') or b.get('_veic_anim') or b.get('explica')) < int(B.get('min_momentos', 2)): _glob.append(('menos de 2 grandes momentos', '"impact": true em duas cenas de acao ("batalha": true SO\' se a frase for de luta de verdade)'))
 if HEROI and not any(b.get('_det_heroi') or b.get('explica') or b.get('_voo_cam') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
@@ -2447,6 +2458,7 @@ for k, b in enumerate(beats):
     _ntot += len(_rows) + len(_fal); _nok += len(_rows); _nfal += len(_fal)
     _f3 += [f'## Cena b{k} - {_tseg(starts[k]):.1f}s a {_tseg(starts[k] + max(0, len(_ws3) - 1)):.1f}s - {len(_ws3)} palavras - plano {b.get("shot")}', f'> "{b["say"]}"', '',
             '| # | palavra (instante) | acao catalogada | animacao executada | ok? |', '|---|---|---|---|---|']
+    _f3[-2:-2] = _ENC.ficha(b, lambda w_: _tseg(starts[k] + next((j_ for j_, x_ in enumerate(_ws3) if nrm(x_) == nrm(w_) or nrm(w_) in nrm(x_)), 0))) + ([''] if b.get('encena') else [])
     for n_, (j_, w_, tp_, an_) in enumerate(sorted(_rows, key=lambda r_: (r_[0] is None, r_[0] or 0)), 1):
         _f3.append(f'| {n_} | {w_}' + (f' ({_tseg(starts[k] + j_):.1f}s)' if j_ is not None else '') + f' | {tp_} | {an_} | OK |')
     for w_ in _fal: _f3.append(f'| ! | {w_} | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |')
