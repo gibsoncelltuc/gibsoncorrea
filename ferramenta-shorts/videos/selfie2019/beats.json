@@ -97,7 +97,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "tira",
+      "na": "tirar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -118,6 +128,15 @@
      "POV"
     ],
     "march": false
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Assembleia"
+     }
+    ]
    }
   },
   {
@@ -130,7 +149,16 @@
    "objetos": false,
    "say": "Ali, líderes fazem discursos longos e sérios.",
    "interior": "pedra",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "discursos"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -142,7 +170,26 @@
    "objetos": false,
    "say": "O presidente de El Salvador, Nayib Bukele, tinha trinta e oito anos.",
    "interior": "loja",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trinta"
+     }
+    ]
+   },
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 38,
+     "un": " anos",
+     "titulo": "IDADE DO PRESIDENTE",
+     "na": "trinta",
+     "dur": 1.2
+    }
+   }
   },
   {
    "shot": "two",
@@ -196,7 +243,22 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "pediu",
+      "quem": 0
+     },
+     {
+      "faz": "tira",
+      "na": "tirou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -259,7 +321,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "tira",
+      "na": "tirou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -301,7 +373,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "explicou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -319,7 +401,17 @@
    },
    "impact": false,
    "tiros": false,
-   "set": "hall"
+   "set": "hall",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "avisou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -330,7 +422,17 @@
    "objetos": false,
    "say": "Propôs que líderes gravassem vídeos de seus discursos, e um concurso de ideias para jovens.",
    "interior": "loja",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "Propôs",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -361,7 +463,16 @@
    "say": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
    "fachada": false,
    "tiros": false,
-   "objetos": false
+   "objetos": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rodou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -401,7 +512,16 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "virou"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

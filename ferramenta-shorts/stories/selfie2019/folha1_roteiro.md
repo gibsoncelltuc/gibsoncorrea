@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@40
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @5 -> acao + som de efeito; encena: tira (lift) @11 -> acao + som de efeito; encena: x_fone (lift) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @5 -> acao + som de efeito; encena: tira (lift) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Depois explicou: o mundo novo está onde essa foto vai parar, na internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito; encena: tira (lift) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: A selfie rodou o mundo, e o discurso ficou em segundo plano.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: tira (lift) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: SELFIE
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Um segundo de selfie, e a ONU virou assunto.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
