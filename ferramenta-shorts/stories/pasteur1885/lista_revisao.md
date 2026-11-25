@@ -4,8 +4,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b7: objeto "kit/seringa_pe" saiu com 16% da altura da tela, a ficha de cena planejou 32%
-3. b9: objeto "kit/bancada" saiu com 15% da altura da tela, a ficha de cena planejou 32%
+2. b9: objeto "kit/bancada" saiu com 15% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um menino de nove anos foi o primeiro vacinado contra a raiv": 

@@ -1,1 +1,2 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (18 tomadas)
+VISIBILIDADE: 1 FALHA(S)
+FALHA b4: objeto citado "kit/bisturi" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

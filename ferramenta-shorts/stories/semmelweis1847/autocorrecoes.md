@@ -32,3 +32,6 @@
 
 ## 25/11 17:50 autocorrecao de visibilidade
 - b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 18:04 autocorrecao de visibilidade
+- b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bisturi" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

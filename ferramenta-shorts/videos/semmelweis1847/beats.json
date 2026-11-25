@@ -278,7 +278,31 @@
    "cz": -0.3,
    "h": 1.8,
    "d0": 12.5,
-   "d1": 12.0
+   "d1": 12.0,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -333,7 +357,25 @@
    "cz": -0.4,
    "h": 1.8,
    "d0": 11.0,
-   "d1": 10.5
+   "d1": 10.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bisturi",
+      "lugar": "FRENTE, esquerda",
+      "tela": "1% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -608,5 +650,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos e foi expulso; hoje e' o salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 5
 }
