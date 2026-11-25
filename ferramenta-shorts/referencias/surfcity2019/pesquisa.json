@@ -6,7 +6,7 @@
    "item": "A Cidade do Surfe",
    "consultas": [
     "A Cidade do Surfe",
-    "Em Nayib Bukele Surf City El Salvador La Libertad Punta Roca El Sunzal Em Mundia 2019"
+    "Um Em Nayib Bukele Surf City Punta Roca El Sunzal Em Mundial Surfe 2019"
    ],
    "achados": [
     {
@@ -19,6 +19,15 @@
      "consulta": "A Cidade do Surfe"
     },
     {
+     "titulo": "Joaquina (3494288540).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Joaquina_%283494288540%29.jpg/500px-Joaquina_%283494288540%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJoaquina_%283494288540%29.jpg",
+     "descricao": "You must give appropriate credit, provide \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/surfcity2019/prints/a_cidade_do_surfe_cb2955.jpg",
+     "consulta": "A Cidade do Surfe"
+    },
+    {
      "titulo": "Joaquina (3494264460).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Joaquina_%283494264460%29.jpg/500px-Joaquina_%283494264460%29.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AJoaquina_%283494264460%29.jpg",
@@ -26,15 +35,43 @@
      "ordem": 4,
      "print": "referencias/surfcity2019/prints/a_cidade_do_surfe_3ab1d2.jpg",
      "consulta": "A Cidade do Surfe"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de",
+   "consultas": [
+    "La Libertad El Salvador",
+    "La Libertad El Salvador 2019"
+   ],
+   "achados": [
+    {
+     "titulo": "MALECON DEL PUERTO DE LA LIBERTAD. - panoramio.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/MALECON_DEL_PUERTO_DE_LA_LIBERTAD._-_panoramio.jpg/500px-MALECON_DEL_PUERTO_DE_LA_LIBERTAD._-_panoramio.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMALECON_DEL_PUERTO_DE_LA_LIBERTAD._-_panoramio.jpg",
+     "descricao": "DescriptionMALECON DEL PUERTO DE \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/surfcity2019/prints/la_libertad_el_salvador_praias_de_el_sun_2ccef1.jpg",
+     "consulta": "La Libertad El Salvador"
     },
     {
-     "titulo": "Joaquina (3494288540).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Joaquina_%283494288540%29.jpg/500px-Joaquina_%283494288540%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AJoaquina_%283494288540%29.jpg",
-     "descricao": "You must give appropriate credit, provide \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/surfcity2019/prints/a_cidade_do_surfe_cb2955.jpg",
-     "consulta": "A Cidade do Surfe"
+     "titulo": "Playa la-libertad El-Salvador.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Playa_la-libertad_El-Salvador.jpg/500px-Playa_la-libertad_El-Salvador.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APlaya_la-libertad_El-Salvador.jpg",
+     "descricao": "DescriptionPlaya \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/surfcity2019/prints/la_libertad_el_salvador_praias_de_el_sun_f389e7.jpg",
+     "consulta": "La Libertad El Salvador"
+    },
+    {
+     "titulo": "EL PUERTO DE LA LIBERTAD, EL SALVADOR. - panoramio.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/EL_PUERTO_DE_LA_LIBERTAD%2C_EL_SALVADOR._-_panoramio.jpg/500px-EL_PUERTO_DE_LA_LIBERTAD%2C_EL_SALVADOR._-_panoramio.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEL_PUERTO_DE_LA_LIBERTAD%2C_EL_SALVADOR._-_panoramio.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/surfcity2019/prints/la_libertad_el_salvador_praias_de_el_sun_935b3f.jpg",
+     "consulta": "La Libertad El Salvador"
     }
    ]
   },
@@ -47,21 +84,30 @@
    ],
    "achados": [
     {
+     "titulo": "El Salvador Palestine Locator.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/El_Salvador_Palestine_Locator.png/500px-El_Salvador_Palestine_Locator.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEl_Salvador_Palestine_Locator.png",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English Map showing the locations of both \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/surfcity2019/prints/el_salvador_8a30ed.jpg",
+     "consulta": "El Salvador 2019"
+    },
+    {
+     "titulo": "Marcha politica De El PCN. Durante los Comisios Presidenciales de El Salvador 2019.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Marcha_politica_De_El_PCN._Durante_los_Comisios_Presidenciales_de_El_Salvador_2019.jpg/500px-Marcha_politica_De_El_PCN._Durante_los_Comisios_Presidenciales_de_El_Salvador_2019.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMarcha_politica_De_El_PCN._Durante_los_Comisios_Presidenciales_de_El_Salvador_2019.jpg",
+     "descricao": "presidential comission at \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/surfcity2019/prints/el_salvador_705b33.jpg",
+     "consulta": "El Salvador 2019"
+    },
+    {
      "titulo": "Editatona El Salvador 2019.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Editatona_El_Salvador_2019.jpg/500px-Editatona_El_Salvador_2019.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AEditatona_El_Salvador_2019.jpg",
      "descricao": "DescriptionEditatona \\u003Cspan class=\\",
      "ordem": 4,
      "print": "referencias/surfcity2019/prints/el_salvador_fc0ce0.jpg",
-     "consulta": "El Salvador 2019"
-    },
-    {
-     "titulo": "Canal 10 (El Salvador) 2019.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Canal_10_%28El_Salvador%29_2019.png/500px-Canal_10_%28El_Salvador%29_2019.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACanal_10_%28El_Salvador%29_2019.png",
-     "descricao": "English used by: Televisión de \\u003Cspan class=\\",
-     "ordem": 12,
-     "print": "referencias/surfcity2019/prints/el_salvador_13b0ac.jpg",
      "consulta": "El Salvador 2019"
     }
    ]
@@ -74,6 +120,15 @@
     "2019 street photograph"
    ],
    "achados": [
+    {
+     "titulo": "Camp - Notes on Fashion at the Met - Burberry rainbow cape (73854).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Camp_-_Notes_on_Fashion_at_the_Met_-_Burberry_rainbow_cape_%2873854%29.jpg/500px-Camp_-_Notes_on_Fashion_at_the_Met_-_Burberry_rainbow_cape_%2873854%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACamp_-_Notes_on_Fashion_at_the_Met_-_Burberry_rainbow_cape_%2873854%29.jpg",
+     "descricao": "on \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/surfcity2019/prints/roupas_e_ruas_de_2019_d85c36.jpg",
+     "consulta": "2019 fashion clothing"
+    },
     {
      "titulo": "Camp - Notes on Fashion at the Met - Moschino (73834).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Camp_-_Notes_on_Fashion_at_the_Met_-_Moschino_%2873834%29.jpg/500px-Camp_-_Notes_on_Fashion_at_the_Met_-_Moschino_%2873834%29.jpg",
@@ -91,52 +146,265 @@
      "ordem": 3,
      "print": "referencias/surfcity2019/prints/roupas_e_ruas_de_2019_c6c141.jpg",
      "consulta": "2019 fashion clothing"
-    },
-    {
-     "titulo": "Balaclava as suggested fashion piece for winter 2018 - modelled by ModelTanja.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Balaclava_as_suggested_fashion_piece_for_winter_2018_-_modelled_by_ModelTanja.jpg/500px-Balaclava_as_suggested_fashion_piece_for_winter_2018_-_modelled_by_ModelTanja.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABalaclava_as_suggested_fashion_piece_for_winter_2018_-_modelled_by_ModelTanja.jpg",
-     "descricao": "demonstrating one \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/surfcity2019/prints/roupas_e_ruas_de_2019_4148a9.jpg",
-     "consulta": "2019 fashion clothing"
     }
    ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Nayib Bukele (jaqueta escura, bone)",
+   "consultas": [
+    "Nayib Bukele jaqueta escura bone",
+    "Nayib Bukele jaqueta escura bone 2019"
+   ],
+   "achados": [
+    {
+     "titulo": "Nayib Bukele and Karim Bukele.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Nayib_Bukele_and_Karim_Bukele.png/500px-Nayib_Bukele_and_Karim_Bukele.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANayib_Bukele_and_Karim_Bukele.png",
+     "descricao": "org/licenses/by/3.0CC BY 3.0 Creative Commons Attribution 3.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/surfcity2019/prints/nayib_bukele_jaqueta_escura_bone__427ebe.jpg",
+     "consulta": "Nayib Bukele"
+    },
+    {
+     "titulo": "Nayib Bukele and the armed forces in 2019 (E0A1211).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nayib_Bukele_and_the_armed_forces_in_2019_%28E0A1211%29.jpg/500px-Nayib_Bukele_and_the_armed_forces_in_2019_%28E0A1211%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANayib_Bukele_and_the_armed_forces_in_2019_%28E0A1211%29.jpg",
+     "descricao": "13 August 2025 English \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/surfcity2019/prints/nayib_bukele_jaqueta_escura_bone__24bbfc.jpg",
+     "consulta": "Nayib Bukele"
+    },
+    {
+     "titulo": "Nayib Bukele and the armed forces in 2019 (E0A1119).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nayib_Bukele_and_the_armed_forces_in_2019_%28E0A1119%29.jpg/500px-Nayib_Bukele_and_the_armed_forces_in_2019_%28E0A1119%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANayib_Bukele_and_the_armed_forces_in_2019_%28E0A1119%29.jpg",
+     "descricao": "13 August 2025 English \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/surfcity2019/prints/nayib_bukele_jaqueta_escura_bone__11b7da.jpg",
+     "consulta": "Nayib Bukele"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "surfistas com prancha",
+   "consultas": [
+    "surfistas com prancha",
+    "surfistas com prancha 2019"
+   ],
+   "achados": [
+    {
+     "titulo": "Surfboard designer Simon Anderson (2017) in in Huntington Beach, California. Photo by Ithaka Darin Pappas.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Surfboard_designer_Simon_Anderson_%282017%29_in_in_Huntington_Beach%2C_California._Photo_by_Ithaka_Darin_Pappas.jpg/500px-Surfboard_designer_Simon_Anderson_%282017%29_in_in_Huntington_Beach%2C_California._Photo_by_Ithaka_Darin_Pappas.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASurfboard_designer_Simon_Anderson_%282017%29_in_in_Huntington_Beach%2C_California._Photo_by_Ithaka_Darin_Pappas.jpg",
+     "descricao": "é um \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/surfcity2019/prints/surfistas_com_prancha_98967d.jpg",
+     "consulta": "surfistas com prancha"
+    },
+    {
+     "titulo": "272-foto-de-snowboard.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/272-foto-de-snowboard.jpg/500px-272-foto-de-snowboard.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A272-foto-de-snowboard.jpg",
+     "descricao": "Description272-foto-de-\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/surfcity2019/prints/surfistas_com_prancha_654cdb.jpg",
+     "consulta": "surfistas prancha"
+    },
+    {
+     "titulo": "Snowboarding (cropped).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Snowboarding_%28cropped%29.jpg/500px-Snowboarding_%28cropped%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASnowboarding_%28cropped%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/surfcity2019/prints/surfistas_com_prancha_e37a48.jpg",
+     "consulta": "surfistas prancha"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas",
+   "consultas": [
+    "jornalistas",
+    "jornalistas 2019"
+   ],
+   "achados": [
+    {
+     "titulo": "Lidenilson Delfino jornalista.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lidenilson_Delfino_jornalista.png/500px-Lidenilson_Delfino_jornalista.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALidenilson_Delfino_jornalista.png",
+     "descricao": "hereby publish it under the following license: English Lidenilson Delfino \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/surfcity2019/prints/jornalistas_d45637.jpg",
+     "consulta": "jornalistas"
+    },
+    {
+     "titulo": "Jornalista Maristela Crispim.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jornalista_Maristela_Crispim.jpg/500px-Jornalista_Maristela_Crispim.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJornalista_Maristela_Crispim.jpg",
+     "descricao": "truetrue English Portuguese Maristela Crispim (Rio de Janeiro, 12 de junho de 1970) é uma \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/surfcity2019/prints/jornalistas_6b86fc.jpg",
+     "consulta": "jornalistas"
+    },
+    {
+     "titulo": "Landes wla bfkuu denkmayr 0192 (35381936821).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Landes_wla_bfkuu_denkmayr_0192_%2835381936821%29.jpg/500px-Landes_wla_bfkuu_denkmayr_0192_%2835381936821%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALandes_wla_bfkuu_denkmayr_0192_%2835381936821%29.jpg",
+     "descricao": "This file is licensed under the Creative Commons Attribution 2.0 Generic license. You are free: to share – to copy, distribute and transmit the work to",
+     "ordem": 6,
+     "print": "referencias/surfcity2019/prints/jornalistas_845be2.jpg",
+     "consulta": "jornalistas"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores da costa",
+   "consultas": [
+    "moradores da costa",
+    "moradores da costa 2019"
+   ],
+   "achados": [
+    {
+     "titulo": "Moradores são atendimentos por profissionais de saúde na Escola Municipal Presidente Costa e Silva, em Paricatuba (AM) (8030647302).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Moradores_s%C3%A3o_atendimentos_por_profissionais_de_sa%C3%BAde_na_Escola_Municipal_Presidente_Costa_e_Silva%2C_em_Paricatuba_%28AM%29_%288030647302%29.jpg/500px-Moradores_s%C3%A3o_atendimentos_por_profissionais_de_sa%C3%BAde_na_Escola_Municipal_Presidente_Costa_e_Silva%2C_em_Paricatuba_%28AM%29_%288030647302%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMoradores_s%C3%A3o_atendimentos_por_profissionais_de_sa%C3%BAde_na_Escola_Municipal_Presidente_Costa_e_Silva%2C_em_Paricatuba_%28AM%29_%288030647302%29.jpg",
+     "descricao": "https://www.flickr.com/people/77712181@N07 author name string: Ministério \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/surfcity2019/prints/moradores_da_costa_fdf02f.jpg",
+     "consulta": "moradores da costa"
+    },
+    {
+     "titulo": "Imigrante da Costa do Marfim no Brás, São Paulo.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Imigrante_da_Costa_do_Marfim_no_Br%C3%A1s%2C_S%C3%A3o_Paulo.jpg/500px-Imigrante_da_Costa_do_Marfim_no_Br%C3%A1s%2C_S%C3%A3o_Paulo.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AImigrante_da_Costa_do_Marfim_no_Br%C3%A1s%2C_S%C3%A3o_Paulo.jpg",
+     "descricao": "Brazilian Portuguese Konan Gautier Kouadio, imigrante \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/surfcity2019/prints/moradores_da_costa_eed504.jpg",
+     "consulta": "moradores da costa"
+    },
+    {
+     "titulo": "Nossa Senhora do Livramento do teto da nave igreja matriz das Achadas da Cruz, reconstrução de 1920 (c) e seguintes - Image 123154.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Nossa_Senhora_do_Livramento_do_teto_da_nave_igreja_matriz_das_Achadas_da_Cruz%2C_reconstru%C3%A7%C3%A3o_de_1920_%28c%29_e_seguintes_-_Image_123154.jpg/500px-Nossa_Senhora_do_Livramento_do_teto_da_nave_igreja_matriz_das_Achadas_da_Cruz%2C_reconstru%C3%A7%C3%A3o_de_1920_%28c%29_e_seguintes_-_Image_123154.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANossa_Senhora_do_Livramento_do_teto_da_nave_igreja_matriz_das_Achadas_da_Cruz%2C_reconstru%C3%A7%C3%A3o_de_1920_%28c%29_e_seguintes_-_Image_123154.jpg",
+     "descricao": "cobertura de palha e não tendo no altar \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/surfcity2019/prints/moradores_da_costa_5a5314.jpg",
+     "consulta": "moradores da costa"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pranchas de surfe",
+   "consultas": [
+    "pranchas de surfe",
+    "pranchas de surfe 2019"
+   ],
+   "achados": [
+    {
+     "titulo": "2010 mavericks competition edit1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2010_mavericks_competition_edit1.jpg/500px-2010_mavericks_competition_edit1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A2010_mavericks_competition_edit1.jpg",
+     "descricao": "(photog) never even got any pictures he was so sick.\\u0026quot; Français : Compétition \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/surfcity2019/prints/pranchas_de_surfe_a86852.jpg",
+     "consulta": "pranchas de surfe"
+    },
+    {
+     "titulo": "California surfer inside wave.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/California_surfer_inside_wave.jpg/500px-California_surfer_inside_wave.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACalifornia_surfer_inside_wave.jpg",
+     "descricao": "Californie. La côte du nord californien est réputée pour ses spots \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/surfcity2019/prints/pranchas_de_surfe_89efa8.jpg",
+     "consulta": "pranchas de surfe"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "placa Surf City",
+   "consultas": [
+    "placa Surf City",
+    "placa Surf City 2019"
+   ],
+   "achados": [
+    {
+     "titulo": "North Shore Drive, Surf City (May 2023) 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/North_Shore_Drive%2C_Surf_City_%28May_2023%29_01.jpg/500px-North_Shore_Drive%2C_Surf_City_%28May_2023%29_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANorth_Shore_Drive%2C_Surf_City_%28May_2023%29_01.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/surfcity2019/prints/placa_surf_city_c53209.jpg",
+     "consulta": "Surf City"
+    },
+    {
+     "titulo": "Goldsboro Avenue, Surf City (May 2023) 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Goldsboro_Avenue%2C_Surf_City_%28May_2023%29_01.jpg/500px-Goldsboro_Avenue%2C_Surf_City_%28May_2023%29_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGoldsboro_Avenue%2C_Surf_City_%28May_2023%29_01.jpg",
+     "descricao": "DescriptionGoldsboro Avenue, \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/surfcity2019/prints/placa_surf_city_fb4878.jpg",
+     "consulta": "Surf City"
+    },
+    {
+     "titulo": "North Carolina Highway 210 in Surf City (May 2023) 07.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/North_Carolina_Highway_210_in_Surf_City_%28May_2023%29_07.jpg/500px-North_Carolina_Highway_210_in_Surf_City_%28May_2023%29_07.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANorth_Carolina_Highway_210_in_Surf_City_%28May_2023%29_07.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/surfcity2019/prints/placa_surf_city_09d11d.jpg",
+     "consulta": "Surf City"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "palanque de competicao",
+   "consultas": [
+    "palanque de competicao",
+    "palanque de competicao 2019"
+   ],
+   "achados": []
   },
   {
    "tipo": "heroi",
    "item": "surfboard",
    "consultas": [
-    "surfboard",
+    "pranchas de surfe",
     "A Cidade do Surfe"
    ],
    "achados": [
     {
+     "titulo": "2010 mavericks competition edit1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2010_mavericks_competition_edit1.jpg/500px-2010_mavericks_competition_edit1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A2010_mavericks_competition_edit1.jpg",
+     "descricao": "(photog) never even got any pictures he was so sick.\\u0026quot; Français : Compétition \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/surfcity2019/prints/surfboard_a86852.jpg",
+     "consulta": "pranchas de surfe"
+    },
+    {
      "titulo": "California surfer inside wave.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/California_surfer_inside_wave.jpg/500px-California_surfer_inside_wave.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ACalifornia_surfer_inside_wave.jpg",
-     "descricao": "Santa Cruz and the surrounding Northern California coastline is a popular \\u003Cspan class=\\",
+     "descricao": "Californie. La côte du nord californien est réputée pour ses spots \\u003Cspan class=\\",
      "ordem": 2,
      "print": "referencias/surfcity2019/prints/surfboard_89efa8.jpg",
-     "consulta": "surfboard"
+     "consulta": "pranchas de surfe"
     },
     {
      "titulo": "Interboot 2023, Friedrichshafen (P1130048).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Interboot_2023%2C_Friedrichshafen_%28P1130048%29.jpg/500px-Interboot_2023%2C_Friedrichshafen_%28P1130048%29.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AInterboot_2023%2C_Friedrichshafen_%28P1130048%29.jpg",
      "descricao": "select the license of your choice. English Demonstration of a motorized \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/surfcity2019/prints/surfboard_6e96c0.jpg",
-     "consulta": "surfboard"
-    },
-    {
-     "titulo": "Surfboard designer Simon Anderson (2017) in in Huntington Beach, California. Photo by Ithaka Darin Pappas.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Surfboard_designer_Simon_Anderson_%282017%29_in_in_Huntington_Beach%2C_California._Photo_by_Ithaka_Darin_Pappas.jpg/500px-Surfboard_designer_Simon_Anderson_%282017%29_in_in_Huntington_Beach%2C_California._Photo_by_Ithaka_Darin_Pappas.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASurfboard_designer_Simon_Anderson_%282017%29_in_in_Huntington_Beach%2C_California._Photo_by_Ithaka_Darin_Pappas.jpg",
-     "descricao": "org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English \\u003Cspan class=\\",
      "ordem": 4,
-     "print": "referencias/surfcity2019/prints/surfboard_98967d.jpg",
-     "consulta": "surfboard"
+     "print": "referencias/surfcity2019/prints/surfboard_6e96c0.jpg",
+     "consulta": "pranchas de surfe"
     }
    ]
   },
