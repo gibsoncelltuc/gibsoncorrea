@@ -176,9 +176,9 @@
    "props": [
     [
      "buildings/church",
-     0.0,
-     -14.0,
-     1.6,
+     2.5,
+     -9.0,
+     1.3,
      {
       "fixo": true
      }
@@ -222,10 +222,10 @@
    ],
    "shot_lock": true,
    "quadro_manual": true,
-   "cx": 0.0,
+   "cx": 0.8,
    "cz": -5.0,
    "h": 2.4,
-   "d0": 16.0,
+   "d0": 15.0,
    "d1": 13.0,
    "bloco": "prova",
    "say": "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",

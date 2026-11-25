@@ -23,7 +23,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: MEN (padre) na esquerda, expressao smile; FRE (padre) na direita, expressao neutral; sem multidao; acao: fala/gesto
-- OBJETO buildings/church: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 25.6 m de altura x 19.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO buildings/church: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 20.8 m de altura x 16.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/pe_ervilha: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pe_ervilha: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pe_ervilha: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
