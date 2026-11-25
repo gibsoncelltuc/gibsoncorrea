@@ -1,45 +1,143 @@
 {
  "fails": [
   {
-   "f": 1340,
-   "shot": "b7~3",
+   "f": 68,
+   "shot": "b0_d",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 1344,
-   "shot": "b7~3",
+   "f": 71,
+   "shot": "b0_d",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 1345,
-   "shot": "b7~3",
+   "f": 72,
+   "shot": "b0_d",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 1348,
-   "shot": "b7~3",
+   "f": 76,
+   "shot": "b0_d",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 1352,
-   "shot": "b7~3",
+   "f": 80,
+   "shot": "b0_d",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 1356,
-   "shot": "b7~3",
+   "f": 84,
+   "shot": "b0_d",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 88,
+   "shot": "b0_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 89,
+   "shot": "b0_v",
+   "why": [
+    "men: head/torso cropped (box -0.197, 0.178, 0.097, 0.593)"
+   ]
+  },
+  {
+   "f": 92,
+   "shot": "b0_v",
+   "why": [
+    "men: head/torso cropped (box -0.194, 0.181, 0.101, 0.596)"
+   ]
+  },
+  {
+   "f": 96,
+   "shot": "b0_v",
+   "why": [
+    "men: head/torso cropped (box -0.167, 0.198, 0.124, 0.612)"
+   ]
+  },
+  {
+   "f": 100,
+   "shot": "b0_v",
+   "why": [
+    "men: head/torso cropped (box -0.12, 0.234, 0.161, 0.644)"
+   ]
+  },
+  {
+   "f": 104,
+   "shot": "b0_v",
+   "why": [
+    "men: head/torso cropped (box -0.069, 0.282, 0.208, 0.689)"
+   ]
+  },
+  {
+   "f": 1588,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.8, 0.452, 1.04, 0.703)"
+   ]
+  },
+  {
+   "f": 1592,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.789, 0.451, 1.037, 0.713)"
+   ]
+  },
+  {
+   "f": 1596,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.778, 0.45, 1.034, 0.72)"
+   ]
+  },
+  {
+   "f": 1600,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.769, 0.449, 1.033, 0.725)"
+   ]
+  },
+  {
+   "f": 1604,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.768, 0.449, 1.033, 0.726)"
+   ]
+  },
+  {
+   "f": 1606,
+   "shot": "b10",
+   "why": [
+    "men: head/torso cropped (box 0.765, 0.449, 1.034, 0.727)"
+   ]
+  },
+  {
+   "f": 1607,
+   "shot": "b10~1",
+   "why": [
+    "men: head/torso cropped (box 0.765, 0.449, 1.033, 0.727)"
+   ]
+  },
+  {
+   "f": 1608,
+   "shot": "b10~1",
+   "why": [
+    "men: head/torso cropped (box 0.764, 0.449, 1.033, 0.727)"
    ]
   }
  ],
