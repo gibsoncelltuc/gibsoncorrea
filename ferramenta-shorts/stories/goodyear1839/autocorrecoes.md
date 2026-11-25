@@ -73,3 +73,10 @@
 
 ## 25/11 02:21 autocorrecao de visibilidade
 - b7: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 02:40 autocorrecao de visibilidade
+- b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b9: objeto citado "kit/tires" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b10: objeto citado "kit/tires" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/stove" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+- b9: objeto "kit/tires" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

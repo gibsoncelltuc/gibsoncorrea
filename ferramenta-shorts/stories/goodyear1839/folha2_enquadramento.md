@@ -41,7 +41,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
 - PERSONAGENS: GOO no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/stove: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
