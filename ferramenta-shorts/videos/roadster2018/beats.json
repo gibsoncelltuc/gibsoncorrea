@@ -366,10 +366,8 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "entra_em",
-      "alvo": "carro",
-      "na": "volante"
+      "faz": "mostra",
+      "na": "Starman"
      }
     ]
    },

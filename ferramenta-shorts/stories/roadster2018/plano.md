@@ -7,7 +7,7 @@ b1 | wide | -  | tropa, interior | - | -
 b2 | wide | -  | tropa, mapa | - | -
 b3 | wide | -  | tropa | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa | - | -
-b5 | wide | -  | tropa, interior | encena: senta @3 (acao + som de efeito) | -
+b5 | wide | -  | tropa, interior | - | -
 b6 | wide | -  | tropa, placa: NÃO ENTRE EM PÂNICO | - | -
 b7 | two | espaco  | tropa | - | -
 b8 | wide | -  | tropa, placa: CARRO NO ESPAÇO | - | -
