@@ -58,9 +58,9 @@
    "props": [
     [
      "kit/roadster26",
-     0,
-     -4.0,
-     1.0
+     0.0,
+     1.4,
+     2.0
     ],
     [
      "kit/torre_luz",
@@ -128,7 +128,8 @@
    "h": 2.8,
    "d0": 15.2,
    "d1": 12.2,
-   "_auto_vis": 1
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "who": [
@@ -342,9 +343,9 @@
    "props": [
     [
      "kit/roadster26",
-     0,
-     -7.0,
-     1.0
+     0.0,
+     1.4,
+     2.0
     ],
     [
      "kit/torre_luz",
@@ -400,7 +401,8 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "who": [
@@ -626,9 +628,9 @@
    "props": [
     [
      "kit/roadster26",
-     0.8,
-     -0.8,
-     1.0
+     0.6,
+     1.0,
+     1.5
     ]
    ],
    "interior": "galpao",
@@ -659,7 +661,7 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "who": [

@@ -58,9 +58,9 @@
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     1.4,
-     2.0
+     0,
+     -4.0,
+     1.0
     ],
     [
      "kit/torre_luz",
@@ -94,9 +94,25 @@
      }
     ]
    },
+   "quadro_manual": true,
+   "shot": "wide",
+   "h": 2.6,
+   "d0": 17,
+   "d1": 10,
+   "cx": 0,
+   "cz": -4,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV",
+     "ENG"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -117,63 +133,40 @@
       "estado": "parado"
      }
     ]
-   },
-   "crowd": {
-    "n": 0
-   },
-   "_susp_ok": true,
-   "shot": "wide",
-   "cx": -10.0,
-   "cz": -6.3,
-   "h": 2.8,
-   "d0": 15.2,
-   "d1": 12.2,
-   "_auto_vis": 3,
-   "detalhe": true
+   }
   },
   {
    "who": [
-    "POV:0:smile"
+    "POV:0:smile",
+    "POV:1:grin"
    ],
-   "shot": "wide",
+   "shot": "reveal",
    "say": "Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Texas.",
    "mapa": "ESTADOS UNIDOS",
    "props": [
     [
      "kit/rampa_curva",
-     0.0,
-     -14.4,
-     1.0,
-     {
-      "fixo": true
-     }
+     6,
+     -16,
+     1.0
     ],
     [
      "kit/telao_led",
-     7.0,
-     -14.0,
-     1.3,
-     {
-      "fixo": true
-     }
+     -9,
+     -18,
+     1.3
     ],
     [
      "kit/torre_luz",
-     -7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     -10,
+     -9,
+     1.2
     ],
     [
      "kit/torre_luz",
-     11.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
+     11,
+     -10,
+     1.2
     ]
    ],
    "set": "loc_pista",
@@ -188,14 +181,10 @@
      }
     ]
    },
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "wide",
-   "detalhe": false,
+   "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o rampa_curva (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "revelacao (camera sobe e abre); plano aberto mirando o rampa_curva (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/rampa_curva",
@@ -222,12 +211,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "say": "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo.",
@@ -335,21 +319,21 @@
    "who": [
     "MUS:0:grin"
    ],
-   "shot": "wide",
-   "h": 2.8,
-   "d0": 15.4,
-   "d1": 12.4,
+   "shot": "orbit",
+   "h": 4.4,
+   "d0": 25,
+   "d1": 23,
    "say": "Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     1.4,
-     2.0
+     0,
+     -7.0,
+     1.0
     ],
     [
      "kit/torre_luz",
-     0.0,
+     -10,
      -9,
      1.2
     ],
@@ -363,10 +347,16 @@
    "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -6.3,
+   "cx": -1.5,
+   "cz": -7.0,
    "crowd": {
-    "n": 0
+    "n": 10,
+    "outfits": [
+     "POV",
+     "ENG"
+    ],
+    "march": false,
+    "expr": "shock"
    },
    "encena": {
     "sentido": "afirmativa",
@@ -377,9 +367,10 @@
      }
     ]
    },
+   "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "orbit; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -400,29 +391,27 @@
       "estado": "parado"
      }
     ]
-   },
-   "_auto_vis": 3,
-   "detalhe": true
+   }
   },
   {
    "who": [
     "ENA:0:shock"
    ],
-   "shot": "wide",
-   "h": 4.4,
-   "d0": 15.4,
-   "d1": 12.4,
+   "shot": "low",
+   "h": 1.6,
+   "d0": 22,
+   "d1": 17,
    "say": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "props": [
     [
      "kit/roadster26",
-     0.0,
-     -1.0,
+     0,
+     -7.0,
      1.0
     ],
     [
      "kit/torre_luz",
-     0.0,
+     -10,
      -9,
      1.2
     ],
@@ -436,8 +425,8 @@
    "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -6.3,
+   "cx": -1.5,
+   "cz": -7.0,
    "crowd": {
     "n": 0,
     "outfits": [
@@ -454,9 +443,10 @@
      }
     ]
    },
+   "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "camera baixa olhando para cima; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -477,8 +467,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_auto_vis": 2
+   }
   },
   {
    "who": [
@@ -488,9 +477,9 @@
    "props": [
     [
      "kit/roadster26",
-     0.6,
-     1.0,
-     1.5
+     -4,
+     -5.0,
+     1.0
     ],
     [
      "kit/cybercab",
@@ -544,9 +533,11 @@
      }
     ]
    },
+   "quadro_manual": true,
+   "shot": "track",
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "travelling (camera acompanha andando); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
@@ -585,17 +576,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "shot": "wide",
-   "cx": 0.0,
-   "cz": -6.6,
-   "h": 2.8,
-   "d0": 16.5,
-   "d1": 14.5,
-   "crowd": {
-    "n": 0
-   },
-   "_auto_vis": 3
+   }
   },
   {
    "say": "Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
@@ -628,9 +609,9 @@
    "props": [
     [
      "kit/roadster26",
-     0.6,
-     1.0,
-     1.5
+     1.6,
+     -0.8,
+     1.0
     ]
    ],
    "interior": "galpao",
@@ -649,6 +630,8 @@
      }
     ]
    },
+   "quadro_manual": true,
+   "shot": "two",
    "quadro": {
     "local": "galpao",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -660,8 +643,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_auto_vis": 2
+   }
   },
   {
    "who": [
@@ -686,9 +668,11 @@
      }
     ]
    },
+   "quadro_manual": true,
+   "shot": "close",
    "quadro": {
     "local": "galpao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "close (rosto e ombros); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster26",
