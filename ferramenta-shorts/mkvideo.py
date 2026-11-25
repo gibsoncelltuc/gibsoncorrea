@@ -936,6 +936,7 @@ for _ib, _b in enumerate(B['beats']):
 KICKS = []
 AMB = {}
 HEROI = _heroi()
+if HEROI == 'kit/ball' and (ANO or _ANO0 or 2024) < 1950: HEROI = 'kit/bola_couro'   # 25/11 Galileu: antes de 1950 a bola vira de couro (OBJ_DICT troca); o heroi tem que trocar junto senao 'heroi nao aparece'
 STATE = {'mapa': any(_b.get('mapa') for _b in B['beats'])}   # mapa pedido no roteiro: nao cria outro automatico
 KWSFX = []
 _crowd_roteiro = {id(b_) for b_ in beats if isinstance(b_.get('crowd'), dict)}   # multidao que o ROTEIRO pediu fica como esta

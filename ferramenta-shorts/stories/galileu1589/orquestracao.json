@@ -16,13 +16,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
     "kit/marco_pisa",
     "kit/pisa_tower"
    ],
-   "palavras": 16,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.",
+   "frase": "Coisa pesada cai mais rápido? Galileu provou que não.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -30,18 +29,36 @@
    "cenario": "street"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "GAL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bola_couro"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E, séculos depois, até uma pena deu razão a ele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
    "camera": "reveal",
    "personagens": [
     "ALU",
     "ALU"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/marco_pisa"
    ],
-   "palavras": 22,
-   "cena": "b1",
-   "frase": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Por volta de 1590, Galileu era um jovem professor em Pisa.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -56,29 +73,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "ALU",
-    "ALU",
-    "PRO"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/ball"
-   ],
    "palavras": 10,
    "cena": "b3",
-   "frase": "Mas Galileu Galilei achou estranho e resolveu provar o contrário.",
+   "frase": "O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -92,14 +89,14 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
+    "kit/bola_couro",
     "kit/marco_pisa",
     "kit/pisa_tower",
     "war/cannonballs"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b4",
-   "frase": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
+   "frase": "Dizem que Galileu levou duas bolas ao alto da torre de Pisa.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -107,20 +104,20 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "GAL"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ball",
+    "kit/bola_couro",
     "kit/marco_pisa",
     "kit/pisa_tower",
     "war/cannonballs"
    ],
-   "palavras": 14,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
+   "frase": "Acontece que as duas caíram no chão ao mesmo tempo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -141,9 +138,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 7,
    "cena": "b6",
-   "frase": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
+   "frase": "Hoje se discute se isso aconteceu mesmo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -160,9 +157,9 @@
     "kit/feather",
     "tools/hammer"
    ],
-   "palavras": 23,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.",
+   "frase": "Em 1971, na Lua, um astronauta soltou martelo e pena juntos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -176,32 +173,44 @@
    "cenario": "arctic"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "GAL"
+    "AST"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
+   "objetos": [
+    "kit/feather",
+    "tools/hammer"
+   ],
+   "palavras": 7,
    "cena": "b8",
-   "frase": "No fim, até a pena deu razão ao Galileu.",
-   "classe": "simples",
+   "frase": "Os dois caíram exatamente ao mesmo tempo.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "arctic"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "GAL"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
+   "objetos": [
+    "kit/marco_pisa",
+    "kit/pisa_tower"
+   ],
+   "palavras": 7,
    "cena": "b9",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
+   "frase": "Até a pena deu razão ao Galileu.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

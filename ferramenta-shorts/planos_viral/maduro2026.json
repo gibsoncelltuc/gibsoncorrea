@@ -1,0 +1,13 @@
+{"gancho_tipo": "segredo", "texto_gancho": "3 HORAS",
+ "gancho_cumprido": "Gancho: um presidente foi capturado na propria capital em tres horas e a operacao tem um nome que resume tudo. Pagamento: helicopteros da Forca Delta, defesas desligadas, Maduro levado para Nova York; nome: Resolucao Absoluta.",
+ "cenas": [
+  [0, "gancho", "Um presidente foi capturado de madrugada, na própria capital, em três horas.", "capturado", {"encena_antiga": true}],
+  [9, "promessa", "E a operação ganhou um nome que resume tudo.", "nome"],
+  [1, "prova", "Foi em janeiro de 2026, em Caracas, na Venezuela.", "Caracas"],
+  [2, "prova", "O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterrorismo.", "Maduro"],
+  [3, "escalada", "Às duas da manhã, helicópteros levaram a Força Delta até ele.", "levaram", {"encena_antiga": true}],
+  [4, "escalada", "Ao mesmo tempo, ataques aéreos desligaram as defesas do país.", "desligaram", {"encena_antiga": true}],
+  [5, "escalada", "Acontece que, em menos de três horas, Maduro já estava capturado.", "capturado", {"encena_antiga": true}],
+  [7, "pagamento", "Foi levado de avião para Nova York, onde responde a um processo.", "levado"],
+  [8, "pagamento", "Nenhum militar americano morreu, e a notícia dividiu o mundo.", "dividiu", {"encena_antiga": true}],
+  [0, "loop", "O nome da operação: Resolução Absoluta.", "nome"]]}

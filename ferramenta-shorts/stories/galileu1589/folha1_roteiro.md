@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~5.5 s)
-- Narracao: Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.
+## Cena b0  (~3.1 s)
+- Narracao: Coisa pesada cai mais rápido? Galileu provou que não.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: tomba @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: dust@30
-- Texto na tela: -
+- Texto na tela: PESADO x LEVE
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.6 s)
-- Narracao: Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.
+## Cena b1  (~3.4 s)
+- Narracao: E, séculos depois, até uma pena deu razão a ele.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~3.8 s)
+- Narracao: Por volta de 1590, Galileu era um jovem professor em Pisa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,26 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ITÁLIA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.5 s)
-- Narracao: O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
 ## Cena b3  (~3.4 s)
-- Narracao: Mas Galileu Galilei achou estranho e resolveu provar o contrário.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; encena: olha (point) @3 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b4  (~5.5 s)
-- Narracao: Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.
+- Narracao: O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,17 +38,26 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.8 s)
-- Narracao: Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.
+## Cena b4  (~4.1 s)
+- Narracao: Dizem que Galileu levou duas bolas ao alto da torre de Pisa.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~3.4 s)
+- Narracao: Acontece que as duas caíram no chão ao mesmo tempo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: x_solta (up) @4 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.9 s)
-- Narracao: Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.
+## Cena b6  (~2.4 s)
+- Narracao: Hoje se discute se isso aconteceu mesmo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,30 +65,30 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~7.9 s)
-- Narracao: Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.
+## Cena b7  (~3.8 s)
+- Narracao: Em 1971, na Lua, um astronauta soltou martelo e pena juntos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, thump@70
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: x_solta (up) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40, ring@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~3.1 s)
-- Narracao: No fim, até a pena deu razão ao Galileu.
+## Cena b8  (~2.4 s)
+- Narracao: Os dois caíram exatamente ao mesmo tempo.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: ding@40, thump@70
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
+- Efeito visual marcado: stars@40, ring@70
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9  (~2.4 s)
+- Narracao: Até a pena deu razão ao Galileu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: PESADO x LEVE
 - Funcao na historia: FECHO/PIADA FINAL
 

@@ -255,6 +255,7 @@ grep -q "PayPal: personagem SOZINHO fica no centro e a placa" mkvideo.py || f "p
 python3 estrutura_viral.py scilly1651 >/dev/null || f "estrutura viral: o piloto Scilly tem que passar no estrutura_viral.py"
 grep -q "roteiro FORA da estrutura viral" mkvideo.py || f "roteiro antigo (fora da estrutura viral) passaria para o render"
 grep -q "_VIRAL and B.get('beats')" mkvideo.py || f "estrutura viral: loop visual (ultima cena = primeira) e sem chamada falada"
+grep -q "Galileu: antes de 1950 a bola vira de couro" mkvideo.py || f "heroi kit/ball antes de 1950 sumia (troca para bola de couro)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

@@ -52,7 +52,6 @@
  },
  "beats": [
   {
-   "say": "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.",
    "shot": "wide",
    "who": [
     "GAL:0:grin"
@@ -79,26 +78,55 @@
    "crowd": {
     "n": 0
    },
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/pisa_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "bloco": "gancho",
+   "say": "Coisa pesada cai mais rápido? Galileu provou que não.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "provou"
+     }
+    ]
+   },
+   "text": "PESADO x LEVE",
+   "titulo": true
   },
   {
-   "say": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.",
+   "shot": "two",
+   "who": [
+    "GAL:0:smug"
+   ],
+   "detalhe": true,
+   "props": [
+    [
+     "kit/ball",
+     1.6,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E, séculos depois, até uma pena deu razão a ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pena"
+     }
+    ]
+   }
+  },
+  {
    "shot": "reveal",
    "who": [
     "ALU:0:smile",
@@ -112,48 +140,44 @@
     "march": false
    },
    "mapa": "ITÁLIA",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "bloco": "prova",
+   "say": "Por volta de 1590, Galileu era um jovem professor em Pisa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Galileu"
+     }
+    ]
+   }
   },
   {
-   "say": "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai.",
    "shot": "two",
    "interior": "pedra",
    "who": [
     "ARI:0:smug",
     "ALU:0:bored"
    ],
-   "acao": "conversar"
-  },
-  {
-   "say": "Mas Galileu Galilei achou estranho e resolveu provar o contrário.",
-   "shot": "group",
-   "interior": "pedra",
-   "who": [
-    "ALU:0:smug",
-    "ALU:1:bored",
-    "PRO:0:smug"
-   ],
    "acao": "conversar",
-   "props": [
-    [
-     "kit/ball",
-     0.0,
-     -1.0,
-     0.95,
+   "bloco": "prova",
+   "say": "O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
+      "faz": "mostra",
+      "na": "dizia"
      }
     ]
-   ],
-   "detalhe": true
+   }
   },
   {
-   "say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
    "shot": "wide",
    "who": [
     "GAL:0:smile"
    ],
-   "chega": true,
    "props": [
     [
      "kit/pisa_tower",
@@ -188,38 +212,24 @@
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/pisa_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/ball",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "war/cannonballs",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 17.1,
-   "d1": 16.2
+   "d1": 16.2,
+   "bloco": "escalada",
+   "say": "Dizem que Galileu levou duas bolas ao alto da torre de Pisa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "levou"
+     }
+    ]
+   }
   },
   {
-   "say": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
    "shot": "wide",
    "who": [
     "GAL:0:shock"
@@ -268,48 +278,44 @@
    ],
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/pisa_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/ball",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "war/cannonballs",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "bloco": "escalada",
+   "say": "Acontece que as duas caíram no chão ao mesmo tempo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caíram"
+     }
+    ]
+   }
   },
   {
-   "say": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
    "shot": "two",
    "interior": "madeira",
    "who": [
     "GAL:0:neutral:book",
     "ALU:1:suspicious"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "bloco": "escalada",
+   "say": "Hoje se discute se isso aconteceu mesmo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "discute"
+     }
+    ]
+   }
   },
   {
-   "say": "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.",
    "shot": "two",
    "set": "arctic",
    "who": [
@@ -350,38 +356,97 @@
    ],
    "acao": "comemorar",
    "hora": "noite",
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e hammer juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "tools/hammer",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/feather",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Em 1971, na Lua, um astronauta soltou martelo e pena juntos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "soltou"
+     }
+    ]
+   }
   },
   {
-   "say": "No fim, até a pena deu razão ao Galileu.",
+   "shot": "two",
+   "set": "arctic",
+   "who": [
+    "AST:0:smile"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "tools/hammer",
+     0.0,
+     -1.2,
+     1.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/feather",
+     3.6,
+     -2.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@40",
+    "ring@70"
+   ],
+   "sfx": [
+    "ding@40",
+    "thump@70"
+   ],
+   "acao": "comemorar",
+   "hora": "noite",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Os dois caíram exatamente ao mesmo tempo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caíram"
+     }
+    ]
+   }
+  },
+  {
    "shot": "close",
    "who": [
     "GAL:0:smug"
-   ]
+   ],
+   "bloco": "loop",
+   "say": "Até a pena deu razão ao Galileu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pena"
+     }
+    ]
+   }
   }
  ],
- "max_wide": 5,
  "visual": {
   "local": "Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a catedral",
   "quando": "cerca de 1589-1592, dia",
@@ -415,5 +480,8 @@
    "torre": "Leaning Tower of Pisa Piazza dei Miracoli",
    "lua": "Apollo 15 hammer feather drop"
   }
- }
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: coisa pesada nao cai mais rapido e ate uma pena deu razao a Galileu. Pagamento: as duas bolas cairam juntas em Pisa e, na Lua em 1971, martelo e pena cairam ao mesmo tempo.",
+ "loop_frase_ok": true
 }

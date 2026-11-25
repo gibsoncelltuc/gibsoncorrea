@@ -4,10 +4,9 @@
  "ancoras": {
   "ano": 2026,
   "era": "atual (1950+)",
-  "regiao": "colonial",
+  "regiao": "eua",
   "luz_base": "day",
   "cenarios": [
-   "interior loja",
    "loc_cidade",
    "loc_estudio",
    "loc_patio",
@@ -16,11 +15,6 @@
   "cenarios_trocados": [
    [
     "video",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 11",
     "street",
     "loc_cidade"
    ]
@@ -51,7 +45,6 @@
   "buildings/apartment",
   "buildings/house_two",
   "kit/helicopter_air",
-  "kit/room_colonial_shop",
   "kit/scroll",
   "nature/lamppost",
   "vehicles/airplane"

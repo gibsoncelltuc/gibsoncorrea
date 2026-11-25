@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2026 | Lugar: Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sala de acompanhamento); depois Nova York | Quando: madrugada de 3 de janeiro de 2026, noite
 - HEROIS (objeto): kit/helicopter_air
 - HEROIS (personagens): MAD, SOL
-- Cenarios: interior loja, loc_cidade, loc_estudio, loc_patio, loc_pista
+- Cenarios: loc_cidade, loc_estudio, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Operação da Madrugada | A Operação da Madrugada / Um Foi Caracas Venezuela Trump Era Nicolás Maduro 2026 | SEM REFERENCIA
+tema | A Operação da Madrugada | A Operação da Madrugada / Um Foi Caracas Venezuela 2026 | SEM REFERENCIA
 lugar | Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sal | Caracas Venezuela / Caracas Venezuela complexo militar cidade a noite e Mar-a-Lago Florida sala de acompanhame | SEM REFERENCIA
 lugar | Venezuela | Venezuela 2026 / Venezuela landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2026 | 2026 fashion clothing / 2026 street photograph | SEM REFERENCIA
@@ -26,9 +26,8 @@ objeto | helicopteros militares | helicopteros militares / helicopteros militare
 objeto | aviao | aviao / aviao 2026 | SEM REFERENCIA
 objeto | mandado judicial | mandado judicial / mandado judicial 2026 | SEM REFERENCIA
 heroi | helicopter air | helicopteros militares / A Operação da Madrugada | SEM REFERENCIA
-epoca | soldado da epoca | soldier uniform 2026 / soldier uniform | SEM REFERENCIA
 epoca | aviao da epoca | airplane 2026 / airplane | SEM REFERENCIA
-mecanismo | Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí | ataques aereos desligaram defesas antiaereas / helicopter air diagram | SEM REFERENCIA
+mecanismo | Ao mesmo tempo, ataques aéreos desligaram as defesas do país. | ataques aereos desligaram defesas / helicopter air diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Operacao Absolute Resolve (3/1/2026): forcas especiais dos EUA capturaram Nicolas Maduro em Caracas e o levaram a Nova York para responder a acusacoes de narcoterrorismo (fonte: Wikipedia 2026 United States strikes in Venezuela / capture of Nicolas Maduro)

@@ -1,22 +1,20 @@
 # CRONOGRAMA - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
-Gerado em 25/11 01:24 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:02 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | medieval | group | ROM | - | - | - | Um bando de gansos barulhentos salvou Roma numa só noite.
-b1 | chave | loc_campo | reveal | GAU | 8 | fire | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram R
-b2 | simples | loc_montanha | wide | ROM | - | castle_tower | - | Os romanos que sobraram se trancaram no Capitólio, uma colina fortific
-b3 | chave | loc_montanha | orbit | ROM, GAU | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os gauleses cercaram a colina, e a fome apertou os dois lados.
-b4 | simples | loc_campo | wide | GAU | - | castle_tower | - | Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os g
-b5 | simples | loc_campo | wide | ROM | - | - | - | Acontece que os gansos sagrados da deusa Juno ouviram, e começaram a g
-b6 | simples | loc_campo | two | MAN, GAU | - | castle_tower | - | O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impe
-b7 | simples | loc_campo | two | GAU, MAN | - | - | - | Os gauleses se afastaram, mas mantiveram o cerco.
-b8 | simples | interior madeira | two | ROM, GAU | - | - | - | No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, 
-b9 | simples | medieval | group | sem personagem | - | - | - | Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
-b10 | simples | medieval | close | ROM | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | medieval | group | ROM | - | - | - | Ninguém te conta: um bando de gansos salvou Roma numa noite.
+b1 | simples | medieval | group | ROM | - | - | - | Mas o ouro de Roma foi embora mesmo assim.
+b2 | chave | loc_campo | reveal | GAU | 8 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 390 antes de Cristo, os gauleses tomaram Roma.
+b3 | chave | loc_montanha | orbit | ROM | - | castle_tower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os romanos que sobraram se trancaram no Capitólio, uma colina.
+b4 | simples | loc_campo | wide | GAU | - | castle_tower | - | Numa noite sem lua, os gauleses chegaram em silêncio à muralha.
+b5 | simples | loc_campo | wide | ROM | - | - | - | Acontece que os gansos sagrados de Juno ouviram e começaram a gritar.
+b6 | simples | loc_campo | two | MAN, GAU | - | - | - | O barulho acordou o soldado Marco Mânlio, que barrou a subida.
+b7 | simples | interior madeira | two | ROM, GAU | - | - | - | Depois de sete meses de fome, Roma pagou mil libras de ouro.
+b8 | simples | medieval | group | ROM | - | - | - | Os gansos salvaram a colina. O ouro, não.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

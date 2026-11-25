@@ -3,11 +3,6 @@
  "ano": null,
  "cenarios_trocados": [
   [
-   "cena 3",
-   "mountain",
-   "loc_montanha"
-  ],
-  [
    "cena 4",
    "mountain",
    "loc_montanha"
@@ -27,9 +22,25 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Um bando de gansos barulhentos salvou Roma numa só noite.",
+   "frase": "Ninguém te conta: um bando de gansos salvou Roma numa noite.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "Mas o ouro de Roma foi embora mesmo assim.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -42,12 +53,10 @@
     "GAU"
    ],
    "multidao": 8,
-   "objetos": [
-    "kit/fire"
-   ],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram Roma e queimaram quase tudo.",
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 390 antes de Cristo, os gauleses tomaram Roma.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -61,58 +70,41 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Os romanos que sobraram se trancaram no Capitólio, uma colina.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GAU"
    ],
    "multidao": 0,
    "objetos": [
     "buildings/castle_tower"
    ],
    "palavras": 11,
-   "cena": "b2",
-   "frase": "Os romanos que sobraram se trancaram no Capitólio, uma colina fortificada.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "ROM",
-    "GAU"
-   ],
-   "multidao": 6,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b3",
-   "frase": "Os gauleses cercaram a colina, e a fome apertou os dois lados.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "GAU"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "buildings/castle_tower"
-   ],
-   "palavras": 18,
    "cena": "b4",
-   "frase": "Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os guardas não ouviram nada.",
+   "frase": "Numa noite sem lua, os gauleses chegaram em silêncio à muralha.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -126,9 +118,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 12,
    "cena": "b5",
-   "frase": "Acontece que os gansos sagrados da deusa Juno ouviram, e começaram a gritar e a bater as asas.",
+   "frase": "Acontece que os gansos sagrados de Juno ouviram e começaram a gritar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -142,29 +134,10 @@
     "GAU"
    ],
    "multidao": 0,
-   "objetos": [
-    "buildings/castle_tower"
-   ],
-   "palavras": 18,
-   "cena": "b6",
-   "frase": "O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "GAU",
-    "MAN"
-   ],
-   "multidao": 0,
    "objetos": [],
-   "palavras": 8,
-   "cena": "b7",
-   "frase": "Os gauleses se afastaram, mas mantiveram o cerco.",
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "O barulho acordou o soldado Marco Mânlio, que barrou a subida.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -179,9 +152,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
-   "cena": "b8",
-   "frase": "No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora.",
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Depois de sete meses de fome, Roma pagou mil libras de ouro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -190,28 +163,14 @@
   },
   {
    "camera": "group",
-   "personagens": [],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b9",
-   "frase": "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.",
-   "classe": "simples",
-   "sujeito": "cenario",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "medieval"
-  },
-  {
-   "camera": "close",
    "personagens": [
     "ROM"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Os gansos salvaram a colina. O ouro, não.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
