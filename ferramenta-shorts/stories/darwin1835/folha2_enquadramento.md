@@ -34,7 +34,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: GOU (cientista) no centro, expressao smug, segura paper; sem multidao; acao: discutir
 - OBJETO kit/finch: FRENTE, centro (objeto principal da cena); tamanho na tela: 14% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.0 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b5: "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos."
 - LOCAL: sala de madeira; hora: day
@@ -66,7 +66,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: DAR (cientista) no centro, expressao smile; sem multidao; acao: cochichar
 - OBJETO kit/finch_thick: FRENTE, centro (objeto principal da cena); tamanho na tela: 10% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.7 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b8: "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove."
 - LOCAL: sala de madeira; hora: day
@@ -79,5 +79,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: DAR (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: FRENTE, centro (objeto principal da cena); tamanho na tela: 14% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.0 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
