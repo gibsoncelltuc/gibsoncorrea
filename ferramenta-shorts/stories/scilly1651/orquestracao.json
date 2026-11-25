@@ -84,9 +84,7 @@
   {
    "camera": "group",
    "personagens": [
-    "HOL",
-    "MAR",
-    "MAR"
+    "HOL"
    ],
    "multidao": 0,
    "objetos": [
@@ -126,7 +124,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "PRE",
     "ILH"
@@ -143,7 +141,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "ILH",
     "ILH"
@@ -213,7 +211,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "ILH"
    ],
@@ -224,7 +222,7 @@
    "palavras": 9,
    "cena": "b10",
    "frase": "A guerra mais longa e mais calma da história.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FIN (variante 3, expressao stern); SOV (variante 0, expressao shock)
+- Personagens principais (2): FIN (variante 3, expressao stern); SOV (variante 0, expressao shock) | multidao: 48 de SOV
 - Animacao: reagir
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro, soldado
@@ -15,9 +15,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b1 - Era o inverno de mil novecentos e trinta e nove, e a União Soviética i...
 - Cenario: arctic | luz: arctic | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FIN (variante 0, expressao stern); FIN (variante 1, expressao nervous) | multidao: 18 de FIN
-- Animacao: reagir | batalha encenada
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): SOV (variante 0, expressao stern); SOV (variante 1, expressao angry) | multidao: 16 de SOV
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): finlandia, inverno, uniao
 - RISCOS: nenhum
@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): FIN (variante 3, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: -
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Dizem que ele mantinha neve na boca, para o vapor da respiração não en...
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FIN (variante 3, expressao neutral)
 - Animacao: conversar
 - Objetos/modelos: -
@@ -64,20 +64,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ...
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock)
-- Animacao: conversar | interacao: tremem de frio
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ferro, fuzil, mira, quinhentos
 - RISCOS: nenhum
 
 ## Cena b7 - Os soviéticos passaram a chamá-lo de Morte Branca.
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 12 de SOV
-- Animacao: reagir | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): SOV (variante 1, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chamalo, morte, sovieticos
 - RISCOS: nenhum
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior hospital | luz: arctic | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao nervous)
+- Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao sad)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, rosto
@@ -127,8 +127,8 @@ nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 4 | mistura: close 26% | medio 44% | aberto 24% | detalhe 7%
-- Interacoes: b6 tremem de frio, b8 cochichar
+- Objeto heroi: - | grandes momentos: b1, b6 | planos abertos: 4 | mistura: close 31% | medio 42% | aberto 26% | detalhe 0%
+- Interacoes: b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
