@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: mountain
 - Narracao: Soldados búlgaros atiraram, e o grego morreu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gun@60
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; atiraram -> burst + som de tiro/explosao; morreu -> puff + som de baque; encena: tomba @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; atiraram -> burst + som de tiro/explosao; morreu -> puff + som de baque; encena: atira @2 -> acao + som de efeito; encena: tomba @2 -> acao + som de efeito
 - Efeito visual marcado: burst@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

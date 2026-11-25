@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.0s - 9 palavras - plano track
@@ -77,15 +77,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atiraram (15.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | atiraram (15.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | morreu (17.4s) | EFEITO: puff | fumaca + som | OK |
-| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | INTERACAO | insiste | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 2 | atiraram (15.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | atiraram (15.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 4 | morreu (17.4s) | EFEITO: puff | fumaca + som | OK |
+| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 6 | - | INTERACAO | insiste | OK |
+| 7 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: burst na palavra atiraram (15.9s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra atiraram (15.9s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ACAO: tomba na palavra atiraram (15.9s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - EFEITO: puff na palavra morreu (17.4s): executa: fumaca + som
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
