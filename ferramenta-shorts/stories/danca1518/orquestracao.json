@@ -158,12 +158,12 @@
    "cenario": "hall"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRE",
-    "POV"
+    "DAN"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [],
    "palavras": 7,
    "cena": "b7",

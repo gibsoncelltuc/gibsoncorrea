@@ -54,8 +54,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Deu errado: mais gente entrou na dança."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE na esquerda, expressao stern, segura paper; POV na direita, expressao pained; sem multidao; acao: fala/gesto
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: PRE na esquerda, expressao stern, segura paper; DAN na direita, expressao pained; multidao de 10 (DAN) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +50 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +110 da cena

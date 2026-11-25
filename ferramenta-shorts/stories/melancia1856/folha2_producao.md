@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): VIA (variante 0, expressao angry) | multidao: 6 de POV
+- Personagens principais (1): VIA (variante 0, expressao angry)
 - Animacao: comemorar
 - Objetos/modelos: war/pistol, kit/stall, buildings/shop
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, vendedor, viajante

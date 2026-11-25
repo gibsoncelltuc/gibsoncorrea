@@ -11,7 +11,7 @@ b3 | medieval | crowd | 40 | dancar, batalha | - | - | -
 b4 | medieval | group | 40 | dancar, INTERAGEM: avanca e o outro recua | - | - | -
 b5 | interior pedra | two | 2 | reagir, INTERAGEM: discutir | - | book | -
 b6 | hall | orbit | 14 | dancar, batalha | buildings/house_two, nature/lamppost | - | -
-b7 | hall | two | 2 | dancar, INTERAGEM: entregar, alguem chega andando | - | paper | -
+b7 | hall | group | 12 | dancar, INTERAGEM: entregar, alguem chega andando | - | paper | -
 b8 | hall | wide | 1 | parados (so fala e pisca) | buildings/church | - | -
 b9 | medieval | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 

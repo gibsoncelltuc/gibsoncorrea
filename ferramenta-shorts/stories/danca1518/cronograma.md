@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 22 - A Praga da Dança
 
-Gerado em 25/11 23:48 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 23:49 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | chave | medieval | crowd | TRO, POV, POV, POV | 48 | - | corpo: tropa/perso
 b4 | simples | medieval | group | POV, TRO, POV, POV | 36 | - | - | Em agosto, eram centenas, com os pés sangrando.
 b5 | simples | interior pedra | two | PRE, MED | - | - | - | Os médicos culparam o sangue quente e receitaram mais dança.
 b6 | chave | hall | orbit | MUS, MUS | 12 | house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a cidade contratou músicos para manter todos dançando.
-b7 | simples | hall | two | PRE, POV | - | - | - | Deu errado: mais gente entrou na dança.
+b7 | simples | hall | group | PRE, DAN | 10 | - | - | Deu errado: mais gente entrou na dança.
 b8 | transicao | hall | wide | DAN | - | church | - | Levados a uma capela no monte, eles finalmente pararam.
 b9 | simples | medieval | two | TRO, POV | - | - | - | Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que...
 

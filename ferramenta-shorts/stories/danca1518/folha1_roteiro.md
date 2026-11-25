@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: medieval
 - Narracao: Deu errado: mais gente entrou na dança.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@50, sting@110
-- Efeito + som nas palavras-chave: dança -> stars + som de sino
+- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: danca (up) @6 -> acao + som de efeito
 - Efeito visual marcado: dust@50, puff@110
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
