@@ -32,10 +32,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
 - LOCAL: galpao; hora: dia; clima: limpo
-- CAMERA: plano aberto (cenario inteiro)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e pechblenda juntos (camera a 11.5 m)
 - PERSONAGENS: MAR na esquerda, expressao grin; PIE (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/curie_box: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/pechblenda: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pechblenda: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 - TEXTO NA TELA: "TONELADAS DE MINÉRIO" flutuando no alto, na palavra 1 da frase
@@ -77,9 +76,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris."
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PES no centro, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/curie_box: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
 ## b10: "Para ler, é preciso assinar um termo e usar roupa de proteção."
 - LOCAL: sala de pedra (governo/castelo); hora: dia; clima: limpo

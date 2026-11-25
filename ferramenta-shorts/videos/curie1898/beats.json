@@ -191,15 +191,6 @@
      {
       "fixo": true
      }
-    ],
-    [
-     "kit/curie_box",
-     1.8,
-     -1.4,
-     1.0,
-     {
-      "fixo": true
-     }
     ]
    ],
    "fx": [
@@ -413,9 +404,9 @@
    "props": [
     [
      "kit/curie_box",
-     2.4,
-     0.2,
-     1.5,
+     0.9,
+     -1.2,
+     1.1,
      {
       "fixo": true
      }
@@ -434,23 +425,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/curie_box",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "cx": 0.3,
+   "cz": -0.6,
+   "d0": 8.0,
+   "d1": 6.8,
+   "quadro_manual": true
   },
   {
    "shot": "two",
