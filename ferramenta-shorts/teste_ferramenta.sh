@@ -210,6 +210,7 @@ grep -q "_ERA_TROCA" mkvideo.py && grep -q "kit/bola_couro" mkvideo.py && grep -
 grep -q "git fetch -q --depth=1" limpar_disco.sh || f "historico do git (commits ckpt) enche o disco e para a fila"
 grep -q "quadro_manual (o roteiro fixou o quadro)" autocorrigir_visibilidade.py || f "autocorrecao de visibilidade desfaz o quadro_manual do roteiro (Goodyear)"
 grep -q "LENTE MAIS ABERTA na mesma proporcao" mkvideo.py || f "camera presa dentro da sala corta personagem na borda (Curie)"
+grep -q "light not in ('night', 'dusk', 'study_dark'): light = 'overcast'" mkvideo.py && grep -q "'overcast', 'noon', 'storm'" verificar_execucao.py || f "galpao a noite sai nublado e trava o video (Curie)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

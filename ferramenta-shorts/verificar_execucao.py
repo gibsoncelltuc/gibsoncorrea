@@ -9,7 +9,7 @@ _SRC = open('mkvideo.py').read(); _ns = {}
 for _nm in ('LUGARES',):
     _i = _SRC.index(_nm + ' = ['); _j = _SRC.index('\n]', _i) + 2; exec(_SRC[_i:_j], {'re': re}, _ns)
 LUGARES = _ns['LUGARES']
-LUZ = {'noite': ('night', 'study_dark', 'space'), 'espaco': ('space',), 'amanhecer': ('dawn',), 'pordosol': ('dusk',), 'tarde': ('golden',), 'dia': ('day', 'golden', 'study')}
+LUZ = {'noite': ('night', 'study_dark', 'space'), 'espaco': ('space',), 'amanhecer': ('dawn',), 'pordosol': ('dusk',), 'tarde': ('golden',), 'dia': ('day', 'golden', 'study', 'overcast', 'noon', 'storm')}   # 25/11: dia nublado/chuva/galpao de luz branca tambem e' dia
 
 def verifica(i):
     sp = f'stories/{i}/spec.js'; f3 = f'stories/{i}/folha3_acao.md'
