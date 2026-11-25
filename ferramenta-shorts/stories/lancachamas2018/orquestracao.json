@@ -238,8 +238,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/extinguisher",
-    "kit/flamethrower"
+    "kit/extinguisher"
    ],
    "palavras": 11,
    "cena": "b10",

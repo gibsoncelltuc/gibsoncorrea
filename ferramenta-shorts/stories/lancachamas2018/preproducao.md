@@ -14,7 +14,7 @@ b6 | interior loja | two | 2 | comemorar, INTERAGEM: brindar | kit/extinguisher 
 b7 | loc_cidade | crowd | 18 | reagir, batalha | kit/marco_hollywood | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | nature/picket_fence | - | -
 b9 | loc_deserto | wide | 7 | parados (so fala e pisca) | kit/phone, kit/bancada, kit/flamethrower, kit/marco_hollywood, kit/fire | - | -
-b10 | loc_cidade | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/extinguisher, kit/bancada, kit/flamethrower | - | -
+b10 | loc_cidade | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/extinguisher, kit/bancada | - | -
 b11 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/flamethrower

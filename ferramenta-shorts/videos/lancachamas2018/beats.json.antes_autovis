@@ -416,7 +416,7 @@
    "who": [
     "MUS:0:laugh"
    ],
-   "shot": "two",
+   "shot": "wide",
    "props": [
     [
      "kit/phone",
@@ -431,7 +431,7 @@
      "kit/bancada",
      -3.6,
      -2.0,
-     1.5,
+     2.0,
      {
       "nocol": true,
       "fixo": true
@@ -454,7 +454,7 @@
    "_susp_ok": true,
    "quadro": {
     "local": "loc_deserto",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/flamethrower",
@@ -486,7 +486,8 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -502,9 +503,9 @@
    "props": [
     [
      "kit/extinguisher",
-     3.6,
-     -2.0,
-     1.5,
+     2.0,
+     -1.5,
+     1.4,
      {
       "nocol": true,
       "fixo": true
@@ -512,22 +513,11 @@
     ],
     [
      "kit/bancada",
-     -3.6,
-     -2.0,
-     2.0,
+     -2.2,
+     -1.8,
+     1.6,
      {
       "nocol": true,
-      "fixo": true
-     }
-    ],
-    [
-     "kit/flamethrower",
-     0.0,
-     -1.2,
-     1.5,
-     {
-      "nocol": true,
-      "y": 0.55,
       "fixo": true
      }
     ]
@@ -535,23 +525,17 @@
    "set": "loc_cidade",
    "quadro": {
     "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/flamethrower",
+      "objeto": "kit/extinguisher",
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/extinguisher",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
       "objeto": "kit/bancada",
-      "lugar": "MEIO, esquerda",
+      "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -570,9 +554,12 @@
    },
    "_enq_shot": "two",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": -0.8,
+   "d0": 9.5,
+   "d1": 9.0,
+   "h": 1.6,
+   "quadro_manual": true,
+   "shot_lock": true
   }
  ],
  "exp": 1.0,
@@ -611,5 +598,6 @@
   "buscas": {
    "produto": "Boring Company Not-A-Flamethrower 2018"
   }
- }
+ },
+ "max_wide": 3
 }

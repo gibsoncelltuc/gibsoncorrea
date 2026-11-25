@@ -98,3 +98,37 @@
 
 ## 25/11 05:01 autocorrecao de visibilidade
 - b10: ja corrigida 3 vezes, objeto "kit/flamethrower" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:20 autocorrecao de visibilidade
+- b10: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b4: objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+- b10: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/extinguisher" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (-1.6, -1.0)
+- b9: objeto "kit/flamethrower" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b10: quadro_manual (o roteiro fixou o quadro), objeto "kit/extinguisher" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:20 autocorrecao de visibilidade
+- b10: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b10: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/extinguisher" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b10: quadro_manual (o roteiro fixou o quadro), objeto "kit/extinguisher" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:22 autocorrecao de visibilidade
+- b4: objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+- b10: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (-1.6, -1.0)
+- b9: objeto "kit/flamethrower" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b10: quadro_manual (o roteiro fixou o quadro), objeto "kit/flamethrower" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:22 autocorrecao de visibilidade
+- b10: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b10: quadro_manual (o roteiro fixou o quadro), objeto "kit/flamethrower" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:24 autocorrecao de visibilidade
+- b4: objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+- b9: objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (-1.6, -1.0)
+- b9: objeto "kit/flamethrower" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 05:33 autocorrecao de visibilidade
+- b4: objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+- b9: objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (-1.6, -1.0)
+- b9: objeto "kit/flamethrower" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
