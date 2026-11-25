@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: ? | Lugar: Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo | Quando: cerca de 240 a.C., meio-dia do solsticio de verao, sol forte
 - HEROIS (objeto): kit/globe, kit/stick, kit/well
 - HEROIS (personagens): ERA, BIB
-- Cenarios: interior pedra, loc_campo, loc_deserto, loc_montanha
+- Cenarios: interior pedra, loc_campo, loc_estudio, loc_montanha
 - Proibido pela epoca: -
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -27,9 +27,12 @@ objeto | globo | antique terrestrial globe 17th century / globo | 1860 James Pol
 heroi | globe | antique terrestrial globe 17th century / vara / Eratóstenes Mede a Terra | 1860 James Polar Projection of the Globe, Arctic - (referencias/eratostenes240/prints/globe_cc1ae7.jpg); 1691 Sanson Map of the World on Hemisphere Project (referencias/eratostenes240/prints/globe_841ecb.jpg); 1691 Sanson Map of the World on Hemisphere Project (referencias/eratostenes240/prints/globe_c834a9.jpg)
 heroi | stick | wooden stick shadow on desert sand / stick | Indian Farmers' Protest by Ravan Khosa 37 (ed RE1) (referencias/eratostenes240/prints/stick_c36d71.jpg); Shoe On Stick 01.jpg (referencias/eratostenes240/prints/stick_afe4e4.jpg); Walking stick.jpg (referencias/eratostenes240/prints/stick_dcd821.jpg)
 heroi | well | well | Water well in Mongolia.jpg (referencias/eratostenes240/prints/well_fe4dea.jpg); 20170815 Zalipie 5497 DxO.jpg (referencias/eratostenes240/prints/well_6a9958.jpg); Water well in Yangdong Village.jpg (referencias/eratostenes240/prints/well_44ef77.jpg)
+mecanismo | Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra | alexandria fincada fazia sombra pequena / stick diagram | SEM REFERENCIA
+mecanismo | Acontece que a sombra era diferente, e isso só podia acontecer se a Te | acontece sombra diferente podia acontecer terra fosse curva / globe diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)
+- Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Eratosthenes

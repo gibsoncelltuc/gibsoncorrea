@@ -7,12 +7,13 @@
 - Roupas: {'ERA': 'tunica (quiton) branca com manto azul, sandalias', 'BIB': 'tunica clara', 'CAM': 'tunica e turbante de caravaneiro'}
 - Cenario real: cidade helenistica com colunas, palmeiras, areia; poco de pedra; vara fincada no chao com sombra
 - Objetos: ['vara (gnomon)', 'poco de pedra', 'rolos de papiro', 'globo']
-- Cenarios usados no video: interior pedra, loc_campo, loc_deserto, loc_montanha
+- Cenarios usados no video: interior pedra, loc_campo, loc_estudio, loc_montanha
 - PROIBIDO pela epoca (a ferramenta bloqueia): -
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)
 - Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)
+- Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)
 
 ## Fontes visuais
 - https://en.wikipedia.org/wiki/Eratosthenes

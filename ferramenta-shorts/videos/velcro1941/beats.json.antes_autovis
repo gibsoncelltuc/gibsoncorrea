@@ -1,0 +1,510 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 16,
+ "title": "O Cachorro que Inventou o Velcro",
+ "titulo_base": "O Cachorro que Inventou o Velcro",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/burr",
+ "outfits": {
+  "MES": {
+   "jacket": "#5a6a3a",
+   "pants": "#4a3a2a",
+   "boots": "#3a2a1a",
+   "hat": "hair",
+   "moustache": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "TEC": {
+   "profissao": "comerciante"
+  },
+  "AST": {
+   "jacket": "#f4f4f2",
+   "pants": "#f4f4f2",
+   "boots": "#d4d4d8",
+   "hat": "helmet",
+   "cap": "#f4f4f2",
+   "sash": "#2f6fd0"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:surprised",
+    "TEC:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1941",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.",
+   "animals": [
+    [
+     "dog",
+     1.9,
+     0.8
+    ]
+   ],
+   "verbos_ok": [
+    "nasce"
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:smile"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.6,
+     0.6
+    ]
+   ],
+   "say": "Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Mestral voltou de uma caminhada com o seu cachorro.",
+   "impact": false,
+   "shot_lock": true,
+   "mapa": "SUÍÇA",
+   "mapa_at": 3
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:angry"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.6,
+     0.6
+    ]
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "O pelo do cachorro e a calça dele estavam cheios de carrapichos.",
+   "impact": false,
+   "shot_lock": true,
+   "set": "mountain",
+   "detalhe": false,
+   "quadro": {
+    "local": "encosta de montanha",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MES:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/microscopio",
+     3.6,
+     -2.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Curioso, ele levou um carrapicho para casa e olhou no microscópio.",
+   "detalhe": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/microscopio",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MES:0:shock"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "who": [
+    "MES:0:grin"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "TEC:0:laugh",
+    "MES:0:nervous"
+   ],
+   "acao": "discutir",
+   "say": "Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.",
+   "set": "street",
+   "impact": true,
+   "crowd": {
+    "n": 0
+   },
+   "_susp_ok": true
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MES:0:laugh",
+    "TEC:0:surprised"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/burr",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, gancho.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "AST:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rocket",
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/moon",
+     -7.0,
+     -14.0,
+     5.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VELCRO",
+   "titulo": true,
+   "say": "Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis.",
+   "set": "arctic",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/moon",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:smile"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.4,
+     0.6
+    ]
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio de carrapichos.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/burr",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "max_wide": 3,
+ "visual": {
+  "local": "Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tecelagem em Lyon (Franca)",
+  "quando": "1941 (passeio, verao) e anos 1950",
+  "participantes": [
+   "George de Mestral (terno e chapeu de caca, bigode)",
+   "seu cachorro",
+   "teceloes",
+   "astronautas da Apollo"
+  ],
+  "roupas": {
+   "MES": "casaco de tweed e chapeu",
+   "TEC": "avental de oficina",
+   "AST": "traje espacial branco",
+   "POV": "roupa dos anos 50"
+  },
+  "cenario": "trilha nos Alpes com pinheiros e montanhas, sala com microscopio, fabrica de tecido; espaco",
+  "objetos": [
+   "carrapicho de bardana",
+   "microscopio",
+   "fita de velcro de nailon"
+  ],
+  "explicacoes": [
+   "George de Mestral notou em 1941 que os carrapichos de bardana tinham ganchos que prendiam em lacos; desenvolveu o fecho de nailon e patenteou o Velcro (velours + crochet) em 1955; a NASA o popularizou nas missoes Apollo (fonte: Wikipedia Velcro, George de Mestral)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Velcro",
+   "https://en.wikipedia.org/wiki/George_de_Mestral"
+  ],
+  "buscas": {
+   "carrapicho": "burdock burr hooks microscope",
+   "montanha": "Swiss Alps trail Jura 1940s"
+  }
+ }
+}
