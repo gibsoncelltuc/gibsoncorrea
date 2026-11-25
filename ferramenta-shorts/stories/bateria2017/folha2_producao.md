@@ -72,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - O contrato foi fechado no fim de setembro, e o prazo de cem dias começ...
 - Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MUS (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
@@ -83,9 +83,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: close (rosto e ombros); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.7 m de altura x 5.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 4.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (16.2-18.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (18.0-19.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -117,10 +117,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - A bateria ficou perto da cidade de Jamestown, no interior da Austrália...
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MUS (variante 0, expressao smile) | multidao: 0 de 
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/megapack, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): australia, bateria, cidade, interior, jamestown
 - RISCOS: nenhum
@@ -200,21 +200,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - E tudo começou com uma resposta curta, escrita no celular.
 - Cenario: interior madeira | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/megapack, kit/phone
+- Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): celular
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
   - take 1 (45.2-46.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (46.5-47.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -222,9 +221,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Moral da história: antes de apostar cinquenta milhões num prazo, leia ...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao laugh); CAN (variante 0, expressao grin) | multidao: 30 de POV
+- Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 30 de 
 - Animacao: encena
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apostar, contrato
@@ -233,9 +232,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao laugh; CAN na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.7 m de altura x 5.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (49.1-51.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (51.0-52.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -256,7 +255,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/megapack | b0, b1, b2, b3, b4, b5, b6, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/megapack | b0, b1, b2, b3, b4, b5, b6, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -265,7 +264,7 @@ kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 5 | mistura: close 11% | medio 51% | aberto 35% | detalhe 2%
+- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 4 | mistura: close 26% | medio 45% | aberto 27% | detalhe 2%
 - Interacoes: b7 aproxima-se
 - RISCOS GERAIS: nenhum
 

@@ -70,7 +70,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],
@@ -113,7 +113,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
@@ -191,13 +191,12 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/megapack",
     "kit/phone"
    ],
    "palavras": 10,
@@ -210,10 +209,9 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
-    "MUS",
-    "CAN"
+    "MUS"
    ],
    "multidao": 30,
    "objetos": [

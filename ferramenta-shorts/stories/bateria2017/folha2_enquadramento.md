@@ -28,9 +28,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "O contrato foi fechado no fim de setembro, e o prazo de cem dias começou."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: close (rosto e ombros); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.7 m de altura x 5.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 4.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b4: "Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias, bem antes do prazo."
 - LOCAL: loc_campo; hora: golden
@@ -70,14 +70,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "E tudo começou com uma resposta curta, escrita no celular."
 - LOCAL: sala de madeira; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b10: "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato."
 - LOCAL: loc_cidade; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao laugh; CAN na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.7 m de altura x 5.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

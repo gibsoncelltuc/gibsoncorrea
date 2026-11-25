@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Gerado em 25/11 04:06 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:16 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,14 +9,14 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | interior loja | two | MUS | - | megapack | - | Um homem apostou cinquenta milhões de dólares numa conversa no Twitter
 b1 | transicao | loc_campo | wide | MUS | - | megapack | - | Em dois mil e dezessete, Elon Musk prometeu baterias gigantes para a A
 b2 | chave | loc_cidade | wide | MUS | 30 | megapack | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os jornais calcularam que ele podia perder mais de cinquenta milhões d
-b3 | simples | interior pedra | two | MUS | - | megapack | - | O contrato foi fechado no fim de setembro, e o prazo de cem dias começ
+b3 | simples | interior pedra | close | MUS | - | megapack | - | O contrato foi fechado no fim de setembro, e o prazo de cem dias começ
 b4 | chave | loc_campo | wide | MUS | - | megapack, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias
-b5 | simples | loc_campo | wide | MUS | - | apartment, house_two, megapack, lamppost | - | A bateria ficou perto da cidade de Jamestown, no interior da Austrália
+b5 | simples | loc_campo | two | MUS | - | apartment, house_two, megapack, lamppost | - | A bateria ficou perto da cidade de Jamestown, no interior da Austrália
 b6 | explicativa | loc_campo | two | sem personagem | - | megapack | corpo: kit/megapack (gira); emissao: brilho; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada ent | A imprensa chamou de a maior bateria do mundo, com cem megawatts de po
 b7 | simples | interior loja | two | CAN, MUS | - | - | - | O empresário que fez o desafio teve que admitir: Musk cumpriu.
 b8 | simples | loc_campo | two | CAN | - | megapack | - | Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d
-b9 | simples | interior madeira | two | MUS | - | megapack, phone | - | E tudo começou com uma resposta curta, escrita no celular.
-b10 | simples | loc_cidade | wide | MUS, CAN | 30 | megapack | - | Moral da história: antes de apostar cinquenta milhões num prazo, leia 
+b9 | simples | interior madeira | close | MUS | - | phone | - | E tudo começou com uma resposta curta, escrita no celular.
+b10 | simples | loc_cidade | orbit | MUS | 30 | megapack | - | Moral da história: antes de apostar cinquenta milhões num prazo, leia 
 b11 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

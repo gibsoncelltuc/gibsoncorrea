@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 05 - Cem Dias ou de Graça
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 15 acoes catalogadas, 15 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 11 palavras - plano two
@@ -50,7 +50,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 16.2s a 19.9s - 15 palavras - plano two
+## Cena b3 - 16.2s a 19.9s - 15 palavras - plano close
 > "O contrato foi fechado no fim de setembro, e o prazo de cem dias começou."
 
 - LEITURA DA FRASE: sentido FATO
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 26.7s a 30.4s - 14 palavras - plano wide
+## Cena b5 - 26.7s a 30.4s - 14 palavras - plano two
 > "A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul."
 
 - LEITURA DA FRASE: sentido FATO
@@ -90,10 +90,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | Jamestown | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | Jamestown | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
@@ -139,7 +141,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 45.2s a 47.9s - 10 palavras - plano two
+## Cena b9 - 45.2s a 47.9s - 10 palavras - plano close
 > "E tudo começou com uma resposta curta, escrita no celular."
 
 - LEITURA DA FRASE: sentido FATO
@@ -154,7 +156,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 49.1s a 52.8s - 13 palavras - plano wide
+## Cena b10 - 49.1s a 52.8s - 13 palavras - plano orbit
 > "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato."
 
 - LEITURA DA FRASE: sentido FATO
