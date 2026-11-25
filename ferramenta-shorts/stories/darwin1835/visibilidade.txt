@@ -1,0 +1,15 @@
+VISIBILIDADE: 14 FALHA(S)
+FALHA b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b2: "kit/navio_fragata" tapando a camera (48% do quadro, colado na lente)
+FALHA b2: "kit/navio_fragata" cobrindo a tela (80% do quadro: so' se ve uma parede/casco)
+FALHA b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b5~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b5~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b6~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b6~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b2: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b2: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b2: objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 32%
+FALHA b2: objeto "kit/bancada" saiu com 0% da altura da tela, a ficha de cena planejou 32%
+FALHA b9: objeto "kit/finch" saiu com 14% da altura da tela, a ficha de cena planejou 32%
