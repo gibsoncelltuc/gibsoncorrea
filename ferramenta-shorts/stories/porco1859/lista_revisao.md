@@ -3,10 +3,8 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b0: animal citado aparece pequeno demais no take 2 (media 11% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
-2. b2: objeto "kit/batatas" saiu com 10% da altura da tela, a ficha de cena planejou 32%
-3. SUSPEITA b4: a frase cita ANIMAL e a cena nao tem animal
-4. SUSPEITA b5: a frase cita ANIMAL e a cena nao tem animal
+1. SUSPEITA b4: a frase cita ANIMAL e a cena nao tem animal
+2. SUSPEITA b5: a frase cita ANIMAL e a cena nao tem animal
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Dois países quase entraram em guerra por causa de um porco.": 

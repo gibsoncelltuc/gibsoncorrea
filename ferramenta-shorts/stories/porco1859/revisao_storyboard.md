@@ -1,15 +1,15 @@
-# Revisao do storyboard - porco1859 (v2, 24/11, apos conferencia frase a frase)
-pesquisa: Guerra do Porco 1859, ilha de San Juan, fazendeiro Lyman Cutlar matou o porco do irlandes da Hudson's Bay, Pickett e a marinha inglesa, almirante Baynes recusou atacar, arbitragem de 1872
-b0: OK - "Dois paises quase entraram em guerra por causa de um porco" fazendeiro, vizinho e o porco, placa 1859
-b1: OK - "Era uma ilha pequena entre os Estados Unidos e o Canada" mapa ILHA DE SAN JUAN e a ilha
-b2: OK - "pegou um porco comendo as batatas da horta" fazendeiro, porco e cesto de batatas na horta
-b3: OK - "Ele pegou a espingarda, e atirou" espingarda na mao (conferido no video) e clarao do tiro; porco caido em seguida
-b4: OK - "ofereceu dez dolares ao vizinho pelo porco" dinheiro na mao, placa $10
-b5: OK - "O dono gritou que o porco valia cem" discussao, placa $100
-b6: OK - "os americanos mandaram soldados para a ilha" soldados no cais, texto TROPAS
-b7: OK - "A Inglaterra respondeu com navios de guerra... soldados e canhoes" navio, casacas vermelhas e azuis, canhao
-b8: OK - "O almirante ingles recebeu ordem de atacar, e se recusou" almirante com a ordem na mao
-b9: CORRIGIDO - festa nao aparecia -> "trocando insultos, e depois, festas": soldados ingleses e americanos juntos sorrindo, placa FESTAS
-b10: OK - "Treze anos depois, um arbitro decidiu" placa 13 ANOS e decisao no papel
-b11: OK - "A unica baixa da guerra foi o porco" fazendeiro com o porco e a cruz; chamada final COMENTE
-defeitos procurados: cenario (ilha rural e cais de 1859), epoca (sem objeto moderno), tamanho (navio em tamanho real), cortado (ninguem cortado), multidao (tropas por farda), legenda (texto em cima), acao (cada frase com a acao), objeto (porco heroi em close)
+b0: OK - dois paises quase entraram em guerra por causa de um porco: fazendeiro americano espantado ao lado do porco inteiro na fazenda
+b1: OK - uma ilha pequena entre Estados Unidos e Canada, ninguem sabia de quem era: mapa da ilha de San Juan e a fazenda
+b2: OK - um fazendeiro americano pegou um porco comendo as batatas da horta: porco com o cesto de batatas na horta em close
+b3: OK - ele pegou a espingarda e atirou, o porco era de um vizinho ingles: fazendeiro com a arma e o porco caido
+b4: OK - o fazendeiro ofereceu dez dolares ao vizinho pelo porco: placa $10 com o dinheiro na mao
+b5: OK - o dono gritou que o porco valia cem e recusou: placa $100 com o ingles bravo
+b6: OK - os ingleses ameacaram prender o fazendeiro e os americanos mandaram soldados: placa TROPAS com soldados americanos chegando
+b7: OK - a Inglaterra respondeu com navios de guerra, centenas de soldados e canhoes: navios de guerra no porto e os dois exercitos frente a frente
+b8: OK - o almirante ingles recebeu ordem de atacar e se recusou: almirante e o oficial na sala com a ordem
+b9: OK - os soldados trocaram insultos e depois festas, ninguem deu um tiro: placa FESTAS com soldados ingleses e americanos rindo juntos
+b10: OK - treze anos depois um arbitro decidiu que a ilha era americana: placa 13 ANOS com os dois oficiais
+b11: OK - a unica baixa da guerra foi o porco: fazendeiro diante do tumulo do porco com a cruz
+b12: OK - chamada final COMENTE com o fazendeiro
+pesquisa: Guerra do Porco de 1859 na ilha de San Juan, fazendeiro Lyman Cutlar matou o porco de Charles Griffin da Companhia da Baia de Hudson, ofereceu 10 dolares, Griffin pediu 100, ocupacao conjunta por 12 anos, almirante Baynes recusou atacar, arbitragem do Kaiser em 1872
+defeitos procurados: cenario (fazenda, cais, sala de oficiais) OK; epoca (1859, fardas vermelhas e azuis, navios a vela) OK; tamanho (porco em escala, navios grandes) OK; cortado (porco inteiro no gancho) OK; multidao (so nas tropas e festa) OK; legenda (placas no alto) OK; acao (atirar, oferecer dinheiro, festa) OK; objeto (porco, batatas e navios visiveis quando citados) OK

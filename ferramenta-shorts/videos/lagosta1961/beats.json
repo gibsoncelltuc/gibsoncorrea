@@ -108,7 +108,25 @@
    "d0": 8.0,
    "d1": 6.8,
    "shot_lock": true,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -478,7 +496,25 @@
    "d0": 8.0,
    "d1": 6.8,
    "shot_lock": true,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "ano": 1961,

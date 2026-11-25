@@ -58,18 +58,29 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "BRA:0:angry"
    ],
    "props": [
     [
-     "kit/lobster",
-     0.0,
-     -1.0,
-     1.5,
+     "kit/bancada",
+     1.2,
+     -0.6,
+     1.2,
      {
+      "nocol": true,
       "fixo": true
+     }
+    ],
+    [
+     "kit/lobster",
+     1.2,
+     -0.6,
+     0.45,
+     {
+      "fixo": true,
+      "y": 0.85
      }
     ]
    ],
@@ -82,18 +93,6 @@
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "hipotese",
     "passos": [
@@ -103,13 +102,31 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "cx": 0.5,
+   "cz": -0.4,
+   "h": 1.7,
+   "d0": 8.0,
+   "d1": 6.8,
+   "shot_lock": true,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -421,21 +438,39 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "kw": false
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "BRA:0:nervous"
    ],
    "props": [
     [
-     "kit/lobster",
-     0.0,
-     -1.0,
-     1.5,
+     "kit/bancada",
+     1.0,
+     -0.6,
+     1.2,
      {
+      "nocol": true,
       "fixo": true
+     }
+    ],
+    [
+     "kit/lobster",
+     1.0,
+     -0.6,
+     0.45,
+     {
+      "fixo": true,
+      "y": 0.85
      }
     ]
    ],
@@ -446,18 +481,6 @@
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "figurada",
     "passos": [
@@ -467,13 +490,31 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "cx": 0.5,
+   "cz": -0.4,
+   "h": 1.7,
+   "d0": 8.0,
+   "d1": 6.8,
+   "shot_lock": true,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "ano": 1961,
