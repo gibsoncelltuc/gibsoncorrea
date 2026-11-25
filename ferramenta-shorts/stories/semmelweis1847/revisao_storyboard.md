@@ -5,7 +5,7 @@ b3: OK - "Na ala dos medicos, morriam muito mais maes, de febre": tres maes em v
 b4: CORRIGIDO - "Um colega se cortou numa autopsia e morreu de febre": antes o personagem saia da tela e o bisturi era pequeno -> agora o bisturi grande em pe no centro, os dois medicos inteiros no quadro e o colega caindo com poeira
 b5: OK - "Acontece que os medicos saiam das autopsias de maos sujas": dois medicos de jaleco e cartola lado a lado, texto MAOS SUJAS
 b6: CORRIGIDO - "Ele pos cloro numa bacia e obrigou todos a lavar as maos": antes tinha quadros so com a bacia e personagem cortado -> agora a bacia de cloro centrada entre Semmelweis e o colega, os dois inteiros no quadro, em tres takes
-b7: CORRIGIDO - "As mortes cairam quase dez vezes": antes a bacia citada nao aparecia -> agora a bacia perto do centro, com Semmelweis, mae e paciente comemorando na rua, texto VIDAS SALVAS
+b7: CORRIGIDO - "As mortes cairam quase dez vezes": antes a bacia citada ficava escondida atras da multidao -> agora a bacia posta na frente e maior, com Semmelweis, mae e paciente comemorando na rua, texto VIDAS SALVAS
 b8: OK - "Mas os medicos se ofenderam e o expulsaram": colega de cartola e Semmelweis furioso frente a frente
 b9: OK - "Lavar as maos virou insulto. Foi assim que...": repete a enfermaria do gancho com a bacia e o texto LAVE AS MAOS
 pesquisa: o moodboard (referencias/semmelweis1847/moodboard.jpg) mostra a enfermaria de Viena de 1847 com leitos de ferro, jalecos brancos e bacia de cloro; modelos e roupas batem, ignorei fotos modernas de hospital
