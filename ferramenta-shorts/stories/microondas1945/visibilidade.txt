@@ -1,0 +1,2 @@
+VISIBILIDADE: 1 FALHA(S)
+FALHA b3: objeto "kit/chocolate" saiu com 16% da altura da tela, a ficha de cena planejou 32%

@@ -26,7 +26,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)
 - PERSONAGENS: ENG na esquerda, expressao neutral; SPE na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/chocolate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/chocolate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b4: "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido."
 - LOCAL: sala de madeira; hora: day
