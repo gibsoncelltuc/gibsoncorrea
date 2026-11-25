@@ -200,9 +200,11 @@ cannon | b6 | pronto | conferir na folha de contato se le bem; se parecer caixot
 ## Video inteiro
 - Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 3 | mistura: close 2% | medio 62% | aberto 27% | detalhe 9%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b4 pedir, b7 entregar, b8 insiste
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: curto demais: ~29.0 s (estimado); minimo 30 s -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bolos1838
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: curto demais: ~29.0 s (estimado); minimo 30 s
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).
