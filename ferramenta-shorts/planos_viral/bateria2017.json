@@ -1,0 +1,70 @@
+{
+ "gancho_tipo": "perda",
+ "texto_gancho": "100 DIAS OU GRÁTIS",
+ "gancho_cumprido": "Gancho: um homem apostou 50 milhoes de dolares numa conversa no Twitter. Pagamento: a maior bateria do mundo ficou pronta em cerca de 55 dias, antes do prazo, e ele nao perdeu.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um homem arriscou cinquenta milhões de dólares numa conversa no Twitter.",
+   "arriscou"
+  ],
+  [
+   9,
+   "promessa",
+   "E tudo começou com uma resposta curta, escrita no celular.",
+   "resposta"
+  ],
+  [
+   1,
+   "prova",
+   "Em 2017, Elon Musk prometeu baterias gigantes para a Austrália.",
+   "prometeu",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Cem dias para entregar. Senão, seria de graça.",
+   "cem",
+   {
+    "mapa": null
+   }
+  ],
+  [
+   2,
+   "escalada",
+   "Os jornais calcularam: ele podia perder mais de cinquenta milhões.",
+   "calcularam"
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que ficou pronta em cerca de cinquenta e cinco dias.",
+   "pronta"
+  ],
+  [
+   6,
+   "pagamento",
+   "Na época, era a maior bateria do mundo.",
+   "maior",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Quem lançou o desafio teve que admitir: ele cumpriu.",
+   "admitir"
+  ],
+  [
+   0,
+   "loop",
+   "Cinquenta milhões em jogo, por causa de uma conversa no Twitter.",
+   "conversa"
+  ]
+ ]
+}

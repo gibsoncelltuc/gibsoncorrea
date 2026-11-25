@@ -60,7 +60,6 @@
     "MOD:0:grin",
     "BOL:0:shock"
    ],
-   "say": "Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.",
    "props": [
     [
      "kit/balde_madeira",
@@ -70,12 +69,52 @@
     ]
    ],
    "detalhe": true,
+   "bloco": "gancho",
+   "say": "Ninguém te conta: uma guerra de verdade teve um balde como troféu.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "balde"
+     }
+    ]
+   },
+   "text": "GUERRA DO BALDE",
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MOD:0:smile"
+   ],
+   "props": [
+    [
+     "buildings/castle_tower",
+     0,
+     -12,
+     2.2
+    ],
+    [
+     "kit/balde_madeira",
+     0.4,
+     0.8,
+     2.0
+    ]
+   ],
+   "tiros": false,
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "text": "TORRE GHIRLANDINA",
+   "bloco": "promessa",
+   "say": "E esse balde está guardado até hoje.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "guardado"
      }
     ]
    }
@@ -88,16 +127,16 @@
    ],
    "mapa": "ITÁLIA",
    "mapa_at": 6,
-   "say": "Módena e Bolonha disputavam a fronteira havia décadas.",
    "tiros": false,
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_discute",
-      "na": "disputavam",
-      "quem": 0,
-      "alvo_quem": 1
+      "faz": "mostra",
+      "na": "disputavam"
      }
     ]
    }
@@ -118,8 +157,9 @@
    "text": "30.000",
    "titulo": true,
    "tiros": false,
-   "say": "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.",
    "set": "loc_campo",
+   "bloco": "prova",
+   "say": "Em 1325, Bolonha marchou com cerca de trinta mil soldados.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -146,14 +186,15 @@
     "march": false,
     "poucos": true
    },
-   "say": "Módena tinha menos de oito mil homens, e parecia perdida.",
    "set": "loc_campo",
+   "bloco": "prova",
+   "say": "Módena tinha menos de oito mil homens.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "homens"
+      "na": "menos"
      }
     ]
    }
@@ -175,11 +216,9 @@
     "expr": "angry"
    },
    "tiros": false,
-   "verbos_ok": [
-    "corre"
-   ],
-   "say": "Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.",
    "set": "loc_campo",
+   "bloco": "escalada",
+   "say": "Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -187,60 +226,6 @@
       "faz": "corre",
       "na": "fugiu",
       "quem": 1
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "MOD:0:stern",
-    "MOD:1:grin"
-   ],
-   "tiros": false,
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "MOD"
-    ],
-    "march": true
-   },
-   "batalha": false,
-   "say": "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.",
-   "set": "medieval",
-   "fachada": false,
-   "props": [
-    [
-     "buildings/castle_tower",
-     -3,
-     -12,
-     1.5
-    ],
-    [
-     "buildings/castle_tower",
-     4,
-     -12,
-     1.5
-    ],
-    [
-     "buildings/church",
-     0,
-     -14,
-     1.2
-    ]
-   ],
-   "text": "MUROS DE BOLONHA",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "morre",
-      "na": "Morreram"
-     },
-     {
-      "faz": "chega",
-      "na": "chegaram",
-      "quem": 0
      }
     ]
    }
@@ -261,8 +246,9 @@
     "march": true
    },
    "batalha": false,
-   "say": "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.",
    "set": "loc_campo",
+   "bloco": "escalada",
+   "say": "Depois, Módena fez festa na porta de Bolonha, para zombar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -318,11 +304,12 @@
     "march": false
    },
    "tiros": false,
-   "say": "Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha.",
    "set": "medieval",
    "fachada": false,
    "shot_lock": true,
    "acao": "pega",
+   "bloco": "pagamento",
+   "say": "E levaram de troféu um balde de madeira do poço da cidade.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -354,17 +341,18 @@
     ]
    ],
    "tiros": false,
-   "say": "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.",
    "set": "medieval",
    "fachada": false,
    "shot_lock": true,
    "text": "TORRE GHIRLANDINA",
+   "bloco": "pagamento",
+   "say": "O balde ficou na torre Ghirlandina, em Módena.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "balde"
+      "na": "torre"
      }
     ]
    }
@@ -372,18 +360,26 @@
   {
    "shot": "two",
    "who": [
-    "POV:0:smile:paper",
-    "POV:1:smile"
+    "MOD:0:grin",
+    "BOL:0:shock"
    ],
-   "interior": "madeira",
-   "tiros": false,
-   "say": "Séculos depois, um poeta transformou a história numa sátira famosa.",
+   "props": [
+    [
+     "kit/balde_madeira",
+     0.0,
+     -0.8,
+     2.6
+    ]
+   ],
+   "detalhe": true,
+   "bloco": "loop",
+   "say": "Milhares de soldados. Prêmio final: um balde.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "poeta"
+      "na": "balde"
      }
     ]
    }
@@ -431,5 +427,8 @@
  "herois_nomes": {
   "kit/balde_madeira": "balde de madeira medieval"
  },
- "set_tematico_ok": true
+ "set_tematico_ok": true,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma guerra de verdade teve como trofeu um balde de madeira, e ele existe ate hoje. Pagamento: Modena venceu, levou o balde do poco de Bolonha e ele esta guardado na torre Ghirlandina.",
+ "loop_frase_ok": true
 }

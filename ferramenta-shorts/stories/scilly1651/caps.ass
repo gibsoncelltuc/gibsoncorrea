@@ -31,40 +31,35 @@ Dialogue: 0,0:00:14.59,0:00:15.00,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy11
 Dialogue: 0,0:00:15.02,0:00:15.58,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a Holanda
 Dialogue: 0,0:00:15.60,0:00:16.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mandou navios
 Dialogue: 0,0:00:16.18,0:00:16.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e declarou
-Dialogue: 0,0:00:16.76,0:00:17.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}guerra às
-Dialogue: 0,0:00:17.19,0:00:17.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ilhas.
+Dialogue: 0,0:00:16.76,0:00:17.18,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}guerra às
+Dialogue: 0,0:00:17.20,0:00:17.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ilhas.
 Dialogue: 0,0:00:18.34,0:00:18.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acontece que
-Dialogue: 0,0:00:18.89,0:00:19.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a Inglaterra
-Dialogue: 0,0:00:19.57,0:00:19.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tomou as
-Dialogue: 0,0:00:19.99,0:00:20.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ilhas antes
-Dialogue: 0,0:00:20.54,0:00:21.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}da Holanda
-Dialogue: 0,0:00:21.09,0:00:21.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}atacar.
+Dialogue: 0,0:00:18.89,0:00:19.56,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a Inglaterra
+Dialogue: 0,0:00:19.58,0:00:19.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tomou as
+Dialogue: 0,0:00:19.99,0:00:20.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ilhas antes
+Dialogue: 0,0:00:20.55,0:00:21.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}da Holanda
+Dialogue: 0,0:00:21.10,0:00:21.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}atacar.
 Dialogue: 0,0:00:22.30,0:00:22.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Os holandeses
 Dialogue: 0,0:00:22.99,0:00:23.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram embora.
 Dialogue: 0,0:00:24.53,0:00:24.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}E ninguém
 Dialogue: 0,0:00:25.00,0:00:25.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}assinou a
 Dialogue: 0,0:00:25.62,0:00:26.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}paz.
-Dialogue: 0,0:00:26.61,0:00:27.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A guerra
-Dialogue: 0,0:00:27.09,0:00:28.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ficou esquecida
-Dialogue: 0,0:00:28.04,0:00:28.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}por mais
-Dialogue: 0,0:00:28.36,0:00:28.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de trezentos
-Dialogue: 0,0:00:29.00,0:00:29.57,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}anos.
-Dialogue: 0,0:00:30.18,0:00:31.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em 1985,
-Dialogue: 0,0:00:32.06,0:00:33.19,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um historiador
-Dialogue: 0,0:00:33.21,0:00:34.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}perguntou à
-Dialogue: 0,0:00:34.13,0:00:35.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Holanda:
-Dialogue: 0,0:00:35.67,0:00:36.32,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a guerra
-Dialogue: 0,0:00:36.34,0:00:37.48,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ainda vale?
-Dialogue: 0,0:00:37.52,0:00:37.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em 1986,
-Dialogue: 0,0:00:37.79,0:00:38.45,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o embaixador
-Dialogue: 0,0:00:38.47,0:00:38.86,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}holandês foi
-Dialogue: 0,0:00:38.88,0:00:39.27,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}às ilhas
-Dialogue: 0,0:00:39.29,0:00:39.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}assinar a
-Dialogue: 0,0:00:39.84,0:00:40.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}paz.
-Dialogue: 0,0:00:40.84,0:00:41.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}335 anos
-Dialogue: 0,0:00:41.80,0:00:42.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de guerra,
-Dialogue: 0,0:00:42.94,0:00:43.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}zero tiros.
-Dialogue: 0,0:00:44.49,0:00:44.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}E você
-Dialogue: 0,0:00:44.77,0:00:45.30,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}achando que
-Dialogue: 0,0:00:45.32,0:00:45.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}guerra precisa
-Dialogue: 0,0:00:46.01,0:00:46.67,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de tiro.
+Dialogue: 0,0:00:26.63,0:00:28.44,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em 1985,
+Dialogue: 0,0:00:28.51,0:00:29.65,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um historiador
+Dialogue: 0,0:00:29.67,0:00:30.57,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}perguntou à
+Dialogue: 0,0:00:30.59,0:00:31.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Holanda:
+Dialogue: 0,0:00:32.13,0:00:32.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a guerra
+Dialogue: 0,0:00:32.80,0:00:33.94,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ainda vale?
+Dialogue: 0,0:00:33.97,0:00:34.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em 1986,
+Dialogue: 0,0:00:34.24,0:00:34.91,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o embaixador
+Dialogue: 0,0:00:34.93,0:00:35.32,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}holandês foi
+Dialogue: 0,0:00:35.34,0:00:35.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}às ilhas
+Dialogue: 0,0:00:35.75,0:00:36.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}assinar a
+Dialogue: 0,0:00:36.30,0:00:36.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}paz.
+Dialogue: 0,0:00:37.30,0:00:38.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}335 anos
+Dialogue: 0,0:00:38.25,0:00:39.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de guerra,
+Dialogue: 0,0:00:39.40,0:00:40.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}zero tiros.
+Dialogue: 0,0:00:40.95,0:00:41.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}E você
+Dialogue: 0,0:00:41.22,0:00:41.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}achando que
+Dialogue: 0,0:00:41.77,0:00:42.44,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}guerra precisa
+Dialogue: 0,0:00:42.46,0:00:43.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de tiro.

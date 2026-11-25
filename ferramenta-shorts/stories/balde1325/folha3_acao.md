@@ -1,148 +1,205 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 44 acoes catalogadas, 42 com animacao, 2 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
-> "Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "balde" (4.8s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | prêmio (3.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| ! | vencedor | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
-
-## Cena b1 - 5.9s a 8.5s - 8 palavras - plano two
-> "Módena e Bolonha disputavam a fronteira havia décadas."
+## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
+> "Ninguém te conta: uma guerra de verdade teve um balde como troféu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) NOB acao do motor: discute | na palavra "disputavam" (7.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "balde" (3.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | disputavam (7.0s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | MAPA | ITÁLIA | OK |
-
-## Cena b2 - 8.9s a 17.0s - 23 palavras - plano crowd
-> "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) BOL chega na cena | na palavra "marchou" (15.2s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | marchou (15.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | PLACA | 30.000 | OK |
-
-## Cena b3 - 17.4s a 20.7s - 10 palavras - plano two
-> "Módena tinha menos de oito mil homens, e parecia perdida."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "homens" (19.6s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | reagir | OK |
-
-## Cena b4 - 21.1s a 29.3s - 23 palavras - plano crowd
-> "Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) BOL corre | na palavra "fugiu" (28.1s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | atacaram (25.6s) | EFEITO: ring | onda + som | OK |
-| 2 | fugiu (28.1s) | EFEITO: dust | poeira + som | OK |
-| 3 | fugiu (28.1s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
-
-## Cena b5 - 29.6s a 34.4s - 14 palavras - plano group
-> "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto cai e fica imovel | na palavra "Morreram" (29.6s)
-  2) MOD chega na cena | na palavra "chegaram" (33.0s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | Morreram (29.6s) | EFEITO: puff | fumaca + som | OK |
-| 2 | Morreram (29.6s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | chegaram (33.0s) | EFEITO: dust | poeira + som | OK |
-| 4 | chegaram (33.0s) | ACAO: chega | entra andando pela lateral | OK |
-| 5 | - | INTERACAO | aproxima-se | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | CHEGADA | alguem entra andando | OK |
-| 8 | - | PLACA | MUROS DE BOLONHA | OK |
-
-## Cena b6 - 34.8s a 39.3s - 13 palavras - plano two
-> "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MOD comemora a vitoria | na palavra "festa" (37.0s)
-  2) MOD acao do motor: ri | na palavra "zombar" (38.5s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | festa (37.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | festa (37.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | zombar (38.5s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | pular | OK |
-| 6 | - | ATUACAO | comemorar | OK |
-| ! | invadir | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
-
-## Cena b7 - 39.6s a 45.9s - 18 palavras - plano two
-> "Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MOD pega/levanta o objeto | na palavra "levaram" (40.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | levaram (40.4s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | pega | OK |
-| 4 | - | PLACA | PORTA DE BOLONHA | OK |
-
-## Cena b8 - 46.3s a 51.1s - 14 palavras - plano close
-> "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "balde" (46.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | vitória (51.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | TORRE GHIRLANDINA | OK |
-
-## Cena b9 - 51.5s a 54.8s - 10 palavras - plano two
-> "Séculos depois, um poeta transformou a história numa sátira famosa."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "poeta" (52.6s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | GUERRA DO BALDE | OK |
+<!-- FISICA -->
 
-## Cena b10 - 55.2s a 59.6s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.4s a 6.7s - 7 palavras - plano close
+> "E esse balde está guardado até hoje."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "guardado" (5.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 2 | - | PLACA | TORRE GHIRLANDINA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b2 - 7.0s a 10.4s - 10 palavras - plano two
+> "Módena e Bolonha, na Itália, disputavam a fronteira havia décadas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "disputavam" (8.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | MAPA | ITÁLIA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 10.7s a 14.1s - 10 palavras - plano crowd
+> "Em 1325, Bolonha marchou com cerca de trinta mil soldados."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) BOL chega na cena | na palavra "marchou" (11.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | marchou (11.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | PLACA | 30.000 | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra marchou (11.9s): executa: entra andando pela lateral
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 18: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b4 - 14.4s a 16.7s - 7 palavras - plano two
+> "Módena tinha menos de oito mil homens."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "menos" (15.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | susto | OK |
+| 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: reagir
+- multidao de 6: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b5 - 17.0s a 20.7s - 11 palavras - plano crowd
+> "Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) BOL corre | na palavra "fugiu" (20.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | fugiu (20.7s) | EFEITO: dust | poeira + som | OK |
+| 2 | fugiu (20.7s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra fugiu (20.7s): executa: poeira + som
+- ACAO: corre na palavra fugiu (20.7s): passos rapidos com o corpo inclinado para frente; cruza o quadro de um lado ao outro
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): executa: reagir
+- multidao de 32: parada, reagindo (angry), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b6 - 21.1s a 24.4s - 10 palavras - plano two
+> "Depois, Módena fez festa na porta de Bolonha, para zombar."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MOD comemora a vitoria | na palavra "festa" (22.2s)
+  2) MOD acao do motor: ri | na palavra "zombar" (24.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | festa (22.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | festa (22.2s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | zombar (24.4s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | INTERACAO | pular | OK |
+| 6 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra festa (22.2s): executa: estrelinhas + som
+- ACAO: vence na palavra festa (22.2s): executa: bracos para cima + brilho
+- ACAO: x_ri na palavra zombar (24.4s): executa: ri de bracos para cima + brilho
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- INTERACAO (a cena toda): executa: pular
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- multidao de 8: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b7 - 24.8s a 28.9s - 12 palavras - plano two
+> "E levaram de troféu um balde de madeira do poço da cidade."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MOD pega/levanta o objeto | na palavra "levaram" (25.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | levaram (25.2s) | ACAO: pega | levanta/segura | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | pega | OK |
+| 4 | - | PLACA | PORTA DE BOLONHA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pega na palavra levaram (25.2s): executa: levanta/segura
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: pega
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b8 - 29.3s a 31.9s - 8 palavras - plano close
+> "O balde ficou na torre Ghirlandina, em Módena."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "torre" (30.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | TORRE GHIRLANDINA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b9 - 32.2s a 34.4s - 7 palavras - plano two
+> "Milhares de soldados. Prêmio final: um balde."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "balde" (34.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | Prêmio (33.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | GUERRA DO BALDE | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra Prêmio (33.3s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

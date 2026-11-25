@@ -3,7 +3,7 @@
  "ano": 1325,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 82,
+  "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -17,21 +17,36 @@
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/house_small",
     "kit/balde_madeira",
-    "nature/picket_fence",
-    "nature/tree_oak",
     "tools/bucket"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.",
+   "frase": "Ninguém te conta: uma guerra de verdade teve um balde como troféu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "vencedor"
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MOD"
    ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower",
+    "kit/balde_madeira",
+    "tools/bucket"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E esse balde está guardado até hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
    "cenario": "medieval"
   },
   {
@@ -42,14 +57,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
-   "cena": "b1",
-   "frase": "Módena e Bolonha disputavam a fronteira havia décadas.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "medieval"
+   "cenario": "interior pedra"
   },
   {
    "camera": "crowd",
@@ -61,9 +76,9 @@
    "objetos": [
     "nature/picket_fence"
    ],
-   "palavras": 23,
-   "cena": "b2",
-   "frase": "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Em 1325, Bolonha marchou com cerca de trinta mil soldados.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -78,9 +93,9 @@
    ],
    "multidao": 6,
    "objetos": [],
-   "palavras": 10,
-   "cena": "b3",
-   "frase": "Módena tinha menos de oito mil homens, e parecia perdida.",
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Módena tinha menos de oito mil homens.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -95,9 +110,9 @@
    ],
    "multidao": 32,
    "objetos": [],
-   "palavras": 23,
-   "cena": "b4",
-   "frase": "Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.",
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -111,27 +126,6 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "MOD",
-    "MOD"
-   ],
-   "multidao": 8,
-   "objetos": [
-    "buildings/castle_tower",
-    "buildings/church",
-    "nature/picket_fence"
-   ],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "medieval"
-  },
-  {
    "camera": "two",
    "personagens": [
     "MOD",
@@ -139,15 +133,13 @@
    ],
    "multidao": 8,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.",
+   "frase": "Depois, Módena fez festa na porta de Bolonha, para zombar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "invadir"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
@@ -159,13 +151,15 @@
    "multidao": 0,
    "objetos": [
     "buildings/castle_tower",
+    "buildings/house_two",
     "kit/balde_madeira",
     "kit/well",
+    "nature/lamppost",
     "tools/bucket"
    ],
-   "palavras": 18,
+   "palavras": 12,
    "cena": "b7",
-   "frase": "Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha.",
+   "frase": "E levaram de troféu um balde de madeira do poço da cidade.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -183,9 +177,9 @@
     "kit/balde_madeira",
     "tools/bucket"
    ],
-   "palavras": 14,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.",
+   "frase": "O balde ficou na torre Ghirlandina, em Módena.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -195,35 +189,22 @@
   {
    "camera": "two",
    "personagens": [
-    "POV",
-    "POV"
+    "MOD",
+    "BOL"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
+   "objetos": [
+    "kit/balde_madeira",
+    "tools/bucket"
+   ],
+   "palavras": 7,
    "cena": "b9",
-   "frase": "Séculos depois, um poeta transformou a história numa sátira famosa.",
+   "frase": "Milhares de soldados. Prêmio final: um balde.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MOD"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "medieval"
   }
  ]
 }

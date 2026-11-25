@@ -25,14 +25,32 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses.",
+   "frase": "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E o resultado foi bem menor do que se imaginava.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -44,9 +62,9 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 22,
-   "cena": "b1",
-   "frase": "Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio.",
+   "palavras": 12,
+   "cena": "b2",
+   "frase": "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -62,9 +80,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
-   "cena": "b2",
-   "frase": "Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove dólares, com bifes e hambúrgueres.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Os pacotes custavam até novecentos e noventa e nove dólares.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -85,12 +103,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/steak",
-    "nature/picket_fence"
+    "kit/steak"
    ],
-   "palavras": 16,
-   "cena": "b3",
-   "frase": "Acontece que a loja deixou de oferecer os bifes em julho, cerca de dois meses depois.",
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Acontece que, em julho, a loja já não oferecia os bifes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -105,9 +122,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b4",
-   "frase": "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares.",
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Uma reportagem estimou menos de cinquenta mil dólares no total.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -123,33 +140,14 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU",
-    "VEN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tv"
-   ],
-   "palavras": 10,
-   "cena": "b5",
-   "frase": "A marca também apareceu na QVC, um canal de televisão.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "CLI",
     "VEN"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 7,
    "cena": "b6",
-   "frase": "Segundo registros, a marca registrada foi cancelada em dois mil e catorze.",
+   "frase": "Em 2014, a marca registrada foi cancelada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -166,9 +164,9 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Trump.",
+   "frase": "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -176,58 +174,23 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
-   "personagens": [
-    "TRU",
-    "CLI"
-   ],
-   "multidao": 8,
-   "objetos": [
-    "buildings/shop",
-    "kit/stall"
-   ],
-   "palavras": 14,
-   "cena": "b8",
-   "frase": "Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
    "camera": "two",
    "personagens": [
+    "TRU",
     "VEN"
    ],
    "multidao": 0,
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 14,
-   "cena": "b9",
-   "frase": "Moral da história: nem todo produto com nome famoso dura mais que uma promoção.",
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Nem todo nome famoso dura mais que uma promoção.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_cidade"
   }
  ]
 }

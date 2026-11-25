@@ -1,0 +1,435 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "title": "A Guerra do Balde",
+ "set": "medieval",
+ "light": "day",
+ "mood": "march",
+ "outfits": {
+  "MOD": {
+   "jacket": "#d9a441",
+   "pants": "#3a3a4a",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#8d949c",
+   "belt": "#2a2218",
+   "uniforme_fixo": true
+  },
+  "BOL": {
+   "jacket": "#b5333a",
+   "pants": "#e8e0c8",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#6a6f78",
+   "belt": "#2a2218",
+   "uniforme_fixo": true
+  },
+  "POV": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "cap",
+    "straw",
+    "bonnet"
+   ],
+   "cap": "#8a5a3a"
+  },
+  "NOB": {
+   "jacket": "#7b2a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "crown",
+   "build": "stout"
+  },
+  "PAP": {
+   "profissao": "padre",
+   "jacket": "#f4f1e8",
+   "pants": "#f4f1e8",
+   "boots": "#2a2218",
+   "sash": "#d8282f"
+  }
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 4,
+ "titulo_base": "A Guerra do Balde",
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:grin",
+    "BOL:0:shock"
+   ],
+   "say": "Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.",
+   "props": [
+    [
+     "kit/balde_madeira",
+     0.0,
+     -0.8,
+     2.6
+    ]
+   ],
+   "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balde"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NOB:0:stern",
+    "PAP:0:stern"
+   ],
+   "mapa": "ITÁLIA",
+   "mapa_at": 6,
+   "say": "Módena e Bolonha disputavam a fronteira havia décadas.",
+   "tiros": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_discute",
+      "na": "disputavam",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "BOL:0:stern",
+    "BOL:1:stern"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "BOL"
+    ],
+    "march": true
+   },
+   "text": "30.000",
+   "titulo": true,
+   "tiros": false,
+   "say": "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.",
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "marchou",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:nervous",
+    "MOD:1:pained"
+   ],
+   "tiros": false,
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "MOD"
+    ],
+    "march": false,
+    "poucos": true
+   },
+   "say": "Módena tinha menos de oito mil homens, e parecia perdida.",
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "homens"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "MOD:0:stern",
+    "BOL:0:shock"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 32,
+    "outfits": [
+     "MOD",
+     "BOL"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "tiros": false,
+   "verbos_ok": [
+    "corre"
+   ],
+   "say": "Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.",
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corre",
+      "na": "fugiu",
+      "quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MOD:0:stern",
+    "MOD:1:grin"
+   ],
+   "tiros": false,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MOD"
+    ],
+    "march": true
+   },
+   "batalha": false,
+   "say": "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.",
+   "set": "medieval",
+   "fachada": false,
+   "props": [
+    [
+     "buildings/castle_tower",
+     -3,
+     -12,
+     1.5
+    ],
+    [
+     "buildings/castle_tower",
+     4,
+     -12,
+     1.5
+    ],
+    [
+     "buildings/church",
+     0,
+     -14,
+     1.2
+    ]
+   ],
+   "text": "MUROS DE BOLONHA",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "morre",
+      "na": "Morreram"
+     },
+     {
+      "faz": "chega",
+      "na": "chegaram",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:laugh:flag",
+    "MOD:1:grin"
+   ],
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MOD"
+    ],
+    "march": true
+   },
+   "batalha": false,
+   "say": "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.",
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "festa",
+      "quem": 0
+     },
+     {
+      "faz": "x_ri",
+      "na": "zombar",
+      "quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:laugh:bag",
+    "MOD:1:grin"
+   ],
+   "props": [
+    [
+     "kit/well",
+     1.6,
+     -0.8,
+     1.4
+    ],
+    [
+     "kit/balde_madeira",
+     0.2,
+     0.5,
+     2.0
+    ],
+    [
+     "buildings/castle_tower",
+     -3.5,
+     -12,
+     1.5
+    ],
+    [
+     "buildings/castle_tower",
+     5,
+     -12,
+     1.5
+    ]
+   ],
+   "text": "PORTA DE BOLONHA",
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "tiros": false,
+   "say": "Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha.",
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "acao": "pega",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "levaram",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MOD:0:smile"
+   ],
+   "props": [
+    [
+     "buildings/castle_tower",
+     0,
+     -12,
+     2.2
+    ],
+    [
+     "kit/balde_madeira",
+     0.4,
+     0.8,
+     2.0
+    ]
+   ],
+   "tiros": false,
+   "say": "O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.",
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "text": "TORRE GHIRLANDINA",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balde"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:smile:paper",
+    "POV:1:smile"
+   ],
+   "interior": "madeira",
+   "tiros": false,
+   "say": "Séculos depois, um poeta transformou a história numa sátira famosa.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "poeta"
+     }
+    ]
+   }
+  }
+ ],
+ "min_momentos": 1,
+ "visual": {
+  "local": "Zappolino",
+  "quando": "15 de novembro de 1325, ao pôr do sol; outono",
+  "participantes": [
+   "exército de Bolonha",
+   "exército de Módena",
+   "Passerino Bonacolsi",
+   "Alessandro Tassoni"
+  ],
+  "roupas": {
+   "MOD": "gibelinos: sobrecota amarela, elmo de ferro",
+   "BOL": "guelfos de Bolonha: sobrecota vermelha, elmo",
+   "NOB": "nobre/senhor com coroa e manto roxo",
+   "POV": "camponês de colete azul e chapéu"
+  },
+  "cenario": "campo e colina, muralha de tijolo com portão de Bolonha, poço de pedra, torre alta de Módena",
+  "objetos": [
+   "balde de madeira",
+   "poço de pedra"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Zappolino",
+   "referencias/balde1325/moodboard.jpg"
+  ],
+  "buscas": {
+   "Módena": "Torre della Ghirlandina Modena",
+   "Bolonha": "Bologna medieval city walls gate",
+   "batalha": "Battle of Zappolino 1325",
+   "balde": "Secchia rapita bucket Modena Ghirlandina",
+   "soldado da epoca": "14th century Italian infantry crossbowman illustration",
+   "Zappolino": "Zappolino Valsamoggia castle hill",
+   "balde de madeira": "wooden bucket medieval iron bands",
+   "exército de Bolonha": "Bologna medieval army 14th century",
+   "exército de Módena": "Modena medieval soldiers 14th century",
+   "Passerino Bonacolsi": "Passerino Bonacolsi Mantua"
+  }
+ },
+ "heroi": "kit/balde_madeira",
+ "herois_nomes": {
+  "kit/balde_madeira": "balde de madeira medieval"
+ },
+ "set_tematico_ok": true
+}

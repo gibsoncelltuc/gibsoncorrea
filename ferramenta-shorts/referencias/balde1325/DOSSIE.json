@@ -7,7 +7,7 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
-   "interior madeira",
+   "interior pedra",
    "loc_campo",
    "medieval"
   ],
@@ -19,6 +19,7 @@
   "carro dos anos 50",
   "encouracado",
   "fragata a vela",
+  "globo de mesa (o mais antigo e de 1492)",
   "navio a vapor",
   "navio a vapor de guerra",
   "navio de guerra moderno",
@@ -31,18 +32,17 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/castle_tower",
-  "buildings/church",
   "buildings/house_small",
   "kit/balde_madeira",
-  "kit/room_rosa_wood",
+  "kit/room_rosa_stone",
   "kit/well",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Table_Large",
   "nature/haybale",
-  "nature/tree_oak",
-  "tools/bucket"
+  "tools/bucket",
+  "tools/lantern"
  ],
  "pesquisa_visual": {
   "local": "Zappolino",

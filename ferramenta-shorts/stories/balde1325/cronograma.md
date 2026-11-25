@@ -1,31 +1,30 @@
 # CRONOGRAMA - Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Gerado em 25/11 01:26 | 11 cenas | metricas: acoes_encenadas 82%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:58 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | medieval | two | MOD, BOL | - | house_small, balde_madeira, picket_fence, tree_oak, bucket | - | Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um 
-b1 | simples | medieval | two | NOB, PAP | - | - | - | Módena e Bolonha disputavam a fronteira havia décadas.
-b2 | simples | loc_campo | crowd | BOL, BOL | 18 | picket_fence | - | Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil s
-b3 | simples | loc_campo | two | MOD, MOD | 6 | - | - | Módena tinha menos de oito mil homens, e parecia perdida.
-b4 | chave | loc_campo | crowd | MOD, BOL | 32 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacar
-b5 | simples | medieval | group | MOD, MOD | 8 | castle_tower, church, picket_fence | - | Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros 
-b6 | simples | loc_campo | two | MOD, MOD | 8 | - | - | Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotado
-b7 | simples | medieval | two | MOD, MOD | - | castle_tower, balde_madeira, well, bucket | - | Na volta, levaram como troféu um balde de madeira, tirado de um poço p
-b8 | simples | medieval | close | MOD | - | castle_tower, balde_madeira, bucket | - | O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbol
-b9 | simples | interior madeira | two | POV, POV | - | - | - | Séculos depois, um poeta transformou a história numa sátira famosa.
-b10 | simples | interior madeira | close | MOD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | medieval | two | MOD, BOL | - | balde_madeira, bucket | - | Ninguém te conta: uma guerra de verdade teve um balde como troféu.
+b1 | simples | medieval | close | MOD | - | castle_tower, balde_madeira, bucket | - | E esse balde está guardado até hoje.
+b2 | simples | interior pedra | two | NOB, PAP | - | - | - | Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.
+b3 | simples | loc_campo | crowd | BOL, BOL | 18 | picket_fence | - | Em 1325, Bolonha marchou com cerca de trinta mil soldados.
+b4 | simples | loc_campo | two | MOD, MOD | 6 | - | - | Módena tinha menos de oito mil homens.
+b5 | chave | loc_campo | crowd | MOD, BOL | 32 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.
+b6 | simples | loc_campo | two | MOD, MOD | 8 | - | - | Depois, Módena fez festa na porta de Bolonha, para zombar.
+b7 | simples | medieval | two | MOD, MOD | - | castle_tower, house_two, balde_madeira, well, lamppost, bucket | - | E levaram de troféu um balde de madeira do poço da cidade.
+b8 | simples | medieval | close | MOD | - | castle_tower, balde_madeira, bucket | - | O balde ficou na torre Ghirlandina, em Módena.
+b9 | simples | medieval | two | MOD, BOL | - | balde_madeira, bucket | - | Milhares de soldados. Prêmio final: um balde.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/13 itens) | PENDENTE | python3 pesquisar.py balde1325
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | BLOQUEADO (etapa anterior pendente) | modelar em blender/ (formas.py): kit/balde_madeira
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 6) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (11/12 itens) | FEITO | 
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | PENDENTE | modelar em blender/ (formas.py): kit/balde_madeira
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | REFAZER (a etapa anterior mudou) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
@@ -37,5 +36,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local balde1325 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 2. Pesquisa de campo
+**Etapa atual:** 3. Modelagem do que falta
 

@@ -237,8 +237,8 @@
    "cx": 0.0,
    "cz": -5.6,
    "h": 2.8,
-   "d0": 14.8,
-   "d1": 11.8,
+   "d0": 15.0,
+   "d1": 13.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -252,7 +252,7 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "explica": {

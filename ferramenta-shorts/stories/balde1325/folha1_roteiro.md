@@ -1,90 +1,45 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 162 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~5.5 s)
-- Narracao: Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.
+## Cena b0  (~4.1 s)
+- Narracao: Ninguém te conta: uma guerra de verdade teve um balde como troféu.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: prêmio -> stars + som de sino
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: GANCHO
-
-## Cena b1  (~2.8 s)
-- Narracao: Módena e Bolonha disputavam a fronteira havia décadas.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_discute (point) @3 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: - | mapa: ITÁLIA
-- Funcao na historia: desenvolvimento
-
-## Cena b2  (~7.9 s)
-- Narracao: Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @17 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: 30.000
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~3.4 s)
-- Narracao: Módena tinha menos de oito mil homens, e parecia perdida.
-- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Texto na tela: GUERRA DO BALDE
+- Funcao na historia: GANCHO
 
-## Cena b4  (~7.9 s)
-- Narracao: Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacaram -> ring + som de alerta; fugiu -> dust + som de impacto; encena: corre @19 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b5  (~4.8 s)
-- Narracao: Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.
+## Cena b1  (~2.4 s)
+- Narracao: E esse balde está guardado até hoje.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: Morreram -> puff + som de baque; chegaram -> dust + som de impacto; encena: morre @0 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: MUROS DE BOLONHA
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~4.5 s)
-- Narracao: Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito; encena: x_ri (up) @10 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~6.2 s)
-- Narracao: Na volta, levaram como troféu um balde de madeira, tirado de um poço perto da porta de Bolonha.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: PORTA DE BOLONHA
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~4.8 s)
-- Narracao: O balde ficou guardado na torre Ghirlandina, em Módena, e virou símbolo da vitória.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; vitória -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: TORRE GHIRLANDINA
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: Séculos depois, um poeta transformou a história numa sátira famosa.
+## Cena b2  (~3.4 s)
+- Narracao: Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: - | mapa: ITÁLIA
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~3.4 s)
+- Narracao: Em 1325, Bolonha marchou com cerca de trinta mil soldados.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: 30.000
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~2.4 s)
+- Narracao: Módena tinha menos de oito mil homens.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -92,12 +47,48 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b5  (~3.8 s)
+- Narracao: Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.
 - Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre @10 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b6  (~3.4 s)
+- Narracao: Depois, Módena fez festa na porta de Bolonha, para zombar.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @3 -> acao + som de efeito; encena: x_ri (up) @9 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~4.1 s)
+- Narracao: E levaram de troféu um balde de madeira do poço da cidade.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @1 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: PORTA DE BOLONHA
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~2.8 s)
+- Narracao: O balde ficou na torre Ghirlandina, em Módena.
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: TORRE GHIRLANDINA
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~2.4 s)
+- Narracao: Milhares de soldados. Prêmio final: um balde.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: Prêmio -> stars + som de sino
+- Efeito visual marcado: -
+- Texto na tela: GUERRA DO BALDE
 - Funcao na historia: FECHO/PIADA FINAL
 
