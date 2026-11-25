@@ -20,7 +20,6 @@ montgolfier1783
 #PAUSADO ese_lua
 #PAUSADO ese_napoleao
 # acrescentados em 24/11 (roteiros que estavam so nos branches antigos das sessoes)
-franklin1752
 galileu1589
 mendel1856
 microondas1945

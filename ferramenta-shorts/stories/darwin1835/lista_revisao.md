@@ -3,7 +3,17 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b6: objeto "kit/finch_thick" saiu com 16% da altura da tela, a ficha de cena planejou 32%
+1. b2: "kit/navio_fragata" cobrindo a tela (73% do quadro: so' se ve uma parede/casco)
+2. b2~1: "kit/navio_fragata" cobrindo a tela (77% do quadro: so' se ve uma parede/casco)
+3. b2~2: "kit/navio_fragata" cobrindo a tela (73% do quadro: so' se ve uma parede/casco)
+4. b2~3: "kit/navio_fragata" cobrindo a tela (77% do quadro: so' se ve uma parede/casco)
+5. b2~4: "kit/navio_fragata" cobrindo a tela (73% do quadro: so' se ve uma parede/casco)
+6. b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+7. b5~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+8. b5~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+9. b2: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+10. b2: objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 32%
+11. b6: objeto "kit/finch_thick" saiu com 16% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um cientista misturou as etiquetas de uns passarinhos,": 

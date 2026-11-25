@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | - | - | -
 b1 | reveal | -  | tropa, mapa | chegou (dust + som de impacto); encena: chega (point) @9 (acao + som de efeito) | -
-b2 | two | -  | objeto na mao | encena: pega (lift) @0 (acao + som de efeito) | -
+b2 | group | -  | objeto na mao | encena: pega (lift) @0 (acao + som de efeito) | -
 b3 | wide | -  | batalha aberta com tiros, objeto na mao | encena: olha (point) @0 (acao + som de efeito) | -
 b4 | two | -  | interior, objeto na mao | encena: fala (point) @6 (acao + som de efeito) | -
 b5 | two | -  | interior | objeto: finch_thick quebra (na palavra "quebrar") (acao + som de efeito) | -
@@ -14,5 +14,5 @@ b8 | group | -  | interior, objeto na mao | encena: pensa (think) @1 (acao + som
 b9 | two | -  | - | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 69% | aberto 12% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 73% | aberto 12% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
