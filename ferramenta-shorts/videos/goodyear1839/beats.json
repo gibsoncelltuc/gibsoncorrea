@@ -470,8 +470,8 @@
    "props": [
     [
      "kit/tires",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "fixo": true
@@ -545,8 +545,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -584,18 +583,12 @@
    "d1": 7.6,
    "quadro_manual": true,
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
+    "local": "galpao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tires juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/borracha",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
       "objeto": "kit/tires",
-      "lugar": "MEIO, direita",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }

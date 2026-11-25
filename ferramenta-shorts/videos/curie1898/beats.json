@@ -90,10 +90,10 @@
     ]
    },
    "interior": "pedra",
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/curie_box",
@@ -106,8 +106,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   },
   {
    "shot": "wide",
@@ -180,24 +179,23 @@
    "shot": "two",
    "interior": "galpao",
    "who": [
-    "MAR:0:grin",
-    "PIE:0:surprised"
+    "MAR:0:grin"
    ],
    "props": [
     [
      "kit/pechblenda",
-     1.6,
-     -1.0,
-     1.6,
+     7.0,
+     -14.0,
+     3.2,
      {
       "fixo": true
      }
     ],
     [
      "kit/curie_box",
-     0.6,
-     1.0,
-     1.5,
+     2.4,
+     0.2,
+     1.2,
      {
       "fixo": true
      }
@@ -230,27 +228,26 @@
    "_enq_shot": "two",
    "quadro": {
     "local": "galpao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/curie_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/pechblenda",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -405,14 +402,13 @@
    "shot": "two",
    "interior": "pedra",
    "who": [
-    "PES:0:suspicious",
-    "JOR:0:nervous"
+    "PES:0:suspicious"
    ],
    "props": [
     [
      "kit/curie_box",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -433,22 +429,22 @@
     ]
    },
    "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/curie_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -590,5 +586,5 @@
    "https://www.bnf.fr/"
   ]
  },
- "max_wide": 3
+ "max_wide": 4
 }
