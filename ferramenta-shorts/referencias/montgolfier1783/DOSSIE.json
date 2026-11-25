@@ -73,10 +73,7 @@
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Nightstand_Shelf",
-  "mk/Table_Large",
-  "nature/bush",
-  "nature/tree_oak",
-  "nature/tree_pine"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris",

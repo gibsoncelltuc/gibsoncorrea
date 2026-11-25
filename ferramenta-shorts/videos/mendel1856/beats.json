@@ -165,7 +165,7 @@
    ],
    "detalhe": true,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_campo",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -234,7 +234,7 @@
     "n": 0
    },
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_patio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -307,7 +307,7 @@
     "thump@30"
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -339,12 +339,12 @@
      }
     ]
    },
+   "set": "loc_patio",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "set": "loc_patio"
+   "d1": 10.0
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
@@ -404,7 +404,7 @@
     "sting@60"
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "salao",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -446,12 +446,12 @@
      }
     ]
    },
+   "set": "hall",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "set": "hall"
+   "d1": 10.0
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -593,7 +593,7 @@
     ]
    ],
    "quadro": {
-    "local": "loc_campo",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
