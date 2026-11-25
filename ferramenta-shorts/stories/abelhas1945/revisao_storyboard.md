@@ -1,12 +1,14 @@
-b0: OK - cena confere com a frase: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas
-b1: OK - cena confere com a frase: Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas.
-b2: OK - cena confere com a frase: Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos
-b3: OK - cena confere com a frase: Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.
-b4: OK - cena confere com a frase: Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima
-b5: OK - cena confere com a frase: Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito,
-b6: OK - cena confere com a frase: E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o
-b7: OK - cena confere com a frase: Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito
-b8: OK - cena confere com a frase: Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.
-b9: OK - cena confere com a frase: Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas
-b10: OK - cena confere com a frase: Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.
-b11: OK - cena confere com a frase: Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um
+# Revisao do storyboard - abelhas1945 (25/11, olhado quadro a quadro, 3a versao)
+b0: OK - abelhas voando em volta da colmeia de vidro, cientista teimoso e colega no jardim (abelhas conversam dancando)
+b1: OK - Karl von Frisch (o proprio, nao um figurante) na sala com a colmeia, mapa da Austria, passou a vida estudando abelhas
+b2: OK - colmeia de vidro e pratinho azul de agua com acucar no jardim, DANCA na tela
+b3: OK - a abelha voltava para o favo e dancava, ele observa surpreso ao lado da colmeia
+b4: OK - explicacao: PERTO = VOLTINHAS, LONGE = UM OITO, rebolando no meio
+b5: OK - explicacao: ANGULO = DIRECAO comparada com o sol
+b6: OK - explicacao: MAIS REBOLADO = MAIS LONGE a comida, mapa de danca
+b7: OK - muitos cientistas nao acreditaram: colega rindo (parecia piada), von Frisch nervoso com o papel na sala
+b8: OK - ele repetiu os testes centenas de vezes com o colega e a colmeia no jardim, sem multidao, as abelhas acertavam
+b9: OK - ja idoso ele ganhou o Premio Nobel dividido com outros cientistas, NOBEL na tela, comemoracao
+b10: OK - proxima vez que vir uma abelha: von Frisch no jardim com a colmeia e abelha voando (segredo), close da colmeia, COMENTE
+pesquisa: comparativo modelo x referencia conferido (referencias/abelhas1945/comparativo_ok.md): colmeia de observacao de von Frisch
+defeitos procurados: cenario (jardim, sala, Nobel) OK; epoca (sem objeto moderno) OK; tamanho (colmeia e abelhas visiveis) OK; cortado (ninguem cortado, o close da colmeia e' do objeto) OK; multidao (so na cerimonia do Nobel) OK; legenda (rotulos nao cobrem a legenda) OK; acao (danca das abelhas, rir, comemorar) OK; objeto (colmeia e abelhas visiveis quando citadas) OK

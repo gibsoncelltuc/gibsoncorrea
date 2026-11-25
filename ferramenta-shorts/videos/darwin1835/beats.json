@@ -103,7 +103,7 @@
    "set": "harbor",
    "props": [
     [
-     "kit/navio_vela",
+     "kit/navio_fragata",
      -7.0,
      -33.8,
      7.65,
@@ -222,9 +222,10 @@
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
-   "shot": "wide",
+   "shot": "two",
    "interior": "pedra",
    "who": [
+    "GOU:0:smug:paper",
     "DAR:0:surprised"
    ],
    "interacao": "discutir",
@@ -240,6 +241,22 @@
     ]
    ],
    "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "revelou",
+      "quem": 1
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
@@ -251,24 +268,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "revelou",
-      "quem": 1
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "detalhe": false,
-   "_auto_vis": 2
+   }
   },
   {
    "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
@@ -281,18 +281,18 @@
    "props": [
     [
      "kit/finch_thick",
-     0.0,
-     -1.2,
-     1.5,
+     -0.8,
+     1.4,
+     2.2,
      {
       "fixo": true
      }
     ],
     [
      "kit/finch_long",
-     1.6,
-     -1.0,
-     1.5,
+     0.8,
+     1.4,
+     2.2,
      {
       "fixo": true
      }
@@ -306,6 +306,26 @@
     "thump@40",
     "ding@60"
    ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bico"
+     },
+     {
+      "faz": "quebra",
+      "alvo": "kit/finch_thick",
+      "na": "quebrar"
+     }
+    ]
+   },
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.9,
+   "d0": 6.6,
+   "d1": 6.2,
+   "h": 1.8,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",
@@ -323,27 +343,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "bico"
-     },
-     {
-      "faz": "quebra",
-      "alvo": "kit/finch_thick",
-      "na": "quebrar"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   }
   },
   {
    "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
@@ -360,8 +360,8 @@
    "props": [
     [
      "kit/finch_thick",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "fixo": true
@@ -369,8 +369,8 @@
     ],
     [
      "kit/finch_long",
-     0.0,
-     1.4,
+     -3.6,
+     -2.0,
      2.0,
      {
       "fixo": true
@@ -435,8 +435,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3
+   "d1": 11.5
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
@@ -449,8 +448,8 @@
    "props": [
     [
      "kit/finch_thick",
-     0.6,
-     1.0,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -459,11 +458,11 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/finch_thick",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -479,11 +478,10 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
@@ -582,5 +580,8 @@
   "R7"
  ],
  "set_tematico_ok": true,
- "regiao": "nenhuma"
+ "regiao": "nenhuma",
+ "objetos_do_video": {
+  "\\bnavio\\b|beagle": "kit/navio_fragata"
+ }
 }
