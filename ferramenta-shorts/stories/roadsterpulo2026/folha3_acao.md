@@ -45,10 +45,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- /FISICA -->
 
 ## Cena b2 - 7.2s a 10.3s - 10 palavras - plano two
-> "Em 2026, Elon Musk mostrou o novo Roadster no Texas."
+> "Elon Musk mostrou o novo Roadster numa base no Texas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mostrou" (8.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mostrou" (7.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

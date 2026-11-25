@@ -11,8 +11,7 @@ b5 | low | -  | - | - | -
 b6 | close | -  | placa: NEVE NA BOCA | - | -
 b7 | wide | -  | batalha aberta com tiros, tropa, placa: 100 DIAS | tiros: 5 soldados caem no chao (acao + som de efeito); encena: atira @9 (acao + som de efeito) | -
 b8 | close | -  | placa: MORTE BRANCA | - | -
-b9 | two | -  | interior, placa: HOSPITAL | bala (burst + som de tiro/explosao); encena: tomba @4 (acao + som de efeito) | -
-b10 | wide | -  | tropa, placa: MORTE BRANCA | - | -
+b9 | wide | -  | tropa, placa: MORTE BRANCA | - | -
 
-Mistura de planos: close 39% | medio 35% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 43% | medio 28% | aberto 29% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

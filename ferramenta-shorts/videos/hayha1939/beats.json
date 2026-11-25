@@ -261,27 +261,6 @@
    }
   },
   {
-   "shot": "two",
-   "who": [
-    "FIN:3:pained",
-    "FIN:1:sad"
-   ],
-   "interior": "hospital",
-   "bloco": "pagamento",
-   "say": "Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "tomba",
-      "na": "atingiu",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   }
-  },
-  {
    "shot": "close",
    "who": [
     "FIN:3:smile"

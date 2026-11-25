@@ -191,28 +191,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu.
-- Cenario: interior hospital | luz: arctic | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao sad)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, rosto
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: hospital; hora: arctic
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FIN na esquerda, expressao pained; FIN na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (29.7-31.4 s): mesmo angulo
-  - take 2 (31.4-33.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b10 - Viveu até 96 anos e dizia: só fiz meu trabalho.
+## Cena b9 - Viveu até 96 anos e dizia: só fiz meu trabalho.
 - Cenario: arctic | luz: arctic | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -237,8 +216,8 @@ nature/bush | b3 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 39% | medio 35% | aberto 26% | detalhe 0%
-- Interacoes: b3 susto, b9 o outro se aproxima
+- Objeto heroi: - | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 43% | medio 28% | aberto 29% | detalhe 0%
+- Interacoes: b3 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -255,8 +234,8 @@ nature/bush | b3 | pronto | conferir na folha de contato se le bem; se parecer c
 - PERSONAGENS: FIN no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "SÓ FEZ O SEU TRABALHO" numa placa atras dos personagens, na palavra 18 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (33.1-34.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (34.6-36.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (29.7-31.4 s): mesmo angulo
+  - take 2 (31.4-33.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

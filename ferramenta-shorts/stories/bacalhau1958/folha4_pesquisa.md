@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | As Guerras do Bacalhau | As Guerras do Bacalhau / Marinha Islândia Com De Guerras Bacalhau 1958 | SEM REFERENCIA
+tema | As Guerras do Bacalhau | As Guerras do Bacalhau / Marinha Islândia Com Foram Guerras Bacalhau 1958 | SEM REFERENCIA
 lugar | Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de p | Atlântico Norte mar aberto perto da costa da Islândia / Atlântico Norte mar aberto perto da costa da Islândia Reykjavik e a costa de pesca águas c | SEM REFERENCIA
 lugar | Inglaterra | Inglaterra 1958 / Inglaterra landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1958 | 1958 fashion clothing / 1958 street photograph | SEM REFERENCIA

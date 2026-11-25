@@ -7,8 +7,7 @@
   "regiao": null,
   "luz_base": "arctic",
   "cenarios": [
-   "arctic",
-   "interior hospital"
+   "arctic"
   ],
   "cenarios_trocados": []
  },
@@ -32,8 +31,6 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/barn",
-  "kit/maca",
-  "kit/room_hospital",
   "nature/bush",
   "nature/haybale",
   "nature/picket_fence",

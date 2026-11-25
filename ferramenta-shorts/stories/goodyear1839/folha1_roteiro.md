@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 112 palavras (~39 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 110 palavras (~38 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Um inventor falido deixou cair uma gosma no fogão. E mudou o mundo.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: GOODYEAR
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: Em 1839, nos Estados Unidos, a borracha estava na moda.
+## Cena b2  (~2.8 s)
+- Narracao: Nos Estados Unidos, a borracha estava na moda.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -

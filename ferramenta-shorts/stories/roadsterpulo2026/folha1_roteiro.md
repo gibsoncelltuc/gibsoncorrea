@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.4 s)
-- Narracao: Em 2026, Elon Musk mostrou o novo Roadster no Texas.
+- Narracao: Elon Musk mostrou o novo Roadster numa base no Texas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -133,12 +133,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (18.6-20.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b6 - Acontece que, em 2022, o bitcoin despencou para dezesseis mil dólares.
+## Cena b6 - Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dó...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao nervous)
-- Animacao: reagir
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin
 - RISCOS: nenhum
@@ -149,33 +149,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (20.7-22.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (22.9-25.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (20.7-22.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (22.2-23.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (23.7-25.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - E sessenta e oito por cento da população era contra.
-- Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): CLI (variante 0, expressao angry); POV (variante 0, expressao stern); POV (variante 1, expressao angry)
-- Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): populacao
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: CLI na esquerda, expressao angry; POV (comerciante) no centro, expressao stern; POV (comerciante) na direita, expressao angry; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (25.2-26.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (26.9-28.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-
-## Cena b8 - Mas em dezembro de 2024, o bitcoin passou de cem mil dólares.
+## Cena b7 - Mas em dezembro de 2024, o bitcoin passou de cem mil dólares.
 - Cenario: loc_estudio | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -190,10 +170,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bitcoin no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (3.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.8 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
-## Cena b9 - As reservas no prejuízo viraram lucro.
+## Cena b8 - As reservas no prejuízo viraram lucro.
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
@@ -210,10 +190,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: BUK na esquerda, expressao smug; DEP na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PREJUÍZO → LUCRO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b10 - Aposta maluca ou visão de futuro? Você decide.
+## Cena b9 - Aposta maluca ou visão de futuro? Você decide.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -228,15 +208,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bitcoin | b0, b1, b2, b4, b5, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bitcoin | b0, b1, b2, b4, b5, b6, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rack_mineracao | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 11% | medio 60% | aberto 22% | detalhe 7%
-- Interacoes: b0 susto, b9 avanca e o outro recua, b10 discutir
+- Objeto heroi: kit/bitcoin | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 13% | medio 58% | aberto 25% | detalhe 5%
+- Interacoes: b0 susto, b8 avanca e o outro recua, b9 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -252,8 +232,6 @@ kit/rack_mineracao | b5 | pronto | conferir na folha de contato se le bem; se pa
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; multidao de 8 (POV, CLI) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (35.0-36.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (36.7-38.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

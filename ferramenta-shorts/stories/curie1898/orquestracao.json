@@ -54,9 +54,9 @@
    "objetos": [
     "kit/marco_eiffel"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Em 1898, em Paris, Marie Curie trabalhava num galpão gelado.",
+   "frase": "Em Paris, Marie Curie trabalhava num galpão gelado.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -162,7 +162,7 @@
    "objetos": [],
    "palavras": 12,
    "cena": "b7",
-   "frase": "Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934.",
+   "frase": "Acontece que a radiação destruiu a saúde dela. Ela morreu por isso.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

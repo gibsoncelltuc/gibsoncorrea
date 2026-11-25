@@ -37,10 +37,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- /FISICA -->
 
 ## Cena b2 - 5.6s a 8.0s - 9 palavras - plano wide
-> "De 1958 a 1976, foram três Guerras do Bacalhau."
+> "Foram três Guerras do Bacalhau, em quase vinte anos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "três" (6.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "três" (6.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 09 - O País do Bitcoin
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 108 palavras (~37 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 99 palavras (~34 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Dinheiro de um país é coisa séria? Um presidente escolheu o bitcoin.
@@ -56,17 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: ENERGIA DO VULCÃO
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~3.8 s)
-- Narracao: Acontece que, em 2022, o bitcoin despencou para dezesseis mil dólares.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: VIRADA
-
-## Cena b7  (~3.4 s)
-- Narracao: E sessenta e oito por cento da população era contra.
+## Cena b6  (~4.1 s)
+- Narracao: Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dólares.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.1 s)
+## Cena b7  (~4.1 s)
 - Narracao: Mas em dezembro de 2024, o bitcoin passou de cem mil dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.1 s)
+## Cena b8  (~2.1 s)
 - Narracao: As reservas no prejuízo viraram lucro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: PREJUÍZO → LUCRO
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.8 s)
+## Cena b9  (~2.8 s)
 - Narracao: Aposta maluca ou visão de futuro? Você decide.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

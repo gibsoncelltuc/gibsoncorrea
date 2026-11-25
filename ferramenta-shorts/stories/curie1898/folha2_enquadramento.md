@@ -17,7 +17,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: PES no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
-## b2: "Em 1898, em Paris, Marie Curie trabalhava num galpão gelado."
+## b2: "Em Paris, Marie Curie trabalhava num galpão gelado."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -50,7 +50,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MAR na esquerda, expressao nervous, segura paper; PIE (cientista) na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934."
+## b7: "Acontece que a radiação destruiu a saúde dela. Ela morreu por isso."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MAR no centro, expressao sad; sem multidao; acao: fala/gesto

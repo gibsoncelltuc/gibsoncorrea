@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 23 - A Morte Branca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 11 cenas, 109 palavras (~38 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 10 cenas, 99 palavras (~34 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um fazendeiro baixinho virou o soldado mais temido de uma guerra.
@@ -84,15 +84,6 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.4 s)
-- Narracao: Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: tomba @4 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: HOSPITAL
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~3.4 s)
 - Narracao: Viveu até 96 anos e dizia: só fiz meu trabalho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

@@ -347,42 +347,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "escalada",
-   "say": "Acontece que, em 2022, o bitcoin despencou para dezesseis mil dólares.",
+   "say": "Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dólares.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "despencou"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "group",
-   "who": [
-    "CLI:0:angry",
-    "POV:0:stern",
-    "POV:1:angry"
-   ],
-   "hud": {
-    "contador": {
-     "de": 0,
-     "para": 68,
-     "un": "%",
-     "titulo": "CONTRA O BITCOIN",
-     "na": "sessenta",
-     "dur": 1.0
-    }
-   },
-   "bloco": "escalada",
-   "say": "E sessenta e oito por cento da população era contra.",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "contra"
      }
     ]
    }

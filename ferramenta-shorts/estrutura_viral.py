@@ -3,7 +3,7 @@
 #   python3 estrutura_viral.py --todos     -> varredura de todos os roteiros (videos/*), tabela em VARREDURA_ESTRUTURA.md
 import json, re, sys, os, glob, unicodedata
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-WPS = 2.5                      # palavras por segundo da voz (medido: 153 palavras = 60 s)
+WPS = 2.75                     # palavras FALADAS por segundo (medido na voz: Jenkins 115 em 42,0 s; Scilly 131 em 47,2 s)
 MIN_W, MAX_W, DURO_W = 75, 112, 125   # 30-45 s; limite duro 50 s
 BLOCOS = ['gancho', 'promessa', 'prova', 'escalada', 'pagamento', 'loop']
 TIPOS = {'perda', 'ganho', 'crenca', 'segredo'}
@@ -13,6 +13,19 @@ CTA = r'comente|comentar|inscrev|curte|curtir|proximo video|link na'
 def n_(t): return unicodedata.normalize('NFKD', str(t).lower()).encode('ascii', 'ignore').decode()
 def frases(t): return [f.strip() for f in re.split(r'(?<=[.!?])\s+|:\s+(?=[A-ZÀ-Ú"])', t.strip()) if f.strip()]
 def pal(t): return len(re.findall(r"[\wÀ-ú$%]+(?:[-'][\wÀ-ú]+)*", t))
+def falado(t):   # palavras FALADAS: '1651' vira 'mil seiscentos e cinquenta e um' (6); '335' -> 5; '96' -> 3
+    n_ = 0
+    for w in re.findall(r"[\wÀ-ú$%]+(?:[-'][\wÀ-ú]+)*", t):
+        d = re.sub(r'\D', '', w)
+        if d and len(d) == len(re.sub(r'[$%]', '', w)): n_ += {1: 1, 2: 3, 3: 5, 4: 6}.get(len(d), 7)
+        else: n_ += 1
+    return n_
+def dur_real(id_, says):
+    try:
+        ph = json.load(open(f'stories/{id_}/work/phrases.json')); pt = re.sub(r'\W+', '', ''.join(p.get('text', '') for p in ph['phrases']).lower())
+        if re.sub(r'\W+', '', ''.join(says).lower()) in pt: return ph['frames30'] / 30
+    except Exception: pass
+    return None
 
 def checar(id_):
     B = json.load(open(f'videos/{id_}/beats.json', encoding='utf-8')); bt = B.get('beats', [])
@@ -20,10 +33,10 @@ def checar(id_):
     says = [b.get('say', '') for b in bt]
     if says and re.search(CTA, n_(says[-1])): avisos.append('ultima frase e\' chamada para comentar (vai sair: final agora e\' o LOOP)')
     corpo = [s for s in says if not re.search(CTA, n_(s))] if len(says) > 1 else says
-    W = sum(pal(s) for s in corpo); seg = W / WPS
-    if W > DURO_W: falhas.append(f'longo demais: {W} palavras (~{seg:.0f} s); maximo {MAX_W} (~45 s), ideal ate ~88 (35 s)')
-    elif W > MAX_W: falhas.append(f'acima de 45 s: {W} palavras (~{seg:.0f} s); cortar para {MAX_W} ou menos')
-    elif W < MIN_W: falhas.append(f'curto demais: {W} palavras (~{seg:.0f} s); minimo {MIN_W} (30 s)')
+    W = sum(falado(s) for s in corpo); dr = dur_real(id_, corpo); seg = dr or W / WPS
+    fonte = 'voz real' if dr else 'estimado'
+    if seg > 45.5: falhas.append(f'acima de 45 s: ~{seg:.1f} s ({fonte}; {W} palavras faladas, anos contam como 6); cortar ate ~{int(45 * WPS)} palavras faladas (ideal ~35 s)')
+    elif seg < 29.5: falhas.append(f'curto demais: ~{seg:.1f} s ({fonte}); minimo 30 s')
     longas = [(k, f) for k, s in enumerate(says) for f in frases(s) if pal(f) > 12]
     for k, f in longas[:6]: falhas.append(f'b{k}: frase com {pal(f)} palavras (max 12): "{f[:70]}"')
     if len(longas) > 6: falhas.append(f'... mais {len(longas) - 6} frase(s) com mais de 12 palavras')
@@ -44,8 +57,8 @@ def checar(id_):
         if bl[-1] != 'loop': falhas.append('a ultima cena tem que ser o loop')
         acum = 0; ok_prova = False
         for b in bt:
-            if b.get('bloco') == 'prova' and re.search(NUM, n_(b.get('say', ''))) and acum / WPS <= 20: ok_prova = True
-            acum += pal(b.get('say', ''))
+            if b.get('bloco') == 'prova' and (re.search(NUM, n_(b.get('say', ''))) or re.search(r'\s[A-ZÁÉÍÓÚ][a-záéíóúãõç]+', b.get('say', ''))) and acum / WPS <= 20: ok_prova = True   # numero ou NOME proprio
+            acum += falado(b.get('say', ''))
         if not ok_prova: falhas.append('sem micro-pagamento (numero/nome/resultado) na prova antes dos 20 s')
         lp = next((b for b in reversed(bt) if b.get('bloco') == 'loop'), {})
         if not lp.get('loop_visual', True) is False and not lp.get('loop_visual'): avisos.append('loop: a ferramenta repete a imagem da 1a cena na ultima ("loop_visual": true automatico)')

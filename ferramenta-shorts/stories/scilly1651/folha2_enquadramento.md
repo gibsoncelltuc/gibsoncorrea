@@ -47,25 +47,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: HOL (marinheiro) no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: INDO EMBORA; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b6: "A guerra ficou esquecida por mais de trezentos anos."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: ILH (pescador) na esquerda, expressao smile; ILH (pescador) na direita, expressao grin; sem multidao; acao: comemorar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b7: "Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?"
+## b6: "Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?"
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRE (politico) na esquerda, expressao surprised, segura book; EMB (nobre) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Em 1986, o embaixador holandês foi às ilhas assinar a paz."
+## b7: "Em 1986, o embaixador holandês foi às ilhas assinar a paz."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: EMB (nobre) na esquerda, expressao relief, segura paper; PRE (politico) na direita, expressao relief; sem multidao; acao: entregar
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b9: "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro."
+## b8: "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: ILH (pescador) na esquerda, expressao laugh; HOL (marinheiro) na direita, expressao smug; sem multidao; acao: discutir

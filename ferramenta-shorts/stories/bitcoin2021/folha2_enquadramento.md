@@ -47,31 +47,25 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - TEXTO NA TELA: "ENERGIA DO VULCÃO" flutuando no alto, na palavra 1 da frase
 
-## b6: "Acontece que, em 2022, o bitcoin despencou para dezesseis mil dólares."
+## b6: "Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dólares."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b7: "E sessenta e oito por cento da população era contra."
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: CLI na esquerda, expressao angry; POV (comerciante) no centro, expressao stern; POV (comerciante) na direita, expressao angry; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b8: "Mas em dezembro de 2024, o bitcoin passou de cem mil dólares."
+## b7: "Mas em dezembro de 2024, o bitcoin passou de cem mil dólares."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bitcoin no centro, manobra "gira"
 - PASSOS NA TELA: -
 
-## b9: "As reservas no prejuízo viraram lucro."
+## b8: "As reservas no prejuízo viraram lucro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; DEP na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PREJUÍZO → LUCRO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b10: "Aposta maluca ou visão de futuro? Você decide."
+## b9: "Aposta maluca ou visão de futuro? Você decide."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; multidao de 8 (POV, CLI) ATRAS dos principais; acao: fala/gesto

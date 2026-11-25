@@ -145,7 +145,7 @@
    "d0": 12.0,
    "d1": 11.0,
    "bloco": "prova",
-   "say": "Em 1898, em Paris, Marie Curie trabalhava num galpão gelado.",
+   "say": "Em Paris, Marie Curie trabalhava num galpão gelado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -307,7 +307,7 @@
    ],
    "hora": "dia",
    "bloco": "escalada",
-   "say": "Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934.",
+   "say": "Acontece que a radiação destruiu a saúde dela. Ela morreu por isso.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [

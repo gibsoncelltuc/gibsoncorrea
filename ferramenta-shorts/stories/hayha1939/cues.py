@@ -1,6 +1,6 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [11, 22, 32, 40, 49, 59, 70, 82, 89, 99]] + [FR]
-drone(F(_A[0]), F(_A[11]), 49); heartbeat(F(_A[0]), F(_A[11]), 72, 0.55)
+_A = [0] + [int(_W(i) - 3) for i in [11, 22, 32, 40, 49, 59, 70, 82, 89]] + [FR]
+drone(F(_A[0]), F(_A[10]), 49); heartbeat(F(_A[0]), F(_A[10]), 72, 0.55)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)
 ding(F(int(_W(0) - 2)), 0.5, 988)
@@ -64,12 +64,7 @@ gun(F(_A[7] + 116))
 whoosh(F(_A[8]), 0.4, 0.35)
 ding(F(int(_W(90) - 2)), 0.5, 988)
 whoosh(F(_A[9]), 0.4, 0.35)
-ding(F(int(_W(89) - 2)), 0.5, 1175)
-gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.58)), 4, 170, 0.12)
-whoosh(F(_A[10]), 0.4, 0.35)
-ding(F(int(_W(116) - 2)), 0.5, 880)
+ding(F(int(_W(106) - 2)), 0.5, 1175)
 thump(F(int(_W(29))))
 hud(F(int(_W(33))))
 gun(F(int(_W(79))))
-gun(F(int(_W(92))))
-thump(F(int(_W(93))))

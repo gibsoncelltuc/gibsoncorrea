@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (4.9-6.3 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b2 - Em 1898, em Paris, Marie Curie trabalhava num galpão gelado.
+## Cena b2 - Em Paris, Marie Curie trabalhava num galpão gelado.
 - Cenario: street | luz: dia | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -64,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FRANÇA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (6.9-8.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (8.6-10.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (6.9-8.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (8.4-10.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b3 - O teto pingava, e ela mexia minério com uma barra de ferro.
@@ -85,9 +85,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MAR na esquerda, expressao stern, segura paper; PIE (cientista) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (10.8-12.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (12.6-14.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (10.2-12.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (12.1-13.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Assim ela e Pierre acharam dois elementos novos: polônio e rádio.
@@ -109,7 +109,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 - TEXTO NA TELA: "TONELADAS DE MINÉRIO" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (2.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b5 - O rádio brilhava no escuro, e ela adorava olhar os frascos.
@@ -127,7 +127,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/curie_box no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.6 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (4.2 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b6 - Ela carregava frascos no bolso. Ninguém sabia do perigo.
@@ -146,12 +146,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MAR na esquerda, expressao nervous, segura paper; PIE (cientista) na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (23.0-24.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (24.4-25.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (21.9-23.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (23.5-25.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934.
+## Cena b7 - Acontece que a radiação destruiu a saúde dela. Ela morreu por isso.
 - Cenario: street | luz: dia | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -169,10 +169,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (25.8-27.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (27.3-28.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (28.8-30.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (25.3-27.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (27.4-29.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b8 - Hoje, os cadernos dela ficam em caixas de chumbo em Paris.
@@ -193,10 +192,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (30.6-32.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (32.1-33.7 s): mesmo angulo
-  - take 3 (33.7-35.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (29.7-31.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (31.4-33.1 s): mesmo angulo
+  - take 3 (33.1-34.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b9 - Para ler, é preciso assinar um termo e vestir proteção.
@@ -241,8 +240,6 @@ crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "PERIGO" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (35.8-37.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (37.5-39.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

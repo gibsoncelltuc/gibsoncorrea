@@ -188,23 +188,6 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "FIN",
-    "FIN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b9",
-   "frase": "Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior hospital"
-  },
-  {
    "camera": "wide",
    "personagens": [
     "FIN",
@@ -213,7 +196,7 @@
    "multidao": 32,
    "objetos": [],
    "palavras": 10,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "Viveu até 96 anos e dizia: só fiz meu trabalho.",
    "classe": "simples",
    "sujeito": "personagem",

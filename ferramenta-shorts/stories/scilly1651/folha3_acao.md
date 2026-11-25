@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 13 palavras - plano two
@@ -112,28 +112,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ship INDO EMBORA: parte do lugar da ficha e sai pela direita do quadro ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 26.6s a 29.0s - 9 palavras - plano two
-> "A guerra ficou esquecida por mais de trezentos anos."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esquecida" (27.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | pular | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: pular
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
-
-## Cena b7 - 30.2s a 36.8s - 11 palavras - plano two
+## Cena b6 - 26.6s a 31.0s - 11 palavras - plano two
 > "Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?"
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perguntou" (33.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perguntou" (28.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -146,30 +129,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 37.5s a 39.8s - 11 palavras - plano two
+## Cena b7 - 32.1s a 37.7s - 11 palavras - plano two
 > "Em 1986, o embaixador holandês foi às ilhas assinar a paz."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) EMB escreve no papel | na palavra "assinar" (39.3s)
+  1) EMB escreve no papel | na palavra "assinar" (36.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | assinar (39.3s) | ACAO: escreve | escreve/assina | OK |
+| 1 | assinar (36.8s) | ACAO: escreve | escreve/assina | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: escreve na palavra assinar (39.3s): segura o papel e mexe a mao como se escrevesse
+- ACAO: escreve na palavra assinar (36.8s): segura o papel e mexe a mao como se escrevesse
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 40.8s a 46.1s - 14 palavras - plano two
+## Cena b8 - 37.8s a 42.9s - 14 palavras - plano two
 > "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "zero" (42.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "zero" (38.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

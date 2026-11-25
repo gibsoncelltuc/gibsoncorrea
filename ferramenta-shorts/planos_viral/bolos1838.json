@@ -69,24 +69,6 @@
    }
   ],
   [
-   7,
-   "escalada",
-   "O general Santa Anna perdeu uma perna nessa guerra.",
-   "perdeu",
-   {
-    "encena": {
-     "sentido": "afirmativa",
-     "passos": [
-      {
-       "faz": "perde",
-       "na": "perdeu",
-       "quem": 0
-      }
-     ]
-    }
-   }
-  ],
-  [
    8,
    "pagamento",
    "Em 1839, o México prometeu pagar, e a França foi embora.",

@@ -8,11 +8,10 @@ b2 | close | -  | mapa | - | -
 b3 | two | -  | tropa | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | caiu (dust + som de impacto) | -
 b5 | wide | -  | tropa, placa: ENERGIA DO VULCÃO | - | -
-b6 | two | -  | - | - | -
-b7 | orbit | -  | batalha aberta com tiros | - | -
-b8 | two | -  | tropa | - | -
-b9 | two | -  | placa: PREJUÍZO → LUCRO | - | -
-b10 | two | -  | tropa, placa: PAÍS DO BITCOIN | - | -
+b6 | orbit | -  | batalha aberta com tiros | - | -
+b7 | two | -  | tropa | - | -
+b8 | two | -  | placa: PREJUÍZO → LUCRO | - | -
+b9 | two | -  | tropa, placa: PAÍS DO BITCOIN | - | -
 
-Mistura de planos: close 11% | medio 60% | aberto 22% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 58% | aberto 25% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

@@ -58,23 +58,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - SOM: cannon@30
 
-## b8: "O general Santa Anna perdeu uma perna nessa guerra."
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: GEN no centro, expressao pained; sem multidao; acao: nenhuma
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
-- SOM: cannon@30
-- TEXTO NA TELA: "PERNA ENTERRADA COM HONRAS" numa placa atras dos personagens, na palavra 1 da frase
-
-## b9: "Em 1839, o México prometeu pagar, e a França foi embora."
+## b8: "Em 1839, o México prometeu pagar, e a França foi embora."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GEN na esquerda, expressao neutral, segura paper; FRA na direita, expressao neutral, segura coin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "600.000" numa placa atras dos personagens, na palavra 1 da frase
 
-## b10: "Tudo por uma conta de bolos."
+## b9: "Tudo por uma conta de bolos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CON na esquerda, expressao shock; OFI na direita, expressao laugh; sem multidao; acao: fala/gesto

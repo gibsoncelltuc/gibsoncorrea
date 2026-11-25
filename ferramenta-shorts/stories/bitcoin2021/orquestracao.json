@@ -139,7 +139,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "BUK"
    ],
@@ -147,27 +147,9 @@
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b6",
-   "frase": "Acontece que, em 2022, o bitcoin despencou para dezesseis mil dólares.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "CLI",
-    "POV",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b7",
-   "frase": "E sessenta e oito por cento da população era contra.",
+   "frase": "Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dólares.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -178,7 +160,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
@@ -186,7 +168,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 12,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Mas em dezembro de 2024, o bitcoin passou de cem mil dólares.",
    "classe": "explicativa",
    "sujeito": "objeto",
@@ -211,7 +193,7 @@
     "kit/bitcoin"
    ],
    "palavras": 6,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "As reservas no prejuízo viraram lucro.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -230,7 +212,7 @@
     "kit/bitcoin"
    ],
    "palavras": 8,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "Aposta maluca ou visão de futuro? Você decide.",
    "classe": "simples",
    "sujeito": "personagem",

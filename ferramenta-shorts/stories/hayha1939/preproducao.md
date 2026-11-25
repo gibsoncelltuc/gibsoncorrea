@@ -13,12 +13,11 @@ b5 | arctic | low | 1 | conversar | - | - | -
 b6 | arctic | close | 1 | conversar | - | - | -
 b7 | arctic | wide | 8 | reagir, batalha | nature/picket_fence | - | -
 b8 | arctic | close | 1 | reagir | - | - | -
-b9 | interior hospital | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
-b10 | arctic | wide | 16 | reagir | - | - | -
+b9 | arctic | wide | 16 | reagir | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b7
-Interacoes entre personagens: b3 susto, b9 o outro se aproxima
+Interacoes entre personagens: b3 susto
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

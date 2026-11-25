@@ -172,29 +172,13 @@
   {
    "camera": "two",
    "personagens": [
-    "GEN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b8",
-   "frase": "O general Santa Anna perdeu uma perna nessa guerra.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "group",
-   "personagens": [
     "GEN",
     "FRA"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 11,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "Em 1839, o México prometeu pagar, e a França foi embora.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -213,7 +197,7 @@
     "kit/cake_table"
    ],
    "palavras": 6,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "Tudo por uma conta de bolos.",
    "classe": "simples",
    "sujeito": "personagem",

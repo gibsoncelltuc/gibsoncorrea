@@ -57,9 +57,9 @@
    "objetos": [
     "kit/stove"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Em 1839, nos Estados Unidos, a borracha estava na moda.",
+   "frase": "Nos Estados Unidos, a borracha estava na moda.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 23 - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.7s - 11 palavras - plano wide
@@ -169,34 +169,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 29.7s a 33.0s - 10 palavras - plano two
-> "Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) FIN cai no chao | na palavra "atingiu" (31.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | bala (31.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | atingiu (31.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | HOSPITAL | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra bala (31.2s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ACAO: tomba na palavra atingiu (31.4s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b10 - 33.1s a 36.1s - 10 palavras - plano wide
+## Cena b9 - 29.7s a 33.0s - 10 palavras - plano wide
 > "Viveu até 96 anos e dizia: só fiz meu trabalho."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trabalho" (36.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trabalho" (33.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

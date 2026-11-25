@@ -281,36 +281,6 @@
   {
    "shot": "two",
    "who": [
-    "GEN:0:pained"
-   ],
-   "sfx": [
-    "cannon@30"
-   ],
-   "interior": "pedra",
-   "impact": false,
-   "acao": "nenhuma",
-   "text": "PERNA ENTERRADA COM HONRAS",
-   "objetos": false,
-   "fx": [
-    "stars@20"
-   ],
-   "shot_lock": true,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "perde",
-      "na": "perdeu",
-      "quem": 0
-     }
-    ]
-   },
-   "bloco": "escalada",
-   "say": "O general Santa Anna perdeu uma perna nessa guerra."
-  },
-  {
-   "shot": "two",
-   "who": [
     "GEN:0:neutral:paper",
     "FRA:0:neutral:coin"
    ],

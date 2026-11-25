@@ -17,7 +17,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b2: "Em 2026, Elon Musk mostrou o novo Roadster no Texas."
+## b2: "Elon Musk mostrou o novo Roadster numa base no Texas."
 - LOCAL: galpao; hora: noite
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto

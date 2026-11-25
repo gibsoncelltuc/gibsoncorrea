@@ -21,7 +21,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/tires: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "GOODYEAR" numa placa atras dos personagens, na palavra 1 da frase
 
-## b2: "Em 1839, nos Estados Unidos, a borracha estava na moda."
+## b2: "Nos Estados Unidos, a borracha estava na moda."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto

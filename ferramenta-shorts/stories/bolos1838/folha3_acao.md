@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.4s - 12 palavras - plano two
@@ -141,51 +141,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 20: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 28.2s a 30.9s - 9 palavras - plano two
-> "O general Santa Anna perdeu uma perna nessa guerra."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GEN mao na testa (derrota) | na palavra "perdeu" (29.6s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | perdeu (29.6s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (29.6s) | ACAO: perde | mao na testa | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | PLACA | PERNA ENTERRADA COM HONRAS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra perdeu (29.6s): executa: fumaca + som
-- ACAO: perde na palavra perdeu (29.6s): executa: mao na testa
-- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b9 - 31.1s a 35.4s - 11 palavras - plano group
+## Cena b8 - 28.2s a 31.4s - 11 palavras - plano two
 > "Em 1839, o México prometeu pagar, e a França foi embora."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prometeu" (33.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prometeu" (29.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagar (33.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | pagar (30.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | PLACA | 600.000 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra pagar (33.5s): executa: estrelinhas + som
+- EFEITO: stars na palavra pagar (30.0s): executa: estrelinhas + som
 - INTERACAO (a cena toda): executa: entregar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 35.5s a 37.1s - 6 palavras - plano two
+## Cena b9 - 31.6s a 34.4s - 6 palavras - plano two
 > "Tudo por uma conta de bolos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bolos" (37.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bolos" (34.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

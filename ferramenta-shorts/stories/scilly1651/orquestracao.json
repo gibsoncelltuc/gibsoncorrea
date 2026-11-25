@@ -6,11 +6,6 @@
    "cena 5",
    "countryside",
    "loc_campo"
-  ],
-  [
-   "cena 7",
-   "countryside",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -144,30 +139,13 @@
   {
    "camera": "two",
    "personagens": [
-    "ILH",
-    "ILH"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b6",
-   "frase": "A guerra ficou esquecida por mais de trezentos anos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "PRE",
     "EMB"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 11,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?",
    "classe": "simples",
    "sujeito": "personagem",
@@ -186,7 +164,7 @@
     "kit/scroll"
    ],
    "palavras": 11,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Em 1986, o embaixador holandês foi às ilhas assinar a paz.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -205,7 +183,7 @@
     "kit/scroll"
    ],
    "palavras": 14,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro.",
    "classe": "simples",
    "sujeito": "personagem",

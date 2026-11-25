@@ -17,7 +17,7 @@
   [
    1,
    "prova",
-   "Em 1898, em Paris, Marie Curie trabalhava num galpão gelado.",
+   "Em Paris, Marie Curie trabalhava num galpão gelado.",
    "trabalhava",
    {
     "mapa": "FRANÇA"
@@ -69,7 +69,7 @@
   [
    8,
    "escalada",
-   "Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934.",
+   "Acontece que a radiação destruiu a saúde dela. Ela morreu por isso.",
    "morreu",
    {
     "encena_antiga": true

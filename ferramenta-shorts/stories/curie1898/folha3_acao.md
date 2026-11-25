@@ -34,11 +34,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 6.9s a 10.3s - 10 palavras - plano wide
-> "Em 1898, em Paris, Marie Curie trabalhava num galpão gelado."
+## Cena b2 - 6.9s a 10.0s - 8 palavras - plano wide
+> "Em Paris, Marie Curie trabalhava num galpão gelado."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trabalhava" (9.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trabalhava" (9.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -51,30 +51,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.8s a 14.3s - 12 palavras - plano two
+## Cena b3 - 10.2s a 13.9s - 12 palavras - plano two
 > "O teto pingava, e ela mexia minério com uma barra de ferro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAR mexe a mistura | na palavra "mexia" (11.9s)
+  1) MAR mexe a mistura | na palavra "mexia" (11.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mexia (11.9s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
+| 1 | mexia (11.4s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: mistura na palavra mexia (11.9s): executa: mexe a panela (borbulhando)
+- ACAO: mistura na palavra mexia (11.4s): executa: mexe a panela (borbulhando)
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 15.0s a 17.8s - 11 palavras - plano wide
+## Cena b4 - 14.1s a 17.3s - 11 palavras - plano wide
 > "Assim ela e Pierre acharam dois elementos novos: polônio e rádio."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "acharam" (16.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "acharam" (16.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -87,21 +87,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 17.9s a 22.5s - 11 palavras - plano two
+## Cena b5 - 17.5s a 21.7s - 11 palavras - plano two
 > "O rádio brilhava no escuro, e ela adorava olhar os frascos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "brilhava" (19.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "brilhava" (17.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 23.0s a 25.7s - 9 palavras - plano group
+## Cena b6 - 21.9s a 25.1s - 9 palavras - plano group
 > "Ela carregava frascos no bolso. Ninguém sabia do perigo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carregava" (23.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carregava" (22.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -114,51 +114,51 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 25.8s a 30.3s - 12 palavras - plano low
-> "Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934."
+## Cena b7 - 25.3s a 29.4s - 12 palavras - plano low
+> "Acontece que a radiação destruiu a saúde dela. Ela morreu por isso."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAR cai e fica imovel | na palavra "morreu" (29.4s)
+  1) MAR cai e fica imovel | na palavra "morreu" (28.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (29.4s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (29.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 1 | morreu (28.3s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreu (28.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra morreu (29.4s): executa: fumaca + som
-- ACAO: morre na palavra morreu (29.4s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- EFEITO: puff na palavra morreu (28.3s): executa: fumaca + som
+- ACAO: morre na palavra morreu (28.3s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 30.6s a 35.2s - 11 palavras - plano two
+## Cena b8 - 29.7s a 34.8s - 11 palavras - plano two
 > "Hoje, os cadernos dela ficam em caixas de chumbo em Paris."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cadernos" (31.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cadernos" (30.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 35.8s a 39.1s - 10 palavras - plano wide
+## Cena b9 - 35.0s a 37.5s - 10 palavras - plano wide
 > "Para ler, é preciso assinar um termo e vestir proteção."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) PRO escreve no papel | na palavra "assinar" (36.7s)
+  1) PRO escreve no papel | na palavra "assinar" (36.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | assinar (36.7s) | ACAO: escreve | escreve/assina | OK |
+| 1 | assinar (36.3s) | ACAO: escreve | escreve/assina | OK |
 | 2 | - | PLACA | PERIGO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: escreve na palavra assinar (36.7s): segura o papel e mexe a mao como se escrevesse
+- ACAO: escreve na palavra assinar (36.3s): segura o papel e mexe a mao como se escrevesse
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

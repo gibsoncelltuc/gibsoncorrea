@@ -132,26 +132,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (24.0-25.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b6 - A guerra ficou esquecida por mais de trezentos anos.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ILH (variante 0, expressao smile); ILH (variante 1, expressao grin)
-- Animacao: comemorar | interacao: pular
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): trezentos
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: ILH (pescador) na esquerda, expressao smile; ILH (pescador) na direita, expressao grin; sem multidao; acao: comemorar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
-
-## Cena b7 - Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
+## Cena b6 - Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -167,14 +148,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRE (politico) na esquerda, expressao surprised, segura book; EMB (nobre) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (30.2-31.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (31.8-33.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (33.5-35.1 s): mesmo angulo
-  - take 4 (35.1-36.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (26.6-28.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (28.8-31.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b8 - Em 1986, o embaixador holandês foi às ilhas assinar a paz.
+## Cena b7 - Em 1986, o embaixador holandês foi às ilhas assinar a paz.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -190,10 +169,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: EMB (nobre) na esquerda, expressao relief, segura paper; PRE (politico) na direita, expressao relief; sem multidao; acao: entregar
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (32.1-34.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (34.0-35.8 s): mesmo angulo
+  - take 3 (35.8-37.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b9 - 335 anos de guerra, zero tiros. E você achando que guerra precisa de t...
+## Cena b8 - 335 anos de guerra, zero tiros. E você achando que guerra precisa de t...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
@@ -208,13 +190,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/scroll | b0, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b0, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 79% | aberto 15% | detalhe 3%
-- Interacoes: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 pular, b7 o outro se aproxima, b8 entregar, b9 discutir
+- Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 77% | aberto 16% | detalhe 3%
+- Interacoes: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 o outro se aproxima, b7 entregar, b8 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -231,9 +213,9 @@ ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer 
 - PERSONAGENS: ILH (pescador) na esquerda, expressao laugh; HOL (marinheiro) na direita, expressao smug; sem multidao; acao: discutir
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "335 ANOS" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (40.8-42.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (42.6-44.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (44.3-46.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (37.8-39.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (39.5-41.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (41.2-42.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

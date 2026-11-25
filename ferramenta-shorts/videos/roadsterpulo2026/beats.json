@@ -153,7 +153,7 @@
    "quadro_manual": true,
    "interior": "galpao",
    "bloco": "prova",
-   "say": "Em 2026, Elon Musk mostrou o novo Roadster no Texas.",
+   "say": "Elon Musk mostrou o novo Roadster numa base no Texas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [

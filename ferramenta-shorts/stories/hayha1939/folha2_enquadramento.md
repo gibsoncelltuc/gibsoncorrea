@@ -64,13 +64,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "MORTE BRANCA" numa placa atras dos personagens, na palavra 9 da frase
 
-## b9: "Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu."
-- LOCAL: hospital; hora: arctic
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FIN na esquerda, expressao pained; FIN na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b10: "Viveu até 96 anos e dizia: só fiz meu trabalho."
+## b9: "Viveu até 96 anos e dizia: só fiz meu trabalho."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: FIN no centro, expressao smile; sem multidao; acao: fala/gesto

@@ -172,33 +172,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b8 - O general Santa Anna perdeu uma perna nessa guerra.
+## Cena b8 - Em 1839, o México prometeu pagar, e a França foi embora.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): GEN (variante 0, expressao pained)
-- Animacao: encena
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, perna
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: GEN no centro, expressao pained; sem multidao; acao: nenhuma
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
-- SOM: cannon@30
-- TEXTO NA TELA: "PERNA ENTERRADA COM HONRAS" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (28.2-29.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (29.5-30.9 s): mesmo angulo
-<!-- /FICHA -->
-
-## Cena b9 - Em 1839, o México prometeu pagar, e a França foi embora.
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): GEN (variante 0, expressao neutral, segura paper); FRA (variante 0, expressao neutral, segura coin)
 - Animacao: encena | interacao: entregar
@@ -213,12 +189,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: GEN na esquerda, expressao neutral, segura paper; FRA na direita, expressao neutral, segura coin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "600.000" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (31.1-33.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (33.2-35.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (28.2-29.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (29.8-31.4 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b10 - Tudo por uma conta de bolos.
+## Cena b9 - Tudo por uma conta de bolos.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
@@ -234,7 +210,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/marco_ulua | b0, b1, b2, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/cake_table | b0, b2, b3, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cake_table | b0, b2, b3, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/chest | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -243,8 +219,8 @@ cannon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b7 | planos abertos: 3 | mistura: close 10% | medio 65% | aberto 20% | detalhe 5%
-- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b9 entregar, b10 vai ate o outro
+- Objeto heroi: kit/cake_table | grandes momentos: b7 | planos abertos: 3 | mistura: close 11% | medio 61% | aberto 22% | detalhe 6%
+- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b8 entregar, b9 vai ate o outro
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bolos1838  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bolos1838/moodboard.jpg
 
@@ -262,6 +238,8 @@ cannon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixot
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CON na esquerda, expressao shock; OFI na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (31.6-33.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.0-34.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

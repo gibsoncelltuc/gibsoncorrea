@@ -12,13 +12,12 @@ b4 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
 b6 | harbor | wide | 12 | parados (so fala e pisca) | kit/marco_ulua, navios de guerra ao fundo, no tamanho real | - | -
 b7 | harbor | crowd | 49 | batalha | kit/marco_ulua, cannon | - | -
-b8 | interior pedra | two | 1 | encena | - | - | -
-b9 | interior pedra | group | 2 | encena, INTERAGEM: entregar | - | paper, coin | -
-b10 | street | two | 2 | reagir, INTERAGEM: vai ate o outro | kit/cake_table | - | -
+b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | paper, coin | -
+b9 | street | two | 2 | reagir, INTERAGEM: vai ate o outro | kit/cake_table | - | -
 
 OBJETO HEROI: kit/cake_table
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b7
-Interacoes entre personagens: b0 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b9 entregar, b10 vai ate o outro
+Interacoes entre personagens: b0 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b8 entregar, b9 vai ate o outro
 
-Cenas com personagens parados: 2 de 11
+Cenas com personagens parados: 2 de 10
 FALTA MODELAR: nada

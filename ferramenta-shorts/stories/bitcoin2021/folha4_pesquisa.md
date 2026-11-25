@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: O País do Bitcoin
 - Epoca: 2021 | Lugar: Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021 | Quando: junho a setembro de 2021, dia
 - HEROIS (objeto): kit/bitcoin, kit/volcano, kit/rack_mineracao
-- HEROIS (personagens): BUK, CLI
+- HEROIS (personagens): BUK
 - Cenarios: loc_cidade, loc_estudio, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 1.5: grande demais)

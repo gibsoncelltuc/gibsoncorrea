@@ -45,7 +45,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (5.5-7.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b2 - Em 2026, Elon Musk mostrou o novo Roadster no Texas.
+## Cena b2 - Elon Musk mostrou o novo Roadster numa base no Texas.
 - Cenario: interior galpao | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo

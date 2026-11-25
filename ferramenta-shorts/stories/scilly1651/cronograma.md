@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Gerado em 25/11 16:46 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:51 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,10 +12,9 @@ b2 | chave | harbor | crowd | ILH | 18 | navios de guerra ao fundo, no tamanho r
 b3 | chave | harbor | orbit | MAR | - | navios de guerra ao fundo, no tamanho real, ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dizem que a Holanda mandou navios e declarou guerra às ilhas.
 b4 | simples | loc_campo | two | PRE, ILH | - | - | - | Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.
 b5 | simples | harbor | wide | HOL | - | ship | - | Os holandeses foram embora. E ninguém assinou a paz.
-b6 | simples | loc_campo | two | ILH, ILH | - | - | - | A guerra ficou esquecida por mais de trezentos anos.
-b7 | simples | interior madeira | two | PRE, EMB | - | - | - | Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
-b8 | simples | interior pedra | two | EMB, PRE | - | scroll | - | Em 1986, o embaixador holandês foi às ilhas assinar a paz.
-b9 | simples | harbor | two | ILH, HOL | - | scroll | - | 335 anos de guerra, zero tiros. E você achando que guerra precisa de t
+b6 | simples | interior madeira | two | PRE, EMB | - | - | - | Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
+b7 | simples | interior pedra | two | EMB, PRE | - | scroll | - | Em 1986, o embaixador holandês foi às ilhas assinar a paz.
+b8 | simples | harbor | two | ILH, HOL | - | scroll | - | 335 anos de guerra, zero tiros. E você achando que guerra precisa de t
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -29,12 +28,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh scilly1651
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh scilly1651
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local scilly1651 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 10. Render
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

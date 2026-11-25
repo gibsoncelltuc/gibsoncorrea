@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (4.1-5.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b2 - De 1958 a 1976, foram três Guerras do Bacalhau.
+## Cena b2 - Foram três Guerras do Bacalhau, em quase vinte anos.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)

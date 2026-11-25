@@ -14,5 +14,5 @@ b8 | orbit | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
 b9 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b10 | two | -  | interior, placa: GOSMA NO FOGÃO | ganhou (stars + som de sino) | -
 
-Mistura de planos: close 4% | medio 90% | aberto 6% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 3% | medio 91% | aberto 6% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

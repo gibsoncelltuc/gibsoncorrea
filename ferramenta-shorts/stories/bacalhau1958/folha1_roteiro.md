@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.1 s)
-- Narracao: De 1958 a 1976, foram três Guerras do Bacalhau.
+- Narracao: Foram três Guerras do Bacalhau, em quase vinte anos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

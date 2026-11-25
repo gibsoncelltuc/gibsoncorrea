@@ -19,7 +19,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: PES no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/cod: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "De 1958 a 1976, foram três Guerras do Bacalhau."
+## b2: "Foram três Guerras do Bacalhau, em quase vinte anos."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: ICE na esquerda, expressao stern; BRI na direita, expressao stern; sem multidao; acao: fala/gesto
