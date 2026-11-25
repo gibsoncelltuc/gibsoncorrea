@@ -58,11 +58,13 @@
   {
    "camera": "two",
    "personagens": [
-    "SEM",
-    "PAR"
+    "PAR",
+    "SEM"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/maca"
+   ],
    "palavras": 14,
    "cena": "b2",
    "frase": "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos.",
@@ -76,10 +78,13 @@
    "camera": "group",
    "personagens": [
     "MAE",
+    "MAE",
     "SEM"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/maca"
+   ],
    "palavras": 14,
    "cena": "b3",
    "frase": "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.",
@@ -97,6 +102,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/bisturi"
    ],
    "palavras": 17,
@@ -109,12 +115,15 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
-    "SEM"
+    "SEM",
+    "DIR"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/maca"
+   ],
    "palavras": 15,
    "cena": "b5",
    "frase": "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas.",

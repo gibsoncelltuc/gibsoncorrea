@@ -26,14 +26,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: PARTEIRAS x MÉDICOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.8 s)
 - Narracao: Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: morre (point) @6 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -51,9 +51,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
-- Texto na tela: -
+- Texto na tela: MÃOS SUJAS
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~7.2 s)

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Gerado em 25/11 13:20 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 13:27 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,10 +8,10 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior hospital | two | SEM, DIR | - | wash_basin | - | Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hos
 b1 | chave | street | wide | POV, POV | 6 | maca, marco_viena, room_hospital | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na 
-b2 | simples | interior hospital | two | SEM, PAR | - | - | - | O hospital tinha duas alas de parto: uma de parteiras e outra de médic
-b3 | simples | interior hospital | group | MAE, SEM | - | - | - | Acontece que, na ala dos médicos, morriam muito mais mães, de uma febr
-b4 | simples | interior hospital | two | KOL, SEM | - | bisturi | - | Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e 
-b5 | simples | interior hospital | close | SEM | - | - | - | Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, 
+b2 | simples | interior hospital | two | PAR, SEM | - | maca | - | O hospital tinha duas alas de parto: uma de parteiras e outra de médic
+b3 | simples | interior hospital | group | MAE, MAE, SEM | - | maca | - | Acontece que, na ala dos médicos, morriam muito mais mães, de uma febr
+b4 | simples | interior hospital | two | KOL, SEM | - | bancada, bisturi | - | Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e 
+b5 | simples | interior hospital | group | SEM, DIR | - | maca | - | Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, 
 b6 | simples | interior hospital | two | SEM, KOL | - | wash_basin | - | Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a la
 b7 | simples | street | orbit | SEM, MAE, PAR | - | marco_viena, wash_basin | - | As mortes despencaram quase dez vezes.
 b8 | simples | interior hospital | two | DIR, SEM | - | - | - | Mas os médicos se ofenderam, e Semmelweis foi mandado embora.
@@ -24,7 +24,7 @@ b11 | simples | street | close | SEM | - | - | - | Agora não deixe de comentar:
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/15 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/16 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 

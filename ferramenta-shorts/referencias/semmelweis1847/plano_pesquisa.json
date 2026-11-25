@@ -115,6 +115,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "maca",
+   "consultas": [
+    "maca"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "hospital da epoca",
    "consultas": [

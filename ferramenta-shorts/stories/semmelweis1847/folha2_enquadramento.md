@@ -15,38 +15,48 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "HOSPITAL DE VIENA" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "HOSPITAL DE VIENA" flutuando no alto, na palavra 9 da frase
 - MAPA: ÁUSTRIA (cobre a tela 1-2 s)
 
 ## b2: "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SEM (medico) na esquerda, expressao worried; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- PERSONAGENS: PAR na esquerda, expressao smile; SEM (medico) na direita, expressao worried; sem multidao; acao: fala/gesto
+- OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "PARTEIRAS x MÉDICOS" numa placa atras dos personagens, na palavra 5 da frase
 
 ## b3: "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MAE na esquerda, expressao scared; SEM (medico) na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- PERSONAGENS: MAE na esquerda, expressao scared; MAE no centro, expressao sad; SEM (medico) na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
 
 ## b4: "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bisturi juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/bisturi: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bisturi: FRENTE, centro (objeto principal da cena); tamanho na tela: 13% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.0 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
 ## b5: "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: SEM (medico) no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
+- TEXTO NA TELA: "MÃOS SUJAS" numa placa atras dos personagens, na palavra 14 da frase
 
 ## b6: "Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar."
 - LOCAL: sala de madeira; hora: day
