@@ -16,9 +16,9 @@ Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | Cem Dias ou de Graça | Cem Dias ou de Graça / Um Twitter Em Elon Musk Austrália Sul Os 2017 | - 7 - “Fonte Luminosa” ou “Fonte das Ninfas”- SETÚ (referencias/bateria2017/prints/cem_dias_ou_de_gra_a_6151bb.jpg); - 6 - “Fonte Luminosa” ou “Fonte das Ninfas”- SETÚ (referencias/bateria2017/prints/cem_dias_ou_de_gra_a_b00be6.jpg); Maestro Manuel Marques.png (referencias/bateria2017/prints/cem_dias_ou_de_gra_a_9f07e0.jpg)
 lugar | Hornsdale Power Reserve, perto de Jamestown, Australia do Sul (campo aberto ao l | Hornsdale Power Reserve perto de Jamestown Australia do Sul / Hornsdale Power Reserve perto de Jamestown Australia do Sul campo aberto ao lado de um par | SEM REFERENCIA
-lugar | Austrália | Austrália 2017 / Austrália landscape | SEM REFERENCIA
+lugar | Austrália | Austrália 2017 / Austrália landscape | Scots' Church Interior 2, Melbourne, Australia - D (referencias/bateria2017/prints/austr_lia_77a9fe.jpg); Aurora Australis Over the Tasman Sea from SouthWes (referencias/bateria2017/prints/austr_lia_598ed2.jpg); Christmas tree in private residence in Brisbane, A (referencias/bateria2017/prints/austr_lia_9afaed.jpg)
 lugar | Jamestown | Jamestown 2017 / Jamestown landscape | SEM REFERENCIA
-epoca | roupas e ruas de 2017 | 2017 fashion clothing / 2017 street photograph | SEM REFERENCIA
+epoca | roupas e ruas de 2017 | 2017 fashion clothing / 2017 street photograph | Yonge Street August 2017 01.jpg (referencias/bateria2017/prints/roupas_e_ruas_de_2017_f3df67.jpg); Santorin (GR), Ia, Vier Glocken -- 2017 -- 2720-6- (referencias/bateria2017/prints/roupas_e_ruas_de_2017_c8db5d.jpg); Kopenhagen (DK), Bahnhof -- 2017 -- 1672 (bw).jpg (referencias/bateria2017/prints/roupas_e_ruas_de_2017_857f0b.jpg)
 pessoas | Elon Musk (camiseta e jaqueta escura) | Elon Musk camiseta e jaqueta escura / Elon Musk camiseta e jaqueta escura 2017 | SEM REFERENCIA
 pessoas | Mike Cannon-Brookes, empresario australiano (camiseta e bone) | Mike Cannon-Brookes empresario australiano camiseta e bone / Mike Cannon-Brookes empresario australiano camiseta e bone 2017 | SEM REFERENCIA
 pessoas | jornalistas | jornalistas / jornalistas 2017 | SEM REFERENCIA
