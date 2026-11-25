@@ -13,16 +13,16 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 
 ## Cena b1  (~5.2 s)
 - Narracao: Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: INGLATERRA
+- Texto na tela: CAMBRIDGE FECHADA | mapa: INGLATERRA
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.2 s)
 - Narracao: Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da mãe.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -49,11 +49,11 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 
 ## Cena b5  (~6.9 s)
 - Narracao: Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @12 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
+- Efeito visual marcado: ring@40
+- Texto na tela: PARA BAIXO
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~6.6 s)
@@ -67,11 +67,11 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 
 ## Cena b7  (~5.2 s)
 - Narracao: A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30, sting@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30, burst@70
-- Texto na tela: GRAVIDADE
+- Texto na tela: PRINCIPIA - 1687
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~3.4 s)
