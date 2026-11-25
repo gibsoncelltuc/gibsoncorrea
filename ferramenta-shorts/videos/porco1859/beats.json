@@ -94,10 +94,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Dois"
+      "na": "porco"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -110,14 +109,13 @@
    "mapa_at": 4,
    "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Era"
+      "na": "ilha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -199,12 +197,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "pegou"
+      "faz": "olha",
+      "na": "pegou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -250,11 +247,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Ele"
+      "faz": "atira",
+      "na": "atirou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -293,12 +290,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_entrega",
-      "na": "ofereceu"
+      "na": "ofereceu",
+      "quem": 0,
+      "alvo_quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -323,20 +320,14 @@
    "impact": false,
    "detalhe": false,
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "grita",
-      "na": "gritou"
-     },
-     {
-      "quem": 0,
-      "faz": "paga",
-      "na": "dinheiro"
+      "na": "gritou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -361,17 +352,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_discute",
-      "na": "ameacaram"
-     },
-     {
-      "quem": 0,
-      "faz": "fala",
-      "na": "mandaram"
+      "na": "ameaçaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -404,17 +389,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "respondeu"
-     },
-     {
-      "quem": 0,
-      "faz": "fala",
-      "na": "apontados"
+      "na": "respondeu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -428,15 +407,14 @@
    "riscos_ok": true,
    "susp_ok": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "recebeu"
+      "faz": "fala",
+      "na": "recusou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -455,17 +433,11 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "trocando"
-     },
-     {
-      "quem": 0,
       "faz": "vence",
-      "na": "festas"
+      "na": "festas",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -480,14 +452,13 @@
    "impact": false,
    "shot_lock": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Treze"
+      "na": "árbitro"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -541,14 +512,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "porco"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],
