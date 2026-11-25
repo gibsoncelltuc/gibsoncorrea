@@ -1,6 +1,0 @@
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/abelhas1945/seg_000.mp4'
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/abelhas1945/seg_001.mp4'
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/abelhas1945/seg_002.mp4'
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/abelhas1945/seg_003.mp4'
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/abelhas1945/seg_004.mp4'
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/abelhas1945/seg_005.mp4'

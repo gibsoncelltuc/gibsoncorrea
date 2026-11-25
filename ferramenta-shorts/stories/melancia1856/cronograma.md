@@ -1,17 +1,17 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 25/11 22:51 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 23:20 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | VIA, VEN | - | melon | - | Uma fatia de melancia quase virou guerra entre dois países.
-b1 | simples | jungle | group | VEN | - | melon | - | E a fatia custava só uns centavos.
+b1 | simples | street | group | VEN | - | melon | - | E a fatia custava só uns centavos.
 b2 | simples | loc_campo | wide | VIA | - | locomotive | - | Em 1856, viajantes cruzavam o Panamá atrás de ouro.
 b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um americano comeu uma fatia de melancia e não quis pagar.
-b4 | simples | street | group | VIA | 6 | shop, stall, pistol | - | O vendedor cobrou. O viajante riu e sacou uma arma.
-b5 | chave | street | crowd | VEN | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em minutos, virou briga de moradores contra viajantes.
+b4 | simples | jungle | group | VIA | 6 | shop, stall, pistol | - | O vendedor cobrou. O viajante riu e sacou uma arma.
+b5 | chave | jungle | crowd | VEN | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em minutos, virou briga de moradores contra viajantes.
 b6 | chave | street | wide | VIA | - | locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os viajantes se trancaram na estação de trem.
 b7 | simples | street | two | PRE, MOR | 14 | - | - | Acontece que mais de quinze pessoas morreram naquele dia.
 b8 | simples | street | group | PRE, VIA | - | - | - | A Colômbia teve que pagar uma indenização aos americanos.

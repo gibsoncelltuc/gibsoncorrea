@@ -7,10 +7,8 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
-   "countryside",
    "hall",
    "interior pedra",
-   "loc_montanha",
    "medieval"
   ],
   "cenarios_trocados": [

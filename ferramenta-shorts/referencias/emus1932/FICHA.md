@@ -7,7 +7,7 @@
 - Roupas: {'AUS': 'farda cáqui da artilharia com chapéu de aba larga', 'FARM': 'camisa azul, calça de trabalho e chapéu de palha', 'PRESS': 'terno e chapéu coco'}
 - Cenario real: plantações de trigo e pastagem seca do oeste australiano, cercas, estrada de terra e caminhão da época
 - Objetos: ['metralhadora Lewis', 'caminhão da época', 'emus', 'sacos de trigo']
-- Cenarios usados no video: countryside, interior madeira, loc_campo, outback
+- Cenarios usados no video: interior madeira, loc_campo, outback
 - PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
 - Proibido pelo roteiro: -
 

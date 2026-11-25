@@ -83,12 +83,12 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "SOL",
     "SOL"
    ],
-   "multidao": 32,
+   "multidao": 0,
    "objetos": [
     "crate",
     "mgun"
@@ -100,7 +100,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior madeira"
   },
   {
    "camera": "orbit",

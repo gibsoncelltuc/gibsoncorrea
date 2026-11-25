@@ -9,10 +9,10 @@ b1 | countryside | wide | 1 | parados (so fala e pisca) | kit/cross, nature/pick
 b2 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b3 | countryside | two | 1 | encena | nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, kit/batatas, buildings/barn, nature/haybale, pig | pitchfork | -
 b4 | countryside | two | 1 | atira | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | rifle | -
-b5 | interior madeira | two | 2 | discutir, INTERAGEM: entregar | nature/picket_fence, nature/haybale, tools/wheelbarrow | money | -
+b5 | countryside | two | 2 | discutir, INTERAGEM: entregar | nature/picket_fence, nature/haybale, tools/wheelbarrow | money | -
 b6 | harbor | group | 19 | conversar, INTERAGEM: insiste | - | - | -
 b7 | harbor | crowd | 22 | discutir, batalha | navios de guerra ao fundo, no tamanho real | - | -
-b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | - | -
+b8 | harbor | two | 2 | conversar, INTERAGEM: susto | - | - | -
 b9 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | - | - | -
 b10 | countryside | wide | 1 | reagir | nature/picket_fence, nature/haybale, pig | pitchfork | -
 

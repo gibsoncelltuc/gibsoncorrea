@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 2.2s - 7 palavras - plano two
@@ -55,7 +55,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | pedir | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b4 - 13.0s a 16.3s - 10 palavras - plano wide
+## Cena b4 - 13.0s a 16.3s - 10 palavras - plano group
 > "O major Meredith levou duas metralhadoras e dez mil balas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -63,7 +63,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 10.000 BALAS | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 10.000 BALAS | OK |
 
 ## Cena b5 - 16.7s a 20.7s - 12 palavras - plano orbit
 > "Acontece que os emus se espalharam, e as balas só acertavam poeira."

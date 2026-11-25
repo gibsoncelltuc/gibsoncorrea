@@ -55,7 +55,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "jungle"
+   "cenario": "street"
   },
   {
    "camera": "wide",
@@ -113,7 +113,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "jungle"
   },
   {
    "camera": "crowd",
@@ -135,7 +135,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "jungle"
   },
   {
    "camera": "wide",

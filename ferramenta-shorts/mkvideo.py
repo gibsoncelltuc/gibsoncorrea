@@ -262,6 +262,26 @@ if B.get('gancho_tipo') and B.get('continuo') is not False:   # 25/11 FILMAGEM C
             else: b_['set'] = a_.get('set', SET)
             for k_ in ('regiao', 'fachada', 'hora', 'light'):
                 if k_ in a_: b_[k_] = a_[k_]
+if B.get('gancho_tipo') and B.get('continuo') is not False:   # 25/11 noite (Gibson: "mesmo cenario = a mesma camera se movendo; corte seco so' quando muda o cenario"): BLOCOS DE CENARIO -- cada lugar fica pelo menos 3 cenas seguidas; a cena que trocaria de lugar sem a frase pedir continua no lugar do bloco
+    def _move_ok(b_, alvo_):
+        t_ = _nt(b_.get('say', ''))
+        if b_.get('mapa') or b_.get('explica') or b_.get('fixo_lugar') or b_.get('hora') or b_.get('clima'): return False
+        if any(re.search(rx_, t_) for rx_, k_, v_ in _LUGAR): return False
+        if re.search(r'neblina|nevoeiro|neve|gelo|congel|chuva|tempestade|noite|madrugada|deserto|selva', t_): return False
+        if alvo_.get('interior') and (b_.get('batalha') or b_.get('veiculo') or (b_.get('crowd') or {}).get('n', 0) > 6 or b_.get('shot') in ('reveal', 'crowd', 'orbit', 'track')): return False
+        return True
+    _run = 1
+    for i_ in range(1, _N - 1):
+        a_, b_ = B['beats'][i_ - 1], B['beats'][i_]
+        if _lug(a_) == _lug(b_): _run += 1; continue
+        if _run < 3 and not a_.get('explica') and not a_.get('mapa') and _move_ok(b_, a_):
+            b_.pop('set', None); b_.pop('interior', None)
+            if a_.get('interior'): b_['interior'] = a_['interior']
+            else: b_['set'] = a_.get('set', SET)
+            for k_ in ('regiao', 'fachada', 'hora', 'light'):
+                if k_ in a_: b_[k_] = a_[k_]
+            _run += 1
+        else: _run = 1
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 # 24/11 (Gibson, Zanzibar): NAVIO NO CAIS = navio em cima do concreto. No cenario harbor o cais vai ate z -21,4; daqui para tras e' mar.

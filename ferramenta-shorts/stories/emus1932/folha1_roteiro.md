@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b4  (~3.4 s)
 - Narracao: O major Meredith levou duas metralhadoras e dez mil balas.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Gerado em 25/11 22:51 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 23:20 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,10 +11,10 @@ b1 | transicao | countryside | wide | FAZ | - | cross, picket_fence | - | E a ú
 b2 | simples | harbor | two | FAZ, IRL | - | - | - | A ilha de San Juan não tinha dono definido.
 b3 | simples | countryside | two | FAZ | - | barn, batatas, flowerbed, haybale, picket_fence, scarecrow, wheelbarrow | - | Um fazendeiro americano viu um porco comendo suas batatas.
 b4 | simples | countryside | two | FAZ | - | house_small, haybale, picket_fence, tree_oak | - | Ele atirou. O porco era de um vizinho inglês.
-b5 | simples | interior madeira | two | FAZ, IRL | - | haybale, picket_fence, wheelbarrow | - | Ofereceu dez dólares. O dono exigiu cem.
+b5 | simples | countryside | two | FAZ, IRL | - | haybale, picket_fence, wheelbarrow | - | Ofereceu dez dólares. O dono exigiu cem.
 b6 | simples | harbor | group | AME, AME, FAZ | 16 | - | - | Os americanos mandaram soldados para a ilha.
 b7 | chave | harbor | crowd | ING, AME | 48 | navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra respondeu com navios de guerra.
-b8 | simples | interior madeira | two | ALM, ING | - | - | - | Acontece que o almirante inglês se recusou a atacar.
+b8 | simples | harbor | two | ALM, ING | - | - | - | Acontece que o almirante inglês se recusou a atacar.
 b9 | simples | interior pedra | group | ING, AME, ING | - | - | - | Os soldados acabaram fazendo festas juntos.
 b10 | simples | countryside | wide | FAZ | - | haybale, picket_fence | - | Ninguém deu um tiro, só no porco. E foi assim que...
 

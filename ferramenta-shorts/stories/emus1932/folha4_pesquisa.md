@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1932 | Lugar: Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia): plantações de trigo e terra seca com mato baixo | Quando: 2 de novembro a 10 de dezembro de 1932, início do verão seco
 - HEROIS (objeto): mgun
 - HEROIS (personagens): SOL, FARM
-- Cenarios: countryside, interior madeira, loc_campo, outback
+- Cenarios: interior madeira, loc_campo, outback
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

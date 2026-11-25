@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b5  (~2.4 s)
 - Narracao: Ofereceu dez dólares. O dono exigiu cem.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @0 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b8  (~3.1 s)
 - Narracao: Acontece que o almirante inglês se recusou a atacar.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: fala (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -

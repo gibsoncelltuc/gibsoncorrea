@@ -43,11 +43,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - O major Meredith levou duas metralhadoras e dez mil balas.
-- Cenario: countryside | luz: desert | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao grin) | multidao: 6 de SOL/FARM
-- Animacao: -
+- Cenario: interior madeira | luz: desert | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao grin)
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: mgun, crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): major
 - RISCOS: nenhum
@@ -119,8 +119,8 @@ vehicles/tank | b7 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b5, b8 | planos abertos: 7 | mistura: close 4% | medio 46% | aberto 50% | detalhe 0%
-- Interacoes: b0 vai ate o outro, b2 susto, b3 pedir
+- Objeto heroi: - | grandes momentos: b5, b8 | planos abertos: 6 | mistura: close 4% | medio 57% | aberto 39% | detalhe 0%
+- Interacoes: b0 vai ate o outro, b2 susto, b3 pedir, b4 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

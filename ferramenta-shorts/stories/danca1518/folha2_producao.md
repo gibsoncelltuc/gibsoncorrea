@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Deu errado: mais gente entrou na dança.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PRE (variante 0, expressao stern, segura paper); POV (variante 0, expressao pained) | multidao: 0 de POV/DAN
@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Levados a uma capela no monte, eles finalmente pararam.
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): DAN (variante 0, expressao relief) | multidao: 6 de DAN
 - Animacao: -
-- Objetos/modelos: buildings/church, kit/marco_viena
+- Objetos/modelos: buildings/church
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capela, monte
 - RISCOS: nenhum
 
@@ -107,7 +107,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_viena | b0, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b0, b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/church | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

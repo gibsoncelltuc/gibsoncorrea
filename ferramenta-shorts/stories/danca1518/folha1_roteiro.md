@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b7  (~2.4 s)
 - Narracao: Deu errado: mais gente entrou na dança.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@50, sting@110
 - Efeito + som nas palavras-chave: dança -> stars + som de sino
 - Efeito visual marcado: dust@50, puff@110

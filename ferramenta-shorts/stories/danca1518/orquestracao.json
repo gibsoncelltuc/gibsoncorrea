@@ -172,7 +172,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "hall"
   },
   {
    "camera": "wide",
@@ -181,8 +181,7 @@
    ],
    "multidao": 6,
    "objetos": [
-    "buildings/church",
-    "kit/marco_viena"
+    "buildings/church"
    ],
    "palavras": 9,
    "cena": "b8",
@@ -191,7 +190,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "hall"
   },
   {
    "camera": "two",
