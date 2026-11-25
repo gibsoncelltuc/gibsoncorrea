@@ -10,5 +10,5 @@ b7: OK - "avisou que a ONU pode desaparecer como a Kodak": placa KODAK? e os doi
 b8: OK - "propos que lideres gravassem videos e um concurso para jovens": reporter com papel e Bukele sorrindo
 b9: OK - "a selfie rodou o mundo": multidao na rua com SELFIE na tela
 b10: OK - "um segundo de selfie, e a ONU virou assunto": Bukele e o celular grande em close, COMENTE no fim
-pesquisa: comparativo modelo x referencia conferido (referencias/selfie2019/comparativo_ok.md): celular, pulpito
+pesquisa: o moodboard (referencias/selfie2019/moodboard.jpg) mostra o plenario dourado da ONU com pulpito de marmore escuro, delegados sentados, Bukele de terno escuro e gravata e celular de tela grande; comparei o celular do modelo com a foto (bate) e o salao 'hall' fica mais claro, sem dourado, mas com pulpito e plateia sentada
 defeitos procurados: cenario (salao da ONU, sala) OK; epoca (celular de 2019 permitido) OK; tamanho (celular legivel) OK; cortado (trava sem falhas) OK; multidao (plateia so quando citada) OK; legenda (rotulos nao cobrem a legenda) OK; acao (tirar selfie, falar) OK; objeto (celular visivel quando citado) OK
