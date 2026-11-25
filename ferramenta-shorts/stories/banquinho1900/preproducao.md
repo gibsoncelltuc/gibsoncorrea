@@ -5,20 +5,20 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | - | -
-b1 | jungle | reveal | 32 | encena | - | - | -
-b2 | countryside | two | 14 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
-b3 | interior madeira | two | 1 | conversar | kit/golden_stool | paper | -
-b4 | countryside | two | 2 | reagir, INTERAGEM: susto | - | - | -
-b5 | countryside | crowd | 11 | encena, batalha | kit/forte_colonial | - | -
-b6 | jungle | orbit | 21 | encena, batalha | - | - | -
-b7 | interior pedra | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
-b8 | jungle | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool | - | -
-b9 | countryside | wide | 1 | encena | kit/golden_stool | - | -
-b10 | countryside | close | 1 | conversar | - | - | -
+b1 | countryside | wide | 1 | parados (so fala e pisca) | kit/golden_stool | - | -
+b2 | jungle | reveal | 10 | encena | - | - | -
+b3 | countryside | two | 14 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
+b4 | interior madeira | two | 1 | encena | kit/golden_stool | paper | -
+b5 | countryside | two | 2 | reagir, INTERAGEM: susto | - | - | -
+b6 | countryside | crowd | 11 | encena, batalha | kit/forte_colonial | - | -
+b7 | jungle | orbit | 21 | batalha | - | - | -
+b8 | interior pedra | two | 2 | comemorar, INTERAGEM: entregar | kit/golden_stool | paper | -
+b9 | jungle | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool, nature/tree_pine, nature/tree_oak, nature/bush | - | -
+b10 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | - | -
 
 OBJETO HEROI: kit/golden_stool
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b6
-Interacoes entre personagens: b0 discutir, b2 o outro se aproxima, b4 susto, b7 entregar, b8 cochichar
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b7
+Interacoes entre personagens: b0 discutir, b3 o outro se aproxima, b5 susto, b8 entregar, b9 cochichar, b10 discutir
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

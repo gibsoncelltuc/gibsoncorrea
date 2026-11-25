@@ -50,7 +50,8 @@
   "mk/Stool",
   "mk/Table_Large",
   "ship",
-  "vehicles/helicopter"
+  "vehicles/helicopter",
+  "war/flagpole"
  ],
  "pesquisa_visual": {
   "local": "Ilha Hans, rochedo de 1,3 km2 sem moradores no estreito de Nares, entre a ilha canadense de Ellesmere e a Groenlandia: rocha cinza, neve, gelo flutuando no mar",

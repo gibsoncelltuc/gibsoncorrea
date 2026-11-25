@@ -2,18 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | objeto na mao | brigaram (puff + som de baque) | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | - | -
-b3 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @9 (acao + som de efeito); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
-b4 | two | -  | objeto na mao | - | -
-b5 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @6 (acao + som de efeito) | -
-b6 | two | -  | objeto na mao | - | -
-b7 | group | -  | - | encena: chega (point) @5 (acao + som de efeito); encena: x_entrega (reach) @8 (acao + som de efeito) | -
-b8 | wide | -  | tropa | encena: x_ri (up) @11 (acao + som de efeito) | -
-b9 | two | -  | interior, objeto na mao | encena: x_aperta (point) @8 (acao + som de efeito) | -
-b10 | group | -  | interior | - | -
-b11 | close | -  | interior, placa: COMENTE! | - | -
+b0 | two | -  | placa: GUERRA DO UÍSQUE, objeto na mao | brigaram (puff + som de baque) | -
+b1 | wide | -  | tropa | - | -
+b2 | reveal | -  | tropa, mapa | - | -
+b3 | two | -  | interior | - | -
+b4 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @4 (acao + som de efeito); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
+b5 | two | -  | objeto na mao | - | -
+b6 | group | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
+b7 | two | -  | objeto na mao | - | -
+b8 | group | -  | - | encena: x_entrega (reach) @5 (acao + som de efeito) | -
+b9 | two | -  | interior, objeto na mao | encena: x_aperta (point) @3 (acao + som de efeito) | -
+b10 | two | -  | placa: GUERRA DO UÍSQUE, objeto na mao | - | -
 
-Mistura de planos: close 11% | medio 65% | aberto 21% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 1% | medio 76% | aberto 17% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

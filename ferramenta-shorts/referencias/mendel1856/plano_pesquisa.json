@@ -7,7 +7,7 @@
    "item": "Mendel e as Ervilhas",
    "consultas": [
     "Mendel e as Ervilhas",
-    "Um Era Brno Gregor Mendel Ele 1856"
+    "Ninguém Em Gregor Mendel 1856"
    ]
   },
   {
@@ -92,16 +92,16 @@
   },
   {
    "tipo": "heroi",
-   "item": "vagem amarela",
+   "item": "pe ervilha",
    "consultas": [
-    "vagem amarela"
+    "pe ervilha"
    ]
   },
   {
    "tipo": "heroi",
-   "item": "pe ervilha",
+   "item": "vagem amarela",
    "consultas": [
-    "pe ervilha"
+    "vagem amarela"
    ]
   }
  ]

@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): ASH, GOV, CHE
 - Cenarios: countryside, interior madeira, interior pedra, jungle
 - Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, torre de refletor, veiculo moderno
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra do Banquinho Dourado | War of the Golden Stool 1900 Kumasi / A Guerra do Banquinho Dourado / Um Era Costa Ouro Gana Os Nem 1900 | SEM REFERENCIA
+tema | A Guerra do Banquinho Dourado | War of the Golden Stool 1900 Kumasi / A Guerra do Banquinho Dourado / Ninguém Em Costa Ouro Gana 1900 | SEM REFERENCIA
 lugar | Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias | Kumasi capital do povo ashanti na Costa do Ouro britanica / Kumasi capital do povo ashanti na Costa do Ouro britanica hoje Gana 1900 | Historic Statues at the Africa Culture - Kumasi Ce (referencias/banquinho1900/prints/kumasi_capital_do_povo_ashanti_na_costa__ca262a.jpg); Kronum Kumasi 2018-11-08 (130246).jpg (referencias/banquinho1900/prints/kumasi_capital_do_povo_ashanti_na_costa__1b253a.jpg); National Cultural Centre in Ghana, Kumasi.jpg (referencias/banquinho1900/prints/kumasi_capital_do_povo_ashanti_na_costa__ff12f0.jpg)
 lugar | Gana | Gana 1900 / Gana landscape | Alberto Blest Gana.JPG (referencias/banquinho1900/prints/gana_534e23.jpg); J. L. Hubbell Trading Post, House, State Route 3 ( (referencias/banquinho1900/prints/gana_058dac.jpg); J. L. Hubbell Trading Post, House, State Route 3 ( (referencias/banquinho1900/prints/gana_afe6d0.jpg)
 epoca | roupas e ruas de 1900 | 1900 fashion clothing / 1900 street photograph | Clothing history1 (Nouveaau Larousse,c. 1900) DSCN (referencias/banquinho1900/prints/roupas_e_ruas_de_1900_f153d1.jpg); Clothing history2 (Nouveaau Larousse,c. 1900) DSCN (referencias/banquinho1900/prints/roupas_e_ruas_de_1900_e1cf1e.jpg); StateLibQld 1 106016 Pike Brothers advertisement f (referencias/banquinho1900/prints/roupas_e_ruas_de_1900_5ddc08.jpg)

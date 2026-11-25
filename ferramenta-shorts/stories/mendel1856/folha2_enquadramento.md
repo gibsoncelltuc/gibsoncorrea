@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos."
+## b0: "Ninguém te conta: um monge contando ervilhas descobriu a herança."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MEN (padre) no centro, expressao smile, segura bag; sem multidao; acao: fala/gesto
@@ -11,8 +11,15 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/pe_ervilha: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@60
+- TEXTO NA TELA: "ERVILHAS = HERANÇA" flutuando no alto, na palavra 1 da frase
 
-## b1: "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta."
+## b1: "E ninguém acreditou nele enquanto estava vivo."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: MEN (padre) no centro, expressao sad, segura book; sem multidao; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+
+## b2: "Em 1856, Gregor Mendel cuidava da horta de um mosteiro."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: MEN (padre) na esquerda, expressao smile; FRE (padre) na direita, expressao neutral; sem multidao; acao: fala/gesto
@@ -23,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/pe_ervilha: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: REPÚBLICA TCHECA (cobre a tela 1-2 s)
 
-## b2: "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos."
+## b3: "Cruzou ervilhas amarelas com verdes e esperou os filhos."
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -34,19 +41,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@40
 - SOM: ding@60
 
-## b3: "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido."
+## b4: "Todas saíram amarelas, como se o verde tivesse sumido."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/vagem_amarela: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b4: "Mendel ficou curioso: para onde tinha ido o verde?"
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FRE (padre) na esquerda, expressao suspicious; MEN (padre) na direita, expressao nervous; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b5: "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos."
+## b5: "Ele plantou de novo e contou ervilha por ervilha, por anos."
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao neutral, segura paper; sem multidao; acao: fala/gesto
@@ -54,7 +55,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
 
-## b6: "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
+## b6: "Acontece que o verde voltou: três amarelas para uma verde."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MEN (padre) no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -69,19 +70,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@60
 - TEXTO NA TELA: "3 : 1" numa placa atras dos personagens, na palavra 1 da frase
 
-## b7: "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
+## b7: "Cada filho herda uma instrução do pai e outra da mãe."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MEN (padre) na esquerda, expressao smile; FRE (padre) na direita, expressao surprised; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção."
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: MEN (padre) no centro, expressao sad, segura book; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b9: "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
+## b8: "Só depois da morte dele, cientistas viram que estava certo."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: CIE (cientista) no centro, expressao surprised; sem multidao; acao: comemorar
@@ -94,9 +89,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@70
 - TEXTO NA TELA: "GENÉTICA" flutuando no alto, na palavra 1 da frase
 
-## b10: "No fim, a ervilha fez o monge famoso."
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)
-- PERSONAGENS: MEN (padre) no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/vagem_verde: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+## b9: "A ervilha fez o monge famoso. Tarde demais."
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MEN (padre) no centro, expressao smile, segura bag; sem multidao; acao: fala/gesto
+- OBJETO kit/vagem_verde: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/pe_ervilha: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pe_ervilha: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@60
 

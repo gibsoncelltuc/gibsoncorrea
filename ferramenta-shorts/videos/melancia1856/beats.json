@@ -70,21 +70,14 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e melon juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/melon",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Ninguém te conta: uma fatia de melancia quase virou guerra.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -92,11 +85,42 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "text": "GUERRA DA MELANCIA",
+   "titulo": true
+  },
+  {
+   "shot": "group",
+   "who": [
+    "VEN:0:sad"
+   ],
+   "props": [
+    [
+     "kit/melon",
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "jungle",
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E a fatia custava só uns centavos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "centavos"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -120,88 +144,24 @@
      }
     ]
    ],
-   "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia.",
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 3.1 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/locomotive",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Panamá"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.1,
    "d0": 21.0,
-   "d1": 20.0
-  },
-  {
-   "shot": "wide",
-   "set": "harbor",
-   "who": [
-    "VIA:0:neutral"
-   ],
-   "crowd": {
-    "n": 0
-   },
-   "mapa_at": 3,
-   "props": [
-    [
-     "vehicles/locomotive",
-     0.0,
-     -10.8,
-     1.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "say": "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico.",
-   "fachada": false,
-   "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 3.1 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/locomotive",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "d1": 20.0,
+   "bloco": "prova",
+   "say": "Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "trem"
+      "na": "cruzavam"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.1,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "two",
@@ -221,21 +181,14 @@
     ]
    ],
    "interacao": "empurrar",
-   "say": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
    "set": "jungle",
    "detalhe": false,
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stall juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/stall",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Um americano comeu uma fatia de melancia e não quis pagar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -246,39 +199,7 @@
      },
      {
       "faz": "sai",
-      "na": "embora",
-      "quem": 0
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "set": "street",
-   "who": [
-    "VEN:0:angry",
-    "VIA:0:smug"
-   ],
-   "interacao": "discutir",
-   "acao": "discutir",
-   "say": "O vendedor cobrou a fatia, e o viajante só riu.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_discute",
-      "na": "cobrou",
-      "quem": 1,
-      "alvo_quem": 0
-     },
-     {
-      "faz": "x_ri",
-      "na": "riu",
+      "na": "comeu",
       "quem": 0
      }
     ]
@@ -290,7 +211,6 @@
     "VIA:0:angry"
    ],
    "interacao": "empurrar",
-   "say": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.",
    "props": [
     [
      "war/pistol",
@@ -307,18 +227,12 @@
    "text": "ARMA!",
    "tat": 5,
    "tstyle": "red",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "war/pistol",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "O vendedor cobrou. O viajante riu e sacou uma arma.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -329,12 +243,7 @@
       "forcar": true
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "group",
@@ -355,12 +264,12 @@
    },
    "text": "BRIGA",
    "titulo": true,
-   "say": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.",
    "props": [],
    "detalhe": false,
    "d0": 18.0,
    "d1": 17.0,
-   "_auto_vis": 3,
+   "bloco": "escalada",
+   "say": "Em minutos, a rua virou uma briga de moradores contra viajantes.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -373,7 +282,6 @@
    }
   },
   {
-   "say": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
    "shot": "wide",
    "set": "countryside",
    "acao": "discutir",
@@ -402,37 +310,26 @@
      "VIA"
     ]
    },
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 2.9 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "vehicles/locomotive",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "batalha": true,
    "tiros": true,
    "impact": true,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "escalada",
+   "say": "Os viajantes se trancaram na estação de trem.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "chega",
-      "na": "entrou",
+      "na": "trancaram",
       "quem": 1
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.9,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "two",
@@ -441,7 +338,6 @@
     "MOR:0:cry"
    ],
    "interacao": "susto",
-   "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.",
    "set": "street",
    "crowd": {
     "n": 14,
@@ -451,6 +347,8 @@
     "march": false,
     "expr": "shock"
    },
+   "bloco": "escalada",
+   "say": "Acontece que mais de quinze pessoas morreram naquele dia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -468,12 +366,12 @@
     "VIA:0:smug"
    ],
    "batalha": false,
-   "say": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
    "detalhe": false,
-   "_auto_vis": 0,
    "interior": "pedra",
    "interacao": "entregar",
    "tiros": false,
+   "bloco": "pagamento",
+   "say": "No fim, a Colômbia pagou uma indenização aos americanos.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -485,50 +383,40 @@
    }
   },
   {
-   "shot": "group",
+   "shot": "two",
+   "set": "street",
    "who": [
-    "VEN:0:sad"
+    "VIA:0:smug",
+    "VEN:0:angry"
    ],
    "props": [
     [
      "kit/melon",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.3,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
-   "set": "jungle",
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e melon juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/melon",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
+   "interacao": "discutir",
+   "acao": "discutir",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Tudo por uma fatia que ninguém quis pagar.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "melancia"
+      "na": "fatia"
      }
     ]
-   },
-   "_enq_shot": "group",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "ano": 1856,
@@ -563,5 +451,7 @@
    "https://en.wikipedia.org/wiki/Panama_Railroad"
   ]
  },
- "max_wide": 6
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma fatia de melancia sem pagar comecou uma briga entre paises. Pagamento: a briga virou motim com mais de quinze mortos e a Colombia pagou indenizacao aos americanos.",
+ "loop_frase_ok": true
 }

@@ -1,35 +1,48 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
-> "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra."
+## Cena b0 - 0.2s a 2.8s - 9 palavras - plano two
+> "Ninguém te conta: sentar num banquinho começou uma guerra."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GOV fala apontando | na palavra "pediu" (1.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "banquinho" (1.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pediu (1.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | BANQUINHO = GUERRA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra pediu (1.1s): braco estendido apontando para o objeto/lugar citado
-- EMOCAO: pleading (a cena toda): executa: o rosto vira "pleading" na palavra
 - INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 4.8s a 9.8s - 18 palavras - plano reveal
-> "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti."
+## Cena b1 - 2.9s a 5.2s - 7 palavras - plano wide
+> "E quem pediu para sentar nunca conseguiu."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Gana" (8.5s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sentar" (4.8s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EMOCAO: pleading (a cena toda): executa: o rosto vira "pleading" na palavra
+<!-- /FISICA -->
+
+## Cena b2 - 5.4s a 8.5s - 11 palavras - plano reveal
+> "Em 1900, os ingleses mandavam na Costa do Ouro, hoje Gana."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandavam" (6.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -43,11 +56,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b2 - 11.1s a 16.1s - 16 palavras - plano two
-> "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele."
+## Cena b3 - 9.2s a 13.5s - 12 palavras - plano two
+> "O povo ashanti tinha um banquinho dourado sagrado. Nem o rei sentava."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "banquinho" (12.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "banquinho" (11.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -61,26 +74,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b3 - 17.3s a 21.8s - 16 palavras - plano two
-> "Acontece que o governador inglês exigiu o banquinho: "Por que eu ainda não estou sentado nele?""
+## Cena b4 - 13.6s a 15.6s - 7 palavras - plano two
+> "O governador inglês exigiu sentar no banquinho."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GOV fala apontando | na palavra "exigiu" (18.8s)
+  1) GOV fala apontando | na palavra "exigiu" (15.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b4 - 22.9s a 27.3s - 16 palavras - plano two
-> "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
+## Cena b5 - 16.1s a 20.2s - 10 palavras - plano two
+> "Para os ashanti, era como sentar na alma do povo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "choque" (24.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "alma" (19.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -93,78 +101,74 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b5 - 28.4s a 31.0s - 11 palavras - plano crowd
-> "Eles se revoltaram e cercaram o forte onde o governador estava."
+## Cena b6 - 20.4s a 23.1s - 9 palavras - plano crowd
+> "Eles se revoltaram e cercaram o forte do governador."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ASH chega na cena | na palavra "cercaram" (29.5s)
+  1) ASH chega na cena | na palavra "cercaram" (21.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cercaram (29.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | cercaram (21.1s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | FORTE CERCADO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra cercaram (29.5s): executa: entra andando pela lateral
+- ACAO: chega na palavra cercaram (21.1s): executa: entra andando pela lateral
 - GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 10: parada, reagindo (angry), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b6 - 32.3s a 36.8s - 15 palavras - plano orbit
-> "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses."
+## Cena b7 - 23.4s a 25.7s - 8 palavras - plano orbit
+> "Soldados ingleses vieram, e a guerra durou meses."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) SOL chega na cena | na palavra "marcharam" (33.1s)
+  1) SOL chega na cena | na palavra "vieram" (24.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | marcharam (33.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | marcharam (33.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (SOL) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | CENA | cavalaria: 4 soldados a cavalo (SOL) | OK |
+| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra marcharam (33.1s): executa: poeira + som
-- ACAO: chega na palavra marcharam (33.1s): executa: entra andando pela lateral
 - CENA (a cena toda): executa: cavalaria: 4 soldados a cavalo (SOL)
 - CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - multidao de 20: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b7 - 38.0s a 40.7s - 10 palavras - plano two
-> "No fim, os ingleses venceram e a região virou colônia."
+## Cena b8 - 26.0s a 28.8s - 9 palavras - plano two
+> "Os ingleses venceram. Acontece que o banquinho tinha sumido."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GOV comemora a vitoria | na palavra "venceram" (39.3s)
+  1) GOV comemora a vitoria | na palavra "venceram" (26.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venceram (39.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | venceram (39.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | venceram (26.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | venceram (26.6s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra venceram (39.3s): executa: estrelinhas + som
-- ACAO: vence na palavra venceram (39.3s): executa: bracos para cima + brilho
+- EFEITO: stars na palavra venceram (26.6s): executa: estrelinhas + som
+- ACAO: vence na palavra venceram (26.6s): executa: bracos para cima + brilho
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b8 - 41.9s a 45.4s - 12 palavras - plano two
-> "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo."
+## Cena b9 - 29.3s a 30.4s - 7 palavras - plano two
+> "Os ashanti esconderam o banquinho na mata."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esconderam" (42.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esconderam" (29.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -177,34 +181,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.6s a 49.4s - 11 palavras - plano wide
+## Cena b10 - 31.0s a 35.6s - 11 palavras - plano two
 > "O governador ganhou a guerra, mas o banquinho nunca foi dele."
 
-- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
-  1) GOV comemora a vitoria | na palavra "ganhou" (47.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ganhou" (32.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (47.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (47.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganhou (32.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | PLACA | BANQUINHO = GUERRA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra ganhou (47.3s): executa: estrelinhas + som
-- ACAO: vence na palavra ganhou (47.3s): executa: bracos para cima + brilho
-<!-- /FISICA -->
-
-## Cena b10 - 50.6s a 53.9s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
+- EFEITO: stars na palavra ganhou (32.7s): executa: estrelinhas + som
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

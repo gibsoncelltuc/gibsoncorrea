@@ -28,6 +28,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/house_small",
+  "buildings/house_two",
   "kit/forte_colonial",
   "kit/golden_stool",
   "kit/room_africa_wood",
@@ -40,7 +41,10 @@
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Nightstand_Shelf",
-  "mk/Table_Large"
+  "mk/Table_Large",
+  "nature/bush",
+  "nature/tree_oak",
+  "nature/tree_pine"
  ],
  "pesquisa_visual": {
   "local": "Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias de casas de barro com telhado de palha, floresta tropical, forte britanico de pedra",

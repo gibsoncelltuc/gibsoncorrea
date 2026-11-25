@@ -3,7 +3,12 @@
  "ano": 1856,
  "cenarios_trocados": [
   [
-   "cena 8",
+   "cena 3",
+   "harbor",
+   "loc_campo"
+  ],
+  [
+   "cena 7",
    "countryside",
    "loc_campo"
   ]
@@ -25,9 +30,9 @@
    "objetos": [
     "kit/melon"
    ],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.",
+   "frase": "Ninguém te conta: uma fatia de melancia quase virou guerra.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -35,22 +40,22 @@
    "cenario": "street"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
-    "VIA"
+    "VEN"
    ],
    "multidao": 0,
    "objetos": [
-    "vehicles/locomotive"
+    "kit/melon"
    ],
-   "palavras": 17,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia.",
+   "frase": "E a fatia custava só uns centavos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "jungle"
   },
   {
    "camera": "wide",
@@ -59,17 +64,16 @@
    ],
    "multidao": 0,
    "objetos": [
-    "navios de guerra ao fundo, no tamanho real",
     "vehicles/locomotive"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico.",
-   "classe": "transicao",
+   "frase": "Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -82,34 +86,14 @@
     "kit/melon",
     "kit/stall"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b3",
-   "frase": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
+   "frase": "Um americano comeu uma fatia de melancia e não quis pagar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "jungle"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "VEN",
-    "VIA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "buildings/shop",
-    "kit/stall"
-   ],
-   "palavras": 10,
-   "cena": "b4",
-   "frase": "O vendedor cobrou a fatia, e o viajante só riu.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
   },
   {
    "camera": "group",
@@ -118,11 +102,13 @@
    ],
    "multidao": 6,
    "objetos": [
+    "buildings/shop",
+    "kit/stall",
     "war/pistol"
    ],
-   "palavras": 12,
-   "cena": "b5",
-   "frase": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "O vendedor cobrou. O viajante riu e sacou uma arma.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -136,9 +122,9 @@
    ],
    "multidao": 20,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b6",
-   "frase": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.",
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Em minutos, a rua virou uma briga de moradores contra viajantes.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -158,13 +144,11 @@
    ],
    "multidao": 48,
    "objetos": [
-    "buildings/house_two",
-    "nature/lamppost",
     "vehicles/locomotive"
    ],
-   "palavras": 16,
-   "cena": "b7",
-   "frase": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Os viajantes se trancaram na estação de trem.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -184,13 +168,10 @@
     "MOR"
    ],
    "multidao": 14,
-   "objetos": [
-    "buildings/house_two",
-    "nature/lamppost"
-   ],
-   "palavras": 15,
-   "cena": "b8",
-   "frase": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.",
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Acontece que mais de quinze pessoas morreram naquele dia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -205,9 +186,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b9",
-   "frase": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "No fim, a Colômbia pagou uma indenização aos americanos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -215,38 +196,23 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
+    "VIA",
     "VEN"
    ],
    "multidao": 0,
    "objetos": [
     "kit/melon"
    ],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Tudo por uma fatia que ninguém quis pagar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "jungle"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "VIA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "jungle"
+   "cenario": "street"
   }
  ]
 }

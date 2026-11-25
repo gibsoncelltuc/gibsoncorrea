@@ -1,23 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
-Gerado em 25/11 12:21 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:52 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | MEN | - | pe_ervilha, vagem_verde | - | Um monge passou oito anos contando ervilhas e descobriu como herdamos 
-b1 | transicao | loc_campo | wide | MEN, FRE | - | church, pe_ervilha | - | Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge
-b2 | simples | loc_campo | two | MEN | - | vagem_amarela, vagem_verde | - | Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a
-b3 | simples | interior pedra | two | MEN | - | vagem_amarela | - | Na primeira geração, todas saíram amarelas, como se o verde tivesse su
-b4 | simples | interior madeira | two | FRE, MEN | - | - | - | Mendel ficou curioso: para onde tinha ido o verde?
-b5 | simples | loc_campo | wide | MEN | - | vagem_amarela | - | Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, du
-b6 | chave | interior pedra | two | MEN | - | bancada, vagem_amarela, vagem_verde | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am
-b7 | simples | interior madeira | two | MEN, FRE | - | - | - | Ele descobriu que cada filho herda uma instrução do pai e outra da mãe
-b8 | simples | interior madeira | close | MEN | - | - | - | Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém p
-b9 | chave | interior pedra | two | CIE | - | bancada, vagem_amarela, vagem_verde | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Só no ano mil e novecentos, já depois da morte dele, os cientistas vir
-b10 | transicao | loc_campo | orbit | MEN | - | vagem_verde | - | No fim, a ervilha fez o monge famoso.
-b11 | simples | loc_campo | close | MEN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_campo | two | MEN | - | pe_ervilha, vagem_verde | - | Ninguém te conta: um monge contando ervilhas descobriu a herança.
+b1 | simples | interior madeira | two | MEN | - | - | - | E ninguém acreditou nele enquanto estava vivo.
+b2 | transicao | loc_campo | wide | MEN, FRE | - | church, pe_ervilha | - | Em 1856, Gregor Mendel cuidava da horta de um mosteiro.
+b3 | simples | loc_campo | two | MEN | - | vagem_amarela, vagem_verde | - | Cruzou ervilhas amarelas com verdes e esperou os filhos.
+b4 | simples | interior pedra | two | MEN | - | vagem_amarela | - | Todas saíram amarelas, como se o verde tivesse sumido.
+b5 | simples | loc_campo | wide | MEN | - | vagem_amarela | - | Ele plantou de novo e contou ervilha por ervilha, por anos.
+b6 | chave | interior pedra | two | MEN | - | bancada, vagem_amarela, vagem_verde | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o verde voltou: três amarelas para uma verde.
+b7 | simples | interior madeira | two | MEN, FRE | - | - | - | Cada filho herda uma instrução do pai e outra da mãe.
+b8 | chave | interior pedra | two | CIE | - | bancada, vagem_amarela, vagem_verde | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Só depois da morte dele, cientistas viram que estava certo.
+b9 | simples | loc_campo | two | MEN | - | pe_ervilha, vagem_verde | - | A ervilha fez o monge famoso. Tarde demais.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

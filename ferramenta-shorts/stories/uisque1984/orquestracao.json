@@ -19,10 +19,27 @@
    "objetos": [
     "kit/whisky"
    ],
-   "palavras": 15,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.",
+   "frase": "Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque.",
    "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "CAN",
+    "DIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E essa guerra acabou do jeito mais educado possível.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -36,10 +53,10 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
-   "cena": "b1",
-   "frase": "A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia.",
-   "classe": "simples",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "A ilha Hans é uma rocha gelada entre Canadá e Groenlândia.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -53,9 +70,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b2",
-   "frase": "Os dois países diziam que a ilha era sua, mas ninguém queria guerra de verdade.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Canadá e Dinamarca diziam que a ilha era deles.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -71,9 +88,9 @@
    "objetos": [
     "vehicles/helicopter"
    ],
-   "palavras": 12,
-   "cena": "b3",
-   "frase": "Em mil novecentos e oitenta e quatro, soldados canadenses desembarcaram na ilha.",
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "Em 1984, soldados canadenses desembarcaram lá.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -98,9 +115,9 @@
     "kit/tequila_bolt",
     "kit/whisky"
    ],
-   "palavras": 13,
-   "cena": "b4",
-   "frase": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense.",
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -108,7 +125,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "DIN"
    ],
@@ -116,9 +133,9 @@
    "objetos": [
     "kit/bandeira_dinamarca"
    ],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Acontece que os dinamarqueses voltaram e puseram a bandeira deles.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -144,8 +161,8 @@
     "kit/whisky"
    ],
    "palavras": 11,
-   "cena": "b6",
-   "frase": "E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.",
+   "cena": "b7",
+   "frase": "E deixaram uma garrafa de aguardente com um bilhete de boas-vindas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -164,28 +181,9 @@
     "kit/tequila_bolt",
     "kit/whisky"
    ],
-   "palavras": 15,
-   "cena": "b7",
-   "frase": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "CAN",
-    "DIN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/whisky"
-   ],
-   "palavras": 16,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países.",
+   "frase": "Por décadas, os dois lados trocaram bandeira e garrafa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -200,9 +198,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.",
+   "frase": "Em 2022, enfim, dividiram a ilha ao meio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -210,38 +208,24 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "CAN"
+    "CAN",
+    "DIN"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/whisky"
+    "kit/whisky",
+    "war/flagpole"
    ],
-   "palavras": 14,
+   "palavras": 7,
    "cena": "b10",
-   "frase": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
+   "frase": "Zero tiros. Só bandeiras e muito uísque.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "CAN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "arctic"
   }
  ]
 }

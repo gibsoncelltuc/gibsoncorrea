@@ -1,161 +1,140 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
-> "Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos."
+## Cena b0 - 0.2s a 2.6s - 10 palavras - plano two
+> "Ninguém te conta: uma fatia de melancia quase virou guerra."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "melancia" (0.9s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "melancia" (1.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | GUERRA DA MELANCIA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.1s a 9.7s - 17 palavras - plano wide
-> "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia."
+## Cena b1 - 2.7s a 5.1s - 7 palavras - plano group
+> "E a fatia custava só uns centavos."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Panamá" (8.2s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "centavos" (5.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ouro (9.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 5.3s a 8.5s - 11 palavras - plano wide
+> "Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cruzavam" (6.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | ouro (8.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | MAPA | PANAMÁ | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra ouro (9.2s): executa: estrelinhas + som
+- EFEITO: stars na palavra ouro (8.0s): executa: estrelinhas + som
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 11.0s a 14.5s - 14 palavras - plano wide
-> "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico."
+## Cena b3 - 8.6s a 12.2s - 11 palavras - plano two
+> "Um americano comeu uma fatia de melancia e não quis pagar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trem" (13.2s)
+  1) VIA acao do motor: come | na palavra "comeu" (9.2s)
+  2) VIA acao do motor: sai | na palavra "comeu" (9.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b3 - 15.8s a 19.7s - 15 palavras - plano two
-> "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) VIA acao do motor: come | na palavra "comeu" (17.5s)
-  2) VIA acao do motor: sai | na palavra "embora" (19.1s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | comeu (17.5s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | embora (19.1s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | - | INTERACAO | empurrar | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | comeu (9.2s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | - | INTERACAO | empurrar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_come na palavra comeu (17.5s): executa: leva a comida a boca
-- ACAO: sai na palavra embora (19.1s): executa: sai andando pela lateral
+- ACAO: x_come na palavra comeu (9.2s): executa: leva a comida a boca
 - INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b4 - 20.7s a 23.3s - 10 palavras - plano two
-> "O vendedor cobrou a fatia, e o viajante só riu."
+## Cena b4 - 12.6s a 15.9s - 10 palavras - plano group
+> "O vendedor cobrou. O viajante riu e sacou uma arma."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) VIA acao do motor: discute | na palavra "cobrou" (21.4s)
-  2) VEN acao do motor: ri | na palavra "riu" (23.3s)
+  1) VIA pega/levanta o objeto | na palavra "sacou" (14.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cobrou (21.4s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | riu (23.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | riu (23.3s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 1 | riu (14.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | sacou (14.5s) | ACAO: pega | levanta/segura | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | ARMA! | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_discute na palavra cobrou (21.4s): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- EFEITO: stars na palavra riu (23.3s): executa: estrelinhas + som
-- ACAO: x_ri na palavra riu (23.3s): executa: ri de bracos para cima + brilho
+- EFEITO: stars na palavra riu (14.0s): executa: estrelinhas + som
+- ACAO: pega na palavra sacou (14.5s): executa: levanta/segura
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
-
-## Cena b5 - 24.4s a 28.1s - 12 palavras - plano group
-> "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) VIA pega/levanta o objeto | na palavra "sacou" (25.6s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | sacou (25.6s) | ACAO: pega | levanta/segura | OK |
-| 2 | confusão (27.1s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | PLACA | ARMA! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra sacou (25.6s): executa: levanta/segura
-- EFEITO: puff na palavra confusão (27.1s): executa: fumaca + som
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 29.2s a 32.8s - 13 palavras - plano crowd
-> "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
+## Cena b5 - 16.2s a 19.1s - 11 palavras - plano crowd
+> "Em minutos, a rua virou uma briga de moradores contra viajantes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) VEN da um golpe/soco no alvo | na palavra "briga" (31.3s)
+  1) VEN da um golpe/soco no alvo | na palavra "briga" (18.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | briga (31.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | briga (31.3s) | ACAO: golpe | soco + estouro | OK |
+| 1 | briga (18.3s) | EFEITO: puff | fumaca + som | OK |
+| 2 | briga (18.3s) | ACAO: golpe | soco + estouro | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | BRIGA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra briga (31.3s): executa: fumaca + som
-- ACAO: golpe na palavra briga (31.3s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- EFEITO: puff na palavra briga (18.3s): executa: fumaca + som
+- ACAO: golpe na palavra briga (18.3s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
 - GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - multidao de 20: parada, reagindo (angry), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b7 - 34.1s a 38.0s - 16 palavras - plano orbit
-> "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga."
+## Cena b6 - 19.5s a 22.4s - 8 palavras - plano orbit
+> "Os viajantes se trancaram na estação de trem."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto chega na cena | na palavra "entrou" (37.6s)
+  1) objeto chega na cena | na palavra "trancaram" (20.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entrou (37.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | briga (38.0s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | discutir | OK |
-| 6 | - | PLACA | ESTAÇÃO DE TREM | OK |
+| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | PLACA | ESTAÇÃO DE TREM | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra entrou (37.6s): executa: entra andando pela lateral
-- EFEITO: puff na palavra briga (38.0s): executa: fumaca + som
 - CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
@@ -163,71 +142,63 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 16: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 39.1s a 43.4s - 15 palavras - plano two
-> "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
+## Cena b7 - 22.6s a 25.9s - 9 palavras - plano two
+> "Acontece que mais de quinze pessoas morreram naquele dia."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "morreram" (40.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "morreram" (25.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreram (40.7s) | EFEITO: puff | fumaca + som | OK |
+| 1 | morreram (25.3s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra morreram (40.7s): executa: fumaca + som
+- EFEITO: puff na palavra morreram (25.3s): executa: fumaca + som
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 - INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 - multidao de 14: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 44.4s a 48.1s - 14 palavras - plano two
-> "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos."
+## Cena b8 - 26.2s a 29.4s - 9 palavras - plano two
+> "No fim, a Colômbia pagou uma indenização aos americanos."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "indenização" (47.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "indenização" (28.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | pagou (27.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra pagou (27.5s): executa: estrelinhas + som
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 49.6s a 52.4s - 11 palavras - plano group
-> "Tudo isso por uma fatia de melancia que custava poucos centavos."
+## Cena b9 - 29.7s a 31.9s - 8 palavras - plano two
+> "Tudo por uma fatia que ninguém quis pagar."
 
-- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "melancia" (51.1s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b11 - 53.6s a 57.0s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fatia" (30.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | GUERRA DA MELANCIA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

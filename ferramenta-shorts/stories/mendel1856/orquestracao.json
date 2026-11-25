@@ -13,8 +13,13 @@
    "loc_campo"
   ],
   [
-   "cena 2",
+   "cena 3",
    "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "countryside",
    "loc_campo"
   ]
  ],
@@ -35,14 +40,30 @@
     "kit/pe_ervilha",
     "kit/vagem_verde"
    ],
-   "palavras": 14,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.",
+   "frase": "Ninguém te conta: um monge contando ervilhas descobriu a herança.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E ninguém acreditou nele enquanto estava vivo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "wide",
@@ -55,9 +76,9 @@
     "buildings/church",
     "kit/pe_ervilha"
    ],
-   "palavras": 19,
-   "cena": "b1",
-   "frase": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -74,9 +95,9 @@
     "kit/vagem_amarela",
     "kit/vagem_verde"
    ],
-   "palavras": 15,
-   "cena": "b2",
-   "frase": "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Cruzou ervilhas amarelas com verdes e esperou os filhos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -92,31 +113,14 @@
    "objetos": [
     "kit/vagem_amarela"
    ],
-   "palavras": 12,
-   "cena": "b3",
-   "frase": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Todas saíram amarelas, como se o verde tivesse sumido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "FRE",
-    "MEN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b4",
-   "frase": "Mendel ficou curioso: para onde tinha ido o verde?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
   },
   {
    "camera": "wide",
@@ -127,9 +131,9 @@
    "objetos": [
     "kit/vagem_amarela"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.",
+   "frase": "Ele plantou de novo e contou ervilha por ervilha, por anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -147,9 +151,9 @@
     "kit/vagem_amarela",
     "kit/vagem_verde"
    ],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
+   "frase": "Acontece que o verde voltou: três amarelas para uma verde.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -170,25 +174,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MEN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b8",
-   "frase": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
+   "frase": "Cada filho herda uma instrução do pai e outra da mãe.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -206,9 +194,9 @@
     "kit/vagem_amarela",
     "kit/vagem_verde"
    ],
-   "palavras": 18,
-   "cena": "b9",
-   "frase": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Só depois da morte dele, cientistas viram que estava certo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -222,33 +210,18 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "MEN"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/pe_ervilha",
     "kit/vagem_verde"
    ],
    "palavras": 8,
-   "cena": "b10",
-   "frase": "No fim, a ervilha fez o monge famoso.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MEN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "cena": "b9",
+   "frase": "A ervilha fez o monge famoso. Tarde demais.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

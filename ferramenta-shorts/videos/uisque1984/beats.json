@@ -70,21 +70,14 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.",
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/whisky",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -92,11 +85,28 @@
      }
     ]
    },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "text": "GUERRA DO UÍSQUE",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "CAN:0:smug",
+    "DIN:0:smug"
+   ],
+   "interacao": "cochichar",
+   "set": "arctic",
+   "bloco": "promessa",
+   "say": "E essa guerra acabou do jeito mais educado possível.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "educado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -107,13 +117,14 @@
    ],
    "mapa": "GROENLÂNDIA",
    "mapa_at": 3,
-   "say": "A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia.",
+   "bloco": "prova",
+   "say": "A ilha Hans é uma rocha gelada entre Canadá e Groenlândia.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ilha"
+      "na": "Hans"
      }
     ]
    }
@@ -125,14 +136,15 @@
     "DIN:0:angry"
    ],
    "interacao": "discutir",
-   "say": "Os dois países diziam que a ilha era sua, mas ninguém queria guerra de verdade.",
    "interior": "madeira",
+   "bloco": "prova",
+   "say": "Canadá e Dinamarca diziam que a ilha era deles.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ilha"
+      "na": "diziam"
      }
     ]
    }
@@ -171,24 +183,16 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Em mil novecentos e oitenta e quatro, soldados canadenses desembarcaram na ilha.",
    "impact": true,
-   "riscos_ok": true,
    "detalhe": false,
    "fachada": false,
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter (alvo z -2.0, camera a 20.0 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "vehicles/helicopter",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "chegando"
-     }
-    ]
-   },
-   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "prova",
+   "say": "Em 1984, soldados canadenses desembarcaram lá.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -198,13 +202,7 @@
       "quem": 0
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "two",
@@ -234,25 +232,13 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense.",
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/whisky",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bandeira_canada",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -261,13 +247,7 @@
       "na": "bandeira"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "wide",
@@ -295,38 +275,26 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
    "impact": true,
    "detalhe": false,
    "fachada": false,
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o bandeira_dinamarca (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/bandeira_dinamarca",
-      "lugar": "MEIO, esquerda (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.0,
+   "d1": 18.1,
+   "bloco": "escalada",
+   "say": "Acontece que os dinamarqueses voltaram e puseram a bandeira deles.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "chega",
-      "na": "apareceram",
+      "na": "puseram",
       "quem": 0
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 19.0,
-   "d1": 18.1
+   }
   },
   {
    "shot": "two",
@@ -346,21 +314,13 @@
      }
     ]
    ],
-   "say": "E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.",
    "set": "arctic",
-   "riscos_ok": true,
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/whisky",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "E deixaram uma garrafa de aguardente com um bilhete de boas-vindas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -369,12 +329,7 @@
       "na": "bilhete"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -383,24 +338,7 @@
     "DIN:0:smug"
    ],
    "interacao": "cochichar",
-   "say": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.",
    "set": "arctic",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "chega",
-      "na": "voltaram",
-      "quem": 0
-     },
-     {
-      "faz": "x_entrega",
-      "na": "trocar",
-      "quem": 0,
-      "alvo_quem": 1
-     }
-    ]
-   },
    "props": [
     [
      "kit/bandeira_dinamarca",
@@ -421,48 +359,26 @@
      }
     ]
    ],
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/whisky",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bandeira_dinamarca",
-      "lugar": "MEIO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "CAN:0:smug",
-    "DIN:0:smug"
-   ],
-   "interacao": "cochichar",
-   "set": "arctic",
-   "say": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países.",
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Por décadas, os dois lados trocaram bandeira e garrafa.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_ri",
-      "na": "piada",
+      "faz": "chega",
+      "na": "trocaram",
+      "quem": 0
+     },
+     {
+      "faz": "x_entrega",
+      "na": "trocar",
       "quem": 0,
-      "forcar": true
+      "alvo_quem": 1
      }
     ]
    }
@@ -475,7 +391,8 @@
     "MIN:0:smile"
    ],
    "interacao": "entregar",
-   "say": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.",
+   "bloco": "pagamento",
+   "say": "Em 2022, enfim, dividiram a ilha ao meio.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -490,51 +407,40 @@
    }
   },
   {
-   "shot": "group",
+   "shot": "two",
+   "set": "arctic",
    "who": [
-    "CAN:0:smile"
+    "CAN:0:smug:flag",
+    "DIN:0:smug"
    ],
    "props": [
     [
      "kit/whisky",
-     2.4,
-     0.2,
-     1.3,
+     0.0,
+     -1.2,
+     1.2,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
-   "acao": "comemorar",
-   "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/whisky",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
+   "interacao": "discutir",
+   "acao": "discutir",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Zero tiros. Só bandeiras e muito uísque.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "uísque"
      }
     ]
-   },
-   "_enq_shot": "group",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "ano": 1984,
@@ -568,5 +474,7 @@
   ]
  },
  "variar_cenario": false,
- "max_wide": 5
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: dois paises brigaram quase 40 anos por uma ilha usando so bebida. Pagamento: trocavam bandeira e garrafa a cada visita e em 2022 dividiram a ilha ao meio.",
+ "loop_frase_ok": true
 }

@@ -348,26 +348,6 @@
   {
    "shot": "two",
    "who": [
-    "ILH:0:smile",
-    "ILH:1:grin"
-   ],
-   "acao": "comemorar",
-   "set": "countryside",
-   "bloco": "escalada",
-   "say": "A guerra ficou esquecida por mais de trezentos anos.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "esquecida"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
     "PRE:0:surprised:book",
     "EMB:0:smile"
    ],
