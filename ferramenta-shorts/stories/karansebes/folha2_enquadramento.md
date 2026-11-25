@@ -7,11 +7,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: AUT na esquerda, expressao neutral; AUT no centro, expressao stern; AUT na direita, expressao neutral; AUT no fundo, expressao stern; multidao de 24 (AUT, HUS) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +20 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +8 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +25 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +45 da cena
-- EFEITO smoke: -; entra no quadro +30 da cena
-- SOM: cannon@20
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: cannon@8
+- SOM: gun@25
 - SOM: cannon@45
+- TEXTO NA TELA: "CONTRA SI MESMO" flutuando no alto, na palavra 5 da frase
 
 ## b1: "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam."
 - LOCAL: vila rural (casas, cercas, campo); hora: golden

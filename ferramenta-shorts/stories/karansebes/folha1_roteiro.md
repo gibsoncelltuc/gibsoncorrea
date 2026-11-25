@@ -5,10 +5,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 ## Cena b0  (~3.4 s)
 - Narracao: Um exército inteiro conseguiu perder uma batalha contra si mesmo.
 - Som ambiente: birds
-- Efeitos sonoros marcados: cannon@20, cannon@45
+- Efeitos sonoros marcados: cannon@8, gun@25, cannon@45
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; perder -> dust + som de impacto; encena: perde (facepalm) @4 -> acao + som de efeito
-- Efeito visual marcado: burst@20, burst@45, smoke@30
-- Texto na tela: -
+- Efeito visual marcado: burst@8, burst@25, burst@45, stars@30
+- Texto na tela: CONTRA SI MESMO
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.9 s)

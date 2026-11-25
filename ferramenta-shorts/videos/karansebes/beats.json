@@ -94,19 +94,25 @@
    },
    "hora": "noite",
    "fx": [
-    "burst@20",
+    "burst@8",
+    "burst@25",
     "burst@45",
-    "smoke@30"
+    "stars@30"
    ],
    "sfx": [
-    "cannon@20",
+    "cannon@8",
+    "gun@25",
     "cannon@45"
    ],
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": -2.0,
-   "d0": 13.0,
-   "d1": 10.5
+   "cz": -2.5,
+   "d0": 14.0,
+   "d1": 11.0,
+   "impact": true,
+   "text": "CONTRA SI MESMO",
+   "titulo": true,
+   "tstyle": "red"
   },
   {
    "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
