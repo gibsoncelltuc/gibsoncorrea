@@ -1,0 +1,727 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 11,
+ "title": "A Janela do Cybertruck",
+ "titulo_base": "A Janela do Cybertruck",
+ "set": "hall",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/steel_ball",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "T"
+  },
+  "DSG": {
+   "jacket": "#2a2d33",
+   "pants": "#3a3d44",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#4a3a2a",
+   "pele": "#e8c8a8"
+  },
+  "POV": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  }
+ },
+ "beats": [
+  {
+   "say": "Uma picape blindada teve as janelas quebradas ao vivo, no próprio lançamento.",
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "mapa": "CALIFÓRNIA",
+   "mapa_at": 3,
+   "set": "hall",
+   "hora": "dia",
+   "crowd": {
+    "n": 0
+   },
+   "text": "CYBERTRUCK",
+   "titulo": true,
+   "riscos_ok": true,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "picape"
+     },
+     {
+      "quem": 0,
+      "faz": "cai",
+      "na": "quebradas",
+      "forcar": true
+     }
+    ]
+   },
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
+  },
+  {
+   "say": "Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente.",
+   "shot": "wide",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "riscos_ok": true,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "novembro"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
+  },
+  {
+   "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
+   "shot": "wide",
+   "who": [
+    "DSG:0:stern:ball"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "voa": [
+    {
+     "asset": "kit/steel_ball",
+     "de": [
+      -1.3,
+      0.8
+     ],
+     "para": [
+      2.0,
+      -0.6
+     ],
+     "y": 1.5,
+     "alvo_y": 1.1,
+     "arco": 0.5,
+     "palavra": "^jogou",
+     "dur": 28,
+     "s": 0.8,
+     "som": "thump"
+    }
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "riscos_ok": true,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "provar"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
+  },
+  {
+   "say": "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.",
+   "shot": "wide",
+   "who": [
+    "MUS:0:shock"
+   ],
+   "fx": [
+    "burst@3"
+   ],
+   "sfx": [
+    "thump@3"
+   ],
+   "impact": true,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "set": "hall",
+   "hora": "dia",
+   "riscos_ok": true,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
+  },
+  {
+   "say": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",
+   "shot": "wide",
+   "who": [
+    "DSG:0:nervous"
+   ],
+   "fx": [
+    "burst@4"
+   ],
+   "sfx": [
+    "thump@4"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "set": "hall",
+   "hora": "dia",
+   "voa": [
+    {
+     "asset": "kit/steel_ball",
+     "de": [
+      -1.3,
+      0.8
+     ],
+     "para": [
+      2.6,
+      -0.9
+     ],
+     "y": 1.5,
+     "alvo_y": 1.1,
+     "arco": 0.5,
+     "palavra": "^tentou",
+     "dur": 28,
+     "s": 0.8,
+     "som": "thump"
+    }
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "riscos_ok": true,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "tentou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6
+  },
+  {
+   "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/steel_ball",
+     2.4,
+     0.2,
+     1.03,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/cybertruck",
+     7.0,
+     -14.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     3.6,
+     -2.0,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "riscos_ok": true,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steel_ball juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steel_ball",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Depois"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
+   "shot": "orbit",
+   "who": [
+    "MUS:0:laugh",
+    "DSG:0:grin"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     3.6,
+     -2.0,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "riscos_ok": true,
+   "quadro": {
+    "local": "salao",
+    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "_enq_shot": "orbit",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "plateia"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "say": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",
+   "shot": "orbit",
+   "who": [
+    "MUS:0:laugh",
+    "DSG:0:grin"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "tiros": false,
+   "batalha": false,
+   "set": "hall",
+   "hora": "dia",
+   "riscos_ok": true,
+   "quadro": {
+    "local": "salao",
+    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "text": "146 MIL RESERVAS",
+   "_susp_ok": true,
+   "_enq_shot": "orbit",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Mesmo"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
+   "shot": "group",
+   "who": [
+    "MUS:0:laugh",
+    "DSG:0:smile"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     7.0,
+     -14.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/steel_ball",
+     0.0,
+     -1.2,
+     1.03,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "riscos_ok": true,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 0
+   },
+   "verbos_ok": [
+    "aguen"
+   ],
+   "quadro": {
+    "local": "salao",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e steel_ball juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steel_ball",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/cybertruck",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_susp_ok": true,
+   "_enq_shot": "group",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "picape"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  }
+ ],
+ "exp": 1.129,
+ "marco": "kit/marco_hollywood",
+ "variar_cenario": false,
+ "max_wide": 5,
+ "visual": {
+  "local": "Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e plateia",
+  "quando": "21 de novembro de 2019, noite",
+  "participantes": [
+   "Elon Musk (jaqueta de couro preta)",
+   "designer Franz von Holzhausen (camiseta preta)",
+   "plateia de convidados"
+  ],
+  "roupas": {
+   "MUS": "jaqueta de couro preta",
+   "DSG": "camiseta preta e calca escura",
+   "POV": "roupa casual"
+  },
+  "cenario": "palco escuro com luzes de neon, a picape angular de aco no centro, telao atras",
+  "objetos": [
+   "Cybertruck de aco inox",
+   "esfera de aco",
+   "marreta"
+  ],
+  "explicacoes": [
+   "No lancamento do Cybertruck (21/11/2019) a esfera de aco rachou as duas janelas \"armor glass\"; Musk disse \"it didn't go through, that's the plus side\"; dias depois anunciou 146 mil reservas (fonte: Wikipedia Tesla Cybertruck)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+  ],
+  "locacoes": [
+   "hall"
+  ],
+  "buscas": {
+   "lancamento": "Cybertruck unveiling 2019 broken window",
+   "picape": "Tesla Cybertruck 2019 prototype"
+  }
+ },
+ "cinf": 3.0
+}
