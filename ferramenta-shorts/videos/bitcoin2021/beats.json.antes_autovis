@@ -80,10 +80,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -96,7 +92,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Foi em El Salvador, com o presidente Nayib Bukele.",
@@ -143,10 +143,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "reveal",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -159,7 +155,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Quem baixasse a carteira digital ganhava trinta dólares em bitcoin.",
@@ -206,7 +206,7 @@
      "kit/phone",
      3.6,
      -2.0,
-     0.9,
+     1.5,
      {
       "fixo": true
      }
@@ -242,10 +242,6 @@
    },
    "_susp_tela": true,
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -264,20 +260,17 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Mesmo assim, o governo continuou comprando bitcoins com dinheiro público.",
    "explica": {
     "objeto": "kit/bitcoin",
     "manobra": "gira",
-    "rotulos": [
-     [
-      "DINHEIRO PÚBLICO",
-      "topo",
-      "dinheiro"
-     ]
-    ],
     "contador": {
      "de": 0,
      "para": 2300,
@@ -365,11 +358,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 23.0,
-   "d1": 21.9,
    "crowd": {
     "n": 0
    },
@@ -410,25 +398,18 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 23.0,
+   "d1": 21.9
   },
   {
    "say": "Minerar é deixar computadores fazendo contas sem parar, e quem acerta primeiro ganha bitcoins novos.",
    "explica": {
     "objeto": "kit/rack_mineracao",
     "manobra": "gira",
-    "rotulos": [
-     [
-      "CONTAS SEM PARAR",
-      "topo",
-      "contas"
-     ],
-     [
-      "BITCOIN NOVO",
-      "baixo",
-      "bitcoins"
-     ]
-    ],
     "passos": [
      "COMPUTADOR CALCULA",
      "ACERTA PRIMEIRO",
@@ -492,10 +473,6 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -508,7 +485,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Acontece que, um ano depois, despencou para dezesseis mil, e o país perdeu milhões no papel.",
@@ -557,10 +538,6 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -573,7 +550,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "E nas pesquisas, sessenta e oito por cento da população era contra.",
@@ -665,10 +646,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -681,11 +658,15 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Aposta maluca ou visão de futuro? Você decide.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:smug"
    ],
@@ -709,14 +690,10 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "_enq_shot": "close",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/bitcoin",
@@ -725,7 +702,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "duracao_ok": true,
